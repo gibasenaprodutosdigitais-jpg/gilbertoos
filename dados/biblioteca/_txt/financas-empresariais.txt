@@ -1,0 +1,2720 @@
+
+
+-- 1 of 88 --
+
+Organizador
+Judas Tadeu Grassi Mendes
+CoordenaÁ„o Editorial
+Christian Luiz da Silva
+Revis„o
+Estelita Sandra de Matias
+EditoraÁ„o
+Eliel Fortes Barbosa - coordenaÁ„o
+Maria Laura Zocolotti - composiÁ„o
+Ana B. Martins e Norma C. Santos - diagramaÁ„o
+Esta obra È uma realizaÁ„o da AssociaÁ„o Franciscana de Ensino Senhor
+Bom Jesus - AFESBJ / FAE Business School e da Editora Gazeta do Povo
+Projeto Editoral
+Presidente da AFESBJ
+Frei Guido Moacir Scheidt
+Diretor Administrativo-Financeiro
+Paulo Arns da Cunha
+Diretor Geral da FAE
+Frei Gilberto GonÁalves Garcia
+Diretor AcadÍmico da FAE
+Judas Tadeu Grassi Mendes
+Diretor
+Francisco Cunha Pereira Filho
+RedaÁ„o e Oficinas
+PraÁa Carlos Gomes, 4 - Centro
+CEP 80010-140
+R. Pedro Ivo, 459 - Centro
+CEP 80010-20 - Curitiba-PR
+Tel.: PABX (0xx41) 321-5000
+Atendimento ao assinante: 0800-414444
+Atendimento ao leitor: (0xx41) 321-5401
+GAZETA DO POVO
+Faculdades Bom Jesus
+FinanÁas empresariais/ Fae Business School. Curitiba:
+AssociaÁ„o Franciscana de Ensino Senhor Bom Jesus, 2002.
+88p. 	(ColeÁ„o gest„o empresarial, 4)
+1. Matem·tica financeira. 2. Contabilidade. 3. AdministraÁ„o
+financeira. 4. Custos. 5. Controladoria. 6. Planejamento
+tribut·rio.
+CDD ñ 650.01513
+658.15
+658.1552
+342.22
+
+-- 2 of 88 --
+
+iii
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+ColeÁ„o gest„o empresarial:
+uma contribuiÁ„o ao mundo dos negÛcios
+A	A	A	A	ApresentaÁ„o
+A FAE Business School, com a colaboraÁ„o espont‚nea de
+48 professores, produziu, em parceria com a Editora Gazeta do Povo,
+a ColeÁ„o Gest„o Empresarial. Composta por cinco volumes, ela ser·
+distribuÌda aos leitores do jornal Gazeta do Povo. Cada volume aborda
+um tema fundamental dentro da gest„o dos negÛcios. S„o eles:
+Economia, Gest„o (em seus fundamentos mais amplos), Marketing,
+FinanÁas e Capital Humano.
+O primeiro volume - Economia Empresarial, que contou com a
+colaboraÁ„o do professor Igor Zanoni Constant Carneiro Le„o, mostra o
+quanto o conhecimento econÙmico do ambiente dos negÛcios È essencial
+para o sucesso da empresa. Nele, o leitor encontrar· os fundamentos
+de an·lise de mercado, levando-se em consideraÁ„o o ambiente de
+crescente competiÁ„o no mercado brasileiro, em especial nos ˙ltimos
+anos; a intervenÁ„o do governo nos mercados por meio das polÌticas
+econÙmicas; os principais indicadores econÙmicos da economia
+brasileira e noÁıes de negÛcios internacionais.
+O segundo volume aborda os fundamentos de Gest„o
+Empresarial, que contou com a colaboraÁ„o do professor Eduardo
+Dami„o da Silva, evidenciando que a gest„o de negÛcios sustent·veis
+deve incorporar compromissos socioambientais. Os capÌtulos deste livro
+incluem os indicadores de desempenho como modelos gerenciais, as
+
+-- 3 of 88 --
+
+iv
+ECONOMIA
+EMPRESARIAL
+Judas Tadeu Grassi Mendes
+Diretor AcadÍmico da FAE
+estratÈgias das empresa, o planejamento estratÈgico e os v·rios aspectos
+da logÌstica, da qualidade e do meio ambiente.
+Gerar valor, atrair e manter clientes satisfeitos. Este È o foco do
+terceiro volume, que trata sobre Marketing e que contou com a
+colaboraÁ„o do Prof. Paulo Prado. Os capÌtulos deste livro incluem
+fundamentos de marketing, conceitos b·sicos, segmentaÁ„o e
+posicionamento, composto e plano de marketing, marketing de serviÁos,
+comunicaÁ„o integrada de marketing, estratÈgia de preÁos e web marketing.
+Este quarto livro, que contou com a colaboraÁ„o do professor EmÌlio
+Ara˙jo Menezes, trata de FinanÁas Empresariais cuja principal
+finalidade È maximizar rentabilidade e liquidez com menores riscos. Os
+capÌtulos deste volume enfocam: matem·tica financeira, contabilidade,
+administraÁ„o financeira, custos, controladoria e aspectos de
+planejamento tribut·rio.
+No quinto e ˙ltimo volume, que contou com a colaboraÁ„o da
+professora Angelise Valladares Monteiro e trata da Gest„o do Capital
+Humano, enfoca o desafio das organizaÁıes em lidar com pessoas. Os
+capÌtulos tratam de v·rios temas inter-relacionados: comportamento
+organizacional, ferramentas de gest„o de pessoas, lideranÁa, relaÁıes
+pessoais e Ètica empresarial.
+Na sociedade complexa em que vivemos somos cada vez mais
+dependentes das organizaÁıes em todas as etapas de nossas vidas.
+Esta coleÁ„o que ora apresentamos representa o esforÁo da FAE
+Busines School e da Editora Gazeta do Povo para que o leitor
+compreenda melhor as organizaÁıes, que procuram combinar os
+recursos escassos de maneira eficaz para cumprir seu objetivo de
+satisfazer as necessidades econÙmicas e sociais. Esperamos que a
+coleÁ„o propicie a todos uma agrad·vel e profÌcua leitura.
+
+-- 4 of 88 --
+
+v
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+M	M	M	M	Mensagem
+… com muita satisfaÁ„o que a Gazeta do Povo oferece aos
+seus leitores a ColeÁ„o Gest„o Empresarial. No especial momento
+em que o Brasil procura sua afirmaÁ„o no mundo globalizado,
+enfrentando os desafios da maior produtividade para a competiÁ„o, È
+necess·ria a profissionalizaÁ„o, que se d· por meio do conhecimento e
+aprimoramento das tÈcnicas de administraÁ„o empresarial.
+Para que esta coleÁ„o fosse composta por obras de grande valor,
+com leitura acessÌvel e pr·tica, a Gazeta do Povo foi buscar os professores
+da FAE Business School, uma das mais tradicionais faculdades de
+AdministraÁ„o, Cont·beis e Economia empresarial do Estado e reconhecida
+entre as melhores do paÌs.
+O resultado È esta coleÁ„o, na qual se encontram conceitos de
+grande validade para a implementaÁ„o e pr·tica di·ria em todas as
+escalas empresariais.
+Tudo foi feito para que as pessoas possam ser melhores a cada
+dia e, pelas boas pr·ticas de gest„o, promovam a qualidade e o
+desenvolvimento de suas empresas e negÛcios.
+Boa leitura.
+
+-- 5 of 88 --
+
+
+
+-- 6 of 88 --
+
+vii
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+N	N	N	N	Nota sobre os autores
+Matem·tica Financeira
+Amilton Dalledone Filho È matem·tico, especialista em an·lise de sistemas, possui
+MBA executivo em FinanÁas e controladoria em gest„o banc·ria, mestrando em
+administraÁ„o pela UFSC e professor da FAE Business School.
+Glower Lopes Kujew È estatÌstico, especialista em educaÁ„o e professor da FAE
+Business School.
+Contabilidade Empresarial
+Aderbal Nicolas M¸ller È contador, mestre em ciÍncias cont·beis, doutorando em
+gest„o de negÛcios pela UFSC e professor da FAE Business School.
+Antonio GonÁalves Oliveira È contador, especialista em finanÁas, mestre em
+administraÁ„o pela USP, doutorando em gest„o de negÛcios pela UFSC e professor da
+FAE Business School.
+AdministraÁ„o Financeira
+Edison Kuster È administrador, mestre em engenharia de produÁ„o pela
+UFSC e professor da FAE Business School.
+Nilson Danny Nogacz È economista, especialista em marketing e
+mestrando em engenharia de produÁ„o pela UFSC e professor da FAE
+Business School.
+
+-- 7 of 88 --
+
+Gest„o de Custos
+Cleonice Bastos Pompermayer È economista, mestre em inovaÁ„o tecnolÛgica pelo CEFET/
+PR, doutoranda em gest„o de negÛcios pela UFSC e professora da FAE Business School
+Jo„o Evangelista Pereira Lima È contador, matem·tico e administrador, especialista
+em administraÁ„o financeira, mestre em administraÁ„o pela UFSC e professor da FAE
+Business School.
+Controladoria
+Marcelo Evandro Johnsson È economista, especialista em finanÁas e administraÁ„o
+estratÈgica, mestre em administraÁ„o pela UFSC, doutorando em gest„o de negÛcios
+pela UFSC e professor da FAE Business School.
+Valter Pereira Francisco Filho È administrador, especialista em finanÁas, possui
+mestrado profissional em direÁ„o e administraÁ„o de empresas pela ESADE
+(Espanha) e professor da FAE Business School.
+Planejamento Tribut·rio
+Vera Lucia L. Oliveira Calil È contadora, especialista em planejamento e
+programaÁ„o orÁament·ria e em auditoria e gest„o financeira, mestre em
+administraÁ„o pela UFSC, doutoranda em gest„o de negÛcios pela UFSC
+e professora da FAE Business School.
+Henrique Gaede È advogado e contador, especialista em direito da empresa
+e da economia e professor da FAE Business School.
+
+-- 8 of 88 --
+
+ix
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+S	S	S	S	Sum·rio
+Matem·tica Financeira
+Amilton Dalledone Filho e Glower Lopes Kujew 	1
+Contabilidade Empresarial
+Aderbal Nicolas M¸ller e Antonio GonÁalves Oliveira 	25
+AdministraÁ„o Financeira
+Edison Kuster e Nilson Danny Nogacz 	37
+Gest„o de Custos
+Cleonice Bastos Pompermayer e Jo„o Evangelista Pereira Lima 	49
+Controladoria
+Marcelo Evandro Johnsson e Valter Pereira Francisco Filho 	59
+Planejamento Tribut·rio
+Vera Lucia L. Oliveira Calil e Henrique Gaede 	69
+
+-- 9 of 88 --
+
+
+
+-- 10 of 88 --
+
+1
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Amilton Dalledone Filho
+M	M	M	M	Matem·tica F	F	F	F	Financeira
+Glower Lopes Kujew
+1
+O mundo globalizado nos mostra cada vez mais a necessidade de
+informaÁıes e, para tanto, È necess·rio o conhecimento b·sico que possibilita
+o entendimento de conceitos mais apurados.
+Este raciocÌnio È o que norteia a Matem·tica Financeira que se preocupa
+com o estudo do valor do dinheiro no tempo, sendo uma base de conhecimento
+indispens·vel para o entendimento da Engenharia Financeira e da An·lise de
+Investimentos, pois fornece as ferramentas necess·rias ao desenvolvimento
+das diversas teorias existentes.
+Todo investidor busca a melhor rentabilidade de seus recursos, e para
+que se possa medir o seu retorno faz-se necess·ria a aplicaÁ„o de c·lculos
+financeiros que possibilitam a tomada de decis„o e a gest„o financeira das
+empresas. Grandes corporaÁıes tÍm investido muitos recursos no
+desenvolvimento de profissionais capacitados a entender e buscar as melhores
+opÁıes de negÛcios.
+Com o intuito de auxiliar no entendimento de alguns conceitos b·sicos
+que auxiliam na introduÁ„o ao ensino da Matem·tica Financeira, desenvolveu-
+se este material que, sem nenhuma pretens„o de esgotar o assunto, ir· fornecer
+conceitos fundamentais ao aprendizado dos leitores. Para facilidade de
+entendimento, este material foi dividido em tÛpicos, que seguem uma lÛgica
+de entendimento, alÈm de exemplos clarificando os conceitos mostrados
+praticamente atravÈs da utilizaÁ„o da m·quina calculadora HP 12 C. Assim, o
+primeiro item aborda as operaÁıes b·sicas que envolvem a margem de lucro
+sobre o preÁo de compra e sobre o preÁo de venda. J· o segundo item traz o
+conceito de juros simples, que, apesar de ter utilizaÁ„o restrita no mercado
+financeiro, È de fundamental import‚ncia para o entendimento dos juros
+compostos, que fazem parte do terceiro item. Neste, aborda-se tambÈm a quest„o
+
+-- 11 of 88 --
+
+2
+FINAN«AS
+EMPRESARIAIS
+das taxas, onde È trabalhado o conceito de taxas efetivas e nominais conforme
+os seus perÌodos de capitalizaÁ„o. E, para encerrar este trabalho, o ˙ltimo item
+trata das sÈries de pagamentos uniformes, utilizadas sobremaneira no mercado
+pelas financeiras atravÈs, principalmente, dos emprÈstimos pessoais
+conhecidos como CDC (CrÈdito Direto ao Consumidor), alÈm È claro do
+comÈrcio de forma.
+Esperamos atender ‡s suas expectativas atravÈs deste material de apoio,
+que nada mais È que um princÌpio no estudo das finanÁas.
+1 OperaÁıes b·sicas
+Formas de apresentaÁ„o da taxa
+Centesimal ou percentual (%)
+Corresponde a referÍncia da taxa a cem unidades de capital.
+Exemplo:
+1. i = 2% ao mÍs
+2. i = 0,45% ao dia
+Unit·ria
+Corresponde a referÍncia da taxa a uma unidade de capital.
+Exemplo:
+1. 2% (forma centesimal) corresponde a 0,02 na forma unit·ria.
+2. 0,45% (forma centesimal) corresponde a 0,0045 na forma unit·ria.
+OperaÁıes com lucro
+Elementos 	NotaÁ„o
+PreÁo de compra ............................................................. PC
+PreÁo de venda ............................................................... PV
+Margem de lucro sobre o preÁo de compra ..................... iC
+Margem de lucro sobre o preÁo de venda ...................... iV
+Margem de lucro calculada sobre o preÁo de compra
+
+-- 12 of 88 --
+
+3
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Exemplos:
+1. Determinado produto foi adquirido por R$ 400,00, obtendo-se na
+venda a margem de lucro sobre o preÁo de compra de 15%. Qual o
+preÁo de venda do produto?
+Dados: PC = R$ 400,00; iC = 15%; P V = ?
+2. Um produto foi adquirido por R$ 300,00 e vendido por R$ 360,00.
+Calcule a margem de lucro obtida sobre o preÁo de compra.
+Dados: PC = R$ 300,00; PV = R$ 360,00; i C = ?
+Margem de lucro calculada sobre o preÁo de venda
+Exemplos:
+1. Determinado produto foi adquirido por R$ 450,00. Se a margem de
+lucro sobre o preÁo de venda obtido foi igual a 15%, qual o preÁo de
+venda do produto?
+Dados: PC = R$ 400,00; iC = 15%; P V = ?
+2. Um produto foi adquirido por R$ 300,00 e vendido por R$ 360,00.
+Calcule a margem de lucro obtida sobre o preÁo de venda.
+Dados: PC = R$ 300,00; P V = R$ 360,00; iV = ?
+RelaÁ„o entre margem de lucro sobre o preÁo de compra
+e preÁo de venda
+Se 	ent„o 	(I)
+e sendo 	logo 	(II)
+
+-- 13 of 88 --
+
+4
+FINAN«AS
+EMPRESARIAIS
+Igualando (I) e (II) temos: 	portanto: 	e
+Exemplos
+1. Se a margem de lucro sobre o preÁo de compra È igual a 25%, qual a
+margem de lucro sobre o preÁo de venda?
+Dados: i C = 25%; iV = ?
+2. Se a margem de lucro sobre o preÁo de venda È igual a 20%, qual a
+margem de lucro sobre o preÁo de compra?
+Dados: i V = 20%; iC = ?
+2 JUROS SIMPLES
+O regime de juros simples ou de capitalizaÁ„o simples È aquele em que
+a taxa de juros incide somente sobre o capital inicial.
+Elementos 	NotaÁ„o
+Valor futuro ou montante ................................................ M
+Valor presente ou principal ............................................. V
+Taxa de juros ................................................................... i
+N˙mero de perÌodos ....................................................... n
+Juros simples .................................................................. j
+C·lculo dos juros simples
+J = P . i . n 	(I)
+Exemplo: A dÌvida de R$ 600,00 dever· ser liquidada 21 dias apÛs o
+vencimento, ‡ taxa de juros de 0,3% ao dia. Calcular os juros simples
+a serem pagos.
+Dados: P = R$ 600,00; i = 0,3% ao dia; n = 21 dias; J = ?
+J = P . i . n = 600 . 0,003 . 21 = R$ 37,80
+
+-- 14 of 88 --
+
+5
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+C·lculo do valor futuro ou montante
+Exemplo: A dÌvida de R$ 1.200,00 dever· ser liquidada 24 dias apÛs o
+vencimento, ‡ taxa de juros de 0,25% ao dia. Calcular a quantia que
+liquidar· a dÌvida.
+Dados: P = R$ 1.200,00; i = 0,25% ao dia; n = 24 dias; M = ?
+Proporcionalidade entre as taxas
+No regime de juros simples, existe proporcionalidade entre as taxas.
+Quando uma taxa È fornecida em uma unidade de tempo diferente daquela a
+que se refere o prazo da operaÁ„o, basta modificarmos a sua unidade de tempo
+utilizando uma proporÁ„o.
+Exemplo: A dÌvida de R$ 4.500,00 dever· ser liquidada 18 dias apÛs o
+vencimento, ‡ taxa de juros de 6% ao mÍs. Calcular a quantia que
+liquidar· a dÌvida.
+Dados: P = R$ 4.500,00; i = 6% ao mÍs; n = 18 dias; M = ?
+Neste caso, a unidade de tempo da taxa È diferente daquela a que se
+refere o prazo da operaÁ„o. Portanto, para modificarmos a unidade
+de tempo da taxa fazemos:
+i m 	6%
+i d 	x
+ao dia
+3 DESCONTO SIMPLES
+O desconto deve ser entendido como sendo a diferenÁa entre o valor
+futuro (valor nominal) de um tÌtulo e seu valor presente (valor atual) quando o
+mesmo È negociado antes do vencimento. O desconto È denominado simples
+quando È obtido atravÈs de c·lculos lineares.
+
+-- 15 of 88 --
+
+6
+FINAN«AS
+EMPRESARIAIS
+Elementos 	NotaÁ„o
+Valor nominal ou valor futuro ......................................... N
+Valor presente ou valor atual .......................................... V
+Taxa de desconto simples ............................................... i
+N˙mero de perÌodos de antecipaÁ„o ou prazo ................ n
+Desconto simples comercial ........................................... d
+Desconto simples comercial ou desconto ìpor foraî
+O desconto simples comercial È calculado sobre o valor nominal do
+tÌtulo, ou seja:
+Portanto, o valor atual do tÌtulo pode ser obtido fazendo-se:
+Exemplos:
+1. Um tÌtulo no valor de R$ 14.000,00 dever· ser negociado 75 dias antes
+do vencimento ‡ taxa do desconto simples comercial de 6% ao mÍs.
+Determinar o valor do desconto bem como o valor atual do tÌtulo.
+Dados: N = R$ 14.000,00; i = 6% ao mÍs; n = 75 dias = 2,5 meses; V = ?
+C·lculo do valor atual do tÌtulo:
+2. Uma duplicata È descontada em uma instituiÁ„o financeira,
+produzindo um crÈdito na conta do cliente de R$ 4.640,00. Se a taxa
+do desconto simples comercial da operaÁ„o foi de 4,5% ao mÍs e a
+duplicata foi negociada 48 dias antes do vencimento, determinar o
+valor futuro (nominal) da duplicata.
+Dados: V = R$ 4.640,00; i = 4,5% ao mÍs; n = 48 dias = 1,6 meses; N = ?
+3. Um tÌtulo no valor de R$ 8.000,00 foi negociado 54 dias antes de seu
+vencimento por R$ 7.208,00. Determinar a taxa do desconto simples
+comercial envolvida na operaÁ„o.
+
+-- 16 of 88 --
+
+7
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Dados: V = R$ ; i = 4,5% ao mÍs; n = 54 dias = 1,8 meses; N = ?
+4 CAPITALIZA«√O COMPOSTA
+CapitalizaÁ„o composta È aquela em que a taxa de juros incide sempre
+sobre o capital inicial acrescido dos juros acumulados atÈ o perÌodo
+imediatamente anterior. Neste regime de capitalizaÁ„o a taxa de juros varia
+exponencialmente em funÁ„o do tempo.
+Elementos 	NotaÁ„o
+Valor futuro ou montante ................................................ FV
+Valor presente ou principal ............................................. PV
+Taxa de juros ................................................................... i
+N˙mero de perÌodos de capitalizaÁ„o ou prazo ............... n
+Juros compostos ............................................................ j
+Fluxo de caixa da operaÁ„o
+C·lculo do valor futuro ou montante
+(I)
+
+-- 17 of 88 --
+
+8
+FINAN«AS
+EMPRESARIAIS
+Generalizando, FV = PV . (1 + i)n (II), onde (1 + i)n È denominado fator de
+acumulaÁ„o de capital para pagamento ˙nico (fac) que depende da taxa de
+juros e do n˙mero de perÌodos de capitalizaÁ„o.
+C·lculo dos juros compostos
+Da equaÁ„o (I) temos que J = FV ñ PV.
+Substituindo a equaÁ„o (II) em J = FV ñ PV obtemos
+Obs.: O perÌodo de capitalizaÁ„o e a taxa de juros devem estar referidos
+‡ mesma unidade de tempo.
+Exemplos:
+1. Calcular o valor futuro produzido pela aplicaÁ„o de R$ 12.000,00
+pelo prazo de 6 meses ‡ taxa efetiva de juros de 5% ao mÍs.
+Dados: PV = R$ 12.000,00; n = 6 meses; i = 5% ao mÍs; FV = ?
+2. Determinar a quantia que aplicada pelo prazo de 5 meses, ‡ taxa
+efetiva de juros de 4% ao mÍs, produziu o valor futuro de R$ 11.558,20.
+Dados: FV = R$ 11.558,20; i = 4% ao mÍs; n = 5 meses; PV = ?
+
+-- 18 of 88 --
+
+9
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+3. O emprÈstimo de R$ 5.400,00 foi liquidado apÛs 3 meses por R$
+6.431,49. Calcule a taxa efetiva de juros da operaÁ„o.
+Dados: PV = R$ 5.400,00; FV = R$ 6.431,49; n = 3 meses; i = ?
+4. Determinar o n˙mero de meses da aplicaÁ„o de R$ 15.000,00 efetuada
+‡ taxa efetiva de juros de 3% ao mÍs e que produziu o valor futuro de
+R$ 16.882,63.
+Dados: FV = R$ 16.882,63; PV = R$ 15.000,00; i = 3% ao mÍs; n = ?
+ResoluÁ„o utilizando calculadora financeira
+
+-- 19 of 88 --
+
+10
+FINAN«AS
+EMPRESARIAIS
+5 	TAXAS
+Taxa Efetiva: A taxa efetiva pressupıe incidÍncia de juros apenas uma
+˙nica vez em cada perÌodo a que se refere a taxa, isto È, a unidade de tempo da
+taxa coincide com a unidade de tempo dos perÌodos de capitalizaÁ„o, ou seja, a
+taxa efetiva È a taxa por perÌodo de capitalizaÁ„o. Quando o perÌodo de
+capitalizaÁ„o n„o È mencionado, fica subentendido que o mesmo coincide
+com o perÌodo de tempo da taxa.
+Exemplos:
+1. 24% ao ano, capitalizaÁ„o anual ou 24% ao ano.
+2. 10% ao mÍs, capitalizaÁ„o mensal ou 10% ao mÍs.
+Taxa nominal: A taxa nominal pressupıe incidÍncia de juros mais de
+uma vez em cada perÌodo a que e refere a taxa, isto È, a unidade de tempo a que se
+refere a taxan„o coincide com a unidade de tempo dos perÌodos de capitalizaÁ„o.
+Quando uma taxa for enunciada desta forma, para que a mesma seja aplic·vel ‡s
+fÛrmulas com as quais trabalhamos, devemos primeiramente transform·-la em
+taxa efetiva utilizando o critÈrio da proporcionalidade, fazendo coincidir a unidade
+de tempo da taxa com a unidade de tempo do perÌodo de capitalizaÁ„o.
+Exemplos:
+1. 24% ao ano, capitalizaÁ„o mensal ou 2% ao mÍs.
+2. 6% ao mÍs, capitalizaÁ„o di·ria ou 0,2% ao dia (1 mÍs com 30 dias).
+Taxas equivalentes: duas taxas s„o ditas equivalentes quando, embora
+referidas a unidades de tempo diferentes, aplicadas sobre o mesmo capital,
+durante o mesmo perÌodo, produzem o mesmo valor.
+Elementos 	NotaÁ„o
+Taxa que quero calcular .................................................. iq
+Taxa que tenho ............................................................... it
+Unidade da taxa que quero calcular ................................ q
+Unidade da taxa que tenho ............................................. t
+C·lculo da taxa equivalente:
+Exemplos:
+1. Suponha as taxas de 10% ao mÍs e 33,10% ao trimestre. Considere o
+capital de R$ 20.000,00 aplicado durante 3 meses a essas taxas. Os
+valores futuros produzidos s„o:
+
+-- 20 of 88 --
+
+11
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Dados: PV = R$ 20.000,00; n = 3 meses = 1 trimestre; i1 = 10% ao mÍs;
+i2 = 33,1% ao trimestre
+Nesse caso podemos afirmar que as taxas de 10% ao mÍs e 33,1% ao
+trimestre s„o equivalentes, sen„o vejamos, qual a taxa trimestral
+equivalente a taxa de 10% ao mÍs?
+Dados: i t =10% ao mÍs; t = 1 mÍs; q = 1 trimestre = 3 meses; i q = ?
+2. Determinar a taxa anual equivalente a taxa de 10% ao mÍs.
+Dados: it = 10% ao mÍs; t = 1 mÍs; q = 1 ano = 12 meses; iq = ?
+3. Determinar a taxa mensal equivalente ‡ taxa de 120% ao ano.
+Dados: i t = 120% ao ano; t = 1 ano = 12 meses; q = 1 mÍs; i q = ?
+4. A quantia de R$ 6.000,00 ser· aplicada ‡ taxa de 30% ao ano
+capitalizaÁ„o mensal pelo prazo de 12 meses. Determinar o valor
+futuro (montante) produzido pela aplicaÁ„o.
+Dados: PV = R$ 6.000,00; i = 30% ao ano cap. mensal; n = 12 meses;
+FV = ?
+A taxa apresentada È nominal, pois a unidade de tempo da taxa (ano)
+È diferente da unidade de tempo a que se refere o perÌodo de
+capitalizaÁ„o (mÍs); portanto, primeiramente devemos transform·-
+la em taxa efetiva, utilizando o critÈrio da proporcionalidade.
+ia 	30% 	12 meses
+im 	x 	1 mÍs
+5. Considerando o mesmo enunciado do exemplo anterior, mas supondo
+que a taxa seja de 30% ao ano, qual o valor futuro produzido pela
+aplicaÁ„o? Compare os resultados obtidos.
+
+-- 21 of 88 --
+
+12
+FINAN«AS
+EMPRESARIAIS
+Dados: PV = R$ 6.000,00; i = 30% ao ano; n = 12 meses = 1 ano;
+FV = ?
+A taxa apresentada agora È efetiva, pois, embora omitido, fica
+subentendido que o perÌodo de capitalizaÁ„o coincide com a unidade
+de tempo da taxa (ano). Nesse caso, podemos aplic·-la diretamente
+na fÛrmula, efetuando a mudanÁa conveniente no prazo da aplicaÁ„o.
+6 DESCONTO COMPOSTO
+O conceito de desconto no regime de capitalizaÁ„o composta È idÍntico
+ao do regime de juros simples: corresponde ao abatimento por saldar-se um
+compromisso antes do seu vencimento. A diferenÁa È devida apenas ao regime
+de juros, sendo o raciocÌnio financeiro o mesmo. O que fazemos È calcular a
+diferenÁa entre o valor nominal e o valor atual do compromisso na data em que
+se propıe que seja efetuado o desconto. O desconto corresponde ‡ quantia a
+ser abatida do valor nominal, e o valor descontado È a diferenÁa entre o valor
+nominal e o desconto.
+Elementos 	NotaÁ„o
+Valor nominal ou valor futuro ......................................... FV
+Valor presente ou valor atual .......................................... PV
+Taxa de desconto ............................................................ i
+N˙mero de perÌodos de antecipaÁ„o ou prazo ................ n
+Desconto composto ....................................................... d
+Fluxo de caixa da operaÁ„o
+C·lculo do valor atual ou valor presente:
+
+-- 22 of 88 --
+
+13
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+C·lculo do desconto composto: d = FVñ PV
+Exemplo:
+Um tÌtulo no valor de R$ 40.000,00 dever· ser negociado 3 meses
+antes do vencimento, ‡ taxa efetiva do desconto composto de 5% ao
+mÍs. Determinar o valor do desconto bem como o valor atual do
+tÌtulo.
+Dados: FV = R$ 40.000,00; i = 5% ao mÍs; n = 3 meses; PV = ?
+C·lculo do valor atual do tÌtulo
+C·lculo do desconto
+7 S…RIES DE PAGAMENTOS UNIFORMES
+SÈries de RecuperaÁ„o de Capital
+… a sÈrie que mostra o retorno do capital atravÈs de pagamentos iguais
+e periÛdicos. Este retorno pode ser de um emprÈstimo ou da aquisiÁ„o de um
+bem.
+Elementos 	NotaÁ„o
+Valor presente ou valor financiado ................................. PV
+Pagamento ou prestaÁ„o ................................................ PMT
+Taxa de juros ................................................................... 	i
+N˙mero de pagamentos .................................................. 	n
+PerÌodo de diferimento ou carÍncia ................................. 	m
+
+-- 23 of 88 --
+
+14
+FINAN«AS
+EMPRESARIAIS
+SÈrie de ìnî pagamentos, periÛdicos, iguais e postecipados
+CaracterizaÁ„o da sÈrie
+C·lculo do pagamento:
+Exemplos:
+1. O preÁo ‡ vista de uma geladeira È de R$ 1.000,00. Entretanto a
+mesma pode ser adquirida em 6 pagamentos mensais iguais, com
+primeiro pagamento efetuado 30 dias apÛs a compra. Se, nos
+financiamentos, a loja cobra a taxa efetiva de juros de 5% ao mÍs,
+determinar o pagamento mensal a ser efetuado.
+Dados: PV = R$ 1.000,00; n = 6 pagamentos mensais; i = 5% ao mÍs;
+PMT = ?
+2. O preÁo ‡ vista de um televisor com tela de 20 polegadas È de R$
+700,00. Entretanto o mesmo pode ser adquirido da seguinte forma:
+entrada correspondente a 25% do preÁo a vista e o restante
+financiado em 4 pagamentos mensais iguais. Se, nos financiamentos,
+a loja cobra a taxa efetiva de juros de 6% ao mÍs, determinar o
+pagamento mensal a ser efetuado.
+
+-- 24 of 88 --
+
+15
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Dados: PV = 0,75 . 700 = R$ 525,00; n = 4 pagamentos mensais; i = 6%
+ao mÍs; PMT = ?
+C·lculo do valor presente:
+Exemplo:
+1. Para liquidar um emprÈstimo, uma pessoa dever· efetuar 12
+pagamentos mensais iguais de R$ 199,04. Sabendo-se que a financeira
+cobra a taxa efetiva de juros de 8% ao mÍs, calcule a quantia que
+essa pessoa tomou emprestado.
+Dados: PMT = R$ 199,04; n = 12 pagamentos mensais; i = 8% ao
+mÍs; PV = ?
+
+-- 25 of 88 --
+
+16
+FINAN«AS
+EMPRESARIAIS
+SÈrie de ìnî pagamentos, periÛdicos, iguais e antecipados
+CaracterizaÁ„o da sÈrie
+C·lculo do pagamento:
+Exemplos:
+1. O preÁo ‡ vista de uma geladeira È de R$ 1.000,00. Entretanto a
+mesma pode ser adquirida em 6 pagamentos mensais iguais, com
+primeiro pagamento dado como entrada. Se, nos financiamentos, a
+loja cobra a taxa efetiva de juros de 5% ao mÍs, determinar o
+pagamento mensal a ser efetuado.
+Dados: PV = R$ 1.000,00; n = 6 pagamentos mensais; i = 5% ao mÍs;
+PMT = ?
+ResoluÁ„o utilizando calculadora financeira
+2. O preÁo ‡ vista de um televisor com tela de 20 polegadas È de R$
+700,00. Entretanto o mesmo pode ser adquirido em 10 pagamentos
+mensais iguais de R$ 96,59. Determinar a taxa efetiva mensal de
+juros cobrada pela loja.
+
+-- 26 of 88 --
+
+17
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Dados: PV = R$ 700,00; n = 10 pagamentos mensais;
+PMT = R$ 96,59; i = ?
+Em virtude da impossibilidade de isolarmos a taxa (i) nas fÛrmulas
+anteriores, recomenda-se a utilizaÁ„o de uma calculadora financeira.
+C·lculo do valor presente:
+Exemplo
+1. Uma empresa adquiriu determinado equipamento e para liquidar a
+dÌvida comprometeu-se a efetuar 18 pagamentos mensais iguais de
+R$ 645,62, e o primeiro pagamento dado como entrada. Sabendo-se
+que a taxa efetiva de juros da operaÁ„o È de 4% ao mÍs, calcule o
+valor financiado.
+Dados: PMT = R$ 645,62; n = 18 pagamentos mensais; i = 4% ao
+mÍs; PV = ?
+
+-- 27 of 88 --
+
+18
+FINAN«AS
+EMPRESARIAIS
+SÈries de ìnî pagamentos, periÛdicos iguais e
+postecipados, diferidos de ìmî perÌodos de tempo
+CaracterizaÁ„o da sÈrie
+C·lculo do pagamento:
+Exemplo:
+1. O emprÈstimo de R$ 50.000,00 dever· ser liquidado em 12 pagamentos
+mensais iguais, ‡ taxa efetiva de juros de 3% ao mÍs. Sabendo-se
+que est· estipulado para a operaÁ„o o perÌodo de carÍncia de 5
+meses, calcular o pagamento mensal a ser efetuado.
+Dados: PV = R$ 50.000,00; n = 12 pag. mensais; i = 3% ao mÍs; m = 5
+meses; PMT = ?
+C·lculo do valor presente:
+
+-- 28 of 88 --
+
+19
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Exemplo
+1. Determinada dÌvida dever· ser liquidada em 18 pagamentos mensais
+iguais de R$ 2.998,55. Sabendo-se que est· envolvido na operaÁ„o
+o perÌodo de carÍncia de 6 meses e que a taxa efetiva de juros È de
+4% ao mÍs, calcular o valor da dÌvida.
+Dados: PMT = R$ 2.998,55; n = 18 pag. mensais; i = 4% ao mÍs; m =
+6 meses; PV = ?
+SÈries de FormaÁ„o de Capital
+… a sÈrie que mostra a acumulaÁ„o de capital atravÈs de depÛsitos
+iguais e periÛdicos. O valor futuro (montante) produzido pelas aplicaÁıes
+poder· servir como poupanÁa ou para a aquisiÁ„o de bens.
+Elementos 	NotaÁ„o
+Valor futuro ou montante ................................................ FV
+DepÛsito ou pagamento ................................................. PMT
+Taxa de juros ................................................................... 	i
+N˙mero de depÛsitos (pagamentos) ............................... 	n
+
+-- 29 of 88 --
+
+20
+FINAN«AS
+EMPRESARIAIS
+SÈries de ìnî depÛsitos (pagamentos) periÛdicos, iguais e
+antecipados
+CaracterizaÁ„o da sÈrie
+C·lculo do depÛsito:
+Exemplo
+1. Uma pessoa que tem como objetivo obter o montante de R$ 5.000,00
+um mÍs apÛs ter efetuado o 12 o depÛsito mensal deseja saber qual o
+valor desses depÛsitos, sabendo-se que os mesmos ser„o
+remunerados ‡ taxa efetiva de juros de 2,5% ao mÍs.
+Dados: FV = R$ 5.000,00; n = 12 depÛsitos mensais; i = 2,5 % ao mÍs;
+PMT = ?
+C·lculo do valor futuro:
+Exemplo:
+1. Se forem efetuados 12 depÛsitos mensais iguais de R$ 200,00,
+remunerados ‡ taxa efetiva de juros de 2% ao mÍs, determinar o valor
+futuro produzido pelas aplicaÁıes, um mÍs apÛs o ˙ltimo depÛsito.
+
+-- 30 of 88 --
+
+21
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Dados: PMT = R$ 200,00; n = 12 depÛsitos mensais; i = 2% ao mÍs;
+FV = ?
+SÈries de ìnî depÛsitos (pagamentos) periÛdicos, iguais e
+postecipados
+CaracterizaÁ„o da SÈrie
+C·lculo do pagamento:
+Exemplo:
+1. Uma pessoa que tem como objetivo obter o montante de R$ 5.000,00
+imediatamente apÛs ter efetuado o 12 o depÛsito mensal, deseja saber
+qual o valor desses depÛsitos, sabendo-se que os mesmos ser„o
+remunerados ‡ taxa efetiva de juros de 2,5% ao mÍs.
+Dados: FV = R$ 5.000,00; n = 12 depÛsitos mensais; i = 2,5 % ao mÍs;
+PMT = ?
+
+-- 31 of 88 --
+
+22
+FINAN«AS
+EMPRESARIAIS
+C·lculo do valor futuro (montante):
+Exemplo:
+1. Se forem efetuados 12 depÛsitos mensais iguais de R$ 200,00,
+remunerados ‡ taxa efetiva de juros de 2% ao mÍs, determinar o
+valor futuro produzido pelas aplicaÁıes, imediatamente apÛs o ˙ltimo
+depÛsito.
+Dados: PMT = R$ 200,00; n = 12 depÛsitos mensais; i = 2% ao mÍs;
+FV = ?
+
+-- 32 of 88 --
+
+23
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Bibliografia recomentada
+SOBRINHO, JosÈ Dutra Vieira. Matem·tica financeira. 4. ed. S„o Paulo:
+Atlas, 1994.
+Resumo
+Este capÌtulo apresentou alguns conceitos b·sicos que introduzem a
+Matem·tica Financeira. Para facilidade de entendimento, foi dividido em tÛpicos
+que seguem uma lÛgica de entendimento, alÈm de exemplos clarificando os
+conceitos mostrados praticamente atravÈs da utilizaÁ„o da m·quina calculadora
+HP 12C. Assim, o primeiro item aborda as operaÁıes b·sicas que envolvem
+margem de lucro sobre o preÁo de compra e sobre o preÁo de venda. J· o
+segundo item traz o conceito de juros simples, que, apesar de ter utilizaÁ„o
+restrita no mercado financeiro, È de fundamental import‚ncia para o
+entendimento dos juros compostos, que fazem parte do terceiro item. Neste,
+aborda-se tambÈm a quest„o das taxas, onde È trabalhado o conceito de taxas
+efetivas e nominais conforme os seus perÌodos de capitalizaÁ„o. Finalmente,
+trata-se das sÈries de pagamentos uniformes, utilizadas sobremaneira no
+mercado pelas financeiras atravÈs, principalmente, dos emprÈstimos pessoais
+conhecidos como CDC (CrÈdito Direto ao Consumidor), alÈm È claro do
+comÈrcio de forma.
+
+-- 33 of 88 --
+
+
+
+-- 34 of 88 --
+
+25
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Aderbal Nicolas M¸ller
+Antonio GonÁalves Oliveira
+C	C	C	C	Contabilidade
+E	E	E	E	Empresarial
+2
+IntroduÁ„o
+Entre os agentes econÙmicos, ativos participantes da economia das
+naÁıes, temos as organizaÁıes empresariais, que contribuem com sua
+manutenÁ„o e crescimento. Entende-se que este dinamismo n„o ocorre
+isoladamente, sendo necess·ria a intervenÁ„o humana para o gerenciamento
+das aÁıes dessas organizaÁıes. Temos aÌ a chamada gest„o empresarial que,
+amparada em tÈcnicas de gest„o, pratica constantemente a arte de planejar,
+organizar, controlar e decidir os passos a serem seguidos pela organizaÁ„o em
+direÁ„o ao alcance de seus objetivos. Inserida nesse contexto temos a
+Contabilidade, vista como a ciÍncia que estuda e controla o patrimÙnio das
+entidades organizacionais, que nesse caderno mostra-se da forma mais aplicada
+possÌvel, ou seja, como fonte geradora de dados e informaÁıes ˙teis que
+subsidiam a gest„o organizacional em seus processos de tomada de decis„o.
+Destacam-se as formalidades de escrituraÁ„o, as demonstraÁıes
+cont·beis, a auditoria e a an·lise de balanÁos na Contabilidade, que se prestam
+ao registro dos fatos praticados pela organizaÁ„o e ‡ sistematizaÁ„o dos fatos
+em forma de demonstraÁıes cont·beis que refletem seu estado patrimonial,
+financeiro e de resultados.
+
+-- 35 of 88 --
+
+26
+FINAN«AS
+EMPRESARIAIS
+Mas o que È patrimÙnio?
+Quando se pergunta a alguÈm, e solicita-se aos leitores que nesse
+momento se faÁam essa pergunta, observa-se que as pessoas tendem a iniciar
+mentalmente um c·lculo matem·tico e, verbalizando, dizem como exemplo: um
+veÌculo, uma casa, uma ch·cara, um terreno, um computador, um volume
+depositado em conta corrente, uma aplicaÁ„o financeira etc., o que leva a concluir
+que, para a maioria das pessoas, patrimÙnio s„o os bens que se possuem.
+Diferentemente do que a maioria das pessoas pensa, patrimÙnio n„o È
+somente aquilo que se possui em forma de bens tangÌveis. Falando-se em gest„o
+empresarial, temos como patrimÙnio organizacional tudo aquilo que a organizaÁ„o
+possui, ou seja, seus bens, seus direitos e tambÈm as suas obrigaÁıes. A
+Contabilidade, aplicando todas as suas tÈcnicas e procedimentos, provÍ o
+controle desse patrimÙnio, registrando sistematicamente todos os fatos passÌveis
+de mensuraÁ„o monet·ria que ocorrem em todos os setores empresariais
+(administrativo, comercial, produÁ„o etc.), e que contribuem para a alteraÁ„o de
+seu estado patrimonial. Esse artigo demonstra de forma geral o que È a
+Contabilidade, bem como a sua import‚ncia na gest„o das empresas e, de forma
+mais especÌfica, demonstra a aplicaÁ„o da Contabilidade nos procedimentos de
+gest„o, iniciando com um histÛrico e concluindo com a Contabilidade como
+sistema de informaÁ„o gerencial, atual vis„o de mercado, preterida pela vis„o de
+controle fiscal, o que se justifica pela turbulÍncia crescente do ambiente
+organizacional, que tem levado as empresas a investirem no desenvolvimento e
+utilizaÁ„o de informaÁıes, aplicadas como ferramentas de apoio aos processos
+de controle e tomada de decis„o.
+1 	Da histÛria ‡ realidade atual
+ApÛs a idade da pedra, verifica-se a figura do homem primitivo contando
+seus rebanhos, preocupado com o seu crescimento, evoluÁ„o e,
+conseq¸entemente, com a sua riqueza. Assim, faziam-se invent·rios e,
+inocentemente, analisava-se a variaÁ„o patrimonial.
+Mais recentemente temos a consolidaÁ„o do mÈtodo cont·bil, ou da
+Contabilidade propriamente dita, de forma intimamente ligada ao surgimento
+A contabilidade registra
+sistematicamente todos os fatos
+passÌveis de mensuraÁ„o monet·ria e
+que contribuem para a alteraÁ„o do
+estado patrimonial da empresa
+
+-- 36 of 88 --
+
+27
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+do capitalismo, como forma quantitativa de mensurar os acrÈscimos e
+decrÈscimos dos investimentos iniciais alocados a alguma exploraÁ„o de ordem
+mercantil, com ou sem fins lucrativos, executando-se, nesse momento, uma de
+suas funÁıes principais, o controle, que objetiva fornecer informaÁıes de
+forma estruturada para an·lise e tomada de decisıes.
+2 	Campo de atuaÁ„o da contabilidade
+A Contabilidade, na qualidade de metodologia especialmente concebida
+para captar, registrar, acumular, resumir e interpretar os fenÙmenos que afetam as
+situaÁıes patrimoniais, financeiras e econÙmicas de qualquer entidade, tem um
+campo de atuaÁ„o muito amplo. Sua aplicaÁ„o se d· em entidades com finalidades
+lucrativas ou n„o, que tenham necessidade de exercer atividades econÙmicas
+para cumprir com seu objetivo social. A atuaÁ„o da Contabilidade sobre o
+patrimÙnio das entidades possibilita respostas ‡s necessidades informacionais
+dos sÛcios ou acionistas das organizaÁıes, respondendo-lhes perguntas como:
+qual a taxa de lucratividade proporcionada ao investimento em aÁıes ou quotas
+da sociedade? Ser· que a empresa continuar· a oferecer, no mÈdio e longo
+prazo, perspectivas de rentabilidade e seguranÁa para seu investimento? Existe
+alguma alternativa mais adequada para seus investimentos?
+Para os administradores, o interesse nos dados cont·beis atinge um
+grau de profundidade e an·lise, bem como de freq¸Íncia, muito maior do que
+para os demais usu·rios. De fato, s„o eles os agentes respons·veis pelas
+tomadas de decisıes dentro de cada organizaÁ„o a que pertencem. Note-se
+que as informaÁıes fornecidas pela Contabilidade n„o se limitam, como julgam
+muitos, ao BalanÁo Patrimonial e ‡ DemonstraÁ„o de Resultados. AlÈm desses
+demonstrativos b·sicos e finais de um perÌodo cont·bil, a Contabilidade fornece
+aos administradores um fluxo contÌnuo de informaÁıes sobre os mais variados
+aspectos da gest„o financeira e econÙmica das empresas. O gestor que sabe
+usar a informaÁ„o cont·bil, e que conhece suas limitaÁıes, dispıe de um
+poderoso instrumental de trabalho que lhe permite tomar decisıes visando o
+futuro com maior seguranÁa, bem como conhecendo a situaÁ„o atual e o grau
+de acerto e impropriedade de suas decisıes anteriores.
+
+-- 37 of 88 --
+
+28
+FINAN«AS
+EMPRESARIAIS
+N„o se pode deixar de destacar tambÈm a import‚ncia da Contabilidade
+para as atividades governamentais. O governo e os economistas tÍm duplo
+interesse nas informaÁıes cont·beis. Baseado em tais informaÁıes È que o
+governo exerce o poder de tributar. Isso È especificamente verdadeiro no caso
+da maioria das empresas cujo imposto de renda È mensurado a partir dos
+balanÁos, embora alguns ajustes tenham que ser feitos ao lucro cont·bil. E os
+economistas, encarregados de an·lises globais ou setoriais, interessam-se
+pelos dados cont·beis das diversas unidades microeconÙmicas, os quais
+convenientemente agregados e tratados estatisticamente, fornecem bases
+adequadas para suas an·lises.
+3 	Finalidades para as quais se usa a
+informaÁ„o cont·bil
+Embora tais finalidades possam ser demonstradas de v·rias formas,
+pode-se agrup·-las em duas formas b·sicas: controle e planejamento.
+Quanto ao controle, esse pode ser conceituado como um processo
+pelo qual a alta administraÁ„o se certifica, na medida do possÌvel, de que a
+organizaÁ„o est· agindo em conformidade com os planos e polÌticas traÁados
+pelos detentores do capital e pela prÛpria administraÁ„o. Essa È uma
+conceituaÁ„o bem ampla de controle, aceita pelos usu·rios da Contabilidade,
+que contrasta com a definiÁ„o restrita, que resumia o controle a uma funÁ„o
+quase policial dentro da empresa.
+O controle, na literatura, È sempre considerado como uma forma
+complementar ao planejamento. …, portanto, de grande utilidade reconhecer o
+controle em seus contornos possÌveis para torn·-lo um meio eficaz na busca
+de resultados, independentemente do contexto onde possa ser aplicado, em
+organizaÁıes de pequeno ou grande porte, com ou sem fins lucrativos.
+Os respons·veis pela administraÁ„o das organizaÁıes (gestores dos
+negÛcios) precisam entender e enxergar o controle em toda a sua extens„o e
+potencialidade, como meio de alcanÁar os objetivos organizacionais. Quando
+essa vis„o for assimilada, poder· o processo de controle ser aplicado de forma
+eficaz, servindo como ferramenta ˙til ao processo de tomada de decis„o.
+A informaÁ„o cont·bil, principalmente no que
+se refere ao estabelecimento de padrıes e
+ao inter-relacionamento da Contabilidade
+com os planos orÁament·rios, È de grande
+utilidade no planejamento empresarial
+
+-- 38 of 88 --
+
+29
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Para isso, as organizaÁıes tÍm investido em tecnologia e em estudos
+para conceber mÈtodos eficazes de tratamento das informaÁıes extraÌdas da
+Contabilidade e que est„o no ambiente organizacional, interno e externo,
+buscando, assim, a excelÍncia empresarial.
+O planejamento, por sua vez, È o processo de decidir que curso de aÁ„o
+dever· ser tomado para o futuro. Normalmente, o processo de planejamento
+consiste em considerar v·rios cursos alternativos de aÁ„o e decidir qual o
+melhor. Planejamento, que deve ser diferenciado de previs„o, pode abranger
+um sÛ segmento ou a empresa como um todo. A informaÁ„o cont·bil,
+principalmente no que se refere ao estabelecimento de padrıes e ao inter-
+relacionamento da Contabilidade com os planos orÁament·rios, È de grande
+utilidade no planejamento empresarial. Mesmo em caso de decisıes isoladas
+sobre v·rias alternativas possÌveis, normalmente utiliza-se grande quantidade
+de informaÁ„o cont·bil.
+4 	A contabilidade como sistema de informaÁ„o
+necess·rio ‡ gest„o das empresas
+Um dos objetivos da Contabilidade È fornecer informaÁıes sobre as
+mutaÁıes que ocorrem no patrimÙnio das empresas. Muitos, no entanto,
+consideram e atÈ confundem a CiÍncia Cont·bil como mero instrumento de
+informaÁ„o. Todas as ·reas do conhecimento geram informaÁıes.
+A Contabilidade, alÈm de gerar informaÁıes, permite explicar os fenÙmenos
+patrimoniais, construir modelos de prosperidade, efetuar an·lises, controlar e
+tambÈm prever e projetar exercÌcios seguintes, entre tantas outras funÁıes.
+A Contabilidade, do ponto de vista sistÍmico, assim como os sistemas,
+est· integrada com o meio ambiente. Dessa forma, fica evidenciada ‡
+Contabilidade a vis„o de um sistema aberto, ou seja, aquele que n„o depende
+somente das informaÁıes internas, mas da ligaÁ„o e filtragem de informaÁıes
+externas ‡ organizaÁ„o.
+Sobre vis„o sistÍmica aplicada ‡ Contabilidade, elevando-a ‡ situaÁ„o
+de sistema, segundo Ruy Aguiar Leme, È bastante conhecida a similitude
+entre a empresa e um organismo vivo. Neste organismo, podemos distinguir
+um cÈrebro, encarregado das decisıes; os membros, encarregados da aÁ„o; o
+sistema nervoso, que se incumbe de transmitir o comando do cÈrebro para os
+membros e as informaÁıes dos sentidos para o cÈrebro.
+
+-- 39 of 88 --
+
+30
+FINAN«AS
+EMPRESARIAIS
+Partindo desse enfoque organizacional, por analogia, pode-se visualizar
+a Contabilidade como um sistema nervoso que serve de elo de ligaÁ„o entre a
+administraÁ„o e as ·reas de execuÁ„o. Existe uma dependÍncia das partes,
+uma vez que todas est„o ligadas intencionalmente para manter o organismo
+empresarial em funcionamento.
+Assim, n„o basta ter um bom sistema nervoso, se o cÈrebro n„o
+responder aos estÌmulos ou vice-versa. O organismo ìempresaî depende de
+uma boa administraÁ„o, assessorada pela Contabilidade como fonte de
+informaÁıes ˙teis aos processos de tomada de decis„o e controle, destacando-
+se a necessidade de utilizaÁ„o, por parte dos administradores, das informaÁıes
+produzidas pelo Sistema de InformaÁ„o Cont·bil.
+Conceitualmente, segundo o Instituto Brasileiro de Contadores
+( IBRACON , 1992), entende-se o Sistema de InformaÁ„o Cont·bil como um
+conjunto articulado de dados, tÈcnicas de acumulaÁ„o, ajustes e editagens de
+relatÛrios que permitem:
+ï 	Tratar as informaÁıes de natureza repetitiva com o m·ximo possÌvel
+de relev‚ncia e o mÌnimo de custo;
+ï 	Dar condiÁıes para, atravÈs da utilizaÁ„o de informaÁıes prim·rias
+constantes do arquivo b·sico, juntamente com as tÈcnicas
+derivadas da prÛpria Contabilidade e/ou outras disciplinas,
+fornecer relatÛrios de exceÁ„o para finalidades especÌficas em
+oportunidades definidas ou n„o.
+O Sistema de InformaÁ„o Cont·bil tem por objetivo a produÁ„o de
+informaÁıes destinadas a prover seus usu·rios com demonstraÁıes cont·beis
+e an·lises de natureza econÙmica, financeira, fÌsica, de resultados, de desempenho
+e de produtividade com relaÁ„o ‡ entidade, objeto de contabilizaÁ„o.
+Ao se procurar demonstrar os objetivos do Sistema de InformaÁ„o
+Cont·bil, podemos descrevÍ-los como sendo os de:
+ï 	prover informaÁıes monet·rias e n„o monet·rias, destinadas ‡s
+atividades e decisıes dos nÌveis operacional, t·tico e estratÈgico
+da empresa, e tambÈm para os usu·rios externos a ela;
+ï 	constituir-se na peÁa fundamental do sistema de InformaÁ„o
+Gerencial da empresa.
+A Contabilidade È um componente da
+gest„o, tendo como um dos seus
+principais objetivos fornecer informaÁıes
+para o processo de tomada de decis„o
+e de formulaÁ„o de estratÈgias
+
+-- 40 of 88 --
+
+31
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+4.1 Ambiente do sistema de informaÁ„o cont·bil
+Compreendendo o que foi descrito atÈ aqui, tem-se que a Contabilidade
+aplicada, na pr·tica, pode ser entendida como um subsistema dentro do sistema
+organizacional (sistema ìempresaî). Esse, por sua vez, integra um sistema
+maior, que È o sistema ambiental (meio ambiente).
+Os usu·rios das demonstraÁıes fornecidas pelo Sistema de InformaÁ„o
+Cont·bil s„o todas pessoas fÌsicas ou jurÌdicas que tenham interesse na
+avaliaÁ„o da situaÁ„o e do progresso de determinada entidade, seja uma
+empresa, uma entidade de finalidades n„o-lucrativas ou mesmo um patrimÙnio
+familiar, e È nessa perspectiva que se aborda a Contabilidade e o ambiente, ou
+seja, de que forma a Contabilidade contribui para o ambiente global e de que
+maneira ele capta os dados externos para process·-los e transform·-los em
+informaÁıes ˙teis para o processo de tomada de decisıes.
+Usando o enfoque sistÍmico, ressalta-se que o ambiente interfere
+diretamente nas variaÁıes patrimoniais, registradas e estudadas pela Contabilidade.
+Exemplificando-se, È possÌvel dizer que parte das aÁıes governamentais causa
+mutaÁıes no patrimÙnio e, ainda, que eventos naturais podem causar danos ao
+patrimÙnio e que devem ser registrados pela Contabilidade.
+Recebendo e processando dados internos e externos, cabe ‡
+Contabilidade cumprir com sua responsabilidade social, informando a
+sociedade e demonstrando como as aÁıes administrativas podem interferir no
+sistema global. Isso significa que o Sistema de InformaÁ„o Cont·bil se estende
+atÈ as fronteiras do ìSistema Empresaî e que seus limites s„o os mesmos.
+Quais sejam:
+ï 	Limite inicial
+A ocorrÍncia de qualquer transaÁ„o que resulte em alteraÁ„o do
+patrimÙnio da empresa, ou seja, qualquer ato praticado pela
+administraÁ„o que seja possÌvel de valorizaÁ„o monet·ria, portanto,
+possÌvel de ser registrado e controlado pela Contabilidade.
+ï 	Limite final
+Toda vez que alguma decis„o, seja em nÌvel operacional, t·tico ou
+estratÈgico, tenha que ser tomada e que decorra daÌ qualquer
+alteraÁ„o no patrimÙnio da empresa.
+O limite final exposto ocorre a partir do momento em que se estabelece
+para o Sistema de InformaÁ„o Cont·bil o objetivo, conforme j· mencionado,
+de ser tambÈm um sistema de suporte ao processo decisÛrio na empresa pelas
+seguintes razıes:
+
+-- 41 of 88 --
+
+32
+FINAN«AS
+EMPRESARIAIS
+ï 	O processo de decis„o requer como suporte um conjunto de dados,
+que, no caso, pode ser fornecido pelo sistema.
+ï 	O processo de decis„o È a ˙ltima etapa do ciclo operacional da
+empresa. Qualquer etapa, apÛs esta, ser· uma nova decis„o
+ocasionada pelo seu resultado, mantendo-se, ent„o, um ciclo.
+Graficamente, podemos mostrar os limites do Sistema de InformaÁ„o
+Cont·bil, de forma an·loga ao sistema ìempresaî conforme mostrado na figura 1:
+4.2 O sistema de informaÁ„o cont·bil
+e as organizaÁıes
+A ·rea de atuaÁ„o da Contabilidade compreende qualquer entidade,
+pessoa fÌsica ou jurÌdica, que tenha seu patrimÙnio definido e delimitado. Ela
+procura prestar colaboraÁ„o a essas, n„o apenas para sua gest„o, mas atÈ
+para sua prÛpria continuidade, visto que sem controle e sem informaÁıes
+fornecidas pela Contabilidade, seria impossÌvel a tais organismos alcanÁarem
+suas finalidades.
+A administraÁ„o das empresas, tendo em vista as contingÍncias da
+prÛpria vida em sociedade, tem se modificado nos ˙ltimos tempos, tanto em
+tamanho como em complexidade, tornando a Contabilidade cada vez mais um
+indispens·vel instrumento para sua seguranÁa e desenvolvimento.
+
+-- 42 of 88 --
+
+33
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+A presenÁa da Contabilidade decorre da necessidade de se conhecer e
+controlar os componentes e as variaÁıes do patrimÙnio, riqueza imprescindÌvel
+‡ satisfaÁ„o das necessidades humanas e da vida em sociedade.
+Para ilustrar, toma-se o patrimÙnio das organizaÁıes, independentemente
+do porte ou ramo de atividade, sob a aÁ„o administrativa do homem, que sobre
+ele, atravÈs de decisıes tomadas, age praticando atos de natureza econÙmica.
+Existe ainda, alÈm do patrimÙnio e do trabalho humano desenvolvido sobre ele,
+o sistema administrativo, que coordena o trabalho e os componentes
+patrimoniais, dirigindo-se ambos para ele. Assim, vem a ser a Contabilidade um
+componente da gest„o, tendo como um dos seus principais objetivos fornecer
+informaÁıes para o processo de tomada de decis„o e atÈ mesmo de formulaÁ„o
+de estratÈgias. A contabilidade como sistema de informaÁıes gerenciais deve
+organizar-se de modo a manter um processo contÌnuo de comunicaÁ„o com
+seus usu·rios, que em ˙ltima an·lise, s„o os seus clientes. Assim, pode ela ser
+considerada um instrumento gerencial eficaz. A figura 2 corrobora tal colocaÁ„o,
+mostrando, inclusive, o fluxo completo das informaÁıes.
+4.3 	Os subsistemas do sistema de
+informaÁ„o cont·bil
+A Contabilidade, vista como um sistema, dada a sua funÁ„o no ambiente
+organizacional, possui a caracterÌstica de consolidar de forma convergente os
+demais sistemas de outras ·reas da empresa, inclusive os de missıes
+operacionais (compras, contas a pagar, contas a receber, tesouraria,
+faturamento etc.). Esses s„o, nesse momento, os subsistemas daquele (sistema
+de informaÁ„o cont·bil), uma vez que ocorre um fluxo de seus dados em direÁ„o
+ao mesmo para transform·-los em informaÁıes ˙teis para o processo decisÛrio.
+Assim, para otimizar a utilizaÁ„o, as empresas que o utilizam tÍm, de um
+modo geral, dividido o Sistemas de InformaÁ„o Cont·bil em duas grandes
+·reas: Legal ou Fiscal e Gerencial. AlÈm dessas ·reas, tem-se a ·rea de an·lise,
+dada a caracterÌstica gerencial da Contabilidade, tambÈm de suma import‚ncia.
+A figura 03 mostra as ·reas descritas, juntamente com suas funÁıes.
+A Contabilidade, dentro do processo de
+gest„o organizacional, passa a ser
+parte integrante e fundamental das
+tomadas de decis„o
+
+-- 43 of 88 --
+
+34
+FINAN«AS
+EMPRESARIAIS
+FONTE: TC/IOB
+FIGURA 2 - FLUXO DAS INFORMA«’ES CONT¡BEIS
+
+-- 44 of 88 --
+
+35
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Conclus„o
+H· uma profunda mudanÁa na vis„o empresarial sobre a forma e a
+finalidade da Contabilidade em nossos dias. A antiga preocupaÁ„o fiscal d·
+espaÁo permanente para a estrutura de uma cultura societ·ria e gerencial da
+Contabilidade. A Contabilidade, dentro do processo de gest„o organizacional,
+passa a ser parte integrante e fundamental das tomadas de decis„o. In˙meras
+s„o as razıes apontadas no texto que traduzem a versatilidade e a necessidade
+de utilizaÁ„o do sistema de informaÁıes cont·beis dentro do escopo da
+administraÁ„o empresarial. Assim, cabe retornar ‡ introduÁ„o e aos primeiros
+itens e repensar como se est· interpretando a Contabilidade em nossa
+organizaÁ„o. O controle, ferramenta essencial para a garantia da dirigibilidade
+sistÍmica, È dado pela Contabilidade e, bem utilizado, pode trazer grandes
+contribuiÁıes para o sucesso empresarial, sua continuidade e para a t„o
+desejada maximizaÁ„o da utilizaÁ„o dos recursos empresariais e do capital
+investido, como pode-se perceber ao longo do texto.
+Razıes n„o faltam para o repensar da Contabilidade como instrumento
+de gest„o. InformaÁıes n„o faltam para garantir a aplicabilidade da Contabilidade
+como ferramenta essencial no processo decisorial nas organizaÁıes.
+
+-- 45 of 88 --
+
+36
+FINAN«AS
+EMPRESARIAIS
+Bibliografia Recomendada
+GIL, Antonio de Loureiro. Sistemas de informaÁıes cont·bil-financeiros. 3.ed.
+S„o Paulo: Atlas, 1999.
+NAKAGAWA, Masayuki. IntroduÁ„o ‡ controladoria. S„o Paulo: Atlas, 1995.
+PADOVEZE, ClÛvis LuÌs. Contabilidade gerencial: um enfoque em sistema de
+informaÁ„o cont·bil. 3.ed. S„o Paulo: Atlas, 2000.
+Resumo
+A Contabilidade vem passando, atualmente, por uma profunda
+transformaÁ„o, sendo inserida dentro do ambiente de sistemas de informaÁıes
+gerenciais nas organizaÁıes. O papel do controle, dentro do processo
+orÁament·rio, vem ganhando espaÁo nas tomadas de decisıes empresariais,
+fornecendo subsÌdios e seguranÁa para a correta aplicaÁ„o das informaÁıes
+decisoriais. Assim, como fonte cognitora das demais ·reas, a Contabilidade
+destaca-se por sua import‚ncia fundamental como captadora, produtora e
+fonte de informaÁıes, de forma sistÍmica nas companhias. A Contabilidade
+passa a ser entendida, ent„o, como um componente da gest„o, inclusive no
+ambiente estratÈgico empresarial. O controle, utilizado adequadamente, traz
+como conseq¸Íncia: maior seguranÁa, reduÁ„o de riscos na tomada de decisıes
+e melhor desempenho na utilizaÁ„o dos recursos empresariais e do capital
+investido.
+
+-- 46 of 88 --
+
+37
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Edison Kuster
+A	A	A	A	AdministraÁ„o F	F	F	F	Financeira
+Nilson Danny Nogacz
+3
+O que È realmente importante saber para uma boa administraÁ„o
+financeira? Esta pergunta È comum entre os empres·rios, em especial aos
+pequenos e microempres·rios, mas È de difÌcil elaboraÁ„o. Pode-se dizer que
+tudo na administraÁ„o financeira È importante, mas, se fosse necess·rio eleger
+apenas um item, mesmo assim citarÌamos duas estratÈgias, que ao nosso ver s„o
+de extrema import‚ncia, para o sucesso de uma empresa e de seus comandantes.
+O principal papel do Administrador Financeiro È o relativo ‡ tesouraria
+da empresa, ou seja, cuidar efetivamente do dinheiro, sua entrada e saÌda, e
+logicamente preservar o retorno exigido pelos acionistas. Neste sentido È
+necess·rio buscar um pleno entendimento da AdministraÁ„o de Caixa da empresa
+e o Custo ao qual este fluxo est· submetido. A administraÁ„o de caixa est·
+intimamente ligada ao ciclo operacional da empresa e o custo de capital ao
+financiamento deste ciclo.
+Vejamos agora maiores detalhes sobre ambas as abordagens, bem como
+exemplos para melhor entendimento.
+1 	AdministraÁ„o de caixa
+A administraÁ„o do caixa compreende uma tarefa de suma import‚ncia
+para a empresa. A grande maioria dos fracassos empresariais tem fortalecido a
+convicÁ„o de que a principal raz„o da chamada mortalidade precoce das
+pequenas e mÈdias empresas È a falta da habilidade gerencial de seus
+administradores. Estas empresas normalmente nascem atravÈs de uma idÈia
+de negÛcios proposta por empres·rios que conhecem profundamente a funÁ„o
+
+-- 47 of 88 --
+
+38
+FINAN«AS
+EMPRESARIAIS
+tÈcnica a ser exercida, porÈm n„o se preocupam com a funÁ„o administrativa
+financeira da empresa. Esses empres·rios acreditam que, produzindo bens de
+alta qualidade e demanda, est„o dispensados de dedicar tempo ‡ boa
+administraÁ„o, relegando esta tarefa a funcion·rios sem preparo, ao invÈs de
+contratarem alguÈm apto para fazÍ-lo em seu lugar. Empresa alguma poder·
+crescer ou mesmo sobreviver, sem um gerenciamento adequado na ·rea
+administrativa. … essencial a essa funÁ„o administrativa o conhecimento dos
+procedimentos financeiros e cont·beis disponÌveis, bem como a sua melhor
+utilizaÁ„o para o acompanhamento, controle, ajuste e projeÁ„o dos resultados
+da empresa.
+O demonstrativo do Fluxo de Caixa È o instrumento financeiro que
+permite ao administrador monitorar a evoluÁ„o do equilÌbrio ou desequilÌbrio
+entre a entrada e a saÌda de dinheiro durante um perÌodo determinado,
+possibilitando a adoÁ„o antecipada de medidas que possibilitem assegurar a
+disponibilidade de recursos para o atendimento das necessidades de caixa.
+Elaborado em perÌodos, o fluxo de caixa deve compreender um resumo
+do cronograma das despesas e investimentos, das receitas previstas e Èpocas
+de realizaÁıes, dos pagamentos parciais ou totais de obrigaÁıes, bem como
+de novas obrigaÁıes a contratar, possibilitando prever:
+ï 	As projeÁıes das entradas e saÌdas de recursos;
+ï 	Os perÌodos deficit·rios e superavit·rios da projeÁ„o;
+ï 	Os resultados finais por perÌodos.
+1.1 	Estabelecendo os controles
+A administraÁ„o do Caixa constitui ferramenta fundamental para a boa
+administraÁ„o dos recursos financeiros em qualquer empresa, independente
+de seu tamanho. A previs„o de caixa preparada pelo administrador financeiro
+somente ter· sucesso com o esforÁo conjunto dos v·rios departamentos da
+empresa. A previs„o de vendas, as condiÁıes das vendas, incluindo prazos
+de recebimentos, s„o geralmente de responsabilidade do pessoal de vendas.
+Os gastos de produÁ„o s„o definidos com o auxÌlio do pessoal de produÁ„o e
+contabilidade de custos.
+… essencial para a funÁ„o administr
+ativa o conhecimento dos procedimentos
+financeiros e cont·beis disponÌveis
+
+-- 48 of 88 --
+
+39
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Todos os demais departamentos envolvidos no processo da
+administraÁ„o dever„o proceder de forma a evitar custos e despesas excessivas
+e procurar a maior receita para as suas atividades. Uma constante comunicaÁ„o
+entre os diversos setores e o setor financeiro È fundamental para o sucesso do
+gerenciamento das disponibilidades.
+Com a entrada das diversas informaÁıes di·rias e dos documentos
+internos provenientes do setor financeiro, inicia-se a fase de controle de dados
+relativos a:
+1.∫ MovimentaÁ„o Financeira
+ï 	Registro das entradas e saÌdas, de tal forma que se permita comparar
+as previsıes com o realizado;
+ï 	Conhecimento de todas as movimentaÁıes financeiras:
+- 	Quais s„o as receitas e despesas?
+- 	Em que datas ir„o ocorrer?
+- 	Qual o meio de movimentaÁ„o?
+- 	Se s„o constantes, di·rias, semanais ou mensais.
+2.∫ Controle do Pessoal
+ï 	Estrutura de Recursos Humanos existente, com determinaÁ„o de
+suas peculiaridades relativas:
+- 	Profissionais efetivos;
+- 	Profissionais tempor·rios;
+- 	Trainees (estagi·rios).
+ï 	Despesas agregadas relativas a encargos trabalhistas, contribuiÁıes.
+3.∫ Controle de m·quinas, veÌculos e equipamentos
+ï 	Consumo de combustÌvel e ou energia;
+ï 	ServiÁos executados;
+ï 	ManutenÁ„o preventiva;
+ï 	ManutenÁ„o corretiva;
+ï 	PeÁas e elementos controlados.
+4∫ Controle de Estoques
+ï 	Entradas e saÌdas de insumos e matÈrias-primas;
+ï 	NÌveis de estoque, datas de compra;
+ï 	Estrutura de armazenagem.
+
+-- 49 of 88 --
+
+40
+FINAN«AS
+EMPRESARIAIS
+2 	Montagem do fluxo de caixa
+A seguir ser· elaborado um exemplo da montagem de um fluxo de caixa
+para demonstrar sua simplicidade e comprovar sua utilizaÁ„o como instrumento
+de ajuda na tomada de decis„o, por parte do administrador financeiro.
+A partir dos dados fornecidos nos quadros 1 e 2, ser· criado um fluxo
+de caixa projetado para os meses de junho a outubro de 20 X 0.
+… necess·rio considerar ainda as seguintes informaÁıes adicionais:
+ï 	O perÌodo inicial È fevereiro de 20 X 0;
+ï 	O perÌodo projetado ser· atÈ outubro de 20 X 0;
+ï 	Saldo de R$ 22.600,00 com inÌcio em junho;
+ï 	CondiÁıes dos negÛcios operacionais:
+ï 	As vendas ser„o em 4 parcelas postecipadas;
+ï 	As compras ser„o em 3 parcelas antecipadas.
+ï 	O saldo de caixa deve ser ajustado mensalmente em R$ 3.000,00;
+ï 	Deve-se efetuar emprÈstimos quando da falta de caixa a uma taxa de
+juros de 4% ao mÍs;
+ï 	A sobra de caixa dever· ser aplicada com remuneraÁ„o de 0,87% a.m.
+
+-- 50 of 88 --
+
+41
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+2.1 	Ajuste no regime de competÍncia para
+regime de caixa
+Considerando-se que as informaÁıes do volume de compras e vendas
+(quadro 1) encontram-se sob o regime de competÍncia, isto È, baseiam-se nos
+valores de notas com datas dos fatos geradores, ser· necess·rio efetuar o
+ajuste para o regime de caixa, ou seja, identificar qual o volume financeiro da
+movimentaÁ„o de caixa a cada perÌodo de interesse.
+Uma compra realizada no mÍs de fevereiro estar· influenciando a
+movimentaÁ„o financeira do caixa atÈ o pagamento da ˙ltima parcela negociada
+com o fornecedor, do mesmo modo que a venda de produto ou serviÁos pela
+empresa, quando realizada a prazo, ir· afetar a movimentaÁ„o do caixa atÈ o
+registro da previs„o de entrada da ˙ltima parcela concedida ao cliente. Desta
+forma È importante levar em consideraÁ„o que o lucro lÌquido È um conceito
+estritamente cont·bil, pois È apurado tradicionalmente pelo regime de
+competÍncia, e o fluxo de caixa È montado a partir da movimentaÁ„o financeira,
+entrada e saÌda de recursos. N„o sendo, portanto, aconselh·vel se tentar
+comparar os resultados cont·beis com o resultado financeiro da empresa,
+pois os mesmos ocorrem em tempos diferentes.
+a) Com este objetivo e considerando-se a informaÁ„o adicional das
+condiÁıes de negÛcios (03 parcelas mensais antecipadas)
+identificam-se os valores destinados ‡s compras:
+
+-- 51 of 88 --
+
+42
+FINAN«AS
+EMPRESARIAIS
+b) Para ajustar as informaÁıes sobre as vendas, tambÈm observando
+as condiÁıes de negÛcios (04 parcelas mensais postecipadas),
+identificam-se os valores destinos ‡s vendas:
+c) Considerando que as demais informaÁıes do exercÌcio encontram-
+se no regime de caixa, para se efetuar a montagem do fluxo final ser·
+suficiente que se obedeÁam os critÈrios estabelecidos para cada
+uma das contas relacionadas. Desta forma È importante levar em
+consideraÁ„o que o lucro lÌquido È um conceito estritamente cont·bil,
+pois È apurado tradicionalmente pelo regime de competÍncia, e o
+fluxo de caixa È montado a partir da movimentaÁ„o financeira, entrada
+e saÌda de recursos. N„o sendo, portanto, aconselh·vel se tentar
+comparar os resultados cont·beis com o resultado financeiro da
+empresa, pois os mesmos ocorrem em tempos diferentes.
+
+-- 52 of 88 --
+
+43
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+2.2 	Fluxo de caixa
+O saldo inicial de R$ 22.600,00, foi informado como mÍs de junho de
+20 X 0 .
+Para a montagem do Fluxo de Caixa, foram consideradas 05 (cinco)
+modalidades de critÈrios de projeÁıes:
+1.∫ Contas: Marketing e CombustÌveis, foi efetuado o levantamento
+de consumo a partir do mÍs de fevereiro e projetado com acrÈscimos
+conformes.
+2.∫ Contas: Aluguel e Administrativas, fixando uma verba para os
+prÛximos perÌodos.
+3.∫ Contas: Comissıes e Sal·rios, determinando uma verba baseada
+em percentual das vendas do mÍs anterior.
+4.∫ Os impostos s„o pagos no mÍs seguinte sobre a movimentaÁ„o
+das compras e vendas, sem regime de compensaÁ„o.
+5.∫ Demais contas possuem mÍs especÌfico para cada ocorrÍncia.
+
+-- 53 of 88 --
+
+44
+FINAN«AS
+EMPRESARIAIS
+3 	Custo de capital
+Custo de capital pode ser definido como o custo dos recursos
+financeiros prÛprios e/ou de terceiros utilizados pela empresa em seu ciclo
+operacional ou empreendimento. A boa administraÁ„o financeira propıe que
+todo investimento ou uso de capital merece uma rigorosa an·lise de viabilidade,
+buscando avaliar as alternativas perante o custo do capital. Como as
+alternativas existentes para o financiamento do ciclo operacional e ou capital
+de giro s„o diversas, È de extrema import‚ncia que o administrador financeiro
+busque conhecer o custo efetivo de cada uma destas fontes, atravÈs dos
+instrumentos de an·lise competentes, para posterior tomada de decis„o.
+A utilizaÁ„o de capital de terceiros È vantajosa quando seu custo se
+apresenta inferior ‡ taxa de retorno prevista. PorÈm, mesmo com esta vantagem,
+existe o risco do endividamento pela eventual falta de lucratividade na operaÁ„o.
+3.1 	Os custos relativos
+Ao se calcular o custo de capital de uma operaÁ„o, torna-se importante
+considerar todas as despesas existentes, pois as instituiÁıes financeiras, pelas
+caracterÌsticas de seus negÛcios, passam a exigir reciprocidades diversas.
+Considera-se como reciprocidade todo e qualquer recurso utilizado por uma
+empresa na obtenÁ„o do capital, seja a curto, mÈdio ou longo prazo, que
+podem ser desde o simples saldo mÈdio atÈ contraprestaÁıes de aplicaÁıes
+financeiras, seguros, planos previdenci·rios, pagamento de fornecedores,
+centralizaÁ„o de folha de pagamento, recolhimento de encargos, impostos,
+taxas, contribuiÁ„o de melhoria, e ainda, em alguns casos, favores. Outras
+despesas, muitas vezes esquecidas pelos empres·rios, s„o aquelas decorrentes
+dos custos com alienaÁıes, hipotecas, transferÍncias, emiss„o de documentos,
+viagens de funcion·rios para obter liberaÁıes especiais, entre outras. Especial
+atenÁ„o deve ser dada ‡s custas de fornecimento de garantias, pois
+considerando que a maioria das instituiÁıes tem interesse em Garantias Reais
+(representadas pela transferÍncia de um bem tangÌvel e especÌfico), o financeiro
+deve considerar todas as despesas de transferÍncias como escritura e registro,
+A boa administraÁ„o financeira propıe que
+todo investimento ou uso de capital mereÁa
+uma rigorosa an·lise de viabilidade
+
+-- 54 of 88 --
+
+45
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+tanto na passagem do bem para a posse da instituiÁ„o como para o retorno da
+posse do bem, apÛs a quitaÁ„o do emprÈstimo. Neste momento È de grande
+import‚ncia a habilidade do financeiro em negociar com a instituiÁ„o uma
+garantia que n„o represente grande Ùnus de transferÍncia, apesar de oferecer
+tranq¸ilidade para a instituiÁ„o.
+Dentre os diversos aspectos do custo de capital, podemos citar o
+custo relativo ‡ dÌvida, que nada mais È do que o custo relativo ‡ taxa aplicada
+sobre um financiamento/emprÈstimo qualquer, ou ainda o custo marginal de
+capital, que projeta na estrutura Ûtima de capital uma nova realidade, oriunda
+de uma nova fonte de recurso, ou ainda, de um novo aporte de recursos. Para
+apurar o custo de capital, a maioria das empresas se utiliza do mÈtodo de
+c·lculo do Valor Presente LÌquido (VPL ), que consiste em apurar o valor
+presente de um fluxo de resultado projetado, utilizando-se de uma taxa mÌnima
+de atratividade para realizar o desconto do fluxo. A taxa mÌnima de atratividade
+( TMA) È a taxa mÌnima que a empresa deseja obter na aplicaÁ„o de um projeto
+ou negÛcio.
+Outro mÈtodo tambÈm largamente utilizado È a Taxa Interna de Retorno
+( TIR ), que consiste em determinar qual a taxa pela qual um investimento se
+equipara ao seu retorno num perÌodo de tempo, considerando as entradas de
+um fluxo projetado. Ambos os modelos podem ser facilmente apurados com
+uma calculadora financeira, em especial a HP 12 C.
+3.2 	Custo mÈdio ponderado de capital
+Quando uma empresa necessita buscar recursos para atender suas
+necessidades de capital, seja ele de curto, mÈdio ou longo prazo, estes poder„o
+n„o ser de uma ˙nica fonte, e portanto n„o necessariamente possuÌrem o
+mesmo custo. Neste sentido se faz necess·rio apurar o custo mÈdio ponderado
+que possibilite realizar uma an·lise sobre a viabilidade ou n„o de se buscar
+estes recursos.
+O primeiro passo È determinar quais os ativos que compor„o a an·lise
+e qual È seu custo efetivo. Importante salientar que todas as taxas dever„o
+obrigatoriamente estar na mesma base de tempo (dia, mÍs etc.). Supondo que
+uma empresa necessite de um montante de R$ 50.000,00 para implementar um
+projeto de expans„o e verificando as fontes de recursos disponÌveis no
+mercado, identificou-se a possibilidade de compor este capital necess·rio
+para servir de base ao financiamento deste projeto, as fontes de recursos
+descritas no quadro 6.
+
+-- 55 of 88 --
+
+46
+FINAN«AS
+EMPRESARIAIS
+O segundo passo ser· apurar a proporÁ„o que cada ativo representa
+no somatÛrio dos R$ 50.000,00. Neste sentido a valor de R$ 20.000,00 relativo
+ao ativo Financiamento È equivalente a 40% do valor total, como demonstra o
+quadro 7.
+O terceiro passo ser· calcular o custo proporcional de cada ativo em
+relaÁ„o ‡ sua participaÁ„o no total necess·rio para o projeto. O processo È bastante
+simples, bastando multiplicar o Custo do Ativo pela proporÁ„o de participaÁ„o
+deste ativo. Antes de realizar este c·lculo È necess·rio converter a proporÁ„o da
+forma percentual para a forma unit·ria, conforme demonstra o quadro 8.
+
+-- 56 of 88 --
+
+47
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+ApÛs a apuraÁ„o do custo proporcional, procede-se ao somatÛrio
+destes, apurando assim o custo mÈdio ponderado para o projeto, que no
+exemplo acima ficou em 4,90% ao mÍs.
+Como percebido pelo exemplo acima, o Custo MÈdio Ponderado de
+capital possui a import‚ncia de servir como indicador dos custos relativos
+aos m˙ltiplos ativos financeiros que uma empresa possa buscar no mercado a
+fim de financiar seus projetos, e em especial servir de comparaÁ„o, com demais
+ativos tanto internos como externos ‡ empresa. Outra importante raz„o para o
+seu c·lculo È possibilitar ao administrador financeiro realizar simulaÁıes a fim
+de encontrar um custo ponderado menor, dentro dos limites de cada ativo que
+o mercado concede ‡ empresa.
+
+-- 57 of 88 --
+
+48
+FINAN«AS
+EMPRESARIAIS
+Bibliografia recomendada
+GITMAN, Lauwrence J. PrincÌpios da administraÁ„o financeira. S„o Paulo:
+Harbra, 2001.
+SANTOS, Edno Oliveira dos. AdministraÁ„o financeira da pequena e mÈdia
+empresa. S„o Paulo: Atlas, 2001.
+ZDANOWICZ, JosÈ Eduardo. Fluxo de caixa: uma decis„o de planejamento e
+controle financeiro. Porto Alegre: Sandra Luzzata, 1998.
+Resumo
+Contextos econÙmicos modernos de concorrÍncia de mercado exigem das
+empresas maior eficiÍncia na gest„o financeira de seus recursos, n„o cabendo
+indecisıes e improvisaÁıes sobre o que fazer com eles. Sabidamente, uma boa
+gest„o de recursos financeiros reduz substancialmente a necessidade de capital
+de giro, proporcionando maiores lucros com a reduÁ„o das despesas
+financeiras. Se os fluxos de caixa s„o otimizados, obtÈm-se maior seguranÁa
+na utilizaÁ„o do capital de giro. Essa È e deve ser a preocupaÁ„o constante das
+empresas, pois os custos financeiros podem absorver valores significativos
+da sua receita operacional. A preocupaÁ„o com o fluxo de caixa n„o deve ser
+exclusiva das grandes empresas; uma instituiÁ„o religiosa, empresa estatal,
+empresa privada, comercial, industrial ou de serviÁos tambÈm necessitam de
+um fluxo bem gerenciado com a finalidade de atingir os seus objetivos de
+maneira adequada. Somente um Fluxo de caixa bem otimizado poder·
+dimensionar com seguranÁa o capital de giro.
+
+-- 58 of 88 --
+
+49
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Cleonice Bastos Pompermayer
+G	G	G	G	Gest„o de C	C	C	C	Custos
+Jo„o Evangelista Pereira Lima
+4
+O recÈm-findo sÈculo XX foi excessivamente prÛdigo para a humanidade em
+conquistas cientÌficas, tÈcnicas e em recursos materiais e humanos, principalmente
+para o mundo dos negÛcios com a evoluÁ„o r·pida e alucinante das atividades
+econÙmicas, apÛs a consolidaÁ„o da RevoluÁ„o Industrial (1760-1860).
+As mudanÁas ocorridas no sÈculo XX, pela sua rapidez, qualidade e
+quantidade, foram, relativamente, mais significativas e diversificadas do que todo
+o progresso econÙmico e social da humanidade desde a era dos australopitecos
+atÈ o fim do sÈculo XIX.
+Sem d˙vida alguma, a RevoluÁ„o Industrial ergueu um marco significativo
+e indelÈvel na histÛria da vida do homem sobre a terra.
+Essas conquistas, frutificadas em todas as ciÍncias, s„o conseq¸Íncias
+da dedicaÁ„o e das pesquisas cientÌficas dos homens que, associadas aos in˙meros
+interesses econÙmicos e financeiros das organizaÁıes e das naÁıes, trazem
+para a humanidade, ao longo do tempo, mais progresso e desenvolvimento. Os
+povos caminham embalados e escorados pelas ciÍncias.
+Verifica-se que o homem do limiar do terceiro milÍnio desfruta de um
+melhor padr„o de qualidade de vida ñ a expectativa de vida, em 1900, era de 40
+anos e em nossos dias est· estimada em 70 anos. N„o obstante, nesse cen·rio de
+atraentes paisagens, depara-se o homem, em contrapartida, com enormes desafios,
+destacando-se a preservaÁ„o do meio ambiente, o indeclin·vel compromisso com
+a paz, o extermÌnio da violÍncia e os crÙnicos problemas sociais.
+Os homens acompanham e s„o, ao mesmo tempo, os protagonistas do
+surgimento e evoluÁ„o de novas tÈcnicas de produÁ„o, geradoras de in˙meras
+possibilidades de atendimento das suas necessidades de consumo. Constata-
+se, principalmente nas organizaÁıes, que os empreendedores se postam diante
+de um novo cen·rio de ordem econÙmica e social, cujo nome È globalizaÁ„o.
+
+-- 59 of 88 --
+
+50
+FINAN«AS
+EMPRESARIAIS
+Os negÛcios est„o diferentes, mais competitivos e de ganhos mais difÌceis e
+modestos. Nos dias atuais, a gest„o dos negÛcios requer mais arg˙cia, mais
+dedicaÁ„o e muita persistÍncia. O ambiente de negÛcios È outro.
+As organizaÁıes, empresas ou qualquer outro tipo de entidade, n„o s„o
+estruturadas por forÁas isoladas, que se interligam com a aparÍncia de um
+todo fragmentado. Elas, ao contr·rio, s„o forÁas coesas e, guindadas pela sua
+miss„o e seus objetivos, promovem o desenvolvimento da comunidade, da
+cidade, da regi„o e da macroeconomia em que est„o inseridas. No cumprimento
+da sua miss„o, as organizaÁıes desenvolvem suas atividades econÙmicas,
+buscando cumprir suas principais funÁıes: patriÛtica, mercadolÛgica,
+tecnolÛgica, social e econÙmica, o que torna os negÛcios mais atraentes e mais
+ricos em reciprocidade.
+A funÁ„o econÙmica n„o È a principal, mas È imprescindÌvel. Auferir e
+aferir lucro È a exigÍncia maior de qualquer atividade econÙmica. As demais
+funÁıes se revestem de significativa import‚ncia se a funÁ„o econÙmica for
+atendida. O lucro, sob qualquer tÌtulo, È a seiva que nutre e robustece o
+patrimÙnio das entidades. Entretanto, o lucro n„o È apenas uma simples
+verificaÁ„o de uma desigualdade. Se o valor da receita È maior do que o valor
+da despesa o resultado È lucro (R > D = L); o lucro È a conseq¸Íncia da soma
+parcial ou total de qualidade e produtividade, de emoÁ„o e raz„o, de intuiÁ„o
+e lÛgica, de capacidade empresarial e trabalho, de fÈ e persistÍncia, de firmeza
+e equilÌbrio, de vontade e garra.
+O lucro deixou de ser atributo da receita, das vendas, mas, sim, funÁ„o
+resultante dos custos incorridos, de tal modo que, almejar lucro, È conter
+custos. Lucros e custos s„o grandezas inversamente proporcionais. O lucro
+ser· m·ximo se o custo for mÌnimo.
+Diante dessa realidade inconteste, as empresas ñ pequenas, mÈdias e
+grandes ñ carecem de ferramentas eficientes, para serem utilizadas nos
+processos de gest„o dos negÛcios. A institucionalizaÁ„o nas empresas de
+uma transformaÁ„o comportamental alicerÁada na pr·tica efetiva de nova cultura
+de custos, consubstanciada em tÈcnicas modernas de produÁ„o e de
+administraÁ„o de recursos financeiros e humanos, È o caminho mais eficaz
+para a boa gest„o de custos. Em qualquer circunst‚ncia, È sempre possÌvel
+conter custos, seja pela racionalidade das tarefas, pelo combate implac·vel
+aos desperdÌcios e pela eliminaÁ„o dos supÈrfluos.
+A boa gest„o de custos nas empresas È dependente e conseq¸ente da
+coragem decisÛria dos administradores em mudar processos e comportamentos.
+
+-- 60 of 88 --
+
+51
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+1 	A import‚ncia da gest„o de custos
+Os primeiros indÌcios arqueolÛgicos da existÍncia e evoluÁ„o da
+contabilidade datam entre os anos 8000 e 3000 a.C., cuja mensuraÁ„o e controle
+eram feitos por um sistema rudimentar, constituÌdo de pequenas fichas de
+barro de formas variadas. Com o surgimento da escrita cuneiforme, a
+comunicaÁ„o cont·bil ficou aperfeiÁoada. Os babilÙnios, em 2100 anos a.C., j·
+registravam as trocas; no ImpÈrio Romano (200 a.C.) as contas governamentais
+eram escrituradas. Em 1494, Fra Luca Pacioli publicou La Summa de Arithmetica,
+contendo o capÌtulo Tractatus XI ñ De computis et scripturis, formalizou o
+mÈtodo da partida dobrada.
+Os fundamentos cont·beis, na era mercantilista, sÈculos XVI e XVIII,
+deram suporte ‡ Contabilidade Financeira. Na RevoluÁ„o Industrial, perÌodo
+de 1760 atÈ 1860, originou a Contabilidade de Custos, como complemento da
+Contabilidade Financeira. No inÌcio do sÈculo XX, principalmente apÛs 1929,
+vicejou nos meios cont·beis e empresariais a Contabilidade Gerencial.
+Busca-se com freq¸Íncia delimitar as ·reas de aplicaÁ„o da
+Contabilidade Financeira e da Contabilidade Gerencial. Esses limites, para fins
+de gest„o, n„o est„o definidos. Ambas se complementam e se completam.
+A gest„o de custos, todavia, est· alÈm das tÈcnicas tradicionais da
+contabilidade. Sob o enfoque cont·bil, os custos podem ser analisados como
+Custo Cont·bil e Custo Gerencial. O Custo Cont·bil, subordinado ‡
+Contabilidade Financeira, est· 	disciplinado por normas legais tÈcnicas
+(princÌpios cont·beis), fiscais (compulsoriedade na aplicaÁ„o das leis) e
+societ·rias (fatos passados e rigidez formal).
+O Custo Gerencial, embora n„o objetive desrespeitar as leis, n„o est·
+vinculado a elas. Compromete-se com a eficiÍncia pela reduÁ„o dos gastos,
+atravÈs de estudos e an·lises voltados para a mudanÁa de processos, gest„o
+financeira adequada e para o atendimento de questıes especiais relacionadas
+com a logÌstica do atendimento correto aos clientes.
+2 	Custos como elemento estratÈgico
+As mudanÁas de processos e comportamentos s„o o foco de um plano
+estratÈgico elaborado e posto em pr·tica nas empresas. O perfil dos mercados
+de bens e serviÁos mostra que as empresas bem preparadas s„o sempre vitoriosas:
+os bens dos incompetentes s„o transferidos para o patrimÙnio dos competentes.
+
+-- 61 of 88 --
+
+52
+FINAN«AS
+EMPRESARIAIS
+A boa gest„o de custos tem seu grande objetivo na maximizaÁ„o dos
+lucros, cuja efic·cia mais contundente È a conquista natural da lideranÁa em
+custos. … esta a estratÈgia competitiva principal para levar uma empresa a
+conquistar mais fatias e permanÍncia assegurada no mercado.
+As estratÈgias competitivas, na busca de um novo caminho para a
+empresa enfrentar o futuro, passam, inevitavelmente, pela estruturaÁ„o da
+teoria do seu negÛcio. A an·lise, estudo e formulaÁ„o dessas estratÈgias
+baseiam-se nas tÈcnicas administrativas propostas, no inÌcio do sÈculo XX,
+por Taylor, fundamentadas na organizaÁ„o cientÌfica do trabalho (tarefas); por
+Mayo, concentradas nos aspectos comportamentais das pessoas (capacitaÁ„o)
+e, finalmente, por Fayol, o defensor da organizaÁ„o cientÌfica da gest„o, cuja
+efic·cia obedece seis funÁıes b·sicas: tÈcnica (processo), comercial (compra
+e venda), financeira (aportar e aplicar recursos), cont·bil (mensurar e registar
+fatos), seguranÁa (preservar o patrimÙnio e pessoas) e administrativa (planejar,
+organizar, comandar, coordenar e controlar.
+3 	Fundamentos b·sicos
+As atividades econÙmicas
+As tÈcnicas para apuraÁ„o de custos, sejam cont·beis ou gerenciais,
+s„o aplic·veis em todos os negÛcios, de um modo geral, principalmente para
+planejar, administrar e controlar as atividades econÙmicas resultantes de cada
+negÛcio que pode, resumidamente, explorar atividade industrial, comercial ou
+prestaÁ„o de serviÁo. As atividades exploradas pelas empresas s„o as fontes
+geradoras de recursos: s„o as receitas resultantes das vendas de bens e/ou
+serviÁos. Essas atividades s„o conhecidas como atividades ìfimî. As demais
+atividades das empresas s„o denominadas atividades ìmeioî.
+Os gastos com as atividades ìfimî denominam-se ìcustosî. Por outro
+lado, os gastos com as atividades ìmeioî s„o conhecidos como ìdespesasî.
+Os controles proporcionados pelos registros cont·beis dos gastos, custos e
+despesas, s„o a essÍncia da Contabilidade de Custos.
+Sistema de custos È o conjunto dos
+meios e mÈtodos que a empresa utilizar·
+para obter informaÁıes gerenciais
+
+-- 62 of 88 --
+
+53
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Os gastos e as atividades
+Denomina-se atividade a combinaÁ„o adequada e harmoniosa de um
+conjunto de pessoas, tecnologias, recursos e mÈtodos.
+Conceitualmente, custos s„o todos os gastos, em bens e serviÁos,
+utilizados na produÁ„o de outros bens e/ou serviÁos. Os gastos incorridos na
+fabricaÁ„o de um produto (ind˙stria), na compra de uma mercadoria (comÈrcio)
+ou na prestaÁ„o de um serviÁo (serviÁo) s„o caracterizados, tecnicamente, como
+custos, porque s„o gastos com a atividade ìfimî. Enquanto considerados como
+custos, os valores desses gastos representam valores em bens ou direitos.
+Pode-se, ent„o, considerar que custos s„o ativos que se transformam em ativos.
+Ainda, conceitualmente, despesas s„o os gastos em bens ou serviÁos
+utilizados, consumidos ou transferidos para se obter uma receita. Portanto, as
+despesas est„o vinculadas ‡s atividades ìmeioî.
+Gastos das atividades ìFIMî
+Na ind˙stria, a atividade ìfimî È produzir produtos para vender. Os
+gastos com a produÁ„o chamam-se ìCusto industrialî (custo fabril ou custo
+de transformaÁ„o). O custo industrial dos produtos È a soma dos componentes
+de matÈria-prima, m„o-de-obra direta e custos indiretos de fabricaÁ„o.
+Cada componente de custo tem tratamento cont·bil especÌfico, porque
+È dotado de minuciosos detalhes de ordem fiscal, econÙmica e administrativa.
+Os componentes de custos podem ser reunidos em dois grupos: Custos
+prim·rios s„o os valores representativos da soma dos componentes de matÈria-
+prima e m„o-de-obra direta. Os custos de transformaÁ„o s„o os valores da
+soma dos componentes de m„o-de-obra direta e custos indiretos de fabricaÁ„o.
+Observa-se que a transformaÁ„o efetiva-se no componente de matÈria-prima.
+No comÈrcio, a atividade ìfimî È a compra e venda de mercadorias.
+Portanto, os custos, qualitativamente, s„o poucos e os c·lculos dos custos
+s„o mais simples.
+Nos serviÁos, a atividade ìfimî È a prestaÁ„o de serviÁos. Os gastos
+incorridos com a prestaÁ„o de serviÁos s„o de conotaÁıes diferentes das
+atividades industrial e comercial. Na prestaÁ„o de serviÁos, geralmente, os
+gastos mais representativos s„o oriundos do trabalho do pessoal, sem se
+considerar que os demais gastos n„o s„o passÌveis de controles.
+
+-- 63 of 88 --
+
+54
+FINAN«AS
+EMPRESARIAIS
+Gastos das atividades ìMEIOî
+Conceituou-se que os gastos com as atividades ìmeioî s„o
+denominados despesas. Para fins de gest„o de custos, a segregaÁ„o dos
+gastos, em custos e despesas, n„o dispensa o controle individual de cada
+espÈcie de gasto. Pelo contr·rio, os controles e a apuraÁ„o dos custos devem
+ser abrangentes. A gest„o da atividade econÙmica e do negÛcio È primordial
+para o Íxito do desempenho reditual das organizaÁıes.
+Na continuidade, apresenta-se a vis„o gerencial dos custos, abordando-
+se os sistemas de custos e os mÈtodos de custeio.
+4 	Vis„o gerencial dos custos
+Quanto mais intensa a concorrÍncia a que estiver submetida uma
+empresa, mais importante ser· dispor de um sistema de custos que lhe permita
+conhecer seus custos e, a partir daÌ, encontrar uma posiÁ„o vantajosa diante
+de seus concorrentes.
+A introduÁ„o ou manutenÁ„o de uma gest„o de custos eficaz exige,
+sem d˙vida, cuidados que se estendem desde a compreens„o de um sistema
+de custos atÈ a interaÁ„o e aceitaÁ„o deste pelos membros da empresa.
+Custos - Centro Processador de InformaÁıes
+Segundo Leone (2000, p. 21), ìa vis„o gerencial dos custos completa-
+se no momento em que visualizamos custos na empresa e/ou instituiÁ„o como
+um centro processador de informaÁıes, que recebe (ou obtÈm) dados, acumula-
+os de forma organizada, analisa-os, interpreta-os, produzindo informaÁıes de
+custos para diversos nÌveis gerenciaisî.
+
+-- 64 of 88 --
+
+55
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+O processamento dos dados e obtenÁ„o das informaÁıes compreende
+trÍs fases distintas: a coleta de dados, que consiste no levantamento e na
+seleÁ„o dos dados relevantes, planejamento de como esses dados ser„o
+colhidos, sendo necess·rio um treinamento das pessoas da empresa que
+elaborar„o o levantamento desses dados.
+Esses dados ser„o processados por meio do centro processador que
+os receber· e os transformar· em informaÁıes. Nesta fase È de fundamental
+import‚ncia uma definiÁ„o das reais necessidades gerenciais da empresa de
+modo a tornar possÌvel uma combinaÁ„o de mÈtodos (existente na teoria de
+custos), a fim de produzir-se um sistema de custos capaz de produzir informaÁıes
+que atendam ‡quelas necessidades gerenciais previamente definidas.
+A terceira fase È a fase considerada, por Leone (2000, p. 25), como
+ìnobreî e consiste na obtenÁ„o das informaÁıes e resultados gerados no
+processamento. Essas informaÁıes e resultados dever„o ser encaminhados
+aos usu·rios do sistema com a finalidade de apoiar o planejamento, apuraÁ„o
+dos custos e tomadas de decisıes.
+Por sistema de custos entende-se, portanto, o conjunto dos meios e
+mÈtodos que a empresa utilizar· para coletar e sistematizar os dados de que
+necessita para produzir informaÁıes.
+MÈtodos de Custeio
+Os mÈtodos de custeio atualmente s„o apresentados e discutidos sob
+a luz de duas correntes. Uma delas È representada pelos chamados mÈtodos
+de custeio tradicionais, que tiveram sua origem na necessidade de se avaliar
+os estoques na ind˙stria nascente, apÛs a RevoluÁ„o Industrial (sÈculo XVIII),
+que era uma tarefa mais simples, atÈ ent„o, na empresa tipicamente
+mercantilista, conforme Martins (2001, p.20).
+Com o passar do tempo, os objetivos dos sistemas de custeio
+tradicionais evoluÌram para a busca de informaÁıes que apoiassem o controle
+das operaÁıes, a an·lise de resultados e o custeio e an·lise dos produtos.
+Os sistemas tradicionais focalizam a apuraÁ„o dos custos em trÍs
+elementos: materiais utilizados na produÁ„o, m„o-de-obra empregada e custos
+indiretos de fabricaÁ„o, tendo os dois primeiros como elementos principais na
+composiÁ„o dos custos dos produtos.
+A atual gest„o de custos apÛia-se em mÈtodos de
+custeios discutidos sob a luz de duas correntes:
+mÈtodos tradicionais e mÈtodos estratÈgicos
+
+-- 65 of 88 --
+
+56
+FINAN«AS
+EMPRESARIAIS
+Esses sistemas possuem a capacidade de fornecer informaÁıes para as
+seguintes necessidades gerenciais:
+∑ 	apuraÁ„o de custos - atravÈs de mÈtodos de acumulaÁ„o por centros/
+custos, por ordem de produÁ„o/serviÁo ou por unidades de esforÁo
+de produÁ„o;
+∑ 	decisıes - mÈtodo de an·lise de margem, estruturado de forma a
+permitir a realizaÁ„o de an·lise de custos fixos, lucro e margem de
+contribuiÁ„o, e ponto de equilÌbrio;
+∑ 	controle - mÈtodos fundamentados no custo-padr„o e na
+contabilidade de custos por responsabilidade.
+A segunda corrente dos mÈtodos de custeio È a da gest„o estratÈgica de
+custos. Esta abordagem tem suas bases nas exigÍncias impostas ‡s empresas
+pelo novo ambiente competitivo globalizado e, paralelamente, pelo crescimento
+da participaÁ„o dos custos indiretos de fabricaÁ„o em relaÁ„o ao total dos
+custos indiretos de fabricaÁ„o em relaÁ„o ao total dos custos, nas ˙ltimas dÈcadas.
+A convivÍncia das empresas nesse novo ambiente pode ser traduzida
+por uma forte press„o pela busca de vantagem competitiva, o que intensifica
+a necessidade e a import‚ncia do uso de uma tecnologia de mensuraÁ„o e
+gest„o de custos capaz de fornecer respostas confi·veis ‡s seguintes questıes:
+∑ 	Qual a margem real de um produto/ou serviÁo, uma vez que o preÁo
+de venda È definido pela concorrÍncia?
+∑ 	Qual o custo da estrutura fixa?
+∑ 	Como reduzir custos para aumentar resultado?
+∑ 	Quais s„o os produtos ou clientes mais rent·veis?
+O gerenciamento dos custos empresariais voltado para esses tipos de
+informaÁıes d· margem para o surgimento de v·rios mÈtodos de custeio,
+baseados na an·lise dos processos operacionais, na melhoria contÌnua e na
+otimizaÁ„o dos custos: custeio baseado em atividades (ABC - Activity-Basead
+Costing), custo-alvo, custo kaizen.
+Metodologia ABC, conceito e objetivo
+Conceito e metodologia
+A metodologia ABC prende-se ao pressuposto de que na realidade os
+custos devem ser analisados sob a seguinte Ûtica: ìQuem consome os recursos
+(materiais, tempo de m„o-de-obra, equipamentos e estrutura) s„o as atividades
+envolvidas nos processos elaborados para atingir-se os produtos e/ou serviÁosî.
+
+-- 66 of 88 --
+
+57
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Essas atividades, portanto, dever„o ser custeadas para que a empresa
+possa avaliar seus custos e benefÌcios no processo como um todo.
+O conceito de custos utilizado por esse mÈtodo pode ser assim resumido:
+ìAs atividades consomem os recursos e quem consome as atividades s„o os
+produtos e/ou serviÁosî.
+Objetivos
+∑ 	Custo das atividades envolvidas num determinado processo;
+∑ 	An·lise das atividades fundamentais nos processos;
+∑ 	AvaliaÁ„o do desempenho;
+∑ 	Conhecimento das atividades a serem otimizadas;
+∑ 	Custo mais preciso dos produtos ou serviÁos;
+∑ 	An·lise e determinaÁ„o de atividades que podem ser executadas
+por terceiros com menor custo e mais eficiÍncia.
+Melhoria contÌnua
+Para atingir uma gest„o de custos eficiente e que, principalmente,
+acompanhe a din‚mica das mudanÁas dos mercados fornecedores e
+consumidores, alÈm de conhecer os custos È imprescindÌvel por parte da
+empresa uma busca constante de reduÁ„o e melhoria contÌnua dos custos.
+Essa reduÁ„o e melhoria contÌnua poder· ser obtida pela utilizaÁ„o dos
+mÈtodos do custo-alvo ou custo-meta, que tem como objetivo o estabelecimento
+de um custo-meta para um produto e/ou serviÁo a partir do preÁo pelo qual o
+consumidor est· disposto a pagar.
+A melhoria contÌnua significa a empresa estar a cada dia, e em todos os
+processos, introduzindo alternativas de reduÁ„o de custos, mantendo a qualidade
+de seu produto e/ou serviÁo final. Esse resultado poder· ser obtido na empresa
+com a pr·tica do mÈtodo Kaizen que significa melhoria contÌnua e constante.
+Dificuldades na ImplantaÁ„o de Gest„o de Custos
+Toda e qualquer implantaÁ„o de uma tecnologia de gest„o nas empresas
+È acompanhada, invariavelmente, de algumas barreiras e dificuldades.
+Em custos, essas dificuldades apresentam aspectos que merecem
+destaque, dada a freq¸Íncia de ocorrÍncia observada nas instituiÁıes:
+∑ 	A barreira da cultura organizacional, do tipo: ìSempre fizemos dessa
+formaî ou mesmo, ìser· que vale a pena?î;
+∑ 	A prioridade dada a outras ·reas, como vendas, operacional,
+administrativo, financeiro e contabilidade, ficando custos geralmente
+em ˙ltima inst‚ncia no planejamento di·rio;
+∑ 	Compreens„o do conceito real de custos, que dever· ser revestido
+de uma abordagem mais profunda, indexada ao uso de recursos;
+∑ 	A absorÁ„o de custos sob a Ûtica de uma revis„o gerencial de um
+
+-- 67 of 88 --
+
+58
+FINAN«AS
+EMPRESARIAIS
+sistema processador de informaÁıes e, finalmente, a adequaÁ„o do
+sistema de custos aos softwares (existentes na empresa);
+∑ 	Apoio da alta direÁ„o da empresa.
+ConsideraÁıes finais
+A trajetÛria estratÈgica escolhida pela empresa ter· influÍncia decisiva
+na definiÁ„o e desenvolvimento do sistema de custos a ser implantado.
+A forma como a empresa est· estruturada, no tocante ‡ organizaÁ„o,
+constitui-se tambÈm num fator que favorecer· ou dificultar· a interaÁ„o dos
+setores, refletindo no sucesso ou ineficiÍncia do sistema de custos.
+O nÌvel tecnolÛgico e recursos de inform·tica utilizados pela empresa
+tambÈm poder„o oferecer alguma resistÍncia, em funÁ„o de adequaÁıes e
+reformulaÁıes que se mostrem necess·rias com a introduÁ„o do sistema.
+A intensidade com que tais questıes se manifestam n„o È uniforme,
+apresentando diferenÁas conforme a qualificaÁ„o de seu quadro gerencial, o
+est·gio de maturidade da empresa entre outras.
+Bibliografia recomendada
+LEONE, George. Custos: planejamento, implantaÁ„o e controle. S„o Paulo: Atlas, 2000.
+MARTINS, Eliseu. Contabilidade de custos. 8. ed. S„o Paulo: Atlas, 2001.
+Resumo
+Este capÌtulo apresentou uma abordagem sobre a gest„o de custos
+enfatizando tanto as mudanÁas atuais observadas no ambiente de negÛcios
+quanto a relev‚ncia de uma boa gest„o de custos na busca da sobrevivÍncia
+das empresas. Essa abordagem deu-se atravÈs da definiÁ„o de estratÈgias
+competitivas compatÌveis com o mercado, no sentido de as empresas enfrentar
+o futuro. Nesse contexto ressaltam-se o papel e a import‚ncia das ciÍncias
+cont·beis com o apoio para a evoluÁ„o da teoria de custos, assim como a
+relev‚ncia dos fundamentos b·sicos a serem utilizados em mÈtodos e princÌpios
+de custeios, desde os mÈtodos tradicionais, metodologias ABC de custeio atÈ
+a melhoria contÌnua. Apresentam-se por fim a vis„o de informaÁıes e as
+principais dificuldades que poder„o surgir no momento da implantaÁ„o de
+sistemas de gest„o de custos.
+
+-- 68 of 88 --
+
+59
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Marcelo Evandro Johnsson
+C	C	C	C	Controladoria
+Valter Pereira Francisco Filho
+5
+O presente capÌtulo tem por objetivo apresentar o conceito e os
+enfoques da Controladoria enquanto ·rea respons·vel por suprir os gestores
+com informaÁıes para otimizar o processo de tomada de decis„o. AlÈm disso,
+s„o apresentados o processo de controle e o processo de planejamento e
+controle orÁament·rio, que constituem as metodologias mais adequadas para
+que a Controladoria desempenhe suas atividades da forma mais din‚mica,
+econÙmica e efetiva possÌvel.
+1 	Conceitos e enfoques
+A Controladoria enquanto ramo do conhecimento, apoiada em
+informaÁıes cont·beis e numa vis„o multidisciplinar, È respons·vel pela
+modelagem, construÁ„o e manutenÁ„o de sistemas de informaÁıes e modelos
+de gest„o das organizaÁıes, que supram adequadamente as necessidades
+informativas dos gestores e os conduzam durante o processo de gest„o,
+quando requerido, a tomarem decisıes Ûtimas. Estas necessidades informativas
+s„o a cada dia maiores, exigindo que a Controladoria deva agir de forma prÛ-
+ativa em relaÁ„o a estas necessidades, o que exige dos profissionais desta
+·rea uma formaÁ„o bastante sÛlida em termos de conhecimentos relativos ao
+processo de gest„o organizacional.
+… necess·rio entender que as organizaÁıes s„o entidades de
+transformaÁ„o de recursos (materiais, humanos, financeiros, tecnolÛgicos etc.)
+que tem por objetivo a geraÁ„o de benefÌcios de natureza material (bens, serviÁos,
+riquezas) e n„o material (de ordem afetiva, intelectual, moral), sempre revertidos
+ao prÛprio homem. Isto as caracteriza como organizaÁıes sociais e econÙmicas.
+
+-- 69 of 88 --
+
+60
+FINAN«AS
+EMPRESARIAIS
+O campo de atuaÁ„o da Controladoria compreende as organizaÁıes,
+caracterizadas como sistemas abertos e din‚micos, interagindo com outros
+num determinado ambiente. Sistema È um conjunto de elementos
+interdependentes que interagem, formando um todo unit·rio e complexo,
+desenvolvendo funÁıes para atingir objetivos comuns. … aberto, pois È capaz
+de interagir com seu ambiente, influenciando-o e ao mesmo tempo sendo
+influenciado. … din‚mico, pois est· em constante transformaÁ„o conforme a
+ocorrÍncia de eventos internos e externos.
+A abordagem sistÍmica das organizaÁıes constitui uma metodologia
+apropriada para o estudo das organizaÁıes, observando suas relaÁıes com o
+ambiente, bem como as relaÁıes existentes entre os elementos internos. …
+possÌvel identificar seis sub-sistemas, componentes do sistema de organizaÁ„o:
+a) Institucional - conjunto de crenÁas, valores e expectativas dos
+propriet·rios que se converte em diretrizes que orientam todos os
+demais sub-sistemas;
+b) FÌsico - compreende todos os elementos materiais do sistema de
+organizaÁ„o, tais como edifÌcios, instalaÁıes, mÛveis, veÌculos,
+equipamentos etc.;
+A controladoria deve promover a efic·cia
+organizacional, viabilizar a gest„o econÙmico-
+financeira e participar ativamente do
+planejamento e controle das operaÁıes
+
+-- 70 of 88 --
+
+61
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+c) Social - refere-se ao conjunto dos elementos humanos na
+organizaÁ„o, incluindo caracterÌsticas pessoais e do grupo. O nÌvel
+de motivaÁ„o e satisfaÁ„o das pessoas reflete-se diretamente no
+desempenho da organizaÁ„o;
+d) Organizacional - representa a organizaÁ„o formal da organizaÁ„o,
+a estrutura departamental, nÌveis hier·rquicos e responsabilidade;
+e) InformaÁ„o - È constituÌdo pelas atividades de obtenÁ„o,
+processamento e geraÁ„o de informaÁıes necess·rias ‡ execuÁ„o e
+gest„o das atividades da organizaÁ„o;
+f) 	Gest„o - refere-se ao processo que orienta a realizaÁ„o das
+atividades da organizaÁ„o. … respons·vel pela din‚mica do sistema:
+planejamento, execuÁ„o e controle das atividades.
+O ambiente externo da organizaÁ„o compıe-se de um conjunto de
+entidades que direta ou indiretamente influenciam e s„o influenciadas por ela.
+Essas influÍncias ocorrem tanto por troca de produtos, recursos, informaÁ„o,
+tecnologia, quanto pela influÍncia de vari·veis polÌticas, econÙmicas, sociais,
+regulatÛrias, ecolÛgicas etc., que determinam a amplitude da gest„o organizacional.
+O ambiente remoto de uma organizaÁ„o È composto por entidades que,
+embora possam n„o se relacionar diretamente com ela, possuem autoridade,
+domÌnio ou influÍncia suficientes para definir vari·veis conjunturais,
+regulamentares e outras condicionantes de sua atuaÁ„o. Exemplos dessas
+entidades s„o: governos, entidades regulatÛrias e fiscalizadoras, entidades de
+classe e sindicatos, associaÁıes empresariais, organismos internacionais e
+governos de outros paÌses. Essas entidades normalmente desempenham papÈis
+significativos na determinaÁ„o de vari·veis relevantes que caracterizam o cen·rio
+global em que a organizaÁ„o dever· atuar, como por exemplo: regime de governo,
+acordos internacionais, inflaÁ„o, taxa de juros, distribuiÁ„o de renda, mercado
+de trabalho, mudanÁas culturais, educaÁ„o, tributos, fiscalizaÁ„o. Na maioria
+dos casos, essas vari·veis n„o s„o control·veis pela organizaÁ„o.
+J· o ambiente prÛximo da organizaÁ„o È formado de entidades que
+compıem o segmento onde atua e compete, tais como: clientes, fornecedores,
+concorrentes e consumidores. A amplitude de gest„o neste ambiente caracteriza
+as transaÁıes realizadas entre as entidades: preÁo, volume, qualidade, prazos
+de entrega e pagamento etc. O segmento de atuaÁ„o pode ser definido como
+um conjunto de atividades que constituem um determinado est·gio da cadeia
+de valor da organizaÁ„o, formando uma rede de relacionamentos com clientes
+e fornecedores.
+O ambiente empresarial brasileiro sofreu mudanÁas profundas na ˙ltima
+dÈcada, entre as quais È possÌvel citar a estabilidade de preÁos, a maior abertura
+para importaÁıes e as privatizaÁıes, acirrando a competiÁ„o. Este ambiente
+competitivo faz com que a Controladoria desempenhe um papel fundamental
+
+-- 71 of 88 --
+
+62
+FINAN«AS
+EMPRESARIAIS
+na gest„o das organizaÁıes: zelar pela continuidade da organizaÁ„o. Um dos
+pressupostos b·sicos da criaÁ„o de uma organizaÁ„o È sua continuidade, que
+assume extrema complexidade com a globalizaÁ„o dos mercados e a velocidade
+das mudanÁas. Para que a miss„o da organizaÁ„o possa ser cumprida a
+contento, a Controladoria deve promover a efic·cia organizacional, viabilizar a
+gest„o econÙmico-financeira e participar ativamente do planejamento e
+controle das operaÁıes, integrando as diversas ·reas da organizaÁ„o.
+Considerando que o ambiente em que atuam as organizaÁıes È
+essencialmente din‚mico, e que suas relaÁıes com esse ambiente devem
+proporcionar-lhe condiÁıes de sobrevivÍncia, È necess·rio que o sistema
+mantenha certa capacidade de adaptaÁ„o ‡s exigÍncias ambientais. A ocorrÍncia
+de eventos externos e internos ‡ organizaÁ„o determina sua situaÁ„o patrimonial,
+econÙmica, financeira e mercadolÛgica, influenciando suas condiÁıes de
+sobrevivÍncia. Assim, para assegurar a sua continuidade, È necess·rio que o
+sistema mantenha um certo equilÌbrio, ajustando-se ‡s exigÍncias ambientais,
+bem como conservando algumas de suas caracterÌsticas, que se alteram com a
+ocorrÍncia de eventos. Para as atividades estratÈgicas e de relacionamento
+com o mercado deve haver um equilÌbrio din‚mico, que possibilite ao sistema
+uma condiÁ„o de funcionamento harmonioso apÛs a ocorrÍncia de qualquer
+evento que altere as caracterÌsticas e a estrutura da organizaÁ„o.
+2 	A controladoria e o processo de
+gest„o organizacional
+A Controladoria, enquanto ·rea respons·vel por suprir as necessidades
+informativas dos gestores de uma organizaÁ„o, necessita fazer uso de uma
+metodologia de trabalho que lhe permita desenvolver esta atividade da forma
+mais din‚mica e econÙmica possÌvel. A esta metodologia de trabalho È dado o
+nome de processo de controle, conforme figura a seguir.
+
+-- 72 of 88 --
+
+63
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+O processo de controle, que nada mais È do um modelo de gest„o
+voltado ‡ abordagem sistÍmica das organizaÁıes, diz respeito ‡s atividades
+desenvolvidas pela Controladoria, necess·rias ‡ geraÁ„o prÛ-ativa de
+informaÁıes para o processo de tomada de decisıes. … necess·rio enfatizar
+que tais informaÁıes s„o decorrentes do monitoramento e controle, prÈvio ou
+n„o, da performance dos diversos setores e sub-sistemas de uma organizaÁ„o.
+A primeira atividade a ser desenvolvida pela Controladoria refere-se ‡
+definiÁ„o de par‚metros ou padrıes de controle. Os padrıes de controle s„o
+as referÍncias em relaÁ„o ‡s quais a performance da organizaÁ„o ser·
+comparada, ou seja, para que seja possÌvel avaliar positiva ou negativamente
+qualquer resultado È necess·rio estabelecer qual a referÍncia a ser considerada.
+Os padrıes de controle s„o divididos quanto ‡ forma e quanto ‡ origem. Em
+relaÁ„o ‡ forma, s„o divididos em padrıes de controle do tipo unit·rio e do
+tipo intervalo. O primeiro refere-se a um padr„o com valor ˙nico, enquanto o
+segundo admite os valores compreendidos em um dado intervalo. Em relaÁ„o
+‡ origem, s„o divididos em padrıes de controle internos e padrıes de controle
+externos. Os internos referem-se a informaÁıes geradas unicamente atravÈs
+do histÛrico da organizaÁ„o. Os externos referem-se a informaÁıes geradas
+atravÈs de pesquisa de mercado.
+Como exemplo de padrıes de controle para a vari·vel rentabilidade
+tem-se: padr„o unit·rio: 15%; padr„o do tipo intervalo: valores compreendidos
+entre 12 e 18%. Os resultados da organizaÁ„o ser„o comparados a estes
+padrıes, podendo haver trÍs situaÁıes:
+a) situaÁ„o verde: o resultado projetado È de 17% e est· acima do
+padr„o unit·rio;
+b) situaÁ„o amarela: o resultado projetado È de 14% e est· entre o
+padr„o unit·rio e o intervalo inferior;
+c) situaÁ„o vermelha: o resultado projetado È de 10% e est· abaixo do
+intervalo inferior. A utilizaÁ„o destas trÍs cores em relaÁ„o ‡s
+possÌveis situaÁıes encontradas para os resultados permite
+estabelecer, de uma forma bastante simplista e did·tica, uma analogia
+com os sinais de tr‚nsito. Uma situaÁ„o verde indica que a
+O processo de controle tem como objetivo
+principal a geraÁ„o prÛ-ativa de informaÁıes
+para os tomadores de decis„o
+
+-- 73 of 88 --
+
+64
+FINAN«AS
+EMPRESARIAIS
+organizaÁ„o dever· seguir adiante, preocupando-se apenas em
+descobrir que fatores possibilitam a obtenÁ„o de uma melhor
+performance. Uma situaÁ„o amarela indica que a organizaÁ„o dever·
+entrar em estado de atenÁ„o, pois a performance projetada n„o
+poder· ser aceita no mÈdio e longo prazos. Uma situaÁ„o vermelha
+indica que a organizaÁ„o dever· rever todo o seu planejamento
+sistÍmico, pois a performance projetada poder· prejudicar a
+continuidade da organizaÁ„o. A figura a seguir demonstra estas
+trÍs situaÁıes.
+Uma vez definidos os padrıes de controle, a Controladoria necessita
+desenvolver a atividade considerada como a mais complexa de todo o processo,
+que È a elaboraÁ„o da projeÁ„o agregada dos resultados de todos os setores
+da organizaÁ„o. Para tanto a Controladoria dever· desenvolver um sistema de
+planejamento e controle orÁament·rio que possibilite a elaboraÁ„o de projeÁıes
+e simulaÁıes, considerando os mais diversos cen·rios, dos resultados
+operacionais, econÙmicos e financeiros da organizaÁ„o. Desta forma, os
+resultados projetados refletem a interaÁ„o e os objetivos conflitantes existentes
+entre todos os sub-sistemas que compıem a organizaÁ„o.
+Uma vez projetados os resultados, a Controladoria passar· a elaborar a
+an·lise comparativa entre os resultados e os padrıes de controle previamente
+estabelecidos. Esta comparaÁ„o tem por objetivo apurar a existÍncia de diferenÁas,
+denominadas desvios, entre os resultados e os padrıes de controle.
+Uma vez apurada a existÍncia de desvios, a Controladoria dever·
+elaborar a an·lise da relev‚ncia, que visa apurar se os desvios s„o relevantes
+em termos de comprometimento dos objetivos organizacionais. Para determinar
+a relev‚ncia de um desvio, a Controladoria faz uso dos padrıes de controle do
+
+-- 74 of 88 --
+
+65
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+tipo intervalo, classificando os desvios em desvios de baixa relev‚ncia (situaÁ„o
+amarela) e desvios de alta relev‚ncia (situaÁ„o vermelha). Caso seja apurado
+um desvio de baixa ou alta relev‚ncia, a Controladoria dever· elaborar
+alternativas para uma possÌvel soluÁ„o do desvio ou problema, as quais
+ser„o repassadas aos gestores respons·veis pelos diversos setores
+organizacionais respons·veis pela ocorrÍncia do desvio. … importante perceber
+que as alternativas estar„o sendo repassadas a mais de um setor, pois na
+maioria das vezes a ocorrÍncia de um desvio È resultado de conflitos decisÛrios
+entre alguns setores de uma organizaÁ„o, na medida em cada setor procura
+tomar decisıes que maximizem a sua prÛpria performance. Esta etapa constitui-
+se na ˙ltima atividade desenvolvida pela Controladoria, pois a partir do
+momento em que as informaÁıes forem repassadas aos gestores, a
+responsabilidade pela tomada de decis„o ou escolha de qual alternativa utilizar
+ser· exclusiva dos gestores. Para a elaboraÁ„o de alternativas, a Controladoria
+dever· apurar as causas ou fatores que contribuem para a ocorrÍncia do desvio.
+Neste momento evidencia-se a necessidade da apuraÁ„o prÈvia do fluxo de
+informaÁıes existente entre todos os setores da organizaÁ„o.
+3 	A controladoria e o orÁamento organizacional
+No sentido de otimizar o processo de tomada de decis„o dos gestores
+de uma organizaÁ„o, fornecendo-lhes informaÁıes, a Controladoria dever·
+respeitar duas premissas: a) o PrincÌpio do Controle Futuro, ou seja, ìprever
+antes para corrigir antesî. Este PrincÌpio consagra o posicionamento de que a
+atividade de controle ser· mais eficaz e eficiente na medida em que trabalhar
+com informaÁıes projetadas; b) agregar informaÁıes de todos os sub-sistemas:
+o orÁamento organizacional dever· considerar todos os setores da organizaÁ„o
+a fim de tornar possÌvel o monitoramento de todos os fluxos de informaÁ„o e
+para que os objetivos conflitantes entre os diversos setores da organizaÁ„o
+sejam mais facilmente evidenciados. Para que isto seja possÌvel, torna-se
+imperativo o estabelecimento de um processo de planejamento e controle
+orÁament·rio, o qual possibilitar·, atravÈs da agregaÁ„o e projeÁ„o de
+informaÁıes de todos os sub-sistemas, o monitoramento prÈvio das possÌveis
+performances de todos os setores da organizaÁ„o. A figura 4 apresenta o
+processo de planejamento e controle orÁament·rio, considerando o conjunto
+de decisıes existentes em uma organizaÁ„o industrial. O estabelecimento de
+um processo de planejamento e controle orÁament·rio para organizaÁıes
+comerciais e de prestaÁ„o de serviÁos pode ser realizado mediante a supress„o
+de algumas etapas do processo descrito para uma organizaÁ„o industrial.
+
+-- 75 of 88 --
+
+66
+FINAN«AS
+EMPRESARIAIS
+A primeira atividade pertinente ao desenvolvimento do planejamento
+orÁament·rio refere-se ‡ elaboraÁ„o da projeÁ„o do volume de vendas. Esta
+atividade ser· elaborada pelo setor respons·vel pelas atividades
+mercadolÛgicas da organizaÁ„o. A Controladoria, por sua vez, ir· elaborar
+diferentes cen·rios a partir da projeÁ„o elaborada. Cabe enfatizar que n„o
+deve haver uma preocupaÁ„o excessiva no que se refere ‡ exatid„o da projeÁ„o
+de vendas, uma vez que a projeÁ„o inicial somente constitui a referÍncia a
+partir da qual os diferentes cen·rios, otimistas e pessimistas, ser„o elaborados.
+A verdadeira import‚ncia da projeÁ„o de vendas reside no fato de que
+praticamente todas as decisıes organizacionais dependem, direta ou
+indiretamente, desta informaÁ„o.
+Uma vez elaborados os diferentes cen·rios de venda, ser· possÌvel
+elaborar o planejamento do volume de produÁ„o. Neste momento s„o
+agregadas informaÁıes como nÌveis e polÌticas de estoques, evidenciando,
+mais uma vez, a necessidade de agregar informaÁıes para tornar efetivo o
+planejamento sistÍmico da organizaÁ„o.
+Conhecido o volume de produÁ„o projetado, torna-se necess·rio
+projetar a utilizaÁ„o dos fatores de produÁ„o, que s„o constituÌdos por
+insumos, estrutura fÌsica e pelos colaboradores da organizaÁ„o. Durante esta
+etapa evidencia-se a import‚ncia da existÍncia de um processo de planejamento
+e controle orÁament·rio, na medida em que È somente atravÈs deste processo
+que se torna possÌvel otimizar a utilizaÁ„o dos fatores de produÁ„o, em funÁ„o
+da realizaÁ„o do planejamento sistÍmico.
+
+-- 76 of 88 --
+
+67
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+A projeÁ„o da utilizaÁ„o dos fatores de produÁ„o possibilita, atravÈs
+da utilizaÁ„o das mais diversas metodologias, a elaboraÁ„o da projeÁ„o dos
+custos e despesas em que a organizaÁ„o ir· incorrer. Isto permitir· o c·lculo
+dos preÁos de venda de todos os produtos. Neste ponto È necess·rio salientar
+que estes preÁos n„o constituir„o, necessariamente, os preÁos de venda a
+serem praticados, mas sim, ser„o utilizados para a comparaÁ„o com os preÁos
+de venda praticados pelo mercado. Esta comparaÁ„o permitir· avaliar
+previamente a necessidade de alteraÁ„o na composiÁ„o de custos dos produtos
+e/ou na polÌtica mercadolÛgica da organizaÁ„o.
+ApÛs a definiÁ„o dos preÁos de venda a serem efetivamente praticados,
+a Controladoria dever· projetar os resultados financeiro e econÙmico
+decorrentes de todas as projeÁıes previamente elaboradas. O resultado
+financeiro constitui-se na maior ou menor disponibilidade de recursos por
+parte da organizaÁ„o, enquanto o resultado econÙmico constitui-se na apuraÁ„o
+de lucro ou prejuÌzo operacional. Os dois resultados diferem constantemente
+em funÁ„o da consideraÁ„o ou n„o da vari·vel prazos de pagamento e
+recebimento, sendo tambÈm utilizados os termos regime de caixa, para a
+apuraÁ„o do resultado financeiro, e regime de competÍncia, para a apuraÁ„o
+do resultado econÙmico.
+Para finalizar o planejamento orÁament·rio, a Controladoria ir· definir,
+para cada etapa do processo, quais as vari·veis que ser„o utilizadas para
+efeitos de controle, o que ter· como resultado final um conjunto de informaÁıes
+gerenciais, as quais ser„o repassadas aos gestores da organizaÁ„o.
+ConsideraÁıes finais
+Dentre os v·rios aspectos relacionados ‡s atividades desenvolvidas
+pela Controladoria, È necess·rio salientar os seguintes: a) a qualidade do
+processo de controle ser· diretamente proporcional ‡ qualidade do processo de
+planejamento, uma vez que somente o planejamento sistÍmico permite projetar
+todas as interaÁıes e conflitos existentes entre as decisıes de todos os setores
+de uma organizaÁ„o; b) apesar da complexidade existente nos procedimentos
+metodolÛgicos necess·rios ‡ realizaÁ„o das atividades da Controladoria, estes
+procedimentos s„o aplic·veis em organizaÁıes de qualquer porte; c) a
+implantaÁ„o de um processo de controle deve ser realizada de maneira a
+O processo de planejamento e controle
+orÁament·rio permite o gerenciamento sistÍmico
+e agregado de todos os setores da organizaÁ„o
+
+-- 77 of 88 --
+
+68
+FINAN«AS
+EMPRESARIAIS
+contemplar o monitoramento das principais var·veis de cada etapa do fluxo
+operacional da organizaÁ„o, n„o incorrendo no erro de somente monitorar
+resultados financeiros e cont·beis, pois as informaÁıes financeiras e cont·beis
+s„o apenas conseq¸Íncias de decisıes tomadas nos mais diversos setores de
+uma organizaÁ„o; d) a implantaÁ„o de um processo de controle requer, muitas
+vezes, uma mudanÁa cultural no processo de gest„o organizacional, na medida
+em que dever· haver uma postura de colaboraÁ„o de todos os setores
+organizacionais no fornecimento de informaÁıes ‡ Controladoria.
+Bibliografia recomendada
+CATTELI, Armando. Controladoria: uma abordagem da gest„o econÙmica -
+GECON . S„o Paulo: Atlas, 1999.
+GARRISON, Ray H.; NOREEN, Eric W. Contabilidade gerencial. Rio de
+Janeiro: LTC, 2001.
+WELSCH, Glenn Albert. OrÁamento empresarial. S„o Paulo, Atlas: 1992.
+Resumo
+A Controladoria È respons·vel pela modelagem, construÁ„o e manutenÁ„o de
+sistemas de informaÁıes e modelos de gest„o das organizaÁıes, suportando
+a tomada de decisıes. Sua miss„o È zelar pela continuidade das organizaÁıes.
+As organizaÁıes s„o caracterizadas como sistemas abertos e din‚micos,
+interagindo com outros num determinado ambiente, sendo necess·rio que o
+sistema mantenha um certo equilÌbrio, ajustando-se ‡s exigÍncias ambientais.
+A atividade de controle, enquanto uma das atividades do processo de gest„o
+empresarial, que È composto por planejamento, organizaÁ„o, execuÁ„o e
+controle, tem por objetivos suprir as necessidades informacionais dos gerentes
+e monitorar de forma prÛ-ativa a performance dos diversos setores de uma
+organizaÁ„o. Para a realizaÁ„o deste monitoramento prÈvio, a Controladoria
+deve fazer uso de um sistema de planejamento e controle orÁament·rio que
+possibilite, atravÈs da apuraÁ„o sistÍmica do fluxo de informaÁıes gerenciais
+das organizaÁıes, projetar de forma agregada o resultado organizacional. Esta
+projeÁ„o agregada permitir· otimizar o resultado da organizaÁ„o como um
+todo, ao contr·rio dos orÁamentos tradicionais, que nada mais s„o do que
+limitadores de despesas setoriais.
+
+-- 78 of 88 --
+
+69
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Vera Lucia L. Oliveira Calil
+P	P	P	P	Planejamento T	T	T	T	Tribut·rio
+Henrique Gaede
+6
+IntroduÁ„o
+A responsabilidade das pessoas fÌsicas na qualidade de sÛcios e/ou
+administradores de sociedades comerciais tem sido motivo de atenÁ„o e de
+preocupaÁ„o na seara empresarial. … evidente a crescente tendÍncia que se
+observa de agravamento da responsabilizaÁ„o dos sÛcios, especialmente sob
+a Ûtica do descumprimento de forma involunt·ria de obrigaÁ„o tribut·ria.
+No Direito Comercial Brasileiro existem sete espÈcies de sociedades
+comerciais, sendo quatro reguladas pelo CÛdigo Comercial (Lei n.∫ 556, de 25
+de junho de 1859): sociedade de capital e ind˙stria, sociedade em comandita
+simples, sociedade em conta de participaÁ„o e sociedade em nome coletivo; e
+trÍs reguladas por legislaÁ„o especial: sociedade em comandita por aÁıes,
+sociedade por quotas de responsabilidade limitada e sociedade anÙnima.
+Neste artigo nos ocuparemos de tratar o tema proposto no ‚mbito das
+sociedades por quotas de responsabilidade limitada ñ reguladas pelo Decreto
+n.∫ 3.708, de 10 de janeiro de 1919 ñ, e das sociedades anÙnimas, estas ˙ltimas,
+especificamente as de capital fechado ñ reguladas pela Lei n.∫ 6.404, de 15 de
+dezembro de 1976 ñ, e posteriores alteraÁıes, uma vez que estes s„o os tipos
+societ·rios que predominam no mercado brasileiro.
+
+-- 79 of 88 --
+
+70
+FINAN«AS
+EMPRESARIAIS
+1 A responsabilidade dos sÛcios/acionistas
+O sÛcio ou o acionista normalmente entende que sua responsabilidade
+limita-se ao n˙mero de quotas ou de aÁıes que possui na sociedade a que
+pertence. Vale ressaltar que este entendimento comporta recomendaÁıes.
+De fato, ele se aplica quando o capital social est· totalmente
+integralizado e os atos praticados durante a gest„o empresarial est„o
+consubstanciados na licitude, observam o disposto nos Contratos e Estatutos
+Sociais, refletem operaÁıes normais e compatÌveis com a probidade
+administrativa, dentre outros aspectos.
+Reza o artigo 1.∫ da Lei 6.404/76 que a responsabilidade dos sÛcios ou
+acionistas ser· limitada ao preÁo das aÁıes subscritas ou adquiridas. No mesmo
+sentido, e como n„o poderia deixar de ser, temos o artigo 2.∫, parte final, do
+Decreto 3.708/19, que estabelece ser limitada a responsabilidade do sÛcio ao
+capital integralizado.
+Trata-se de um poderoso instrumento de proteÁ„o dos bens pessoais,
+ficando a responsabilidade dos sÛcios, quando regularmente exercida a
+empresa, condicionada ao pagamento de sua parte do capital social. Assim, as
+sociedades limitadas tÍm sido usadas como meio de proteÁ„o do patrimÙnio
+pessoal (tambÈm as sociedades anÙnimas se prestam ‡ mesma finalidade).
+As sociedades, no Direito Brasileiro, adquirem personalidade jurÌdica
+quando inscritos os seus atos constitutivos no respectivo Registro do ComÈrcio:
+A sociedade, constituÌda por seu contrato e personificada pelo registro, tem
+um fim prÛprio, econÙmico ou ideal; move-se, no mundo jurÌdico, a fim de
+realizar este fim; tem direitos seus, e um patrimÙnio que administra, e com o
+qual assegura aos credores a soluÁ„o das dÌvidas que contrai (In C. Civil
+Comentado, Ed. HistÛrica, Ed. Rio, 2∫ tir., ago/86, vol. I/228).
+Assim È que dispıe o artigo 20, do CÛdigo Civil: ìAs pessoas jurÌdicas tÍm
+existÍncia distinta da dos seus membrosî; e o artigo 592, do CÛdigo de Processo
+Civil: ìOs bens particulares dos sÛcios n„o respondem pelas dÌvidas da sociedade,
+sen„o nos casos previstos em lei; o sÛcio demandado pelo pagamento da dÌvida
+tem direito a exigir que primeiro sejam excutidos os bens da sociedadeî.
+Com isto, constata-se uma distinÁ„o entre a sociedade e seus membros.
+Mas n„o pode o direito conceder a proteÁ„o quando o uso do modelo
+È feito de modo abusivo, fraudulento, a causar prejuÌzo a terceiros, credores
+
+-- 80 of 88 --
+
+71
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+da sociedade, que se vÍem impedidos de executar os bens dos seus integrantes.
+O problema passou a ser visto como a necessidade de se desconsiderar a
+personalidade jurÌdica da sociedade empresarial, superando-se a
+individualidade patrimonial para atingir as pessoas que se ocultam sob ela.
+Esse tema È objeto de an·lise em praticamente todos os sistemas legislativos,
+e, na jurisprudÍncia brasileira, tem encontrado alguma resson‚ncia mediante a
+aplicaÁ„o da teoria a casos concretos, por fundamentos variados, bem como
+em algumas oportunidades, o legislador, tem adotado expressamente regras
+que implicam responsabilidade dos sÛcios por dÌvidas da sociedade (assim,
+no CDC, Lei 8.078/90, art. 28, e Lei Antitruste, Lei 8.884/94, art. 18; art. 50 da Lei
+10.406/02 ñ Novo CÛdigo Civil).
+Entretanto, para ter uma vontade e uma atividade, a sociedade age por
+meio das pessoas naturais que lhe servem de Ûrg„o, seus administradores.
+Podem ocorrer casos em que, numa sociedade, o sÛcio se confunda com o
+Ûrg„o de administraÁ„o da sociedade. DaÌ, È imperativo buscar definir qual a
+responsabilidade dos sÛcios/ administradores que lhes servem de Ûrg„o.
+Com efeito, no artigo 10, do Decreto 3.708/19, que rege as sociedades
+por quotas de responsabilidade limitada, encontra-se o seguinte dispositivo:
+Os sÛcios-gerentes ou que derem o nome ‡ firma n„o respondem pessoalmente
+pelas obrigaÁıes contraÌdas em nome da sociedade, mas respondem para com
+esta e para com terceiros solid·ria e ilimitadamente pelo excesso de mandato e
+pelos atos praticados com violaÁ„o do contrato ou da lei.
+J· a lei das S. A., em seu artigo 158, preceitua:
+O administrador n„o È pessoalmente respons·vel pelas obrigaÁıes que contrair
+em nome da sociedade e em virtude de ato regular de gest„o; responde, porÈm,
+civilmente, pelos prejuÌzos que causar, quando proceder:
+I dentro de suas atribuiÁıes ou poderes, com culpa ou dolo;
+II com violaÁ„o da lei ou do estatuto.
+2 	Da responsabilidade tribut·ria
+dos administradores
+Embora o art. 20 do CÛdigo Civil estabeleÁa que as pessoas jurÌdicas
+tÍm existÍncia distinta da dos seus membros, n„o se pode generalizar este
+entendimento, pois os arts. 134 e 135 do CTN e o art. 592 do CPC , contrariando
+a disposiÁ„o acima citada, dispıem que nem sempre os administradores s„o
+
+-- 81 of 88 --
+
+72
+FINAN«AS
+EMPRESARIAIS
+imunes ‡s sanÁıes por atos praticados em discord‚ncia com a lei, estatuto ou
+contrato social.
+Com efeito, consoante frisou J. X. Carvalho de MendonÁa, a pessoa
+jurÌdica, por n„o ter vida natural prÛpria, necessita da atuaÁ„o das pessoas
+fÌsicas que lhe servem de Ûrg„o de administraÁ„o, no sentido de ver
+implementados os seus fins sociais.
+Contudo, quando a sociedade age por intermÈdio de seus
+administradores, È ela mesma quem pratica o ato jurÌdico.
+Portanto, os atos praticados regularmente pelo gerente ou administrador
+da sociedade obrigam apenas a esta. N„o contraem, aqueles, obrigaÁ„o pessoal
+nos contratos e operaÁıes realizados no exercÌcio de sua funÁ„o. Em vista
+disto, conseq¸entemente, seus bens n„o respondem por estas dÌvidas.
+PorÈm, os gerentes e administradores ser„o respons·veis pessoalmente
+pelos atos que praticarem com infraÁ„o de disposiÁ„o legal ou violaÁ„o de
+qualquer cl·usula estatut·ria (Artigo 158 da Lei das S. A. e art. 10, do Dec.
+3.708). Esta norma È aplicada tambÈm aos conselheiros e diretores de
+sociedades anÙnimas (art. 145 LSA). A norma inserta no artigo 158 citado,
+assim como no artigo 10 do Decreto, guardadas suas devidas proporÁıes, È
+reproduzida no art. 135 do CTN.
+Referida norma societ·ria tambÈm dispıe que o administrador deve
+empregar, no exercÌcio de suas funÁıes, o cuidado e a diligÍncia, procurando
+exercer as atribuiÁıes que a lei e o estatuto lhe conferem para lograr os fins no
+interesse da companhia, satisfazendo ‡s exigÍncias do bem p˙blico e da funÁ„o
+social da empresa. E, em afastando-se dos deveres a ele inerentes, o administrador,
+assim como o sÛcio-gerente, ser„o respons·veis pelos atos que cometer (pelo
+excesso de mandato e pelos atos praticados com violaÁ„o ‡ lei).
+Conforme mencionado anteriormente, a Lei das Sociedades AnÙnimas
+estabelece que o administrador deve atuar perante a companhia respeitando
+os deveres de diligÍncia, obediÍncia e lealdade.
+O dever de diligÍncia tem como significado a idÈia de cuidado ativo,
+zelo, aplicaÁ„o, atividade, rapidez, presteza. Na relaÁ„o jurÌdica possui um
+car·ter subjetivo e È considerado pela doutrina dominante como um dever
+b·sico e principal.
+O dever de obediÍncia, em relaÁ„o ‡s leis e aos contratos significa o
+respeito ou o acatamento que se deve ‡ regra jurÌdica ou ao princÌpio legal
+Os atos praticados regularmente pelo
+gerente ou administrador da sociedade
+obrigam o mesmo apenas a esta
+
+-- 82 of 88 --
+
+73
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+instituÌdo e ‡ obrigaÁ„o fundada na cl·usula contratual. …, verdadeiramente, o
+cumprimento do que È devido, por imposiÁ„o legal ou contratual.
+Desta forma, podemos deduzir que obediÍncia, para o administrador, È
+o respeito, submiss„o ‡s disposiÁıes da lei e do contrato social. Assim, se o
+administrador agir em conformidade com a lei e com o estatuto da sociedade,
+n„o estar· incorrendo em quebra do dever de obediÍncia e conseq¸entemente
+n„o ser· respons·vel por eventuais ìproblemasî que possam vir a ocorrer
+enquanto estiver na gest„o da companhia.
+O dever de lealdade nada mais È do que atuar perante a companhia
+seguindo as regras da honra e da honestidade, ou ainda em respeito ‡ fidelidade.
+Ele vem traduzir a obrigaÁ„o do administrador em atuar perante a sociedade
+com zelo, ou seja, n„o se aproveitar da sua posiÁ„o privilegiada para usar em
+seu benefÌcio informaÁıes, vantagens e oportunidades do cargo.
+2.1 	Responsabilidade tribut·ria: respons·vel
+tribut·rio X contribuinte
+Em termos de relaÁ„o tribut·ria, È a sociedade o contribuinte do tributo.
+Entretanto, como a sociedade se manifesta atravÈs de seus administradores,
+estes, na relaÁ„o tribut·ria, s„o considerados os respons·veis tribut·rios.
+A definiÁ„o legal de respons·vel tribut·rio È dada por exclus„o, ou
+seja, respons·vel È um terceiro, vinculado indiretamente ao fato gerador, que
+a lei optou colocar como obrigado ao pagamento do tributo, ocupando o lugar
+que naturalmente seria do contribuinte.
+Os arts. 134 e 135 do CÛdigo Tribut·rio Nacional, que ser„o
+apresentados a seguir, estabelecem a responsabilidade tribut·ria dos
+administradores de empresa.
+Esta responsabilidade, de car·ter sancionatÛrio, justifica-se pela
+indubit·vel vinculaÁ„o jurÌdica existente entre o contribuinte (a empresa) e o
+respons·vel tribut·rio (os respectivos administradores), posto que, como j·
+dito, o controle da vida e dos bens da pessoa jurÌdica est· com os seus
+diretores, gerentes ou representantes, sÛcios ou n„o, embora possuam
+existÍncia e patrimÙnios distintos.
+Em termos de relaÁ„o tribut·ria, È a sociedade o
+contribuinte do tributo. Entretanto, como a
+sociedade se manifesta atravÈs de seus
+administradores, estes, na relaÁ„o tribut·ria,
+s„o considerados os respons·veis tribut·rios
+
+-- 83 of 88 --
+
+74
+FINAN«AS
+EMPRESARIAIS
+2.2 	Natureza jurÌdica da responsabilidade
+tribut·ria do administrador
+O artigo 134, inciso III, do CÛdigo Tribut·rio Nacional prevÍ:
+Art. 134. Nos casos de impossibilidade de exigÍncia do cumprimento da
+obrigaÁ„o principal pelo contribuinte, respondem solidariamente com este nos
+autos em que intervierem ou pelas omissıes de que s„o respons·veis: (...)
+III os administradores de bens de terceiros, pelos tributos devidos por estes;
+Esse artigo estabelece que a responsabilidade do administrador (sanÁ„o
+administrativo-fiscal) que agiu ou omitiu-se indevidamente pressupıe o
+nascimento da obrigaÁ„o tribut·ria advinda de fato lÌcito.
+Nessa esteira, refut·vel È a idÈia de que o Estado-AdministraÁ„o pode
+compelir solidariamente a empresa e os seus respectivos administradores ao
+cumprimento da prestaÁ„o pecuni·ria ‡ qual cada um encontra-se obrigado. …
+inolvid·vel que a m· redaÁ„o do art. 134 do CTN confundiu o conceito de
+solidariedade com o de subsidiariedade.
+N„o h· a responsabilidade solid·ria neste caso, mas sim uma
+responsabilidade supletiva dos administradores que agiram irregularmente.
+O dever de pagar o tributo, nascido por forÁa da concretizaÁ„o do fato
+jurÌdico tribut·rio, È da empresa, independentemente do administrador praticar ou
+n„o, a posteriori, o fato ilÌcito. J· os administradores, por forÁa de dever cumprido
+(ilÌcito), tornam-se devedores de sanÁ„o administrativa estipulada no mesmo valor
+do dÈbito tribut·rio do contribuinte, porque assim decidiu o legislador.
+No que tange ao exercÌcio de direito de regresso, entendemos ser plausÌvel
+que o administrador indenize a pessoa jurÌdica quanto ‡s sanÁıes tribut·rias
+materiais a que deu causa, por exemplo, multa de mora, multa pelo n„o pagamento
+de tributo, juros e multa pelo descumprimento de deveres instrumentais. N„o
+concordamos com a possibilidade de o administrador vir a arcar com os valores
+que originariamente teriam que ser pagos pelo contribuinte (tributo).
+J· o artigo 135, inciso III, do CÛdigo Tribut·rio Nacional diz o seguinte:
+Art. 135. S„o pessoalmente respons·veis pelos crÈditos correspondentes a
+obrigaÁıes tribut·rias resultantes de atos praticados com excesso de poderes
+ou infraÁ„o de lei, contrato social ou estatutos:
+(...)
+III os diretores, gerentes ou representantes de pessoas jurÌdicas de direito privado.
+Tal responsabilidade dos administradores decorre, na pr·tica, de atos
+abusivos ou com infringÍncia de lei, contrato social ou estatutos da sociedade
+que tenham desencadeado uma relaÁ„o jurÌdica obrigacional stricto sensu
+entre Fisco e pessoa jurÌdica por eles administrada.
+
+-- 84 of 88 --
+
+75
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+A d˙vida que paira no caso da responsabilidade do art. 135 do CTN È
+se os administradores ser„o respons·veis, exclusiva, subsidi·ria ou
+solidariamente com a pessoa jurÌdica.
+Quanto ao assunto trazido ‡ discuss„o, vislumbramos um
+posicionamento doutrin·rio e jurisprudencial nos trÍs sentidos, ou seja, ora o
+art. 135 È interpretado como hipÛtese de responsabilidade pessoal, ora
+subsidi·ria, ora solid·ria.
+O entendimento predominante È o da responsabilidade exclusiva ou
+pessoal, pois o administrador deve ter a obrigaÁ„o de entregar ao Fisco uma
+prestaÁ„o pecuni·ria, por quest„o de polÌtica legislativa, equivalente ‡ do crÈdito
+tribut·rio gerado pelo ilÌcito.
+Todavia, o que se depreende do art. 135 È que s„o os atos ilÌcitos
+praticados pelo administrador que fazem nascer um outro vÌnculo obrigacional,
+desta vez, de natureza sancionatÛria administrativo-fiscal.
+Assim, ao praticar a conduta ilÌcita, o administrador passa a integrar o pÛlo
+passivo da obrigaÁ„o tribut·ria, oportunidade na qual exclusivamente os seus
+bens responder„o pela prestaÁ„o punitiva imposta pela administraÁ„o fiscal.
+Entretanto, para que ocorra a responsabilidade prevista no art. 135 do
+CTN , a pr·tica do ato ilÌcito deve ser apurada atravÈs de processo de
+conhecimento. PorÈm, o Fisco, abusando das disposiÁıes transcritas acima,
+aplica sanÁ„o ao administrador sem apurar a responsabilidade do mesmo.
+Diante de todo o exposto, n„o se pode vislumbrar o direito de regresso
+do administrador contra a sociedade. De fato, o direito de regresso pressupıe
+o cumprimento de uma obrigaÁ„o alheia e neste caso a obrigaÁ„o decorrente
+da pr·tica de atos ilÌcitos n„o È alheia e sim pessoal do administrador.
+2.3 	ApuraÁ„o da culpa do administrador
+A responsabilidade do administrador n„o pode ser presumida. Deve-
+se provar que agiu contrariando a lei, o estatuto ou o contrato social. SÛ se
+presume no caso de dissoluÁ„o irregular de sociedade, por construÁ„o
+jurisprudencial.
+O Fisco, entretanto, com fulcro no art. 135 do CTN, sequer questiona a
+responsabilidade do administrador. Considera-a como evidente, patente, pelo
+que o administrador se vÍ obrigado ao pagamento do dÈbito, sob pena de
+prejudicar a continuaÁ„o das atividades da empresa, por exemplo.
+
+-- 85 of 88 --
+
+76
+FINAN«AS
+EMPRESARIAIS
+2.4 	Da responsabilidade legal
+dos administradores e sÛcios
+S„o v·rias as disposiÁıes que podemos encontrar tipificadas na
+legislaÁ„o sobre a responsabilizaÁ„o direta dos administradores das
+sociedades e sÛcios (enquanto administradores) no tocante, inclusive, ‡ pr·tica
+de atos criminosos e de atos lesivos ao patrimÙnio da sociedade e de terceiros
+com quem ela se relaciona (credores, fisco etc.).
+A par da tipificaÁ„o legal, que ilustraremos a seguir, surgiu em nosso
+ordenamento, por forÁa de construÁ„o jurisprudencial e doutrin·ria, com
+influÍncia do exterior, a teoria da desconsideraÁ„o da personalidade jurÌdica.
+Esta teoria ganhou forÁa e hoje, inclusive, vem expressa nas normas do
+CÛdigo do Consumidor.
+Assim, se a pessoa jurÌdica È desviada dos fins estabelecidos no ato
+constitutivo para acobertar atos ilÌcitos, È possÌvel desconsiderar essa
+distinÁ„o, de modo a se permitir a efetivaÁ„o da responsabilidade do sÛcio
+infrator, afastando-se a regra do Artigo 20 do CÛdigo Civil.
+S„o pressupostos para que a pessoa jurÌdica possa ser desconsiderada:
+a) abuso de direito; b) excesso de poder, infraÁ„o de lei, fato ou ato ilÌcito ou
+violaÁ„o dos estatutos ou contrato social; e c) falÍncia, estado de insolvÍncia,
+encerramento ou inatividade da pessoa jurÌdica, provocada por m· administraÁ„o.
+Se o desvio de finalidade da sociedade n„o tem por escopo acobertar
+ato ilÌcito, em detrimento de outra pessoa, n„o se configura o caso de aplicaÁ„o
+da teoria da desconsideraÁ„o.
+A teoria da desconsideraÁ„o objetiva, portanto, desconsidera a
+personalidade jurÌdica da sociedade para atingir o patrimÙnio dos sÛcios por
+dÌvida da sociedade, ou, vice-versa, toda vez que a pessoa jurÌdica tiver sido
+deliberadamente utilizada com fins contr·rios ao direito, com vistas a prejudicar
+terceiros ou fraudar a lei.
+Como vimos, a aplicaÁ„o desta teoria È legÌtima e compatÌvel com o
+ordenamento jurÌdico brasileiro. Foi recepcionada pelo nosso Direito do
+Se a pessoa jurÌdica È desviada dos fins
+estabelecidos no ato constitutivo para acobertar
+atos ilÌcitos, È possÌvel desconsiderar essa
+distinÁ„o, de modo a se permitir a efetivaÁ„o da
+responsabilidade do sÛcio infrator
+
+-- 86 of 88 --
+
+77
+C O L E « √ O
+GEST√O
+EMPRESARIAL
+Consumidor e pelo Novo CÛdigo Civil, uma vez que vem sendo adotada por
+nossos tribunais, embora sempre com muita cautela.
+A aplicaÁ„o da disregard doctrine, a par de ser salutar meio para evitar a fraude
+via utilizaÁ„o da personalidade jurÌdica, h· de ser aplicada com cautela e zelo,
+sob pena de destruir o instituto da pessoa jurÌdica e olvidar os incontest·veis
+direitos da pessoa fÌsica. Sua aplicaÁ„o ter· de ser apoiada em fatos concretos
+que demonstrem o desvio da finalidade social da pessoa jurÌdica, com proveito
+ilÌcito dos sÛcios (RT 673/160).
+Conclus„o
+Diante das consideraÁıes apresentadas quanto ‡ possibilidade de
+responsabilizaÁ„o dos sÛcios/administradores, principalmente nos casos em
+que agem com excesso de mandato ou atravÈs de atos praticados com violaÁ„o
+do contrato ou da lei, e considerando que a lei impıe a este mesmo administrador
+o dever de empregar todos os recursos legais que estiverem ao seu alcance no
+sentido de lograr os fins e no interesse da empresa (arts. 153 e 154, Lei n.∫
+6.404/76), conclui-se que o planejamento e a adequada administraÁ„o da carga
+tribut·ria, observados os limites da lei, devem fazer parte da rotina de qualquer
+empreendimento. Neste sentido pode-se dizer que a discuss„o n„o mais se
+coloca em nÌvel de planejar o pagamento de tributos, mas entre planejar bem
+ou planejar mal, incluindo neste ˙ltimo caso, para quem o pratica, a
+possibilidade de implicaÁıes diretas sob a sua pessoa.
+Torna-se evidente, portanto, a necessidade da presenÁa de profissionais
+que possam de maneira tÈcnica apontar para o caminho tribut·rio menos oneroso
+para a empresa, uma vez que parece inquestion·vel, sob o ponto de vista jurÌdico,
+poder a empresa, diante da necessidade da realizaÁ„o de uma determinada
+operaÁ„o, escolher a alternativa que implique um menor custo. Somente desta
+forma se estar· cumprindo de maneira integrada a exigÍncia de se observar os
+interesses da empresa, sem coloc·-la em risco de contingÍncia e sem implicaÁıes
+de qualquer natureza aos seus sÛcios e administradores. N„o sendo assim,
+torna-se a gest„o tribut·ria uma mera aventura.
+
+-- 87 of 88 --
+
+78
+FINAN«AS
+EMPRESARIAIS
+Bibliografia e legislaÁ„o recomendada
+N¡UFEL, JosÈ. Novo dicion·rio jurÌdico brasileiro. 9.ed. S„o Paulo:
+Forense, 2000.
+RODRIGUES, Silvio. Direito civil. S„o Paulo: Saraiva, 2002. v.1.
+Lei n.∫ 10.406/2002
+Lei n.∫ 10.303 de 31.10.2001
+Lei n.∫ 6.404 de 15.12.1976
+Lei n.∫ 8.078/1990
+CÛdigo Civil Comparado - Editora Saraiva - 2002
+CÛdigo de Processo Civil - Editora Saraiva
+CÛdigo Tribut·rio Nacional - Editora Saraiva
+Decreto n.∫ 3.708 de 10.01.1919
+Lei n.∫ 3.071 de 01.01.1916
+Lei n.∫ 556 de 25.06.1859
+Resumo
+O tema exposto apresentou os aspectos abordados no ‚mbito da
+responsabilidade tribut·ria dos sÛcios e/ou administradores das sociedades
+por quotas de responsabilidade limitada, reguladas pelo Decreto n.∫ 3.708 de
+10.01.1919, evidenciando a legislaÁ„o aplicada, a doutrina e as decisıes
+proferidas pelo Superior Tribunal de JustiÁa. Analisando-se sob a Ûtica legal,
+conclui-se que houve um abrandamento em termos de responsabilizaÁ„o das
+pessoas fÌsicas que possuam vÌnculo com pessoas jurÌdicas e que n„o
+cumpriram com suas obrigaÁıes tribut·rias. No entanto, intensificam-se os
+motivos que gradativamente preocupam os empres·rios, principalmente
+concernente ao endividamento de suas empresas. O insucesso de determinada
+empresa, ou por um gerenciamento deficiente decorrente do ambiente externo
+(dentre outros, as polÌticas e diretrizes sem sucesso por parte da AdministraÁ„o
+P˙blica), ou do sÛcio quando investido na funÁ„o de administrador, n„o exclui
+a imunidade no tocante ‡s penalidades origin·rias da inobserv‚ncia
+involunt·ria da obrigaÁ„o tribut·ria.
+
+-- 88 of 88 --
+

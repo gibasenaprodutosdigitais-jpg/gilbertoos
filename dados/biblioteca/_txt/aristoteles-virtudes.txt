@@ -1,0 +1,2245 @@
+
+
+-- 1 of 64 --
+
+
+
+-- 2 of 64 --
+
+Editora chefe
+Profª Drª Antonella Carvalho de Oliveira
+Editora executiva
+Natalia Oliveira
+Assistente editorial
+Flávia Roberta Barão
+Bibliotecária
+Janaina Ramos
+Projeto gráfico
+Ellen Andressa Kubisty
+Luiza Alves Batista
+Nataly Evilin Gayde
+Thamires Camili Gayde
+Imgaem da capa
+“Aristóteles Contemplando um Busto de
+Homero”, de Rembrandt (1653)
+Edição de arte
+Luiza Alves Batista
+2024 by Atena Editora
+Copyright © Atena Editora
+Copyright do texto © 2024 Os autores
+Copyright da edição © 2024 Atena
+Editora
+Direitos para esta edição cedidos à
+Atena Editora pelos autores.
+Open access publication by Atena
+Editora
+Todo o conteúdo deste livro está licenciado sob uma Licença
+de Atribuição Creative Commons. Atribuição-Não-Comercial-
+NãoDerivativos 4.0 Internacional (CC BY-NC-ND 4.0).
+O conteúdo do texto e seus dados em sua forma, correção e confiabilidade são de
+responsabilidade exclusiva dos autores, inclusive não representam necessariamente
+a posição oficial da Atena Editora. Permitido o download da obra e o compartilhamento
+desde que sejam atribuídos créditos aos autores, mas sem a possibilidade de alterá-
+la de nenhuma forma ou utilizá-la para fins comerciais.
+Todos os manuscritos foram previamente submetidos à avaliação cega pelos pares,
+membros do Conselho Editorial desta Editora, tendo sido aprovados para a publicação
+com base em critérios de neutralidade e imparcialidade acadêmica.
+A Atena Editora é comprometida em garantir a integridade editorial em todas as etapas
+do processo de publicação, evitando plágio, dados ou resultados fraudulentos e
+impedindo que interesses financeiros comprometam os padrões éticos da publicação.
+Situações suspeitas de má conduta científica serão investigadas sob o mais alto
+padrão de rigor acadêmico e ético.
+Conselho Editorial
+Ciências Humanas e Sociais Aplicadas
+Prof. Dr. Adilson Tadeu Basquerote Silva – Universidade para o Desenvolvimento do
+Alto Vale do Itajaí
+Prof. Dr. Alexandre de Freitas Carneiro – Universidade Federal de Rondônia
+Prof. Dr. Alexandre Jose Schumacher – Instituto Federal de Educação, Ciência e
+Tecnologia do Paraná
+Profª Drª Aline Alves Ribeiro – Universidade Federal do Tocantins
+
+-- 3 of 64 --
+
+Prof. Dr. Américo Junior Nunes da Silva – Universidade do Estado da Bahia
+Profª Drª Ana Maria Aguiar Frias – Universidade de Évora
+Profª Drª Andréa Cristina Marques de Araújo – Universidade Fernando Pessoa
+Prof. Dr. Antonio Carlos da Silva – Universidade de Coimbra
+Prof. Dr. Antonio Carlos Frasson – Universidade Tecnológica Federal do Paraná
+Prof. Dr. Antonio Gasparetto Júnior – Instituto Federal do Sudeste de Minas Gerais
+Prof. Dr. Antonio Isidro-Filho – Universidade de Brasília
+Prof. Dr. Arnaldo Oliveira Souza Júnior – Universidade Federal do Piauí
+Prof. Dr. Carlos Antonio de Souza Moraes – Universidade Federal Fluminense
+Profª Drª Caroline Mari de Oliveira Galina – Universidade do Estado de Mato Grosso
+Prof. Dr. Christopher Smith Bignardi Neves – Universidade Federal do Paraná
+Prof. Dr. Crisóstomo Lima do Nascimento – Universidade Federal Fluminense
+Profª Drª Cristina Gaio – Universidade de Lisboa
+Prof. Dr. Daniel Richard Sant’Ana – Universidade de Brasília
+Prof. Dr. Deyvison de Lima Oliveira – Universidade Federal de Rondônia
+Profª Drª Dilma Antunes Silva – Universidade Federal de São Paulo
+Prof. Dr. Edvaldo Antunes de Farias – Universidade Estácio de Sá
+Prof. Dr. Eloi Martins Senhora – Universidade Federal de Roraima
+Prof. Dr. Elson Ferreira Costa – Universidade do Estado do Pará
+Profª Drª Eufemia Figueroa Corrales – Universidad de Oriente: Santiago de Cuba
+Profª Drª Fernanda Pereira Martins – Instituto Federal do Amapá
+Profª Drª Geuciane Felipe Guerim Fernandes – Universidade Estadual de Londrina
+Prof. Dr. Gustavo Henrique Cepolini Ferreira – Universidade Estadual de Montes
+Claros
+Prof. Dr. Humberto Costa – Universidade Federal do Paraná
+Profª Drª Ivone Goulart Lopes – Istituto Internazionele delle Figlie de Maria Ausiliatrice
+Prof. Dr. Jadilson Marinho da Silva – Secretaria de Educação de Pernambuco
+Prof. Dr. Jadson Correia de Oliveira – Universidade Católica do Salvador
+Prof. Dr. Joachin de Melo Azevedo Sobrinho Neto – Universidade de Pernambuco
+Prof. Dr. João Paulo Roberti Junior – Universidade Federal de Santa Catarina
+Prof. Dr. Jodeylson Islony de Lima Sobrinho – Universidade Estadual do Oeste do
+Paraná
+Prof. Dr. José Luis Montesillo-Cedillo – Universidad Autónoma del Estado de México
+Profª Drª Juliana Abonizio – Universidade Federal de Mato Grosso
+Prof. Dr. Julio Candido de Meirelles Junior – Universidade Federal Fluminense
+Prof. Dr. Kárpio Márcio de Siqueira – Universidade do Estado da Bahia
+Profª Drª Kátia Farias Antero – Faculdade Maurício de Nassau
+Profª Drª Keyla Christina Almeida Portela – Instituto Federal do Paraná
+Profª Drª Lina Maria Gonçalves – Universidade Federal do Tocantins
+Profª Drª Lisbeth Infante Ruiz – Universidad de Holguín
+Profª Drª Lucicleia Barreto Queiroz – Universidade Federal do Acre
+Prof. Dr. Lucio Marques Vieira Souza – Universidade do Estado de Minas Gerais
+Prof. Dr. Luis Ricardo Fernandes da Costa – Universidade Estadual de Montes Claros
+Profª Drª Marcela Mary José da Silva – Universidade Federal do Recôncavo da Bahia
+Prof. Dr. Marcelo Pereira da Silva – Pontifícia Universidade Católica de Campinas
+Prof. Dr. Marcelo Pereira da Silva – Pontifícia Universidade Católica de Campinas
+Profª Drª Maria Luzia da Silva Santana – Universidade Federal de Mato Grosso do Sul
+Profª Drª Marianne Sousa Barbosa – Universidade Federal de Campina Grande
+
+-- 4 of 64 --
+
+Prof. Dr. Miguel Rodrigues Netto – Universidade do Estado de Mato Grosso
+Profª Drª Mônica Aparecida Bortolotti – Universidade Estadual do Centro Oeste do
+Paraná
+Profª Drª Natiéli Piovesan – Instituto Federal do Rio Grande do Norte
+Prof. Dr. Pablo Ricardo de Lima Falcão – Universidade de Pernambuco
+Profª Drª Paola Andressa Scortegagna – Universidade Estadual de Ponta Grossa
+Prof. Dr. Pedro Henrique Máximo Pereira – Universidade Estadual de Goiás
+Profª Drª Rita de Cássia da Silva Oliveira – Universidade Estadual de Ponta Grossa
+Prof. Dr. Rui Maia Diamantino – Universidade Salvador
+Profª Drª Sandra Regina Gardacho Pietrobon – Universidade Estadual do Centro
+Oeste
+Prof. Dr. Saulo Cerqueira de Aguiar Soares – Universidade Federal do Piauí
+Prof. Dr. Urandi João Rodrigues Junior – Universidade Federal do Oeste do Pará
+Profª Drª Vanesa Bárbara Fernández Bereau – Universidad de Cienfuegos
+Profª Drª Vanessa Bordin Viera – Universidade Federal de Campina Grande
+Profª Drª Vanessa Freitag de Araújo – Universidade Estadual de Maringá
+Profª Drª Vanessa Ribeiro Simon Cavalcanti – Universidade Federal da Bahia
+Universidade de Coimbra
+Prof. Dr. William Cleber Domingues Silva – Universidade Federal Rural do Rio de
+Janeiro
+Prof. Dr. Willian Douglas Guilherme – Universidade Federal do Tocantins
+
+-- 5 of 64 --
+
+Aristóteles e as virtudes morais
+Diagramação:
+Correção:
+Indexação:
+Revisão:
+Autor:
+Coautores:
+Nataly Evilin Gayde
+Yaiddy Paola Martinez
+Amanda Kelly da Costa Veiga
+Os autores
+Gabriel Vinicius Nunes Oliveira
+Robério Vinícius Almeida Cruz
+Bruna Eduarda Vieira de Farias
+Dados Internacionais de Catalogação na Publicação (CIP)
+O48 Oliveira, Gabriel Vinicius Nunes
+Aristóteles e as virtudes morais / Gabriel Vinicius Nunes
+Oliveira, Robério Vinícius Almeida Cruz, Bruna Eduarda
+Vieira de Farias. – Ponta Grossa - PR: Atena, 2024.
+Formato: PDF
+Requisitos de sistema: Adobe Acrobat Reader
+Modo de acesso: World Wide Web
+Inclui bibliografia
+ISBN 978-65-258-2602-8
+DOI: https://doi.org/10.22533/at.ed.028241007
+1. Filosofia de Aristóteles. I. Oliveira, Gabriel Vinicius
+Nunes. II. Cruz, Robério Vinícius Almeida. III. Farias, Bruna
+Eduarda Vieira de. IV. Título.
+CDD 185
+Elaborado por Bibliotecária Janaina Ramos – CRB-8/9166
+Atena Editora
+Ponta Grossa – Paraná – Brasil
+Telefone: +55 (42) 3323-5493
+www.atenaeditora.com.br
+contato@atenaeditora.com.br
+
+-- 6 of 64 --
+
+DECLARAÇÃO DOS AUTORES
+Os autores desta obra: 1. Atestam não possuir qualquer interesse comercial que
+constitua um conflito de interesses em relação ao conteúdo publicado; 2. Declaram
+que participaram ativamente da construção dos respectivos manuscritos,
+preferencialmente na: a) Concepção do estudo, e/ou aquisição de dados, e/ou análise
+e interpretação de dados; b) Elaboração do artigo ou revisão com vistas a tornar o
+material intelectualmente relevante; c) Aprovação final do manuscrito para
+submissão.; 3. Certificam que o texto publicado está completamente isento de dados
+e/ou resultados fraudulentos; 4. Confirmam a citação e a referência correta de todos
+os dados e de interpretações de dados de outras pesquisas; 5. Reconhecem terem
+informado todas as fontes de financiamento recebidas para a consecução da
+pesquisa; 6. Autorizam a edição da obra, que incluem os registros de ficha
+catalográfica, ISBN, DOI e demais indexadores, projeto visual e criação de capa,
+diagramação de miolo, assim como lançamento e divulgação da mesma conforme
+critérios da Atena Editora.
+
+-- 7 of 64 --
+
+DECLARAÇÃO DA EDITORA
+A Atena Editora declara, para os devidos fins de direito, que: 1. A presente publicação
+constitui apenas transferência temporária dos direitos autorais, direito sobre a
+publicação, inclusive não constitui responsabilidade solidária na criação dos
+manuscritos publicados, nos termos previstos na Lei sobre direitos autorais (Lei
+9610/98), no art. 184 do Código Penal e no art. 927 do Código Civil; 2. Autoriza e
+incentiva os autores a assinarem contratos com repositórios institucionais, com fins
+exclusivos de divulgação da obra, desde que com o devido reconhecimento de autoria
+e edição e sem qualquer finalidade comercial; 3. Todos os e-book são open access,
+desta forma não os comercializa em seu site, sites parceiros, plataformas de e-
+commerce, ou qualquer outro meio virtual ou físico, portanto, está isenta de repasses
+de direitos autorais aos autores; 4. Todos os membros do conselho editorial são
+doutores e vinculados a instituições de ensino superior públicas, conforme
+recomendação da CAPES para obtenção do Qualis livro; 5. Não cede, comercializa ou
+autoriza a utilização dos nomes e e-mails dos autores, bem como nenhum outro dado
+dos mesmos, para qualquer finalidade que não o escopo da divulgação desta obra.
+
+-- 8 of 64 --
+
+SUMÁRIO
+APRESENTAÇÃO ....................................................................... 1
+PREFÁCIO............................................................................... 2
+CAPÍTULO 1 ............................................................................ 5
+ARISTÓTELES: VIDA E OBRA
+CAPÍTULO 2 ............................................................................ 9
+INTRODUÇÃO À CIÊNCIA ÉTICA
+CAPÍTULO 3 ........................................................................... 12
+EM BUSCA DA FELICIDADE: REFLEXÕES ARISTOTÉLICAS SOBRE O BEM
+SUPREMO
+CAPÍTULO 4 ........................................................................... 18
+A VIRTUDE MORAL
+CAPÍTULO 5 ...........................................................................25
+OS ALICERCES DA VIRTUDE
+CAPÍTULO 6 ...........................................................................29
+A CORAGEM OU FORTALEZA
+CAPÍTULO 7 ........................................................................... 31
+A TEMPERANÇA OU MODERAÇÃO
+CAPÍTULO 8 ...........................................................................33
+GENEROSIDADE E MAGNIFICÊNCIA
+CAPÍTULO 9 ...........................................................................36
+GRANDIOSIDADE DE ALMA OU MAGNANIMIDADE
+CAPÍTULO 10..........................................................................38
+BRANDURA OU MANSIDÃO
+CAPÍTULO 11 .......................................................................... 41
+A VIRTUDE NO QUE DIZ RESPEITO AO CONVÍVIO SOCIAL; A VIRTUDE
+NO QUE DIZ RESPEITO À VERDADE NO RELACIONAMENTO HUMANO; A
+VIRTUDE DA BRINCADEIRA
+CAPÍTULO 12..........................................................................43
+A JUSTIÇA
+CONCLUSÃO ..........................................................................49
+REFERÊNCIAS BIBLIOGRÁFICAS ................................................52
+SOBRE OS AUTORES ................................................................53
+
+-- 9 of 64 --
+
+APRESENTAÇÃO
+Na obra que tens em mãos, adentras um caminho intrincado pelas reflexões
+de Aristóteles sobre ética e virtude, temas essenciais na “Ética a Nicômaco”.
+Este livro aspira transcender a mera exposição conceitual; busca erigir uma
+ponte entre o leitor contemporâneo e o pensamento clássico, promovendo a
+compreensão e a aplicação dos preceitos aristotélicos em nossas vidas. Como
+um convite ao pensamento aristotélico, a obra foi concebida para fundamentar
+qualquer leitor, independentemente de seu prévio contato com a filosofia.
+Aristóteles, entre os maiores sábios da antiguidade, imerge na indagação
+sobre a boa vida virtuosa. Suas análises sobre a virtude, o hábito e a razão
+oferecem um guia atemporal aos que buscam excelência moral e intelectual.
+A “Ética a Nicômaco” é um chamado à reflexão profunda sobre nossas ações,
+escolhas e, sobretudo, o que verdadeiramente compõe a felicidade genuína.
+Dividimos 	este 	livro 	introdutório 	em 	capítulos 	que 	exploram
+sistematicamente as virtudes aristotélicas, abordando os principais temas
+debatidos pelo filósofo. Começamos com uma visão ampla da vida e obra de
+Aristóteles, contextualizando seu pensamento no cenário histórico e cultural da
+Grécia Antiga. Em seguida, introduzimos a ética como ciência, estabelecendo
+bases para a compreensão do estudo ético como fundamental. Ao examinar as
+virtudes discutidas pelo Estagirita, investigamos como coragem, temperança,
+justiça e outras qualidades morais não são meros ideais abstratos, mas sim
+hábitos cultivados que moldam nosso caráter e orientam nossas escolhas
+cotidianas.
+Convidamos você a explorar este rico legado filosófico neste livro,
+descobrindo como os ensinamentos de Aristóteles continuam a iluminar o
+caminho para uma vida plena e significativa.
+
+-- 10 of 64 --
+
+PREFÁCIO
+Esse é o marco inicial para estudar as obras filosóficas de Aristóteles.
+As concepções propiciadas nesta obra, são bem mais complexas e amplas do
+que outras sobre o assunto, tendo em vista que Aristóteles fora um dos mais
+importantes e influentes filósofos gregos dentre a classe. Sem conhecer as obras
+de Aristóteles, um dos maiores filósofos de todos os tempos, será impossível
+entender a Filosofia Ocidental. Aristóteles, foi um grande filósofo da Grécia
+Antiga, tendo estudado e convivido com Platão. Foi preceptor do herdeiro
+do império macedônico, na posse de Alexandre como imperador, devido ao
+falecimento do seu pai. Materializou uma escola de filosofia chamada Liceu e
+metodizou o conhecimento sobre a antiguidade, deixando um legado para as
+gerações atuais. A concepção moderna da ciência, é inseparável da progressiva
+reafirmação de Aristóteles quanto a ética, sendo a esfera individual dos cidadãos
+da pólis, e a política, que se refere ao espírito da coletiva, destacando que o
+homem é um ser político, visto que todos nós queremos ser felizes no sentido
+mais amplo da palavra. Para obter a felicidade, temos que aprimorar e exercer
+nossas qualidades e capacidades no convívio social. Aristóteles possui histórico
+representativo na ética, política, ciência, metafísica e na lógica, que atravessa
+toda a história pelo mundo, proporcionando discernimento sobre a vida em
+convívio com a sociedade.
+Aristóteles defendia que a responsabilidade faz parte da ética e que essa
+é uma característica da ação humana, vendo a ciência como uma investigação
+e busca pela verdade. É notório que a humanidade vem adquirindo, em uma
+velocidade singular, muito mais do que havia adquirido durante a evolução
+da sociedade. Apesar de algumas configurações tenham acentuado a lógica
+destrutiva de Aristóteles nas ciências práticas, segundo este emblemático
+filósofo, a essência do objeto é a sua própria função, não é por acaso que foi
+chamado de sistematizador da lógica, fazendo todos a sua volta pensarem
+sempre com muita clareza.
+O Filósofo,como o chamava Santo Tomás de Aquino,fez contribuições
+notáveis na área da metafísica, ética, política, física, biologia,entre outras, sendo
+um dos pioneiros a ter considerações sistemáticas a respeito dos seres vivos.
+Em cada área supracitada, a abordagem de Aristóteles ficou marcada por uma
+junção de observações empíricas e especulações filosóficas. O seu legado não
+se limitou à sua época, mas continua até os dias de hoje, em atritos e debates
+sobre a realidade atual e a natureza de conhecimentos e os fundamentos da
+ética.
+Nesse sentido, essa obra irá levá-lo para passagens importantes da ética,
+ciência, moral aristotélica, propondo entendimentos controversos, interpretações
+e ideias de textos que ficaram marcados na filosofia ao longo dos anos. Desse
+
+-- 11 of 64 --
+
+PREFÁCIO
+modo, fica ao leitor a satisfação de seguir as análises dos problemas e alusões
+que atormentava e o movia. E não nos deixar esquecer da importância da
+cautela e do equilíbrio em todas as coisas e da inestimável busca pela verdade
+da existência humana.
+No processo de ampliação de suas investigações, Aristóteles se
+interessou pelo fenômeno da vida, abrindo portas na biologia, com uma visão
+funcional dos organismos vivos desde uma análise das capacidades mais
+básicas ligadas ao desenvolvimento e à reprodução, até a capacidade intelectual
+dos seres em geral. Seu legado é um marco da singularidade e dimensão da
+mente humana individual e em sociedade, e seus escritos, são consideradas
+uma fonte incalculável de sabedoria.
+Ademais, vale destacar que a presente obra tem um valor inestimável
+para história e filosofia, uma vez que trata de Aristóteles como um dos principais
+pupilos da Academia de Platão, retratando, na medida exata, através da
+contextualização, a forma como esse grande pensador foi se estruturando
+intelectualmente. Ele, que ficou imerso durante anos em uma vasta plataforma
+de absorção de conhecimento empreendida por Platão, foi capaz de extrair
+inúmeras lições que transcendem a linha do tempo, ultrapassando o paradigma da
+época, de forma séria e polida, para que o conhecimento não fosse disseminado
+a destempo.
+Essa criação não anseia em ser uma mera leitura exaustiva, mas também
+não peca em superficialidade, já que existe uma cronologia de fatores que são
+colocados durante o decorrer do texto que se interligam através de uma ordem
+harmônica e atrativa ao leitor. Em paralelo, observa-se que não há demagogias
+a serem extraídas, pois é evidente o caráter cirúrgico expresso na obra, a qual
+promove o tratamento dos principais pontos da vida de Aristóteles de forma clara
+e técnica, realçando a presteza com o leitor.
+Neste cenário, é visível a preocupação do autor em demonstrar o
+personagem principal desta obra como um ser autônomo que não se prendeu
+a ensinamentos passados e que, através de suas atitudes, aprendizados e
+abstrações da vida, decidiu, por si só, revolucionar a filosofia ocidental. É
+evidente que Aristóteles, apesar de ansiar por mudanças, não se apegou aos
+pensamentos já concretizados da época, sendo este o momento em que sua
+responsabilidade se avolumou. Tal fato pode ser inferido ao decorrer da Obra,
+uma vez que, com uma boa preleção, o autor conseguiu estruturar o assunto com
+o método que lhe é próprio, o qual é regado de argumentos que se conectam
+e marcam o desenvolvimento do texto com êxito, contribuindo com a justa
+dosagem em seu nexo.
+
+-- 12 of 64 --
+
+PREFÁCIO
+Esmiuçando o supracitado, é evidente para o leitor que a metodologia
+bibliográfica utilizada na argumentação da obra não se consolidou em citações
+breves e descontextualizadas, pois há, indubitavelmente, uma análise prévia na
+escolha feita por cada argumentação utilizada nesta criação, já que o nexo entre
+as citações e as opiniões do autor restam inteiramente entrelaçadas, motivo
+pelo qual o personagem principal se reveste de adjetivos particulares de caráter
+autônomo. Somando-se, tem-se que, no decorrer do texto, há uma série de
+conclusões a respeito do que é construído em seu desenvolvimento, as quais se
+caracterizam por não serem apenas fechamentos, e sim, um resultado do produto
+exposto através da soma dos fundamentos com os discursos manifestados pelo
+autor.
+Destaca-se que a Obra não sossegou em retratar a vida de Aristóteles,
+pois, apesar de enfatizá-lo em diversas partes da construção, também adentrou
+com maestria no ambiente intelectual envolto sobre o referido pensador,
+detalhando-o com riqueza através da exposição de concepções filosóficas, a
+exemplo da citação: “textos exotéricos”, feita no primeiro capítulo da presente
+criação, para retratar uma das classificações feitas pelos estudiosos para se
+referir às obras de Aristóteles, a qual o autor fez questão de destacar que:
+“os textos considerados exotéricos eram frequentemente escritos na forma
+de diálogos ou epístolas, possuindo um caráter menos rigoroso e sendo mais
+acessíveis ao público em geral”. Com isso, resta evidente que nada foi colocado
+nesta obra como um mero jogo de palavras, mas sim, como um pressuposto
+lógico para o que é contado.
+A análise contextualizada da vida e das obras deste filósofo singular, é
+o diferencial deste livro, que traz reflexões e caminhos diretamente opostos,
+gerando uma nítida harmonia entre os interesses do ser humano ético, social
+e político. Por essas razões, entre outras trazidas no conteúdo didático desta
+obra, é com orgulho e grata satisfação que apresento e recomendo este livro.
+Boa leitura a todos.
+Bruna Eduarda Vieira de Farias
+Robério Vinícius Almeida Cruz
+
+-- 13 of 64 --
+
+5	Aristóteles: vida e obra
+CAPÍTULO 1
+ARISTóTElES: vIdA E ObRA
+Para iniciar uma reflexão sobre o pensamento aristotélico deve iniciar-se por
+uma cuidadosa consideração dos elementos fundamentais relacionados à vida, à obra
+e às peculiaridades deste filósofo. É imperativo, nesse empreendimento, que estejamos
+sensíveis aos matizes de sua existência e aos contornos de sua produção intelectual.
+No século XX, notáveis eruditos dedicaram-se a Aristóteles, revelando que a
+compreensão de sua filosofia exige uma atenção especial aos vinte anos que ele passou
+como discípulo na Academia de Platão. Entretanto, aqui nos deparamos com uma questão
+de considerável envergadura: a escassez de fontes fiáveis concernentes à vida de
+Aristóteles. As biografias antigas que nos legaram registros de seu percurso, destacando-
+se a notável narrativa de Diógenes Laércio, baseiam-se, em grande parte, em testemunhos
+anteriores, nem todos dotados de inquestionável credibilidade. Assim, é inegável que, ao
+considerar os aspectos biográficos de Aristóteles, devemos proceder com a devida cautela.
+O nascimento de Aristóteles entre os anos de 384-383 a.C. na cidade de Estagira,
+uma colônia jônica situada ao norte da Grécia, é um dado consagrado entre seus biógrafos.
+Seu pai, Nicômaco, integrava a seleta casta dos asclepíades, ostentando a sabedoria da
+medicina, enquanto sua mãe, Féstis, segundo uma tradição que se perpetua, também era
+associada a esse ilustre clã asclepíadeano.
+OS ANOS NA ACADEMIA
+Com a trágica partida de seus pais, Aristóteles viu-se sob a tutela de seu tio,
+Próxeno. Em sua incansável busca por completar a educação do jovem discípulo,
+Próxeno tomou uma decisão de magnitude: enviou-o a Atenas e inscreveu-o na venerável
+Academia, que já naqueles tempos estava firmemente enraizada no seio do mundo grego.
+Aristóteles ingressou nesse sagrado recinto em 366-367 a.C., justamente quando Platão
+empreendia uma expedição à Sicília. Contava, então, com apenas dezessete anos de idade
+e permaneceria ali por cerca de duas décadas. Não pairam dúvidas de que a permanência
+de Aristóteles na Academia constitui um marco crucial em sua existência, pois foi ao longo
+desses vinte anos, em meio a inúmeros debates com Platão e seus ilustres discípulos,
+que ele consolidou os fundamentos de sua consciência filosófica e das sementes que
+floresceriam em seu próprio pensamento.
+Platão, após sua primeira viagem à Sicília, ergueu os pilares da Academia,
+consagrando-a ao culto das Musas e de Apolo, senhor das Musas. A essência da Academia
+residia na formação de futuros estadistas verdadeiros, homens capazes de renovar o Estado
+por meio do conhecimento e da compreensão do Bem supremo. Dentro dos domínios
+da Academia, as disciplinas matemáticas, que englobavam a aritmética, a geometria, a
+astronomia e até mesmo a medicina, eram consideradas como etapas preparatórias para
+
+-- 14 of 64 --
+
+6	Aristóteles: vida e obra
+o estudo da dialética. Aristóteles, ao adentrar essa nobre instituição, absorveu as ciências
+matemáticas sob a tutela de Eudoxo, e é plausível conjecturar que, antes do retorno de
+Platão, já houvesse iniciado o segundo ciclo de seus estudos, a etapa que o encaminharia
+em direção à dialética.
+Desde tenra idade, Aristóteles já se destacava como um dos principais pupilos da
+Academia, ao ponto de ser incumbido com a missão de ministrar um curso sobre a retórica,
+dando origem à sua inaugural obra, intitulada “Grilo”.
+A influência de Platão sobre Aristóteles foi determinante, não apenas porque na
+Academia o estagirita aprendeu a essência do método filosófico, mas também porque o
+platonismo serviu como o núcleo em torno do qual a especulação aristotélica floresceu.
+Torna-se cristalino que, como sabiamente ponderado por Frederick Copleston, “Aristóteles
+encontrou em Platão um guia e amigo pelo qual tinha a maior admiração, e, embora nos
+anos posteriores os seus interesses científicos tendessem a ser dominantes, o ensino
+metafísico e religioso de Platão teve influência duradoura sobre ele”.
+A SAÍDA DA ACADEMIA
+Com a morte de Platão em 347 a.C., a Academia se viu envolta em um crise,
+abalada pela incerteza quanto ao seu futuro líder. Eudoxo, outrora uma figura de destaque,
+rompera com os ideais platonistas e regressara a Cnido. Entre os demais aspirantes à
+liderança estavam Heraclides Pôntico, Xenócrates e Espeusipo, sobrinho de Platão.
+Quando lançamos nosso olhar sobre esses postulantes e os comparamos com Aristóteles,
+torna-se cristalina a verdade de que, apesar das diferenças que nutria em relação a Platão,
+o estagirita emergia como o mais preparado para suceder o mestre ateniense.
+Aristóteles fora, inquestionavelmente, o discípulo mais autêntico de Platão. No
+entanto, prevaleceu a influência do parentesco de Espeusipo com Platão, e foi este último
+quem assumiu o comando da Academia. Inspirado no derradeiro diálogo de Platão, “As
+Leis”, Espeusipo impregnou a Academia com a orientação profundamente influenciada
+pelo orfismo pitagórico. Isso resultou na priorização do estudo das matemáticas, com uma
+inclinação mais marcada para os princípios pitagóricos em detrimento dos platonistas.
+Aristóteles não conseguiu concordar com essa nova direção imposta por Espeusipo e, em
+conjunto com Xenócrates, decidiu deixar a Academia. A impossibilidade de retornar à sua
+cidade natal, Estagira, destruída por Filipe da Macedônia, forçou-o a aceitar o convite de
+Hérmias, tirano de Atarneu. Em Assos, Aristóteles estabeleceu uma escola, com o objetivo
+de retomar a tradição que Platão havia iniciado.
+Em 342-343 a.C., Aristóteles recebeu um convite que mudaria o curso de sua vida.
+Filipe da Macedônia convidou-o para ser o preceptor de seu filho, Alexandre, que na época
+contava com apenas treze anos de idade. O fato de Nicômaco, pai de Aristóteles, ter sido
+médico da corte macedônica, provavelmente influenciou a escolha do filósofo para essa
+
+-- 15 of 64 --
+
+Aristóteles: vida e obra 	7
+importante função. Em 340 a.C., quando Alexandre ascendeu ao trono, como um gesto de
+gratidão ao seu mestre, reconstruiu a cidade de Estagira. Aristóteles, ao que tudo indica,
+voltou para sua terra natal com o propósito de auxiliar no renascimento da cidade que, por
+tanto tempo, tinha sido seu lar.
+O RETORNO A ATENAS
+No ano de 335-334 a.C., Alexandre já tinha consolidado seu domínio político sobre
+o mundo helênico, e nesse momento decisivo, Aristóteles tomou a resolução de retornar
+a Atenas. Ele chegou à cidade com a reputação de ter sido o mentor de Alexandre e já
+ostentava a posição de pensador mais eminente de seu tempo.
+Inspirado pelas lições de Platão e plenamente ciente de que ainda tinha muito a
+contribuir para a filosofia, Aristóteles empenhou-se em estabelecer sua própria escola. No
+entanto, devido à sua condição de estrangeiro, estava impedido de adquirir propriedades.
+Diante dessa limitação, ele fundou sua escola em um ginásio público, denominando-a
+Liceu, em homenagem a Lício, o qual providenciou um edifício e um jardim para as
+atividades acadêmicas. O local ganhou notoriedade como Perípato, devido ao costume
+de Aristóteles de ministrar suas aulas enquanto caminhava. Seus anos em Atenas se
+revelaram, indubitavelmente, os mais prolíficos de sua carreira. Agora com cinquenta anos
+de idade, havia alcançado uma plenitude espiritual e filosófica, e ainda dispunha de vigor
+para ensinar e escrever.
+Em 323 a.C., a morte de Alexandre desencadeou um clima de hostilidade contra
+os macedônios em Atenas. Como Aristóteles havia residido por anos em Pela, educado
+Alexandre e mantido uma correspondência regular com Antipater, o braço direito do
+imperador, recaíram sobre ele acusações de traição e impiedade. Para evitar o destino
+semelhante ao de Sócrates, Aristóteles abandonou Atenas e refugiou-se em Calcides, a
+terra natal de sua mãe.
+A OBRA DE ARISTÓTELES
+A vastidão da obra de Aristóteles é, de fato, impressionante, tanto em termos
+de quantidade quanto na amplitude dos temas que abordou. Seu legado abarca desde
+minuciosas investigações sobre embriologia felina e a natureza do sono até tratados
+profundos de lógica e metafísica.
+Uma distinção tradicional entre os estudiosos da obra de Aristóteles é a divisão entre
+obras exotéricas e esotéricas. Os textos considerados exotéricos eram frequentemente
+escritos na forma de diálogos ou epístolas, possuindo um caráter menos rigoroso e
+sendo mais acessíveis ao público em geral. Geralmente, abordavam temas como retórica
+e dialética. Por outro lado, as obras esotéricas eram caracterizadas por um nível de
+profundidade e detalhamento extremo, exigindo um conhecimento filosófico sólido para
+
+-- 16 of 64 --
+
+Aristóteles: vida e obra 	8
+serem compreendidas plenamente. Esses tratados eram destinados principalmente aos
+discípulos de Aristóteles e serviam como a base de suas aulas no Liceu, portanto, não
+tinham uma ampla circulação.
+Até 	o 	primeiro 	século 	a.C., 	as 	obras 	conhecidas 	de 	Aristóteles 	eram
+predominantemente as obras exotéricas, uma vez que as obras esotéricas permaneciam
+confinadas a um círculo restrito de alunos. Essa situação levou muitos a acreditarem que
+as obras exotéricas representavam todo o pensamento aristotélico. No entanto, o cerne do
+pensamento de Aristóteles reside nas obras esotéricas.
+As obras esotéricas de Aristóteles foram disponibilizadas ao público em geral após
+a edição realizada por Andronico de Rodes, que é famosa até os dias atuais e é conhecida
+como o Corpus Aristotelicum. Graças a essa edição, conseguimos classificar as obras de
+Aristóteles em diferentes categorias:
+1. 	Escritos sob a influência de Platão:
+• 	Eudemo ou sobre a alma;
+• 	O protréptico ou exortação à filosofia;
+• 	Grilo;
+• 	Sobre as Ideias;
+• 	Poemas
+• 	Da monarquia;
+• 	Da colonização;
+• 	Constituições;
+• 	Da filosofia;
+Alguns ainda dizem ser deste período as partes mais antigas das obras de lógica,
+da física e do de anima e um esboço preliminar da metafísica.
+2. 	Escritos da maturidade:
+• 	Analitica ou Órganon;
+• 	Física;
+• 	Metafísica;
+• 	Ética a Nicômaco;
+• 	Política;
+• 	Retórica;
+• 	Poética;
+
+-- 17 of 64 --
+
+9	Introdução à ciência Ética
+CAPÍTULO 2
+INTROdUÇÃO à CIêNCIA ÉTICA
+A ÉTICA COMO CIÊNCIA DO BEM
+Aristóteles, com sua perspicácia única, esquadrinha as vastas terras do conhecimento
+humano e as divide em três reinos distintos: as ciências práticas, as ciências poiéticas e as
+ciências teoréticas. Nas ciências práticas, encontramos o terreno das ações que brotam e
+encontram seu término dentro do próprio indivíduo que as realiza. Um exemplo emblemático
+disso é a ética. Na ética, os indivíduos refletem sobre o que é moralmente certo ou errado e
+tomam decisões com base em princípios éticos pessoais, influenciando diretamente o seu
+caráter e comportamento.
+Nas ciências poiéticas, por sua vez, adentramos o reino das ações que têm seu
+princípio no sujeito, mas cujo fruto se estende para além de si mesmo. Tomemos como
+exemplo a arquitetura. Um arquiteto concebe e projeta um edifício, mas uma vez que o
+edifício é construído, ele afeta o ambiente ao seu redor e a vida das pessoas que o utilizam.
+O edifício é uma manifestação tangível da criatividade e do conhecimento do arquiteto, mas
+suas implicações transcenderão o âmbito pessoal do criador.
+Finalmente, nas ciências teoréticas, somos convidados a explorar o domínio do
+pensamento puro, desprovido de qualquer conexão com a ação ou produção prática,
+alimentando-se unicamente da especulação. Um exemplo notável nesse contexto é a
+filosofia. Os filósofos se dedicam à contemplação de questões abstratas, como a natureza
+da existência, a mente, a moralidade e a realidade, sem a necessidade de criar produtos
+tangíveis ou realizar ações diretas no mundo material. Suas descobertas e reflexões
+enriquecem a esfera intelectual da humanidade, influenciando a compreensão do mundo,
+mas não buscam uma aplicação prática direta, no sentido convencional.
+Essa tríade aparentemente emerge da distinção essencial entre teoria e práxis, uma
+distinção que Aristóteles, de maneira inigualável, definiu com rigor técnico, aprofundando
+o que já havia sido explorado pela filosofia anterior, notadamente pelos insights de Platão.
+Tanto a práxis quanto a teoria residem sob o abrigo de uma das categorias do ser
+que é a potência relacionada ao movimento, uma potência que, por sua vez, se subdivide
+em duas categorias: a ‘ação perfeita’ e a ‘ação imperfeita’. A ‘ação perfeita’ é aquela que
+encontra sua finalidade em si mesma, é o próprio ato, exemplificado pelo ver, conhecer e
+pensar. Em contrapartida, a ‘ação imperfeita’ é aquela em que a finalidade reside em algo
+exterior ao ato em si, sendo, portanto, denominada de movimento; exemplos ilustrativos
+incluem emagrecer, caminhar e construir. A ação perfeita é, com justiça, denominada teoria,
+enquanto a ação imperfeita abraça a alcunha de práxis. As ciências teoréticas abraçam
+essa denominação devido à sua busca pela contemplação, buscando assim ação voltada
+para a própria contemplação, enquanto as poiéticas e práticas têm em vista algo diverso da
+contemplação em seu horizonte.
+
+-- 18 of 64 --
+
+Introdução à ciência Ética 	10
+Na esfera da filosofia moral, identificamos uma tríade complementar. A primeira se
+debruça sobre as operações humanas direcionadas ao fim e assume o nome de monástica.
+A segunda lança seu olhar sobre as operações do âmbito doméstico, sendo denominada
+econômica. A terceira se expande até abranger as operações na esfera pública, sendo
+rotulada de política. A ética, como componente vital, encontra-se na primeira parte, uma
+vez que se erige como uma ciência prática que se debruça sobre as ações individuais e
+interindividuais.
+De forma divergente em relação a outras ciências, como as matemáticas, a ciência
+ética não pode ostentar o mesmo rigor demonstrativo, dada a complexidade de seu objeto de
+estudo, cujas variações e nuances tornam a busca pela verdade uma jornada aproximada,
+desenhando suas linhas gerais a partir de premissas que, embora válidas na maioria das
+vezes, não oferecem garantias absolutas (BERTI, 2014, p. 31). A filosofia prática, assim,
+direciona sua finalidade para a determinação do bem, demandando uma compreensão
+profunda da natureza humana, suas partes constituintes, funções e a hierarquia entre essas
+partes. Para o homem comum, isso pode parecer supérfluo, mas para aqueles que se
+dedicam ao estudo da ética, é uma necessidade. A ética busca não apenas a contemplação
+da verdade, mas, acima de tudo, o aprimoramento da ação individual por meio das virtudes.
+Em outras palavras, exploramos as virtudes não apenas para admirá-las, mas, sim, para
+orientar nossas ações em direção ao bem.
+A grande complexidade da ética reside no fato de que não basta apenas compreender
+as virtudes; é imperativo aplicá-las na prática. Conhecer a justiça não transforma alguém
+em uma pessoa justa, assim como a mera compreensão da fortaleza não confere força.
+Nesse sentido, emerge uma tensão entre o universal e o particular, visto que o discurso
+da ciência ética ostenta certo grau de universalidade, enquanto as ações humanas são
+intrinsecamente concretas e particulares.Portanto, cabe ao agente humano construir a ponte
+entre o universal e o particular, permitindo-lhe discernir, em circunstâncias específicas, qual
+é a ação correta a ser tomada.
+O método empregado por Aristóteles é revelado nos meandros de sua obra “Ética
+a Eudemo” :
+“É supérfluo examinar todas as opiniões sobre a felicidade que quaisquer
+indivíduos expressam. Parece realmente que crianças, enfermos e insanos as têm em
+grande quantidade, mas nenhuma pessoa sensata as discutiria, pois esses argumentos
+são dispensáveis. É igualmente supérfluo examinar o que pensa a respeito o vulgo, pois
+as pessoas ordinárias falam casualmente acerca de quase tudo, e, sobretudo, acerca da
+felicidade. Cabe-nos examinar apenas as opiniões dos sábios.” ( EE 1214 b 30- 1215 a-
+1-3.)
+O método aristotélico se revela como uma vigorosa confrontação de opiniões, mas
+não meramente qualquer opinião; é a intrépida confrontação das opiniões dos sábios, em
+busca do que se revela verdadeiro em cada uma delas, enquanto rejeita resolutamente
+
+-- 19 of 64 --
+
+Introdução à ciência Ética 	11
+o que se mostra falso. O modo de argumentar da ética, assim delineado, é, portanto,
+“dialético”, no sentido peculiarmente aristotélico desse termo. Diante disso, alguns foram
+levados a considerar Aristóteles como um conservador, um filósofo preocupado unicamente
+em justificar ou racionalizar o costume existente, e mais precisamente o modo de pensar
+da classe dirigente (BERTI,2014,p.37) . No entanto, essa conclusão é manifestamente
+equivocada, uma vez que o filósofo demonstra de maneira incontestável que muitas das
+opiniões prevalentes são contraditórias. Além disso, muitas de suas próprias conclusões
+contradizem as opiniões predominantes. Aristóteles não se limita a aceitar acriticamente
+as convenções existentes; ao contrário, seu método dialético e sua busca pela verdade o
+conduzem a questionar, desafiar e iluminar as suposições arraigadas. Ele busca um terreno
+sólido e fundamentado para a ética, não apenas para endossar o status quo, mas para
+discernir as bases racionais e objetivas da ação moral e da vida virtuosa. Portanto, acusar
+Aristóteles de ser um mero apoiador do establishment é uma interpretação superficial que
+não captura a riqueza de seu pensamento filosófico e ético.
+
+-- 20 of 64 --
+
+12	Em Busca da Felicidade: Reflexões Aristotélicas sobre o Bem Supremo
+CAPÍTULO 3
+EM bUSCA dA FElICIdAdE: REFlEXÕES ARISTOTÉlICAS
+SObRE O bEM SUPREMO
+Aristóteles, em seu magistral tratado “Ética a Nicômaco”, inaugura sua investigação
+afirmando que “ toda arte, toda investigação e igualmente toda ação e projeto previamente
+deliberado parecem objetivar algum bem”(EE 1094 a 1.).Nesse sentido, fica claro que
+toda atividade humana carrega consigo uma finalidade intrínseca. Assim, a arte médica
+visa à restauração da saúde, enquanto a construção de embarcações visa à criação de
+navios. Dado que uma diversidade de ações, artes e ciências existe, há, de maneira
+correspondente, uma multiplicidade de finalidades. Dois princípios fundamentais guiam os
+atos humanos: o intelecto e o apetite.
+Considerando a dualidade dos princípios motrizes, as operações humanas também
+podem ser categorizadas em dois tipos: aquelas que são motivadas pelo apetite e aquelas
+que se originam do intelecto. Não é difícil discernir que, em muitos casos, uma finalidade
+pode estar subordinada a outra. Por exemplo, alguém que deseja um automóvel precisa de
+recursos financeiros para adquiri-lo. Para obter tais recursos, pode optar por economizar,
+encontrar emprego, reduzir gastos ou até mesmo solicitar um empréstimo. Nesse contexto,
+uma hierarquia de bens se estabelece, uma vez que algumas finalidades são desejadas em
+função de outras. Em última análise, se existe um bem de tal magnitude que o desejamos
+por ele mesmo, esse bem ascenderá à condição de supremacia. É crucial recordar que
+a ética tem como objeto de estudo a ação humana. Logo, esse bem supremo deve ser
+acessível por meio da ação humana deliberada.
+A EUDAIMONIA COMO BEM SUPREMO
+“É necessário que exista um fim uno do homem enquanto homem, por causa da
+unidade da natureza humana, assim como existe um fim do médico enquanto médico por
+causa da unidade da arte medicinal. E este fim último do homem é dito bem do homem,
+que é a eudaimonia.” (AQUINO,2020,p 27). A eudaimonia emerge como a finalidade que
+ordena e dá sentido a todas as empreitadas humanas. Ela se manifesta como o bem que é
+buscado em si mesmo, subjugando todas as outras metas, uma perfeição que se encontra
+em si mesma, autossuficiente.
+Refletindo sobre a perfeição inerente à eudaimonia, percebemos que, da mesma
+forma como o agente se encaminha em direção ao seu fim, o próprio fim exerce influência
+sobre os desejos do agente. Isso nos conduz à necessidade de harmonizar os diferentes
+graus de propósitos com os diferentes graus de agentes. O primeiro grau do agente é
+aquele que não age em conformidade com sua própria essência, mas é impelido por uma
+força exterior; o resultado não reflete o agente, mas sim aquele que o incita. O segundo
+grau é aquele que age de acordo com sua própria natureza, embora ainda necessite de um
+
+-- 21 of 64 --
+
+Em Busca da Felicidade: Reflexões Aristotélicas sobre o Bem Supremo 	13
+agente prévio para se movimentar. Por fim, o terceiro grau corresponde ao agente que age
+em perfeita sintonia com sua própria essência e não requer estímulo externo.
+O terceiro grau de agente é aquele que é buscado por si mesmo, desvinculado
+de qualquer outra motivação. O que é almejado por si mesmo carrega uma perfeição
+e um atrativo superiores àquilo que é buscado por conta de outras razões. Portanto, a
+eudaimonia se apresenta como uma perfeição completa e é buscada per se. Na verdade,
+nossa aspiração pela felicidade não é condicionada por motivos externos ou circunstâncias,
+mas se revela como uma busca pela própria felicidade.
+Da perfeição emerge a autossuficiência inerente, mas a eudaimonia é considerada
+intrinsecamente autossuficiente na medida em que engloba tudo aquilo que falta ao ser
+humano por necessidade.
+O entendimento do propósito supremo nos habilita de forma mais eficaz a alcançá-
+lo, pois ao compreendê-lo, a identificação dos meios para sua consecução torna-se
+consideravelmente mais clara e acessível.
+A EUDAIMONIA COMO ATIVIDADE PRÓPRIA DO HOMEM
+Na Ética a Eudemo, Aristóteles diz “ todas as substâncias são naturalmente um certo
+tipo de princípios, o que capacita cada uma delas a gerar muitas coisas de tipo idêntico ao
+seu”(EE 1222 b 15-20.),a substância assume,portanto, um papel central e fundamental. A
+substância, no âmago da filosofia, emerge como algo primordial que confere identidade e
+significado a todas as outras características e atributos de um objeto. Para ilustrar essa
+ideia, permita-me evocar o exemplo da mangueira. A mangueira transcende a mera soma de
+suas características individuais, como tamanho, localização no espaço, presença no tempo,
+coloração das folhas e tipo de fruto. Ela emana e emoldura todas essas características a
+partir de sua essência intrínseca, que a define como uma mangueira. De maneira concisa,
+a substância é o ponto de origem, a causa primeira de todos os seus atributos distintos.
+É crucial compreender que é inconcebível uma mangueira engajada em atividades que
+estejam alheias à sua própria natureza, como entoar canções como Pavarotti ou produzir
+maçãs, pois tais manifestações são incompatíveis com a sua substância.
+A aplicação desse princípio à ética é intrigante. Aristóteles nos ensina que a ética
+visa descobrir o maior bem que podemos alcançar por meio de nossas ações. Ele também
+destaca que, entre todos os seres vivos, somente o ser humano desempenha o papel de
+princípio de uma determinada conduta. Esse princípio, que é a causa primordial da conduta
+ética, é um componente complexo de nossa natureza.
+Por um lado, somos animais, com instintos que compartilhamos com outras criaturas
+do reino animal. Por outro lado, somos dotados de uma faculdade especial chamada razão,
+que age como um farol em nossa jornada ética, orientando-nos na busca pelo que é certo e
+errado. Enquanto no reino animal, os instintos são a força motriz predominante, nós, seres
+
+-- 22 of 64 --
+
+Em Busca da Felicidade: Reflexões Aristotélicas sobre o Bem Supremo 	14
+humanos, somos distinguíveis pela presença da razão. Essa faculdade de raciocínio nos
+permite transcender nossos instintos quando necessário, iluminando o caminho em direção
+ao bem e às virtudes. Portanto, os seres humanos são princípios de uma conduta, mas
+essa conduta não é predefinida; é contingente e pode manifestar-se de várias maneiras.
+A base fundamental da ética aristotélica é o conceito de bem. O bem é a finalidade
+inerente a cada ser e está intrinsecamente ligado à sua operação característica. O mal, por
+outro lado, não é uma entidade em si, mas a ausência ou privação do bem. Quando um ser
+não desempenha bem sua função, isso ocorre devido a uma corrupção que o priva do bem.
+O ser humano possui uma função própria, que é o exercício das faculdades da alma
+em conformidade com a razão. Isso nos leva à conclusão de que o bem humano reside
+na atividade das faculdades da alma em harmonia com a virtude. A atividade da faculdade
+mais elevada da alma, em consonância com a virtude, é denominada felicidade. Portanto,
+é natural para os seres humanos buscar a felicidade, e uma vida feliz está intrinsecamente
+ligada à virtude. Por outro lado, uma vida infeliz está associada ao vício, que é a corrupção
+da virtude e nos afasta da felicidade. Conclui-se, portanto, que a virtude é o caminho que
+nos conduz à felicidade, enquanto o vício nos afasta dela.
+Três Perspectivas da Felicidade na Grécia Antiga: Prazer, Honra e a Busca pelo
+Bem Supremo.
+Analisando o modo de vida das pessoas na Grécia antiga, Aristóteles discerniu três
+principais concepções de felicidade: a primeira vincula a felicidade ao prazer, a segunda à
+vida política e a terceira à vida especulativa.
+1. Vida prazerosa
+“O grosso da espécie humana se revela inteiramente vil; sua preferência é por
+uma vida própria do gado, havendo alguma razão em seu ponto de vista, porque muitas
+pessoas eminentes compartilham das paixões de Sardanápalo. (EN 1095 b 20)”. Aqui,
+Aristóteles se refere a um monarca assírio, de caráter mítico, que representa a vida
+devotada ao deleite. A existência pautada no prazer é a mais fugaz dentre as três, sendo
+esta abordagem particularmente predominante entre os jovens. Entretanto, é crucial
+ressaltar que identificar o prazer com o Bem Supremo constitui um erro primordial, visto que
+experiências prazerosas podem, em sua desmedida, redundar em prejuízo. Aqueles que se
+entregam excessivamente aos deleites concupiscentes do tato e do paladar merecem nossa
+censura. Nos encontramos em uma era profundamente erotizada, em que quase tudo nos
+direciona ao desejo sexual, resultando, como efeito colateral, em uma epidemia de vício
+em pornografia que afeta inúmeras pessoas. É inegável que o ato da ejaculação oferece
+uma sensação extremamente prazerosa, contudo, quando alguém se torna escravo da
+pornografia, uma avalanche de dopamina se abate sobre ele, acarretando consequências
+nefastas.
+
+-- 23 of 64 --
+
+Em Busca da Felicidade: Reflexões Aristotélicas sobre o Bem Supremo 	15
+O vício em pornografia é um fenômeno de complexidade intrigante, que tem
+sido meticulosamente examinado nas esferas da psicologia, neurociência e psiquiatria.
+Notavelmente, revela-se uma analogia surpreendente com a dependência química que
+caracteriza os vícios em substâncias poderosamente viciantes, como o crack e outras
+drogas.
+Essa convergência notável encontra sua raiz na centralidade da dopamina, um
+neurotransmissor intricadamente relacionado com o sistema de recompensa do cérebro.
+Quando um indivíduo se entrega à pornografia, particularmente de maneira compulsiva
+e repetitiva, o cérebro responde liberando quantidades consideráveis de dopamina. Essa
+cascata de “recompensas” químicas proporciona uma sensação intensa de prazer e
+excitação. Contudo, à medida que o vício progride, o cérebro começa a se habituar a essa
+estimulação excessiva, resultando em uma diminuição da responsividade aos estímulos
+normais de prazer na vida cotidiana.
+Essa redução da sensibilidade à dopamina conduz a uma busca incessante por
+conteúdo pornográfico cada vez mais extremo e bizarro, numa tentativa de resgatar a
+sensação inicial de excitação. Este ciclo vicioso de compulsão engendra a necessidade
+implacável de consumo, relegando o indivíduo a um isolamento social crescente e ao
+afastamento de outras atividades e relacionamentos significativos.
+Do ponto de vista da saúde mental, o vício em pornografia acarreta consequências
+profundas e adversas. Pode precipitar estados depressivos, ansiedade debilitante, abalos
+na autoestima e o peso de sentimentos de culpa e vergonha avassaladores. O indivíduo
+afetado, frequentemente, se sente impotente diante do próprio comportamento, o que
+perpetua e aprofunda ainda mais as angústias psicológicas.
+Ademais, o vício em pornografia frequentemente contamina os relacionamentos
+interpessoais. A intimidade emocional e sexual com um parceiro real pode ser prejudicada,
+uma vez que o indivíduo viciado muitas vezes prefere a gratificação instantânea e superficial
+proporcionada pela pornografia em detrimento de uma ligação genuína com outra pessoa.
+Esse desequilíbrio pode dar origem a conflitos intrincados, amargura persistente e, em
+última análise, à desintegração de relacionamentos significativos. Sem dúvida, este é um
+prazer que desencadeia uma série de malefícios. Próprio é compreender que o prazer
+e o bem não são indissociáveis, pois, embora a felicidade possa ser uma experiência
+prazerosa, o prazer em si não constitui a essência da felicidade.
+Platão, no diálogo “Górgias” (464a-d), menciona duas esferas de atividades distintas,
+uma voltada para o cuidado da alma – a política – e a outra dedicada ao cuidado do corpo,
+subdividida em ginástica e medicina. Ambas essas esferas de atividade são permeadas pela
+lisonja, que cria uma imitação do bem desejado por essas atividades, sem se preocupar
+realmente com o que é melhor. Em vez disso, cede à sedução do prazer imediato. Quando
+o prazer se torna o objetivo final, o bem se torna acidental. Ainda no mesmo diálogo, Platão
+ironiza aqueles que identificam a felicidade com o prazer na seguinte passagem:
+
+-- 24 of 64 --
+
+Em Busca da Felicidade: Reflexões Aristotélicas sobre o Bem Supremo 	16
+“Sócrates: Então desta vez é a vida de uma tarambola que estas descrevendo, não
+a de um cadáver ou de uma pedra. Agora, a vida que queres dizer é algo como sentir fome
+e comer quando se está faminto?
+Cálices: Sim, é.
+Sócrates: E sentir sede e beber quando sedento?
+Cálicles: Sim, bem como experimentar todos os demais desejos, e, sendo capaz de
+satisfazê-los e gozá-los, ter uma vida feliz.
+Sócrates: Ótimo, meu bom homem! Prossigas como começaste e cuides de não te
+envergonhares. Eu, tampouco, pelo que parece, devo tentar não me mostrar excessivamente
+envergonhado. Principia por dizer-me se uma pessoa que sente uma coceira e deseja se
+coçar- podendo fazê-lo com toda liberdade- é capaz de passar toda sua vida de maneira
+feliz coçando-se continuamente.
+Cálicles: Eu diria que o mesmo indivíduo que se coça teria assim uma vida prazerosa.
+Sócrates: E sendo uma vida prazerosa, igualmente uma vida feliz?
+Cálicles: Certamente.” (Gorgias 494 C)
+É inegável que rotular alguém que se coça por mera vontade como uma pessoa
+feliz constitui um absurdo flagrante. Estes dois exemplos são suficientes para atestar que o
+prazer não é idêntico, de forma alguma, com a felicidade.
+2. A vida política
+“Pessoas mais refinadas e de ação pensam que a felicidade é a honra, pois pode-se
+dizer que esta é a finalidade da vida política.”( EN 1095 b 23-25) Entretanto, mesmo a honra
+parece não se configurar como o bem supremo, como Aristóteles observa perspicazmente,
+“a honra parece depender mais dos que a proporcionam do que daquele ao qual é
+proporcionada” (EN 1095 b 23-25). Na esfera da existência, a honra se desenha como um
+reconhecimento externo e social, sujeito à imprevisibilidade das interpretações e dos juízos
+alheios. Como anteriormente ponderado, a honra é como uma sombra, volúvel e dependente
+das efêmeras normas e valores que permeiam a sociedade. Tal fragilidade pode enredar
+um indivíduo em um jogo de aparências, compelindo-o a trilhar caminhos que divergem de
+sua verdadeira virtude. Este dilema, como ilustrado na obra de Tolstói, “A Morte de Ivan
+Ilitch”, ecoa a história do protagonista que, imerso em uma busca insaciável por prestígio
+social e status, se afasta da essência de sua própria vida. Na narrativa de Tolstói, somos
+apresentados a Ivan Ilitch Golovin, um juiz de tribunal que, à primeira vista, parece moldar
+sua existência de acordo com as convenções sociais vigentes. Ele contrai matrimônio com
+uma mulher considerada uma excelente escolha, e tudo parece estar em harmonia com
+as expectativas estabelecidas. No entanto, à medida que a trama se desenrola, torna-se
+claro que Ivan Ilitch está aprisionado em uma vida ditada amplamente pelas pressões das
+expectativas sociais. Ele segue uma trajetória voltada para a busca de prestígio, poder e,
+
+-- 25 of 64 --
+
+Em Busca da Felicidade: Reflexões Aristotélicas sobre o Bem Supremo 	17
+sobretudo, honra. O que confere à história de Ivan Ilitch sua profunda ressonância é o fato
+de que, com o passar dos anos, ele começa a questionar a autenticidade de sua própria
+existência. Ele se vê aprisionado em um matrimônio infeliz, uma carreira que lhe causa
+profundo descontentamento e um estilo de vida que se revela como uma mísera máscara,
+desprovida de felicidade genuína. A dor, tanto física quanto emocional, consome Ivan Ilitch
+e, paradoxalmente, essa dor o leva a encarar a verdade sobre sua própria vida.
+À medida que sua doença avança, Ivan Ilitch se depara com o vazio de sua busca
+incessante por aprovação externa e reconhecimento social. Ele percebe que dedicou a
+maior parte de sua existência à perseguição da honra, de ser bem-visto socialmente, porém,
+essa honra não lhe proporcionou verdadeira felicidade. Ele se torna progressivamente
+consciente da falsidade subjacente à sua existência e da superficialidade das normas
+sociais que o guiaram.
+Assim, a história de Ivan Ilitch emerge como uma ilustração vívida de como a busca
+pela honra, quando divorciada da autenticidade e da virtude intrínseca, pode conduzir a
+uma vida repleta de vazio e desilusão. Ivan Ilitch se configura como um exemplo palpável
+de como a busca incessante por validação externa e a conformidade rígida com as normas
+sociais podem afastar um indivíduo de sua verdadeira essência, privando-o da descoberta
+da verdadeira felicidade.
+Ademais, conforme os valores da sociedade se alteram, deparamo-nos com
+a possibilidade de que um indivíduo de virtude destacada seja não apenas privado do
+reconhecimento de suas nobres ações, mas também seja lançado à ignomínia, como
+aconteceu com Sócrates. Este notável filósofo, acusado de corromper a juventude
+e sentenciado à morte pela pólis em virtude de sua filosofia inquiridora. Nesse mesmo
+contexto, em uma sociedade em que os valores estão corrompidos, podemos testemunhar
+a exaltação de indivíduos de caráter questionável, como evidenciam os trágicos episódios
+da história, exemplificados nos casos de Hitler na Alemanha dos anos trinta e Stalin na
+União Soviética. Tais eventos ressoam fortemente como demonstração de que a busca
+pela felicidade não pode ser reduzida à mera busca por honra e reconhecimento social.
+Associar a felicidade à honra parece entrar em conflito com a definição do bem supremo,
+uma vez que a eudaimonia se traduz na atividade da faculdade mais elevada da alma,
+em consonância com a virtude. Percebemos, assim, que o agente desempenha um papel
+fundamental na consecução da felicidade, ao passo que, na honra, aqueles que a conferem
+aparentam ter mais relevância do que o próprio agente.
+3. A vida especulativa
+Aristóteles, neste estágio inicial, não se aprofunda na análise da vida especulativa,
+uma temática que ele posteriormente retomará com maior profundidade no Livro X de sua
+“Ética a Nicômaco”. Portanto, prossigamos adiante, deixando essa discussão para um
+momento posterior, quando poderemos explorar de maneira mais abrangente esse aspecto
+da filosofia aristotélica.
+
+-- 26 of 64 --
+
+18	A virtude moral
+CAPÍTULO 4
+A vIRTUdE MORAl
+No segundo livro da Ética a Nicômaco, mergulhamos profundamente na essência
+da virtude moral. Este livro trata sobre: A) A causa da virtude moral; B) o que é a virtude
+moral; C) como alguém pode se tornar virtuoso
+A distinção crucial entre as duas formas de virtude são manifestamente: a virtude
+intelectual, que é moldada e expandida pelo aprendizado e instrução, demandando,
+consequentemente, um investimento significativo de experiência e tempo. Por outro lado,
+a virtude moral ou ética é forjada através do hábito. É como se o caráter do indivíduo fosse
+esculpido pelas repetidas escolhas virtuosas que ele faz ao longo da vida.
+A análise das virtudes, que Aristóteles empreende, se inicia com uma cuidadosa
+exploração das virtudes morais ou éticas. Isso se dá porque, para o filósofo, essas virtudes
+são como a base sólida sobre a qual as virtudes intelectuais, ou dianoéticas, podem ser
+erguidas. É um processo onde o conhecimento e a sabedoria surgem como edifícios
+majestosos, mas sua construção depende do alicerce da virtude moral.
+Aristóteles, com sabedoria, nos leva a entender que, à medida que nos engajamos
+nas virtudes morais, preparamos o solo para o florescimento das virtudes intelectuais.
+Como viajantes em busca do conhecimento, não podemos continuar indefinidamente,
+portanto, o aprendizado requer que conheçamos muitas coisas através da investigação. O
+conhecimento, em sua essência, é organizado pelas percepções sensoriais que surgem da
+experiência. Portanto, a virtude intelectual demanda tempo e vivência para se consolidar e
+se autenticar.
+Assim, Aristóteles reconhece que as virtudes éticas são como portões de entrada para
+as virtudes intelectuais, e juntas, elas traçam o caminho a ser percorrido pelo buscador do
+saber. A jornada rumo à excelência moral e à verdade intelectual é um processo interligado,
+onde a virtude moral serve como guia e base sólida, e a virtude intelectual, como a torre de
+discernimento que se eleva acima dela.
+A) A CAUSA DA VIRTUDE MORAL
+Como mencionado anteriormente, a virtude moral encontra sua raiz em nossos
+hábitos. Esta virtude, pertencente à parte apetitiva da alma, implica uma predisposição
+em direção a algo desejável. Aquilo que desejamos pode ser entendido de duas maneiras:
+primeiro, como inclinações inerentes à nossa natureza, como a necessidade incontornável
+de alimentos para a sobrevivência; segundo, como inclinações que têm origem nos
+costumes, onde a construção e a consolidação de um hábito se tornam uma segunda
+natureza em nós. É precisamente sobre essas duas formas de apetite que a virtude moral
+exerce sua influência.
+
+-- 27 of 64 --
+
+A virtude moral 	19
+Entretanto, a virtude moral não é intrínseca à nossa natureza. Em todas as coisas
+que são naturais em nós, a capacidade precede a ação. Por exemplo, não adquirimos a
+visão e a audição através de muito ver e ouvir, mas sim, temos a capacidade de ver e ouvir,
+o que nos permite experimentar essas faculdades. No caso dos hábitos, o processo é
+inverso, pois é a repetição de um ato que os gera. Portanto, a virtude moral é conquistada
+através da prática virtuosa; aquele que age de maneira justa repetidamente se torna justo,
+assim como aquele que age com moderação repetidas vezes se torna moderado, e assim
+por diante.
+Outra razão que confirma que a virtude moral não é inata é o fato de que tudo o
+que é natural não pode ser alterado pelo hábito. Os hábitos adquiridos ao longo da vida
+jamais modificarão o fato inevitável da morte, nem eliminarão a necessidade humana de
+alimentação. Portanto, a virtude moral não é uma característica intrínseca à nossa natureza,
+mas sim um fruto do exercício constante da virtude, moldando nosso caráter e conduta ao
+longo do tempo.
+“A virtude moral pertence ao apetite, que opera na medida em que é movido pelo
+bem apreendido. Por isso, se o apetite operar muitas vezes, significa que está sendo movido
+muitas vezes pelo seu objeto. E disto se segue uma certa inclinação a modo de natureza.
+Assim,portanto, fica patente que as virtudes morais não estão em nós por natureza, e
+nem estão em nós contra a natureza. Mas em nós existe uma certa aptidão natural para
+recebê-las, na medida em que a força apetitiva em nós é naturalmente apta a obedecer à
+razão. Mas elas, [isto é, as virtudes morais], se produzem em nós pelo costume, na medida
+em que pelo fato de que vezes repetidas agimos segundo a razão, a forma da força da
+razão imprime-se na força apetitiva. Esta impressão nada mais é do que a virtude moral.
+(AQUINO, 2020 .p 49) Parece, portanto, que a virtude moral não é intrínseca a nós, nem se
+opõe à nossa natureza, mas é inegável que possuímos uma aptidão natural para recebê-la.
+A observação perspicaz de Aristóteles revela um fato intrigante: as mesmas ações
+que servem como princípios ou instrumentos para a aquisição de virtudes são exatamente
+as mesmas que podem ser instrumentos para sua destruição(EN 1003 b 5-10).O exemplo se
+torna evidente ao considerar músicos ou pintores, onde a diferença entre um virtuoso e um
+amador reside na prática incessante. O pianista habilidoso e o mau pianista compartilham
+o ato de tocar o piano, assim como o pintor talentoso e o mau pintor compartilham o ato
+de pintar. Este fato ressalta a importância de um guia competente, um mentor capaz de
+direcionar essas ações para a excelência.
+As virtudes, bem como as ações que as geram, têm uma natureza suscetível tanto
+à corrupção por excesso quanto por deficiência. Um exemplo claro disso são as virtudes
+relacionadas ao corpo. A dieta e o nível de exercício de um atleta são substancialmente
+diferentes daqueles de uma pessoa comum. Um fisiculturista, por exemplo, requer uma
+ingestão calórica muito mais elevada devido ao seu intenso esforço físico, mas uma pessoa
+comum sofreria consequências graves ao seguir a mesma dieta, pois para ela, essa
+
+-- 28 of 64 --
+
+A virtude moral 	20
+quantidade seria excessiva. Por outro lado, a falta de nutrição pode levar a doenças graves
+e, em casos extremos, até mesmo à morte. Essa lógica se aplica igualmente às virtudes
+intelectuais, onde o excesso e a deficiência são considerados males a serem evitados.
+Na Ética a Nicômaco, Aristóteles salienta que o prazer ou a dor que acompanham
+nossas ações são indicativos de nossos estados morais .Um indivíduo é considerado
+moderado quando abdica dos prazeres físicos e encontra satisfação na própria abstinência,
+enquanto alguém desregrado é afligido pela abstinência (EN 1104 b 5-10.).Essas sensações
+de prazer e dor, de acordo com Aristóteles, estão relacionadas às paixões, que são
+movimentos da parte apetitiva da alma em busca do bem ou na fuga do mal. Daí podemos
+concluir que as virtudes morais estão intrinsecamente ligadas a prazeres e dores, e que
+toda virtude moral requer a capacidade de desfrutar e sofrer conforme apropriado, sendo
+a virtude a qualidade que nos permite agir da melhor forma possível. É por isso que Santo
+Tomás de Aquino argumenta que a perversão moral ocorre quando as pessoas cedem aos
+prazeres proibidos que não deveriam buscar, ou quando fogem das dores que deveriam
+enfrentar, desviando-se, em ambos os casos, da reta razão.(AQUINO, 2014 .p 40)
+De fato, quando examinamos nossas ações, fica claro que fazemos e deixamos
+de fazer muitas coisas devido ao prazer ou à dor. Isso destaca a necessidade, como
+enfatizado por Platão, de sermos educados desde a infância a desenvolver gostos e
+aversões adequados, a fim de cultivarmos virtudes morais que nos guiem na busca do bem.
+B) O QUE É A VIRTUDE
+No percurso de sua indagação sobre a natureza da virtude, Aristóteles convoca-
+nos a explorar as profundezas da alma, onde os elementos misteriosos das paixões, das
+potências e dos hábitos residem. Com sua maestria filosófica, ele nos incita a considerar
+que a virtude, em sua essência, deve encontrar seu lugar em um destes três componentes
+da alma. Pois é na intricada sinfonia das paixões que nos motivam, das potências que nos
+capacitam e dos hábitos que modelam nossas ações que reside o verdadeiro âmago da
+virtude, aquela que ergue a alma a seu apogeu mais sublime. (EN 1105 b 20)
+1) A paixão
+No julgamento da relação das paixões com as diversas faculdades da alma,
+afastamos a vinculação com a parte vegetativa da alma, pois as potências inerentes a essa
+parte são ativas. Assim, nesse domínio, não se vislumbra espaço para aquilo que podemos,
+propriamente, denominar como paixão.
+Em contrapartida, nas esferas sensitiva e intelectiva, em que coexistem tanto
+faculdades apreensivas quanto apetitivas, a tônica recai na passividade, ressalvando-se,
+claro, a notável exceção do intelecto agente, que opera em outra esfera. Para clarear nossa
+compreensão sobre o que realmente configura uma paixão, vale a pena estabelecer uma
+
+-- 29 of 64 --
+
+A virtude moral 	21
+distinção entre o sujeito, aquele que emite a informação, e o paciente, aquele que recebe
+a informação.
+A porção sensitiva da alma, associada aos nossos sentidos, age como o paciente ao
+apreender informações provenientes do mundo exterior. Por exemplo, quando apreendemos
+algo por meio da visão, é o objeto observado que emite essa informação, tornando-nos,
+nesse sentido, pacientes desse processo. Cumpre destacar que, embora a apreensão dos
+sentidos e do intelecto possa ser vista como um certo grau de padecimento, as operações
+das potências apreensivas não podem ser corretamente rotuladas como paixões; essa
+designação é reservada exclusivamente às operações das potências apetitivas. As paixões,
+apropriadamente, se dividem em dois grupos discerníveis: o concupiscível e o irascível. O
+apetite concupiscível se relaciona com o bem sensível, ou seja, com aquilo que é deleitável
+através dos sentidos. Por sua vez, o apetite irascível diz respeito ao bem sob a perspectiva
+de alguma excelência.
+Consideremos, como exemplos elucidativos, os intrincados destinos de personagens
+literários que exploram a vastidão das paixões humanas. Em “O Crime do Padre Amaro”
+de Eça de Queirós, deparamo-nos com Amaro, um clérigo cuja alma se vê afligida por uma
+paixão ardente e proibida por Amélia, uma jovem devota de sua própria paróquia. Outra
+obra que nos oferece um retrato envolvente das complexidades das paixões humanas é
+“Os Maias,” também de Eça de Queirós. Nessa trama, o protagonista central, Carlos da
+Maia, se enreda em uma paixão complexa e autodestrutiva por sua própria irmã, Maria
+Eduarda. Esse relacionamento proibido e as emoções arrebatadoras que o permeiam
+servem como uma eloquente manifestação do apetite concupiscível, assim como a intensa
+batalha interna que Padre Amaro enfrenta, na tentativa de conter essa paixão avassaladora.
+Por outro lado, adentrando as profundezas das paixões irascíveis, somos levados
+a contemplar figuras literárias emblemáticas que personificam essa dimensão emocional
+complexa. Em destaque, temos Otelo, protagonista da tragédia homônima de William
+Shakespeare. Otelo é tomado por uma ira incontrolável quando erroneamente acredita
+que sua esposa, Desdêmona, o traiu. Sua fúria intensa o conduz a decisões trágicas,
+desencadeando uma série de eventos destrutivos. Nesse contexto, a ira que arrebata
+Otelo representa uma manifestação arrebatadora do apetite irascível, centrado na busca
+por justiça e na resposta diante de uma afronta percebida.
+Um exemplo igualmente marcante reside na “Odisseia,” a epopéia de Homero. O
+herói Odisseu, durante sua jornada de retorno para casa após a guerra de Troia, enfrenta
+uma miríade de provações que provocam sua ira. Suas reações intensas a desafios
+como as sedutoras sereias ou a hostilidade dos ciclopes refletem as profundas emoções
+irascíveis que o impulsionam a enfrentar obstáculos. Nesse contexto, a ira de Odisseu
+emerge como uma força formidável que o impulsiona a superar adversidades e a perseguir
+incansavelmente seu retorno ao lar.
+
+-- 30 of 64 --
+
+A virtude moral 	22
+Assim, tanto Otelo quanto Odisseu personificam de forma inegável as paixões
+irascíveis, revelando de maneira profunda como essas emoções intrincadas podem esculpir
+as trajetórias e os destinos dos personagens em narrativas literárias ricas e complexas.
+Nesse contexto, à luz da perspectiva aristotélica, compreendemos que as paixões
+permeiam a experiência humana em sua riqueza e complexidade, abarcando o desejo, ira,
+medo, confiança, inveja, júbilo, amor, ódio e todas as emoções que se entrelaçam com o
+prazer ou a dor. Elas se revelam como elementos cruciais na trama da existência humana.
+(EN 1105 b 20.)
+2) Potência
+Aquilo em função de que se pode afirmar de nós que somos suscetíveis às paixões
+são as potências (EN 1105 b-25) Dentro deste contexto, as potências refletem a essência
+intrínseca de nossa humanidade, revelando-se, portanto, como nossa inata capacidade de
+sentir e experimentar as paixões humanas.
+Podemos, nesse âmbito, imaginar as potências como as raízes profundas que
+se estendem no solo de nossa existência emocional. Elas funcionam como estruturas
+fundamentais que sustentam a árvore de nossa vida emocional, possibilitando que as folhas
+das paixões floresçam e se manifestem em toda sua exuberância. São essas potências que
+nos conectam às emoções humanas, permitindo-nos vivenciar sentimentos intensos, que
+vão desde o amor até o ódio, da alegria à tristeza.
+3)Hábitos
+Os hábitos são o ponto de referência para nossa disposição em relação às paixões.
+Os hábitos representam uma disposição que molda nossa potência, e esta se manifesta de
+acordo com a natureza do objeto em questão. Um bom hábito nos predisporá a realizar algo
+de maneira satisfatória, enquanto um mau hábito resultará em uma execução deficiente da
+mesma ação.
+Em nossa avaliação como bons ou maus, são as virtudes e os vícios que
+desempenham um papel determinante. No entanto, não somos julgados como bons ou
+maus com base em nossas paixões, uma vez que as paixões são movimentos internos
+pelos quais somos afetados, enquanto as virtudes são qualidades que moldam nossa
+disposição a sermos afetados de determinada maneira.
+Seria, portanto, estranho avaliar alguém como bom ou mau com base em
+sua capacidade de sucumbir às paixões. Além disso, as potências são inerentes à
+nossa natureza, enquanto a virtude não é intrínseca, como já discutido anteriormente.
+Diferentemente das paixões e das potências, as virtudes são, em essência, hábitos. Não é
+moralmente censurável sentir ira, por exemplo; o que merece louvor é a habilidade de um
+indivíduo em lidar adequadamente com sua ira, evitando excessos ou deficiências.
+
+-- 31 of 64 --
+
+A virtude moral 	23
+Conclui-se, portanto, que a virtude reside no domínio do hábito, sendo moldada pelo
+nosso comportamento e nossa disposição habitual a agir de maneira virtuosa em face das
+paixões e das circunstâncias da vida.
+Na dualidade entre virtudes e vícios, é possível discernir uma intrincada contraposição
+que abarca os vícios do excesso e da deficiência, bem como sua relação com a virtude.
+Os vícios do excesso e da carência ocupam extremos opostos no espectro moral. No
+entanto, quando exploramos essa relação com a virtude, notamos nuances notáveis. O
+ponto intermediário, quando confrontado com o excesso, pode parecer carente, enquanto,
+quando contrastado com a deficiência, pode parecer excessivo. Isso culmina em uma
+relação ambígua entre o termo médio e ambos os extremos.
+Em certos casos, a virtude parece estar mais em oposição ao vício do excesso do
+que ao vício da deficiência. Um exemplo emblemático disso pode ser encontrado na trágica
+história de Ícaro, da mitologia grega. Ícaro personifica o vício do excesso ao desafiar as
+advertências de seu pai, Dédalo, e voar cada vez mais alto com as asas de cera e penas.
+Sua audácia extrema o leva a desobedecer limites sensatos, resultando em sua queda
+trágica no mar, quando o sol derrete suas asas. Esse mito ilustra de forma marcante como
+o excesso de coragem, a audácia, pode conduzir a consequências catastróficas.
+Por outro lado, exemplos de covardia podem ser encontrados em personagens como
+Sir Andrew Aguecheek, na peça “Noite de Reis” de William Shakespeare, representando a
+covardia como uma deficiência moral. Sua falta de coragem para enfrentar desafios e seu
+comportamento inseguro são exemplos da manifestação do vício da deficiência.
+C)COMO ALGUÉM PODE SE TORNAR VIRTUOSO
+Na nobre busca pela virtuosidade, encontramo-nos diante de uma complexa teia de
+desafios. A grande dificuldade reside precisamente na tarefa de encontrar o termo médio,
+esse equilíbrio virtuoso que é tão difícil de atingir e, ao mesmo tempo, tão fácil de perder.
+Enquanto o bem se apresenta em sua simplicidade, manifestando-se de maneira única e
+inconfundível, as artimanhas da corrupção moral são multifacetadas e numerosas, muitas
+delas ostentando a máscara ilusória da virtude.
+A primeira senda rumo à virtuosidade requer que mergulhemos profundamente na
+essência das coisas. Aquele que almeja alcançar o termo médio deve dedicar-se, sobretudo,
+a afastar-se do extremo que mais contrasta com a virtude, conforme observado por Santo
+Tomás de Aquino (Aquino,2020, p. 71). Assim, se desejamos cultivar a coragem, devemos,
+em primeiro lugar, afastar-nos da sombra da covardia. Da mesma forma, quem busca a
+moderação deve distanciar-se dos excessos sensoriais que seduzem o corpo.
+O segundo caminho nos conduz à contemplação das peculiaridades individuais,
+àquilo que é inerente a cada um de nós. Pois, uma vez que a humanidade se desdobra
+em variadas inclinações, é imperativo que aqueles que aspiram à virtuosidade estejam
+
+-- 32 of 64 --
+
+A virtude moral 	24
+vigilantes em relação ao que mais intensamente desperta o apetite de suas almas (Aquino,
+2020, p. 72). Pois cada indivíduo carrega consigo inclinações próprias, alguns se deixam
+cativar pelos prazeres carnais, outros pelos deleites da bebida, enquanto outros ainda
+se rendem à fuga. É, portanto, essencial que nos sintonizemos com nossas tendências
+naturais, de modo a orientá-las na direção da virtude, corrigindo-as e guiando-as com
+sabedoria.
+
+-- 33 of 64 --
+
+25	Os alicerces da virtude
+CAPÍTULO 5
+OS AlICERCES dA vIRTUdE
+PRINCÍPIOS DOS ATOS VIRTUOSOS
+No terceiro tomo de sua obra, Aristóteles empreende a busca pelos alicerces que
+fundamentam os atos virtuosos. Neste contexto, ele nos convida a contemplar:
+A) A intricada dinâmica entre o voluntário e o involuntário, desvendando as sutilezas
+que envolvem ações que surgem de nossa livre vontade e aquelas que são desencadeadas
+por circunstâncias alheias à nossa escolha.
+B) A complexidade da eleição, na qual ele nos conduz a uma exploração da arte de
+fazer escolhas criteriosas entre as diversas alternativas à nossa disposição, um processo
+que lança luz sobre a própria essência do discernimento moral.
+C) A profundidade da vontade, onde desejo e intenção se entrelaçam, moldando
+nossos impulsos e delineando o curso de nossas ações virtuosas.
+A) O VOLUNTÁRIO E O INVOLUNTÁRIO
+O involuntário pode se dar de dois modos: sob compulsão ou por ignorância (EN
+1110 a-1.)No âmago da discussão sobre a compulsão e o involuntário, encontramos duas
+facetas distintas, cada uma lançando luz sobre a complexidade da natureza humana:
+Sob a égide da simplicidade: A compulsão de natureza simples é um fenômeno no
+qual a força motriz de uma ação provém de fontes externas, como influências, pressões
+ou ameaças externas. Nesse cenário, a vitalidade apetitiva do ser humano sucumbe diante
+da preponderância do fator externo. É como se uma força que está além de seu controle,
+arrebatasse sua capacidade de escolha.
+Em consonância com uma motivação: Por vezes, nossas ações são impulsionadas
+não apenas pela compulsão externa, mas também por uma motivação interna poderosa,
+como o temor de um mal iminente ou a ameaça de perder algo de grande valor. Por
+exemplo, imagine uma situação em que um indivíduo é coagido por um tirano a cometer um
+ato imoral sob a ameaça de morte. Nesse momento, ocorre um intricado entrelaçamento
+entre elementos voluntários e involuntários. A compulsão externa, representada pelo poder
+coercitivo do tirano, força a ação, tornando-a involuntária. Ao mesmo tempo, o temor de
+perder a própria vida age como uma motivação interna que influencia a decisão.
+O involuntário motivado pela ignorância: Diferentemente das situações acima,
+o involuntário motivado pela ignorância não decorre de uma negligência deliberada do
+conhecimento. Em vez disso, ocorre quando agimos sem compreender plenamente as
+circunstâncias particulares que envolvem uma ação. Por exemplo, alguém pode tomar uma
+decisão baseada em informações incompletas ou incorretas sobre uma situação, agindo
+no escuro sem o discernimento adequado das condições que cercam sua escolha. Nesses
+casos, a falta de conhecimento das circunstâncias específicas torna a ação involuntária,
+
+-- 34 of 64 --
+
+Os alicerces da virtude 	26
+pois a pessoa não está consciente o suficiente para fazer uma escolha verdadeiramente
+informada.
+O voluntário: Em contrapartida, o voluntário representa o ápice da autodeterminação.
+Refere-se a ações nas quais a força motriz provém de fontes internas, com pleno
+conhecimento das circunstâncias particulares. É quando agimos movidos por nossos
+próprios princípios, desejos e escolhas conscientes, sem sermos coagidos por fatores
+externos. Um exemplo clássico é quando alguém toma a decisão consciente de fazer uma
+doação para uma causa beneficente, plenamente ciente das circunstâncias e motivado
+por sua própria compaixão e valores pessoais. Nesse caso, a ação é verdadeiramente
+voluntária, emanando do âmago da vontade interna.
+B) ELEIÇÃO
+A eleição emerge como um conceito intrincado, intimamente entrelaçado à virtude.
+De fato, o hábito virtuoso segue o caminho da eleição interior que precede a ação exterior. É
+notável que, ao se julgar o mérito moral das ações, a eleição ocupa um papel de destaque,
+até mesmo superior às manifestações exteriores do costume, como observado por Santo
+Tomás de Aquino (Aquino,2020, p. 84).
+A eleição, em sua essência, é indubitavelmente um ato voluntário. No entanto, é
+importante discernir que ela não é estritamente idêntica ao que é abrangido pelo termo
+“voluntário” em sua totalidade. Enquanto tudo o que é eleito é, por definição, voluntário,
+nem tudo o que é voluntário é, por consequência, objeto de eleição. De fato, crianças
+e animais distintos do ser humano participam do voluntário, mas não da eleição, e atos
+repentinos podem ser qualificados como voluntários, mas não de realizados por eleição(EN
+1111 b-10).Isso se deve à ausência de deliberação, um elemento essencial na ação de
+eleger.
+Aristóteles procede delineando o que a eleição não é. Ela não se confunde com o
+desejo, a ira, a mera vontade ou a opinião (EN 1111 b-12). Enquanto os animais irracionais
+podem experimentar a ira e os desejos, a eleição transcende essas facetas. Aqueles
+que possuem autodomínio agem movidos pela eleição, não pelo desejo, enquanto os
+desprovidos de tal controle agem conforme os impulsos do desejo. Além disso, a eleição
+não se enquadra na categoria da ira devido à natureza abrupta e imprevisível do movimento
+irracional da ira, que contrasta com o processo deliberativo inerente à eleição.
+No cerne desta reflexão, a eleição e a vontade emergem como componentes do
+apetite racional, compartilhando uma semelhança intrínseca. No entanto, é crucial discernir
+que a vontade, apesar de sua afinidade com a eleição, se distingue dela em três aspectos
+fundamentais, como observado por Santo Tomás de Aquino (Aquino 2020, p. 84):
+
+-- 35 of 64 --
+
+Os alicerces da virtude 	27
+1. 	A eleição, por sua própria natureza, está intrinsecamente vinculada às nossas
+ações, direcionando-se para a escolha do bem na medida em que se insere em
+nossa esfera de ação. Em contraste, a vontade se refere ao ato dessa potência
+em relação ao bem absoluto, podendo abranger até mesmo bens impossíveis.
+2. 	A vontade tem a capacidade de abraçar objetos sobre os quais não temos
+controle direto, como quando alguém assiste a um jogo e torce por um dos
+times. Nesse caso, a vontade se estende para além do 	âmbito das ações
+que podemos efetivamente realizar.
+3. 	A ênfase da vontade está mais relacionada aos fins desejados do que aos meios
+necessários para alcançá-los. A eleição, por outro lado, incorpora a etapa crucial
+da deliberação, que implica uma reflexão cuidadosa sobre os meios disponíveis
+antes de se decidir por uma ação. De fato, a deliberação está intrinsecamente
+ligada à própria natureza da eleição, uma vez que serve como um requisito
+essencial para a sua realização, orientando-a em direção à ação.
+Portanto, embora a eleição e a vontade compartilhem uma base comum no apetite
+racional, essas distinções sutis delineiam as fronteiras entre essas facetas da vontade
+humana, cada uma com seu papel único na tomada de decisões e na busca de bens.
+A eleição se diferencia notavelmente da opinião. Nós, seres humanos, somos
+propensos a formar opiniões sobre uma ampla gama de assuntos, abrangendo desde
+questões de imortalidade até os movimentos celestiais, e até mesmo temas considerados
+impossíveis. Quando analisamos uma opinião, a submetemos ao crivo da verdade ou
+falsidade, pois a opinião está intrinsecamente ligada à capacidade apreensiva da alma. No
+entanto, não aplicamos essa mesma categorização à eleição; ao invés disso, a julgamos
+como boa ou má, pois a eleição reside na esfera do apetite da alma. Além disso, a opinião
+está relacionada à apreensão de objetos exteriores, enquanto a eleição tem como seu foco
+principal as nossas próprias operações e ações no mundo.
+As indagações se desdobram: as pessoas podem deliberar sobre todas as
+questões? Será que a deliberação é possível em relação a todas as coisas? (EN 1112 a
+20) No entanto, se compreendemos a deliberação como um processo reflexivo sobre o que
+fazer, logo percebemos que não podemos deliberar sobre questões eternas, aquelas que
+existem perpetuamente e sem movimento (Aquino, 2020, p. 90). Da mesma forma, não
+nos é dado deliberar sobre assuntos mutáveis, sujeitos a um movimento uniforme, como
+os solstícios (EN 1112 a-25). Também não é possível deliberar sobre eventos acidentais,
+como o inesperado encontro de um tesouro. Em todos esses casos, nosso poder de ação é
+nulo; não podemos influenciar os movimentos planetários, as estações do ano ou qualquer
+evento que esteja além de nosso controle. Portanto, a deliberação está intrinsecamente
+ligada a questões que podemos controlar e que estão dentro de nossa esfera de ação.A
+deliberação se estende a assuntos nos quais nossa ação pode operar, mesmo que seus
+resultados não sejam invariáveis, como exemplificado pelas complexas questões médicas
+e comerciais (EN 1112 b 5). À luz dessas considerações, chegamos à conclusão de que a
+eleição é, de fato, um desejo que resulta de um processo deliberativo.
+
+-- 36 of 64 --
+
+Os alicerces da virtude 	28
+C) A VONTADE
+A vontade, como já mencionado, consiste na aspiração em direção aos objetivos.
+Alguns filósofos antigos argumentaram que a vontade se volta para o que é intrinsecamente
+bom em si mesmo. No entanto, aqueles que sustentam essa visão são confrontados com
+o desafio de reconhecer que os seres humanos também anseiam por coisas que são
+moralmente questionáveis, como a vingança. Se o objeto da vontade fosse sempre o bem,
+eles seriam compelidos a admitir que aquilo que é buscado por aqueles que fazem escolhas
+moralmente erradas não se enquadra no âmbito da vontade. Outros argumentaram que a
+vontade é direcionada para aquilo que parece ser bom. No entanto, essa perspectiva nos
+leva à conclusão de que não existe um objeto naturalmente determinado para a vontade,
+mas sim aquilo que parece ser bom para cada indivíduo (EN 1113 a-20).
+Todo esse raciocínio nos leva a uma conclusão fundamental: visto que somos os
+autores primários de nossas próprias ações e não podemos rastreá-las até princípios-
+fundamentos externos, exceto aqueles que residem em nosso interior, podemos afirmar que
+as ações cujas raízes estão em nós mesmos são, por sua natureza, voluntárias (EN 1113
+b-20). Portanto, a virtude, como hábito eletivo, existe no âmbito do voluntário, equilibrando-
+se no ponto médio em relação a nós, orientada pela razão.
+
+-- 37 of 64 --
+
+29	A coragem ou fortaleza
+A CORAgEM OU FORTAlEzA
+CAPÍTULO 6
+A coragem é o termo médio existente entre as paixões do medo e da audácia.
+Conforme mencionado anteriormente, as paixões podem perturbar a razão de duas
+maneiras distintas: uma inclina à fuga, enquanto a outra se inclina vigorosamente em
+direção ao objeto. A virtude da coragem, portanto, se manifesta como uma firmeza de
+ânimo diante do temor do perigo.
+O foco principal da coragem reside no medo, que é essencialmente a antecipação
+do mal. Em essência, tememos tudo o que consideramos prejudicial. No entanto, vale
+destacar que nem todos os tipos de medo se relacionam com a coragem. Existem situações
+em que é nobre temer algo, enquanto é vil não temê-lo. Isso fica evidente ao considerarmos
+a má reputação, um exemplo claro dessa distinção (EN 1115 a-10).
+A coragem não se aplica ao medo da pobreza ou da doença, já que nenhum desses
+males resulta da maldade humana, embora por analogia possamos chamar de corajoso
+aquele que não teme tais adversidades. De igual modo, a coragem não está relacionada
+a males pessoais, uma vez que não consideramos alguém tímido ou covarde por temer
+ser alvo de inveja ou injúria. Também não atribuímos força a alguém por não temer esses
+infortúnios. (Aquino, 2020, p. 105).
+Dado que o mal é, em última instância, a ausência do bem, e o medo é a expectativa
+desse mal, podemos compreender o medo como a expectativa de ser privado de um bem.
+Quanto maior for a qualidade desse bem, maior será o medo que ele provoca. A coragem,
+à luz do pensamento aristotélico, encontra seu ápice quando confronta os maiores males,
+e entre esses males, encontra-se a própria morte. Entretanto, nem todo enfrentamento
+da morte constitui um ato de coragem, uma vez que há circunstâncias em que a morte é
+inevitável, como em um naufrágio ou diante de uma doença incurável. Aristóteles, em sua
+perspectiva grega, argumenta que a verdadeira coragem se manifesta nos perigos mortais
+enfrentados em batalha, pois é aí que a coragem é posta à prova no cenário mais nobre e
+grandioso.
+É importante notar que não tememos todos os males com a mesma intensidade, e
+nem todas as coisas são igualmente terríveis para todos. Existem medos que ultrapassam
+os limites da resistência humana. No entanto, a verdadeira coragem se revela na capacidade
+do indivíduo de permanecer imperturbável dentro dos limites humanos. Consequentemente,
+mesmo que haja temores que excedam a capacidade de resistência, o homem corajoso
+age de acordo com a razão, guiado pelo que é nobre, fazendo da nobreza a sua meta (EN
+1115 b-12).
+No entanto, é possível que erremos na intensidade de nossos medos, temendo
+coisas que não merecem ser temidas ou negligenciando aquelas que deveríamos temer.
+O verdadeiro corajoso é aquele que enfrenta o que deve enfrentar, que foge quando é
+necessário fugir, tudo em conformidade com a reta razão e o que é correto. Aristóteles
+enfatiza que a nobreza é o objetivo da coragem (EN 1115 b-20).
+
+-- 38 of 64 --
+
+A coragem ou fortaleza 	30
+Podemos ilustrar esse conceito com o exemplo de Aquiles, o grande herói grego.
+Segundo a mitologia, durante os preparativos para a Guerra de Troia, Aquiles recebeu duas
+profecias conflitantes: uma indicando que, se permanecesse em casa, teria uma vida familiar
+feliz e amorosa, enquanto a outra prenunciava que, se fosse à guerra, morreria, mas seria
+lembrado como o maior guerreiro de todos os tempos. Aquiles escolheu corajosamente ir
+à guerra, aceitando sua morte inevitável, mas buscando a nobreza na morte. Até hoje, sua
+coragem e bravura são lembradas como exemplos supremos de virtude guerreira.
+Na perspectiva apresentada, aqueles que se entregam ao excesso de autoconfiança
+e correm em direção aos perigos são impulsionados por uma paixão desenfreada que os
+leva além dos limites da razão. No entanto, quando se deparam com os próprios perigos,
+muitas vezes recuam, pois a intensidade da paixão inicial é vencida pela dura realidade das
+dificuldades que enfrentam (cf. Aquino, 2020, p. 107). Esses indivíduos são comumente
+denominados temerários.
+Por outro lado, aqueles que se mostram excessivamente temerosos e têm medo
+de coisas que não merecem tal temor são rotulados como covardes. A covardia reside
+na deficiência, no temor desproporcional e inadequado que paralisa o indivíduo diante de
+situações que poderiam ser enfrentadas com coragem e discernimento.
+Assim, a coragem, como virtude, está no equilíbrio entre esses extremos. Ela não é a
+ausência total de medo, nem a imprudência inconsequente. A verdadeira coragem reside na
+capacidade de enfrentar os perigos com uma dose adequada de autoconfiança, temperada
+pela razão, sem excessos ou deficiências, e de temer apenas o que verdadeiramente deve
+ser temido.
+
+-- 39 of 64 --
+
+31	A temperança ou moderação
+CAPÍTULO 7
+A TEMPERANÇA OU MOdERAÇÃO
+A seguir, exploraremos o conceito de moderação. A temperança, ou moderação, está
+intrinsecamente ligada aos prazeres, os quais podem ser divididos em duas categorias:
+os prazeres do corpo e os prazeres da alma. No entanto, é importante ressaltar que não
+rotulamos alguém como moderado ou desregrado com base no prazer que obtém por meio
+do aprendizado ou pelo recebimento de honras. De fato, o objeto da temperança não reside
+nos prazeres da alma.
+Por outro lado, temos os prazeres concupiscentes, aqueles que experimentamos
+por meio dos nossos sentidos. Nesse contexto, não podemos classificar alguém como
+desregrado simplesmente porque aprecia a visão de belas paisagens ou obras de arte.
+Embora seja possível exagerar, ser insuficiente ou virtuoso na maneira como se desfruta
+dessas experiências, isso não implica automaticamente na falta de moderação. O mesmo
+raciocínio se aplica à audição e ao olfato. De fato, aqueles que apreciam os prazeres da
+música ou do teatro de maneira plena não são necessariamente considerados moderados
+ou desregrados.
+A moderação, portanto, está diretamente relacionada aos prazeres do tato e
+ao paladar, prazeres que o ser humano compartilha com os outros animais e que, por
+conseguinte, podem parecer grosseiros e instintivos (EN 1118 a 25). É intrigante notar
+que na Grécia Antiga, havia a prática comum dos banquetes, ou festas para beber, que
+consistiam em noites de jantar regadas a bebidas e entretenimento, frequentemente com
+artistas contratados para apresentações e a presença de prostitutas (BARNES, 2009, p.
+283). É evidente que tais ocasiões frequentemente resultavam em excessos, e é possível
+que essas experiências tenham desempenhado um papel fundamental nas reflexões de
+Aristóteles sobre a moderação. No épico “Ilíada” de Homero, Aquiles, o grande herói, é
+conhecido por sua intensidade e paixão. No entanto, ele também é retratado em momentos
+de moderação e equilíbrio, especialmente em relação aos banquetes e festas. Em uma
+cena memorável, Aquiles recusa uma oferta de banquetes excessivamente luxuosos pelo
+rei Agamemnon, destacando a importância de manter a moderação em meio aos prazeres
+sensoriais.
+Por outro lado, na “Odisseia” de Homero, o herói Odisseu e seus companheiros
+enfrentam tentações relacionadas aos prazeres do tato e do paladar em sua jornada de
+retorno para casa. Ao se depararem com a ilha da deusa Circe, eles são atraídos por
+banquetes luxuosos e encantos mágicos. Odisseu, exercendo moderação e autocontrole,
+consegue resistir a essas tentações e liderar sua tripulação de volta ao caminho de casa.
+Observamos que alguns prazeres são inerentes a todos os seres humanos, enquanto
+outros são desejos que caracterizam indivíduos específicos. O desejo por alimentos, por
+exemplo, é uma necessidade universal que todos os seres humanos compartilham, uma
+vez que a falta de alimento resultaria na morte; o mesmo princípio se aplica ao desejo
+
+-- 40 of 64 --
+
+A temperança ou moderação 	32
+sexual, pois sem ele a sobrevivência da espécie humana estaria ameaçada. No entanto,
+prazeres como jogar bola, correr ou até mesmo encontrar satisfação em determinados
+alimentos são de natureza individual, variando de pessoa para pessoa.
+Quanto aos prazeres naturais, é comum cometer o erro da busca excessiva por
+esses prazeres, enquanto a busca insuficiente é algo extremamente raro e não possui uma
+designação específica. Um exemplo evidente da busca excessiva pelos prazeres do corpo
+em nossa época é a pornografia, que pode resultar em danos significativos ao cérebro
+e afetar negativamente o relacionamento do indivíduo consigo mesmo, potencialmente
+levando à depressão, bem como prejudicar suas relações interpessoais. Nesse sentido, a
+busca incessante por gratificação sensorial pode ser prejudicial quando levada ao extremo.
+No que diz respeito aos prazeres individuais, o erro ocorre quando as pessoas
+apreciam coisas que não deveriam ou atribuem um valor excessivo a elas (EN 1118 b22).
+Por exemplo, quando alguém coloca um valor desmedido em bens materiais, como carros
+de luxo, em detrimento de valores mais significativos, como relacionamentos familiares ou
+amizades verdadeiras, pode-se considerar que essa pessoa está cometendo um erro ao
+apreciar algo que não deveria ser tão central em sua vida.
+Em “Fausto,” de Johann Wolfgang von Goethe, o personagem Fausto é um exemplo
+notável de alguém que busca insaciavelmente prazeres individuais e conhecimento,
+atribuindo um valor excessivo a essas buscas. Fausto faz um pacto com o diabo,
+Mefistófeles, em troca de juventude eterna e experiências terrenas ilimitadas. Sua busca
+desenfreada por prazeres pessoais e sua busca implacável por conhecimento levam-no
+a uma espiral de destruição, afastando-o de valores mais significativos e levando-o a um
+destino trágico.
+Outro exemplo clássico é encontrado em “A Divina Comédia,” de Dante Alighieri.
+No “Inferno,” Dante encontra muitas almas condenadas que cometeram o erro de dar
+importância excessiva a prazeres mundanos e pecaminosos em vida. Um exemplo notável
+é o personagem Francesca da Rimini, que foi condenado ao inferno por seu adultério. Sua
+paixão carnal e sua indulgência nos prazeres do corpo a levaram a uma queda trágica e
+eterna. O poema épico de Dante serve como uma alegoria vívida das consequências de
+atribuir valor desmedido a prazeres individuais em detrimento de valores mais elevados.
+Portanto, “a postura adotada pelo moderado nessas situações é a da mediana.
+Não extrai, com efeito, prazer algum das coisas das quais o desregrado extrai máximo
+prazer; pelo contrário, elas o desgostam; tampouco, encontra prazer nas coisas não
+recomendáveis.”( EN 1119 a 10-15.)
+
+-- 41 of 64 --
+
+33	Generosidade e Magnificência
+CAPÍTULO 8
+gENEROSIdAdE E MAgNIFICêNCIA
+A generosidade, como a entendemos, se revela como o equilíbrio virtuoso no âmbito
+da riqueza material, essa esfera onde a medida por excelência é o dinheiro. Ela representa
+o ponto de harmonia entre o ato de dar e o de receber quando se trata de recursos
+monetários. Se alguém ousar ultrapassar o limite do que recebe, ver-se-á, sem dúvida,
+mergulhado nos apuros financeiros. Por outro lado, aquele que, em sua parcimônia, deixa
+de gastar o que lhe é devido, possivelmente nutre uma afeição desmedida pelo dinheiro,
+uma afeição que ultrapassa os limites da virtude. É, portanto, a generosidade que nos guia
+nesse tênue equilíbrio entre a opulência e a avareza.
+“ A mesquinhez se aplica sempre àqueles que são ciosos mais do que o devido pela
+riqueza; chamamos de pródigos os que dissipam dinheiro no desregramento; e, portanto, a
+esses é atribuída a maior vileza pois associam múltiplos vícios.”( EN1119 b30)
+A riqueza, em sua essência, permanece sempre como um meio, uma ferramenta de
+utilidade variável, sujeita a ser empregada de maneira virtuosa ou viciosa. De fato, aquele
+que detém recursos financeiros possui a capacidade de adquirir conhecimento através da
+aquisição de livros, visando aprimorar e cultivar sua inteligência. Contudo, essa mesma
+fortuna pode ser dissipada em excessos, como orgias e bebedeiras.
+Nesse contexto, a virtude da generosidade transcende a mera quantia monetária
+despendida; ela se estende ao discernimento sobre como e em quê direcionamos nossos
+recursos. A generosidade não se limita a abrir a carteira, mas envolve a sabedoria de
+investir nossa riqueza em propósitos dignos e benéficos. A origem dos recursos também
+desempenha um papel crucial nessa equação moral. Seria, de fato, paradoxal considerar
+alguém generoso por conceder esmolas a um necessitado quando tais fundos provêm de
+atividades ilícitas, como um assalto. A generosidade autêntica floresce quando os meios e
+os fins convergem em prol do bem comum.
+O emprego do dinheiro se resume em sua despesa e em sua concessão; receber
+e acumular não constituem um verdadeiro uso, mas sim uma posse. Assim, a natureza da
+generosidade se estabelece com maior ênfase na disposição de oferecer dinheiro àqueles
+a quem isso é apropriado do que na disposição de recebê-lo quando for oportuno.
+“Todas as operações que são segundo a virtude devem ser boas, retificadas pela razão
+de acordo com as circunstâncias e ordenadas pela intenção a um bom fim.”(AQUINO, 2020,
+p. 127) Dado que o ato de dar é a pedra angular da generosidade, o generoso demonstrará
+discernimento ao escolher as pessoas apropriadas, a quantidade adequada e o momento
+oportuno para sua oferta. Além disso, é crucial compreender que a generosidade deve ser
+avaliada à luz dos recursos de cada indivíduo. Com efeito, como nos ensina sabiamente
+Aristóteles, “a generosidade de um presente não está relacionada à sua magnitude, mas
+sim à disposição do doador, a qual deve estar em sintonia com seus próprios meios” ( EN
+1120 b10)
+
+-- 42 of 64 --
+
+Generosidade e Magnificência 	34
+Um notável exemplo que nos ilustra o princípio da generosidade em relação
+à quantidade doada e à disposição do doador encontra-se na bíblia, na ação da “viúva
+desfavorecida”, que é mencionada nos Evangelhos. Este episódio específico é registrado
+tanto no livro de Marcos (12:41-44) como em Lucas (21:1-4).
+Nesta passagem, Jesus observa com atenção uma humilde viúva que, com
+simplicidade, contribui com duas pequenas moedas para o tesouro do templo. Embora o
+valor monetário destas moedas seja praticamente insignificante quando comparado com as
+generosas ofertas de outros ricos contribuintes, Jesus exalta a viúva, proclamando que ela
+ofereceu mais do que todos os demais. Ele destaca que aqueles ricos deram parte de sua
+abundância, enquanto a viúva, apesar de sua própria carência e necessidade, deu tudo o
+que tinha para sua própria subsistência.
+Este exemplo tão vívido nos traz uma clara demonstração do conceito de
+generosidade que se baseia não simplesmente na quantidade material doada, mas na
+disposição sincera do doador e em relação aos seus próprios meios. A viúva, com seus
+recursos modestos, exibiu uma disposição notável em sua contribuição para o templo.
+Ela não se concentrou no valor quantitativo, mas sim na autenticidade de seu gesto e
+na vontade de compartilhar o que possuía, independentemente de ser muito ou pouco.
+Isso ressalta que a generosidade genuína não deve ser medida apenas em termos de
+quantidade, mas sim em relação à intenção e à disposição de compartilhar o que está ao
+alcance de alguém.
+A magnificência, assim como a generosidade, é uma virtude que diz respeito à
+riqueza, mas seu foco se restringe ao ato de gastar essa riqueza de maneira grandiosa.
+No entanto, em relação à grandiosidade do gasto, a magnificência supera a generosidade.
+Nos antigos estados gregos, homens abastados eram frequentemente chamados
+a financiar diretamente serviços públicos de alto custo, como patrocinar a organização de
+uma delegação oficial do Estado. Nesse contexto, a magnificência se destaca em relação à
+generosidade, principalmente em termos do caráter majestoso e grandioso dos gastos. No
+entanto, é crucial observar que essa grandiosidade é relativa e deve ser cuidadosamente
+ajustada de acordo com diversos fatores, incluindo a capacidade financeira do doador, a
+ocasião e o propósito do gasto.
+A magnificência, portanto, não se resume a gastar quantias extravagantes de
+dinheiro de forma desordenada. Ela é mais do que isso, pois exige a habilidade de discernir
+o que é apropriado em cada situação e gastar quantias substanciais com moderação e
+senso de propósito. Aristóteles, de forma perspicaz, compara o magnificente a um artista
+no domínio do gasto, pois esse indivíduo é capaz de identificar com precisão o que é
+adequado, harmonizando assim a grandiosidade com a medida.
+Na Grécia Antiga, a magnificência desvelava-se em sua plenitude através de
+manifestações 	públicas, 	competições 	atléticas, 	erigindo 	grandiosas 	edificações 	e
+fomentando iniciativas culturais. Eis, pois, alguns exemplos notavam dessa magnificência
+helênica:
+
+-- 43 of 64 --
+
+Generosidade e Magnificência 	35
+Os Jogos Olímpicos Antigos, esses eventos atléticos venerados, encarnavam a
+magnificência das cidades-estado gregas. As urbes rivalizavam para acolhê-los e custeá-
+los, investindo quantias substanciais em prêmios, cerimônias suntuosas e estádios
+imponentes. O estádio de Olímpia, construído com a nobreza do mármore, destaca-se
+como testemunha monumental dessa grandiosa tradição, onde milhares de espectadores
+testemunhavam as proezas atléticas.
+O Partenon, sublime e majestoso, erguido sobre a Acrópole de Atenas, personifica
+um eminente exemplo de magnificência na arquitetura grega antiga. Concebido sob a
+supervisão do visionário arquiteto Fídias, o Partenon reverencia a deusa Atena, imortalizado
+por sua arquitetura esplêndida, colunas dóricas imponentes e intrincados frisos esculpidos.
+Os Jogos Panatenaicos, que ocorriam em Atenas, configuravam uma versão mais
+modesta dos Jogos Olímpicos, todavia, não destituída de grandiosidade. Esses Jogos
+congregavam competições esportivas, apresentações musicais, danças e concursos
+poéticos, representando um compromisso financeiro significativo por parte da cidade de
+Atenas em honra à deusa Atena.
+Os teatros gregos antigos, tais como o Teatro de Epidauro e o Teatro de Dionísio em
+Atenas, assombram-nos com sua grandiosa acústica e acomodações amplas, consagrando-
+se como palcos onde espetáculos teatrais e musicais reverberavam. Tal empreendimento
+não só celebrava a cultura e a arte, mas também era testemunho de magnificência.
+Monumentos e estátuas, frequentemente encomendados por cidades-estado
+gregas, eram erigidos para reverenciar deuses, heróis e figuras de proeminência. A estátua
+de Zeus em Olímpia, esculpida por Fídias, ergue-se como um ícone inigualável e fora do
+tempo, reconhecida como uma das Sete Maravilhas do Mundo Antigo.
+Estes exemplos, de forma eloquente, evidenciam como a magnificência na
+Grécia Antiga se materializava por meio de eventos esportivos, grandiosas construções
+arquitetônicas, espetáculos teatrais, competições culturais e patrocínios que, para além de
+enaltecerem a prosperidade das cidades, enriqueciam a tapeçaria cultural e a identidade
+helênica
+
+-- 44 of 64 --
+
+36	Grandiosidade de Alma ou magnanimidade
+CAPÍTULO 9
+gRANdIOSIdAdE dE AlMA OU MAgNANIMIdAdE
+A grandiosidade de espírito, ou magnanimidade, como a própria palavra sugere,
+parece estar relacionada a empreendimentos grandiosos. Aristóteles afirma que “a pessoa
+grandiosa de espírito é aquela que reivindica muito e merece muito; aquele que se considera
+merecedor de muito, mas não o é, é vaidoso; aquele que se considera merecedor de menos
+do que realmente merece é considerado pequeno de espírito” (EN 1123 10).
+A magnanimidade, de fato, é uma espécie de ornamento para todas as virtudes, uma
+qualidade que as enobrece e as eleva. Através da magnanimidade, as virtudes ganham
+maior relevo e importância. No entanto, é crucial notar que a magnanimidade não pode
+existir isoladamente; ela depende das outras virtudes.
+Isso implica que a grandiosidade de alma não se trata apenas de uma autoafirmação
+exagerada, mas de uma apreciação justa e merecida das próprias qualidades e méritos. É
+a virtude que nos capacita a abraçar grandes desafios e responsabilidades com dignidade
+e humildade, reconhecendo que a busca da excelência moral é um empreendimento que se
+baseia na integridade e na harmonia de todas as virtudes.
+Vamos considerar o amor como uma virtude e explorar um exemplo edificante. O
+amor, em sua essência, é quando o bem-estar do amado assume tamanha importância
+que ultrapassa até mesmo a própria vida do amante. Há, inerentemente, um elemento de
+sacrifício entrelaçado ao amor, e isso se torna evidente nas relações parentais, onde o amor
+dos pais pelos filhos ilustra claramente essa virtude.
+Contemplando as vidas dos primeiros mártires cristãos sob o domínio do Império
+Romano, encontramos indivíduos que, impulsionados por um amor profundo a Cristo,
+fizeram a corajosa escolha de enfrentar mortes terríveis. As narrativas dos martírios, como
+as das atas do martírio de São Justino, revelam a resiliência e o amor com que Justino e
+seus companheiros encararam a morte. Durante seu julgamento, o prefeito romano Rústico
+ordenou que Justino apostatasse, declarando: “Aproximai-vos e todos juntos sacrificai aos
+deuses”. No entanto, o santo não renunciou à sua fé e, ao lado de seus companheiros,
+enfrentou o martírio com coragem, recebendo a pena capital (AQUINO, 2019, p. 137-139).
+Amar a Cristo, para esses homens, representava um bem de valor inestimável,
+superando em importância até mesmo suas próprias vidas. Eles optaram por enfrentar
+a morte em busca de um bem maior, o que evidencia de maneira notável a virtude da
+coragem elevada a níveis extraordinários.
+Aristóteles oferece uma série de características que definem o comportamento
+magnânimo, e aqui estão algumas delas:
+1. 	Prudência no enfrentamento de perigos: O indivíduo magnânimo não se lança
+em perigos fúteis. Ele reconhece que há causas que valem a pena arriscar sua
+vida, enquanto outras não merecem tal sacrifício.
+
+-- 45 of 64 --
+
+Grandiosidade de Alma ou magnanimidade 	37
+2. 	Atitude em relação às riquezas: O magnânimo encontra satisfação em beneficiar
+os outros, mas sente-se constrangido ao ser beneficiado, porque a primeira
+ação denota superioridade, enquanto a segunda implica inferioridade.
+3. 	Comportamento com diferentes pessoas: O magnânimo exibe sua grandeza
+de alma com aqueles que têm dignidade, agindo de maneira respeitosa. No
+entanto, ele adota uma atitude mais moderada em relação às pessoas de
+posição mediana. Ele tende a evitar pedir ajuda a outros e, quando o faz, é
+ocasionalmente, preferindo oferecer ajuda voluntariamente. O magnânimo
+também se comporta de forma altiva com aqueles em posições de destaque e
+sorte, mas com cortesia em relação aos de posição mediana. Ele é orientado a
+buscar sempre o bem, especialmente através de ações virtuosas.
+4. 	Envolvimento limitado em assuntos mundanos: O magnânimo não se envolve
+em muitos assuntos mundanos, evitando metas de ambição comuns e áreas
+já ocupadas por outros em posições de destaque. Sua busca está focada em
+alcançar grandes honras e realizações.
+5. 	Transparência em amizades e inimizades: O magnânimo não esconde suas
+amizades e inimizades, e sua conduta se pauta mais pela verdade do que pela
+opinião alheia.
+Essas características descrevem o comportamento do indivíduo magnânimo,
+alguém que busca a grandeza de alma através de uma série de atitudes e ações que
+refletem sua nobreza de caráter e sua disposição para o bem, tanto para si mesmo quanto
+para os outros.
+
+-- 46 of 64 --
+
+38	Brandura ou mansidão
+CAPÍTULO 10
+bRANdURA OU MANSIdÃO
+A brandura ou mansidão, quando se trata de lidar com a ira, representa o equilíbrio, o
+ponto intermediário. No entanto, é notável que nem o ponto intermediário nem os extremos
+possuam designações precisas, uma vez que tanto brandura quanto a mansidão parecem
+tender para a deficiência. Se adotarmos brandura ou mansidão para identificar o ponto
+intermediário, a deficiência permanecerá sem um nome adequado. Quanto ao extremo por
+excesso, ele é descrito como uma forma de irascibilidade (EN,1125b30).
+A pessoa branda é aquela que experiencia a ira em relação às coisas apropriadas,
+contra as pessoas apropriadas, da maneira apropriada e no momento adequado. Quanto
+ao extremo por deficiência, que não possui um nome específico, é objeto de reprovação,
+pois essas pessoas não manifestam ira quando deveriam. Como resultado, esses
+indivíduos são insensíveis às ofensas e incapazes de se defender. Acrescente-se a isso a
+ignomínia de ignorar um insulto direcionado a eles ou tolerar insultos contra seus amigos
+(EN,1126a5-10).
+Por outro lado, o extremo do excesso pode ser encontrado na ira direcionada a coisas
+erradas, pessoas erradas, de maneira errada, no momento errado ou com intensidade
+excessiva. Existem três formas de excesso na ira:
+1. 	Prontidão na irada:
+A prontidão para a ira é caracterizada por reações rápidas e intensas diante de
+situações e pessoas consideradas desnecessárias. Isso pode ser exemplificado por
+Raskólnikov, o protagonista do romance “Crime e Castigo” de Fiódor Dostoiévski. Raskólnikov
+é frequentemente consumido por uma ira intensa e explosiva, especialmente no início da
+história, quando ele está tomado por uma sensação de superioridade intelectual e moral.
+Sua raiva é dirigida tanto a indivíduos que ele considera inferiores quanto a circunstâncias
+que ele vê como obstáculos para suas ambições.
+No entanto, assim como sua raiva irrompe rapidamente, ele também é capaz de
+se acalmar de maneira igualmente rápida. Isso fica evidente quando ele reflete sobre
+suas ações e começa a questionar suas motivações e escolhas. Raskólnikov passa por
+momentos de profundo remorso e autorreflexão, nos quais a intensidade de sua raiva cede
+espaço para a autorreflexão e a busca por redenção.
+Essa característica de Raskólnikov exemplifica como a prontidão para a ira pode ser
+uma parte complexa da psicologia de um indivíduo, desempenhando um papel crucial em
+seu desenvolvimento e na exploração de temas como culpa, redenção e moralidade.
+
+-- 47 of 64 --
+
+Brandura ou mansidão 	39
+2. 	Ira amarga:
+Aristóteles os chamou de rabugentos, pois são inflexíveis e permanecem irados por
+longos períodos. Essa ira é difícil de dissolver, persistindo por muito tempo no coração.
+Isso ocorre porque essas pessoas alimentam sua ira, e ela só desaparece quando obtêm
+vingança. Este fenômeno intrigante, descrito por Aristóteles, encontra sua personificação
+na figura lendária de Medeia.
+Medeia é uma figura trágica da mitologia grega, conhecida por sua intensa ira e
+sua busca implacável por vingança. Ela era uma feiticeira habilidosa que se apaixonou
+por Jasão, líder dos Argonautas. Medeia usou seus poderes mágicos para ajudar Jasão
+a conquistar o Velocino de Ouro e, em troca, ele prometeu se casar com ela. No entanto,
+após sua jornada bem-sucedida, Jasão abandonou Medeia para se casar com a princesa
+Creusa, buscando alianças políticas e maior status. Essa traição desencadeou a ira e o
+desejo de vingança de Medeia, que nutriu sua raiva e planejou uma terrível vingança.
+Medeia ofereceu presentes envenenados, uma tiara e um vestido, à futura esposa
+de Jasão, Creusa, causando sua morte horrível e a do rei Creonte. Ela também matou seus
+próprios filhos com Jasão para infligir o máximo de dor a ele. O sofrimento de Jasão, ao
+perder seus filhos, foi a realização da vingança planejada por Medeia.
+A história de Medeia ilustra vividamente a ideia de Aristóteles sobre os “rabugentos”.
+Ela manteve sua ira por um período prolongado, alimentando-a com pensamentos de
+traição e injustiça. Sua ira só se dissipou quando ela obteve vingança, e seu ato final de
+matar os próprios filhos exemplifica a profundidade de seu ressentimento e a extensão de
+sua busca por justiça.
+3. 	Ira grave:
+“A ira difícil ou grave é aquela segundo a qual os que se iram o fazem em coisas em
+que não há necessidade, mais do que o necessário e por mais tempo do que o necessário e
+não [abandonam] a ira sem que tormentem ou punam aqueles pelos quais se iram. De fato,
+a longa duração da ira nestas [pessoas] não se deve somente à retenção, a qual o tempo
+poderia digerir, mas a um firme propósito de punir.” (AQUINO,2020, p.137-138). Vamos
+explorar este conceito à luz do exemplo de Dido na “Eneida” de Virgílio:
+Dido, após ser abandonada por Eneias, é consumida por uma ira e tristeza que
+perduram por um longo período. Sua ira é intensa, alimentada pelo sentimento profundo de
+traição causado pela partida de Eneias em busca de cumprir seu destino e fundar Roma. A
+persistência de sua ira não se limita à passagem do tempo, mas é nutrida por suas próprias
+emoções.
+A determinação de Dido em punir Eneias é claramente visível em suas ações. Ela
+se vê como uma vítima injustiçada e busca uma forma de justiça ou vingança contra aquele
+que a abandonou. Em sua busca por esse objetivo, Dido toma medidas extremas, incluindo
+
+-- 48 of 64 --
+
+Brandura ou mansidão 	40
+o planejamento de sua própria morte. Ela acredita que sua morte causará sofrimento
+a Eneias, servindo como uma forma de punição pelo que ela considera uma traição
+imperdoável.
+A experiência emocional de Dido na “Eneida” reflete vividamente o conceito da
+“ira difícil ou grave”. Sua ira persistente, alimentada por um desejo profundo de punição,
+desempenha um papel significativo em sua trágica história. É um exemplo literário notável
+dessa complexidade emocional que pode obscurecer a razão e influenciar drasticamente o
+curso da vida de uma pessoa.
+É uma tarefa árdua discernir sob quais circunstâncias é apropriado sentir ira, por
+quanto tempo, em relação a quem, de que maneira, e até que ponto. Portanto, aqueles que
+se mantêm próximos ao equilíbrio, seja inclinando-se ligeiramente para um lado ou para o
+outro, não devem ser criticados; em vez disso, às vezes, merecem elogios.
+
+-- 49 of 64 --
+
+41
+CAPÍTULO 11
+A virtude no que diz respeito ao convívio social; a virtude no que diz respeito à
+verdade no relacionamento humano; a virtude da brincadeira
+A 	vIRTUdE 	NO 	QUE 	dIz 	RESPEITO 	AO 	CONvÍvIO
+SOCIAl; A vIRTUdE NO QUE dIz RESPEITO à vERdAdE
+NO 	RElACIONAMENTO 	HUMANO; 	A 	vIRTUdE 	dA
+bRINCAdEIRA
+A) A VIRTUDE NO QUE DIZ RESPEITO AO CONVÍVIO SOCIAL
+Como é intrínseco à natureza humana se relacionar com seus semelhantes, podemos
+observar que a conduta surge desse convívio. Existem aqueles indivíduos que, na busca de
+proporcionar prazer aos outros, evitam objeções e aceitam tudo para evitar conflitos; são
+conhecidos como obsequiosos. Em certo sentido, essa postura pode ser interpretada como
+uma forma de carência, já que os obsequiosos buscam agradar aos outros para garantir
+aceitação.
+Por outro lado, existem aqueles que contestam tudo e não se importam com a
+qualidade das relações sociais; são chamados de rudes.
+A virtude relacionada às interações sociais pode não ter um nome específico, mas
+é caracterizada pelo comportamento daqueles que reconhecem o que é devido e o que é
+indevido em suas relações com os outros. Além disso, essa virtude se adapta à situação,
+pois seria estranho alguém tratar um desconhecido da mesma forma que trata aqueles a
+quem ama.
+B) A VIRTUDE NO QUE DIZ RESPEITO À VERDADE NO RELACIONAMENTO
+HUMANO
+A falsidade, em sua essência, merece reprovação, enquanto a verdade é digna de
+elogio. Com efeito, os sinais foram estabelecidos com a finalidade de representar as coisas
+conforme são, portanto, aquele que representa algo de forma diferente do que é, mediante
+a mentira, age de maneira desordenada e viciosa. Por outro lado, quem profere a verdade
+age de maneira ordenada e virtuosa.” (AQUINO, 2020, p. 141)
+Contudo, Aristóteles parece não se referir a qualquer forma de verdade, ele não
+alude àquele que pronuncia a verdade em um tribunal, mas sim àquele que possui méritos
+genuínos, aquele que verdadeiramente merece, ele afirma:
+“ Considera-se, então, que o ostentador (presunçoso) é aquele que simula deter
+méritos que realmente não detém, ou que detém menos do que ele alega, enquanto
+inversamente, o autodepreciador nega ou deprecia méritos genuínos.” (EN 1127 a 20-25)
+Assim, o indivíduo virtuoso parece agir em conformidade com a verdade,
+especialmente em questões onde não há grande impacto no bem-estar alheio. Ele expressa
+o que é verdadeiro por um profundo amor à própria verdade. Nesse contexto, a virtude
+está intrinsecamente ligada a dizer e agir em consonância com a verdade. No entanto,
+
+-- 50 of 64 --
+
+42	A virtude no que diz respeito ao convívio social; a virtude no que diz respeito à
+verdade no relacionamento humano; a virtude da brincadeira
+há aqueles que pronunciam palavras contraditórias e agem de maneira diferente, sendo
+rotulados como hipócritas.
+Eça de Queiroz, em sua obra “O Crime do Padre Amaro”, retrata a vida do Padre
+Amaro Vieira, um clérigo que manifesta uma discrepância entre suas palavras e ações. Na
+sociedade da pequena Leiria, o padre é visto como um santo, engajando-se em debates
+teológicos com fervor, enquanto, secretamente, mantém um relacionamento amoroso com
+Amélia, que resulta em gravidez. Aqui, a hipocrisia do padre é evidente, pois ele vive uma
+vida dupla, uma vida que se distancia da verdade.
+Em “A Relíquia”, Eça de Queiroz mais uma vez retrata uma conduta falsa, desta
+vez na vida de Teodorico Raposo. Órfão de pai e mãe, ele é criado por sua tia solteira e
+religiosa, Dona Patrocínio. Desde tenra idade, Teodorico aprende a disfarçar e a bajular,
+levando uma vida dupla: na presença da tia, ele se apresenta como um jovem devoto e
+temente a Deus; longe dela, age como um libertino. É evidente que a conduta de ambos os
+personagens constitui um vício, pois vivem em desacordo com a verdade, ocultando suas
+reais intenções.
+C) A VIRTUDE DA BRINCADEIRA
+Ora, “considerando que a vida inclui o descanso , do que fazem parte distrações que
+nos servem de entretenimento, percebemos que há, também certo padrão de bom gosto no
+relacionamento social e certa compostura no que dizemos e na nossa maneira de dizê-lo,
+e ainda no que nos permitimos ouvir;”(EN 1128 a 1-5) De forma inegável, as distrações que
+preenchem nossos momentos de lazer estão sujeitas a um equilíbrio delicado. Exceder-
+se ou negligenciá-las representa um vício, e é fundamental que saibamos desfrutar dos
+intervalos de descanso de maneira apropriada, selecionando os objetos adequados e
+aproveitando-os corretamente.
+Com efeito, o descanso assume uma importância crucial na vida humana, pois o
+ser humano requer um período de repouso após longos esforços, sejam eles físicos ou
+intelectuais. Como ilustrado por Dr. Arthus, a capacidade de concentração humana tem
+seus limites, com um máximo estimado de cerca de 20 minutos. Ultrapassar esse limite
+sem pausas adequadas pode resultar em tensões prejudiciais. Portanto, é apropriado
+reservar um momento para relaxar e aliviar essa atenção constante. No âmbito do trabalho,
+é comum adotarmos tais pausas de forma instintiva, seja virando a página de um livro,
+respirando profundamente ou movendo a cabeça (IRALA,2018, p 58).
+É crucial compreender que o trabalho excessivo, sem períodos adequados de
+descanso, pode levar ao que os psicólogos identificam como “burnout”. Esse fenômeno
+é caracterizado pelo esgotamento emocional, físico e mental, geralmente associado a
+questões laborais. O indivíduo se sente sobrecarregado, emocionalmente esgotado e
+desprovido de motivação para qualquer tipo de interação interpessoal.
+
+-- 51 of 64 --
+
+43	A justiça
+CAPÍTULO 12
+A jUSTIÇA
+À luz do pensamento filosófico, no capítulo dedicado à profundidade da justiça,
+Aristóteles emerge como a voz que nos brinda com uma iluminada clareza. Ele fundamenta
+a discussão com a maestria de quem vislumbra a essência mais profunda da justiça.
+Aristóteles traça o alicerce dessa indagação complexa, argumentando que a justiça é o
+estado que molda os indivíduos, predispondo-os a realizar atos justos, a agir retamente e a
+ansiar por tais ações. Analogamente, a injustiça seria o que inquieta os ânimos, levando-os
+a agir injustamente e a desejar atos desvirtuados (EN 1129 a5-10).
+Antes de adentrarmos nos meandros do justo e do injusto, é vital enfatizar que a
+justiça difere substancialmente das demais virtudes morais. A primeira distinção notável
+reside no fato de que, ao passo que as outras virtudes morais se enraízam principalmente
+nas paixões e nas disposições internas, a justiça dirige seu foco para as ações exteriores
+e para as intricadas relações que os seres humanos entrelaçam uns com os outros. Esta
+distinção intrigante foi habilmente esclarecida por São Tomás de Aquino, que, com sua
+sapiência, delineou razões substanciais para tal demarcação:
+“(...) porque nelas se considera de modo principal como o homem é inteiramente
+disposto segundo as paixões, enquanto que aquilo que exteriormente opera não é
+considerado como algo consequente, na medida em que as operações exteriores provêm
+das paixões interiores. No que diz respeito à justiça, entretanto, leva-se principalmente
+em consideração aquilo que o homem exteriormente opera, enquanto que como ele
+está interiormente disposto não é considerado senão por conseqüência, na medida
+em que alguém é ajudado ou impedido [pelas suas disposições interiores] acerca das
+operações.”(AQUINO, 2020, p151)
+Observamos que nas outras virtudes o termo médio é estabelecido pela razão em
+relação a nós mesmos, entretanto, na justiça, esse termo médio é determinado pela razão
+em relação à própria essência da coisa.
+Em seu tratado sobre as “categorias”, Aristóteles nos brinda com a definição de
+homônimo como sendo aquilo que compartilha apenas o nome, mas cujas essências se
+desdobram em realidades distintas (Cat. 1, 1a1). Ora, os termos “justo” e “injusto” são
+empregados de maneiras multifacetadas e, de acordo com o Estagirita, esses termos
+guardam uma conexão tão intrincada em seu homonimato que às vezes a própria natureza
+dessa conexão escapa à nossa percepção (EN 1129 a 25-30).
+A)A JUSTIÇA LEGAL
+Uma das facetas em que o justo e o injusto se desdobram reside na sua relação
+intrínseca com a lei, onde o injusto é aquele que transgride seus preceitos, enquanto o justo
+é aquele que adere a seus ditames.
+
+-- 52 of 64 --
+
+A justiça 	44
+As leis, em sua essência, dizem respeito a tudo aquilo que promove o bem da
+comunidade, com o propósito fundamental de buscar o bem comum. Daí Santo Tomás de
+Aquino dizer:
+“Ora, como toda a utilidade humana se ordena à felicidade como a um fim, daqui
+se segue que o justo legal é dito de tudo o que é factivo da felicidade e das coisas que à
+felicidade se ordenam, ou de modo principal, como as virtudes; ou instrumentalmente, como
+as riquezas e os demais bens exteriores, e [tudo] isto [na medida em que se relaciona] para
+com a comunidade política, à qual diz respeito a colocação das leis.(AQUINO, 2020, p 156.)
+Aristóteles, por sua vez, dirá que:
+“(...) as ações que nascem da virtude total são, fundamentalmente, idênticas às ações
+que se harmonizam com a lei; de fato, a lei ordena a prática das várias virtudes particulares
+e proíbe a prática dos vários vícios particulares. Igualmente, as regras estabelecidas para
+a educação que tornam o indivíduo apto a vida em comunidade são geradoras da virtude
+total.” (EN 1130 b 20-30).
+Fica claro que a lei desempenha o papel de um instrumento destinado a incentivar o
+comportamento virtuoso e a punir a conduta viciosa. Contudo, a eficácia dessa punição só
+se realiza plenamente quando ela direciona o transgressor de volta ao caminho da virtude.
+Consequentemente, a lei abraça todas as virtudes, pois sua missão fundamental
+é orientar os indivíduos na busca pela virtude. Assim, a justiça legal transcende a
+categorização como uma virtude particular e se eleva à condição de uma virtude universal,
+uma vez que a lei nos obriga a agir de acordo com todas as virtudes específicas que
+compõem o tecido da moralidade humana. Nesse contexto, a justiça legal se revela como
+uma virtude abrangente, pois é a lei que nos impulsiona a seguir o caminho delineado por
+todas as virtudes individuais.
+B) A JUSTIÇA PARTICULAR.
+Enquanto a justiça legal se alinha com o bem comum, a justiça particular orienta-
+se em direção ao bem individual. “A justiça particular se ocupa dos assuntos que regem
+as relações entre os seres humanos. Por exemplo, honra, riqueza, saúde e necessidades
+corporais, entre outras” (AQUINO, 2020, p. 161).
+Tal como a justiça legal, a justiça particular focaliza-se nas ações externas. No entanto,
+uma vez que a justiça se traduz como a ordenação do homem para o seu semelhante,
+sua esfera de influência não adentra as profundezas das paixões, que permanecem como
+domínio interior, sendo que a razão corrige o indivíduo em si mesmo.
+A característica distintiva da justiça, segundo a perspicácia de Aristóteles, é a
+igualdade, mas essa igualdade pode se manifestar em várias facetas, originando assim
+diversas manifestações de justiça. É fundamental reter que a concepção de justiça como
+virtude específica difere da concepção de justiça como virtude perfeita.
+
+-- 53 of 64 --
+
+A justiça 	45
+C) A JUSTIÇA DISTRIBUTIVA.
+A primeira faceta da justiça particular, conhecida como “justiça distributiva”, revela-
+se como a arte de equitativamente repartir o que é comum a todos, que seja honra, riqueza
+ou qualquer desses bens que pertencem ao mundo exterior.
+Como mencionado anteriormente, a justiça particular se traduz em igualdade, e
+toda igualdade, no mínimo, é dual, oscilando entre o mais e o menos. Contudo, a justiça
+distributiva lida com a distribuição de bens que se acomodam de forma personalizada em
+cada indivíduo, assim, a igualdade que a permeia assume uma complexidade quádrupla.
+“De fato, ela envolve dois indivíduos para os quais a justiça se faz presente e duas coisas
+que se mostram justas” (EN 1131 a 20). Essa equação matemática é, de certo modo,
+representada como:
+Na percepção aristotélica, aquilo que se iguala o faz em relação a algum critério
+específico, e no contexto da justiça distributiva, essa igualdade é intrinsecamente ligada ao
+mérito. Aristóteles nos orienta com suas palavras:
+“ Todos, de fato, estão concordes de que a justiça distributiva tem que ser a partir
+de certo mérito, embora nem todos entendam o mesmo tipo de mérito; para os adeptos da
+democracia, trata-se da liberdade, para os adeptos da oligarquia, trata-se da riqueza ou do
+bom nascimento, enquanto para aqueles da aristocracia, trata-se da virtude.” (EN 1131 a
+25).
+Torna-se evidente, desse modo, que a justiça distributiva se revela como uma
+proporção intricada entre o indivíduo e suas ações, onde a recompensa concedida se
+ajusta ao seu mérito intrínseco. Àquele que merece mais, será destinada uma fatia mais
+generosa, enquanto aquele que merece menos encontrará uma parcela mais modesta a
+lhe ser atribuída.
+Uma exemplificação clara ilustra este ponto. Como já testemunhamos, entre
+os gregos, a coragem demonstrada em campo de batalha era uma virtude altamente
+valorizada. Homero, na “Ilíada”, imortalizou as proezas de heróis como Aquiles, Diomedes
+e Agamêmnon. Até os dias atuais, quando evocamos os grandes guerreiros, o nome de
+Aquiles resplandece, em virtude de suas grandiosas realizações em combate, como a
+derrota de Heitor, o maior dos guerreiros troianos, e seu papel crucial na mudança do
+curso da guerra a favor dos gregos. Seria, de fato, um desatino equiparar um guerreiro
+comum que combateu ao lado de Aquiles em Troia ao mérito que é devido ao Pelida, pois
+os méritos são distintos e, consequentemente, as recompensas também.
+Logo, a justiça distributiva se delineia como uma proporção intrincada entre as
+ações do indivíduo e o bem que lhe é destinado. Esse tipo de proporção assume a forma
+da conhecida proporção geométrica, onde o primeiro todo se relaciona com o segundo da
+mesma forma que cada parte se relaciona com cada outra parte. Entretanto, é importante
+notar que esta não é uma proporção contínua, pois, em termos numéricos, não se observa
+
+-- 54 of 64 --
+
+A justiça 	46
+um termo singular que englobe o indivíduo e o objeto em questão (EN 1131 b 15). O
+que é justo, incontestavelmente, é o proporcional, e o que é injusto, por sua vez, é o
+desproporcional.
+D) A JUSTIÇA COMUTATIVA.
+A outra faceta da justiça emerge, resplandecente, como a justiça corretiva ou
+comutativa, cujo domínio se estende às transações contratuais, quer voluntárias, quer
+involuntárias, um entrelaçar de destinos entre particulares. Em contraste com a justiça
+distributiva, a justiça comutativa é regida por uma proporção aritmética, pois não se importa
+com a identidade do agente, mas tão somente com a essência do agravo cometido. Assim,
+indiferente é se Aquiles, em sua bravura, transgrediu ou se qualquer outro guerreiro
+igualmente o fez, pois a punição deve ser justa e proporcional ao ato; honrarias de Aquiles,
+conquistadas com mérito, são, por assim dizer, relegadas à insignificância na esfera da
+justiça comutativa, pois esta apenas avalia a essência das ações em questão.
+“A lei contempla a natureza característica do dano, tratando as partes como iguais,
+apurando simplesmente se alguém praticou injustiça enquanto o outro indivíduo a sofreu e
+se alguém produziu o dano enquanto alguém foi por ele atingido.” ( EN 1132 a 5)
+A proporção aritmética, com seu vigor matemático, traduz-se na igualdade das
+discrepâncias, numa fórmula que ecoa: A - B = C - D. O indivíduo justo, por conseguinte,
+revela-se como o equilíbrio, enquanto o injusto se configura como a desarmonia. Nesse
+cenário, o juiz assume o papel de restaurador da igualdade, aplicando punições àqueles
+que obtiveram ganhos injustos e oferecendo reparação àqueles que sofreram perdas
+injustas.
+E) A JUSTIÇA COMO RECIPROCIDADE.
+Aristóteles comenta também a opinião dos pitagóricos, “que definiam o justo
+simplesmente a reciprocidade entre uns e outros” ( EN 1132 b20-25). Em certa medida,
+parece que justiça e reciprocidade podem convergir quando alguém retribui o bem com
+o bem. No entanto, é notório que, frequentemente, justiça e reciprocidade tomam rumos
+distintos. Por exemplo, se alguém sofre com o adultério, buscar vingança através da
+mesma traição não representa justiça; ao contrário, seria uma manifestação de duas graves
+injustiças. Em outras palavras, o fato de alguém ter experimentado o mal não legitima
+responder com a mesma moeda, pois isso resultaria em se tornar, também, uma pessoa
+injusta. Aristóteles proclama: “no intercâmbio de favores, a justiça como reciprocidade é o
+vínculo que mantém a associação - reciprocidade de acordo com a proporção e não com a
+igualdade. A retribuição conforme a proporção é produzida em uma conjunção em diagonal:
+
+-- 55 of 64 --
+
+A justiça 	47
+Se, inicialmente, estabelecemos uma igualdade com base na proporção dos
+produtos e, em seguida, ocorre a reciprocidade, alcançamos o resultado desejado. No
+entanto, caso essa igualdade proporcional não seja estabelecida, o acordo comercial não
+será caracterizado pela igualdade, e a troca não será efetivada. Isso ocorre porque pode
+acontecer que o produto de um artesão tenha um valor maior que o do outro, nesse caso,
+é necessário equalizá-los para que se alcance a verdadeira igualdade. (EN 1133 a 10-15)
+A sociedade abriga diversas formas de intercâmbio, mas é notório que os indivíduos
+que se unem para essas trocas geralmente apresentam desigualdades, já que seus produtos
+são distintos e, por conseguinte, possuem valores diferentes. Diante dessa discrepância,
+surge a necessidade premente de mensurá-los para que a troca se concretize de maneira
+justa. Aristóteles sustenta que é desse princípio de comensuração que o dinheiro foi
+introduzido na sociedade.
+Para compreender como essas transações se desdobram, é esclarecedor recorrer à
+explicação de Platão na “República” sobre a formação do Estado. Segundo o fundador da
+Academia, o Estado se fundamenta no fato de que a natureza humana não é autossuficiente,
+o que implica que possuímos necessidades que só podem ser satisfeitas por meio de
+bens externos. Assim, as pessoas se voltam umas às outras devido às suas carências e
+se tornam colaboradoras e parceiras nesse empreendimento comum. (A República 369
+a-d) As trocas de favores surgem a partir dessa união natural entre seres humanos, onde
+cada um produz em troca do produto do outro; o construtor oferece uma casa, o médico
+proporciona saúde e assim sucessivamente.
+É nesse contexto que Aristóteles enfatiza que a necessidade desempenha um papel
+crucial na coesão de tudo, pois é a necessidade que une essas interações humanas. (EN
+1133 a25-30)
+Conclui-se, portanto, que a reciprocidade emerge quando se igualam os produtos,
+dando origem a um intercâmbio que equipara itens distintos. Contudo, Aristóteles, apesar de
+abordar a complexidade das trocas mercantis e de censurar a teoria pitagórica de igualdade
+um a um, não se aprofunda na questão da justiça intrínseca às trocas ou aos preços. Seu
+foco está em revelar que tais transações se desdobram com base em uma medida peculiar.
+A troca de mercadorias serve como ilustração, ainda que, na forma apresentada, distancie-
+se das profundidades das questões de justiça. (WOLF, 2010, p. 113)
+AS DIVISÕES DO DIREITO
+O direito, em sua simplicidade, se desvela como o direito político. Ele floresce
+na comunidade que se molda em busca da suficiência das coisas que embasam a vida
+humana. Essa comunidade, segundo Aristóteles, é a cidade, a suprema coletividade que
+abarca o propósito de todas as outras comunidades, onde todos devem encontrar o que é
+necessário para a vida humana.
+
+-- 56 of 64 --
+
+A justiça 	48
+É imperativo recordar que Aristóteles viveu em uma era marcada pela escravidão,
+e nesse contexto, ele traça uma nítida distinção entre o direito político e o direito de
+dominação. O direito político se faz presente entre os cidadãos livres, não entre os
+escravizados, visto que entre o senhor e o escravo não subsiste um direito político, mas
+um direito de dominação. Isso se dá pelo fato de que o direito político, determinado pela lei,
+necessita residir naqueles aos quais a lei se aplica. O direito político pode se adequar tanto
+à justiça comutativa quanto à justiça distributiva.
+O direito político se divide em duas facetas: o direito natural e o direito legal. Com
+efeito, os cidadãos fazem uso tanto do direito inscrito na mente humana pela natureza
+quanto do direito estabelecido pela lei.
+Direito natural e legal
+Segundo o desenrolar dos acontecimentos, o direito natural se revela como aquele
+que detém, em todos os rincões, a mesma força e virtude para promover o bem e afastar
+o mal. Isso se deve ao fato de que a natureza, a qual é a raiz desse direito, permanece
+inalterada em todos os lugares, para todos os seres humanos. Por outro lado, o direito
+legal, como o nome sugere, é instaurado por alguma figura da cidade, seja um soberano
+ou um legislador.
+Torna-se claro, portanto, que o direito natural emerge da própria natureza,
+transcendendo as opiniões humanas. Assim como nas ciências especulativas, onde existem
+axiomas, ou seja, princípios incontestáveis, nas ciências operativas também prevalecem
+alguns princípios indiscutíveis, como a necessidade de evitar o mal, a proibição de causar
+dano injusto, o repúdio ao roubo e outros preceitos similares.
+O direito legal, por sua vez, surge a partir do direito natural por meio de uma
+deliberação, e isso pode acontecer de duas maneiras. Primeiramente, o direito legal pode
+derivar do direito natural com uma dose de erro humano entremeada. Segundo, o direito
+legal pode ter sua origem no direito natural sem que o erro humano o corrompa.
+
+-- 57 of 64 --
+
+49	Conclusão
+CONClUSÃO
+No primeiro olhar profundo, nos adentramos na vida e na jornada intelectual de
+Aristóteles, um dos faróis de sabedoria que brilham na vastidão da história. O seu
+nascimento nas terras de Estagira, o mergulho na corrente da Academia de Platão e o
+posterior erguer do Liceu nas ruas de Atenas revelam-se como marcos cruciais em sua
+epopeia. Aristóteles, com sua pena vigorosa e mente incansável, tece a filosofia em um
+tecido acadêmico sólido, separando as ciências humanas em três domínios distintos: as
+ciências práticas, as ciências poéticas e as ciências teoréticas.
+No segundo compasso desse concerto filosófico, adentramos na sintonia ética de
+Aristóteles, a qual ele concebia como a ciência do bem. A ética, para ele, não é um mero
+devaneio teórico, mas uma sinfonia de ações virtuosas entoada na realidade terrena.
+Aristóteles, o mestre da dialética, nos conduz por um labirinto de complexidades éticas,
+onde a busca pela verdade e pela virtude se entrelaça com o desafio de desconstruir
+preconceitos convencionais.
+No terceiro movimento desta sinfonia de pensamento, imergimos nas profundezas
+da reflexão sobre as múltiplas facetas da felicidade na filosofia aristotélica. Aristóteles, como
+o arauto da sabedoria, argumenta que a busca pelo bem supremo, a eudaimonia, é inerente
+à essência humana, e a felicidade está entrelaçada com a virtude de forma indissolúvel.
+No entanto, ele meticulosamente destila três concepções errôneas de felicidade
+que muitos, inadvertidamente, perseguem: a busca desenfreada pelo prazer, a demanda
+pela honra social e a anseio por uma vida puramente especulativa. O prazer desmedido,
+Aristóteles adverte, pode servir como portal para o vício e a decadência. A busca cega
+pela honra social, embora cativante, revela-se problemática, pois torna-se uma marionete
+das opiniões e julgamentos alheios, conduzindo a uma vida desprovida de autenticidade
+e substância. Quanto à busca pela vida especulativa, embora não explorada em sua
+totalidade, é insinuada como digna de consideração em relação à busca pela eudaimonia.
+Aristóteles, em sua culminante conclusão, argumenta que a verdadeira felicidade
+reside na busca incessante pela excelência moral e na prática inabalável da virtude. A
+eudaimonia se manifesta quando uma pessoa age em harmonia com sua natureza racional,
+cultivando suas faculdades da alma em estrita consonância com a razão. Assim, a virtude
+emerge como o caminho que conduz à verdadeira felicidade, que transcende meros
+momentos de prazer e se consolida como uma realização profunda e genuína da natureza
+humana.
+Nessa visão arrebatadora, Aristóteles ecoa como um farol, lembrando-nos da
+magnitude de uma vida autêntica, enraizada na busca incessante pela virtude e pelo bem
+supremo, ao mesmo tempo em que adverte contra as sedutoras miragens do prazer fugaz
+e da honra social efêmera. Portanto, sua filosofia nos convoca a uma introspecção profunda
+sobre as nossas escolhas e prioridades na busca pela felicidade genuína.
+
+-- 58 of 64 --
+
+Conclusão 	50
+No quarto movimento desta sinfonia filosófica, exploraremos a virtude moral em
+detalhes, mergulhando em suas raízes, natureza e na trajetória que um indivíduo pode
+trilhar para tornar-se virtuoso. Aristóteles nos revela que a virtude moral não é inata, mas
+sim esculpida com precisão através do hábito e da repetição de escolhas virtuosas ao
+longo do trajeto da vida. As virtudes morais, como sólido alicerce, servem de base para o
+florescimento das virtudes intelectuais, revelando a intrincada ligação entre a jornada em
+busca da excelência moral e a busca incessante pela verdade intelectual.
+A causa profunda da virtude moral reside na forja dos hábitos, na constante repetição
+de ações virtuosas que esculpem nosso caráter e moldam nossa conduta ao longo das
+eras. Neste intricado balé entre a razão e as paixões, as potências da alma emergem como
+as raízes que sustentam a complexidade de nossas emoções. Os hábitos, por sua vez,
+modelam nossa disposição em relação a essas paixões turbulentas, e a virtude se revela
+como o hábito sublime que nos concede a capacidade de agir com virtuosidade, mesmo
+quando enfrentamos o tumulto das paixões.
+A virtude, como uma joia rara, encontra seu esplendor no equilíbrio sutil, na harmonia
+do termo médio entre os vícios do excesso e da deficiência. Alcançar esse equilíbrio
+virtuoso emerge como uma tarefa hercúlea, porém indispensável, na busca infindável
+pela virtuosidade. Para tornar-se verdadeiramente virtuoso, é imprescindível afastar-se
+com determinação dos extremos que se opõem à virtude e, com discernimento, conhecer
+as inclinações naturais que nos compõem, direcionando-as com sabedoria em direção à
+virtude.
+O quinto capítulo, o ápice dessa exploração, nos conduz a uma jornada através
+dos princípios dos atos virtuosos, extraídos com maestria da obra magistral de Aristóteles.
+Nesse intrincado labirinto, somos guiados pela mão firme do pensador, adentrando o
+âmago das complexidades que permeiam as ações humanas e os fatores sutis que as
+influenciam. Aristóteles nos conduz com maestria, revelando as minúcias que dão forma às
+nossas escolhas e ações.
+Primeiramente, somos apresentados à dicotomia que permeia o voluntário e o
+involuntário, explorando as múltiplas maneiras pelas quais a compulsão e a ignorância
+podem lançar suas sombras sobre nossas ações, destacando como esses elementos,
+internos ou externos, podem sobrepor-se à nossa livre vontade em circunstâncias
+específicas.
+A seguir, somos levados a uma exploração profunda da noção de eleição, que
+emerge como um processo intrincado e de suma importância na trajetória virtuosa.
+Aristóteles esclarece que a eleição transcende o mero voluntário, pois requer um processo
+deliberativo, um mergulho reflexivo nos meios disponíveis antes de tomar uma decisão.
+Nesse caminho sinuoso, somos advertidos a não confundir a eleição com meros desejos,
+ira passageira ou vontade efêmera, pois a eleição se revela como uma manifestação
+consciente de autodeterminação.
+
+-- 59 of 64 --
+
+Conclusão 	51
+Por fim, o autor destemidamente desbrava os confins da vontade, que emerge como
+uma força aspirante em direção a objetivos nobres, ao mesmo tempo que nos presenteia
+com complexos dilemas filosóficos relacionados à sua natureza. Concluímos, com clareza,
+que somos os autores primordiais de nossas ações, e as raízes de nossas escolhas estão
+fincadas profundamente em nosso ser, tornando-as voluntárias por sua própria essência.
+Desse modo, a virtude, como um hábito eletivo, encontra seu santuário no âmbito do
+voluntário, harmonizando-se com a orientação sábia da razão.
+Nos capítulos derradeiros, adentramos a exploração das variadas virtudes
+particulares, examinando suas essências, seus atos genuínos e as sendas que podem
+levá-las à corrupção, seja pelo excesso ou pela deficiência. Encerramos essa imersão na
+filosofia de Aristóteles com a certeza de que, para ele, a ligação entre virtude e felicidade
+é o epicentro de sua ética.
+Aristóteles sustenta que a busca pela felicidade se revela como a mais elevada
+das metas humanas, o fulcro da existência. Nessa busca, as virtudes emergem como
+companheiras indispensáveis, iluminando o caminho rumo à eudaimonia. Eudaimonia,
+longe de ser uma emoção fugaz, se configura como um estado de plena realização e
+florescimento humano.
+Aristóteles, com sua sagacidade, nos ensina que a verdadeira felicidade é
+conquistada quando vivemos em consonância com a virtude, quando cultivamos hábitos
+virtuosos que nos orientam a agir de maneira ponderada, justa e compassiva. As virtudes,
+em sua filosofia, são como trilhas que nos conduzem ao equilíbrio, aquela região intermédia
+entre os extremos.
+Assim, para Aristóteles, a eudaimonia não se revela nos prazeres efêmeros nem
+nas ânsias insaciáveis por riquezas materiais. Em vez disso, reside na plena realização
+do potencial humano por meio das virtudes. A virtude, portanto, não é apenas um objetivo
+em si mesma, mas também a estrada que nos conduz à autêntica e duradoura felicidade,
+aquela que perdura além das sombras passageiras.
+
+-- 60 of 64 --
+
+52	Referências Bibliográficas
+REFERêNCIAS bIblIOgRÁFICAS
+AQUINO, Felipe. História da Igreja - Idade Antiga. São Paulo: Cléofas, 2015.
+AQUINO, Santo Tomás. Comentário à Ética e à Política de Aristóteles - Volume I. (1. ed.) Foz do Iguaçu:
+Centro Cultural Hugo de São Vítor, 2020.
+AQUINO, Santo Tomás. Onze lições sobre a virtude: Comentário ao segundo livro da Ética de Aristóteles.
+(1. ed). Campinas, SP, 2014.
+ARISTÓTELES. Ética a Eudemo. (1. ed). São Paulo: Edipro, 2015.
+ARISTÓTELES. Ética a Nicômaco. (4. ed.) São Paulo: Edipro, 2014.
+ARISTÓTELES. Metafísica. (2. ed). São Paulo: Edipro, 2012.
+ARISTÓTELES. Órganon. (3. ed). São Paulo: Edipro, 2016.
+BARNES, J. Aristóteles. São Paulo: Ideias & Letras, 2009.
+BERTI, Enrico. Novos Estudos Aristotélicos: filosofia prática. São Paulo: Edições Loyola, 2014.
+LAÉRTIOS, Diógenes. Vidas e Doutrinas dos Filósofos Ilustres. Editora SciELO - Editora UnB, 1 de
+janeiro de 1970.
+DOSTOIÉVSKI, Fiódor. Crime e Castigo. Edição de luxo. São Paulo: Martin Claret, 2019.
+EURÍPIDES. Medeia. 1ª edição. São Paulo: Editora 34, 2010.
+GOETHE, Johann Wolfgang von. Fausto. São Paulo: Martin Claret, 1ª edição, 2016.
+GRAVES, Robert. Os Mitos Gregos: Box com dois volumes. 2ª edição. Rio de Janeiro: Nova Fronteira,
+2021.
+HOMERO. Ilíada. Rio de Janeiro: Nova Fronteira, 1ª edição, 2021.
+HOMERO. Odisseia. Rio de Janeiro: Nova Fronteira, 1ª edição, 2021.
+IRALA, Narciso. Controle Cerebral e Emocional. 21ª edição. São Paulo: Edições Loyola, 1964.
+PLATÃO. A República. São Paulo: Edipro, 3ª edição, 2019.
+PLATÃO. Diálogos II - Górgias (ou Da Retórica), Eutidemo (ou Da Disputa), Hípias maior (ou Do Belo) e
+Hípias menor (ou Do Falso). São Paulo: Edipro, 2016.
+QUEIRÓS, Eça de. O Crime do Padre Amaro. São Paulo: Lafonte, 2020.
+QUEIRÓS, Eça de. Os Maias: Episódios da Vida Romântica. 1ª edição. Rio de Janeiro: Zahar, 2017.
+QUEIRÓS, Eça de. A Relíquia. Porto Alegre: L&PM, 1ª edição - Edição de bolso, 1998.
+REALE, G. Introdução a Aristóteles. São Paulo: Contraponto, 2012.
+SHAKESPEARE, William. Grandes Obras de Shakespeare. Rio de Janeiro: Nova Fronteira, 1ª edição,
+2017.
+TOLSTÓI, L. A Morte de Ivan Ilitch. São Paulo: Editora 34, 2ª edição, 2009.
+VIRGÍLIO. Eneida. 2ª edição. São Paulo: Editora 34, 2016.
+WOLF, Ursula. A “Ética a Nicômaco” de Aristóteles. 2ª edição. São Paulo: Edições Loyola, 2010.
+
+-- 61 of 64 --
+
+53	Sobre os Autores
+SO
+bRE OS AUTORES
+GABRIEL VINÍCIUS NUNES OLIVEIRA - é formado em História e possui pós-
+graduação em Filosofia pela PUC-RS. Com uma profunda paixão pela filosofia
+clássica, seu principal foco de estudo é a obra de Aristóteles. Além de suas
+investigações acadêmicas, Gabriel é autor do livro “A arte de ler”, onde explora
+as nuances e a importância da leitura no desenvolvimento intelectual e cultural.
+ROBÉRIO VINÍCIUS ALMEIDA CRUZ - é Advogado e possui pós-graduação
+em Advocacia Criminal. Além de ser um admirador e pesquisador das ciências
+humanas e sociais aplicadas, Robério é autor de diversos trabalhos acadêmicos,
+a exemplo dos seguintes artigos publicados como capítulos de livro: “A relação da
+Bioética e do Biodireito com os Direitos Humanos” e “Marco Civil da Internet: uma
+análise da responsabilidade civil junto ao direito à privacidade na nova era digital”.
+BRUNA EDUARDA VIEIRA DE FARIAS - é Advogada atuante nos diversos
+ramos do direito e possui pós-graduação em Direito Processual Penal e Direito
+Penal. Além de ser uma admiradora e pesquisadora das ciências humanas e
+sociais aplicadas, Bruna é autora do trabalho acadêmico cujo título é “A relação
+da Bioética e do Biodireito com os Direitos Humanos”, o qual foi publicado como
+capítulo de livro.
+
+-- 62 of 64 --
+
+
+
+-- 63 of 64 --
+
+
+
+-- 64 of 64 --
+

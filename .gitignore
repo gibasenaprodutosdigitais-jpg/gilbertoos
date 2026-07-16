@@ -1,0 +1,17 @@
+# Dependências (reinstaláveis via npm install)
+node_modules/
+scripts/node_modules/
+scripts/.node-runtime/
+
+# Segredos — NUNCA subir
+.env
+.env.*
+*.key
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários de render
+scripts/*.log

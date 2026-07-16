@@ -1,0 +1,10 @@
+{
+  "name": "gilbertoos-scripts",
+  "version": "1.0.0",
+  "description": "Utilitários que as skills chamam: extrair texto de PDF (fichar livros) e renderizar carrossel em PNG (Playwright).",
+  "type": "commonjs",
+  "dependencies": {
+    "pdf-parse": "^2.4.5",
+    "playwright": "^1.48.0"
+  }
+}
