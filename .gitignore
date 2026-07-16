@@ -13,5 +13,8 @@ scripts/.node-runtime/
 Thumbs.db
 desktop.ini
 
+# Config local do Claude Code (específico de cada aparelho)
+.claude/settings.local.json
+
 # Temporários de render
 scripts/*.log

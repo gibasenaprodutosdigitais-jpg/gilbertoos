@@ -22,6 +22,31 @@
 - *(Cid: detalhar aqui os cases e bastidores que ele PODE contar publicamente —
   isso vira prova de autoridade em conteúdo. Cuidado com o que é confidencial.)*
 
+## Revista Empreenda — novo projeto (assumido em 2026)
+
+Gilberto assumiu como **CEO e gestor da Revista Empreenda**. Foco: posicionamento
+de empresários, contar a história de empresários locais e regionais.
+
+- Já lançada a edição **Empreenda ABC** — capa foi um empresário (academia
+  inaugurada no ABC Paulista); virou repost dele nas redes, prova de que o
+  formato gera desejo de ser capa.
+- Expansão internacional em andamento: **Angola, Portugal, Panamá**, além do
+  ABC — diferencial que nenhum concorrente contador/tributarista tem.
+- Agosto/2026: capa da **Empreenda Brasil / Empreenda Global** é **Flávio
+  Augusto**, com projeto ao lado de **Joel Jota** e **Caio Carneiro** (evento
+  com Alan Spark) — mentoria estruturada tipo "IPO", com grupos classificados
+  por faturamento/engajamento/garra (bastidor, coxia, "andam com eles").
+  Gilberto circula nesse ambiente através da revista — ver regra de não vender
+  proximidade que não existe.
+- **Empreenda Business** — a modalidade que o Gilberto está criando dentro da
+  revista: rede fechada de empresários inspirada em conceito de irmandade
+  (analogia com maçonaria — fortalecer uns aos outros), mas **sem
+  obrigatoriedade** de negócio entre membros. Gilberto é o **conector/curador**,
+  não fornecedor dentro do próprio grupo — conecta profissionais certos
+  (ex.: vários advogados no grupo, ele indica o mais adequado pra cada caso).
+  Base parecida com BNI, mas sem o protocolo rígido — a reciprocidade nasce da
+  cultura e da vitrine pública (virar capa da revista), não de regra escrita.
+
 ## História pessoal — [PEGAR COM O GILBERTO AMANHÃ, nas palavras dele]
 
 > Isto é o que transforma técnica em conexão. Reels e carrossel de história
