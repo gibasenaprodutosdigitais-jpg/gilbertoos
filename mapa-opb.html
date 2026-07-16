@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Person Business — Gilberto Sena</title>
+<style>
+  :root{
+    --graphite:#0F1419;
+    --graphite-2:#161d25;
+    --card:#1a222c;
+    --line:rgba(201,162,39,0.22);
+    --gold:#C9A227;
+    --ink:#F4F1EA;
+    --muted:#9aa4b0;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{
+    font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+    background:var(--graphite);
+    color:var(--ink);
+    line-height:1.55;
+    padding:56px 40px 72px;
+  }
+  .wrap{max-width:1040px;margin:0 auto}
+
+  /* Header */
+  .kicker{font-size:12px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold)}
+  .wordmark{font-size:15px;font-weight:700;letter-spacing:0.34em;text-transform:uppercase;color:var(--ink);margin-bottom:34px;opacity:.85}
+  h1{font-size:52px;font-weight:800;letter-spacing:-0.03em;line-height:1.02;margin:12px 0 18px}
+  h1 span{color:var(--gold)}
+  .lede{font-size:19px;color:var(--muted);max-width:760px}
+  .lede b{color:var(--ink);font-weight:600}
+  .rule{height:3px;width:66px;background:var(--gold);border-radius:2px;margin:26px 0 0}
+
+  /* Sections */
+  section{margin-top:52px}
+  .sec-h{display:flex;align-items:baseline;gap:14px;margin-bottom:22px}
+  .sec-n{font-size:13px;font-weight:800;color:var(--gold);letter-spacing:0.1em}
+  .sec-t{font-size:26px;font-weight:800;letter-spacing:-0.02em}
+  .sec-sub{font-size:15px;color:var(--muted);margin-left:auto;font-weight:500}
+
+  /* Cards grid */
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 22px}
+  .card h3{font-size:17px;font-weight:700;margin-bottom:7px}
+  .card h3 .dot{color:var(--gold)}
+  .card p{font-size:14.5px;color:var(--muted)}
+  .card p b{color:var(--ink);font-weight:600}
+
+  /* Flywheel */
+  .flow{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px;background:var(--graphite-2);border:1px solid var(--line);border-radius:16px;padding:28px 22px}
+  .node{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;font-weight:600;text-align:center}
+  .node.gold{background:var(--gold);color:#1a1204;border-color:var(--gold)}
+  .arrow{color:var(--gold);font-size:20px;font-weight:700}
+  .flow-note{text-align:center;color:var(--muted);font-size:14px;margin-top:14px}
+  .flow-note b{color:var(--gold)}
+
+  /* Phases */
+  .phase{display:flex;gap:18px;padding:18px 0;border-top:1px solid rgba(255,255,255,0.07)}
+  .phase:first-child{border-top:none}
+  .phase .tag{flex:0 0 130px;font-size:13px;font-weight:800;color:var(--gold);letter-spacing:0.04em;padding-top:2px}
+  .phase .body h4{font-size:17px;font-weight:700;margin-bottom:4px}
+  .phase .body p{font-size:14.5px;color:var(--muted)}
+  .phase .body .meta{display:inline-block;margin-top:7px;font-size:12.5px;font-weight:700;color:var(--ink);background:rgba(201,162,39,0.14);border:1px solid var(--line);padding:3px 10px;border-radius:20px}
+
+  /* Money list */
+  .money{counter-reset:m}
+  .money li{list-style:none;display:flex;gap:16px;padding:14px 0;border-top:1px solid rgba(255,255,255,0.07)}
+  .money li:first-child{border-top:none}
+  .money li::before{counter-increment:m;content:counter(m);flex:0 0 34px;height:34px;display:grid;place-items:center;background:var(--gold);color:#1a1204;font-weight:800;border-radius:50%;font-size:15px}
+  .money .mt{font-size:16px;font-weight:700}
+  .money .md{font-size:14px;color:var(--muted)}
+  .money .best{color:var(--gold);font-weight:700}
+
+  /* Islands */
+  .islands{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .isl{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .isl .name{font-size:16px;font-weight:800;color:var(--gold)}
+  .isl .role{font-size:13.5px;color:var(--muted);margin-top:5px}
+
+  /* Decisions */
+  .dec li{list-style:none;padding:12px 0;border-top:1px solid rgba(255,255,255,0.07);font-size:15px}
+  .dec li:first-child{border-top:none}
+  .dec b{color:var(--gold)}
+  .dec span{color:var(--muted)}
+
+  /* Commands */
+  .cmds{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .cmd{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+  .cmd.wide{grid-column:1 / -1}
+  .cmd-name{display:inline-block;font-family:"Consolas","SF Mono",ui-monospace,monospace;font-size:15px;font-weight:700;color:#1a1204;background:var(--gold);padding:4px 12px;border-radius:8px;letter-spacing:.01em}
+  .cmd-what{font-size:15px;font-weight:600;color:var(--ink);margin:12px 0 8px}
+  .cmd ul{margin:0;padding-left:18px}
+  .cmd li{font-size:13.5px;color:var(--muted);margin:4px 0}
+  .cmd li b{color:var(--ink);font-weight:600}
+  .cmd-flow{text-align:center;color:var(--muted);font-size:14.5px;margin-top:18px;padding:14px;background:var(--graphite-2);border:1px solid var(--line);border-radius:12px}
+  .cmd-flow b{color:var(--gold)}
+
+  /* POV */
+  .pov{background:linear-gradient(180deg,#1c2530,#151c24);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:14px;padding:26px 28px;margin-top:26px}
+  .pov .lbl{font-size:12px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+  .pov p{font-size:17px;line-height:1.6}
+  .pov .quote{color:var(--gold);font-weight:600;font-style:italic}
+
+  footer{margin-top:54px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.08);display:flex;justify-content:space-between;color:var(--muted);font-size:12.5px;letter-spacing:0.02em}
+
+  @media (max-width:820px){
+    body{padding:36px 20px}
+    h1{font-size:38px}
+    .g3,.g2,.islands{grid-template-columns:1fr}
+    .phase{flex-direction:column;gap:6px}
+    .phase .tag{flex-basis:auto}
+    .sec-sub{display:none}
+  }
+  @media print{
+    body{padding:0}
+    section{break-inside:avoid}
+    .pov,.card,.flow,.isl{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="wordmark">🦁 &nbsp;Gilberto Sena</div>
+  <div class="kicker">One Person Business · Mapa Estratégico</div>
+  <h1>Uma pessoa. <span>Uma máquina de autoridade.</span></h1>
+  <p class="lede">One Person Business não é trabalhar sozinho — é <b>operar sozinho uma máquina que normalmente exige um time inteiro</b>, porque a IA faz o trabalho de estrategista, copywriter, roteirista e designer. Você entra com o que nenhuma IA tem: <b>autoridade, rede e voz.</b></p>
+  <div class="rule"></div>
+
+  <section>
+    <div class="sec-h"><span class="sec-n">01</span><span class="sec-t">O ativo que você já tem</span><span class="sec-sub">99% não têm isso</span></div>
+    <div class="grid g3">
+      <div class="card"><h3><span class="dot">◆</span> Autoridade real</h3><p>Tributário, contábil, a reforma. <b>Não é teoria</b> — é quase 10 anos e 6 escritórios.</p></div>
+      <div class="card"><h3><span class="dot">◆</span> No ambiente certo</h3><p>Circula nos mesmos círculos dos grandes nomes do empreendedorismo. <b>Está na roda, não de fora.</b></p></div>
+      <div class="card"><h3><span class="dot">◆</span> Voz única</h3><p>Sabedoria de vida, filosofia, Bíblia. <b>O que te separa de "mais um contador".</b></p></div>
+    </div>
+    <p class="lede" style="margin-top:18px;font-size:16px">Você <b>não começa do zero.</b> Um criador leva anos pra ter autoridade. Você já tem — offline. Falta só o digital alcançar o que você já é.</p>
+  </section>
+
+  <section>
+    <div class="sec-h"><span class="sec-n">02</span><span class="sec-t">O motor — gira todo dia</span></div>
+    <div class="flow">
+      <div class="node">Seu conhecimento</div><span class="arrow">→</span>
+      <div class="node gold">Conteúdo · IA</div><span class="arrow">→</span>
+      <div class="node">Audiência</div><span class="arrow">→</span>
+      <div class="node">Autoridade digital</div><span class="arrow">→</span>
+      <div class="node">Monetização</div>
+    </div>
+    <p class="flow-note">O OPB vive ou morre na <b>consistência</b>. A IA existe pra matar a desculpa: você nunca fica sem saber o que postar.</p>
+  </section>
+
+  <section>
+    <div class="sec-h"><span class="sec-n">03</span><span class="sec-t">O caminho em 3 fases</span></div>
+    <div class="phase"><div class="tag">FASE 1<br>0–90 dias</div><div class="body"><h4>Posicionar e aparecer</h4><p>Cravar a categoria e o ângulo, postar consistente, construir o hábito.</p><span class="meta">Meta: presença, não venda</span></div></div>
+    <div class="phase"><div class="tag">FASE 2</div><div class="body"><h4>Autoridade e audiência</h4><p>Surfar a <b style="color:var(--ink)">reforma tributária</b> — o cavalo perfeito: tema quente, empresário assustado, e você domina. Montar lista / WhatsApp.</p><span class="meta">Meta: virar referência reconhecida</span></div></div>
+    <div class="phase"><div class="tag">FASE 3</div><div class="body"><h4>Monetizar</h4><p>Ativar as ofertas — com autoridade já construída, a venda vira consequência.</p><span class="meta">Meta: primeira receita da marca pessoal</span></div></div>
+  </section>
+
+  <section>
+    <div class="sec-h"><span class="sec-n">04</span><span class="sec-t">Onde entra o dinheiro</span><span class="sec-sub">prioridade recomendada</span></div>
+    <ul class="money">
+      <li><div><div class="mt">Mentoria / consultoria premium <span class="best">← começar por aqui</span></div><div class="md">1-a-1 ou grupo. Dinheiro rápido, alto ticket, quase sem produto pra construir. A autoridade pra cobrar caro já existe.</div></div></li>
+      <li><div><div class="mt">Canal de aquisição pro Grupo Sena</div><div class="md">A presença digital vira funil pros 6 escritórios. Amplifica o que já fatura.</div></div></li>
+      <li><div><div class="mt">Amplificar o SenaOS (o SaaS)</div><div class="md">Sua autoridade ajuda a distribuir o produto de vocês.</div></div></li>
+      <li><div><div class="mt">Infoproduto / imersão sobre a reforma</div><div class="md">Quando a audiência existir. É a ponta de escala.</div></div></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-h"><span class="sec-n">05</span><span class="sec-t">As 3 ilhas — separadas, mas se retroalimentam</span></div>
+    <div class="islands">
+      <div class="isl"><div class="name">GilbertoOS</div><div class="role">A marca pessoal — o motor de conteúdo</div></div>
+      <div class="isl"><div class="name">Grupo Sena</div><div class="role">O serviço que a marca alimenta</div></div>
+      <div class="isl"><div class="name">SenaOS</div><div class="role">O SaaS que a autoridade impulsiona</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-h"><span class="sec-n">06</span><span class="sec-t">O que decidir na reunião</span></div>
+    <ul class="dec">
+      <li><b>Categoria —</b> <span>qual espaço cravar? Proposta: <i>o tributarista-filósofo dos empreendedores em escala</i> — traduz imposto pra quem fatura, com sabedoria.</span></li>
+      <li><b>Cara ou não —</b> <span>topa reels? Frequência sustentável (3x/semana pra sempre &gt; 7x e parar).</span></li>
+      <li><b>Primeira oferta —</b> <span>mentoria própria ou abastecer o Grupo Sena? Qual vem primeiro?</span></li>
+      <li><b>Meta de 90 dias —</b> <span>presença? nº de seguidores qualificados? primeira turma de mentoria?</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-h"><span class="sec-n">07</span><span class="sec-t">Os 5 comandos — como funciona na prática</span><span class="sec-sub">é só falar por voz</span></div>
+    <div class="cmds">
+
+      <div class="cmd wide">
+        <span class="cmd-name">/conversar</span>
+        <div class="cmd-what">O segundo cérebro — o mais importante.</div>
+        <ul>
+          <li>Você joga uma ideia; ele <b>debate de igual pra igual</b>, provoca e organiza o raciocínio. Se a ideia for fraca, ele fala.</li>
+          <li>Consulta a sua biblioteca antes de opinar sobre técnica — e <b>nunca inventa</b>: se falta base, pergunta.</li>
+          <li>Sempre fecha com um próximo passo ("isso vira carrossel, quero montar?") e vai <b>aprendendo o seu jeito de pensar</b>.</li>
+        </ul>
+      </div>
+
+      <div class="cmd">
+        <span class="cmd-name">/ideias</span>
+        <div class="cmd-what">O que postar.</div>
+        <ul>
+          <li>Cospe <b>8–12 pautas prontas</b>, cada uma já apontando se é carrossel ou reels.</li>
+          <li>Puxa do momento (a <b>reforma</b>), das suas opiniões e histórias — nada de pauta genérica.</li>
+          <li>No fim: "transformo alguma agora? Aponta o número."</li>
+        </ul>
+      </div>
+
+      <div class="cmd">
+        <span class="cmd-name">/carrossel</span>
+        <div class="cmd-what">O post de imagens pronto.</div>
+        <ul>
+          <li>Vira um tema em <b>slides + legenda</b> prontos pro Instagram.</li>
+          <li>Escreve na sua voz e <b>mostra pra aprovar antes</b> de gerar o visual.</li>
+          <li>Visual de autoridade (grafite + dourado), sem cara de coach. Não inventa número.</li>
+        </ul>
+      </div>
+
+      <div class="cmd">
+        <span class="cmd-name">/reels</span>
+        <div class="cmd-what">O roteiro pra gravar.</div>
+        <ul>
+          <li>Roteiro em blocos: <b>gancho → desenvolvimento → virada → CTA</b>, com o tempo marcado.</li>
+          <li>Dá 2–3 opções de gancho (o gancho é 80% do jogo).</li>
+          <li>Escrito como você <b>fala</b>, não como escreve. Vem com texto de tela e legenda.</li>
+        </ul>
+      </div>
+
+      <div class="cmd">
+        <span class="cmd-name">/salvar</span>
+        <div class="cmd-what">Guardar e sincronizar.</div>
+        <ul>
+          <li>Guarda tudo e deixa <b>igual no notebook e no celular</b>.</li>
+          <li><b>Puxa antes de subir</b> — o insight do celular chega no computador.</li>
+          <li>Na maioria das vezes <b>salva sozinho</b> ao fim; falar "salvar" é só garantia.</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="cmd-flow"><b>/conversar</b> e <b>/ideias</b> geram a matéria-prima &nbsp;→&nbsp; <b>/carrossel</b> e <b>/reels</b> viram conteúdo &nbsp;→&nbsp; <b>/salvar</b> guarda e espalha. Regra de todos: o agente só fala o que você já falou — escala, não inventa.</div>
+  </section>
+
+  <div class="pov">
+    <div class="lbl">O ponto de vista</div>
+    <p>O maior risco não é conteúdo ruim — é <b>sumir depois de duas semanas.</b> OPB é jogo de consistência. Toda a arquitetura serve a uma coisa: tirar o atrito pra você não parar.</p>
+    <p class="quote" style="margin-top:12px">"Você não pensa no que postar, não escreve, não desenha. Você só fala. O resto é comigo."</p>
+  </div>
+
+  <footer>
+    <span>GilbertoOS · Mapa do One Person Business</span>
+    <span>Forge × Gilberto Sena</span>
+  </footer>
+
+</div>
+</body>
+</html>

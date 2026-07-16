@@ -1,0 +1,3671 @@
+
+
+-- 1 of 96 --
+
+
+
+-- 2 of 96 --
+
+
+
+-- 3 of 96 --
+
+Mário Gaudêncio, Me.
+Walter Martins Rodrigues, Dr.
+Francisco Franciné Maia Júnior, Dr.
+Rafael Castelo Guedes Martins, Me.
+Keina Cristina S. Sousa, Me.
+Antonio Ronaldo Gomes Garcia, Dr.
+Auristela Crisanto da Cunha, Dr.
+Janilson Pinheiro de Assis, Dr.
+Luís Cesar de Aquino Lemos Filho, Dr.
+Rodrigo Silva da Costa, Dr.
+Valquíria Melo Souza Correia, Me.
+Conselho Editorial da EdUFERSA
+
+-- 4 of 96 --
+
+http://nead.ufersa.edu.br/
+Governo Federal
+Ministro de Educação
+José Henrique Paim
+Universidade Aberta do Brasil
+Responsável pela Diretoria da Educação a Distância
+João Carlos Teatini de Souza Clímaco
+Universidade Federal Rural do Semi-Árido
+Reitor
+José de Arimatea de Matos
+Pró-Reitor de Graduação
+Augusto Carlos Pavão
+Núcleo de Educação a Distância
+Coordenadora UAB
+Kátia Cilene da Silva
+© 2014 by NEaD/UFERSA - Todos os direitos reservados. Nenhuma parte desta publicação poderá ser reproduzida
+ou transmitida de qualquer modo ou por qualquer outro meio, eletrônico ou mecânico, incluindo fotocópia, gravação
+ou qualquer outro tipo de sistema de armazenamento e transmissão de informação, sem prévia autorização, por escrito,
+do NEaD/UFERSA. O conteúdo da obra é de exclusiva responsabilidade dos autores.
+Biblioteca Central Orlando Teixeira – BCOT/UFERSA
+Setor de Informação e Referência – Ficha Catalográfica
+Bibliotecário-Documentalista
+Mário Gaudêncio, M.Sc. (CRB-15/476)
+M141m Macêdo, Álvaro Fabiano Pereira de.
+Matemática financeira / Álvaro Fabiano Pereira de
+Macêdo. – Mossoró : EdUFERSA, 2014.
+96 p. : il.
+ISBN: 978-85-63145-59-8
+1. Matemática financeira. 2. Matemática. I. Título.
+RN/UFERSA/BCOT 	CDD: 650.01513
+Equipe multidisciplinar
+Antônio Charleskson Lopes Pinheiro – Diretor de
+Produção de Material Didático
+Ulisses de Melo Furtado – Designer Instrucional
+Celeneh Rocha de Castro – Diretora de Formação Continuada
+Thiago Henrique Freire de Oliveira – Gerente de Rede
+Adriana Mara Guimarães de Farias – Programadora
+Camilla Moreira Uchoa – Webdesigner
+Ramon Ribeiro Vitorino Rodrigues - Diretor de Arte
+Alberto de Oliveira Lima – Diagramador
+José Antonio da Silva - Diagramador
+Frediano Araújo de Sousa – Ilustrador
+Mikael Oliveira de Meneses – Produção de E-Books
+Arte da capa
+Felipe de Araújo Alves
+Equipe administrativa
+Rafaela Cristina Alves de Freitas – Assistente em Administração
+Iriane Teresa de Araújo – Responsável pelo fomento
+Bruno Layson Ferreira Leão – Estagiário
+Equipe de apoio
+Márcio Vinicius Barreto da Silva – Revisão Linguística
+Nayra Maria da Costa Lima – Revisão Didática
+Iriane Teresa de Araújo – Revisão Conceitual
+Lauro Cesar Bezerra Nogueira – Revisão Conceitual
+Serviços técnicos especializados
+Life Tecnologia e Consultoria
+Edição
+EDUFERSA
+Impressão
+Imprima Soluções Gráfica Ltda/ME
+
+-- 5 of 96 --
+
+APRESENTAÇÃO DA DISCIPLINA
+O conteúdo apresentado nesse curso tem por objetivo levá-lo a solucionar pro-
+blemas do cotidiano como por exemplo a melhor forma de comprar à vista ou a pra-
+zo? Ou ainda de vender um bem à vista ou a prazo? Como otimizar o uso dos seus
+recursos (gastar da melhor forma possível). No momento de contrair uma dívida,
+analisar as melhores alternativas disponíveis. Enfim qualquer questão que envolva
+dinheiro e o seu melhor uso é observada na Matemática Financeira.
+Você já parou para pensar que a todo instante estamos decidindo o que fazer e
+que a maioria dessas decisões envolve recursos, então utilizá-los da melhor forma
+pode contribuir com o desenvolvimento pessoal, profissional e empresarial. Se em
+algum momento da sua vida você ficou em dúvida em comprar à vista ou a prazo,
+ou quanto ao valor pago pelo empréstimo, é porque a Matemática Financeira é im-
+portante na sua vida.
+Provavelmente você conhece pessoas que estão em dificuldade financeira ou
+devem muito e pensam "não sei cadê meu dinheiro", "não sobra pra nada". Esstas
+frases são citadas no dia-a-dia por todos. Mas será que realmente falta dinheiro ou
+nossa forma de planejamento está errada? Nossas decisões interferem diretamente
+no resultado do cotidiano.
+Segundo os autores Mathias e Gomes independentemente dos recursos tecno-
+lógicos disponíveis hoje, aprender Matemática Financeira somente é possível com
+esforço e muito treino, sem nenhum tipo de atalho, seguindo sempre 	o passo a
+passo. Assim quanto mais o aluno dominar seus conceitos obterá melhor proveito
+do conteúdo.
+O lado bom de estudar Matemática Financeira é porque vivemos e aplicamos os
+conceitos no nosso dia-a-dia, o que facilita nosso aprendizado.
+Assim, faça um bom uso desse material para aprimorar e adquirir conhecimento
+sobre o mundo das finanças que nos acompanha diariamente.
+
+-- 6 of 96 --
+
+SOBRE O AUTOR
+Alvaro Fabiano Pereira de Macêdo, possui graduação em Ciências Contábeis
+pela Universidade Estadual da Paraíba (2003) e mestrado em Ciências Contá-
+beis pela Universidade de Brasília (2005). Doutorando em Administração pela
+PUC-PR. Atualmente é professor assistente dedicação exclusiva da Universida-
+de Federal Rural do Semi-Árido. Tem experiência na área de Administração,
+com ênfase em Teoria da Contabilidade e Finanças, atuando principalmente
+nos seguintes temas: Finanças Comportamentais, Tomada de Decisão, Teoria
+da Contabilidade, Finanças Corporativas, Tomada de Decisão e Informações
+Contabeis para usuários externos.
+
+-- 7 of 96 --
+
+SUMÁRIO
+UNIDADE I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+CONCEITOS ESSENCIAIS DE JUROS SIMPLES E COMPOSTOS 	13
+JUROS SIMPLES 	17
+• 	Conceito de Juro(s) 	17
+• 	Taxa de juros 	17
+• 	Cálculo do juro 	19
+• 	Cálculo do montante 	20
+• 	Taxa proporcional 	21
+• 	Taxa equivalente 	21
+• 	Períodos não-inteiros 	22
+• 	Juro exato e juro comercial 	22
+• 	Valor nominal, atual e valor futuro 	23
+• 	Descontos 	24
+• 	Juros Compostos 	32
+• 	Conceito de Juros Compostos 	33
+• 	Cálculo do juro 	34
+• 	Taxas equivalentes 	35
+• 	Períodos não-inteiros 	37
+• 	Taxa efetiva 	38
+• 	Relação entre taxa efetiva e taxa nominal 	39
+• 	Equivalência de capitais 	44
+• 	Conceitos essenciais 	44
+• 	Capitais equivalentes 	44
+• 	Valor atual de um conjunto de capitais 	45
+• 	Conjunto equivalente de capitais 	46
+
+-- 8 of 96 --
+
+UNIDADE II - RENDAS CERTAS OU ANUIDADES
+RENDAS CERTAS OU ANUIDADES 	55
+• 	Definições 	56
+• 	Classificação das anuidades 	56
+• 	Modelo básico de anuidade (adotaremos este modelo em nosso curso) 	57
+• 	Valor atual do modelo básico 	58
+• 	Montante do modelo básico 	61
+UNIDADE III - SISTEMA DE AMORTIZAÇÃO DE EMPRÉSTIMOS
+EMPRÉSTIMOS 	69
+• 	Alguns termos utilizados para facilitar a
+compreensão de conceitos utilizados 	70
+• 	Sistemas de amortização de empréstimos 	70
+• 	Sistema de Amortização Constante (SAC) 	71
+• 	SAC com prazo de carência, pagamento de juros durante a
+carência e prazo de utilização unitário 	72
+• 	SAC com prazo de carência, capitalização dos juros
+e prazo de utilização unitário 	73
+• 	SAC com prazo de carência, capitalização dos juros
+e prazo de utilização não unitário 	74
+• 	Sistema de amortização francês (Price) 	75
+• 	Efeitos financeiros da inflação 	85
+• 	Referências 	91
+
+-- 9 of 96 --
+
+
+
+-- 10 of 96 --
+
+I CAPITALIZAÇÃO SIMPLES
+E COMPOSTA
+Seja bem-vindo à nossa primeira unidade!
+Nas aulas 1 e 2, vamos estudar um pouco sobre juros simples e com-
+postos, termos que serão utilizados durante todo o nosso curso e servem
+de base para toda operação relacionada à Matemática Financeira.
+Operações financeiras em grande parte baseiam-se em duas formas de
+capitalização: simples e composta. A taxa básica de juros da economia re-
+presenta o custo básico do dinheiro da economia. Quanto maior a taxa,
+maior será o custo do dinheiro, tanto para o consumidor quanto para as em-
+presas. A contrapartida está na remuneração das aplicações, que também
+se eleva e pode desestimular o consumo e os investimentos na produção.
+O aspecto principal da matemática Financeira reside no fato de sem-
+pre estarmos verificando a situação do dinheiro no tempo, ou seja, o tem-
+po é um fator essencial para o dinheiro.
+Finalmente, o aspecto mais relevante desta seção será destacar a me-
+lhor alternativa financeira, tanto para quem empresta quanto para quem
+toma o capital emprestado, a fim de que a transação seja mais lucrativa
+ou menos onerosa.
+Objetivos:
+• 	Apresentar os principais conceitos utilizados no estudo da Mate-
+mática Financeira;
+• Conhecer a nomenclatura utilizada na Matemática Financeira
+• Conceituar juros e analisar sua função dentro de operações financeiras;
+• Apresentar a diferença entre juros simples e compostos;
+• Distinguir os diferentes regimes de capitalização.
+• Conceituar juros compostos e analisar sua função dentro de opera-
+ções financeiras;
+• Apresentar a diferença entre juros simples e compostos.
+• Distinguir equivalência de capitais nas operações financeiras;
+• Conhecer os conceitos fundamentais da equivalência de capitais;
+• Verificar as possibilidades de aplicação da equivalência de capitais.
+
+-- 11 of 96 --
+
+
+
+-- 12 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+13
+Conceitos essenciais de juros
+simples e compostos UN 01
+A disciplina Matemática Financeira é um ramo que estuda as alterações do valor do dinheiro com o pas-
+sar do tempo, assim como apresenta diver-
+sos mecanismos que permitem avaliar como
+essas alterações ocorrem com o passar do
+tempo. Possui linguagem própria, que possi-
+bilita a leitura e interpretação pelo olhar das
+finanças. Deste modo, alguns conceitos são
+fundamentais para esta leitura na ótica das
+finanças.
+Entender Matemática Financeira é entender
+como funciona o mundo do dinheiro, as tran-
+sações de compra e venda, empréstimo, pres-
+tações, juros, dívidas e todas as operações
+que envolvem dinheiro. O intuito principal é
+analisar o valor do dinheiro no tempo, pois
+R$ 1.000,00 hoje não terá o mesmo poder de
+compra que R$ 1.000,00 daqui a 1 ano e vice-
+-versa, assim descobrir como e porque o valor do dinheiro muda ao longo do tempo é o objetivo princi-
+pal da Matemática Financeira.
+E para aprendermos o conteúdo da Matemática Financeira alguns conceitos são essenciais, sem os
+quais não é possível ler e aprender sobre o tema. Segue alguns destes conceitos:
+AGENTE ECONÔMICO
+É uma pessoa física ou jurídica que pratica um evento financeiro, como uma compra, venda ou empréstimo
+que possua consequências financeiras. Como exemplo, podemos citar quando você vai ao supermercado e
+faz compras: você está realizando um evento financeiro.
+CAPITAL (C), CAPITAL INICIAL (C0) OU PRINCIPAL (P)
+É o valor disponível representado por moeda (dinheiro) ou outro bem que uma pessoa ou uma empresa
+possui, como uma máquina, mercadorias, um imóvel; enfim, tudo que pode ser convertido em dinheiro.
+Este capital permite que aconteçam as trocas entre bens, possibilitando os eventos financeiros.
+OPERAÇÃO FINANCEIRA
+É a transferência de capital entre quem possui capital (o credor) e quem necessita desse capital
+(o tomador), desde que estabelecidas as condições necessárias para a realização da operação. Tais
+condições estabelecem: valor da operação, prazo, taxa de juros contratada, garantias por parte do
+tomador, etc.
+Não tenha
+medo! ele só
+vai arrancar
+um braço.
+Banco de Dados/NEaD
+
+-- 13 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+14
+JURO (J)
+É o valor remunerado (pago) ao capital acordado entre as partes, o tomador e o credor em uma operação
+financeira.
+MONTANTE (M) ou (Cn)
+Podemos conceituar montante como a soma do capital (C) mais os juros (J) de uma operação financeira.
+VALOR PRESENTE (VP)
+É o valor de uma operação financeira hoje. É um valor intermediário entre o montante (M) e o capital (C).
+VALOR FUTURO (VF ou FV)
+É o valor de um recurso ou operação em uma data futura. Por vezes, é citado como sinônimo de montante.
+TAXA DE JUROS
+A taxa de juros é a relação entre o capital emprestado e o juro devido.
+DATA FOCAL
+É a data a ser considerada como base de comparação de valores referidos a datas diferentes, é conhecida
+também como data de avaliação ou data de referência.
+EQUAÇÃO DE VALOR
+É a equação que possibilita realizar a igualdade de capitais diferentes, em períodos diferentes, trazidos
+para uma mesma data focal com taxa de juros fixada.
+CUSTO DE OPORTUNIDADE DO CAPITAL
+Representa a ação de você abrir mão de uma decisão por outra, como por exemplo, deixar o dinheiro na
+poupança ou investir em uma renda fixa.
+FLUXO DE CAPITAIS
+Representa um deslocamento do capital (dinheiro), ou seja, é o movimento do dinheiro. Geralmente quan-
+do falamos deste tema nos referimos aos recursos que circulam em âmbito de países como o fluxo de
+capital entre os países em desenvolvimento principalmente os pertencentes aos BRIC'S que são: Brasil,
+Rússia, Índia, China e África do Sul.
+ANUIDADES OU RENDAS CERTAS
+São pagamentos ou recebimentos feitos ao longo do tempo.
+AMORTIZAÇÃO
+É o processo de pagamento de uma dívida.
+CAPITALIZAÇÃO
+É o processo de constituição de um capital futuro.
+TERMOS OU PARCELAS
+Representam os valores que devem ser pagos ou recebidos ao longo do tempo.
+PERÍODO
+Representa o intervalo de tempo existente entre dois termos consecutivos.
+PRAZO
+É o tempo de duração da renda.
+CREDOR
+Pessoa ou instituição que fornece o empréstimo.
+DEVEDOR
+Pessoa ou instituição que recebe o empréstimo.
+ENCARGOS FINANCEIROS
+Custo da operação (juros) para o devedor que retorna para o credor.
+
+-- 14 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+15
+AMORTIZAÇÃO
+Pagamento do principal (capital emprestado), geralmente por meio de parcelas periódicas.
+IOF
+Imposto sobre Operações Financeiras.
+SALDO DEVEDOR
+Valor da dívida em um determinado momento, depois de deduzido o valor já pago ao credor a título de
+amortização.
+PRESTAÇÃO
+É composta pela soma do valor da amortização mais os encargos financeiros devidos em determinado
+período.
+CARÊNCIA
+É o período concedido ao credor para início do pagamento do principal. Pode também ser utilizada para
+postergar o início do pagamento dos juros.
+Antes de seguir ao próximo tópico veja as seguintes questões, se tiver dúvida em responder
+alguns dos conceitos faça uma releitura do material e apenas em seguida continue. Se não tiver
+dúvida siga em frente.
+1. 	Defina juros capital
+2. 	Defina juros
+3. 	Defina operação financeira
+RECOMENDAÇÕES
+LINKS DA INTERNET
+SUGESTÕES DE LEITURA
+1. www.financasforever.com.br;
+2. www.somatematica.com.br;
+3.www.bcb.gov.br;
+4.www.concurseirosdeelite.blogspot.com.br/
+2012/02/download-matematica-financeira-para.html
+1. Capítulo 1 do livro Matemática Financeira e suas
+aplicações de Assaf Neto (2012).
+2.Capítulo 	1 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes.
+TÓPICOS ADICIONAIS 	ONDE ENCONTRAR / O QUE FAZER
+
+-- 15 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+16
+É comum questionarmos por que se cobra uma taxa de juros tão elevada nas operações
+financeiras. A composição da taxa de juros leva em conta que o possuidor do dinheiro, ao se
+dispor a emprestar seu patrimônio, está atento para os seguintes fatores:
+• Nem sempre o tomador do empréstimo paga sua dívida ao possuidor do dinheiro (risco de
+crédito);
+• É possível que o tomador do empréstimo atrase o pagamento da sua dívida (risco de liquidez);
+• O possuidor do dinheiro deseja ter lucro ao emprestar seu patrimônio;
+• O possuidor do dinheiro precisa precaver-se quanto a uma possível desvalorização do capital
+ao longo do tempo;
+• Todo empréstimo implica despesas operacionais, contratuais e tributárias tais como impostos;
+• Existe a possibilidade de perdas em função do risco-país; e
+• Há a possibilidade do não-retorno do investimento em função de problemas operacionais da
+instituição onde os recursos foram aplicados.
+Extraído da obra de Castanheira e Macedo (2008)
+SAIBA MAIS
+POR QUE SE COBRA JURO?
+EXERCÍCIO PROPOSTO
+Faça as palavras cruzadas abaixo com perguntas ligadas ao nosso conteúdo
+1. Pagamentos feitos ao longo do tempo.
+2. Valor disponível representado por moeda
+(dinheiro).
+3. Valor de remuneração ao capital.
+4. É a soma do capital mais os juros.
+5. Pessoa ou instituição que empresta dinheiro.
+6. Quem toma ou recebe dinheiro emprestado.
+7. Quem deve e não paga fica.
+8. Parte dos recursos guardados por uma pessoa.
+9. Aumento de preço de um produto é chamado.
+10. Período concedido ao credor para o início
+do pagamento.
+D 	I 	J 	X 	C 	C 	V 	B 	N 	M 	J 	K 	J 	L 	Q
+A 	N 	U 	I 	D 	A 	D 	E 	C 	F 	H 	G 	T 	A 	W
+X 	F 	R 	S 	E 	R 	U 	I 	R 	Y 	F 	C 	V 	S 	E
+C 	L 	O 	A 	V 	E 	Q 	P 	E 	D 	E 	F 	E 	D 	R
+A 	A 	B 	U 	E 	N 	L 	O 	D 	P 	L 	N 	T 	E 	P
+P 	Ç 	N 	U 	D 	C 	Ç 	P 	O 	U 	P 	A 	N 	C 	A
+I 	A 	M 	M 	O 	I 	P 	I 	R 	B 	O 	M 	C 	R 	T
+T 	O 	R 	T 	R 	A 	M 	I 	R 	A 	T 	O 	S 	T 	Y
+A 	A 	A 	X 	B 	N 	N 	M 	B 	V 	C 	U 	R 	V 	I
+L 	C 	M 	O 	N 	T 	A 	N 	T 	E 	A 	S 	D 	C 	U
+H 	F 	D 	S 	E 	R 	T 	Q 	A 	D 	R 	I 	O 	P 	O
+I 	N 	A 	D 	I 	M 	P 	L 	E 	N 	T 	E 	B 	C 	V
+
+-- 16 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+17
+Conceito de Juro(s)
+Taxa de juros
+O termo juro (s) vem de uma premissa básica da economia que diz que os re-
+cursos são escassos. Voltando um pouco ao passado, na época do escambo tí-
+nhamos a troca de bens entre indivíduos que não possuíam uma moeda. Foi a
+partir da invenção da moeda que as trocas entre bens ficaram mais bem evi-
+denciadas ou compreensíveis. A moeda trouxe outro avanço importante: a pos-
+sibilidade de ao invés de trocar bens por outros, trocá-los por dinheiro.
+Mathias e Gomes (2013) definem juro como o custo do crédito ou a remunera-
+ção de uma aplicação; é o pagamento pela utilização do poder aquisitivo duran-
+te um período de tempo. Logo, quem toma dinheiro emprestado pagará juros
+e quem empresta receberá juros. Mathias e Gomes (2013) acrescentam ainda
+que as pessoas têm pref erência temporal em consumir ao invés de poupar.
+Assim temos a seguinte fórmula para calcular os juros:
+J = C x i x n
+Onde:
+J = juro
+C = capital
+i = taxa de juros
+n = prazo de aplicação
+Juros simples UN 01
+Segundo Mathias e Gomes (2013), a Taxa de Juros é determinada por meio de um coeficiente referido a um
+intervalo de tempo. Este coeficiente corresponde à remuneração do capital empregado por um prazo igual
+àquele da taxa. A taxa de juros é a relação entre o capital emprestado e o juro devido.
+Portanto, conclui-se que taxa de juros é a razão entre os juros (J) e o principal (P) ou capital (C). Simbolica-
+mente, representamos o juro pela letra "i", onde
+Onde,
+i = corresponde à taxa de juros;
+J = representa o juro; e
+P = é o valor principal ou presente.
+A taxa de juros pode ser apresentada de duas formas, a saber:
+Em termos percentuais, a mais utilizada em nosso cotidiano, representa o valor pago a cada cem unidades
+financeiras na unidade de tempo. É o que se obtém depois de dividir o capital por 100.
+J
+i= P
+Banco de Dados/NEaD
+
+-- 17 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+18
+EXERCÍCIO RESOLVIDO
+1 - Um indivíduo tomou R$ 100.000,00 emprestados no banco e pagou R$ 140.000,00 após um ano.
+Pergunta-se:
+a) Quanto foi o juro pago?
+b) Qual foi a taxa de juros aplicada nessa operação?
+Sabemos que o juro é a diferença entre o que tomamos emprestado e o que pagamos. Assim, temos: R$
+140.000,00 - R$ 100.000,00 = R$ 40.000,00
+Temos que encontrar a razão entre o valor pago referente aos juros e o valor do capital. Logo, temos:
+Ou em termos percentuais = 	que é igual a 20% a.a.
+Exemplo: Qual o juro pago em um empréstimo de R$ 1.000,00 aplicado por dois anos a taxa de 5% ao ano?
+Resolução:
+O primeiro passo é transformar a taxa que está em percentual (5%) para taxa unitária, logo teremos
+5% = 	= 0,05
+Assim temos: Juro = 1.000,00 x 0,05 x 2 	R$ 10,00 x 5 x 2 = R$ 100,00
+Logo, R$ 100,00 é o juro pago pelo empréstimo em dois anos.
+Em termos unitários, é o valor cobrado ou pago por uma unidade financeira na unidade de tempo.
+Para transformar de percentual para unitária, basta dividir por 100 e de unitária para percentual multipli-
+car por 100.
+40.000,00
+Taxa de juros= 	=0,20
+200.000,00
+20
+100
+5
+100
+Forma percentual 	Transformação 	Forma unitária
+15% a.a. 	15
+100
+0,15 a.a.
+10% a.s. 	10
+100
+0,10 a.s.
+3% a.t. 	3
+100
+0,03 a.t.
+1% a.m. 	1
+100
+0,01 a.m.
+Então, sempre que estivermos calculando juros temos que realizar as transformações necessárias.
+
+-- 18 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+19
+Cálculo do juro
+Quando trabalhamos com juros simples, a remuneração do capital (principal) é diretamente proporcional
+ao seu valor e ao tempo de aplicação. A fórmula básica para o cálculo é:
+J = C x i x n
+Onde:
+J = juro;
+C = capital inicial ou principal;
+i = taxa de juros (unitária);
+n = prazo de aplicação.
+Exemplo: Admita um empréstimo de R$ 2.000,00 em um prazo de dois anos e com taxa de 10% a.a. Qual
+o valor pago como juro?
+Resolução: Capital inicial (C) = R$ 2.000,00
+Taxa de juros (i) = 10% a.a.
+Número de períodos (n) = 2 anos
+Desta forma, temos: J=C×i×n. Logo, J = 2.000,00 x 0,10 x 2 = R$ 400,00
+A fórmula básica de juros pode ser descrita de forma algébrica da seguinte forma
+J = C.i.n
+i = J
+C.n
+n = J
+C.i
+C = J
+in
+Em Matemática Financeira com 03 elementos da fórmula podemos obter o quarto elemento que falta,
+então geralmente o elemento faltante é o que queremos determinar.
+
+-- 19 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+20
+Cálculo do montante
+Como vimos anteriormente, o montante é a soma do capital com os juros. Logo, temos a fórmula M = C +
+J. Como vimos que J = C x i x n, podemos derivar a fórmula de montante para M = C + Cin. Desta maneira,
+temos que:
+M = C (1+ i n).
+Exemplo: Admita um empréstimo de R$ 2.000,00 em um prazo de dois anos e com uma taxa de 10% a.a.
+Qual o montante após dois anos?
+Resolução: Capital inicial (C) = R$ 2.000,00
+Taxa de juros (i) = 10% a.a.;
+Número de períodos (n) = 2 anos;
+M = C (1+in);
+M = 2.000,000 (1+ 0,10 x 2) = R$ 2.400,00.
+Assim como no caso da fórmula dos juros, a fórmula do montante também apresenta derivações que per-
+mitem você encontrar um dos fatores que falta. Volto a repetir que esse fator geralmente é o que se per-
+gunta nas questões.
+M = C (1 + i.n)
+C = M
+1 + i.n
+-1
+C
+n =
+M
+i
+C
+i =
+M 	-1
+n
+
+-- 20 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+21
+Taxa proporcional
+Conforme Assaf Neto (2012) a compreensão destas taxas exige o reconhecimento de que toda operação
+envolve dois prazos a saber: (a) o prazo a que se refere a taxa de juros; e (b) o prazo de capitalização de
+ocorrência dos juros.
+Considere duas taxas de juros distintas i1 e i2 relacionadas a dois períodos também distintos n1 e n2. Di-
+zemos que essas taxas são proporcionais se o quociente das taxas e o quociente dos períodos forem iguais:
+Exemplo: Verifique se as taxas de 4% ao bimestre e 24% ao ano são proporcionais.
+Resolução:
+i1 = 4% a.b. = 0,04 a.b.
+i2 = 24% a.a = 0,24 a.a
+n1 = 2 meses
+n2 = 12 meses
+Assim: i1 = n1
+i2 	n2
+0,04 = 2
+0,24 	12
+Temos que são grandezas proporcionais, uma vez que o produto dos meios (0,24 x 2) é igual ao produto
+dos extremos (0,04 x 12). Conclui-se, portanto, que são taxas proporcionais.
+1 	1
+2 	2
+i 	n
+=
+i 	n
+Taxa equivalente
+Como saberemos se duas taxas são equivalentes? Aplicamos um mesmo capital às taxas em um mes-
+mo intervalo de tempo; se ambas produzirem o mesmo juro serão consideradas equivalentes. Sejam a
+taxa de juros i referente ao período 1 e im referente a fração 1/m teoricamente equivalentes. Quando
+trabalhamos com juros simples, taxas de juros proporcionais são equivalentes.
+Exemplo: Suponha um capital de R$ 20.000,00, aplicado de duas formas: 2% a.m. ou 24% a.a., acei-
+tando um prazo de três anos. Verifique se são equivalentes.
+Resolução:
+Aplicando a 2% a.m. em um prazo de três anos (36 meses), temos: J = 20.000,00 x 0,02 x 36 = R$
+14.400,00
+Agora aplicando a 24% a.a. em um prazo de três anos (36 meses), temos: J = 20.000,00 x 0,24 x 3 =
+R$ 14.400,00
+Logo, constata-se que o valor pago a título de juros é o mesmo para as duas operações.
+Concluímos, portanto, que 2% a.m. é equivalente a 24% a.a.
+
+-- 21 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+22
+Períodos não-inteiros
+Juro exato e juro comercial
+Podemos ter situações nas quais o prazo da aplicação (n) não é um número inteiro de período em rela-
+ção à taxa dada, sendo necessário levar em consideração as frações dos períodos. Nesses casos, temos
+dois passos a seguir: primeiramente calcula-se o juro da parte inteira do período. Em seguida, calcula-
+mos a taxa proporcional à fração de período restante e o juro correspondente. O somatório dos juros
+será o valor de juro pago nessa operação.
+Exemplo: Determine o juro de um capital de R$ 3.000,00, aplicado a uma taxa de 6% ao semestre em
+um prazo de três anos e nove meses?
+Resolução:
+Como são 3 anos e 9 meses temos 7 semestres (3 anos + 1 semestre + 3 meses).
+O 1º cálculo é determinar o juro do período inteiro: J1 = 3.000,00 x 0,06 x 7 = 1.260,00
+O 2º cálculo é determinar o juro do período não-inteiro:
+O im representa a taxa equivalente trimestral, pois temos uma taxa semestral (6%a.s.) e queremos en-
+contrar a taxa trimestral, uma vez que 01 semestre tem 02 trimestres.
+im = i = 0,06 = 0,03 a.t.
+m 	2
+J2 = 3.000,00 x 0,03 x 1 = 90,00
+De tal modo, o total de juros é 1.260,00 + 90,00 = R$ 1.350,00
+Sabendo que três meses são iguais a 1/2 semestre, podemos resolver também das seguintes formas:
+3.000,00 x 0,06 x 7,5 = R$ 1.350,00.
+Geralmente nas operações de curto prazo o regime geralmente adotado é o de
+juros simples e os prazos são fixados em dias fazendo-se necessário determinar
+a taxa proporcional referente a 1 dia. Mathias e Gomes (2013) apresentam dois
+enfoques dependendo do número de dias adotado: (a) ano civil com 365 dias; e
+(b) ano comercial com 360 dias.
+Denomina-se juro exato aquele que é obtido quando o período (n) está disposto
+em dias e quando isso ocorre, adota-se a convenção de ano civil.
+Onde: 	J = Cin
+365
+Já por juro comercial temos aquele que é obtido quando se adota como base o ano comercial.
+Onde: 	J = Cin
+360
+O ano civil tem 365 dias, mas no nosso caso vamos trabalhar com o ano comercial que tem 360
+dias. Assim, nosso mês tem 30 dias. Fique ligado!
+VOCÊ SABIA?
+Na maioria
+das operações
+do cotidiano
+utilizamos o juro
+comercial e não o
+juro exato
+
+-- 22 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+23
+Valor nominal, valor atual e valor futuro
+Os problemas financeiros dependem basicamente do fluxo do dinheiro no tempo e é mais conhecido na
+prática por fluxo de caixa. Esse fluxo representa as entradas e saídas de recursos, conforme disposto
+abaixo. (MATHIAS; GOMES, 2013)
+O valor nominal define-se pelo valor de um compromisso na data de seu vencimento, passado o dia de
+pagamento e o saldo não tenha sido pago o valor nominal permanece e será acrescido os juros e multas
+acertados na data inicial da operação.
+Vejamos a figura abaixo:
+Vejamos a diferença no resultado, com o seguinte exemplo:
+Determinando a taxa de juros diária (juro exato e juro comercial) a partir de uma taxa anual de 15%.
+Onde:
+Juro exato:
+15% 	= 0,032877% ao dia
+365 dias
+Juro comercial:
+15% 	= 0,033333% ao dia
+360 dias
+O juro comercial diário é superior ao juro exato pelo menor número de dias considerado. No desconto
+comercial é necessário distinguir a taxa de desconto utilizada na operação e a taxa que efetivamente é
+cobrada na operação.
+1 	3	2 	4
+5
+6
+(+) Entradas
+(-) Saídas
+0
+10.000,00 (valor nominal)
+12 (meses)
+Pelo gráfico percebe-se que no 12º mês o valor do capital é de R$ 10.000,00. Ou seja, se um indivíduo
+aplicou determinada quantia hoje, dada uma taxa de juros, receberá esse valor daqui a 12 meses.
+
+-- 23 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+24
+Já o valor atual é definido pelo valor de um compromisso antes da data de seu vencimento, para deter-
+minar esse valor necessitamos do valor nominal, uma data de cálculo e uma dada taxa de juros para
+utilização na operação.
+Vejamos a figura abaixo:
+E por fim temos o valor futuro que é definido pelo valor do título em momento posterior ao que estamos
+trabalhando.
+Vejamos a figura abaixo:
+0
+20.000,00 (valor nominal)
+12 (meses)
+0
+10.000,00
+n (meses)
+Quando 	estamos 	trabalhando
+com 	matemática 	fi nanceira
+devemos sempre ter em mente
+que 	estamos 	a 	procura 	de
+determinado valor em uma data
+defi nida seja no presente, no
+passado ou no futuro, daí vem a
+utilização dos conceitos disposto
+acima. Tempo e dinheiro são um
+dos elementos mais relevantes
+quando 	estamos 	estudando
+matemática financeira.
+SAIBA MAIS!
+Descontos
+Sempre que realiza-se uma operação financeira entre dois ou mais agentes econômicos recebe-se um
+documento que comprove a execução da mesma, no geral são entregues títulos de crédito comercial, de-
+vendo estes documentos apresentar todas as características da operação, tais como: data da operação,
+valor, tipo de operação se à vista ou a prazo. Os títulos mais utilizados nas transações financeiras são:
+Nota Promissória, Duplicatas, Recibos, etc.
+Segundo Mathias e Gomes (2013) existem dois tipos de desconto: (a) desconto racional ou "por dentro";
+e (b) desconto comercial ou "por fora"
+O desconto racional é definido como o desconto obtido pela diferença entre o valor nominal e o valor
+atual de um compromisso, representa em outras palavras a quantia a ser abatida do valor nominal. A
+já sim, leia o assunto abaixo,
+pois ele o ajudará a entender
+sobre este tema.
+
+-- 24 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+25
+fórmula do desconto racional é:
+Onde:
+N = valor nominal (ou montante);
+n = número de períodos antes do vencimento;
+i = taxa de desconto;
+Dr = valor do desconto;
+Vr = valor atual;
+Se quisermos obter o valor descontado devemos utilizar a seguinte fórmula:
+Exemplo:
+José pretende saldar um título de R$ 4.000,00, três meses antes de seu vencimento, sabendo-se que a
+taxa de juros é de 20% a.a., qual será o desconto que ele vai obter?
+Resolução: primeiro extraímos as informações disponíveis, depois entendemos o que o exemplo quer
+dizer, e ai é só resolver. Vamos lá!
+N = 4.000,00
+n = 3 meses
+Calculamos a taxa proporcional, pois temos uma taxa anula e queremos realizar o pagamento três meses
+antes
+i12 = 0,20 = 0,0166
+12
+O valor do desconto é:
+Logo o valor descontado é: R$ 4.000,00 - R$ 190,40 = R$ 3.809,60
+O desconto comercial é definido como o valor que se obtém pelo cálculo do juros simples sobre o valor
+nominal do compromisso a ser quitado antes do seu vencimento. A fórmula do desconto comercial é:
+Dc = Nin
+Onde:
+N = valor nominal (ou montante);
+n = número de períodos antes do vencimento;
+Nin
+Dr= 1+in
+N
+Vr= 1+in
+( 	)
+Nin 	4.000,00 x 0,0166 x 3 199,92
+Dr= 	= 	= 	=190,40
+1+in 	1+0,0166 x 3 	1,05
+
+-- 25 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+26
+i = taxa de desconto;
+Dc = desconto comercial;
+Vc = valor atual;
+Se quisermos obter o valor do desconto devemos utilizar a seguinte fórmula:
+Vc=N (1-in)
+Exemplo:
+José pretende saldar um título de R$ 4.000,00, três meses antes de seu vencimento, sabendo-se que a
+taxa de juros é de 20% a.a., qual será o desconto que ele vai obter?
+Resolução: o desconto comercial é obtido pela aplicação da fórmula. Vamos lá!
+Dc = Nin
+Dc = 4.000,00 x 0,01666 x 3
+Dc = R$ 200,00
+O valor do desconto comercial é:
+Vc = N (1- in)
+Vc = 4.000,00 (1- 0,01666 x 3)
+Vc = 4.000,00 x 0,95
+Vc = 3.800,00
+Perceba o valor obtido no desconto do comercial para o racional. Assim podemos notar no desconto
+comercial que é necessária a separação entre a taxa de desconto utilizada na operação e a taxa efetiva-
+mente cobrada pelo banco. Podemos obter da seguinte forma:
+i' = 200,00 = 0,052 ao trimestre ou 0,208 a.a. em termos percentuais representa 20,8%
+3.800,00
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+EXERCÍCIO RESOLVIDO
+1 - Suponha que você aplicou na poupança o valor de R$ 18.000,00, e após quatro meses (tempo) res-
+gatou a quantia de R$ 21.456,00. Determine a taxa de juros mensal cobrada nessa operação.
+Resolução:
+C = 18.000,00
+M = 21.456,00
+n = 4 meses
+i = ?
+M = C (1+i x n)
+21.456,00 = 18.000,00 x (1 + i x 4)
+21.456,00 = 1 + 4i
+18.000,00
+1,192 = 1 +4i; i = 0,192 = 0,048, que é equivalente a 4,8% a.m.
+4
+
+-- 26 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+27
+2 . Um indivíduo tem dívidas junto a uma instituição financeira no valor de R$ 35.000,00 com venci-
+mento em três meses e outra no valor de R$ 65.000,00 com vencimento em cinco meses. Para efetuar o
+pagamento, o indivíduo pretende utilizar uma poupança de que dispunha. Nestas condições, quanto ele
+deve aplicar na poupança, sabendo que seu rendimento é de 66% a.a?
+Resolução:
+i = 66% a.a. (66%/12 = 5,5%)
+C = 35.000,00 + 65.000,00
+(1+ 0,055 x 3) 	(1 + 0,055 x 5)
+C = 30.042,92 + 50.980,39 = 81.023,31
+Logo, se depositar hoje (data focal zero) a quantia de R$ 81.023,31, ele terá a quantia necessária
+para quitar a dívida.
+3 . Determine o valor dos juros e do Montante de um empréstimo de R$ 50.000,00, dada uma taxa de
+juros simples de 5% a.m. em um período de três trimestres.
+Resolução:
+C= 50.000,00
+i = 5% a.m.
+n = 3 trimestres = 9 meses
+Juros = ? ;
+J = C x i x n; J = 50.000,00 x 0,05 x 9 = 22.500,00
+Montante = ?
+M = C + J; M = 50.000,00 + 22.500,00
+4 . Joaquim adquiriu um título de renda fixa por R$ 30.000,00 com prazo de vencimento de 15 meses e
+uma taxa de juros de 12% a.a. Após um ano, ele resolveu vender o título. Determine o valor recebido por
+Joaquim, sabendo-se que no momento da venda a taxa de juros era de 18% a.a.
+Resolução:
+Primeiramente, temos que determinar o valor a ser resgatado no vencimento:
+C = 30.000,00
+i = 12% a.a = 0,12
+n = 15 meses que equivale a 	= 1,25 anos
+Aplicando a fórmula de juros simples, temos:
+C = 30.000,00 (1 + 0,12 x 1,25) = 34.500,00
+Porém, como ele vendeu antes do prazo determinado, temos que considerar como data focal, a
+data da venda (12 meses). Este valor deve ser calculado pela taxa de juros vigente no mercado no
+momento da venda, ou seja, 18% a.a.
+15
+12
+
+-- 27 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+28
+Assim, temos:
+Valor na data 12 meses = 34.500,00
+i = 18% a.a.
+n = 3 meses = 3 	= 0,25
+12
+Neste caso, o valor presente é determinado por:
+VP = 	VF 	= 	34.500,00 = 	33.014,35
+(1 + i x n) 	(1 + 0,18 x 0,25)
+Então, como adquiriu o título por R$ 30.000,00 e vendeu por R$ 33.014,35, o valor adquirido por
+Joaquim foi de R$ 3.014,35.
+5 . Determine após quanto tempo (meses) um investimento dobra de valor, considerando uma taxa de
+juros de 10% a.a.
+Resolução:
+M = C x (1 + i x n)
+M -1 	2 x C -1
+10 anos 	120 meses	C 	C
+i 	i
+= 	=
+EXERCÍCIO PROPOSTO
+1. Determine o capital necessário para termos R$ 18.000,00 de juros dada uma taxa mensal de 3% no
+prazo de:
+a) 60 dias;
+b) 80 dias;
+c) 110 dias.
+2. Um aparelho de LCD é vendido à vista por R$ 1.800,00 ou com entrada de 30% e uma parcela de R$
+1.306,00 em 30 dias, pergunta-se qual a taxa de juros dessa operação?
+3. Qual o valor do juro resultante de um capital de R$ 400.000,00 dada uma taxa de 72% a.a. durante um
+período de 45 dias?
+4. Um investidor aplicou em um Recibo de Depósito Bancário (RDB) por 90 dias com taxa de 21,60% a.a.
+Após o vencimento, ele reaplicou todo o valor resgatado a uma taxa de 23,76% a.a. durante dois meses.
+Sendo o valor futuro da reaplicação igual a R$ 109.573,84, determine o valor do capital inicial.
+
+-- 28 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+29
+5. A Investimentos S/A faz um contrato com um banco de investimento pelo qual se obriga a depositar
+durante um ano, no início de cada mês, o valor de R$ 100.000,00 com juros de 15% a.a. (contabilizados)
+mensalmente. Qual será o montante possuído pela empresa ao término do contrato?
+6. Suponha um título com valor atual equivalente a 4/5 de seu valor nominal e com um prazo de aplicação
+de 15 meses. Determine a taxa de juros considerada.
+7. (FISCAL FORTALEZA/CE 2003) Um título no valor de R$ 20.000,00 sofre um desconto comercial
+simples de R$ 1.800,00 três meses antes de seu vencimento. Calcule a taxa mensal de desconto
+aplicada.
+a) 6%
+b) 5%
+c) 4%
+d) 3,3%
+e) 3%
+8. (ANALISTA CVM/2001) um título de valor de face R$ 100.000,00 vence em 31 de julho. Calcule o des-
+conto comercial simples no dia 11 de julho, a uma taxa de desconto de 6% a.m. (Dica! como a taxa é mensal
+e queremos saber o valor dentro do próprio mês, temos que encontrar a taxa diária)
+a) R$ 4.000,00
+b) R$ 3.000,00
+c) R$ 2.000,00
+d) R$ 1.500,00
+e) R$ 1.000,00
+9. Um capital de R$ 6.600,00 após 7 meses rendeu R$ 1.090,32 de juros. Qual foi a taxa de juros aplicada
+nessa operação?
+10. (TCE/TCM-RJ 2000) um crédito foi descontado pela modalidade desconto comercial simples seis me-
+ses antes de seu vencimento a uma taxa de desconto de 10% a.m. totalizando um desconto de R$ 30.000,00.
+Se fosse aplicada a modalidade desconto racional simples o valor do desconto seria:
+a) R$ 18.250,00
+b) R$ 18.750,00
+c) R$ 19.200,00
+d) R$ 19.750,00
+e) R$ 20.500,00
+
+-- 29 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+30
+GABARITO
+1. a) 300.000,00
+b) 225.000,00
+c) 163.636,36
+d) 21.077,28
+2. i = 3,65% a.m.
+3. R$ 36.000,00
+4. R$ 100.000,00
+5. R$ 1.297.500,00
+6. i = 0,1666 ou 1,6%
+7. Letra e
+8. Letra a
+9. 2,36% a.m. ou 32,30% a.a.
+10. Letra b
+
+-- 30 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+31
+Antes de seguir ao próximo tópico veja as seguintes questões, se tiver dúvida em responder
+algum dos conceitos volte ao material e apenas em seguida continue. Se não tiver dúvida siga
+em frente.
+1. 	Defina Juros
+2. 	Defina taxas equivalentes
+3. 	Você consegue distinguir valor nominal, atual e futuro?
+RECOMENDAÇÕES
+LINKS DA INTERNET
+SUGESTÕES DE LEITURA
+SUGESTÕES DE EXERCÍCIOS
+ADICIONAIS
+1.voceeseudinheiro.com;
+2.www.somatematica.com.br;
+3.www.concurseirosdeelite.blogspot.com.br/2012/02/
+download-matematica-financeira-para.html;
+4. maisativos.com.br
+1. Capítulos 1, 2 e 3 do livro Matemática Financeira e
+suas aplicações de Assaf Neto (2012).
+2.Capítulos 1 e 2 do livro Matemática Financeira de
+Washington Franco Mathias e José Maria Gomes.
+3. Capítulo 3 do livro Matemática Financeira objetiva e
+aplicada de Abelardo de L. Puccini (2011)
+1. Capítulos 1, 2 e 3 do livro Matemática Financeira e
+suas aplicações de Assaf Neto (2012).
+2. Capítulos 1 e 2 1 do livro Matemática Financeira
+de Washington Franco Mathias e José Maria Gomes
+(2013).
+"Os juros compostos são a mais poderosa invenção humana"
+(Albert Einstein)
+TÓPICOS ADICIONAIS 	ONDE ENCONTRAR / O QUE FAZER
+
+-- 31 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+32
+Quando vimos na seção anterior os juros simples, entendemos que ele representava um valor calculado
+em cima do valor da dívida, e que o mesmo valor se repetiria mês a mês ou ano a ano conforme fosse
+contratada a operação. No entanto juros simples quase não aparecem nas operações financeiras, na sua
+grande maioria prevalece o regime de juros compostos que veremos com mais detalhes agora.
+Esta modalidade de regime é a mais utilizada no dia-a-dia pelo sistema financeiro. Nesta modalidade, os
+juros gerados a cada período são incorporados ao principal para calcular os juros do período seguinte.
+Então, os rendimentos auferidos pela aplicação serão incorporados à aplicação, participando da geração
+do rendimento no período seguinte.
+Quando trabalhamos com juros compostos, o dinheiro cresce muito mais rapidamente. Neste caso, te-
+mos um crescimento exponencial em progressão geométrica ao longo do período. Este modelo nos leva
+àquela expressão que escutamos no nosso cotidiano: "juro sobre juro". O modelo descrito acima é co-
+nhecido também como regime de capitalização composta.
+Vejamos o seguinte exemplo: Um capital (C) de R$ 1.000,00 aplicado a taxa (i) de 10% a.m. durante qua-
+tro meses (n). O montante ao término do período pode ser obtido diretamente na fórmula: M=C(1+i) n
+M=C(1+i) n Logo, teríamos M = 1.000,00 (1+0,1) 4 = R$ 1.464,10. Segundo Samanez (2002), os fatores
+(1 + i) n e (1+ i) -n têm a seguinte finalidade:
+• O fator (1 + i) n "joga" grandezas para frente, possibilitando encontrar o montante ou valor futuro
+da aplicação. É a capitalização para data posterior.
+VP 	VF
+VP 	VF
+• O fator (1+ i) -n "puxa" grandezas para trás, possibilitando encontrar o principal de um determi-
+nado montante, ou seja, traz um valor futuro à data anterior.
+Vejamos que a diferença entre as situações acima residem no tempo que estamos querendo trazer o
+valor (dinheiro), seja em uma data futura (1 + i) n ou para uma data antes do vencimento (1+ i) -n .
+Se você quiser saber o valor no futuro, capitaliza o dinheiro. Se quiser trazer do futuro para o
+presente, "traz a valor atual".
+DICA!
+contas
+Manhã 	Tarde 	Noite
+dia de pagamento
+Banco de Dados/NEaD
+Juros Compostos UN 01
+
+-- 32 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+33
+Conceito de Juros Compostos
+Nesse regime consideramos que os juros formados em cada período são adicionados ao capital forman-
+do o montante (capital + juros) do período, esse montante passa a ser o novo capital e irá incidir juros
+sobre esse novo capital e assim sucessivamente. Dizemos ainda que os juros são capitalizados, e como
+não apenas o capital inicial rende juros, denominamos juros compostos. Entendemos, então, que a com-
+posição do capital mais os juros transformam-se em um novo capital.
+Cada vez que os juros são incorporados ao principal, denominamos capitalização. Este termo represen-
+ta a principal diferença entre juros simples e compostos. Vejamos o exemplo abaixo sobre a diferença
+entre juros simples e compostos.
+Exemplo:
+Ouvi falar que existem dois tipos de juros,
+isso é verdade? Como funciona, será que
+tem um mais barato do que o outro?
+Acho que sim, ent
+com juros com
+Ouvi falar que existem dois tipos de juros,
+isso é verdade? Como funciona, será que
+tem um mais barato do que o outro?
+Acho que sim, então para eu investir é melhor
+com juros compostos. É assim mesmo?
+Mês
+Juros Simples 	Juros Compostos
+Rendimento 	Montante 	Rendimento 	Montante
+1 	R$ 1.000 x 0,3 = R$ 300 	R$ 1.300 	R$ 1.000 x 0,3 = R$ 300 	R$ 1.300
+2 	R$ 1.000 x 0,3 = R$ 300 	R$ 1.600 	R$ 1.300 x 0,3 = R$ 390 	R$ 1.690
+3 	R$ 1.000 x 0,3 = R$ 300 	R$ 1.900 	R$ 1.690 x 0,3 = R$ 507 	R$ 2.197
+4 	R$ 1.000 x 0,3 = R$ 300 	R$ 2.200 R$ 2.197 x 0,3 = R$
+659,10 R$ 2856,10
+Quadro 1– Comparativo juros simples x juros compostos
+Fonte: Puccini (2011)
+1
+1.000
+1.100
+1.200
+1.300
+1.400
+0 	2 	3 	4Anos
+JUROS COMPOSTOS
+CRESC. EXPONENCIAL
+JUROS SIMPLES
+CRESC. LINEAR
+Saldo
+
+-- 33 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+34
+Cálculo do juro
+Como é do nosso conhecimento, o montante é a soma do principal aos juros da aplicação no prazo deter-
+minado e à taxa de juros estipulada. Para obtenção dos juros, temos a seguinte fórmula:
+Jn = C0 [(1 + i)n -1]
+Exemplo:
+Determine o valor dos juros pagos em um empréstimo de R$ 2.000,00 com taxa de juros de 1% a.m. pelo
+período de cinco meses.
+Resolução:
+C0 = 2.000,00; i = 1% a.m.; n = 5m
+Jn = C0 [(1 + i)n -1] 	Jn = 2.000,00 [(1 +0,01)5 -1]
+Jn = C0 [(1 + i)n -1] 	Jn = 2.000,00 (1,05101) = R$ 102,02 é o valor pago de juros na operação.
+Conforme cita Mathias (2004), o valor atual é o valor da aplicação em uma data inferior à data do venci-
+mento. E o valor nominal é o valor do título na data de seu vencimento.
+VA = valor atual
+N = valor nominal
+i = taxa de juros
+n = número de períodos que antecede o vencimento do título.
+Exemplo:
+Suponhamos que você possua um título que vencerá daqui a um ano com valor nominal de R$ 3.138,43.
+Você recebe uma proposta para trocar o título por outro que vence daqui a seis meses no valor de R$
+1.780,00. Assumindo uma taxa de juros praticada pelo mercado de 10% a.m., perguntamos: a troca é
+vantajosa?
+Resolução:
+Podemos resolver trazendo os dois valores para a mesma data focal, determinando seus valores atuais.
+Assumindo a data focal zero, temos:
+( 	)n
+N
+VA=
+1+i
+N2 = 1.780,00
+N1 = 3.138,43
+0 	6 	12
+
+-- 34 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+35
+Taxas equivalentes
+Consideram-se duas taxas como equivalentes, se na hipótese de aplicá-las a um mesmo prazo e a um
+mesmo capital for indiferente aplicar em uma ou em outra.
+Sejam as taxas:
+i = referente a um intervalo de tempo p;
+iq = corresponde a um intervalo de tempo igual a fração própria p/q onde q > p;
+Assim a fórmula para cálculo de taxas equivalentes é:
+Onde:
+i quero = é a taxa que pretendemos determinar
+i tenho = é a taxa que temos determinada.
+Exemplo:
+Determine a taxa mensal equivalente a uma taxa de 100% a.a.
+Resolução:
+1 ano tem 12 meses, logo q = 12
+iq = √1+i-1
+i12= √1+1 - 1
+i12= 1,0595 - 1 = 0,0595 ou 5,95% a.m.
+( 	)q
+t
+	i quero= 1+itenho 	-1
+O valor atual na data focal zero do título com vencimento em 12 meses é dado por:
+V1 = 	N1
+(1 + i)n
+V1 = 3.138,43 = 3.138,43 = R$1.000,00
+(1 + 0,10)12 	3,1384
+O valor atual na data focal zero do título com vencimento em seis meses é dado por:
+V2 = 	N2
+(1 + i)n
+V2 = 1.780,00 = 1.780,00 = R$1.004,80
+(1 + 0,10)6 	1,7715
+Como o título que vence em seis meses possui um valor atual maior, seria vantajosa a troca.
+
+-- 35 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+36
+De outra forma podemos determinar assim a taxa equivalente:
+(a) De um período menor para um maior
+Onde n= corresponde ao período considerado, ou seja, o problema tem uma taxa de um período menor,
+que deve ser transformado em i equivalente de um período maior. Por exemplo: 5% a. m. corresponde a
+que i trimestral. No primeiro caso abaixo, n=3, pois um trimestre corresponde a três meses.
+(b) De um período maior para um menor
+Agora faça o inverso. Por exemplo: 15,7625% a. t. corresponde a que i mensal
+( 	)n
+maior 	menor	i 	= 1+i 	-1
+( 	)3 	3
+trimestral	i 	= 1+0,05 	=1,05 -1=0,157625=15,76% ao trimestre
+( 	)n
+trimestral 	mensal	i 	= 1+i 	-1
+( 	)1/n
+menor 	maior	i 	= 1+i 	-1
+( 	)1/n
+mensal 	trimestral	i 	= 1+i 	-1
+( 	)1/3 	¹/3
+1 	0,157625 	1,157625 	1 	0,05 	5%	trimestral	i 	aomês	= 	+ 	= 	− 	= 	=	Você poderá
+utilizar uma
+das formas
+acima para
+encontrar as
+taxas
+equivalentes
+Exemplo:
+Suponha que você tem um capital de R$ 1.000,00 e duas taxas de 11,60% a.m. e 39% a.t. apli-
+cados durante três meses. Perguntamos: essas taxas são equivalentes?
+Resolução: Para saber se são equivalentes aplicamos o capital de 1.000,00 pelo mesmo prazo,
+assumiremos três meses, que é o período de aplicação correspondente à taxa i.
+Assim, temos: C1= 1.000 (1+0,39) = 1.390,00
+Para determinar o montante em três meses para a taxa iq, temos: Ci = 1.000 (1+0,1160)3 =
+1.390,00. Como C1 = Ci, concluímos que as taxas 11,60% a.m. e 39% a.t. são equivalentes.
+Se alguém lhe propõe um empréstimo com taxa de 2% a.m, na verdade você estará pagando
+26,82% ao ano. Se ligue!
+DICA!
+
+-- 36 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+37
+Períodos não-inteiros
+Quando tivermos períodos não-inteiros, devemos adequar a fórmula para obtenção da parcela equi-
+valente a esse período, são as denominadas capitalizações descontinuas. Nestas situações você terá
+operações com capitalizações anuais e um período fornecido em ano e meses. Deste modo, é necessário
+determinar a parcela equivalente aos meses. Neste material, utilizaremos a convenção exponencial. A
+fórmula para encontramos os juros é:
+C0
+n 	p/q
+C´n p/q C´n + 1	Cn
+Para determinar este valor, temos dois passos a seguir:
+1º) Determinar o montante em juros compostos: Cn = C0(1+i)n;
+2º) Calcular a taxa equivalente. A partir da fração p/q, calcula-se primeiramente a taxa equivalente ao
+intervalo de tempo 1/q aplicando uma das seguintes fórmulas:
+iq + 1 = (1+i) 1/q
+O passo seguinte é capitalizar pelo período em que o montante deve ser aplicado, obtendo:
+[(1+iq)]p = [(1+i)1/q]p
+Chegamos à seguinte fórmula:
+C’n,p/q = Cn (1+i)p/q
+Substituindo o valor de Cn
+C’n,p/q = C0(1+i)n(1+i)p/q
+Então: 	C’n,p/q = C0(1+i)n+p/q
+Onde:
+p = representa o período fracionado no caso mês, se estivermos trabalhando com anos.
+q= representa o período inteiro.
+Assim teríamos para um período de 3 anos e 5 meses, o nosso p = 5(meses) e o q = 12(meses).
+( 	) 	( 	)n 	1/n
+maior 	menor 	menor 	maior	i 	= 1+i 	-1 	i 	= 1+i 	-1
+iq+1=q 1+i
+
+-- 37 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+38
+Suponha um capital de R$ 1.000,00 emprestado a uma taxa de juros de 15% a.a., em um prazo de quatro
+anos e seis meses. Assumindo uma capitalização anual, determine o montante.
+Resolução:
+Da parte inteira (quatro anos), basta aplicar a fórmula. Deste modo:
+C4 = C0(1+i)4
+C4 = 1.000,00(1+0,15)4
+C4 = 1.000,00(1,749)
+C4 = 1.749,00
+Da parte fracionada, faremos a seguinte operação:
+P= 6 meses e q = 12 meses, então p/q = 6/12 = 1/2
+Logo:
+C’n,p/q = C4(1+i)p/q
+C’4,1/2 = C4(1,15)1/2 = 1.749,00(1,072)
+C’4,1/2 = 1.875,60
+Voltando à questão, temos:
+C’n,p/q = C0(1+i)n+p/q
+C’4,1/2 = 1.000,00(1,15)4+1/2
+C’4,1/2 = 1.875,60
+Taxa efetiva
+Segundo Lima (1998), é a taxa realmente cobrada no período em que foi fornecida, independentemente
+do período de capitalização. Então, quando queremos ajustar uma taxa ao período de capitalização, uti-
+lizamos a equivalência de capitais. É o processo de formação de juros pelo regime de juros compostos ao
+longo dos períodos de capitalização. É obtida pela seguinte expressão:
+Onde q representa o número de períodos de capitalização dos juros.
+Exemplo:
+Suponha uma taxa de juros de 3,8% a.m. Quanto representaria em termos efetivos ao ano.
+Resolução:
+= 56,44% a.a.
+( 	) ( 	)q
+Taxa efetiva if = 1+i 	-1
+( 	) ( 	)12
+if = 1+0,038 	-1
+EXERCÍCIO RESOLVIDO
+
+-- 38 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+39
+Relação entre taxa efetiva e taxa nominal
+Taxa nominal ocorre quando o prazo de formação e incorporação de juros ao capital inicial não coincide
+com aquele período que se refere à taxa. Para fixar, vamos resolver este exemplo: Se um banco concede
+empréstimos no valor de R$ 1.000,00, com taxa de 8% a.a., mas adotando a capitalização semestral de
+juros. Pergunta-se, quanto você pagaria de juros após 1 ano.
+Resolução: Como a taxa é anual e a capitalização é mensal, precisamos encontrar a taxa equivalente. Te-
+mos, portanto:
+i = 8% a.a. 	i’ = i
+k = 	= 4% a.s.
+Onde o K representa o prazo de formação de juros, ou seja, é o número de vezes em que foi dividido o pe-
+ríodo correspondente à taxa dada. Assim o montante do primeiro semestre é C1 = C0 (1+i/k)1
+C1 = 1.000 (1+0,04)1= 1.040,00 no primeiro semestre.
+Já no segundo semestre, temos o valor do primeiro capitalizado novamente:
+C1 = 1.040 (1+0,04)1= 1.081,60
+Então, para se determinar a taxa efetiva dividimos os juros pagos no período pelo valor do principal.
+1.000,00
+1. Suponha um capital de R$ 100.000,00 aplicado a juros compostos capitalizados mensalmente durante
+oito meses resulta ao final do período a R$ 148.000,00. Determine a taxa de juros utilizada.
+Resposta:
+M = C x (1 + i)n
+148.000,00 = 100.000,00 x (1 + i)8 	(1 + i)8 = 148.000,00
+100.000,00
+(1 + i)8 = 1,48 	Utilizando a calculadora, temos que 1 + i = 1,050226
+i = 0,050226 ou i = 5,02%
+2. Determine o valor presente de um montante de R$ 8.400,00 que foi aplicado durante seis meses, com
+uma taxa de juros contratada de 2% a.m.
+Resposta:
+VP = VF 	= 8.400,00 = 7.458,96
+(1+ i)n 	(1+ 0,02)6
+3. Após quanto tempo um capital inicial de R$5.000,00 que dobra de valor a cada ano passará a ser maior
+do que R$ 40.000,00?
+i
+k
+Lembre-se que
+o montante pode
+ser representado
+por M ou C.
+81,60
+f= 	=0,0816 ou 8,16%
+1.000
+EXERCÍCIO RESOLVIDO
+
+-- 39 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+40
+Resposta:
+M = R$ 40,000,00
+C = R$ 5,000,00
+Taxa =100%a.a (o capital dobra por ano)
+i = 100/100 = 1
+M = C x (1+i)t
+(1+i)t = M/C
+(1+1)t = 40000/5000
+2t = 8 	2t = 23
+Eliminando as bases, encontramos t = 3.
+Logo, em três anos o montante será de R$ 40.000,00.
+4. Um videogame tipo Xbox é vendido à vista por R$ 1.200,00 ou a prazo com entrada de R$ 200,00
+mais três parcelas mensais. Qual o valor de cada parcela se a taxa de juros cobrada pela financeira é
+de 3% a.m.?
+Resposta:
+M = C x (1+i)t
+M = 1.000 x (1+0,03)3
+M = 1.000 x 1,09
+M = 1.090,73
+Para determinarmos o valor de cada parcela, basta dividirmos 1.090,73/3 = 364,24 o valor de cada
+parcela.
+5. Determinado valor foi aplicado a juros compostos de 12% a.s. durante dois anos. Sabendo-se que ren-
+deu R$ 2.600,00 de juros, qual o montante obtido? Considere 1,064 = 1,26.
+Resposta
+J = [(1 + i)n - 1]
+2.600,00 = C
+M = C + J = 10.000,00 + 2.600,00 = R$ 12.600,00
+4
+0,12
+1 	1 	10.000
+2 C
+ 		 	
++ 	− 	∴ ≈	 		 	
+ 		 		 	
+Na maioria das transações do dia-a-dia, os bancos e emprestadores de dinheiro informam a taxa
+nominal, mas o que nos interessa é a taxa efetiva. Fique ligado!
+DICA!
+
+-- 40 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+41
+EXERCÍCIO PROPOSTO
+1. Uma calculadora é vendida por R$ 140,00 à vista ou em pagamento dividido em dois meses com uma
+taxa de juros compostos de 5% a.m. Qual o valor a ser pago?
+2. Assumindo que você possui um título no valor de R$ 42.000,00 para pagamento daqui a três meses,
+que deverá ser substituído por outro título com vencimento daqui a cinco meses. Pergunta-se qual o va-
+lor a ser pago aceitando uma taxa de juros de 25% a.a. com juros compostos?
+3. A rentabilidade efetiva de um investimento é de 10% a.a. Sabendo-se que os juros fo-
+ram de R$ 27.473,00, o capital era de R$ 83.000,00. Qual o período de aplicação desse capital?
+4. Por um equipamento de R$ 360.000,00 paga-se uma entrada de 20% mais dois pagamentos mensais
+e consecutivos. Considerando o primeiro pagamento de R$ 180.000,00 e a taxa de juros efetiva aplicada
+de 10% a.m., calcule o valor do segundo pagamento.
+5. Um capital de R$ 50.000,00 rendeu R$ 1.000,00 em determinado prazo. Se o prazo fosse superior em
+dois meses, o rendimento aumentaria em R$ 2.060,40. Calcule a taxa de juros efetiva ao mês, ganha pela
+aplicação e o prazo em meses.
+6. Dois capitais foram aplicados durante dois anos: o primeiro a juros efetivos de 2% a.m. e o segundo,
+a 1,5% a.m. O primeiro capital é R$ 10.000,00, superior ao segundo e seu rendimento excedeu em R$
+6.700,00 em relação ao rendimento do segundo capital. Calcule o valor de cada capital.
+7. Suponha um capital aplicado a juros efetivos de 30% a.a. Depois de três anos, resgatou-se 50% dos
+juros ganhos, e depois o restante do montante foi aplicado com uma taxa efetiva de 32% a.a., obtendo-se
+rendimento de R$ 102,30 no prazo de um ano. Determine o valor aplicado inicialmente.
+8. Um investidor aplicou R$ 1.000,00 em um fundo que paga 5% a.m., com o objetivo de dispor de R$
+1.102,50 após dois meses. Após 24 dias de aplicação, a taxa efetiva baixou para 4% a.m. Quanto tempo
+será necessário para obter o capital desejado?
+9. Uma quantia de R$ 4.000,00 foi aplicada em dois investimentos diferentes, o primeiro com taxa de
+6% a.t. e o segundo a uma taxa de 2% a.m. Sabendo que após oito meses o valor das parcelas se igualam,
+determine o valor de cada parcela.
+10. Determinada quantia foi aplicada em um fundo e duplicou seu valor entre 11 de junho e 22 de no-
+vembro do mesmo ano. Determine a que taxa esse fundo foi aplicado.
+11. (AFRF 2001) O desconto racional simples de uma nota promissória, 5 meses antes de seu vencimento
+é de R$ 800,00, a uma taxa de 4% a.m. Calcule o desconto comercial simples correspondente, isto é consi-
+derando o mesmo título, a mesma taxa e o mesmo prazo.
+a) R$ 960,00
+b) R$ 666,67
+c)R$ 973,32
+d) R$ 640,00
+e) R$ 800,00
+12. (AFRF 2002-1) Um título sofre um desconto comercial de R$ 9.810,00 três meses antes de seu ven-
+cimento a uma taxa de desconto simples de 3% a.m. Indique qual seria o desconto à mesma taxa se o
+desconto fosse simples.
+a) R$ 9.810,00
+b) R$ 9.521,34
+
+-- 41 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+42
+c)R$ 9.500,00
+d) R$ 9.200,00
+e) R$ 9.000,00
+13. (AFC / STN 2005) Marcos descontou um título 45 dias antes de seu vencimento e recebeu R$
+370.000,00. A taxa de desconto comercial simples foi de 60% a.a. Assim o valor nominal do título e o valor
+mais próximo da taxa efetiva de operação são, respectivamente, iguais a:
+a) R$ 550.000,00 e 3,4% a.m.
+b) R$ 400.000,00 e 5,4% a.m.
+c) R$ 450.000,00 e 64,8% a.m.
+d) R$ 400.000,00 e 60% a.m.
+e) R$ 570.000,00 e 5,4% a.m.
+14. (AFRF 2005) Um banco deseja operar a uma taxa efetiva de juros simples de 24% a.t. para operações
+de 5 meses. Deste modo, o valor mais próximo da taxa de desconto comercial trimestral que o banco deve
+cobrar em suas operações de 5 meses deverá ser igual à:
+a) 19%
+b) 18,24%
+c) 17,14%
+d) 22%
+e) 24%
+15. (FISCAL FORTALEZA CE 2003) Um título no valor de R$ 20.000,00 sofre um desconto comercial
+simples de R$ 1.800,00 três meses antes de seu vencimento. Calcule a taxa mensal de desconto apli-
+cada.
+a) 6%
+b) 5%
+c) 4%
+d) 3,3%
+e) 3%
+GABARITO
+1. 154,35
+2. R$ 43.591,41
+3. 3 anos
+4. R$ 150.480,00
+5. 2% a.m.; 1 mês
+6. R$ 13.440,52; 3.440,52
+7. R$ 199,99
+8. 9 dias
+9. R$ 2.003,04; R$ 1.9996,96
+10. 13,52% a.m.
+11. Letra A
+12. Letra E
+13. Letra B
+14. Letra C
+15. Letra E
+Pois é Chico, esse negócio de juros compostos
+não me pareceu tão difícil assim.
+
+-- 42 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+43
+Antes de seguir ao próximo tópico veja as seguintes questões, se tiver dúvida em responder
+algum dos conceitos volte ao material e apenas em seguida continue. Se não tiver dúvida siga
+em frente.
+1. 	Qual a principal diferença entre juros simples e compostos?
+2. 	Você poderia dizer qual a vantagem de cobrar juros compostos para quem empresta?
+RECOMENDAÇÕES
+LINKS DA INTERNET
+SUGESTÕES DE LEITURA
+SUGESTÕES DE EXERCÍCIOS
+ADICIONAIS
+1. www.somatematica.com.br;
+2.www.youtube.com/watch?v=X_lvyuMnfvM
+3. www.voceeseudinheiro.com
+1.Capítulo 2 do livro Matemática Financeira e suas
+aplicações de Assaf Neto (2012).
+2.Capítulo 	3 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes.
+3. Capítulo 2 do livro Matemática Financeira objetiva e
+aplicada de Abelardo de L. Puccini (2011)
+1. Capítulo 2 do livro Matemática Financeira e suas
+aplicações de Assaf Neto (2012).
+2. 	Capítulo 	3 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes (2013).
+TÓPICOS ADICIONAIS 	ONDE ENCONTRAR / O QUE FAZER
+"O amigo deve ser como o dinheiro, cujo valor já conhecemos antes de termos necessidade dele".
+(Sócrates)
+
+-- 43 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+44
+Em algum momento do nosso cotidiano pode ser que tenha-
+mos que decidir entre pagar uma dívida da forma como está
+ou renegociá-la. Você provavelmente já observou, escutou ou
+leu notícias do tipo "compramos sua dívida" ou ainda "troque
+sua dívida por outra", mas afinal isso tem algum significado? Se
+analisarmos o conteúdo informacional dessas notícias a prin-
+cípio não faria sentido comprar ou trocar uma dívida, então
+temos que entender o que essas expressões significam. Este
+tópico do nosso material trata de situações como as citadas an-
+teriormente, pois o termo equivalência de capitais é você com-
+parar dois capitais diferentes que pertençam a datas e taxas
+de juros diferentes. Isso é possível com os conceitos apresen-
+tados na seção. Então leia-os com o devido cuidado para com-
+preender e além disso utilizar tais conceitos na sua pessoal e
+profissional. Afinal R$ 1.000,00 hoje pode ser a mesma coisa
+que R$ 1.100,00 daqui a 1 ano, desde que você determine as
+devidas condições de cada um dos valores.
+Vamos dar continuidade aos nossos estudos, abordando a equivalência de capitais, que possibilita trans-
+formar uma forma de pagamento em outra aparentemente diferente, mas veremos que é igual. Também
+permite avaliar entre duas ou mais alternativas qual é a melhor financeiramente. Esta ferramenta tam-
+bém é utilizada na avaliação de alternativas financeiras distintas, substituição de títulos por outro(s).
+Mas lembrem-se ainda de que os juros utilizados são compostos.
+Equivalência de capitais UN 01
+Conceitos essenciais
+Capitais equivalentes
+Quando trabalhamos com operações financeiras, é comum a antecipação ou o pagamento em atraso
+dos títulos, ou ainda a troca de título(s) por outros títulos. É nestes casos que precisamos utilizar os
+conceitos de equivalência de capitais ou capitais equivalentes, para sabermos se estamos lidando com
+os mesmos valores. Neste sentido, é necessário o entendimento de alguns conceitos considerados es-
+senciais, a saber: (a) Data focal que representa a data a ser considerada como base de comparação de
+valores referidos a datas diferentes, é conhecida também como data de avaliação ou data de referência.
+Então quando estamos trabalhando com equivalência de capitais necessita-se de uma data de parâme-
+tro que é a nossa data focal. Já a equação de valor possibilita realizar a igualdade de capitais diferentes,
+em períodos diferentes, trazidos para uma mesma data focal com taxas de juros fixada. Essa equação é
+utilizada na igualdade de valores distintos trazidos para uma mesma data focal.
+Consideramos que dois ou mais capitais são equivalentes, quando levados para uma mesma data focal e
+com mesma taxa de juros, possuem valores iguais.
+Exemplo: Suponha que você tem a receber um valor nominal de R$ 20.000,00 com vencimento em dois
+anos, e possui R$ 25.000,00 hoje para aplicar sob uma taxa de 2% a.m. durante dois anos. Considerando
+que a taxa de juro o hoje é de 2% a.m., pergunta-se:
+• Quanto você possui hoje?
+• Quanto você possuirá daqui a um ano?
+• Quanto você possuirá daqui a dois anos?
+Temos:
+Banco de Dados/NEaD
+
+-- 44 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+45
+Valor atual de um conjunto de capitais
+Suponha que um indivíduo possui uma carteira de aplicações (ou valores a receber) com vencimentos
+distintos. Como podemos saber quanto ele teria hoje caso recebesse os valores? Para descobrir este va-
+lor, é necessário fixar uma taxa de juros i, além de uma data focal (hoje) como data zero a fim de poder
+comparar os valores.
+X = valor que possui na data zero;
+Y = quantia que possuirá após um ano;
+Z = quantia que possuirá após dois anos.
+Assim, temos:
+Hoje: 25.000,00 + 20.000,00/(1 + 0,02)24 = 25.000,00 + 12.434,43 = 37.434,43
+Daqui a um ano: 25.000,00 (1,02) 12 + 20.000,00 = 31.706,04 + 15.770,38 = 47.476,42
+(1+0,02)12
+Daqui a dois anos: 25.000,00 (1,02) 24 + 20.000,00 = 40.210,93 + 20.000,00 = 60.210,93
+Adotando-se uma taxa de juros i, os capitais serão equivalentes na data focal zero, se:
+VA = C1 = C2 	= C3 = ... = Cn
+(1+i)1 (1+i)2 (1+i)3 	(1+i)n
+Exemplo:
+Admitindo-se uma taxa de juros compostos de 5% a.a., verificar se os capitais são equivalentes na data
+focal zero.
+Solução: V1 = C1 = 1.050,00 = 1.000,00
+(1+i)1 	(1,05)1
+V2 = C2 = 1.102,50 = 1.000,00
+(1+i)2 	(1,05)2
+V3 = C3 = 1.157,62 = 1.000,00
+(1+i)3 	(1,05)3
+V4 = C4 = 	1.215,51 = 1.000,00
+(1+i)4 	(1,05)4
+V5 = C5 = 1.276,28 = 1.000,00
+(1+i)5 	(1,05)5
+Deste modo, podemos concluir que: V1 = V2 = V3 = V4 = V5
+Pelos cálculos acima, podemos afirmar que os capitais são equivalentes. Então, é normal possuir qualquer
+um dos valores acima nas respectivas datas de vencimento. Desta forma, é comum você possuir 1.276,28
+em cinco anos ou 1.000,00 hoje. Esta é a lógica da equivalência de capitais, que permite comparar valores
+diferentes tendo como parâmetro uma data focal zero.
+( 	) 	( 	) 	( 	) 	( 	)1 	2 	3 	n
+C1 	C2 	C3 	Cn
+V= 	+ 	+ 	+ …+
+1+i 	1+i 	1+i 	1+i
+
+-- 45 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+46
+De tal modo, que, o total que obtemos deve ser o valor atual do conjunto de capitais na data zero, ou
+seja, é o valor total que teríamos hoje. Em outras palavras: dado um custo de oportunidade e uma data
+de comparação podemos dizer que o valor atual "mede" o valor da carteira.
+Exemplo:
+Suponha que você tem três valores a receber oriundos de venda a prazo. Quanto você teria se recebesse
+hoje (data focal zero), admitindo uma taxa de juros de 2% a.m.?
+Solução:
+Para resolver, trazemos os valores a data focal zero
+Então, se você recebesse hoje teria R$ 7.707,40. Podemos representar graficamente da seguinte forma:
+CAPITAL (R$) 	VENCIMENTO (MÊS)
+1.200 	1
+3.300 	4
+4.000 	7
+( 	) 	( 	) 	( 	)1 	4 	7
+1.200,00 3.300,00 4.000,00
+V= 	= 	+
+1,02 	1,02 	1,02
+V=1.176,47+3.048,69+3.482,24=7.707,40
+4000
+3300	1200
+V
+7 (meses)	4	1
+VV
+7 (meses)	7 (meses)	7 (meses)
+Conjunto equivalente de capitais
+Suponha que você e um amigo têm duas quantias a receber em datas e valores também distintos. Como
+sabermos quem teria mais dinheiro hoje? Esta pergunta é respondida pelo conceito de equivalência de
+capitais. Então, dados a taxa de juros i e dois conjuntos de valores nominais com seus respectivos pra-
+zos, contados a partir da mesma data:
+1º Conjunto 	2º Conjunto
+Capital 	Data de vencimento 	Capital 	Data de vencimento
+C 1 	m 1 	C’1 	m’1
+C2 	m 2 	C’2 	m’2
+... 	... 	... 	...
+Cn 	m n 	C’n 	m’n
+
+-- 46 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+47
+Solução: No exercício acima, a comparação apenas poderá ser efetuada se tivermos a mesma data focal:
+O conjunto 1 tem o seguinte valor:
+V1=1.818,18+702,48+1.126,97+471,28
+V1 = 4.118,91
+O conjunto 2 tem o seguinte valor:
+V2=3.235,00+351,16+375,66+157,09
+V2 = 4.118,91
+Com base nos cálculos, observamos que V1 = V2. Concluímos, portanto, que com taxa de 10% a.a. os dois
+conjuntos de capitais são equivalentes, ou seja, tanto faz você possuir um ou outro conjunto, pois no
+final representam o mesmo valor.
+De posse dos dados acima, dizemos que dois capitais são equivalentes se fixadas uma data focal e uma
+taxa de juros os valores dos dois conjuntos sejam iguais. Assim, na data zero e taxa i, os conjuntos serão
+equivalentes se:
+C1 + 	C2 	+ 	C3 + . . . 	+ 	Cn 	= 	C’1 + 	C’2 	+ 	C’3 + . . . 	+ 	C’n
+(1+i)m1 (1+i)m2 	(1+i)m3 	(1+i)mn 	(1+i)m’1 (1+i)m’2 	(1+i)m’3 	(1+i)m’n
+Exemplo:
+Suponha que você tem dois valores distintos a receber oriundos de vendas a prazo. Queremos saber se os
+valores são equivalentes. Como devemos proceder? Assuma uma data focal zero e uma taxa de juros de
+10% a.a.
+1º Conjunto 	2º Conjunto
+Capital 	Data de vencimento 	Capital 	Data de vencimento
+2.000,00 	1º Ano 	3.558,50 	1º Ano
+850,00 	2º Ano 	424,90 	2º Ano
+1.500,00 	3º Ano 	500,00 	3º Ano
+690,00 	4º Ano 	230,00 	4º Ano
+( 	) 	( 	) 	( 	) 	( 	)1 	2 	3 	4
+2.000,00 850,00 1.500,00 69000
+V1= 	+ 	+ 	+
+1,1 	1,1 	1,1 	1,1
+( 	) 	( 	) 	( 	) 	( 	)1 	1 	1 	1
+3.558,50 	424,90 	500,00 	230,00
+V2= 	+ 	+ 	+
+1,1 	1,1 	1,1 	1,1
+
+-- 47 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+48
+EXERCÍCIO RESOLVIDO
+1. Suponha a seguinte proposta feita por um "amigo seu": você tem uma quantia a receber no valor de
+R$ 10.000,00, com vencimento em seis meses e seu amigo propõe a troca por um cheque no valor de R$
+XXX que vence em três meses. Sabendo-se que a taxa de juros praticada pelo mercado é de 3,00% a.m.,
+pergunta-se: a troca foi vantajosa?
+Resolução: Para sabermos se são equivalentes, trazemos os dois capitais à mesma data focal zero.
+Se após essa operação os valores forem idênticos, dizemos que são equivalentes, e se os valores
+forem diferentes, não são equivalentes. Veja pela figura que levamos os dois valores à mesma data
+focal. Assim, temos:
+2. Suponha que nosso amigo "Chico Seguro" irá receber daqui a um ano R$ 8.500,00 referente à venda de
+um veículo. Mas, como de costume, queria o dinheiro antes. Então, sugeriu a "Zé Amarrado" a troca des-
+se direito por uma nota promissória no valor de R$ 6.400,00. Sabendo-se que a taxa de juros praticada
+pelo mercado é de 5,00% a.m., pergunta-se: essa troca foi vantajosa para "Chico Seguro"?
+Resolução: Para sabermos se são equivalentes, trazemos os dois capitais à mesma data focal. Des-
+ta vez, vamos agir diferentemente: ao invés de levar para a data focal zero, vamos levar o valor
+com a data mais distante (Um ano) para a data mais próxima. Após essa operação, comparamos
+os dois valores. Veja pela figura que levamos o valor Um (R$ 8.500,00) para data do valor Dois (R$
+6.400,00). Assim, temos:
+10.000
+9.000
+6 (meses)	3	0
+V 3 = 9.000,00 = 8.236,25
+(1+0,03) 3
+V 6 = 10.000,00 = 8.374,84
+(1+0,03) 6
+Como podemos observar, V 3 < V 6 . Portanto, a troca proposta não vale a pena.
+V 12 = 8.500,00 = 6.342,84
+(1+0,05) 6
+V 6 = 6.400,00
+Como podemos notar V 12 < V 6 , ou seja, na data focal seis os valores são distintos e o valor de
+8.500,00 trazido à data focal seis é inferior ao valor sugerido. Portanto, a troca proposta vale
+a pena.
+8.500
+6.400
+12 (meses)	6	0
+
+-- 48 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+49
+3. Os empresários costumam substituir dívidas por outras dívidas. Suponha que um desses empresários
+possui um título no valor de R$ 77.000,00, com vencimento daqui a dois meses e resolve trocá-lo por
+outro título que vence em cinco meses. Sabendo-se que o banco adota uma taxa de juros de 9% a.m.,
+pergunta-se: qual o valor do novo título?
+Resolução: Para saber o valor do novo título, levamos o título Um (77.000,00) para a data focal
+cinco, ou seja, para cinco meses. Vejamos pela figura como ficará o título Um. Desta forma, temos:
+4. Ainda acerca da troca de dívidas, veja a seguinte situação: um empresário possui dois títulos com
+valores de R$ 100.000,00 com vencimento para hoje e R$ 90.000,00 com vencimento em seis meses. O
+empresário propõe ao banco a substituição da dívida por um pagamento de R$ 140.000,00 em três me-
+ses e o saldo devedor para pagamento em nove meses. Sabendo que a taxa de juros cobrada foi de 10%
+a.m., determine o saldo devedor a ser pago.
+Como tratamos de equivalência de capitais, o valor a ser encontrado representa o valor do
+título na data focal determinada. Calculando:
+VF=77.000,00 (1,295929)
+VF=R$ 99.717,23
+0 	2
+77.000 	X = ?
+5
+(5 - 2 = 3 meses)
+( 	)n
+VF=VP 1+i
+( 	)3
+VF=77.000,00 1+0,09
+140.000,00
+0
+100.000,00 	90.000,00
+3 	6 	9
+X = ?
+90.000,00
+(9 - 3 = 6 meses)
+(9 - 3 = 6 meses)
+
+-- 49 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+50
+VF1 = 100.000,00 (1+0,10)9
+VF1 = 100.000,00 (2,357948)
+VF1 = R$ 235.794,80
+VF2 = VP (1+i)n
+VF2 = 90.000,00 (1+0,10)3
+VF2 = 90.000,00 (1,331)
+VF2 = R$ 119.790,00
+VF3 = VP (1+i)n
+VF3 = 140.000,00 (1+0,10)6
+VF3 = 140.000,00 (1,771561)
+VF3 = R$ 248.018,54
+Deste modo, o valor que queremos determinar pode ser obtido da seguinte forma:
+X + VF3 = VF1 + VF2
+X + 248.018,54 = 235.794,80 + 119.790,00
+X = -248.018,54 + 35.794,80 + 119.790,00
+X = 92.433,74
+Logo, o valor que deverá ser pago na data focal nove é de R$ 92.433,74.
+( 	)n
+VF1=VP 1+i
+EXERCÍCIO PROPOSTO
+1. Uma loja de veículos apresenta duas opções de compras para seus clientes. Pergunta-se qual a melhor
+alternativa entre as opções abaixo.
+a) R$ 30.000,00 de entrada mais duas parcelas semestrais, sendo a primeira de R$ 50.000,00 e a segun-
+da de R$ 100.000,00;
+b) Pagamento efetuado em quatro parcelas trimestrais, sendo de R$ 40.000,00 as duas primeiras parce-
+las e de R$ 50.000,00 as duas restantes.
+2. Uma loja de roupas oferece um suéter por R$ 1.800,00, podendo este valor ser pago em três parcelas
+mensais e iguais, com a primeira parcela no ato da compra (entrada). Se um cliente propôs que o valor
+da terceira parcela fosse de R$ 1.000,00, qual seria o valor das outras duas parcelas, desde que fossem
+iguais, dada uma taxa de juros de 8% a.m.?
+3. Suponha um apartamento colocado à venda por parcelas semestrais de R$ 50.000,00, com o venci-
+mento da primeira parcela daqui a seis meses. Se alguém propuser a aquisição do bem em duas parce-
+las, uma hoje e a segunda daqui a um ano. Pergunta-se qual o valor das parcelas, dada uma taxa de juros
+de 20% a.s.?
+4. Supondo que você tem certa quantia de dinheiro que pode ser aplicado a uma taxa de 3,5% a.m. no
+mercado financeiro. Se você, ao invés de aplicar o dinheiro, emprestá-lo a um parente, quanto ele deverá
+devolver após um ano para que você não perca dinheiro?
+
+-- 50 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+51
+5. Ricardo tem duas dívidas que pretende transformar em uma apenas, com a primeira no valor de R$
+150.000,00 em 12 meses e a segunda no valor de R$ 300.000,00 em 24 meses. Qual será o valor da
+parcela para transformá-las em quatro parcelas semestrais e iguais, vencendo a primeiro daqui a seis
+meses? Dada uma taxa de juros de 25% a.a.
+6. Um tablet é vendido por R$ 600,00 à vista ou em três parcelas mensais de R$ 200,00 mais uma entra-
+da. Dada uma taxa de juros de 7% a.m., pergunta-se qual o valor da entrada?
+7. Voltando ao item anterior, este valor de entrada é considerado o quê?
+8. Um investidor aplicou R$ 100.000,00 a uma taxa de 25% a.a. para resgatar em seis meses, mas resol-
+veu resgatar antes (três meses) para realizar outros investimentos e resgatou parte dos recursos (R$
+30.000,00). Pergunta-se: quanto ele terá para resgatar nos seis meses?
+9. Determine o valor de X que torna os conjuntos de capitais equivalentes na data focal seis, consideran-
+do uma taxa de juros de 18% no período.
+10. Um vendedor oferece três possibilidades de compra de uma mesa cujo preço anunciado é de R$
+800,00. Qual a melhor alternativa?
+a) À vista com 5% de desconto;
+b) Em duas parcelas sem juros no valor de R$ 400,00;
+c) Em quatro parcelas sem entrada no valor de R$ 210,00.
+GABARITO
+1. Resposta: Alternativa A
+2. Resposta: 421,94
+3. Resposta: RS 76.388,89
+4. Resposta: R$ 18.132,82
+5. Resposta: R$ 102.296,12
+6. Resposta: 75,14
+7. Resposta: juros
+8. Resposta: R$ 80.082,26
+9. Resposta: R$ 1.224.43
+10. Resposta: alternativa A
+
+-- 51 of 96 --
+
+I - CAPITALIZAÇÃO SIMPLES E COMPOSTA
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+52
+Antes de seguir ao próximo tópico veja as seguintes questões, se tiver dúvida em responder
+algum dos conceitos volte ao material e apenas em seguida continue. Se não tiver dúvida siga
+em frente.
+1. 	Você sabe definir fluxo de capitais?
+2. 	Você sabe quando dois capitais são equivalentes?
+3. 	O que é trocar uma dívida?
+RECOMENDAÇÕES
+LINKS DA INTERNET
+SUGESTÕES DE LEITURA
+SUGESTÕES DE EXERCÍCIOS
+ADICIONAIS
+1. www.somatematica.com.br;
+2.www.bcb.gov.br;
+3. www.voceeseudinheiro.com.br
+1.Capítulo 	4 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes (2013).
+1. 	Capítulo 	4 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes (2013).
+TÓPICOS ADICIONAIS 	ONDE ENCONTRAR / O QUE FAZER
+CURIOSIDADE:
+Nos primeiros tempos da civilização, ninguém precisava de dinheiro. Os problemas começaram
+a surgir quando os homens passaram a viver em sociedade. Valia tudo: sal, tijolos, dentes de
+cachorro ou pedaços de bambu.
+Há dois mil anos, na Lídia, um pequeno país da Ásia Menor, iniciou-se a cunhagem da moeda, em
+ouro, prata, cobre, bronze e outros metais. Outros países copiaram e aperfeiçoaram o sistema.
+Grécia e Roma colocaram símbolos nacionais nas moedas. A primeira moeda de prata de valor
+e peso definidos surgiu no século VII A.C. na ilha grega de Egina.
+
+-- 52 of 96 --
+
+IIRENDAS CERTAS
+OU ANUIDADES
+Nesta unidade, vamos estudar um pouco sobre rendas certas ou
+anuidades, que serão utilizados durante o decorrer do curso e servem
+de base para toda operação relacionada à Matemática Financeira.
+Não sei se você percebeu, mas sempre falamos em pagamentos
+ou recebimentos, principalmente agora que já conhecemos o concei-
+to de equivalência de capitais. Na maioria das operações financeiras,
+temos uma sucessão de fatos (pagamentos ou recebimentos) que
+influenciam diretamente o resultado das nossas operações.
+Esta sequência também é conhecida como fluxo de capitais, que
+podem ser: aluguéis, salários, financiamentos, empréstimos, dentre
+outros. Para entendermos melhor estas movimentações, recorrere-
+mos ao conceito de fluxo de caixa, que pode ser entrada ou saída de
+recursos.
+Finalmente, o aspecto mais relevante desta unidade é a compre-
+ensão de que quando estamos constituindo um capital em uma data
+futura, temos uma capitalização, já quando queremos quitar uma dí-
+vida temos uma amortização.
+Objetivos:
+• Apresentar os principais conceitos inerentes ao tema;
+• Aplicar noções de anuidade;
+• Entender como se forma um fluxo de caixa.
+
+-- 53 of 96 --
+
+
+
+-- 54 of 96 --
+
+55
+II - RENDAS CERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+Se em algum momento da sua vida você realizou
+uma compra parcelada ou guardou dinheiro em
+poupança, você está diante de uma anuidade ou
+renda certa. Quando nosso objetivo é constituir
+um capital em uma data futura temos um proces-
+so de capitalização. Se por outro lado nosso ob-
+jetivo é pagar uma dívida temos um processo de
+amortização. Veja que a discussão gira em torno
+de entradas e saídas de recursos de forma suces-
+siva que é a característica principal desse assun-
+to, o processo de repetição de um pagamento ou
+recebimento. Veremos adiante os principais tópi-
+cos do tema e suas aplicações.
+O tópico a ser abordado agora tratará das rendas certas ou anuidades, que representam uma
+importante aplicação da Matemática Financeira e que percebemos facilmente no nosso cotidiano,
+desde o pagamento dos aluguéis até as compras parceladas.
+Voltando um pouco nos conceitos, vejamos o seguinte diálogo:
+"Chico Seguro" e "Zé Amarrado", em mais uma daquelas conversas sobre dinheiro, estavam com o se-
+guinte discurso – Chico Seguro diz que vai comprar um carro a prazo e Zé Amarrado ressalta o seguinte:
+você sabia, Chico, que quando nós compramos a prazo no valor da parcela tem um pedacinho de juros,
+além do valor que a gente deve? Chico sabiamente diz que sim. – Mas nós sabemos o que representa este
+valor a mais que faz parte da parcela?
+Logo, no valor da prestação que você está pagando existe uma parte do pagamento referente ao dinheiro
+tomado emprestado e outra parte referente aos juros. O processo de pagamento da dívida denomina-se
+amortização e o valor de cada parcela é denominada termo de uma anuidade ou prestação.
+Rendas certas ou anuidades UN 02
+"Não estimes o
+dinheiro nem em
+mais nem em
+menos do que
+aquilo que vale,
+porque ele é um
+bom servo e um
+mau amo"
+(Alexandre
+Dumas)
+Banco de Dados/NEaD
+Acho sim, mas com
+
+-- 55 of 96 --
+
+56
+II - RENDAS C ERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+Definições
+Classificação das anuidades
+Suponha uma série de capitais com suas respectivas datas e que se referem a uma data focal:
+Os termos R1, R2, R3 ... Rn são os termos (prestações).
+Os n1,n2,n3, ...nn são as datas de vencimento dos respectivos termos.
+Capitais 	Datas
+R1 	n1
+R2 	n2
+R3 	n3
+........ 	.......
+Rn 	nn
+CLASSIFICAÇÃO DAS ANUIDADES
+Quanto ao prazo Temporárias - quando a duração for limitada
+Constantes - quando a duração for ilimitada
+Quanto ao valor dos termos Constante - quando todos os termos são iguais
+Variável - quando os termos são diferentes entre si
+Quanto à forma de
+pagamento ou de
+recebimento
+Imediatas - os termos são exigidos a partir do primeiro
+período
+a)Postecipadas ou vencidas - se os termos são exigidos
+no fim do período
+b) Antecipadas - se os termos são exigidos no início dos
+períodos.
+Diferidas - os termos são exigidos a partir de uma data
+que não seja o primeiro período.
+a)Postecipadas ou vencidas - se os termos são exigidos
+no fim do período
+b) Antecipadas - se os termos são exigidos no início dos
+períodos.
+Quanto à periodicidade Periódicas - tem períodos iguais
+Não periódicas - períodos diferentes entre si
+Acho sim, mas com
+dedicação nos estudos,
+você poderá entender.
+Veja o seguinte exemplo:
+sua casa é própria ou
+alugada?
+
+-- 56 of 96 --
+
+57
+II - RENDAS C ERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+Modelo básico de anuidade
+(adotaremos este modelo em nosso curso)
+Na composição deste modelo, as anuidades devem ser simultaneamente:
+• Temporárias;
+• Constantes;
+• Imediatas e postecipadas;
+• Periódicas;
+• A taxa de juros "i" está referida ao mesmo período.
+Para melhor compreender o modelo vejamos um exemplo.
+Exemplo:
+Suponha que você adquiriu um aparelho LCD em quatro parcelas mensais de R$ 350,00 sem entrada.
+A primeira parcela será paga no mês seguinte, e na operação consta uma taxa de juros de 2% a.m. Qual
+seria o valor pago à vista?
+Resolução: Para solucionar o primeiro passo, trazemos os valores para a data focal zero. O somatório
+dos valores atuais é dado por:
+P = 343,14 + 336,41 + 329,82 + 323,34
+P = 1.332,71
+Porém colocando: R1 = R2 = R3 = R4 = R
+P = R [0,980392 + 0,961169 + 0,942322 + 0,923845]
+P = R [3,807728]
+Como nosso R = 350,00
+Temos que:
+P = 350,00 [3,807728]
+P = 1.332,71
+Assim, percebemos que o valor do LCD à vista é R$ 1.332,71. Outro detalhe relevante é que a diferença
+entre o valor do LCD a prazo e o valor à vista representa os juros pagos na operação.
+( 	) 	( 	) 	( 	) 	( 	)n 	n+1 	n+2 	n+3
+R1 	R2 	R3 	R4
+P= 	+ 	+ 	+
+1+i 	1+i 	1+i 	1+i
+( 	) 	( 	) 	( 	) 	( 	)1 	2 	3 	4
+350,00 	350,00 	350,00 	R350,00
+P= 	+ 	+ 	+
+1+0,02 	1+0,02 	1+0,02 	1+i
+( 	) 	( 	) 	( 	) 	( 	)n 	n 	n 	n
+R 	R 	R 	R
+Temos que P= 	+ 	+ 	+
+1+i 	1+i 	1+i 	1+i
+( 	) 	( 	) 	( 	) 	( 	)1 	2 	3 	4
+1 	1 	1 	1
+P= R 	+ 	+ 	+
+1+0,02 	1+0,02 	1+0,02 	1+0,02
+ 	
+ 	
+ 	
+ 	
+
+-- 57 of 96 --
+
+58
+II - RENDAS CERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+Valor atual do modelo básico
+Afinal, o que seria o valor atual do modelo básico? Este é o modelo correntemente utilizado pelas insti-
+tuições financeiras. É aquele que você financia e paga a primeira parcela depois de trinta dias ou mais.
+Veja a seguinte situação: você financiou um veículo em doze parcelas e depois de pagar seis, resolveu
+quitar a dívida. Qual seria o valor a pagar, já que as parcelas restantes ainda não venceram? Lembre-se
+de que deste valor devem ser descontados os juros, pois você está pagando antes do vencimento.
+Esta situação deve-se ao fato de que ao pagar antes do vencimento você está quitando uma dívida que
+não venceu. Logo, devem ser descontados os juros que você deveria pagar se efetuasse o pagamento
+apenas na data do vencimento.
+Vejamos o exemplo abaixo, onde a primeira coluna indica o valor do vencimento; a segunda, o tempo de
+vencimento; e a terceira, o valor a ser pago na data focal zero (hoje).
+Os valores no vencimento são iguais, contudo, na data focal zero (hoje) são diferentes, o que se deve ao
+fato de que as prestações que vencem mais tarde têm descontos maiores. O somatório dos valores na
+data focal zero é chamado de valor atual, que representa o valor que você pagaria se fosse quitar o em-
+préstimo. Para reforçar o conceito, vejamos como é realizado o cálculo do valor de uma parcela na data
+focal zero, supondo uma taxa de 2% a.m.
+Então, tanto faz pagar R$ 720,00 daqui a seis meses como pagar R$ 639,33 hoje, com taxa de juros de
+2% a.m.
+Graficamente, temos a seguinte situação:
+Valor do vencimento 	Vencimento 	Valor hoje
+720,00 	6 meses 	639,33
+720,00 	5 meses 	652,12
+720,00 	4 meses 	665,16
+720,00 	3 meses 	678,47
+720,00 	2 meses 	692,04
+720,00 	1 mês 	705,88
+720,00
+P= 	=639,33
+(1,02)6
+1
+R
+0 	2
+R
+3
+R
+4
+R
+5
+R 	R 	R
+n - 1 	n
+Períodos
+
+-- 58 of 96 --
+
+59
+II - RENDAS C ERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+O somatório do valor atual dos termos na data zero é dado por:
+P=
+A fórmula é dada por:
+P = R x a n i, lê-se " a cantoneira i" ou simplesmente "a, n, i".
+( 	) 	( 	) 	( 	) 	( 	)1 	2 	3 	n
+R1 	R2 	R3 	R4
++ 	+ 	+…+
+1+i 	1+i 	1+i 	1+i
+P = valor principal (valor atual ou à vista);
+n = número de termos (prestações);
+R = termos (prestações);
+i = taxa de juros.
+o fator a n i é dado por:
+Exemplo:
+Suponha a aquisição de um veículo em quatro parcelas mensais de R$ 2.626,24 sem entrada. Com a pri-
+meira parcela a partir do mês seguinte, pergunta-se: qual o valor do veículo à vista?
+Resolução
+n = 4
+i = 2%
+R = 2.626,24
+P= ?
+Calculando o valor do fator a n i
+a n i =
+a 4 2 = (1,02)4 - 1
+0,02 (1,02)4
+a 4 2 = 1,082432 - 1
+0,02 (1,082432)
+a 4 2 = 0,082432
+0,0216486
+a 4 2 = 3,807721
+Desta forma, temos:
+P = 2.626,24 x 3,807721 = R$ 10.000,00, ou seja, é o valor do veículo à vista.
+an i (1 + i)n - 1
+i (1 + i)n
+=
+( 	)
+( 	)
+n
+4
+1+0,02 	- 1
+0,02 1,02
+
+-- 59 of 96 --
+
+60
+II - RENDAS CERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+Podemos analisar também sob outra perspectiva:
+a) Fluxo de caixa constante, série uniforme ou �luxo homogêneo:
+Suponha um fluxo de caixa que representa um empréstimo de R$ 100,00 em três parcelas de R$ 40,00.
+Na ótica do emprestador, são representados:
+• Três períodos de tempo (três meses);
+• Um fluxo de saídas de recursos no valor de R$ 100,00;
+• Três fluxos de entradas no valor de R$ 40,00.
+Na ótica do tomador do empréstimo, o fluxo representa:
+• Três períodos de tempo (três meses);
+• Um fluxo de entrada de recursos no valor de R$ 100,00;
+• Três fluxos de saídas no valor de R$ 40,00.
+b) Fluxo de caixa variável ou �luxo homogêneo
+Suponha um fluxo de caixa que representa um empréstimo de R$ 100,00 em três parcelas mensais, sen-
+do a primeira de R$ 20,00, a segunda de R$ 60,00 e a terceira de R$ 40,00.
+Na ótica do emprestador, são representados neste fluxo:
+• Três períodos de tempo (três meses);
+• Um fluxo de saídas de recursos no valor de R$ 100,00;
+100
+40	40	40
+100
+60
+40
+20
+
+-- 60 of 96 --
+
+61
+II - RENDAS CERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+• Três fluxos de entradas no valor de R$ 20,00, R$ 40,00 e R$ 60,00.
+Na ótica do tomador do empréstimo, o fluxo representa:
+• Três períodos de tempo (três meses);
+• Um fluxo de entrada de recursos no valor de R$ 100,00;
+• Três fluxos de saídas no valor de R$ 20,00, R$ 40,00 e R$ 60,00.
+O valor da seta de R$ 100,00 pode representar entrada ou saída de recursos, dependendo da ótica de
+visão (emprestador e tomador de empréstimo). Logo, não existe convenção estabelecida em relação ao
+sentido das setas representativas dos fluxos, mas devemos observar os sentidos dos fluxos, que devem
+ser opostos à linha do tempo quanto à entrada e saída.
+Montante do modelo básico
+Em um processo de capitalização onde se aplica parcelas iguais e sucessivas tais como uma aplicação
+financeira de mesmo valor (R), periódicas e postecipadas, a uma determinada taxa de juros i. Temos
+como problema determinar o montante denominado de "S" na data focal "n", resultante desse processo
+de capitalização. Podemos representar graficamente da seguinte forma:
+Define-se o montante como o somatório dos montantes de cada parcela R na data focal n. Ou seja, leva-
+mos todos os valores a uma data futura (data focal) e a soma de todos representa nosso "S".
+S=R s n¬ i ou ainda,
+Exemplo:
+Suponha a aquisição de um veículo à vista por R$ 50.000,00 daqui a 12 meses. Admitindo-se que a pes-
+soa irá poupar uma determinada quantia mensal que será aplicada em títulos de renda fixa rendendo
+2,2% a.m. de juros compostos. Determine quanto é necessário poupar mensalmente para conseguir
+compara o veículo.
+Resolução:
+1
+R 	R 	R
+R
+S
+2 	3 	n-1 	n
+} R
+( )
+S
+R= 	1
+s n¬ i
+
+-- 61 of 96 --
+
+62
+II - RENDAS CERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+S = 40.000,00
+n = 12 meses
+i = 2,2% a.m.
+(*)
+(*) para maiores detalhes ver Mathias e Gomes (2013) pag. 196-197.
+Esse tipo de operação é muito útil nos dias atuais, especialmente quando queremos fazer uma pou-
+pança para adquirir um bem qualquer, podemos utilizar essa operação de montante do modelo básico.
+( 	)12
+1,022 	- 1 1,298407-1 0,298407
+s 12¬ 2,2= 	= 	= 	=13,563955
+0,022 	0,022 	0,022
+S
+R= s n¬ i
+50.000,00
+R= 	=3.684,72
+s n¬ i 13,563955
+EXERCÍCIO RESOLVIDO
+1º) Uma imobiliária divulgou em seu site a seguinte informação: “venda de um imóvel pelo valor de R$
+240.000,00”. Conforme os tipos de pagamentos citados acima, vamos elaborar um fluxo de caixa e iden-
+tificar se ele corresponde ao modelo homogêneo ou heterogêneo de diagrama?
+Resolução:
+No modelo1, com cinco parcelas mensais, sucessivas e iguais, temos:
+4	3	2	1	0
+à vista 	30 dias 	60 dias 	90 dias 	120 dias
+48.000,00	48.000,00	48.000,00	48.000,00	48.000,00
+Observando o fluxo acima, verificamos o pagamento de mesmo valor (R$ 48.000,00), distribuídos
+em 120 dias. Trata-se, portanto, de um fluxo de caixa homogêneo. Como o primeiro pagamento
+ocorreu no primeiro mês, dizemos que foi antecipado.
+Modelo 2, com quatro parcelas mensais e iguais, sendo a primeira de R$ 80.000,00, a segunda de
+R$ 60.000,00, a terceira de R$ 40.000,00 e a última de R$ 60.000,00, sem entrada.
+Observando o fluxo acima, verificamos pagamentos de valores distintos (R$ 80.000,00, R$
+60.000,00, R$ 40.000,00 e 60.000,00), distribuídos em 120 dias. Trata-se, portanto, de um fluxo
+de caixa heterogêneo. Como o primeiro pagamento ocorre apenas no fim do primeiro período, é
+classificada assim como uma série postecipada.
+4	3	2	1	0
+à vista 	30 dias 	60 dias 	90 dias 	120 dias
+80.000,00
+60.000,00 	60.000,00
+40.000,00
+
+-- 62 of 96 --
+
+63
+II - RENDAS C ERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+2º) Um aparelho de LCD custa R$ 5.000,00 à vista; porém, pode ser parcelado em dez vezes mensais sem
+entrada. Considerando uma taxa de 3% a.m., qual o valor das prestações a serem pagas?
+Resolução:
+Onde:
+P = 5.000,00
+n = 10m
+i = 3% a.m.
+Calculando-se a n i, temos:
+a 4 2 = 586,14
+Portanto, o comprador deverá pagar dez parcelas mensais no valor de R$ 586,14.
+3º) Uma motocicleta é vendida por R$ 20.000,00 à vista ou em doze parcelas mensais de R$ 1.949,74.
+Qual a taxa de juros cobrada na operação?
+Resolução:
+P = R a n|i
+Assim, temos: 20.000,00 = 1.949,74 a 12| i
+a 12| i = 20.000,00 = 10,257778
+1.974, 74
+Como a 12| i =
+O problema é encontrar a taxa de juros i que satisfaça a desigualdade
+Como não conseguimos determinar de forma direta, vamos determinar por tentativa e erro ou
+por meio de tabelas disponibilizadas. Uma aproximação interessante seria por meio da seguinte
+fórmula:
+P
+R= a n|i
+( 	)
+1,343916-1
+a 4|2= 0,03 1,343916
+( 	)
+( 	)
+4
+4
+1,03 	- 1
+a 4 2=
+0,03 1,03
+5.000,00
+R= 	=586,14
+8,530297
+( 	)
+( 	)
+12
+12
+1+i 	-1
+i 1+i
+( 	)
+( 	)
+12
+12
+1+i 	-1=10,257778
+i 1+i
+2
+1 	an|i
+i0= 	-
+an|i 	n
+
+-- 63 of 96 --
+
+64
+II - RENDAS C ERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+i0=0,0974869-0,0712345
+i0=2,625% a.m.
+A taxa que foi calculada é uma aproximação. O auxílio de uma calculadora financeira facilita bas-
+tante este tipo de cálculo.
+1 	10,257778
+i0= 	-
+10,257778 	144
+EXERCÍCIO PROPOSTO
+As lojas muitas vezes utilizam-se do artifício de dividir em suaves parcelas para o consumidor não
+prestar atenção no valor total que será pago. Fique ligado!
+DICA!
+1. Suponha um empréstimo no valor de R$ 60.000,00 que deve ser pago em um prazo de dez meses,
+em dez parcelas mensais e iguais, com taxa de 2% a.m. Determine o valor das parcelas.
+2. Um financiamento no valor de R$ 80.000,00 é concedido para ser amortizado em oito pagamentos mensais
+e iguais. A taxa de juros contratada é de 1% a.m. Com base nestas informações, determine o valor da parcela.
+3. Dado um financiamento no valor de R$ 120.000,00 concedido para ser amortizado em dez anos
+com parcelas mensais e iguais, com uma taxa de juros de 1% a.m. Com estas informações, determine
+o valor de cada parcela mensal.
+4. Uma loja de eletrodomésticos faz a seguinte propaganda: um aparelho de LCD em 15 parcelas men-
+sais de R$ 125,40. Considerando uma taxa de juros de 5% a.m., qual o valor à vista do aparelho?
+5. Uma loja de departamento vende um aparelho de ar condicionador com duas possibilidades de
+pagamento:
+a) Em doze parcelas mensais no valor de R$ 97,49;
+b) Em vinte e quatro parcelas mensais de R$ 61,50.
+Sabendo-se que as duas possibilidades são sem entrada e que a taxa de juros é de 2,5% a.m., qual a
+melhor alternativa de compra?
+6. Admitindo-se que o valor de um veículo à vista é R$ 50.000,00, mas foi financiado em 24 parcelas
+sem entrada e dada uma taxa de juros de 3% a.m., qual o valor da parcela a ser paga?
+7. Dois amigos em uma "conversa de bar" falavam sobre a aquisição de um veículo, que, para o primei-
+ro, foi um ótimo negócio, pois adquiriu o bem à vista por R$ 30.000,00 em parcelas mensais e iguais
+de R$ 1.326,06, sem entrada. Como o valor da parcela era baixo, o amigo considerou que o negócio
+foi bom. Dada uma taxa de juros de 4% a.m., quantas parcelas serão necessárias para quitar o bem?
+8. Zé Amarrado tem 24 anos e está analisando a possibilidade de investir em um plano de aposenta-
+doria privada. Seus planos são de aposentadoria com 55 anos, pretendendo manter uma renda mensal
+de R$ 3.700,00. Considerando uma taxa de juros de 8% a.a., quanto é necessário depositar a partir de
+hoje para obter tal quantia?
+
+-- 64 of 96 --
+
+65
+II - RENDAS C ERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+Sei que posso parecer um pouco repetitivo, mas estas dicas para realizar um
+financiamento de veículo valem ouro:
+• Tente dar o maior valor de entrada possível;
+• Peça isenção da TAC – Isto sempre funciona para financiamentos de veículos;
+• Pesquise as taxas em vários bancos;
+• Não pague em mais do que 24 meses;
+• Se estão dizendo que a taxa é zero, procure outra concessionária da marca e diga que você não
+quer financiar o veículo, que você quer pagar à vista. Veja como o preço muda;
+• Jamais atrase uma parcela.
+DICA!
+9. Sabendo que um veículo que custa R$ 30.000,00 à vista é financiado em vinte parcelas mensais
+e sucessivas, além de uma entrada de R$ 7.500,00.
+Adotando uma taxa de juros de 15% a.a., com capi-
+talização composta e a primeira parcela com venci-
+mento após trinta dias da compra, calcule o valor das
+parcelas.
+10. Nosso velho amigo Chico Seguro pretende trocar
+o carro daqui a dezoito meses, pretendendo "colocar"
+na troca a quantia de R$ 18.000,00. Sabendo-se que
+o rendimento da poupança é de 1,5% a.m., quanto ele
+deve depositar mensalmente a fim de obter o valor
+no prazo estipulado?
+11. Zé Amarrado está pensando em fazer outro cur-
+so superior em uma universidade privada e para isso
+pretende aplicar R$ 300,00 por mês durante 36 meses
+no banco INVESTIMENTO S/A. que remunera (paga)
+2% a.m. sobre o saldo credor. Qual será o montante
+acumulado após o último depósito?
+GABARITO
+1) R$ 6.679,59
+2) R$ 10.455,22
+3) R$ 1.721,65
+4) R$ 1.301,60
+5) A primeira é a melhor alternativa
+6) R$ 2.952,37
+7) 60 parcelas
+8) R$ 372,57
+9) R$ 1.278,46
+10) R$ 865,52
+11) R$ 15.598,31
+
+-- 65 of 96 --
+
+66
+II - RENDAS C ERTAS OU ANUIDADES
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+http://www.emprestimo.org
+Antes de seguir ao próximo tópico veja as seguintes questões, se tiver dúvida em responder
+algum dos conceitos volte ao material e apenas em seguida continue. Se não tiver dúvida siga
+em frente.
+1. 	Você sabe o que é uma renda certa?
+2. 	É o que é uma anuidade?
+RECOMENDAÇÕES
+LINKS DA INTERNET
+SUGESTÕES DE LEITURA
+SUGESTÕES DE EXERCÍCIOS
+ADICIONAIS
+1.www.youtube.com/watch?v=Ej2bxSTwtPM
+2. www.youtube.com/watch?v=brz-litlQSE
+3. www.somatematica.com.br;
+4.www.bcb.gov.br.
+1. Capítulo 5 do livro Matemática Financeira de
+Washington Franco Mathias e José Maria Gomes
+(2013).
+2. 	Capítulo 	5 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes (2013).
+TÓPICOS ADICIONAIS 	ONDE ENCONTRAR / O QUE FAZER
+LENDAS DO FINANCIAMENTO DE VEÍCULO
+• “Financie seu veículo com taxa zero”: Mentira, mentira, mentira. Isto
+não existe. O valor dos juros está embutido no preço da venda;
+• Financie um percentual do seu zero quilômetro com taxa zero: men-
+tira muito utilizada pelas grandes montadoras. Mais uma vez, não
+existe financiamento de veículo com taxa zero. O valor está embutido
+no preço;
+• A TAC no financiamento de veículo é obrigatória: mentira. Negue-se a
+pagá-la;
+• Nossa taxa para financiamento de veículo não muda conforme o valor
+financiado: mentira. Quanto maior o valor financiado do veículo, maior
+a taxa utilizada;
+• Pague fácil em 84 meses: financiando o veículo desta forma você vai pagar dois carros;
+• Só aceitamos financiamentos de veículos do banco abc. Mude de concessionária urgentemente.
+
+-- 66 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+67
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+IIISISTEMAS DE AMORTIZAÇÃO
+DE EMPRÉSTIMOS
+Neste tópico, vamos estudar um pouco sobre empréstimos,
+que contemplam todos os conteúdos vistos até o momento no
+decorrer do curso.
+No mundo das finanças, as dívidas surgem sempre quando
+determinado recurso é emprestado por um período de tempo
+determinado. Se você assume uma dívida, dizemos que tem
+uma obrigação a pagar, e que essa obrigação deverá ser paga
+em um momento futuro. Desta forma, surge a figura dos juros
+como forma de restituição do capital.
+Nesta seção especificamente observaremos que, os princi-
+pais problemas do tema amortização e empréstimos residem na
+forma como os reembolsos serão executados.
+Finalmente, o aspecto mais relevante desta seção é enten-
+der que os juros sempre serão calculados sobre o saldo devedor.
+Objetivos:
+• Apresentar os principais conceitos sobre empréstimos;
+• Apresentar os principais sistemas de amortização;
+• Classificação das modalidades de amortização.
+• Apresentar os principais conceitos sobre inflação;
+• Definir taxa nominal e taxa real de juros.
+
+-- 67 of 96 --
+
+
+
+-- 68 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+69
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+Provavelmente que em algum momento de sua
+vida, você já tenha realizado alguma operação de
+empréstimo. Se não, vejamos o seguinte: você tem
+cartão de crédito? Caso tenha, é provável que você
+já 	tenha emprestado dinheiro à operadora do seu
+cartão de crédito objetivando devolvê-lo na data
+do pagamento da fatura. Então estas operações nos
+acompanham muito mais do que podemos imaginar.
+Neste tópico, veremos as modalidades e os concei-
+tos sobre a temática.
+O empréstimo é uma modalidade de dívida e surge
+quando uma determinada quantia é emprestada
+por um período de tempo determina-
+do. Quem contraiu a dívida é obrigado
+a devolver (restituir) o valor tomado
+(principal) acrescidos dos juros devi-
+dos. Os empréstimos podem ser de cur-
+to, médio ou longo prazo. As formas de
+cálculo são na maioria das vezes semelhantes, mas nas operações de longo prazo temos
+algumas características específicas que os diferenciam das características de curto e mé-
+dio prazo.
+O principal tópico de diferença entre os prazos dos empréstimos reside na forma de reem-
+bolso adotado e a forma de determinação dos juros efetivamente cobrados nos empréstimos
+de longo prazo. Vale ressaltar que tratamos aqui de juros compostos e os juros sempre serão
+calculados sobre o saldo devedor.
+Por fim é importante ressaltar que os juros sempre serão calculados sobre o saldo devedor.
+Empréstimos UN 03
+"Se o dinheiro for
+a sua esperança
+de independência,
+você jamais a terá.
+A única segurança
+verdadeira consiste
+numa reserva
+de sabedoria, de
+experiência e de
+competência"
+(Henry Ford)
+Banco de Dados/NEaD
+Se sua intenção for ficar mais
+pobre, a decisão foi ótima. Se
+você quer sair dessa situação
+devedora, você fez o que não
+deveria.
+
+-- 69 of 96 --
+
+70
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+Alguns termos utilizados para facilitar
+a compreensão de conceitos utilizados
+Sistemas de amortização de empréstimos
+Credor: Pessoa ou instituição que fornece o empréstimo.
+Devedor: Pessoa ou instituição que recebe o empréstimo.
+Encargos Financeiros: Custo da operação (juros) para o devedor que retorna para o credor.
+Amortização: Pagamento do principal (capital emprestado), geralmente por meio de parcelas periódi-
+cas.
+IOF: Imposto sobre Operações Financeiras.
+Saldo Devedor: Valor da dívida em um determinado momento, depois de deduzido o valor já pago ao
+credor a título de amortização.
+Prestação: É composta pela soma do valor da amortização mais os encargos financeiros devidos em
+determinado período.
+Carência: É o período concedido ao credor para início do pagamento do principal. Pode também ser
+utilizada para postergar o início do pagamento dos juros.
+Por diversas vezes, recorremos ao crédito para a compra de um bem desejado, principalmente daque-
+les que demandam maiores quantias, como por exemplo, uma casa, um carro, etc. Este tipo de dívida
+geralmente é pago em períodos longos, ou seja, será amortizado mediante pagamentos sucessivos e
+periódicos.
+A forma como a dívida será paga, ou seja, a liquidação progressiva de um determinado valor represen-
+ta a parcela, que, por sua vez, é composta do capital mais juro mais outras taxas envolvidas.
+Você , já comprou ou deve conhecer alguém que já tenha comprado a prazo, com isso, deve ter per-
+cebido que o valor da compra a prazo foi acrescido em relação ao valor da comprado à vista? Esta
+diferença de valores representa os juros e as taxas embutidas na operação. Determinar o percentual
+de cada um desses fatores é o objetivo do estudo do tema amortização.
+A forma de cálculo das parcelas e da composição do saldo devedor é determinada pelo sistema de
+amortização utilizado. Vamos a partir de agora determinar quais e como são calculados os valores em
+cada um deles.
+Se sua intenção for ficar mais
+pobre, a decisão foi ótima. Se
+você quer sair dessa situação
+devedora, você fez o que não
+deveria.
+
+-- 70 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+71
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+Sistema de Amortização Constante (SAC)
+Neste sistema, as parcelas de amortização são iguais, como sugere sua denominação. Os juros são
+decrescentes, visto que incidem sobre o saldo devedor – restante a amortizar – e, consequentemente,
+as parcelas são decrescentes.
+O cálculo do valor das amortizações é simples: basta dividir o valor principal – Empréstimo, Valor Fi-
+nanciado ou Aplicação – pelo número de prestações. No cálculo dos juros, leva-se em conta sempre o
+saldo devedor do período imediatamente anterior. Podemos representar o sistema SAC graficamente
+da seguinte forma:
+Exemplo:
+elaborar uma planilha de amortização para o financiamento de um barco que foi adquirido por R$
+180.000,00, sem entrada pelo sistema de amortização SAC, com taxa de juros de 10% a.a.
+Resolução
+1º Passo: Cálculo das Amortizações:
+Observação importante: Observe que o valor da prestação também apresenta decréscimo – valor a
+menos na prestação – igual. Em outras palavras, as prestações diminuem o valor de R$ 4.500,00 todo
+mês, isto é, 10% do valor da amortização. Tal observação não é coincidência, o decréscimo no SAC
+corresponde ao produto da taxa de juros unitária pelo valor da amortização.
+O método de amortização SAC possui ainda diversos desmembramentos oriundos da forma de e do
+prazo de pagamento da obrigação. Vejamos:
+Períodos
+Amortização
+Juro
+1 	2 	3 	4	0
+P 	Financiamento 	180.000,00
+A = 	= 	= 	=45.000,00=A =A =A
+t 	4	n 	de prestaçoes
+Mês 	Saldo Devedor 	Amortização 	Juros 	Prestação
+{t 	(SDt = SD t-1 - A1 ) 	(A 1 ) 	(J = i x SD t - 1 ) 	(Rt = A 1 + I 1 )
+0 	180.000,00 	- 	- 	-
+1 	135.000,00 	45.000,00 	18.000,00 	63.000,00
+2 	90.000,00 	45.000.00 	13.500,00 	58.500,00
+3 	45.000.00 	45.000.00 	9.000,00 	54.000,00
+4 	- 	45.000.00 	4.500,00 	49.500.00
+
+-- 71 of 96 --
+
+72
+III - SISTEMAS DE AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+SAC com prazo de carência, pagamento de juros
+durante a carência e prazo de utilização unitário
+Esta forma de empréstimo concede ao devedor um prazo para início da amortização. Vejamos um exem-
+plo: suponha um empréstimo de R$ 10.000,00 com um período de carência de três anos, com os juros
+sendo pagos anualmente, e sendo cobrada uma taxa de juros de 10% a.a. com o capital (principal) sen-
+do amortizado em quatro parcelas sucessivas e anuais.
+Exemplo: Determinando o valor da amortização
+Montando a tabela de pagamentos, temos:
+Graficamente, temos:
+No exemplo acima, observamos que o início do pagamento se deu no primeiro período. No entanto, res-
+saltamos que nos três primeiros períodos houve apenas pagamento dos juros e nenhuma amortização do
+saldo devedor. A partir do terceiro período, iniciou-se o período de amortização do saldo devedor. Logo, a
+parcela passou a ser composta da amortização acrescida da parcela dos juros.
+Na elaboração da tabela acima, devemos ter muito cuidado no momento de calcular o valor dos juros a
+serem pagos, pois eles sempre terão como base de cálculo o saldo devedor do período imediatamente
+inferior, por exemplo, no período cinco o valor dos juros cobrados foi de R$ 500,00, pois foi calculado so-
+bre o saldo devedor do período quatro (5.000,00). Vale observar também que o valor total pago foi de R$
+14.500,00, ou seja, R$ 4.500,00 a título de juros.
+10.000,00
+A= 	=2.500,00
+4
+Período 	Saldo devedor
+(SD t = SD t-1 - A 1 )
+Juros
+(J = i x SD t-1 )
+Amortização
+(A1 )
+Prestação
+(R T = A 1 + J 1 )
+0 	10.000,00 	- 	- 	-
+1 	10.000,00 	1.000,00 	- 	1.000,00
+2 	10.000,00 	1.000,00 	- 	1.000,00
+3 	7.500,00 	1.000,00 	2.500,00 	3.500,00
+4 	5.000,00 	750,00 	2.500,00 	3.250,00
+5 	2.500,00 	500,00 	2.500,00 	3.000,00
+6 	- 	250,00 	2.500,00 	2.750,00
+Total 	14.500,00
+2.750,00	3.000,00	3.250,00	3.500,00	1.000,00	1.000,00
+1 	2 	3 	4 	5 	6
+10.000,00
+
+-- 72 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+73
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+SAC com prazo de carência, capitalização
+dos juros e prazo de utilização unitário
+Nesta mesma lógica de financiamento, os emprestadores de dinheiro oferecem também uma possibi-
+lidade de pagamento dos juros após o período de carência. Esta transação é denominada capitalização
+dos juros, pois incidiram juros sobre juros. Esta operação é possível apenas quando acordado entre as
+partes, funcionando como um empréstimo adicional ao valor inicial.
+Podemos ainda classificar em dois tipos:
+1) Os juros capitalizados serão pagos no primeiro ano da amortização, com as amortizações calculadas
+em relação ao valor inicial emprestado.
+Vejamos o exemplo:
+Período 	Saldo devedor
+(SDt = SD t-1 - A1)
+Juros
+(J = i x SD t-1)
+Amortização
+(A1)
+Prestação
+(RT = A1 + J1)
+0 	50.000,00 	- 	- 	-
+1 	55.000,00 	- 	- 	-
+2 	60.500,00 	- 	- 	-
+3 	37.500,00 	16.550,00 	12.500,00 	29.050,00
+4 	25.000,00 	3.750,00 	12.500,00 	16.250,00
+5 	12.500,00 	2.500,00 	12.500,00 	15.000,00
+6 	- 	1.250,00 	12.500,00 	13.750,00
+Total 	74.050,00
+Podemos observar que ao final do terceiro ano ocorreu o pagamento dos juros capitalizados além da
+primeira parcela da amortização do capital (principal).
+2) Outra possibilidade seria o cálculo das amortizações em relação ao valor inicial emprestado mais os
+juros capitalizados durante a carência.
+No exemplo acima, o saldo devedor é determinado pela soma do capital tomado emprestado acrescido
+dos juros ocorridos durante o período, ou seja, 50.000,00 + 5.000,00 referente ao período 1 + 5.500,00
+referente ao período 2 + 6.050,00 referente ao período 3.
+Para se determinar o valor da amortização devemos somar o capital aos juros incorridos (dados acima).
+De tal modo, nosso valor a amortizar é 66.550,00 (50.000,00 + 5.000,00 + 5.500,00 + 6.050,00).
+Período 	Saldo devedor
+(SDt = SD t-1 - A1)
+Juros
+(J = i x SD t-1)
+Amortização
+(A1)
+Prestação
+(RT = A1 + J1)
+0 	50.000,00 	- 	- 	-
+1 	55.000,00 	- 	- 	-
+2 	60.500,00 	- 	- 	-
+3 	49.912,50 	16.637,50 	16.637,50
+4 	33.275,00 	4.991,25 	16.637,50 	21.628,75
+5 	16.637,50 	3.327,50 	16.637,50 	19.965,00
+6 	- 	1.663,75 	16.637,50 	18.301,25
+Total 	76.532,50
+
+-- 73 of 96 --
+
+74
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+SAC com prazo de carência, capitalização
+dos juros e prazo de utilização não unitário
+Estes casos ocorrem quando o desembolso é dividido em duas ou mais parcelas, assim as demais con-
+dições permanecem e o valor da entrada de recursos é parcelado. Suponha o exemplo do item anterior
+para verificarmos o que acontece com o financiamento.
+A diferença nos valores reside em um fluxo de parcelas mais uniforme, o que não interfere no resultado
+final do financiamento. Para comprovar que os valores não são alterados, basta colocá-los em uma mes-
+ma data focal. Assim, temos:
+Podemos observar que VB = VC, o que indica que, independentemente da forma como você recebeu o
+capital, o valor total a ser devolvido é o mesmo.
+Graficamente, temos:
+Período 	Saldo devedor
+(SDt = SD t-1 - A1)
+Juros
+(J = i x SD t-1)
+Amortização
+(A1)
+Prestação
+(RT = A1 + J1)
+0 	R$ 80.000,00
+1 	R$ 160.000,00 	R$ 	8.000,00 	R$ 	8.000,00
+2 	R$ 160.000,00 	R$ 16.000,00 	R$ 16.000,00
+3 	R$ 120.000,00 	R$ 40.000,00 	R$ 16.000,00 	R$ 56.000,00
+4 	R$ 	80.000,00 	R$ 40.000,00 	R$ 12.000,00 	R$ 52.000,00
+5 	R$ 	40.000,00 	R$ 40.000,00 	R$ 	8.000,00 	R$ 48.000,00
+6 	R$ 	- 	R$ 40.000,00 	R$ 	4.000,00 	R$ 44.000,00
+TOTAL 	R$ 160.000,00 	R$ 	64.000,00 	R$ 224.000,00
+80.000,00 	80.000,00
+VB= 	+ 	=152.727,27
+1,00 	1,10
+80.000,00 	16.000,00 	56.000,00 	52.000,00 	48.000,00 	56.000,00
+VC= 	+ 	+ 	+ 	+ 	+ 	=152.727,27
+1,00 	1,21 	1,33 	1,46 	1,61 	1,33
+R$ 60.000,00
+Fluxo de pagamento das parcelas
+Juros
+Amortização
+R$ 50.000,00
+R$ 40.000,00
+R$ 30.000,00
+R$ 20.000,00
+R$ 10.000,00
+R$ -
+1 	2 	3 	5	4 	6
+Analisando-se
+o gráfico, observamos
+que o valor da
+amortização permanece
+constante a partir do
+terceiro período, o que
+se deve à carência
+concedida. Anteriormente,
+nos períodos 1 e 2, ocorre
+apenas o pagamento
+dos juros contratados
+na operação.
+
+-- 74 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+75
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+Sistema de amortização francês (Price)
+Este sistema de amortização tem como característica principal o valor constante das parcelas em
+termos nominais. Durante o período de pagamentos, o devedor vai desembolsando o mesmo valor da
+prestação, sabendo que na composição do valor da parcela temos a amortização e os juros. Durante a
+vigência da série de pagamentos, o devedor vai pagando o mesmo valor da parcela, mas cabe ressaltar
+que esta parcela é composta por amortização e juros. Então, devemos observar que sua participação
+vai mudando conforme o andamento da série de pagamentos. Assim, apesar de o valor da parcela ser
+o mesmo, os percentuais de juros e de amortização vão se alterando.
+Veja pelo gráfico acima que o valor da parcela permanece inalterado (R$ 100,00) mais os valores re-
+ferentes a juros e amortizações vão se alterando durante o período de pagamentos.
+Para a presente modalidade de amortização, o valor dos juros é decrescente, o que implica dizer que
+a amortização é crescente em ordem progressiva. As principais utilizações desse sistema são: finan-
+ciamentos imobiliários, CDC e empréstimos.
+Para se determinar o valor da prestação (PMT), utilizamos a fórmula do valor presente (PV) do mo-
+delo básico de anuidades, onde:
+Neste método, a amortização não é linear como em outros métodos. O cálculo do saldo devedor é feito
+por meio da diferença entre o valor do início do período e a amortização realizada. Logo, o cálculo é
+dado por:
+Ressalta-se que n é o número total de prestações e (n-t) é o número de prestações a vencer. Isto impli-
+ca em que os juros são calculados tendo como base o saldo devedor do ano anterior.
+2	1
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+3 	4 	5 	6 	7 	8 	9
+Fluxo de pagamento das parcelas
+Juros
+Amortização
+( 	)-n
+1- 1+i
+PV=PMT x i
+( 	) ( 	)	- n-t
+1- 1+i
+SD=PMT x i
+
+-- 75 of 96 --
+
+76
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+Exemplo:
+Para exemplificar, vamos aceitar a seguinte situação de empréstimo adquirido junto a uma instituição
+financeira: valor do empréstimo R$ 10.000,00, taxa de juros contratada 10% a.a. e quatro parcelas
+anuais.
+Para a montagem da planilha, utiliza-se a fórmula da PMT para determinar o valor das parcelas refe-
+rente ao empréstimo. No caso dos juros, utilizamos a fórmula dos juros. Vamos à planilha:
+O fato de o período ser inferior à taxa contratada leva a uma cobrança de juros por um valor acima
+do informado, pois temos apenas oito meses. Assim, os juros são determinados por: 1 + i = 1,0112 =
+1,126825, o que significa que a taxa foi de 12,68% a.a.
+Além dos sistemas citados temos ainda outros existentes, porém de pouca utilização no Brasil, são eles:
+O sistema PRICE É uma variante do sistema francês que possui as seguintes características:
+• Utiliza a taxa proporcional simples (taxa nominal) ao invés da taxa equivalente composta;
+• Geralmente, o período das prestações (mensal) é menor do que o da taxa de juros (anual);
+• No cálculo, é utilizada a taxa proporcional ao período a que se refere a prestação, calculada
+a partir da taxa nominal.
+Exemplo:
+Suponha um empréstimo no valor de R$ 100.000,00, sem carência inicial, com uma taxa de juros
+contratada de 12% a.a. Sabendo que o empréstimo será pago em oito parcelas, vamos construir a
+planilha.
+O primeiro passo é determinar o fator, pois o número de parcelas (mensal) é inferior à taxa contratada
+(anual). Portanto, temos: a 8|1 = 7,651678
+Logo, R =
+Período 	Saldo devedor
+(SDt = SD t-1 - A1)
+Juros
+(J = i x SD t-1)
+Amortização
+(A1)
+Prestação
+(RT = A1 + J1)
+0 	R$ 10.000,00 	- 	- 	-
+1 	R$ 7.845,29 	R$ 1.000,00 	R$ 2.154,71 	R$ 3.154,71
+2 	R$ 5.475,11 	R$ 784,53 	R$ 2.370,18 	R$ 3.154,71
+3 	R$ 2.867,91 	R$ 547,51 	R$ 2.607,20 	R$ 3.154,71
+4 	R$ 0,00 	R$ 286,80 	R$ 2.867,91 	R$ 3.154,71
+SOMA 	R$ 2.618,84 	R$ 10.000,00 	R$ 12.618,84
+100.000,00=13.069,03
+7,651678
+T
+(meses)
+Saldo devedor
+(SDt = SD t-1 - A1)
+Amortização
+(A1)
+Juros
+(J = i x SD t-1)
+Prestação
+(RT = A1 + J1)
+0 	100.000,00 	- 	- 	-
+1 	87.930,97 	12.069,03 	1.000,00 	13.069,03
+2 	75.741,25 	12.189,72 	879,31 	13.069,03
+3 	63.429,63 	12.311,62 	757,41 	13.069,03
+4 	50.994,90 	12.434,73 	634,30 	13.069,03
+5 	38.435,82 	12.559,08 	509,95 	13.069,03
+6 	25.751,15 	12.684,67 	384,36 	13.069,03
+7 	12.939,63 	12.811,52 	257,51 	13.069,03
+8 	- 	12.939,63 	129,40 	13.069,03
+TOTAL 	- 	100.000,00 	4.552,24 	104.552,24
+
+-- 76 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+77
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+(a) Sistema Americano, onde o mutuário obriga-se a devolver o capital principal em apenas uma par-
+cela;
+(b) Sistema de Amortizações Variáveis, que tem como principal característica a devolução do capital
+principal em parcelas desiguais;
+(c) Sistema de Amortização Misto, representado basicamente pela média aritmética entre o
+sistema Francês (SF) e o sistema de amortização constante (SAC). 	DICA
+Caso tenha interesse
+em aprofundar seus
+conhecimentos
+sobre esses
+sistemas, consulte
+os autores: Mathias
+e Gomes (2013)
+cap. 7 e Assaf
+Neto (2012)
+cap. 12.
+EXERCÍCIO RESOLVIDO
+1) Suponha um empréstimo de R$ 200.000,00 com um período de carência de três anos, e que
+onde os juros serão pagos anualmente, que a uma taxa de juros cobrada é de 10% a.a. e o capital
+(principal) será amortizado em quatro parcelas sucessivas e anuais. Trabalharemos com o siste-
+ma SAC e período de carência.
+Resolução:
+Determinando o valor da amortização
+Montando a tabela de pagamentos, temos:
+Período 	Saldo devedor
+(SD t = SD t-1 - A 1 )
+Juros
+(J = i x SD t-1 )
+Amortização
+(A 1 )
+Prestação
+(RT = A 1 + J 1 )
+0 	R$ 200.000,00 	- 	- 	-
+1 	R$ 220.000,00 	- 	-
+2 	R$ 242.000,00 	- 	-
+3 	R$ 150.000,00 	R$ 66.200,00 	R$ 50.000,00 	R$ 116.200,00
+4 	R$ 100.000,00 	R$ 15.000,00 	R$ 50.000,00 	R$ 	65.000,00
+5 	R$ 	50.000,00 	R$ 10.000,00 	R$ 50.000,00 	R$ 	60.000,00
+6 	R$ 	- 	R$ 	5.000,00 	R$ 50.000,00 	R$ 	55.000,00
+Total 	R$ 96.200,00 	R$ 200.000,00 	R$ 296.200,00
+200.000,00=50.000,00
+4
+Graficamente, temos:
+No exemplo acima, observamos que o início do pagamento ocorreu no terceiro período e , que
+neste mesmo período se deu o iniciou do período de amortização do saldo devedor. Logo, a parcela
+passou a ser composta da amortização acrescida da parcela dos juros.
+55.000,00	60.000,00	65.000,00	116.200,00	-	-
+1 	2 	3 	4 	5 	6
+200.000,00
+
+-- 77 of 96 --
+
+78
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+2) Suponha um empréstimo no valor de R$ 30.000,00, com uma taxa de juros de 10% a.a., e um período
+de carência de três anos, com capitalização dos juros durante a carência e com prazo de utilização uni-
+tário. Monte a planilha de pagamentos.
+Resolução:
+3) Continuando com os dados do exercício anterior, vamos admitir que as amortizações sejam referen-
+tes ao capital acrescido dos juros capitalizados durante a carência.
+Resolução:
+Período 	Saldo devedor
+(SDt = SD t-1 - A1)
+Juros
+(J = i x SD t-1)
+Amortização
+(A1)
+Prestação
+(RT = A1 + J1)
+0 	30.000,00 	- 	- 	-
+1 	33.000,00 	- 	- 	-
+2 	36.300,00 	- 	- 	-
+3 	22.500,00 	9.930,00 	7.500,00 	17.430,00
+4 	15.000,00 	2.250,00 	7.500,00 	9.750,00
+5 	7.500,00 	1.500,00 	7.500,00 	9.000,00
+6 	- 	750,00 	7.500,00 	8.250,00
+Total 	44.430,00
+Observe que ao final do terceiro ano ocorreu o pagamento dos juros capitalizados, além da primei-
+ra parcela da amortização do capital (principal).
+No item acima, o saldo devedor é determinado pela soma do capital tomado emprestado, acrescido
+dos juros ocorridos durante o período do contrato, ou seja, R$ 30.000,00 mais R$ 3.000,00 refe-
+rentes ao primeiro período, mais R$ 3.300,00 referentes ao segundo período e mais R$ 3.630,00
+referentes ao terceiro período.
+Para se determinar o valor da amortização, devemos somar o capital aos juros incorridos (da-
+dos acima). Assim, o valor a ser amortizado é: R$ 39.630,00 (30.000,00 + 3.000,00 + 3.300,00 +
+3.630,00).
+Período 	Saldo devedor
+(SDt = SD t-1 - A1)
+Juros
+(J = i x SD t-1)
+Amortização
+(A1)
+Prestação
+(RT = A1 + J1)
+0 	30.000,00 	- 	- 	-
+1 	33.000,00 	- 	- 	-
+2 	36.300,00 	- 	- 	-
+3 	29.947,50 	9.982,50 	9.982,50
+4 	19.965,00 	2.994,75 	9.982,50 	12.977,25
+5 	9.982,50 	1.996,50 	9.982,50 	11.979,00
+6 	- 	998,25 	9.982,50 	10.980,75
+Total 	45.919,50
+
+-- 78 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+79
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+4) Vamos admitir um empréstimo no valor de R$ 150.000,00, sem carência inicial, , com uma taxa de
+juros contratada de 10% a.a. Sabendo que o empréstimo será pago em cinco parcelas, vamos construir
+a planilha.
+O primeiro passo a seguir é determinar o fator, pois o número de parcelas (mensal) é inferior à taxa
+contratada (anual). Desta forma, temos: a 5|10 = 3,790787
+Logo, R = 150.000,00 = 39.569,62
+3,790787
+5) Vamos admitir um empréstimo no valor de R$ 200.000,00, sem carência inicial, , com uma taxa
+de juros contratada de 12% a.a. Sabendo que o empréstimo será pago em oito parcelas, vamos
+construir a planilha.
+O primeiro passo a seguir é determinar o fator, pois o número de parcelas (mensal) é inferior à taxa
+contratada (anual). Assim, temos: a 8|1 = 7,651678
+Logo, R =
+O fato de o período ser inferior à taxa contratada leva a uma cobrança de juros por um valor aci-
+ma do informado, pois temos apenas oito meses. Portanto, os juros são determinados por: 1 + i =
+1,0112 = 1,126825, o que significa que a taxa foi de 12,68% a.a.
+Período 	Saldo devedor
+(SDt = SD t-1 - A1)
+Amortização
+(A1)
+Juros
+(J = i x SD t-1)
+Prestação
+(RT = dado acima)
+0 	R$ 	150.000,00 	- 	- 	-
+1 	R$ 	125.430,38 	R$ 	24.569,62 	R$ 	15.000,00 	R$ 	39.569,62
+2 	R$ 	98.403,80 	R$ 	27.026,58 	R$ 	12.543,04 	R$ 	39.569,62
+3 	R$ 	68.674,56 	R$ 	29.729,24 	R$ 	9.840,38 	R$ 	39.569,62
+4 	R$ 	35.972,39 	R$ 	32.702,16 	R$ 	6.867,46 	R$ 	39.569,62
+5 	- 	R$ 	35.972,38 	R$ 	3.597,24 	R$ 	39.569,62
+TOTAL 	- 	R$ 150.000,00 	R$ 	47.848,11 	R$ 197.848,10
+200.000,00=26.138,06
+7,651678
+Período 	Saldo devedor
+(SDt = SD t-1 - A1)
+Amortização
+(A1)
+Juros
+(J = i x SD t-1)
+Prestação
+(RT = dado acima
+0 	R$ 	200.000,00 	- 	- 	-
+1 	R$ 	175.861,94 	R$ 	24.138,06 	R$ 	2.000,00 	R$ 	26.138,06
+2 	R$ 	151.482,50 	R$ 	24.379,44 	R$ 	1.758,62 	R$ 	26.138,06
+3 	R$ 	126.859,27 	R$ 	24.623,23 	R$ 	1.514,83 	R$ 	26.138,06
+4 	R$ 	101.989,81 	R$ 	24.869,46 	R$ 	1.268,59 	R$ 	26.138,06
+5 	R$ 	76.871,65 	R$ 	25.118,16 	R$ 	1.019,90 	R$ 	26.138,06
+6 	R$ 	51.502,31 	R$ 	25.369,34 	R$ 	768,72 	R$ 	26.138,06
+7 	R$ 	25.879,27 	R$ 	25.623,03 	R$ 	515,02 	R$ 	26.138,06
+8 	R$ 	25.879,26 	R$ 	258,79 	R$ 	26.138,06
+TOTAL 	R$ 	200.000,00 	R$ 	9.104,47 	R$ 209.104,46
+
+-- 79 of 96 --
+
+80
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+EXERCÍCIO PROPOSTO
+1. Ao contrair um empréstimo no valor de R$ 16.000,00, um empresário pretende quitá-lo em quatro
+parcelas por meio do sistema SAC. Sabendo que a taxa de juros cobrada nessa operação é de 2% a.m.,
+determine o valor de cada parcela, sabendo que a primeira parcela vence com trinta dias.
+2. A empresa Corporações COPA S/A adquiriu um empréstimo no valor de R$ 1.200.000,00 com prazo
+de pagamento de setenta e dois meses. A taxa de juros contratada foi de 15% a.a., e as amortizações
+realizadas anualmente pelo sistema SAC, com carência de dois anos para início do pagamento. Elabore
+a planilha sabendo que os juros são cobrados durante a carência.
+3. Em um anúncio colocado na internet, consta um veículo à venda por R$ 60.000,00 de entrada mais
+seis parcelas trimestrais de R$ 24.000,00, com uma taxa de juros cobrada de 2,5% a.m. Determine o
+valor do veículo à vista.
+4. A empresa Conteúdo Participações emitiu títulos denominados debêntures, que possuem valor no-
+minal de R$ 60.000,00 e estão cotados atualmente em R$ 55.000,00, com taxa de juros contratada de
+12% a.a. sobre o valor nominal com pagamento trimestral de juros e data de vencimento para dois
+anos e meio. Pergunta-se: qual a taxa de rentabilidade trimestral do título?
+5. Suponha um empréstimo de R$ 120.000,00 com um período de carência de três anos, e que os juros
+serão pagos anualmente, que a taxa de juros cobrada é de 8% a.a. e o capital (principal) será amorti-
+zado em quatro parcelas sucessivas e anuais. Trabalharemos com o sistema SAC e período de carência.
+6. Suponha um empréstimo no valor de R$ 70.000,00, com uma taxa de juros de 17% a.a., período de
+carência de três anos, com capitalização dos juros durante a carência e com prazo de utilização unitá-
+rio. Monte a planilha de pagamentos.
+7. Vamos admitir um empréstimo no valor de R$ 350.000,00, sem carência para início de pagamento,
+com uma taxa de juros contratada de 12% a.a. Sabendo que o empréstimo será pago em oito parcelas,
+vamos construir a planilha.
+8. (Banco do Brasil 2010 - Cesgranrio) Considere um financiamento de R$ 100.000,00, sem entrada,
+a ser pago em cem prestações mensais, pelo Sistema de Amortização Constante (SAC). Sabendo-se
+que a taxa de juros, no regime de juros compostos, é de 1% ao mês, a prestação inicial, se o prazo de
+pagamento for duplicado, será reduzida em:
+(a) 100%.
+(b) 50%.
+(c) 25%.
+(d) 10%.
+(e) 5%.
+9. Um banco concede um financiamento de 80.000 UM para ser liquidado em oito pagamentos men-
+sais pelo SAC. A operação é realizada com carência de quatro meses, sendo juros capitalizados neste
+período e incorporados ao saldo devedor. A taxa efetiva de juros é 23% a.a. Construa a planilha deste
+financiamento.
+10. Um equipamento no valor de 50.000 UM está sendo financiado por um banco pelo prazo de seis
+anos. A taxa de juros contratada é de 21% a.a. pelo SF. O banco concede ainda uma carência de três
+anos para início dos pagamentos, sendo os juros cobrados neste período. Elabore a planilha deste
+financiamento.
+
+-- 80 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+81
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+GABARITO
+1)
+2)
+Pagamento
+Período 	Saldo Inicial 	Juros 	Amortização 	Total 	Saldo Final
+1 	R$ 16.000,00 	320 	4000 	4320 	12000
+2 	R$ 12.000,00 	240 	4000 	4240 	8000
+3 	R$ 	8.000,00 	160 	4000 	4160 	4000
+4 	R$ 	4.000,00 	80 	4000 	4080 	-
+Período 	Saldo devedor 	Amortização 	Juros 	Prestação
+0 	1.200.000,00 	- 	- 	-
+1 	1.200.000,00 	R$ 	- 	R$ 	180.000,00 	R$ 	180.000,00
+2 	1.200.000,00 	R$ 	- 	R$ 	180.000,00 	R$ 	180.000,00
+3 	1.062.915,70 	R$ 	137.084,30 	R$ 	180.000,00 	R$ 	317.084,30
+4 	905.268,76 	R$ 	157.646,95 	R$ 	159.437,36 	R$ 	317.084,30
+5 	723.974,77 	R$ 	181.293,99 	R$ 	135.790,31 	R$ 	317.084,30
+6 	515.486,68 	R$ 	208.488,08 	R$ 	108.596,22 	R$ 	317.084,30
+7 	275.725,50 	R$ 	239.761,30 	R$ 	77.323,00 	R$ 	317.084,30
+8 	R$ 	275.725,48 	R$ 	41.358,82 	R$ 	317.084,30
+TOTAL 	R$ 	1.200.000,00 	R$ 1.062.505,71 	R$ 2.262.505,80
+3) 172.003,50
+4) 4,0289%
+5)
+Resolução:
+Determinando o valor da amortização, 120.000,00 = 30.000,00
+4
+Montando a tabela de pagamentos, temos:
+Período 	sd 	sd 	Amortização 	Juros 	Prestação
+0 	R$ 120.000,00 	R$ 120.000,00
+1 	R$ 132.000,00 	R$ 129.600,00
+2 	R$ 145.200,00 	R$ 139.968,00
+3 	R$ 159.720,00 	R$ 81.445,44 	R$ 30.000,00 	R$ 39.720,00 	R$ 69.720,00
+4 	R$ 175.692,00 	R$ 51.445,44 	R$ 30.000,00 	R$ 	8.144,54 	R$ 38.144,54
+5 	R$ 193.261,20 	R$ 21.445,44 	R$ 30.000,00 	R$ 	5.144,54 	R$ 35.144,54
+6 	R$ 212.587,32 	-R$ 8.554,56 	R$ 30.000,00 	R$ 	2.144,54 	R$ 32.144,54
+TOTAL 	R$ 1.138.460,52 	R$ 120.000,00 	R$ 55.153,63 	R$ 175.153,63
+
+-- 81 of 96 --
+
+82
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+6)
+Resolução:
+Observe que ao final do terceiro ano ocorreu o pagamento dos juros capitalizados além da primei-
+ra parcela da amortização do capital (principal).
+7) O primeiro passo a seguir é determinar o fator, pois o número de parcelas (mensal) é inferior à
+taxa contratada (anual). Assim, temos: a 8|1 = 7,651678
+Logo, R = 350.000,00 = 45.741,60
+7,651678
+O fato de o período ser menor do que a taxa contratada leva a uma cobrança de juros por um valor
+acima do informado, pois temos apenas oito meses. Assim, os juros são determinados por: 1 + i =
+1,0112 = 1,126825, o que significa que a taxa foi de 12,68% a.a.
+8) Correta: alternativa C
+Período 	sd 	sd 	Amortização 	Juros 	Prestação
+0 	R$ 70.000,00 	R$ 70.000,00
+1 	R$ 77.000,00 	R$ 81.900,00
+2 	R$ 84.700,00 	R$ 95.823,00
+3 	R$ 93.170,00 	R$ 71.442,91 	R$ 17.500,00 	R$ 23.170,00 	R$ 40.670,00
+4 	R$ 102.487,00 	R$ 53.942,91 	R$ 17.500,00 	R$ 7.144,29 	R$ 24.644,29
+5 	R$ 112.735,70 	R$ 36.442,91 	R$ 17.500,00 	R$ 5.394,29 	R$ 22.894,29
+6 	R$ 124.009,27 	R$ 18.942,91 	R$ 17.500,00 	R$ 3.644,29 	R$ 21.144,29
+R$ 664.101,97 	R$ 70.000,00 	R$ 39.352,87 	R$ 109.352,87
+Período 	sd 	sd 	Amortização 	Juros 	Prestação
+0 	R$
+350.000,00
+R$
+350.000,00
+1 	R$
+307.758,40
+R$
+42.241,60
+R$
+3.500,00
+R$
+45.741,60
+2 	R$
+265.094,38
+R$
+42.664,02
+R$
+3.077,58
+R$
+45.741,60
+3 	R$
+222.003,73
+R$
+43.090,66
+R$
+2.650,94
+R$
+45.741,60
+4 	R$
+178.482,17
+R$
+43.521,56
+R$
+2.220,04
+R$
+45.741,60
+5 	R$
+134.525,39
+R$
+43.956,78
+R$
+1.784,82
+R$
+45.741,60
+6 	R$
+90.129,04
+R$
+44.396,35
+R$
+1.345,25
+R$
+45.741,60
+7 	R$
+45.288,73
+R$
+44.840,31
+R$
+901,29
+R$
+45.741,60
+8 	R$
+45.288,71
+R$
+452,89
+R$
+45.741,60
+TOTAL 	R$ 	349.999,98 	R$
+15.932,82
+R$
+365.932,80
+
+-- 82 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+83
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+9)
+10)
+Período 	Saque 	Amortização 	Juros 	Prestação
+0 	R$ 	80.000,00
+1 	R$ 	81.392,00
+2 	R$ 	82.808,22
+3 	R$ 	84.249,08
+4 	R$ 	85.715,02
+5 	R$ 	75.000,61 	R$ 10.714,41 	R$ 1.491,44 	R$ 	12.205,85
+6 	R$ 	64.286,20 	R$ 10.714,41 	R$ 1.305,01 	R$ 	12.019,42
+7 	R$ 	53.571,79 	R$ 10.714,41 	R$ 1.118,58 	R$ 	11.832,99
+8 	R$ 	42.857,38 	R$ 10.714,41 	R$ 	932,15 	R$ 	11.646,56
+9 	R$ 	32.142,97 	R$ 10.714,41 	R$ 	745,72 	R$ 	11.460,13
+10 	R$ 	21.428,56 	R$ 10.714,41 	R$ 	559,29 	R$ 	11.273,70
+11 	R$ 	10.714,15 	R$ 10.714,41 	R$ 	372,86 	R$ 	11.087,27
+12 	-R$ 	0,00 	R$ 10.714,41 	R$ 	186,43 	R$ 	10.900,84
+Período 	Saque 	Amortização 	Juros 	Prestação
+0 	R$ 50.000,00
+1 	R$ 50.000,00 	R$ 10.500,00 	R$ 10.500,00
+2 	R$ 50.000,00 	R$ 10.500,00 	R$ 10.500,00
+3 	R$ 50.000,00 	R$ 10.500,00 	R$ 10.500,00
+4 	R$ 45.089,85 	R$ 4.910,15 	R$ 10.500,00 	R$ 15.410,15
+5 	R$ 39.148,57 	R$ 5.941,28 	R$ 	9.468,87 	R$ 15.410,15
+6 	R$ 31.959,62 	R$ 7.188,95 	R$ 	8.221,20 	R$ 15.410,15
+7 	R$ 23.261,00 	R$ 8.698,63 	R$ 	6.711,52 	R$ 15.410,15
+8 	R$ 12.736,66 	R$ 10.525,34 	R$ 	4.884,81 	R$ 15.410,15
+9 	R$ 12.735,66 	R$ 	2.674,49 	R$ 15.410,15
+TOTAL 	R$ 352.195,70 	R$ 50.000,00 	R$ 	73.960,89 	R$ 123.960,90
+
+-- 83 of 96 --
+
+84
+III - SISTEMAS DE AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+Antes de seguir ao próximo tópico veja as seguintes questões, se tiver dúvida em responder
+algum dos conceitos volte ao material e apenas em seguida continue. Se não tiver dúvida siga
+em frente.
+1. 	Defi na empréstimo
+2. 	Quais as principais modalidades de empréstimo utilizados atualmente no Brasil?
+RECOMENDAÇÕES
+LINKS DA INTERNET
+SUGESTÕES DE LEITURA
+SUGESTÕES DE EXERCÍCIOS
+ADICIONAIS
+1.maisativos.com.br;
+2. www.somatematica.com.br;
+3.www.bcb.gov.br.
+4.www.youtube.com/watch?v=BWJajbIsOcQ
+1. Capítulo 12 do livro Matemática Financeira e suas
+aplicações de Assaf Neto (2012).
+2. Capítulo 7 do livro Matemática Financeira de
+Washington Franco Mathias e José Maria Gomes.
+3. Capítulo 8 do livro Matemática Financeira objetiva
+e aplicações de Abelardo de L. Puccini (2011)
+1. 	Capítulo 	7 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes.
+2. Capítulo 8 do livro Matemática Financeira objetiva e
+aplicações de Abelardo de L. Puccini (2011)
+TÓPICOS ADICIONAIS 	ONDE ENCONTRAR / O QUE FAZER
+"O dinheiro é uma felicidade humana abstrata, por isso aquele que já não é capaz de apreciar a
+verdadeira felicidade humana dedica-se completamente a ele"
+(Athur Schopenhauer)
+
+-- 84 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+85
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+O processo inflacionário traz consequên-
+cias positivas e negativas para investidores
+e credores. Assim, considerar a inflação boa
+ou má é questão de ponto de vista. Segundo
+Mathias e Gomes (2004), o Brasil tem uma
+cultura inflacionária que tende a acomodar
+os conflitos distributivos e as transferências
+de renda por meio da própria inflação.
+Nos capítulos anteriores, conhecemos e
+aplicamos os conceitos de Matemática Fi-
+nanceira sem considerar os efeitos da infla-
+ção. Isto quer dizer que a moeda foi conside-
+rada estável ao longo do período analisado.
+Não considerar estes efeitos pode alterar
+bastante o resultado final de uma operação
+financeira.
+Você provavelmente já ouviu ou leu nos noticiários algo sobre a inflação. Atualmente, a inflação está sob con-
+trole, mas já tivemos períodos de hiperinflação, quando os preços subiam diariamente. Nos anos de 1980 e
+início dos anos de 1990, esse era o cenário que nos acompanhava. Nesse período, o valor do dinheiro se altera-
+va rapidamente devido aos efeitos da inflação. Mas, afinal, o que é inflação? Vamos rever alguns conceitos
+fundamentais vistos na primeira seção do nosso material, para depois prosseguirmos com nossos estudos.
+INFLAÇÃO:
+Segundo Silva (2008), é a deterioração do poder aquisitivo da moeda. Com o passar do tempo, o
+capital vai perdendo poder aquisitivo. Apenas consideramos inflação quando os valores crescem gra-
+dativamente em dado período de tempo. Porém, as elevações de preços sazonais, como ocorre com
+os produtos agrícolas que dependem das safras (queda) e na entressafra (alta), não são consideradas
+inflacionárias.
+Efeitos financeiros da inflação UN 03
+Banco de Dados/NEaD
+CURIOSIDADES:
+1. Alexandre o Grande, que reinou na Macedônia entre 336 e 326 a. C., foi o primeiro homem a
+ter sua efígie gravada em uma moeda, no ano 330 a. C.
+2. Um spa em Nova York oferece máscara facial feita de ouro de 24 quilates! O mineral é absor-
+vido pela pele, reduzindo as rugas. O serviço custa 500 dólares.
+3. A cidade de Abu Dhabi, nos Emirados Árabes Unidos, tem caixas eletrônicos que, em vez de
+dinheiro, dispensam barras de ouro de vinte e quatro quilates.
+4. A Mercedes-Benz produziu um carro recoberto com uma camada de trezentos mil cristais. O
+automóvel de luxo sai por um milhão de dólares.
+5. A privada mais cara do mundo vale trinta e sete milhões de dólares. Isto porque ela foi cons-
+truída em ouro maciço de vinte e quatro quilates. A peça está exposta na empresa de tecnologia
+Hang Fung Gold, em Hong Kong, e foi feita para ser admirada ao invés de usada.
+6. A loja de brinquedos alemã Steiff produziu em dois mil e onze, em homenagem aos cento e
+vinte e cinco anos do ursinho de pelúcia, o exemplar desse bichinho mais valioso do mundo. O
+brinquedo tem olhos de diamante com safira, pelos de fios de ouro e um nariz de ouro maciço
+de vinte e quatro quilates. Ele custa setenta mil dólares.
+
+-- 85 of 96 --
+
+86
+III - SISTEMAS DE AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+DEFLAÇÃO:
+É o oposto da inflação, significa um processo de queda nos preços das mercadorias durante um inter-
+valo de tempo. Pode parecer difícil de acontecer, mas na verdade ocorre com a mesma frequência da
+inflação. Podemos citar, por exemplo, os equipamentos de informática: o lançamento de um modelo
+novo acarreta na deflação do modelo anterior (ficou velho, defasado). Então, tanto a inflação como a
+deflação implicam em consequências para a economia como um todo.
+Podemos observar que, apesar de alguns saltos, a inflação manteve-se estável nos últimos anos. A inflação
+pode influenciar nossa análise financeira e criar o que os economistas chamam de "ilusão monetária", que
+significa que as operações podem não ser tão lucrativas ou vantajosas quanto parecem.
+Neste contexto de inflação, é importante determinar a taxa real de juros e o custo ou rendimento real de
+um financiamento ou aplicação. Em contextos inflacionários, as expressões “em preços correntes” e “em
+preços constantes” são muito utilizadas.
+ÍNDICE DE PREÇOS:
+Determina a mudança ocorrida nos níveis de preços de um período para outro . e as variações de um con-
+junto de bens a partir de uma data inicial e final. O índice mais utilizado é o Índice Geral de Preços da FGV,
+indicado para inflacionar ou deflacionar preços. No entanto, para comparações específicas e obtenção de
+taxas reais de crescimento e reajustes de valores, diversos setores, tais como o da construção civil e pro-
+dutos agropecuários, utilizam índices específicos.
+TAXA DE JUROS APARENTE E REAL:
+Como taxa aparente, consideramos aquela que vigora nas operações correntes. Já a taxa real é o rendimen-
+to ou custo de uma operação, seja de aplicação ou de captação calculadas, depois de extraídos os efeitos
+inflacionários.
+A relação entre taxa aparente e real é determinada da seguinte forma:
+(1+i) = (1+ir) x (1+I)
+Onde:
+i = taxa aparente;
+ir = taxa real;
+I = taxa de inflação.
+Centro da meta (%)
+Inflação efetiva (IPCA% a,a)
+Limite superior (%)
+Limite inferior (%)
+12,53
+7,67
+9,3
+6
+5,5
+6,5 	6,5 	6,5
+Histórico da inflação no Brasil
+A inflação medida pelo Índice Nacional de Preços ao Consumidor (IPCA) chegou a 6,5% em 2011, no limite
+estabelecido pelo governo, O Brasil adotou o sistema de metas de inflação em 1999. O teto foi superado em
+2001, 2002 e 2003.
+1999 	2000 2001 2002 2003* 2004* 2005 2006 2007 2008 	2009 2010 	2011 2012 2013
+em Janeiro de 2003, o BC estabeleceu metas ajustadas de 8,5% para 2003 e de 5,5% para 2004. 	Fonte: Banco Central e IBGE
+
+-- 86 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+87
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+EXERCÍCIO RESOLVIDO
+1. Determine a taxa de rendimento real a partir de uma taxa de juros aparente de 7% a.m. e um índice
+de inflação de 3% a.m.
+Resolução:
+i = 7% a.m.; I = 3% a.m. ir = ?
+Devemos ter cuidado, pois em princípio parecia que o rendimento real seria de 4% a.m. (7-3), mas
+o rendimento é de 3,85% a.m.
+2. Determinada aplicação financeira rende juros nominais de 6% a.a., capitalizados mensalmente. Sa-
+bendo que a inflação é de 5,5% a.a., determine as taxas de juros aparente e real desta aplicação.
+Resolução:
+j = 6% a.a.; k = 12; I = 5,5% a.a.; ia = ?; ir = ?
+Primeiramente, determinamos a taxa aparente:
+ia = 6,17%a.a.
+Em seguida, determinamos a taxa real:
+( 	)
+( 	)
+1+i 	1,07
+ir= 	-1= 	- 1=3,8835% a.m.
+1+I 	1,03
+( 	) k
+a
+j
+1+i 	=(1+ 	1)
+k
+( 	) 12
+a
+0,06
+1+i 	=(1+ 	1)
+12
+( 	)
+( 	)
+1+ia 	1,06168
+ir= 	-1= 	- 1=0,63%a.a.
+1+I 	1,055
+Não, depende do referencial, ou
+seja, se para o comprador o
+aumento de preços é ruim, para o
+vendedor às vezes é bom.
+
+-- 87 of 96 --
+
+88
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+3. O Banco Agrícola Investimentos emprestou R$ 1.000,00 e pretende receber de volta R$ 1.400,00
+após um ano. Sabendo que a inflação do período foi de 14% a.a., qual a taxa real de juros deste em-
+préstimo?
+VP = 1.000,00; VF = 1.400,00; j = 14% a.a. ir = ?
+4. Qual foi a rentabilidade de um fundo de investimento que apresentou retorno nominal de 60% a.a,
+com a inflação do período em 18% a.a?
+j = 18% a.a.; i = 60% a.a.; ir =?
+(1+i) = (1+j) x (1+ir) 	(1+60%) = (1+18%) x (1+ir)
+ir = 35,59% a.a
+5. Um investidor estrangeiro adquiriu um título de renda fixa por RS 10.000,00 e o resgatou pela quantia
+de R$ 15.000,00 após um período de seis meses. Qual foi o retorno real desse investimento consideran-
+do uma taxa de desvalorização cambial para o período de 25% a.s.?
+j = 25% a.a.;
+i =
+ir =?
+(1+i) = (1+j) x (1+ir) 	(1+50%) = (1+25%) x (1+ir)
+ir = 20% a.s
+1.400,00
+ir= 	- 1=40% a.a.
+1.000,00
+15.000,00 - 1=50% a.s.
+10.000,00
+EXERCÍCIO PROPOSTO
+1. Um capital foi aplicado durante dois anos com uma taxa aparente de 18% a.a., com capitalização
+mensal e rendeu R$ 1.500,00 de juros. Sabendo que a inflação no ano é de 12% a.a., determine o capi-
+tal e a taxa de rentabilidade aparente e real da aplicação.
+2. Determine o custo real de um empréstimo contratado a uma taxa efetiva de 20%, sabendo que a
+inflação do período foi de 15%.
+3. Determine em moeda nacional o custo efetivo mensal de um empréstimo em moeda estrangeira
+contratado com taxa efetiva de 3% a.a., considerando uma taxa de desvalorização da moeda de 2% a.a.
+4. Determine a taxa de juros mensal aparente que permita um banco auferir juros reais de 4% a.m.,
+considerando as seguintes hipóteses: 12% a.m.; 420% a.a.; 200% a.s.
+
+-- 88 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+89
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+5. Josué vendeu sua residência e investiu o valor de R$ 430.000,00, que lhe proporcionou R$ 22.500,00
+de juros em um período de nove meses. Sabendo que a inflação foi de 3,8% a.m., quais foram as ren-
+tabilidades aparente e real do investimento?
+6. Uma indústria acaba de adquirir uma máquina fatiadora por R$ 250.000,00. Considerando que
+havia duas opções de compra: à vista por R$ 250.000,00 ou 18 parcelas mensais e iguais com atuali-
+zação monetária, calcule o valor unitário das parcelas sabendo que a taxa de juros é de 96% a.a.
+7. Carlos adquiriu uma máquina transportadora de bens por R$ 60.000,00 em doze parcelas mensais
+de R$ 7.000,00. Sabendo que a taxa de juros era de 2,5% a.m., qual era a inflação esperada para o
+período?
+8. O rendimento nominal do índice Ibovespa foi de 45% a.a., com a inflação para o mesmo período em
+34% a.a. Qual foi o retorno real do investimento?
+9. Para cursar a disciplina Matemática Financeira, um aluno adquiriu um notebook por R$ 5.000,00,
+com entrada de 10% e saldo devedor a ser pago após quatro meses em parcela única. Nessa operação,
+foram acertados juros de 1% a.m. mais variação cambial, que durante o período variou foi de 3%,
+2,5%, 2% e 1,5%, respectivamente. Qual foi o valor da parcela paga?
+10. Determine a taxa anual a ser cobrada por uma instituição financeira que almeja obter um ganho
+real de 2% a.t. mais uma correção monetária de 12% a.b.
+GABARITO
+1) R$ 3.492,41; 19,56% a.a.; 6,75% a.a.
+2) 4,3478% no período
+3) 5,06% a.a
+4) 16,48% a.m.; 19,3164% a.m.; 24,8974% a.m.
+5) Aparente 0,5683% a.m.; real - 3,1134% a.m.
+6) R$ 24.017,31
+7) 3,02% a.m.
+8) 8,21% a.a.
+9) R$ 5.118,29
+10) 113,65% a.a.
+
+-- 89 of 96 --
+
+90
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+Antes de seguir ao próximo tópico veja as seguintes questões, se tiver dúvida em responder
+algum dos conceitos volte ao material e apenas em seguida continue. Se não tiver dúvida siga
+em frente.
+1. 	Defina inflação.
+2. 	Como a inflação pode influenciar nossa vida?
+RECOMENDAÇÕES
+LINKS DA INTERNET
+SUGESTÕES DE LEITURA
+SUGESTÕES DE EXERCÍCIOS
+ADICIONAIS
+1. www.somatematica.com.br;
+2.www.bcb.gov.br.
+3.www.youtube.com/watch?v=bRouG7QOeiE
+4. maisativos.com.br
+1. Capítulo 10 do livro Matemática Financeira objetiva
+e aplicada de Abelardo de L. Puccini (2011).
+2.Capítulo 	1 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes
+(2012).
+1. Capítulo 10 do livro Matemática Financeira objetiva e
+aplicada de Abelardo de L. Puccini (2011).
+2.Capítulo 	1 	do 	livro 	Matemática 	Financeira 	de
+Washington Franco Mathias e José Maria Gomes (2012).
+TÓPICOS ADICIONAIS 	ONDE ENCONTRAR / O QUE FAZER
+
+-- 90 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+91
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+REFERÊNCIAS
+ARRAIS, Fellipe Neri de Oliveira. A contribuição da matemática financeira no ensino médio: o des-
+pertar do aprendente para a economia doméstica. Dissertação (Mestrado) 2013. 63f. Programa de
+Pós-graduação em Matemática. Universidade Federal Rural do Semi-Arido (UFERSA). 63 pag.
+ASSAF NETO, Alexandre. Matemática Financeira e suas aplicações. 12. ed. São Paulo: Atlas, 2012.
+BRUNI, Adriano Leal; FAMÁ, Rubens. Matemática Financeira: com HP 12-C e Excel. 3. ed. São Paulo:
+Atlas, 2004.
+CASTANHEIRA, N. P.; MACEDO, L. R. D. Matemática Financeira Aplicada. 2.ed. Curitiba: IBPEX, 2006.
+FARIA, Rogério Gomes de. Matemática comercial e financeira: com exercícios e cálculos em Excel e
+HP-12C. São Paulo: Ática, 2007.
+MATHIAS, Washington Franco; GOMES, José Maria. Matemática financeira. 6. ed. São Paulo: Atlas,
+2013.
+PUCCINI, Abelardo de Lima. Matemática financeira: objetiva e aplicada. 9. ed. São Paulo: Elsevier,
+2011.
+SAMANEZ, Carlos Patrício. Matemática financeira. 5. ed. São Paulo: Pearson Prentice Hall, 2010.
+SILVA, André Luiz Carvalhal da. Matemática financeira aplicada. 2. ed. São Paulo: Atlas, 2008. (Co-
+leção Coppead de Administração)
+
+-- 91 of 96 --
+
+92
+III - SISTEMAS D E AMORTIZAÇÃO
+MATEMÁTICA FINANCEIRA
+MF 	Autor: Alvaro Fabiano Pereira de Macêdo
+ANOTAÇÕES
+
+-- 92 of 96 --
+
+III - SISTEMAS DE AMORTIZAÇÃO
+93
+MATEMÁTICA FINANCEIRA
+MF	Autor: Alvaro Fabiano Pereira de Macêdo
+ANOTAÇÕES
+
+-- 93 of 96 --
+
+EDITORA
+EDUFERSA - Editora da Universidade Federal Rural do Semi-Árido
+Campus Leste da UFERSA
+Av. Francisco Mota, 572 - Bairro Costa e Silva
+Mossoró-RN | CEP: 59.625-900
+edufersa@ufersa.edu.br
+IMPRESSÃO
+Imprima Soluções Gráfica Ltda/ME
+Rua Capitão Lima, 170 - Santo Amaro
+Recife-PE | CEP: 50040-080
+Telefone: (91) 3061 6411
+COMPOSIÇÃO
+Formato: 21cm x 29,7cm
+Capa: Couchê, plastificada, alceado e grampeado
+Papel: Couchê liso
+Número de páginas: 96
+Tiragem: 400
+Agência Brasileira do ISBN
+ISBN 978-85-63145-59-8
+
+-- 94 of 96 --
+
+
+
+-- 95 of 96 --
+
+C APES
+núcleo de educação a distância
+Ministério	
+da Educação
+U N I V E R S I D A D E 	F E D E R A L
+R U R A L 	D O 	S E M I - Á R I D O
+
+-- 96 of 96 --
+

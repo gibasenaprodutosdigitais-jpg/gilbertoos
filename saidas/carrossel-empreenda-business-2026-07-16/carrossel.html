@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — Rede de empresário vs rede de verdade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #C9A227; color: #0F1419; }
+
+  .gold { color: #C9A227; }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .bg-dark .topbar, .bg-black .topbar { color: #C9A227; }
+  .bg-light .topbar { color: #C9A227; }
+  .bg-gold .topbar { color: #0F1419; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin: 40px 64px 0 64px;
+  }
+  .bg-gold .rule { background: #0F1419; }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .bg-gold .kicker { color: #0F1419; opacity: 0.75; }
+
+  .title-cover {
+    font-size: 92px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.06;
+    max-width: 920px;
+  }
+
+  .h2 {
+    font-size: 66px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.12;
+    max-width: 900px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+  .bg-gold .footer { border-top: 1px solid rgba(15,20,25,0.22); }
+
+  /* DUO */
+  .duo-block { margin-bottom: 40px; }
+  .duo-label {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+  }
+  .duo-label.neg { color: #8a8a8a; }
+  .bg-dark .duo-label.pos, .bg-black .duo-label.pos { color: #C9A227; }
+  .duo-text { font-size: 24px; font-weight: 500; line-height: 1.5; max-width: 860px; }
+  .duo-divider { width: 100%; height: 1px; background: rgba(244,241,234,0.16); margin: 8px 0 32px 0; }
+
+  /* NUMERO */
+  .big-number {
+    font-size: 320px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+
+  /* CITACAO */
+  .quote-mark {
+    font-size: 140px;
+    font-weight: 900;
+    color: #C9A227;
+    line-height: 0.5;
+    margin-bottom: 24px;
+  }
+  .quote-text {
+    font-size: 58px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    max-width: 880px;
+  }
+  .quote-attr {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 36px;
+    opacity: 0.7;
+  }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #C9A227;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+    font-size: 46px;
+    font-weight: 900;
+    color: #C9A227;
+  }
+  .cta-wordmark {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: 760px;
+    margin-bottom: 40px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>01/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Empreenda Business</div>
+    <div class="title-cover">Você entrou num grupo. Fechou algum <span class="gold">negócio</span>?</div>
+  </div>
+  <div class="footer">GRUPO DE EMPRESÁRIO NÃO É PLATEIA</div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>02/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Rede sem negócio</div>
+    <div class="h2">Fé sem obra é fé morta.</div>
+    <div class="body-txt">Rede sem negócio é rede morta. Você pode estar no grupo mais badalado do Instagram e não fechar um contrato sequer com ninguém de lá.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIALL</div>
+</div>
+
+<!-- SLIDE 3 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>03/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">O que vendem x o que falta</div>
+    <div class="duo-block">
+      <div class="duo-label neg">O QUE VENDEM</div>
+      <div class="duo-text">Selfie com autoridade. Hierarquia de proximidade. Acesso a "bastidor".</div>
+    </div>
+    <div class="duo-divider"></div>
+    <div class="duo-block">
+      <div class="duo-label pos">O QUE FALTA</div>
+      <div class="duo-text">Negócio real fechado entre quem está na sala.</div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIALL</div>
+</div>
+
+<!-- SLIDE 4 — NUMERO -->
+<div class="slide bg-gold">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>04/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="big-number">0</div>
+    <div class="body-txt" style="color:#0F1419; opacity:0.85;">Zero contrato fechado é zero motivo pra você continuar pagando pra estar lá.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIALL</div>
+</div>
+
+<!-- SLIDE 5 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>05/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">O que funciona de verdade</div>
+    <div class="h2">Grupo de indicação rígido funciona.</div>
+    <div class="body-txt">Uma cadeira por categoria, indicação rastreada, cobrança toda semana. Funciona pela regra, não pela confiança. É eficiente. E é chato.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIALL</div>
+</div>
+
+<!-- SLIDE 6 — CITACAO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>06/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="quote-mark">"</div>
+    <div class="quote-text">Eu não crio regra. Eu crio critério.</div>
+    <div class="quote-attr">— sobre o modelo de conexão da Empreenda Business</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIALL</div>
+</div>
+
+<!-- SLIDE 7 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>07/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">A vitrine pública cobra sozinha</div>
+    <div class="h2">Ninguém de fora sabe quem está no seu grupo fechado.</div>
+    <div class="body-txt">Mas todo mundo vê quem vira capa de revista. Reputação pública cobra reciprocidade sem precisar virar regra escrita.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIALL</div>
+</div>
+
+<!-- SLIDE 8 — CTA FINAL -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>08/08</span>
+  </div>
+  <div class="cta-wrap">
+    <div class="lion-seal">S</div>
+    <div class="cta-wordmark">GILBERTO SENA</div>
+    <div class="cta-body">Se você quer estar perto de gente que fecha negócio — não de gente que só posa pra foto — me segue.</div>
+    <div class="cta-handle">@gilbertosenaoficiall</div>
+  </div>
+  <div class="footer" style="border-top:none; text-align:center;">EMPREENDA BUSINESS</div>
+</div>
+
+</body>
+</html>
