@@ -23,6 +23,13 @@
 - Uma opinião sobre a reforma tributária que vai contra a manada:
 - Algo sobre dinheiro/escala que a maioria acredita e ele discorda:
 - Um inimigo claro (a prática, a crença, o tipo de profissional que ele combate):
+  **a indústria de mastermind/mentoria que vende acesso e status (selfie com
+  autoridade, hierarquia de proximidade, "bastidor") sem gerar reciprocidade
+  real — negócio de verdade fechado entre os membros.** Contraste: o modelo
+  que ele está construindo na Empreenda Business — conexão com critério,
+  confiança e vitrine pública (virar capa) como mecanismo de cobrança, em vez
+  de protocolo burocrático tipo BNI ou promessa vazia de rede. Ver
+  `quem-e-gilberto.md` (Revista Empreenda).
 
 ## ★ O "cavalo" pra montar AGORA — a reforma tributária
 
