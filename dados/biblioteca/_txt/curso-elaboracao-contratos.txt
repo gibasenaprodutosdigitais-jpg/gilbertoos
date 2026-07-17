@@ -1,0 +1,2869 @@
+Seja bem Vindo!
+Curso
+laboração	E Contratos	de
+CursosOnlineSP.com.br
+Carga horári 60	a: hs
+
+-- 1 of 74 --
+
+Conteúdo
+Abordagem inicial ................................................................................................. Pág. 7
+Conceito ............................................................................................................... Pág. 7
+Concepções de contrato ...................................................................................... Pág. 17
+O contrato como norma........................................................................................ Pág. 19
+Qual é a natureza jurídica do contrato? ............................................................... Pág. 26
+Proposta ............................................................................................................... Pág. 41
+Elementos do Contrato......................................................................................... Pág. 43
+Direito das Obrigações ......................................................................................... Pág. 45
+Vícios Redibitórios ............................................................................................... Pág. 47
+Da Evicção ........................................................................................................... Pág. 48
+Principais espécies de contratos .......................................................................... Pág. 49
+Contrato Preliminar .............................................................................................. Pág. 49
+Contrato de Compra e Venda .............................................................................. Pág. 50
+Contrato de Troca ou Permuta ............................................................................. Pág. 54
+Contrato Estimatório ou Venda em Consignação ................................................ Pág. 54
+Contrato de Locação de coisas ............................................................................ Pág. 61
+Comodato............................................................................................................. Pág. 68
+Mútuo ................................................................................................................... Pág. 69
+Contrato de Prestação de Serviço ....................................................................... Pág. 72
+Extinção do Contrato ............................................................................................ Pág. 75
+Distrato ................................................................................................................. Pág. 76
+Cláusula resolutiva ............................................................................................... Pág. 76
+Exceção de contrato não cumprido ...................................................................... Pág. 77
+Resolução por onerosidade excessiva ................................................................. Pág. 77
+Bibliografia ........................................................................................................... Pág. 78
+
+-- 2 of 74 --
+
+7
+Unidade 1 – Abordagem inicial
+.
+1.1 – Conceito
+A renovação dos estudos jurídicos e a necessidade constante de
+complementá-los e atualizá-los com as informações de outras ciências
+humanas, como a Sociologia, a Política e a Economia, induzem a darmos
+novo tratamento aos institutos jurídicos tradicionais que distinguem o Direito
+Privado, dentre os quais, o contrato.
+O contrato é uma espécie de negócio jurídico, que se distingue na
+formação, por exigir a presença, pelo menos, de duas partes. Contrato é,
+portanto, negócio jurídico bilateral, ou plurilateral.
+O conceito moderno de contrato formou-se em conseqüência da
+confluência de diversas correntes de pensamento, dentre as quais:
+a) a dos canonistas;
+b) a da escola do Direito Natural.
+A contribuição dos canonistas consistiu basicamente na relevância
+que atribuíram de um lado, ao consenso, e do outro, à fé jurada.
+Ao valorizar o consentimento, indicaram que a vontade é a fonte da
+obrigação, abrindo caminho para a formulação dos princípios da autonomia
+da vontade e do consensualismo.
+A estimação do consenso leva à ideia de que a obrigação deve
+nascer fundamentalmente de um ato de vontade e que, para criá-lo, é
+suficiente a sua declaração.
+O respeito à palavra dada e o dever da veracidade justificam, de outra
+parte, a necessidade de cumprir as obrigações definidas em acordo, fosse
+
+-- 3 of 74 --
+
+8
+qual fosse à forma do pacto, tornando necessária a adoção de regras
+jurídicas que assegurassem a força obrigatória dos contratos, mesmo os
+nascidos do simples consentimento dos contraentes.
+A Escola do Direito Natural, racionalista e individualista, influiu na
+formação histórica do conceito moderno de contrato ao defender a
+concepção de que o fundamento racional do nascimento das obrigações se
+encontrava na vontade livre dos contratantes.
+Sendo assim, ficou estabelecido pelos autores dessa escola o
+princípio de que o consentimento basta para obrigar. Outros afirmam que o
+contrato é um acordo de vontades, expresso ou tácito, que encerra
+compromisso a ser honrado sobre a base do dever de veracidade, que é de
+Direito Natural.
+Ressalta-se ainda a influência de Pothier na determinação da função
+do acordo de vontades como fonte do vínculo jurídico e na aceitação do
+princípio de que o contrato tem força de lei entre as partes, formulado como
+norma no Código de Napoleão.
+Napoleão e o Código Civil da burguesia
+No dia 21 de março de 1804, a França republicana conheceu um novo
+código civil, o Código de Napoleão. A sua promulgação, concretizada em 36
+leis aprovadas entre 1803/4, ratificou e corrigiu a maior parte das conquistas
+sociais alcançadas pela sociedade civil burguesa a partir da Revolução de
+1789. Igualmente, foi um marco jurídico da modernidade, assinalando o
+estabelecimento, no mundo do direito, do reconhecimento das novas
+relações socioeconômicas decorrentes dos acontecimentos provocados pela
+queda da Bastilha.
+Dividiram o Grande Código em três partes: o que trata do estatuto
+privado (Das pessoas); o das coisas pertinentes à propriedade (Dos Bens), e
+por último, o que visava à compra e venda da mesma (Da Aquisição da
+Propriedade), confirmando o desaparecimento da aristocracia feudal e a
+ampla adesão aos princípios sociais conquistados pela Revolução de 1789.
+Os seus pilares básicos foram:
+1 – os direitos da pessoa (liberdade individual, liberdade de
+consciência, liberdade de trabalho), com plena isonomia de todos frente a
+lei;
+2 – a hegemonia da propriedade. Entendido como um direito anterior
+à sociedade, absoluto e individualista, tendo o proprietário, estatuto de
+soberania plena sobre os bens móveis e imóveis, estendido inclusive sobre o
+restante da sua família. O próprio matrimônio foi entendido como um
+negócio, sendo submetido à lógica dos contratos e à regência dos notários;
+
+-- 4 of 74 --
+
+9
+3 – os interesses do Estado, secular e laico, se sobrepunham aos da
+propriedade na questão do direito ao subsolo e das necessidades de
+desapropriação para fins de utilidade pública.
+Além de legalizar definitivamente o divórcio, pondo fim à concepção
+sagrada do matrimônio adotada pela Igreja Católica, sustentou a igualdade
+de todos os filhos frente à herança paterna (instrumento jurídico voltado a
+eliminar os direitos da primogenitura herdado dos tempos medievais e
+coluna que sustentava a transmissão integral do patrimônio da aristocracia
+feudal).
+O código, entrementes, pouco se preocupou com as questões
+industriais, afinal as fábricas ainda eram incipientes na França na transição
+do século XVIII ao XIX, ou com o que era pertinente ao trabalho. Aos
+operários, por exemplo, continuaram interditas quaisquer tipos de coalizões
+para evitar a continuidade das corporações de oficio, associações que
+contradiziam com os princípios da liberdade de trabalho.
+A crítica mordaz que Karl Marx fez ao mundo burguês emergente,
+materializado no Código Napoleônico, encontra sua melhor forma no célebre
+trecho do Manifesto Comunista de 1848, onde diz: “A burguesia, onde
+ascendeu ao poder, destruiu todas as relações feudais, patriarcais, idílicas.
+Rasgou sem compunção todos os variegados laços feudais que prendiam o
+homem aos seus superiores naturais e não deixou outro laço entre homem e
+homem que não o do interesse nu, o do insensível pagamento em dinheiro”.
+Diz também: “afogou a sagrada reverência da exaltação devota, do
+fervor cavalheiresco, da melancolia sentimental do burguês filistino, na água
+gelada do cálculo egoísta. Resolveu a dignidade pessoal no valor de troca, e
+no lugar de um sem-número de liberdades legítimas e estatuídas colocou a
+liberdade única, sem escrúpulos, do comércio. Numa palavra, no lugar da
+exploração encoberta com ilusões políticas e religiosas, colocou a
+exploração seca, direta, despudorada, aberta.” (Manifesto do Partido
+Comunista, I, 1848).
+Difusão do código pelo mundo
+Ao sedimentar os princípios da unidade do direito, abolindo
+definitivamente os foros feudais, fazendo com que ele fosse aplicado
+indistintamente a todos os habitantes do mesmo território, que doravante
+houvesse uma unidade da fonte jurídica, obrigando a que todos os litígios
+fossem submetidos e regulados por um só direito, ao tempo em que
+obedecia a orientação da independência do judiciário, tão querida e
+proclamada por Montesquieu, manifestando ainda aberto às transformações
+provocadas pela mudança de mentalidade, o código civil dos franceses
+ganhou o mundo.
+
+-- 5 of 74 --
+
+10
+Manuscrito do Código – Tela de
+David
+Realizou por fim o grande desejo dos Estados Gerais que, desde os
+tempos medievais (de 1484, para ser mais exato), reclamavam a
+necessidade de um sistema jurídico padronizado para toda a França. Anseio
+que também irmanava os filósofos iluministas Diderot e Voltaire, para que se
+desse um fim aos 360 costumes, cada um deles com suas leis, diferentes
+que se estendiam pelo reino da França, do oceano Atlântico até o rio Reno,
+do canal da Mancha até o mar Mediterrâneo.
+Mesmo com a derrocada final do império napoleônico em 1815, o
+grande código, devido a sua articulação com o que viria a predominar na
+modernidade, sobreviveu ao seu criador, tornando-o irreversível na Bélgica,
+na Holanda (desde 1835), na Itália (a partir de 1868), na Espanha, e em boa
+parte das novas republicas latino-americanas constituídas depois da longa
+guerra de independência de 1810-1824.
+Efeitos do código napoleônico
+Desde então, no que toca as coisas do trabalho, tornou-se legítimo
+não se estar mais obrigado a seguir a mesma profissão do pai ou do avô,
+nem depender de um grêmio ou uma corporação de ofício. Se o salário
+tornou-se uma mercadoria como tantas outras, submetido à lógica da
+concorrência, ele também possibilitou ampliar a liberdade pessoal e a livre
+circulação do indivíduo no circuito dos empregos.
+No campo confessional, cada um, consultando sua própria
+consciência, poderia doravante seguir a fé que melhor lhe aprouvesse sem
+estar constrangido a seguir uma religião oficial obrigatória imposta pelo
+estado, seguindo a proposição de Voltaire que estipulava que “cada um
+ascendesse aos céus pelo caminho que lhe agradasse”.
+O casamento, ao ver diminuída a sua aura sagrada cultivada pelo
+cristianismo, deslocou-se da esfera do altar e da liturgia matrimonial para a
+singeleza do livro do juiz de paz ou ainda para escrivaninha do notário com
+seus cadernos de contrato. Ao invés do matrimônio arranjado por acordos
+pré-nupciais orientados pelos interesses familiares ou dinásticos, como era o
+costume entre os nobres, abriu-se o caminho para a livre escolha dos
+nubentes, dominada pelos sentimentos do coração.
+
+-- 6 of 74 --
+
+11
+A propriedade da terra deixou de ser entendida como um patrimônio
+específico de uma classe social, da aristocracia fundiária que vivia de
+rendas, protegida por uma legislação costumeira que vinha dos tempos
+medievais, para estar sujeita aos interesses gerais do mercado, objeto de
+compra e venda regulado pela lei dos contratos.
+O antigo conceito de renda foi substituído pelo do lucro, ao tempo em
+que se rompiam definitivamente as amarras que prendiam os camponeses
+às herdades dos nobres, e com toda a gama de obrigações que
+acompanhava a situação deles (sugere-se que as guerras Napoleônicas e a
+disseminação das novas leis por boa parte da Europa Ocidental, foram
+fundamentais na liberação dos trabalhadores da terra do jugo feudal,
+permitindo que milhares deles pudessem, depois, ao longo do século XIX,
+emigrar para os países do Novo Mundo).
+Não é no direito romano que se deve buscar a origem histórica da
+categoria jurídica que hoje se denomina contrato, pois era um especial
+vínculo jurídico em que consistia a obrigação, dependendo esta, para ser
+criada, de atos solenes.
+De fato o conceito sofreu alterações, e autores que se posicionam a
+favor das ideias de Roma sustentam que o contrato era o acordo de
+vontades, gerador de obrigações e ações, ou que na fase pós-clássica já se
+admitia que a origem das obrigações fosse encontrada na declaração da
+vontade das partes.
+A moderna concepção do contrato como acordo de vontades por meio
+do qual as pessoas formam um vínculo jurídico a que se prendem faz parte
+da ideologia individualista dominante na época de sua consolidação. Tal
+concepção está ligada ao sistema econômico capitalista, em que a noção de
+propriedade privada é sempre reafirmada através de contratos.
+O conjunto de ideias econômicas, políticas e sociais na sociedade
+moderna viabilizou a concepção do contrato como consenso e a vontade
+como fonte dos efeitos jurídicos, de modo que se configurou uma
+superestimação em relação ao papel do indivíduo.
+O liberalismo econômico, a ideia de que todos são iguais perante a lei
+e devem ser igualmente tratados, e a concepção de que o mercado de
+capitais e o mercado de trabalho devem funcionar livremente, permitiu fazer
+do contrato o instrumento jurídico por excelência da vida econômica.
+O processo econômico caracterizado então pelo desenvolvimento das
+forças produtivas exigia a generalização das relações de troca determinando
+o esforço de abstração que levou à construção da figura do negócio jurídico
+como gênero de que o contrato é a principal espécie.
+
+-- 7 of 74 --
+
+12
+O contrato surge como uma categoria que serve a todos os tipos de
+relações entre sujeitos de direito e a qualquer pessoa independentemente de
+sua posição ou condição social.
+Não se levava em conta a condição ou posição social dos sujeitos, se
+pertenciam ou não a certa classe, se eram ricos ou pobres, nem se
+consideravam os valores de uso, mas somente o parâmetro da troca, a
+equivalência das mercadorias, não se distinguia se o objeto de contrato era
+um bem de consumo ou um bem essencial, um meio de produção ou um
+bem voluptuário: tratava-se do mesmo modo a venda de um jornal, de um
+apartamento, de ações ou de uma empresa.
+Diversos fatores contribuíram para a modificação da noção de
+contrato.
+A suposição de que a igualdade formal dos indivíduos asseguraria o
+equilíbrio entre os contratantes, fosse qual fosse a sua condição social, foi
+desacreditada na vida real.
+O desequilíbrio tornou-se evidente, principalmente no contrato de
+trabalho, gerando insatisfação e provocando tratamento legal
+completamente diferente, o qual leva em consideração a desigualdade das
+partes.
+A interferência do Estado na vida econômica implicou por sua vez, a
+limitação legal da liberdade de contratar e o encolhimento da esfera de
+autonomia privada, passando a sofrer crescentes cortes, sobretudo no que
+diz respeito à liberdade de determinar o conteúdo da relação contratual.
+A crescente complexidade da vida social exigiu, para amplos setores,
+nova técnica de contratação, simplificando-se o processo, como sucedeu
+visivelmente nos contratos em massa, e acentuando o fenômeno da
+despersonalização.
+Estas modificações ecoaram no regime legal e na interpretação do
+contrato.
+Importantes e abundantes leis dispensaram especial proteção a
+determinadas categorias de pessoas para compensar juridicamente a
+fraqueza da posição contratual dos envolvidos e eliminar o desequilíbrio.
+Desenvolveu-se uma legislação de apoio a essas categorias, com
+estímulo à sua organização.
+Determinado a dirigir a economia, o Estado ditou normas impondo o
+conteúdo de certos contratos, proibindo a introdução de certas cláusulas,
+fazendo valer sua autoridade, atribuindo a obrigação de contratar a uma das
+partes potenciais e mandando inserir na relação disposições legais ou
+regulamentares.
+
+-- 8 of 74 --
+
+13
+Assinalam-se como principais fatores das transformações ocorridas
+na teoria geral do contrato:
+1 - a insatisfação de grandes estratos da população pelo
+desequilíbrio, entre as partes, atribuído ao princípio da igualdade formal;
+2 - à modificação na técnica de vinculação por meio de uma relação
+jurídica;
+3 - a intromissão do Estado na vida econômica.
+O desequilíbrio ou a técnica do tratamento desigual, cuja aplicação
+tem no Direito do Trabalho o exemplo mais eloquente.
+No que diz respeito às novas técnicas de constituição das relações
+jurídicas, destacam-se as que foram impostas pela massificação de certos
+contratos viabilizados pelo uso geral de suas condições ou cláusulas e as
+que acusam a tendência para a despersonalização dos contraentes.
+A política intervencionista do Estado dita as regras, ou seja, a forma
+como os contratos são celebrados é determinada pelo Estado. Não há plena
+liberdade.
+Três modificações no regime jurídico do contrato revelam outras
+tantas tentativas para a correção do desequilíbrio.
+A primeira consistiu na promulgação de grande número de leis de
+proteção à categoria de indivíduos social e economicamente, compensando-
+lhes a inferioridade com uma superioridade jurídica.
+A segunda revela-se na legislação de apoio aos grupos organizados,
+como os sindicatos, para enfrentar em pé de igualdade o contratante mais
+forte.
+A terceira, no dirigismo contratual, exercido pelo Estado através de
+leis que impõem ou proíbem certo conteúdo de determinados contratos, ou
+sujeitam sua conclusão ou sua eficácia a uma autorização de poder público.
+Surgem, em consequência, figuras anômalas, como a do contrato,
+cujo conteúdo é imperativamente alterado por lei que sobrevém, seja
+substituindo suas cláusulas principais, seja amputando-o, ou do contrato em
+que uma das partes foi obrigada a contratar, ou do contrato que tem fonte
+legal, e assim por diante, até mesmo o que, sem ser concluído, produz
+efeitos por mandamento judicial, como a adjudicação compulsória.
+Adjudicação é: Direito Ato, judicial ou administrativo, que dá a alguém
+a posse de determinados bens.
+
+-- 9 of 74 --
+
+14
+Compulsória é: Sentença ou mandato de juiz superior para instância
+inferior.
+Passa-se a desunir a relação contratual do acordo de vontade, com o
+propósito de explicar certas irregularidades, como a prorrogação legal das
+locações, e justificar a diversidade de critérios de interpretação e a
+repartição dos riscos.
+A mais importante consequência dessas transformações é a mudança
+nas preocupações do legislador quanto à rigidez do contrato.
+No que diz respeito ao contrato inspirado no modelo clássico,
+empresta maior significação às normas sobre o acordo de vontades,
+detendo-se na disciplina cuidadosa da declaração de vontade e dos vícios
+que podem anula-la, e limitando a proteção legal aos que não têm condições
+de emiti-Ia, livre e conscienciosamente, como os menores e enfermos.
+Em relação aos contratos nos moldes contemporâneos, que se
+realizam em série, a preocupação é a defesa dos aderentes (contratos de
+adesão), mediante normas legais que proíbam cláusulas iníquas, até porque
+as regras sobre a declaração da vontade e os vícios do consentimento
+quase não se lhe aplicam.
+Os principais contratos típicos são: a compra e venda; a troca; a
+doação; a promessa de venda; a locação; a empreitada; o transporte; o
+empréstimo; o depósito; o mandato; a comissão; a representação dramática;
+a constituição de renda; o seguro; a fiança; a transação; os contratos
+bancários e os de incorporação imobiliária.
+Novas figuras contratuais estão adentrando no mundo dos negócios,
+algumas já tipificadas na legislação especial, outras ainda sem tratamento
+legal específico. Dentre essas figuras, merecem atenção: o contrato de
+alienação fiduciária em garantia, o leasing, o know-how entre outros.
+A palavra contrato pode ser empregada sem sentido amplo e restrito.
+No primeiro, designa todo negócio jurídico que se forma pela multidão
+de vontades.
+No segundo, o acordo de vontades que produz efeitos obrigacionais
+na esfera patrimonial.
+Para nomear os negócios jurídicos plurilaterais em geral, usam alguns
+o termo convenção, nele incluindo todos os acordos, com ou sem vínculo
+obrigacional.
+A convenção compreenderia não só os negócios plurilaterais
+destinados a criar obrigações, mas também a modificar ou extinguir
+
+-- 10 of 74 --
+
+15
+obrigações preexistentes, enquanto o contrato seria idôneo exclusivamente
+à criação de obrigações.
+Teria, para outros, sentido especial, compreendendo apenas os
+acordos normativos.
+A questão é, todavia, puramente terminológica. De todo modo
+interessa assim mesmo fixar o exato sentido da palavra contrato, porque a
+outras modalidades relacionadas às vontades não se aplicam as regras que
+o regem.
+No Direito moderno, o termo pacto significa a cláusula aplicada em
+certos contratos para lhes emprestar feitio especial.
+Pacto não é mais, como no Direito Romano, a convenção desprovida
+de sanção.
+Na prática emprega-se a palavra contrato em sentidos distintos, ora
+para designar o negócio jurídico bilateral gerador de obrigações, ora o
+instrumento em que se formaliza, seja a escritura pública, o escrito particular
+de estilo, simples missiva, ou um recibo.
+Na linguagem corrente esse uso de sinônimos está generalizado de
+tal maneira que os que não são da área de direito supõem não haver
+contrato se o acordo de vontades não estiver disposto em um papel.
+O contrato pode ser celebrado através de um escrito, assim como
+pode ser feito oralmente. Não é a forma escrita que o cria, mas o encontro
+de duas declarações convergentes de vontades, com o propósito de
+constituir, regular ou extinguir, entre as partes envolvidas, o que for
+considerado apropriado para ambos.
+Contrato é, assim, o negócio jurídico bilateral, ou plurilateral, que
+impõe às partes envolvidas que cumpram com a palavra, de modo que haja
+contentamento recíproco.
+Os sujeitos da relação contratual chamam-se partes. Parte não se
+confunde com pessoa. Uma só pessoa pode representar as duas partes,
+como no autocontrato ou contrato consigo mesmo, e uma só parte, compor-
+se de várias pessoas, como na locação de um bem por seus condôminos.
+Parte é, em síntese, um centro de interesse, expressão essa que
+indica a posição dos sujeitos diante da situação na qual incide o ato.
+O mecanismo de formação do contrato compõe-se de declarações
+convergentes de vontades emitidas pelas partes.
+Para que um contrato esteja perfeito é desejável:
+
+-- 11 of 74 --
+
+16
+1 – a existência de duas declarações, individualmente consideradas,
+há de ser válida e eficaz;
+2 – uma coincidência de fundo entre as duas declarações. Por
+conseguinte, acordo de vontades para a constituição e disciplina de uma
+relação jurídica de natureza patrimonial. O fim do acordo pode ser também a
+modificação ou a extinção do vínculo.
+Existem acordos patrimoniais que não são considerados contratos
+porque não criam, para as partes, obrigações que modifiquem a situação
+preexistente, mas se limitam a estabelecer regras a serem observadas se os
+interessados praticam os atos prefigurados, como os acordos normativos, ou
+a tornar certa uma situação jurídica incerta, como a transação. Esses
+negócios jurídicos são, porém, autênticos contratos.
+Em alguns contratos, o simples consentimento das partes não é
+suficiente. Por exemplo, o depósito e o empréstimo, que só se tornam
+perfeitos e acabados com a entrega da coisa por uma das partes à outra.
+Outros requerem forma solene para o acordo de vontade, não valendo, se
+desprezada.
+A coincidência das declarações é essencial à formação do contrato.
+Usamos a palavra consenso para designar este requisito característico da
+perfeição dos contratos.
+A falta de consenso inviabiliza a celebração do contrato.
+A coincidência é necessária nos pontos essenciais e decisivos para a
+formação do contrato, segundo a vontade de uma ou das duas partes.
+Sempre que faltar, o contrato não nasce, ou será ineficaz.
+A ausência de consenso pode ser manifesta ou oculta. Quando
+manifesta, não há acordo porque a coincidência de vontades não se verifica
+conscientemente em relação a pontos decisivos.
+Quando a ausência de consenso está oculta, as partes supõem que
+houve acordo, quando na verdade não houve.
+Se essa indisposição estiver oculta o contrato é anulável, porque as
+declarações coincidem exteriormente, dando a aparência de negócio eficaz.
+Pode a falta de consenso revelar-se à luz da interpretação das
+declarações de vontade, ocorrendo em dois casos principais:
+1 – as declarações não coincidem exteriormente;
+2 – as declarações coincidem exteriormente, mas têm objetivamente
+sentido diverso, e cada parte dera e podia dar significação distinta à sua
+declaração.
+
+-- 12 of 74 --
+
+17
+Sendo assim, se as partes estão conscientes da ausência do
+consenso significa estar manifestada tal indisposição, do contrário,
+considera-se como oculto toda indisposição não manifestada.
+Uma das características mais marcantes do contrato é sua
+diversidade no que diz respeito à participação de pessoas com interesses
+econômicos distintos e até contrapostos. A contraposição é essencial, não
+passando o contrato, assim, de uma composição.
+A noção de parte como centro de interesses esclarece a distinção
+entre contrato e outros atos plurilaterais, como o negócio plurilateral e o ato
+coletivo, sem maior relevância prática por se lhes aplicarem as normas do
+Direito Contratual.
+O contrato plurilateral provoca efeitos em diferentes relações jurídicas
+que envolvem vários sujeitos.
+Os atos coletivos compõem-se de várias declarações de vontades
+voltadas para o mesmo fim; emitidas por diversos sujeitos com interesses
+distintos, como na rescisão de um arrendamento pelos dois ou mais
+arrendatários. Resultam da soma de várias declarações de vontades
+emitidas conjuntamente.
+Nesses negócios não há interação de declarações de vontade
+emitidas por partes contrapostas. As declarações são paralelas para a
+formação de uma declaração comum da mesma parte composta de várias
+pessoas. O ato conjunto não é negócio jurídico bilateral.
+Com o contrato não se deve confundir o ato praticado por sujeitos
+distintos, para o qual a declaração de um deles teve de ser integrada na do
+outro, como o de pessoa relativamente incapaz e do seu assistente.
+1.2 – Concepções de contrato
+Duas concepções opostas em relação aos contratos dividem os
+juristas. São elas: a concepção subjetiva e a objetiva.
+Para os favoráveis da concepção subjetiva, o conteúdo do contrato é
+composto pelos direitos e obrigações das partes. O contrato é, por definição,
+fonte de relações jurídicas, sem ser exclusivamente, no entanto, o ato
+propulsor das relações obrigacionais.
+Para os adeptos da concepção objetiva, o conteúdo do contrato é
+composto de princípios. As disposições contratuais têm substância
+normativa, visando agrupar o comportamento das partes.
+
+-- 13 of 74 --
+
+18
+Na totalidade, constituem verdadeiro regulamento traçado de comum
+acordo. É o contrato, portanto, fonte de normas jurídicas, ao lado da lei e da
+sentença.
+Na concepção tradicional, o contrato é todo acordo de vontades
+destinado a constituir uma relação jurídica de natureza patrimonial e eficácia
+obrigacional.
+O contrato distingue-se da lei, por ser fonte de obrigações e direitos
+subjetivos, enquanto a lei é fonte de direito objetivo.
+É uma ação humana de efeitos voluntários, praticada por duas ou
+mais partes, da qual o ordenamento jurídico faz derivar um vínculo.
+O primeiro aspecto, o da formação, é um ato de criação. O segundo, o
+conjunto de obrigações e direitos condiciona a conduta das partes, tal como
+foram definidas.
+O modo de estabelecer os direitos e obrigações contratuais dá a
+impressão de que o contrato, devido à sua aparência legislativa, tem
+natureza normativa, constituído o seu conteúdo de regras que regem a
+relação criada e vinculam o comportamento das partes.
+Os adeptos da concepção tradicional sustentam que o contrato só
+pode criar relações jurídicas e direitos subjetivos, jamais normas de direito
+objetivo, mesmo quando estabelecem regras abstratas para o futuro, como
+nas condições gerais de contrato que, pelo modo de formulação e forma
+abstrata, apresentam certa semelhança com o direito objetivo, mas não
+contém realmente norma alguma de Direito, senão cláusulas que se limitam
+a criar entre a parte que as determina e os clientes uma relação jurídica,
+para que a estas também se subordinem no futuro os fatos previstos nas
+referidas condições, e seus efeitos.
+Em suma, o contrato é um pressuposto de fato do nascimento de
+relações jurídicas, uma das principais, senão a mais importante, fontes ou
+causa geradora das obrigações, o título de criação de nova realidade
+jurídica, constituída por direitos, faculdades, pretensões, deveres e
+obrigações, ônus, encargos.
+Além de ser causa eficiente desse complexo de direitos e obrigações,
+o contrato tem de ser encarado como vínculo ou resultado que produz a
+relação jurídica a que dá nascimento, os efeitos que provoca entre as partes.
+Em síntese, conteúdo e eficácia.
+
+-- 14 of 74 --
+
+19
+1.3 – O contrato como norma
+Ao celebrar um contrato, as partes não se limitam a aplicar o direito
+abstrato que o rege, mas criam normas individuais que geram obrigações e
+direitos concretos não existentes antes de sua celebração.
+Essas normas individuais, que compõem o conteúdo do contrato e
+exigem determinada conduta dos contratantes, teriam a mesma substância
+normativa da regra que aplicam ao celebrar o contrato. Desse modo, o
+produto jurídico do contrato, ou seja, a consequência que lhe atribui o
+ordenamento jurídico é a norma que cria, individual e concreta, porque não
+obriga a número indeterminado de indivíduos nem se aplica a número
+indeterminado de casos, tal como sucede com a norma ou lei.
+Nesse contexto, o contrato é ato criador de direito objetivo, até porque
+para alcançar o fim apontado pelos adeptos da concepção tradicional, não
+pode deixar de estabelecer normas; eis que dever jurídico não pode existir
+sem comando correspondente.
+Apesar dos esforços dos adeptos da concepção preceptiva para
+justificá-la como a explicação correta do conteúdo do contrato, as críticas
+dos seus opositores tem sido ponderosas.
+Tem na aversão a maioria dos escritores do próprio país de origem,
+todos acusando a sua artificialidade quando assimila à norma (dado objetivo)
+o produto de um comportamento (dado subjetivo) e quando despreza a
+função dispositiva do contrato.
+Colocado o problema na perspectiva dos pressupostos ideológicos
+das duas concepções contrárias, observa-se que o aumento do interesse de
+defender e reforçar a autonomia privada tem contribuído para o descrédito
+da ideia de que o contrato tem caráter normativo.
+Afirma-se, ademais, que essa ideia está a serviço do capitalismo
+liberal porque racionaliza a dominação dos privilegiados pelo emprego de
+um instrumento jurídico de inspiração liberal do crivo de princípios, como o
+da boa-fé e da condenação ao abuso de direito, na medida em que se
+objetiva tornando-se norma autônoma, isto é, desligada das partes que o
+adotaram, como se verifica mais agressivamente no contrato de adesão
+(condições gerais de contrato).
+O contrato em novo contexto
+No novo contexto determinado pela política de intervenção do Estado
+na economia, o contrato sofre duas importantes modificações em sua
+significação e em sua função:
+1 – Deixa de ser simplesmente expressão da autonomia privada;
+
+-- 15 of 74 --
+
+20
+2 – Passam a ser uma estrutura de conteúdo complexo e híbrido, com
+disposições voluntárias e compulsórias, nas quais a composição dos
+interesses reflete o antagonismo social entre as categorias a que pertencem
+os contratantes (produtores e consumidores, empregadores e empregados,
+senhorios e inquilinos).
+Desde o delineamento da figura do negócio jurídico pelos
+jusnaturalistas alemães nos fins do século XVIII e, em seguida pelos
+pandetistas, o contrato, tido então como a sua principal espécie, passa a ter
+um significado e uma função correspondentes aos pressupostos culturais da
+época.
+Elevado à altura de principal motor da vida econômica, significa
+atuação da liberdade do indivíduo na esfera do Direito, e meio para o
+exercício do poder de autodeterminação individual.
+Era, em suma, o grande instrumento da autonomia privada.
+As relações patrimoniais tinham, nesse poder, atribuído aos
+particulares pelo ordenamento jurídico a sua fonte exclusiva de realização.
+Entre esse poder de autodeterminação do indivíduo e o contrato há, nesse
+enfoque, uma conexão que explica a redução da sua estrutura ao puro
+acordo de vontades.
+Em tal contexto, o tratamento doutrinário do contrato é simples,
+limitando-se à explicação dos seus pressupostos e requisitos, do modo por
+que se forma e se dissolve, de sua classificação, de sua nulidade e de seus
+tradicionais esquemas típicos.
+Sucede, porém, que o fenômeno da contratação evolui ao ponto de
+alterar profundamente esse quadro conceitual.
+O movimento evolutivo não se caracteriza unicamente pelo
+aparecimento de numerosas inovações técnicas, nem pela consagração em
+princípios jurídicos de suspeitas motivações para justificar a direção e o
+controle da economia pelo Estado.
+Dirige-se no sentido de uma reconstrução do próprio sistema
+contratual orientada no sentido de libertar o conceito de contrato da ideia de
+autonomia privada e admitir que, além da vontade das partes, outras fontes
+integram o seu conteúdo.
+A nova concepção atenta para o dado novo de que, em virtude da
+política intervencionista do Estado moderno, o contrato, quando arranja
+relações entre pessoas pertencentes a categorias sociais opostas, ajusta-se
+a parâmetros que levam em conta a dimensão coletiva dos conflitos sociais
+subjacentes.
+
+-- 16 of 74 --
+
+21
+Disciplinados por uma legislação avulsa que abandonou a postura
+tradicional do Código Civil, passam a ser um ponto de referência de
+interesses diversos, uma estrutura aberta que é preenchida, não apenas por
+disposições resultantes do acordo de vontades, mas também por
+prescrições da lei, imperativas e dispositivas, e pela equidade.
+Do contrato de adesão à programação contratada ou contrato de
+programa, é toda uma gama de tipos contratuais que ultrapassam os bordos
+da moldura clássica em que se emoldurava o contrato na sua configuração.
+Já alguns contratos esquematizados nos Códigos, como a compra e
+venda de determinados bens, a locação, o transporte, o seguro e certas
+operações bancárias, colocam-se nessa perspectiva nova - o que justifica
+este esclarecimento preliminar e a indicação de figuras que a ciência
+tradicional, detectando uma crise da noção de contrato, considera
+teratológicas.
+Seria imperdoável ignorar hoje, mesmo num manual, esses novos
+aspectos da teoria geral do contrato.
+Os limites tradicionais da autonomia privada são a ordem pública e
+bons costumes, mas o seu exercício é também restringido pelo expediente
+da tipicidade dos negócios jurídicos e da determinação legal de todos os
+efeitos de um negócio típico.
+O certo é que, adotando nossa Constituição o padrão do Estado
+Democrático de Direito (art. 1°) e esposando a ideologia da livre iniciativa,
+como base da ordem econômica (art. 170), continua sendo fundamental o
+instituto do contrato na sociedade brasileira, pois nada mais exprime a ideia
+de livre iniciativa do que a liberdade de contratar; liberdade essa que de
+maneira alguma se confunde com os abusos desse direito, nem impede a
+intervenção moderada do Estado na fixação de parâmetros de ordem pública
+que as partes não devam ultrapassar, em respeito aos anseios do bem
+comum.
+A declaração de vontade dos contratantes
+A atividade convergente das partes há de se exercer no mesmo
+plano, não havendo contrato na integração de declarações que se
+completam, como a de autorização prévia ou sucessiva e a do ato que a
+requer.
+Visto que o contrato pressupõe declarações de vontade coincidentes,
+a de cada parte recebe denominação própria.
+Uma há de preceder necessariamente à outra.
+
+-- 17 of 74 --
+
+22
+A declaração de quem tem a iniciativa do contrato chama-se proposta
+ou oferta. A do outro, aceitação. Quem faz a oferta, proponente ou
+policitante. Quem a aceita, oblato ou aceitante.
+Consideradas individualmente, a proposta e a aceitação não são
+negócio jurídico, embora a proposta, em certos casos, produza efeitos
+negociais prescritos na lei. É, entretanto, ato pré-negocial.
+Há sempre sucessividade entre a proposta e a aceitação, podendo o
+intervalo ser mais ou menos longo se os interessados se defrontam ou
+negociam condições. A aceitação pode ser imediata. Havendo intervalo
+maior, surge o problema da determinação do exato momento em que se
+forma o contrato.
+Para que o consenso se forme, proposta e aceitação devem coincidir
+no conteúdo.
+Cada qual precisa ser limitada em relação à outra. Necessária, em
+síntese, a correspondência entre as duas.
+Aspecto material e documentação do contrato
+Sob o aspecto material, o contrato apresenta-se como um conjunto de
+disposições.
+A formulação dos interesses recíprocos obedece a normas
+consagradas pela tradição, que visam a facilitar sua interpretação.
+Daí, a existência de formulários, que procuram estilizar, em linguagem
+apropriada, a redação dos contratos nominados. Posto não seja obrigatória à
+observância de fórmulas sacramentais, o uso de expressões consagradas é
+aconselhável para traduzir com mais segurança, a intenção das partes.
+A existência dessas fórmulas, de emprego frequente, possibilita
+análise mais objetiva do aspecto externo dos contratos.
+O instrumento de qualquer contrato compõe-se, essencialmente, de
+duas partes: o preâmbulo e o contexto.
+No preâmbulo, procede-se à qualidade das partes, declara-se o objeto
+do contrato e, de regra, se enunciam as razões determinantes de sua
+realização ou objetivo que os contratantes têm em mira.
+Essas disposições preliminares não têm maior relevância, mas
+podem, conforme o conteúdo, constituir parte integrante do contrato
+propriamente dito, adquirindo então valor para sua interpretação.
+
+-- 18 of 74 --
+
+23
+O contexto de um contrato compõe-se de série ordenada de
+disposições, que se chamam cláusulas, quando escrito.
+Nos contratos por instrumento particular, as cláusulas podem ser
+digitadas ou escritas do próprio punho de uma das partes. Nos contratos por
+instrumento público, o tabelião, em livro próprio, recolhe o ditado pelos
+contratantes, ou copia a minuta que lhe apresentem. Não há limitação para o
+número de cláusulas nem ordem a ser obrigatoriamente seguida, mas
+convém não avolumar o texto com cláusulas ociosas ou com a inútil
+reprodução de textos legais e, procurar dar ordenação lógica ao conjunto
+orgânico das proposições, usando os termos com propriedade e precisão
+técnica.
+Nos contratos celebrados em escritura pública ou celebrados por
+instrumento particular impresso, são habituais algumas proposições
+invariáveis chamadas cláusulas de estilo. A validade dessas cláusulas
+depende de expressa menção, ou de confirmação.
+Presumem-se incorporadas, ao contrário, as cláusulas previstas na lei
+não ressaltadas pelas partes.
+Inserem-se automaticamente no conteúdo do contrato, substituindo,
+as que lhe forem contrárias, as cláusulas impostas em preceitos imperativos
+da lei. Integra ainda o conteúdo do contrato os usos contratuais, assim
+entendidas as práticas comumente observadas pelos contratantes, mas se
+lhes recusa eficácia se não resultarem de acordo para sua aceitação.
+Se bem que não estejam compreendidos no instrumento do contrato,
+integram seu conteúdo os documentos complementares, como ocorre, por
+exemplo, no contrato de empreitada para a construção de um edifício, no
+qual estipulam as partes que as especificações do material a ser empregado
+na obra constem de escrito anexo. A fim de que esses documentos se
+tornem parte integrante do contrato, é preciso que a eles se faça menção e
+que sejam autenticados pelos contratantes.
+Para a validade do instrumento, devem as partes assiná-lo, depois de
+colocar data, exigindo-se também que seja subscrito por duas testemunhas
+e transcrito no registro público de títulos e documentos, para que seus
+efeitos se operem com relação a terceiros.
+Nos contratos verbais e nos que se formam por escrito sem o estilo
+usual, as disposições são englobadas como condições contratuais.
+
+-- 19 of 74 --
+
+24
+Significado do contrato
+Não é pacífico o entendimento quanto ao significado da categoria
+designada pelo nome de contrato. Será, para alguns, o acordo de vontades
+necessário ao nascimento da relação jurídica obrigacional; para outros, a
+própria relação.
+A aceitação da proposta pelo oblato impulsiona uma relação na qual,
+em sua forma mais simples, uma das partes assume a posição de credor e a
+outra a de devedor quando as duas não tomam, correlatamente, as duas
+posições.
+O vínculo obrigacional, assim obtido, perdura, produzindo efeitos.
+Pretende-se que o contrato seja apenas o acordo que viabiliza o vínculo
+obrigacional.
+Deve distinguir-se da relação porque alguns efeitos só se produzem
+com a sua execução. Assim, nos contratos de duração, como o de trabalho,
+os direitos do empregado prendem-se à execução do acordo inicial de
+vontades. Desse modo, a relação se distinguiria do contrato propriamente
+dito. Para outros, a relação é a situação das partes imediatamente após a
+perfeição e acabamento do contrato.
+Conquanto se venha manifestando a tendência para dissociar o
+contrato da relação, a verdade é que acordo e relação se apresentam
+respectivamente como os aspectos subjetivos e objetivos da mesma
+entidade jurídica.
+O alcance do contrato vai da formação à extinção. É, em resumo, uma
+relação jurídica com todos os seus elementos, e não apenas força
+propulsora. Não obstante, pode existir relação obrigacional que não resulte
+de acordo de vontades e este não ser suficiente, eventualmente, para
+construir a posição jurídica das partes de um contrato.
+Função econômica do contrato
+A vida econômica desdobra-se através de imensa rede de contratos
+que a ordem jurídica oferece aos sujeitos de direito para que regulem com
+segurança seus interesses. Todo contrato tem uma função econômica, que é
+a sua causa.
+Considerada a variedade de funções econômicas que desempenham,
+classificam-se em contratos:
+a) para promover a circulação de riqueza;
+b) de colaboração;
+c) para prevenção de risco;
+
+-- 20 of 74 --
+
+25
+d) de conservação e acautelatórios;
+e) para prevenir ou diminuir uma controvérsia;
+f) para a concessão de crédito;
+g) constitutivos de direitos reais de gozo, ou de garantia.
+Dentre os contratos reservados para promover a circulação da
+riqueza, encontram-se os de troca, que se dirigem, nas suas várias
+espécies, à realização de compra e venda. São os de uso mais copioso.
+O sujeito de direito precisa desses instrumentos jurídicos para
+alcançar fins determinados por seus interesses econômicos. É mediante um
+desses contratos que se desfaz de um bem, por dinheiro ou em permuta de
+outro bem; que trabalha para receber salário; que coopera com outros para
+obter vantagem pecuniária; que a outros se associa para realizar
+determinado empreendimento; que previne risco; que põe em custódia
+coisas e valores; que obtém dinheiro alheio; em suma, que participa da vida
+econômica.
+Quer-se comprar um bem que outrem está disposto a vender ou a
+trocar, a lei lhe oferece instrumento adequado: o contrato de compra e
+venda, ou o de permuta.
+Pretende-se, por liberalidade, transferir de seu patrimônio bens ou
+vantagens para o de outra pessoa, utiliza o contrato de doação.
+Precisa-se de casa para morar, pode alugá-la, celebrando contrato de
+locação. Necessita-se trabalhar para outras pessoas em troca de salário,
+estipula contrato de trabalho.
+Tem-se necessidade de bem alheio, toma-o por empréstimo,
+mediante comodato ou mútuo. Quer-se que determinada coisa seja
+guardada por outrem, durante algum tempo, serve-se do contrato de
+depósito. Se lhe convém que outra pessoa administre seus interesses,
+confere-lhe poderes bastantes pelo contrato de mandato. Necessita-se
+lograr certo fim juntamente com outrem, a este se associa, reunindo esforços
+e recursos mediante o contrato de sociedade. Entende-se que o pagamento
+de uma dívida deve ser garantido por outrem, exige fiança, estipulando o
+respectivo contrato. E assim por diante, cada qual tendo função econômica
+específica.
+A fim de que a vida econômica se desenrole mediante esses
+instrumentos jurídicos, não bastam, contudo, os contratos definidos e
+disciplinados na lei. Admitem-se arranjos e combinações, dignos de
+proteção, ampliando-se, assim, imensuravelmente, a esfera dos contratos,
+
+-- 21 of 74 --
+
+26
+com o acréscimo dos chamados contratos atípicos, também chamados
+inominados.
+A função econômico-social do contrato foi reconhecida, ultimamente,
+como a razão determinante de sua proteção jurídica. Sustenta-se que o
+Direito intervém, tutelando determinado contrato, devido à sua função
+econômico-social.
+Em consequência, os contratos que regulam interesses sem utilidade
+social, fúteis ou improdutivos, não merecem proteção jurídica. Merecem-na
+apenas os que têm função econômico-social reconhecidamente útil. A teoria
+foi consagrada no Código Civil italiano, conquanto encontre opositores.
+Na afirmação de que o contrato exerce uma função social, o que se
+quer significar, em suma, é que deve ser socialmente útil, de modo que haja
+interesse público na sua tutela. Entretanto, o reconhecimento de que todo
+contrato tem função econômico-social é feito por alguns de modo diverso, os
+quais destacam a "função típica de cada contrato", isto é, a função que serve
+para "determinar o tipo ou os caracteres típicos de cada contrato". A essa
+função típica dos contratos liga-se a moderna doutrina objetiva da causa.
+Tão velho como a sociedade humana e tão necessário como a própria
+lei, o contrato se confunde com as origens do Direito.
+Superado o estágio primitivo da barbárie, em que os bens da vida
+eram apropriados pela força ou violência, e implantada a convivência
+pacífica em face dos bens utilizáveis na sobrevivência e desenvolvimento do
+homem, o contrato se fez presente, de maneira intensa, nas relações
+intersubjetivas, como projeção natural da vontade e do consenso. E quanto
+mais se ampliaram os grupamentos civilizados e mais volumosos se
+tornaram os negócios de circulação de riquezas, mais constante e decisivo
+se mostrou o recurso ao contrato, em todos os níveis da sociedade.
+Hoje, pode-se dizer que nenhum cidadão consegue sobreviver no
+meio social sem praticar diariamente uma série de contratos.
+1.4 – Qual é a natureza jurídica do contrato?
+Primeiramente vamos diferenciar ato jurídico de negócio jurídico. É
+importante dizer que o contrato é um negócio jurídico.
+Os Atos Jurídicos em Sentido Estrito são aqueles que derivam de um
+comportamento humano, cujos efeitos jurídicos (criação, conservação,
+modificação ou extinção de direitos) estão fundamentalmente previstos na
+lei.
+
+-- 22 of 74 --
+
+27
+Neste tipo de ato a manifestação de vontade não se subordina ao
+campo da autonomia privada do agente, ou seja, o agente não possui a
+faculdade de moldar os efeitos que sua manifestação de vontade produzirá.
+Um exemplo que ilustra essa ausência de autonomia do agente no
+Ato Jurídico em Sentido Estrito é o reconhecimento de filho ilegítimo:
+Digamos que uma pessoa teve um filho fora do casamento. O Estatuto da
+Criança e do Adolescente (Lei nº 8.069/90), em seu artigo 26, permite que
+este filho seja reconhecido no próprio termo de nascimento, por testamento,
+mediante escritura e demais documentos. Nesse caso, o agente não possui
+a autonomia de impor condições para o reconhecimento da paternidade.
+Dessa forma, ele não poderá impor ao reconhecimento da
+paternidade, por exemplo, a condição de não contrair nenhuma relação
+jurídica com o filho, visto que do reconhecimento surgem efeitos jurídicos
+previstos na norma como o direito ao nome, pátrio-poder, obrigação de
+prestar alimentos, direitos sucessórios, entre outros.
+Negócio Jurídico - é uma espécie do gênero ato jurídico em sentido
+amplo.
+Pode ser entendido como toda ação humana, de autonomia privada,
+com a qual o particular regula por si os próprios interesses. Nele há uma
+composição de interesses.
+Os atos praticados pelos agentes foram previstos em lei e desejados
+por eles. Para que o negócio jurídico seja válido são necessários os
+seguintes elementos essenciais:
+a) agente capaz;
+b) objeto lícito, possível, determinado ou determinável;
+c) forma prescrita e não proibida pela lei.
+O objeto típico do negócio jurídico é o contrato. O negócio jurídico é o
+principal instrumento para que as pessoas possam realizar seus negócios
+privados. Sem os elementos essenciais o negócio jurídico não existe, por
+consequência, não é válido.
+São elementos acidentais:
+a) condição;
+b) termo;
+c) encargo.
+
+-- 23 of 74 --
+
+28
+Os negócios jurídicos podem ser classificados da seguinte forma:
+1. Quanto à manifestação da vontade:
+a) unilaterais – a declaração de vontade, feita por uma ou mais
+pessoas, na mesma direção;
+b) bilaterais – duas manifestações de vontade, em sentido oposto,
+porém há coincidência em relação ao objeto.
+2. Quanto às vantagens:
+a) gratuitos – só uma das partes aufere vantagem;
+b) onerosos – ambos os celebrantes possuem ônus e vantagens
+recíprocas.
+3. Quanto ao tempo em que devam produzir efeitos:
+a) inter vivos – destinados a produzir efeitos durante a vida dos
+interessados;
+b) causa mortis – emitidos para gerar efeitos após a morte do
+declarante.
+4. Quanto à subordinação:
+a) principais – são os negócios jurídicos que têm existência própria e
+não dependem de nenhum outro;
+b) acessórios – aquele cuja existência subordina a outro.
+5. Quanto às formalidades:
+a) solenes – são celebrados de acordo com a forma prevista na lei;
+b) não solenes – não dependem de forma rígida para sua celebração.
+
+-- 24 of 74 --
+
+29
+6. Quanto à pessoa:
+a) impessoais – não importa quem sejam as partes;
+b) intuitu personae – aquele realizado de acordo com as qualidades
+especiais de quem o celebra.
+Elementos acidentais – são elementos dispensáveis para a
+celebração do negócio jurídico. Têm como objetivo modificar uma ou
+algumas consequências naturais dos negócios jurídicos. São declarações
+acessórias de vontade.
+1. Condição – é uma cláusula que subordina o efeito jurídico ao efeito
+do negócio jurídico a evento futuro e incerto. A incerteza deve ser objetiva e
+não subjetiva.
+Classificação
+a) quanto à possibilidade: possível e impossível (física ou jurídica);
+b) quanto à licitude: lícita e ilícita;
+c) quanto à participação dos celebrantes: causal (depende de
+acontecimento fortuito ou da vontade exclusiva de terceiros), potestativa
+(depende da vontade exclusiva de uma das partes), simplesmente
+potestativa (fica totalmente sobre a vontade de uma das pares, nesse caso,
+é nulo), mista (junta a vontade de uma ou ambas as partes com a vontade
+de terceiro);
+d) quanto ao modo de atuação:
+Suspensiva – a eficácia do negócio jurídico fica suspensa até a
+implementação de evento futuro e incerto. As partes protelam o negócio
+temporariamente a eficácia, quando o evento futuro e incerto acontecer o
+negócio se realiza.
+Resolutiva – subordina a ineficácia do negócio a evento futuro e
+incerto. Quando ocorre o evento futuro e incerto extinguem-se os efeitos do
+negócio jurídico.
+Condições não aceitas pelo direito:
+a) não se casar;
+b) exílio ou morada perpétua em determinado lugar;
+c) exercício de determinada profissão;
+
+-- 25 of 74 --
+
+30
+d) seguimento de determinada religião;
+e) aceitação ou renúncia de herança;
+f) reconhecimento de filho;
+g) emancipação.
+2. Termo – é o dia que começa ou extingue o negócio jurídico,
+subordina-se a evento futuro e certo.
+Classifica-se da seguinte forma:
+a) termo certo – estabelece uma data de calendário;
+b) termo incerto – evento futuro, que se verificará em data
+indeterminada;
+c) termo suspensivo – a partir dele se pode exercer determinado
+direito;
+d) termo resolutivo – a partir dele cessa os efeitos do negócio jurídico.
+3. Encargo ou modo – cláusula acessória, em regra, descreve atos de
+liberalidade intervivos ou causa mortis, que impõe ônus ou obrigação a uma
+pessoa contemplada pelos referidos atos. O encargo não suspende a
+aquisição ou exercício de direito.
+O contrato é um acordo de vontades sempre de natureza patrimonial.
+É um negócio jurídico bilateral, como vimos anteriormente. No entanto, nem
+todo negócio jurídico é bilateral. Um testamento, por exemplo, é unilateral,
+pois uma das partes determina os efeitos produzidos, de maneira que os
+referidos no testamento não podem modificar o que fora previamente
+determinado.
+Portanto, o contrato é um negócio jurídico bilateral, pois diz respeito
+ao acordo de vontades das partes envolvidas.
+O contrato pode ser unilateral, bilateral ou plurilateral. Todavia,
+sempre que falamos contrato significa haver duas partes envolvidas, de
+modo que todo contrato é, antes de qualquer coisa, bilateral.
+Ser bilateral significa que ambas as partes tem prestações. O contrato
+unilateral ou plurilateral indica duas vontades, mas não quer dizer que
+haverá prestação para ambas, por exemplo: o contrato de doação contém
+duas vontades, mas apenas uma das partes (nesse caso o doador) presta
+serviço, cabendo à outra aceitar à doação.
+
+-- 26 of 74 --
+
+31
+O contrato bilateral, por sua vez, é sinal agmático, ou seja, possui
+duas vontades e prestação para ambas as partes. Veja o exemplo de um
+contrato de compra e venda: uma parte tem a obrigação de entregar o bem e
+a outra precisa entregar o preço. O bem só será entregue conquanto seja
+entregue o preço; do mesmo modo que o preço será entregue na medida em
+que o bem for disponibilizado.
+A palavra sinalagma é usada quando duas partes tem relação de
+causalidade, ou seja, quando uma depende da outra, como vimos no
+exemplo anterior a respeito do contrato de compra e venda.
+Sendo assim, todo contrato bilateral é sinalagmático.
+1.5 – Interpretação do contrato
+Interpretar um contrato é, afinal, esclarecer o sentido das suas
+declarações e determinar o significado do acordo ou consenso.
+Constituindo-se as declarações, como se constituem, de palavras com
+as quais as partes comunicam o que querem uma à outra, algumas vezes
+sem exprimir com exatidão a vontade, deve o intérprete iniciar sua tarefa
+pela verificação do sentido destas. Feito isso, há de partir em busca de
+vontade real dos contraentes, sem esquecer as circunstâncias em que se
+formularam e outros fatos, como o comportamento anterior ou seguinte das
+partes, que possam servir à plena reconstrução da ideia (intento) nascida na
+mente humana como representação interna.
+Nessa pesquisa, cabe realizar a análise jurídica do contrato a fim de
+enquadrá-lo, pelo seu conteúdo, numa das categorias contratuais definidas
+na lei, levando em conta apenas os elementos essenciais e não dando
+importância ao nome que as partes lhe atribuíram.
+O enquadramento é necessário para a determinação dos efeitos
+específicos próprios de cada tipo de contrato, muito embora numerosos
+contratos não se ajustem aos esquemas traçados na lei (contratos atípicos)
+e até mesmo os que se enquadram na esquematização legal não deixam de
+incorporar cláusulas que o particularizam.
+Em consequência, a determinação dos verdadeiros efeitos do contrato
+depende, grandemente, da interpretação da vontade das partes. Embora se
+tenha a qualificação do contrato como a fase preliminar da sua interpretação,
+o problema não é de interpretação do contrato, mas de interpretação da lei
+que o qualifica, sendo uma questão de direito, e não de fato, saber, por
+exemplo, se um contrato é preliminar ou definitivo.
+A função tradicional do intérprete é buscar e esclarecer a vontade dos
+contraentes, manifestada no contrato, mediante declaração destinada a
+provocar efeitos jurídicos.
+
+-- 27 of 74 --
+
+32
+Função da interpretação do contrato é a determinação dos efeitos
+jurídicos que este visa formar e produzir. Diz-se que, se o objeto da vontade
+contratual são os efeitos do contrato, deve-se admitir, por dedução lógica,
+que o fim último da interpretação é a determinação de tais efeitos. Afinal, o
+que importa é definir a vontade contratual objetivamente expressa nas
+cláusulas, mesmo que não corresponda exatamente à intenção do
+declarante. É, de resto, comportamento obrigatório dos contratantes que
+demanda do intérprete clara definição e, se é juiz, a escolha do preceito
+aplicável em caso de controvérsia.
+O intérprete não pode se afastar da regra que manda interpretar as
+declarações de vontade, atendendo-se mais à sua intenção do que ao
+sentido literal da linguagem, a fim de determinar com precisão a efetiva
+vontade das partes.
+Nos ordenamentos jurídicos que converteram tal princípio em artigo
+de lei, como o nosso, tem-se entendido que não se pode prescindir a
+investigação da vontade interna de cada parte, mas a verdade é que o fim
+da disposição legal é obrigar o intérprete a verificar o espírito do contrato,
+isto é, o seu significado genuíno.
+A interpretação correta da regra hermenêutica estatuída no Código
+Civil para interpretação dos negócios jurídicos em geral não pode admitir
+que alusão à intenção da declaração de vontade seja, no contrato, a de cada
+declarante, pois a vontade singular de cada parte é sempre irrelevante para
+o fim de interpretação do acordo. É que pode haver divergência entre os
+intentos e, não obstante, conclusão do contrato, como na hipótese de ser a
+declaração transmitida de forma errada.
+Tal como sucede, embora em outros termos, na interpretação da lei,
+admite-se interpretação restritiva e extensiva do contrato. Entende-se que as
+expressões usadas no contrato, por mais gerais que sejam, devem ser
+tomadas no sentido que esteja em estrita relação com os fins para os quais
+as partes se propuseram contratar.
+Interpretam-se, por conseguinte, restritivamente. Quando a fórmula
+adotada pelos contraentes diz menos do que aquilo que quiseram dizer,
+interpreta-se o contrato extensivamente, não se presumindo excluídos os
+pontos não previstos, aos quais ele possa ser estendido.
+Pode-se, em suma, demonstrar que o verdadeiro sentido do contrato
+é mais amplo do que o aparente, incluindo no significado mais amplo da
+fórmula adotada pelas partes todas as outras hipóteses que nela possam ser
+razoavelmente compreendidas.
+Já Pothier esclarecera as dimensões dessa operação hermenêutica
+como o exemplo de um contrato antenupcial em que se pactuasse o regime
+de comunhão de bens no qual entrassem as coisas móveis havidas por
+
+-- 28 of 74 --
+
+33
+sucessão; isso não exclui, diz ele, que também se comuniquem os outros
+bens que, por direito comum, entram na comunhão.
+Por maior que seja, finalmente, o poder atribuído ao intérprete na
+medida em que se acentua a inclinação para desubjetivar a vontade, não se
+consente que imponha às partes um contrato diverso do que realizaram,
+ainda que preferível do ponto de vista do interesse público. Não é lícito ao
+juiz invocá-lo para o ajustamento por meio de interpretação, cabe-lhe
+unicamente decretar a nulidade do contrato se o contraria, ou dizer que as
+cláusulas infringentes estão substituídas pelas disposições legais que
+preveem a substituição automática.
+As lacunas da regulação contratual exigem a 'sua interpretação
+complementar, tal como sucede com a lei, com a diferença de que o contrato
+estabelece regras que somente valem para as partes e para situações
+concretas. Na interpretação complementar de um contrato, é relevante,
+também, averiguar o modo por que os contratantes intentaram harmonizar
+os interesses recíprocos, levando-se em conta a sua estrutura integral e as
+circunstâncias pressupostas pelas partes, no dizer de Larenz. A tarefa do
+intérprete consiste em verificar o que os contraentes teriam estatuído se
+houvessem pretendido regular a questão que não foi expressamente
+prevista, isto é, sua vontade hipotética.
+Em muitas e freqüentes relações contratuais, interessa mais do que a
+interpretação da declaração, a de regra.
+Interpretação da lei e interpretação do contrato
+Distingue-se tradicionalmente a interpretação da lei da interpretação
+do contrato.
+A interpretação da lei seria a interpretação da vontade do legislador,
+significando-se com essa expressão a vontade objetiva e constante que se
+exprime no texto, não a vontade subjetiva das pessoas físicas que o
+elaboram ou do órgão que a aprovou. Já a interpretação do contrato é
+conceituada, na hermenêutica tradicional, como processo de esclarecimento
+da vontade subjetiva dos contratantes e, na doutrina mais recente, como
+investigação da vontade objetivada no conteúdo do vínculo contratual.
+Na interpretação da lei, a missão do intérprete consiste em lhe
+determinar o sentido e alcance, enquanto na interpretação do contrato cabe
+descobrir a vontade concreta das partes. Nesta, o que se interpreta é um
+comportamento humano. O intérprete de um contrato deve indagar a
+verdadeira intenção dos contratantes e deve esclarecer o sentido da
+declaração. Sua tarefa é, pois, diferente da missão do intérprete da lei.
+Tende-se, não obstante, para construir uma teoria unitária da
+interpretação. A ideia não é nova, já havendo continuadores da escola da
+jurisprudência dos interesses que sustentavam dever a interpretação do
+
+-- 29 of 74 --
+
+34
+contrato ser feita conforme o método de avaliação dos interesses, observado
+por eles na interpretação da lei.
+É, no entanto, entre os que incluem o contrato entre as fontes
+normativas que a construção unitária encontra os mais consequentes
+defensores. Segundo a teoria preceptiva do contrato, a interpretação jurídica
+visa sempre e somente a fixar o teor e a importância dos comandos
+jurídicos, legais ou negociais, devendo-se abandonar o princípio de que a
+interpretação é averiguação de uma vontade interna ou psicológica. Desse
+modo, a determinação do sentido da manifestação ou declaração numa
+cláusula contratual ou num artigo de lei deve obedecer aos mesmos
+princípios e critérios.
+Para os tradicionalistas, a relação jurídica nascida de um contrato
+deve ser interpretada em obediência a regras e métodos distintos dos que se
+observam na interpretação da lei, designadamente os que presidem a
+chamada interpretação subjetiva. .
+Tipos de interpretação
+Na interpretação dos contratos, distingue-se a interpretação subjetiva
+ou objetiva.
+A interpretação subjetiva tem por fim a verificação da vontade real dos
+contratantes, enquanto a interpretação objetiva visa esclarecer o sentido das
+declarações que continuem dúbias ou ambíguas por não ter sido possível
+precisar a efetiva intenção das partes.
+A interpretação objetiva é subsidiária, pois suas regras só se invocam
+se falharem as que comandam a interpretação subjetiva.
+A distinção não tem fundamento para os preceptivistas, por isso que
+não admitem a investigação da intenção das partes e acham que as normas
+de interpretação destinam-se à determinação do significado normativo do
+contrato.
+Tanto a interpretação subjetiva como a objetiva têm regras prescritas
+nos códigos mais recentes.
+São disposições legais de interpretação subjetiva nesses códigos:
+a) na interpretação de um contrato deve-se indagar qual foi a intenção
+comum das partes;
+b) o intérprete não deve limitar-se ao sentido literal da linguagem, mas
+averiguar o espírito do contrato;
+
+-- 30 of 74 --
+
+35
+c) tal como a lei, o contrato deve ser interpretado sistematicamente,
+interpretando-se suas cláusulas umas por meio das outras e atribuindo-se a
+cada qual o sentido que emerge da totalidade;
+d) as cláusulas de um contrato de adesão ou predeterminadas por um
+dos contraentes em fórmula impressa interpretam-se, na dúvida, em favor do
+aderente.
+São regras de interpretação objetiva:
+a) o contrato deve ser interpretado segundo boa-fé;
+b) a interpretação deve conduzir à conservação do contrato, de modo
+que produza efeitos, como também devem produzi-los suas cláusulas;
+c) no caso de permanecer obscuro depois de observadas as regras
+interpretativas estabelecidas, deve o contrato gratuito ser interpretado no
+sentido menos gravoso para a parte com posição de devedor, enquanto no
+contrato oneroso a interpretação deve conduzir ao maior equilíbrio das
+prestações extrema ratio.
+Nas legislações que acolheram estes cânones, tais disposições são
+verdadeiras e próprias regras jurídicas. Ao interpretar um contrato, a fim de
+anular uma ação, o juiz tem de observa-Ias como a qualquer outro preceito
+legal.
+Onde não foram introduzidas na legislação devem ser adotadas pelo
+intérprete como normas lógicas que lhe facilitam a tarefa ao lado do
+emprego dos métodos literal, lógico, sitemático, extensivo, restritivo e das
+práticas gerais interpretativas.
+O Código Civil brasileiro deixou a tarefa da interpretação contratual,
+quase que por inteiro, para a doutrina e a jurisprudência.
+O velho Código Comercial brasileiro, no entanto, continha, nos artigos
+130 e 131, revogados pelo novo Código Civil, algumas regras clássicas de
+interpretação dos contratos, que foram editadas especificamente para as
+obrigações mercantis, mas que, supletivamente, sempre foram aplicadas
+também aos contratos civis.
+São elas:
+Art. 130. As palavras dos contratos e convenções mercantis devem
+inteiramente entender-se segundo o costume e uso recebido no comércio, e
+pelo mesmo modo e sentido por que os negociantes se costumam explicar,
+posto que entendidas de outra sorte possam significar coisa diversa.
+
+-- 31 of 74 --
+
+36
+Art. 131. Sendo necessário interpretar as cláusulas do contrato, a
+interpretação, além das regras sobreditas, será regulada sobre as seguintes
+bases:
+I - a inteligência simples e adequada, que for mais conforme a boa-fé
+e ao verdadeiro espírito e natureza do contrato, deverá sempre prevalecer à
+rigorosa e restritiva significação das palavras;
+II - As cláusulas duvidosas serão entendidas pelas que o não forem, e
+que as partes tiverem admitido; e as antecedentes e subsequentes, que
+estiverem em harmonia, explicarão as ambíguas;
+III - o fato dos contratantes posterior ao contrato, que tiver relação
+com o objeto principal, será a melhor explicação da vontade que as partes
+tiverem no ato da celebração do mesmo contrato;
+IV - o uso e prática geralmente observada no comércio, nos casos da
+mesma natureza, e especialmente o costume do lugar onde o contrato deva
+ter execução, prevalecerá a qualquer inteligência em contrário que se
+pretenda dar às palavras;
+V - Nos casos duvidosos, que não possam resolver-se segundo as
+bases estabelecidas, decidir-se-á em favor do devedor.
+Interpretação subjetiva
+A interpretação subjetiva é dominada pelo princípio de investigação
+da vontade real.
+Tal investigação precede a qualquer outra. O intérprete tem de
+indagar, antes de qualquer coisa, qual foi a intenção comum das partes, e
+não a vontade singular de cada declarante, atendendo ainda ao
+comportamento coetâneo e posterior à sua celebração.
+Não é tranqüilo o conceito de intenção comum. Entendem alguns
+autores que se forma no ponto de encontro das duas vontandes orientadas
+para o mesmo objeto, isto é, quando as duas declarações se encaixam,
+superpondo-se à divergência dos motivos e interesses de cada uma das
+partes. Outros o vislumbram na concorde determinação causal do contrato,
+vale dizer, no comum intento prático das partes. Terceiros sustentam ser a
+intenção comum um conceito que diz respeito às vontades objetivas no
+acordo.
+A intenção das partes passa a ser comum com a integração das
+vontades, mas não se sabe o que verdadeiramente se deve entender como
+tal nem como conduzir a investigação para descobri-la.
+A indicação da causa do contrato como o meio interpretativo próprio
+para definir a intenção comum dos contraentes peca por escassez.
+
+-- 32 of 74 --
+
+37
+Conhecer o fim que as partes têm na mira ao celebrar um contrato é um
+dado relevante para averiguação da chamada vontade contratual, mas
+insuficiente, inclusive para encontrar o verdadeiro sentido das cláusulas
+especiais introduzidas pelas partes no texto do contrato, que tenham
+necessidade de ser interpretadas. De resto, as estipulações concretas
+variam de contrato a contrato e o intento prático de cada tipo contratual é
+invariável, pouco adiantando conhecer este para descortinar a vontade
+contratual se aquelas o modificam.
+Tendo-se em conta o tipo de contrato, conceituam certos escritores a
+intenção comum como o sentido de cada declaração que as partes tinham o
+dever de entender usando o grau de diligência que delas se deve esperar,
+como, por exemplo, na aceitação pura e simples de uma proposta ou oferta
+ou quando o contrato seja precedido de tratativas (negociações
+preliminares), no resultado das combinações dos significados de propostas e
+contrapropostas entendidas segundo o princípio do dever de reconhecer ou
+de entender.
+A vontade comum no contrato é, para a doutrina objetivista, um
+conceito vazio, se elaborado em termos subjetivos. É que não pode ser a
+que emerge de uma indagação de caráter psicológico, porquanto tal
+investigação pode conduzir apenas à descoberta da vontade de cada parte.
+Como quer que seja, a interpretação subjetiva é necessária, pois o
+objeto da interpretação do contrato é sempre a vontade e a meta a ser
+alcançada pelo intérprete, a exata determinação dos efeitos jurídicos que as
+partes quiseram provocar.
+Interpretação objetiva
+Para cumprir sua tarefa, deve o intérprete examinar o contrato
+precipuamente do ponto de vista da vontade das partes, como visto. O
+legislador o ajuda, à medida que dita preceitos interpretativos. Juntamente
+com as normas destinadas a orientá-lo no sentido de buscar a verdadeira
+intenção dos contratantes, ditam-se regras para a solução de dúvidas que
+perdurem após a pesquisa feita para a descoberta da vontade real do
+contrato em exame.
+Passa-se, nesses casos, da interpretação subjetiva para a objetiva
+sem deixar de reconhecer que as regras desta podem ser aplicadas
+concomitantemente para ajudar a investigação da intenção das partes.
+Três princípios dominam a interpretação objetiva:
+1- princípio da boa-fé;
+2 - princípio da conservação do contrato;
+
+-- 33 of 74 --
+
+38
+3 - princípio da extrema ratio (menor peso e equilíbrio das
+prestações).
+Os três reclamam sumária elucidação.
+O princípio da boa fé foi consagrado pela primeira vez no art. 157 do
+Código Civil alemão nestes termos: "os contratos devem ser interpretados tal
+como o exijam a confiança e a lealdade recíprocas em correlação com os
+usos do comércio. Tomou, entretanto, significação especial nas legislações
+que o receberam como norma subsidiária da interpretação comum dos
+contratantes. Trata-se de uma regra que contribui para precisar o que se
+deve entender como o consenso, assim considerado o encontro e a
+combinação de duas vontades para a produção de efeitos jurídicos
+vinculativos.
+O processo interpretativo empregado para reconstruir e determinar o
+comum intento prático das partes de um contrato é guiado pelo critério da
+boa-fé, devendo assim se entender por intenção comum o que podiam os
+contratantes entender a declaração recebida ou deduzir do comportamento
+de outro declarante.
+Consagra-se, por outras palavras, a concepção objetivista da
+interpretação explicitada no Código Civil português (art. 236) e explicada
+pela necessidade de proteger a legítima expectativa de cada um dos
+contraentes. Devem-se investigar os possíveis sentidos da declaração e
+acolher o que o destinatário podia e devia atribuir-lhe com fundamento nas
+regras comuns da linguagem e no particular modo de se comunicar e se
+entender com a outra parte.
+Toma-se claro, nesse entendimento, que o princípio da boa-fé na
+interpretação dos contratos é uma aplicação particular do princípio mais
+amplo da confiança e auto-responsabilidade segundo o qual deve
+reconhecer a validade de uma declaração negocial quem a emitiu por forma
+que o destinatário não possa, com diligência ordinária, emprestar-lhe outro
+sentido, pouco importando o que o declarante quis realmente atribuir. O que
+em suma importa é o significado objetivo que o aceitante de proposta de
+contrato "podia e devia" entender razoavelmente segundo a regra da boa-fé.
+Sob invocação da óbvia razão de que a interpretação é obra do
+intérprete, há quem sustente que a regra segundo a qual o contrato deve ser
+interpretado de boa-fé constitui norma de comportamento dirigida a quem
+deve interpretar, só tendo valor quando várias soluções se apresentam como
+igualmente possíveis, hipótese em que deve adotar aquela que mais se
+harmonize à lei moral e torne o regulamento contratual mais justo e
+eqüitativo.
+Nesse modo de entender, o princípio da boa-fé na interpretação
+careceria de maior significação em desacordo com a opinião dominante que
+
+-- 34 of 74 --
+
+39
+lhe atribui grande importância, mesmo quando seja considerado um
+processo interpretativo subsidiário.
+Segundo o princípio da conservação do contrato, quando uma
+cláusula contratual admite dois sentidos deve ser entendida, conforme já
+ensinara Pothier, naquele com o qual possa produzir qualquer efeito.
+Enuncia-se hoje como princípio que inspira a interpretação integrativa,
+não se restringindo à dúvida sobre cláusulas, mas à que paire sobre todo o
+contrato. Funda-se na razão principal de que não se deve supor que as
+partes tenham celebrado um contrato inutilmente e sem seriedade. O
+contrato deve ser interpretado, como qualquer de suas cláusulas, no sentido
+de que possa ter qualquer efeito, devendo prevalecer a interpretação que lhe
+dê o significado mais útil.
+A extrema ratio é, por último, uma regra que se inspira na
+necessidade de atribuir ao contrato um significado, por mais obscuro que
+seja. Quando a sua obscuridade permanecer a despeito da aplicação de
+todos os princípios e regras de interpretação, recorre o intérprete ao critério
+extremo que o orienta no sentido de entendê-lo menos gravoso para o
+devedor, se gratuito, de que se realize eqüitativo equilíbrio entre os
+interesses das partes, se a título oneroso. A obscuridade não deve ir ao
+ponto de privar o contrato de qualquer sentido. Neste caso, seria nulo.
+É de reconhecer, em conclusão, que todas as regras da interpretação
+objetiva não são normas interpretativas do contrato propriamente dito, pois
+que visam, não a esclarecer o sentido da vontade contratual, mas a
+introduzir um significado hipotético à base de esquemas hipotéticos diante
+de vontade obscura ou ambígua. São normas jurídicas ligadas, antes, à
+estrutura do contrato, à sua função e à retidão das técnicas de contratação
+que hoje se empregam em certos setores econômicos, como a do contrato
+em massa.
+Usos interpretativos
+Práticas e palavras usadas habitualmente no mesmo sentido ajudam
+o intérprete na realização de sua tarefa. Formam-se, desse modo, usos
+sociais, que devem ser levados em conta na interpretação dos contratos,
+conforme prescrevem algumas legislações, como o Código Civil alemão.
+Tem, em síntese, função hermenêutica, dizendo-se, por isso, que são
+interpretativos.
+Resultam da repetição constante do modo de agir na execução de
+determinado contrato, como por exemplo, a prática de se dilatar por trinta
+dias o pagamento considerado à vista do preço de certas mercadorias.
+Atribui-se a mesma função ao emprego de termos que designam
+correntemente atos ou objetos, sempre com a mesma significação, uma vez
+
+-- 35 of 74 --
+
+40
+que toda declaração de vontade deve produzir os efeitos jurídicos
+correspondentes ao significado usual das palavras pelas quais se exprime.
+Os usos interpretativos não devem ser confundidos com as normas
+consuetudinárias. Estas são autênticas normas jurídicas, gerais e
+obrigatórias, enquanto aqueles representam práticas úteis à interpretação
+das declarações de vontade. Não têm o valor de uma norma de direito
+objetivo, valendo, antes, como parte constitutiva da declaração de vontade.
+Duas funções distintas se atribuem aos usos interpretativos, uma
+estritamente hermenêutica e outra nitidamente supletória; ao uso supletivo
+recorre-se para integrar lacuna do contrato, podendo ser excluído por
+vontade expressa das partes, enquanto ao uso interpretativo stricto sensu
+deve o intérprete reportar-se para investigar se há efeitos jurídicos não
+declarados, mas correspondentes ao que é usual em tais contratos,
+aplicando-os, segundo alguns, mesmo quando é desconhecido dos
+interessados.
+O uso pode instaurar-se no curso de uma relação contratual, como se
+verifica quando as duas partes observam durante muito tempo, conduta
+uniforme a que se atribui habitualmente determinada significação, e não
+possa ser considerada nova cláusula tacitamente admitida pelas partes.
+A doutrina continua dominada por incertezas e dúvidas a respeito da
+significação dos usos interpretativos e da qualificação do tipo de
+interpretação a que devem ser conduzidas. Vacila-se na distinção entre tais
+usos e os usos normativos, e, até mesmo, na diferença com os usos
+contratuais, afirmando-se que se posicionam em plano bem diverso, para,
+afinal, reduzi-los a simples modos de ver e de se exprimir, dos quais se
+extrai não uma regra de conduta, mas um critério para atribuir a um ato o
+significado.
+
+-- 36 of 74 --
+
+41
+2.1 - Proposta
+Segundo Maria Helena Diniz, Contrato é o acordo de vontades, na
+conformidade da ordem jurídica, destinado a estabelecer uma
+regulamentação de interesses entre as partes, com o escopo de adquirir,
+modificar ou extinguir relações jurídicas de natureza patrimonial.
+O Contrato poderá ser celebrado por escrito, mediante escritura
+pública ou instrumento particular, ou verbal e até mesmo tacitamente, uma
+vez que a manifestação de vontade poderá ser tácita quando a lei não exigir
+que seja expressa, e decorrer de fatos que autorizem o seu reconhecimento.
+“A proposta é uma declaração de vontade dirigida por uma pessoa à
+outra (com quem se pretende celebrar o contrato), por força da qual a
+primeira manifesta a sua intenção de se considerar vinculada se a outra
+parte aceitar.” (Maria Helena Diniz, Código Civil Anotado, 15ª Edição).
+Proposta é a firme declaração receptícia de vontade dirigida à pessoa
+com a qual pretende alguém celebrar um contrato, ou ao público, no caso da
+“oferta ao público”.
+Para que ela seja considerada válida, é preciso que sejam
+observadas certas condições, para que a aceitação pelo destinatário (oblato)
+implique na formação do contrato. Para tanto, exige-se que a proposta seja
+inequívoca, precisa e completa.
+Nesse caso, as comunicações nas quais o declarante se mostra
+propenso apenas a realizar contratos, querendo simples aproximação, não
+possuem caráter de proposta, assim como o convite a fazer oferta também
+não é proposta. Quem o faz, quer, precisamente, receber proposta, como no
+caso de alguém desejar comprar determinada mercadoria que escreve aos
+fornecedores, convocando-os a que façam oferta. Suscita-se a proposta,
+ocupando a posição de oblato, não de proponente.
+A proposta pode ser indeterminada em alguns pontos. Ao proponente
+permite-se, por exemplo, deixar à escolha do oblato a quantidade de
+mercadoria que lhe oferece por preço unitário.
+A proposta não precisa, necessariamente, ser à pessoa determinada.
+O tipo da proposta a pessoas indeterminadas é por excelência a oferta ao
+público, tipo previsto no nosso Código Civil, e tanto uma como a outra não
+se configuram em negócio jurídico e sim um ato pré-negocial, preparatório
+ao negócio jurídico.
+A proposta reveste-se de força vinculante, podendo o proponente
+responder por perdas e danos se, sem justificativa, retirar a oferta. Assim, a
+obrigatoriedade da proposta consiste no ônus, imposto ao proponente, de
+
+-- 37 of 74 --
+
+42
+não a revogar por certo tempo, assegurando, desse modo, a estabilidade
+das relações sociais.
+Entretanto a obrigatoriedade da proposta não é absoluta, uma vez
+que não será obrigatória nas seguintes circunstâncias:
+1. Se a proposta contiver cláusula expressa que lhe retire a força
+vinculante;
+2. Se a falta da obrigatoriedade fluir da própria natureza do negócio;
+3. Se, feita sem prazo a uma pessoa presente, não for imediatamente
+aceita (nesse tipo de proposta admite-se por telefone, por e-mail);
+4. Se, feita sem prazo a pessoa ausente, por meio de carta ou
+telegrama, já tenha decorrido tempo suficiente para que a resposta
+chegue ao conhecimento do proponente;
+5. Se, feita com prazo a pessoa ausente, esta não tenha se manifestado
+dentro do prazo estabelecido para a resposta;
+6. Se, antes da resposta ou do termo do prazo, chegar ao conhecimento
+do oblato a retratação do proponente.
+Devemos falar a respeito da aceitação, pois para que a proposta assuma
+concretamente seu caráter pré-negocial, e venha por consequência ensejar
+a realização do negócio jurídico através do contrato é necessária a sua
+aceitação.
+A aceitação é a manifestação da vontade, expressa ou tácita, pelo
+destinatário da proposta, feita dentro do prazo, aderindo a esta em todos os
+seus termos, tornando o contrato concluído, desde que chegue
+oportunamente ao conhecimento do proponente.
+Lembramos que a aceitação deve ser oportuna, ou seja, realizada dentro
+do prazo fixado na proposta, caso contrário não terá a força vinculante, e
+não produzirá qualquer efeito jurídico. A aceitação oportuna que chegar ao
+proponente fora do prazo, por qualquer circunstância imprevista, alheia à
+vontade do emitente, obrigará ao proponente, caso não queira levar o
+negócio adiante, comunicar o fato expressamente ao aceitante, sob pena de
+responder por perdas e danos.
+A aceitação poderá ser tácita quando o negócio for do tipo em que não
+seja costume a aceitação expressa, ou o proponente a tiver dispensado, e a
+recusa não chegar a tempo. Um exemplo prático de aceitação tácita é o
+fornecedor que mensalmente envia a seu cliente um determinado número de
+produtos, que na época determinada os paga a seu fornecedor, se num
+dado momento, a esse cliente não mais convier o recebimento dos produtos,
+deverá avisar expressamente ao fornecedor, sob pena de continuar
+vinculado ao negócio.
+
+-- 38 of 74 --
+
+43
+Como já dissemos a aceitação deve ser oportuna e conter adesão total
+aos termos da proposta. No caso de aceitação que inclua alterações,
+restrições ou adições à proposta, configurar-se-à nova proposta ou
+contraproposta, e não se dará a conclusão do contrato, iniciando-se nova
+negociação.
+O aceitante poderá se arrepender, desde que a sua retratação chegue
+antes ou juntamente com a aceitação, caso contrário o aceitante continuará
+vinculado ao negócio jurídico.
+Após a aceitação se dá a formação do contrato, e o lugar da formação do
+contrato também obedece às regras estabelecidas pela lei. O contrato entre
+pessoas presentes forma-se onde elas se encontram. O que se realiza entre
+pessoas distantes uma da outra, no lugar em que foi proposto. Interessa
+saber onde os contratos se formam, dentre outras razões, para determinar o
+foro competente e, no campo do Direito Internacional, a lei reguladora.
+2.2 - Elementos do Contrato
+O Contrato é a mais utilizada fonte de obrigação prevista em nosso
+direito. Obrigação é o vínculo de direito em que um sujeito passivo se obriga
+a dar, fazer ou não fazer uma prestação a um sujeito ativo, e o não
+cumprimento acarreta consequências.
+Para que uma obrigação se caracterize são necessários três
+elementos: pessoas, prestação e vínculo jurídico. Nesse sentido o contrato
+deverá conter, necessariamente, cláusulas que abranjam estes elementos
+constitutivos da obrigação.
+O contrato deve apresentar a qualificação das partes envolvidas, de
+forma que possam ser individualizadas e encontradas em seus respectivos
+domicílios. Deve, também, especificar o objeto do acordo, que pode ser um
+serviço, uma coisa móvel ou imóvel, a entrega de algum valor, entre outros.
+Além disso, o vínculo que une os contratantes também deve ser detalhado.
+Segundo o artigo art. 421 do Código Civil, a liberdade de contratar
+deve ser exercida em razão e nos limites da função social do contrato. O
+contrato por sua função e conteúdo é o centro da vida dos negócios. É o
+instrumento prático que realiza o trabalho de harmonizar interesses. O
+contrato se origina da vontade das partes e só se aperfeiçoa quando, pela
+transigência de cada um, os contratantes alcançam um acordo satisfatório a
+ambos.
+Ainda segundo o Código Civil, em seu artigo 104, são elementos
+essenciais à validade do negócio jurídico:
+I - agente capaz;
+II - objeto lícito, possível, determinado ou determinável;
+
+-- 39 of 74 --
+
+44
+III - forma prescrita ou não defesa em lei.
+Os elementos essenciais são imprescindíveis à existência e validade
+do ato negocial, posto que formam sua substância. Eles podem ser comuns
+ou particulares.
+Capacidade do Agente: A capacidade do agente é indispensável à sua
+participação válida em qualquer negócio jurídico. Tal capacidade poderá ser:
+a) Geral, ou seja, a de exercer direitos por si, logo o ato praticado pelo
+absolutamente incapaz sem a devida representação será nulo, e o
+realizado pelo relativamente incapaz sem assistência será anulável;
+b) Especial, ou legitimação, requerida para a validade de certos
+negócios em dadas circunstâncias (por exemplo, uma pessoa casada
+é plenamente capaz, porém não tem capacidade para vender imóvel
+comum ao casal (casados em comunhão universal ou parcial) sem a
+autorização do cônjuge).
+Objeto lícito, possível, determinado ou determinável: O negócio
+jurídico válido deverá ter um conteúdo legalmente permitido. O objeto deverá
+estar em conformidade com a lei, aos bons costumes, à ordem pública e à
+moral (como por exemplo, a compra e venda de coisa roubada). O objeto
+deverá ainda ser possível, física ou juridicamente. Além disso, o objeto
+deverá ser determinado ou possível de determinação, pelo gênero e
+quantidade.
+Consentimento dos interessados: As partes deverão anuir, de forma
+expressa ou tácita, para a formação de uma relação jurídica, sobre
+determinado objeto. Sem vícios de consentimento, como erro, dolo, coação,
+estado de perigo e lesão ou vícios sociais, como simulação e fraude contra
+credores.
+Forma prescrita ou não defesa em lei: O princípio geral é que a
+declaração de vontade independe de forma especial, entretanto em alguns
+casos será indispensável seguir a forma exigida para o ato, cuja
+inobservância venha a invalidar o negócio (como exemplo alguns contratos
+exigem escritura pública, enquanto outros são possíveis até na forma
+verbal).
+Dicas importantes
+Acordo e boa fé: Antes de redigir o instrumento, as partes devem debater
+todas as cláusulas que formaram o contrato, para que nenhuma das partes
+saia prejudicada.
+Cláusulas: A redação do contrato deve ser a mais simples possível,
+conciso e contínuo, de preferência sem a utilização de expressões em latim
+e abreviaturas. Para facilitar o entendimento do instrumento, recomenda-se
+
+-- 40 of 74 --
+
+45
+que as cláusulas sejam numeradas e contenham um "título" que traduzam
+seu conteúdo. Deve-se observar também, que, de acordo com o art. 424, do
+Código Civil, "nos contratos de adesão, são nulas as cláusulas que
+estipulem a renúncia antecipada do aderente a direito resultante da natureza
+do negócio". Quanto mais simples e claro for o texto, menores serão os
+problemas na hora de sua interpretação.
+Confirmação das informações e requisitos do negócio jurídico: Antes de
+celebrar o contrato, a parte deverá confirmar todas as informações
+transmitidas pelo outro contratante. Além disso, é necessário que se analise
+todos os requisitos necessários para a formação válida do negócio jurídico.
+Dessa forma, deve-se verificar se os contratantes são maiores e capazes, se
+o objeto do contrato é lícito, se a forma adotada para a realização do mesmo
+é a prescrita para aquele tipo de negócio, por exemplo, contratos que
+envolvam alienação de bens imóveis, devem ser feitos através de escritura
+pública.
+Assinatura das partes: Ambas as partes contratantes devem assinar ao
+final do instrumento, juntamente com, no mínimo dois testemunhas. As
+firmas devem ser reconhecidas em cartório para evitar-se fraudes ou
+falsificações. Nos contratos que envolvem imóveis, é necessário que os
+respectivos cônjuges também assinem.
+2.3 - Direito das Obrigações
+Consequências do inadimplemento das obrigações
+Para Washington de Barros Monteiro, “a obrigação é a relação
+jurídica, de caráter transitório, estabelecida entre devedor e credor e cujo
+objeto consiste numa prestação pessoal econômica, positiva ou negativa,
+devida pelo primeiro ao segundo, garantindo-lhe o seu adimplemento
+através de seu patrimônio”.
+Como dissemos acima, o contrato é a mais utilizada fonte de
+obrigação prevista em nosso direito, e o não cumprimento das prestações
+assumidas acarreta consequências. Veremos adiante as consequências
+previstas pela lei para o descumprimento de obrigações assumidas em
+contrato.
+O inadimplemento de uma obrigação consiste na falta da prestação
+devida ou no descumprimento, voluntário ou involuntário, do dever jurídico
+por parte do devedor.
+Na obrigação negativa o devedor se compromete a não realizar
+determinado ato. O devedor que se obrigar a não praticar dado ato será tido
+como inadimplente a partir da data em que veio a executar, culposamente, o
+ato de que devia abster-se. Desse dia, surgirão os efeitos oriundos do
+descumprimento da obrigação de não fazer.
+
+-- 41 of 74 --
+
+46
+Pelo inadimplemento das obrigações respondem todos os bens do
+devedor, ou seja, embora a obrigação possa objetivar uma prestação
+pessoal do devedor, a execução por inadimplemento atinge todos os seus
+bens, com exceção apenas dos impenhoráveis por lei.
+Todavia em nosso direito está consagrado o princípio da exoneração
+do devedor pela impossibilidade de cumprir a obrigação sem sua culpa, ou
+seja, os prejuízos decorrentes de força maior ou caso fortuito, não ensejam
+qualquer tipo de indenização ao credor da obrigação.
+A esse princípio, entretanto, existem algumas exceções, e são elas:
+1. Se as partes expressamente convencionaram a responsabilidade do
+cumprimento da obrigação pelo devedor, mesmo ocorrendo caso
+fortuito ou força maior;
+2. Se o devedor estiver em mora.
+Vale ressaltar que são requisitos fundamentais da força maior ou caso
+fortuito a inevitabilidade e incontrolabilidade do acontecimento (objetivos),
+e ausência de culpa na produção do evento (subjetivo).
+Da Mora
+Configura-se a mora do devedor quando este deixar de cumprir, por
+sua culpa, a prestação devida, na forma, tempo e lugar estipulados em
+disposição legal ou contratual.
+A mora do devedor acarretará a sua responsabilidade pelos danos
+causados ao credor, mediante pagamento de juros legais ou convencionais,
+indenização do dano emergente e do lucro cessante, reembolso das
+despesas efetuadas em consequência da mora e satisfação da cláusula
+penal, além de atualização monetária e pagamento de honorários
+advocatícios.
+Importante ressaltar que, segundo o Enunciado 354, do Conselho da
+Justiça Federal, a cobrança de encargos e parcelas indevidas ou abusivas
+impede a caracterização da mora do devedor.
+Existe a mora do credor que ocorre quando, sem culpa do devedor, o
+credor nega-se a receber a prestação devida. A mora do credor obriga-o a
+ressarcir as despesas empregadas na conservação da coisa, além de
+recebê-la pela estimação mais favorável ao devedor, se o seu valor oscilar
+do dia em que deveria ter recebido até o dia em que efetivamente recebeu.
+Entende-se como purgação da mora o ato espontâneo do contratante
+moroso, que visa remediar a situação a que deu causa, evitando os efeitos
+dela decorrentes, reconduzindo a obrigação à normalidade.
+
+-- 42 of 74 --
+
+47
+Das perdas e Danos
+Perdas e danos são o equivalente do prejuízo suportado pelo credor
+em virtude do descumprimento da obrigação pelo devedor, expressando-se
+numa soma em dinheiro correspondente ao desequilíbrio sofrido pelo lesado.
+Para que a indenização por perdas e danos seja concedida, o juiz
+deverá considerar se houve dano positivo ou emergente, que consiste num
+déficit real no patrimônio do credor, e dano negativo ou lucro cessante,
+relativo à privação de um ganho pelo credor, ou seja, o lucro que ele,
+razoavelmente, deixou de auferir em razão do descumprimento da obrigação
+pelo devedor.
+Ressaltamos que se a obrigação não cumprida consistir em
+pagamento de quantia em dinheiro, a estimativa do dano, já estará
+previamente estabelecida pela multa, juros e custas processuais. Se se
+comprovar que os juros, multa e custas não cobrem as perdas e danos, não
+havendo estipulação contratual, o órgão judicante poderá conceder, por
+equidade, uma indenização suplementar.
+Da cláusula Penal
+A cláusula penal ou pena convencional é um pacto acessório pelo
+qual as próprias partes contratantes estipulam, de antemão, pena pecuniária
+ou não contra a parte infringente da obrigação, como consequência de seu
+inadimplemento culposo ou de seu retardamento, fixando assim, o valor das
+perdas e danos e garantindo o exato cumprimento da obrigação principal.
+2.4 - Vícios Redibitórios
+Vícios redibitórios são defeitos ocultos existentes na coisa alienada,
+objeto de contrato comutativo ou de doação onerosa ou com encargo, que a
+tornam imprópria para o uso a que se destina, ou lhe diminuem,
+sensivelmente o valor, de tal modo que o negócio não se realizaria se esses
+defeitos fossem conhecidos.
+Diante dessa situação, tem o adquirente ação para redibir o contrato,
+rejeitando a coisa defeituosa ou para obter abatimento no preço.
+Para que se configure vício redibitório é necessário:
+a) Coisa adquirida em virtude de contrato comutativo ou de doação
+onerosa, ou melhor, gravada com encargo, ou remuneratória;
+b) Defeito prejudicial à utilização da coisa ou determinante da diminuição
+do seu valor.
+O adquirente diante do vício redibitório da coisa terá duas alternativas à
+sua escolha:
+
+-- 43 of 74 --
+
+48
+a) Rejeitar a coisa defeituosa, rescindindo o contrato, por meio da ação
+redibitória, reavendo o preço pago e obtendo o reembolso de suas
+despesas, além das perdas e danos se o alienante conhecia o vício;
+b) Conservar o bem, reclamando abatimento no preço, sem acarretar a
+redibição do contrato, lançando mão da ação estimatória.
+2.5 - Da Evicção
+Evicção é a perda da coisa, por força de decisão judicial, fundada em
+motivo jurídico anterior, que a confere a outrem, seu verdadeiro dono, com o
+reconhecimento em juízo da existência de ônus sobre a mesma coisa, não
+denunciado oportunamente no contrato.
+Haverá responsabilidade do alienante pela evicção apenas no contrato
+oneroso translativo de domínio e posse, uma vez que, se o evicto for privado
+de uma coisa adquirida a título gratuito, não sofrerá diminuição no seu
+patrimônio, apenas deixará de obter um lucro.
+A lei confere às partes o direito de modificar a responsabilidade do
+alienante, excluindo, reforçando ou diminuindo a garantia, desde que o
+façam expressamente. Por exemplo, para reforçar ou diminuir a
+responsabilidade por evicção, poderão os contratantes convencionar seu
+pagamento em dobro, ou pela metade. Se estipulado no contrato será
+cumprido o pactuado.
+Não haverá responsabilidade do alienante se no contrato oneroso
+constar expressamente cláusula que a exclua, isentando-o da
+responsabilidade por evicção. Se o contrato, por outro lado, nada dispuser a
+respeito, subentender-se-á que tal garantia está assegurada para o
+adquirente, respondendo o alienante por ela.
+O evicto terá o direito de obter o valor das benfeitorias necessárias ou
+úteis que não lhe foram abonadas, uma vez ser possuidor de boa-fé e
+deverá receber do alienante o valor delas, tendo até o direito de reter a coisa
+evicta até que seja reembolsado das despesas feitas com tais benfeitorias
+
+-- 44 of 74 --
+
+49
+3.1 - Contrato Preliminar
+O Contrato preliminar não é uma simples negociação, é um contrato
+que traça os contornos de um contrato final, que se pretende efetivar no
+momento oportuno. Trata-se de uma promessa de contratar. Exemplos
+desse tipo de contrato é o Compromisso de Compra e Venda e o Acordo de
+Acionistas no caso da criação de uma empresa.·.
+Esse contrato, embora seja uma promessa de contratar, quanto à
+forma, deve conter todos os requisitos essenciais comuns a qualquer outro
+contrato.
+Além disso, gera ao inadimplente obrigação de indenizar por perdas e
+danos.
+Efetuado sem cláusula de arrependimento, qualquer dos contratantes
+poderá exigir a celebração do contrato definitivo prometido, desde que
+conceda a outra parte, por meio de notificação extrajudicial ou judicial, um
+prazo para a sua efetivação.
+Esgotado o prazo, poderá o juiz, a pedido do interessado, suprir a
+vontade da parte inadimplente, conferindo caráter definitivo ao contrato
+preliminar. Por essa razão é importante que o contrato preliminar contenha
+todas as condições do negócio jurídico a ser realizado.
+Poderá ocorrer a rescisão do contrato preliminar se o estipulante não
+vier a executá-lo, nesse caso será devida ainda a indenização por perdas e
+danos, como compensação ao que foi prejudicado com o descumprimento
+do contrato.
+O contrato preliminar poderá ainda ser unilateral, se ambos os
+interessados anuíram para a sua realização, porém o contrato só gerará
+
+-- 45 of 74 --
+
+50
+obrigações a uma das partes. Trata-se da opção, criará obrigações para
+apenas uma das partes, ao passo que a outra terá a liberdade de efetuar ou
+não o contrato definitivo conforme as suas conveniências. A opção pode ser
+a prazo certo, e vencido este prazo, o ofertante está livre, readquirindo a
+liberdade de contratar com quem quiser.
+3.2 - Contrato de Compra e Venda
+“O contrato de compra e venda é aquele em que uma pessoa
+(vendedor) se obriga a transferir a outra (comprador) o domínio de uma
+coisa corpórea ou incorpórea, mediante pagamento de certo preço em
+dinheiro ou valor fiduciário correspondente”. (definição de Caio Mário da
+Silva Pereira).
+O contrato de compra e venda é translativo de domínio, não no
+sentido de operar a sua transferência, mas no sentido de servir como “titulus
+adquirendi”, uma vez que gera entre os contraentes um direito pessoal. Não
+opera por si a transferência que só se realiza pela tradição, se a coisa for
+móvel, ou pelo assento do título aquisitivo no Registro Imobiliário, se o bem
+for imóvel.
+A compra e venda, como dissemos, requer a transferência de coisa
+que deverá:
+a) Ter existência, ainda que potencial, no momento da realização do
+contrato, seja ela corpórea (móvel, imóvel e semovente) ou
+incorpórea (ações na bolsa, direitos de invenção, marcas, direitos de
+criação artística);
+b) Ser individuada, ou melhor, perfeitamente determinada ou
+determinável, posto que já foi indicada pelo gênero e quantidade;
+c) Ser disponível, uma vez que a sua inalienabilidade impossibilitaria a
+sua transmissão;
+d) Ter a possibilidade de ser transferida.
+Se a compra e venda for pura e simples, não tendo condição ou termo,
+será considerada obrigatória e perfeita, passando a produzir seus efeitos a
+partir do momento em que as partes contratantes concordarem com o objeto
+e o preço.
+Se a coisa foi vendida mediante amostra, protótipo ou modelo, e caso
+não seja entregue nas condições prometidas, o comprador poderá recusá-la
+no ato do recebimento. O comprador poderá ainda pedir em juízo a
+competente vistoria em que se baseará a ação de rescisão do contrato, com
+a indenização por perdas e danos.
+O preço deverá ter o caráter de pecuniaridade, por constituir uma soma
+em dinheiro, mas nada impede que o comprador pague mediante coisa
+
+-- 46 of 74 --
+
+51
+representativa de dinheiro ou a ele redutível, como cheque, duplicata, letra
+de câmbio, entre outros.
+A fixação do preço poderá ser feita por uma das seguintes formas:
+a) Por terceiro escolhido pelas partes, que será o mandatário escolhido
+por eles, uma vez que não quiseram ou não puderam fixar o preço.
+b) Taxa de mercado ou de bolsa.
+c) Tarifamento, estabelecido por intervenção de autoridade pública.
+d) Venda sem fixação de preço ou de critério, não havendo tabelamento
+oficial, entender-se-á que os contratantes se submeteram ao preço
+que é o corrente nas vendas habituais do vendedor, não podendo
+reduzi-lo, nem aumentá-lo.
+O preço, em regra, deverá ser fixado pelos contratantes, no ato de
+contratar, não podendo, portanto, ser estipulado arbitrariamente por um
+deles, sob pena de nulidade da compra e venda.
+As despesas com escritura pública e respectivos registros ficarão por
+conta do comprador que, então arcará com os emolumentos cartorários e
+tributos. O vendedor arcará com as despesas da tradição da coisa móvel,
+como transporte, pesagem, medição, contagem, entre outros. Entretanto,
+nada impede que no contrato haja disposição em sentido contrário.
+Como sem tradição ou registro da escritura não há transferência da
+propriedade, o vendedor assumirá os riscos (perda, deterioração,
+desvalorização, e outros) da coisa. Se o bem se deteriorar por caso fortuito
+ou força maior, até o momento da tradição, o vendedor arcará com as
+consequências, devendo restituir o preço se já o recebeu.
+Restrições à Compra e Venda
+O ascendente tem direito de, a qualquer tempo, alienar seus bens a
+quem quer que seja, mas não pode, sob pena de ter o ato anulado, vender
+ao descendente, sem que os demais descendentes expressamente
+consintam, por meio de escritura pública, ou no mesmo instrumento
+particular do ato principal. Além disso, o cônjuge do alienante também
+deverá anuir, exceto se forem casados pelo regime de separação total de
+bens.
+Restrição legal à liberdade de contratar em razão da moralidade e
+estabilidade da ordem pública: Os que têm, por dever de ofício ou
+profissão, zelar pelos bens alheios, não podem, nem por hasta pública
+(leilão), sob pena de nulidade, adquirir esses bens. Assim, os tutores,
+curadores, testamenteiros e administradores não poderão comprar bens
+confiados a sua guarda e administração.
+
+-- 47 of 74 --
+
+52
+Ainda os servidores públicos não poderão comprar bens ou direitos da
+pessoa jurídica a que servirem. Juízes, secretários de tribunais, arbitradores,
+peritos e outros serventuários ou auxiliares da justiça, não poderão adquirir
+bens ou direitos em litígio, no local em que servirem.
+Compra e venda entre cônjuges é permitida apenas se o regime de
+comunhão não for o universal, e se for parcial, apenas nos bens que foram
+adquiridos antes da constância do casamento, ou seja, bens excluídos da
+comunhão.
+Responsabilidade pelas dívidas
+O vendedor, exceto se houver estipulação em contrário, responderá
+por todos os débitos (despesas condominiais, IPTU, luz, lixo, gás, entre
+outras) que gravarem a coisa alienada até o momento da tradição ou do
+registro, porque o domínio é seu.
+Abaixo um exemplo de Contrato de Compra e Venda:
+CONTRATO DE COMPRA E VENDA DE QUOTAS EM EMPRESA LTDA.
+As Partes:
+FULANO DE TAL, brasileiro, casado, advogado, portador da cédula de
+identidade RG no. 000000000 SSP-SP, inscrito no CPF/MF sob o no.
+00000000000, residente e domiciliado na Cidade de São Paulo, Estado de
+São Paulo, na Avenida, no. 00, apto 00, Bairro, CEP 0000-000, doravante
+denominado VENDEDOR,
+SICRANO DA SILVA, brasileiro, casado, administrador de empresas,
+portador da cédula de identidade RG no. 000000000 SSP-SP e inscrito no
+CPF/MF, sob o no. 00000000000, residente e domiciliado nesta capital do
+Estado de São Paulo, na Avenida, no. 000, CEP 0000-002, doravante
+denominado COMPRADOR.
+Considerando que o VENDEDOR é detentor de 50 (cinquenta) quotas da
+Sociedade XPTO REPRESENTAÇÃO COMERCIAL LTDA., com sede na
+Cidade de São Paulo, Estado de São Paulo, na Avenida, no. 000, 1º. Andar,
+cj, CEP 0000-001, inscrita no CNPJ/MF sob no. 000000000001-00, com
+seus atos constitutivos devidamente arquivados na Junta Comercial do
+Estado de São Paulo sob o NIRE 00000000000000, em sessão de 00 de
+outubro de 2000, doravante simplesmente denominada SOCIEDADE.
+Têm, entre si, justo e acertado firmar o presente Contrato de Compra de
+Venda de quotas de Sociedade por quotas de participação LTDA, da
+seguinte forma:
+
+-- 48 of 74 --
+
+53
+1) O VENDEDOR, acima qualificado, cede e transfere, ao
+COMPRADOR, acima qualificado, a quantidade de 950 (novecentas e
+cinquenta) quotas, representando 95% (noventa e cinco) por cento do
+capital social da SOCIEDADE.
+2) O COMPRADOR pagará ao VENDEDOR, a quantia líquida e certa de
+R$ 23.500,00 (vinte e três mil, e quinhentos reais), em 12 parcelas
+iguais e consecutivas, aplicando-se o índice de reajuste IGPM/FGV,
+ao final, quando do pagamento da última parcela as partes dar-se-ão,
+reciprocamente, plena, rasa e irrevogável quitação, para nada mais
+reclamarem uma à outra, em juízo ou fora dele, seja a que título for.
+3) Neste ato o COMPRADOR assume toda a responsabilidade por
+passivos financeiros, sejam de natureza fiscal, tributária, trabalhista,
+ou de qualquer outra natureza reclamadas contra a SOCIEDADE.
+4) Em razão das tratativas ora acordadas, as partes se obrigam,
+reciprocamente, a:
+I. O COMPRADOR a efetuar os referidos pagamentos nas datas
+aprazadas e,
+II. O VENDEDOR a assinar os documentos societários e
+contábeis necessários.
+5) Fica eleito o foro da cidade de São Paulo, Estado de São Paulo, para
+dirimir as controvérsias oriundas do presente instrumento.
+6) Para maior clareza, é firmado o presente instrumento em três vias de
+igual teor e forma e para um mesmo fim, na presença de duas
+testemunhas que também assinam.
+
+-- 49 of 74 --
+
+54
+São Paulo, 00 de maio de 2007.
+VENDEDOR
+COMPRADOR
+TESTEMUNHAS:
+1._________________________ 2._________________________
+3.3 - Contrato de Troca ou Permuta
+A troca ou permuta é, segundo Clóvis Beviláqua, o contrato pelo qual
+as partes se obrigam a dar uma coisa por outra que não seja dinheiro.
+A troca tem a mesma natureza da compra e venda, mas dela se
+diferencia porque a prestação das partes é em espécie, permutando-se
+móvel por móvel, móvel por imóvel, imóvel por imóvel, coisa por direito,
+direito por direito, ao passo que na compra e venda a prestação de um dos
+contraentes é em dinheiro.
+Em função de serem muito semelhantes e terem a mesma natureza a
+lei prescreve que à permuta se apliquem as mesmas normas da compra e
+venda.
+Sobre as despesas com a troca, salvo disposição em contrário, cada
+parte arcará com metade das despesas e o imposto sobre o valor do bem
+adquirido, ou seja, haverá rateio das despesas.
+Será anulável a troca de coisas de valores desiguais entre
+ascendente e descendente, sem a anuência dos demais e do cônjuge do
+alienante. Se o valor das coisas trocadas for igual, não haverá necessidade
+de consentimento dos outros descendentes e do cônjuge do alienante.
+3.4 - Contrato Estimatório ou Venda em Consignação
+O contrato estimatório ou venda em consignação é negócio jurídico
+em que alguém (consignatário) recebe de outrem (consignante) bens
+móveis, ficando autorizado a vendê-los, em nome próprio, a terceiro,
+obrigando-se a pagar um preço estimado previamente, caso não seja
+efetuada a venda, fica o consignatário obrigado a devolver as coisas, dentro
+de um prazo ajustado.
+
+-- 50 of 74 --
+
+55
+É um contrato real, pois requer a efetiva entrega da coisa móvel ao
+consignatário, conservando o consignante a propriedade, até que seja
+vendida a terceiro. Portanto, no contrato estimatório, o consignante transfere
+ao consignatário, temporariamente, o poder de alienação da coisa móvel
+consignada, com opção de pagamento do preço de estima ou sua restituição
+ao final do prazo ajustado.
+O consignatário responderá como depositário do bem dado em
+consignação. Assim o consignatário deverá pagar o preço de estima, caso a
+devolução do bem que ficou sob sua responsabilidade seja impossível,
+mesmo que por fato alheio à sua vontade (ato de terceiro, caso fortuito ou
+força maior). Isso ocorre porque a transferência da posse do consignante ao
+consignatário faz com que este arque com os riscos da sua perda e
+deterioração.
+Por outro lado, se comprovada a culpa do consignante pela perda ou
+deterioração da coisa, exonerado estará o consignatário, transferindo-se
+àquele a obrigação de arcar com o risco e com a indenização por perdas e
+danos.
+A coisa dada em consignação não poderá ser objeto de penhora, nem
+será objeto de sequestro pelos credores do consignatário, enquanto não for
+pago integralmente o seu preço. Isto porque o bem oferecido em
+consignação não lhe pertence.
+O consignante não poderá alienar ou dispor da coisa consignada
+antes que esta lhe seja devolvida. Isto ocorre porque no período estipulado
+para que o consignatário exerça a sua opção de venda ou restituição, o
+consignante está proibido, legalmente, da prática de qualquer ato que
+envolva disposição do bem consignado.
+Abaixo exemplo de contrato Estimatório ou Venda em Consignação
+CONTRATO DE VENDA EM CONSIGNAÇÃO
+XPTO, com sede na Cidade de São Paulo, Estado de São Paulo, na Avenida
+n.º 000, inscrita no CNPJ/MF sob o nº 00000000000/0001-00, neste ato
+representada na forma de seu Estatuto Social, por seus Diretores, doravante
+designada simplesmente “CONSIGNANTE”, e
+ABCD, com sede na Cidade de Santo André, Estado de São Paulo, na Rua,
+no. 00 – Centro, CEP 0000-000, inscrita no CNPJ/MF sob o nº
+000000000/0001-00, neste ato representada na forma de seu Contrato
+Social, por seus sócios, doravante designado simplesmente
+“CONSIGNATÁRIO”, em conjunto designadas Partes e individualmente
+designadas simplesmente Parte,
+
+-- 51 of 74 --
+
+56
+Considerando que a CONSIGNANTE tem entre seus objetivos sociais a
+venda de eletroeletrônicos, e a necessidade de alguns produtos somente
+poderem ser comercializados mediante imediata disponibilidade ao
+consumidor nas lojas de cada cliente;
+Considerando que o CONSIGNATÁRIO aceita realizar operações de vendas
+dos produtos mencionados no parágrafo precedente, por conta da
+CONSIGNANTE, responsabilizando-se pela sua guarda e venda aos
+consumidores;
+Considerando a necessidade de regulamentação dessa operação,
+estabelecendo-se direitos e obrigações de cada uma das partes
+contratantes,
+Deliberam firmar o presente CONTRATO DE VENDA EM CONSIGNAÇÃO,
+conforme as cláusulas seguintes.
+OBJETO
+Cláusula Primeira - O presente contrato tem como finalidade a
+comercialização de produtos de propriedade da CONSIGNANTE pelo
+CONSIGNATÁRIO, por conta e ordem daquela, responsabilizando-se o
+CONSIGNATÁRIO pela posse e guarda dos produtos.
+Parágrafo Primeiro - A CONSIGNANTE deverá enviar, periodicamente, sob
+seu único critério quanto a prazos, espécies e
+quantidade, ao CONSIGNATÁRIO, sob consignação,
+produtos por ela fabricados ou comercializados,
+mencionados no ANEXO I que constituir-se-á parte
+integrante deste contrato.
+Parágrafo Segundo - O CONSIGNATÁRIO deverá observar no ato do
+recebimento dos produtos quaisquer vícios ou danos
+aparentes, declarando-os, se houver, no campo
+“observações” da “Relação de Produtos deixados em
+Consignação” - ANEXO I, integrante deste contrato. A
+falta de qualquer ressalva quanto à existência de vícios
+no ato do recebimento, importará em presunção de total
+regularidade dos produtos.
+
+-- 52 of 74 --
+
+57
+GUARDA / DEPÓSITO
+Cláusula Segunda - O CONSIGNATÁRIO deverá manter os produtos
+consignados, por sua conta e risco, em suas lojas, onde tais produtos
+permanecerão sob sua guarda e inteira responsabilidade, enquanto não
+forem comercializados.
+Parágrafo primeiro - A movimentação dos produtos será feita no
+estabelecimento depositário do consignatário para a
+sua clientela. O CONSIGNATÁRIO permitirá que a
+CONSIGNANTE, através de representante
+credenciado, vistorie, sempre que entender necessário,
+as dependências dela e livros, não só para
+levantamento do estoque dos produtos consignados,
+mas também para verificação das respectivas
+movimentações, confirmando-se os faturamentos
+realmente efetivados pelo consignatário.
+Parágrafo segundo - Os produtos colocados à venda nos termos deste
+contrato poderão ser retirados a qualquer momento pela
+CONSIGNANTE, sem que caiba ao CONSIGNATÁRIO
+qualquer direito a indenização ou retenção.
+Parágrafo terceiro - Não obstante o que já pressupõe a natureza deste
+contrato fica expressamente determinada a
+responsabilidade civil e criminal do Senhor Fulano de tal
+como fiel depositário dos bens, o qual fica responsável
+pela guarda, conservação, pronta e fiel entrega dos
+produtos que tiver recebido em depósito.
+Parágrafo quarto - O depositário responderá por culpa ou dolo dos demais
+empregados ou prepostos do CONSIGNATÁRIO, bem
+como pelos furtos, roubos e sinistros ocorridos com os
+produtos depositados.
+Parágrafo quinto - Os diretores ou administradores, acionistas ou quotistas
+e demais mandatários com poder de decisão pelo
+CONSIGNATÁRIO assumirão, solidariamente com o fiel
+depositário mencionado no parágrafo terceiro supra,
+responsabilidade integral pelas mercadorias recebidas em
+consignação.
+DO FATURAMENTO
+Cláusula Terceira - A partes contratantes apurarão, diariamente, a quantia
+de produtos faturados pelo CONSIGNATÁRIO aos seus clientes.
+
+-- 53 of 74 --
+
+58
+Parágrafo Primeiro: A venda deste estoque, será quitada pela
+CONSIGNATÁRIA junto à CONSIGNANTE no prazo idêntico ao
+estabelecido para venda à vista.
+Parágrafo Segundo: A financeira deverá liberar os valores financiados
+diretamente na conta corrente da CONSIGNANTE, indicada para esse fim.
+Parágrafo Terceiro: A Comissão sobre as vendas desses produtos
+será a estabelecida para todas as outras, ou seja, 8,5% (oito e meio por
+cento) sobre as vendas líquidas.
+Parágrafo Quarto: O estoque dos produtos acima descritos, será de
+responsabilidade exclusiva da CONSIGNATÁRIA, que responderá por faltas
+e avarias.
+Parágrafo Quinto: A CONSIGNATÁRIA deverá realizar inventários
+semanais em seus estoques, assumindo que as diferenças porventura
+apuradas serão computadas como vendas e quitadas como tal.
+DOS PREÇOS
+Cláusula Quarta - Os valores dos produtos serão fixados pela
+CONSIGNANTE, a qual encaminhará as respectivas Tabelas à
+CONSIGNATÁRIA. A CONSIGNATÁRIA obriga-se a obedecer aos preços
+constantes da referida tabela, somente podendo conceder descontos e,
+abatimentos mediante prévia e expressa autorização da CONSIGNANTE.
+CONFIDENCIALIDADE
+Cláusula Quinta - Todas as informações fornecidas pelas partes no
+decorrer dos trabalhos serão consideradas e tratadas pela outra parte como
+informações confidenciais, sendo vedado seu uso e divulgação, ainda que
+parcial, sem prévia autorização da parte detentora de seus direitos.
+VIGÊNCIA
+Cláusula Sexta - Este contrato terá prazo de vigência de 90 (noventa) dias.
+Parágrafo primeiro - Se a rescisão se der por decisão da CONSIGNANTE,
+será vedado a CONSIGNATÁRIA comercializar os
+produtos que constituem objeto deste contrato a partir do
+aviso-prévio, salvo autorização expressa da
+CONSIGNANTE.
+Parágrafo segundo - Sem que se altere a natureza deste contrato, poderá
+ele ser aditado a qualquer momento, de comum acordo
+entre as partes.
+
+-- 54 of 74 --
+
+59
+RESCISÃO
+Cláusula Sétima - Além da hipótese prevista na cláusula precedente, o
+presente contrato poderá ser rescindido, por qualquer das partes,
+independentemente de aviso-prévio, notificação judicial ou extrajudicial :
+a) No caso de descumprimento de qualquer cláusula ou condição pactuada
+neste contrato, por qualquer uma das partes;
+b) Pedido de falência ou concordata da CONSIGNATÁRIA;
+c) Fechamento do estabelecimento da CONSIGNATÁRIA.
+d) No caso de descumprimento de qualquer obrigação financeira, seja por
+parte da CONSIGNANTE, seja por parte da CONSIGNATÁRIA.
+CESSÃO
+Cláusula Nona - As partes não poderão ceder, total ou parcialmente, os
+direitos e obrigações oriundos do presente contrato, sem o consentimento
+prévio e por escrito da outra parte.
+VÍNCULO EMPREGATÍCIO
+Cláusula Décima - Não se estabelecerá ou será considerada aplicável ou
+oponível qualquer vínculo de natureza trabalhista ou relação laboral entre os
+empregados, representantes, agentes, sócios, prepostos ou mandatários de
+uma das partes em relação à outra; cada uma das partes responderá,
+isoladamente, por todo e qualquer encargo, remuneração, indenização,
+reembolso de despesas, a qualquer título ou natureza, ou qualquer outra
+forma de remuneração ou compensação relativa a seus empregados,
+prepostos, agentes, sócios ou mandatários que a represente, inclusive
+comissões eventualmente contratadas.
+DISPOSIÇÕES GERAIS
+Cláusula Décima Primeira - As partes declaram,
+incondicionalmente, que os direitos e obrigações oriundos deste instrumento
+limitam-se àqueles descritos nas cláusulas ora contratadas, não havendo
+qualquer direito ou obrigação subjacente acordados pela presente transação
+comercial. Desta forma, as partes declaram que não lhes assiste qualquer
+direito à remuneração ou indenização adicional, resultante de serviços
+paralelos, implicitamente acordados neste contrato, inclusive custos de
+armazenagem dos produtos pelo consignatário e pagamento de comissões
+aos vendedores e prepostos desta.
+Cláusula Décima Segunda - O presente contrato não implica exclusividade
+da CONSIGNANTE em relação à CONSIGNATÁRIA, sendo, entretanto,
+vedado à CONSIGNATÁRIA promover a venda de produtos
+eletroeletrônicos e eletrodomésticos não fornecidos pela CONSIGNANTE.
+
+-- 55 of 74 --
+
+60
+Cláusula Décima Terceira - Este instrumento estará desvinculado de
+qualquer outro acordo comercial entabulado entre as partes contratantes.
+Cláusula Décima Quarta - O presente contrato obriga as partes e seus
+sucessores, sendo que se qualquer das partes, em benefício da outra ou por
+omissão, tolerar o descumprimento, total ou parcial, desta avença, tal fato
+não exonerará a infração, tampouco configurará novação, não alterando este
+acordo que continuará vigendo do mesmo modo que foi convencionado.
+Cláusula Décima Quinta - Ao apor sua assinatura neste contrato, as partes
+declaram e garantem, espontânea e incondicionalmente, que não estão
+obrigadas a fazê-lo por razões econômico-financeiras emergenciais, estando
+de acordo com todas as cláusulas aqui previstas, não tendo interesse
+diverso ou contrário ao quanto contido neste contrato, ou que poderia
+impedir limitar, prejudicar ou revogar o cumprimento do que foi acordado por
+meio deste.
+Instrumento.
+Cláusula Décima Sexta - As partes declaram, expressamente, para todos
+os fins de direito, que os valores envolvidos neste contrato encontram-se em
+perfeita proporcionalidade econômica, de acordo com os valores vigentes à
+época da sua celebração, sendo resultado de negociações bilaterais e
+resultando em benefícios para ambas, não gerando dessa forma qualquer
+lesão às contratantes.
+Cláusula Décima Sétima - As partes assumem, para dirimir toda e qualquer
+dúvida oriunda de alterações socioeconômicas futuras que possam interferir
+nos valores das prestações aqui contratadas, eventuais riscos em virtude de
+acontecimentos extraordinários e imprevisíveis que possam modificar
+vantagens ou desvantagens contratuais.
+Parágrafo Primeiro - Não será considerado fato imprevisível, não se
+considerando como tal, desde já, inclusive, mas não
+limitados: crise de energia, desvalorização da moeda,
+redução de investimentos estrangeiros e criação de
+tributos, podendo as partes reunirem-se para renegociar a
+remuneração e demais obrigações estabelecidas neste
+contrato.
+Parágrafo segundo - Será considerado como desequilíbrio econômico do
+contrato, a onerosidade, a qualquer das partes, em
+percentual superior a 20% do valor deste contrato á
+época de sua assinatura.”
+Cláusula Décima Oitava - O presente instrumento particular é aceito pelas
+partes como título extrajudicial, executável na forma da lei, obedecendo,
+
+-- 56 of 74 --
+
+61
+inclusive, as disposições do artigo 368, 369 e 585, II, todos do Código de
+Processo Civil Brasileiro. Os contratantes tornam-se responsáveis civil e
+criminalmente pelas declarações prestadas no ato da assinatura deste
+contrato.
+FORO
+Cláusula Décima Nona - As partes, de comum acordo, elegem o foro
+central da Comarca de São Paulo - SP, para dirimir qualquer controvérsia
+oriunda deste Contrato e seus Anexos, com prevalência sobre qualquer
+outro, por mais privilegiado que seja.
+E, assim, por estarem de comum acordo, os Contratantes assinam o
+presente instrumento particular em 2 (duas) vias de igual teor, na presença
+de duas testemunhas abaixo subscritas, que a tudo presenciaram.
+São Paulo,... de ……….. de 200...
+____________________________________
+CONSIGNANTE
+____________________________________
+CONSIGNATÁRIA
+Testemunhas:
+1. ___________________________
+2. ___________________________
+3.5 - Contrato de Locação de Coisas
+A locação de coisas é o contrato pelo qual uma das partes (locador)
+se obriga a ceder à outra (locatário), por tempo determinado ou não, o uso e
+gozo de coisa infungível, mediante certa remuneração, designada aluguel.
+São deveres do locador:
+
+-- 57 of 74 --
+
+62
+1. Entregar ao locatário a coisa alugada, com suas pertenças, em estado
+de servir ao uso a que se destina;
+2. Manter o bem nesse estado, durante a vigência contratual, salvo
+cláusula expressa em contrário;
+3. Garantir o uso pacífico da coisa locada, durante o tempo do contrato,
+abstendo-se de qualquer ato que posso comprometer o uso da coisa
+locada.
+Se, durante a locação, o bem alugado se deteriorar, sem que haja
+culpa do locatário, a este caberá pedir redução proporcional do aluguel,
+como compensação do dano sofrido, ou a rescisão contratual, se a coisa
+se tornar imprestável ao fim a que se destinava.
+São deveres do Locatário:
+1. Servir-se da coisa locada exclusivamente para os fins
+convencionados ou presumidos;
+2. Tratar do bem alugado como se fosse seu, sob pena de rescisão
+contratual e de indenização por perdas e danos;
+3. Pagar pontualmente o aluguel nos prazos estipulados, e, em falta de
+estipulação de prazo, segundo o costume local;
+4. Levar ao conhecimento do locador as turbações de terceiros;
+5. Devolver o bem alugado ao término da locação, no estado em que o
+recebeu, salvo as deteriorações do uso normal.
+Se o locatário vier a utilizar a coisa locada para outra finalidade,
+diversa da que foi contratada, poderá o locador, além da rescisão
+contratual, pleitear perdas e danos.
+Se a coisa locada se deteriorar por ato culposo ou abusivo do
+locatário, o locador poderá exigir a rescisão do contrato e a indenização
+por perdas e danos, como ressarcimento pelos prejuízos sofridos.
+Havendo prazo convencionado para a duração da locação, não
+poderá o locador reaver a coisa locada antes do seu vencimento, a não
+ser que pague uma indenização ao seu locatário, ressarcindo-o das
+perdas e danos decorrentes da rescisão antecipada. Nesse caso, o
+locatário terá o direito de reter o bem alugado, até receber o
+ressarcimento pela ruptura antecipada do contrato.
+Se o locatário vier a restituir o bem alugado antes do término da
+vigência do contrato, e a obrigação convencionada em cláusula
+contratual, de pagar o aluguel pelo tempo que falta for excessiva, o órgão
+judicante poderá fixar o quantum indenizatório em bases razoáveis,
+fundado no valor mercadológico.
+Com o vencimento do prazo contratual, automaticamente, cessará a
+locação de coisa móvel, independentemente de aviso ou notificação, e o
+
+-- 58 of 74 --
+
+63
+locatário tem o dever de restituir a coisa locada, salvo para reclamar
+benfeitorias, ou ressarcimento de perdas e danos.
+Se o locatário não devolver o bem, poderá o locador requerer busca e
+apreensão, comprovando o término do prazo locativo.
+Entretanto, se vencido o prazo da locação, o locatário permanecer na
+posso do bem locado, não o restituindo, sem que haja qualquer oposição
+do locador, ter-se-á a presunção de que houve a prorrogação da locação
+por tempo indeterminado e mediante o pagamento do mesmo aluguel.
+Findo o prazo da locação e não devolvido o bem locado, o locador
+deverá notificar o locatário para que devolva o bem locado, evitando
+assim a prorrogação tácita do contrato. A partir da notificação estará o
+locatário constituído em mora e deverá pagar o aluguel arbitrado pelo
+locador. Exceto para os casos de locação urbana em que os
+procedimentos são outros.
+Se o aluguel arbitrado pelo locador for excessivo, poderá haver uma
+equitativa redução judicial.
+Se a coisa locada for alienada, durante a vigência do contrato
+locatício, o adquirente não terá obrigação nenhuma de respeitar a
+locação, se nela não estiver consignada a cláusula de sua vigência em
+caso de alienação. Para que o adquirente respeite a cláusula de vigência
+em caso de alienação, esta deverá estar registrada no cartório de títulos
+e documentos do domicílio do locador, se for coisa móvel, e se for coisa
+imóvel, deverá estar registrada no cartório da circunscrição imobiliária
+onde o prédio, objeto do contrato, estiver matriculado.
+Se o imóvel locado for urbano, sendo alienado durante a locação, o
+locatário que não exerceu seu direito de preferência no prazo de 30
+(trinta) dias (Lei 8.245/91, artigo 27), terá de desocupá-lo dentro de 90
+(noventa) dias após a notificação, com exceção da condição prevista no
+parágrafo anterior.
+No caso de falecimento do locador ou do locatário, a locação por
+tempo determinado transferir-se-á a seus herdeiros. Na locação de
+prédio urbano, seja ela por tempo determinado ou não, com a morte do
+locador, ter-se-á a transferência dos seus direitos e deveres decorrentes
+da locação aos seus herdeiros legítimos ou testamentários.
+Se o locatário fizer na coisa locada benfeitorias necessárias e úteis,
+desde que autorizadas pelo locador, terá direito a uma indenização a elas
+correspondente, tendo ainda o direito de reter o bem locado, pelo valor
+das benfeitorias, salvo disposição em contrário.
+
+-- 59 of 74 --
+
+64
+Abaixo exemplo de contrato de locação
+CONTRATO DE LOCAÇÃO
+Pelo presente instrumento particular, de um lado,
+PROPRIETÁRIO, brasileiro, ESTADO CIVIL, PROFISSÃO, domiciliado em,
+na Rua........................, complemento, portador da cédula de identidade RG
+no. – SSP/SP e do CPF no. doravante denominado simplesmente
+LOCADOR.
+Fulano de tal, brasileiro, casado, administrador de empresas, portador da
+Cédula de Identidade RG nº SSP-SP, inscrito no CPF/MF sob nº residente e
+domiciliado na Rua......................., doravante denominado simplesmente
+“LOCATÁRIO”.
+são, doravante, designadas, em conjunto, como "PARTES" e
+individualmente "PARTE".
+Resolvem as PARTES firmar o presente Contrato de Locação, pelas
+cláusulas e condições a seguir expostas:
+Cláusula 1ª
+1.1 – O LOCADOR, na qualidade de proprietário do imóvel situado na cidade
+de Campo do Jordão, Estado de São Paulo, na Rua.......................................,
+no. , Condomínio , dá em locação, para fins exclusivamente residenciais.
+Cláusula 2ª
+2.1 O prazo de locação será de 01.04.2006 até 30/03/2007, data em que
+estará obrigado o LOCATÁRIO, independentemente de qualquer aviso ou
+interpelação, a devolver a área objeto deste instrumento, inteiramente livre e
+desocupada de pessoas e coisas, desembaraçada e nas mesmas condições
+em que recebeu o imóvel conforme Laudo de Vistoria anexo ao presente,
+ressalvado o uso e desgaste normais do imóvel, sendo a locação
+convencionada nos termos da Lei 8.245, de 18 de outubro de 1991.
+2.1.1. A vigência do presente Contrato será prorrogada, automaticamente,
+caso as partes não se manifestem, mediante a firma de instrumento escrito,
+com antecedência mínima de 30 (trinta) dias.
+2.2. HIPÓTESES E PROCEDIMENTOS DE EXTINÇÃO CONTRATUAL:
+2.2.1. Será permitido ao LOCATÁRIO, denunciar este contrato durante o
+prazo contratual, desde que avise por escrito ao LOCADOR com
+
+-- 60 of 74 --
+
+65
+antecedência de 120 (cento e vinte) dias, dispensada, neste caso, o
+pagamento de multa compensatória.
+2.2.2. Será permitido ao LOCADOR, denunciar este contrato durante o
+prazo contratual, desde que avise por escrito ao LOCATÁRIO com
+antecedência de 120 (cento e vinte) dias, dispensada, neste caso, o
+pagamento de multa compensatória.
+2.2.3. Quando da verificação de um inadimplemento contratual, a Parte
+Inocente notificará a Parte Inadimplente para que a mesma sane o
+inadimplemento em, no máximo, 15 (quinze) dias contados do recebimento
+da notificação extrajudicial enviada pela Parte Inocente. Caso a Parte
+Inadimplente não sane o ocorrido, o contrato poderá ser rescindido
+imediatamente pela Parte Inocente.
+Cláusula 3ª
+3.1 – O aluguel mensal será de R$ 2.500,00 (DOIS MIL E QUINHENTOS
+REAIS) e deverá ser pago até o 6º (sexto) dia útil do mês subsequente ao
+mês vencido, por meio de depósito na conta corrente do LOCADOR, cujos
+dados deverão ser informados por este ao LOCATÁRIO em até 5 (cinco)
+dias úteis anteriores à data de vencimento do primeiro aluguel. O
+comprovante de depósito bancário autenticado mecanicamente pelo banco
+servirá como recibo para o LOCATÁRIO.
+3.2. Após o vencimento do contrato, caso o presente contrato se prorrogue,
+o aluguel será reajustado segundo a variação percentual do IGP (Índice
+Geral de Preços) ou IGPM (Índice Geral de Preços ao Consumidor),
+calculado pela Fundação Getúlio Vargas, prevalecendo sempre à variação
+maior de qualquer dos índices mencionados, ficando desde já autorizada a
+redução da periodicidade de reajuste para o menor prazo autorizado em
+legislação posterior.
+3.3 – O atraso no pagamento do aluguel ou dos encargos locatícios
+estipulados fará incidir sobre o valor do mesmo, multa de 10% (dez por
+cento), mais juros de 1% (um por cento) ao mês e atualização monetária
+calculada com base no IGP-M/FGV, “pro rata die”, auferido no período
+compreendido entre a data do vencimento e a do efetivo adimplemento da
+obrigação de pagamento.
+3.3.1. Caso o LOCADOR entre com uma ação de despejo contra o
+LOCATÁRIO, pelo inadimplemento de pagamentos, ficará o LOCATÁRIO,
+além do acima estabelecido, responsável pelo pagamento de honorários
+advocatícios à razão de 10%.
+3.4 - Quaisquer recebimentos feitos pelo LOCADOR fora dos prazos e
+condições fixadas neste contrato serão havidos como mera tolerância e não
+induzem novação objetiva nem subjetiva do estipulado.
+3.5. - É parte integrante da locação, estando coberta pelo valor da locação:
+a) condomínio mais todos os extras relacionados a ele;
+
+-- 61 of 74 --
+
+66
+b) IPTU.
+3.6 – Serão de responsabilidade exclusiva do LOCATÁRIO os seguintes
+pagamentos de energia elétrica, gás, e manutenção necessária.
+Cláusula 4ª
+4.1 – O LOCATÁRIO não poderá introduzir no IMÓVEL objeto deste contrato
+quaisquer modificações, adaptações, benfeitorias ou obras especiais, sem
+prévia autorização, por escrito, do LOCADOR.
+4.2 - O LOCATÁRIO não poderá reter nenhuma benfeitoria que
+introduzir no imóvel e também não poderá exigir do LOCADOR indenização
+alguma pelas benfeitorias que fizer no mesmo.
+Cláusula 5ª
+5.1 – Por ocasião da devolução do IMÓVEL, o LOCATÁRIO marcará dia e
+hora para que o LOCADOR o vistorie e firme o comprovante de recebimento
+das chaves.
+5.2. Caso forem constatados danos ou faltas, que não previamente descritos
+no Laudo de Vistoria, as reposições e reparos respectivos serão executados
+por conta do LOACATÁRIO, que pagará também o aluguel proporcional até
+o dia da efetiva restituição do IMÓVEL nas mesmas condições apuradas no
+Laudo de Vistoria realizados à época da assinatura deste Contrato,
+ressalvado o desgaste normal do IMOVEL decorrente de seu uso regular.
+Cláusula 6ª
+6.1 – O IMÓVEL será utilizado pelo LOCATÁRIO como residência de férias.
+Porém, o uso ficará condicionado às limitações impostas em leis e posturas
+municipais em vigor, respondendo o LOCATÁRIO, com exclusividade, por
+danos, prejuízos, ou reclamações que se originarem da transgressão que
+vier a cometer, o que poderá ensejar rescisão contratual.
+Cláusula 7ª
+7.1 – No caso de desapropriação do IMÓVEL, as PARTES ficarão
+desobrigadas em relação às cláusulas deste contrato, ressalvados os
+direitos originados de sua execução durante o período anterior ao ato
+expropriatório.
+
+-- 62 of 74 --
+
+67
+Cláusula 8ª
+8.1 – Cumprir e fazer com que seus empregados e prestadores de serviço
+cumpram as Normas e Regulamentos do Condomínio na utilização das
+áreas de circulação do imóvel.
+Cláusula 9ª.
+9.1 – As partes contratantes se obrigam por si, seus herdeiros e sucessores,
+a cumprir e a fazer cumprir, a todo o tempo e em todos os seus termos, tudo
+quanto aqui pactuarem, ficando eleito o foro da comarca de Campos do
+Jordão, com exclusão de qualquer outro, por mais privilegiado que seja, para
+nele serem dirimidas as dúvidas ou questões que se originarem deste
+contrato. Em caso de intervenção judicial, a parte vencida responderá pelo
+pagamento de todas as perdas e danos ocasionados à parte vencedora,
+inclusive custas processuais e honorários advocatícios do profissional
+constituído pela última, conforme arbitrado em decisão judicial
+Cláusula 10ª
+10.1 – Nos moldes do que autoriza a disposição contida no artigo 58, inciso
+IV, da Lei no. 8.245/91 é certo que as eventuais citações, intimações ou
+notificações, far-se-ão mediante correspondência com aviso de recebimento,
+também mediante “fac-símile” ou por via eletrônica, ou ainda, sendo
+necessário, pelas demais formas previstas no Código de Processo Civil,
+para os destinatários e endereços mencionados no preâmbulo deste
+contrato.
+E, por estarem justas e contratadas, as partes assinam o presente, em três
+vias de igual teor e para um único efeito de direito, o qual assinam com duas
+testemunhas.
+São Paulo, 1º de abril de 2006.
+LOCADOR
+LOCATÁRIO
+Testemunhas:
+1 - ______________________________
+Nome:
+RG:
+CPF/MF:
+2-_______________________________
+Nome:
+RG:
+CPF/MF:
+
+-- 63 of 74 --
+
+68
+3.6 Comodato
+Segundo Coelho da Rocha, empréstimo é o contrato pelo qual uma
+pessoa entrega a outra, gratuitamente, uma coisa, para que dela se sirva,
+com a obrigação de restituí-la. Pode ser empréstimo de uso (comodato) ou
+de consumo (mútuo).
+Comodato é o contrato unilateral, a título, pelo qual alguém entrega a
+outrem coisa (imóvel ou móvel) infungível, para ser usada temporariamente
+e depois restituída. (Washington de Barros Monteiro).
+Trata-se de contrato real, pois só se completará com a tradição da coisa,
+ou seja, com a entrega do bem emprestado ao comodatário, que passará a
+ter a posse direta, ficando a indireta com o comodante. Entretanto, o
+comodato é direito pessoal, não se confundindo com o direito real de uso.
+A lei além de exigir a capacidade genérica para a prática dos atos da vida
+civil estabelece incapacidades especiais para a outorga de comodato.
+Assim, os administradores de bens alheios, como tutores, curadores,
+inventariantes, testamenteiros, depositários, administradores judiciais da
+massa falida, não podem outorgar bens sob a sua administração à
+comodato.
+O uso da coisa dada e comodato deverá ser temporário, podendo o
+prazo para a sua restituição ser determinado ou indeterminado, caso em que
+o tempo presumido do contrato, será o necessário para que o comodatário
+possa servir-se da coisa para o fim a que se destina.
+Durante o prazo convencional o comodante não poderá requerer a
+devolução do bem, salvo necessidade imprevista e urgente, reconhecida
+pelo juiz. Por exemplo: Se o Comodante empresta uma máquina agrícola ao
+comodatário, por um mês, mas, antes do término do prazo, sua fazenda, em
+razão de tempestade, vem a sofrer dano, que necessite do uso daquela
+máquina, nesse caso obrigando-o a exigir judicialmente a devolução da
+mesma.
+O comodatário pode a qualquer tempo resilir o negócio porque, se foi
+contraído em seu interesse, não está obrigado a conservar objeto de cujo
+uso se desinteressou.
+O comodatário terá a obrigação de guardar e conservar a coisa
+emprestada como se sua fosse, procurando não a desgastar ou
+desvalorizar, sob pena de pagar indenização ao comodante pelo prejuízo
+que causar.
+O comodatário não poderá usar da coisa emprestada para fins alheios
+aos estipulados no contrato ou à natureza da coisa, sob pena de rescisão
+contratual e indenização por perdas e danos.
+
+-- 64 of 74 --
+
+69
+O comodatário responderá pela mora suportando os seus riscos e
+arcando com as consequências da deterioração ou perda da coisa
+emprestada. Além disso, pelo tempo que perdurar a mora pagará aluguel
+arbitrado pelo comodante, até restituir a coisa emprestada.
+O comodatário responderá pelos riscos (deterioração ou perda) da
+coisa, advindos de sua culpa.
+O comodatário pagará as despesas ordinárias (encargos
+condominiais, abastecimento do veículo, lubrificação de máquinas, conserto
+de fechadura, troca de vidros trincados), mas poderá cobrar os dispêndios
+não relacionados com a fruição daquele bem, e as despesas extraordinárias
+e necessárias feitas em caso de urgência, podendo reter a coisa emprestada
+até receber o pagamento dessas despesas.
+Se houver mais de um comodatário, a responsabilidade de cada um
+será solidária perante o comodatário, para melhor assegurar a devolução da
+coisa. Assim sendo, qualquer deles poderá ser demandado e terá direito de
+ação regressiva contra o que tiver culpa pelo inadimplemento contratual.
+3.7 Mútuo
+Mútuo é o contrato pelo qual um dos contratantes transfere a propriedade
+do bem fungível ao outro, que se obriga a lhe restituir coisa do mesmo
+gênero, qualidade e quantidade. Trata-se do empréstimo de consumo.
+Por ser a coisa emprestada fungível e, em regra, consumível, no mútuo
+haverá a transferência de domínio da coisa emprestada, mediante simples
+tradição. Por essa razão o mutuário poderá utilizá-lo como quiser, e, se o
+bem vier a se perder ou a se deteriorar, arcará com todas as consequências,
+sofrendo a perda ou o prejuízo, mesmo se oriundo de força maior ou caso
+fortuito. O mutuário responderá por todos os riscos depois da tradição,
+sendo que os riscos anteriores à tradição correrão por conta exclusiva do
+mutuante.
+O mutuário deverá ter capacidade para obrigar-se, ou seja, deve ser
+maior e plenamente capaz, caso contrário, o mutuante não poderá reaver a
+coisa emprestada, nem do mutuário, nem de seus fiadores, por ser inválido
+esse contrato.
+A essa disposição, entretanto, há exceções, e são elas:
+1. Se houver ratificação posterior do representante legal do menor,
+tornando o ato plenamente eficaz;
+2. Houver necessidade efetiva de o menor contrair o empréstimo para
+seus alimentos habituais, abrangendo despesas com vestuário,
+estudo e medicamentos, estando ausente o responsável legal, por
+haver justa causa;
+
+-- 65 of 74 --
+
+70
+3. O menor tiver adquirido bens com o seu trabalho ou atividade
+profissional, caso em que a execução do credor não poderá
+ultrapassar as forças do patrimônio do menor;
+4. O empréstimo reverteu em benefício do menor;
+5. O menor obteve o empréstimo utilizando-se de malícia, pois como diz
+Silvio de Salvo Venosa, não se pode beneficiar pessoa cuja malícia
+indica grau de desenvolvimento capaz de levar a engodo a outra
+parte.
+O mutuante poderá exigir uma garantia real (ex.: hipoteca) ou
+fidejussória (ex.: fiança) da devolução de outra coisa da mesma espécie,
+qualidade e quantidade se, antes do vencimento do prazo, o mutuário
+vier a sofrer notória mudança na sua situação econômica, que venha a
+dificultar o recebimento da quantia emprestada.
+O mútuo feneratício ou oneroso é permitido em nosso direito, uma vez
+que a lei presume que, havendo empréstimo de dinheiro ou de outras
+coisas fungíveis, destinado a fins econômicos, os juros são devidos,
+limitado ao disposto no artigo 406 do Código Civil, com capitalização
+anual.
+O mútuo é concluído por certo prazo. Não tendo sido estipulado prazo
+certo, seu prazo será:
+1. Até a próxima colheita, se se tratar de empréstimo de produtos
+agrícolas;
+2. De 30 (trinta) dias pelo menos, se o mútuo for de dinheiro;
+3. Do espaço de tempo declarado pelo mutuante, se for de qualquer
+coisa fungível, desde que não seja empréstimo de produto agrícola,
+ou de dinheiro;
+O mutuante então fixará o prazo para restituição do que emprestou,
+mediante interpelação judicial feita ao mutuário, mas nada obsta que o
+magistrado venha a aumentá-lo se as circunstâncias fáticas
+demonstrarem a insuficiência do prazo estabelecido pelo mutuante.
+Abaixo exemplo de contrato de mútuo:
+CONTRATO DE MÚTUO
+Pelo presente instrumento particular, as partes, infra-assinadas a saber:
+FULANO DE TAL, brasileiro, viúvo, administrador de empresas, portador da
+cédula de identidade RG no. 000000000 e do CPF no. 00000000000,
+residente e domiciliado na Rua... no. , Bairro, São Paulo – São Paulo – CEP
+00000-000, doravante denominado - MUTUANTE e – SICRANO DA SILVA
+brasileiro, casado, administrador de empresas, portador da cédula de
+identidade RG no. 000000000 e do CPF no. 00000000000, residente e
+domiciliado na Rua... no. Bairro, São Paulo – São Paulo – CEP 00000-000,
+
+-- 66 of 74 --
+
+71
+doravante denominado MUTUÁRIO, têm entre si, certo e ajustado, Contrato
+de Mútuo e Outras Avenças, conforme as seguintes cláusulas e condições:
+CLÁUSULA PRIMEIRA - DO OBJETO
+1.1 - Constitui objeto deste ajuste, o empréstimo pelo MUTUANTE ao
+MUTUÁRIO da importância, líquida e certa de R$ 225.641,78 (duzentos e
+vinte e cinco mil, seiscentos e quarenta e um reais e quarenta e oito
+centavos) contrato esse celebrado de acordo com o artigo 586 e seguintes
+do Código Civil Brasileiro.
+CLAUSULA SEGUNDA – DA TOMADA
+2.1 – O empréstimo objeto deste ajuste cujo valor está fixado na Cláusula
+Primeira do presente instrumento será tomado na data da assinatura deste
+instrumento.
+CLÁUSULA TERCEIRA - DA REMUNERAÇÃO
+3.1 – Destinando-se o mútuo a fins econômicos, são devidos juros de 12%
+(doze por cento) no período fixado na Cláusula Quarta, os quais, sob pena
+de redução, não poderão exceder a taxa a que se refere o artigo 406 do
+Código Civil Brasileiro, permitida a capitalização anual, a teor do disposto no
+artigo 591 do sobredito diploma Legal.
+CLÁUSULA QUARTA -DO PRAZO
+4.1- Fica fixado o prazo de 360 (trezentos e sessenta) dias, como sendo
+aquele em que deverá o MUTUÁRIO resgatar, em face do MUTUANTE, o
+integral valor, com os acréscimos referidos na Cláusula 3.1- supra, do
+empréstimo, ora formalizado.
+CLÁUSULA QUINTA - DO PAGAMENTO
+5.1 - Será facultado ao MUTUÁRIO efetuar o pagamento do empréstimo à
+MUTUANTE a) em moeda corrente nacional; b) através de créditos que,
+porventura, o MUTUÁRIO venha a possuir.
+CLÁUSULA SEXTA - DA PRORROGAÇÃO DO PRAZO CONTRATUAL
+6.1 - Fica estabelecido que o vencimento deste contrato poderá ser
+renovado, mediante concordância formal da MUTUANTE, quanto ao novo
+período de prorrogação.
+CLÁUSULA SÉTIMA - DAS DISPOSIÇÕES GERAIS
+7.1 - A abstenção do exercício, por qualquer das partes de seus direitos e
+faculdades, em decorrência de Lei ou do presente contrato ou eventual
+concordância no atraso do cumprimento das obrigações pela outra parte,
+não implicará novação, nem tampouco impedirá que à parte prejudicada, a
+seu critério, venha a exercer, a qualquer momento, os direitos e faculdades
+que lhe forem asseguradas.
+7.2 - A infrigência de qualquer das cláusulas e condições deste ajuste
+importará na imediata devolução da quantia mutuada ou saldo ainda
+existente, além dos acréscimos legais e contratuais, sem prejuízo da
+imposição, à parte responsável de juros de mora de 1% a.m. e de multa, em
+caráter penal, equivalente a 20% (vinte por cento), parcelas estas incidentes
+sobre o total devido.
+7.3 - O Foro para a solução de qualquer pendência do presente contrato é o
+da Comarca de São Paulo/SP.
+E, por estarem justas e contratadas, assinam o presente instrumento em 02
+(duas) vias, para um só efeito, e a tudo presentes 02 (duas) testemunhas
+
+-- 67 of 74 --
+
+72
+autorizando-se efetue todos os atos necessários ao total aperfeiçoamento
+deste contrato.
+São Paulo, 27 de abril de 2005.
+__________________________ _____________________
+MUTUANTE MUTUÁRIO
+TESTEMUNHAS:
+1._____________________________
+2______________________________
+3.8 Contrato de Prestação de Serviços
+A prestação de serviço é um contrato pelo qual uma das partes
+(prestador) se obriga para com a outra (tomador) a prestar-lhe,
+eventualmente, uma atividade lícita, material ou imaterial, mediante
+remuneração.
+O contrato de trabalho, que pressupõe a continuidade, a dependência
+econômica e a subordinação, não aboliu a prestação de serviço. Com o
+advento da legislação trabalhista temos o contrato individual de trabalho e o
+contrato de trabalho avulso. O contrato civil de prestação de serviço
+subsiste, não obstante venha sofrendo invasões do direito do trabalho.
+Somente onde ainda não penetrou a concepção própria do direito trabalhista
+é que perdura a prestação de serviço
+O objeto da prestação de serviço é uma obrigação de fazer, ou seja, a
+prestação de uma atividade lícita, não vedada pela lei e pelos bons
+costumes, oriunda da energia humana aproveitada por outrem e que pode
+ser material (limpeza, jardinagem, carpintaria, entre outros) ou imaterial
+(tratamento médico ou odontológico, consultoria jurídica, entre outros).
+A prestação de serviço é um contrato consensual, que se aperfeiçoa com
+o simples acordo de vontade das partes, podendo ser provado por
+testemunhas, seja qual for o seu valor.
+O valor a ser pago a título de remuneração do serviço prestado, poderá
+ser livremente negociado pelas partes contratantes. Se o contrato for omisso
+a respeito, executado o serviço, ante a sua onerosidade, entender-se-á que
+os contratantes se sujeitaram, para a fixação da retribuição a ser paga, ao
+costume local, tendo em vista a natureza ou qualidade do serviço e a sua
+duração.
+
+-- 68 of 74 --
+
+73
+A remuneração deverá ser paga após a realização do serviço, se, por
+convenção ou costume, não tiver sido adiantada ou paga em prestações
+periódicas, semanais ou quinzenais.
+A prestação de serviços não poderá ser convencionada por período
+maior que o de 4 (quatro) anos. Depois desse prazo, mesmo que a obra não
+esteja concluída o contrato será extinto.
+No caso em que o contrato de prestação de serviços não estipular prazo
+de duração, qualquer dos contratantes poderá pleitear a sua resilição,
+mediante aviso prévio, esse aviso prévio configura uma denúncia e é uma
+espécie de resilição unilateral (motivada ou não) e constitui uma garantia
+para ambas as partes, uma vez que a ausência dele pode acarretar
+indenização por perdas e danos.
+Quando o prestador de serviço for contratado por prazo determinado, não
+poderá rescindir o contrato antes do seu término contratual ou da conclusão
+da obra, sob pena de responder por penas e danos. No caso de ser
+dispensado por justa causa, terá direito a receber os valores devidos pelo
+período trabalhado.
+No caso do prestador de serviços ser dispensado pelo tomador, sem
+justa causa, terá direito a receber os valores devidos pelo trabalho prestado
+e a título de indenização, metade do valor devido pelo restante do contrato.
+Após o término do prazo contratual o prestador de serviços deverá exigir
+que o tomador emita uma declaração de que a prestação do serviço
+terminou. Trata-se de uma quitação fornecida pelo tomador do serviço,
+liberando o prestador de serviços e tornando impossível qualquer pedido de
+indenização.
+A extinção do contrato de prestação de serviços se dá nas seguintes
+situações:
+1. A morte de qualquer uma das partes;
+2. O escoamento do prazo contratual;
+3. A conclusão da obra;
+4. A rescisão do contrato, mediante aviso-prévio;
+5. O inadimplemento de qualquer das partes;
+6. A impossibilidade de cumprir o avençado em razão de força maior ou
+caso fortuito.
+
+-- 69 of 74 --
+
+74
+Abaixo um exemplo de contrato de prestação de serviço:
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS
+CONTRATANTE: XPTO LTDA., inscrita no CNPJ/MF sob o no.
+000000000000, estabelecida na Rodovia KM 00, salas 01, 02 e 03, Bairro,
+Cotia - SP, representada neste ato por seus diretores, infra-assinados,
+doravante denominada CONTRATANTE, e de outro lado,
+CONTRATADA: FULANO DE TAL, brasileiro, casado, artista plástico,
+portador da cédula de identidade RG no. 000000000000, e inscrito no CPF
+sob o no. 000000000000000, residente e domiciliado na Rua , nº 00, Vila
+Olímpia, São Paulo – SP, doravante denominado CONTRATADO.
+As partes acima identificadas e qualificadas como CONTRATANTE e
+CONTRATADO e doravante assim designadas, por seus representantes
+legais infra-assinados, ajustam a prestação de serviços, que se regerá pela
+legislação em vigor, nas condições contidas nas cláusulas seguintes:
+I - DO OBJETO DO CONTRATO
+1ª) O CONTRATADO se propõe a confeccionar vinte pastas para
+apresentação corporativa no modelo descrito abaixo:
+Pasta Personalizada, tamanho 34x23 cm (aprox.), revestida em
+Colorplus/geltex, com bolso interno, 22 folhas de saco plástico, forro em
+Alaska branco 120g/m2. Acabamentos: gravação do logo em alto relevo,
+fecho elástico, parafusos internos.
+II - DO PRAZO E FORMA DE ENTREGA
+2ª.) O CONTRATADO entregará os produtos acima descritos no prazo
+máximo de 15 (quinze) dias, sendo que o primeiro lote (três pastas) deverá
+ser entrega até o dia 17 de janeiro de 2005.
+III - DO VALOR, FORMA E LOCAL DE PAGAMENTOS DOS
+SERVIÇOS
+3ª) Pelos trabalhos constantes da cláusula 1º. O CONTRATADO cobrará o
+valor de R$ 33,50 (trinta e três reais e cinquenta centavos) por pasta,
+totalizando o valor de R$ 670,00 (seiscentos e setenta reais) pelas 20 (vinte)
+pastas, pagos da seguinte forma:
+
+-- 70 of 74 --
+
+75
+R$ 350,00 (trezentos e cinquenta reais) pagos na assinatura deste
+instrumento.
+R$ 320,00 (trezentos e vinte reais) pagos na entrega do último lote de
+pastas.
+4ª) A remuneração do CONTRATADO deverá ser paga, mediante a entrega
+de Nota Fiscal de Serviços.
+5ª.) Fica desde já estabelecido que o descumprimento de qualquer das
+obrigações contratuais estipuladas neste instrumento, obrigará a parte
+inadimplente ao pagamento da multa não compensatória no valor
+equivalente à duas vezes o valor dos serviços, devidamente atualizadas,
+percebidos pelo CONTRATADO, sem prejuízo da reparação de danos, na
+forma do art. 402 e seguintes do Novo Código Civil.
+6ª.) As partes, de comum acordo, elegem o Foro Central da Comarca de
+São Paulo, SP, como o único competente para dirimir eventual conflito
+oriundo do presente contrato.
+Assim ajustadas, firmam este instrumento em duas vias, de igual teor,
+juntamente com duas testemunhas.
+São Paulo, data.....
+Contratada Contratante
+Testemunhas:
+1._________________________ 2.______________________________
+RG RG
+CPF CPF
+Unidade 4 - Da Extinção do Contrato
+Olá,
+Nessa unidade veremos as diversas hipóteses de extinção contratual.
+Em que condições elas acontecem, e quais requesitos devem ser
+observados na resilição contratual.
+Bom estudo!
+
+-- 71 of 74 --
+
+76
+4.1 - Distrato
+O distrato é um negócio jurídico que rompe o vínculo contratual,
+mediante a declaração de vontade de ambos os contraentes de pôr fim ao
+contrato que firmaram.
+O distrato ou resilição bilateral submete-se às formas relativas aos
+contratos. Assim sendo, se o contrato que se pretende resolver foi
+constituído por escritura pública por exigência legal, o distrato, para ter
+validade, deverá respeitar essa forma.
+Ou seja, o distrato obedecerá à mesma forma adotada para a
+realização do contrato, se foi por escritura pública, o distrato assim o será,
+se foi por instrumento particular, o distrato será feito por instrumento
+particular, e se verbal, assim o será o distrato.
+Resilição unilateral
+Em geral, a lei determina que os contraentes não possam rescindir os
+contratos de forma unilateral, porém há hipóteses que admitem essa forma,
+como por exemplo, o mandato, o comodato e o depósito.
+A resilição unilateral opera-se por meio de denúncia notificada, que
+não precisará ser justificada. A denúncia é a manifestação de vontade de
+rescindir o contrato, por isso os contraentes sabem que a qualquer momento
+o contrato poderá ser desfeito por mera declaração unilateral.
+Entretanto, se uma das partes fez consideráveis investimentos para a
+execução do contrato, a denúncia notificada terá sua eficácia postergada,
+pois apenas produzirá efeito depois de transcorrido prazo compatível com a
+natureza e o vulto dos investimentos.
+4.2. Cláusula Resolutiva
+Os contraentes podem ajustar cláusula resolutiva, expressamente,
+para reforçar o efeito da condição, de tal forma que a inexecução da
+prestação por qualquer um deles importe na rescisão do contrato de pleno
+direito, sujeitando o faltoso às perdas e danos, sem necessidade de
+interpelação judicial.
+A cláusula resolutiva tácita está subentendida em todos os contratos
+bilaterais. Havendo inadimplemento, o pronunciamento da rescisão deverá
+ser judicial, portanto o contrato não será rescindido de pleno direito, como
+ocorre na cláusula resolutiva expressa.
+
+-- 72 of 74 --
+
+77
+4.3. Exceção de Contrato não cumprido
+Nos contratos bilaterais cada um dos contraentes é simultânea e
+reciprocamente credor e devedor do outro, pois o contrato produz direitos e
+deveres para ambas as partes. Nesse sentido, nenhum dos contraentes
+poderá reclamar o cumprimento das prestações do outro, caso não tenha
+cumprido com as suas prestações.
+O contratante pontual poderá:
+a) Permanecer inativo, alegando a exceção de contrato não cumprido;
+b) Pedir a rescisão contratual com perdas e danos, se lesado pelo
+comportamento do culposo;
+c) Exigir o cumprimento contratual.
+A figura jurídica da Exceção vale apenas para contratos descumpridos na
+sua integralidade, cabendo a prova a quem invocá-la.
+4.4 - Resolução por onerosidade excessiva
+A onerosidade excessiva, oriunda de acontecimento extraordinário e
+imprevisível, que dificulta extremamente o adimplemento da obrigação de
+uma das partes, é, agora, motivo legal de resolução contratual.
+É uma forma de resilição contratual judicial, ou seja, a parte atingida
+pela onerosidade excessiva deverá requerer em juízo a rescisão contratual.
+O juiz deverá apurar rigorosamente a ocorrência dos seguintes
+requisitos para julgar:
+a) Vigência de um contrato comutativo de execução continuada;
+b) Alteração radical das condições econômicas no momento da
+execução do contrato, em confronto com as do instante de sua
+formação;
+c) Onerosidade excessiva para um dos contratantes e benefício
+exagerado para o outro;
+d) Imprevisibilidade e extraordinariedade daquela modificação, pois é
+necessário que as partes, quando celebraram o contrato, não possam
+ter previsto esse evento anormal.
+A onerosidade excessiva está adstrita à resolução e não à revisão
+contratual, propriamente dita, mas nada impede que o interessado (réu da
+ação de resolução do contrato), para evitar a rescisão, se ofereça para
+modificar de modo equânime, as condições do contrato, restabelecendo o
+equilíbrio contratual.
+
+-- 73 of 74 --
+
+78
+Bibliografia
+- DINIZ, Maria Helena. Código Civil anotado. 15ª. Edição. Editora Saraiva,
+2010.
+- GOMES, Orlando. Contratos. 26ª. Edição. Editora Forense, 2008.
+- RODRIGUES, Silvio. Direito Civil 3 - Dos Contratos e das Declarações
+Unilaterais da Vontade. 30ª. Edição. Editora Saraiva.
+
+-- 74 of 74 --
+
