@@ -126,6 +126,39 @@ transformar dor vivida em processo humanizado de gestão de pessoas. "Eu não
 tenho funcionários e colaboradores, eu tenho uma família... aplico a cultura
 de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
 
+## Ganchos de história ainda não contados (puxar em `/conversar`)
+
+> Fonte: `conhecimento/extracao-imersao-empresario-de-escala.md` (roteiro da
+> imersão, 17/jul/2026) — aparecem só como título de uma linha, sem a
+> história completa. Ótimo material pra puxar dele aos poucos.
+
+- "Ser motoboy de espresso" — antes ou depois do motoboy "normal"? outros
+  motoboys tiveram a mesma ideia de negócio que ele.
+- A separação dos pais e o cuidado com a aparência: gostava de andar
+  arrumado, não gostava de bagunça; um tio que andava elegante de terno foi
+  referência de postura.
+- "Soldar dos dois lados no terceirão pra não dormir" — aprendeu solda no
+  ensino médio (contexto: aula à noite / trabalho).
+- Uma sociedade com uma academia que não deu certo — ligada à lição de
+  "parar de terceirizar o seu core".
+- "Street dance e betoboy" — dança de rua na juventude.
+- Trabalhou com o dono da marca **Via Uno** no começo da carreira.
+- Aprendeu "Solda Mig" como uma das habilidades que o diferenciaram.
+- Detalhe novo do carrinho de cachorro-quente: comprava pão novo todo dia,
+  fazia salsicha e mostarda todos os dias — disciplina de não deixar sobrar.
+- A dívida das motos e um empréstimo do sogro com um agiota — negociou e
+  devolveu com quitação total (lição de honrar acordo mesmo sob pressão).
+- "Frigorífico e a oportunidade dos 7%" — uma oportunidade honesta que
+  detectou sem ser oportunista (viraria o conceito de "seus 7%").
+- Foi **consultor de telefonia** — dali vem o framework de classificar
+  clientes por cor (Verde/Amarelo/Azul) e o contorno de objeção "consultar a
+  equipe de engenharia".
+- Usar o PowerPoint no notebook nas apresentações era um diferencial na
+  época — mostra como ele sempre usou tecnologia pra se destacar antes de
+  virar padrão.
+- Um curso de sushi como exemplo prático de como ele desenvolve habilidades
+  de networking.
+
 ## O que ele domina de verdade
 
 - Direito tributário / impostos
