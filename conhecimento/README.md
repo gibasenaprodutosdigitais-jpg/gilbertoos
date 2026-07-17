@@ -27,6 +27,7 @@ opinar sobre técnica** e cita de onde veio.
 | `elaboracao-de-contratos.md` | Conceito, elementos essenciais, tipos de contrato (compra e venda, locação, comodato, mútuo, prestação de serviço) e extinção contratual | Técnico / jurídico | ✅ fichado |
 | **`livro-5gs-gestao-empreendedora.md`** | **★ LIVRO PRÓPRIO do Gilberto — os 5 G's (Si, Financeira, Pessoas, Tributária, Fornecedores/Clientes), frameworks autorais, missão/visão do Grupo Sena, "Sacada do Giba"** | **Escala / negócios (autoral)** | ✅ **fichado 17/jul/2026 — fonte primária pra conteúdo, citações 100% dele** |
 | `extracao-imersao-empresario-de-escala.md` | Roteiro interno da Imersão "Empresário de Escala" + Consultoria 5G's, framework dos 5 Princípios (Respeito/Honestidade/Paciência/Semeadura/Networking), banco de 731 ganchos de conteúdo | Escala / negócios (produto interno) | ⚠ **uso interno — dinâmicas da imersão não expor publicamente; o banco de ideias é livre pra `/ideias`** |
+| `manual-cfc-sebrae-micro-pequenas-empresas.md` | Manual contábil CFC/SEBRAE 2002 — plano de contas, escrituração, SIMPLES antigo (Lei 9.317/96) | Histórico / biográfico | ⚠ **desatualizado — legislação revogada, só valor biográfico, não citar números** |
 
 ## Categorias previstas
 

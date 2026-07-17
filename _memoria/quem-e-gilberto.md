@@ -159,6 +159,60 @@ de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
 - Um curso de sushi como exemplo prático de como ele desenvolve habilidades
   de networking.
 
+## Formação e certificações (achados nos certificados anexados, 17/jul/2026)
+
+> Fonte: ~20 certificados pessoais dele em `dados/biblioteca/`. Nome completo
+> nos documentos: **Gilberto Luís de Sena**, nascido em **23/02/1973**. Isto
+> é prova concreta por trás da autoridade — pode citar essa formação com
+> segurança, não é ostentação vazia.
+
+**Formação superior:**
+- **Bacharel em Teologia** — SETEAD (Seminário de Educação Teológica Kerigma
+  Didache), Brasília/DF, concluído 05/04/2020. Explica a base bíblica sólida
+  por trás da sabedoria dele — não é "citar versículo", é formação teológica
+  formal. Ótimo pra reforçar autoridade no pilar espiritual.
+- **Pós-graduação em Direito Tributário, 720 horas** — Faculdade Venda Nova
+  do Imigrante (FAVENI/Instituto de Educação Século XXI), concluída
+  06/05/2021. Este é o diploma pesado que sustenta a autoridade tributária —
+  vai além da prática, tem título acadêmico.
+
+**Certificação financeira:**
+- **Agente Autônomo de Investimento (AAI)** — habilitado pela ANCORD (exame
+  de 14/fev/2020, aprovado com 71 pontos). Explica a legitimidade técnica por
+  trás de projetos como o Sena Bank/Sena Invest — qualificação formal pro
+  mercado financeiro, não é achismo.
+
+**Perícia judicial (duas formações no mesmo mês, julho/2020):**
+- Curso de Perícia Judicial — Escola de Perito, 30h, 20/07/2020.
+- Curso de Perícia Judicial — CONPEJ (Conselho Nacional dos Peritos
+  Judiciais), 21h/aula, Rio de Janeiro, 13-16/07/2020.
+
+**Trilha "Tecnologia, Direito Digital e Propriedade Intelectual" (180h, 1º
+semestre/2020, rede Uniderp/Pitágoras/Anhanguera):** Direito, Ética e
+Propriedade Intelectual (60h) + Direito Eletrônico (60h) + Tecnologias de
+Informação Aplicadas ao Direito (60h).
+
+**Trilha "Planejamento e Desenvolvimento de Negócios Internacionais" (120h,
+mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
+
+**Outros cursos da mesma leva (1º semestre/2020):** Planejamento Estratégico
+(60h), Língua Inglesa III (60h), Processo da Criatividade (60h).
+
+**Formação empreendedora/gestão (2017-2019, cursos livres):**
+- Curso Plano de Negócios — 60h, dez/2017.
+- Gestão Financeira para Pequenas e Médias Empresas — 35h, nov/2017.
+- Direito Tributário (curso livre, distinto da pós-graduação de 720h) — 45h,
+  dez/2017.
+- Empreendedorismo — SENAI/SESI-ES, EAD, 14h, ago/2019.
+
+**Participação em eventos:**
+- Expert XP 2020 (evento da XP Investimentos) — 55,5h, jul/2020.
+
+> **Gancho de conteúdo:** quase toda essa leva de certificados é do mesmo
+> semestre (1º de 2020) — ele voltou a estudar tudo de novo de uma vez só.
+> Bom material pra puxar em `/conversar`: por que 2020, o que motivou essa
+> decisão de voltar a estudar em bloco.
+
 ## O que ele domina de verdade
 
 - Direito tributário / impostos
