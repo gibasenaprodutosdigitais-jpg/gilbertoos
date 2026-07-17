@@ -23,6 +23,8 @@ opinar sobre técnica** e cita de onde veio.
 | **`reforma-tributaria.md`** | **★ IVA dual (CBS/IBS/IS), cronograma, prazos urgentes de 2026, Simples, split payment, redução 30% profissões regulamentadas** | **Técnico / tributário** | ✅ **fichado 16/jul/2026 — tema em movimento, reconferir antes de publicar número** |
 | `matematica-financeira.md` | Dinheiro no tempo, juros, amortização (Price/SAC) | Técnico / finanças | ✅ fichado |
 | `financas-empresariais.md` | Caixa, custos, breakeven, VPL/TIR, planej. tributário | Técnico / finanças | ✅ fichado |
+| `cabala-alquimia-illuminati-biblia.md` | Cabala, alquimia, Illuminati e "seres de luz" — o que converge de verdade com a Bíblia e o que é mito moderno | Estudo pessoal | ⚠ **uso pessoal do Gilberto — NÃO usar em `/carrossel`, `/reels` ou `/ideias`** |
+| `elaboracao-de-contratos.md` | Conceito, elementos essenciais, tipos de contrato (compra e venda, locação, comodato, mútuo, prestação de serviço) e extinção contratual | Técnico / jurídico | ✅ fichado |
 
 ## Categorias previstas
 
