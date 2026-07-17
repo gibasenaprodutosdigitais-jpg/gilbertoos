@@ -25,6 +25,7 @@ opinar sobre técnica** e cita de onde veio.
 | `financas-empresariais.md` | Caixa, custos, breakeven, VPL/TIR, planej. tributário | Técnico / finanças | ✅ fichado |
 | `cabala-alquimia-illuminati-biblia.md` | Cabala, alquimia, Illuminati e "seres de luz" — o que converge de verdade com a Bíblia e o que é mito moderno | Estudo pessoal | ⚠ **uso pessoal do Gilberto — NÃO usar em `/carrossel`, `/reels` ou `/ideias`** |
 | `elaboracao-de-contratos.md` | Conceito, elementos essenciais, tipos de contrato (compra e venda, locação, comodato, mútuo, prestação de serviço) e extinção contratual | Técnico / jurídico | ✅ fichado |
+| **`livro-5gs-gestao-empreendedora.md`** | **★ LIVRO PRÓPRIO do Gilberto — os 5 G's (Si, Financeira, Pessoas, Tributária, Fornecedores/Clientes), frameworks autorais, missão/visão do Grupo Sena, "Sacada do Giba"** | **Escala / negócios (autoral)** | ✅ **fichado 17/jul/2026 — fonte primária pra conteúdo, citações 100% dele** |
 
 ## Categorias previstas
 

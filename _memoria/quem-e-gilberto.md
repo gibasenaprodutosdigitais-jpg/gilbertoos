@@ -12,6 +12,9 @@
   tributária, assessoria jurídica, assessoria empresarial, gestão trabalhista, PF.
 - **Mentalidade:** empresário nato, pensa em escala, gosta de modelar negócios
   que já funcionam.
+- **Instagram pessoal ativo:** `@gilbertosenaoficial` (um L — confirmado em
+  17/jul/2026; o perfil `@gilbertosenaoficiall` com dois L está sendo
+  descontinuado, a própria bio dele redireciona pro de um L).
 
 ## Autoridade / bastidores (o que dá peso)
 
@@ -19,13 +22,28 @@
   brasileiro (o mundo do G4, Marçal, Flávio Augusto etc.). Atenção: NÃO é acesso
   direto nem que trabalha com eles — é que frequenta os mesmos círculos/eventos.
   Não vender proximidade que não existe (queima autoridade).
+- **Conselheiro do Instituto Êxito de Empreendedorismo** — maior instituto de
+  empreendedorismo do Brasil (fundado em 2019). Confirmado no LinkedIn dele.
+- **Palestrante no Summit Êxito de Empreendedorismo 2022** — evento com ~150
+  palestrantes sobre empreendedorismo, tecnologia e tendências.
+- **Foi capa da Revista Empreenda, edição 75** — matéria "De motoboy a
+  multimilionário" (edição já publicada, anterior à entrada dele como
+  sócio-adm/CEO da revista — ver seção abaixo). Fichada em 17/jul/2026 a
+  partir do PDF que ele mandou — ver `História pessoal` e `Frases reais
+  (verificadas)` abaixo.
 - *(Cid: detalhar aqui os cases e bastidores que ele PODE contar publicamente —
   isso vira prova de autoridade em conteúdo. Cuidado com o que é confidencial.)*
 
 ## Revista Empreenda — novo projeto (assumido em 2026)
 
-Gilberto assumiu como **CEO e gestor da Revista Empreenda**. Foco: posicionamento
-de empresários, contar a história de empresários locais e regionais.
+Gilberto assumiu como **sócio-administrador e CEO da Revista Empreenda**. Foco:
+posicionamento de empresários, contar a história de empresários locais e
+regionais.
+
+> ⚠ **Entrada como sócio-adm/CEO ainda NÃO foi divulgada publicamente** — ele
+> confirmou isso em 17/jul/2026. Está aguardando a publicação oficial. **Não
+> usar esse fato em `/carrossel`, `/reels` ou `/ideias` até ele avisar que já
+> foi anunciado.**
 
 - Já lançada a edição **Empreenda ABC** — capa foi um empresário (academia
   inaugurada no ABC Paulista); virou repost dele nas redes, prova de que o
@@ -47,16 +65,66 @@ de empresários, contar a história de empresários locais e regionais.
   Base parecida com BNI, mas sem o protocolo rígido — a reciprocidade nasce da
   cultura e da vitrine pública (virar capa da revista), não de regra escrita.
 
-## História pessoal — [PEGAR COM O GILBERTO AMANHÃ, nas palavras dele]
+## História pessoal
 
-> Isto é o que transforma técnica em conexão. Reels e carrossel de história
-> engajam mais que dica técnica. Puxar as palavras dele, não parafrasear.
+> Fonte: matéria de capa da **Revista Empreenda, edição 75** — "De motoboy a
+> multimilionário, a trajetória inspiradora de um dos maiores empresários de
+> gestão de negócios do Brasil". Já publicada, então é material público — mas
+> a história do quase-suicídio é muito exposta; **confirmar com o Gilberto se
+> ele quer repetir essa parte específica em `/reels` ou `/carrossel`, mesmo
+> já estando impressa**, antes de reusar em conteúdo novo.
 
-- De onde ele veio, como começou:
-- Uma virada / queda / reconstrução que ele viveu:
-- O momento em que percebeu que entendia de negócio de verdade:
-- Uma decisão difícil que definiu a carreira dele:
-- O que ele mais se orgulha de ter construído:
+**De onde veio:** até os 8 anos teve vida confortável (pai engenheiro). Com a
+separação dos pais, a mãe virou faxineira — início de uma vida de privações.
+"Eu não tive amor de pai, o homem que sou hoje é devido a modelagens de
+outras pessoas em minha vida, mas graças a Deus sou um pai muito melhor do
+que o meu pai foi para mim." Foi servente de pedreiro, camelô, motoboy, teve
+carrinho de cachorro-quente, trabalhou com telefonia — "todas essas
+experiências me fizeram construir toda essa base de negócios e networking
+que tenho hoje. Fui forjado pelos momentos que passei."
+
+**A virada mais dura (sensível — ver aviso acima):** jovem motoboy em BH,
+sofreu um assalto no trabalho, foi afastado da empresa pra averiguação sem
+ter culpa, não aguentou a pressão do falatório e chegou a tentar tirar a
+própria vida — foi interrompido segundos antes pela própria filha, que
+apareceu e disse **"vamo mimi papai"**. Doze anos depois, já bem-sucedido,
+comprou a casa dos sonhos — vendida a ele, por coincidência, pelo mesmo
+antigo patrão daquela época.
+
+**O momento que definiu a missão dele:** um empresário, cliente dele
+(fazia cobrança pra ele), tirou a própria vida na própria sala, com um tiro
+na cabeça, por dívida empresarial — tinha R$1 milhão em espécie na mesa, que
+não dava nem pra entrada do passivo tributário. "hoje é contra isso que eu
+luto, não precisa ninguém fazer isso, tem jeito, tem solução! Eu aprendi
+muito com esse empresário, principalmente sobre como valorizar o ser
+humano." — **esse é o motor real por trás do trabalho tributário/gestão
+dele**, não é só técnica.
+
+**Fundação do Grupo Sena:** "Como já resolvia os problemas das empresas
+sendo funcionário de multinacionais, passei a resolver esses problemas
+através da minha própria empresa" — Grupo Sena Soluções Empresariais nasceu
+em 2010, quando ele saiu de uma **operadora de telefonia**. Foi então que
+decidiu voltar a estudar: **se formou em Direito**, e a **irmã dele se
+formou em Contabilidade** — juntos começaram a agregar mais valor ao que
+construíam. "O resultado desse investimento é que hoje temos o maior ciclo
+de soluções empresariais do país." (Fonte: livro `5gs-gestao-empreendedora`.)
+
+**As 7 falências:** ele já quebrou **sete vezes** ao longo da trajetória —
+"cada uma delas foi uma lição dura, mas também uma oportunidade de
+aprendizado." Revelação forte, ainda não usada em conteúdo — ótimo gancho de
+vulnerabilidade real, mas confirmar com ele antes de expor números/detalhes
+específicos de qual negócio quebrou.
+
+**Família:** casado com **Érica** — "nossa sintonia e sinergia é coisa de
+Deus". História do casamento: pintou um barracão no quintal da mãe pra
+ganhar uma lata de tinta, terminou 1h antes do próprio casamento, tomou
+banho e foi a pé pra igreja. Pai de **Jéssyka** e **Victor** — "tem na
+família seu bem mais precioso".
+
+**O que ele mais se orgulha de ter construído:** não é o dinheiro — é
+transformar dor vivida em processo humanizado de gestão de pessoas. "Eu não
+tenho funcionários e colaboradores, eu tenho uma família... aplico a cultura
+de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
 
 ## O que ele domina de verdade
 
@@ -65,3 +133,52 @@ de empresários, contar a história de empresários locais e regionais.
 - A **nova reforma tributária** (tema quente — conteúdo pronto pra surfar)
 - Escala de negócios / modelagem
 - Sabedoria de vida, espiritualidade, desenvolvimento pessoal (ver `tom-de-voz.md`)
+
+## Negócios e projetos (fonte: Revista Empreenda ed. 75, 17/jul/2026)
+
+- **Geo Ciclo do Grupo Sena** — metodologia própria dele pra estruturar e
+  reestruturar qualquer tipo de negócio (operacional, gestão, administrativo).
+- **Sócio de várias empresas** em segmentos diferentes, incluindo a
+  **J&V Sena Holding Participações S.A.**, da qual é **presidente**.
+- **Sena Bank** — banco digital em desenvolvimento (na época da matéria,
+  "terminando o projeto"), objetivo é transformar a gestão financeira das
+  empresas — checar status atual antes de anunciar como novidade.
+- Livro em produção: **"Os 5G's do Empreendedorismo"** — vida pautada em
+  princípios bíblicos. Os 5 G's: **Gestão de Si** (viver de "maná" — não
+  ostentar, usar dinheiro com consciência, esperar o tempo de Deus), Gestão
+  de Pessoas, Gestão Financeira, Gestão Tributária, Gestão de Clientes e
+  Fornecedores.
+- Pilares declarados: **Deus, Família e Trabalho**. Coach de formação, atua
+  com palestras e mentorias pelo Brasil.
+- Projetos internacionais citados na matéria (2026): **Portugal e Dubai**
+  para os negócios dele — atenção, é **distinto** da expansão internacional
+  da Revista Empreenda (Angola, Portugal, Panamá) citada em outra seção
+  deste arquivo; não confundir os dois planos.
+- Inspirações que ele cita: **Silvio Santos** (modelo de vida) e
+  **Marcus Lemonis** (modelo de gestão de resultados).
+- Critério de quem ele aproxima/ajuda: **"pessoas de coração ensinável"** —
+  quando percebe que o dono da empresa "não está pronto pra se
+  profissionalizar" ou "não quer pagar impostos", ele devolve o projeto.
+
+## Frases reais dele (verificadas, Revista Empreenda ed. 75)
+
+Já publicadas, então são seguras de citar como dele — mas confirmar antes de
+reusar a mais sensível (marcada abaixo):
+
+- "Fui forjado pelos momentos que passei, fui me capacitando ao longo do
+  processo, até que em 2010 nascia o Grupo Sena Soluções Empresariais."
+- "Hoje pra mim, se for da vontade de Deus eu perder tudo, eu volto a ser
+  motoboy e vou fazer meus proventos mensais. Eu entendo que não ser
+  soberbo e não perder as origens é essencial. (...) Não adianta você ter
+  dinheiro se não sabe fazer GESTÃO."
+- "Eu não tenho funcionários e colaboradores, eu tenho uma família (...)
+  amor é mandamento e não sentimento."
+- "Quando eu assessoro uma empresa, eu trato como se fosse minha, e muitas
+  vezes eu devolvo o projeto (...) quando eu vejo que a pessoa não quer
+  pagar impostos, entendo que não está pronto para crescer."
+- "Se você vender bem a história do seu propósito, o como fazer é fácil (...)
+  O milagre ele vem, o que faz a diferença é o acesso que você vai
+  adquirindo no caminhar da jornada."
+- ⚠ **Sensível — confirmar antes de reusar:** "hoje é contra isso que eu
+  luto, não precisa ninguém fazer isso, tem jeito, tem solução!" (sobre o
+  cliente que tirou a própria vida por dívida empresarial).
