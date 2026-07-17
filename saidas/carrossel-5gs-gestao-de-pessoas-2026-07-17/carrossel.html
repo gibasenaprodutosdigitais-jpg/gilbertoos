@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — 5 G's da Gestão · 3: Gestão de Pessoas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #C9A227; color: #0F1419; }
+
+  .gold { color: #C9A227; }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .bg-dark .topbar, .bg-black .topbar { color: #C9A227; }
+  .bg-light .topbar { color: #C9A227; }
+  .bg-gold .topbar { color: #0F1419; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin: 40px 64px 0 64px;
+  }
+  .bg-gold .rule { background: #0F1419; }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .bg-gold .kicker { color: #0F1419; opacity: 0.75; }
+
+  .title-cover {
+    font-size: 82px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.1;
+    max-width: 920px;
+  }
+
+  .h2 {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.14;
+    max-width: 900px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+  .bg-gold .footer { border-top: 1px solid rgba(15,20,25,0.22); }
+
+  /* DUO */
+  .duo-cols { display: flex; gap: 56px; margin-top: 8px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 20px;
+    font-weight: 900;
+    color: #C9A227;
+    margin-bottom: 14px;
+  }
+  .duo-h { font-size: 40px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.1; }
+  .duo-text { font-size: 22px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* CITACAO */
+  .quote-mark {
+    font-size: 140px;
+    font-weight: 900;
+    color: #C9A227;
+    line-height: 0.5;
+    margin-bottom: 24px;
+  }
+  .quote-text {
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.28;
+    max-width: 900px;
+  }
+  .quote-attr {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 36px;
+    opacity: 0.7;
+  }
+
+  /* ESCADA (lista numerada) */
+  .steps { margin-top: 8px; }
+  .step { display: flex; align-items: baseline; gap: 20px; margin-bottom: 20px; }
+  .step-n { font-size: 26px; font-weight: 900; color: #C9A227; width: 44px; }
+  .step-t { font-size: 30px; font-weight: 700; }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #C9A227;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+    font-size: 46px;
+    font-weight: 900;
+    color: #C9A227;
+  }
+  .cta-wordmark {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: 760px;
+    margin-bottom: 40px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>01/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Série 5 G's da Gestão · 3 de 5</div>
+    <div class="title-cover">Crescer não é propósito. É <span class="gold">consequência</span>.</div>
+  </div>
+  <div class="footer">GESTÃO DE PESSOAS</div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>02/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Gestão de pessoas</div>
+    <div class="h2">Sua empresa não é diferente de um tumor.</div>
+    <div class="body-txt">Se eu te perguntasse qual é o propósito da sua empresa, a resposta que mais ouço é: crescer. Um tumor também cresce — de forma desordenada, consumindo recursos, sem direção. Crescimento não é propósito. É consequência do propósito.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>03/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilar 1 — Gestão do Propósito</div>
+    <div class="h2">Antes de saber pra onde crescer, saiba por quê.</div>
+    <div class="body-txt">Toda empresa tem quadro na parede com missão, visão e valores. Poucas fazem esses três viverem fora da parede — sentidos por quem trabalha ali, não só lidos.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 4 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>04/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 2 e 3</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 2</div>
+        <div class="duo-h">Desempenho</div>
+        <div class="duo-text" style="color:#454545;">Meta sem prazo não é meta, é desejo. Use o método SMART — e nunca esqueça do "+" no final: propósito.</div>
+      </div>
+      <div class="duo-divider-v" style="background: rgba(21,21,21,0.14);"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 3</div>
+        <div class="duo-h">Comunicação</div>
+        <div class="duo-text" style="color:#454545;">Comunicação nunca é demais. Uma equipe que fala aberto é uma equipe que inova.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 5 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>05/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 4 e 5</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 4</div>
+        <div class="duo-h">Engajamento</div>
+        <div class="duo-text">Engajamento não se compra com salário. Se compra com clima, reconhecimento e participação real.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 5</div>
+        <div class="duo-h">Desenvolvimento</div>
+        <div class="duo-text">Quem tem medo de capacitar o time e perdê-lo tem mais medo ainda de não capacitar e ficar com ele do jeito que está.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 6 — CITACAO -->
+<div class="slide bg-gold">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>06/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="quote-mark" style="color:#0F1419;">"</div>
+    <div class="quote-text" style="color:#151515;">Cada entrega que fiz como motoboy, cada cliente que atendi como vendedor de cachorro-quente e cada colaborador que tive o privilégio de liderar me ensinou muito sobre pessoas — e reforçou minha crença de que ninguém escala um negócio sozinho.</div>
+    <div class="quote-attr" style="color:#151515;">— Gilberto Sena</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 7 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>07/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Uma decisão que mudou tudo</div>
+    <div class="h2">Eu me formei em Direito. Minha irmã, em Contabilidade.</div>
+    <div class="body-txt">Foi em 2010, quando saí da operadora de telefonia. Voltamos a estudar juntos pra agregar mais valor ao que construíamos. Hoje é o maior ciclo de soluções empresariais do país.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 8 — SOLO (ESCADA) -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>08/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Sacada do Giba</div>
+    <div class="h2" style="font-size:48px; margin-bottom:36px;">A escada do engajamento tem 6 degraus.</div>
+    <div class="steps">
+      <div class="step"><div class="step-n">01</div><div class="step-t">Conhecimento</div></div>
+      <div class="step"><div class="step-n">02</div><div class="step-t">Conexão</div></div>
+      <div class="step"><div class="step-n">03</div><div class="step-t">Contribuição</div></div>
+      <div class="step"><div class="step-n">04</div><div class="step-t">Reconhecimento</div></div>
+      <div class="step"><div class="step-n">05</div><div class="step-t">Crescimento</div></div>
+      <div class="step"><div class="step-n">06</div><div class="step-t">Comprometimento</div></div>
+    </div>
+    <div class="body-txt" style="margin-top:16px;">Ninguém chega comprometido pulando degrau.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 9 — CTA FINAL -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>09/09</span>
+  </div>
+  <div class="cta-wrap">
+    <div class="lion-seal">S</div>
+    <div class="cta-wordmark">GILBERTO SENA</div>
+    <div class="cta-body">Esse é o 3º dos 5 G's da gestão. Faltam 2.</div>
+    <div class="cta-handle">@gilbertosenaoficial</div>
+  </div>
+  <div class="footer" style="border-top:none; text-align:center;">5 G'S DA GESTÃO EMPREENDEDORA</div>
+</div>
+
+</body>
+</html>

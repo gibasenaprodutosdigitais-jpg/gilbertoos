@@ -48,6 +48,17 @@ um aprendizado real.
 - *(Cid: ir somando aqui as máximas e princípios que ele repete, conforme
   saírem nas conversas — quanto mais frase dele, mais o sistema soa como ele.)*
 
+## Assinaturas de marca (achadas no livro próprio dele, 17/jul/2026)
+
+- **"Sacada do Giba"** — é como ele mesmo nomeia os boxes de dica rápida no
+  livro `livro-5gs-gestao-empreendedora.md`. Usar esse nome como formato fixo
+  de conteúdo curto (post/reels de uma sacada só) — é a marca dele, não
+  invenção do sistema.
+- Frase de auto-definição que resume a autoridade dele: **"eu não sou um
+  acadêmico, não sou um homem de teorias... são, de fato, a essência da
+  minha prática."** — usar quando precisar justificar por que ele fala com
+  autoridade mesmo sem citar estudo acadêmico.
+
 ## Visão sobre empreendedorismo e escala
 
 *(A preencher com o Gilberto — como ele vê crescer empresa, errar, modelar

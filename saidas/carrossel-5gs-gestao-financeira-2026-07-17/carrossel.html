@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — 5 G's da Gestão · 2: Gestão Financeira</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #C9A227; color: #0F1419; }
+
+  .gold { color: #C9A227; }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .bg-dark .topbar, .bg-black .topbar { color: #C9A227; }
+  .bg-light .topbar { color: #C9A227; }
+  .bg-gold .topbar { color: #0F1419; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin: 40px 64px 0 64px;
+  }
+  .bg-gold .rule { background: #0F1419; }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .bg-gold .kicker { color: #0F1419; opacity: 0.75; }
+
+  .title-cover {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.1;
+    max-width: 920px;
+  }
+
+  .h2 {
+    font-size: 62px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.14;
+    max-width: 900px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+  .bg-gold .footer { border-top: 1px solid rgba(15,20,25,0.22); }
+
+  /* DUO */
+  .duo-cols { display: flex; gap: 56px; margin-top: 8px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 20px;
+    font-weight: 900;
+    color: #C9A227;
+    margin-bottom: 14px;
+  }
+  .bg-light .duo-num { color: #C9A227; }
+  .duo-h { font-size: 40px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.1; }
+  .duo-text { font-size: 22px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* NUMERO */
+  .big-number {
+    font-size: 340px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+
+  /* CITACAO */
+  .quote-mark {
+    font-size: 140px;
+    font-weight: 900;
+    color: #C9A227;
+    line-height: 0.5;
+    margin-bottom: 24px;
+  }
+  .quote-text {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.24;
+    max-width: 880px;
+  }
+  .quote-attr {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 36px;
+    opacity: 0.7;
+  }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #C9A227;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+    font-size: 46px;
+    font-weight: 900;
+    color: #C9A227;
+  }
+  .cta-wordmark {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: 760px;
+    margin-bottom: 40px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>01/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Série 5 G's da Gestão · 2 de 5</div>
+    <div class="title-cover"><span class="gold">Sete vezes</span> eu quebrei. Nenhuma foi motivo pra parar.</div>
+  </div>
+  <div class="footer">GESTÃO FINANCEIRA</div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>02/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Gestão financeira</div>
+    <div class="h2">O dinheiro é professor, não patrão.</div>
+    <div class="body-txt">"A gestão financeira não é apenas sobre números, mas sobre a alma de um negócio." Cada decisão financeira ensina disciplina, inovação ou humildade — depende só de você escutar a lição.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>03/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilar 1 — Governança Financeira</div>
+    <div class="h2">A estrutura vem antes do resultado.</div>
+    <div class="body-txt">Empresa sem governança financeira é atleta competindo sem treino e sem técnica. Não é sobre ter dinheiro — é sobre ter regra clara de como ele entra, fica e sai.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 4 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>04/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 2 e 3</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 2</div>
+        <div class="duo-h">Orçamento</div>
+        <div class="duo-text" style="color:#454545;">Orçamento não é controle de gasto. É a representação das suas expectativas pro negócio.</div>
+      </div>
+      <div class="duo-divider-v" style="background: rgba(21,21,21,0.14);"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 3</div>
+        <div class="duo-h">Fluxo de caixa</div>
+        <div class="duo-text" style="color:#454545;">É o pulso financeiro da empresa. Quando ele para, o resto do corpo sente.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 5 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>05/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 4 e 5</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 4</div>
+        <div class="duo-h">Investimentos</div>
+        <div class="duo-text">Investir bem não é seguir o "guru" do momento. É alinhar cada centavo com sua visão.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 5</div>
+        <div class="duo-h">Endividamento</div>
+        <div class="duo-text">Dívida não é vilã. Fardo ou alavanca — depende de quem segura o volante.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 6 — CITACAO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>06/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="quote-mark">"</div>
+    <div class="quote-text">O dinheiro, para mim, nunca foi apenas uma ferramenta, mas um professor. Ele me ensinou disciplina quando tive que economizar, inovação quando tive que investir, humildade quando enfrentei desafios financeiros.</div>
+    <div class="quote-attr">— Gilberto Sena</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 7 — NUMERO -->
+<div class="slide bg-gold">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>07/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Uma história que eu não conto toda hora</div>
+    <div class="big-number">7</div>
+    <div class="body-txt" style="color:#151515; opacity:0.85;">Foram sete vezes que eu quebrei antes de construir o que tenho hoje. Cada uma foi lição dura — e nenhuma delas foi motivo pra desistir.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 8 — SOLO -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>08/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Sacada do Giba</div>
+    <div class="h2">Reserva de emergência não é luxo.</div>
+    <div class="body-txt">O ideal é ter de três a seis meses de despesas guardado, numa conta separada da que você usa no dia a dia. Não espere a tempestade chegar pra procurar abrigo.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 9 — CTA FINAL -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>09/09</span>
+  </div>
+  <div class="cta-wrap">
+    <div class="lion-seal">S</div>
+    <div class="cta-wordmark">GILBERTO SENA</div>
+    <div class="cta-body">Esse é o 2º dos 5 G's da gestão. Amanhã tem mais.</div>
+    <div class="cta-handle">@gilbertosenaoficial</div>
+  </div>
+  <div class="footer" style="border-top:none; text-align:center;">5 G'S DA GESTÃO EMPREENDEDORA</div>
+</div>
+
+</body>
+</html>

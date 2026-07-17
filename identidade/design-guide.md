@@ -8,7 +8,7 @@
 - **Logo:** leão dourado com o "S" formado na juba (`identidade/logo.png`).
   Símbolo de força, liderança e autoridade. Usar sempre em fundo escuro
   (grafite/preto) ou branco — o dourado precisa respirar.
-- **Instagram:** [@gilbertosenaoficiall](https://www.instagram.com/gilbertosenaoficiall/)
+- **Instagram:** [@gilbertosenaoficial](https://www.instagram.com/gilbertosenaoficial/) (confirmado pelo Gilberto em 17/jul/2026 — o perfil antigo com dois L está sendo descontinuado)
 - **Nome/wordmark:** GILBERTO SENA
 
 ## Direção
@@ -51,7 +51,7 @@ O dourado é sotaque, não banho — usar com parcimônia pra manter o ar caro.
 - Logo do leão top-left (pequeno, discreto) + contador de slide top-right
 - No slide de capa e no CTA final, o leão pode aparecer maior como elemento
   de marca (ex.: watermark sutil ou selo)
-- CTA final: fundo escuro, leão dourado centralizado, @gilbertosenaoficiall
+- CTA final: fundo escuro, leão dourado centralizado, @gilbertosenaoficial
 
 ## Regra de ouro
 
