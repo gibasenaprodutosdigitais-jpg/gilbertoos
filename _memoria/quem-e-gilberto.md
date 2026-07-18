@@ -40,16 +40,33 @@ Gilberto assumiu como **sócio-administrador e CEO da Revista Empreenda**. Foco:
 posicionamento de empresários, contar a história de empresários locais e
 regionais.
 
-> ⚠ **Entrada como sócio-adm/CEO ainda NÃO foi divulgada publicamente** — ele
-> confirmou isso em 17/jul/2026. Está aguardando a publicação oficial. **Não
-> usar esse fato em `/carrossel`, `/reels` ou `/ideias` até ele avisar que já
-> foi anunciado.**
+> ⚠ **Entrada como sócio-adm/CEO ainda NÃO foi divulgada publicamente** —
+> anúncio **previsto pra setembro/2026** (confirmado por ele em 18/jul/2026,
+> antes dizia só "aguardando publicação"). **Não usar esse fato em
+> `/carrossel`, `/reels` ou `/ideias` até ele avisar que já foi anunciado.**
+> Primeira medida como CEO, já em andamento: organização da estrutura
+> financeira do grupo + implementação de uma cultura forte com base em
+> princípios e caráter (antes de qualquer expansão nova).
 
+- **Equipe:** **Elaine** é a chefe editorial. Mais uma pequena equipe de
+  apoio (sem outros nomes registrados ainda).
 - Já lançada a edição **Empreenda ABC** — capa foi um empresário (academia
   inaugurada no ABC Paulista); virou repost dele nas redes, prova de que o
-  formato gera desejo de ser capa.
+  formato gera desejo de ser capa. Faturamento **começando agora** (18/jul/2026),
+  ainda não maduro como Revista Empreenda / Empreenda Portugal.
 - Expansão internacional em andamento: **Angola, Portugal, Panamá**, além do
   ABC — diferencial que nenhum concorrente contador/tributarista tem.
+  **Confirmado 18/jul/2026: nada nessas edições internacionais está ligado ao
+  Grupo Sena — são projetos distintos**, apesar de Portugal aparecer também
+  nos planos pessoais dele (ver seção de projetos internacionais mais abaixo,
+  não confundir as duas coisas).
+- **Empreenda Esportes** — nova marca dentro do grupo. Próxima capa: o
+  ex-jogador **Cafu**.
+- **Empreenda Space** — negócio híbrido novo, incorporado à Empreenda com a
+  entrada do Gilberto como sócio-adm/CEO: juntou o **centro de convenções**
+  dele com o **podcast Kairos**, virando uma frente própria dentro do grupo.
+  **Confirmado 18/jul/2026: já está funcionando e vai começar a faturar no
+  mês que vem (ago/2026)** — não é mais só incorporação no papel.
 - Agosto/2026: capa da **Empreenda Brasil / Empreenda Global** é **Flávio
   Augusto**, com projeto ao lado de **Joel Jota** e **Caio Carneiro** (evento
   com Alan Spark) — mentoria estruturada tipo "IPO", com grupos classificados
@@ -64,6 +81,22 @@ regionais.
   (ex.: vários advogados no grupo, ele indica o mais adequado pra cada caso).
   Base parecida com BNI, mas sem o protocolo rígido — a reciprocidade nasce da
   cultura e da vitrine pública (virar capa da revista), não de regra escrita.
+  **Modelo de receita confirmado 18/jul/2026:** é deliberadamente **na
+  contramão do mercado** de mastermind/grupo fechado — a colaboração cobrada
+  dos membros é **simbólica**, só pra cobrir a manutenção das reuniões, não
+  uma mensalidade de acesso. O valor real do grupo é gerar conexão e negócio
+  de verdade, não a taxa em si.
+
+### Modelo de receita da Revista Empreenda (confirmado 18/jul/2026)
+
+- Fonte principal hoje: **venda de editorial de capa**.
+- Faixa de receita por tiragem: **R$ 40.000 a R$ 70.000**, nas frentes
+  **Revista Empreenda** e **Empreenda Portugal** (as duas mais maduras).
+- **Empreenda ABC** está no início do próprio faturamento agora — ainda não
+  no mesmo patamar das outras duas.
+- Empreenda Esportes ainda é frente muito nova, sem faturamento reportado.
+  **Empreenda Space já está funcionando e começa a faturar em ago/2026**
+  (confirmado 18/jul/2026).
 
 ## História pessoal
 
