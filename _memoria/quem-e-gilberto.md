@@ -281,6 +281,17 @@ mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
 
 ## Negócios e projetos (fonte: Revista Empreenda ed. 75, 17/jul/2026)
 
+- **OCEO — Sistema de Gestão Empresarial** (achado em material de
+  identidade/capa, 18/jul/2026, `identidade/Capa atualizada do Sistema
+  OCEO.pdf`) — ERP próprio do Grupo Sena, Gilberto como CEO. Módulos:
+  Dashboard, Financeiro, Vendas (CRM), Compras, Estoque, Produção,
+  Projetos, Recursos Humanos, BI/Inteligência, Relatórios, Configurações.
+  Pilares de marca: Gestão Completa, Decisões Inteligentes, Resultados
+  Reais, Controle Total. Slogan: "Mais que um sistema. Uma nova forma de
+  gerir o futuro." Frase dele: "O sucesso do seu negócio começa com uma
+  gestão inteligente." Distinto do GilbertoOS (que é o sistema pessoal
+  dele de conteúdo/posicionamento) — o OCEO é produto de software vendido
+  a clientes do Grupo Sena.
 - **Geo Ciclo do Grupo Sena** — metodologia própria dele pra estruturar e
   reestruturar qualquer tipo de negócio (operacional, gestão, administrativo).
 - **Sócio de várias empresas** em segmentos diferentes, incluindo a
