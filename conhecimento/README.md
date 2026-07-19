@@ -28,6 +28,11 @@ opinar sobre técnica** e cita de onde veio.
 | **`livro-5gs-gestao-empreendedora.md`** | **★ LIVRO PRÓPRIO do Gilberto — os 5 G's (Si, Financeira, Pessoas, Tributária, Fornecedores/Clientes), frameworks autorais, missão/visão do Grupo Sena, "Sacada do Giba"** | **Escala / negócios (autoral)** | ✅ **fichado 17/jul/2026 — fonte primária pra conteúdo, citações 100% dele** |
 | `extracao-imersao-empresario-de-escala.md` | Roteiro interno da Imersão "Empresário de Escala" + Consultoria 5G's, framework dos 5 Princípios (Respeito/Honestidade/Paciência/Semeadura/Networking), banco de 731 ganchos de conteúdo | Escala / negócios (produto interno) | ⚠ **uso interno — dinâmicas da imersão não expor publicamente; o banco de ideias é livre pra `/ideias`** |
 | `manual-cfc-sebrae-micro-pequenas-empresas.md` | Manual contábil CFC/SEBRAE 2002 — plano de contas, escrituração, SIMPLES antigo (Lei 9.317/96) | Histórico / biográfico | ⚠ **desatualizado — legislação revogada, só valor biográfico, não citar números** |
+| **`estrategia-conteudo-marketing-monetizacao.md`** | **★ Mapa 3D/3C, TACO, 5 conteúdos de autoridade, funis de venda, precificação de imersão/mentoria — método de conteúdo que o próprio Gilberto usa/ensina** | **Marketing / posicionamento (uso direto pro GilbertoOS)** | ✅ **fichado 18/jul/2026 — base pra `/carrossel`, `/reels`, `/ideias`** |
+| `contabilidade-gestao-financeira-pessoal.md` | TCC sobre gestão financeira pessoal, orçamento, renda passiva — pesquisa com bancários (só 30% tem orçamento formal) | Técnico / finanças pessoais | ✅ fichado 18/jul/2026 |
+| `contrato-cessao-quotas-societarias.md` | Modelo de contrato de cessão/transferência de quotas societárias — entrada/saída de sócio numa Ltda | Técnico / jurídico societário | ✅ fichado 18/jul/2026 |
+| `modelo-laudo-pericial-extrajudicial.md` | Estrutura de laudo técnico contábil-financeiro extrajudicial — revisão de juros, Tabela Price vs. Método de Gauss | Técnico / jurídico-financeiro (perícia) | ✅ fichado 18/jul/2026 |
+| `produto-sportlife-metodologia-produto.md` | Kit Sport Life (possível afiliação, cupom "Gilberto20") + metodologia Unpack de desenvolvimento de produto | Negócios / produtos | ⚠ **fichado 18/jul/2026 — confirmar com o Gilberto se é parceria ativa antes de usar em conteúdo público** |
 
 ## Categorias previstas
 

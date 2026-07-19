@@ -253,6 +253,31 @@ mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
 - A **nova reforma tributária** (tema quente — conteúdo pronto pra surfar)
 - Escala de negócios / modelagem
 - Sabedoria de vida, espiritualidade, desenvolvimento pessoal (ver `tom-de-voz.md`)
+- **Marketing de conteúdo / autoridade digital** — pratica o que ensina há
+  12 anos (ver abaixo)
+
+## Bastidor de conteúdo digital (fonte: `conhecimento/estrategia-conteudo-marketing-monetizacao.md`, fichado 18/jul/2026)
+
+- Publica no Instagram **desde 2013**, ao menos 2 conteúdos/dia.
+- **Meio milhão de seguidores no TikTok**, reaproveitando o conteúdo do
+  Instagram.
+- Roda um **podcast semanal às quartas de manhã**, citado como "Spacecast"
+  num material de ago/2025 — **checar se é o mesmo podcast Kairos** que
+  hoje faz parte do Empreenda Space (ver seção Revista Empreenda acima) ou
+  se são projetos diferentes/o nome mudou.
+- Cobra **R$50–80 mil por palestra** — o objetivo declarado não é só o
+  cachê, é gerar conteúdo longo com autoridade pra usar depois.
+- Já teve vídeo com **4 milhões de visualizações em 24h** (270 mil
+  curtidas, 43 mil salvamentos, trouxe 10 mil seguidores novos).
+- Números de ecossistema citados numa mentoria (checar se são dele, do
+  Grupo Sena, ou de um coletivo maior antes de reusar como número próprio):
+  atuação em 94 países, R$4,5 bi gerados pra empresas, +6 mil empresários
+  treinados, +36 mil empregos gerados.
+- **Possível afiliação não confirmada:** cupom de desconto "Gilberto20"
+  associado ao suplemento Kit de Alta Performance (marca Sport Life /
+  Fortlife Pharma) apareceu num material salvo por ele — perguntar
+  diretamente antes de tratar como negócio ativo dele (ver
+  `conhecimento/produto-sportlife-metodologia-produto.md`).
 
 ## Negócios e projetos (fonte: Revista Empreenda ed. 75, 17/jul/2026)
 
