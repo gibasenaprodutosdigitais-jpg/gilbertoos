@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — 12 Pilares de um Business Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #1E4E8C; color: #0F1419; }
+
+  .gold { color: #1E4E8C; }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .bg-dark .topbar, .bg-black .topbar { color: #1E4E8C; }
+  .bg-light .topbar { color: #1E4E8C; }
+  .bg-gold .topbar { color: #0F1419; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #1E4E8C;
+    margin: 40px 64px 0 64px;
+  }
+  .bg-gold .rule { background: #0F1419; }
+
+  .brandmark {
+    width: 26px;
+    height: 26px;
+    display: block;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+  .brand-block { display: flex; flex-direction: column; align-items: flex-start; }
+
+  .lion-seal-mark {
+    width: 60px;
+    height: 60px;
+    display: block;
+    object-fit: contain;
+  }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #1E4E8C;
+    margin-bottom: 28px;
+  }
+
+  .title-cover {
+    font-size: 74px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.15;
+    max-width: 920px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+
+  /* DUO */
+  .duo-cols { display: flex; gap: 56px; margin-top: 8px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 19px;
+    font-weight: 900;
+    color: #1E4E8C;
+    margin-bottom: 14px;
+    letter-spacing: 0.02em;
+  }
+  .duo-h { font-size: 36px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.12; }
+  .duo-text { font-size: 21px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+  .bg-light .duo-divider-v { background: rgba(21,21,21,0.14); }
+  .bg-light .duo-text { color: #454545; }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #1E4E8C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+    font-size: 46px;
+    font-weight: 900;
+    color: #1E4E8C;
+  }
+  .cta-wordmark {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #1E4E8C;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: 780px;
+    margin-bottom: 40px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1E4E8C;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-azul.png"><span>GILBERTO SENA</span></div>
+    <span>01/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">12 pilares de um business plan de verdade</div>
+    <div class="title-cover">Business plan bonito <span class="gold">não paga conta.</span> Isso paga.</div>
+  </div>
+  <div class="footer">GESTÃO EMPRESARIAL</div>
+</div>
+
+<!-- SLIDE 2 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-azul.png"><span>GILBERTO SENA</span></div>
+    <span>02/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 1 e 2</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 1</div>
+        <div class="duo-h">Missão em uma frase</div>
+        <div class="duo-text">Se você não consegue explicar quem ajuda, com o quê e como ganha dinheiro numa frase só, o plano ainda não está claro pra você — nem vai estar pra quem financia.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 2</div>
+        <div class="duo-h">Mercado real</div>
+        <div class="duo-text">Nada de projeção genérica de slide bonito. Mercado real é conhecer o setor que você já opera, os concorrentes de verdade e quem realmente compra.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 3 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-azul.png"><span>GILBERTO SENA</span></div>
+    <span>03/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 3 e 4</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 3</div>
+        <div class="duo-h">Proposta de valor</div>
+        <div class="duo-text">Ninguém compra o processo. Compram o resultado: segurança, tempo, tranquilidade. Deixe claro o que muda na vida de quem compra de você.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 4</div>
+        <div class="duo-h">Modelo de receita</div>
+        <div class="duo-text">Como o dinheiro entra, com que frequência e de quem. Um plano sem essa clareza é intenção — não é plano.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 4 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-azul.png"><span>GILBERTO SENA</span></div>
+    <span>04/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 5 e 6</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 5</div>
+        <div class="duo-h">Custos fixos e variáveis</div>
+        <div class="duo-text">O que existe mesmo sem vender (aluguel, folha) e o que só nasce quando a venda acontece (insumo, comissão). Sem separar isso, você não sabe o que está medindo.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 6</div>
+        <div class="duo-h">Ponto de equilíbrio</div>
+        <div class="duo-text">Quanto precisa faturar só pra fechar o mês no zero a zero. Todo business plan sério tem essa conta feita antes de prometer lucro.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 5 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-azul.png"><span>GILBERTO SENA</span></div>
+    <span>05/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 7 e 8</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 7</div>
+        <div class="duo-h">Fluxo de caixa</div>
+        <div class="duo-text">Lucro no papel não paga boleto. É o caixa, mês a mês, que decide se a empresa respira ou sufoca.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 8</div>
+        <div class="duo-h">Projeção com histórico</div>
+        <div class="duo-text">Se o canal já existe, projete com base no que já aconteceu. Se é canal novo, marque como incerto e teste antes de prometer meta — eu uso 90 dias como padrão.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 6 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-azul.png"><span>GILBERTO SENA</span></div>
+    <span>06/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 9 e 10</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 9</div>
+        <div class="duo-h">Não concentre num canal só</div>
+        <div class="duo-text">Depender demais de um único canal — principalmente contrato público — te deixa refém de decisão que não é sua. Construa a base primeiro, diversifique depois.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 10</div>
+        <div class="duo-h">Planejamento tributário</div>
+        <div class="duo-text">Regime tributário e estrutura societária não são detalhe de contador — são decisão estratégica que muda o resultado líquido do negócio inteiro.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 7 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-azul.png"><span>GILBERTO SENA</span></div>
+    <span>07/08</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 11 e 12</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 11</div>
+        <div class="duo-h">Proteja o código-fonte</div>
+        <div class="duo-text">Tecnologia, processo, propriedade intelectual central — blinde isso antes de crescer. Sem proteção, um concorrente copia a superfície e queima seu mercado.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 12</div>
+        <div class="duo-h">O papel do fundador</div>
+        <div class="duo-text">Quem tem a história tem que ser o rosto público — vender a visão. Operação, dinheiro e logística são função do time, não do fundador escondido na planilha.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 8 — CTA FINAL -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-azul.png"><span>GILBERTO SENA</span></div>
+    <span>08/08</span>
+  </div>
+  <div class="cta-wrap">
+    <div class="lion-seal"><img class="lion-seal-mark" src="grupo-sena-icone-azul.png"></div>
+    <div class="cta-wordmark">GILBERTO SENA</div>
+    <div class="cta-body">Um business plan de verdade não é modelo de startup bonito — é passo a passo: primeira semana, primeiro trimestre, investimento, retorno esperado. Se não bateu, readequa a rota.</div>
+    <div class="cta-handle">@gilbertosenaoficial</div>
+  </div>
+  <div class="footer" style="border-top:none; text-align:center;">12 PILARES DE UM BUSINESS PLAN DE VERDADE</div>
+</div>
+
+</body>
+</html>
