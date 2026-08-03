@@ -1,41 +1,47 @@
 # Estratégia de Conteúdo, Marketing e Monetização para Mentores
 
-> Fichamento pra uso do Gilberto: ★ REFERÊNCIA-MESTRA de marketing de
-> conteúdo — relatório de uma reunião/mentoria de 09/ago/2025 sobre como
-> mentores e educadores produzem conteúdo, viram autoridade e monetizam. O
-> próprio **Gilberto aparece como case citado várias vezes** no documento
-> (conteúdo desde 2013, meio milhão de seguidores no TikTok, podcast
-> semanal, palestra de R$80 mil) — não é teoria genérica, é o método que ele
-> mesmo usa/ensina. Fonte: `dados/biblioteca/Estrategia de Mkt e Monetizacao .pdf`
-> · Categoria: Marketing / posicionamento (uso direto pro GilbertoOS).
+> ⚠ **CORREÇÃO DE ATRIBUIÇÃO (21/jul/2026).** Este fichamento tratou o
+> "Gilberto" do documento-fonte como sendo o **Gilberto Sena**. Ao cruzar
+> com a transcrição completa do mesmo evento
+> (`08-09_Relatório_de_Reunião_..._para_Mentores_e_Educadores-transcript.pdf`
+> e `Resumo_de_Estratégia_Negócios_Vendas_e_Marketing-transcript.pdf`, ambos
+> de 09/ago/2025), ficou claro que **é outro empresário** — dono da
+> indústria de suplementos Sport Life/Fortlife Pharma (cupom "Gilberto20")
+> e de uma escola/rede de ensino (Prepara ENEM, Space Edu, podcast
+> Spacecast), professor de cursinho por formação. **Todos os números e a
+> biografia abaixo (TikTok, podcast, palestra, 94 países, R$4,5 bi) são
+> desse outro Gilberto, não do Gilberto Sena.** Ver
+> [[playbook-terceiro-imersao-marketing-vendas-mentores]] para o contexto
+> completo da correção e uma versão condensada dos frameworks técnicos.
+>
+> **Isso muda o uso deste arquivo**: os frameworks (Mapa 3D/3C, TACO, os 5
+> conteúdos de autoridade, o funil high ticket) continuam válidos como
+> *referência de mercado* — mas **nada aqui deve ser publicado em
+> `/carrossel`, `/reels` ou `/ideias` citando os números/casos como se
+> fossem do Gilberto Sena.** Regra-mãe do sistema: a IA só fala o que o
+> Gilberto Sena já falou.
+>
+> Fonte original: `dados/biblioteca/Estrategia de Mkt e Monetizacao .pdf` ·
+> Categoria: Marketing / posicionamento (referência, não uso direto).
 
 ## Para que serve aqui
 
-Este é o documento mais diretamente aplicável ao **funcionamento do próprio
-GilbertoOS** — os frameworks daqui (mapa 3D, mapa 3C, TACO) deveriam
-orientar como `/carrossel`, `/reels` e `/ideias` pensam pauta. Complementa
-`posicionamento-ries-trout.md` (que é teoria clássica de posicionamento) com
+Framework de mercado sobre como mentores/educadores produzem conteúdo,
+viram autoridade e monetizam. Os conceitos (mapa 3D, mapa 3C, TACO) podem
+inspirar a estrutura de pauta do GilbertoOS, mas sempre reescritos com a
+voz, os casos e os números reais do Gilberto Sena — nunca citando os
+números ou a história de vida do instrutor original. Complementa
+`posicionamento-ries-trout.md` (teoria clássica de posicionamento) com
 tática moderna de conteúdo digital.
 
-**O que já se sabe do Gilberto por este documento** (achado novo, cruzar com
-`_memoria/quem-e-gilberto.md`):
-- Publica conteúdo no Instagram **desde 2013** — 12 anos, pelo menos 2
-  posts/dia.
-- Tem **meio milhão de seguidores no TikTok**, reaproveitando o mesmo
-  conteúdo do Instagram.
-- Roda um **podcast semanal às quartas-feiras de manhã**, citado aqui como
-  "Spacecast" — checar com ele se é o mesmo podcast **Kairos** que hoje
-  virou parte do **Empreenda Space** (ver seção Revista Empreenda em
-  `quem-e-gilberto.md`) ou se são projetos diferentes/o nome mudou.
-- Cobra **R$80 mil por palestra** (pode negociar por R$50 mil) — o objetivo
-  declarado não é só o cachê, é gerar conteúdo longo com autoridade.
-- Já teve vídeo com **4 milhões de visualizações em 24h** (270 mil
-  curtidas, 43 mil salvamentos, trouxe 10 mil seguidores novos).
-- Citado em conexão com números de grupo/ecossistema: atuação em **94
-  países**, **R$4,5 bilhões gerados pra empresas**, **+6 mil empresários
-  treinados**, **+36 mil empregos gerados** — checar se esses números são
-  do Grupo Sena, de uma mentoria específica, ou de um coletivo maior do
-  qual ele participa, antes de reusar como número próprio.
+**Biografia e números abaixo pertencem ao instrutor do evento, NÃO ao
+Gilberto Sena** — mantidos aqui só como registro do que apareceu na fonte,
+não para reuso:
+- Publica conteúdo no Instagram desde 2013, meio milhão de seguidores no
+  TikTok, podcast semanal ("Spacecast"), cobra R$50–80 mil por palestra,
+  vídeo com 4 milhões de visualizações em 24h, atuação citada em 94 países
+  e R$4,5 bi gerados para empresas. **Não confundir com o Kairos/Empreenda
+  Space do Gilberto Sena** — são pessoas e projetos diferentes.
 
 ---
 
@@ -133,16 +139,17 @@ bônus, garantia 7 dias, FAQ) → checkout.
 
 ## Como o Gilberto usa
 
-- É literalmente o manual de bastidor do próprio jeito dele de fazer
-  conteúdo — usar TACO e o mapa 3D/3C como checklist antes de gerar
-  qualquer `/carrossel` ou `/reels` novo, pra garantir que a pauta cobre o
-  tipo certo (técnico, autoridade, conexão ou objeção) e não fica repetitiva.
-- Os "5 conteúdos de autoridade" são um checklist direto pra `/ideias`:
-  antes de sugerir pauta nova, checar se falta algum dos 5 tipos no feed
-  recente dele.
-- Confirmar com ele se "Spacecast" e "podcast Kairos" (Empreenda Space) são
-  o mesmo projeto — se forem, é um fio de continuidade de pelo menos um ano
-  no podcast dele, ótimo gancho de consistência.
+- **Não é o manual de bastidor dele** (ver correção no topo) — é
+  inspiração de estrutura. Pode-se usar TACO e o mapa 3D/3C como checklist
+  *conceitual* antes de gerar `/carrossel` ou `/reels`, mas a pauta em si
+  tem que vir da voz, dos casos e das dores reais dos clientes do Gilberto
+  Sena — nunca reaproveitar os exemplos ou números deste documento.
+- Os "5 conteúdos de autoridade" seguem úteis como categoria de checklist
+  pra `/ideias` (prova, prova social, aprovação social, grandes canais de
+  mídia, palestra) — desde que preenchidos com prova/números reais do
+  Gilberto Sena, não com os do instrutor do evento.
+- "Spacecast" é o podcast do *outro* Gilberto — não confundir nem cruzar
+  com o Kairos/Empreenda Space do Gilberto Sena.
 
 ## Ganchos de conteúdo (já saem prontos do próprio documento)
 
