@@ -1,0 +1,607 @@
+<title>Mapa de Treinamento — Os 5 G's da Gestão Empreendedora</title>
+<style>
+  :root{
+    --gold:#D9BC63;
+    --gold-dim:#9C874F;
+    --cream:#FFF2C9;
+    --ink:#0F0F0F;
+    --surface:#1A1712;
+    --surface-2:#221E16;
+    --hair:#3A3527;
+    --paper:#FFFFFF;
+    --serif: "Big Caslon", "Didot", "Bodoni 72", Georgia, "Times New Roman", serif;
+    --sans: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--ink);
+    color:var(--cream);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:0 clamp(20px,5vw,64px);}
+
+  /* ---------- HERO ---------- */
+  header.hero{
+    position:relative;
+    padding:clamp(56px,9vw,110px) 0 clamp(40px,6vw,64px);
+    background:
+      radial-gradient(ellipse 900px 500px at 82% 0%, rgba(217,188,99,0.14), transparent 60%),
+      var(--ink);
+    border-bottom:1px solid var(--hair);
+  }
+  .eyebrow{
+    font-weight:700;font-size:12px;letter-spacing:0.28em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:18px;
+  }
+  .eyebrow span{color:var(--gold-dim);}
+  h1.title{
+    font-family:var(--serif);font-weight:400;
+    font-size:clamp(38px,6vw,68px);line-height:1.02;margin:0 0 20px;
+    color:var(--paper);text-wrap:balance;max-width:18ch;
+  }
+  h1.title em{font-style:normal;color:var(--gold);display:block;}
+  .hero-sub{font-size:16px;line-height:1.7;color:#D8CDAE;max-width:56ch;margin:0 0 26px;}
+  .hero-meta{display:flex;flex-wrap:wrap;gap:28px;}
+  .hero-meta .item{display:flex;flex-direction:column;gap:2px;}
+  .hero-meta .item b{font-family:var(--serif);font-size:26px;color:var(--gold);font-weight:400;}
+  .hero-meta .item span{font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-dim);}
+
+  /* ---------- TRILHA (SVG MAP) ---------- */
+  section.trilha{padding:clamp(48px,7vw,88px) 0 clamp(24px,4vw,40px);}
+  .section-kicker{
+    font-weight:700;font-size:12px;letter-spacing:0.24em;text-transform:uppercase;
+    color:var(--gold-dim);margin-bottom:10px;
+  }
+  h2.section-title{
+    font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.4vw,38px);
+    color:var(--paper);margin:0 0 30px;text-wrap:balance;
+  }
+  h2.section-title i{font-style:normal;color:var(--gold);}
+  .map-frame{
+    border:1px solid var(--hair);
+    border-radius:4px;
+    padding:clamp(14px,3vw,32px) clamp(10px,2vw,28px) clamp(28px,4vw,40px);
+    background:radial-gradient(ellipse 700px 400px at 50% 0%, rgba(217,188,99,0.06), transparent 65%);
+    overflow-x:auto;
+  }
+  .map-frame svg{display:block;width:100%;min-width:720px;height:auto;}
+  .trail-path{fill:none;stroke:var(--gold-dim);stroke-width:2;stroke-dasharray:1 10;stroke-linecap:round;}
+  .tnode-c{fill:var(--surface);stroke:var(--gold);stroke-width:2;}
+  .tnode-t{font-family:var(--sans);font-weight:700;font-size:13px;fill:var(--paper);}
+  .row-label{font-family:var(--sans);font-weight:700;font-size:12.5px;letter-spacing:0.08em;fill:var(--gold);}
+  .map-caption{margin-top:16px;font-size:12.5px;color:var(--gold-dim);text-align:center;}
+
+  /* ---------- G GROUPS ---------- */
+  section.grupo{padding:clamp(40px,6vw,64px) 0;border-top:1px solid var(--hair);}
+  .grupo-head{display:flex;align-items:baseline;gap:18px;margin-bottom:8px;flex-wrap:wrap;}
+  .grupo-num{font-family:var(--serif);font-size:44px;color:var(--gold);line-height:1;}
+  .grupo-name{font-family:var(--serif);font-size:clamp(24px,3vw,32px);color:var(--paper);margin:0;}
+  .grupo-sub{font-size:13.5px;font-style:italic;color:#B9AE8C;margin:6px 0 28px;max-width:60ch;}
+
+  .caminhos-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:1px;
+    background:var(--hair);
+    border:1px solid var(--hair);
+  }
+  .caminho{
+    background:var(--surface);
+    padding:22px 18px 24px;
+    display:flex;flex-direction:column;gap:12px;
+    min-height:280px;
+  }
+  .caminho-top{display:flex;align-items:center;justify-content:space-between;}
+  .caminho-num{
+    font-family:var(--serif);font-size:15px;color:var(--gold-dim);
+  }
+  .caminho-icon{
+    width:26px;height:26px;color:var(--gold);
+    stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;
+  }
+  .caminho h3{
+    font-family:var(--sans);font-weight:700;font-size:13.5px;line-height:1.3;
+    color:var(--paper);margin:0;
+  }
+  .caminho p.txt{
+    font-size:12px;line-height:1.6;color:#B9AE8C;margin:0;flex-grow:1;
+  }
+  .versiculo{
+    border-top:1px solid var(--hair);
+    padding-top:10px;margin-top:auto;
+  }
+  .versiculo .vtag{
+    display:block;font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;
+    color:var(--gold-dim);margin-bottom:4px;
+  }
+  .versiculo .vref{
+    display:block;font-family:var(--serif);font-size:13px;color:var(--gold);margin-bottom:3px;
+  }
+  .versiculo .vtxt{
+    font-size:11px;font-style:italic;line-height:1.5;color:#D8CDAE;
+  }
+
+  /* ---------- DINÂMICA (IBC) ---------- */
+  .dinamica{
+    margin-top:24px;border:1px solid var(--hair);border-left:3px solid var(--gold);
+    background:var(--surface-2);padding:24px 28px;border-radius:2px;
+  }
+  .dinamica-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:2px;}
+  .dinamica-kicker{font-weight:700;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold-dim);}
+  .dinamica h4{font-family:var(--serif);font-weight:400;font-size:20px;color:var(--paper);margin:2px 0 4px;}
+  .dinamica-meta{font-size:11px;color:var(--gold-dim);white-space:nowrap;}
+  .dinamica-obj{font-size:12.5px;color:#D8CDAE;margin:0 0 14px;line-height:1.6;max-width:72ch;}
+  .dinamica ol{margin:0 0 14px;padding-left:20px;display:grid;gap:6px;}
+  .dinamica ol li{font-size:12.5px;line-height:1.6;color:#B9AE8C;}
+  .dinamica ol li b{color:var(--cream);font-weight:600;}
+  .dinamica-fonte{font-size:10.5px;color:var(--gold-dim);font-style:italic;border-top:1px solid var(--hair);padding-top:10px;margin-top:4px;}
+
+  /* ---------- FOOTER ---------- */
+  footer{border-top:1px solid var(--hair);padding:48px 0 64px;}
+  .foot-row{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;}
+  .foot-quote{font-family:var(--serif);font-size:clamp(18px,2.2vw,24px);color:var(--paper);max-width:30ch;line-height:1.3;text-wrap:balance;}
+  .foot-quote span{color:var(--gold);}
+  .swatches{display:flex;gap:10px;}
+  .sw{width:30px;height:30px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);}
+
+  @media (max-width:980px){
+    .caminhos-grid{grid-template-columns:repeat(2,1fr);}
+  }
+  @media (max-width:560px){
+    .caminhos-grid{grid-template-columns:1fr;}
+    .caminho{min-height:0;}
+  }
+
+  /* ---------- PRINT ---------- */
+  @media print{
+    @page{size:A4 landscape;margin:10mm;}
+    body{overflow-x:visible;font-size:12px;}
+    .wrap{padding:0;max-width:none;}
+    header.hero{padding:0 0 14px;}
+    .hero-sub{font-size:12px;margin-bottom:14px;}
+    .hero-meta .item b{font-size:20px;}
+    section.trilha{page-break-before:always;page-break-after:always;padding:6px 0 0;}
+    .section-kicker{margin-bottom:4px;}
+    h2.section-title{font-size:18px;margin-bottom:8px;}
+    .map-frame{padding:6px;}
+    .map-frame svg{width:auto;height:135mm;min-width:0;}
+    .map-caption{margin-top:6px;font-size:10px;}
+    section.grupo{border-top:none;page-break-before:always;padding:0;}
+    .grupo-head{margin-bottom:2px;}
+    .grupo-num{font-size:30px;}
+    .grupo-name{font-size:20px;}
+    .grupo-sub{font-size:11px;margin:2px 0 12px;}
+    .caminhos-grid{grid-template-columns:repeat(5,1fr);}
+    .caminho{min-height:0;padding:12px 10px 14px;gap:6px;break-inside:avoid;}
+    .caminho h3{font-size:11px;}
+    .caminho p.txt{font-size:9.5px;line-height:1.45;}
+    .caminho-icon{width:20px;height:20px;}
+    .versiculo .vtag{font-size:8px;}
+    .versiculo .vref{font-size:11px;}
+    .versiculo .vtxt{font-size:9px;}
+    .dinamica{margin-top:12px;padding:12px 16px;break-inside:avoid;}
+    .dinamica h4{font-size:15px;margin:0 0 3px;}
+    .dinamica-obj{font-size:10.5px;margin-bottom:8px;}
+    .dinamica ol{gap:2px;margin-bottom:8px;}
+    .dinamica ol li{font-size:10.5px;line-height:1.4;}
+    .dinamica-fonte{font-size:9px;padding-top:6px;}
+    footer{page-break-before:always;border-top:none;padding-top:0;}
+  }
+</style>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">G Sena <span>— Ferramenta de Treinamento</span></div>
+    <h1 class="title">Mapa de<em>25 Caminhos</em></h1>
+    <p class="hero-sub">Um caminho para cada pilar do método <strong>Os 5 G's da Gestão Empreendedora</strong>, de Gilberto Sena — com trajeto visual, aprendizado prático e uma referência bíblica para ancorar cada passo.</p>
+    <div class="hero-meta">
+      <div class="item"><b>5</b><span>Pilares (Gs)</span></div>
+      <div class="item"><b>25</b><span>Caminhos</span></div>
+      <div class="item"><b>25</b><span>Referências bíblicas</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="trilha wrap">
+  <div class="section-kicker">A Trilha</div>
+  <h2 class="section-title">Do <i>Caminho 1</i> ao <i>Caminho 25</i></h2>
+  <div class="map-frame">
+    <svg viewBox="0 0 960 545" xmlns="http://www.w3.org/2000/svg">
+      <text class="row-label" x="20" y="36" text-anchor="start">G1 · GESTÃO DE SI</text>
+      <text class="row-label" x="940" y="146" text-anchor="end">G2 · GESTÃO FINANCEIRA</text>
+      <text class="row-label" x="20" y="256" text-anchor="start">G3 · GESTÃO DE PESSOAS</text>
+      <text class="row-label" x="940" y="366" text-anchor="end">G4 · GESTÃO TRIBUTÁRIA</text>
+      <text class="row-label" x="20" y="476" text-anchor="start">G5 · FORNECEDORES &amp; CLIENTES</text>
+
+      <path class="trail-path" d="M80,60 L280,60 L480,60 L680,60 L880,60 L880,170 L680,170 L480,170 L280,170 L80,170 L80,280 L280,280 L480,280 L680,280 L880,280 L880,390 L680,390 L480,390 L280,390 L80,390 L80,500 L280,500 L480,500 L680,500 L880,500"/>
+
+      <circle class="tnode-c" cx="80" cy="60" r="15"/><text class="tnode-t" x="80" y="65" text-anchor="middle">1</text>
+      <circle class="tnode-c" cx="280" cy="60" r="15"/><text class="tnode-t" x="280" y="65" text-anchor="middle">2</text>
+      <circle class="tnode-c" cx="480" cy="60" r="15"/><text class="tnode-t" x="480" y="65" text-anchor="middle">3</text>
+      <circle class="tnode-c" cx="680" cy="60" r="15"/><text class="tnode-t" x="680" y="65" text-anchor="middle">4</text>
+      <circle class="tnode-c" cx="880" cy="60" r="15"/><text class="tnode-t" x="880" y="65" text-anchor="middle">5</text>
+
+      <circle class="tnode-c" cx="880" cy="170" r="15"/><text class="tnode-t" x="880" y="175" text-anchor="middle">6</text>
+      <circle class="tnode-c" cx="680" cy="170" r="15"/><text class="tnode-t" x="680" y="175" text-anchor="middle">7</text>
+      <circle class="tnode-c" cx="480" cy="170" r="15"/><text class="tnode-t" x="480" y="175" text-anchor="middle">8</text>
+      <circle class="tnode-c" cx="280" cy="170" r="15"/><text class="tnode-t" x="280" y="175" text-anchor="middle">9</text>
+      <circle class="tnode-c" cx="80" cy="170" r="15"/><text class="tnode-t" x="80" y="175" text-anchor="middle">10</text>
+
+      <circle class="tnode-c" cx="80" cy="280" r="15"/><text class="tnode-t" x="80" y="285" text-anchor="middle">11</text>
+      <circle class="tnode-c" cx="280" cy="280" r="15"/><text class="tnode-t" x="280" y="285" text-anchor="middle">12</text>
+      <circle class="tnode-c" cx="480" cy="280" r="15"/><text class="tnode-t" x="480" y="285" text-anchor="middle">13</text>
+      <circle class="tnode-c" cx="680" cy="280" r="15"/><text class="tnode-t" x="680" y="285" text-anchor="middle">14</text>
+      <circle class="tnode-c" cx="880" cy="280" r="15"/><text class="tnode-t" x="880" y="285" text-anchor="middle">15</text>
+
+      <circle class="tnode-c" cx="880" cy="390" r="15"/><text class="tnode-t" x="880" y="395" text-anchor="middle">16</text>
+      <circle class="tnode-c" cx="680" cy="390" r="15"/><text class="tnode-t" x="680" y="395" text-anchor="middle">17</text>
+      <circle class="tnode-c" cx="480" cy="390" r="15"/><text class="tnode-t" x="480" y="395" text-anchor="middle">18</text>
+      <circle class="tnode-c" cx="280" cy="390" r="15"/><text class="tnode-t" x="280" y="395" text-anchor="middle">19</text>
+      <circle class="tnode-c" cx="80" cy="390" r="15"/><text class="tnode-t" x="80" y="395" text-anchor="middle">20</text>
+
+      <circle class="tnode-c" cx="80" cy="500" r="15"/><text class="tnode-t" x="80" y="505" text-anchor="middle">21</text>
+      <circle class="tnode-c" cx="280" cy="500" r="15"/><text class="tnode-t" x="280" y="505" text-anchor="middle">22</text>
+      <circle class="tnode-c" cx="480" cy="500" r="15"/><text class="tnode-t" x="480" y="505" text-anchor="middle">23</text>
+      <circle class="tnode-c" cx="680" cy="500" r="15"/><text class="tnode-t" x="680" y="505" text-anchor="middle">24</text>
+      <circle class="tnode-c" cx="880" cy="500" r="15"/><text class="tnode-t" x="880" y="505" text-anchor="middle">25</text>
+    </svg>
+    <p class="map-caption">Cada parada é um caminho — siga em ordem ou use como mapa de consulta durante a imersão.</p>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <!-- G1 -->
+  <section class="grupo">
+    <div class="grupo-head">
+      <span class="grupo-num">G1</span>
+      <h3 class="grupo-name">Gestão de Si</h3>
+    </div>
+    <p class="grupo-sub">A busca por autoconhecimento — antes de gerenciar um negócio, aprenda a gerenciar a si mesmo.</p>
+    <div class="caminhos-grid">
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">01</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z"/></svg>
+        </div>
+        <h3>Autoconhecimento</h3>
+        <p class="txt">Antes de liderar os outros, aprenda a liderar a si mesmo. Reconheça emoções, crenças limitantes e padrões de comportamento.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Salmos 139:23-24</span><span class="vtxt">"Sonda-me, ó Deus, e conhece o meu coração; prova-me e conhece os meus pensamentos."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">02</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        </div>
+        <h3>Gerenciamento do Tempo</h3>
+        <p class="txt">Tempo é a moeda mais valiosa do empreendedor. Defina metas, organize prioridades e saiba dizer "não" ao que não importa.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Eclesiastes 3:1</span><span class="vtxt">"Há tempo para tudo, e há tempo para todo propósito debaixo do céu."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">03</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>
+        </div>
+        <h3>Gerenciamento de Energia</h3>
+        <p class="txt">Energia é o combustível invisível de toda decisão. Descanso não é fraqueza — é o que sustenta os próximos passos.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Isaías 40:31</span><span class="vtxt">"Os que esperam no Senhor renovarão as forças, subirão com asas como águias."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">04</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M12 3 3 8v8l9 5 9-5V8Z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>
+        </div>
+        <h3>Gerenciamento de Recursos</h3>
+        <p class="txt">Pessoas, materiais, relacionamentos e cultura — todo recurso bem administrado se multiplica; mal administrado, se perde.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Mateus 25:21</span><span class="vtxt">"Muito bem, servo bom e fiel; sobre o pouco foste fiel, sobre o muito te colocarei."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">05</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M12 21V7M6 13l6-6 6 6"/></svg>
+        </div>
+        <h3>Gerenciamento de Desenvolvimento</h3>
+        <p class="txt">Não existe teto para quem continua aprendendo. Cultive a curiosidade, o estudo e a coragem de errar e recomeçar.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 9:9</span><span class="vtxt">"Instrui o sábio, e ele se fará mais sábio; ensina o justo, e ele crescerá em entendimento."</span></div>
+      </div>
+    </div>
+    <div class="dinamica">
+      <div class="dinamica-head">
+        <span class="dinamica-kicker">Dinâmica de Coaching</span>
+        <span class="dinamica-meta">Individual · 15 min</span>
+      </div>
+      <h4>Roda da Gestão de Si</h4>
+      <p class="dinamica-obj">Adaptação da <strong>Roda da Vida</strong>, ferramenta clássica de coaching (criada por Paul J. Meyer, difundida no Brasil pelo IBC) — aqui redesenhada com os 5 pilares deste capítulo no lugar das 12 áreas originais.</p>
+      <ol>
+        <li><b>1. Desenhe o círculo.</b> Divida em 5 fatias: Autoconhecimento, Tempo, Energia, Recursos, Desenvolvimento.</li>
+        <li><b>2. Dê uma nota de 1 a 10</b> pra cada fatia — o nível real de hoje, não o desejado. "Não responda o que gostaria que fosse; responda o que é."</li>
+        <li><b>3. Pinte cada fatia</b> até o nível da nota. O contorno que aparece é o seu mapa de autoavaliação.</li>
+        <li><b>4. Circule as duas fatias mais baixas.</b> São seus pontos de maior risco pessoal agora.</li>
+        <li><b>5. Defina 1 ação concreta</b> para cada fatia circulada, a ser feita nos próximos 7 dias.</li>
+      </ol>
+      <p class="dinamica-fonte">Fonte: Roda da Vida — Instituto Brasileiro de Coaching (ibccoaching.com.br), adaptada aos 5 pilares de Gestão de Si.</p>
+    </div>
+  </section>
+
+  <!-- G2 -->
+  <section class="grupo">
+    <div class="grupo-head">
+      <span class="grupo-num">G2</span>
+      <h3 class="grupo-name">Gestão Financeira</h3>
+    </div>
+    <p class="grupo-sub">Qual o significado do dinheiro no negócio? Cada saldo, fatura e orçamento é reflexo de disciplina, inovação e humildade.</p>
+    <div class="caminhos-grid">
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">06</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M3 21h18M4 21V10M20 21V10M2 10l10-6 10 6M7 10v11M12 10v11M17 10v11"/></svg>
+        </div>
+        <h3>Governança Financeira</h3>
+        <p class="txt">Estrutura e cultura financeira sólidas antes de qualquer crescimento. Registros claros geram confiança.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Lucas 16:10</span><span class="vtxt">"Quem é fiel no pouco também é fiel no muito; quem é injusto no pouco também é injusto no muito."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">07</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+        </div>
+        <h3>Gestão Orçamentária</h3>
+        <p class="txt">O orçamento traduz a visão da empresa em números e metas. Sem ele, não há direção — só reação.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Lucas 14:28</span><span class="vtxt">"Qual de vós, pretendendo construir uma torre, não se senta primeiro a calcular as despesas?"</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">08</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M4 7h13l-3-3M20 17H7l3 3"/></svg>
+        </div>
+        <h3>Gestão de Fluxo de Caixa</h3>
+        <p class="txt">O pulso financeiro da empresa. Saber ler entradas e saídas evita que uma surpresa vire uma crise.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 27:23</span><span class="vtxt">"Procura conhecer o estado das tuas ovelhas, dá atenção aos teus rebanhos."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">09</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M4 20V12M12 20V6M20 20v-9"/><path d="M2 20h20"/></svg>
+        </div>
+        <h3>Gestão de Investimentos</h3>
+        <p class="txt">Equilibrar risco e recompensa com critério — nunca por modismo ou pelo conselho de um "guru".</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 21:20</span><span class="vtxt">"Na casa do sábio há tesouro precioso, mas o insensato tudo esbanja."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">10</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M12 3v13M6 11l6 6 6-6"/></svg>
+        </div>
+        <h3>Gestão de Endividamento</h3>
+        <p class="txt">Dívida bem usada alavanca; dívida mal usada aprisiona. Saiba quando, quanto e para quê.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 22:7</span><span class="vtxt">"O rico domina sobre os pobres, e o que toma emprestado é servo do que empresta."</span></div>
+      </div>
+    </div>
+    <div class="dinamica">
+      <div class="dinamica-head">
+        <span class="dinamica-kicker">Dinâmica de Coaching</span>
+        <span class="dinamica-meta">Individual ou grupo · 20 min</span>
+      </div>
+      <h4>Dinâmica das Crenças sobre Dinheiro</h4>
+      <p class="dinamica-obj">Baseada no processo de <strong>coaching financeiro</strong> do IBC (José Roberto Marques): trabalhar crenças limitantes até torná-las capacitadoras, antes de qualquer plano orçamentário fazer efeito.</p>
+      <ol>
+        <li><b>1. Escreva 3 frases</b> que você ouviu sobre dinheiro quando criança (ex: "dinheiro não cresce em árvore").</li>
+        <li><b>2. Marque qual delas</b> ainda guia suas decisões financeiras hoje, sem perceber.</li>
+        <li><b>3. Questione a crença:</b> é fato ou herança cultural/familiar? Busque 1 contraexemplo real e concreto.</li>
+        <li><b>4. Reescreva-a</b> em versão capacitadora (ex: "dinheiro é ferramenta que eu aprendo a administrar").</li>
+        <li><b>5. Defina 1 ação de 5 minutos</b> pra hoje que já pratique a nova crença (ex: abrir a planilha de fluxo de caixa).</li>
+      </ol>
+      <p class="dinamica-fonte">Fonte: coaching financeiro e crenças limitantes — José Roberto Marques / Instituto Brasileiro de Coaching (jrmcoaching.com.br).</p>
+    </div>
+  </section>
+
+  <!-- G3 -->
+  <section class="grupo">
+    <div class="grupo-head">
+      <span class="grupo-num">G3</span>
+      <h3 class="grupo-name">Gestão de Pessoas</h3>
+    </div>
+    <p class="grupo-sub">Ninguém escala um negócio sozinho. Empresas são feitas de pessoas, por pessoas e para pessoas.</p>
+    <div class="caminhos-grid">
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">11</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15 9l-2 6-6 2 2-6Z"/></svg>
+        </div>
+        <h3>Gestão do Propósito</h3>
+        <p class="txt">Crescimento não é propósito, é consequência dele. Defina o "porquê" antes de perseguir o "quanto".</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 29:18</span><span class="vtxt">"Onde não há visão, o povo perece; mas o que guarda a lei esse é bem-aventurado."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">12</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>
+        </div>
+        <h3>Gerenciamento do Desempenho</h3>
+        <p class="txt">Metas claras (SMART) e feedback contínuo transformam esforço em resultado — e resultado em orgulho do trabalho.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Colossenses 3:23</span><span class="vtxt">"Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">13</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M4 5h16v10H8l-4 4Z"/></svg>
+        </div>
+        <h3>Gestão da Comunicação</h3>
+        <p class="txt">Comunicação clara evita mal-entendidos e constrói confiança. Ouvir é tão essencial quanto falar.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 15:1</span><span class="vtxt">"A resposta branda desvia o furor, mas a palavra dura suscita a ira."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">14</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><circle cx="9" cy="12" r="5"/><circle cx="16" cy="12" r="5"/></svg>
+        </div>
+        <h3>Gestão do Engajamento</h3>
+        <p class="txt">Clima, reconhecimento e participação ativa sobem a "escada do engajamento" até o comprometimento real.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Eclesiastes 4:9-10</span><span class="vtxt">"Melhor é serem dois do que um... porque, se um cair, o outro levanta o companheiro."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">15</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2Z"/><path d="M19 3v16"/></svg>
+        </div>
+        <h3>Gestão do Desenvolvimento</h3>
+        <p class="txt">Treinar é capacitar para hoje; desenvolver é preparar para o futuro. Invista nas duas frentes.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 27:17</span><span class="vtxt">"Como o ferro afia o ferro, assim o homem afia o rosto do seu amigo."</span></div>
+      </div>
+    </div>
+    <div class="dinamica">
+      <div class="dinamica-head">
+        <span class="dinamica-kicker">Dinâmica de Coaching</span>
+        <span class="dinamica-meta">Grupos de 4 · 15 min</span>
+      </div>
+      <h4>Dinâmica da Torre</h4>
+      <p class="dinamica-obj">Dinâmica de liderança do IBC sobre delegação, comunicação e confiança — testa na prática como propósito e comunicação (pilares deste capítulo) mudam o resultado de uma equipe.</p>
+      <ol>
+        <li><b>1. Forme grupos de 4</b> com papéis fixos: 1 operário (de olhos vendados), 1 supervisor, 2 observadores.</li>
+        <li><b>2. Em 3 minutos</b>, o supervisor guia o operário só por instrução verbal para construir a torre mais alta possível com palitos/material disponível.</li>
+        <li><b>3. Observadores anotam</b> onde a comunicação falhou e onde funcionou.</li>
+        <li><b>4. Troquem os papéis</b> e repitam — todos passam por liderar e ser liderado.</li>
+        <li><b>5. Debata em grupo:</b> como clareza, confiança e propósito compartilhado (a "escada do engajamento") afetaram o resultado?</li>
+      </ol>
+      <p class="dinamica-fonte">Fonte: dinâmicas de liderança — Instituto Brasileiro de Coaching (ibccoaching.com.br).</p>
+    </div>
+  </section>
+
+  <!-- G4 -->
+  <section class="grupo">
+    <div class="grupo-head">
+      <span class="grupo-num">G4</span>
+      <h3 class="grupo-name">Gestão Tributária</h3>
+    </div>
+    <p class="grupo-sub">Quanto mais conhecimento, mais eficiência. No veneno está o antídoto: domine o sistema em vez de temê-lo.</p>
+    <div class="caminhos-grid">
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">16</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 9h.01M15 15h.01M8 16 16 8"/></svg>
+        </div>
+        <h3>Gestão da Estrutura Tributária</h3>
+        <p class="txt">Conheça seu regime tributário ou ele dominará você. O enquadramento certo muda o jogo financeiro da empresa.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Mateus 22:21</span><span class="vtxt">"Dai, pois, a César o que é de César, e a Deus o que é de Deus."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">17</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+        </div>
+        <h3>Gerenciamento dos Processos</h3>
+        <p class="txt">Automatize, revise e documente. Um bom plano tributário falha se o processo por trás dele for manual e falho.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">1 Coríntios 14:40</span><span class="vtxt">"Mas faça-se tudo decentemente e com ordem."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">18</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 5-3 8-7 9-4-1-7-4-7-9V6Z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3>Gestão da Conformidade</h3>
+        <p class="txt">Conformidade não é burocracia — é reputação. Controles internos previnem erros antes que virem multas.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Romanos 13:1</span><span class="vtxt">"As autoridades que existem foram por Deus instituídas."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">19</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        </div>
+        <h3>Gestão do Planejamento Financeiro</h3>
+        <p class="txt">Integre a estratégia fiscal ao plano financeiro global. Cada decisão tributária deve apoiar a saúde do negócio.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 16:3</span><span class="vtxt">"Entrega ao Senhor as tuas obras, e teus pensamentos serão estabelecidos."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">20</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M4 21h16M6 21V9M18 21V9M4 9l8-5 8 5"/></svg>
+        </div>
+        <h3>Gestão da Governança</h3>
+        <p class="txt">Políticas claras e comunicação entre departamentos garantem que a conformidade fiscal vire cultura, não exceção.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 11:14</span><span class="vtxt">"Onde não há conselho, o povo cai; mas na multidão de conselheiros há segurança."</span></div>
+      </div>
+    </div>
+    <div class="dinamica">
+      <div class="dinamica-head">
+        <span class="dinamica-kicker">Dinâmica de Coaching</span>
+        <span class="dinamica-meta">Individual · 15 min</span>
+      </div>
+      <h4>Roda da Conformidade Tributária</h4>
+      <p class="dinamica-obj">A mesma metodologia sistêmica da <strong>Roda da Vida</strong> do IBC, aplicada ao diagnóstico fiscal da empresa — um mapa de autoavaliação para os 5 pilares deste capítulo.</p>
+      <ol>
+        <li><b>1. Desenhe o círculo</b> com 5 fatias: Estrutura Tributária, Processos, Conformidade, Planejamento Financeiro, Governança.</li>
+        <li><b>2. Dê nota de 1 a 10</b> honesta pra cada fatia, sem consultar ninguém antes.</li>
+        <li><b>3. Identifique a fatia mais baixa</b> — é o seu maior ponto de risco fiscal agora.</li>
+        <li><b>4. Escreva 1 pergunta específica</b> sobre essa fatia que precisa levar ao contador ou advogado tributário.</li>
+        <li><b>5. Agende essa conversa</b> em até 7 dias — antes que o risco vire multa.</li>
+      </ol>
+      <p class="dinamica-fonte">Fonte: mapa de autoavaliação sistêmico (Roda da Vida) — Instituto Brasileiro de Coaching (ibccoaching.com.br), adaptado ao contexto tributário.</p>
+    </div>
+  </section>
+
+  <!-- G5 -->
+  <section class="grupo">
+    <div class="grupo-head">
+      <span class="grupo-num">G5</span>
+      <h3 class="grupo-name">Fornecedores &amp; Clientes</h3>
+    </div>
+    <p class="grupo-sub">Saber comprar e saber vender — duas faces da mesma moeda. Fornecedores e clientes são parceiros do mesmo sucesso.</p>
+    <div class="caminhos-grid">
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">21</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M9 15l6-6M8 12l-2 2a3 3 0 0 0 4 4l2-2M16 12l2-2a3 3 0 0 0-4-4l-2 2"/></svg>
+        </div>
+        <h3>Governança de Relacionamentos</h3>
+        <p class="txt">Defina expectativas claras desde o início. Confiança e transparência se cultivam — não surgem do nada.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Mateus 7:12</span><span class="vtxt">"Tudo o que quereis que os homens vos façam, fazei-lho também vós."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">22</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5l2-2M20 12a8 8 0 0 1-14 5l-2 2"/></svg>
+        </div>
+        <h3>Gerenciamento do Ciclo de Vida</h3>
+        <p class="txt">De selecionar a fornecedores até fidelizar clientes — cada etapa do ciclo merece atenção e cuidado próprio.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Gálatas 6:9</span><span class="vtxt">"Não nos cansemos de fazer o bem, pois no tempo próprio colheremos, se não desfalecermos."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">23</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M3 10v4h3l7 4V6l-7 4Z"/><path d="M19 9a4 4 0 0 1 0 6"/></svg>
+        </div>
+        <h3>Gestão de Comunicação</h3>
+        <p class="txt">Canais certos, escuta ativa e mensagens personalizadas — com fornecedores e clientes, comunicação nunca é demais.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Tiago 1:19</span><span class="vtxt">"Seja todo homem pronto para ouvir, tardio para falar."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">24</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M12 3 2 20h20Z"/><path d="M12 9v5M12 17h.01"/></svg>
+        </div>
+        <h3>Gestão de Riscos</h3>
+        <p class="txt">Mapeie, responda e inove: a abordagem TRI transforma riscos de fornecedores e clientes em oportunidades.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Provérbios 22:3</span><span class="vtxt">"O prudente vê o mal e esconde-se; mas os simples passam adiante e são punidos."</span></div>
+      </div>
+      <div class="caminho">
+        <div class="caminho-top"><span class="caminho-num">25</span>
+          <svg class="caminho-icon" viewBox="0 0 24 24"><path d="M4 9h16l-8 12Z"/><path d="M4 9l3-6h10l3 6"/></svg>
+        </div>
+        <h3>Gerenciamento do Valor</h3>
+        <p class="txt">Valor é a experiência completa entregue, não apenas o preço cobrado. Quem entende isso constrói lealdade de verdade.</p>
+        <div class="versiculo"><span class="vtag">Referência bíblica</span><span class="vref">Lucas 6:38</span><span class="vtxt">"Dai, e ser-vos-á dado; boa medida, recalcada, sacudida e transbordando vos deitarão no regaço."</span></div>
+      </div>
+    </div>
+    <div class="dinamica">
+      <div class="dinamica-head">
+        <span class="dinamica-kicker">Dinâmica de Coaching</span>
+        <span class="dinamica-meta">Círculo ou dupla · 20 min</span>
+      </div>
+      <h4>Dinâmica da Aproximação</h4>
+      <p class="dinamica-obj">Dinâmica de <strong>rapport</strong> do IBC/José Roberto Marques — trabalha a coragem de pedir o que se quer numa relação profissional, base da governança de relacionamentos deste capítulo.</p>
+      <ol>
+        <li><b>1. Em círculo (ou em dupla),</b> cada um escreve num papel um pedido específico que gostaria de fazer a um cliente ou fornecedor-chave, mas nunca fez.</li>
+        <li><b>2. Assine e entregue</b> o papel para ser embaralhado e revelado ao grupo.</li>
+        <li><b>3. Peça voluntários</b> dispostos a se comprometer a atender o pedido revelado, se fosse com eles.</li>
+        <li><b>4. Reflita:</b> o que te impedia de pedir isso diretamente antes?</li>
+        <li><b>5. Escolha 1 pedido real</b> — de um fornecedor ou cliente do seu mapa de segmentação (estratégico, gargalo, alavancagem) — e faça-o essa semana.</li>
+      </ol>
+      <p class="dinamica-fonte">Fonte: dinâmica de relacionamento interpessoal e rapport — José Roberto Marques / Instituto Brasileiro de Coaching (jrmcoaching.com.br).</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot-row">
+      <p class="foot-quote">25 caminhos, <span>5 pilares</span>, um só método.</p>
+      <div class="swatches" aria-hidden="true">
+        <div class="sw" style="background:#D9BC63" title="#D9BC63"></div>
+        <div class="sw" style="background:#FFF2C9" title="#FFF2C9"></div>
+        <div class="sw" style="background:#FFFFFF" title="#FFFFFF"></div>
+        <div class="sw" style="background:#0F0F0F;border-color:#3A3527" title="#0F0F0F"></div>
+      </div>
+    </div>
+  </footer>
+
+</div>

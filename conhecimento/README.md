@@ -32,7 +32,17 @@ opinar sobre técnica** e cita de onde veio.
 | `contabilidade-gestao-financeira-pessoal.md` | TCC sobre gestão financeira pessoal, orçamento, renda passiva — pesquisa com bancários (só 30% tem orçamento formal) | Técnico / finanças pessoais | ✅ fichado 18/jul/2026 |
 | `contrato-cessao-quotas-societarias.md` | Modelo de contrato de cessão/transferência de quotas societárias — entrada/saída de sócio numa Ltda | Técnico / jurídico societário | ✅ fichado 18/jul/2026 |
 | `modelo-laudo-pericial-extrajudicial.md` | Estrutura de laudo técnico contábil-financeiro extrajudicial — revisão de juros, Tabela Price vs. Método de Gauss | Técnico / jurídico-financeiro (perícia) | ✅ fichado 18/jul/2026 |
-| `produto-sportlife-metodologia-produto.md` | Kit Sport Life (possível afiliação, cupom "Gilberto20") + metodologia Unpack de desenvolvimento de produto | Negócios / produtos | ⚠ **fichado 18/jul/2026 — confirmar com o Gilberto se é parceria ativa antes de usar em conteúdo público** |
+| `produto-sportlife-metodologia-produto.md` | Kit Sport Life (possível afiliação, cupom "Gilberto20") + metodologia Unpack de desenvolvimento de produto | Negócios / produtos | ⚠ **fichado 18/jul/2026 — corrigido 21/jul/2026: "Gilberto" do documento é outro empresário, não o Gilberto Sena** |
+| `mentoria-caso-reestruturacao-financeira-casal-empresario.md` | Framework de diagnóstico financeiro (custo vs. despesa, "água por dentro", hub de negócios compartilhado) extraído de atendimento real, anonimizado | Escala / negócios | ⚠ **fichado 21/jul/2026 — caso real anonimizado, framework livre, não usar detalhes do caso** |
+| `mentoria-revisao-business-plan-expansao-internacional.md` | Método de auditoria de business plan, benchmark de custo de marketing, proteção de propriedade intelectual — de atendimento real anonimizado | Escala / negócios | ⚠ **fichado 21/jul/2026 — caso real anonimizado** |
+| `caso-classificacao-pgfn-capacidade-pagamento.md` | Como a PGFN calcula capacidade de pagamento; erro de enquadramento tributário que quebra empresa — caso real anonimizado | Técnico / tributário | ⚠ **fichado 21/jul/2026 — caso real anonimizado, explicação técnica livre para conteúdo** |
+| `modelos-negocio-comercio-exterior-importacao.md` | Modelos de trade finance para pequeno importador, white label, registro de marca — de reunião de negócios real anonimizada | Escala / negócios | ⚠ **fichado 21/jul/2026 — caso real anonimizado** |
+| `mercado-ipo-fusoes-aquisicoes-2025.md` | Por que empresas brasileiras vão ao IPO nos EUA; as 5 formas de M&A; sentimento de mercado 2025 | Técnico / mercado de capitais | ✅ **fichado 21/jul/2026 — conteúdo de mercado público, sem anonimização necessária** |
+| `diagnostico-tributario-simples-vs-presumido-multiplos-cnpj.md` | Mecânica de sublimite/estouro de teto do Simples, ISS "por fora", critério Simples vs. Presumido — caso real anonimizado | Técnico / tributário | ⚠ **fichado 21/jul/2026 — caso real anonimizado, combina com `reforma-tributaria.md`** |
+| `ideia-produto-dashboard-financeiro-franquias.md` | Ideia autoral do Gilberto: dashboard financeiro em tempo real + valuation para redes/franquias | Negócios / produtos (autoral) | ✅ **fichado 21/jul/2026 — ideia dele, sem dado de terceiro, uso livre** |
+| `estrutura-tributaria-holding-franquia-fundo-promocao.md` | Estrutura ISS fixo + fundo de promoção e propaganda isento para holdings de franquia — caso real anonimizado | Técnico / tributário | ⚠ **fichado 21/jul/2026 — caso real anonimizado, técnica forte pra conteúdo de autoridade** |
+| `playbook-terceiro-imersao-marketing-vendas-mentores.md` | Playbook completo de marketing/vendas (TACO, funil, PISTE, Unpack) de uma imersão paga — **NÃO é IP do Gilberto Sena, é de outro instrutor** | Marketing (referência de terceiro) | ⚠ **fichado 21/jul/2026 — NUNCA publicar como se fosse do Gilberto Sena; ver correção em `estrategia-conteudo-marketing-monetizacao.md`** |
+| `turnaround-rede-multiunidades-diagnostico-gargalos.md` | Sinais de alerta e método de diagnóstico em turnaround de rede multi-unidades em déficit — caso real anonimizado | Escala / negócios | ⚠ **fichado 21/jul/2026 — caso real anonimizado** |
 
 ## Categorias previstas
 
@@ -42,3 +52,16 @@ opinar sobre técnica** e cita de onde veio.
 - **Escala / negócios** — modelagem e crescimento
 - **Desenvolvimento pessoal / espiritualidade** — a alma do conteúdo dele
 - **Marketing / posicionamento** — pra calibrar o próprio conteúdo
+
+## Materiais avaliados e não fichados (21/jul/2026)
+
+- `03-20_Weekly_Meeting_Gestão_de_Crise_e_Desenvolvimento_Pessoal-transcript.pdf`
+  — gravação de conversa/fofoca de bastidor de um grupo de mentoria, com
+  acusações graves contra terceiros nomeados (fraude, processo criminal) e
+  conteúdo majoritariamente de vida pessoal. Sem framework técnico
+  reaproveitável de forma responsável. Se for pra guardar algo daqui, é
+  material de `_memoria/` (tom de voz/opiniões do Gilberto), não de
+  `conhecimento/` — mas recomendo tratar como privado e não alimentar
+  nenhum dos dois sem o Gilberto revisar antes.
+- `03-21_Resumo_Investimentos_IPO_M_A_e_Sentimento_de_Mercado-transcript 2.pdf`
+  — duplicata do mesmo conteúdo já coberto em `mercado-ipo-fusoes-aquisicoes-2025.md`.

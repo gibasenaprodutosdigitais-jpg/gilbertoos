@@ -7,6 +7,15 @@
 > · Categoria: Negócios / produtos. **Confirmar com o Gilberto antes de usar
 > em conteúdo público** — não está claro no documento se isso é uma
 > parceria/afiliação ativa dele ou só um material de referência salvo.
+>
+> **Atualização (21/jul/2026):** a transcrição completa desse mesmo evento
+> (`Resumo_de_Estratégia_Negócios_Vendas_e_Marketing-transcript.pdf`, sem o
+> "arrastado") deixa claro que **"Gilberto" aqui é outro empresário** — dono
+> da indústria Sport Life/Fortlife Pharma e de uma escola/rede de ensino
+> (Prepara ENEM, Space Edu) — não o Gilberto Sena. Ver
+> [[playbook-terceiro-imersao-marketing-vendas-mentores]] para o contexto
+> completo e o motivo da correção. O Gilberto Sena aparenta ter
+> participado como aluno/convidado desse evento.
 
 ## Para que serve aqui
 

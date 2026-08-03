@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — Ponto de Equilíbrio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #C9A227; color: #0F1419; }
+
+  .gold { color: #C9A227; }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .bg-dark .topbar, .bg-black .topbar { color: #C9A227; }
+  .bg-light .topbar { color: #C9A227; }
+  .bg-gold .topbar { color: #0F1419; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin: 40px 64px 0 64px;
+  }
+  .bg-gold .rule { background: #0F1419; }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .bg-gold .kicker { color: #0F1419; opacity: 0.75; }
+
+  .title-cover {
+    font-size: 76px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.12;
+    max-width: 920px;
+  }
+
+  .h2 {
+    font-size: 62px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.14;
+    max-width: 900px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+  .bg-gold .footer { border-top: 1px solid rgba(15,20,25,0.22); }
+
+  /* DUO */
+  .duo-cols { display: flex; gap: 56px; margin-top: 8px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 20px;
+    font-weight: 900;
+    color: #C9A227;
+    margin-bottom: 14px;
+  }
+  .duo-h { font-size: 40px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.1; }
+  .duo-text { font-size: 22px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* FORMULA */
+  .formula-box {
+    border: 2px solid #0F1419;
+    border-radius: 18px;
+    padding: 48px 44px;
+    margin-top: 8px;
+  }
+  .formula-text {
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+  }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #C9A227;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+    font-size: 46px;
+    font-weight: 900;
+    color: #C9A227;
+  }
+  .cta-wordmark {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: 760px;
+    margin-bottom: 40px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>01/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Ponto de equilíbrio em 5 passos</div>
+    <div class="title-cover">Ponto de equilíbrio: o número que separa <span class="gold">negócio</span> de <span class="gold">aposta</span>.</div>
+  </div>
+  <div class="footer">GESTÃO FINANCEIRA</div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>02/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">O que é</div>
+    <div class="h2">O ponto de equilíbrio é a rocha, não a areia.</div>
+    <div class="body-txt">Jesus falou de duas casas — uma construída sobre a rocha, outra sobre a areia. A areia parece mais fácil, até vir a tempestade. Ponto de equilíbrio é o quanto sua empresa precisa faturar no mês só pra pagar o que ela consome, sem sobrar e sem faltar. É o alicerce. Antes de sonhar com lucro, garanta o chão.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 3 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>03/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Passo 1 — Separe os custos</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">CUSTOS FIXOS</div>
+        <div class="duo-h">A porta aberta</div>
+        <div class="duo-text">Aluguel, folha, sistema, contabilidade. Existem mesmo que você não venda nada no mês.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">CUSTOS VARIÁVEIS</div>
+        <div class="duo-h">A venda em si</div>
+        <div class="duo-text">Matéria-prima, comissão, imposto sobre a venda, frete. Só nascem quando a venda acontece.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 4 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>04/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Passo 2 — Margem de contribuição</div>
+    <div class="h2">Quanto sobra de cada venda antes do fixo comer o resto?</div>
+    <div class="body-txt">Pegue o preço de venda e tire o custo variável daquela venda específica. O que sobra é a margem de contribuição — é ela, e só ela, que paga seus custos fixos todo mês.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 5 — FORMULA -->
+<div class="slide bg-gold">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>05/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">A conta que ninguém faz</div>
+    <div class="formula-box">
+      <div class="formula-text">PE = Custos Fixos<br>÷ Margem de Contribuição</div>
+    </div>
+    <div class="body-txt" style="color:#151515; opacity:0.85;">O resultado é quanto você precisa vender — em reais ou em unidades — só pra fechar o mês no zero a zero. Abaixo disso, prejuízo. Acima, lucro.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 6 — SOLO -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>06/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Sacada do Giba</div>
+    <div class="h2">Quem não sabe o próprio ponto de equilíbrio está dirigindo no escuro.</div>
+    <div class="body-txt">Calcule esse número uma vez por trimestre — custo muda, preço muda, o equilíbrio muda junto. Empresário que decide sem essa conta não está gerindo, está apostando.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>07/07</span>
+  </div>
+  <div class="cta-wrap">
+    <div class="lion-seal">S</div>
+    <div class="cta-wordmark">GILBERTO SENA</div>
+    <div class="cta-body">Ponto de equilíbrio é o primeiro número que todo empresário deveria saber de cabeça. Se você não sabe o seu, comenta "EQUILÍBRIO" que eu te ajudo a calcular.</div>
+    <div class="cta-handle">@gilbertosenaoficial</div>
+  </div>
+  <div class="footer" style="border-top:none; text-align:center;">PONTO DE EQUILÍBRIO EM 5 PASSOS</div>
+</div>
+
+</body>
+</html>

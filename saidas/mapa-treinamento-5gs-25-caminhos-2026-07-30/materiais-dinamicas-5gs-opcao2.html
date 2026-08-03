@@ -1,0 +1,368 @@
+<title>Materiais das Dinâmicas — Opção 2 — Os 5 G's da Gestão Empreendedora</title>
+<style>
+  :root{
+    --gold:#A9822E;
+    --gold-dim:#8C7248;
+    --ink-text:#17150F;
+    --body-text:#3A3527;
+    --hair:#E1D9C0;
+    --tint:#FBF6E8;
+    --serif: "Big Caslon", "Didot", "Bodoni 72", Georgia, "Times New Roman", serif;
+    --sans: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:#EAE4D2;
+    color:var(--body-text);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{
+    width:210mm;min-height:297mm;
+    margin:16px auto;padding:16mm 16mm 14mm;
+    background:#FFFFFF;
+    box-shadow:0 2px 18px rgba(0,0,0,0.18);
+    display:flex;flex-direction:column;
+  }
+  .eyebrow{
+    font-weight:700;font-size:10.5px;letter-spacing:0.2em;text-transform:uppercase;
+    color:var(--gold-dim);margin-bottom:6px;
+  }
+  .head-row{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:2px solid var(--gold);padding-bottom:12px;margin-bottom:16px;}
+  .head-left{display:flex;align-items:baseline;gap:12px;}
+  .gnum{font-family:var(--serif);font-size:34px;color:var(--gold);line-height:1;}
+  .htxt h1{font-family:var(--serif);font-weight:400;font-size:22px;color:var(--ink-text);margin:0 0 2px;}
+  .htxt p{font-size:11.5px;color:var(--gold-dim);margin:0;font-style:italic;}
+  .meta-box{font-size:10.5px;color:var(--gold-dim);text-align:right;white-space:nowrap;}
+
+  .obj{font-size:12px;line-height:1.6;color:var(--body-text);margin:0 0 16px;max-width:74ch;}
+  .obj strong{color:var(--ink-text);}
+
+  .field-label{font-size:10.5px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;color:var(--gold-dim);margin:0 0 4px;}
+  .lines{border-bottom:1px solid var(--hair);height:22px;margin-bottom:4px;}
+  .lines:last-child{margin-bottom:0;}
+  .field-block{margin-bottom:16px;}
+  .field-block .hint{font-size:10px;color:#9A916F;font-style:italic;margin-top:2px;}
+
+  .steps{margin:0 0 6px;padding-left:0;list-style:none;display:grid;gap:10px;}
+  .steps li{font-size:11px;line-height:1.5;color:var(--body-text);padding-left:22px;position:relative;}
+  .steps li b{color:var(--ink-text);}
+  .steps li .n{
+    position:absolute;left:0;top:0;width:16px;height:16px;border-radius:50%;
+    border:1px solid var(--gold);color:var(--gold-dim);font-size:9.5px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+  }
+
+  .roles-table{width:100%;border-collapse:collapse;margin:0 0 14px;font-size:11px;}
+  .roles-table th{text-align:left;font-size:9.5px;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold-dim);border-bottom:1px solid var(--gold);padding:4px 8px 6px 0;}
+  .roles-table td{padding:6px 8px 6px 0;border-bottom:1px solid var(--hair);vertical-align:top;}
+
+  .spacer{flex-grow:1;}
+  .footer-note{margin-top:auto;padding-top:12px;border-top:1px solid var(--hair);font-size:9.5px;color:var(--gold-dim);font-style:italic;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+
+  .name-date{display:flex;gap:24px;margin-bottom:14px;}
+  .name-date .f{flex:1;}
+  .name-date .f span{display:block;font-size:9.5px;color:var(--gold-dim);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:3px;}
+  .name-date .f .line{border-bottom:1px solid var(--hair);height:18px;}
+
+  /* ---------- QUADRANT MATRIX (Eisenhower / SWOT) ---------- */
+  .quad-wrap{margin-bottom:16px;}
+  .quad-axis-top{display:flex;justify-content:space-between;font-size:9.5px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold-dim);padding:0 4px;margin-bottom:4px;}
+  .quad-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:2px;background:var(--gold);border:1px solid var(--gold);min-height:220px;}
+  .quad-cell{background:#FFFFFF;padding:10px 12px;display:flex;flex-direction:column;}
+  .quad-cell .qtag{font-size:9.5px;font-weight:700;letter-spacing:0.03em;text-transform:uppercase;color:var(--gold-dim);margin-bottom:2px;}
+  .quad-cell .qaction{font-size:9px;font-weight:700;color:var(--ink-text);margin-bottom:8px;}
+  .quad-cell .qlines{flex-grow:1;display:flex;flex-direction:column;gap:8px;justify-content:flex-start;}
+  .quad-cell .qline{border-bottom:1px solid var(--hair);height:16px;}
+  .quad-side-label{writing-mode:vertical-rl;transform:rotate(180deg);font-size:9.5px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold-dim);text-align:center;}
+  .quad-outer{display:grid;grid-template-columns:16px 1fr;gap:6px;}
+  .quad-outer-rows{display:grid;grid-template-rows:1fr 1fr;gap:2px;}
+
+  @media print{
+    @page{size:A4 portrait;margin:0;}
+    body{background:#FFFFFF;}
+    .page{box-shadow:none;margin:0;width:auto;min-height:auto;padding:14mm 16mm 12mm;page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+</style>
+
+<!-- G1 — MATRIZ DE EISENHOWER -->
+<div class="page">
+  <div class="eyebrow">G Sena — Material de Dinâmica · Opção 2 · Ficha do Participante</div>
+  <div class="head-row">
+    <div class="head-left">
+      <span class="gnum">G1</span>
+      <div class="htxt">
+        <h1>Matriz de Eisenhower</h1>
+        <p>Priorização por urgência x importância (IBC) — pilar Gerenciamento do Tempo</p>
+      </div>
+    </div>
+    <div class="meta-box">Individual · 15 min<br>ibccoaching.com.br</div>
+  </div>
+
+  <div class="name-date">
+    <div class="f"><span>Nome</span><div class="line"></div></div>
+    <div class="f" style="max-width:140px;"><span>Data</span><div class="line"></div></div>
+  </div>
+
+  <p class="obj">Liste todas as tarefas pendentes da semana e classifique cada uma nos 4 quadrantes abaixo, cruzando <strong>urgência</strong> e <strong>importância</strong>. Depois, conte quantas caíram no Quadrante 1 — se for a maioria, é sinal de que você vive "apagando incêndio".</p>
+
+  <div class="quad-wrap">
+    <div class="quad-outer">
+      <div></div>
+      <div class="quad-axis-top"><span>← Urgente</span><span>Não urgente →</span></div>
+    </div>
+    <div class="quad-outer">
+      <div class="quad-outer-rows">
+        <div class="quad-side-label">Importante</div>
+        <div class="quad-side-label">Não importante</div>
+      </div>
+      <div class="quad-grid">
+        <div class="quad-cell">
+          <span class="qtag">Quadrante 1</span>
+          <span class="qaction">FAÇA AGORA</span>
+          <div class="qlines"><div class="qline"></div><div class="qline"></div><div class="qline"></div></div>
+        </div>
+        <div class="quad-cell">
+          <span class="qtag">Quadrante 2</span>
+          <span class="qaction">AGENDE</span>
+          <div class="qlines"><div class="qline"></div><div class="qline"></div><div class="qline"></div></div>
+        </div>
+        <div class="quad-cell">
+          <span class="qtag">Quadrante 3</span>
+          <span class="qaction">DELEGUE</span>
+          <div class="qlines"><div class="qline"></div><div class="qline"></div><div class="qline"></div></div>
+        </div>
+        <div class="quad-cell">
+          <span class="qtag">Quadrante 4</span>
+          <span class="qaction">ELIMINE</span>
+          <div class="qlines"><div class="qline"></div><div class="qline"></div><div class="qline"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="field-block">
+    <p class="field-label">Tarefa do Quadrante 3 que você vai delegar essa semana</p>
+    <div class="lines"></div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="footer-note">
+    <span>Fonte: Matriz de Eisenhower — Instituto Brasileiro de Coaching (ibccoaching.com.br).</span>
+    <span>Mapa de Treinamento · Os 5 G's da Gestão Empreendedora · Opção 2</span>
+  </div>
+</div>
+
+<!-- G2 — META FINANCEIRA SMART -->
+<div class="page">
+  <div class="eyebrow">G Sena — Material de Dinâmica · Opção 2 · Ficha do Participante</div>
+  <div class="head-row">
+    <div class="head-left">
+      <span class="gnum">G2</span>
+      <div class="htxt">
+        <h1>Dinâmica da Meta Financeira SMART</h1>
+        <p>Metodologia SMART aplicada a finanças (IBC/José Roberto Marques)</p>
+      </div>
+    </div>
+    <div class="meta-box">Individual · 15 min<br>ibccoaching.com.br</div>
+  </div>
+
+  <div class="name-date">
+    <div class="f"><span>Nome</span><div class="line"></div></div>
+    <div class="f" style="max-width:140px;"><span>Data</span><div class="line"></div></div>
+  </div>
+
+  <p class="obj">Transforme um desejo financeiro vago em meta <strong>SMART</strong> — específica, mensurável, alcançável, relevante e com prazo — para dar direção à Gestão Orçamentária.</p>
+
+  <div class="field-block">
+    <p class="field-label">Objetivo financeiro como você pensa nele hoje (ex.: "quero guardar dinheiro")</p>
+    <div class="lines"></div>
+  </div>
+
+  <div class="field-block">
+    <p class="field-label">S — Específico: quanto, exatamente, e para quê?</p>
+    <div class="lines"></div>
+  </div>
+
+  <div class="field-block">
+    <p class="field-label">M — Mensurável: que número vai provar que você chegou lá?</p>
+    <div class="lines"></div>
+  </div>
+
+  <div class="field-block">
+    <p class="field-label">A — Alcançável: é realista com sua realidade atual? O que ajustar?</p>
+    <div class="lines"></div>
+  </div>
+
+  <div class="field-block">
+    <p class="field-label">R + T — Relevante e com prazo: por que importa agora, e até quando?</p>
+    <div class="lines"></div>
+  </div>
+
+  <div class="field-block">
+    <p class="field-label">Meta SMART final, em uma frase</p>
+    <div class="lines" style="height:28px;"></div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="footer-note">
+    <span>Fonte: metodologia SMART e coaching financeiro — Instituto Brasileiro de Coaching / José Roberto Marques.</span>
+    <span>Mapa de Treinamento · Os 5 G's da Gestão Empreendedora · Opção 2</span>
+  </div>
+</div>
+
+<!-- G3 — DINÂMICA DO NÓ HUMANO -->
+<div class="page">
+  <div class="eyebrow">G Sena — Material de Dinâmica · Opção 2 · Ficha do Facilitador</div>
+  <div class="head-row">
+    <div class="head-left">
+      <span class="gnum">G3</span>
+      <div class="htxt">
+        <h1>Dinâmica do Nó Humano</h1>
+        <p>Dinâmica de liderança (IBC) — cooperação e comunicação sem hierarquia</p>
+      </div>
+    </div>
+    <div class="meta-box">Grupo (mín. 8) · 15 min<br>ibccoaching.com.br</div>
+  </div>
+
+  <p class="obj">Vivencia cooperação e comunicação não verbal — testa na prática o pilar de Gestão do Engajamento de Gestão de Pessoas.</p>
+
+  <p class="field-label">Materiais necessários</p>
+  <p class="obj" style="margin-bottom:14px;">Nenhum material — apenas espaço livre para o grupo formar um círculo.</p>
+
+  <ol class="steps">
+    <li><span class="n">1</span><b>Formem um círculo</b> de mãos dadas, com no mínimo 8 pessoas.</li>
+    <li><span class="n">2</span><b>Soltem as mãos</b>, andem embaralhando as posições de olhos fechados, e parem ao sinal do facilitador.</li>
+    <li><span class="n">3</span><b>De olhos abertos</b>, cada um dá as duas mãos a pessoas diferentes — nunca a quem está do lado — formando o "nó".</li>
+    <li><span class="n">4</span><b>Sem soltar as mãos</b>, o grupo deve se desembaraçar até formar um círculo novamente.</li>
+    <li><span class="n">5</span><b>Debata em grupo:</b> quem assumiu a liderança? Como a comunicação sem hierarquia resolveu o problema?</li>
+  </ol>
+
+  <div class="field-block">
+    <p class="field-label">Notas do debrief (quem liderou / como o grupo se comunicou)</p>
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="footer-note">
+    <span>Fonte: dinâmicas de liderança — Instituto Brasileiro de Coaching.</span>
+    <span>Mapa de Treinamento · Os 5 G's da Gestão Empreendedora · Opção 2</span>
+  </div>
+</div>
+
+<!-- G4 — MATRIZ SWOT TRIBUTÁRIA -->
+<div class="page">
+  <div class="eyebrow">G Sena — Material de Dinâmica · Opção 2 · Ficha do Participante</div>
+  <div class="head-row">
+    <div class="head-left">
+      <span class="gnum">G4</span>
+      <div class="htxt">
+        <h1>Matriz SWOT Tributária</h1>
+        <p>Análise SWOT pessoal/empresarial (IBC/José Roberto Marques) aplicada ao fiscal</p>
+      </div>
+    </div>
+    <div class="meta-box">Individual ou grupo · 20 min<br>jrmcoaching.com.br</div>
+  </div>
+
+  <div class="name-date">
+    <div class="f"><span>Nome</span><div class="line"></div></div>
+    <div class="f" style="max-width:140px;"><span>Data</span><div class="line"></div></div>
+  </div>
+
+  <p class="obj">Diagnostique a saúde tributária da empresa nos 4 quadrantes clássicos do coaching: <strong>Forças</strong> e <strong>Fraquezas</strong> (fatores internos), <strong>Oportunidades</strong> e <strong>Ameaças</strong> (fatores externos, ex.: Reforma Tributária, fiscalização).</p>
+
+  <div class="quad-wrap">
+    <div class="quad-outer">
+      <div></div>
+      <div class="quad-axis-top"><span>Positivo</span><span>Negativo</span></div>
+    </div>
+    <div class="quad-outer">
+      <div class="quad-outer-rows">
+        <div class="quad-side-label">Interno</div>
+        <div class="quad-side-label">Externo</div>
+      </div>
+      <div class="quad-grid">
+        <div class="quad-cell">
+          <span class="qtag">Forças</span>
+          <span class="qaction">O QUE JÁ FUNCIONA BEM</span>
+          <div class="qlines"><div class="qline"></div><div class="qline"></div><div class="qline"></div></div>
+        </div>
+        <div class="quad-cell">
+          <span class="qtag">Fraquezas</span>
+          <span class="qaction">FALHAS INTERNAS</span>
+          <div class="qlines"><div class="qline"></div><div class="qline"></div><div class="qline"></div></div>
+        </div>
+        <div class="quad-cell">
+          <span class="qtag">Oportunidades</span>
+          <span class="qaction">MUDANÇAS EXTERNAS A FAVOR</span>
+          <div class="qlines"><div class="qline"></div><div class="qline"></div><div class="qline"></div></div>
+        </div>
+        <div class="quad-cell">
+          <span class="qtag">Ameaças</span>
+          <span class="qaction">RISCOS EXTERNOS</span>
+          <div class="qlines"><div class="qline"></div><div class="qline"></div><div class="qline"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="field-block">
+    <p class="field-label">Ação prioritária escolhida a partir desta matriz</p>
+    <div class="lines"></div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="footer-note">
+    <span>Fonte: análise SWOT pessoal — José Roberto Marques / Instituto Brasileiro de Coaching, adaptada ao contexto tributário.</span>
+    <span>Mapa de Treinamento · Os 5 G's da Gestão Empreendedora · Opção 2</span>
+  </div>
+</div>
+
+<!-- G5 — DINÂMICA DO FEEDBACK -->
+<div class="page">
+  <div class="eyebrow">G Sena — Material de Dinâmica · Opção 2 · Ficha do Participante</div>
+  <div class="head-row">
+    <div class="head-left">
+      <span class="gnum">G5</span>
+      <div class="htxt">
+        <h1>Dinâmica do Feedback</h1>
+        <p>Dinâmica de relacionamento interpessoal (IBC/José Roberto Marques)</p>
+      </div>
+    </div>
+    <div class="meta-box">Grupo (4–30) · 30 min<br>jrmcoaching.com.br</div>
+  </div>
+
+  <p class="obj">Pratica dar e receber feedback — a base de uma relação saudável e transparente com clientes e fornecedores.</p>
+
+  <p class="field-label">Materiais necessários</p>
+  <p class="obj" style="margin-bottom:14px;">Um papel/cartolina, fita adesiva e caneta por participante.</p>
+
+  <ol class="steps">
+    <li><span class="n">1</span><b>Cole um papel em branco</b> nas costas de cada participante.</li>
+    <li><span class="n">2</span><b>Cada um escreve</b>, nas costas dos colegas, uma qualidade que reconhece no trabalho ou no jeito de se relacionar com clientes/fornecedores.</li>
+    <li><span class="n">3</span><b>Ao final</b>, cada um retira o papel e lê o que recebeu.</li>
+    <li><span class="n">4</span><b>Reflita em grupo:</b> como isso muda a forma de dar feedback a um cliente ou fornecedor difícil?</li>
+  </ol>
+
+  <div class="field-block">
+    <p class="field-label">Feedback que recebi (o que mais chamou atenção)</p>
+    <div class="lines"></div>
+    <div class="lines"></div>
+  </div>
+
+  <div class="field-block">
+    <p class="field-label">5. Feedback real que você vai dar a um fornecedor ou cliente essa semana</p>
+    <div class="lines"></div>
+    <div class="lines"></div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="footer-note">
+    <span>Fonte: dinâmica de relacionamento interpessoal — José Roberto Marques / Instituto Brasileiro de Coaching.</span>
+    <span>Mapa de Treinamento · Os 5 G's da Gestão Empreendedora · Opção 2</span>
+  </div>
+</div>
