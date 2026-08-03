@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — 10 Pergaminhos, O Maior Vendedor do Mundo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+
+  .gold { color: #C9A227; }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .topbar { color: #C9A227; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin: 40px 64px 0 64px;
+  }
+
+  .brandmark {
+    width: 26px;
+    height: 26px;
+    display: block;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+  .brand-block { display: flex; flex-direction: column; align-items: flex-start; }
+
+  .lion-seal-mark {
+    width: 60px;
+    height: 60px;
+    display: block;
+    object-fit: contain;
+  }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+
+  .title-cover {
+    font-size: 68px;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1.18;
+    max-width: 920px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+
+  /* DUO */
+  .duo-cols { display: flex; gap: 56px; margin-top: 8px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 18px;
+    font-weight: 900;
+    color: #C9A227;
+    margin-bottom: 14px;
+    letter-spacing: 0.02em;
+  }
+  .duo-h { font-size: 32px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.14; }
+  .duo-text { font-size: 20px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+  .bg-light .duo-divider-v { background: rgba(21,21,21,0.14); }
+  .bg-light .duo-text { color: #454545; }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #C9A227;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+  }
+  .cta-wordmark {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <span>01/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Os 10 Pergaminhos · O Maior Vendedor do Mundo</div>
+    <div class="title-cover">Um vendedor morto há décadas ainda ensina <span class="gold">mais que 90% dos coaches</span> de hoje.</div>
+  </div>
+  <div class="footer">DESENVOLVIMENTO PESSOAL</div>
+</div>
+
+<!-- SLIDE 2 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <span>02/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pergaminhos I e II</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO I</div>
+        <div class="duo-h">Hoje começo uma nova vida</div>
+        <div class="duo-text">Formar bons hábitos e se tornar escravo deles. Disciplina não é sentimento — é repetição até virar identidade.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO II</div>
+        <div class="duo-h">Saúdo este dia com amor</div>
+        <div class="duo-text">O amor incondicional é a arma mais poderosa que existe — inclusive com quem te desafia.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 3 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <span>03/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pergaminhos III e IV</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO III</div>
+        <div class="duo-h">Persistirei até o êxito</div>
+        <div class="duo-text">O fracasso só é definitivo no dia em que você para de tentar.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO IV</div>
+        <div class="duo-h">O maior milagre da natureza</div>
+        <div class="duo-text">Ninguém mais no mundo pensa, sente e age exatamente como você. Reconhecer isso é o começo de qualquer virada.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 4 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <span>04/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pergaminhos V e VI</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO V</div>
+        <div class="duo-h">Viverei como se fosse o último dia</div>
+        <div class="duo-text">Viver o presente com intensidade, sem adiar decisão nem relação pro "amanhã" que talvez nem chegue.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO VI</div>
+        <div class="duo-h">Senhor de minhas emoções</div>
+        <div class="duo-text">Emoção vem em ciclo. Quem aprende a governar o próprio ciclo não depende de estar "inspirado" pra agir.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 5 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <span>05/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pergaminhos VII e VIII</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO VII</div>
+        <div class="duo-h">Rirei do mundo</div>
+        <div class="duo-text">Não se levar tão a sério ajuda a atravessar a dificuldade com mais leveza — sem perder a seriedade do trabalho.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO VIII</div>
+        <div class="duo-h">Multiplicarei meu valor cem vezes</div>
+        <div class="duo-text">Metas ambiciosas, todos os dias — não uma vez por ano, num quadro de visão que ninguém revisita.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 6 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <span>06/07</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pergaminhos IX e X</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO IX</div>
+        <div class="duo-h">Agirei agora</div>
+        <div class="duo-text">"Amanhã" é a desculpa histórica de quem fracassa. Ação imediata é o que separa intenção de resultado.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PERGAMINHO X</div>
+        <div class="duo-h">Orarei por orientação</div>
+        <div class="duo-text">Humildade pra reconhecer que ninguém chega a lugar nenhum sozinho — buscar orientação superior antes de agir.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <span>07/07</span>
+  </div>
+  <div class="cta-wrap">
+    <div class="lion-seal"><img class="lion-seal-mark" src="grupo-sena-icone-gold.png"></div>
+    <div class="cta-wordmark">GILBERTO SENA</div>
+    <div class="cta-body">Motivação não existe. O que existe é disciplina repetida até virar caráter. Qual desses 10 pergaminhos você está adiando aplicar? Comenta o número.</div>
+    <div class="cta-handle">@gilbertosenaoficial</div>
+  </div>
+  <div class="footer" style="border-top:none; text-align:center;">OS 10 PERGAMINHOS · O MAIOR VENDEDOR DO MUNDO</div>
+</div>
+
+</body>
+</html>
