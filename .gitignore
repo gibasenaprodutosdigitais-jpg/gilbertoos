@@ -18,3 +18,7 @@ desktop.ini
 
 # Temporários de render
 scripts/*.log
+
+# Arquivos grandes demais pro GitHub (>100MB) — mantidos localmente, não versionados
+saidas/brandbook-gilberto-sena-2026-07-30/BRANDBOOK GIL.pdf
+saidas/brandbook-gilberto-sena-2026-07-30/BRANDBOOK GIL 2.pdf
