@@ -81,6 +81,37 @@ regionais.
   (ex.: vários advogados no grupo, ele indica o mais adequado pra cada caso).
   Base parecida com BNI, mas sem o protocolo rígido — a reciprocidade nasce da
   cultura e da vitrine pública (virar capa da revista), não de regra escrita.
+
+### Sociedade formal assinada — Contrato do Ecossistema Empreenda
+
+> ⚠ **Documento particular, com cláusula de sigilo — não usar em conteúdo
+> público.** Fichado a partir do contrato assinado via ZapSign (4/4
+> assinaturas), Barueri, 10/jul/2026. Reforça — não substitui — o aviso já
+> registrado acima de que a entrada dele como sócio-adm/CEO da Empreenda
+> ainda não foi divulgada publicamente.
+
+- Sociedade formalizada entre **Gilberto** e **Elaine Cristina Julião
+  Araujo**, 50%/50% das quotas e dos lucros. Gilberto é **Presidente do
+  Ecossistema Empreenda** (representa a sociedade, coordena estratégia,
+  supervisiona todas as empresas do grupo) e tem o **voto de Minerva**
+  (desempate em qualquer deliberação). Elaine é **Vice-Presidente**.
+- Objeto social é **toda a marca Empreenda**: Revista, Editora, Tecnologia,
+  Business, Edu, Cursos, Instituto, Eventos, Palestras, Livros, plataformas
+  digitais, licenciamento de marca, franquias, mentorias, consultorias,
+  treinamentos, softwares e apps — qualquer negócio novo com a marca
+  Empreenda entra automaticamente no patrimônio da sociedade.
+- **Novidade que não aparecia em nenhum outro material:** Gilberto
+  integralizou na sociedade o negócio **"Espaço Kairós"**, com ativos
+  avaliados em **R$ 1.000.000,00** (carteira de clientes, marca, know-how).
+  Não sei do que se trata — perguntar a ele antes de usar/mencionar em
+  qualquer lugar.
+- Cláusulas do contrato: confidencialidade por prazo indeterminado
+  (mesmo após saída de sócio), não-concorrência e não-aliciamento por 5 anos
+  após desligamento, multa de 30% do valor econômico estimado da sociedade
+  em caso de violação relevante.
+- Testemunhas: **Fábio Nicolini Ferreira** (e-mail
+  fabio@empreendarevista.com.br — provável executivo/parceiro da revista) e
+  **Érica Fernanda Sena** (esposa dele).
   **Modelo de receita confirmado 18/jul/2026:** é deliberadamente **na
   contramão do mercado** de mastermind/grupo fechado — a colaboração cobrada
   dos membros é **simbólica**, só pra cobrir a manutenção das reuniões, não
