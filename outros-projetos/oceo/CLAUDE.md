@@ -16,15 +16,36 @@ gestão empresarial (ERP + BI) do Grupo Sena.
 
 - `business-plan-pitch-investimento.md` — resumo do business plan de 27
   páginas (PDF + HTML em `saidas/oceo-business-plan-2026-08-03/` no
-  GilbertoOS, cópia também no Desktop). Cobre os 11 módulos, mercado
-  (TAM/SAM/SOM), comparativo de custo profissional CLT × sistema, DRE,
-  ponto de equilíbrio, projeções e roadmap.
-- `ideias-produto.md` — backlog bruto de ideias do Gilberto (centro de
-  custos PF×PJ automático, dashboard com alertas de consequência, princípio
-  "o sistema orienta, não decide", escopo híbrido operacional/financeiro/
-  jurídico/marketing/investimentos, módulo de sugestão de investimento com
-  ponto de atenção regulatório CVM, análise comportamental em RH).
-- `OCEO - Business Plan e Pitch de Investimento.pdf` — o documento final.
+  GilbertoOS, cópia também no Desktop). **Preço desatualizado nesse PDF**
+  — ver seção de preço abaixo.
+- `ideias-produto.md` — backlog bruto de ideias do Gilberto, com pointer
+  pra onde cada ideia foi detalhada nos 5 pilares.
+- `OCEO - Business Plan e Pitch de Investimento.pdf` — documento geral,
+  27 páginas, ainda com preço antigo (R$ 2.500).
+- **Os 5 pilares, cada um com código, escopo, funcionalidades e
+  comparativo de custo (CAGED onde possível):**
+  - `pilar-1-contabilidade-bi.md` — **GC**, Contabilidade/BI (Contábil,
+    Fiscal, DP, RH, Legalização)
+  - `pilar-2-gestao-financeira.md` — **GF**, Gestão Financeira (ERP +
+    banco, DRE explicado, fundo de reserva de 3 meses de PE)
+  - `pilar-3-juridico.md` — **GJ**, Jurídico (advogado consultivo interno)
+  - `pilar-4-marketing-vendas.md` — **GM**, Marketing e Vendas (agência +
+    comercial interno)
+  - `pilar-5-educacao-pre-investimento.md` — **GI**, Educação
+    Pré-Investimento (ex-"Criação de Renda Passiva", rota educacional)
+- `oceo-cinco-pilares-2026-08-05.html` / `OCEO - Os 5 Pilares.pdf` —
+  material consolidado dos 5 pilares (8 páginas, gráfico por pilar + soma
+  total na última página), gerado 05/ago/2026 via Playwright (mesmo
+  utilitário do carrossel, em `scripts/`).
+
+## Preço do OCEO (atualizado 05/ago/2026)
+
+Setup R$ 12.500 (único) + **mensalidade R$ 3.500/mês, modelo híbrido**
+(antes era R$ 2.500 — o PDF de 27 páginas do business plan geral ainda não
+foi regerado com o valor novo). "Híbrido" é interpretação de trabalho, não
+confirmada com o Gilberto: mensalidade fixa + repasse de custo variável já
+identificado (WhatsApp Business API acima da franquia grátis, Pilar 4).
+Confirmar antes de pitch formal.
 
 ## Regra-mãe herdada do GilbertoOS (vale aqui também)
 
@@ -32,32 +53,33 @@ gestão empresarial (ERP + BI) do Grupo Sena.
 isso explicitamente (badge "Premissa do modelo"): CAC, churn, custo fixo
 operacional e cenários de cliente são **chutes de ordem de grandeza**, não
 dado real — precisam validação antes de ir pra investidor de verdade. Preço
-do produto (setup R$12.500 + R$2.500/mês) e os dados de mercado
-(SEBRAE/TAM, preço de concorrente) **são** fato citável. Manter essa
-disciplina em tudo que for produzido aqui — nunca apresentar estimativa
-como se fosse número fechado.
+do produto (setup R$12.500 + R$3.500/mês) e os dados de mercado
+(SEBRAE/TAM, preço de concorrente, salários CAGED) **são** fato citável.
+Manter essa disciplina em tudo que for produzido aqui — nunca apresentar
+estimativa como se fosse número fechado.
 
-## Briefing em aberto — 05/ago/2026
+## Estado atual — 05/ago/2026
 
-Próxima frente pedida pelo Gilberto: **Pilar 1 — Contabilidade/BI**.
+**Os 5 pilares estão registrados e detalhados** (ver "O que já existe"),
+cada um com escopo, ponto de atenção regulatório quando existe, e
+comparativo de custo. Pendências reais que sobraram, por pilar:
 
-Preciso de:
-1. **Estrutura visual e comparativa de honorários de mercado** — quanto
-   escritório de contabilidade cobra hoje (por porte de cliente/regime
-   tributário), pra posicionar o preço do módulo contra o custo real que
-   ele substitui. Mesma lógica do comparativo CLT × sistema que já existe
-   no business plan, mas pro serviço de contabilidade terceirizada.
-2. **Funcionalidades do módulo de Contabilidade**, com pelo menos três
-   setores:
-   - **DP (Departamento Pessoal)** — folha, encargos, admissão/demissão.
-   - **Fiscal** — apuração e geração de guias, **linkado à RFB**
-     (Receita Federal do Brasil).
-   - **Departamento de Legalização** — registro e busca de informações
-     municipais, estaduais **e federais** (juntas comercial, prefeitura,
-     Sefaz, RFB).
+- **GC (Pilar 1):** validar salário de Analista de DP com fonte melhor
+  (hoje é estimativa de portal, não CAGED).
+- **GF (Pilar 2):** validar viabilidade/custo da integração Open Finance.
+- **GJ (Pilar 3):** definir se há advogado parceiro fixo do OCEO pra
+  personalização/execução, ou se fica sempre com o advogado do cliente.
+- **GM (Pilar 4):** modelar o custo variável do WhatsApp Business API
+  (conversa) na margem do OCEO.
+- **GI (Pilar 5):** redigir e validar com jurídico o texto padrão de
+  disclaimer (conteúdo educacional, não recomendação individualizada).
+- **Geral:** confirmar com o Gilberto o que "híbrido" significa de fato no
+  preço novo (R$ 3.500/mês) — ver seção de preço acima, é interpretação
+  minha ainda não validada. Regerar o PDF de 27 páginas do business plan
+  geral com o preço/comparativos atualizados, quando fizer sentido.
 
-Isso ainda não tem número nem estrutura fechada — é o ponto de partida da
-próxima sessão dedicada ao OCEO.
+Próxima frente ainda não definida — em aberto pro Gilberto trazer o
+Pilar 6 (se houver) ou aprofundar pendências acima.
 
 ## Como trabalhar aqui
 

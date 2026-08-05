@@ -18,7 +18,16 @@ equipe, riscos e anexo de premissas.
 ## Preço do produto (fato, não premissa)
 
 - Setup (implantação): **R$ 12.500** (único)
-- Mensalidade: **R$ 2.500/mês**
+- Mensalidade: ~~R$ 2.500/mês~~ → **R$ 3.500/mês, modelo híbrido**
+  (atualizado 05/ago/2026, decisão do Gilberto — cobre os 5 pilares
+  registrados nesta pasta). **"Híbrido" — minha interpretação de trabalho,
+  não confirmada com o Gilberto**: mensalidade fixa + repasse de custo
+  variável identificado nos pilares (ex.: conversas WhatsApp Business API
+  acima da franquia grátis, Pilar 4; verba de mídia paga sempre à parte,
+  Pilar 4). Confirmar essa leitura antes de usar em pitch formal. O PDF de
+  27 páginas gerado em 03/ago ainda traz o preço antigo (R$ 2.500) e os
+  gráficos/comparativos antigos — precisa de nova geração se for usado
+  externamente.
 
 ## O comparativo central pedido pelo Gilberto: profissional x sistema
 
@@ -70,6 +79,13 @@ separação automática PF x PJ, alertas de consequência no dashboard, princíp
 jurídico/marketing/investimentos), módulo de sugestão de investimentos
 (lastro: AAI/ANCORD do Gilberto, mas com ponto de atenção regulatório CVM
 sinalizado), análise comportamental no módulo de RH.
+
+## Mercado-alvo refinado (05/ago/2026, via Pilar 2)
+
+PME com **faturamento acima de R$ 50.000/mês** — balizou a política de
+fundo de reserva (3 meses de ponto de equilíbrio) e o comparativo de custo
+do Pilar 2 (`pilar-2-gestao-financeira.md`). Vale usar esse recorte no TAM/
+SAM/SOM do business plan geral quando for revisado.
 
 ## Próximo passo recomendado
 

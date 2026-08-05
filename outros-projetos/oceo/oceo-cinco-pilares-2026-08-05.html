@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>OCEO — Os 5 Pilares</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #FFFFFF;
+    color: #10182A;
+  }
+  :root {
+    --blue: #2a78d6;
+    --blue-dark: #17335c;
+    --orange: #eb6834;
+    --aqua: #1baf7a;
+    --green: #16A34A;
+    --red: #DC2626;
+    --navy: #0B1220;
+    --ink: #10182A;
+    --muted: #5B6579;
+    --line: #E3E7EF;
+    --bg-soft: #F5F7FB;
+  }
+  .page { min-height: 297mm; padding: 18mm 16mm; page-break-after: always; position: relative; }
+  .page.navy { background: var(--navy); color: #EAF0FF; }
+  .page.soft { background: var(--bg-soft); }
+
+  .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue); }
+  .page.navy .eyebrow { color: #6FA8F0; }
+  h1.h1 { font-size: 28px; font-weight: 800; letter-spacing: -0.01em; margin: 10px 0 4px 0; color: var(--ink); }
+  .page.navy h1.h1 { color: #FFFFFF; }
+  p.lead { font-size: 13px; color: var(--muted); max-width: 640px; line-height: 1.55; margin: 8px 0 16px 0; }
+  .page.navy p.lead { color: #B9C4DC; }
+
+  .rule { width: 46px; height: 3px; background: var(--blue); margin: 10px 0 16px 0; }
+
+  .card { background: #FFFFFF; border: 1px solid var(--line); border-radius: 8px; padding: 13px 15px; }
+  .card h3 { font-size: 12px; font-weight: 700; color: var(--blue-dark); margin: 0 0 6px 0; }
+  .card p { font-size: 10.5px; line-height: 1.5; color: #333; margin: 0; }
+  .card ul { margin: 4px 0 0 0; padding-left: 15px; font-size: 10.5px; line-height: 1.55; color: #333; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 11px; }
+  .grid4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; }
+  .grid5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+
+  .kpi { background: #FFFFFF; border: 1px solid var(--line); border-radius: 8px; padding: 12px; text-align: center; }
+  .kpi .v { font-size: 21px; font-weight: 800; color: var(--blue-dark); }
+  .kpi .l { font-size: 9px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 4px; }
+
+  table.tbl { width: 100%; border-collapse: collapse; font-size: 10px; }
+  table.tbl th { background: var(--blue-dark); color: #fff; text-align: left; padding: 7px 9px; font-weight: 600; }
+  table.tbl td { padding: 6px 9px; border-bottom: 1px solid var(--line); }
+  table.tbl tr:nth-child(even) td { background: #FAFBFD; }
+  table.tbl td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.tbl td.pos { color: var(--green); font-weight: 700; }
+
+  .footer { position: absolute; bottom: 12mm; left: 16mm; right: 16mm; display: flex; justify-content: space-between; font-size: 9px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
+  .page.navy .footer { color: #7C8AA8; border-top-color: #223055; }
+
+  .badge { display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 3px 9px; border-radius: 20px; }
+  .badge.blue { background: rgba(42,120,214,0.12); color: var(--blue-dark); }
+  .badge.orange { background: rgba(235,104,52,0.14); color: #a8451c; }
+  .badge.aqua { background: rgba(27,175,122,0.14); color: #0d7f57; }
+  .badge.green { background: rgba(22,163,74,0.14); color: #14532d; }
+  .badge.red { background: rgba(220,38,38,0.12); color: #7f1d1d; }
+
+  .legend { display: flex; gap: 18px; font-size: 10px; color: var(--muted); margin-top: 6px; }
+  .legend .dot { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 5px; vertical-align: middle; }
+
+  .pilar-code {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 46px; height: 46px; border-radius: 10px; background: var(--blue-dark);
+    color: #fff; font-size: 17px; font-weight: 900; letter-spacing: 0.02em;
+    margin-right: 12px; flex: none;
+  }
+  .pilar-head { display: flex; align-items: center; margin-top: 8px; }
+
+  .cover {
+    height: 297mm; background: linear-gradient(160deg, #060A14 0%, #0B1220 55%, #0F1B33 100%);
+    color: #fff; display: flex; flex-direction: column; justify-content: center; padding: 26mm 20mm;
+    position: relative; overflow: hidden;
+  }
+  .cover .kicker { font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: #6FA8F0; font-weight: 700; margin-bottom: 22px; }
+  .cover h1 { font-size: 42px; font-weight: 900; line-height: 1.14; max-width: 620px; margin: 0 0 16px 0; }
+  .cover h1 span { color: var(--blue); }
+  .cover .subtitle { font-size: 15px; color: #B9C4DC; max-width: 540px; line-height: 1.5; margin-bottom: 28px; }
+  .cover .meta { font-size: 11px; color: #7C8AA8; line-height: 1.8; }
+  .cover .divider { width: 70px; height: 3px; background: var(--blue); margin: 22px 0; }
+  .cover .codes { display: flex; gap: 10px; margin-top: 20px; }
+  .cover .codes .c { border: 1px solid #2a3f6b; border-radius: 8px; padding: 8px 12px; font-size: 11px; color: #B9C4DC; }
+  .cover .codes .c b { color: #fff; display: block; font-size: 13px; }
+
+  .last-page { background: var(--navy); color: #fff; }
+  .last-page table.tbl td { color: #EAF0FF; border-bottom-color: #223055; }
+  .last-page table.tbl tr:nth-child(even) td { background: rgba(255,255,255,0.05); }
+  .last-page table.tbl th { background: #1c2b4a; }
+
+  .chart-wrap { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 13px 15px; }
+  .chart-title { font-size: 11.5px; font-weight: 700; color: var(--blue-dark); margin-bottom: 2px; }
+  .chart-note { font-size: 9px; color: var(--muted); margin-bottom: 6px; }
+  svg text { font-family: 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="kicker">Registro de Produto · 5 Pilares</div>
+  <h1>OCEO <span>Os 5 Pilares</span></h1>
+  <div class="subtitle">Contabilidade/BI, Gestão Financeira, Jurídico, Marketing e Vendas, Educação Pré-Investimento — escopo, comparativo de custo e pontos de atenção regulatória de cada frente.</div>
+  <div class="divider"></div>
+  <div class="meta">
+    Grupo Sena — Soluções Empresariais<br>
+    Gilberto Sena — CEO<br>
+    Documento de trabalho · 05/agosto/2026
+  </div>
+  <div class="codes">
+    <div class="c"><b>GC</b>Pilar 1</div>
+    <div class="c"><b>GF</b>Pilar 2</div>
+    <div class="c"><b>GJ</b>Pilar 3</div>
+    <div class="c"><b>GM</b>Pilar 4</div>
+    <div class="c"><b>GI</b>Pilar 5</div>
+  </div>
+</div>
+
+<!-- METODOLOGIA -->
+<div class="page soft">
+  <div class="eyebrow">Nota Metodológica</div>
+  <h1 class="h1">Como ler este documento</h1>
+  <div class="rule"></div>
+  <p class="lead">Mesma disciplina dos documentos anteriores desta pasta: separar fato de premissa, e marcar claramente onde o número vem de fonte real (CAGED) e onde é estimativa.</p>
+  <div class="grid3" style="margin-top:6px;">
+    <div class="card"><h3><span class="badge blue">Fonte externa</span></h3><p style="margin-top:8px;">Salários vêm de CAGED via salario.com.br, dados dos últimos 12 meses, com fonte e amostra citadas em cada pilar.</p></div>
+    <div class="card"><h3><span class="badge orange">Fato do produto</span></h3><p style="margin-top:8px;">Preço do OCEO (setup R$ 12.500 + mensalidade R$ 3.500) e escopo de cada pilar vêm direto do briefing do Gilberto.</p></div>
+    <div class="card"><h3><span class="badge aqua">Premissa / a validar</span></h3><p style="margin-top:8px;">Perfis sem CBO exato (Analista de DP, SDR) e o próprio significado de "híbrido" no preço — marcados como estimativa/interpretação, não fato fechado.</p></div>
+  </div>
+  <div class="card" style="margin-top:14px;">
+    <h3>Sobre o preço — R$ 3.500/mês, modelo híbrido</h3>
+    <p>Atualizado em 05/ago/2026 (de R$ 2.500 pra R$ 3.500), cobrindo os 5 pilares. <b>"Híbrido" é interpretação de trabalho, ainda não confirmada com o Gilberto</b>: mensalidade fixa + repasse de custo variável já identificado nos pilares (conversas WhatsApp Business API acima da franquia grátis no Pilar 4; verba de mídia paga, sempre à parte, também no Pilar 4). Confirmar essa leitura antes de usar em pitch formal com investidor ou cliente.</p>
+  </div>
+  <div class="card" style="margin-top:12px;">
+    <h3>Sobre a soma da última página</h3>
+    <p>Para não inflar o número, a soma total usa a leitura mais conservadora de cada pilar (ex.: Analista Financeiro no Pilar 2, não Diretor Financeiro). O cenário mais forte (usando Diretor Financeiro) aparece como nota complementar na última página.</p>
+  </div>
+  <div class="footer"><span>OCEO · Os 5 Pilares</span><span>02</span></div>
+</div>
+
+<!-- PILAR 1 - GC -->
+<div class="page">
+  <div class="eyebrow">Pilar 1 · Contabilidade / BI</div>
+  <div class="pilar-head">
+    <div class="pilar-code">GC</div>
+    <h1 class="h1" style="margin:0;">Contabilidade interna + RH</h1>
+  </div>
+  <div class="rule"></div>
+  <p class="lead">Escritório de contabilidade interno pra gestão (Contábil, Fiscal, DP, RH) + Legalização. O externo continua existindo pra obrigação legal assinada (CRC) — o dado interno vira poder de barganha com ele.</p>
+  <div class="grid2">
+    <div class="card">
+      <h3>Setores cobertos</h3>
+      <ul>
+        <li><b>Contábil</b> — apuração, conciliação, balancete, DRE, custos/despesas/entradas/retiradas</li>
+        <li><b>Fiscal</b> — impostos, guias, linkado à RFB</li>
+        <li><b>DP</b> — folha, admissão/demissão</li>
+        <li><b>RH</b> — atração, seleção, entrevista virtual por IA, análise comportamental, apoio em negociação salarial</li>
+        <li><b>Legalização</b> — registros e certidões municipal/estadual/federal</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Ponto de atenção</h3>
+      <p><span class="badge orange">Regulatório</span><br style="margin-bottom:6px;">Demonstração contábil formal exige assinatura de contador com CRC — o escritório externo do cliente não é substituído, segue sendo pago à parte.</p>
+    </div>
+  </div>
+  <div class="chart-wrap" style="margin-top:12px;">
+    <div class="chart-title">Custo mensal: equipe interna (4 perfis) vs. OCEO</div>
+    <div class="chart-note">Contábil + Fiscal + DP + RH, CLT com encargos (~80%). Fonte: CAGED (3 de 4 perfis) + estimativa de portal (DP).</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <line x1="70" y1="270" x2="650" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <rect x="200" y="60" width="110" height="210" rx="4" fill="#eb6834"/>
+      <text x="255" y="50" text-anchor="middle" font-size="15" font-weight="800" fill="#a8451c">R$ 30.834,39</text>
+      <text x="255" y="292" text-anchor="middle" font-size="11" fill="#5B6579">Equipe interna</text>
+      <rect x="390" y="246" width="110" height="24" rx="4" fill="#2a78d6"/>
+      <text x="445" y="238" text-anchor="middle" font-size="15" font-weight="800" fill="#17335c">R$ 3.500,00</text>
+      <text x="445" y="292" text-anchor="middle" font-size="11" fill="#5B6579">OCEO</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Equipe interna (4 perfis)</span><span><span class="dot" style="background:#2a78d6;"></span>OCEO (mensalidade)</span></div>
+  </div>
+  <div class="grid3" style="margin-top:10px;">
+    <div class="kpi"><div class="v">R$ 27.334,39</div><div class="l">Economia mensal</div></div>
+    <div class="kpi"><div class="v">88,6%</div><div class="l">Economia %</div></div>
+    <div class="kpi"><div class="v">3 de 4</div><div class="l">Perfis com fonte CAGED</div></div>
+  </div>
+  <div class="footer"><span>OCEO · Os 5 Pilares · GC</span><span>03</span></div>
+</div>
+
+<!-- PILAR 2 - GF -->
+<div class="page soft">
+  <div class="eyebrow">Pilar 2 · Gestão Financeira</div>
+  <div class="pilar-head">
+    <div class="pilar-code">GF</div>
+    <h1 class="h1" style="margin:0;">ERP financeiro + reserva estratégica</h1>
+  </div>
+  <div class="rule"></div>
+  <p class="lead">Integra banco (Open Finance) + o que o Pilar 1 já apurou. Traduz DRE, caixa livre, EBITDA, ROI e valuation em linguagem simples, com política de fundo de reserva.</p>
+  <div class="grid2">
+    <div class="card">
+      <h3>O que entrega</h3>
+      <ul>
+        <li>Integração bancária, leitura de entradas/saídas em tempo real</li>
+        <li>DRE explicado: caixa livre, caixa circulante, margem de contribuição, EBITDA, ROI, valuation</li>
+        <li>Transparência PF x PJ — impacto real do gasto pessoal no caixa</li>
+        <li>Fundo de reserva: <b>3 meses de ponto de equilíbrio</b>, padrão fixo pro mercado-alvo (PME R$ 50.000+/mês)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Dois níveis de comparação</h3>
+      <p>O pilar entrega leitura de nível diretoria (DRE, ROI, valuation), não só lançamento operacional — por isso o comparativo mostra Analista Financeiro <b>e</b> Diretor Financeiro.</p>
+    </div>
+  </div>
+  <div class="chart-wrap" style="margin-top:12px;">
+    <div class="chart-title">Custo mensal: Analista Financeiro vs. OCEO</div>
+    <div class="chart-note">CAGED, R$ 4.883,27 base + encargos (~80%). Diretor Financeiro (CAGED, R$ 24.106,54 base) fica como cenário complementar abaixo.</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <line x1="70" y1="270" x2="650" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <rect x="200" y="60" width="110" height="210" rx="4" fill="#eb6834"/>
+      <text x="255" y="50" text-anchor="middle" font-size="15" font-weight="800" fill="#a8451c">R$ 8.789,90</text>
+      <text x="255" y="292" text-anchor="middle" font-size="11" fill="#5B6579">Analista Financeiro</text>
+      <rect x="390" y="186" width="110" height="84" rx="4" fill="#2a78d6"/>
+      <text x="445" y="178" text-anchor="middle" font-size="15" font-weight="800" fill="#17335c">R$ 3.500,00</text>
+      <text x="445" y="292" text-anchor="middle" font-size="11" fill="#5B6579">OCEO</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Analista Financeiro (CLT)</span><span><span class="dot" style="background:#2a78d6;"></span>OCEO (mensalidade)</span></div>
+  </div>
+  <div class="grid4" style="margin-top:10px;">
+    <div class="kpi"><div class="v">R$ 5.289,90</div><div class="l">Economia — vs. Analista</div></div>
+    <div class="kpi"><div class="v">60,2%</div><div class="l">Economia % — vs. Analista</div></div>
+    <div class="kpi"><div class="v">R$ 39.891,77</div><div class="l">Economia — vs. Diretor</div></div>
+    <div class="kpi"><div class="v">91,9%</div><div class="l">Economia % — vs. Diretor</div></div>
+  </div>
+  <div class="footer"><span>OCEO · Os 5 Pilares · GF</span><span>04</span></div>
+</div>
+
+<!-- PILAR 3 - GJ -->
+<div class="page">
+  <div class="eyebrow">Pilar 3 · Jurídico</div>
+  <div class="pilar-head">
+    <div class="pilar-code">GJ</div>
+    <h1 class="h1" style="margin:0;">Advogado consultivo interno</h1>
+  </div>
+  <div class="rule"></div>
+  <p class="lead">PME pequena/média não tem e não contrata advogado. O OCEO entra como advogado consultivo full-time, sem substituir advogado OAB pra executar.</p>
+  <div class="grid2">
+    <div class="card">
+      <h3>O que entrega</h3>
+      <ul>
+        <li>Contratos padrão/modelo (mesmo critério de IA jurídica de mercado — ex. JusIA)</li>
+        <li>Análise de contrato: incoerência e risco (compra, sociedade, venda)</li>
+        <li>Busca de oportunidade legal de redução de custo tributário/financeiro</li>
+        <li>Esclarecimento jurídico simples, full-time</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Ponto de atenção</h3>
+      <p><span class="badge orange">Regulatório</span><br style="margin-bottom:6px;">Advocacia é privativa de advogado OAB (Lei 8.906/1994). Personalização fora do padrão → encaminha pro advogado de confiança do cliente, o sistema não gera sozinho.</p>
+    </div>
+  </div>
+  <div class="chart-wrap" style="margin-top:12px;">
+    <div class="chart-title">Custo mensal: Advogado Empresarial vs. OCEO</div>
+    <div class="chart-note">CAGED, R$ 8.956,85 base + encargos (~80%), amostra de 5.496 profissionais.</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <line x1="70" y1="270" x2="650" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <rect x="200" y="60" width="110" height="210" rx="4" fill="#eb6834"/>
+      <text x="255" y="50" text-anchor="middle" font-size="15" font-weight="800" fill="#a8451c">R$ 16.122,33</text>
+      <text x="255" y="292" text-anchor="middle" font-size="11" fill="#5B6579">Advogado Empresarial</text>
+      <rect x="390" y="224" width="110" height="46" rx="4" fill="#2a78d6"/>
+      <text x="445" y="216" text-anchor="middle" font-size="15" font-weight="800" fill="#17335c">R$ 3.500,00</text>
+      <text x="445" y="292" text-anchor="middle" font-size="11" fill="#5B6579">OCEO</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Advogado Empresarial (CLT)</span><span><span class="dot" style="background:#2a78d6;"></span>OCEO (mensalidade)</span></div>
+  </div>
+  <div class="grid3" style="margin-top:10px;">
+    <div class="kpi"><div class="v">R$ 12.622,33</div><div class="l">Economia mensal</div></div>
+    <div class="kpi"><div class="v">78,3%</div><div class="l">Economia %</div></div>
+    <div class="kpi"><div class="v">CAGED</div><div class="l">Fonte forte (1 perfil)</div></div>
+  </div>
+  <div class="footer"><span>OCEO · Os 5 Pilares · GJ</span><span>05</span></div>
+</div>
+
+<!-- PILAR 4 - GM -->
+<div class="page soft">
+  <div class="eyebrow">Pilar 4 · Marketing e Vendas</div>
+  <div class="pilar-head">
+    <div class="pilar-code">GM</div>
+    <h1 class="h1" style="margin:0;">Agência + comercial internos</h1>
+  </div>
+  <div class="rule"></div>
+  <p class="lead">Social media, tráfego pago e atendimento comercial via IA — como se a empresa tivesse uma agência completa por dentro, cobrindo empresa e empresário.</p>
+  <div class="grid2">
+    <div class="card">
+      <h3>O que entrega</h3>
+      <ul>
+        <li>Social media: copy, carrossel, imagem, publicação manual/programada</li>
+        <li>Tráfego pago junto às plataformas (verba de mídia é orçamento à parte)</li>
+        <li>Atendimento via IA: funil até o fechamento, mesmo em operação física</li>
+        <li>Campanha específica → assessoria externa; dia a dia e lead orgânico → o pilar cobre</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Ponto de atenção</h3>
+      <p><span class="badge aqua">Custo variável</span><br style="margin-bottom:6px;">WhatsApp Business API cobra por conversa (~R$ 0,15/conversa de utilidade, 1.000 grátis/mês) — precisa entrar na margem do OCEO.</p>
+    </div>
+  </div>
+  <div class="chart-wrap" style="margin-top:12px;">
+    <div class="chart-title">Custo mensal: equipe interna (3 perfis) vs. OCEO</div>
+    <div class="chart-note">Marketing + Tráfego + SDR, CLT com encargos (~80%). 2 de 3 perfis com fonte CAGED.</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <line x1="70" y1="270" x2="650" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <rect x="200" y="60" width="110" height="210" rx="4" fill="#eb6834"/>
+      <text x="255" y="50" text-anchor="middle" font-size="15" font-weight="800" fill="#a8451c">R$ 26.037,05</text>
+      <text x="255" y="292" text-anchor="middle" font-size="11" fill="#5B6579">Equipe interna</text>
+      <rect x="390" y="242" width="110" height="28" rx="4" fill="#2a78d6"/>
+      <text x="445" y="234" text-anchor="middle" font-size="15" font-weight="800" fill="#17335c">R$ 3.500,00</text>
+      <text x="445" y="292" text-anchor="middle" font-size="11" fill="#5B6579">OCEO</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Equipe interna (3 perfis)</span><span><span class="dot" style="background:#2a78d6;"></span>OCEO (mensalidade)</span></div>
+  </div>
+  <div class="grid3" style="margin-top:10px;">
+    <div class="kpi"><div class="v">R$ 22.537,05</div><div class="l">Economia mensal</div></div>
+    <div class="kpi"><div class="v">86,6%</div><div class="l">Economia %</div></div>
+    <div class="kpi"><div class="v">à parte</div><div class="l">Verba de mídia (não incluída)</div></div>
+  </div>
+  <div class="footer"><span>OCEO · Os 5 Pilares · GM</span><span>06</span></div>
+</div>
+
+<!-- PILAR 5 - GI -->
+<div class="page">
+  <div class="eyebrow">Pilar 5 · Educação Pré-Investimento</div>
+  <div class="pilar-head">
+    <div class="pilar-code">GI</div>
+    <h1 class="h1" style="margin:0;">Educação financeira, não recomendação</h1>
+  </div>
+  <div class="rule"></div>
+  <p class="lead">Só ativa depois que o fundo de reserva do Pilar 2 está completo. Rota educacional/genérica — não individualiza recomendação por CNPJ/CPF, não vincula corretora como parceira.</p>
+  <div class="grid2">
+    <div class="card">
+      <h3>O que entrega</h3>
+      <ul>
+        <li>Conteúdo educacional por categoria de perfil (conservador/moderado/arrojado)</li>
+        <li>Panorama de renda fixa/variável, debêntures, criptoativos — XP/BTG como exemplo, sem parceria</li>
+        <li>Fibonacci e outras ferramentas técnicas, sobre dado de mercado público</li>
+        <li>Disclaimer em toda saída: conteúdo educacional, não recomendação individualizada</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Ponto de atenção</h3>
+      <p><span class="badge red">Regulatório crítico</span><br style="margin-bottom:6px;">CVM (Res. 19/2021) trata recomendação individualizada por sistema automatizado como consultoria regulada. Licença AAI do Gilberto só cobre 1 corretora por vez pra renda variável.</p>
+    </div>
+  </div>
+  <div class="chart-wrap" style="margin-top:12px;">
+    <div class="chart-title">Custo mensal: Analista de Fundos de Investimento vs. OCEO</div>
+    <div class="chart-note">CAGED, R$ 5.335,73 base + encargos (~80%). Comparação mais artificial que os demais pilares — Assessor/AAI normalmente não é CLT.</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <line x1="70" y1="270" x2="650" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <rect x="200" y="60" width="110" height="210" rx="4" fill="#eb6834"/>
+      <text x="255" y="50" text-anchor="middle" font-size="15" font-weight="800" fill="#a8451c">R$ 9.604,31</text>
+      <text x="255" y="292" text-anchor="middle" font-size="11" fill="#5B6579">Analista de Fundos</text>
+      <rect x="390" y="193" width="110" height="77" rx="4" fill="#2a78d6"/>
+      <text x="445" y="185" text-anchor="middle" font-size="15" font-weight="800" fill="#17335c">R$ 3.500,00</text>
+      <text x="445" y="292" text-anchor="middle" font-size="11" fill="#5B6579">OCEO</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Analista de Fundos (CLT)</span><span><span class="dot" style="background:#2a78d6;"></span>OCEO (mensalidade)</span></div>
+  </div>
+  <div class="grid3" style="margin-top:10px;">
+    <div class="kpi"><div class="v">R$ 6.104,31</div><div class="l">Economia mensal</div></div>
+    <div class="kpi"><div class="v">63,6%</div><div class="l">Economia %</div></div>
+    <div class="kpi"><div class="v">Educacional</div><div class="l">Rota decidida, não regulada</div></div>
+  </div>
+  <div class="footer"><span>OCEO · Os 5 Pilares · GI</span><span>07</span></div>
+</div>
+
+<!-- TOTAL -->
+<div class="page last-page">
+  <div class="eyebrow">Soma Total · Os 5 Pilares</div>
+  <h1 class="h1" style="color:#fff;">O que a PME pagaria pra montar tudo isso por dentro</h1>
+  <div class="rule"></div>
+  <p class="lead" style="color:#B9C4DC;">Somando o custo de contratar cada função separadamente — leitura conservadora (Analista Financeiro no Pilar 2, não Diretor).</p>
+
+  <table class="tbl" style="margin-top:6px;">
+    <tr><th>Código</th><th>Pilar</th><th>Perfil(is)</th><th>Custo mensal c/ encargos</th></tr>
+    <tr><td>GC</td><td>Contabilidade/BI + RH</td><td>Contábil + Fiscal + DP + RH</td><td class="num">R$ 30.834,39</td></tr>
+    <tr><td>GF</td><td>Gestão Financeira</td><td>Analista Financeiro</td><td class="num">R$ 8.789,90</td></tr>
+    <tr><td>GJ</td><td>Jurídico</td><td>Advogado Empresarial</td><td class="num">R$ 16.122,33</td></tr>
+    <tr><td>GM</td><td>Marketing e Vendas</td><td>Marketing + Tráfego + SDR</td><td class="num">R$ 26.037,05</td></tr>
+    <tr><td>GI</td><td>Educação Pré-Investimento</td><td>Analista de Fundos</td><td class="num">R$ 9.604,31</td></tr>
+    <tr style="font-weight:800;"><td colspan="3">Total equipe interna equivalente</td><td class="num">R$ 91.387,98</td></tr>
+  </table>
+
+  <div class="chart-wrap" style="margin-top:14px; background:#fff;">
+    <div class="chart-title">Custo mensal total: equipe interna (5 pilares) vs. OCEO</div>
+    <div class="chart-note">R$ 91.387,98 (equipe) vs. R$ 3.500,00 (OCEO, mensalidade híbrida).</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <line x1="70" y1="270" x2="650" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <rect x="200" y="60" width="110" height="210" rx="4" fill="#eb6834"/>
+      <text x="255" y="50" text-anchor="middle" font-size="15" font-weight="800" fill="#a8451c">R$ 91.387,98</text>
+      <text x="255" y="292" text-anchor="middle" font-size="11" fill="#5B6579">Equipe interna (5 pilares)</text>
+      <rect x="390" y="262" width="110" height="8" rx="3" fill="#2a78d6"/>
+      <text x="445" y="254" text-anchor="middle" font-size="15" font-weight="800" fill="#17335c">R$ 3.500,00</text>
+      <text x="445" y="292" text-anchor="middle" font-size="11" fill="#5B6579">OCEO</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Equipe interna</span><span><span class="dot" style="background:#2a78d6;"></span>OCEO</span></div>
+  </div>
+
+  <div class="grid4" style="margin-top:12px;">
+    <div class="kpi" style="background:rgba(255,255,255,0.06); border-color:#223055;"><div class="v" style="color:#fff;">R$ 87.887,98</div><div class="l" style="color:#7C8AA8;">Economia mensal</div></div>
+    <div class="kpi" style="background:rgba(255,255,255,0.06); border-color:#223055;"><div class="v" style="color:#fff;">96,2%</div><div class="l" style="color:#7C8AA8;">Economia %</div></div>
+    <div class="kpi" style="background:rgba(255,255,255,0.06); border-color:#223055;"><div class="v" style="color:#fff;">≈ 4 dias</div><div class="l" style="color:#7C8AA8;">Payback do setup (R$ 12.500)</div></div>
+    <div class="kpi" style="background:rgba(255,255,255,0.06); border-color:#223055;"><div class="v" style="color:#fff;">R$ 1,05M</div><div class="l" style="color:#7C8AA8;">Economia acumulada — 12 meses</div></div>
+  </div>
+
+  <div class="card" style="margin-top:14px; background:rgba(255,255,255,0.04); border-color:#223055;">
+    <h3 style="color:#fff;">Cenário complementar — trocando Analista Financeiro por Diretor Financeiro no Pilar 2</h3>
+    <p style="color:#B9C4DC;">Se o comparativo do Pilar 2 usar Diretor Financeiro (R$ 43.391,77) em vez de Analista Financeiro, o total sobe pra <b style="color:#fff;">R$ 125.989,85/mês</b> em equipe interna — economia de <b style="color:#fff;">R$ 122.489,85 (97,2%)</b>, payback do setup em <b style="color:#fff;">≈ 3 dias</b>. Mais forte pro pitch, mas mistura nível de cargo (diretoria) com os demais perfis (analista/agente) — por isso não é o número primário desta página.</p>
+  </div>
+
+  <div class="footer" style="color:#7C8AA8; border-top-color:#223055;"><span>OCEO · Os 5 Pilares</span><span>08</span></div>
+</div>
+
+</body>
+</html>

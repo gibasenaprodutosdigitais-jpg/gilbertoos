@@ -1,7 +1,13 @@
 # OCEO — Pilar 1: Contabilidade/BI (rascunho, 05/ago/2026)
 
-> Ponto de partida pedido no briefing do CLAUDE.md desta pasta. Ainda sem
-> número nem estrutura fechada — é a base pra próxima sessão dedicada.
+> **Código: GC.** Ponto de partida pedido no briefing do CLAUDE.md desta
+> pasta. Ainda sem número nem estrutura fechada — é a base pra próxima
+> sessão dedicada.
+
+> **Atualização de preço (05/ago/2026):** a mensalidade do OCEO mudou de
+> R$ 2.500 pra **R$ 3.500 (modelo híbrido)** — os números de economia
+> abaixo ainda usam R$ 2.500. Números recalculados com o preço novo estão
+> no material consolidado (`oceo-cinco-pilares-2026-08-05.html`).
 
 ## O modelo (evoluído com o Gilberto ao longo de 05/ago/2026)
 
@@ -56,10 +62,11 @@ o eixo do comparativo de economia.
 
 ### Comparativo: custo de montar equipe interna x OCEO
 
-O módulo cobre três funções que, hoje, uma empresa que quisesse internalizar
-precisaria contratar separado — **Contábil** (apuração, conciliação,
-custos/despesas/entradas/retiradas), **Fiscal** (impostos, guias) e **DP**
-(folha, admissão/demissão):
+O módulo cobre quatro funções que, hoje, uma empresa que quisesse
+internalizar precisaria contratar separado — **Contábil** (apuração,
+conciliação, custos/despesas/entradas/retiradas), **Fiscal** (impostos,
+guias), **DP** (folha, admissão/demissão) e **RH** (atração, seleção,
+entrevista, negociação — acrescentado 05/ago/2026):
 
 **Analista Contábil (fato citável, fonte forte):** R$ 5.483,98/mês médio,
 CAGED via salario.com.br — piso R$ 4.169,55, teto R$ 9.273,16, base 80.176
@@ -78,6 +85,13 @@ perfil certo. Usando faixa de portais de vaga (Glassdoor/Indeed, não-CAGED):
 R$ 3.000 – 3.600/mês — ponto médio R$ 3.300/mês. **Isso é estimativa, não
 fato — marcar como premissa se for pro pitch.**
 
+**Agente de Recrutamento e Seleção (fato citável, CAGED, adicionado
+05/ago/2026):** R$ 3.504,71/mês médio, via salario.com.br (CBO 3513-15) —
+piso R$ 2.397,07, teto R$ 5.205,24, base 7.766 profissionais
+admitidos/desligados no Brasil em regime CLT nos últimos 12 meses. Cobre
+atração, seleção e entrevista — a negociação de salário/comissão/bônus não
+tem CBO próprio, fica coberta dentro do mesmo papel na prática de mercado.
+
 Aplicando o mesmo fator de encargos do business plan geral (~80%: FGTS,
 INSS patronal, 13º, férias+1/3):
 
@@ -86,20 +100,21 @@ INSS patronal, 13º, férias+1/3):
 | Analista Contábil (CAGED) | R$ 5.483,98 | R$ 9.871,16 |
 | Analista Fiscal (CAGED) | R$ 4.841,53 | R$ 8.714,75 |
 | Analista de DP (estimativa) | R$ 3.300,00 | R$ 5.940,00 |
-| **Total equipe interna** | | **R$ 24.525,91/mês** |
+| Agente de Recrutamento e Seleção (CAGED) | R$ 3.504,71 | R$ 6.308,48 |
+| **Total equipe interna** | | **R$ 30.834,39/mês** |
 
 | | Custo mensal |
 | --- | --- |
-| Montar equipe interna (Contábil + Fiscal + DP) | R$ 24.525,91 |
+| Montar equipe interna (Contábil + Fiscal + DP + RH) | R$ 30.834,39 |
 | OCEO (mensalidade) | R$ 2.500,00 |
-| **Economia mensal** | **R$ 22.025,91 (89,8%)** |
-| Payback do setup (R$ 12.500) | ≈ 17 dias |
+| **Economia mensal** | **R$ 28.334,39 (91,9%)** |
+| Payback do setup (R$ 12.500) | ≈ 13 dias |
 
 **Leitura pro pitch:** o módulo não concorre com o honorário do escritório
 externo (esse continua sendo pago à parte) — concorre com a decisão de
-"vou contratar gente pra cuidar disso por dentro". Duas pernas são CAGED
-(fonte forte); a terceira (Analista de DP) é estimativa — se for pra pitch
-de investidor de verdade, vale validar essa faixa com uma fonte melhor
+"vou contratar gente pra cuidar disso por dentro". Três pernas são CAGED
+(fonte forte); a de Analista de DP é estimativa — se for pra pitch de
+investidor de verdade, vale validar essa faixa com uma fonte melhor
 antes.
 
 ## 2. Funcionalidades do módulo, por setor
@@ -124,6 +139,20 @@ empresário usa pra cobrar.
   estava no escopo original (`ideias-produto.md`, item 4)
 - Comparativo automático: o que o OCEO apurou x o que o escritório externo
   reportou — divergência vira pergunta pronta pro contador
+
+### RH — Atração e Seleção (acrescentado 05/ago/2026)
+
+- Atração e triagem de candidatos (divulgação de vaga, banco de currículos)
+- Entrevista virtual conduzida por agente de IA — primeira triagem antes
+  de envolver o empresário
+- Análise comportamental do candidato — mesmo item já registrado em
+  `ideias-produto.md` (item 5), agora com casa definida dentro do Pilar 1
+- Apoio na negociação de salário, comissão e bônus: mostra faixa de
+  mercado (referência CAGED/mercado) pra embasar a conversa, mas quem
+  decide e negocia é o empresário — mesmo princípio "sistema orienta, não
+  decide"
+- Passa o bastão pro setor DP (mesmo pilar) quando a contratação fecha: RH
+  atrai e seleciona, DP processa a admissão
 
 ### DP — Departamento Pessoal
 
