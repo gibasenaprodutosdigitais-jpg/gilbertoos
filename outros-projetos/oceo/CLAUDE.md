@@ -27,9 +27,17 @@ gestão empresarial (ERP + BI) do Grupo Sena.
   pra onde cada ideia foi detalhada nos 5 pilares.
 - `OCEO - Business Plan e Pitch de Investimento.pdf` — documento geral,
   27 páginas (desatualizado, ver acima).
-- `OCEO - Business Plan (5 Pilares).pptx` — PowerPoint nativo (15 slides,
+- `OCEO - Business Plan (5 Pilares).pptx` — PowerPoint nativo (16 slides,
   gráficos editáveis) com os 5 pilares, comparativo total e projeção de
-  mercado, gerado 06/ago/2026 via python-pptx.
+  mercado, gerado 06/ago/2026 via python-pptx. **Preço em R$.**
+- `OCEO - Business Plan Europa (Portugal).pptx` +
+  `europa-portugal-pesquisa-salarial.md` — cópia adaptada pro mercado
+  europeu (Portugal), preço em EUR, salários pesquisados em Indeed.pt/
+  Jobted.pt/Talent.com Portugal, encargos calculados no modelo português
+  (14 meses + TSU 23,75%, não o modelo brasileiro de ~80%). **Preço final
+  em EUR não está decidido** — o documento entrega piso (594 €, conversão
+  direta) e teto (19.954 €, custo de montar a equipe) pro Gilberto decidir.
+  Gerado 06/ago/2026.
 - **Os 5 pilares, cada um com código, escopo, funcionalidades e
   comparativo de custo (CAGED onde possível):**
   - `pilar-1-contabilidade-bi.md` — **GC**, Contabilidade/BI (Contábil,
