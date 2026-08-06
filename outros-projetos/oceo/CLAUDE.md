@@ -10,6 +10,10 @@ gestão empresarial (ERP + BI) do Grupo Sena.
 > proposital só pra montar este arquivo (05/ago/2026). Daqui pra frente,
 > trabalhe o OCEO **nesta pasta**, numa sessão própria.
 
+**Domínio:** `www.oceo.com.br` (já registrado pelo Gilberto, confirmado
+06/ago/2026). O Gilberto está em **fase de registro de marca** — ver
+`identidade-visual/` pra logos.
+
 ---
 
 ## O que já existe
