@@ -18,14 +18,13 @@ equipe, riscos e anexo de premissas.
 ## Preço do produto (fato, não premissa)
 
 - Setup (implantação): **R$ 12.500** (único)
-- Mensalidade: ~~R$ 2.500/mês~~ → **R$ 3.500/mês, modelo híbrido**
-  (atualizado 05/ago/2026, decisão do Gilberto — cobre os 5 pilares
-  registrados nesta pasta). **"Híbrido" — minha interpretação de trabalho,
-  não confirmada com o Gilberto**: mensalidade fixa + repasse de custo
-  variável identificado nos pilares (ex.: conversas WhatsApp Business API
-  acima da franquia grátis, Pilar 4; verba de mídia paga sempre à parte,
-  Pilar 4). Confirmar essa leitura antes de usar em pitch formal. O PDF de
-  27 páginas gerado em 03/ago ainda traz o preço antigo (R$ 2.500) e os
+- Mensalidade: ~~R$ 2.500/mês~~ → **R$ 3.500/mês, simples, mas completo**
+  (atualizado 06/ago/2026, decisão do Gilberto — cobre os 5 pilares
+  registrados nesta pasta, renomeado de "modelo híbrido"). Mensalidade
+  fixa + repasse de custo variável identificado nos pilares (ex.:
+  conversas WhatsApp Business API acima da franquia grátis, Pilar GM;
+  verba de mídia paga sempre à parte, Pilar GM). O PDF de 27 páginas
+  gerado em 03/ago ainda traz o preço antigo (R$ 2.500) e os
   gráficos/comparativos antigos — precisa de nova geração se for usado
   externamente.
 

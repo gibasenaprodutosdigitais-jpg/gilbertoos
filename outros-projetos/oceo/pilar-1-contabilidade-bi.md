@@ -5,7 +5,7 @@
 > sessão dedicada.
 
 > **Atualização de preço (05/ago/2026):** a mensalidade do OCEO mudou de
-> R$ 2.500 pra **R$ 3.500 (modelo híbrido)** — os números de economia
+> R$ 2.500 pra **R$ 3.500 (simples, mas completo)** — os números de economia
 > abaixo ainda usam R$ 2.500. Números recalculados com o preço novo estão
 > no material consolidado (`oceo-cinco-pilares-2026-08-05.html`).
 

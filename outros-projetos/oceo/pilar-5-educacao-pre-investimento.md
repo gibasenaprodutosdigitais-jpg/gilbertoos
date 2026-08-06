@@ -7,7 +7,7 @@
 > recomenda produto individualizado.
 >
 > **Atualização de preço (05/ago/2026):** mensalidade do OCEO mudou de
-> R$ 2.500 pra **R$ 3.500 (modelo híbrido)** — números abaixo ainda usam
+> R$ 2.500 pra **R$ 3.500 (simples, mas completo)** — números abaixo ainda usam
 > R$ 2.500. Recalculado no material consolidado
 > (`oceo-cinco-pilares-2026-08-05.html`).
 

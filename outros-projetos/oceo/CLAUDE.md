@@ -40,12 +40,12 @@ gestão empresarial (ERP + BI) do Grupo Sena.
 
 ## Preço do OCEO (atualizado 05/ago/2026)
 
-Setup R$ 12.500 (único) + **mensalidade R$ 3.500/mês, modelo híbrido**
-(antes era R$ 2.500 — o PDF de 27 páginas do business plan geral ainda não
-foi regerado com o valor novo). "Híbrido" é interpretação de trabalho, não
-confirmada com o Gilberto: mensalidade fixa + repasse de custo variável já
-identificado (WhatsApp Business API acima da franquia grátis, Pilar 4).
-Confirmar antes de pitch formal.
+Setup R$ 12.500 (único) + **mensalidade R$ 3.500/mês, simples, mas
+completo** (antes era R$ 2.500 — o PDF de 27 páginas do business plan
+geral ainda não foi regerado com o valor novo; renomeado de "modelo
+híbrido" em 06/ago/2026). Continua sendo mensalidade fixa + repasse de
+custo variável já identificado (WhatsApp Business API acima da franquia
+grátis, Pilar GM).
 
 ## Regra-mãe herdada do GilbertoOS (vale aqui também)
 
@@ -73,10 +73,9 @@ comparativo de custo. Pendências reais que sobraram, por pilar:
   (conversa) na margem do OCEO.
 - **GI (Pilar 5):** redigir e validar com jurídico o texto padrão de
   disclaimer (conteúdo educacional, não recomendação individualizada).
-- **Geral:** confirmar com o Gilberto o que "híbrido" significa de fato no
-  preço novo (R$ 3.500/mês) — ver seção de preço acima, é interpretação
-  minha ainda não validada. Regerar o PDF de 27 páginas do business plan
-  geral com o preço/comparativos atualizados, quando fizer sentido.
+- **Geral:** regerar o PDF de 27 páginas do business plan geral com o
+  preço/comparativos atualizados (R$ 3.500, simples mas completo), quando
+  fizer sentido.
 
 Próxima frente ainda não definida — em aberto pro Gilberto trazer o
 Pilar 6 (se houver) ou aprofundar pendências acima.
