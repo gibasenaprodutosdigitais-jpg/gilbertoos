@@ -4,10 +4,8 @@
 > da própria empresa. Cobre tanto o marketing do negócio quanto do
 > empresário.
 >
-> **Atualização de preço (05/ago/2026):** mensalidade do OCEO mudou de
-> R$ 2.500 pra **R$ 3.500 (simples, mas completo)** — números abaixo ainda usam
-> R$ 2.500. Recalculado no material consolidado
-> (`oceo-cinco-pilares-2026-08-05.html`).
+> **Preço do OCEO:** R$ 3.500/mês, simples, mas completo. Ver também o
+> material consolidado (`oceo-cinco-pilares-2026-08-05.html`).
 
 ## O que é
 
@@ -32,7 +30,7 @@ agente de IA, do funil até o fechamento.
   orçamento à parte do cliente, não está incluída na mensalidade do OCEO —
   mesma lógica do "honorário externo continua sendo pago à parte" já
   estabelecida no Pilar 1. Precisa deixar isso explícito no pitch, senão
-  parece que R$ 2.500/mês cobre verba de anúncio.
+  parece que R$ 3.500/mês cobre verba de anúncio.
 - **Titularidade fechada (05/ago/2026):** modelo padrão de mercado — o
   cliente é dono do Business Manager/conta de anúncio (Meta e Google
   seguem a mesma lógica: conta vinculada ao CNPJ do cliente), o OCEO entra
@@ -103,9 +101,9 @@ Com o mesmo fator de encargos usado nos demais pilares (~80%):
 | | Custo mensal |
 | --- | --- |
 | Montar equipe interna (Marketing + Tráfego + SDR) | R$ 26.037,05 |
-| OCEO (mensalidade) | R$ 2.500,00 |
-| **Economia mensal** | **R$ 23.537,05 (90,4%)** |
-| Payback do setup (R$ 12.500) | ≈ 16 dias |
+| OCEO (mensalidade) | R$ 3.500,00 |
+| **Economia mensal** | **R$ 22.537,05 (86,6%)** |
+| Payback do setup (R$ 12.500) | ≈ 17 dias |
 
 **Leitura pro pitch:** número mais forte entre os pilares até agora — mas
 com a mesma ressalva: a verba de mídia (tráfego pago) **não está** nesse

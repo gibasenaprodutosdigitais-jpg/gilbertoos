@@ -3,10 +3,8 @@
 > **Código: GJ.** Advogado consultivo interno — mesmo modelo operante do
 > Pilar 1 (contabilidade consultiva).
 >
-> **Atualização de preço (05/ago/2026):** mensalidade do OCEO mudou de
-> R$ 2.500 pra **R$ 3.500 (simples, mas completo)** — números abaixo ainda usam
-> R$ 2.500. Recalculado no material consolidado
-> (`oceo-cinco-pilares-2026-08-05.html`).
+> **Preço do OCEO:** R$ 3.500/mês, simples, mas completo. Ver também o
+> material consolidado (`oceo-cinco-pilares-2026-08-05.html`).
 
 ## Por que estratégico
 
@@ -126,9 +124,9 @@ tributário-jurídico.
 
 Com o mesmo fator de encargos usado nos demais pilares (~80%):
 
-| Perfil | Salário base | Custo total c/ encargos | x OCEO (R$ 2.500) | Economia |
+| Perfil | Salário base | Custo total c/ encargos | x OCEO (R$ 3.500) | Economia |
 | --- | --- | --- | --- | --- |
-| Advogado Empresarial (CAGED) | R$ 8.956,85 | R$ 16.122,33 | R$ 2.500 | R$ 13.622,33 (84,5%) |
+| Advogado Empresarial (CAGED) | R$ 8.956,85 | R$ 16.122,33 | R$ 3.500 | R$ 12.622,33 (78,3%) |
 
 **Leitura pro pitch:** mesma lógica do Pilar 2 — a PME-alvo (R$ 50.000+/mês
 de faturamento) não contrata um advogado empresarial interno, mas sente a

@@ -4,10 +4,9 @@
 > pasta. Ainda sem número nem estrutura fechada — é a base pra próxima
 > sessão dedicada.
 
-> **Atualização de preço (05/ago/2026):** a mensalidade do OCEO mudou de
-> R$ 2.500 pra **R$ 3.500 (simples, mas completo)** — os números de economia
-> abaixo ainda usam R$ 2.500. Números recalculados com o preço novo estão
-> no material consolidado (`oceo-cinco-pilares-2026-08-05.html`).
+> **Preço do OCEO:** R$ 3.500/mês, simples, mas completo — cobre este e os
+> demais pilares. Ver também o material consolidado
+> (`oceo-cinco-pilares-2026-08-05.html`).
 
 ## O modelo (evoluído com o Gilberto ao longo de 05/ago/2026)
 
@@ -106,9 +105,9 @@ INSS patronal, 13º, férias+1/3):
 | | Custo mensal |
 | --- | --- |
 | Montar equipe interna (Contábil + Fiscal + DP + RH) | R$ 30.834,39 |
-| OCEO (mensalidade) | R$ 2.500,00 |
-| **Economia mensal** | **R$ 28.334,39 (91,9%)** |
-| Payback do setup (R$ 12.500) | ≈ 13 dias |
+| OCEO (mensalidade) | R$ 3.500,00 |
+| **Economia mensal** | **R$ 27.334,39 (88,6%)** |
+| Payback do setup (R$ 12.500) | ≈ 14 dias |
 
 **Leitura pro pitch:** o módulo não concorre com o honorário do escritório
 externo (esse continua sendo pago à parte) — concorre com a decisão de

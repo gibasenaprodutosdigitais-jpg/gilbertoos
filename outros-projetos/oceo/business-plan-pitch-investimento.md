@@ -18,13 +18,11 @@ equipe, riscos e anexo de premissas.
 ## Preço do produto (fato, não premissa)
 
 - Setup (implantação): **R$ 12.500** (único)
-- Mensalidade: ~~R$ 2.500/mês~~ → **R$ 3.500/mês, simples, mas completo**
-  (atualizado 06/ago/2026, decisão do Gilberto — cobre os 5 pilares
-  registrados nesta pasta, renomeado de "modelo híbrido"). Mensalidade
-  fixa + repasse de custo variável identificado nos pilares (ex.:
-  conversas WhatsApp Business API acima da franquia grátis, Pilar GM;
-  verba de mídia paga sempre à parte, Pilar GM). O PDF de 27 páginas
-  gerado em 03/ago ainda traz o preço antigo (R$ 2.500) e os
+- Mensalidade: **R$ 3.500/mês, simples, mas completo** — cobre os 5
+  pilares registrados nesta pasta. Mensalidade fixa + repasse de custo
+  variável identificado nos pilares (ex.: conversas WhatsApp Business API
+  acima da franquia grátis, Pilar GM; verba de mídia paga sempre à parte,
+  Pilar GM). O PDF de 27 páginas gerado em 03/ago ainda traz o preço e os
   gráficos/comparativos antigos — precisa de nova geração se for usado
   externamente.
 
@@ -34,9 +32,9 @@ equipe, riscos e anexo de premissas.
   CAGED via salario.com.br, dados mar/2025–fev/2026).
 - Custo total do empregador com encargos trabalhistas (~80%: FGTS, INSS
   patronal, 13º, férias+1/3): **R$ 8.789,90/mês**.
-- Economia mensal com o OCEO: **R$ 6.289,90 (71,6%)**.
-- Payback do setup (R$ 12.500): **≈ 2 meses** de economia acumulada.
-- Economia acumulada em 3 anos: **R$ 213.940 (67,6%)**.
+- Economia mensal com o OCEO: **R$ 5.289,90 (60,2%)**.
+- Payback do setup (R$ 12.500): **≈ 2,4 meses** de economia acumulada.
+- Economia acumulada em 3 anos: **R$ 177.936,40 (56,2%)**.
 
 ## Premissas do modelo que PRECISAM ser validadas com o Gilberto/time OCEO antes de usar externamente
 

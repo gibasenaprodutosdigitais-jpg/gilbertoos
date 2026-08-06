@@ -6,10 +6,8 @@
 > educa e prepara o empresário pra investir, não promete criar renda nem
 > recomenda produto individualizado.
 >
-> **Atualização de preço (05/ago/2026):** mensalidade do OCEO mudou de
-> R$ 2.500 pra **R$ 3.500 (simples, mas completo)** — números abaixo ainda usam
-> R$ 2.500. Recalculado no material consolidado
-> (`oceo-cinco-pilares-2026-08-05.html`).
+> **Preço do OCEO:** R$ 3.500/mês, simples, mas completo. Ver também o
+> material consolidado (`oceo-cinco-pilares-2026-08-05.html`).
 
 > Mercado financeiro — só entra em ação depois que a empresa já tem o
 > ponto de equilíbrio (Pilar 2) coberto pela reserva.
@@ -117,7 +115,7 @@ AAI, não como funcionário). Então esse comparativo é mais artificial que
 os dos outros pilares — vale registrar isso no pitch, não esconder.
 
 Com o mesmo fator de encargos (~80%): **R$ 9.604,31/mês** de custo total,
-contra R$ 2.500 do OCEO — economia de R$ 7.104,31 (74%). Mas o argumento
+contra R$ 3.500 do OCEO — economia de R$ 6.104,31 (63,6%). Mas o argumento
 de venda real aqui provavelmente não é "substitui um analista CLT" — é
 "dá acesso a educação financeira estruturada que a PME hoje simplesmente
 não tem, ponto", isso pesa mais que o número de economia.

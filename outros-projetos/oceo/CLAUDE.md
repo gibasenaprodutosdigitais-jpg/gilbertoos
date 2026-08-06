@@ -16,12 +16,16 @@ gestão empresarial (ERP + BI) do Grupo Sena.
 
 - `business-plan-pitch-investimento.md` — resumo do business plan de 27
   páginas (PDF + HTML em `saidas/oceo-business-plan-2026-08-03/` no
-  GilbertoOS, cópia também no Desktop). **Preço desatualizado nesse PDF**
-  — ver seção de preço abaixo.
+  GilbertoOS, cópia também no Desktop). **O PDF de 27 páginas em si ainda
+  não foi regerado** com o preço/comparativos atuais — precisa nova
+  geração se for usado externamente.
 - `ideias-produto.md` — backlog bruto de ideias do Gilberto, com pointer
   pra onde cada ideia foi detalhada nos 5 pilares.
 - `OCEO - Business Plan e Pitch de Investimento.pdf` — documento geral,
-  27 páginas, ainda com preço antigo (R$ 2.500).
+  27 páginas (desatualizado, ver acima).
+- `OCEO - Business Plan (5 Pilares).pptx` — PowerPoint nativo (15 slides,
+  gráficos editáveis) com os 5 pilares, comparativo total e projeção de
+  mercado, gerado 06/ago/2026 via python-pptx.
 - **Os 5 pilares, cada um com código, escopo, funcionalidades e
   comparativo de custo (CAGED onde possível):**
   - `pilar-1-contabilidade-bi.md` — **GC**, Contabilidade/BI (Contábil,
@@ -38,14 +42,11 @@ gestão empresarial (ERP + BI) do Grupo Sena.
   total na última página), gerado 05/ago/2026 via Playwright (mesmo
   utilitário do carrossel, em `scripts/`).
 
-## Preço do OCEO (atualizado 05/ago/2026)
+## Preço do OCEO
 
 Setup R$ 12.500 (único) + **mensalidade R$ 3.500/mês, simples, mas
-completo** (antes era R$ 2.500 — o PDF de 27 páginas do business plan
-geral ainda não foi regerado com o valor novo; renomeado de "modelo
-híbrido" em 06/ago/2026). Continua sendo mensalidade fixa + repasse de
-custo variável já identificado (WhatsApp Business API acima da franquia
-grátis, Pilar GM).
+completo** — mensalidade fixa + repasse de custo variável já identificado
+(WhatsApp Business API acima da franquia grátis, Pilar GM).
 
 ## Regra-mãe herdada do GilbertoOS (vale aqui também)
 

@@ -4,10 +4,8 @@
 > bancos, pra dar ao empresário clareza sobre a real situação financeira
 > da empresa.
 >
-> **Atualização de preço (05/ago/2026):** mensalidade do OCEO mudou de
-> R$ 2.500 pra **R$ 3.500 (simples, mas completo)** — números abaixo ainda usam
-> R$ 2.500. Recalculado no material consolidado
-> (`oceo-cinco-pilares-2026-08-05.html`).
+> **Preço do OCEO:** R$ 3.500/mês, simples, mas completo. Ver também o
+> material consolidado (`oceo-cinco-pilares-2026-08-05.html`).
 
 ## Mercado-alvo (decisão do Gilberto, 05/ago/2026)
 
@@ -108,10 +106,10 @@ entrega leitura de DRE, ROI, valuation e política de reserva — decisão de
 nível diretoria**, não só lançamento operacional. É isso que justifica
 comparar com o cargo, não só com o analista.
 
-| Perfil | Salário base | Custo total c/ encargos | x OCEO (R$ 2.500) | Economia |
+| Perfil | Salário base | Custo total c/ encargos | x OCEO (R$ 3.500) | Economia |
 | --- | --- | --- | --- | --- |
-| Analista Financeiro (CAGED) | R$ 4.883,27 | R$ 8.789,90 | R$ 2.500 | R$ 6.289,90 (71,6%) |
-| Diretor Financeiro (CAGED) | R$ 24.106,54 | R$ 43.391,77 | R$ 2.500 | R$ 40.891,77 (94,2%) |
+| Analista Financeiro (CAGED) | R$ 4.883,27 | R$ 8.789,90 | R$ 3.500 | R$ 5.289,90 (60,2%) |
+| Diretor Financeiro (CAGED) | R$ 24.106,54 | R$ 43.391,77 | R$ 3.500 | R$ 39.891,77 (91,9%) |
 
 **Leitura pro pitch:** uma PME de R$ 50.000+/mês de faturamento não
 contrata um Diretor Financeiro — não cabe no caixa. O OCEO entrega esse
