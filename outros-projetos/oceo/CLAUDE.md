@@ -35,9 +35,10 @@ gestão empresarial (ERP + BI) do Grupo Sena.
   europeu (Portugal), preço em EUR, salários pesquisados em Indeed.pt/
   Jobted.pt/Talent.com Portugal, encargos calculados no modelo português
   (14 meses + TSU 23,75%, não o modelo brasileiro de ~80%). **Preço final
-  em EUR não está decidido** — o documento entrega piso (594 €, conversão
-  direta) e teto (19.954 €, custo de montar a equipe) pro Gilberto decidir.
-  Gerado 06/ago/2026.
+  em EUR decidido em 07/ago/2026: setup 2.950 € (único) + mensalidade
+  850 €/mês** — acima do piso de conversão direta (594 €) e bem abaixo do
+  teto de custo de equipe (19.954 €), 95,7% de economia. Gerado 06/ago/2026,
+  preço atualizado 07/ago/2026.
 - **Os 5 pilares, cada um com código, escopo, funcionalidades e
   comparativo de custo (CAGED onde possível):**
   - `pilar-1-contabilidade-bi.md` — **GC**, Contabilidade/BI (Contábil,
