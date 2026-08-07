@@ -13,6 +13,11 @@ scripts/.node-runtime/
 Thumbs.db
 desktop.ini
 
+# Arquivos de trava temporários do Office (PowerPoint/Word/Excel abertos)
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
 # Config local do Claude Code (específico de cada aparelho)
 .claude/settings.local.json
 
