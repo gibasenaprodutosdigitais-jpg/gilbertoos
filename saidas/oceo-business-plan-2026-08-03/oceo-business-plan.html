@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>OCEO — Business Plan &amp; Pitch de Investimento</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #FFFFFF;
+    color: #10182A;
+  }
+  :root {
+    --blue: #2a78d6;
+    --blue-dark: #17335c;
+    --orange: #eb6834;
+    --aqua: #1baf7a;
+    --green: #16A34A;
+    --red: #DC2626;
+    --navy: #0B1220;
+    --ink: #10182A;
+    --muted: #5B6579;
+    --line: #E3E7EF;
+    --bg-soft: #F5F7FB;
+  }
+  .page { min-height: 297mm; padding: 18mm 16mm; page-break-after: always; position: relative; }
+  .page.navy { background: var(--navy); color: #EAF0FF; }
+  .page.soft { background: var(--bg-soft); }
+
+  .eyebrow {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--blue);
+  }
+  .page.navy .eyebrow { color: #6FA8F0; }
+  h1.h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.01em; margin: 10px 0 4px 0; color: var(--ink); }
+  .page.navy h1.h1 { color: #FFFFFF; }
+  p.lead { font-size: 13px; color: var(--muted); max-width: 640px; line-height: 1.55; margin: 8px 0 18px 0; }
+  .page.navy p.lead { color: #B9C4DC; }
+
+  .rule { width: 46px; height: 3px; background: var(--blue); margin: 10px 0 18px 0; }
+
+  .card { background: #FFFFFF; border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+  .card h3 { font-size: 12.5px; font-weight: 700; color: var(--blue-dark); margin: 0 0 6px 0; }
+  .card p { font-size: 11px; line-height: 1.5; color: #333; margin: 0; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .grid4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; }
+
+  .kpi { background: #FFFFFF; border: 1px solid var(--line); border-radius: 8px; padding: 14px; text-align: center; }
+  .kpi .v { font-size: 24px; font-weight: 800; color: var(--blue-dark); }
+  .kpi .l { font-size: 9.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 4px; }
+
+  table.tbl { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  table.tbl th { background: var(--blue-dark); color: #fff; text-align: left; padding: 7px 9px; font-weight: 600; }
+  table.tbl td { padding: 6px 9px; border-bottom: 1px solid var(--line); }
+  table.tbl tr:nth-child(even) td { background: #FAFBFD; }
+  table.tbl td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.tbl td.pos { color: var(--green); font-weight: 700; }
+  table.tbl td.neg { color: var(--red); font-weight: 700; }
+
+  .footer { position: absolute; bottom: 12mm; left: 16mm; right: 16mm; display: flex; justify-content: space-between; font-size: 9px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
+  .page.navy .footer { color: #7C8AA8; border-top-color: #223055; }
+
+  .badge { display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 3px 9px; border-radius: 20px; }
+  .badge.blue { background: rgba(42,120,214,0.12); color: var(--blue-dark); }
+  .badge.orange { background: rgba(235,104,52,0.14); color: #a8451c; }
+  .badge.aqua { background: rgba(27,175,122,0.14); color: #0d7f57; }
+  .badge.green { background: rgba(22,163,74,0.14); color: #14532d; }
+  .badge.red { background: rgba(220,38,38,0.12); color: #7f1d1d; }
+
+  .legend { display: flex; gap: 18px; font-size: 10px; color: var(--muted); margin-top: 6px; }
+  .legend .dot { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 5px; vertical-align: middle; }
+
+  .oceo-logo { font-size: 22px; font-weight: 900; letter-spacing: 0.02em; color: #fff; }
+  .oceo-logo .dot { color: var(--blue); }
+
+  .cover {
+    height: 297mm; background: linear-gradient(160deg, #060A14 0%, #0B1220 55%, #0F1B33 100%);
+    color: #fff; display: flex; flex-direction: column; justify-content: center; padding: 26mm 20mm;
+    position: relative; overflow: hidden;
+  }
+  .cover .kicker { font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: #6FA8F0; font-weight: 700; margin-bottom: 22px; }
+  .cover h1 { font-size: 46px; font-weight: 900; line-height: 1.12; max-width: 620px; margin: 0 0 16px 0; }
+  .cover h1 span { color: var(--blue); }
+  .cover .subtitle { font-size: 16px; color: #B9C4DC; max-width: 520px; line-height: 1.5; margin-bottom: 36px; }
+  .cover .meta { font-size: 11.5px; color: #7C8AA8; line-height: 1.8; }
+  .cover .divider { width: 70px; height: 3px; background: var(--blue); margin: 24px 0; }
+
+  .section-num { font-size: 64px; font-weight: 900; color: rgba(255,255,255,0.08); position: absolute; top: 18mm; right: 18mm; }
+  .last-page { background: var(--navy); color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+  .last-page h2 { color: #fff; font-size: 26px; max-width: 560px; }
+  .last-page p { font-size: 13px; color: #A9B6D0; max-width: 520px; line-height: 1.6; }
+
+  /* charts */
+  .chart-wrap { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+  .chart-title { font-size: 12px; font-weight: 700; color: var(--blue-dark); margin-bottom: 2px; }
+  .chart-note { font-size: 9.5px; color: var(--muted); margin-bottom: 8px; }
+  svg text { font-family: 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="kicker">Business Plan &amp; Pitch de Investimento</div>
+  <h1>OCEO <span>Sistema de Gestão Empresarial</span></h1>
+  <div class="subtitle">Mais que um sistema. Uma nova forma de gerir o futuro — plano de negócio, análise de mercado e indicadores financeiros para captação de investimento.</div>
+  <div class="divider"></div>
+  <div class="meta">
+    Grupo Sena — Soluções Empresariais<br>
+    Gilberto Sena — CEO<br>
+    Documento confidencial · Agosto/2026 · Versão 1.0
+  </div>
+</div>
+
+<!-- METODOLOGIA / AVISO -->
+<div class="page soft">
+  <div class="eyebrow">Nota Metodológica</div>
+  <h1 class="h1">Como ler este documento</h1>
+  <div class="rule"></div>
+  <p class="lead">Transparência antes dos números: este plano combina três tipos de dado, marcados ao longo do texto.</p>
+  <div class="grid3" style="margin-top:10px;">
+    <div class="card"><h3><span class="badge blue">Fonte externa</span></h3><p style="margin-top:8px;">Dados de mercado, salários e concorrência vêm de fontes públicas citadas (SEBRAE, CAGED/salario.com.br, sites dos concorrentes). Rastreáveis e verificáveis.</p></div>
+    <div class="card"><h3><span class="badge orange">Fato do produto</span></h3><p style="margin-top:8px;">Descrição de módulos, precificação (setup R$12.500 + mensalidade R$2.500) e diferenciais vêm diretamente do briefing do Grupo Sena.</p></div>
+    <div class="card"><h3><span class="badge aqua">Premissa do modelo</span></h3><p style="margin-top:8px;">Projeções de clientes, receita, custo operacional, CAC e churn são estimativas ilustrativas para dar forma ao modelo — precisam ser validadas com dados reais de operação antes de qualquer decisão de investimento.</p></div>
+  </div>
+  <div class="card" style="margin-top:14px;">
+    <h3>Por que isso importa</h3>
+    <p>Um pitch que apresenta suposição como fato quebra a confiança do investidor no primeiro encontro com a realidade. Todas as premissas usadas neste modelo estão listadas de forma explícita no Anexo (última seção), para que o Grupo Sena valide, ajuste ou substitua cada uma com dados reais da operação.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>02</span></div>
+</div>
+
+<!-- SUMARIO EXECUTIVO -->
+<div class="page">
+  <div class="eyebrow">01 · Sumário Executivo</div>
+  <h1 class="h1">O que é o OCEO, em uma página</h1>
+  <div class="rule"></div>
+  <p class="lead">O OCEO é o sistema de gestão empresarial do Grupo Sena — um ERP completo (financeiro, vendas, estoque, produção, projetos, RH e BI) construído sobre 12 anos de prática real de consultoria empresarial, não sobre uma tese de startup genérica.</p>
+  <div class="grid4" style="margin-top:6px;">
+    <div class="kpi"><div class="v">R$ 12.500</div><div class="l">Setup (implantação)</div></div>
+    <div class="kpi"><div class="v">R$ 2.500</div><div class="l">Mensalidade</div></div>
+    <div class="kpi"><div class="v">~72%</div><div class="l">Economia vs. 1 profissional CLT</div></div>
+    <div class="kpi"><div class="v">24 mi</div><div class="l">Pequenos negócios no Brasil (TAM)</div></div>
+  </div>
+  <div class="grid2" style="margin-top:12px;">
+    <div class="card">
+      <h3>A tese central</h3>
+      <p>Toda empresa pequena e média no Brasil precisa de gestão financeira, comercial, de estoque e de pessoas — mas não pode pagar por uma equipe completa de analistas pra isso. O OCEO entrega essa gestão dentro de um único sistema, por uma fração do custo de contratar profissionais dedicados pra cada função.</p>
+    </div>
+    <div class="card">
+      <h3>Por que agora</h3>
+      <p>O Brasil vive a maior reforma tributária em décadas (IBS/CBS, split payment, obrigações fiscais digitais). PMEs despreparadas vão precisar de sistemas de gestão mais robustos exatamente nos próximos 24 meses — uma janela de demanda estrutural, não passageira.</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px;">
+    <h3>O pedido (resumo)</h3>
+    <p>Este documento apresenta o modelo de negócio, a análise de mercado, o comparativo de custo (profissional vs. sistema) e os indicadores financeiros do OCEO, com o objetivo de estruturar uma rodada de investimento para acelerar desenvolvimento de produto, comercial e operação. O valor da captação e a contrapartida societária estão em aberto — ver Seção 8 (Uso dos Recursos) — a serem definidos pelo Grupo Sena antes da apresentação a investidores.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>03</span></div>
+</div>
+
+<!-- O PROBLEMA -->
+<div class="page">
+  <div class="eyebrow">02 · O Problema</div>
+  <h1 class="h1">PMEs brasileiras gerem no escuro</h1>
+  <div class="rule"></div>
+  <p class="lead">O pequeno e médio empresário brasileiro fatura, mas frequentemente não sabe se está lucrando de verdade — porque a gestão da empresa mora em planilhas soltas, grupos de WhatsApp e na memória do dono.</p>
+  <div class="grid2">
+    <div class="card">
+      <h3>Sintomas recorrentes</h3>
+      <p>Mistura entre finanças pessoais (PF) e da empresa (PJ); ausência de ponto de equilíbrio calculado; decisão comercial sem dado de margem; estoque e produção sem controle real; RH sem processo de contratação estruturado; nenhum painel único que junte tudo isso.</p>
+    </div>
+    <div class="card">
+      <h3>A causa raiz</h3>
+      <p>Contratar uma estrutura completa (financeiro, comercial, RH, BI) custa caro demais pra maioria das PMEs — então a gestão vira improviso. Sistemas genéricos de mercado cobrem só um pedaço do problema (financeiro OU vendas), forçando o empresário a integrar vários sistemas por conta própria.</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px;">
+    <h3>O custo desse problema</h3>
+    <p>Segundo o SEBRAE, os pequenos negócios respondem por 26,5% do PIB brasileiro e representam 95% de todas as empresas do país — mas a taxa de mortalidade de pequenos negócios no Brasil segue historicamente ligada à falta de gestão financeira estruturada, não à falta de venda.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>04</span></div>
+</div>
+
+<!-- A SOLUCAO -->
+<div class="page navy">
+  <div class="eyebrow">03 · A Solução</div>
+  <h1 class="h1">OCEO: gestão completa em um único sistema</h1>
+  <div class="rule"></div>
+  <p class="lead">"O sucesso do seu negócio começa com uma gestão inteligente." — Gilberto Sena, CEO do Grupo Sena</p>
+  <div class="grid4" style="margin-top:10px;">
+    <div class="card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);"><h3 style="color:#fff;">Gestão Completa</h3><p style="color:#B9C4DC;">Financeiro, vendas, estoque, produção e projetos num só lugar.</p></div>
+    <div class="card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);"><h3 style="color:#fff;">Decisões Inteligentes</h3><p style="color:#B9C4DC;">BI e alertas que mostram a consequência antes da decisão errada.</p></div>
+    <div class="card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);"><h3 style="color:#fff;">Resultados Reais</h3><p style="color:#B9C4DC;">Ponto de equilíbrio, margem e EBITDA sempre visíveis.</p></div>
+    <div class="card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);"><h3 style="color:#fff;">Controle Total</h3><p style="color:#B9C4DC;">Do operacional ao jurídico, numa visão só.</p></div>
+  </div>
+  <div class="card" style="margin-top:14px; background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);">
+    <h3 style="color:#fff;">A origem da autoridade</h3>
+    <p style="color:#B9C4DC;">O OCEO não nasceu de uma tese de startup — nasceu de 12 anos de consultoria real do Grupo Sena, atendendo empresas em contabilidade, auditoria fiscal, assessoria jurídica e gestão empresarial. Cada módulo resolve uma dor que o Grupo Sena já resolveu manualmente, centenas de vezes, para clientes reais.</p>
+  </div>
+  <div class="footer" style="color:#7C8AA8; border-top-color:#223055;"><span>OCEO · Business Plan</span><span>05</span></div>
+</div>
+
+<!-- MODULOS -->
+<div class="page">
+  <div class="eyebrow">04 · Produto</div>
+  <h1 class="h1">Os 11 módulos do sistema</h1>
+  <div class="rule"></div>
+  <div class="grid4">
+    <div class="card"><h3>Dashboard</h3><p>Visão geral de resultado em tempo real.</p></div>
+    <div class="card"><h3>Financeiro</h3><p>Fluxo de caixa, contas a pagar/receber, DRE.</p></div>
+    <div class="card"><h3>Vendas (CRM)</h3><p>Funil comercial e relacionamento com cliente.</p></div>
+    <div class="card"><h3>Compras</h3><p>Gestão de fornecedores e pedidos.</p></div>
+    <div class="card"><h3>Estoque</h3><p>Controle de inventário em tempo real.</p></div>
+    <div class="card"><h3>Produção</h3><p>Ordens de produção e capacidade.</p></div>
+    <div class="card"><h3>Projetos</h3><p>Acompanhamento de entregas e prazos.</p></div>
+    <div class="card"><h3>Recursos Humanos</h3><p>Departamento pessoal e análise comportamental.</p></div>
+    <div class="card"><h3>BI · Inteligência</h3><p>Cruzamento de dados entre todas as áreas.</p></div>
+    <div class="card"><h3>Relatórios</h3><p>Exportação e prestação de contas.</p></div>
+    <div class="card"><h3>Configurações</h3><p>Parametrização por tipo de negócio.</p></div>
+    <div class="card" style="background:var(--blue-dark); border-color:var(--blue-dark);"><h3 style="color:#fff;">+ Automação, Integração e Mobilidade</h3><p style="color:#D9E6FA;">Processos automatizados, acesso multi-dispositivo e integração completa entre módulos.</p></div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>06</span></div>
+</div>
+
+<!-- DIFERENCIAIS -->
+<div class="page soft">
+  <div class="eyebrow">05 · Diferenciais de Produto</div>
+  <h1 class="h1">O que nenhum concorrente entrega hoje</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div class="card">
+      <h3>1 · Separação automática PF x PJ</h3>
+      <p>A maioria dos empresários mistura finanças pessoais e da empresa. O sistema separa isso automaticamente e torna essa clareza visual — o próprio empresário passa a enxergar, na prática, por que não pode misturar as duas contas.</p>
+    </div>
+    <div class="card">
+      <h3>2 · Alertas de consequência</h3>
+      <p>O dashboard não apenas mostra números — mostra a consequência prevista caso o empresário não siga a orientação que o próprio sistema deu. Gráficos separados por área, não uma visão só misturada.</p>
+    </div>
+    <div class="card">
+      <h3>3 · O sistema orienta, não decide</h3>
+      <p>Mesmo com os alertas, a decisão final é sempre do empresário. O OCEO informa o risco com clareza — não trava a operação nem decide no lugar de quem administra o negócio.</p>
+    </div>
+    <div class="card">
+      <h3>4 · Escopo híbrido de ciclo completo</h3>
+      <p>Operacional, financeiro/contábil, jurídico, marketing/vendas e — em desenvolvimento — módulo de sugestão de investimentos no fechamento mensal, apoiado na habilitação de Agente Autônomo de Investimento (AAI/ANCORD) do CEO.</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px; border-color: var(--aqua);">
+    <h3 style="color:#0d7f57;">Ponto de atenção regulatório</h3>
+    <p>O módulo de sugestão de investimentos (B3, forex, cripto) toca em atividade regulada pela CVM. Recomenda-se validação formal com jurídico especializado se a sugestão evoluir de conteúdo educacional para recomendação personalizada, antes do lançamento comercial dessa função.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>07</span></div>
+</div>
+
+<!-- MERCADO TAMANHO -->
+<div class="page">
+  <div class="eyebrow">06 · Análise de Mercado</div>
+  <h1 class="h1">Tamanho de mercado — TAM / SAM / SOM</h1>
+  <div class="rule"></div>
+  <div class="chart-wrap">
+    <div class="chart-title">Funil de mercado endereçável</div>
+    <div class="chart-note">Ilustrativo — as três camadas não estão em escala linear entre si, dada a diferença de ordens de grandeza. <span class="badge blue">Fonte externa</span> para TAM/SAM · <span class="badge aqua">Premissa do modelo</span> para SOM.</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <polygon points="60,20 640,20 560,110 140,110" fill="#2a78d6" opacity="0.9"/>
+      <text x="350" y="55" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">TAM — 24.000.000</text>
+      <text x="350" y="76" text-anchor="middle" fill="#EAF2FF" font-size="10.5">Pequenos negócios ativos no Brasil (SEBRAE, 2025)</text>
+
+      <polygon points="140,120 560,120 480,200 220,200" fill="#eb6834" opacity="0.92"/>
+      <text x="350" y="150" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">SAM — 5.520.000</text>
+      <text x="350" y="170" text-anchor="middle" fill="#FFEDE3" font-size="10">Microempresas + Empresas de Pequeno Porte (23% do TAM)</text>
+
+      <polygon points="220,210 480,210 440,270 260,270" fill="#1baf7a"/>
+      <text x="350" y="245" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">SOM — até 2.750</text>
+    </svg>
+  </div>
+  <div class="grid3" style="margin-top:12px;">
+    <div class="card"><h3>TAM <span class="badge blue">fonte externa</span></h3><p>24 milhões de pequenos negócios ativos no Brasil — 95% de todas as empresas do país (SEBRAE, 2025).</p></div>
+    <div class="card"><h3>SAM <span class="badge blue">fonte externa</span></h3><p>Microempresas (19%) + Empresas de Pequeno Porte (4%) = 23% do TAM — segmento com operação estruturada o bastante para precisar de um ERP completo.</p></div>
+    <div class="card"><h3>SOM <span class="badge aqua">premissa</span></h3><p>Fatia realista alcançável em 3 anos (0,01%–0,05% da SAM), via canal comercial direto + base de clientes de contabilidade/consultoria do Grupo Sena.</p></div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>08</span></div>
+</div>
+
+<!-- SEGMENTACAO -->
+<div class="page">
+  <div class="eyebrow">06 · Análise de Mercado</div>
+  <h1 class="h1">Público-alvo e segmentação</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Perfil primário</h3>
+      <p>Empresas de pequeno porte (faturamento entre R$360 mil e R$4,8 milhões/ano) que já saíram do estágio de MEI, têm ao menos 1 funcionário administrativo e sentem a dor de gerir sem sistema — comércio, serviços e pequena indústria.</p>
+    </div>
+    <div class="card">
+      <h3>Canal de entrada natural</h3>
+      <p>A base de clientes de contabilidade e consultoria do Grupo Sena (6 escritórios: BH, Goiânia, Parauapebas, São Paulo, Brasília, Vitória) é o canal de menor custo de aquisição — já existe confiança e relacionamento comercial estabelecido.</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px;">
+    <h3>Gatilho estrutural de demanda — Reforma Tributária</h3>
+    <p>A transição para IBS/CBS, o Split Payment (a partir de 2027) e o fim do PIS/Cofins tornam obrigatório um nível de organização fiscal que a maioria das PMEs não tem hoje. Esse é o melhor momento em uma década para vender um sistema de gestão — não é uma tendência genérica de "transformação digital", é uma obrigação legal com prazo.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>09</span></div>
+</div>
+
+<!-- CONCORRENCIA -->
+<div class="page soft">
+  <div class="eyebrow">07 · Análise Competitiva</div>
+  <h1 class="h1">Onde o OCEO se posiciona</h1>
+  <div class="rule"></div>
+  <table class="tbl">
+    <tr><th>Concorrente</th><th>Foco</th><th>Mensalidade típica</th><th>Cobre RH/Produção/BI?</th></tr>
+    <tr><td>Totvs / SAP / Oracle</td><td>Grandes empresas — 77% do mercado nacional de ERP</td><td class="num">Alto custo, implantação longa</td><td>Sim, mas fora do orçamento de PME</td></tr>
+    <tr><td>Bling</td><td>Emissão fiscal e e-commerce</td><td class="num">R$ 250 – R$ 800</td><td>Não</td></tr>
+    <tr><td>Conta Azul</td><td>Financeiro e contábil básico</td><td class="num">R$ 220 – R$ 650</td><td>Não</td></tr>
+    <tr><td>Omie</td><td>Gestão financeira para PMEs</td><td class="num">R$ 450 – R$ 1.800</td><td>Parcial</td></tr>
+    <tr><td style="font-weight:800; color:var(--blue-dark);">OCEO</td><td style="font-weight:700;">Gestão completa: financeiro + comercial + estoque + produção + RH + BI</td><td class="num" style="font-weight:800; color:var(--blue-dark);">R$ 2.500</td><td style="font-weight:800; color:var(--green);">Sim, nativamente</td></tr>
+  </table>
+  <div class="card" style="margin-top:14px;">
+    <h3>Leitura do comparativo</h3>
+    <p>O OCEO custa mais por mês que as ferramentas de nicho — porque substitui várias delas ao mesmo tempo, além de cobrir RH e produção, que nenhuma concorrente de PME oferece de forma nativa. A comparação relevante não é "sistema contra sistema", é "sistema contra o custo de montar a estrutura interna equivalente" — ver Seção 9.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>10</span></div>
+</div>
+
+<!-- TENDENCIAS -->
+<div class="page">
+  <div class="eyebrow">07 · Análise Competitiva</div>
+  <h1 class="h1">Tendências que sustentam a tese</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div class="card"><h3>Reforma Tributária (IBS/CBS)</h3><p>Split Payment, fim do PIS/Cofins e novo regime de créditos obrigam PMEs a formalizar processos que hoje são manuais.</p></div>
+    <div class="card"><h3>Mercado de ERP em expansão</h3><p>Mercado global de ERP avaliado em US$ 71,6–92,6 bi (2025), com CAGR entre 9% e 13% ao ano projetado até 2031.</p></div>
+    <div class="card"><h3>Escassez de mão de obra qualificada</h3><p>PMEs relatam dificuldade de contratar profissionais de gestão qualificados — um sistema que substitui parte dessa função reduz essa dependência.</p></div>
+    <div class="card"><h3>IA aplicada à gestão</h3><p>A nova geração de sistemas de gestão (2026) incorpora inteligência de dados e alertas preditivos como padrão — o módulo de BI do OCEO já nasce alinhado a essa direção.</p></div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>11</span></div>
+</div>
+
+<!-- MODELO DE NEGOCIO -->
+<div class="page">
+  <div class="eyebrow">08 · Modelo de Negócio</div>
+  <h1 class="h1">Como o OCEO ganha dinheiro</h1>
+  <div class="rule"></div>
+  <div class="grid3">
+    <div class="kpi"><div class="v">R$ 12.500</div><div class="l">Setup (receita única na entrada)</div></div>
+    <div class="kpi"><div class="v">R$ 2.500 /mês</div><div class="l">Mensalidade (receita recorrente)</div></div>
+    <div class="kpi"><div class="v">SaaS B2B</div><div class="l">Modelo de assinatura mensal</div></div>
+  </div>
+  <div class="grid2" style="margin-top:12px;">
+    <div class="card">
+      <h3>Receita de implantação (setup)</h3>
+      <p>Cobre configuração inicial, migração de dados, parametrização por tipo de negócio e treinamento da equipe do cliente — cobrada uma única vez, na entrada de cada novo cliente.</p>
+    </div>
+    <div class="card">
+      <h3>Receita recorrente (mensalidade)</h3>
+      <p>Cobre acesso contínuo a todos os módulos, suporte, atualizações e infraestrutura — é o motor de receita recorrente (MRR/ARR) que sustenta o valuation do negócio ao longo do tempo.</p>
+    </div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>12</span></div>
+</div>
+
+<!-- CUSTO DO PRODUTO -->
+<div class="page soft">
+  <div class="eyebrow">08 · Modelo de Negócio</div>
+  <h1 class="h1">Estrutura de custo do OCEO (visão do Grupo Sena)</h1>
+  <div class="rule"></div>
+  <p class="lead"><span class="badge aqua">Premissa do modelo</span> — a validar com o time técnico e financeiro do Grupo Sena.</p>
+  <table class="tbl">
+    <tr><th>Categoria de custo</th><th>O que cobre</th><th>Natureza</th></tr>
+    <tr><td>Equipe de desenvolvimento</td><td>Manutenção e evolução do sistema</td><td>Fixo</td></tr>
+    <tr><td>Suporte e sucesso do cliente</td><td>Atendimento, onboarding, retenção</td><td>Semi-variável (escala com clientes)</td></tr>
+    <tr><td>Infraestrutura (cloud)</td><td>Servidores, armazenamento, segurança</td><td>Variável (por cliente/uso)</td></tr>
+    <tr><td>Comercial e marketing</td><td>Aquisição de novos clientes</td><td>Variável (por cliente adquirido)</td></tr>
+    <tr><td>Administrativo</td><td>Gestão, jurídico, financeiro do próprio OCEO</td><td>Fixo</td></tr>
+  </table>
+  <div class="footer"><span>OCEO · Business Plan</span><span>13</span></div>
+</div>
+
+<!-- COMPARATIVO CENTRAL: PROFISSIONAL X SISTEMA -->
+<div class="page">
+  <div class="section-num" style="color:rgba(0,0,0,0.05);">09</div>
+  <div class="eyebrow">09 · Comparativo Central</div>
+  <h1 class="h1">Custo do profissional vs. custo do sistema</h1>
+  <div class="rule"></div>
+  <p class="lead">O ponto mais importante deste plano: quanto custa resolver a gestão contratando um profissional dedicado, comparado a assinar o OCEO. <span class="badge blue">Fonte externa</span> para o salário; <span class="badge orange">fato do produto</span> para o preço do OCEO.</p>
+  <table class="tbl">
+    <tr><th>Item</th><th>Profissional CLT (Analista Financeiro)</th><th>OCEO</th></tr>
+    <tr><td>Salário/mensalidade base</td><td class="num">R$ 4.883,27 (média CAGED, 2026)</td><td class="num">R$ 2.500,00</td></tr>
+    <tr><td>Encargos trabalhistas (~80%: FGTS, INSS patronal, 13º, férias+1/3)</td><td class="num">+ R$ 3.906,62</td><td class="num">—</td></tr>
+    <tr><td style="font-weight:800;">Custo mensal total</td><td class="num" style="font-weight:800;">R$ 8.789,90</td><td class="num" style="font-weight:800; color:var(--blue-dark);">R$ 2.500,00</td></tr>
+    <tr><td style="font-weight:800;">Economia mensal com o OCEO</td><td colspan="2" class="num pos" style="font-weight:800;">R$ 6.289,90 / mês (71,6%)</td></tr>
+  </table>
+  <div class="card" style="margin-top:14px; border-color: var(--blue);">
+    <h3>Leitura honesta do comparativo</h3>
+    <p>Um analista financeiro cobre só a parte financeira da gestão. O OCEO, pelo mesmo orçamento de um único profissional, cobre financeiro, vendas, estoque, produção, RH e BI ao mesmo tempo — o comparativo abaixo é conservador porque assume apenas 1 profissional contra a solução completa.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>14</span></div>
+</div>
+
+<!-- GRAFICO MENSAL -->
+<div class="page soft">
+  <div class="eyebrow">09 · Comparativo Central</div>
+  <h1 class="h1">Custo mensal — comparação direta</h1>
+  <div class="rule"></div>
+  <div class="chart-wrap">
+    <div class="chart-title">Custo mensal: Profissional CLT vs. OCEO</div>
+    <div class="chart-note">Valores em R$. Custo do profissional inclui encargos trabalhistas médios (~80% sobre o salário bruto).</div>
+    <svg viewBox="0 0 700 320" width="100%" height="320">
+      <line x1="70" y1="270" x2="650" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <!-- profissional bar -->
+      <rect x="200" y="60" width="110" height="210" rx="4" fill="#eb6834"/>
+      <text x="255" y="50" text-anchor="middle" font-size="15" font-weight="800" fill="#a8451c">R$ 8.789,90</text>
+      <text x="255" y="292" text-anchor="middle" font-size="11" fill="#5B6579">Profissional CLT</text>
+      <!-- oceo bar -->
+      <rect x="390" y="210" width="110" height="60" rx="4" fill="#2a78d6"/>
+      <text x="445" y="200" text-anchor="middle" font-size="15" font-weight="800" fill="#17335c">R$ 2.500,00</text>
+      <text x="445" y="292" text-anchor="middle" font-size="11" fill="#5B6579">OCEO</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Custo Profissional (CLT completo)</span><span><span class="dot" style="background:#2a78d6;"></span>Custo OCEO (mensalidade)</span></div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>15</span></div>
+</div>
+
+<!-- GRAFICO ACUMULADO 36 MESES -->
+<div class="page">
+  <div class="eyebrow">09 · Comparativo Central</div>
+  <h1 class="h1">Custo acumulado em 36 meses</h1>
+  <div class="rule"></div>
+  <div class="chart-wrap">
+    <div class="chart-title">Custo acumulado: setup + mensalidade (OCEO) vs. custo total do profissional</div>
+    <div class="chart-note">O investimento inicial de R$ 12.500 se paga em ≈ 2 meses de economia mensal.</div>
+    <svg viewBox="0 0 700 340" width="100%" height="340">
+      <!-- axes -->
+      <line x1="60" y1="20" x2="60" y2="280" stroke="#C7D0E0" stroke-width="1"/>
+      <line x1="60" y1="280" x2="660" y2="280" stroke="#C7D0E0" stroke-width="1"/>
+      <text x="30" y="285" font-size="9" fill="#8892A6">0</text>
+      <text x="10" y="30" font-size="9" fill="#8892A6">R$320k</text>
+      <text x="18" y="155" font-size="9" fill="#8892A6">R$160k</text>
+      <!-- gridlines -->
+      <line x1="60" y1="150" x2="660" y2="150" stroke="#EEF1F6" stroke-width="1"/>
+      <!-- profissional line: 0 -> 316440 linear -->
+      <polyline points="60,280 660,26" fill="none" stroke="#eb6834" stroke-width="3"/>
+      <!-- oceo line: starts at 12500 (setup) then +2500/month -->
+      <polyline points="60,271 660,255" fill="none" stroke="#2a78d6" stroke-width="3"/>
+      <circle cx="660" cy="26" r="4" fill="#eb6834"/>
+      <text x="600" y="16" font-size="11" font-weight="800" fill="#a8451c">R$ 316.440</text>
+      <circle cx="660" cy="255" r="4" fill="#2a78d6"/>
+      <text x="560" y="248" font-size="11" font-weight="800" fill="#17335c">R$ 102.500 (setup + 36 meses)</text>
+      <!-- crossover marker -->
+      <circle cx="93" cy="264" r="3.5" fill="#16A34A"/>
+      <text x="100" y="245" font-size="9.5" fill="#14532d" font-weight="700">Payback do setup: ~2 meses</text>
+      <text x="330" y="300" text-anchor="middle" font-size="10" fill="#5B6579">Meses (0 → 36)</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Custo acumulado — Profissional CLT</span><span><span class="dot" style="background:#2a78d6;"></span>Custo acumulado — OCEO</span></div>
+  </div>
+  <div class="grid3" style="margin-top:12px;">
+    <div class="kpi"><div class="v">R$ 62.980</div><div class="l">Economia — Ano 1</div></div>
+    <div class="kpi"><div class="v">R$ 213.940</div><div class="l">Economia acumulada — 3 anos</div></div>
+    <div class="kpi"><div class="v">67,6%</div><div class="l">Economia percentual — 3 anos</div></div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>16</span></div>
+</div>
+
+<!-- INDICADORES FINANCEIROS -->
+<div class="page soft">
+  <div class="eyebrow">10 · Indicadores Financeiros</div>
+  <h1 class="h1">CAC, LTV, churn e margem</h1>
+  <div class="rule"></div>
+  <p class="lead"><span class="badge aqua">Premissas do modelo</span> — validar com dados reais assim que houver base operacional.</p>
+  <div class="grid4">
+    <div class="kpi"><div class="v">R$ 3.000</div><div class="l">CAC estimado</div></div>
+    <div class="kpi"><div class="v">3% /mês</div><div class="l">Churn mensal estimado</div></div>
+    <div class="kpi"><div class="v">R$ 95.000</div><div class="l">LTV estimado (33 meses + setup)</div></div>
+    <div class="kpi"><div class="v">~31,7x</div><div class="l">Relação LTV/CAC</div></div>
+  </div>
+  <div class="card" style="margin-top:14px;">
+    <h3>Por que o LTV/CAC parece alto</h3>
+    <p>Uma relação de ~31x está bem acima do benchmark saudável de SaaS (3x). Isso reflete o alto custo de troca de um ERP (uma vez implantado, a empresa raramente migra) — mas é uma premissa que deve ser tratada com cautela até validada com churn real de clientes operando por 12+ meses.</p>
+  </div>
+  <div class="grid2" style="margin-top:12px;">
+    <div class="card"><h3>Margem de contribuição por cliente</h3><p>Receita mensal R$ 2.500 − custo variável de servir (~R$ 375, 15%) = <strong>R$ 2.125 (85%)</strong> de margem de contribuição por cliente ativo.</p></div>
+    <div class="card"><h3>Ponto de equilíbrio operacional</h3><p>Custo fixo mensal estimado (R$ 150.000) ÷ margem de contribuição (R$ 2.125) = <strong>≈ 71 clientes</strong> para o OCEO empatar o próprio custo fixo operacional.</p></div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>17</span></div>
+</div>
+
+<!-- PROJECAO CLIENTES -->
+<div class="page">
+  <div class="eyebrow">11 · Projeções</div>
+  <h1 class="h1">Projeção de clientes — 3 cenários</h1>
+  <div class="rule"></div>
+  <div class="chart-wrap">
+    <div class="chart-title">Número de clientes ativos ao final de cada ano</div>
+    <div class="chart-note">Cenário base assume canal comercial direto + base de clientes de contabilidade/consultoria do Grupo Sena.</div>
+    <svg viewBox="0 0 700 320" width="100%" height="320">
+      <line x1="60" y1="270" x2="660" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <line x1="60" y1="20" x2="60" y2="270" stroke="#C7D0E0" stroke-width="1"/>
+      <!-- otimista -->
+      <polyline points="120,255 370,190 600,55" fill="none" stroke="#1baf7a" stroke-width="3"/>
+      <circle cx="120" cy="255" r="4" fill="#1baf7a"/><circle cx="370" cy="190" r="4" fill="#1baf7a"/><circle cx="600" cy="55" r="4" fill="#1baf7a"/>
+      <text x="613" y="52" font-size="11.5" font-weight="700" fill="#0d7f57">560</text>
+      <!-- base -->
+      <polyline points="120,260 370,210 600,100" fill="none" stroke="#2a78d6" stroke-width="3"/>
+      <circle cx="120" cy="260" r="4" fill="#2a78d6"/><circle cx="370" cy="210" r="4" fill="#2a78d6"/><circle cx="600" cy="100" r="4" fill="#2a78d6"/>
+      <text x="613" y="97" font-size="11.5" font-weight="700" fill="#17335c">400</text>
+      <!-- conservador -->
+      <polyline points="120,264 370,230 600,148" fill="none" stroke="#eb6834" stroke-width="3"/>
+      <circle cx="120" cy="264" r="4" fill="#eb6834"/><circle cx="370" cy="230" r="4" fill="#eb6834"/><circle cx="600" cy="148" r="4" fill="#eb6834"/>
+      <text x="613" y="145" font-size="11.5" font-weight="700" fill="#a8451c">240</text>
+      <text x="120" y="288" text-anchor="middle" font-size="10.5" fill="#5B6579">Ano 1</text>
+      <text x="370" y="288" text-anchor="middle" font-size="10.5" fill="#5B6579">Ano 2</text>
+      <text x="600" y="288" text-anchor="middle" font-size="10.5" fill="#5B6579">Ano 3</text>
+    </svg>
+    <div class="legend"><span><span class="dot" style="background:#eb6834;"></span>Conservador</span><span><span class="dot" style="background:#2a78d6;"></span>Base</span><span><span class="dot" style="background:#1baf7a;"></span>Otimista</span></div>
+  </div>
+  <table class="tbl" style="margin-top:12px;">
+    <tr><th>Cenário</th><th>Ano 1</th><th>Ano 2</th><th>Ano 3</th></tr>
+    <tr><td>Conservador</td><td class="num">25</td><td class="num">90</td><td class="num">240</td></tr>
+    <tr><td style="font-weight:800;">Base</td><td class="num" style="font-weight:800;">40</td><td class="num" style="font-weight:800;">150</td><td class="num" style="font-weight:800;">400</td></tr>
+    <tr><td>Otimista</td><td class="num">55</td><td class="num">210</td><td class="num">560</td></tr>
+  </table>
+  <div class="footer"><span>OCEO · Business Plan</span><span>18</span></div>
+</div>
+
+<!-- PROJECAO MRR -->
+<div class="page soft">
+  <div class="eyebrow">11 · Projeções</div>
+  <h1 class="h1">Receita recorrente mensal (MRR) — cenário base</h1>
+  <div class="rule"></div>
+  <div class="chart-wrap">
+    <div class="chart-title">MRR ao final de cada ano (cenário base)</div>
+    <div class="chart-note">MRR = número de clientes ativos × R$ 2.500/mês.</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <line x1="70" y1="250" x2="650" y2="250" stroke="#C7D0E0" stroke-width="1"/>
+      <rect x="140" y="215" width="90" height="35" rx="4" fill="#2a78d6" opacity="0.55"/>
+      <text x="185" y="205" text-anchor="middle" font-size="13" font-weight="800" fill="#17335c">R$ 100 mil</text>
+      <text x="185" y="270" text-anchor="middle" font-size="11" fill="#5B6579">Ano 1</text>
+      <rect x="330" y="150" width="90" height="100" rx="4" fill="#2a78d6" opacity="0.78"/>
+      <text x="375" y="140" text-anchor="middle" font-size="13" font-weight="800" fill="#17335c">R$ 375 mil</text>
+      <text x="375" y="270" text-anchor="middle" font-size="11" fill="#5B6579">Ano 2</text>
+      <rect x="520" y="55" width="90" height="195" rx="4" fill="#2a78d6"/>
+      <text x="565" y="45" text-anchor="middle" font-size="13" font-weight="800" fill="#17335c">R$ 1,0 milhão</text>
+      <text x="565" y="270" text-anchor="middle" font-size="11" fill="#5B6579">Ano 3</text>
+    </svg>
+  </div>
+  <div class="grid3" style="margin-top:12px;">
+    <div class="kpi"><div class="v">R$ 1,2 mi</div><div class="l">ARR — Ano 1</div></div>
+    <div class="kpi"><div class="v">R$ 4,5 mi</div><div class="l">ARR — Ano 2</div></div>
+    <div class="kpi"><div class="v">R$ 12,0 mi</div><div class="l">ARR — Ano 3</div></div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>19</span></div>
+</div>
+
+<!-- DRE -->
+<div class="page">
+  <div class="eyebrow">12 · Projeção Financeira</div>
+  <h1 class="h1">DRE simplificado — 3 anos (cenário base)</h1>
+  <div class="rule"></div>
+  <p class="lead"><span class="badge aqua">Premissa do modelo</span> — inclui receita de setup + mensalidade, líquida de custo operacional estimado.</p>
+  <table class="tbl">
+    <tr><th>Linha</th><th>Ano 1</th><th>Ano 2</th><th>Ano 3</th></tr>
+    <tr><td>Receita recorrente (mensalidade)</td><td class="num">R$ 600.000</td><td class="num">R$ 2.850.000</td><td class="num">R$ 8.250.000</td></tr>
+    <tr><td>Receita de setup (novos clientes)</td><td class="num">R$ 500.000</td><td class="num">R$ 1.375.000</td><td class="num">R$ 3.125.000</td></tr>
+    <tr><td style="font-weight:800;">Receita total</td><td class="num" style="font-weight:800;">R$ 1.100.000</td><td class="num" style="font-weight:800;">R$ 4.225.000</td><td class="num" style="font-weight:800;">R$ 11.375.000</td></tr>
+    <tr><td>Custo operacional total</td><td class="num">R$ 1.800.000</td><td class="num">R$ 3.200.000</td><td class="num">R$ 6.500.000</td></tr>
+    <tr><td style="font-weight:800;">Resultado (EBITDA aprox.)</td><td class="num neg" style="font-weight:800;">− R$ 700.000</td><td class="num pos" style="font-weight:800;">+ R$ 1.025.000</td><td class="num pos" style="font-weight:800;">+ R$ 4.875.000</td></tr>
+  </table>
+  <div class="card" style="margin-top:14px;">
+    <h3>Leitura da trajetória</h3>
+    <p>Ano 1 opera no vermelho — típico de um produto em fase de construção de equipe e comercial. O ponto de equilíbrio operacional (≈71 clientes) é atingido durante o Ano 2, e o resultado se torna consistentemente positivo a partir daí no cenário base.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>20</span></div>
+</div>
+
+<!-- PONTO DE EQUILIBRIO -->
+<div class="page soft">
+  <div class="eyebrow">12 · Projeção Financeira</div>
+  <h1 class="h1">Ponto de equilíbrio operacional</h1>
+  <div class="rule"></div>
+  <div class="chart-wrap">
+    <div class="chart-title">Clientes ativos (cenário base) vs. ponto de equilíbrio (71 clientes)</div>
+    <div class="chart-note">Barras verdes: acima do ponto de equilíbrio. Barra vermelha: abaixo.</div>
+    <svg viewBox="0 0 700 300" width="100%" height="300">
+      <line x1="60" y1="250" x2="650" y2="250" stroke="#C7D0E0" stroke-width="1"/>
+      <line x1="60" y1="163" x2="650" y2="163" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="5,4"/>
+      <text x="655" y="167" font-size="10.5" font-weight="700" fill="#DC2626">71 (equilíbrio)</text>
+      <rect x="140" y="228" width="90" height="22" rx="4" fill="#DC2626"/>
+      <text x="185" y="220" text-anchor="middle" font-size="12" font-weight="800" fill="#7f1d1d">40</text>
+      <text x="185" y="270" text-anchor="middle" font-size="11" fill="#5B6579">Ano 1</text>
+      <rect x="330" y="127" width="90" height="123" rx="4" fill="#16A34A"/>
+      <text x="375" y="117" text-anchor="middle" font-size="12" font-weight="800" fill="#14532d">150</text>
+      <text x="375" y="270" text-anchor="middle" font-size="11" fill="#5B6579">Ano 2</text>
+      <rect x="520" y="30" width="90" height="220" rx="4" fill="#16A34A"/>
+      <text x="565" y="20" text-anchor="middle" font-size="12" font-weight="800" fill="#14532d">400</text>
+      <text x="565" y="270" text-anchor="middle" font-size="11" fill="#5B6579">Ano 3</text>
+    </svg>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>21</span></div>
+</div>
+
+<!-- USO DOS RECURSOS -->
+<div class="page">
+  <div class="eyebrow">13 · Uso dos Recursos</div>
+  <h1 class="h1">O pedido de investimento</h1>
+  <div class="rule"></div>
+  <div class="card" style="border-color: var(--orange);">
+    <h3 style="color:#a8451c;">Campo em aberto — decisão do Grupo Sena</h3>
+    <p>O valor da captação e a contrapartida societária (equity) não foram definidos neste documento — são decisões estratégicas que cabem ao Gilberto Sena e ao Grupo Sena, não a este modelo. A estrutura de alocação abaixo é um framework pronto para receber esses números.</p>
+  </div>
+  <table class="tbl" style="margin-top:14px;">
+    <tr><th>Destinação</th><th>% sugerido</th><th>Objetivo</th></tr>
+    <tr><td>Desenvolvimento de produto</td><td class="num">40%</td><td>Evolução dos módulos, BI e automações</td></tr>
+    <tr><td>Comercial e marketing</td><td class="num">25%</td><td>Aquisição de clientes, canal direto e via Grupo Sena</td></tr>
+    <tr><td>Capital de giro</td><td class="num">20%</td><td>Sustentar operação até o ponto de equilíbrio (≈71 clientes)</td></tr>
+    <tr><td>Operações e suporte</td><td class="num">15%</td><td>Equipe de sucesso do cliente e infraestrutura</td></tr>
+  </table>
+  <div class="footer"><span>OCEO · Business Plan</span><span>22</span></div>
+</div>
+
+<!-- ROADMAP -->
+<div class="page soft">
+  <div class="eyebrow">14 · Roadmap</div>
+  <h1 class="h1">Cronograma de execução</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div class="card"><h3>Trimestre 1–2</h3><p>Consolidação dos 11 módulos em produção, onboarding dos primeiros clientes via base do Grupo Sena, estruturação do time de sucesso do cliente.</p></div>
+    <div class="card"><h3>Trimestre 3–4</h3><p>Lançamento comercial direto (fora da base atual), primeira campanha ligada à urgência da Reforma Tributária, meta de atingir a marca de 40 clientes (cenário base, Ano 1).</p></div>
+    <div class="card"><h3>Ano 2</h3><p>Expansão comercial, atingir ponto de equilíbrio operacional (≈71 clientes), início do módulo de sugestão de investimentos (sujeito à validação regulatória).</p></div>
+    <div class="card"><h3>Ano 3</h3><p>Escala nacional, consolidação de EBITDA positivo, avaliação de nova rodada ou expansão para novos mercados.</p></div>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>23</span></div>
+</div>
+
+<!-- EQUIPE -->
+<div class="page">
+  <div class="eyebrow">15 · Equipe</div>
+  <h1 class="h1">Quem lidera</h1>
+  <div class="rule"></div>
+  <div class="card">
+    <h3>Gilberto Sena — CEO</h3>
+    <p>Referência no mercado de contabilidade, tributário e gestão empresarial no Brasil. Fundador do Grupo Sena (2010, 6 escritórios). Bacharel em Teologia, pós-graduado em Direito Tributário (720h), habilitado como Agente Autônomo de Investimento (AAI/ANCORD). Já reestruturou centenas de operações de PMEs — o OCEO sistematiza esse método em software.</p>
+  </div>
+  <div class="card" style="margin-top:12px;">
+    <h3>Estrutura de apoio</h3>
+    <p>O Grupo Sena já opera com equipe multidisciplinar em contabilidade, auditoria fiscal e tributária, assessoria jurídica e gestão empresarial — base de conhecimento de domínio que alimenta diretamente o roadmap de produto do OCEO. A equipe técnica dedicada ao produto (desenvolvimento, sucesso do cliente) será estruturada com parte dos recursos desta captação.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>24</span></div>
+</div>
+
+<!-- RISCOS -->
+<div class="page soft">
+  <div class="eyebrow">16 · Riscos</div>
+  <h1 class="h1">Riscos e mitigação</h1>
+  <div class="rule"></div>
+  <table class="tbl">
+    <tr><th>Risco</th><th>Mitigação</th></tr>
+    <tr><td>Churn real acima da premissa (3%/mês)</td><td>Investir cedo em time de sucesso do cliente; medir churn desde o primeiro cliente pago.</td></tr>
+    <tr><td>Ciclo de venda mais longo que o previsto</td><td>Priorizar o canal de menor atrito: base de clientes já ativa do Grupo Sena.</td></tr>
+    <tr><td>Concorrência de players estabelecidos (Omie, Bling)</td><td>Diferenciação pelo escopo completo (RH, produção, BI) que eles não cobrem.</td></tr>
+    <tr><td>Regulação do módulo de investimentos (CVM)</td><td>Validação jurídica formal antes de qualquer recomendação personalizada.</td></tr>
+    <tr><td>Dependência de um único fundador/rosto público</td><td>Estruturar equipe de gestão para operação, mantendo o fundador na visão e vendas (ver Seção 5).</td></tr>
+  </table>
+  <div class="footer"><span>OCEO · Business Plan</span><span>25</span></div>
+</div>
+
+<!-- ANEXO PREMISSAS -->
+<div class="page">
+  <div class="eyebrow">Anexo</div>
+  <h1 class="h1">Todas as premissas do modelo, em um só lugar</h1>
+  <div class="rule"></div>
+  <table class="tbl">
+    <tr><th>Premissa</th><th>Valor usado</th><th>Tipo</th></tr>
+    <tr><td>Salário médio Analista Financeiro (CLT)</td><td class="num">R$ 4.883,27/mês</td><td><span class="badge blue">Fonte externa (CAGED)</span></td></tr>
+    <tr><td>Encargos trabalhistas sobre salário bruto</td><td class="num">~80%</td><td><span class="badge aqua">Premissa (padrão de mercado)</span></td></tr>
+    <tr><td>Setup OCEO</td><td class="num">R$ 12.500</td><td><span class="badge orange">Fato do produto</span></td></tr>
+    <tr><td>Mensalidade OCEO</td><td class="num">R$ 2.500</td><td><span class="badge orange">Fato do produto</span></td></tr>
+    <tr><td>CAC estimado</td><td class="num">R$ 3.000</td><td><span class="badge aqua">Premissa do modelo</span></td></tr>
+    <tr><td>Churn mensal estimado</td><td class="num">3%</td><td><span class="badge aqua">Premissa do modelo</span></td></tr>
+    <tr><td>Custo variável por cliente (suporte/infra)</td><td class="num">R$ 375/mês</td><td><span class="badge aqua">Premissa do modelo</span></td></tr>
+    <tr><td>Custo fixo operacional mensal</td><td class="num">R$ 150.000</td><td><span class="badge aqua">Premissa do modelo</span></td></tr>
+    <tr><td>Clientes ativos — cenário base (Ano 1/2/3)</td><td class="num">40 / 150 / 400</td><td><span class="badge aqua">Premissa do modelo</span></td></tr>
+    <tr><td>Total de pequenos negócios ativos no Brasil (TAM)</td><td class="num">24.000.000</td><td><span class="badge blue">Fonte externa (SEBRAE)</span></td></tr>
+  </table>
+  <div class="card" style="margin-top:14px;">
+    <h3>Próximo passo recomendado</h3>
+    <p>Validar as premissas marcadas como "Premissa do modelo" com dados reais assim que houver operação — principalmente churn, CAC e custo fixo operacional, que são os três números que mais afetam o resultado final deste plano.</p>
+  </div>
+  <div class="footer"><span>OCEO · Business Plan</span><span>26</span></div>
+</div>
+
+<!-- FECHAMENTO -->
+<div class="page last-page" style="page-break-after: auto;">
+  <h2>Gestão inteligente não é luxo de grande empresa. É o que falta pra PME virar grande empresa.</h2>
+  <p>O OCEO entrega, por uma fração do custo de um profissional dedicado, a gestão completa que decide se uma PME brasileira sobrevive ou quebra. Este plano é o ponto de partida da conversa com investidores — não o fim dela.</p>
+</div>
+
+</body>
+</html>

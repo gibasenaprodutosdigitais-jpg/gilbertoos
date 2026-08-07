@@ -1,0 +1,35 @@
+04-27 Projeto: Integração de Dados
+Financeiros & Franquias
+2025-04-27 00:20:39
+00:00:05 Speaker 1
+Um CRM, um CRM mesmo, mas um CRM com informações da empresa financeiras,
+frutos de caixa, ponto de equilíbrio, balanço, balancete. O sistema da empresa, um
+exemplo, de lava jato, hamburgueria, dentro desse ecossistema.
+00:00:52 Speaker 1
+Todas as empresas seriam integradas dentro dessa plataforma, todos os negócios,
+todas as… Vamos imaginar, vamos pensar como franquia, eu tenho uma rede de 50
+franquias, 50 unidades que funcionam individualmente, só que esse sistema ia
+conectar todas as informações de venda diária, venda semanal, em tempo real, por
+exemplo, imagina que eu estou sem
+00:01:32 Speaker 1
+Empresas dentro desse sistema e uma loja acabou de vender um hambúrguer,
+outra loja vendeu uma camisa, essa atualização, com inteligência artificial, é
+automática, onde o contador financeiro, a parte financeira da empresa, vai
+atualizando como se fosse realmente um contador. Mas eu quero valores de cada
+negócio interligado dentro de um sistema só.
+00:02:10 Speaker 1
+A possibilidade de que esse sistema é tudo para facilitar, que o custo operacional
+desse sistema não seja caro. Lembre-se, também, uma rede de hamburgueria, é
+uma franquia, uma rede de franquia.
+00:02:46 Speaker 1
+Esse sistema, eu ia ter informação em tempo real de tudo que passasse dentro do
+sistema, tudo que fosse vendido ali. A unidade atualizando o dashboard em tempo
+real e com possibilidade de projeções semestrais anuais para entender o fluxo de
+caixa descontado, para que dentro do sistema o relatório final.
+00:03:20 Speaker 1
+Eu conseguiria entrar numa aba e saber o valuation da empresa, fluxo de caixa
+descontado, fluxo de caixa livre, tudo que o empresário precisa saber e não tem
+conhecimento. Esse é o projeto e tem que ser feito ontem.
+
+-- 1 of 1 --
+
