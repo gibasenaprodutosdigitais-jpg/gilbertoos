@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — 5 G's da Gestão · 5: Fornecedores e Clientes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #C9A227; color: #0F1419; }
+
+  .gold { color: #C9A227; }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .bg-dark .topbar, .bg-black .topbar { color: #C9A227; }
+  .bg-light .topbar { color: #C9A227; }
+  .bg-gold .topbar { color: #0F1419; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin: 40px 64px 0 64px;
+  }
+  .bg-gold .rule { background: #0F1419; }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .bg-gold .kicker { color: #0F1419; opacity: 0.75; }
+
+  .title-cover {
+    font-size: 84px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.1;
+    max-width: 920px;
+  }
+
+  .h2 {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.14;
+    max-width: 900px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+  .bg-gold .footer { border-top: 1px solid rgba(15,20,25,0.22); }
+
+  /* DUO */
+  .duo-cols { display: flex; gap: 56px; margin-top: 8px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 20px;
+    font-weight: 900;
+    color: #C9A227;
+    margin-bottom: 14px;
+  }
+  .duo-h { font-size: 38px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.1; }
+  .duo-text { font-size: 22px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* CITACAO */
+  .quote-mark {
+    font-size: 140px;
+    font-weight: 900;
+    color: #C9A227;
+    line-height: 0.5;
+    margin-bottom: 24px;
+  }
+  .quote-text {
+    font-size: 52px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.22;
+    max-width: 880px;
+  }
+  .quote-attr {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 36px;
+    opacity: 0.7;
+  }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #C9A227;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+    font-size: 46px;
+    font-weight: 900;
+    color: #C9A227;
+  }
+  .cta-kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #C9A227;
+    margin-bottom: 24px;
+  }
+  .cta-wordmark {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.48;
+    max-width: 780px;
+    margin-bottom: 24px;
+  }
+  .cta-list {
+    font-size: 20px;
+    font-weight: 600;
+    color: #C9A227;
+    letter-spacing: 0.01em;
+    margin-bottom: 40px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>01/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Série 5 G's da Gestão · 5 de 5 · Último</div>
+    <div class="title-cover">Comprar é <span class="gold">confiança</span>. Vender é relacionamento.</div>
+  </div>
+  <div class="footer">FORNECEDORES E CLIENTES</div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>02/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Fornecedores e clientes</div>
+    <div class="h2">Duas faces da mesma moeda.</div>
+    <div class="body-txt">Comprar é uma expressão de confiança. Vender é sobre entender necessidade e construir relacionamento. Quem trata fornecedor só como custo e cliente só como meta de vendas não entende que os dois sustentam a mesma engrenagem.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>03/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilar 1 — Governança de Relacionamentos</div>
+    <div class="h2">Defina expectativa antes de fechar negócio.</div>
+    <div class="body-txt">Confiança e transparência não nascem do nada — se cultivam antes da primeira reunião de cobrança. Quem entra na relação sem clareza, sai dela com conflito.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 4 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>04/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 2 e 3</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 2</div>
+        <div class="duo-h">Ciclo de Vida</div>
+        <div class="duo-text" style="color:#454545;">Fornecedor e cliente têm ciclo — identificação, integração, gestão, avaliação, renovação. Ignorar uma etapa é abrir brecha pra ruptura.</div>
+      </div>
+      <div class="duo-divider-v" style="background: rgba(21,21,21,0.14);"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 3</div>
+        <div class="duo-h">Comunicação</div>
+        <div class="duo-text" style="color:#454545;">Escuta ativa não é ouvir educado. É entender a preocupação por trás da fala.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 5 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>05/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 4 e 5</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 4</div>
+        <div class="duo-h">Riscos — Método TRI</div>
+        <div class="duo-text">Triagem, Resposta, Inovação. Risco não se evita — se mapeia, se responde e, quando dá, se transforma em oportunidade.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 5</div>
+        <div class="duo-h">Valor</div>
+        <div class="duo-text">Preço alto com valor baixo afasta cliente. Preço justo com valor real fideliza. A conta é simples — poucos fazem.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 6 — CITACAO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>06/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="quote-mark">"</div>
+    <div class="quote-text">Comprar é uma expressão de confiança... Vender é sobre entender as necessidades do cliente, oferecer soluções e construir um relacionamento.</div>
+    <div class="quote-attr">— Gilberto Sena</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 7 — SOLO -->
+<div class="slide bg-gold">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>07/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Fornecedor estratégico na prática</div>
+    <div class="h2">McDonald's e Coca-Cola são parceiros desde 1955.</div>
+    <div class="body-txt" style="color:#151515; opacity:0.85;">Setenta anos de contrato exclusivo. Não é sorte — é o exemplo mais claro de relação onde os dois lados dependem um do outro pra crescer. É pra esse tipo de fornecedor que você constrói contrato longo, não pra qualquer um.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 8 — SOLO -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>08/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Sacada do Giba</div>
+    <div class="h2">Nem todo fornecedor merece o mesmo esforço.</div>
+    <div class="body-txt">Segmente em 4: estratégico, gargalo, alavancagem, não crítico. Investir a mesma energia em todos é desperdiçar energia com quem não precisa e faltar com quem sustenta seu negócio.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 9 — CTA FINAL (fecha a série) -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>09/09</span>
+  </div>
+  <div class="cta-wrap">
+    <div class="lion-seal">S</div>
+    <div class="cta-kicker">5º e último G · Série completa</div>
+    <div class="cta-body">"Eu sei que existem muitos 'Gilbertos' por aí, que precisam de conhecimento e apoio pra crescer."</div>
+    <div class="cta-list">Si · Financeira · Pessoas · Tributária · Fornecedores e Clientes</div>
+    <div class="cta-handle">@gilbertosenaoficial</div>
+  </div>
+  <div class="footer" style="border-top:none; text-align:center;">5 G'S DA GESTÃO EMPREENDEDORA — COMPLETO</div>
+</div>
+
+</body>
+</html>

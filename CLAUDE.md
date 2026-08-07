@@ -58,13 +58,14 @@ reels — sempre na voz dele e ancorado no conhecimento dele.
 
 ---
 
-## Os 4 comandos (é só isso que o Gilberto precisa saber)
+## Os 5 comandos (é só isso que o Gilberto precisa saber)
 
 O Gilberto fala por voz (Wispr Flow). Ele não precisa decorar nada além disto:
 
 | Comando | O que faz |
 |---|---|
 | **`/conversar`** | Modo debate. O Gilberto joga uma ideia, uma dúvida, um pensamento — e o sistema debate, provoca, organiza e devolve direcionamento. É o "segundo cérebro" no modo bruto. |
+| **`/tendencias`** (ou "me ajuda com quadro") | Pesquisa de verdade um tema antes de virar conteúdo — o que está bombando, dado técnico, comportamento do público — e devolve leitura estratégica (não o post pronto). Bom passo antes de `/carrossel`, `/reels` ou `/ideias` quando o tema pede aprofundar. |
 | **`/carrossel`** | Vira uma ideia em carrossel pronto pro Instagram (imagens + legenda). |
 | **`/reels`** | Vira uma ideia em roteiro de Reels (gancho + fala + CTA) pra ele gravar. |
 | **`/ideias`** | Cospe pautas de conteúdo — o que postar essa semana, baseado no momento (ex.: reforma tributária) e na cabeça dele. |
