@@ -8,12 +8,12 @@ apareceu em nenhum concorrente pesquisado).
 
 ## Slide 1 — CAPA
 KICKER: Imersão Forjado
-TÍTULO: Ninguém nasce empresário de escala. É forjado.
+TÍTULO: Ninguém nasce empresário exponencial. Estes são forjados.
 
 ## Slide 2 — SOLO
 KICKER: Enquanto o mercado inteiro...
-H2: Summit. Experience. Valley.
-CORPO: Abre a agenda de qualquer imersão empresarial no Brasil hoje e é
+H2: Summit, Experience, Valley, etc.
+CORPO: Você abre a agenda de qualquer imersão empresarial no Brasil hoje e é
 sempre a mesma palavra emprestada. Todo evento com o mesmo nome, prometendo
 a mesma coisa.
 
@@ -35,7 +35,7 @@ Ninguém fala disso na vitrine. Eu falo.
 KICKER: Por que esse nome
 H2: A prata não vira prata de verdade sem passar pelo fogo do fundidor.
 CORPO: É assim que a Bíblia fala de caráter — e é assim que eu penso
-empresário de escala. Não tem atalho que substitua o fogo.
+empresário exponencial. Não tem atalho que substitua o fogo.
 
 ## Slide 6 — DUO
 KICKER: A diferença
@@ -45,7 +45,7 @@ Coluna B — "O que a Forjado entrega": Prova. Método, estrutura, resultado
 real no seu negócio — não só no seu feed.
 
 ## Slide 7 — CTA FINAL
-FORJADO — A imersão do Empresário de Escala.
+FORJADO — A imersão do Empresário Exponencial.
 "O fogo que forja não é o mesmo que destrói."
 @gilbertosenaoficial
 
