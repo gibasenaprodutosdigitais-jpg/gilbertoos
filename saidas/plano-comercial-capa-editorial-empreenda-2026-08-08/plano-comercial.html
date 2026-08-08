@@ -22,13 +22,14 @@ p.note { color:#52514e; font-size:13.5px; margin-bottom:18px; line-height:1.6; m
 .tag.risco { background:#fbeaea; color:#d03b3b; }
 .card .body { margin-top:12px; font-size:14px; line-height:1.65; color:#52514e; }
 .card .body b { color:#0b0b0b; }
-.kv { display:grid; grid-template-columns: 130px 1fr; gap:6px 14px; margin-top:14px; font-size:13.5px; }
+.kv { display:grid; grid-template-columns: 150px 1fr; gap:6px 14px; margin-top:14px; font-size:13.5px; }
 .kv .k { color:#898781; font-weight:700; text-transform:uppercase; font-size:11px; letter-spacing:0.04em; padding-top:2px; }
 .kv .v { color:#0b0b0b; line-height:1.55; }
 table { width:100%; border-collapse:collapse; font-size:13.5px; margin-top:14px; }
 th { text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:0.05em; color:#898781; font-weight:700; padding:8px 10px; border-bottom:1px solid #c3c2b7; }
 td { padding:10px 10px; border-bottom:1px solid #e1e0d9; vertical-align:top; }
-.num { font-variant-numeric: tabular-nums; }
+.num { font-variant-numeric: tabular-nums; text-align:right; }
+tr.total td { font-weight:800; border-top:1.5px solid #c3c2b7; border-bottom:none; }
 .funnel { display:flex; flex-direction:column; gap:0; margin-top:18px; }
 .fstep { display:flex; gap:16px; padding:14px 0; border-bottom:1px solid #e1e0d9; }
 .fstep:last-child { border-bottom:none; }
@@ -39,149 +40,220 @@ td { padding:10px 10px; border-bottom:1px solid #e1e0d9; vertical-align:top; }
 .qitem { counter-increment: q; padding:14px 0 14px 40px; position:relative; border-bottom:1px solid #e1e0d9; font-size:14px; line-height:1.6; }
 .qitem:last-child { border-bottom:none; }
 .qitem::before { content: counter(q); position:absolute; left:0; top:14px; width:24px; height:24px; border-radius:50%; background:#2a78d6; color:#fff; font-size:12px; font-weight:800; display:flex; align-items:center; justify-content:center; }
+.role-grid { display:grid; grid-template-columns: repeat(4,1fr); gap:14px; margin-top:16px; }
+.role { background:#fcfcfb; border:1px solid #e1e0d9; border-radius:10px; padding:16px; text-align:center; }
+.role .ico { font-size:22px; }
+.role b { display:block; font-size:13px; margin-top:8px; }
+.role span { font-size:11.5px; color:#898781; display:block; margin-top:4px; line-height:1.4; }
 footer { margin-top:56px; border-top:1px solid #e1e0d9; padding-top:20px; font-size:12px; color:#898781; line-height:1.6; }
 .good { color:#006300; }
 .critical { color:#d03b3b; }
+.changelog { background:#eef2fb; border:1px solid #cfe0f7; border-radius:8px; padding:14px 18px; font-size:13px; color:#52514e; margin-top:18px; }
+.changelog b { color:#2a78d6; }
 </style></head><body><div class="page">
 
-<div class="doc-tag">Documento interno · uso do Gilberto · 08 ago 2026</div>
+<div class="doc-tag">Documento interno · uso do Gilberto · atualizado 08 ago 2026</div>
 <h1>Plano comercial — venda de capa e editorial</h1>
 <div class="subtitle">Revista Empreenda · Empreenda Esportes · Empreenda ABC · Empreenda Alphaville — como transformar o produto que já prova receita (a matéria de capa) num processo de venda repetível nas quatro frentes, não em evento esporádico.</div>
 
-<div class="intro">Este plano parte de dois dados reais do próprio extrato bancário da conta: a Revista Empreenda vendeu <b>Venda Capa apenas 4 vezes em 8 meses</b> (R$ 25.000 no total — Jan, Fev, Jun e Jul, com Mar-Mai e Ago zerados) e a <b>Empreenda ABC vendeu 13 vezes só entre Janeiro e Abril</b> (R$ 33.384) e depois parou por completo. O produto funciona — o próprio plano de negócios de 18/jul confirma faixa de R$ 40 a 70 mil por tiragem na revista-mãe — o que falta é cadência. Este documento é o processo pra resolver isso.</div>
+<div class="intro">Este plano parte de dois dados reais do próprio extrato bancário da conta: a Revista Empreenda vendeu <b>Venda Capa apenas 4 vezes em 8 meses</b> (R$ 25.000 no total) e a <b>Empreenda ABC vendeu 13 vezes só entre Janeiro e Abril</b> (R$ 33.384) e depois parou. O produto funciona — R$ 40 a 70 mil por tiragem, confirmado na Revista Empreenda. Este documento é o processo pra resolver a cadência.</div>
+
+<div class="changelog"><b>Atualizado 08/ago/2026</b> — preço, cadência e escopo de Alphaville, ABC e Esportes foram <b>confirmados por você</b> nesta rodada. O que era proposta na versão anterior deste plano agora é decisão fechada; o texto abaixo já reflete isso. Pontos que ainda dependem de definição aparecem nas seções 08 e 09.</div>
 
 <section>
 <div class="sec-num">01</div>
 <h2>O produto — dois níveis, não um</h2>
-<p class="note">A Empreenda não vende anúncio, vende prova social. A capa é o produto-âncora; o editorial interno é a porta de entrada pra quem ainda não está pronto pro investimento da capa.</p>
+<p class="note">A Empreenda não vende anúncio, vende prova social. A capa é o produto-âncora; o editorial interno é a porta de entrada — e em Alphaville/ABC/Esportes, o volume de editoriais por edição também virou parte do modelo.</p>
 <div class="card">
-  <h3>Editorial <span class="tag validar">Entrada</span></h3>
-  <div class="body">Matéria dentro da edição (não é a capa) — a história do empresário contada com o mesmo método ("de X a Y", prova real, não propaganda), ocupando páginas internas. Preço menor, indicado pra quem ainda não bancaria o investimento de capa mas já tem história pra contar.</div>
+  <h3>Editorial <span class="tag validar">Entrada / volume</span></h3>
+  <div class="body">Matéria dentro da edição (não é a capa) — mesmo método de prova real, ocupando páginas internas. Em Alphaville, o editorial passa a ser vendido em escala: 11 por edição, no mínimo.</div>
 </div>
 <div class="card">
   <h3>Capa <span class="tag ativo">Âncora</span></h3>
-  <div class="body">A história vira a <b>capa</b> da edição — o produto que já prova receita (R$ 40-70 mil confirmado por você em 18/jul/2026, Revista Empreenda e Empreenda Portugal). Não é revista de notícia, é revista de prova social: a capa vira o desejo. O caso Empreenda ABC (dono de academia) já provou que o formato funciona fora da revista-mãe — ele repostou a matéria sozinho, sem ninguém pedir.</div>
+  <div class="body">A história vira a <b>capa</b> da edição — R$ 40-70 mil confirmado na Revista Empreenda/Portugal. O caso Empreenda ABC (dono de academia) provou que o formato funciona fora da revista-mãe — ele repostou a matéria sozinho, sem ninguém pedir.</div>
 </div>
 </section>
 
 <section>
 <div class="sec-num">02</div>
-<h2>Posicionamento e preço por marca</h2>
-<p class="note">Preço da Revista Empreenda é confirmado por você. Os das outras três marcas são <b>propostas a validar</b> — usei como régua uma fração do valor já comprovado na marca-mãe, não pesquisa de mercado específica de cada público. Alphaville tem uma ressalva à parte (ver abaixo).</p>
+<h2>Posicionamento, preço e cadência por marca</h2>
+<p class="note">Revista Empreenda segue com o preço já confirmado em 18/jul. Alphaville, ABC e Esportes têm agora preço, cadência e escopo <b>confirmados por você em 08/ago/2026</b>.</p>
 <div class="card">
       <h3>Revista Empreenda <span class="tag ativo">Ativo · maduro</span></h3>
       <div class="kv">
         <div class="k">Público</div><div class="v">Empresário de escala, já validado nacionalmente — mesmo perfil da edição 75 ("de motoboy a multimilionário").</div>
         <div class="k">Caso / prova</div><div class="v">Dezenas de edições rodando; capa é o produto mais valioso do grupo.</div>
         <div class="k">Capa</div><div class="v"><b>R$ 40.000 – 70.000</b> por tiragem (confirmado 18/jul/2026)</div>
-        <div class="k">Editorial</div><div class="v">Proposta: R$ 15.000 – 25.000 (a validar — hoje não há preço de editorial interno separado registrado)</div>
+        <div class="k">Editorial</div><div class="v">Proposta: R$ 15.000 – 25.000 (ainda a validar — sem preço de editorial interno separado registrado)</div>
+        
         <div class="k">Gancho de venda</div><div class="v">"A mesma fórmula que te colocou na capa antes de você virar sócio."</div>
       </div>
     </div><div class="card">
-      <h3>Empreenda ABC <span class="tag ativo">Ativo · iniciando</span></h3>
+      <h3>Empreenda Alphaville <span class="tag ativo">Confirmado · quinzenal</span></h3>
+      <div class="kv">
+        <div class="k">Público</div><div class="v">Empresário de Alphaville/Barueri — região de alto poder aquisitivo, onde já fica a base da operação.</div>
+        <div class="k">Caso / prova</div><div class="v">Marca nova — modelo herdado do que já funcionou no ABC.</div>
+        <div class="k">Capa</div><div class="v"><b>R$ 8.000</b> mínimo por edição</div>
+        <div class="k">Editorial</div><div class="v"><b>R$ 1.500</b> cada, mínimo <b>11 editoriais</b> por edição (12 matérias no total, com a capa)</div>
+        <div class="k">Periodicidade</div><div class="v">Quinzenal pra início — <b>semanal é o próximo passo já cogitado por você</b>, uma vez que a cadência quinzenal esteja rodando bem.</div><div class="k">Valor por edição</div><div class="v"><b>R$ 24.000 mínimo</b> (piso que você definiu). A soma dos itens no mínimo indicado (capa R$ 8.000 + 11 × R$ 1.500) dá R$ 24.500 — deixo os dois números registrados; ver seção 08.</div>
+        <div class="k">Gancho de venda</div><div class="v">"A mesma franquia editorial regional que funcionou no ABC, na praça onde você já está."</div>
+      </div>
+    </div><div class="card">
+      <h3>Empreenda ABC <span class="tag ativo">Confirmado · bimestral</span></h3>
       <div class="kv">
         <div class="k">Público</div><div class="v">Empresário local do ABC Paulista (Santo André, São Bernardo, São Caetano) — negócio físico com força na comunidade.</div>
         <div class="k">Caso / prova</div><div class="v">Dono de academia inaugurada no ABC — capa e repostou a matéria sozinho, sem pedir.</div>
-        <div class="k">Capa</div><div class="v">Proposta: R$ 15.000 – 25.000 (a validar)</div>
-        <div class="k">Editorial</div><div class="v">Proposta: R$ 6.000 – 10.000 (a validar)</div>
+        <div class="k">Capa</div><div class="v">Incluído no valor total da edição (ver abaixo)</div>
+        <div class="k">Editorial</div><div class="v">Incluído no valor total da edição (ver abaixo)</div>
+        <div class="k">Periodicidade</div><div class="v">Bimestral — uma edição a cada 2 meses.</div><div class="k">Valor por edição</div><div class="v"><b>R$ 48.000 mínimo</b>, entre capa e editoriais (sem quebra por item definida).</div><div class="k">Receita adicional</div><div class="v"><b>Anunciantes locais e patrocinadores</b> — nova frente de receita recorrente, além da venda de capa/editorial. Valor de tabela ainda não definido (ver seção 08).</div>
         <div class="k">Gancho de venda</div><div class="v">"Sua inauguração/marco vira capa regional — o empresário da academia já provou que funciona."</div>
       </div>
     </div><div class="card">
-      <h3>Empreenda Esportes <span class="tag pipeline">Ativo · sem faturamento</span></h3>
+      <h3>Empreenda Esportes <span class="tag ativo">Confirmado · bimestral</span></h3>
       <div class="kv">
-        <div class="k">Público</div><div class="v">Em aberto — hipótese A: donos de academia/clínica esportiva/marcas ligadas a esporte, no mesmo molde do empresário tradicional. Hipótese B (per plano de negócios): patrocinador esportivo (marca de equipamento, casa de aposta) — modelo de receita diferente, ainda não decidido.</div>
-        <div class="k">Caso / prova</div><div class="v">Primeira capa: Cafu — prova de formato, mas ainda sem venda paga registrada.</div>
-        <div class="k">Capa</div><div class="v">Proposta pra testar: R$ 15.000 – 25.000 (mesmo motor do ABC)</div>
-        <div class="k">Editorial</div><div class="v">Proposta: R$ 6.000 – 10.000</div>
-        <div class="k">Gancho de venda</div><div class="v">"Se o Cafu topou a capa, o próximo empresário do esporte também topa." — mas título de venda ainda não testado; ver seção 06.</div>
-      </div>
-    </div><div class="card">
-      <h3>Empreenda Alphaville <span class="tag validar">Não confirmada — proposta</span></h3>
-      <div class="kv">
-        <div class="k">Público</div><div class="v">Empresário de Alphaville/Barueri — região de alto poder aquisitivo, onde já fica a base da operação (boa parte do movimento financeiro do escritório é nessa região).</div>
-        <div class="k">Caso / prova</div><div class="v">Nenhum ainda — marca não existe hoje no plano de negócios de 18/jul nem tem centro de custo próprio no financeiro.</div>
-        <div class="k">Capa</div><div class="v">Proposta: mesma faixa do ABC — R$ 15.000 – 25.000 (a validar, e a decidir se a marca sai do papel)</div>
-        <div class="k">Editorial</div><div class="v">Proposta: R$ 6.000 – 10.000 (a validar)</div>
-        <div class="k">Gancho de venda</div><div class="v">"A mesma franquia editorial regional que funcionou no ABC, na praça onde você já está."</div>
+        <div class="k">Público</div><div class="v">Ampliado pra esporte em geral — não só futebol: boxe, artes marciais, vôlei, basquete etc. Donos de academia, atletas, ex-atletas empreendedores, marcas ligadas a cada modalidade.</div>
+        <div class="k">Caso / prova</div><div class="v">Primeira capa: Cafu. Modelo comercial agora replica o mesmo da ABC.</div>
+        <div class="k">Capa</div><div class="v">Mesmo modelo da ABC (ver abaixo)</div>
+        <div class="k">Editorial</div><div class="v">Mesmo modelo da ABC (ver abaixo)</div>
+        <div class="k">Periodicidade</div><div class="v">Bimestral, mesmo ritmo da ABC.</div><div class="k">Valor por edição</div><div class="v"><b>R$ 48.000 mínimo</b> — mesmo modelo operante da ABC; valor específico de Esportes não foi restated à parte, inferido por "mesmo modelo" (confirmar, ver seção 09).</div><div class="k">Receita adicional</div><div class="v">Anunciantes/patrocinadores locais, mesma lógica da ABC — nesse caso com potencial de patrocinador de marca esportiva além do anunciante local tradicional.</div>
+        <div class="k">Gancho de venda</div><div class="v">"Se o Cafu topou a capa, o próximo nome do boxe, do vôlei ou das artes marciais também topa."</div>
       </div>
     </div></section>
 
 <section>
 <div class="sec-num">03</div>
-<h2>Pacotes comerciais propostos</h2>
-<p class="note">Nenhum destes pacotes está confirmado — são uma proposta de estrutura, pensada pra dar ao vendedor um roteiro fechado em vez de negociar cada venda do zero.</p>
+<h2>Projeção de receita por edição e por ano</h2>
+<p class="note">Só aritmética em cima dos valores mínimos que você confirmou — não é meta de vendas, é o teto de referência se toda edição vender o piso combinado. Não inclui anunciantes/patrocinadores da ABC e Esportes, porque esse valor ainda não foi definido.</p>
 <table>
-<tr><th>Pacote</th><th>O que inclui</th><th>Indicado pra</th></tr>
+<tr><th>Marca</th><th>Valor mínimo / edição</th><th>Periodicidade</th><th class="num">Edições / ano</th><th class="num">Potencial anual (capa + editorial)</th></tr>
 <tr>
-  <td><b>Editorial</b></td>
-  <td>Matéria interna (texto + fotos) na edição impressa e digital.</td>
-  <td>Primeira venda de um empresário novo na marca, ou quem ainda não decidiu investir no valor de capa.</td>
+  <td>Revista Empreenda</td>
+  <td>R$ 40.000 – 70.000 (só capa; frequência de tiragem não confirmada)</td>
+  <td>—</td>
+  <td class="num">—</td>
+  <td class="num">—</td>
 </tr>
 <tr>
-  <td><b>Capa</b></td>
-  <td>Matéria de capa completa + editorial + ensaio fotográfico.</td>
-  <td>O produto principal, mesmo formato já provado na Revista Empreenda e no ABC.</td>
+  <td>Empreenda Alphaville</td>
+  <td>R$ 24.000 – 24.500</td>
+  <td>Quinzenal</td>
+  <td class="num">~24</td>
+  <td class="num">R$ 576.000 – 588.000</td>
 </tr>
 <tr>
-  <td><b>Capa + Conteúdo Digital</b></td>
-  <td>Capa completa + pacote de carrossel e reels prontos pra o empresário postar (usando o mesmo motor de produção do GilbertoOS) — vira ativo de marketing próprio, não só matéria impressa.</td>
-  <td>Empresário que quer estender o alcance da matéria além de quem lê a revista física.</td>
+  <td>Empreenda ABC</td>
+  <td>R$ 48.000</td>
+  <td>Bimestral</td>
+  <td class="num">6</td>
+  <td class="num">R$ 288.000<span style="color:#898781;"> + anunciantes</span></td>
 </tr>
 <tr>
-  <td><b>Capa + Selo Empreenda</b></td>
-  <td>Capa + certificado/selo formal de autoridade ("Capa Empreenda") que o empresário pode usar na própria marca — ideia já registrada no plano de negócios (seção 03, "Selo Capa"), ainda sem crivo seu.</td>
-  <td>Empresário que quer usar a matéria como prova de autoridade continuada, não só um post pontual.</td>
+  <td>Empreenda Esportes</td>
+  <td>R$ 48.000 (inferido)</td>
+  <td>Bimestral</td>
+  <td class="num">6</td>
+  <td class="num">R$ 288.000<span style="color:#898781;"> + patrocínio</span></td>
+</tr>
+<tr class="total">
+  <td colspan="4">Potencial anual combinado (Alphaville + ABC + Esportes, sem contar anunciantes/patrocínio nem Revista Empreenda)</td>
+  <td class="num">R$ 1.152.000 – 1.164.000</td>
 </tr>
 </table>
 </section>
 
 <section>
 <div class="sec-num">04</div>
-<h2>Processo de venda — o funil</h2>
-<p class="note">O motor que já existe (prova social vira desejo, desejo vira repost, repost vira novo prospect) só precisa de um processo formal em vez de acontecer por acaso — que é o que os números mostram estar acontecendo hoje.</p>
-<div class="funnel">
-<div class="fstep"><div class="fnum">1</div><div class="fbody"><b>Prospecção</b><span>Mapear empresários com história forte na praça de cada marca — o critério não é tamanho da empresa, é narrativa ("de X a Y"), o mesmo padrão da edição 75 e do dono de academia do ABC.</span></div></div><div class="fstep"><div class="fnum">2</div><div class="fbody"><b>Abordagem</b><span>Pitch usando prova social já existente como gancho — mostrar o caso ABC (ele mesmo repostou, sem ser pedido) em vez de vender "espaço de revista".</span></div></div><div class="fstep"><div class="fnum">3</div><div class="fbody"><b>Proposta comercial</b><span>Apresentar o pacote e o preço (seção 03), com a faixa de valor já ancorada no que a Revista Empreenda comprovadamente cobra.</span></div></div><div class="fstep"><div class="fnum">4</div><div class="fbody"><b>Fechamento</b><span>Contrato simples + sinal — sem isso, o resto do funil não deveria andar (foi exatamente a falta de recorrência que travou Venda Capa e Venda ABC no meio do ano).</span></div></div><div class="fstep"><div class="fnum">5</div><div class="fbody"><b>Produção</b><span>Entrevista, ensaio fotográfico, texto — o mesmo processo editorial já rodando.</span></div></div><div class="fstep"><div class="fnum">6</div><div class="fbody"><b>Publicação</b><span>Tiragem física + versão digital da matéria.</span></div></div><div class="fstep"><div class="fnum">7</div><div class="fbody"><b>Ativação pós-venda</b><span>Pedir o repost explicitamente e entregar o pacote de conteúdo digital (se vendido) — não esperar que aconteça sozinho como no caso ABC; formalizar o pedido.</span></div></div><div class="fstep"><div class="fnum">8</div><div class="fbody"><b>Reativação</b><span>Usar o empresário-capa publicado como prova social do PRÓXIMO prospect da mesma praça — fechar o ciclo, transformando cada venda em munição de venda pra próxima.</span></div></div></div>
-</section>
-
-<section>
-<div class="sec-num">05</div>
-<h2>Metas propostas por marca</h2>
-<p class="note">Cadência mínima pra não repetir o padrão "vende quando lembra" que os números do próprio extrato mostram hoje.</p>
+<h2>Pacotes comerciais</h2>
+<p class="note">Alphaville já tem estrutura fechada por você. ABC e Esportes têm o valor total fechado, com a divisão interna (quantos editoriais, que preço cada) ainda em aberto — só a Revista Empreenda mantém pacote 100% proposta.</p>
 <table>
-<tr><th>Marca</th><th>Meta proposta</th><th>Por quê</th></tr>
-<tr><td><b>Revista Empreenda</b></td><td>Manter ritmo atual, mas sem meses zerados de Venda Capa (Mar, Abr, Mai e Ago ficaram sem nenhuma venda no período analisado).</td><td>É a receita mais madura — o risco aqui não é falta de demanda, é falta de cadência formal.</td></tr>
-<tr><td><b>Empreenda ABC</b></td><td>Retomar pelo menos 1 venda por edição — parou depois de Abril, sem venda registrada em Maio-Agosto.</td><td>O caso já provou o formato; falta continuidade comercial, não prova de conceito.</td></tr>
-<tr><td><b>Empreenda Esportes</b></td><td>Fechar a primeira venda paga (editorial ou capa) nos próximos dois meses, pra validar se o modelo de venda direta funciona antes de investir em estrutura de patrocínio.</td><td>Hoje é a única marca ativa sem nenhum faturamento reportado.</td></tr>
-<tr><td><b>Empreenda Alphaville</b></td><td>Decisão de lançar (ou não) antes de qualquer meta de venda.</td><td>Marca ainda não confirmada — meta de venda não faz sentido antes dessa decisão.</td></tr>
+<tr><th>Pacote</th><th>O que inclui</th><th>Status</th></tr>
+<tr>
+  <td><b>Edição Quinzenal Alphaville</b></td>
+  <td>1 capa (R$ 8.000 mín.) + 11 editoriais (R$ 1.500 cada, mín.) = 12 matérias por edição, a cada 15 dias.</td>
+  <td><span class="tag ativo">Confirmado</span></td>
+</tr>
+<tr>
+  <td><b>Edição Bimestral ABC</b></td>
+  <td>Capa + editoriais somando R$ 48.000 mínimo por edição, a cada 2 meses, mais anunciantes/patrocinadores locais à parte.</td>
+  <td><span class="tag ativo">Confirmado (valor total)</span></td>
+</tr>
+<tr>
+  <td><b>Edição Bimestral Esportes</b></td>
+  <td>Mesmo modelo da ABC, aplicado a esporte em geral (boxe, artes marciais, vôlei, basquete, futebol etc.), com patrocínio esportivo como receita adicional.</td>
+  <td><span class="tag ativo">Confirmado (modelo)</span></td>
+</tr>
+<tr>
+  <td><b>Editorial / Capa Revista Empreenda</b></td>
+  <td>Capa R$ 40-70 mil (confirmado). Editorial interno separado: proposta R$ 15-25 mil, ainda sem preço fechado.</td>
+  <td><span class="tag validar">Editorial a validar</span></td>
+</tr>
+<tr>
+  <td><b>Capa + Conteúdo Digital</b> <span style="color:#898781;">(add-on, todas as marcas)</span></td>
+  <td>Capa + pacote de carrossel e reels prontos pra o empresário postar (motor GilbertoOS). Ainda proposta, não confirmado.</td>
+  <td><span class="tag validar">Proposta</span></td>
+</tr>
 </table>
 </section>
 
 <section>
+<div class="sec-num">05</div>
+<h2>Processo de venda — o funil</h2>
+<p class="note">O motor que já existe (prova social vira desejo, desejo vira repost, repost vira novo prospect) só precisa de processo formal — que é o que os números mostram não estar acontecendo hoje.</p>
+<div class="funnel">
+<div class="fstep"><div class="fnum">1</div><div class="fbody"><b>Prospecção</b><span>Mapear empresários (ou, em Esportes, atletas/ex-atletas/marcas do setor) com história forte na praça de cada marca — critério é narrativa, não tamanho de empresa.</span></div></div><div class="fstep"><div class="fnum">2</div><div class="fbody"><b>Abordagem</b><span>Pitch usando prova social já existente — caso ABC (repostou sozinho), Cafu na Esportes.</span></div></div><div class="fstep"><div class="fnum">3</div><div class="fbody"><b>Proposta comercial</b><span>Apresentar o pacote e o preço já confirmado (seção 04).</span></div></div><div class="fstep"><div class="fnum">4</div><div class="fbody"><b>Fechamento</b><span>Contrato simples + sinal — sem isso, o funil não deveria andar (foi a falta de recorrência que travou Venda Capa e Venda ABC no meio do ano).</span></div></div><div class="fstep"><div class="fnum">5</div><div class="fbody"><b>Produção</b><span>Entrevista, ensaio fotográfico, texto — 12 matérias por edição em Alphaville exige rotina de produção mais apertada que ABC/Esportes bimestral.</span></div></div><div class="fstep"><div class="fnum">6</div><div class="fbody"><b>Publicação</b><span>Tiragem física + versão digital.</span></div></div><div class="fstep"><div class="fnum">7</div><div class="fbody"><b>Ativação pós-venda</b><span>Pedir o repost explicitamente e entregar conteúdo digital (se vendido) — formalizar em vez de esperar acontecer sozinho.</span></div></div><div class="fstep"><div class="fnum">8</div><div class="fbody"><b>Reativação</b><span>Usar o empresário-capa publicado como prova social do próximo prospect da mesma praça.</span></div></div></div>
+</section>
+
+<section>
 <div class="sec-num">06</div>
-<h2>Riscos e premissas</h2>
-<div class="card" style="border-left:3px solid #d03b3b;">
-  <div class="body">
-  <p style="margin-bottom:12px;"><b>Alphaville ainda não é uma marca confirmada.</b> Este plano trata como a próxima franquia editorial regional (a mesma hipótese já registrada no plano de negócios de 18/jul), mas isso depende de decisão sua antes de comprometer produção ou prometer algo a um cliente.</p>
-  <p style="margin-bottom:12px;"><b>Esportes tem modelo de receita em aberto.</b> O plano de negócios já registra essa dúvida (seção 03/06): vender editorial pode não ser o encaixe certo pro público esportivo — patrocínio de marca esportiva pode servir melhor. Testar pequeno (uma venda) antes de comprometer estrutura de venda pras duas marcas.</p>
-  <p style="margin-bottom:12px;"><b>Os preços de ABC, Alphaville e Esportes são propostas, não preços validados.</b> A régua usada foi "fração do preço já comprovado na Revista Empreenda", não pesquisa de mercado do público específico de cada praça.</p>
-  <p><b>O funil só funciona com dono.</b> A cadência de venda de capa já caiu antes — a própria pauta de reunião de 07/ago já lista "definir quem centraliza a gestão financeira" como pauta aberta; o mesmo vale aqui: sem alguém responsável pelo funil comercial dia a dia, o padrão de meses zerados tende a se repetir.</p>
-  </div>
+<h2>Estrutura de operação do funil</h2>
+<p class="note">Confirmado por você: um estrategista dedicado toca esse funil, apoiado por CRM, IA e sistemas de venda — resolve a pergunta em aberto da versão anterior deste plano ("quem vai tocar isso no dia a dia").</p>
+<div class="role-grid">
+  <div class="role"><div class="ico">👤</div><b>Estrategista</b><span>Dono do funil ponta a ponta — prospecção, proposta, fechamento e reativação nas 4 marcas.</span></div>
+  <div class="role"><div class="ico">🗂</div><b>CRM</b><span>Ferramenta ainda não escolhida — necessária pra não perder prospect entre as 4 marcas rodando em paralelo.</span></div>
+  <div class="role"><div class="ico">🤖</div><b>IA</b><span>Apoio a prospecção, redação de proposta e produção de conteúdo — ferramenta específica ainda não definida.</span></div>
+  <div class="role"><div class="ico">⚙️</div><b>Sistemas de venda</b><span>Processo formal do funil (seção 05) rodando em sistema, não em memória de quem vende.</span></div>
 </div>
 </section>
 
 <section>
 <div class="sec-num">07</div>
+<h2>Metas propostas por marca</h2>
+<table>
+<tr><th>Marca</th><th>Meta</th><th>Por quê</th></tr>
+<tr><td><b>Revista Empreenda</b></td><td>Sem meses zerados de Venda Capa — 4 vezes em 8 meses no período analisado.</td><td>Receita madura; risco é cadência, não demanda.</td></tr>
+<tr><td><b>Empreenda Alphaville</b></td><td>Fechar as primeiras 2 edições quinzenais (24 matérias) pra validar o ritmo de produção antes de prometer recorrência total.</td><td>12 matérias por edição a cada 15 dias é o ritmo mais apertado das 4 marcas — vale testar a operação antes de vender o ano inteiro.</td></tr>
+<tr><td><b>Empreenda ABC</b></td><td>Retomar cadência bimestral (parou depois de Abril) + fechar o primeiro anunciante/patrocinador local.</td><td>O formato já provou; faltou continuidade comercial.</td></tr>
+<tr><td><b>Empreenda Esportes</b></td><td>Fechar a primeira edição paga no novo modelo (multi-esporte) nos próximos 2 meses.</td><td>Única marca ativa sem faturamento reportado até agora.</td></tr>
+</table>
+</section>
+
+<section>
+<div class="sec-num">08</div>
+<h2>Riscos e premissas</h2>
+<div class="card" style="border-left:3px solid #d03b3b;">
+  <div class="body">
+  <p style="margin-bottom:12px;"><b>Pequena diferença de conta em Alphaville.</b> Capa (R$ 8.000) + 11 editoriais (R$ 1.500 cada) soma R$ 24.500 — R$ 500 acima do R$ 24.000 que você citou como valor da edição. Tratei os dois como válidos no plano (piso R$ 24.000, soma dos itens R$ 24.500); confirmar qual é o número oficial evita ambiguidade na hora de fechar contrato.</p>
+  <p style="margin-bottom:12px;"><b>Valor de anunciante/patrocinador da ABC e Esportes ainda não tem tabela.</b> A decisão de incluir essa receita está confirmada; o preço de cada cota, não. A projeção da seção 03 não inclui esse valor por isso — o potencial anual real é maior do que o número mostrado.</p>
+  <p style="margin-bottom:12px;"><b>Preço da Esportes foi inferido, não restated.</b> Você disse "mesmo modelo operante da ABC" — assumi isso como o mesmo valor de R$ 48.000/edição. Se a intenção era só o mesmo processo comercial (não o mesmo preço), o valor de Esportes precisa ser confirmado à parte.</p>
+  <p><b>CRM e ferramenta de IA ainda não escolhidos.</b> A decisão de ter estrategista + CRM + IA + sistema está fechada; qual ferramenta específica, não — sem isso o estrategista começa sem stack definido.</p>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="sec-num">09</div>
 <h2>Perguntas pra fechar o plano</h2>
 <div class="qlist">
-<div class="qitem">Empreenda Alphaville é pra valer — lança como marca nova nos moldes do ABC, ou ainda é ideia a testar?</div>
-<div class="qitem">Confirma a faixa de preço proposta pra ABC e Alphaville (R$ 15-25 mil capa / R$ 6-10 mil editorial), ou já existe um número decidido que eu não tenho registrado?</div>
-<div class="qitem">Pra Esportes: testamos venda direta de editorial/capa primeiro (mesmo motor das outras marcas), ou já buscamos patrocínio de marca esportiva como frente principal?</div>
-<div class="qitem">Quem vai tocar esse funil de vendas no dia a dia — você, Elaine, ou alguém dedicado à parte comercial?</div>
+<div class="qitem">Alphaville: o valor oficial da edição é R$ 24.000 (piso redondo) ou R$ 24.500 (soma dos itens no mínimo)?</div>
+<div class="qitem">ABC e Esportes: já existe uma faixa de preço pra cota de anunciante/patrocinador local, ou isso ainda vai ser modelado?</div>
+<div class="qitem">Esportes usa exatamente o mesmo valor de R$ 48.000/edição da ABC, ou vai ter tabela própria assim que a primeira venda acontecer?</div>
+<div class="qitem">Qual CRM e qual ferramenta de IA o estrategista vai usar — já tem escolha, ou isso entra na primeira semana de trabalho dele(a)?</div>
+<div class="qitem">O estrategista é contratação nova ou já é alguém da equipe atual assumindo essa frente?</div>
 </div>
 </section>
 
 <footer>
-  <p><b>Base deste plano:</b> "Plano de negócios — Revista Empreenda" (18/jul/2026, confirmado por você), extrato bancário da conta Elaine (jan-ago/2026, ver análise financeira por centro de custo) e pauta de reunião do ecossistema Empreenda (07/ago/2026).</p>
-  <p><b>O que é fato e o que é proposta:</b> preço da Revista Empreenda/Empreenda Portugal (R$ 40-70 mil) e os casos citados (edição 75, dono de academia do ABC, capa do Cafu) são fatos já confirmados. Preços de ABC, Esportes e Alphaville, os pacotes da seção 03 e a existência da própria marca Alphaville são propostas deste plano — nenhum foi validado por você ainda.</p>
+  <p><b>Base deste plano:</b> "Plano de negócios — Revista Empreenda" (18/jul/2026), extrato bancário da conta Elaine (jan-ago/2026), pauta de reunião do ecossistema Empreenda (07/ago/2026), e as decisões de preço/cadência/escopo confirmadas por você em 08/ago/2026 para Alphaville, ABC e Esportes.</p>
+  <p><b>O que é fato e o que ainda é proposta:</b> preço/cadência de Alphaville, valor total de ABC e Esportes, a inclusão de anunciantes/patrocinadores e a estrutura estrategista+CRM+IA+sistema são decisões suas, já confirmadas. O preço de editorial interno da Revista Empreenda, o pacote "Capa + Conteúdo Digital" e o valor exato da cota de anunciante seguem como proposta, não fato fechado.</p>
 </footer>
 </div></body></html>
