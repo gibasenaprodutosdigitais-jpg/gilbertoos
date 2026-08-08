@@ -9,6 +9,8 @@ h1 { font-size:28px; font-weight:800; letter-spacing:-0.01em; }
 .subtitle { color:#52514e; font-size:14.5px; margin-top:8px; line-height:1.55; max-width:760px; }
 .intro { margin-top:22px; font-size:14px; line-height:1.65; color:#52514e; background:#fcfcfb; border:1px solid #e1e0d9; border-left:3px solid #2a78d6; border-radius:8px; padding:18px 20px; }
 .intro b { color:#0b0b0b; }
+.changelog { background:#eef2fb; border:1px solid #cfe0f7; border-radius:8px; padding:14px 18px; font-size:13px; color:#52514e; margin-top:14px; }
+.changelog b { color:#2a78d6; }
 section { margin-top:38px; }
 .sec-num { font-size:12px; font-weight:800; color:#2a78d6; letter-spacing:0.08em; }
 h2 { font-size:19px; font-weight:800; margin-top:4px; margin-bottom:6px; }
@@ -26,26 +28,37 @@ tr.total td { font-weight:800; border-top:1.5px solid #c3c2b7; border-bottom:non
 .kpi { flex:1; min-width:220px; background:#fcfcfb; border:1px solid #e1e0d9; border-radius:10px; padding:18px 20px; }
 .kpi .label { font-size:11.5px; color:#898781; text-transform:uppercase; letter-spacing:0.06em; font-weight:700; }
 .kpi .value { font-size:22px; font-weight:800; margin-top:6px; font-variant-numeric: tabular-nums; color:#2a78d6; }
-.card { background:#fcfcfb; border:1px solid #e1e0d9; border-radius:10px; padding:16px 18px; margin-top:10px; }
-.card b { color:#0b0b0b; }
+.center-card { background:#fcfcfb; border:1px solid #e1e0d9; border-radius:12px; padding:22px 24px; margin-top:16px; }
+.center-card .head { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:16px; }
+.center-card h3 { font-size:16.5px; font-weight:800; }
+.center-card .meta-line { font-size:12.5px; color:#52514e; margin-top:4px; }
+.center-card .totals { font-size:13px; color:#52514e; margin-top:8px; }
+.center-card .totals b { color:#0b0b0b; font-variant-numeric: tabular-nums; }
+.narrative { margin-top:14px; font-size:13px; line-height:1.6; }
+.narrative p { margin-bottom:8px; }
+.good { color:#006300; }
+.critical { color:#d03b3b; }
+.zero { color:#2a78d6; }
 footer { margin-top:48px; border-top:1px solid #e1e0d9; padding-top:18px; font-size:11.5px; color:#898781; line-height:1.6; }
 </style></head><body><div class="page">
 
-<div class="doc-tag">Documento interno · uso do Gilberto · 08 ago 2026</div>
+<div class="doc-tag">Documento interno · uso do Gilberto · atualizado 08 ago 2026</div>
 <h1>Projeção semestral de receita — metas por centro</h1>
 <div class="subtitle">Ecossistema Empreenda: 5 marcas editoriais + 7 produtos do Empreenda Business, cada um com meta de volume definida por você — não é o teto do plano comercial, é a meta real de venda pro semestre.</div>
 
-<div class="intro">Cada linha abaixo é um <b>centro de receita</b> separado: meta de volume (quantas edições, participantes, diárias, horas ou pacotes) × preço já confirmado no plano comercial. No fim, todos os centros são somados num <b>total estimado</b>, mensal (média) e semestral. Duas premissas minhas estão sinalizadas em vermelho nas notas — preço de referência pros livros avulsos, e a faixa de mensalidade do Clube sem mix definido.</div>
+<div class="intro">Cada centro de receita abaixo tem: meta de volume × preço confirmado, gráfico de quando a receita entra ao longo dos 6 meses, e uma leitura rápida — ponto forte, ponto de atenção e uma sugestão de "risco zero" (o que reduziria o risco daquele número específico a praticamente zero).</div>
+
+<div class="changelog"><b>Atualizado 08/ago/2026</b> — ABC e Esportes corrigidos: R$ 24.000/mês (capa+editorial) + R$ 6.000/mês (anunciante/patrocínio) = R$ 30.000/mês cada, cobrança mensal mesmo com a edição física saindo a cada 2 meses. Substitui o cálculo anterior por tabela de tamanho/quantidade de anúncio.</div>
 
 <div class="kpis">
-  <div class="kpi"><div class="label">Receita total — semestre</div><div class="value">R$ 2.134.350 – R$ 2.954.550</div></div>
-  <div class="kpi"><div class="label">Receita total — média mensal (semestre ÷ 6)</div><div class="value">R$ 355.725 – R$ 492.425</div></div>
+  <div class="kpi"><div class="label">Receita total — semestre</div><div class="value">R$ 2.179.350 – R$ 2.929.350</div></div>
+  <div class="kpi"><div class="label">Receita total — média mensal (semestre ÷ 6)</div><div class="value">R$ 363.225 – R$ 488.225</div></div>
 </div>
 
 <section>
 <div class="sec-num">01</div>
-<h2>Centros de receita — meta e projeção</h2>
-<p class="note">"Mensal" = cadência própria do centro (repete todo mês). "Bimestral" = repete a cada 2 meses — em 6 meses isso dá 3 ocorrências. A coluna "no período" mostra o valor de uma ocorrência (mês ou bimestre); "no semestre" já soma todas as ocorrências dos 6 meses.</p>
+<h2>Resumo — meta e projeção por centro</h2>
+<p class="note">"Mensal" repete todo mês. "Bimestral" repete a cada 2 meses — 3 ocorrências em 6 meses.</p>
 <table>
 <tr><th>Centro de receita</th><th>Meta</th><th>Cadência</th><th class="num">Valor no período</th><th class="num">Total no semestre</th></tr><tr>
       <td><b>Empreenda Nacional</b></td>
@@ -61,16 +74,16 @@ footer { margin-top:48px; border-top:1px solid #e1e0d9; padding-top:18px; font-s
       <td class="num">R$ 120.000 – R$ 210.000</td>
     </tr><tr>
       <td><b>Empreenda ABC</b></td>
-      <td>1 edição/bimestre · R$ 48 mil + 18 anunciantes (R$250-900)</td>
-      <td><span class="cad bimestral">Bimestral</span></td>
-      <td class="num">R$ 52.500 – R$ 64.200</td>
-      <td class="num">R$ 157.500 – R$ 192.600</td>
+      <td>R$ 24.000/mês capa+editorial + R$ 6.000/mês anunciantes</td>
+      <td><span class="cad mensal">Mensal</span></td>
+      <td class="num">R$ 30.000</td>
+      <td class="num">R$ 180.000</td>
     </tr><tr>
       <td><b>Empreenda Esportes</b></td>
-      <td>1 edição/bimestre · R$ 48 mil + 18 anunciantes (R$250-900)</td>
-      <td><span class="cad bimestral">Bimestral</span></td>
-      <td class="num">R$ 52.500 – R$ 64.200</td>
-      <td class="num">R$ 157.500 – R$ 192.600</td>
+      <td>R$ 24.000/mês capa+editorial + R$ 6.000/mês patrocínio</td>
+      <td><span class="cad mensal">Mensal</span></td>
+      <td class="num">R$ 30.000</td>
+      <td class="num">R$ 180.000</td>
     </tr><tr>
       <td><b>Empreenda Alphaville</b></td>
       <td>2 edições/mês · R$ 24.500 cada</td>
@@ -78,19 +91,19 @@ footer { margin-top:48px; border-top:1px solid #e1e0d9; padding-top:18px; font-s
       <td class="num">R$ 49.000</td>
       <td class="num">R$ 294.000</td>
     </tr><tr>
-      <td><b>Livros (Edição e Publicação)</b><div class="flag">Produto &quot;Livro&quot; nunca teve preço próprio fechado. Usei R$ 15.500 como referência — é o valor do item &quot;edição, criação e publicação do livro&quot; dentro do pacote de Criação pra Terceiros. Confirmar se serve como preço do livro avulso.</div></td>
+      <td><b>Livros (Edição e Publicação)</b><div class="flag">Preço de referência, não confirmado como preço oficial do livro avulso.</div></td>
       <td>2 livros/mês</td>
       <td><span class="cad mensal">Mensal</span></td>
       <td class="num">R$ 31.000</td>
       <td class="num">R$ 186.000</td>
     </tr><tr>
-      <td><b>Empreenda Clube</b><div class="flag">Sem mistura de faixa definida (Bronze R$2.000 / Prata R$4.500 / Ouro R$10.000). Mostro o piso (10 Bronze) e o teto (10 Ouro) — o real fica entre os dois conforme a faixa de cada participante.</div></td>
+      <td><b>Empreenda Clube</b><div class="flag">Faixa sem mix definido — mostra piso (10 Bronze) e teto (10 Ouro).</div></td>
       <td>10 participantes/mês</td>
       <td><span class="cad mensal">Mensal</span></td>
       <td class="num">R$ 20.000 – R$ 100.000</td>
       <td class="num">R$ 120.000 – R$ 600.000</td>
     </tr><tr>
-      <td><b>Espaço Kairós (locação)</b><div class="flag">Só a diária base. Técnico, faxina e equipamento (câmera/telão/TV/recepção) somam à parte se o cliente pedir — não estão neste valor.</div></td>
+      <td><b>Espaço Kairós (locação)</b><div class="flag">Só a diária base. Técnico, faxina e equipamento somam à parte se o cliente pedir.</div></td>
       <td>9 diárias Qui-Dom/mês · R$ 8.000 cada</td>
       <td><span class="cad mensal">Mensal</span></td>
       <td class="num">R$ 72.000</td>
@@ -102,13 +115,13 @@ footer { margin-top:48px; border-top:1px solid #e1e0d9; padding-top:18px; font-s
       <td class="num">R$ 10.000</td>
       <td class="num">R$ 60.000</td>
     </tr><tr>
-      <td><b>Imersão Storytelling (Elaine)</b><div class="flag">Preço confirmado agora (mesmo valor da Imersão Forjado) — antes constava só como &quot;a definir&quot; no plano comercial.</div></td>
+      <td><b>Imersão Storytelling (Elaine)</b><div class="flag">Preço confirmado nesta rodada — antes constava só como &quot;a definir&quot; no plano comercial.</div></td>
       <td>25 pessoas/bimestre · R$ 249/pessoa</td>
       <td><span class="cad bimestral">Bimestral</span></td>
       <td class="num">R$ 6.225</td>
       <td class="num">R$ 18.675</td>
     </tr><tr>
-      <td><b>Imersão Forjado (Gilberto)</b><div class="flag">No plano comercial, Forjado tinha data única confirmada (03-04/set). Aqui é reprojetada como recorrente a cada 2 meses — decisão a confirmar se é isso mesmo que você quer pra depois do lançamento.</div></td>
+      <td><b>Imersão Forjado (Gilberto)</b><div class="flag">No plano comercial, Forjado tinha só a data única confirmada. Aqui é projetada como recorrente — a confirmar se é essa mesmo a intenção.</div></td>
       <td>25 pessoas/bimestre · R$ 249/pessoa</td>
       <td><span class="cad bimestral">Bimestral</span></td>
       <td class="num">R$ 6.225</td>
@@ -121,23 +134,196 @@ footer { margin-top:48px; border-top:1px solid #e1e0d9; padding-top:18px; font-s
       <td class="num">R$ 330.000</td>
     </tr><tr class="total">
   <td colspan="4">Receita total estimada — semestre (soma dos 12 centros)</td>
-  <td class="num">R$ 2.134.350 – R$ 2.954.550</td>
+  <td class="num">R$ 2.179.350 – R$ 2.929.350</td>
 </tr>
 <tr class="total">
   <td colspan="4">Receita total estimada — média mensal (semestre ÷ 6)</td>
-  <td class="num">R$ 355.725 – R$ 492.425</td>
+  <td class="num">R$ 363.225 – R$ 488.225</td>
 </tr>
 </table>
 </section>
 
 <section>
 <div class="sec-num">02</div>
+<h2>Centro a centro — projeção, pontos fortes, atenção e risco zero</h2>
+<p class="note">O gráfico mostra a receita mês a mês (M1-M6) se a meta for batida — barras zeradas nos meses "de intervalo" dos produtos bimestrais mostram onde o caixa fica mais magro.</p><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Empreenda Nacional <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">1 edição/mês · capa R$ 40-70 mil</div>
+          <div class="totals">Por período <b>R$ 40.000 – R$ 70.000</b> · Semestre <b>R$ 240.000 – R$ 420.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Produto mais maduro e comprovado do grupo — maior ticket médio entre as 5 marcas, sem precisar provar o modelo de novo.</p>
+        <p><b class="critical">Ponto de atenção —</b> A meta de 1 edição/mês é uma aceleração forte frente ao histórico real: o extrato bancário mostra só 4 vendas de capa em 8 meses. É meta, não repetição de padrão já visto.</p>
+        <p><b class="zero">Risco zero —</b> Exigir sinal + contrato fechado antes de iniciar produção de cada edição — nenhuma capa entra em pauta sem receita mínima garantida (mesma disciplina do funil, seção 05 do plano comercial).</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Empreenda Portugal <span class="cad bimestral">Bimestral</span></h3>
+          <div class="meta-line">1 edição/bimestre · mesmo valor da nacional</div>
+          <div class="totals">Por período <b>R$ 40.000 – R$ 70.000</b> · Semestre <b>R$ 120.000 – R$ 210.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Preço já validado (mesma faixa da nacional) — não precisa provar o modelo comercial de novo, só a execução em outra praça.</p>
+        <p><b class="critical">Ponto de atenção —</b> Cadência bimestral internacional ainda não foi testada na prática — o plano de negócios de 18/jul não tinha frequência confirmada até esta rodada.</p>
+        <p><b class="zero">Risco zero —</b> Mesma disciplina de sinal + contrato antes de iniciar; considerar parceiro/produtor local em Portugal pra não depender de deslocamento a cada edição.</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Empreenda ABC <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">R$ 24.000/mês capa+editorial + R$ 6.000/mês anunciantes</div>
+          <div class="totals">Por período <b>R$ 30.000</b> · Semestre <b>R$ 180.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Caso de prova já existe (academia repostou sozinho) e a cobrança agora é mensal — dá previsibilidade de caixa mesmo com a edição física saindo a cada 2 meses.</p>
+        <p><b class="critical">Ponto de atenção —</b> No extrato real, ABC vendeu de Janeiro a Abril e parou. Meta de cobrança contínua mensal exige reativar E manter — não é só fechar uma venda pontual de novo.</p>
+        <p><b class="zero">Risco zero —</b> Contrato de anunciante com ciclo mínimo (ex.: 6 meses) trava a parte de R$ 6.000/mês, tirando a dependência de renovação mês a mês.</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Empreenda Esportes <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">R$ 24.000/mês capa+editorial + R$ 6.000/mês patrocínio</div>
+          <div class="totals">Por período <b>R$ 30.000</b> · Semestre <b>R$ 180.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Capa do Cafu já é prova de conceito de peso — abre porta com qualquer nome novo do esporte.</p>
+        <p><b class="critical">Ponto de atenção —</b> Marca sem nenhuma venda paga registrada até agora. R$ 30.000/mês aqui é 100% projeção, sem histórico de conversão ainda.</p>
+        <p><b class="zero">Risco zero —</b> Fechar um contrato-piloto (mesmo que menor que a meta cheia) antes de comprometer R$ 30.000/mês o semestre inteiro — validar demanda real primeiro.</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Empreenda Alphaville <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">2 edições/mês · R$ 24.500 cada</div>
+          <div class="totals">Por período <b>R$ 49.000</b> · Semestre <b>R$ 294.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Preço já fechado, franquia replicando um formato que já provou funcionar (mesmo molde do ABC).</p>
+        <p><b class="critical">Ponto de atenção —</b> É o ritmo de produção mais apertado das 5 marcas — 12 matérias a cada 15 dias. O risco aqui é operacional (dar conta de produzir), não comercial.</p>
+        <p><b class="zero">Risco zero —</b> Testar as duas primeiras edições quinzenais antes de prometer o semestre inteiro pro mercado (já é a meta oficial da seção 07 do plano comercial).</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Livros (Edição e Publicação) <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">2 livros/mês</div>
+          <div class="totals">Por período <b>R$ 31.000</b> · Semestre <b>R$ 186.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Já existe receita real e comprovada: R$ 11.900 no extrato bancário, ligados ao livro "The Founder".</p>
+        <p><b class="critical">Ponto de atenção —</b> O preço usado aqui (R$ 15.500) é uma referência emprestada do pacote de terceiros, não o preço oficial do produto avulso. Meta de 2/mês nunca foi testada nesse volume.</p>
+        <p><b class="zero">Risco zero —</b> Fechar o preço oficial do livro avulso antes de vender a meta cheia — hoje o número carrega risco de precificação, além do risco comercial.</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Empreenda Clube <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">10 participantes/mês</div>
+          <div class="totals">Por período <b>R$ 20.000 – R$ 100.000</b> · Semestre <b>R$ 120.000 – R$ 600.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Modelo evoluiu de colaboração simbólica pra mensalidade paga, com 3 faixas já definidas (Bronze/Prata/Ouro).</p>
+        <p><b class="critical">Ponto de atenção —</b> É o centro de MAIOR variação da tabela — R$ 20 mil a R$ 100 mil/mês, 5x de diferença — porque o mix de faixa por participante ainda não foi definido.</p>
+        <p><b class="zero">Risco zero —</b> Definir uma meta de mix mínimo (ex.: quantos Bronze, Prata, Ouro dentro dos 10) em vez de deixar em aberto — reduz a variação e dá meta clara pro estrategista vender.</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Espaço Kairós (locação) <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">9 diárias Qui-Dom/mês · R$ 8.000 cada</div>
+          <div class="totals">Por período <b>R$ 72.000</b> · Semestre <b>R$ 432.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Ativo já integralizado (R$ 1 milhão), sem custo de aquisição — é margem quase pura sobre algo que já existe.</p>
+        <p><b class="critical">Ponto de atenção —</b> 9 diárias de Qui-Dom por mês é meta agressiva: um mês tem só 4-5 finais de semana, cada um com Qui-Sex-Sáb-Dom (até 4 dias) — a meta pressupõe ocupação bem alta desse bloco.</p>
+        <p><b class="zero">Risco zero —</b> Mapear a agenda real do espaço antes de vender a meta cheia — conferir se as 9 diárias não conflitam com uso próprio da Empreenda (Business Club, eventos internos, gravações).</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Podcast Kairós (locação) <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">40h/mês sem técnico · R$ 250/h</div>
+          <div class="totals">Por período <b>R$ 10.000</b> · Semestre <b>R$ 60.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Ticket menor, mas esforço de venda também menor — fácil de encaixar como upsell de quem já loca o Espaço.</p>
+        <p><b class="critical">Ponto de atenção —</b> 40h/mês equivale a ~1h20 por dia útil — meta possível, mas exige agenda do estúdio quase sempre ocupada.</p>
+        <p><b class="zero">Risco zero —</b> Fechar 2-3 clientes recorrentes com pacote mensal fixo reduz a dependência de vender hora avulsa toda semana.</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Imersão Storytelling (Elaine) <span class="cad bimestral">Bimestral</span></h3>
+          <div class="meta-line">25 pessoas/bimestre · R$ 249/pessoa</div>
+          <div class="totals">Por período <b>R$ 6.225</b> · Semestre <b>R$ 18.675</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Preço confirmado agora reaproveita o mesmo mecanismo de venda já desenhado pra Imersão Forjado — não precisa criar funil do zero.</p>
+        <p><b class="critical">Ponto de atenção —</b> Produto 100% novo, nunca vendido. Meta de mínimo 25 pessoas é a mesma do Forjado, mas sem nenhuma prova de demanda própria pra Elaine ainda.</p>
+        <p><b class="zero">Risco zero —</b> Vender a primeira turma com lista de espera / interesse validado antes de comprometer produção do evento — não abrir data sem sinal de demanda.</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Imersão Forjado (Gilberto) <span class="cad bimestral">Bimestral</span></h3>
+          <div class="meta-line">25 pessoas/bimestre · R$ 249/pessoa</div>
+          <div class="totals">Por período <b>R$ 6.225</b> · Semestre <b>R$ 18.675</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="49.0" width="37.5" height="2" fill="#e1e0d9"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Já tem data marcada (03-04/set/2026) e material de lançamento pronto — carrossel e reels já produzidos.</p>
+        <p><b class="critical">Ponto de atenção —</b> Reprojetar como recorrente a cada 2 meses é decisão nova pra esta projeção — o evento real hoje só tem UMA data confirmada, não um calendário recorrente ainda.</p>
+        <p><b class="zero">Risco zero —</b> Só prometer a segunda edição depois de validar a primeira — lotação mínima de 25 pessoas batida de verdade em setembro, antes de vender a recorrência.</p>
+      </div>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3>Criação de produtos p/ terceiros <span class="cad mensal">Mensal</span></h3>
+          <div class="meta-line">1 pacote/mês · R$ 55.000</div>
+          <div class="totals">Por período <b>R$ 55.000</b> · Semestre <b>R$ 330.000</b></div>
+        </div>
+        <div><svg width="260" height="64" viewBox="0 0 260 64" xmlns="http://www.w3.org/2000/svg"><rect x="5.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="23.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M1</text><rect x="47.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="66.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M2</text><rect x="90.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="108.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M3</text><rect x="132.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="151.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M4</text><rect x="175.0" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="193.8" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M5</text><rect x="217.5" y="2.0" width="37.5" height="48.0" rx="3" fill="#2a78d6"/><text x="236.2" y="61" font-size="8" fill="#898781" text-anchor="middle" font-family="system-ui,sans-serif">M6</text></svg></div>
+      </div>
+      <div class="narrative">
+        <p><b class="good">Ponto forte —</b> Pacote mais caro e mais completo do Empreenda Business, com etapas bem definidas (extração, material, livro, editorial, coquetel, Summit).</p>
+        <p><b class="critical">Ponto de atenção —</b> Você mesmo confirmou que R$ 55.000 é preço de lançamento, sujeito a reajuste. A meta de 1/mês pode não sustentar esse preço se a demanda ficar maior que a capacidade real de produção.</p>
+        <p><b class="zero">Risco zero —</b> Limitar a meta mensal à capacidade real de produção do time — o processo completo (extração → livro → editorial → coquetel) é longo por cliente; vender mais de 1/mês sem capacidade gera fila e atraso.</p>
+      </div>
+    </div></section>
+
+<section>
+<div class="sec-num">03</div>
 <h2>Como isto difere do plano comercial</h2>
-<div class="card"><b>Plano comercial (08/ago)</b> mostrava o <b>potencial máximo</b> se toda edição vendesse o piso mínimo, sem meta de quantidade em alguns produtos (ex.: Clube, Podcast, Espaço não tinham volume definido lá). <b>Esta projeção</b> usa as <b>metas de volume que você definiu agora</b> — 9 diárias, 40 horas, 10 participantes, 2 livros etc. — o que torna o número mais realista pra planejamento de caixa do semestre, não só um teto teórico.</div>
+<div class="card" style="background:#fcfcfb; border:1px solid #e1e0d9; border-radius:10px; padding:16px 18px;"><b>Plano comercial (08/ago)</b> mostrava o <b>potencial máximo</b> se toda edição vendesse o piso mínimo, sem meta de quantidade em alguns produtos (ex.: Clube, Podcast, Espaço não tinham volume definido lá). <b>Esta projeção</b> usa as <b>metas de volume que você definiu</b> — 9 diárias, 40 horas, 10 participantes, 2 livros etc. — o que torna o número mais realista pra planejamento de caixa do semestre, não só um teto teórico.</div>
 </section>
 
 <footer>
-  <p><b>Base:</b> preços e cadências confirmados no plano comercial "Venda de capa e editorial" (08/ago/2026) + metas de volume por centro ditadas por você nesta rodada (08/ago/2026).</p>
-  <p><b>Fato vs. premissa:</b> todos os preços unitários (edição, diária, hora, pacote, pessoa) vêm do plano comercial já confirmado. As metas de volume (quantas edições/diárias/horas/participantes por período) são as que você acabou de definir. As duas exceções sinalizadas em vermelho na tabela — preço de referência do livro avulso e a faixa sem mix do Clube — são premissas minhas, não fato fechado.</p>
+  <p><b>Base:</b> preços e cadências confirmados no plano comercial "Venda de capa e editorial" (08/ago/2026, incluindo a correção de ABC/Esportes pra R$ 30.000/mês) + metas de volume por centro ditadas por você.</p>
+  <p><b>Fato vs. premissa:</b> todos os preços unitários vêm do plano comercial já confirmado. As metas de volume são as que você definiu. Duas exceções seguem sinalizadas na tabela: preço de referência do livro avulso (não é preço oficial) e a faixa sem mix definido do Clube. Os pontos fortes/atenção/risco zero da seção 02 são leitura minha em cima dos números — não são fato, são análise.</p>
 </footer>
 </div></body></html>
