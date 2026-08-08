@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Reels — Forjado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: #0A0A0A; overflow: hidden; }
+  body { width: 1080px; height: 1920px; position: relative; font-family: 'Inter', sans-serif; }
+
+  .reel-slide {
+    position: absolute;
+    inset: 0;
+    width: 1080px;
+    height: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(1.035);
+    transition: opacity 0.5s ease, transform 0.6s ease;
+    z-index: 1;
+  }
+  .reel-slide.active {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 2;
+  }
+
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #C9A227; color: #0F1419; }
+
+  .gold { color: #C9A227; }
+
+  .stage {
+    width: 1080px;
+    height: 1350px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .bg-dark .topbar, .bg-black .topbar { color: #C9A227; }
+  .bg-light .topbar { color: #C9A227; }
+  .bg-gold .topbar { color: #0F1419; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin: 40px 64px 0 64px;
+  }
+  .bg-gold .rule { background: #0F1419; }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* elementos animados de entrada — controlados via .active .reveal */
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .active .reveal { opacity: 1; transform: translateY(0); }
+  .active .reveal.d1 { transition-delay: 0.10s; }
+  .active .reveal.d2 { transition-delay: 0.22s; }
+  .active .reveal.d3 { transition-delay: 0.34s; }
+  .active .reveal.d4 { transition-delay: 0.46s; }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .bg-gold .kicker { color: #0F1419; opacity: 0.75; }
+
+  .title-cover {
+    font-size: 76px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.12;
+    max-width: 920px;
+  }
+
+  .h2 {
+    font-size: 58px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.16;
+    max-width: 900px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+  .bg-gold .footer { border-top: 1px solid rgba(15,20,25,0.22); }
+
+  /* DUO */
+  .duo-cols { display: flex; gap: 56px; margin-top: 8px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 20px;
+    font-weight: 900;
+    color: #C9A227;
+    margin-bottom: 14px;
+  }
+  .bg-light .duo-num { color: #C9A227; }
+  .duo-h { font-size: 38px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.1; }
+  .duo-text { font-size: 22px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+  .bg-light .duo-divider-v { background: rgba(21,21,21,0.14); }
+
+  /* NUMERO */
+  .big-number {
+    font-size: 340px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+
+  /* CITACAO */
+  .quote-mark {
+    font-size: 140px;
+    font-weight: 900;
+    color: #C9A227;
+    line-height: 0.5;
+    margin-bottom: 24px;
+  }
+  .bg-gold .quote-mark { color: #0F1419; }
+  .quote-text {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.22;
+    max-width: 880px;
+  }
+  .quote-attr {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 36px;
+    opacity: 0.7;
+  }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 130px;
+    height: auto;
+    margin-bottom: 36px;
+  }
+  .cta-wordmark {
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: 760px;
+    margin-bottom: 40px;
+  }
+  .cta-line {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    opacity: 0.75;
+    max-width: 640px;
+    margin-bottom: 36px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="reel-slide bg-dark" data-dur="3000">
+  <div class="stage">
+    <div class="topbar"><span>GILBERTO SENA</span><span>01/07</span></div>
+    <div class="rule"></div>
+    <div class="content">
+      <div class="kicker reveal d1">Imersão Forjado</div>
+      <div class="title-cover reveal d2">Ninguém nasce empresário exponencial. <span class="gold">Estes são forjados.</span></div>
+    </div>
+    <div class="footer">EMPRESÁRIO EXPONENCIAL</div>
+  </div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="reel-slide bg-light" data-dur="2600">
+  <div class="stage">
+    <div class="topbar"><span>GILBERTO SENA</span><span>02/07</span></div>
+    <div class="rule"></div>
+    <div class="content">
+      <div class="kicker reveal d1">Enquanto o mercado inteiro...</div>
+      <div class="h2 reveal d2">Summit, Experience, Valley, etc.</div>
+      <div class="body-txt reveal d3">Você abre a agenda de qualquer imersão empresarial no Brasil hoje e é sempre a mesma palavra emprestada. Todo evento com o mesmo nome, prometendo a mesma coisa.</div>
+    </div>
+    <div class="footer">GILBERTOSENAOFICIAL</div>
+  </div>
+</div>
+
+<!-- SLIDE 3 — CITACAO -->
+<div class="reel-slide bg-black" data-dur="2800">
+  <div class="stage">
+    <div class="topbar"><span>GILBERTO SENA</span><span>03/07</span></div>
+    <div class="rule"></div>
+    <div class="content">
+      <div class="quote-mark reveal d1">"</div>
+      <div class="quote-text reveal d2">Fui forjado pelos momentos que passei, fui me capacitando ao longo do processo, até que em 2010 nascia o Grupo Sena.</div>
+      <div class="quote-attr reveal d3">— Gilberto Sena</div>
+    </div>
+    <div class="footer">GILBERTOSENAOFICIAL</div>
+  </div>
+</div>
+
+<!-- SLIDE 4 — NUMERO -->
+<div class="reel-slide bg-gold" data-dur="2400">
+  <div class="stage">
+    <div class="topbar"><span>GILBERTO SENA</span><span>04/07</span></div>
+    <div class="rule"></div>
+    <div class="content">
+      <div class="kicker reveal d1">Uma história que eu não conto toda hora</div>
+      <div class="big-number reveal d2">7</div>
+      <div class="body-txt reveal d3" style="color:#151515; opacity:0.85;">Sete quedas me fizeram levantar ainda mais forte.</div>
+    </div>
+    <div class="footer">GILBERTOSENAOFICIAL</div>
+  </div>
+</div>
+
+<!-- SLIDE 5 — SOLO -->
+<div class="reel-slide bg-dark" data-dur="2800">
+  <div class="stage">
+    <div class="topbar"><span>GILBERTO SENA</span><span>05/07</span></div>
+    <div class="rule"></div>
+    <div class="content">
+      <div class="kicker reveal d1">Por que esse nome</div>
+      <div class="h2 reveal d2">A prata não vira prata de verdade sem passar pelo fogo do fundidor.</div>
+      <div class="body-txt reveal d3">É assim que a Bíblia fala de caráter — e é assim que eu penso empresário exponencial. Não tem atalho que substitua o fogo.</div>
+    </div>
+    <div class="footer">GILBERTOSENAOFICIAL</div>
+  </div>
+</div>
+
+<!-- SLIDE 6 — DUO -->
+<div class="reel-slide bg-light" data-dur="3000">
+  <div class="stage">
+    <div class="topbar"><span>GILBERTO SENA</span><span>06/07</span></div>
+    <div class="rule"></div>
+    <div class="content">
+      <div class="kicker reveal d1">A diferença</div>
+      <div class="duo-cols">
+        <div class="duo-col reveal d2">
+          <div class="duo-num">O QUE OS OUTROS QUEREM</div>
+          <div class="duo-h">Palco</div>
+          <div class="duo-text">Self, likes, sem entrega.</div>
+        </div>
+        <div class="duo-divider-v"></div>
+        <div class="duo-col reveal d3">
+          <div class="duo-num">O QUE EU ENTREGO</div>
+          <div class="duo-h">Prova</div>
+          <div class="duo-text">Método, estrutura, resultado real no seu negócio — não só no seu feed.</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">GILBERTOSENAOFICIAL</div>
+  </div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL -->
+<div class="reel-slide bg-black" data-dur="3600">
+  <div class="stage">
+    <div class="topbar"><span>GILBERTO SENA</span><span>07/07</span></div>
+    <div class="cta-wrap">
+      <img class="lion-seal reveal d1" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <div class="cta-wordmark reveal d2">FORJADO</div>
+      <div class="cta-body reveal d3">Empresário Exponencial.</div>
+      <div class="cta-line reveal d4">"O fogo que forja não é o mesmo que destrói."</div>
+      <div class="cta-handle reveal d4">@gilbertosenaoficial</div>
+    </div>
+    <div class="footer" style="border-top:none; text-align:center;">EMPRESÁRIO EXPONENCIAL</div>
+  </div>
+</div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.reel-slide'));
+  let i = 0;
+  function showNext() {
+    slides.forEach((s, idx) => s.classList.toggle('active', idx === i));
+    const dur = parseInt(slides[i].dataset.dur, 10);
+    if (i < slides.length - 1) {
+      setTimeout(() => { i++; showNext(); }, dur);
+    }
+    // último slide: fica parado em tela (freeze) — não avança
+  }
+  window.addEventListener('load', () => {
+    document.fonts.ready.then(() => {
+      setTimeout(showNext, 200);
+    });
+  });
+</script>
+
+</body>
+</html>
