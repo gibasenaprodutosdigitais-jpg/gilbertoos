@@ -24,7 +24,7 @@ processo, até que em 2010 nascia o Grupo Sena." — Gilberto Sena
 ## Slide 4 — NÚMERO
 KICKER: Uma história que eu não conto toda hora
 NÚMERO: 7
-CORPO: Quebrei sete vezes antes de aprender a construir o que não quebra.
+CORPO: Sete quedas me fizeram levantar ainda mais forte.
 Ninguém fala disso na vitrine. Eu falo.
 
 > Nota: o número "7" (falências) já apareceu antes num carrossel de
@@ -39,13 +39,12 @@ empresário exponencial. Não tem atalho que substitua o fogo.
 
 ## Slide 6 — DUO
 KICKER: A diferença
-Coluna A — "O que os outros vendem": Palco. Selfie com autoridade. Sensação
-de estar dentro.
-Coluna B — "O que a Forjado entrega": Prova. Método, estrutura, resultado
+Coluna A — "O que os outros querem": Palco. Self, likes, sem entrega.
+Coluna B — "O que eu entrego": Prova. Método, estrutura, resultado
 real no seu negócio — não só no seu feed.
 
 ## Slide 7 — CTA FINAL
-FORJADO — A imersão do Empresário Exponencial.
+FORJADO — Empresário Exponencial.
 "O fogo que forja não é o mesmo que destrói."
 @gilbertosenaoficial
 
