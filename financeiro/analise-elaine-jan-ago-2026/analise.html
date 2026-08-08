@@ -1,0 +1,1138 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Análise Financeira — Editora Empreenda (conta Elaine)</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#f9f9f7; color:#0b0b0b; font-family: system-ui,-apple-system,"Segoe UI",sans-serif; }
+.page { max-width: 1040px; margin: 0 auto; padding: 48px 40px 80px; }
+h1 { font-size: 30px; font-weight: 800; letter-spacing:-0.01em; }
+.subtitle { color:#52514e; font-size:15px; margin-top:6px; }
+.kicker { font-size:12px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#898781; margin-bottom:10px; }
+.kpis { display:flex; gap:16px; margin: 28px 0 36px; flex-wrap: wrap; }
+.kpi { flex:1; min-width:180px; background:#fcfcfb; border:1px solid #e1e0d9; border-radius:10px; padding:18px 20px; }
+.kpi .label { font-size:12px; color:#898781; text-transform:uppercase; letter-spacing:0.08em; font-weight:700; }
+.kpi .value { font-size:24px; font-weight:800; margin-top:6px; font-variant-numeric: tabular-nums; }
+.legend { display:flex; gap:6px; align-items:center; font-size:13px; color:#52514e; margin-bottom: 6px;}
+.dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+section.block { margin-top: 40px; }
+h2 { font-size: 19px; font-weight:800; margin-bottom: 4px; }
+p.note { color:#52514e; font-size:13px; margin-bottom:16px; }
+table { width:100%; border-collapse: collapse; font-size:13.5px; }
+th { text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:0.05em; color:#898781; font-weight:700; padding:8px 10px; border-bottom:1px solid #c3c2b7; }
+td { padding:9px 10px; border-bottom:1px solid #e1e0d9; font-variant-numeric: tabular-nums; }
+tr:hover td { background: rgba(11,11,11,0.02); }
+.num { text-align:right; }
+.swatch { width:11px; height:11px; border-radius:3px; display:inline-block; margin-right:8px; vertical-align:middle; }
+.swatch.neutral { background:#d8d7d0; }
+.center-card { background:#fcfcfb; border:1px solid #e1e0d9; border-radius:12px; padding:22px 24px; margin-top:18px; }
+.center-card .head { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:14px; margin-bottom:14px;}
+.center-card h3 { font-size:17px; font-weight:800; }
+.center-card .totals { display:flex; gap:18px; font-size:13px; color:#52514e; margin-top:4px; }
+.center-card .totals b { color:#0b0b0b; font-variant-numeric: tabular-nums; }
+.pay-chip { font-size:10.5px; font-weight:700; letter-spacing:0.03em; color:#52514e; background:#efeeea; border-radius:5px; padding:3px 7px; display:inline-block; }
+.good { color:#006300; }
+.critical { color:#d03b3b; }
+footer { margin-top: 56px; border-top:1px solid #e1e0d9; padding-top:20px; font-size:12px; color:#898781; line-height:1.6; }
+.chart-wrap { background:#fcfcfb; border:1px solid #e1e0d9; border-radius:12px; padding:20px; margin-top: 14px; }
+.top-legend { display:flex; gap:22px; flex-wrap:wrap; margin: 10px 0 0; font-size:13px; }
+.top-legend .item { display:flex; align-items:center; gap:6px; color:#52514e; }
+@media print { .page { max-width:none; } }
+</style></head><body><div class="page">
+<div class="kicker">Editora Empreenda &middot; conta Elaine Cristina Julião Araújo</div>
+<h1>Análise financeira por centro de custo</h1>
+<div class="subtitle">Período: janeiro a agosto de 2026 (01/01/2026 – 07/08/2026) &middot; 1694 transações analisadas</div>
+
+<div class="kpis">
+  <div class="kpi"><div class="label">Total de entradas</div><div class="value good">R$ 743.588,77</div></div>
+  <div class="kpi"><div class="label">Total de saídas</div><div class="value critical">R$ 738.335,65</div></div>
+  <div class="kpi"><div class="label">Saldo do período</div><div class="value good">+R$ 5.253,12</div></div>
+  <div class="kpi"><div class="label">Nº de centros de custo</div><div class="value">29</div></div>
+</div>
+
+<section class="block">
+<h2>Visão geral — entradas e saídas por mês</h2>
+<p class="note">Azul = entradas · Vermelho = saídas. Valores absolutos por mês, toda a conta.</p>
+<div class="chart-wrap"><svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês, visão geral"><line x1="0" y1="46.0" x2="1000" y2="46.0" stroke="#e1e0d9" stroke-width="1"/><line x1="0" y1="140.0" x2="1000" y2="140.0" stroke="#e1e0d9" stroke-width="1"/><line x1="0" y1="234.0" x2="1000" y2="234.0" stroke="#e1e0d9" stroke-width="1"/><line x1="0" y1="140.0" x2="1000" y2="140.0" stroke="#c3c2b7" stroke-width="1.5"/><rect x="28.0" y="106.1" width="93.5" height="33.9" rx="6" fill="#2a78d6"/><text x="74.8" y="98.1" font-size="12" font-weight="700" fill="#2a78d6" text-anchor="middle" font-family="system-ui,sans-serif">R$ 67.663,45</text><rect x="28.0" y="140.0" width="93.5" height="37.5" rx="6" fill="#e34948"/><text x="74.8" y="193.5" font-size="12" font-weight="700" fill="#e34948" text-anchor="middle" font-family="system-ui,sans-serif">R$ 74.893,67</text><text x="74.8" y="274" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="system-ui,sans-serif">Jan/26</text><rect x="149.5" y="96.7" width="93.5" height="43.3" rx="6" fill="#2a78d6"/><text x="196.2" y="88.7" font-size="12" font-weight="700" fill="#2a78d6" text-anchor="middle" font-family="system-ui,sans-serif">R$ 86.588,30</text><rect x="149.5" y="140.0" width="93.5" height="33.9" rx="6" fill="#e34948"/><text x="196.2" y="189.9" font-size="12" font-weight="700" fill="#e34948" text-anchor="middle" font-family="system-ui,sans-serif">R$ 67.704,53</text><text x="196.2" y="274" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="system-ui,sans-serif">Fev/26</text><rect x="271.0" y="79.7" width="93.5" height="60.3" rx="6" fill="#2a78d6"/><text x="317.8" y="71.7" font-size="12" font-weight="700" fill="#2a78d6" text-anchor="middle" font-family="system-ui,sans-serif">R$ 120.559,84</text><rect x="271.0" y="140.0" width="93.5" height="66.9" rx="6" fill="#e34948"/><text x="317.8" y="222.9" font-size="12" font-weight="700" fill="#e34948" text-anchor="middle" font-family="system-ui,sans-serif">R$ 133.575,16</text><text x="317.8" y="274" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="system-ui,sans-serif">Mar/26</text><rect x="392.5" y="46.0" width="93.5" height="94.0" rx="6" fill="#2a78d6"/><text x="439.2" y="38.0" font-size="12" font-weight="700" fill="#2a78d6" text-anchor="middle" font-family="system-ui,sans-serif">R$ 187.804,21</text><rect x="392.5" y="140.0" width="93.5" height="94.0" rx="6" fill="#e34948"/><text x="439.2" y="250.0" font-size="12" font-weight="700" fill="#e34948" text-anchor="middle" font-family="system-ui,sans-serif">R$ 187.787,77</text><text x="439.2" y="274" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="system-ui,sans-serif">Abr/26</text><rect x="514.0" y="67.2" width="93.5" height="72.8" rx="6" fill="#2a78d6"/><text x="560.8" y="59.2" font-size="12" font-weight="700" fill="#2a78d6" text-anchor="middle" font-family="system-ui,sans-serif">R$ 145.525,08</text><rect x="514.0" y="140.0" width="93.5" height="74.6" rx="6" fill="#e34948"/><text x="560.8" y="230.6" font-size="12" font-weight="700" fill="#e34948" text-anchor="middle" font-family="system-ui,sans-serif">R$ 148.960,45</text><text x="560.8" y="274" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="system-ui,sans-serif">Mai/26</text><rect x="635.5" y="116.1" width="93.5" height="23.9" rx="6" fill="#2a78d6"/><text x="682.2" y="108.1" font-size="12" font-weight="700" fill="#2a78d6" text-anchor="middle" font-family="system-ui,sans-serif">R$ 47.719,91</text><rect x="635.5" y="140.0" width="93.5" height="23.3" rx="6" fill="#e34948"/><text x="682.2" y="179.3" font-size="12" font-weight="700" fill="#e34948" text-anchor="middle" font-family="system-ui,sans-serif">R$ 46.529,59</text><text x="682.2" y="274" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="system-ui,sans-serif">Jun/26</text><rect x="757.0" y="108.2" width="93.5" height="31.8" rx="6" fill="#2a78d6"/><text x="803.8" y="100.2" font-size="12" font-weight="700" fill="#2a78d6" text-anchor="middle" font-family="system-ui,sans-serif">R$ 63.622,22</text><rect x="757.0" y="140.0" width="93.5" height="33.5" rx="6" fill="#e34948"/><text x="803.8" y="189.5" font-size="12" font-weight="700" fill="#e34948" text-anchor="middle" font-family="system-ui,sans-serif">R$ 66.932,98</text><text x="803.8" y="274" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="system-ui,sans-serif">Jul/26</text><rect x="878.5" y="127.9" width="93.5" height="12.1" rx="6" fill="#2a78d6"/><text x="925.2" y="119.9" font-size="12" font-weight="700" fill="#2a78d6" text-anchor="middle" font-family="system-ui,sans-serif">R$ 24.105,76</text><rect x="878.5" y="140.0" width="93.5" height="6.0" rx="6" fill="#e34948"/><text x="925.2" y="162.0" font-size="12" font-weight="700" fill="#e34948" text-anchor="middle" font-family="system-ui,sans-serif">R$ 11.951,50</text><text x="925.2" y="274" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="system-ui,sans-serif">Ago/26</text></svg></div>
+</section>
+
+<section class="block">
+<h2>Centros de custo — resumo ordenado por movimento</h2>
+<p class="note">Os 6 centros de maior movimento no período recebem cor própria (mantida em todo o relatório); os demais aparecem em cinza neutro. "Movimento" = entrada + saída em módulo.</p>
+<div class="top-legend"><div class="item"><span class="dot" style="background:#eb6834"></span>Venda Publieditorial</div><div class="item"><span class="dot" style="background:#1baf7a"></span>Palestra</div><div class="item"><span class="dot" style="background:#eda100"></span>Prolabore</div><div class="item"><span class="dot" style="background:#e87ba4"></span>Salário</div><div class="item"><span class="dot" style="background:#008300"></span>EBC</div><div class="item"><span class="dot" style="background:#4a3aa7"></span>Gráfica</div></div><table style="margin-top:16px;">
+<tr><th>Centro de custo</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Saldo</th><th class="num">Transações</th></tr><tr>
+      <td><span class="swatch" style="background:#eb6834"></span>Venda Publieditorial</td>
+      <td class="num">R$ 410.206,97</td>
+      <td class="num">R$ 5.500,00</td>
+      <td class="num good">+R$ 404.706,97</td>
+      <td class="num">103</td>
+    </tr><tr>
+      <td><span class="swatch" style="background:#1baf7a"></span>Palestra</td>
+      <td class="num">R$ 92.000,00</td>
+      <td class="num">R$ 80.000,00</td>
+      <td class="num good">+R$ 12.000,00</td>
+      <td class="num">5</td>
+    </tr><tr>
+      <td><span class="swatch" style="background:#eda100"></span>Prolabore</td>
+      <td class="num">R$ 18,00</td>
+      <td class="num">R$ 165.827,31</td>
+      <td class="num critical">-R$ 165.809,31</td>
+      <td class="num">785</td>
+    </tr><tr>
+      <td><span class="swatch" style="background:#e87ba4"></span>Salário</td>
+      <td class="num">R$ 425,48</td>
+      <td class="num">R$ 140.928,78</td>
+      <td class="num critical">-R$ 140.503,30</td>
+      <td class="num">160</td>
+    </tr><tr>
+      <td><span class="swatch" style="background:#008300"></span>EBC</td>
+      <td class="num">R$ 99.918,92</td>
+      <td class="num">R$ 35.357,65</td>
+      <td class="num good">+R$ 64.561,27</td>
+      <td class="num">40</td>
+    </tr><tr>
+      <td><span class="swatch" style="background:#4a3aa7"></span>Gráfica</td>
+      <td class="num">—</td>
+      <td class="num">R$ 85.475,10</td>
+      <td class="num critical">-R$ 85.475,10</td>
+      <td class="num">16</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Estrutura</td>
+      <td class="num">—</td>
+      <td class="num">R$ 58.745,45</td>
+      <td class="num critical">-R$ 58.745,45</td>
+      <td class="num">45</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Mentoria</td>
+      <td class="num">R$ 43.662,91</td>
+      <td class="num">R$ 12.806,58</td>
+      <td class="num good">+R$ 30.856,33</td>
+      <td class="num">21</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Venda ABC</td>
+      <td class="num">R$ 33.384,00</td>
+      <td class="num">—</td>
+      <td class="num good">+R$ 33.384,00</td>
+      <td class="num">13</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Reembolso de adiantamento</td>
+      <td class="num">R$ 0,01</td>
+      <td class="num">R$ 29.411,07</td>
+      <td class="num critical">-R$ 29.411,06</td>
+      <td class="num">12</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Venda Capa</td>
+      <td class="num">R$ 25.000,00</td>
+      <td class="num">—</td>
+      <td class="num good">+R$ 25.000,00</td>
+      <td class="num">4</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Comissão</td>
+      <td class="num">—</td>
+      <td class="num">R$ 22.760,00</td>
+      <td class="num critical">-R$ 22.760,00</td>
+      <td class="num">15</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Viagem</td>
+      <td class="num">R$ 80,00</td>
+      <td class="num">R$ 19.131,95</td>
+      <td class="num critical">-R$ 19.051,95</td>
+      <td class="num">13</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Operacional Escritório</td>
+      <td class="num">R$ 123,99</td>
+      <td class="num">R$ 15.548,49</td>
+      <td class="num critical">-R$ 15.424,50</td>
+      <td class="num">66</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Software</td>
+      <td class="num">—</td>
+      <td class="num">R$ 12.678,66</td>
+      <td class="num critical">-R$ 12.678,66</td>
+      <td class="num">70</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Diagramação</td>
+      <td class="num">—</td>
+      <td class="num">R$ 12.000,00</td>
+      <td class="num critical">-R$ 12.000,00</td>
+      <td class="num">3</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Marketing</td>
+      <td class="num">—</td>
+      <td class="num">R$ 11.925,88</td>
+      <td class="num critical">-R$ 11.925,88</td>
+      <td class="num">25</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Adiantamento de recursos</td>
+      <td class="num">R$ 11.905,00</td>
+      <td class="num">—</td>
+      <td class="num good">+R$ 11.905,00</td>
+      <td class="num">7</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Livro</td>
+      <td class="num">R$ 11.900,00</td>
+      <td class="num">—</td>
+      <td class="num good">+R$ 11.900,00</td>
+      <td class="num">4</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Venda Portugal</td>
+      <td class="num">R$ 10.105,00</td>
+      <td class="num">—</td>
+      <td class="num good">+R$ 10.105,00</td>
+      <td class="num">5</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Evento</td>
+      <td class="num">R$ 3.780,00</td>
+      <td class="num">R$ 4.381,77</td>
+      <td class="num critical">-R$ 601,77</td>
+      <td class="num">3</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Contabilidade</td>
+      <td class="num">—</td>
+      <td class="num">R$ 6.415,84</td>
+      <td class="num critical">-R$ 6.415,84</td>
+      <td class="num">5</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Brindes</td>
+      <td class="num">—</td>
+      <td class="num">R$ 5.797,00</td>
+      <td class="num critical">-R$ 5.797,00</td>
+      <td class="num">9</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Transporte</td>
+      <td class="num">R$ 616,83</td>
+      <td class="num">R$ 4.053,69</td>
+      <td class="num critical">-R$ 3.436,86</td>
+      <td class="num">88</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Benefício</td>
+      <td class="num">—</td>
+      <td class="num">R$ 4.300,92</td>
+      <td class="num critical">-R$ 4.300,92</td>
+      <td class="num">102</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Logística</td>
+      <td class="num">—</td>
+      <td class="num">R$ 4.212,26</td>
+      <td class="num critical">-R$ 4.212,26</td>
+      <td class="num">32</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Faxina</td>
+      <td class="num">—</td>
+      <td class="num">R$ 950,00</td>
+      <td class="num critical">-R$ 950,00</td>
+      <td class="num">3</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>E-commerce</td>
+      <td class="num">R$ 461,65</td>
+      <td class="num">—</td>
+      <td class="num good">+R$ 461,65</td>
+      <td class="num">28</td>
+    </tr><tr>
+      <td><span class="swatch neutral"></span>Tarifas bancárias</td>
+      <td class="num">R$ 0,01</td>
+      <td class="num">R$ 127,25</td>
+      <td class="num critical">-R$ 127,24</td>
+      <td class="num">12</td>
+    </tr></table></section><section class="block">
+<h2>Tipos de pagamento — visão geral da conta</h2>
+<p class="note">Como o dinheiro entrou/saiu, somando todos os centros de custo.</p>
+<table><tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Transações</th></tr><tr>
+      <td><span class="pay-chip">PIX · recebido</span></td>
+      <td class="num">R$ 705.632,11</td>
+      <td class="num">—</td>
+      <td class="num">154</td>
+    </tr><tr>
+      <td><span class="pay-chip">PIX · enviado</span></td>
+      <td class="num">—</td>
+      <td class="num">R$ 567.789,74</td>
+      <td class="num">781</td>
+    </tr><tr>
+      <td><span class="pay-chip">BOLETO · pago</span></td>
+      <td class="num">—</td>
+      <td class="num">R$ 80.393,44</td>
+      <td class="num">14</td>
+    </tr><tr>
+      <td><span class="pay-chip">CARTÃO · débito</span></td>
+      <td class="num">R$ 18,00</td>
+      <td class="num">R$ 80.093,34</td>
+      <td class="num">625</td>
+    </tr><tr>
+      <td><span class="pay-chip">CARTÃO · crédito (maquininha)</span></td>
+      <td class="num">R$ 19.613,99</td>
+      <td class="num">R$ 10,00</td>
+      <td class="num">34</td>
+    </tr><tr>
+      <td><span class="pay-chip">BOLETO · recebido (cobrança)</span></td>
+      <td class="num">R$ 14.583,85</td>
+      <td class="num">—</td>
+      <td class="num">6</td>
+    </tr><tr>
+      <td><span class="pay-chip">RECARGA · cartão pré-pago</span></td>
+      <td class="num">—</td>
+      <td class="num">R$ 4.027,00</td>
+      <td class="num">38</td>
+    </tr><tr>
+      <td><span class="pay-chip">DÉBITO AUTOMÁTICO · conta</span></td>
+      <td class="num">—</td>
+      <td class="num">R$ 3.400,10</td>
+      <td class="num">6</td>
+    </tr><tr>
+      <td><span class="pay-chip">TED · recebido</span></td>
+      <td class="num">R$ 3.000,00</td>
+      <td class="num">—</td>
+      <td class="num">1</td>
+    </tr><tr>
+      <td><span class="pay-chip">SAQUE</span></td>
+      <td class="num">—</td>
+      <td class="num">R$ 2.000,00</td>
+      <td class="num">2</td>
+    </tr><tr>
+      <td><span class="pay-chip">DEVOLUÇÃO / ESTORNO</span></td>
+      <td class="num">R$ 740,82</td>
+      <td class="num">R$ 41,90</td>
+      <td class="num">23</td>
+    </tr><tr>
+      <td><span class="pay-chip">IMPOSTO · DARF</span></td>
+      <td class="num">—</td>
+      <td class="num">R$ 482,88</td>
+      <td class="num">1</td>
+    </tr><tr>
+      <td><span class="pay-chip">SEGURO DE CONTA</span></td>
+      <td class="num">—</td>
+      <td class="num">R$ 80,00</td>
+      <td class="num">4</td>
+    </tr><tr>
+      <td><span class="pay-chip">TARIFA BANCÁRIA</span></td>
+      <td class="num">—</td>
+      <td class="num">R$ 17,25</td>
+      <td class="num">5</td>
+    </tr></table></section><section class="block"><h2>Detalhe por centro de custo</h2><p class="note">Cada centro, com o tipo de pagamento usado e a evolução mês a mês (azul = entrada, vermelho = saída).</p><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch" style="background:#eb6834"></span>Venda Publieditorial</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 410.206,97</b></span>
+            <span>Saídas <b>R$ 5.500,00</b></span>
+            <span>Saldo <b class="good">+R$ 404.706,97</b></span>
+            <span>103 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="35.3" width="63.2" height="9.7" rx="3" fill="#2a78d6"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="30.8" width="63.2" height="14.2" rx="3" fill="#2a78d6"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="18.1" width="63.2" height="26.9" rx="3" fill="#2a78d6"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="26.9" width="63.2" height="18.1" rx="3" fill="#2a78d6"/><rect x="283.0" y="45.0" width="63.2" height="1.5" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="38.1" width="63.2" height="6.9" rx="3" fill="#2a78d6"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="38.0" width="63.2" height="7.0" rx="3" fill="#2a78d6"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="37.9" width="63.2" height="7.1" rx="3" fill="#2a78d6"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 384.804,63</td>
+          <td class="num">—</td>
+          <td class="num">94</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · crédito (maquininha)</span></td>
+          <td class="num">R$ 19.152,34</td>
+          <td class="num">—</td>
+          <td class="num">5</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 5.500,00</td>
+          <td class="num">2</td>
+        </tr><tr>
+          <td><span class="pay-chip">BOLETO · recebido (cobrança)</span></td>
+          <td class="num">R$ 3.250,00</td>
+          <td class="num">—</td>
+          <td class="num">1</td>
+        </tr><tr>
+          <td><span class="pay-chip">TED · recebido</span></td>
+          <td class="num">R$ 3.000,00</td>
+          <td class="num">—</td>
+          <td class="num">1</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch" style="background:#1baf7a"></span>Palestra</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 92.000,00</b></span>
+            <span>Saídas <b>R$ 80.000,00</b></span>
+            <span>Saldo <b class="good">+R$ 12.000,00</b></span>
+            <span>5 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="44.3" width="63.2" height="0.7" rx="3" fill="#2a78d6"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><rect x="213.8" y="45.0" width="63.2" height="27.6" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 92.000,00</td>
+          <td class="num">—</td>
+          <td class="num">3</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 80.000,00</td>
+          <td class="num">2</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch" style="background:#eda100"></span>Prolabore</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 18,00</b></span>
+            <span>Saídas <b>R$ 165.827,31</b></span>
+            <span>Saldo <b class="critical">-R$ 165.809,31</b></span>
+            <span>785 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="17.1" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="21.6" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="20.2" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="24.8" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="8.5" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="2.7" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">R$ 18,00</td>
+          <td class="num">R$ 66.906,36</td>
+          <td class="num">482</td>
+        </tr><tr>
+          <td><span class="pay-chip">BOLETO · pago</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 55.249,79</td>
+          <td class="num">7</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 42.986,39</td>
+          <td class="num">293</td>
+        </tr><tr>
+          <td><span class="pay-chip">RECARGA · cartão pré-pago</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 450,00</td>
+          <td class="num">2</td>
+        </tr><tr>
+          <td><span class="pay-chip">DÉBITO AUTOMÁTICO · conta</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 234,77</td>
+          <td class="num">1</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch" style="background:#e87ba4"></span>Salário</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 425,48</b></span>
+            <span>Saídas <b>R$ 140.928,78</b></span>
+            <span>Saldo <b class="critical">-R$ 140.503,30</b></span>
+            <span>160 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="28.2" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="15.4" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="25.8" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="25.6" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="12.1" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="7.0" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="3.1" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 140.928,78</td>
+          <td class="num">159</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 425,48</td>
+          <td class="num">—</td>
+          <td class="num">1</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch" style="background:#008300"></span>EBC</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 99.918,92</b></span>
+            <span>Saídas <b>R$ 35.357,65</b></span>
+            <span>Saldo <b class="good">+R$ 64.561,27</b></span>
+            <span>40 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="44.4" width="63.2" height="0.6" rx="3" fill="#2a78d6"/><rect x="213.8" y="45.0" width="63.2" height="2.0" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><rect x="283.0" y="45.0" width="63.2" height="8.3" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="41.2" width="63.2" height="3.8" rx="3" fill="#2a78d6"/><rect x="352.2" y="45.0" width="63.2" height="1.6" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="43.2" width="63.2" height="1.8" rx="3" fill="#2a78d6"/><rect x="421.5" y="45.0" width="63.2" height="0.9" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 99.918,92</td>
+          <td class="num">—</td>
+          <td class="num">9</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 33.457,96</td>
+          <td class="num">25</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 1.899,69</td>
+          <td class="num">6</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch" style="background:#4a3aa7"></span>Gráfica</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 85.475,10</b></span>
+            <span>Saldo <b class="critical">-R$ 85.475,10</b></span>
+            <span>16 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="2.0" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="10.8" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="25.7" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="1.0" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 85.475,10</td>
+          <td class="num">16</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Estrutura</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 58.745,45</b></span>
+            <span>Saldo <b class="critical">-R$ 58.745,45</b></span>
+            <span>45 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="27.3" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="29.9" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="22.5" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="29.6" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="28.5" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="1.2" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 31.993,21</td>
+          <td class="num">34</td>
+        </tr><tr>
+          <td><span class="pay-chip">BOLETO · pago</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 25.143,65</td>
+          <td class="num">7</td>
+        </tr><tr>
+          <td><span class="pay-chip">DÉBITO AUTOMÁTICO · conta</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 1.608,59</td>
+          <td class="num">4</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Mentoria</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 43.662,91</b></span>
+            <span>Saídas <b>R$ 12.806,58</b></span>
+            <span>Saldo <b class="good">+R$ 30.856,33</b></span>
+            <span>21 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="18.3" width="63.2" height="26.7" rx="3" fill="#2a78d6"/><rect x="6.0" y="45.0" width="63.2" height="15.1" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="32.1" width="63.2" height="12.9" rx="3" fill="#2a78d6"/><rect x="144.5" y="45.0" width="63.2" height="8.9" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="33.8" width="63.2" height="11.2" rx="3" fill="#2a78d6"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 38.329,06</td>
+          <td class="num">—</td>
+          <td class="num">12</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 12.806,58</td>
+          <td class="num">6</td>
+        </tr><tr>
+          <td><span class="pay-chip">BOLETO · recebido (cobrança)</span></td>
+          <td class="num">R$ 5.333,85</td>
+          <td class="num">—</td>
+          <td class="num">3</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Venda ABC</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 33.384,00</b></span>
+            <span>Saídas <b>—</b></span>
+            <span>Saldo <b class="good">+R$ 33.384,00</b></span>
+            <span>13 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="27.1" width="63.2" height="17.9" rx="3" fill="#2a78d6"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="35.2" width="63.2" height="9.8" rx="3" fill="#2a78d6"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="34.7" width="63.2" height="10.3" rx="3" fill="#2a78d6"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 33.384,00</td>
+          <td class="num">—</td>
+          <td class="num">13</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Reembolso de adiantamento</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 0,01</b></span>
+            <span>Saídas <b>R$ 29.411,07</b></span>
+            <span>Saldo <b class="critical">-R$ 29.411,06</b></span>
+            <span>12 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="11.7" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="9.0" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="8.4" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="29.8" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="11.8" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="16.0" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 29.411,07</td>
+          <td class="num">11</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 0,01</td>
+          <td class="num">—</td>
+          <td class="num">1</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Venda Capa</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 25.000,00</b></span>
+            <span>Saídas <b>—</b></span>
+            <span>Saldo <b class="good">+R$ 25.000,00</b></span>
+            <span>4 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="38.8" width="63.2" height="6.2" rx="3" fill="#2a78d6"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="38.8" width="63.2" height="6.2" rx="3" fill="#2a78d6"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="36.7" width="63.2" height="8.3" rx="3" fill="#2a78d6"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 19.000,00</td>
+          <td class="num">—</td>
+          <td class="num">2</td>
+        </tr><tr>
+          <td><span class="pay-chip">BOLETO · recebido (cobrança)</span></td>
+          <td class="num">R$ 6.000,00</td>
+          <td class="num">—</td>
+          <td class="num">2</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Comissão</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 22.760,00</b></span>
+            <span>Saldo <b class="critical">-R$ 22.760,00</b></span>
+            <span>15 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="1.9" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="4.0" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="13.6" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="4.3" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="6.5" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 22.760,00</td>
+          <td class="num">15</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Viagem</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 80,00</b></span>
+            <span>Saídas <b>R$ 19.131,95</b></span>
+            <span>Saldo <b class="critical">-R$ 19.051,95</b></span>
+            <span>13 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 17.131,95</td>
+          <td class="num">10</td>
+        </tr><tr>
+          <td><span class="pay-chip">SAQUE</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 2.000,00</td>
+          <td class="num">2</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 80,00</td>
+          <td class="num">—</td>
+          <td class="num">1</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Operacional Escritório</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 123,99</b></span>
+            <span>Saídas <b>R$ 15.548,49</b></span>
+            <span>Saldo <b class="critical">-R$ 15.424,50</b></span>
+            <span>66 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="5.0" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="4.6" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="8.5" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="4.9" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="1.3" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 11.170,17</td>
+          <td class="num">34</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 4.336,42</td>
+          <td class="num">30</td>
+        </tr><tr>
+          <td><span class="pay-chip">DEVOLUÇÃO / ESTORNO</span></td>
+          <td class="num">R$ 123,99</td>
+          <td class="num">R$ 41,90</td>
+          <td class="num">2</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Software</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 12.678,66</b></span>
+            <span>Saldo <b class="critical">-R$ 12.678,66</b></span>
+            <span>70 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="7.4" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="19.7" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="21.9" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="17.0" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="20.3" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="11.9" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 8.851,71</td>
+          <td class="num">29</td>
+        </tr><tr>
+          <td><span class="pay-chip">RECARGA · cartão pré-pago</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 3.577,00</td>
+          <td class="num">36</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 249,95</td>
+          <td class="num">5</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Diagramação</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 12.000,00</b></span>
+            <span>Saldo <b class="critical">-R$ 12.000,00</b></span>
+            <span>3 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="22.1" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 12.000,00</td>
+          <td class="num">3</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Marketing</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 11.925,88</b></span>
+            <span>Saldo <b class="critical">-R$ 11.925,88</b></span>
+            <span>25 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="9.5" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="3.2" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="3.6" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="2.4" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="0.8" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 11.925,88</td>
+          <td class="num">25</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Adiantamento de recursos</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 11.905,00</b></span>
+            <span>Saídas <b>—</b></span>
+            <span>Saldo <b class="good">+R$ 11.905,00</b></span>
+            <span>7 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="34.7" width="63.2" height="10.3" rx="3" fill="#2a78d6"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="40.9" width="63.2" height="4.1" rx="3" fill="#2a78d6"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="44.2" width="63.2" height="0.8" rx="3" fill="#2a78d6"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 11.905,00</td>
+          <td class="num">—</td>
+          <td class="num">7</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Livro</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 11.900,00</b></span>
+            <span>Saídas <b>—</b></span>
+            <span>Saldo <b class="good">+R$ 11.900,00</b></span>
+            <span>4 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="34.7" width="63.2" height="10.3" rx="3" fill="#2a78d6"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 11.900,00</td>
+          <td class="num">—</td>
+          <td class="num">4</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Venda Portugal</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 10.105,00</b></span>
+            <span>Saídas <b>—</b></span>
+            <span>Saldo <b class="good">+R$ 10.105,00</b></span>
+            <span>5 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="31.2" width="63.2" height="13.8" rx="3" fill="#2a78d6"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 10.105,00</td>
+          <td class="num">—</td>
+          <td class="num">5</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Evento</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 3.780,00</b></span>
+            <span>Saídas <b>R$ 4.381,77</b></span>
+            <span>Saldo <b class="critical">-R$ 601,77</b></span>
+            <span>3 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><rect x="421.5" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="4.9" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 3.780,00</td>
+          <td class="num">—</td>
+          <td class="num">1</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 3.780,00</td>
+          <td class="num">1</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 601,77</td>
+          <td class="num">1</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Contabilidade</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 6.415,84</b></span>
+            <span>Saldo <b class="critical">-R$ 6.415,84</b></span>
+            <span>5 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="18.4" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="18.6" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="5.8" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="2.7" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 4.147,32</td>
+          <td class="num">2</td>
+        </tr><tr>
+          <td><span class="pay-chip">DÉBITO AUTOMÁTICO · conta</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 1.556,74</td>
+          <td class="num">1</td>
+        </tr><tr>
+          <td><span class="pay-chip">IMPOSTO · DARF</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 482,88</td>
+          <td class="num">1</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 228,90</td>
+          <td class="num">1</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Brindes</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 5.797,00</b></span>
+            <span>Saldo <b class="critical">-R$ 5.797,00</b></span>
+            <span>9 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="29.4" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="7.0" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 5.797,00</td>
+          <td class="num">9</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Transporte</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 616,83</b></span>
+            <span>Saídas <b>R$ 4.053,69</b></span>
+            <span>Saldo <b class="critical">-R$ 3.436,86</b></span>
+            <span>88 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="42.6" width="63.2" height="2.4" rx="3" fill="#2a78d6"/><rect x="75.2" y="45.0" width="63.2" height="2.5" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="41.4" width="63.2" height="3.6" rx="3" fill="#2a78d6"/><rect x="144.5" y="45.0" width="63.2" height="16.6" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="19.5" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="39.1" width="63.2" height="5.9" rx="3" fill="#2a78d6"/><rect x="283.0" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="43.3" width="63.2" height="1.7" rx="3" fill="#2a78d6"/><rect x="352.2" y="45.0" width="63.2" height="11.9" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="4.5" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="3.2" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 3.986,69</td>
+          <td class="num">65</td>
+        </tr><tr>
+          <td><span class="pay-chip">DEVOLUÇÃO / ESTORNO</span></td>
+          <td class="num">R$ 616,83</td>
+          <td class="num">—</td>
+          <td class="num">21</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 67,00</td>
+          <td class="num">2</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Benefício</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 4.300,92</b></span>
+            <span>Saldo <b class="critical">-R$ 4.300,92</b></span>
+            <span>102 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="18.8" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="17.5" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="26.2" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="14.4" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="18.1" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="14.4" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="4.4" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 3.796,45</td>
+          <td class="num">96</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 504,47</td>
+          <td class="num">6</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Logística</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 4.212,26</b></span>
+            <span>Saldo <b class="critical">-R$ 4.212,26</b></span>
+            <span>32 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="28.6" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><rect x="144.5" y="45.0" width="63.2" height="23.6" rx="3" fill="#e34948"/><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="9.5" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="20.9" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="7.8" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="3.7" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 2.205,46</td>
+          <td class="num">30</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · débito</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 2.006,80</td>
+          <td class="num">2</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Faxina</h3>
+          <div class="totals">
+            <span>Entradas <b>—</b></span>
+            <span>Saídas <b>R$ 950,00</b></span>
+            <span>Saldo <b class="critical">-R$ 950,00</b></span>
+            <span>3 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="27.9" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 950,00</td>
+          <td class="num">3</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>E-commerce</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 461,65</b></span>
+            <span>Saídas <b>—</b></span>
+            <span>Saldo <b class="good">+R$ 461,65</b></span>
+            <span>28 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="22.4" width="63.2" height="22.6" rx="3" fill="#2a78d6"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="24.2" width="63.2" height="20.8" rx="3" fill="#2a78d6"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="20.5" width="63.2" height="24.5" rx="3" fill="#2a78d6"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="14.0" width="63.2" height="31.0" rx="3" fill="#2a78d6"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="40.8" width="63.2" height="4.2" rx="3" fill="#2a78d6"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">CARTÃO · crédito (maquininha)</span></td>
+          <td class="num">R$ 461,65</td>
+          <td class="num">—</td>
+          <td class="num">28</td>
+        </tr>
+      </table>
+    </div><div class="center-card">
+      <div class="head">
+        <div>
+          <h3><span class="swatch neutral"></span>Tarifas bancárias</h3>
+          <div class="totals">
+            <span>Entradas <b>R$ 0,01</b></span>
+            <span>Saídas <b>R$ 127,25</b></span>
+            <span>Saldo <b class="critical">-R$ 127,24</b></span>
+            <span>12 transações</span>
+          </div>
+        </div>
+        <div><svg width="560" height="90" viewBox="0 0 560 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entradas e saídas por mês"><line x1="0" y1="45.0" x2="560" y2="45.0" stroke="#c3c2b7" stroke-width="1"/><rect x="6.0" y="45.0" width="63.2" height="8.0" rx="3" fill="#e34948"/><text x="37.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jan</text><rect x="75.2" y="45.0" width="63.2" height="5.3" rx="3" fill="#e34948"/><text x="106.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Fev</text><text x="176.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mar</text><rect x="213.8" y="45.0" width="63.2" height="31.0" rx="3" fill="#e34948"/><text x="245.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Abr</text><rect x="283.0" y="45.0" width="63.2" height="15.5" rx="3" fill="#e34948"/><text x="314.6" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Mai</text><rect x="352.2" y="45.0" width="63.2" height="15.5" rx="3" fill="#e34948"/><text x="383.9" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jun</text><rect x="421.5" y="45.0" width="63.2" height="15.5" rx="3" fill="#e34948"/><text x="453.1" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Jul</text><rect x="490.8" y="45.0" width="63.2" height="7.8" rx="3" fill="#e34948"/><text x="522.4" y="88" font-size="9" fill="#898781" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif">Ago</text></svg></div>
+      </div>
+      <table>
+        <tr><th>Tipo de pagamento</th><th class="num">Entradas</th><th class="num">Saídas</th><th class="num">Nº</th></tr>
+        <tr>
+          <td><span class="pay-chip">SEGURO DE CONTA</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 80,00</td>
+          <td class="num">4</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · enviado</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 20,00</td>
+          <td class="num">1</td>
+        </tr><tr>
+          <td><span class="pay-chip">TARIFA BANCÁRIA</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 17,25</td>
+          <td class="num">5</td>
+        </tr><tr>
+          <td><span class="pay-chip">CARTÃO · crédito (maquininha)</span></td>
+          <td class="num">—</td>
+          <td class="num">R$ 10,00</td>
+          <td class="num">1</td>
+        </tr><tr>
+          <td><span class="pay-chip">PIX · recebido</span></td>
+          <td class="num">R$ 0,01</td>
+          <td class="num">—</td>
+          <td class="num">1</td>
+        </tr>
+      </table>
+    </div></section>
+<footer>
+  <p><b>Fonte:</b> extrato bancário C6 (conta Elaine Cristina Julião Araújo / Editora Empreenda), planilha "relatório banco 2026 Elaine Empreenda", aba "base extrato" — 1694 lançamentos com mês, valor e data preenchidos, 01/01/2026 a 07/08/2026.</p>
+  <p><b>Metodologia:</b> Centro de custo e "entrada/saída" usados exatamente como já estavam classificados na planilha (colunas Correspondente / Centro de custo). Nomes de centro foram só padronizados em maiúscula/minúscula (ex.: "salário" e "Salário" viraram um só "Salário"); nenhum valor foi alterado. Tipo de pagamento foi inferido a partir do texto do lançamento (Pix enviado/recebido, cartão de débito, cartão de crédito/maquininha — inclui repasses Stripe/PayGo —, boleto pago/recebido, recarga de cartão pré-pago Efí, débito automático em conta — Vivo, Enel, AES Eletropaulo, multas de trânsito, contabilidade —, TED, saque, devolução/estorno, DARF, seguro de conta, tarifa bancária).</p>
+  <p><b>Conferência:</b> os totais por centro de custo batem exatamente com a tabela dinâmica ("taleba dinamica") já existente na planilha — inclusive o saldo geral do período (R$ 5.253,12).</p>
+  <p><b>Ponto de atenção:</b> "Palestra" tem giro bruto de quase R$ 172 mil (R$ 92 mil de entrada, R$ 80 mil de saída) mas saldo líquido de só R$ 12 mil — são valores de repasse (ex.: pagamento recebido de contratante de evento e repassado à Proton CP Consultoria), não lucro operacional do centro. Vale olhar assim também os outros centros com entrada E saída ao mesmo tempo (EBC, Mentoria, Viagem, Evento, Operacional Escritório) antes de tirar conclusão só pelo saldo líquido.</p>
+</footer>
+</div></body></html>
