@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Capa — Negócio Exponencial</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Big+Shoulders+Display:wght@700;800&display=swap" rel="stylesheet" />
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#04070C; }
+  .serif { font-family: "Big Caslon","Didot","Bodoni 72",Georgia,"Times New Roman",serif; }
+
+  .capa {
+    width: 1600px;
+    height: 1000px;
+    position: relative;
+    background: radial-gradient(ellipse at 78% 0%, #16324F 0%, #0B2038 42%, #050B14 100%);
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    color: #F4F1EA;
+  }
+
+  /* decorative diagonal gold lines, echo the forged/edge motif */
+  .edge1 { position:absolute; top:0; right:0; width:560px; height:560px;
+    background: linear-gradient(135deg, transparent 48%, rgba(201,162,39,0.5) 49%, rgba(201,162,39,0.5) 49.5%, transparent 50.5%); }
+  .edge2 { position:absolute; bottom:0; left:0; width:340px; height:340px;
+    background: linear-gradient(315deg, transparent 48%, rgba(201,162,39,0.28) 49%, rgba(201,162,39,0.28) 49.5%, transparent 50.5%); }
+
+  /* LEFT COLUMN */
+  .left { position:absolute; left:64px; top:56px; width:700px; z-index:3; }
+  .kicker { display:flex; align-items:center; gap:12px; }
+  .kicker img { height:30px; width:auto; }
+  .kicker span { color:#C9A227; font-weight:800; font-size:13px; letter-spacing:0.26em; text-transform:uppercase; }
+
+  .titulo { margin-top:26px; }
+  .titulo .l1 { font-weight:400; font-size:30px; color:#B9C3D4; letter-spacing:0.01em; }
+  .titulo .l2 { font-family:"Big Shoulders Display",'Inter',sans-serif; font-weight:800; font-size:64px; letter-spacing:0.01em; line-height:0.95; color:#F4F1EA; }
+  .titulo .l2 em { font-style:normal; color:#C9A227; }
+
+  .frase {
+    margin-top:34px;
+    font-family: "Big Caslon","Didot","Bodoni 72",Georgia,"Times New Roman",serif;
+    font-size: 46px;
+    line-height: 1.16;
+    color: #F4F1EA;
+    max-width: 620px;
+    text-wrap: balance;
+  }
+  .frase em { font-style:normal; color:#C9A227; }
+
+  .resumo { margin-top:38px; display:flex; flex-direction:column; gap:14px; max-width:600px; }
+  .resumo .item { display:flex; align-items:flex-start; gap:14px; }
+  .resumo .num { font-family:"Big Caslon",serif; color:#C9A227; font-size:18px; min-width:26px; }
+  .resumo .tx { font-size:14.5px; line-height:1.5; color:#DCE3EE; }
+  .resumo .tx b { color:#F4F1EA; font-weight:700; }
+
+  .stats { display:flex; gap:34px; margin-top:36px; }
+  .stats .it b { font-family:"Big Caslon",serif; font-size:26px; color:#C9A227; font-weight:400; display:block; }
+  .stats .it span { font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#8FA0B8; }
+
+  .wordmark { position:absolute; left:64px; bottom:44px; display:flex; align-items:center; gap:12px; z-index:3; }
+  .wordmark img { height:38px; width:auto; }
+  .wordmark .tx { font-size:13px; font-weight:800; letter-spacing:0.16em; color:#F4F1EA; text-transform:uppercase; }
+  .wordmark .tx span { display:block; font-size:10px; font-weight:600; letter-spacing:0.1em; color:#8FA0B8; margin-top:2px; }
+
+  /* HERO PHOTO */
+  .hero { position:absolute; right:0; bottom:0; width:660px; height:1000px; overflow:hidden; z-index:1; }
+  .hero img { position:absolute; right:0; bottom:0; height:1000px; width:auto; filter:brightness(0.96) saturate(1.02); }
+  .hero::before { content:""; position:absolute; inset:0;
+    background: linear-gradient(90deg, #050B14 0%, rgba(5,11,20,0) 16%, rgba(5,11,20,0) 100%); }
+  .hero::after { content:""; position:absolute; inset:0;
+    background: linear-gradient(0deg, rgba(5,11,20,0.55) 0%, rgba(5,11,20,0) 30%); }
+
+  .badge { position:absolute; right:64px; bottom:52px; z-index:4; text-align:right; }
+  .badge .name { font-weight:900; font-size:22px; color:#F4F1EA; letter-spacing:0.01em; }
+  .badge .role { font-weight:700; font-size:12px; color:#C9A227; letter-spacing:0.1em; text-transform:uppercase; margin-top:4px; }
+
+  .footerbar {
+    position:absolute; left:0; right:0; bottom:0; height:4px;
+    background: linear-gradient(90deg, #C9A227, rgba(201,162,39,0.15));
+    z-index:5;
+  }
+</style>
+</head>
+<body>
+
+<div class="capa">
+  <div class="edge1"></div>
+  <div class="edge2"></div>
+
+  <div class="left">
+    <div class="kicker">
+      <img src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span>Gilberto Sena — Imersão Empresarial · 2 dias</span>
+    </div>
+
+    <div class="titulo">
+      <div class="l1">Negócio</div>
+      <div class="l2"><em>EXPONENCIAL</em></div>
+    </div>
+
+    <p class="frase">Você será <em>forjado</em> para o sucesso do seu negócio.</p>
+
+    <div class="resumo">
+      <div class="item"><span class="num">01</span><span class="tx"><b>Gestão de Si &amp; Pessoas</b> — antes de liderar a empresa, lidere a si mesmo, e multiplique resultado sem multiplicar corpo.</span></div>
+      <div class="item"><span class="num">02</span><span class="tx"><b>Gestão Financeira</b> — suas finanças esclarecidas, com direção para o resultado desejado.</span></div>
+      <div class="item"><span class="num">03</span><span class="tx"><b>Fornecedores &amp; Clientes</b> — cada relação vira rede, não só venda isolada.</span></div>
+      <div class="item"><span class="num">04</span><span class="tx"><b>Gestão Tributária</b> — compare seu regime na prática, com o Aplicativo de Comparação do OCEO.</span></div>
+      <div class="item"><span class="num">05</span><span class="tx"><b>Seu Plano Exponencial</b> — você sai com 5 compromissos para os próximos 90 dias.</span></div>
+    </div>
+
+    <div class="stats">
+      <div class="it"><b>2</b><span>Dias</span></div>
+      <div class="it"><b>5</b><span>Pilares</span></div>
+      <div class="it"><b>25</b><span>Caminhos</span></div>
+      <div class="it"><b>10x</b><span>O padrão</span></div>
+    </div>
+  </div>
+
+  <div class="wordmark">
+    <img src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+    <div class="tx">Gilberto Sena<span>Grupo Sena · Método dos 5 G's</span></div>
+  </div>
+
+  <div class="hero"><img src="../../identidade/WhatsApp Image 2026-07-15 at 18.49.38.jpeg" alt="Gilberto Sena"></div>
+  <div class="badge">
+    <div class="name">GILBERTO SENA</div>
+    <div class="role">Facilitador da Imersão</div>
+  </div>
+
+  <div class="footerbar"></div>
+</div>
+
+</body>
+</html>
