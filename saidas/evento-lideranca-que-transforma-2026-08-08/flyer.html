@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Evento Liderança que Transforma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#050505; }
+  .flyer {
+    width: 1600px;
+    height: 1000px;
+    position: relative;
+    background: radial-gradient(ellipse at 75% 0%, #1a1610 0%, #0a0a0a 45%, #050505 100%);
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    color: #fff;
+  }
+  .goldline {
+    position: absolute; top:0; right:0; width:520px; height:520px;
+    background: linear-gradient(135deg, transparent 48%, rgba(201,162,39,0.55) 49%, rgba(201,162,39,0.55) 49.6%, transparent 50.6%);
+  }
+  .goldline2 {
+    position: absolute; bottom:0; left:520px; width:420px; height:420px;
+    background: linear-gradient(315deg, transparent 48%, rgba(201,162,39,0.35) 49%, rgba(201,162,39,0.35) 49.6%, transparent 50.6%);
+  }
+
+  /* LEFT COLUMN */
+  .left { position:absolute; left:56px; top:44px; width:430px; }
+  .kicker { color:#c9a227; font-weight:800; font-size:17px; letter-spacing:0.32em; }
+  .h1a { color:#c9a227; font-weight:900; font-size:64px; letter-spacing:-0.02em; line-height:0.95; margin-top:6px; }
+  .h1b { color:#f4f1ea; font-weight:900; font-size:46px; letter-spacing:-0.01em; line-height:1.05; margin-top:2px; }
+  .sub { color:#d8d5cc; font-size:16px; font-weight:600; line-height:1.45; margin-top:18px; max-width:380px; }
+  .sub b { color:#c9a227; font-weight:800; }
+
+  .bullets { margin-top:30px; display:flex; flex-direction:column; gap:14px; }
+  .bullet { display:flex; align-items:center; gap:14px; }
+  .bullet .ic { font-size:22px; width:28px; text-align:center; }
+  .bullet .tx { font-size:14.5px; font-weight:700; line-height:1.25; color:#f4f1ea; text-transform:uppercase; letter-spacing:0.01em; }
+
+  .plus12 { margin-top:34px; }
+  .plus12 .num { color:#c9a227; font-weight:900; font-size:46px; line-height:1; }
+  .plus12 .lbl { color:#f4f1ea; font-weight:800; font-size:15px; letter-spacing:0.03em; margin-top:2px; }
+
+  .wordmark { position:absolute; left:56px; bottom:40px; display:flex; align-items:baseline; gap:8px; }
+  .wordmark .g { color:#c9a227; font-weight:900; font-size:30px; }
+  .wordmark .sena { color:#f4f1ea; font-weight:700; font-size:22px; letter-spacing:0.02em; }
+
+  /* HERO PHOTO */
+  .hero { position:absolute; left:400px; bottom:0; width:400px; height:900px; overflow:hidden; }
+  .hero img { position:absolute; left:50%; bottom:0; transform:translateX(-50%); height:900px; width:auto; filter: brightness(0.97); }
+  .hero::after { content:""; position:absolute; inset:0; background: linear-gradient(90deg, #0a0a0a 0%, rgba(10,10,10,0) 12%, rgba(10,10,10,0) 88%, #0a0a0a 100%); }
+  .badge { position:absolute; left:400px; bottom:120px; z-index:5; }
+  .badge .name { background:linear-gradient(90deg,#e8c766,#c9a227); color:#151107; font-weight:900; font-size:26px; letter-spacing:0.01em; padding:12px 22px; }
+  .badge .role { background:#0a0a0a; color:#f4f1ea; font-weight:700; font-size:14px; letter-spacing:0.08em; padding:9px 22px; text-transform:uppercase; }
+
+  /* RIGHT PANEL */
+  .right { position:absolute; left:780px; top:40px; width:770px; }
+  .right-h { text-align:left; }
+  .right-h .l1 { color:#f4f1ea; font-weight:800; font-size:25px; line-height:1.3; }
+  .right-h .l1 b { color:#c9a227; }
+  .divider { display:flex; align-items:center; gap:10px; margin:14px 0 22px; }
+  .divider .line { flex:1; height:1px; background:rgba(201,162,39,0.4); }
+  .divider .diamond { width:7px; height:7px; background:#c9a227; transform:rotate(45deg); }
+
+  .grid { display:grid; grid-template-columns: repeat(6, 1fr); gap:14px; }
+  .card { text-align:center; }
+  .avatar {
+    width:100%; aspect-ratio:1/1; border:1.5px solid #c9a227; border-radius:6px;
+    background: linear-gradient(160deg, #262019, #14110c);
+    display:flex; align-items:center; justify-content:center;
+    color:#c9a227; font-weight:800; font-size:34px; letter-spacing:0.02em;
+  }
+  .card .name { margin-top:9px; font-size:12.5px; font-weight:800; color:#f4f1ea; letter-spacing:0.01em; line-height:1.2; }
+  .card .role { margin-top:2px; font-size:10.5px; font-weight:500; color:#9c988d; line-height:1.25; }
+
+  .infobar { display:flex; align-items:center; gap:22px; margin-top:30px; }
+  .infoitem { display:flex; align-items:center; gap:9px; }
+  .infoitem .ic { font-size:19px; }
+  .infoitem .tx { font-size:13px; font-weight:800; color:#f4f1ea; line-height:1.2; text-transform:uppercase; }
+  .infobar .sep { width:1px; height:30px; background:rgba(244,241,234,0.25); }
+
+  .footerbar {
+    position:absolute; left:0; right:0; bottom:0; height:56px;
+    background:#0d0d0d; border-top:1px solid rgba(201,162,39,0.35);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .footerbar .tx { color:#c9a227; font-weight:700; font-size:15px; letter-spacing:0.02em; }
+  .footerbar .tx b { color:#f4f1ea; }
+</style>
+</head>
+<body>
+
+<div class="flyer">
+  <div class="goldline"></div>
+  <div class="goldline2"></div>
+
+  <div class="left">
+    <div class="kicker">EVENTO</div>
+    <div class="h1a">LIDERANÇA</div>
+    <div class="h1b">QUE TRANSFORMA</div>
+    <div class="sub">Mentes que <b>INSPIRAM</b>, líderes que <b>FAZEM A DIFERENÇA.</b></div>
+
+    <div class="bullets">
+      <div class="bullet"><div class="ic">🎯</div><div class="tx">ESTRATÉGIA<br>COM PROPÓSITO</div></div>
+      <div class="bullet"><div class="ic">💡</div><div class="tx">INOVAÇÃO<br>QUE GERA VALOR</div></div>
+      <div class="bullet"><div class="ic">🤝</div><div class="tx">LIDERANÇA<br>DE IMPACTO</div></div>
+      <div class="bullet"><div class="ic">📈</div><div class="tx">RESULTADOS<br>EXTRAORDINÁRIOS</div></div>
+      <div class="bullet"><div class="ic">🔗</div><div class="tx">NETWORKING<br>DE ALTO NÍVEL</div></div>
+    </div>
+
+    <div class="plus12">
+      <div class="num">+12</div>
+      <div class="lbl">PALESTRANTES<br>CONFIRMADOS</div>
+    </div>
+  </div>
+
+  <div class="wordmark"><span class="g">G</span><span class="sena">Sena</span></div>
+
+  <div class="hero"><img src="../../identidade/WhatsApp Image 2026-07-15 at 18.49.38.jpeg" /></div>
+  <div class="badge">
+    <div class="name">GILBERTO SENA</div>
+    <div class="role">Palestrante destaque</div>
+  </div>
+
+  <div class="right">
+    <div class="right-h">
+      <div class="l1">UM ENCONTRO COM <b>GRANDES LÍDERES</b><br>PARA GRANDES <b>TRANSFORMAÇÕES!</b></div>
+    </div>
+    <div class="divider"><div class="line"></div><div class="diamond"></div><div class="line"></div></div>
+
+    <div class="grid" id="grid"></div>
+
+    <div class="infobar">
+      <div class="infoitem"><div class="ic">📅</div><div class="tx">DATA<br>EM BREVE</div></div>
+      <div class="sep"></div>
+      <div class="infoitem"><div class="ic">📍</div><div class="tx">LOCAL<br>EM BREVE</div></div>
+      <div class="sep"></div>
+      <div class="infoitem"><div class="ic">👥</div><div class="tx">NETWORKING<br>E MUITO MAIS!</div></div>
+    </div>
+  </div>
+
+  <div class="footerbar"><div class="tx">TRANSFORME CONHECIMENTO EM RESULTADOS. <b>SEJA A MUDANÇA!</b></div></div>
+</div>
+
+<script>
+  const speakers = [
+    ["Aline Moraes", "Estrategista Organizacional"],
+    ["Bruno Costa", "Especialista em Gestão de Pessoas"],
+    ["Camila Ribeiro", "Especialista em Liderança Feminina"],
+    ["Gabriel Martins", "Mentor de Alta Performance"],
+    ["Isabela Nunes", "Especialista em Inovação"],
+    ["João Pereira", "Especialista em Finanças Empresariais"],
+    ["Karina Leite", "Especialista em Marketing Estratégico"],
+    ["Leonardo Silva", "Especialista em Transformação Digital"],
+    ["Rafael Barros", "Estrategista de Crescimento"],
+    ["Vanessa Rocha", "Especialista em ESG e Sustentabilidade"],
+    ["Willian Freitas", "Mentor de Liderança Executiva"],
+    ["Yasmin Guedes", "Especialista em Inteligência Emocional"],
+  ];
+  const grid = document.getElementById('grid');
+  for (const [name, role] of speakers) {
+    const initials = name.split(' ').map(w => w[0]).slice(0,2).join('').toUpperCase();
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `<div class="avatar">${initials}</div><div class="name">${name.toUpperCase()}</div><div class="role">${role}</div>`;
+    grid.appendChild(card);
+  }
+</script>
+
+</body>
+</html>

@@ -42,13 +42,14 @@ O dourado é sotaque, não banho — usar com parcimônia pra manter o ar caro.
 
 ## Uso do logo nos posts
 
-> ATENÇÃO: `logo.png` está com FUNDO BRANCO (não transparente). Em slide escuro
-> ele mostra um retângulo branco. Regra até chegar a versão transparente:
-> usar o leão só em slides claros/creme; em slides escuros, usar o wordmark
-> "GILBERTO SENA" em dourado. Quando existir `logo.png` transparente, usar o
-> leão livremente em qualquer fundo.
+> `identidade/logo-transparente-crop.png` é a versão com fundo transparente
+> (confirmado 09/ago/2026 — `logo.png` antigo tem fundo branco, não usar mais
+> em slide escuro). Usar o `logo-transparente-crop.png` livremente em
+> qualquer fundo, claro ou escuro.
 
-- Logo do leão top-left (pequeno, discreto) + contador de slide top-right
+- **Sempre** incluir o leão dourado top-left (pequeno, discreto), ao lado do
+  wordmark "GILBERTO SENA" + contador de slide top-right — em todo slide do
+  carrossel, sem exceção.
 - No slide de capa e no CTA final, o leão pode aparecer maior como elemento
   de marca (ex.: watermark sutil ou selo)
 - CTA final: fundo escuro, leão dourado centralizado, @gilbertosenaoficial
