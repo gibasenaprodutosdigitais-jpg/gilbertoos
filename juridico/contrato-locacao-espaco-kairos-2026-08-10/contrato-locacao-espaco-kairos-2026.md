@@ -68,15 +68,20 @@ por:
 &nbsp;&nbsp;a) **Aluguel:** R$ 30.150,00 (trinta mil, cento e cinquenta
 reais);
 
-&nbsp;&nbsp;b) **Condomínio, incluindo água:** R$ 19.500,00 (dezenove mil
-e quinhentos reais);
+&nbsp;&nbsp;b) **Condomínio, incluindo água:** R$ 19.850,00 (dezenove mil,
+oitocentos e cinquenta reais) — **valor de referência**, podendo variar
+para mais ou para menos conforme os gastos efetivos de água e ar
+condicionado do período;
 
-&nbsp;&nbsp;c) **Uso da estrutura e dos equipamentos:** R$ 20.000,00
-(vinte mil reais).
+&nbsp;&nbsp;c) **Uso da estrutura e dos equipamentos:** R$ 17.500,00
+(dezessete mil e quinhentos reais);
 
-**2.2.** **Total mensal: R$ 69.650,00** (sessenta e nove mil, seiscentos
-e cinquenta reais) — soma das despesas (itens "a" e "b", R$ 49.650,00) mais
-o uso da estrutura (item "c", R$ 20.000,00).
+&nbsp;&nbsp;d) **Seguro fiança:** R$ 2.029,00 (dois mil e vinte e nove
+reais).
+
+**2.2.** **Total mensal: R$ 69.529,00** (sessenta e nove mil, quinhentos e
+vinte e nove reais) — soma das despesas (itens "a", "b" e "d", R$
+52.029,00) mais o uso da estrutura (item "c", R$ 17.500,00).
 
 **2.3.** O pagamento deverá ser efetuado até o dia [___] de cada mês, na
 forma a ser indicada pelo LOCADOR.
