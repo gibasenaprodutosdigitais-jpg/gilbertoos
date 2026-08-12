@@ -13,6 +13,7 @@ não vão ser continuadas**.
 ## O que está aqui
 
 **`juridico/`**
+- `contrato-sociedade-empreenda-2026-07-10/` — contrato original de sociedade, 50/50, que integralizou o Espaço Kairós (10/07/2026)
 - `distrato-ecossistema-empreenda/` — primeira minuta de distrato (04/08/2026)
 - `aditivo-espaco-kairos-2026/` — aditivo que reorganizou o Espaço Kairós, com multa e nota promissória (09/08/2026)
 - `distrato-revista-empreenda-2026-08-10/` — distrato final, dissolução total da sociedade incluindo Espaço Kairós, + nota de registro do não repasse de contas
