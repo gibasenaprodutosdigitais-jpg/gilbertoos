@@ -7,17 +7,24 @@
 > o aditivo do Espaço Kairós negociados depois **não foram assinados** e
 > não foram usados aqui).
 >
-> **Prova documental anexada (14/08/2026):** o Gilberto forneceu prints do
-> grupo de WhatsApp "ADM EMPREENDA" (Elaine, Fábio Empreenda e a equipe
-> financeira dele) mostrando o pedido de CPF/senha de acesso à conta do
-> Banco C6 em 03/08/2026, a resposta evasiva da Elaine, e a confirmação
-> posterior de que o acesso obtido foi só de visualização do extrato, não
-> de controle. Esses prints substituem, com muito mais força, a referência
-> genérica que havia aqui antes a um prazo de 01/08/2026 — **essa data não
-> tem registro nos prints enviados; se o Gilberto tiver outra prova dela,
-> me avisa que eu incluo de volta.** A data de 04/08/2026 usada no item 3.2
-> abaixo foi inferida pela ordem dos separadores de data do print (entre
-> "seg., 3 de ago." e "qua., 5 de ago.") — **vale o Gilberto confirmar.**
+> **Prova documental anexada (14/08/2026):** os 3 prints do grupo de
+> WhatsApp "ADM EMPREENDA" estão salvos em `anexos/` nesta mesma pasta:
+> - `anexo-I-whatsapp-03-08-pedido-cpf-senha.jpeg` — pedido do CPF/senha do
+>   C6, 03/08, 15h25–15h53.
+> - `anexo-II-whatsapp-03-08-resposta-elaine.jpeg` — resposta da Elaine
+>   (16h26), cobrança de confirmação (17h45) e print da tela de login do
+>   C6 Bank enviado pela equipe do Gilberto.
+> - `anexo-III-whatsapp-04-08-acesso-so-visualizacao.jpeg` — mensagem das
+>   11h17 confirmando acesso só de visualização, mais um pedido à parte
+>   sobre verificação em duas etapas do GOV (não usado no corpo da
+>   notificação, fora do escopo da conta do C6).
+>
+> Esses prints substituem a referência genérica que havia aqui antes a um
+> prazo de 01/08/2026 — **essa data não tem registro nos prints; se o
+> Gilberto tiver outra prova dela, me avisa que eu incluo de volta.** A
+> data de 04/08/2026 usada no item 3.2 abaixo foi inferida pela ordem dos
+> separadores de data do print (entre "seg., 3 de ago." e "qua., 5 de
+> ago.") — **vale o Gilberto confirmar antes do envio.**
 >
 > Conta não repassada: conta bancária da **Editora Empreenda** (CNPJ
 > 51.188.006/0001-75) no **Banco C6**, conforme extrato já analisado em
