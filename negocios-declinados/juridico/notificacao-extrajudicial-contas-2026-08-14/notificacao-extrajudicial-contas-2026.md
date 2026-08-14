@@ -14,12 +14,16 @@
 > C6**, conforme extrato já analisado em
 > `financeiro/extrato-empreenda-mai-ago-2026/`.
 >
+> **Valor da sociedade (14/08/2026):** o Gilberto estimou o valor
+> econômico total da sociedade em **R$ 2.000.000,00** — valor aproximado,
+> dado por ele, não uma avaliação formal. A multa de 30% da Cláusula
+> Décima Quarta, sobre esse valor, resultaria em **R$ 600.000,00**. Antes
+> de cobrar esse número de verdade, vale confirmar com contador ou perito
+> — uma avaliação formal blinda o valor contra questionamento da Elaine.
+>
 > **Pontos ainda em aberto antes do envio:**
 > - **Prazo desta notificação** — sugeri 5 dias úteis a contar do
 >   recebimento (ajustável).
-> - **Valor econômico estimado da sociedade** — não preenchido; base da
->   multa de 30% da Cláusula Décima Quarta do Contrato Original, depende de
->   avaliação contábil/pericial antes de ser cobrada.
 > - **Endereço/e-mail de envio** — usar os dados do contrato ou outros mais
 >   atuais, se o Gilberto tiver.
 > - Se o Gilberto tiver **prova escrita** do pedido de 01/08 e da
@@ -82,8 +86,11 @@ configurando descumprimento da forma de administração acordada entre as
 Partes. Tal conduta é passível de enquadramento como **violação relevante**
 para os fins da Cláusula Décima Quarta do Contrato, que prevê multa
 contratual equivalente a **30% (trinta por cento) do valor econômico
-estimado da sociedade**, sem prejuízo da reparação integral de perdas e
-danos e das demais medidas judiciais cabíveis.
+estimado da sociedade** — estimado por GILBERTO em **R$ 2.000.000,00**
+(dois milhões de reais), o que resultaria em multa de **R$ 600.000,00**
+(seiscentos mil reais), valor sujeito a confirmação por avaliação
+contábil/pericial —, sem prejuízo da reparação integral de perdas e danos
+e das demais medidas judiciais cabíveis.
 
 **5. Do pedido.** Diante do exposto — e considerando que os prazos já
 fixados anteriormente por GILBERTO (01/08/2026 e sua prorrogação para
