@@ -7,21 +7,24 @@
 > o aditivo do Espaço Kairós negociados depois **não foram assinados** e
 > não foram usados aqui).
 >
-> **Pontos em aberto que só o Gilberto preenche antes do envio:**
-> - **Data(s) em que o acesso/controle das contas foi solicitado e
->   negado/ignorado** — deixei em branco, não inventei data. Sem isso, a
->   notificação fica fraca: é a prova de que a Elaine foi cobrada e não
->   atendeu que sustenta a mora.
-> - **Quais contas/sistemas especificamente** não foram repassados (banco,
->   conta, sistema financeiro, senha, relatório contábil etc.) — quanto
->   mais específico, melhor.
-> - **Prazo** que o Gilberto quer dar pra resposta (sugeri 5 dias úteis,
->   ajustável).
+> **Preenchido pelo Gilberto (14/08/2026):** prazo que ele havia fixado
+> para o repasse foi até 01/08/2026, prorrogado para 03/08/2026 — sem que
+> a Elaine tenha atendido até a presente data. Conta não repassada: conta
+> bancária da **Editora Empreenda** (CNPJ 51.188.006/0001-75) no **Banco
+> C6**, conforme extrato já analisado em
+> `financeiro/extrato-empreenda-mai-ago-2026/`.
+>
+> **Pontos ainda em aberto antes do envio:**
+> - **Prazo desta notificação** — sugeri 5 dias úteis a contar do
+>   recebimento (ajustável).
 > - **Valor econômico estimado da sociedade** — não preenchido; base da
 >   multa de 30% da Cláusula Décima Quarta do Contrato Original, depende de
 >   avaliação contábil/pericial antes de ser cobrada.
 > - **Endereço/e-mail de envio** — usar os dados do contrato ou outros mais
 >   atuais, se o Gilberto tiver.
+> - Se o Gilberto tiver **prova escrita** do pedido de 01/08 e da
+>   prorrogação para 03/08 (WhatsApp, e-mail), vale anexar à notificação —
+>   fortalece muito o argumento de mora.
 
 ---
 
@@ -64,10 +67,13 @@ Vice-Presidente.
 
 **3. Do fato.** Desde a assinatura do Contrato, em 10/07/2026, até a
 presente data, ELAINE CRISTINA JULIÃO ARAUJO **não repassou a GILBERTO LUIS
-DE SENA o acesso e/ou controle das contas [bancárias/financeiras/sistemas —
-especificar]** vinculadas à sociedade e/ou às empresas do Ecossistema
-Empreenda, apesar de solicitações feitas por GILBERTO nesse sentido em
-[DATA(S) A PREENCHER].
+DE SENA o acesso e/ou controle da conta bancária da Editora Empreenda**
+(CNPJ 51.188.006/0001-75), mantida no **Banco C6**, vinculada à sociedade e
+às empresas do Ecossistema Empreenda, conforme extrato bancário já
+analisado por GILBERTO. GILBERTO fixou prazo para esse repasse até
+**01/08/2026**, prorrogado para **03/08/2026**, tendo ELAINE deixado de
+atender ao pedido em ambas as ocasiões e permanecendo inadimplente até a
+presente data — **11 (onze) dias** de mora contados desde 03/08/2026.
 
 **4. Do descumprimento.** A conduta descrita no item 3 impede o exercício,
 por GILBERTO LUIS DE SENA, dos poderes de supervisão e administração geral
@@ -79,13 +85,16 @@ contratual equivalente a **30% (trinta por cento) do valor econômico
 estimado da sociedade**, sem prejuízo da reparação integral de perdas e
 danos e das demais medidas judiciais cabíveis.
 
-**5. Do pedido.** Diante do exposto, **NOTIFICA-SE** ELAINE CRISTINA JULIÃO
-ARAUJO para que, no prazo de **[5 (cinco) dias úteis — ajustar]** contados
-do recebimento desta, providencie o repasse integral a GILBERTO LUIS DE
-SENA do acesso e controle de todas as contas bancárias, sistemas
-financeiros, senhas de acesso e relatórios contábeis vinculados à sociedade
-e às empresas do Ecossistema Empreenda, sob pena de, decorrido o prazo sem
-atendimento:
+**5. Do pedido.** Diante do exposto — e considerando que os prazos já
+fixados anteriormente por GILBERTO (01/08/2026 e sua prorrogação para
+03/08/2026) transcorreram sem qualquer atendimento —, **NOTIFICA-SE**
+ELAINE CRISTINA JULIÃO ARAUJO para que, no prazo de **[5 (cinco) dias
+úteis — ajustar]** contados do recebimento desta, providencie o repasse
+integral a GILBERTO LUIS DE SENA do acesso e controle da conta bancária da
+Editora Empreenda no Banco C6, bem como de quaisquer outras contas
+bancárias, sistemas financeiros, senhas de acesso e relatórios contábeis
+vinculados à sociedade e às empresas do Ecossistema Empreenda, sob pena de,
+decorrido o prazo sem atendimento:
 
 &nbsp;&nbsp;a) caracterização definitiva de violação relevante do
 Contrato, com cobrança da multa prevista na Cláusula Décima Quarta; e
