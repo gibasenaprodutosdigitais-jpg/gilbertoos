@@ -2,16 +2,39 @@
 
 > A estratégia. Antes de sair postando, definir QUEM ele é no digital e O QUE
 > ele defende. Isto guia toda pauta de conteúdo.
+>
+> **Base oficial:** Plano de Posicionamento Digital, Cid Pinheiro
+> (13/08/2026) — material completo, diagnóstico do feed e a grade semanal
+> em `posicionamento-gilberto-sena/plano-posicionamento-digital-2026-08-13.md`.
+> As definições abaixo vêm de lá.
 
-## Ponto de partida (a construir com ele)
+## Decidido — categoria, público e frase (Cid Pinheiro, 13/08/2026)
 
-- **Categoria própria (ideal):** achar um espaço aberto na mente do mercado e
-  nomear. Não é "mais um contador no Instagram" — é o quê? O contador-sábio?
-  O tributarista dos empreendedores? O cara que traduz a reforma pra quem
-  fatura? *(definir com o Gilberto)*
-- **Público:** quem ele quer alcançar? Empresários / empreendedores que
-  faturam e se enrolam com imposto? Donos de negócio em escala? *(definir)*
-- **Promessa/bandeira:** o que o Gilberto quer que as pessoas associem a ele?
+Três camadas, não um nicho só:
+
+- **Nicho** (o território de autoridade): **Tributos — a reforma**
+  tributária. Tem prazo (Senado fixa alíquotas em 31/out), é demonstrável
+  na frente de todo mundo, e é o que lota auditório de sindicato/
+  associação em 2026.
+- **Posicionamento** (como ele atua dentro do território): **pela ótica
+  do gestor, decisão de negócio — não conformidade contábil.** A linha
+  que separa do contador, e precisa estar explícita sempre: *o contador
+  diz o que a lei manda; ele diz o que fazer com isso.*
+- **Personalidade** (como ele comunica): **maturidade emocional** — o
+  cara que quebrou sete vezes. Vira conteúdo como *história de prejuízo*
+  ("o erro caro"), nunca como conselho motivacional solto — isso é o
+  formato mais commoditizado que existe.
+
+**A frase de posicionamento:** *"Sabe aquele gestor que explica o que a
+reforma tributária faz com a tua empresa?"*
+
+**Público:** empresários que precisam entender o que a reforma faz na
+própria empresa — decisão de negócio, não dúvida de conformidade.
+
+**Prova/ativo mais forte (hoje enterrado na bio):** **+R$ 500 milhões
+economizados em impostos · +2.000 empresas recuperadas.** É a espinha do
+posicionamento, não um detalhe — nenhum concorrente de "mentor
+empresarial" tem isso pra mostrar.
 
 ## Opiniões contrárias — [PEGAR COM O GILBERTO AMANHÃ]
 
@@ -46,20 +69,25 @@ Conteúdo com **data marcada** é o que mais engaja e mais gera consulta. Enquan
 a maioria dos contadores fala da reforma "no geral", o Gilberto pode falar do
 **prazo que vence semana que vem**. É autoridade + utilidade + urgência juntas.
 
-## Pilares de conteúdo (rascunho — refinar depois)
+## Os 3 pilares oficiais (Cid Pinheiro, substituem o rascunho anterior)
 
-Temas que ele pode girar em rotação:
+| # | Pilar | O que entrega |
+|---|---|---|
+| 1 | **A reforma** | o que muda, quando, quanto — tem prazo, puxa gente nova |
+| 2 | **A conta** | regime, margem, folha, preço — decisão de gestão com número na mesa; prova que ele é gestor, não contador |
+| 3 | **O erro caro** | caso real de decisão errada e o que custou — aqui entra a maturidade emocional, sempre como história de prejuízo |
 
-1. **Técnico traduzido** — imposto, reforma, contabilidade explicada pra quem
-   não é da área (autoridade + utilidade)
-2. **Bastidor / história** — os cases, as viradas, os erros que ensinaram
-   (conexão)
-3. **Sabedoria / escala** — visão de negócio, vida, disciplina, decisão
-   (diferenciação)
-4. **Opinião contrária** — as teses dele contra o consenso (engajamento)
+## Formato e frequência — a grade semanal oficial
 
-## Formato e frequência
+**3 publicações por semana, uma de cada tipo** (Alcance / Ensino / Prova):
 
-- Instagram: **carrossel** (técnico/lista/opinião) + **reels** (história/fala
-  direta/opinião curta)
-- Frequência a definir com o Gilberto (começar sustentável, não sufocar)
+| Dia | Tipo | Formato | Métrica que valida |
+|---|---|---|---|
+| Segunda | Ensino | vídeo falado 5–15 min, ou carrossel 10–15 slides | cliques no link da bio |
+| Quarta | Alcance | vídeo até 1 min, card, ou notícia da reforma no dia | compartilhamentos e seguidores novos |
+| Sexta | Prova | bastidor de palestra, depoimento, resultado de cliente | conversas no direct |
+
+O de quarta é recortado de dentro do vídeo de segunda (grava uma vez,
+corta duas). Nunca três dias seguidos do mesmo tipo. Detalhe completo —
+réguas de medição, "o que não fazer", motor de pauta com exemplos — no
+plano completo (link no topo deste arquivo).
