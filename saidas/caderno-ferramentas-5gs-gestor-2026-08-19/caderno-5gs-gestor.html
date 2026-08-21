@@ -7,92 +7,107 @@
   * { margin:0; padding:0; box-sizing:border-box; }
   body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    color:#151515; background:#FFFFFF; font-size:13px; line-height:1.6;
+    color:#151515; background:#FFFFFF; font-size:12.5px; line-height:1.58;
   }
   .page { max-width: 780px; margin: 0 auto; padding: 34px 6px; }
-
-  .logo-row { display:flex; align-items:center; justify-content:flex-end; gap:8px; margin-bottom:6px; }
-  .logo-row img { height:20px; width:auto; }
-  .logo-row span { font-size:10px; font-weight:800; letter-spacing:0.14em; color:#8a7a3f; }
 
   .cover { background:#0F1419; color:#F4F1EA; padding:70px 44px; border-radius:4px; text-align:center; margin-bottom:8px; }
   .cover .kicker { font-size:12px; font-weight:700; letter-spacing:0.28em; text-transform:uppercase; color:#C9A227; margin-bottom:18px; }
   .cover h1 { font-size:38px; font-weight:900; letter-spacing:-0.02em; margin-bottom:10px; }
   .cover h2 { font-size:16px; font-weight:500; color:#cfc9ba; margin-bottom:26px; }
-  .cover img.lion { height:64px; margin-top:10px; opacity:0.92; }
 
   .intro-box {
     background:#FAF8F3; border:1px solid #E4DDC8; border-left:4px solid #C9A227;
-    padding:16px 20px; margin: 24px 0; font-size:12.5px; line-height:1.6; color:#333;
+    padding:16px 20px; margin: 24px 0; font-size:12px; line-height:1.6; color:#333;
   }
   .intro-box b { color:#151515; }
 
   .g-block { margin-top:44px; page-break-before: always; }
   .g-kicker { font-size:12px; font-weight:800; letter-spacing:0.2em; text-transform:uppercase; color:#C9A227; }
   .g-title { font-size:24px; font-weight:900; color:#151515; letter-spacing:-0.01em; margin:4px 0 4px; }
-  .g-sub { font-size:13.5px; color:#555; font-style:italic; margin-bottom:14px; }
+  .g-sub { font-size:13px; color:#555; font-style:italic; margin-bottom:14px; }
 
   .quote {
-    border-left:3px solid #C9A227; padding: 6px 0 6px 16px; margin: 12px 0 18px;
-    font-style:italic; color:#333; font-size:13px;
+    border-left:3px solid #C9A227; padding: 6px 0 6px 16px; margin: 10px 0 14px;
+    font-style:italic; color:#333; font-size:12.5px;
   }
-  .quote + .quote { margin-top:-8px; }
+  .quote + .quote { margin-top:-4px; }
 
-  .lead { margin: 10px 0 22px; text-align:justify; color:#222; }
+  .lead { margin: 10px 0 20px; text-align:justify; color:#222; }
 
-  .tool { margin-bottom: 16px; padding: 12px 16px; background:#FBFBF9; border:1px solid #EAE6DA; border-radius:3px; }
-  .tool-name { font-weight:800; font-size:13.5px; color:#151515; margin-bottom:4px; }
+  .tool { margin-bottom: 14px; padding: 13px 16px; background:#FBFBF9; border:1px solid #EAE6DA; border-radius:3px; page-break-inside: avoid; }
+  .tool-name { font-weight:800; font-size:13.5px; color:#151515; margin-bottom:6px; padding-bottom:5px; border-bottom:1px solid #E4DDC8; }
   .tool-name .num { color:#C9A227; }
   .tool p { margin-bottom:5px; text-align:justify; }
   .tool b.label { color:#8a7a3f; }
+  .tool ol.steps { margin: 4px 0 8px 18px; }
+  .tool ol.steps li { margin-bottom:3px; text-align:justify; }
+
+  .vr-row { display:flex; gap:14px; margin: 6px 0 8px; }
+  .vr-col { flex:1; font-size:11.5px; }
+  .vr-col .vr-title { font-weight:700; font-size:10.5px; text-transform:uppercase; letter-spacing:0.03em; margin-bottom:3px; }
+  .vr-col.v .vr-title { color:#1a7a3a; }
+  .vr-col.r .vr-title { color:#a33; }
+  .vr-col ul { margin-left:14px; }
+  .vr-col li { margin-bottom:2px; }
 
   .bonus-title { font-size:14px; font-weight:800; color:#151515; margin:20px 0 4px; }
   .bonus-list { margin: 6px 0 14px 18px; }
   .bonus-list li { margin-bottom:4px; text-align:justify; }
 
-  .diagram-title { font-size:14px; font-weight:800; color:#151515; margin:26px 0 4px; }
-  .diagram-note { font-size:11.5px; color:#777; font-style:italic; margin-bottom:8px; }
+  .diagram-title { font-size:14px; font-weight:800; color:#151515; margin:26px 0 4px; page-break-after:avoid; }
+  .diagram-note { font-size:11px; color:#777; font-style:italic; margin-bottom:8px; }
 
   .quadrant {
-    display:grid; grid-template-columns: 110px 1fr 1fr; grid-template-rows: 24px 1fr 1fr;
-    border:1.5px solid #151515; margin: 10px 0 18px; font-size:11.5px;
+    display:grid; grid-template-columns: 100px 1fr 1fr; grid-template-rows: 22px 1fr 1fr;
+    border:1.5px solid #151515; margin: 8px 0 16px; font-size:11px;
   }
-  .quadrant .qhead { background:#0F1419; color:#F4F1EA; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:10.5px; text-transform:uppercase; letter-spacing:0.06em; padding:4px; }
-  .quadrant .qside { background:#EAE6DA; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:10px; text-transform:uppercase; letter-spacing:0.04em; text-align:center; padding:4px; writing-mode:vertical-rl; transform:rotate(180deg); }
-  .quadrant .qcell { border:1px solid #ccc; padding:10px 8px; }
-  .quadrant .qcell b { display:block; font-size:12px; margin-bottom:3px; color:#151515; }
+  .quadrant .qhead { background:#0F1419; color:#F4F1EA; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:10px; text-transform:uppercase; letter-spacing:0.05em; padding:4px; }
+  .quadrant .qside { background:#EAE6DA; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:9.5px; text-transform:uppercase; letter-spacing:0.03em; text-align:center; padding:4px; writing-mode:vertical-rl; transform:rotate(180deg); }
+  .quadrant .qcell { border:1px solid #ccc; padding:9px 8px; }
+  .quadrant .qcell b { display:block; font-size:11.5px; margin-bottom:3px; color:#151515; }
   .quadrant .qcell.pos { background:#FAF8F3; }
   .quadrant .qcell.neg { background:#FBFBF9; }
   .quadrant .qcell.gold { background:#FCF6E4; border-color:#C9A227; }
 
-  .barchart { display:flex; align-items:flex-end; gap:6px; height:130px; margin: 10px 0 4px; border-bottom:1.5px solid #151515; padding: 0 4px; }
+  .barchart { display:flex; align-items:flex-end; gap:6px; height:120px; margin: 8px 0 4px; border-bottom:1.5px solid #151515; padding: 0 4px; }
   .barchart .bargroup { display:flex; flex-direction:column; align-items:center; flex:1; height:100%; justify-content:flex-end; }
   .barchart .bar { width:60%; background:#C9A227; border-radius:2px 2px 0 0; }
   .barchart .bar.saida { background:#0F1419; }
   .barchart .barlabel { font-size:9px; color:#666; margin-top:4px; }
-  .chart-legend { display:flex; gap:16px; font-size:10.5px; color:#555; margin-bottom:16px; }
+  .chart-legend { display:flex; gap:16px; font-size:10px; color:#555; margin-bottom:14px; }
   .chart-legend span { display:inline-flex; align-items:center; gap:5px; }
   .chart-legend .dot { width:9px; height:9px; border-radius:2px; display:inline-block; }
 
-  .ganho-bar { display:flex; flex-direction:column; width:160px; border:1.5px solid #151515; margin: 12px 0 18px; }
+  .ganho-bar { display:flex; flex-direction:column; width:160px; border:1.5px solid #151515; margin: 10px 0 14px; }
   .ganho-bar .seg { padding:10px; text-align:center; font-size:11px; }
   .ganho-bar .seg.ganho { background:#C9A227; color:#151515; font-weight:800; }
   .ganho-bar .seg.custo { background:#0F1419; color:#F4F1EA; }
-  .ganho-bar .preco-label { text-align:center; font-size:10.5px; color:#666; margin-top:6px; }
 
-  table.mercado { width:100%; border-collapse:collapse; margin:10px 0 6px; font-size:11.5px; }
-  table.mercado th { background:#0F1419; color:#F4F1EA; padding:6px 8px; text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:0.03em; }
+  table.mercado { width:100%; border-collapse:collapse; margin:8px 0 4px; font-size:11px; }
+  table.mercado th { background:#0F1419; color:#F4F1EA; padding:6px 8px; text-align:left; font-size:10px; text-transform:uppercase; letter-spacing:0.03em; }
   table.mercado td { padding:6px 8px; border-bottom:1px solid #E4DDC8; text-align:center; }
   table.mercado td:first-child { text-align:left; font-weight:600; }
   table.mercado .M { color:#1a7a3a; font-weight:800; }
   table.mercado .E { color:#8a7a3f; font-weight:800; }
   table.mercado .P { color:#a33; font-weight:800; }
 
+  .blank-table { width:100%; border-collapse:collapse; margin:8px 0 4px; font-size:10.5px; }
+  .blank-table th { background:#0F1419; color:#F4F1EA; padding:5px 6px; text-align:left; font-size:9.5px; text-transform:uppercase; letter-spacing:0.02em; }
+  .blank-table td { border:1px solid #E4DDC8; height:20px; padding:3px 6px; }
+
+  .tax-box { background:#0F1419; color:#F4F1EA; padding:18px 20px; border-radius:4px; margin: 14px 0 16px; }
+  .tax-box .tax-kicker { color:#C9A227; font-size:10.5px; font-weight:800; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:8px; }
+  .tax-box ul { margin: 6px 0 4px 16px; }
+  .tax-box li { margin-bottom:6px; font-size:11.5px; text-align:justify; }
+  .tax-box b { color:#C9A227; }
+  .tax-box .tax-note { font-size:10px; color:#9a9a9a; margin-top:8px; font-style:italic; }
+
   .closing {
     background:#0F1419; color:#F4F1EA; padding:36px 32px; margin-top:40px; border-radius:4px; text-align:center;
   }
   .closing .kicker { font-size:11px; font-weight:700; letter-spacing:0.24em; text-transform:uppercase; color:#C9A227; margin-bottom:14px; }
-  .closing p { font-style:italic; margin-bottom:14px; font-size:13.5px; }
+  .closing p { font-style:italic; margin-bottom:14px; font-size:13px; }
 
   footer { margin-top:30px; padding-top:12px; border-top:1px solid #E4DDC8; font-size:10px; color:#999; text-align:center; }
 </style>
@@ -103,13 +118,13 @@
 <div class="cover">
   <div class="kicker">Caderno de Ferramentas do Gestor</div>
   <h1>Os 5 G's na Prática</h1>
-  <h2>27 ferramentas de gestão organizadas dentro do seu próprio método</h2>
+  <h2>27 ferramentas completas + extras, organizadas dentro do seu próprio método</h2>
   <div style="font-size:12px; color:#9a8f6f; letter-spacing:0.05em;">GILBERTO SENA</div>
 </div>
 
 <div class="intro-box">
-  <b>O que é este documento:</b> uma versão do Caderno de Ferramentas do Sebrae (Programa Negócio a Negócio) — 27 ferramentas de gestão testadas com milhares de pequenos negócios — organizada dentro do SEU próprio método, os 5 G's da Gestão Empreendedora. Cada bloco abre com uma frase real do seu livro; as ferramentas do Sebrae ficam condensadas e diretas, do jeito que você fala.<br><br>
-  Fonte das ferramentas: Sebrae, <i>Caderno de Ferramentas — Programa Negócio a Negócio</i> (2016). Fonte das citações: seu livro <i>Os 5 G's da Gestão Empreendedora</i>.
+  <b>O que é este documento:</b> a versão completa e atualizada do Caderno de Ferramentas do Sebrae (Programa Negócio a Negócio) — módulo a módulo, com "por que usar", passo a passo inteiro e formulário em branco pra aplicar — organizada dentro do SEU método, os 5 G's da Gestão Empreendedora. Cada bloco abre com uma frase real do seu livro.<br><br>
+  Fonte das ferramentas: Sebrae, <i>Caderno de Ferramentas — Programa Negócio a Negócio</i> (2016). Fonte das citações: seu livro <i>Os 5 G's da Gestão Empreendedora</i>. Fonte da parte tributária: base técnica <code>reforma-tributaria.md</code>, checada em fontes oficiais (Receita Federal, CGSN, LC 214/2025) — atualizada em 19/ago/2026.
 </div>
 
 <div class="lead" style="margin-top:24px;">
@@ -120,7 +135,7 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
 
 <!-- 1G -->
 <div class="g-block">
-  <div class="g-kicker">1G</div>
+  <div class="g-kicker">1G · Módulo Planejamento</div>
   <div class="g-title">Gestão de Si</div>
   <div class="g-sub">Autoconhecimento, tempo, energia, recursos, desenvolvimento</div>
   <div class="quote">"Sacada do Giba: essa talvez seja a crença mais problemática e mais difícil de se contornar na vida — 'ganhar dinheiro é muito difícil'. Muita gente internalizou essa crença, mesmo sem ter consciência disso."</div>
@@ -128,80 +143,222 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
 
   <div class="tool">
     <div class="tool-name"><span class="num">01</span> · Planejamento: o primeiro passo</div>
-    <p><b class="label">O que é:</b> um jeito simples de sair do "eu acho" e ir pro "eu sei" sobre o seu negócio.</p>
-    <p><b class="label">Como fazer:</b> descreva seu negócio hoje → olhe pra fora (o que o concorrente faz que você não faz?) → cruze as duas listas e marque os pontos de atenção.</p>
+    <p><b class="label">O que é:</b> planejar é um processo dinâmico e contínuo — pensar antes de agir, e corrigir a rota sempre que precisar, não só uma vez por ano.</p>
+    <div class="vr-row">
+      <div class="vr-col v"><div class="vr-title">Vantagens</div><ul><li>Decisão mais racional</li><li>Avalia risco x benefício antes de agir</li><li>Reduz imprevisto</li></ul></div>
+      <div class="vr-col r"><div class="vr-title">Se deixar de lado</div><ul><li>Metas erradas ou pouco representativas</li><li>Caminho mais difícil até o objetivo</li></ul></div>
+    </div>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li>Descreva seu negócio hoje: propósito, público, o que funciona e o que não.</li>
+      <li>Olhe pra fora: o que o concorrente faz que você não faz? Quais as tendências do mercado?</li>
+      <li>Cruze as duas listas e marque os pontos de atenção — aí nascem suas primeiras metas.</li>
+    </ol>
   </div>
+
   <div class="tool">
-    <div class="tool-name"><span class="num">02</span> · Objetivos e Metas</div>
-    <p><b class="label">O que é:</b> o mapa entre onde você está e onde quer chegar.</p>
-    <p><b class="label">Como fazer:</b> o que mudar (deficiências de hoje) → pra que mudar (onde chegar, com número) → como causar a mudança (ações concretas, com investimento e ganho esperado). Sem número, é desejo — não é plano.</p>
+    <div class="tool-name"><span class="num">02</span> · Planejando o Negócio: Objetivos e Metas</div>
+    <p><b class="label">O que é:</b> o mapa entre a situação atual (o que mudar) e a situação desejada (pra que mudar), com o caminho (como causar a mudança) e o custo/retorno de cada ação.</p>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li><b>O que mudar</b> — liste as deficiências e pontos de melhoria de hoje.</li>
+      <li><b>Pra que mudar</b> — defina onde quer chegar, com objetivos e metas mensuráveis.</li>
+      <li><b>Como causar a mudança</b> — liste as ações concretas necessárias.</li>
+      <li><b>Qual o investimento</b> — estime o custo de cada ação.</li>
+      <li><b>Qual o ganho</b> — estime o retorno esperado. Sem número, é desejo — não é plano.</li>
+    </ol>
   </div>
+
   <div class="tool">
-    <div class="tool-name"><span class="num">03</span> · Plano de Ação</div>
-    <p><b class="label">O que é:</b> transformar a intenção em tarefa com dono e prazo.</p>
-    <p><b class="label">Como fazer:</b> pra cada ação, defina o quê, por quê, quem, quando, como, quanto custa e quanto vai gerar. Sem "quem" e sem "quando", a ação não sai do papel.</p>
+    <div class="tool-name"><span class="num">03</span> · Plano de Ação de Curto e Médio Prazo</div>
+    <p><b class="label">O que é:</b> transformar cada ação definida acima em tarefa com dono, prazo e custo — o instrumento que gerencia o planejamento no dia a dia.</p>
+    <p><b class="label">Como fazer:</b> pra cada ação, preencha: <b>o quê</b> (verbo no infinitivo) · <b>por quê</b> · <b>onde</b> · <b>quem</b> (nome específico) · <b>quando</b> (data) · <b>como</b> · <b>quanto custa</b> · <b>quanto ganha</b> · <b>status</b>. Revise em reunião periódica — diária, semanal ou quinzenal.</p>
+    <table class="blank-table">
+      <tr><th>O quê</th><th>Por quê</th><th>Quem</th><th>Quando</th><th>Quanto</th><th>Ganho</th><th>Status</th></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">04</span> · Aprendizagem Estratégica</div>
-    <p><b class="label">O que é:</b> o hábito de olhar pra trás antes de planejar de novo.</p>
-    <p><b class="label">Como fazer:</b> ao fim de cada ciclo, liste o planejado, o realizado, o que não saiu do papel e por quê. Memória evita repetir o mesmo erro duas vezes.</p>
+    <p><b class="label">O que é:</b> comparar o que foi planejado com o que foi realmente realizado — separando estratégias realizadas, não realizadas e emergentes (as que surgiram sem estar no plano).</p>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li>Resgate o plano do período anterior — o que você pretendia realizar.</li>
+      <li>Liste o que foi realizado, o que não saiu do papel, e o que surgiu sem estar planejado.</li>
+      <li>Registre os motivos das diferenças — sem julgamento, só constatação.</li>
+      <li>Anote o aprendizado. Repita o ciclo a cada período — é isso que evita repetir o mesmo erro duas vezes.</li>
+    </ol>
   </div>
+
   <div class="tool">
-    <div class="tool-name"><span class="num">05</span> · Organização e Disciplina (5S's)</div>
-    <p><b class="label">O que é:</b> manter só o necessário no ambiente de trabalho.</p>
-    <p><b class="label">Como fazer:</b> liste o que usa todo dia, toda semana, todo mês — guarde o resto. Defina um dia fixo de revisão. Disciplina é manter quando ninguém está olhando.</p>
+    <div class="tool-name"><span class="num">05</span> · Organização e Disciplina (os 5S's)</div>
+    <p><b class="label">O que é:</b> a metodologia japonesa (Toyota) de organização do ambiente de trabalho — 5 sensos: <b>utilização</b> (só o essencial por perto), <b>organização</b> (cada coisa no seu lugar, fácil de achar), <b>limpeza</b> (rotina diária), <b>padronização</b> (o processo sempre igual, sem depender de quem faz) e <b>autodisciplina</b> (manter mesmo sem ninguém cobrando).</p>
+    <p><b class="label">Como fazer:</b> liste o que usa todo dia, toda semana, todo mês — guarde o resto. Fotografe o antes e o depois. Defina um dia fixo de revisão (ex.: toda quarta). Disciplina não é fazer uma vez — é manter quando ninguém está olhando.</p>
   </div>
 </div>
 
 <!-- 2G -->
 <div class="g-block">
-  <div class="g-kicker">2G</div>
+  <div class="g-kicker">2G · Módulo Finanças</div>
   <div class="g-title">Gestão Financeira</div>
   <div class="g-sub">O dinheiro como professor, não como inimigo</div>
   <div class="quote">"O dinheiro, para mim, nunca foi apenas uma ferramenta, mas um professor. Ele me ensinou sobre disciplina quando tive que economizar, inovação quando tive que investir, humildade quando enfrentei desafios financeiros."</div>
   <div class="quote">"Posso afirmar isso com propriedade, pois, ao longo de minha jornada, enfrentei a falência não uma, mas <b>sete vezes</b>. Cada uma delas foi uma lição dura, mas também uma oportunidade de aprendizado."</div>
-  <p class="lead">Ninguém fala de gestão financeira com mais propriedade do que quem já quebrou sete vezes e voltou de pé nas sete. As ferramentas abaixo não são teoria de curso — são o mínimo que evitaria boa parte dessas quedas.</p>
+  <p class="lead">Ninguém fala de gestão financeira com mais propriedade do que quem já quebrou sete vezes e voltou de pé nas sete. Controlar as entradas, saídas e o resultado é o que separa quem trabalha muito de quem vê o retorno desse trabalho.</p>
 
   <div class="tool">
     <div class="tool-name"><span class="num">06</span> · Diário de Caixa</div>
-    <p><b class="label">O que é:</b> registrar, todo dia, o que entra e o que sai.</p>
-    <p><b class="label">Como fazer:</b> anote entradas e saídas diariamente, feche o caixa no fim do dia, consolide semana a semana. Quem não registra, decide no escuro.</p>
+    <p><b class="label">O que é:</b> registrar diariamente as entradas e saídas de dinheiro — a base de tudo o que vem depois.</p>
+    <div class="vr-row">
+      <div class="vr-col v"><div class="vr-title">Vantagens</div><ul><li>Enxerga o padrão de entrada/saída no mês</li><li>Não mistura dinheiro pessoal com o da empresa</li><li>Evita retirada que compromete o futuro</li></ul></div>
+      <div class="vr-col r"><div class="vr-title">Se deixar de lado</div><ul><li>Pagamento concentrado num período de caixa baixo</li><li>Não sabe pra onde vai o dinheiro</li></ul></div>
+    </div>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li>Registre entradas (dinheiro, cheque, cartão) e saídas (fornecedor, retirada, tributo) com descrição.</li>
+      <li>Feche o caixa no fim do dia — some por grupo e confira o saldo físico.</li>
+      <li>Consolide os fechamentos diários numa planilha mensal.</li>
+      <li>Analise: que dias entram mais, que dias saem mais, se as retiradas estão comprometendo o resultado.</li>
+    </ol>
+    <table class="blank-table">
+      <tr><th>Data</th><th>Descrição</th><th>Entrada</th><th>Saída</th></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">07</span> · Controle do Pagamento de Tributos</div>
-    <p><b class="label">O que é:</b> saber exatamente quais tributos você paga e quando vencem.</p>
-    <p><b class="label">Como fazer:</b> liste todo tributo com data de vencimento, registre cada pagamento, revise com seu contador periodicamente — não só na correria da declaração.</p>
+    <p><b class="label">O que é:</b> registrar quais tributos a empresa paga, quando vencem e quanto já foi pago — pra nunca perder prazo por esquecimento.</p>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li>Identifique os tributos a pagar, com apoio do contador (impostos, taxas, contribuições).</li>
+      <li>Registre cada pagamento — data e valor.</li>
+      <li>Analise o total pago ao longo do tempo e leve a régua pro contador: dá pra melhorar o enquadramento?</li>
+    </ol>
+
+    <div class="tax-box">
+      <div class="tax-kicker">Atualização 2026 — o que mudou de verdade na tributação</div>
+      <ul>
+        <li><b>Desde 03/ago/2026:</b> ficou <b>obrigatório</b> destacar IBS e CBS na nota fiscal, no regime regular, com alíquota-teste de 1% (CBS 0,9% + IBS 0,1%) — caráter ainda informativo.</li>
+        <li><b>A partir de 2027:</b> PIS e Cofins são <b>extintos</b>. A CBS passa a valer pra valer. O IPI vai a zero (exceto Zona Franca de Manaus). Começa o Imposto Seletivo. Começa o split payment — o imposto é separado automaticamente no pagamento, antes de cair no seu caixa.</li>
+        <li><b>2029 a 2032:</b> ICMS e ISS caem 10% ao ano; IBS sobe na mesma proporção, até virar 100% o sistema novo.</li>
+        <li><b>2033:</b> sistema definitivo — só CBS + IBS (mais o Imposto Seletivo).</li>
+        <li><b>Se você é do Simples Nacional:</b> há uma janela de decisão entre <b>1º e 30 de setembro de 2026</b> — escolher entre recolher IBS/CBS dentro do DAS (regime único) ou por fora (regime regular/híbrido). Efeito a partir de 1º/jan/2027. Cancelamento irretratável até 30/nov/2026. <b>Essa regra não vale pro MEI</b>, que segue no prazo de sempre.</li>
+        <li><b>Profissões regulamentadas</b> (contabilidade entre elas) têm redução de <b>30%</b> na alíquota de IBS/CBS — não é automática: exige que o serviço prestado esteja de fato ligado à qualificação profissional.</li>
+      </ul>
+      <div class="tax-note">Base: LC 214/2025, Resolução CGSN 186/2026. Tema em movimento — as alíquotas do Imposto Seletivo ainda dependem de lei complementar não aprovada. Confirme sempre com seu contador antes de decidir.</div>
+    </div>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">08</span> · Controle do Fluxo de Caixa (futuro)</div>
     <p><b class="label">O que é:</b> projetar, semana a semana, quando vai faltar ou sobrar dinheiro — antes de faltar de verdade.</p>
-    <p><b class="label">Como fazer:</b> registre saldo, entradas e saídas previstas pras próximas 4-6 semanas. Onde o saldo fica negativo, você já sabe hoje.</p>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li>Registre o saldo inicial (caixa + banco).</li>
+      <li>Liste as entradas previstas por semana (a receber, cartões).</li>
+      <li>Liste as saídas previstas por semana (fornecedor, aluguel, tributo, retirada).</li>
+      <li>Calcule: saldo = saldo inicial + entradas − saídas, semana a semana. Onde fica negativo, você já sabe hoje — e pode agir antes.</li>
+    </ol>
+    <div class="diagram-note">Exemplo ilustrativo — saldo projetado de 6 semanas</div>
+    <svg viewBox="0 0 560 130" width="100%" height="130" style="margin-bottom:6px;">
+      <line x1="30" y1="10" x2="30" y2="110" stroke="#ccc" stroke-width="1"/>
+      <line x1="30" y1="110" x2="540" y2="110" stroke="#151515" stroke-width="1.5"/>
+      <polyline points="30,80 115,60 200,95 285,40 370,20 455,55 540,30" fill="none" stroke="#C9A227" stroke-width="2.5"/>
+      <circle cx="30" cy="80" r="3.5" fill="#0F1419"/>
+      <circle cx="115" cy="60" r="3.5" fill="#0F1419"/>
+      <circle cx="200" cy="95" r="3.5" fill="#0F1419"/>
+      <circle cx="285" cy="40" r="3.5" fill="#0F1419"/>
+      <circle cx="370" cy="20" r="3.5" fill="#0F1419"/>
+      <circle cx="455" cy="55" r="3.5" fill="#0F1419"/>
+      <circle cx="540" cy="30" r="3.5" fill="#0F1419"/>
+      <text x="30" y="125" font-size="9" fill="#666" text-anchor="middle">S1</text>
+      <text x="115" y="125" font-size="9" fill="#666" text-anchor="middle">S2</text>
+      <text x="200" y="125" font-size="9" fill="#666" text-anchor="middle">S3</text>
+      <text x="285" y="125" font-size="9" fill="#666" text-anchor="middle">S4</text>
+      <text x="370" y="125" font-size="9" fill="#666" text-anchor="middle">S5</text>
+      <text x="455" y="125" font-size="9" fill="#666" text-anchor="middle">S6</text>
+      <text x="540" y="125" font-size="9" fill="#666" text-anchor="middle">S7</text>
+    </svg>
+    <div class="diagram-note" style="margin-top:-4px;">Linha de saldo — os vales são onde você precisa agir antes de chegar lá</div>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">09</span> · Cálculo do Ganho Unitário</div>
-    <p><b class="label">O que é:</b> saber quanto sobra, de verdade, em cada produto ou serviço.</p>
-    <p><b class="label">Como fazer:</b> preço de venda − custo direto − imposto = ganho por unidade. O que "vende mais" nem sempre é o que deixa mais dinheiro.</p>
+    <p><b class="label">O que é:</b> saber quanto sobra, de verdade, em cada produto ou serviço — preço de venda menos custo direto menos imposto.</p>
+    <p><b class="label">Como fazer:</b> se o produto é <b>revendido</b>, use o custo de compra da unidade. Se é <b>produzido</b> ou é um serviço, some o custo de cada matéria-prima/material usado. Ganho = Preço − Custo − Imposto. O produto que "vende mais" nem sempre é o que deixa mais dinheiro — compare sempre pelo ganho, não pelo volume.</p>
+    <div class="diagram-note">Preço de venda R$ 10,00</div>
+    <div class="ganho-bar">
+      <div class="seg ganho">GANHO — R$ 3,00</div>
+      <div class="seg custo">CUSTO — R$ 7,00</div>
+    </div>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">10</span> · Demonstrativo de Resultado</div>
-    <p><b class="label">O que é:</b> o placar mensal — receita menos gasto.</p>
-    <p><b class="label">Como fazer:</b> registre todas as receitas e gastos do mês, compare mês a mês. Vender mais não é o mesmo que lucrar mais.</p>
+    <p><b class="label">O que é:</b> o placar mensal do negócio — receita menos gasto, mês a mês.</p>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li>Registre todas as receitas do mês (produtos, serviços, com e sem nota).</li>
+      <li>Registre todos os gastos (retirada, fornecedor, tributos, aluguel, folha, etc).</li>
+      <li>Resultado = receitas − gastos.</li>
+      <li>Compare mês a mês. Vender mais não é o mesmo que lucrar mais — esse número mostra a diferença.</li>
+    </ol>
+    <div class="diagram-note">Exemplo ilustrativo — receita x despesa, 4 meses</div>
+    <div class="barchart">
+      <div class="bargroup"><div class="bar" style="height:75%"></div><div class="bar saida" style="height:60%"></div><div class="barlabel">Mai</div></div>
+      <div class="bargroup"><div class="bar" style="height:60%"></div><div class="bar saida" style="height:70%"></div><div class="barlabel">Jun</div></div>
+      <div class="bargroup"><div class="bar" style="height:90%"></div><div class="bar saida" style="height:55%"></div><div class="barlabel">Jul</div></div>
+      <div class="bargroup"><div class="bar" style="height:65%"></div><div class="bar saida" style="height:65%"></div><div class="barlabel">Ago</div></div>
+    </div>
+    <div class="chart-legend">
+      <span><span class="dot" style="background:#C9A227;"></span>receitas</span>
+      <span><span class="dot" style="background:#0F1419;"></span>gastos</span>
+    </div>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">11</span> · Gestão de Estoques</div>
-    <p><b class="label">O que é:</b> saber o que você tem parado, e quanto isso vale.</p>
-    <p><b class="label">Como fazer:</b> registre entrada e saída de cada produto-chave com valor, calcule o total mensal. Estoque parado é dinheiro parado.</p>
+    <p><b class="label">O que é:</b> controlar quantidade e valor do que está parado, e saber o momento certo de comprar de novo.</p>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li>Selecione os produtos-chave a monitorar (por volume, custo ou validade).</li>
+      <li>Registre entrada e saída de cada um, com valor unitário e total.</li>
+      <li>Calcule o valor médio e o valor total em estoque a cada fechamento.</li>
+      <li>Revise periodicamente — produto parado há muito tempo é candidato a promoção; produto em falta é risco de perder venda.</li>
+    </ol>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">12</span> · Controle do Capital de Giro</div>
-    <p><b class="label">O que é:</b> quanto dinheiro precisa ficar disponível pra empresa funcionar sem sufoco.</p>
-    <p><b class="label">Como fazer:</b> some o que está aplicado (estoque, a receber) e subtraia os gastos operacionais — o resultado é o número que evita o cheque especial.</p>
+    <p><b class="label">O que é:</b> quanto dinheiro precisa ficar disponível pra empresa funcionar sem sufoco entre pagar fornecedor e receber do cliente.</p>
+    <p><b class="label">Como fazer:</b></p>
+    <ol class="steps">
+      <li>Some as aplicações do capital de giro (contas a receber, estoques).</li>
+      <li>Some os gastos a pagar do período (fornecedor, tributo, folha, aluguel).</li>
+      <li>Necessidade de Capital de Giro = Aplicações − Gastos.</li>
+      <li>Pra reduzir: diminua o ciclo entre comprar e vender, reduza a inadimplência, negocie prazo maior com fornecedor do que o prazo que dá ao cliente.</li>
+    </ol>
+    <div class="diagram-note">Exemplo ilustrativo — aplicações x gastos, 2 meses</div>
+    <div class="barchart" style="height:90px;">
+      <div class="bargroup"><div class="bar" style="height:100%"></div><div class="bar saida" style="height:63%"></div><div class="barlabel">Mês 1</div></div>
+      <div class="bargroup"><div class="bar" style="height:75%"></div><div class="bar saida" style="height:48%"></div><div class="barlabel">Mês 2</div></div>
+    </div>
+    <div class="chart-legend">
+      <span><span class="dot" style="background:#C9A227;"></span>aplicações</span>
+      <span><span class="dot" style="background:#0F1419;"></span>gastos a pagar</span>
+    </div>
   </div>
 </div>
 
 <!-- 3G -->
 <div class="g-block">
-  <div class="g-kicker">3G</div>
+  <div class="g-kicker">3G · Módulo Pessoas</div>
   <div class="g-title">Gestão de Pessoas</div>
   <div class="g-sub">"Eu não tenho funcionários, eu tenho uma família"</div>
   <div class="quote">"Se eu te perguntasse qual é o propósito da sua empresa, o que você diria? A resposta que mais ouço é: crescer. Se esta também for a sua resposta, eu tenho uma notícia para você: sua empresa não é diferente de um tumor... Crescimento não é propósito, é consequência do propósito."</div>
@@ -210,42 +367,97 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
 
   <div class="tool">
     <div class="tool-name"><span class="num">13</span> · Competências Necessárias</div>
-    <p><b class="label">O que é:</b> saber, antes de contratar, o que a vaga realmente exige.</p>
-    <p><b class="label">Como fazer:</b> liste competências por área, marque na entrevista quem tem o quê. Escolha por competência, não por simpatia do momento.</p>
+    <p><b class="label">O que é:</b> saber, antes de contratar, o que a vaga realmente exige — em cada uma das 5 áreas de gestão (pessoas, organização, mercado, planejamento, finanças).</p>
+    <p><b class="label">Como fazer:</b> liste as competências exigidas pra vaga. Na entrevista, marque quem tem o quê entre os candidatos. Escolha por competência comprovada, não por simpatia do momento.</p>
+    <table class="blank-table">
+      <tr><th>Competência</th><th>Candidato 1</th><th>Candidato 2</th><th>Candidato 3</th></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">14</span> · Orientações para Obrigações Trabalhistas</div>
-    <p><b class="label">O que é:</b> o calendário mínimo pra não cair em problema trabalhista por desconhecimento.</p>
-    <p><b class="label">Como fazer:</b> mantenha um quadro fixo com datas de salário, FGTS, INSS, 13º, RAIS, exames — e consulte seu contador nas mudanças de legislação.</p>
+    <p><b class="label">O que é:</b> o calendário mínimo pra não cair em problema trabalhista por desconhecimento — da contratação ao desligamento.</p>
+    <table class="blank-table">
+      <tr><th>Obrigação</th><th>Prazo</th></tr>
+      <tr><td>Salário</td><td>até o 5º dia útil do mês seguinte</td></tr>
+      <tr><td>FGTS</td><td>até o dia 7 (ou 1º dia útil anterior)</td></tr>
+      <tr><td>INSS</td><td>até o dia 20 (empregador) / dia 15 (MEI, doméstico)</td></tr>
+      <tr><td>13º salário</td><td>1ª parcela até 30/11 · 2ª parcela até 20/12</td></tr>
+      <tr><td>CAGED</td><td>na admissão ou demissão</td></tr>
+      <tr><td>RAIS</td><td>de janeiro a início de março</td></tr>
+      <tr><td>Exame médico</td><td>admissional, periódico e demissional</td></tr>
+    </table>
+    <p style="margin-top:6px;"><i>Consulte seu contador nas mudanças de legislação — datas e percentuais mudam, esse quadro é o mínimo, não o completo.</i></p>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">15</span> · Matriz de Responsabilidades</div>
-    <p><b class="label">O que é:</b> garantir que nenhuma tarefa dependa de uma única pessoa.</p>
-    <p><b class="label">Como fazer:</b> funcionários nas linhas, tarefas nas colunas — marque responsável e substituto em cada uma.</p>
+    <p><b class="label">O que é:</b> garantir que nenhuma tarefa dependa de uma única pessoa — se alguém falta, sempre tem substituto treinado.</p>
+    <p><b class="label">Como fazer:</b> funcionários nas linhas, tarefas nas colunas. Marque <b>R</b> (responsável) e <b>S</b> (substituto) em cada cruzamento. Onde só existe R sem S, você encontrou um ponto cego antes que ele vire crise.</p>
+    <table class="blank-table">
+      <tr><th></th><th>Tarefa 1</th><th>Tarefa 2</th><th>Tarefa 3</th><th>Tarefa 4</th></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">16</span> · Prepare-se para Delegar</div>
-    <p><b class="label">O que é:</b> o caminho pra sair da operação e ir pra gestão de verdade.</p>
-    <p><b class="label">Como fazer:</b> liste suas tarefas, classifique como operacional ou estratégica, delegue as operacionais com dono e data.</p>
+    <p><b class="label">O que é:</b> o caminho pra sair da operação e ir pra gestão de verdade — separando o que é tarefa operacional do que é decisão estratégica.</p>
+    <p><b class="label">Como fazer:</b> liste suas tarefas do dia a dia. Classifique cada uma como operacional (alguém mais pode fazer) ou estratégica (só você decide). Delegue as operacionais, com dono e data de início.</p>
+    <table class="blank-table">
+      <tr><th>Tarefa</th><th>Operacional</th><th>Estratégica</th><th>Quem assume</th><th>A partir de</th></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">17</span> · Treinamento Baseado em Problemas</div>
-    <p><b class="label">O que é:</b> transformar o problema que se repete em regra clara pra todo mundo.</p>
-    <p><b class="label">Como fazer:</b> identifique um problema recorrente, discuta a solução com a equipe, registre como padrão.</p>
+    <p><b class="label">O que é:</b> transformar o problema que se repete em regra clara pra todo mundo — pra ninguém precisar te chamar de novo.</p>
+    <p><b class="label">Como fazer:</b> identifique um problema recorrente. Reúna a equipe, discuta a solução em conjunto. Registre como padrão, com data. Da próxima vez, todo mundo já sabe o que fazer.</p>
   </div>
 </div>
 
 <!-- 4G -->
 <div class="g-block">
-  <div class="g-kicker">4G</div>
+  <div class="g-kicker">4G · Módulo Tributário</div>
   <div class="g-title">Gestão Tributária</div>
   <div class="g-sub">O terreno onde a maioria dos empresários brasileiros sangra sem perceber</div>
   <div class="quote">"Não aconselho em hipótese alguma que um empresário tente contornar ou burlar a legislação tributária porque o que parece ser uma economia pode se tornar um grande prejuízo no futuro. Mas sabemos que <b>no veneno está o antídoto</b>. Aprenda a lidar, tenha uma gestão tributária robusta e transforme o problema em solução."</div>
   <p class="lead">
     O Sebrae não tem uma ferramenta de papel pra isso — porque gestão tributária de verdade não se resolve com formulário, se resolve com técnica e acompanhamento profissional. É exatamente o vazio que o seu trabalho preenche.
     <br><br>
-    No seu livro, os 5 pilares desse G são: <b>Gestão da Estrutura Tributária</b> (o regime certo pro momento), <b>Gerenciamento de Processos</b>, <b>Gestão da Conformidade</b>, <b>Gestão do Planejamento Financeiro</b> tributário e <b>Gestão da Governança</b> — mais um pilar bônus: acompanhar a Reforma Tributária, que está mudando a regra do jogo pra todo empresário brasileiro entre 2026 e 2027.
+    No seu livro, os 5 pilares desse G são: <b>Gestão da Estrutura Tributária</b> (o regime certo pro momento), <b>Gerenciamento de Processos</b>, <b>Gestão da Conformidade</b>, <b>Gestão do Planejamento Financeiro</b> tributário e <b>Gestão da Governança</b> — mais um pilar bônus: acompanhar a Reforma Tributária.
   </p>
+
+  <div class="tax-box">
+    <div class="tax-kicker">Os 3 regimes — o que ainda vale, no meio da transição</div>
+    <ul>
+      <li><b>Simples Nacional</b> — guia única (DAS), pensado pra empresas menores. A partir de 2027, quem está no Simples precisa decidir COMO recolhe IBS/CBS: dentro do DAS (regime único) ou por fora (regime regular/híbrido). Decisão na janela de setembro/2026, com efeito em 2027.</li>
+      <li><b>Lucro Presumido</b> — a Receita presume a margem de lucro por atividade e tributa em cima disso, independente do lucro real.</li>
+      <li><b>Lucro Real</b> — tributa em cima do lucro que a empresa efetivamente apurou. Costuma valer mais pra empresa com margem apertada ou prejuízo no período.</li>
+    </ul>
+    <div class="tax-note">Qual regime é melhor depende do faturamento, da margem e do perfil de crédito de quem compra de você — não existe resposta genérica, é conta caso a caso. Isso é decisão pro contador fazer com números reais, não estimativa de blog.</div>
+  </div>
+
+  <div class="tax-box">
+    <div class="tax-kicker">O cronograma da Reforma Tributária (IVA dual) — atualizado 19/ago/2026</div>
+    <ul>
+      <li><b>2026</b> — ano de teste. CBS 0,9% + IBS 0,1% (1% somado), caráter informativo, com dispensa de recolhimento se cumpridas as obrigações acessórias.</li>
+      <li><b>03/ago/2026</b> — destaque de IBS/CBS na nota fiscal virou obrigatório pro regime regular.</li>
+      <li><b>2027</b> — PIS e Cofins extintos. CBS entra valendo. IPI vai a zero. Imposto Seletivo começa. Split payment começa a valer (prioridade Pix e boleto).</li>
+      <li><b>2029 a 2032</b> — ICMS e ISS caem 10% ao ano; IBS sobe na mesma proporção.</li>
+      <li><b>2033</b> — sistema definitivo: só CBS + IBS (+ Imposto Seletivo).</li>
+    </ul>
+    <div class="tax-note">Base: EC 132/2023, LC 214/2025. As alíquotas do Imposto Seletivo ainda dependem de lei complementar não aprovada — não citar como fato fechado.</div>
+  </div>
+
   <div class="tool">
     <div class="tool-name">Na prática</div>
     <p>Use as Ferramentas 06 e 07 deste caderno (Diário de Caixa e Controle de Tributos) como a base — e leve os números pro seu contador com a régua certa: qual regime, quanto sobra depois do imposto, e o que muda com a reforma no seu caso específico.</p>
@@ -254,7 +466,7 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
 
 <!-- 5G -->
 <div class="g-block">
-  <div class="g-kicker">5G</div>
+  <div class="g-kicker">5G · Módulo Mercado + Organização</div>
   <div class="g-title">Gestão de Fornecedores e Clientes</div>
   <div class="g-sub">Saber comprar e saber vender</div>
   <div class="quote">"Comprar é uma expressão de confiança... Vender é sobre entender as necessidades do cliente, oferecer soluções e construir um relacionamento."</div>
@@ -262,43 +474,73 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
 
   <div class="tool">
     <div class="tool-name"><span class="num">18</span> · Cadastro de Clientes</div>
-    <p><b class="label">Como fazer:</b> registre nome, contato, frequência e faixa de consumo. Atualize todo mês — cliente que sumiu do radar já está sendo atendido pela concorrência.</p>
+    <p><b class="label">O que é:</b> parar de depender só da memória pra saber quem é seu cliente, onde está, e como contatá-lo.</p>
+    <p><b class="label">Como fazer:</b> registre nome, contato, frequência de compra (diária, semanal, mensal, ocasional) e faixa de consumo (alto, médio, baixo). Atualize todo mês. Cliente que sumiu do radar já está sendo atendido pela concorrência.</p>
+    <table class="blank-table">
+      <tr><th>Nome</th><th>Contato</th><th>Frequência</th><th>Consumo</th></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">19</span> · Pesquisa de Satisfação</div>
-    <p><b class="label">Como fazer:</b> peça nota de 0 a 10 pra atendimento, produto, ambiente e experiência geral. Cliente insatisfeito raramente reclama — ele só some.</p>
+    <p><b class="label">O que é:</b> medir o que o cliente não fala em voz alta — cliente insatisfeito raramente reclama, ele só some.</p>
+    <p><b class="label">Como fazer:</b> peça uma nota de 0 a 10 pra atendimento, produto, ambiente e experiência geral. Some as notas por dimensão a cada mês e acompanhe a evolução.</p>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">20</span> · Análise das Necessidades dos Clientes</div>
-    <p><b class="label">Como fazer:</b> pergunte direto o que falta. Essa lista é o seu próximo produto, dito pelo próprio mercado.</p>
+    <p><b class="label">O que é:</b> descobrir o que o cliente queria comprar de você e não encontrou.</p>
+    <p><b class="label">Como fazer:</b> pergunte diretamente, por escrito ou de viva voz: o que falta? O que você compraria aqui se existisse? Essa lista é o seu próximo produto ou serviço, dito pelo próprio mercado.</p>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">21</span> · Segmentação de Clientes</div>
-    <p><b class="label">Como fazer:</b> agrupe clientes por perfil, meça quantidade e faturamento por grupo, direcione ação diferente pra cada um.</p>
+    <p><b class="label">O que é:</b> entender que nem todo cliente vale o mesmo esforço.</p>
+    <p><b class="label">Como fazer:</b> agrupe clientes por perfil (região, faixa etária, ticket médio). Meça quantidade e faturamento por grupo. Direcione ação diferente pra cada um — veja o desenho comparativo mais abaixo.</p>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">22</span> · Ofertando Novos Produtos/Serviços</div>
-    <p><b class="label">Como fazer:</b> veja o que a concorrência oferece e você não, calcule o ganho por unidade, teste pequeno antes de apostar grande.</p>
+    <p><b class="label">O que é:</b> testar antes de apostar.</p>
+    <p><b class="label">Como fazer:</b> identifique o que a concorrência oferece e você não. Calcule quanto ganharia por unidade. Faça um teste pequeno, meça o resultado real, só depois decida se vira produto fixo.</p>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">23</span> · Entendimento do Mercado</div>
-    <p><b class="label">Como fazer:</b> compare preço, qualidade e atendimento com concorrentes — melhor, empatado ou pior. Onde está pior, mora a próxima ação.</p>
+    <p><b class="label">O que é:</b> comparar sua empresa com a concorrência, ponto a ponto.</p>
+    <p><b class="label">Como fazer:</b> liste concorrentes. Compare preço, qualidade, atendimento, ambiente — marcando onde você é Melhor, Empatado ou Pior. Onde está pior, ali mora a próxima ação — veja o desenho comparativo mais abaixo.</p>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">24</span> · Plano de Promoção</div>
-    <p><b class="label">Como fazer:</b> registre custo, meta e resultado real de cada ação de divulgação. Promoção sem medição é aposta, não estratégia.</p>
+    <p><b class="label">O que é:</b> saber qual ação de divulgação realmente traz retorno — e qual é só gasto.</p>
+    <p><b class="label">Como fazer:</b> para cada ação (propaganda, marketing direto, promoção de vendas), registre custo, meta e resultado real. Promoção sem medição é aposta, não estratégia.</p>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">25</span> · Cadastro de Fornecedores</div>
-    <p><b class="label">Como fazer:</b> registre dados, prazo e alternativas de cada fornecedor-chave. Quem compra bem, vende bem depois.</p>
+    <p><b class="label">O que é:</b> nunca ficar refém de um fornecedor só.</p>
+    <p><b class="label">Como fazer:</b> registre dados, prazo de pagamento, alternativas e histórico de preço de cada fornecedor-chave. Quem compra bem, vende bem depois — a margem começa na negociação de compra.</p>
+    <table class="blank-table">
+      <tr><th>Fornecedor</th><th>Contato</th><th>Prazo</th><th>Alternativa</th></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">26</span> · Organização de Documentos</div>
-    <p><b class="label">Como fazer:</b> separe contas a pagar por dia do mês e documentos institucionais numa aba própria. Fiscalização não pode virar correria.</p>
+    <p><b class="label">O que é:</b> ter na mão, em segundos, qualquer documento que precisar.</p>
+    <p><b class="label">Como fazer:</b> separe contas a pagar por dia do mês numa pasta física ou digital. Separe documentos institucionais numa aba própria. Fiscalização ou banco pedindo documento não pode virar correria.</p>
   </div>
+
   <div class="tool">
     <div class="tool-name"><span class="num">27</span> · Instrução de Trabalho</div>
-    <p><b class="label">Como fazer:</b> descreva o passo a passo de uma tarefa recorrente, com fotos se possível, e defina quem faz e quem substitui.</p>
+    <p><b class="label">O que é:</b> garantir que uma tarefa seja feita do mesmo jeito, independente de quem a execute.</p>
+    <p><b class="label">Como fazer:</b> descreva o passo a passo de uma atividade recorrente, com fotos se possível, e defina quem faz e quem substitui. Padrão escrito tira a dependência de uma única pessoa "que sabe fazer".</p>
   </div>
 </div>
 
@@ -330,6 +572,14 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
 
   <div class="bonus-title">Bônus 3 · Performance em Serviço (a régua do cliente)</div>
   <p>Medir a qualidade do atendimento pela percepção real do cliente, não pela sua própria impressão — em 5 dimensões: <b>aspectos tangíveis</b> (o que se vê), <b>confiabilidade</b> (cumprir o prometido), <b>presteza</b> (velocidade e disposição), <b>segurança</b> (confiança que o cliente sente) e <b>empatia</b> (atenção individual). Peça nota de 1 a 5 em cada uma — a dimensão mais baixa é onde a ação entra primeiro.</p>
+  <div class="diagram-note">Exemplo ilustrativo — nota média por dimensão</div>
+  <div class="barchart" style="height:90px;">
+    <div class="bargroup"><div class="bar" style="height:82%"></div><div class="barlabel">Tangíveis</div></div>
+    <div class="bargroup"><div class="bar" style="height:84%"></div><div class="barlabel">Confiab.</div></div>
+    <div class="bargroup"><div class="bar" style="height:72%"></div><div class="barlabel">Presteza</div></div>
+    <div class="bargroup"><div class="bar" style="height:90%"></div><div class="barlabel">Segurança</div></div>
+    <div class="bargroup"><div class="bar" style="height:86%"></div><div class="barlabel">Empatia</div></div>
+  </div>
 
   <div class="bonus-title">Bônus 4 · Design de Ambientes (dicas rápidas)</div>
   <ul class="bonus-list">
@@ -408,6 +658,15 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
     <tr><td>Qualidade</td><td class="M">M</td><td class="M">M</td><td class="E">E</td></tr>
   </table>
   <p style="font-size:11px; color:#666;">M = Melhor que o concorrente · E = Empatado · P = Pior que o concorrente. Onde aparecer mais "P", ali está a próxima ação do seu plano.</p>
+
+  <div class="diagram-title">6 — Fluxo de Caixa projetado (saldo semanal)</div>
+  <div class="diagram-note">Ver desenho na Ferramenta 08 — repita esse traçado com os valores reais toda semana</div>
+
+  <div class="diagram-title">7 — Demonstrativo de Resultado (receita x gasto)</div>
+  <div class="diagram-note">Ver desenho na Ferramenta 10 — o mês em que a barra escura ultrapassa a dourada é mês de prejuízo</div>
+
+  <div class="diagram-title">8 — Capital de Giro (aplicações x gastos)</div>
+  <div class="diagram-note">Ver desenho na Ferramenta 12 — a distância entre as barras é a sua necessidade de caixa</div>
 </div>
 
 <div class="closing">
@@ -416,7 +675,7 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
   <p style="margin-bottom:0;">"O mundo dos negócios aguarda suas conquistas e histórias inspiradoras. Vamos, juntos, transformar sonhos em realidades tangíveis e deixar um legado que transcenda gerações."</p>
 </div>
 
-<footer>Caderno de Ferramentas do Gestor — adaptação autoral de Gilberto Sena sobre a base do Caderno de Ferramentas Sebrae (Programa Negócio a Negócio, 2016) · gerado 19/ago/2026</footer>
+<footer>Caderno de Ferramentas do Gestor — adaptação autoral de Gilberto Sena sobre a base do Caderno de Ferramentas Sebrae (Programa Negócio a Negócio, 2016) · parte tributária atualizada em 19/ago/2026</footer>
 
 </div>
 </body>
