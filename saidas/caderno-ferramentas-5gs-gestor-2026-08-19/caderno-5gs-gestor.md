@@ -1,21 +1,16 @@
 # OS 5 G'S NA PRÁTICA
 ### Caderno de Ferramentas do Gestor — Gilberto Sena
 
-> **O que é este documento:** a versão completa e atualizada do Caderno de
-> Ferramentas do Sebrae (Programa Negócio a Negócio) — módulo a módulo,
-> com "por que usar", passo a passo inteiro e formulário em branco pra
-> aplicar — organizada dentro do SEU método, os 5 G's da Gestão
-> Empreendedora. Cada bloco abre com uma frase real do seu livro.
->
-> Fonte das ferramentas: Sebrae, *Caderno de Ferramentas — Programa
-> Negócio a Negócio* (2016). Fonte das citações: seu livro *Os 5 G's da
-> Gestão Empreendedora*. Fonte da parte tributária: base técnica
-> `reforma-tributaria.md`, checada em fontes oficiais (Receita Federal,
-> CGSN, LC 214/2025) — atualizada em 19/ago/2026.
->
-> **A versão completa com todos os desenhos, gráficos e formulários em
-> branco está no arquivo `caderno-5gs-gestor.html` / `.pdf` desta pasta —
-> este markdown é a fonte de texto editável.**
+> **Este markdown é a fonte de texto editável.** A versão completa (30
+> páginas), com todos os desenhos, gráficos, quadros e formulários em
+> branco, está no arquivo `caderno-5gs-gestor.pdf` desta pasta. Além dos
+> 5 G's com as 27 ferramentas, o PDF inclui: Sumário, os frameworks
+> próprios do livro (as 7 perguntas de autoconhecimento, Matriz de
+> Eisenhower, as 12 ações financeiras, Escada do Engajamento, Matriz da
+> Gestão da Comunicação, Feedback Alavancado, TRI, Matriz de Segmentação,
+> ciclo de vida do cliente), Glossário Tributário, Checklist do Gestor,
+> Roteiro de 90 Dias, Perguntas Frequentes, um resumo dos serviços do
+> Grupo Sena e uma página sobre o autor.
 
 ---
 
