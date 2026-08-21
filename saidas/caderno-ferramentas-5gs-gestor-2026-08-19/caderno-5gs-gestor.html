@@ -103,6 +103,24 @@
   .tax-box b { color:#C9A227; }
   .tax-box .tax-note { font-size:10px; color:#9a9a9a; margin-top:8px; font-style:italic; }
 
+  .ladder { display:flex; align-items:flex-end; gap:4px; margin: 12px 0 6px; }
+  .ladder .step { flex:1; background:#0F1419; color:#F4F1EA; text-align:center; padding:8px 4px; font-size:9.5px; border-radius:2px 2px 0 0; font-weight:700; }
+  .ladder .step:nth-child(1) { height:50px; }
+  .ladder .step:nth-child(2) { height:62px; background:#1a2229; }
+  .ladder .step:nth-child(3) { height:74px; background:#26333d; }
+  .ladder .step:nth-child(4) { height:86px; background:#3a4854; }
+  .ladder .step:nth-child(5) { height:98px; background:#5a6774; }
+  .ladder .step:nth-child(6) { height:110px; background:#C9A227; color:#151515; }
+
+  .comm-matrix { width:100%; border-collapse:collapse; margin:8px 0 4px; font-size:11px; }
+  .comm-matrix td { border:1px solid #E4DDC8; padding:8px; background:#FBFBF9; }
+  .comm-matrix td b { display:block; color:#8a7a3f; font-size:10px; text-transform:uppercase; margin-bottom:2px; }
+
+  .flow { display:flex; align-items:center; gap:2px; margin: 10px 0 6px; }
+  .flow .fstep { flex:1; text-align:center; }
+  .flow .fbox { background:#FAF8F3; border:1.5px solid #C9A227; border-radius:3px; padding:8px 4px; font-size:10px; font-weight:700; color:#151515; }
+  .flow .farrow { color:#C9A227; font-size:16px; padding:0 2px; }
+
   .closing {
     background:#0F1419; color:#F4F1EA; padding:36px 32px; margin-top:40px; border-radius:4px; text-align:center;
   }
@@ -122,15 +140,30 @@
   <div style="font-size:12px; color:#9a8f6f; letter-spacing:0.05em;">GILBERTO SENA</div>
 </div>
 
-<div class="intro-box">
-  <b>O que é este documento:</b> a versão completa e atualizada do Caderno de Ferramentas do Sebrae (Programa Negócio a Negócio) — módulo a módulo, com "por que usar", passo a passo inteiro e formulário em branco pra aplicar — organizada dentro do SEU método, os 5 G's da Gestão Empreendedora. Cada bloco abre com uma frase real do seu livro.<br><br>
-  Fonte das ferramentas: Sebrae, <i>Caderno de Ferramentas — Programa Negócio a Negócio</i> (2016). Fonte das citações: seu livro <i>Os 5 G's da Gestão Empreendedora</i>. Fonte da parte tributária: base técnica <code>reforma-tributaria.md</code>, checada em fontes oficiais (Receita Federal, CGSN, LC 214/2025) — atualizada em 19/ago/2026.
-</div>
-
 <div class="lead" style="margin-top:24px;">
 "Os 5 Gs da gestão, que detalhei ao longo dessas páginas não são meras teorias, até porque, eu não sou um acadêmico, não sou um homem de teorias. Pelo contrário, são, de fato, a essência da minha prática."
 <br><br>
 Este caderno é a continuação disso. Cada G do seu método ganha aqui um conjunto de ferramentas de papel e caneta — sem depender de sistema caro, sem depender de consultor — pra qualquer gestor aplicar essa semana.
+</div>
+
+<!-- SUMÁRIO -->
+<div class="g-block">
+  <div class="g-kicker">Sumário</div>
+  <div class="g-title">Índice do Caderno</div>
+  <div class="g-sub">Onde encontrar cada coisa</div>
+  <table class="mercado" style="margin-top:16px;">
+    <tr><th>Bloco</th><th style="text-align:left;">Conteúdo</th></tr>
+    <tr><td>1G</td><td style="text-align:left;">Gestão de Si — Ferramentas 01 a 05, as 7 perguntas de autoconhecimento, Matriz de Eisenhower</td></tr>
+    <tr><td>2G</td><td style="text-align:left;">Gestão Financeira — Ferramentas 06 a 12, atualização tributária 2026, as 12 ações financeiras</td></tr>
+    <tr><td>3G</td><td style="text-align:left;">Gestão de Pessoas — Ferramentas 13 a 17, Escada do Engajamento, Matriz de Comunicação, Feedback Alavancado</td></tr>
+    <tr><td>4G</td><td style="text-align:left;">Gestão Tributária — os 3 regimes, cronograma da reforma</td></tr>
+    <tr><td>5G</td><td style="text-align:left;">Fornecedores e Clientes — Ferramentas 18 a 27, TRI, Matriz de Segmentação, ciclo de vida do cliente</td></tr>
+    <tr><td>Bônus</td><td style="text-align:left;">FOFA, Diagnóstico Comportamental, Performance em Serviço, Design de Ambientes, BPF</td></tr>
+    <tr><td>Visual</td><td style="text-align:left;">8 desenhos comparativos e gráficos</td></tr>
+    <tr><td>Aplicação</td><td style="text-align:left;">Roteiro de 90 dias pra colocar o caderno em prática</td></tr>
+    <tr><td>Autor</td><td style="text-align:left;">Sobre Gilberto Sena</td></tr>
+  </table>
+  <p class="lead" style="margin-top:20px;">Fonte das ferramentas: Sebrae, <i>Caderno de Ferramentas — Programa Negócio a Negócio</i> (2016). Fonte das citações e frameworks próprios: livro <i>Os 5 G's da Gestão Empreendedora</i>, de Gilberto Sena. Fonte da parte tributária: base técnica checada em fontes oficiais (Receita Federal, CGSN, LC 214/2025) — atualizada em 19/ago/2026.</p>
 </div>
 
 <!-- 1G -->
@@ -167,6 +200,11 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
       <li><b>Qual o investimento</b> — estime o custo de cada ação.</li>
       <li><b>Qual o ganho</b> — estime o retorno esperado. Sem número, é desejo — não é plano.</li>
     </ol>
+    <table class="blank-table">
+      <tr><th>O que mudar</th><th>Pra que mudar</th><th>Como causar a mudança</th><th>Investimento</th><th>Ganho</th></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
 
   <div class="tool">
@@ -198,6 +236,36 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
     <p><b class="label">O que é:</b> a metodologia japonesa (Toyota) de organização do ambiente de trabalho — 5 sensos: <b>utilização</b> (só o essencial por perto), <b>organização</b> (cada coisa no seu lugar, fácil de achar), <b>limpeza</b> (rotina diária), <b>padronização</b> (o processo sempre igual, sem depender de quem faz) e <b>autodisciplina</b> (manter mesmo sem ninguém cobrando).</p>
     <p><b class="label">Como fazer:</b> liste o que usa todo dia, toda semana, todo mês — guarde o resto. Fotografe o antes e o depois. Defina um dia fixo de revisão (ex.: toda quarta). Disciplina não é fazer uma vez — é manter quando ninguém está olhando.</p>
   </div>
+
+  <div class="bonus-title">Aprofundamento — as 7 perguntas de autoconhecimento (livro)</div>
+  <p>Antes de qualquer ferramenta de planejamento, seu livro parte de 7 perguntas que todo gestor precisa responder pra si mesmo, sem enrolação:</p>
+  <ol class="steps" style="margin-left:22px;">
+    <li>O que é empreender, pra mim?</li>
+    <li>O que é sucesso, pra mim?</li>
+    <li>O que estou disposto a abrir mão?</li>
+    <li>Quais são meus pontos fortes?</li>
+    <li>Quais são meus pontos fracos?</li>
+    <li>O que me motiva a levantar da cama todo dia?</li>
+    <li>O que define, pra mim, que eu "cheguei lá"?</li>
+  </ol>
+
+  <div class="bonus-title">Aprofundamento — gerenciamento do tempo (Matriz de Eisenhower)</div>
+  <p>Pra gerenciar tempo, o método usa a Matriz de Eisenhower — separar tarefa por urgência e importância, não só por quem grita mais alto:</p>
+  <div class="quadrant">
+    <div class="qhead"></div>
+    <div class="qhead">Urgente</div>
+    <div class="qhead">Não urgente</div>
+    <div class="qside">Importante</div>
+    <div class="qcell gold"><b>Fazer agora</b>crise, prazo vencendo</div>
+    <div class="qcell pos"><b>Agendar</b>planejamento, prevenção — onde mora o crescimento</div>
+    <div class="qside">Não importante</div>
+    <div class="qcell neg"><b>Delegar</b>interrupção, tarefa operacional</div>
+    <div class="qcell neg"><b>Eliminar</b>distração pura</div>
+  </div>
+  <p style="font-size:11px; color:#666;">A maioria dos gestores vive apagando incêndio no quadrante "fazer agora" e nunca chega no quadrante "agendar" — que é exatamente onde mora o crescimento do negócio.</p>
+
+  <div class="bonus-title">Aprofundamento — energia e recursos</div>
+  <p>Energia, no seu método, não é academia nem suplemento — é <b>disposição para a vida</b>: a capacidade de agir, criar e persistir. E recursos vão além do dinheiro: são humanos, materiais, intelectuais, de relacionamento e de cultura organizacional. <i>"Nem sempre os recursos materiais são fundamentais... Você realmente precisa comprar um carro novo com seu primeiro grande contrato?"</i></p>
 </div>
 
 <!-- 2G -->
@@ -354,6 +422,17 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
       <span><span class="dot" style="background:#0F1419;"></span>gastos a pagar</span>
     </div>
   </div>
+
+  <div class="bonus-title">Aprofundamento — as 12 ações práticas pra gestão financeira sustentável (livro)</div>
+  <p>Fechando o G financeiro, seu livro resume tudo isso em 12 hábitos — a lista que qualquer gestor consegue começar a aplicar hoje, sem depender de sistema:</p>
+  <table class="mercado">
+    <tr><td style="text-align:left;">1. Ter orçamento</td><td style="text-align:left;">2. Definir prioridades</td></tr>
+    <tr><td style="text-align:left;">3. Controlar despesas</td><td style="text-align:left;">4. Quitar dívidas</td></tr>
+    <tr><td style="text-align:left;">5. Criar hábito de poupar</td><td style="text-align:left;">6. Reserva de emergência (3-6 meses)</td></tr>
+    <tr><td style="text-align:left;">7. Evitar dívida desnecessária</td><td style="text-align:left;">8. Pesquisar preço antes de comprar</td></tr>
+    <tr><td style="text-align:left;">9. Buscar educação financeira</td><td style="text-align:left;">10. Criar renda extra</td></tr>
+    <tr><td style="text-align:left;">11. Planejar compra grande com antecedência</td><td style="text-align:left;">12. Ter planejamento de longo prazo</td></tr>
+  </table>
 </div>
 
 <!-- 3G -->
@@ -422,6 +501,34 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
     <p><b class="label">O que é:</b> transformar o problema que se repete em regra clara pra todo mundo — pra ninguém precisar te chamar de novo.</p>
     <p><b class="label">Como fazer:</b> identifique um problema recorrente. Reúna a equipe, discuta a solução em conjunto. Registre como padrão, com data. Da próxima vez, todo mundo já sabe o que fazer.</p>
   </div>
+
+  <div class="bonus-title">Framework próprio — Escada do Engajamento (livro)</div>
+  <p>Seis degraus, na ordem certa — pular degrau é o motivo mais comum de time desengajado:</p>
+  <div class="ladder">
+    <div class="step">1<br>Conhecimento</div>
+    <div class="step">2<br>Conexão</div>
+    <div class="step">3<br>Contribuição</div>
+    <div class="step">4<br>Reconhec.</div>
+    <div class="step">5<br>Cresc.</div>
+    <div class="step">6<br>Comprom.</div>
+  </div>
+  <p style="font-size:11px; color:#666;">Ninguém se compromete (degrau 6) com o que não conhece (degrau 1). Se o time não está comprometido, a resposta quase sempre está lá atrás, num degrau que foi pulado.</p>
+
+  <div class="bonus-title">Framework próprio — Matriz da Gestão da Comunicação (livro)</div>
+  <p>Antes de qualquer comunicado interno, responda as 6 perguntas:</p>
+  <table class="comm-matrix">
+    <tr><td><b>Pra quem</b>quem precisa receber essa informação</td><td><b>Por quê</b>qual o objetivo da comunicação</td></tr>
+    <tr><td><b>Como</b>o canal certo pra essa mensagem</td><td><b>De quem</b>quem deve ser a voz que comunica</td></tr>
+    <tr><td><b>Quando</b>o momento certo, nem antes nem depois</td><td><b>Precisa de feedback?</b>se sim, como e quando colher</td></tr>
+  </table>
+
+  <div class="bonus-title">Metodologia própria — Feedback Alavancado (livro)</div>
+  <p>Substitui a avaliação formal e fria por conversa contínua, com abordagem narrativa: contar a história do que aconteceu, em vez de simplesmente apontar o defeito. Feedback vira construção, não veredito.</p>
+
+  <div class="bonus-title">Missão, Visão e Propósito do Grupo Sena</div>
+  <p><b>Missão:</b> "O GRUPO SENA atua no mercado corporativo de assessoria e consultoria Contábil, Tributária, Jurídica e gestão Financeira há mais de uma década, com sede principal em Belo Horizonte... tendo como principal objetivo a tranquilidade de seus clientes... de forma ética, segura e confiável."</p>
+  <p><b>Visão:</b> "Ser reconhecido como um grupo consultivo líder que impulsiona o crescimento e desenvolvimento de empresas de todos os portes e segmentos... valorizamos a humanidade, a confiança, a transparência, a lealdade, a qualidade e o senso de justiça."</p>
+  <p><b>Propósito:</b> "Auxiliar no crescimento e desenvolvimento de empresas de todos os portes e segmentos; garantir que cada cliente tenha paz de espírito e qualidade de vida em suas operações comerciais; priorizar as relações humanas em todas as interações."</p>
 </div>
 
 <!-- 4G -->
@@ -488,12 +595,22 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
     <div class="tool-name"><span class="num">19</span> · Pesquisa de Satisfação</div>
     <p><b class="label">O que é:</b> medir o que o cliente não fala em voz alta — cliente insatisfeito raramente reclama, ele só some.</p>
     <p><b class="label">Como fazer:</b> peça uma nota de 0 a 10 pra atendimento, produto, ambiente e experiência geral. Some as notas por dimensão a cada mês e acompanhe a evolução.</p>
+    <table class="blank-table">
+      <tr><th>Mês</th><th>Atendimento</th><th>Produto</th><th>Ambiente</th><th>Geral</th></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
 
   <div class="tool">
     <div class="tool-name"><span class="num">20</span> · Análise das Necessidades dos Clientes</div>
     <p><b class="label">O que é:</b> descobrir o que o cliente queria comprar de você e não encontrou.</p>
     <p><b class="label">Como fazer:</b> pergunte diretamente, por escrito ou de viva voz: o que falta? O que você compraria aqui se existisse? Essa lista é o seu próximo produto ou serviço, dito pelo próprio mercado.</p>
+    <table class="blank-table">
+      <tr><th>Espaço físico</th><th>Ambiente</th><th>Produtos/serviços</th><th>Não atendido hoje</th></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
 
   <div class="tool">
@@ -506,6 +623,11 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
     <div class="tool-name"><span class="num">22</span> · Ofertando Novos Produtos/Serviços</div>
     <p><b class="label">O que é:</b> testar antes de apostar.</p>
     <p><b class="label">Como fazer:</b> identifique o que a concorrência oferece e você não. Calcule quanto ganharia por unidade. Faça um teste pequeno, meça o resultado real, só depois decida se vira produto fixo.</p>
+    <table class="blank-table">
+      <tr><th>Produto/serviço</th><th>Concorrente oferece?</th><th>Ganho/unidade</th><th>Vou testar?</th></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
 
   <div class="tool">
@@ -518,6 +640,11 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
     <div class="tool-name"><span class="num">24</span> · Plano de Promoção</div>
     <p><b class="label">O que é:</b> saber qual ação de divulgação realmente traz retorno — e qual é só gasto.</p>
     <p><b class="label">Como fazer:</b> para cada ação (propaganda, marketing direto, promoção de vendas), registre custo, meta e resultado real. Promoção sem medição é aposta, não estratégia.</p>
+    <table class="blank-table">
+      <tr><th>Ação</th><th>Mídia</th><th>Custo</th><th>Meta</th><th>Resultado</th></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
   </div>
 
   <div class="tool">
@@ -542,6 +669,38 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
     <p><b class="label">O que é:</b> garantir que uma tarefa seja feita do mesmo jeito, independente de quem a execute.</p>
     <p><b class="label">Como fazer:</b> descreva o passo a passo de uma atividade recorrente, com fotos se possível, e defina quem faz e quem substitui. Padrão escrito tira a dependência de uma única pessoa "que sabe fazer".</p>
   </div>
+
+  <div class="bonus-title">Framework próprio — TRI: Triagem, Resposta, Inovação (livro)</div>
+  <p>O jeito autoral de gerir risco de fornecedor e de cliente: <b>Triagem</b> (avaliar antes de fechar — quem é, capacidade, reputação), <b>Resposta</b> (agir rápido quando o risco aparece, não deixar acumular) e <b>Inovação</b> (buscar constantemente uma forma melhor de gerir essa relação, não repetir o de sempre por inércia).</p>
+
+  <div class="bonus-title">Framework próprio — Matriz de Segmentação de Fornecedores/Clientes (livro)</div>
+  <p>Cruza valor de compra × importância estratégica pra decidir onde investir relação:</p>
+  <div class="quadrant">
+    <div class="qhead"></div>
+    <div class="qhead">Baixo esforço</div>
+    <div class="qhead">Alto esforço</div>
+    <div class="qside">Alto impacto</div>
+    <div class="qcell pos"><b>Alavancagem</b>bom retorno, fácil de gerir</div>
+    <div class="qcell gold"><b>Estratégico</b>vale investimento e relação de longo prazo</div>
+    <div class="qside">Baixo impacto</div>
+    <div class="qcell neg"><b>Não críticos</b>manter, sem prioridade</div>
+    <div class="qcell neg"><b>Gargalo</b>exige atenção mesmo dando pouco retorno</div>
+  </div>
+  <p style="font-size:11px; color:#666;">Exemplo que o próprio livro usa: a parceria McDonald's–Coca-Cola existe desde 1955 — modelo clássico de fornecedor estratégico bem gerido virando vantagem competitiva por décadas.</p>
+
+  <div class="bonus-title">Ciclo de vida do cliente (livro)</div>
+  <div class="flow">
+    <div class="fstep"><div class="fbox">Conhecimento</div></div>
+    <div class="farrow">→</div>
+    <div class="fstep"><div class="fbox">Compra</div></div>
+    <div class="farrow">→</div>
+    <div class="fstep"><div class="fbox">Retenção</div></div>
+    <div class="farrow">→</div>
+    <div class="fstep"><div class="fbox">Defesa</div></div>
+    <div class="farrow">→</div>
+    <div class="fstep"><div class="fbox">Recompra / Expansão</div></div>
+  </div>
+  <p style="font-size:11px; color:#666;">A maioria das empresas investe pesado nas duas primeiras etapas (conhecimento e compra) e abandona o cliente exatamente onde o retorno é maior: retenção, defesa e recompra.</p>
 </div>
 
 <!-- BÔNUS -->
@@ -553,21 +712,33 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
 
   <div class="bonus-title">Bônus 1 · Matriz FOFA (Forças, Oportunidades, Fraquezas, Ameaças)</div>
   <p>O raio-x mais usado do mundo pra planejamento estratégico — o que a empresa tem de força e fraqueza por dentro, e o que o mercado oferece de oportunidade e ameaça por fora. Ambiente interno depende de você; ambiente externo (clima, economia, concorrente, cliente, lei), não. <i>Sacada do Giba aplicada: concentre-se nos pontos fortes, reconheça as fraquezas, agarre as oportunidades, e proteja-se contra as ameaças.</i></p>
+  <div class="quadrant">
+    <div class="qhead"></div>
+    <div class="qhead">Ambiente Interno</div>
+    <div class="qhead">Ambiente Externo</div>
+    <div class="qside">Positivo</div>
+    <div class="qcell pos"></div>
+    <div class="qcell gold"></div>
+    <div class="qside">Negativo</div>
+    <div class="qcell neg"></div>
+    <div class="qcell gold"></div>
+  </div>
 
   <div class="bonus-title">Bônus 2 · Diagnóstico do Comportamento Empreendedor</div>
-  <p>As 10 características que sustentam negócio no tempo (Sebrae/Empretec):</p>
-  <ul class="bonus-list">
-    <li>1. Busca de oportunidades e iniciativa</li>
-    <li>2. Persistência</li>
-    <li>3. Correr riscos calculados</li>
-    <li>4. Exigência de qualidade e eficiência</li>
-    <li>5. Comprometimento</li>
-    <li>6. Busca de informações</li>
-    <li>7. Estabelecimento de metas</li>
-    <li>8. Planejamento e monitoramento sistemáticos</li>
-    <li>9. Persuasão e rede de contatos</li>
-    <li>10. Independência e autoconfiança</li>
-  </ul>
+  <p>As 10 características que sustentam negócio no tempo (Sebrae/Empretec) — dê uma nota de 1 a 5 pra si mesmo em cada uma:</p>
+  <table class="blank-table">
+    <tr><th>Característica</th><th>Nota (1-5)</th></tr>
+    <tr><td>1. Busca de oportunidades e iniciativa</td><td></td></tr>
+    <tr><td>2. Persistência</td><td></td></tr>
+    <tr><td>3. Correr riscos calculados</td><td></td></tr>
+    <tr><td>4. Exigência de qualidade e eficiência</td><td></td></tr>
+    <tr><td>5. Comprometimento</td><td></td></tr>
+    <tr><td>6. Busca de informações</td><td></td></tr>
+    <tr><td>7. Estabelecimento de metas</td><td></td></tr>
+    <tr><td>8. Planejamento e monitoramento sistemáticos</td><td></td></tr>
+    <tr><td>9. Persuasão e rede de contatos</td><td></td></tr>
+    <tr><td>10. Independência e autoconfiança</td><td></td></tr>
+  </table>
   <p>Ótimo espelho pra gestão de si (1G) — e ótimo roteiro de conteúdo pra falar de maturidade emocional: o gestor que já quebrou sete vezes sabe, na prática, qual dessas dez características segura a empresa de pé quando aperta.</p>
 
   <div class="bonus-title">Bônus 3 · Performance em Serviço (a régua do cliente)</div>
@@ -667,6 +838,216 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
 
   <div class="diagram-title">8 — Capital de Giro (aplicações x gastos)</div>
   <div class="diagram-note">Ver desenho na Ferramenta 12 — a distância entre as barras é a sua necessidade de caixa</div>
+</div>
+
+<!-- GLOSSÁRIO -->
+<div class="g-block">
+  <div class="g-kicker">Referência</div>
+  <div class="g-title">Glossário Tributário</div>
+  <div class="g-sub">Os termos da reforma, sem economês</div>
+  <table class="mercado">
+    <tr><th>Termo</th><th style="text-align:left;">O que significa</th></tr>
+    <tr><td>CBS</td><td style="text-align:left;">Contribuição sobre Bens e Serviços — federal, substitui PIS e Cofins</td></tr>
+    <tr><td>IBS</td><td style="text-align:left;">Imposto sobre Bens e Serviços — estadual/municipal, substitui ICMS e ISS</td></tr>
+    <tr><td>IS</td><td style="text-align:left;">Imposto Seletivo — novo, incide sobre produtos que o governo quer desestimular</td></tr>
+    <tr><td>IVA Dual</td><td style="text-align:left;">o modelo CBS + IBS somados — dois impostos que funcionam como um só na prática</td></tr>
+    <tr><td>Split Payment</td><td style="text-align:left;">o sistema financeiro separa o imposto automaticamente no pagamento e repassa ao fisco — você recebe só o líquido</td></tr>
+    <tr><td>Não cumulatividade</td><td style="text-align:left;">crédito amplo do imposto pago na cadeia — acaba o efeito cascata (imposto sobre imposto)</td></tr>
+    <tr><td>Tributação no destino</td><td style="text-align:left;">o imposto fica onde o produto é consumido, não onde é produzido — fim da guerra fiscal entre estados</td></tr>
+    <tr><td>Simples Nacional</td><td style="text-align:left;">regime simplificado com guia única (DAS), pra empresas de menor porte</td></tr>
+    <tr><td>MEI</td><td style="text-align:left;">Microempreendedor Individual — regime mais simples de todos, com carnê próprio</td></tr>
+    <tr><td>Lucro Presumido</td><td style="text-align:left;">a Receita presume a margem de lucro por atividade e tributa em cima disso</td></tr>
+    <tr><td>Lucro Real</td><td style="text-align:left;">tributa em cima do lucro que a empresa efetivamente apurou no período</td></tr>
+    <tr><td>DAS</td><td style="text-align:left;">Documento de Arrecadação do Simples — a guia única de quem está no Simples Nacional</td></tr>
+  </table>
+</div>
+
+<!-- CHECKLIST -->
+<div class="g-block">
+  <div class="g-kicker">Referência</div>
+  <div class="g-title">Checklist do Gestor</div>
+  <div class="g-sub">O que olhar, e com que frequência</div>
+
+  <div class="bonus-title">Todo dia</div>
+  <table class="blank-table">
+    <tr><th>☐</th><th>Ferramenta 06 — fechar o Diário de Caixa</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <div class="bonus-title">Toda semana</div>
+  <table class="blank-table">
+    <tr><th>☐</th><th>Ferramenta 08 — atualizar o Fluxo de Caixa projetado</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 03 — revisar o status do Plano de Ação</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 05 — dia fixo de organização (5S's)</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <div class="bonus-title">Todo mês</div>
+  <table class="blank-table">
+    <tr><th>☐</th><th>Ferramenta 10 — fechar o Demonstrativo de Resultado</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 12 — recalcular o Capital de Giro</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 18 — atualizar o Cadastro de Clientes</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 19 — rodar a Pesquisa de Satisfação</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 24 — medir o resultado do Plano de Promoção</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <div class="bonus-title">A cada trimestre</div>
+  <table class="blank-table">
+    <tr><th>☐</th><th>Ferramenta 07 — revisar tributos e enquadramento com o contador</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 21 — refazer a Segmentação de Clientes</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 23 — atualizar o Entendimento do Mercado</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Bônus 1 — refazer a Matriz FOFA</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <div class="bonus-title">Uma vez por ano</div>
+  <table class="blank-table">
+    <tr><th>☐</th><th>Ferramenta 04 — Aprendizagem Estratégica do ciclo inteiro</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><th>☐</th><th>Ferramenta 02 — redefinir Objetivos e Metas do próximo ano</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+</div>
+
+<!-- ROTEIRO 90 DIAS -->
+<div class="g-block">
+  <div class="g-kicker">Aplicação</div>
+  <div class="g-title">Roteiro de 90 Dias</div>
+  <div class="g-sub">Pra sair do caderno fechado e virar rotina de gestão</div>
+  <p class="lead">27 ferramentas de uma vez paralisa qualquer gestor. Este roteiro escalona a implantação em 3 blocos de 30 dias — na ordem que gera resultado mais rápido primeiro.</p>
+
+  <div class="tool">
+    <div class="tool-name">Dias 1 a 30 — Ver o que hoje é invisível</div>
+    <p>Foco: Gestão de Si e Gestão Financeira — sem visibilidade de caixa, nenhuma outra decisão é confiável.</p>
+    <ol class="steps">
+      <li>Semana 1 — Ferramenta 01 (Planejamento) + as 7 perguntas de autoconhecimento.</li>
+      <li>Semana 2 — Ferramenta 06 (Diário de Caixa), começar a registrar todo dia.</li>
+      <li>Semana 3 — Ferramenta 07 (Controle de Tributos) + levar a atualização 2026 pro contador.</li>
+      <li>Semana 4 — Ferramenta 09 (Ganho Unitário) nos 3 produtos/serviços principais.</li>
+    </ol>
+  </div>
+
+  <div class="tool">
+    <div class="tool-name">Dias 31 a 60 — Organizar por dentro</div>
+    <p>Foco: Gestão de Pessoas e Organização — com o caixa visível, agora é hora de tirar a dependência de uma pessoa só.</p>
+    <ol class="steps">
+      <li>Semana 5 — Ferramenta 15 (Matriz de Responsabilidades) com toda a equipe.</li>
+      <li>Semana 6 — Ferramenta 16 (Prepare-se pra Delegar) — sua própria lista de tarefas.</li>
+      <li>Semana 7 — Ferramenta 26 (Organização de Documentos) + Ferramenta 05 (5S's).</li>
+      <li>Semana 8 — Ferramenta 03 (Plano de Ação) consolidando tudo que foi decidido até aqui.</li>
+    </ol>
+  </div>
+
+  <div class="tool">
+    <div class="tool-name">Dias 61 a 90 — Olhar pra fora</div>
+    <p>Foco: Mercado e Clientes — só faz sentido vender mais depois que a casa está em ordem.</p>
+    <ol class="steps">
+      <li>Semana 9 — Ferramenta 18 (Cadastro de Clientes) + Ferramenta 19 (Pesquisa de Satisfação).</li>
+      <li>Semana 10 — Ferramenta 21 (Segmentação) usando o desenho comparativo.</li>
+      <li>Semana 11 — Ferramenta 23 (Entendimento do Mercado) — comparação com 3 concorrentes reais.</li>
+      <li>Semana 12 — Ferramenta 04 (Aprendizagem Estratégica) — fechar o ciclo revendo os 90 dias.</li>
+    </ol>
+  </div>
+
+  <p class="lead">No dia 91, o ciclo recomeça — mas agora com os 3 primeiros meses de dado real registrado. É esse dado que separa gestão de achismo.</p>
+</div>
+
+<!-- FAQ -->
+<div class="g-block">
+  <div class="g-kicker">Referência</div>
+  <div class="g-title">Perguntas Frequentes do Gestor</div>
+  <div class="g-sub">As dúvidas que mais aparecem na mesa</div>
+
+  <div class="tool">
+    <div class="tool-name">Simples, Presumido ou Real — como escolher?</div>
+    <p>Não existe regime "melhor" no geral — existe o regime certo pro seu faturamento, sua margem e o perfil de quem compra de você. É conta, não palpite. Rode a Ferramenta 09 (Ganho Unitário) e leve o resultado pro contador junto com o faturamento anual — só assim dá pra comparar de verdade.</p>
+  </div>
+
+  <div class="tool">
+    <div class="tool-name">Quando devo contratar meu primeiro funcionário?</div>
+    <p>Quando a Ferramenta 16 (Prepare-se pra Delegar) mostrar que suas tarefas operacionais já tomam mais tempo do que as estratégicas — e a Ferramenta 12 (Capital de Giro) confirmar que a folga de caixa aguenta o custo fixo novo por, no mínimo, 3 meses seguidos.</p>
+  </div>
+
+  <div class="tool">
+    <div class="tool-name">Meu negócio está crescendo, mas o dinheiro não sobra. Por quê?</div>
+    <p>Quase sempre é confusão entre faturar e lucrar. Rode a Ferramenta 10 (Demonstrativo de Resultado) e a Ferramenta 09 (Ganho Unitário) juntas — na maioria dos casos, o volume subiu mas a margem por unidade caiu, e ninguém percebeu.</p>
+  </div>
+
+  <div class="tool">
+    <div class="tool-name">Preciso mesmo me preocupar com a reforma tributária agora?</div>
+    <p>Sim — a fase de teste já está valendo desde 2026 e as obrigações acessórias mudam antes das alíquotas. Quem deixar pra entender só em 2027 vai correr atrás de sistema, preço e contrato ao mesmo tempo. Ver o Bloco 4G deste caderno.</p>
+  </div>
+
+  <div class="tool">
+    <div class="tool-name">Como sei se estou pronto pra delegar mais e sair da operação?</div>
+    <p>Quando a Ferramenta 15 (Matriz de Responsabilidades) mostrar que toda tarefa crítica tem pelo menos um substituto treinado — não só você sabendo fazer.</p>
+  </div>
+</div>
+
+<!-- GRUPO SENA -->
+<div class="g-block">
+  <div class="g-kicker">Serviço</div>
+  <div class="g-title">Grupo Sena — Como Podemos Ajudar</div>
+  <div class="g-sub">Quando a ferramenta de papel não é suficiente</div>
+  <p class="lead">Este caderno resolve o que dá pra resolver com papel, caneta e disciplina. Mas gestão tributária de verdade, decisão de regime, reestruturação societária e planejamento financeiro robusto pedem acompanhamento profissional — é aí que entra o Grupo Sena.</p>
+
+  <div class="tool">
+    <div class="tool-name">Contábil</div>
+    <p>Escrituração, obrigações acessórias, e a base de dado limpo que sustenta qualquer uma das ferramentas deste caderno.</p>
+  </div>
+  <div class="tool">
+    <div class="tool-name">Tributária</div>
+    <p>Enquadramento de regime, planejamento tributário, e acompanhamento da transição da reforma — o 4G deste caderno na prática, com gente cuidando caso a caso.</p>
+  </div>
+  <div class="tool">
+    <div class="tool-name">Jurídica</div>
+    <p>Assessoria societária, contratos, e blindagem patrimonial pro empresário que cresce.</p>
+  </div>
+  <div class="tool">
+    <div class="tool-name">Gestão Financeira</div>
+    <p>Estruturação financeira completa — do Diário de Caixa (Ferramenta 06) até o planejamento de longo prazo.</p>
+  </div>
+  <p class="lead" style="margin-top:16px;">Sede principal em Belo Horizonte, com atuação em Goiânia, Parauapebas, São Paulo, Brasília e Vitória.</p>
+</div>
+
+<!-- SOBRE O AUTOR -->
+<div class="g-block">
+  <div class="g-kicker">Autor</div>
+  <div class="g-title">Sobre Gilberto Sena</div>
+  <div class="g-sub">Quem escreveu este método</div>
+
+  <p class="lead">Gilberto Luís de Sena é fundador e CEO do Grupo Sena Soluções Empresariais, referência em contabilidade, auditoria fiscal e tributária, assessoria jurídica e gestão financeira no Brasil — com sede principal em Belo Horizonte e atuação em Goiânia, Parauapebas, São Paulo, Brasília e Vitória.</p>
+
+  <p class="lead">Antes de fundar o Grupo Sena, em 2010, foi servente de pedreiro, camelô, motoboy e teve carrinho de cachorro-quente. "Fui forjado pelos momentos que passei" — a trajetória virou base pra uma gestão que junta técnica pesada com sabedoria de vida, algo raro no mercado contábil e tributário.</p>
+
+  <div class="bonus-title">Formação</div>
+  <ul class="bonus-list">
+    <li>Bacharel em Teologia — SETEAD (Seminário de Educação Teológica Kerigma Didache)</li>
+    <li>Pós-graduação em Direito Tributário, 720 horas — FAVENI/Instituto de Educação Século XXI</li>
+    <li>Agente Autônomo de Investimento (AAI) — habilitado pela ANCORD</li>
+    <li>Formação em Perícia Judicial — Escola de Perito e CONPEJ</li>
+    <li>Trilha "Tecnologia, Direito Digital e Propriedade Intelectual", 180 horas</li>
+    <li>Trilha "Planejamento e Desenvolvimento de Negócios Internacionais", 120 horas</li>
+    <li>Cursos de Plano de Negócios e Gestão Financeira para Pequenas e Médias Empresas</li>
+  </ul>
+
+  <div class="bonus-title">Autoria</div>
+  <p>Autor do livro <i>Os 5 G's da Gestão Empreendedora</i>, do qual este caderno é uma extensão prática — e criador do "Geo Ciclo do Grupo Sena", metodologia própria pra estruturar e reestruturar negócios.</p>
+
+  <div class="bonus-title">Pilares pessoais</div>
+  <p>Deus, Família e Trabalho — nessa ordem. Casado com Érica, pai de Jéssyka e Victor. "Tem na família seu bem mais precioso."</p>
+
+  <p class="lead" style="margin-top:20px;">"Eu não sou um acadêmico, não sou um homem de teorias. Os 5 G's são, de fato, a essência da minha prática."</p>
 </div>
 
 <div class="closing">
