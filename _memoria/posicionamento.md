@@ -36,6 +36,14 @@ economizados em impostos · +2.000 empresas recuperadas.** É a espinha do
 posicionamento, não um detalhe — nenhum concorrente de "mentor
 empresarial" tem isso pra mostrar.
 
+## Evento próprio — Summit do Gestor (decidido 20/08/2026)
+
+Nome escolhido pra um summit anual próprio: **Summit do Gestor** — puxa
+direto da frase de posicionamento acima ("aquele gestor que explica...").
+Curto, vira hashtag fácil (#SummitDoGestor), nasce como marca própria em
+vez de nome genérico de evento empresarial. Ainda não tem data, formato
+nem estrutura de programação definidos — só o nome foi fechado.
+
 ## Opiniões contrárias — [PEGAR COM O GILBERTO AMANHÃ]
 
 > Ouro puro pra conteúdo. Opinião contrária = engajamento + autoridade.
