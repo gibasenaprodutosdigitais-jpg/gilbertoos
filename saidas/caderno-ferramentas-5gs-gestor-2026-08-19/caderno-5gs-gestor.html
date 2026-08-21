@@ -46,6 +46,48 @@
   .tool p { margin-bottom:5px; text-align:justify; }
   .tool b.label { color:#8a7a3f; }
 
+  .bonus-title { font-size:14px; font-weight:800; color:#151515; margin:20px 0 4px; }
+  .bonus-list { margin: 6px 0 14px 18px; }
+  .bonus-list li { margin-bottom:4px; text-align:justify; }
+
+  .diagram-title { font-size:14px; font-weight:800; color:#151515; margin:26px 0 4px; }
+  .diagram-note { font-size:11.5px; color:#777; font-style:italic; margin-bottom:8px; }
+
+  .quadrant {
+    display:grid; grid-template-columns: 110px 1fr 1fr; grid-template-rows: 24px 1fr 1fr;
+    border:1.5px solid #151515; margin: 10px 0 18px; font-size:11.5px;
+  }
+  .quadrant .qhead { background:#0F1419; color:#F4F1EA; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:10.5px; text-transform:uppercase; letter-spacing:0.06em; padding:4px; }
+  .quadrant .qside { background:#EAE6DA; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:10px; text-transform:uppercase; letter-spacing:0.04em; text-align:center; padding:4px; writing-mode:vertical-rl; transform:rotate(180deg); }
+  .quadrant .qcell { border:1px solid #ccc; padding:10px 8px; }
+  .quadrant .qcell b { display:block; font-size:12px; margin-bottom:3px; color:#151515; }
+  .quadrant .qcell.pos { background:#FAF8F3; }
+  .quadrant .qcell.neg { background:#FBFBF9; }
+  .quadrant .qcell.gold { background:#FCF6E4; border-color:#C9A227; }
+
+  .barchart { display:flex; align-items:flex-end; gap:6px; height:130px; margin: 10px 0 4px; border-bottom:1.5px solid #151515; padding: 0 4px; }
+  .barchart .bargroup { display:flex; flex-direction:column; align-items:center; flex:1; height:100%; justify-content:flex-end; }
+  .barchart .bar { width:60%; background:#C9A227; border-radius:2px 2px 0 0; }
+  .barchart .bar.saida { background:#0F1419; }
+  .barchart .barlabel { font-size:9px; color:#666; margin-top:4px; }
+  .chart-legend { display:flex; gap:16px; font-size:10.5px; color:#555; margin-bottom:16px; }
+  .chart-legend span { display:inline-flex; align-items:center; gap:5px; }
+  .chart-legend .dot { width:9px; height:9px; border-radius:2px; display:inline-block; }
+
+  .ganho-bar { display:flex; flex-direction:column; width:160px; border:1.5px solid #151515; margin: 12px 0 18px; }
+  .ganho-bar .seg { padding:10px; text-align:center; font-size:11px; }
+  .ganho-bar .seg.ganho { background:#C9A227; color:#151515; font-weight:800; }
+  .ganho-bar .seg.custo { background:#0F1419; color:#F4F1EA; }
+  .ganho-bar .preco-label { text-align:center; font-size:10.5px; color:#666; margin-top:6px; }
+
+  table.mercado { width:100%; border-collapse:collapse; margin:10px 0 6px; font-size:11.5px; }
+  table.mercado th { background:#0F1419; color:#F4F1EA; padding:6px 8px; text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:0.03em; }
+  table.mercado td { padding:6px 8px; border-bottom:1px solid #E4DDC8; text-align:center; }
+  table.mercado td:first-child { text-align:left; font-weight:600; }
+  table.mercado .M { color:#1a7a3a; font-weight:800; }
+  table.mercado .E { color:#8a7a3f; font-weight:800; }
+  table.mercado .P { color:#a33; font-weight:800; }
+
   .closing {
     background:#0F1419; color:#F4F1EA; padding:36px 32px; margin-top:40px; border-radius:4px; text-align:center;
   }
@@ -258,6 +300,114 @@ Este caderno é a continuação disso. Cada G do seu método ganha aqui um conju
     <div class="tool-name"><span class="num">27</span> · Instrução de Trabalho</div>
     <p><b class="label">Como fazer:</b> descreva o passo a passo de uma tarefa recorrente, com fotos se possível, e defina quem faz e quem substitui.</p>
   </div>
+</div>
+
+<!-- BÔNUS -->
+<div class="g-block">
+  <div class="g-kicker">Bônus</div>
+  <div class="g-title">Ferramentas Extras</div>
+  <div class="g-sub">O que fica de fora dos 5 G's, mas fortalece a gestão</div>
+  <p class="lead">Além das 27 ferramentas centrais, o Caderno do Sebrae traz um conjunto de ferramentas complementares. Aqui vão as que fazem sentido usar com clientes e na própria gestão do Grupo Sena.</p>
+
+  <div class="bonus-title">Bônus 1 · Matriz FOFA (Forças, Oportunidades, Fraquezas, Ameaças)</div>
+  <p>O raio-x mais usado do mundo pra planejamento estratégico — o que a empresa tem de força e fraqueza por dentro, e o que o mercado oferece de oportunidade e ameaça por fora. Ambiente interno depende de você; ambiente externo (clima, economia, concorrente, cliente, lei), não. <i>Sacada do Giba aplicada: concentre-se nos pontos fortes, reconheça as fraquezas, agarre as oportunidades, e proteja-se contra as ameaças.</i></p>
+
+  <div class="bonus-title">Bônus 2 · Diagnóstico do Comportamento Empreendedor</div>
+  <p>As 10 características que sustentam negócio no tempo (Sebrae/Empretec):</p>
+  <ul class="bonus-list">
+    <li>1. Busca de oportunidades e iniciativa</li>
+    <li>2. Persistência</li>
+    <li>3. Correr riscos calculados</li>
+    <li>4. Exigência de qualidade e eficiência</li>
+    <li>5. Comprometimento</li>
+    <li>6. Busca de informações</li>
+    <li>7. Estabelecimento de metas</li>
+    <li>8. Planejamento e monitoramento sistemáticos</li>
+    <li>9. Persuasão e rede de contatos</li>
+    <li>10. Independência e autoconfiança</li>
+  </ul>
+  <p>Ótimo espelho pra gestão de si (1G) — e ótimo roteiro de conteúdo pra falar de maturidade emocional: o gestor que já quebrou sete vezes sabe, na prática, qual dessas dez características segura a empresa de pé quando aperta.</p>
+
+  <div class="bonus-title">Bônus 3 · Performance em Serviço (a régua do cliente)</div>
+  <p>Medir a qualidade do atendimento pela percepção real do cliente, não pela sua própria impressão — em 5 dimensões: <b>aspectos tangíveis</b> (o que se vê), <b>confiabilidade</b> (cumprir o prometido), <b>presteza</b> (velocidade e disposição), <b>segurança</b> (confiança que o cliente sente) e <b>empatia</b> (atenção individual). Peça nota de 1 a 5 em cada uma — a dimensão mais baixa é onde a ação entra primeiro.</p>
+
+  <div class="bonus-title">Bônus 4 · Design de Ambientes (dicas rápidas)</div>
+  <ul class="bonus-list">
+    <li>Circulação desobstruída — o cliente precisa se sentir convidado a circular por todo o espaço.</li>
+    <li>Produto/serviço de maior valor e maior margem, na altura dos olhos.</li>
+    <li>Preto, branco e cinza dão sofisticação — com moderação, senão fica frio.</li>
+    <li>Luz clara e branca acelera o consumidor; luz amena e amarelada relaxa e aproxima — escolha conforme o posicionamento (popular e rápido, ou premium e consultivo).</li>
+  </ul>
+
+  <div class="bonus-title">Bônus 5 · Boas Práticas (setor alimentício)</div>
+  <p>Se o cliente ou o próprio negócio for do ramo de alimentação: temperatura correta de conservação, cozimento mínimo de 70°C, mãos lavadas antes de manipular alimento, nunca misturar cru com cozido. Detalhe pequeno, risco grande — vale a régua completa direto com a Vigilância Sanitária antes de operar.</p>
+</div>
+
+<!-- DESENHOS COMPARATIVOS -->
+<div class="g-block">
+  <div class="g-kicker">Visual</div>
+  <div class="g-title">Desenhos Comparativos</div>
+  <div class="g-sub">Os quadros que ajudam a decidir — pra reproduzir com os números reais</div>
+
+  <div class="diagram-title">1 — Matriz FOFA</div>
+  <div class="quadrant">
+    <div class="qhead"></div>
+    <div class="qhead">Ambiente Interno</div>
+    <div class="qhead">Ambiente Externo</div>
+    <div class="qside">Positivo</div>
+    <div class="qcell pos"><b>Forças</b>o que você já faz bem</div>
+    <div class="qcell gold"><b>Oportunidades</b>clima, economia, concorrente, cliente, lei — a seu favor</div>
+    <div class="qside">Negativo</div>
+    <div class="qcell neg"><b>Fraquezas</b>o que precisa melhorar</div>
+    <div class="qcell gold"><b>Ameaças</b>o mesmo campo, jogando contra</div>
+  </div>
+
+  <div class="diagram-title">2 — Segmentação de Clientes</div>
+  <div class="diagram-note">Faturamento total do grupo × ganho médio por cliente</div>
+  <div class="quadrant">
+    <div class="qhead"></div>
+    <div class="qhead">Baixo ganho/cliente</div>
+    <div class="qhead">Alto ganho/cliente</div>
+    <div class="qside">Alto total</div>
+    <div class="qcell pos"><b>A maioria que gasta pouco</b>aumentar o ganho por cliente</div>
+    <div class="qcell gold"><b>Clientes VIP</b>manter e fidelizar este grupo</div>
+    <div class="qside">Baixo total</div>
+    <div class="qcell neg"><b>Grupo minoria</b>decidir se vale investir aqui</div>
+    <div class="qcell gold"><b>Grupo potencial</b>aumentar a quantidade deste tipo</div>
+  </div>
+
+  <div class="diagram-title">3 — Diário de Caixa (exemplo ilustrativo)</div>
+  <div class="diagram-note">Entradas x saídas ao longo da semana — reproduza com os números reais</div>
+  <div class="barchart">
+    <div class="bargroup"><div class="bar" style="height:70%"></div><div class="bar saida" style="height:50%"></div><div class="barlabel">Seg</div></div>
+    <div class="bargroup"><div class="bar" style="height:90%"></div><div class="bar saida" style="height:40%"></div><div class="barlabel">Ter</div></div>
+    <div class="bargroup"><div class="bar" style="height:55%"></div><div class="bar saida" style="height:75%"></div><div class="barlabel">Qua</div></div>
+    <div class="bargroup"><div class="bar" style="height:60%"></div><div class="bar saida" style="height:35%"></div><div class="barlabel">Qui</div></div>
+    <div class="bargroup"><div class="bar" style="height:100%"></div><div class="bar saida" style="height:45%"></div><div class="barlabel">Sex</div></div>
+    <div class="bargroup"><div class="bar" style="height:80%"></div><div class="bar saida" style="height:60%"></div><div class="barlabel">Sáb</div></div>
+    <div class="bargroup"><div class="bar" style="height:20%"></div><div class="bar saida" style="height:15%"></div><div class="barlabel">Dom</div></div>
+  </div>
+  <div class="chart-legend">
+    <span><span class="dot" style="background:#C9A227;"></span>entradas</span>
+    <span><span class="dot" style="background:#0F1419;"></span>saídas</span>
+  </div>
+
+  <div class="diagram-title">4 — Cálculo do Ganho Unitário (exemplo: um produto qualquer)</div>
+  <div class="diagram-note">Preço de venda R$ 10,00</div>
+  <div class="ganho-bar">
+    <div class="seg ganho">GANHO — R$ 3,00</div>
+    <div class="seg custo">CUSTO — R$ 7,00</div>
+  </div>
+
+  <div class="diagram-title">5 — Entendimento do Mercado (você × concorrente)</div>
+  <table class="mercado">
+    <tr><th></th><th>Concorrente A</th><th>Concorrente B</th><th>Concorrente C</th></tr>
+    <tr><td>Atendimento</td><td class="M">M</td><td class="E">E</td><td class="P">P</td></tr>
+    <tr><td>Ambiente/estrutura</td><td class="E">E</td><td class="M">M</td><td class="E">E</td></tr>
+    <tr><td>Preço</td><td class="P">P</td><td class="E">E</td><td class="M">M</td></tr>
+    <tr><td>Qualidade</td><td class="M">M</td><td class="M">M</td><td class="E">E</td></tr>
+  </table>
+  <p style="font-size:11px; color:#666;">M = Melhor que o concorrente · E = Empatado · P = Pior que o concorrente. Onde aparecer mais "P", ali está a próxima ação do seu plano.</p>
 </div>
 
 <div class="closing">
