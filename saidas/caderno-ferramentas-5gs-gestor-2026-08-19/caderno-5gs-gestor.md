@@ -297,6 +297,165 @@ tira a dependência de uma única pessoa "que sabe fazer".
 
 ---
 
+# BÔNUS — FERRAMENTAS EXTRAS
+### O que fica de fora dos 5 G's, mas fortalece a gestão
+
+Além das 27 ferramentas centrais, o Caderno do Sebrae traz um conjunto de
+ferramentas complementares. Aqui vão as que fazem sentido pra você usar
+com clientes e na própria gestão do Grupo Sena.
+
+### Bônus 1 — Matriz FOFA (Forças, Oportunidades, Fraquezas, Ameaças)
+**O que é:** o raio-x mais usado do mundo pra planejamento estratégico —
+o que a empresa tem de força e fraqueza por dentro, e o que o mercado
+oferece de oportunidade e ameaça por fora.
+**Como fazer:** preencha os 4 quadrantes (ver desenho comparativo
+abaixo). Ambiente interno = forças e fraquezas (o que depende de você).
+Ambiente externo = oportunidades e ameaças (clima, economia,
+concorrente, cliente, fornecedor, lei — o que não depende só de você).
+**Sacada do Giba aplicada:** concentre-se nos pontos fortes, reconheça as
+fraquezas, agarre as oportunidades, e proteja-se contra as ameaças.
+
+### Bônus 2 — Diagnóstico do Comportamento Empreendedor
+**O que é:** as 10 características que a literatura de empreendedorismo
+(Sebrae/Empretec) identifica em quem sustenta negócio no tempo.
+**As 10 características:**
+1. Busca de oportunidades e iniciativa
+2. Persistência
+3. Correr riscos calculados
+4. Exigência de qualidade e eficiência
+5. Comprometimento
+6. Busca de informações
+7. Estabelecimento de metas
+8. Planejamento e monitoramento sistemáticos
+9. Persuasão e rede de contatos
+10. Independência e autoconfiança
+
+**Como usar:** essa lista é um ótimo espelho pra gestão de si (1G) — e um
+ótimo roteiro de conteúdo pra falar de maturidade emocional, que é
+exatamente o pilar de personalidade do seu posicionamento: o gestor que
+já quebrou sete vezes e sabe, na prática, qual dessas dez características
+segura a empresa de pé quando aperta.
+
+### Bônus 3 — Performance em Serviço (a régua do cliente)
+**O que é:** medir a qualidade do atendimento pela percepção real do
+cliente, não pela sua própria impressão.
+**As 5 dimensões:**
+- **Aspectos tangíveis** — o que se vê (instalação, equipamento, aparência)
+- **Confiabilidade** — cumprir o que promete, no prazo prometido
+- **Presteza** — velocidade e disposição em atender
+- **Segurança** — confiança que o cliente sente na equipe
+- **Empatia** — atenção individual, entender a necessidade específica
+
+**Como fazer:** peça ao cliente uma nota de 1 a 5 numa afirmação de cada
+dimensão. Some por dimensão. A dimensão com nota mais baixa é onde a
+ação entra primeiro — não adianta reforçar o que já está bom.
+
+### Bônus 4 — Design de Ambientes (dicas rápidas)
+Pra quem tem loja, escritório de atendimento ou consultório:
+- Circulação desobstruída — o cliente precisa se sentir convidado a
+  circular por todo o espaço.
+- Produto/serviço de maior valor e maior margem, na altura dos olhos.
+- Preto, branco e cinza dão sofisticação — mas com moderação, senão fica
+  frio ou impessoal.
+- Luz mais clara e branca acelera o consumidor; luz mais amena e
+  amarelada relaxa e aproxima — escolha conforme o posicionamento do
+  negócio (popular e rápido, ou premium e consultivo).
+
+### Bônus 5 — Boas Práticas (setor alimentício)
+Se o seu cliente ou o seu próprio negócio for do ramo de alimentação:
+temperatura correta de conservação, cozimento em temperatura mínima de
+70°C, mãos lavadas antes de manipular alimento, nunca misturar alimento
+cru com cozido. Detalhe pequeno, risco grande — vale a régua completa
+direto com a Vigilância Sanitária (ANVISA) antes de operar.
+
+---
+
+## DESENHOS COMPARATIVOS
+### Os quadros visuais que ajudam a decidir
+
+Ferramenta boa é ferramenta que se enxerga. Aqui vão os desenhos que
+acompanham as ferramentas acima — pra você reproduzir na mesa, no quadro
+branco ou na tela, com os números reais da sua empresa ou do seu
+cliente.
+
+**1 — Matriz FOFA**
+
+```
+                 AMBIENTE INTERNO         AMBIENTE EXTERNO
+              ┌───────────────────┬───────────────────┐
+   POSITIVO   │      FORÇAS       │   OPORTUNIDADES    │
+              │  (o que você já   │  (clima, economia, │
+              │  faz bem)         │  concorrente,       │
+              │                   │  cliente, lei)       │
+              ├───────────────────┼───────────────────┤
+   NEGATIVO   │     FRAQUEZAS     │      AMEAÇAS       │
+              │  (o que precisa   │  (o mesmo campo,    │
+              │  melhorar)        │  só que jogando      │
+              │                   │  contra)             │
+              └───────────────────┴───────────────────┘
+```
+
+**2 — Segmentação de Clientes (Faturamento total × Faturamento médio)**
+
+```
+                    BAIXO GANHO/CLIENTE   ALTO GANHO/CLIENTE
+              ┌───────────────────────┬───────────────────────┐
+  ALTO        │  A MAIORIA QUE GASTA   │     CLIENTES VIP        │
+  FATURAMENTO │  POUCO                 │  manter e fidelizar      │
+  TOTAL       │  aumentar o ganho por  │  este grupo               │
+              │  cliente               │                          │
+              ├───────────────────────┼───────────────────────┤
+  BAIXO       │   GRUPO MINORIA        │   GRUPO POTENCIAL        │
+  FATURAMENTO │  decidir se vale        │  aumentar a quantidade    │
+  TOTAL       │  investir aqui          │  de clientes deste tipo    │
+              └───────────────────────┴───────────────────────┘
+```
+
+**3 — Diário de Caixa (exemplo ilustrativo de 7 dias)**
+
+```
+R$
+1400 |        ██
+1200 |   ██   ██        ██
+1000 |   ██   ██   ██   ██
+ 800 |   ██   ██   ██   ██   ██
+ 600 |   ██   ██   ██   ██   ██   ██
+ 400 |   ██   ██   ██   ██   ██   ██   ██
+ 200 |   ██   ██   ██   ██   ██   ██   ██
+   0 |___████_████_████_████_████_████_████___
+       seg  ter  qua  qui  sex  sab  dom
+       ██ entradas do dia   (linha) saídas do dia
+```
+
+**4 — Cálculo do Ganho Unitário (exemplo: um produto qualquer)**
+
+```
+R$ 10  ┌───────────┐
+       │  GANHO     │  ← o que sobra pra você
+R$  7  │  R$ 3,00   │
+       ├───────────┤
+       │  CUSTO      │  ← o que você pagou pra ter o produto
+R$  0  │  R$ 7,00    │
+       └───────────┘
+       PREÇO DE VENDA: R$ 10,00
+```
+
+**5 — Entendimento do Mercado (você × concorrente)**
+
+```
+                        Concorrente A   Concorrente B   Concorrente C
+Atendimento                  M               E                P
+Ambiente/estrutura           E               M                E
+Preço                        P               E                M
+Qualidade                    M               M                E
+
+M = Melhor que o concorrente · E = Empatado · P = Pior que o concorrente
+```
+
+Onde aparecer mais "P", ali está a próxima ação do seu plano.
+
+---
+
 ## Fechamento — na sua voz
 
 "Eu me orgulho, eu sei que existem muitos 'Gilbertos' por aí, que
