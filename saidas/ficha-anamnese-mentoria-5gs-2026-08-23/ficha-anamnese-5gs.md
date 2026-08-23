@@ -40,63 +40,63 @@ Data da anamnese: ___/___/______
 
 ---
 
-## 2G — Gestão Financeira
-*O dinheiro nunca foi só ferramenta — é professor de disciplina, inovação e humildade.*
-
-**6.** Você sabe, hoje, exatamente quanto entra e quanto sai do caixa da empresa todo mês?
-
-**7.** A empresa tem reserva de emergência equivalente a pelo menos 3 meses de custo fixo?
-
-**8.** Da dívida que você carrega hoje, quanto financia crescimento real e quanto está cobrindo rombo operacional que se repete?
-
-**9.** O dinheiro pessoal e o dinheiro da empresa estão claramente separados?
-
-**10.** Quando foi a última vez que você calculou o ganho real — não o faturamento — de cada produto ou serviço que vende?
-
----
-
 ## 3G — Gestão de Pessoas
 *Sua empresa não é diferente de um tumor se o propósito dela for só "crescer".*
 
-**11.** Se eu perguntasse à sua equipe qual é o propósito da empresa, o que eles responderiam?
+**6.** Se eu perguntasse à sua equipe qual é o propósito da empresa, o que eles responderiam?
 
-**12.** Existe alguma tarefa crítica do negócio que só acontece se for você fazendo?
+**7.** Existe alguma tarefa crítica do negócio que só acontece se for você fazendo?
 
-**13.** Como você dá retorno pro seu time — é conversa contínua ou avaliação formal, esporádica?
+**8.** Como você dá retorno pro seu time — é conversa contínua ou avaliação formal, esporádica?
 
-**14.** Seus colaboradores conhecem de verdade a empresa antes de exigir deles comprometimento?
+**9.** Seus colaboradores conhecem de verdade a empresa antes de exigir deles comprometimento?
 
-**15.** Quanto do seu dia é ocupado com tarefa operacional que outra pessoa já poderia estar fazendo?
-
----
-
-## 4G — Gestão Tributária
-*No veneno está o antídoto: o mesmo imposto que quebra o desorganizado protege quem entende.*
-
-**16.** Você sabe, com clareza, por que está no regime tributário em que está hoje?
-
-**17.** Já fez a conta de como a Reforma Tributária vai impactar seu negócio nos próximos anos?
-
-**18.** Já perdeu dinheiro por desconhecimento tributário — multa, enquadramento errado, imposto pago a mais?
-
-**19.** Existe alguma obrigação acessória ou prazo fiscal que costuma te pegar de surpresa?
-
-**20.** Quando foi a última vez que revisou, com seu contador, se o regime tributário atual ainda faz sentido pro seu momento?
+**10.** Quanto do seu dia é ocupado com tarefa operacional que outra pessoa já poderia estar fazendo?
 
 ---
 
 ## 5G — Gestão de Fornecedores e Clientes
 *Comprar é expressão de confiança. Vender é entender a necessidade e construir relação.*
 
-**21.** Você sabe distinguir seus clientes e fornecedores estratégicos dos que exigem atenção mas dão pouco retorno?
+**11.** Você sabe distinguir seus clientes e fornecedores estratégicos dos que exigem atenção mas dão pouco retorno?
 
-**22.** Como você avalia um novo fornecedor ou cliente antes de fechar negócio?
+**12.** Como você avalia um novo fornecedor ou cliente antes de fechar negócio?
 
-**23.** Existe um processo pra reter e fazer o cliente comprar de novo, ou o esforço termina na primeira venda?
+**13.** Existe um processo pra reter e fazer o cliente comprar de novo, ou o esforço termina na primeira venda?
 
-**24.** Se você perdesse seu maior cliente ou fornecedor amanhã, o que aconteceria com a empresa?
+**14.** Se você perdesse seu maior cliente ou fornecedor amanhã, o que aconteceria com a empresa?
 
-**25.** Hoje, o que mais trava o crescimento: falta de cliente, falta de estrutura pra atender mais gente, ou falta de fornecedor confiável?
+**15.** Hoje, o que mais trava o crescimento: falta de cliente, falta de estrutura pra atender mais gente, ou falta de fornecedor confiável?
+
+---
+
+## 2G — Gestão Financeira
+*O dinheiro nunca foi só ferramenta — é professor de disciplina, inovação e humildade.*
+
+**16.** Você sabe, hoje, exatamente quanto entra e quanto sai do caixa da empresa todo mês?
+
+**17.** A empresa tem reserva de emergência equivalente a pelo menos 3 meses de custo fixo?
+
+**18.** Da dívida que você carrega hoje, quanto financia crescimento real e quanto está cobrindo rombo operacional que se repete?
+
+**19.** O dinheiro pessoal e o dinheiro da empresa estão claramente separados?
+
+**20.** Quando foi a última vez que você calculou o ganho real — não o faturamento — de cada produto ou serviço que vende?
+
+---
+
+## 4G — Gestão Tributária
+*No veneno está o antídoto: o mesmo imposto que quebra o desorganizado protege quem entende.*
+
+**21.** Você sabe, com clareza, por que está no regime tributário em que está hoje?
+
+**22.** Já fez a conta de como a Reforma Tributária vai impactar seu negócio nos próximos anos?
+
+**23.** Já perdeu dinheiro por desconhecimento tributário — multa, enquadramento errado, imposto pago a mais?
+
+**24.** Existe alguma obrigação acessória ou prazo fiscal que costuma te pegar de surpresa?
+
+**25.** Quando foi a última vez que revisou, com seu contador, se o regime tributário atual ainda faz sentido pro seu momento?
 
 ---
 
@@ -108,10 +108,10 @@ percebido em cada G — isso vira a espinha dorsal do roteiro de 90 dias.
 | G | Urgência (baixa/média/alta) | Principal dor identificada |
 |---|---|---|
 | 1G — Gestão de Si | | |
-| 2G — Gestão Financeira | | |
 | 3G — Gestão de Pessoas | | |
-| 4G — Gestão Tributária | | |
 | 5G — Fornecedores e Clientes | | |
+| 2G — Gestão Financeira | | |
+| 4G — Gestão Tributária | | |
 
 **Prioridade Mês 1** (o G mais urgente): _____________________________
 
