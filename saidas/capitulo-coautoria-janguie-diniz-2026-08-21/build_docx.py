@@ -307,6 +307,90 @@ body(
     "— silenciosa, metodológica, replicável — que sustenta negócios "
     "capazes de crescer sem perder a alma pelo caminho."
 )
+body(
+    "Mas a inovação que a reforma exige do gestor não é apenas de "
+    "posicionamento — é técnica, operacional, e muitas vezes urgente. "
+    "Desde agosto de 2026, o destaque de IBS e CBS na nota fiscal, ainda "
+    "que em fase de teste, já é obrigatório para quem está no regime "
+    "regular; a partir de 2027, PIS e Cofins deixam de existir, o IPI "
+    "vai a zero, o Imposto Seletivo entra em vigor e o split payment "
+    "passa a separar automaticamente o imposto no momento do pagamento "
+    "— o que muda, de forma definitiva, o fluxo de caixa de qualquer "
+    "empresa que hoje se beneficia do intervalo entre receber e "
+    "recolher. Gestão técnica, na Nova Economia, deixou de significar "
+    "apenas dominar a legislação vigente; passou a significar antecipar, "
+    "com precisão, o efeito de uma legislação que ainda está em "
+    "transição."
+)
+body(
+    "A decisão mais urgente, hoje, é sobre o Simples Nacional. A partir "
+    "de 2027, quem está no regime precisa escolher entre manter o "
+    "recolhimento de IBS e CBS dentro da guia única — o chamado regime "
+    "único — ou apurar esses dois tributos separadamente, por fora do "
+    "DAS, no que venho chamando de Simples híbrido. A escolha não é "
+    "trivial: no regime único, o crédito que a empresa gera para quem "
+    "compra dela se limita ao valor efetivamente recolhido na guia, que "
+    "é reduzido — o que pode tornar o fornecedor do Simples, "
+    "paradoxalmente, mais caro na cadeia B2B. No regime híbrido, a "
+    "empresa gera mais crédito, aproximando-se da lógica dos demais "
+    "regimes, mas abre mão de parte da simplicidade que tornava o "
+    "Simples atrativo. A janela para essa escolha abre em setembro de "
+    "2026 e tem efeito a partir de janeiro de 2027 — e a maioria dos "
+    "empresários que atendo ainda não fez essa conta."
+)
+body(
+    "Para tornar esse raciocínio mais concreto, vale um exercício "
+    "comparativo — ilustrativo, não um cálculo tributário fechado, já "
+    "que a alíquota final da reforma (a referência oficial estimada "
+    "soma CBS e IBS em torno de 26,5%, ainda sujeita à fixação "
+    "definitiva pelo Senado) segue em definição. Imagine uma empresa "
+    "prestadora de serviços B2B, com faturamento anual de três milhões "
+    "de reais, avaliando os quatro caminhos hoje disponíveis: Simples "
+    "Nacional no regime único, Simples híbrido, Lucro Presumido e Lucro "
+    "Real."
+)
+body(
+    "No Simples regime único, essa empresa mantém a simplicidade "
+    "operacional que já conhece — uma guia, um cálculo, baixo custo de "
+    "conformidade. Mas, se a maior parte de sua carteira for formada "
+    "por outras empresas que precisam de crédito para reduzir sua "
+    "própria carga tributária, ela corre o risco de perder "
+    "competitividade: o crédito que consegue oferecer a esses clientes "
+    "é limitado ao que foi efetivamente recolhido, normalmente inferior "
+    "ao gerado pelos demais regimes."
+)
+body(
+    "No Simples híbrido, a mesma empresa preserva o enquadramento no "
+    "Simples — com seus limites de faturamento e menor burocracia "
+    "trabalhista e societária — mas passa a apurar IBS e CBS "
+    "separadamente, gerando crédito mais próximo do praticado pelos "
+    "regimes regulares. O ganho de competitividade em vendas B2B tem, "
+    "como contrapartida, uma estrutura de apuração mais complexa do que "
+    "a guia única a que o pequeno empresário está acostumado."
+)
+body(
+    "No Lucro Presumido, a tributação incide sobre uma margem de lucro "
+    "presumida por atividade, independentemente do resultado real "
+    "apurado no período — o que favorece empresas com margem efetiva "
+    "acima da presunção, mas penaliza quem opera com margem apertada ou "
+    "está em ano de baixa rentabilidade."
+)
+body(
+    "No Lucro Real, a tributação parte do lucro efetivamente apurado — "
+    "vantajoso para operações com margem reduzida, prejuízo fiscal a "
+    "compensar, ou volume relevante de crédito tributário a recuperar, "
+    "mas com o custo de uma estrutura contábil e de controle bem mais "
+    "robusta do que os demais regimes exigem."
+)
+body(
+    "Não existe, entre esses quatro caminhos, um vencedor universal. "
+    "Existe o caminho certo para o momento e o perfil de cada empresa — "
+    "e é exatamente essa conta, feita caso a caso, com dado real e não "
+    "com regra geral, que separa o gestor técnico do gestor que apenas "
+    "cumpre obrigação. Fazer essa análise antes da reforma se completar, "
+    "e não depois, é a diferença entre atravessar a transição pagando o "
+    "preço da antecipação ou pagando o preço do improviso."
+)
 
 heading("3.", "Criação de valor: o dinheiro como professor, não como fim")
 
