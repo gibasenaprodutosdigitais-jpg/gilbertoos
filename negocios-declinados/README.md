@@ -19,6 +19,7 @@ não vão ser continuadas**.
 - `distrato-revista-empreenda-2026-08-10/` — distrato final, dissolução total da sociedade incluindo Espaço Kairós, + nota de registro do não repasse de contas
 - `contrato-locacao-espaco-kairos-2026-08-10/` — minuta de arrendamento do Espaço Kairós (Gilberto → Revista Empreenda), duas opções de caução
 - `notificacao-extrajudicial-contas-2026-08-14/` — minuta de notificação extrajudicial à Elaine por não repasse do controle das contas, baseada só no Contrato Original (10/07/2026) — distratos e aditivo nunca foram assinados; com prints de WhatsApp em `anexos/` provando pedido de 03/08 e recusa
+- `proposta-dissolucao-revista-empreenda-2026-08-19/` — nova proposta de dissolução com acerto de contas real: R$31.330,37 devidos (condomínio+aluguel+energia do Espaço Kairós, 50%), parcelado em entrada + 4x de R$6.266,07; tem 2 pontos pendentes de confirmação do Gilberto (ver banner do arquivo)
 
 **`financeiro/`**
 - `analise-elaine-jan-ago-2026/` — análise financeira da conta da Elaine
