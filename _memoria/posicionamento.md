@@ -41,8 +41,12 @@ empresarial" tem isso pra mostrar.
 Nome escolhido pra um summit anual próprio: **Summit do Gestor** — puxa
 direto da frase de posicionamento acima ("aquele gestor que explica...").
 Curto, vira hashtag fácil (#SummitDoGestor), nasce como marca própria em
-vez de nome genérico de evento empresarial. Ainda não tem data, formato
-nem estrutura de programação definidos — só o nome foi fechado.
+vez de nome genérico de evento empresarial.
+
+**Propósito declarado (23/ago/2026):** "evento anual para transformar
+gestores em verdadeiros CEOs" — frase dele mesmo, usada na bio oficial do
+capítulo de coautoria com Janguiê Diniz. Ainda não tem data, formato nem
+estrutura de programação definidos.
 
 ## Opiniões contrárias — [PEGAR COM O GILBERTO AMANHÃ]
 
