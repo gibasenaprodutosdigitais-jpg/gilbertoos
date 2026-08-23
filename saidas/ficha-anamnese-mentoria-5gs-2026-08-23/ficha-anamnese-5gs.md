@@ -55,33 +55,33 @@ Data da anamnese: ___/___/______
 
 ---
 
-## 5G — Gestão de Fornecedores e Clientes
-*Comprar é expressão de confiança. Vender é entender a necessidade e construir relação.*
-
-**11.** Você sabe distinguir seus clientes e fornecedores estratégicos dos que exigem atenção mas dão pouco retorno?
-
-**12.** Como você avalia um novo fornecedor ou cliente antes de fechar negócio?
-
-**13.** Existe um processo pra reter e fazer o cliente comprar de novo, ou o esforço termina na primeira venda?
-
-**14.** Se você perdesse seu maior cliente ou fornecedor amanhã, o que aconteceria com a empresa?
-
-**15.** Hoje, o que mais trava o crescimento: falta de cliente, falta de estrutura pra atender mais gente, ou falta de fornecedor confiável?
-
----
-
 ## 2G — Gestão Financeira
 *O dinheiro nunca foi só ferramenta — é professor de disciplina, inovação e humildade.*
 
-**16.** Você sabe, hoje, exatamente quanto entra e quanto sai do caixa da empresa todo mês?
+**11.** Você sabe, hoje, exatamente quanto entra e quanto sai do caixa da empresa todo mês?
 
-**17.** A empresa tem reserva de emergência equivalente a pelo menos 3 meses de custo fixo?
+**12.** A empresa tem reserva de emergência equivalente a pelo menos 3 meses de custo fixo?
 
-**18.** Da dívida que você carrega hoje, quanto financia crescimento real e quanto está cobrindo rombo operacional que se repete?
+**13.** Da dívida que você carrega hoje, quanto financia crescimento real e quanto está cobrindo rombo operacional que se repete?
 
-**19.** O dinheiro pessoal e o dinheiro da empresa estão claramente separados?
+**14.** O dinheiro pessoal e o dinheiro da empresa estão claramente separados?
 
-**20.** Quando foi a última vez que você calculou o ganho real — não o faturamento — de cada produto ou serviço que vende?
+**15.** Quando foi a última vez que você calculou o ganho real — não o faturamento — de cada produto ou serviço que vende?
+
+---
+
+## 5G — Gestão de Fornecedores e Clientes
+*Comprar é expressão de confiança. Vender é entender a necessidade e construir relação.*
+
+**16.** Você sabe distinguir seus clientes e fornecedores estratégicos dos que exigem atenção mas dão pouco retorno?
+
+**17.** Como você avalia um novo fornecedor ou cliente antes de fechar negócio?
+
+**18.** Existe um processo pra reter e fazer o cliente comprar de novo, ou o esforço termina na primeira venda?
+
+**19.** Se você perdesse seu maior cliente ou fornecedor amanhã, o que aconteceria com a empresa?
+
+**20.** Hoje, o que mais trava o crescimento: falta de cliente, falta de estrutura pra atender mais gente, ou falta de fornecedor confiável?
 
 ---
 
@@ -109,8 +109,8 @@ percebido em cada G — isso vira a espinha dorsal do roteiro de 90 dias.
 |---|---|---|
 | 1G — Gestão de Si | | |
 | 3G — Gestão de Pessoas | | |
-| 5G — Fornecedores e Clientes | | |
 | 2G — Gestão Financeira | | |
+| 5G — Fornecedores e Clientes | | |
 | 4G — Gestão Tributária | | |
 
 **Prioridade Mês 1** (o G mais urgente): _____________________________
