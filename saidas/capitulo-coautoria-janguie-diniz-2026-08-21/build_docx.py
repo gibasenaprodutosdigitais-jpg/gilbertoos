@@ -625,16 +625,18 @@ heading("", "Sobre o autor")
 
 body(
     "Gilberto Luís de Sena é fundador e CEO do Grupo Sena Soluções "
-    "Empresariais, referência em contabilidade, auditoria fiscal e "
-    "tributária, assessoria jurídica e gestão financeira, com sede "
-    "principal em Belo Horizonte e atuação em Goiânia, Parauapebas, São "
-    "Paulo, Brasília e Vitória. É Bacharel em Teologia pelo Seminário de "
-    "Educação Teológica Kerigma Didache (SETEAD), pós-graduado em "
-    "Direito Tributário (720 horas) pela FAVENI/Instituto de Educação "
-    "Século XXI, e Agente Autônomo de Investimento (AAI) habilitado pela "
-    "ANCORD. É autor do livro Os 5 G's da Gestão Empreendedora e criador "
-    "do Geo Ciclo do Grupo Sena, metodologia própria de estruturação e "
-    "reestruturação de negócios.",
+    "Empresariais, estruturação de negócios com contabilidade, "
+    "auditoria fiscal e tributária, assessoria jurídica e gestão "
+    "financeira, com sede principal em Belo Horizonte e atuação em "
+    "Goiânia, São Paulo, Brasília e Rio de Janeiro. É Bacharel em "
+    "Teologia pelo Seminário de Educação Teológica Kerigma Didache "
+    "(SETEAD), pós-graduado em Direito Tributário (720 horas) pela "
+    "FAVENI/Instituto de Educação Século XXI, e Agente Autônomo de "
+    "Investimento (AAI) habilitado pela ANCORD. É autor do livro Os 5 "
+    "G's da Gestão Empreendedora, criador da Reengenharia Empresarial e "
+    "Negócio Exponencial, metodologia própria para reestruturação de "
+    "negócios, além de desenvolvedor do Summit do Gestor, evento anual "
+    "para transformar gestores em verdadeiros CEOs.",
     indent=False,
 )
 

@@ -7,8 +7,9 @@
 
 - **Nome:** Gilberto Sena
 - **É:** referência no mercado de contabilidade, advocacia e tributário no Brasil
-- **Grupo Sena:** consultoria empresarial, ~10 anos, 6 escritórios (BH, Goiânia,
-  Parauapebas, São Paulo, Brasília, Vitória). Contabilidade, auditoria fiscal e
+- **Grupo Sena:** consultoria empresarial, ~10 anos, 5 escritórios (BH — sede,
+  Goiânia, São Paulo, Brasília, Rio de Janeiro — atualizado 23/ago/2026;
+  Parauapebas e Vitória saíram da lista atual). Contabilidade, auditoria fiscal e
   tributária, assessoria jurídica, assessoria empresarial, gestão trabalhista, PF.
 - **Mentalidade:** empresário nato, pensa em escala, gosta de modelar negócios
   que já funcionam.
@@ -323,8 +324,14 @@ mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
   gestão inteligente." Distinto do GilbertoOS (que é o sistema pessoal
   dele de conteúdo/posicionamento) — o OCEO é produto de software vendido
   a clientes do Grupo Sena.
-- **Geo Ciclo do Grupo Sena** — metodologia própria dele pra estruturar e
-  reestruturar qualquer tipo de negócio (operacional, gestão, administrativo).
+- **Reengenharia Empresarial e Negócio Exponencial** — metodologia própria
+  dele pra reestruturação de negócios (atualizado 23/ago/2026 — nome que
+  ele mesmo passou a usar na bio oficial; antes registrado aqui como "Geo
+  Ciclo do Grupo Sena", mesma ideia de estruturar/reestruturar negócio).
+- **Summit do Gestor** — evento anual próprio dele, "pra transformar
+  gestores em verdadeiros CEOs" (frase dele, 23/ago/2026). Nome do evento
+  já havia sido decidido em 20/ago/2026 (ver `posicionamento.md`); esta é
+  a primeira vez que ele define o propósito declarado.
 - **Sócio de várias empresas** em segmentos diferentes, incluindo a
   **J&V Sena Holding Participações S.A.**, da qual é **presidente**.
 - **Sena Bank** — banco digital em desenvolvimento (na época da matéria,
