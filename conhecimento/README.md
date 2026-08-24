@@ -43,6 +43,8 @@ opinar sobre técnica** e cita de onde veio.
 | `estrutura-tributaria-holding-franquia-fundo-promocao.md` | Estrutura ISS fixo + fundo de promoção e propaganda isento para holdings de franquia — caso real anonimizado | Técnico / tributário | ⚠ **fichado 21/jul/2026 — caso real anonimizado, técnica forte pra conteúdo de autoridade** |
 | `playbook-terceiro-imersao-marketing-vendas-mentores.md` | Playbook completo de marketing/vendas (TACO, funil, PISTE, Unpack) de uma imersão paga — **NÃO é IP do Gilberto Sena, é de outro instrutor** | Marketing (referência de terceiro) | ⚠ **fichado 21/jul/2026 — NUNCA publicar como se fosse do Gilberto Sena; ver correção em `estrategia-conteudo-marketing-monetizacao.md`** |
 | `turnaround-rede-multiunidades-diagnostico-gargalos.md` | Sinais de alerta e método de diagnóstico em turnaround de rede multi-unidades em déficit — caso real anonimizado | Escala / negócios | ⚠ **fichado 21/jul/2026 — caso real anonimizado** |
+| `kit-auto-consultoria-luz.md` | Índice/estrutura de 9 amostras pagas (marca Luz): controle financeiro, RH, comercial, modelo de negócios, planejamento estratégico/financeiro, precificação, plano de negócios, mapeamento de processos | Negócios (referência de terceiro) | ⚠ **fichado 23/ago/2026 — NÃO é IP do Gilberto Sena, conteúdo raso de propósito (amostra de venda), usar só como checklist de temas** |
+| `questionario-decisoes-financeiras-corporativas.md` | Fragmento de 1 página (anexo de trabalho acadêmico não identificado): questionário sobre como a empresa decide investir/financiar | Técnico / finanças (fragmento) | ⚠ **fichado 23/ago/2026 — conteúdo insuficiente pra fonte técnica, útil só como modelo de pergunta de diagnóstico** |
 
 ## Categorias previstas
 
