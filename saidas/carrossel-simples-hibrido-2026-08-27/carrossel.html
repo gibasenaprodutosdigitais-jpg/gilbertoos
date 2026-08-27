@@ -1,0 +1,338 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; }
+
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 90px 100px 90px;
+  }
+
+  .dark   { background: #0F1419; color: #F4F1EA; }
+  .light  { background: #F4F1EA; color: #151515; }
+
+  .gold { color: #C9A227; }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin-bottom: 32px;
+  }
+
+  .topbar {
+    position: absolute;
+    top: 56px;
+    left: 90px;
+    right: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo-icon {
+    height: 34px;
+    width: auto;
+    display: block;
+  }
+
+  .wordmark {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .dark .wordmark { color: #C9A227; }
+  .light .wordmark { color: #151515; }
+
+  .counter {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    opacity: 0.55;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 56px;
+    left: 90px;
+    right: 90px;
+    padding-top: 24px;
+    border-top: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .dark .footer { border-color: rgba(244,241,234,0.18); color: rgba(244,241,234,0.55); }
+  .light .footer { border-color: rgba(21,21,21,0.14); color: rgba(21,21,21,0.5); }
+
+  /* CAPA */
+  .capa-title {
+    font-size: 88px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.06;
+    max-width: 880px;
+  }
+
+  /* SOLO */
+  .solo-body {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    max-width: 860px;
+  }
+  .solo-body b, .solo-body strong { color: #C9A227; }
+
+  /* DUO */
+  .duo-title {
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.14;
+    max-width: 860px;
+    margin-bottom: 56px;
+  }
+  .duo-cols { display: flex; gap: 56px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 20px;
+    font-weight: 900;
+    color: #C9A227;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 14px;
+  }
+  .duo-h { font-size: 34px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.12; }
+  .duo-text { font-size: 23px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* NUMERO */
+  .numero-big {
+    font-size: 92px;
+    font-weight: 900;
+    color: #C9A227;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    max-width: 900px;
+    margin-bottom: 36px;
+  }
+  .numero-sub {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    max-width: 760px;
+  }
+
+  /* CITAÇÃO */
+  .quote-mark {
+    font-size: 140px;
+    font-weight: 900;
+    color: #C9A227;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .quote-text {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.36;
+    letter-spacing: -0.01em;
+    max-width: 860px;
+  }
+  .quote-attr {
+    margin-top: 36px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    opacity: 0.6;
+  }
+
+  /* CTA FINAL */
+  .cta-wrap { align-items: center; text-align: center; }
+  .lion-mark {
+    height: 150px;
+    width: auto;
+    margin: 0 auto 40px auto;
+    display: block;
+  }
+  .cta-line {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.4;
+    max-width: 760px;
+    margin: 0 auto 28px auto;
+  }
+  .cta-handle {
+    font-size: 30px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.01em;
+  }
+</style>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">01 / 07</span>
+  </div>
+  <div class="kicker">REFORMA TRIBUTÁRIA</div>
+  <div class="rule"></div>
+  <div class="capa-title">Cuidado com sua decisão em setembro</div>
+  <div class="footer">
+    <span>SIMPLES NACIONAL × SIMPLES HÍBRIDO</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">02 / 07</span>
+  </div>
+  <div class="kicker">O QUE MUDA</div>
+  <div class="rule"></div>
+  <div class="solo-body">Salomão dizia que o sábio pesa os caminhos antes de dar o passo. Em setembro, quem é do <b>Simples Nacional</b> vai pesar um caminho desse nível.</div>
+  <div class="footer">
+    <span>SIMPLES NACIONAL × SIMPLES HÍBRIDO</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 3 — DUO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">03 / 07</span>
+  </div>
+  <div class="kicker">A PARTIR DE 2027</div>
+  <div class="rule"></div>
+  <div class="duo-title">Você vai escolher COMO paga o IBS e a CBS</div>
+  <div class="duo-cols">
+    <div class="duo-col">
+      <div class="duo-num">SIMPLES NACIONAL</div>
+      <div class="duo-h">O de sempre</div>
+      <div class="duo-text">Tudo numa guia só, o DAS. Continua igual.</div>
+    </div>
+    <div class="duo-divider-v"></div>
+    <div class="duo-col">
+      <div class="duo-num">SIMPLES HÍBRIDO</div>
+      <div class="duo-h">O novo caminho</div>
+      <div class="duo-text">Continua no Simples. Mas apura IBS e CBS por fora do DAS, pelas regras dos outros regimes.</div>
+    </div>
+  </div>
+  <div class="footer">
+    <span>SIMPLES NACIONAL × SIMPLES HÍBRIDO</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 4 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">04 / 07</span>
+  </div>
+  <div class="kicker">NÃO É BUROCRACIA, É CONTA</div>
+  <div class="rule"></div>
+  <div class="solo-body">Vende pra empresa (<b>B2B</b>)? Tende a sair na frente no híbrido — gera mais crédito pro cliente. Vende pro consumidor final (<b>B2C</b>)? Tende a continuar melhor no modelo de sempre.</div>
+  <div class="footer">
+    <span>SIMPLES NACIONAL × SIMPLES HÍBRIDO</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 5 — NÚMERO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">05 / 07</span>
+  </div>
+  <div class="kicker">A JANELA</div>
+  <div class="rule"></div>
+  <div class="numero-big">1 A 30 DE SETEMBRO DE 2026</div>
+  <div class="numero-sub">É quando você decide. Vale a partir de janeiro de 2027.</div>
+  <div class="footer">
+    <span>SIMPLES NACIONAL × SIMPLES HÍBRIDO</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 6 — CITAÇÃO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">06 / 07</span>
+  </div>
+  <div class="quote-mark">"</div>
+  <div class="quote-text">Seu contador vai te dizer o que a lei manda. Eu digo o que fazer com isso.</div>
+  <div class="quote-attr">GILBERTO SENA</div>
+  <div class="footer">
+    <span>SIMPLES NACIONAL × SIMPLES HÍBRIDO</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL -->
+<div class="slide dark cta-wrap">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">07 / 07</span>
+  </div>
+  <img class="lion-mark" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+  <div class="cta-line">Segue aqui pra entender o que a reforma faz na sua empresa antes que ela te pegue de surpresa.</div>
+  <div class="cta-handle">@GILBERTOSENAOFICIAL</div>
+  <div class="footer">
+    <span>SIMPLES NACIONAL × SIMPLES HÍBRIDO</span>
+    <span>GILBERTOSENA.COM.BR</span>
+  </div>
+</div>
