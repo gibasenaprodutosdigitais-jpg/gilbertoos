@@ -8,7 +8,7 @@ Na prática, isso é até 54% a menos de imposto federal. Quem pagava R$ 500 mil
 
 Dia 17 de setembro eu vou falar sobre Reengenharia Empresarial — minha metodologia própria pra reestruturar negócio.
 
-Comenta REENGENHARIA aqui embaixo pra eu te chamar.
+Inscrição no link da bio.
 
 Gilberto Sena — Grupo Sena Soluções Empresariais.
 
