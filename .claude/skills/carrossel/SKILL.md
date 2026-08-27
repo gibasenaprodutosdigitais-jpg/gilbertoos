@@ -40,6 +40,17 @@ não de coach de Instagram.
 - **Layouts nomeados** (variar pra criar ritmo): CAPA · SOLO · DUO · NÚMERO ·
   CITAÇÃO · CTA FINAL. Nunca dois slides seguidos com o mesmo fundo.
 
+### Foto do Gilberto de fundo (decidido 27/ago/2026)
+
+Por padrão, usar uma foto dele (`identidade/@eubernardocoelho-Gilberto-Sena-104.jpg`
+ou outra equivalente em `identidade/`) como fundo **só do slide CAPA e do CTA
+FINAL** — os slides internos ficam com fundo sólido (mais fácil ler texto
+técnico). Aplicar um overlay escuro semi-transparente por cima da foto
+(gradiente ou cor sólida ~60-75% de opacidade, tom grafite `#0F1419`) pra
+manter o texto/logo legíveis — nunca a foto crua atrás de texto. Se o
+Gilberto pedir claramente "sem foto" nesse pedido específico, usar o fundo
+sólido normal.
+
 ## Estrutura (5 a 10 slides)
 
 - Slide 1: `CAPA` — título impactante (máx 8 palavras)
