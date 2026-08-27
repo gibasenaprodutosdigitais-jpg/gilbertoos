@@ -1,7 +1,7 @@
 # Carrossel — Transportes e a reforma tributária (contraste, educacional)
 
 Fonte: `conhecimento/reforma-tributaria-transportes.md` (pesquisa via `/tendencias`, 27/ago/2026).
-Fundo: foto de caminhão na rodovia (transportes-capa.jpg), overlay padrão (sem alerta — narrativa é contraste, não só má notícia).
+Fundo: foto de ônibus (onibus-capa.jpg, trocado 27/ago/2026 a pedido do Gilberto — capa fala de transporte coletivo), overlay padrão (sem alerta — narrativa é contraste, não só má notícia).
 
 ## Slide 1 — CAPA
 Kicker: REFORMA TRIBUTÁRIA

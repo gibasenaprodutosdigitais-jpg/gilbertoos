@@ -56,6 +56,8 @@ opinar sobre técnica** e cita de onde veio.
 | `reforma-tributaria-odontologia.md` | Odontologia também tem 60% confirmado (não 30%), resultado de articulação do CFO — estimativa de alíquota efetiva ~11,2% | Técnico / tributário / setorial | ⚠ **fichado 27/ago/2026 via `/tendencias` — % é estimativa, alíquota padrão ainda em aberto** |
 | `reforma-tributaria-biomedicina.md` | Biomedicina incluída entre os ~30 serviços de saúde do Anexo VIII (laboratórios, bancos de material biológico) — mesma lógica dos 60% dos médicos/odontologia | Técnico / tributário / setorial | ⚠ **fichado 27/ago/2026 via `/tendencias` — sem estimativa de % específica encontrada** |
 | `reforma-tributaria-clinicas-esteticas.md` | Estética NÃO tem inclusão confirmada nos 60% — depende da classificação do procedimento (NBS), não de quem faz; esteticista sem formação médica corre risco de alíquota cheia | Técnico / tributário / setorial | ⚠ **fichado 27/ago/2026 via `/tendencias` — área de incerteza regulatória real, fonte fala em risco de disputa jurídica** |
+| `reforma-tributaria-transportadoras.md` | CT-e com CBS/IBS destacado obrigatório desde jan/2026 (2026 é teste, sem cobrança efetiva); transição gradual dos tributos antigos até extinção em 2033 | Técnico / tributário / setorial | ⚠ **fichado 27/ago/2026 via `/tendencias`** |
+| `reforma-tributaria-entregadores-app.md` | Entregador/motorista de app (carro, van ou moto): só 25% do faturamento é tributado, plataforma (iFood/Uber/Rappi) recolhe o imposto — mesma regra pra motorista de entrega e moto expresso, sem distinção encontrada | Técnico / tributário / setorial | ⚠ **fichado 27/ago/2026 via `/tendencias`** |
 
 ## Categorias previstas
 
