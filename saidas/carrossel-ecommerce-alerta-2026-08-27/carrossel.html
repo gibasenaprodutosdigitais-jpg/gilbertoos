@@ -1,0 +1,146 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; }
+
+  .slide {
+    width: 1080px; height: 1350px; position: relative;
+    font-family: 'Inter', sans-serif; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 90px 90px 100px 90px;
+  }
+
+  .dark  { background: #0F1419; color: #F4F1EA; }
+  .light { background: #F4F1EA; color: #151515; }
+
+  .alert-bg {
+    background-image: linear-gradient(180deg, rgba(30,10,10,0.82) 0%, rgba(20,8,8,0.68) 45%, rgba(15,6,6,0.92) 100%),
+      url('ecommerce-capa.jpg');
+    background-size: cover;
+    background-position: center 35%;
+    color: #F4F1EA;
+  }
+
+  .gold { color: #C9A227; }
+  .kicker { font-size: 15px; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: #C9A227; margin-bottom: 28px; }
+  .alert-bg .kicker { color: #E2765F; }
+  .rule { width: 64px; height: 4px; background: #C9A227; margin-bottom: 32px; }
+  .alert-bg .rule { background: #D4553F; }
+
+  .topbar { position: absolute; top: 56px; left: 90px; right: 90px; display: flex; justify-content: space-between; align-items: center; z-index: 2; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo-icon { height: 34px; width: auto; display: block; }
+  .wordmark { font-size: 15px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .dark .wordmark, .alert-bg .wordmark { color: #C9A227; }
+  .light .wordmark { color: #151515; }
+  .counter { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; opacity: 0.55; }
+
+  .footer {
+    position: absolute; bottom: 56px; left: 90px; right: 90px;
+    padding-top: 24px; border-top: 1px solid;
+    display: flex; justify-content: space-between;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.04em; z-index: 2;
+  }
+  .dark .footer, .alert-bg .footer { border-color: rgba(244,241,234,0.24); color: rgba(244,241,234,0.65); }
+  .light .footer { border-color: rgba(21,21,21,0.14); color: rgba(21,21,21,0.5); }
+
+  .capa-title { font-size: 68px; font-weight: 900; letter-spacing: -0.03em; line-height: 1.12; max-width: 900px; }
+  .solo-body { font-size: 42px; font-weight: 600; line-height: 1.42; letter-spacing: -0.01em; max-width: 860px; }
+  .solo-body b, .solo-body strong { color: #C9A227; }
+
+  .numero-big { font-size: 66px; font-weight: 900; color: #C9A227; letter-spacing: -0.02em; line-height: 1.12; max-width: 900px; margin-bottom: 36px; }
+  .numero-sub { font-size: 30px; font-weight: 600; line-height: 1.4; max-width: 780px; }
+
+  .cta-wrap { align-items: center; text-align: center; }
+  .cta-line { font-size: 38px; font-weight: 700; line-height: 1.42; max-width: 780px; margin: 0 auto 32px auto; }
+  .cta-tag {
+    font-size: 24px; font-weight: 800; color: #E2765F; letter-spacing: 0.01em; text-transform: uppercase;
+    border: 2px solid #D4553F; padding: 14px 32px; border-radius: 999px; display: inline-block;
+  }
+</style>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide alert-bg">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">01 / 07</span>
+  </div>
+  <div class="kicker">⚠ ALERTA — E-COMMERCE</div>
+  <div class="rule"></div>
+  <div class="capa-title">Seu caixa de e-commerce vai mudar em 2027</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × E-COMMERCE</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">02 / 07</span>
+  </div>
+  <div class="kicker">O QUE MUDA</div>
+  <div class="rule"></div>
+  <div class="solo-body">Se você vende em marketplace ou loja online, a reforma tributária mexe direto no seu <b>fluxo de caixa</b> e no seu modelo de compra.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × E-COMMERCE</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">03 / 07</span>
+  </div>
+  <div class="kicker">SPLIT PAYMENT</div>
+  <div class="rule"></div>
+  <div class="solo-body">O valor do imposto é separado automaticamente na venda, <b>antes de cair na sua conta</b>. Você recebe só o líquido.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × E-COMMERCE</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 4 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">04 / 07</span>
+  </div>
+  <div class="kicker">MARKETPLACE RESPONSÁVEL</div>
+  <div class="rule"></div>
+  <div class="solo-body">Se o vendedor é estrangeiro, ou brasileiro sem nota fiscal/CNPJ ativo, <b>a plataforma responde pelo imposto</b> no lugar dele.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × E-COMMERCE</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 5 — NÚMERO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">05 / 07</span>
+  </div>
+  <div class="kicker">A PARTIR DE 2027</div>
+  <div class="rule"></div>
+  <div class="numero-big">FIM DA ISENÇÃO ATÉ US$ 50</div>
+  <div class="numero-sub">Compra internacional que hoje não paga imposto passa a ter CBS — carga federal estimada em até 9,43%.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × E-COMMERCE</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 6 — SOLO (lição) -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">06 / 07</span>
+  </div>
+  <div class="kicker">A LIÇÃO</div>
+  <div class="rule"></div>
+  <div class="solo-body">Se seu modelo depende de comprar barato lá fora pra revender aqui, <b>o relógio já está correndo</b> até 2027.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × E-COMMERCE</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL -->
+<div class="slide alert-bg cta-wrap">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">07 / 07</span>
+  </div>
+  <div class="cta-line">Quem vende online precisa planejar o caixa agora — não quando o split payment já estiver valendo.</div>
+  <div class="cta-tag">Inscrição no link da bio</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × E-COMMERCE</span><span>GILBERTOSENA.COM.BR</span></div>
+</div>
