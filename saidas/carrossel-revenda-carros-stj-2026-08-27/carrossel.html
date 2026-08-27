@@ -1,0 +1,315 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; }
+
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 90px 100px 90px;
+  }
+
+  .dark   { background: #0F1419; color: #F4F1EA; }
+  .light  { background: #F4F1EA; color: #151515; }
+
+  .photo-bg {
+    background-image: linear-gradient(180deg, rgba(15,20,25,0.72) 0%, rgba(15,20,25,0.55) 40%, rgba(15,20,25,0.88) 100%),
+      url('../../identidade/@eubernardocoelho-Gilberto-Sena-104.jpg');
+    background-size: cover;
+    background-position: center 20%;
+    color: #F4F1EA;
+  }
+
+  .car-bg {
+    background-image: linear-gradient(180deg, rgba(15,20,25,0.80) 0%, rgba(15,20,25,0.62) 45%, rgba(15,20,25,0.92) 100%),
+      url('carro-capa.jpg');
+    background-size: cover;
+    background-position: center 55%;
+    color: #F4F1EA;
+  }
+
+  .gold { color: #C9A227; }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin-bottom: 32px;
+  }
+
+  .topbar {
+    position: absolute;
+    top: 56px;
+    left: 90px;
+    right: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo-icon { height: 34px; width: auto; display: block; }
+  .wordmark { font-size: 15px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .dark .wordmark, .photo-bg .wordmark, .car-bg .wordmark { color: #C9A227; }
+  .light .wordmark { color: #151515; }
+  .counter { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; opacity: 0.55; }
+
+  .footer {
+    position: absolute;
+    bottom: 56px;
+    left: 90px;
+    right: 90px;
+    padding-top: 24px;
+    border-top: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    z-index: 2;
+  }
+  .dark .footer, .photo-bg .footer, .car-bg .footer { border-color: rgba(244,241,234,0.24); color: rgba(244,241,234,0.65); }
+  .light .footer { border-color: rgba(21,21,21,0.14); color: rgba(21,21,21,0.5); }
+
+  /* ICONE CARRO */
+  .car-icon { color: #C9A227; }
+  .car-icon svg { display: block; }
+
+  /* CAPA */
+  .capa-title {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.032em;
+    line-height: 1.08;
+    max-width: 880px;
+  }
+
+  /* SOLO */
+  .solo-body {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.42;
+    letter-spacing: -0.01em;
+    max-width: 860px;
+  }
+  .solo-body b, .solo-body strong { color: #C9A227; }
+
+  /* DUO */
+  .duo-title {
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.16;
+    max-width: 860px;
+    margin-bottom: 56px;
+  }
+  .duo-cols { display: flex; gap: 56px; }
+  .duo-col { flex: 1; }
+  .duo-pct {
+    font-size: 56px;
+    font-weight: 900;
+    color: #C9A227;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+  }
+  .duo-text { font-size: 23px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* NUMERO */
+  .numero-big {
+    font-size: 92px;
+    font-weight: 900;
+    color: #C9A227;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    max-width: 900px;
+    margin-bottom: 36px;
+  }
+  .numero-sub { font-size: 32px; font-weight: 600; line-height: 1.4; max-width: 760px; }
+
+  /* CTA FINAL */
+  .cta-wrap { align-items: center; text-align: center; }
+  .cta-line {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.42;
+    max-width: 780px;
+    margin: 0 auto 32px auto;
+  }
+  .cta-tag {
+    font-size: 26px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    border: 2px solid #C9A227;
+    padding: 14px 32px;
+    border-radius: 999px;
+    display: inline-block;
+  }
+</style>
+
+<!-- SLIDE 1 — CAPA (foto de carro de fundo) -->
+<div class="slide car-bg">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">01 / 07</span>
+  </div>
+  <div class="kicker">DECISÃO DO STJ</div>
+  <div class="rule"></div>
+  <div class="capa-title">Até 54% a menos de imposto pra revenda de carro</div>
+  <div class="footer">
+    <span>REVENDA DE VEÍCULOS</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">02 / 07</span>
+  </div>
+  <div class="car-icon" style="color:#C9A227; margin-bottom:24px;">
+    <svg width="100" height="50" viewBox="0 0 200 90" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M15,62 L15,50 Q15,42 24,40 L52,40 L68,22 Q73,17 82,17 L122,17 Q131,17 137,24 L150,40 L176,40 Q185,42 185,50 L185,62" />
+      <line x1="15" y1="62" x2="185" y2="62" />
+      <circle cx="50" cy="64" r="14" />
+      <circle cx="150" cy="64" r="14" />
+      <circle cx="50" cy="64" r="4" fill="currentColor" />
+      <circle cx="150" cy="64" r="4" fill="currentColor" />
+    </svg>
+  </div>
+  <div class="kicker">COMO FUNCIONA HOJE</div>
+  <div class="rule"></div>
+  <div class="solo-body">Revendedor de carro tem um benefício: a compra e venda se equipara à <b>prestação de serviço</b> de veículos consignados. Comprou por 40, vendeu por 50 — os 10 mil de lucro viram faturamento. E a Receita diz que <b>32%</b> desse faturamento é lucro.</div>
+  <div class="footer">
+    <span>REVENDA DE VEÍCULOS</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">03 / 07</span>
+  </div>
+  <div class="kicker">O QUE O STJ DECIDIU</div>
+  <div class="rule"></div>
+  <div class="solo-body">Só que revender carro não é prestar serviço — é <b>comércio</b>. Foi exatamente isso que o STJ reconheceu: ali não há prestação de serviço, só compra e venda.</div>
+  <div class="footer">
+    <span>REVENDA DE VEÍCULOS</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 4 — DUO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">04 / 07</span>
+  </div>
+  <div class="kicker">A DIFERENÇA</div>
+  <div class="rule"></div>
+  <div class="duo-title">Sobre o mesmo faturamento, dois presumidos diferentes</div>
+  <div class="duo-cols">
+    <div class="duo-col">
+      <div class="duo-pct">32%</div>
+      <div class="duo-text">O que a Receita cobra hoje, tratando como prestação de serviço.</div>
+    </div>
+    <div class="duo-divider-v" style="background: rgba(21,21,21,0.14);"></div>
+    <div class="duo-col">
+      <div class="duo-pct">8,12%</div>
+      <div class="duo-text">O que o STJ reconheceu, tratando como comércio — compra e venda.</div>
+    </div>
+  </div>
+  <div class="footer">
+    <span>REVENDA DE VEÍCULOS</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 5 — NÚMERO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">05 / 07</span>
+  </div>
+  <div class="kicker">NA PRÁTICA</div>
+  <div class="rule"></div>
+  <div class="numero-big">ATÉ 54% A MENOS</div>
+  <div class="numero-sub">Quem pagava R$ 500 mil de imposto no ano passa a pagar R$ 220 mil.</div>
+  <div class="footer">
+    <span>REVENDA DE VEÍCULOS</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 6 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">06 / 07</span>
+  </div>
+  <div class="kicker">E TEM MAIS</div>
+  <div class="rule"></div>
+  <div class="solo-body">Essa decisão permite <b>restituir</b> o que foi pago a mais nos últimos <b>5 anos</b>.</div>
+  <div class="footer">
+    <span>REVENDA DE VEÍCULOS</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL (foto de fundo) -->
+<div class="slide photo-bg cta-wrap">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">07 / 07</span>
+  </div>
+  <div class="cta-line">Dia 17 de setembro eu vou falar sobre Reengenharia Empresarial — minha metodologia própria pra reestruturar negócio.</div>
+  <div class="cta-tag">Comenta REENGENHARIA aqui embaixo</div>
+  <div class="footer">
+    <span>REVENDA DE VEÍCULOS</span>
+    <span>GILBERTOSENA.COM.BR</span>
+  </div>
+</div>

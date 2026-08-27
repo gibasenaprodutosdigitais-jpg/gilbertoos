@@ -45,6 +45,7 @@ opinar sobre técnica** e cita de onde veio.
 | `turnaround-rede-multiunidades-diagnostico-gargalos.md` | Sinais de alerta e método de diagnóstico em turnaround de rede multi-unidades em déficit — caso real anonimizado | Escala / negócios | ⚠ **fichado 21/jul/2026 — caso real anonimizado** |
 | `kit-auto-consultoria-luz.md` | Índice/estrutura de 9 amostras pagas (marca Luz): controle financeiro, RH, comercial, modelo de negócios, planejamento estratégico/financeiro, precificação, plano de negócios, mapeamento de processos | Negócios (referência de terceiro) | ⚠ **fichado 23/ago/2026 — NÃO é IP do Gilberto Sena, conteúdo raso de propósito (amostra de venda), usar só como checklist de temas** |
 | `questionario-decisoes-financeiras-corporativas.md` | Fragmento de 1 página (anexo de trabalho acadêmico não identificado): questionário sobre como a empresa decide investir/financiar | Técnico / finanças (fragmento) | ⚠ **fichado 23/ago/2026 — conteúdo insuficiente pra fonte técnica, útil só como modelo de pergunta de diagnóstico** |
+| `stj-revenda-veiculos-tributacao.md` | STJ reconhece que revenda de veículo é comércio (não prestação de serviço) — presumido cai de 32% pra 8,12%, até 54% menos imposto federal, restituição de 5 anos | Técnico / tributário | ⚠ **fichado 27/ago/2026 — explicado de próprio punho pelo Gilberto, falta confirmar número do acórdão/processo do STJ antes de citar como fato fechado** |
 
 ## Categorias previstas
 
