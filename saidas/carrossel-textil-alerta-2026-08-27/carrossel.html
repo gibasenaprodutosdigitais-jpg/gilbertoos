@@ -1,0 +1,231 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; }
+
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 90px 100px 90px;
+  }
+
+  .dark   { background: #0F1419; color: #F4F1EA; }
+  .light  { background: #F4F1EA; color: #151515; }
+
+  .alert-bg {
+    background-image: linear-gradient(180deg, rgba(30,10,10,0.82) 0%, rgba(20,8,8,0.68) 45%, rgba(15,6,6,0.92) 100%),
+      url('textil-capa.jpg');
+    background-size: cover;
+    background-position: center 45%;
+    color: #F4F1EA;
+  }
+
+  .gold { color: #C9A227; }
+  .red { color: #D4553F; }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .alert-bg .kicker { color: #E2765F; }
+
+  .rule { width: 64px; height: 4px; background: #C9A227; margin-bottom: 32px; }
+  .alert-bg .rule { background: #D4553F; }
+
+  .topbar {
+    position: absolute;
+    top: 56px; left: 90px; right: 90px;
+    display: flex; justify-content: space-between; align-items: center;
+    z-index: 2;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo-icon { height: 34px; width: auto; display: block; }
+  .wordmark { font-size: 15px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .dark .wordmark, .alert-bg .wordmark { color: #C9A227; }
+  .light .wordmark { color: #151515; }
+  .counter { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; opacity: 0.55; }
+
+  .footer {
+    position: absolute; bottom: 56px; left: 90px; right: 90px;
+    padding-top: 24px; border-top: 1px solid;
+    display: flex; justify-content: space-between;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.04em;
+    z-index: 2;
+  }
+  .dark .footer, .alert-bg .footer { border-color: rgba(244,241,234,0.24); color: rgba(244,241,234,0.65); }
+  .light .footer { border-color: rgba(21,21,21,0.14); color: rgba(21,21,21,0.5); }
+
+  /* CAPA */
+  .capa-title { font-size: 74px; font-weight: 900; letter-spacing: -0.03em; line-height: 1.1; max-width: 900px; }
+
+  /* SOLO */
+  .solo-body { font-size: 42px; font-weight: 600; line-height: 1.42; letter-spacing: -0.01em; max-width: 860px; }
+  .solo-body b, .solo-body strong { color: #C9A227; }
+
+  /* DUO */
+  .duo-title { font-size: 42px; font-weight: 800; letter-spacing: -0.015em; line-height: 1.18; max-width: 860px; margin-bottom: 48px; }
+  .duo-cols { display: flex; gap: 56px; }
+  .duo-col { flex: 1; }
+  .duo-num { font-size: 18px; font-weight: 900; color: #C9A227; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .duo-h { font-size: 28px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 16px; line-height: 1.18; }
+  .duo-text { font-size: 21px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* CTA FINAL */
+  .cta-wrap { align-items: center; text-align: center; }
+  .cta-line { font-size: 38px; font-weight: 700; line-height: 1.42; max-width: 780px; margin: 0 auto 32px auto; }
+  .cta-tag {
+    font-size: 24px; font-weight: 800; color: #E2765F; letter-spacing: 0.01em; text-transform: uppercase;
+    border: 2px solid #D4553F; padding: 14px 32px; border-radius: 999px; display: inline-block;
+  }
+</style>
+
+<!-- SLIDE 1 — CAPA (foto têxtil, overlay alerta) -->
+<div class="slide alert-bg">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">01 / 07</span>
+  </div>
+  <div class="kicker">⚠ ALERTA — SETOR TÊXTIL</div>
+  <div class="rule"></div>
+  <div class="capa-title">Têxtil não ganhou benefício nenhum na reforma</div>
+  <div class="footer">
+    <span>REFORMA TRIBUTÁRIA × TÊXTIL</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">02 / 07</span>
+  </div>
+  <div class="kicker">O QUE ESTÃO VENDENDO</div>
+  <div class="rule"></div>
+  <div class="solo-body">Tem gente vendendo que o setor têxtil ganhou redução de imposto na reforma tributária. Fui checar a lei. <b>Não é verdade.</b></div>
+  <div class="footer">
+    <span>REFORMA TRIBUTÁRIA × TÊXTIL</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">03 / 07</span>
+  </div>
+  <div class="kicker">A LISTA DE 60% DE REDUÇÃO</div>
+  <div class="rule"></div>
+  <div class="solo-body">Saúde, educação, dispositivo médico, produto agropecuário in natura, produção artística e cultural nacional. <b>Têxtil, confecção e vestuário não estão nessa lista.</b> Pagam a alíquota padrão.</div>
+  <div class="footer">
+    <span>REFORMA TRIBUTÁRIA × TÊXTIL</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 4 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">04 / 07</span>
+  </div>
+  <div class="kicker">O CRÉDITO PRESUMIDO TAMBÉM NÃO</div>
+  <div class="rule"></div>
+  <div class="solo-body">A reforma dá crédito presumido pra produtor rural, transportador autônomo, reciclagem e — o único setor industrial de verdade — o <b>automotivo</b>. Têxtil não está em nenhuma dessas categorias.</div>
+  <div class="footer">
+    <span>REFORMA TRIBUTÁRIA × TÊXTIL</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 5 — DUO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">05 / 07</span>
+  </div>
+  <div class="kicker">O QUE MUDA DE VERDADE</div>
+  <div class="rule"></div>
+  <div class="duo-title">Não é um benefício novo. É um benefício antigo acabando.</div>
+  <div class="duo-cols">
+    <div class="duo-col">
+      <div class="duo-num">O QUE SOME</div>
+      <div class="duo-h">Incentivo de ICMS</div>
+      <div class="duo-text">Tipo o PROVIN, no Ceará — extinto com o fim da guerra fiscal entre estados.</div>
+    </div>
+    <div class="duo-divider-v"></div>
+    <div class="duo-col">
+      <div class="duo-num">O QUE SOBRA</div>
+      <div class="duo-h">Fundo de Compensação</div>
+      <div class="duo-text">R$ 160 bilhões — mas o repasse só vale de 2029 a 2032.</div>
+    </div>
+  </div>
+  <div class="footer">
+    <span>REFORMA TRIBUTÁRIA × TÊXTIL</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 6 — SOLO (lição) -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">06 / 07</span>
+  </div>
+  <div class="kicker">A LIÇÃO</div>
+  <div class="rule"></div>
+  <div class="solo-body">Se você é do têxtil e está esperando uma redução chegar, o alerta é esse: <b>não vem</b>. O que vem é prazo pra se adaptar à perda de um incentivo que você já tinha.</div>
+  <div class="footer">
+    <span>REFORMA TRIBUTÁRIA × TÊXTIL</span>
+    <span>@GILBERTOSENAOFICIAL</span>
+  </div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL (foto têxtil, overlay alerta) -->
+<div class="slide alert-bg cta-wrap">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena">
+      <span class="wordmark">GILBERTO SENA</span>
+    </div>
+    <span class="counter">07 / 07</span>
+  </div>
+  <div class="cta-line">Se seu negócio depende de incentivo de ICMS, esse é o momento de recalcular — não daqui a 3 anos.</div>
+  <div class="cta-tag">Inscrição no link da bio</div>
+  <div class="footer">
+    <span>REFORMA TRIBUTÁRIA × TÊXTIL</span>
+    <span>GILBERTOSENA.COM.BR</span>
+  </div>
+</div>
