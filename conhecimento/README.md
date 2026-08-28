@@ -58,6 +58,7 @@ opinar sobre técnica** e cita de onde veio.
 | `reforma-tributaria-clinicas-esteticas.md` | Estética NÃO tem inclusão confirmada nos 60% — depende da classificação do procedimento (NBS), não de quem faz; esteticista sem formação médica corre risco de alíquota cheia | Técnico / tributário / setorial | ⚠ **fichado 27/ago/2026 via `/tendencias` — área de incerteza regulatória real, fonte fala em risco de disputa jurídica** |
 | `reforma-tributaria-transportadoras.md` | CT-e com CBS/IBS destacado obrigatório desde jan/2026 (2026 é teste, sem cobrança efetiva); transição gradual dos tributos antigos até extinção em 2033 | Técnico / tributário / setorial | ⚠ **fichado 27/ago/2026 via `/tendencias`** |
 | `reforma-tributaria-entregadores-app.md` | Entregador/motorista de app (carro, van ou moto): só 25% do faturamento é tributado, plataforma (iFood/Uber/Rappi) recolhe o imposto — mesma regra pra motorista de entrega e moto expresso, sem distinção encontrada | Técnico / tributário / setorial | ⚠ **fichado 27/ago/2026 via `/tendencias`** |
+| `reforma-tributaria-pessoa-fisica-autonomo.md` | Pessoa física autônoma/profissional liberal (diarista, pedreiro, nutricionista, médico, advogado) vira contribuinte de CBS a partir de 2027 (~9,21%) — imposto que nunca pagava, além de IRPF/ISS/INSS, com CNPJ técnico e nota fiscal novos | Técnico / tributário | ⚠ **fichado 27/ago/2026 — explicado de próprio punho pelo Gilberto (voz), números não cruzados com fonte externa ainda** |
 
 ## Categorias previstas
 

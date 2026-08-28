@@ -1,0 +1,155 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; }
+
+  .slide {
+    width: 1080px; height: 1350px; position: relative;
+    font-family: 'Inter', sans-serif; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 90px 90px 100px 90px;
+  }
+
+  .dark  { background: #0F1419; color: #F4F1EA; }
+  .light { background: #F4F1EA; color: #151515; }
+
+  .photo-bg {
+    background-image: linear-gradient(180deg, rgba(30,10,10,0.80) 0%, rgba(20,8,8,0.66) 45%, rgba(15,6,6,0.92) 100%),
+      url('autonomo-capa.jpg');
+    background-size: cover;
+    background-position: center 35%;
+    color: #F4F1EA;
+  }
+
+  .gold { color: #C9A227; }
+  .kicker { font-size: 15px; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: #C9A227; margin-bottom: 28px; }
+  .photo-bg .kicker { color: #E2765F; }
+  .rule { width: 64px; height: 4px; background: #C9A227; margin-bottom: 32px; }
+  .photo-bg .rule { background: #D4553F; }
+
+  .topbar { position: absolute; top: 56px; left: 90px; right: 90px; display: flex; justify-content: space-between; align-items: center; z-index: 2; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo-icon { height: 34px; width: auto; display: block; }
+  .wordmark { font-size: 15px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .dark .wordmark, .photo-bg .wordmark { color: #C9A227; }
+  .light .wordmark { color: #151515; }
+  .counter { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; opacity: 0.55; }
+
+  .footer {
+    position: absolute; bottom: 56px; left: 90px; right: 90px;
+    padding-top: 24px; border-top: 1px solid;
+    display: flex; justify-content: space-between;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.04em; z-index: 2;
+  }
+  .dark .footer, .photo-bg .footer { border-color: rgba(244,241,234,0.24); color: rgba(244,241,234,0.65); }
+  .light .footer { border-color: rgba(21,21,21,0.14); color: rgba(21,21,21,0.5); }
+
+  .capa-title { font-size: 72px; font-weight: 900; letter-spacing: -0.03em; line-height: 1.12; max-width: 900px; }
+  .solo-body { font-size: 42px; font-weight: 600; line-height: 1.42; letter-spacing: -0.01em; max-width: 860px; }
+  .solo-body b, .solo-body strong { color: #C9A227; }
+
+  .duo-title { font-size: 42px; font-weight: 800; letter-spacing: -0.015em; line-height: 1.18; max-width: 860px; margin-bottom: 48px; }
+  .duo-cols { display: flex; gap: 56px; }
+  .duo-col { flex: 1; }
+  .duo-num { font-size: 18px; font-weight: 900; color: #C9A227; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .duo-h { font-size: 26px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 16px; line-height: 1.2; }
+  .duo-text { font-size: 21px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(21,21,21,0.14); }
+  .dark .duo-divider-v { background: rgba(244,241,234,0.18); }
+
+  .numero-big { font-size: 76px; font-weight: 900; color: #C9A227; letter-spacing: -0.02em; line-height: 1.1; max-width: 900px; margin-bottom: 36px; }
+  .numero-sub { font-size: 30px; font-weight: 600; line-height: 1.4; max-width: 780px; }
+
+  .cta-wrap { align-items: center; text-align: center; }
+  .cta-line { font-size: 38px; font-weight: 700; line-height: 1.42; max-width: 780px; margin: 0 auto 32px auto; }
+  .cta-tag {
+    font-size: 24px; font-weight: 800; color: #E2765F; letter-spacing: 0.01em; text-transform: uppercase;
+    border: 2px solid #D4553F; padding: 14px 32px; border-radius: 999px; display: inline-block;
+  }
+</style>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide photo-bg">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">01 / 07</span>
+  </div>
+  <div class="kicker">⚠ ALERTA — AUTÔNOMOS E LIBERAIS</div>
+  <div class="rule"></div>
+  <div class="capa-title">Você vai virar contribuinte de um imposto novo</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × AUTÔNOMOS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">02 / 07</span>
+  </div>
+  <div class="kicker">QUEM ISSO PEGA</div>
+  <div class="rule"></div>
+  <div class="solo-body">Diarista, pedreiro, nutricionista, médico, advogado — <b>qualquer pessoa física</b> que trabalha por conta própria de forma habitual e profissional.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × AUTÔNOMOS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">03 / 07</span>
+  </div>
+  <div class="kicker">O QUE VOCÊ JÁ PAGA HOJE</div>
+  <div class="rule"></div>
+  <div class="solo-body">Imposto de Renda (até 27,5%), ISS (2% a 5%, ou fixo) e INSS (11% do salário mínimo ou 20% da remuneração bruta).</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × AUTÔNOMOS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 4 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">04 / 07</span>
+  </div>
+  <div class="kicker">O QUE ENTRA DE NOVO</div>
+  <div class="rule"></div>
+  <div class="solo-body">Com a reforma, você também vira <b>contribuinte de CBS</b> — o imposto que substitui PIS e Cofins, e que pessoa física nunca pagou.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × AUTÔNOMOS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 5 — NUMERO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">05 / 07</span>
+  </div>
+  <div class="kicker">A PARTIR DE 2027</div>
+  <div class="rule"></div>
+  <div class="numero-big">9,21%</div>
+  <div class="numero-sub">Alíquota esperada de CBS pra pessoa física. Alguns setores têm redutor — às vezes de 50% — mas mesmo assim é imposto novo em cima do que já existia.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × AUTÔNOMOS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 6 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">06 / 07</span>
+  </div>
+  <div class="kicker">E NÃO PARA AÍ</div>
+  <div class="rule"></div>
+  <div class="solo-body">Vai precisar de <b>CNPJ técnico</b>, emitir <b>nota fiscal</b>, e provavelmente de ajuda profissional pra dar conta da gestão.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × AUTÔNOMOS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL -->
+<div class="slide photo-bg cta-wrap">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">07 / 07</span>
+  </div>
+  <div class="cta-line">Mais imposto, mais burocracia — pra quem, até hoje, só se preocupava com o carnê-leão.</div>
+  <div class="cta-tag">Inscrição no link da bio</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × AUTÔNOMOS</span><span>GILBERTOSENA.COM.BR</span></div>
+</div>
