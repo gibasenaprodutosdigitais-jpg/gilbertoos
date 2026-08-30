@@ -1,0 +1,168 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; }
+
+  .slide {
+    width: 1080px; height: 1350px; position: relative;
+    font-family: 'Inter', sans-serif; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 90px 90px 100px 90px;
+  }
+
+  .dark  { background: #0F1419; color: #F4F1EA; }
+  .light { background: #F4F1EA; color: #151515; }
+
+  .photo-bg {
+    background-image: linear-gradient(180deg, rgba(15,20,25,0.75) 0%, rgba(15,20,25,0.58) 45%, rgba(15,20,25,0.90) 100%),
+      url('../../identidade/@eubernardocoelho-Gilberto-Sena-104.jpg');
+    background-size: cover;
+    background-position: center 20%;
+    color: #F4F1EA;
+  }
+
+  .gold { color: #C9A227; }
+  .kicker { font-size: 15px; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: #C9A227; margin-bottom: 28px; }
+  .photo-bg .kicker { color: #C9A227; }
+  .rule { width: 64px; height: 4px; background: #C9A227; margin-bottom: 32px; }
+  .photo-bg .rule { background: #C9A227; }
+
+  .topbar { position: absolute; top: 56px; left: 90px; right: 90px; display: flex; justify-content: space-between; align-items: center; z-index: 2; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo-icon { height: 34px; width: auto; display: block; }
+  .wordmark { font-size: 15px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .dark .wordmark, .photo-bg .wordmark { color: #C9A227; }
+  .light .wordmark { color: #151515; }
+  .counter { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; opacity: 0.55; }
+
+  .footer {
+    position: absolute; bottom: 56px; left: 90px; right: 90px;
+    padding-top: 24px; border-top: 1px solid;
+    display: flex; justify-content: space-between;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.04em; z-index: 2;
+  }
+  .dark .footer, .photo-bg .footer { border-color: rgba(244,241,234,0.24); color: rgba(244,241,234,0.65); }
+  .light .footer { border-color: rgba(21,21,21,0.14); color: rgba(21,21,21,0.5); }
+
+  .capa-title { font-size: 72px; font-weight: 900; letter-spacing: -0.03em; line-height: 1.12; max-width: 900px; }
+  .solo-body { font-size: 42px; font-weight: 600; line-height: 1.42; letter-spacing: -0.01em; max-width: 860px; }
+  .solo-body b, .solo-body strong { color: #C9A227; }
+
+  .duo-title { font-size: 42px; font-weight: 800; letter-spacing: -0.015em; line-height: 1.18; max-width: 860px; margin-bottom: 48px; }
+  .duo-cols { display: flex; gap: 56px; }
+  .duo-col { flex: 1; }
+  .duo-num { font-size: 18px; font-weight: 900; color: #C9A227; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .duo-h { font-size: 26px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 16px; line-height: 1.2; }
+  .duo-text { font-size: 21px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(21,21,21,0.14); }
+  .dark .duo-divider-v { background: rgba(244,241,234,0.18); }
+
+  .numero-big { font-size: 76px; font-weight: 900; color: #C9A227; letter-spacing: -0.02em; line-height: 1.1; max-width: 900px; margin-bottom: 36px; }
+  .numero-sub { font-size: 30px; font-weight: 600; line-height: 1.4; max-width: 780px; }
+
+  .cta-wrap { align-items: center; text-align: center; }
+  .cta-line { font-size: 38px; font-weight: 700; line-height: 1.42; max-width: 780px; margin: 0 auto 32px auto; }
+  .cta-tag {
+    font-size: 24px; font-weight: 800; color: #C9A227; letter-spacing: 0.01em; text-transform: uppercase;
+    border: 2px solid #C9A227; padding: 14px 32px; border-radius: 999px; display: inline-block;
+  }
+</style>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide photo-bg">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">01 / 07</span>
+  </div>
+  <div class="kicker">PRAZO 31/12/2026 — REFORMA TRIBUTÁRIA</div>
+  <div class="rule"></div>
+  <div class="capa-title">O relógio do seu patrimônio já começou a correr</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × CONSTRUÇÃO E IMÓVEIS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">02 / 07</span>
+  </div>
+  <div class="kicker">O MECANISMO</div>
+  <div class="rule"></div>
+  <div class="solo-body">A reforma criou o <b>redutor de ajuste</b>: na venda de um imóvel ou terreno que você já tem hoje, só é tributado o que ele <b>valorizar depois da transição</b> — o valor histórico de aquisição fica de fora da conta.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × CONSTRUÇÃO E IMÓVEIS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">03 / 07</span>
+  </div>
+  <div class="kicker">POR QUE ISSO EXISTE</div>
+  <div class="rule"></div>
+  <div class="solo-body">O princípio é simples: o Estado <b>não tributa o patrimônio que você já formou</b>. Ele quer parte do que ainda vai nascer daqui pra frente.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × CONSTRUÇÃO E IMÓVEIS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 4 — NÚMERO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">04 / 07</span>
+  </div>
+  <div class="kicker">A LINHA DE PARTIDA</div>
+  <div class="rule"></div>
+  <div class="numero-big">31/12/2026</div>
+  <div class="numero-sub">É até essa data que você precisa documentar e atualizar o valor de aquisição do seu imóvel ou terreno, corrigido pelo IPCA.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × CONSTRUÇÃO E IMÓVEIS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 5 — DUO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">05 / 07</span>
+  </div>
+  <div class="kicker">QUEM SE PLANEJA</div>
+  <div class="rule"></div>
+  <div class="duo-title">O que muda entre documentar e não documentar</div>
+  <div class="duo-cols">
+    <div class="duo-col">
+      <div class="duo-num">QUEM DOCUMENTA ATÉ 31/12</div>
+      <div class="duo-h">Paga só sobre o novo</div>
+      <div class="duo-text">Imposto incide apenas sobre o que valorizar daqui pra frente.</div>
+    </div>
+    <div class="duo-divider-v"></div>
+    <div class="duo-col">
+      <div class="duo-num">QUEM NÃO DOCUMENTA</div>
+      <div class="duo-h">Corre risco no passado</div>
+      <div class="duo-text">Pode acabar pagando sobre uma valorização que já era sua.</div>
+    </div>
+  </div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × CONSTRUÇÃO E IMÓVEIS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 6 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">06 / 07</span>
+  </div>
+  <div class="kicker">A LIÇÃO</div>
+  <div class="rule"></div>
+  <div class="solo-body">Reforma tributária não é só imposto que sobe ou desce — é <b>prazo</b>. Quem trata isso como notícia perde a janela. Quem trata como decisão de gestão chega em 2027 com o terreno em ordem.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × CONSTRUÇÃO E IMÓVEIS</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL -->
+<div class="slide photo-bg cta-wrap">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">07 / 07</span>
+  </div>
+  <div class="cta-line">Se você tem imóvel ou terreno parado, o prazo pra proteger o que já é seu termina em 31 de dezembro de 2026.</div>
+  <div class="cta-tag">Inscrição no link da bio</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × CONSTRUÇÃO E IMÓVEIS</span><span>GILBERTOSENA.COM.BR</span></div>
+</div>
