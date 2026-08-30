@@ -1,0 +1,167 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; }
+
+  .slide {
+    width: 1080px; height: 1350px; position: relative;
+    font-family: 'Inter', sans-serif; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 90px 90px 100px 90px;
+  }
+
+  .dark  { background: #0F1419; color: #F4F1EA; }
+  .light { background: #F4F1EA; color: #151515; }
+
+  .photo-bg {
+    background-image: linear-gradient(180deg, rgba(15,20,25,0.75) 0%, rgba(15,20,25,0.58) 45%, rgba(15,20,25,0.90) 100%),
+      url('educacao-capa.jpg');
+    background-size: cover;
+    background-position: center 30%;
+    color: #F4F1EA;
+  }
+
+  .gold { color: #C9A227; }
+  .kicker { font-size: 15px; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: #C9A227; margin-bottom: 28px; }
+  .photo-bg .kicker { color: #C9A227; }
+  .rule { width: 64px; height: 4px; background: #C9A227; margin-bottom: 32px; }
+  .photo-bg .rule { background: #C9A227; }
+
+  .topbar { position: absolute; top: 56px; left: 90px; right: 90px; display: flex; justify-content: space-between; align-items: center; z-index: 2; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo-icon { height: 34px; width: auto; display: block; }
+  .wordmark { font-size: 15px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .dark .wordmark, .photo-bg .wordmark { color: #C9A227; }
+  .light .wordmark { color: #151515; }
+  .counter { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; opacity: 0.55; }
+
+  .footer {
+    position: absolute; bottom: 56px; left: 90px; right: 90px;
+    padding-top: 24px; border-top: 1px solid;
+    display: flex; justify-content: space-between;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.04em; z-index: 2;
+  }
+  .dark .footer, .photo-bg .footer { border-color: rgba(244,241,234,0.24); color: rgba(244,241,234,0.65); }
+  .light .footer { border-color: rgba(21,21,21,0.14); color: rgba(21,21,21,0.5); }
+
+  .capa-title { font-size: 72px; font-weight: 900; letter-spacing: -0.03em; line-height: 1.12; max-width: 900px; }
+  .solo-body { font-size: 42px; font-weight: 600; line-height: 1.42; letter-spacing: -0.01em; max-width: 860px; }
+  .solo-body b, .solo-body strong { color: #C9A227; }
+
+  .duo-title { font-size: 42px; font-weight: 800; letter-spacing: -0.015em; line-height: 1.18; max-width: 860px; margin-bottom: 48px; }
+  .duo-cols { display: flex; gap: 56px; }
+  .duo-col { flex: 1; }
+  .duo-num { font-size: 18px; font-weight: 900; color: #C9A227; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .duo-h { font-size: 26px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 16px; line-height: 1.2; }
+  .duo-text { font-size: 21px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(21,21,21,0.14); }
+  .dark .duo-divider-v { background: rgba(244,241,234,0.18); }
+
+  .numero-big { font-size: 76px; font-weight: 900; color: #C9A227; letter-spacing: -0.02em; line-height: 1.1; max-width: 900px; margin-bottom: 36px; }
+  .numero-sub { font-size: 30px; font-weight: 600; line-height: 1.4; max-width: 780px; }
+
+  .cta-wrap { align-items: center; text-align: center; }
+  .cta-line { font-size: 38px; font-weight: 700; line-height: 1.42; max-width: 780px; margin: 0 auto 32px auto; }
+  .cta-tag {
+    font-size: 24px; font-weight: 800; color: #C9A227; letter-spacing: 0.01em; text-transform: uppercase;
+    border: 2px solid #C9A227; padding: 14px 32px; border-radius: 999px; display: inline-block;
+  }
+</style>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide photo-bg">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">01 / 07</span>
+  </div>
+  <div class="kicker">REFORMA TRIBUTÁRIA × EDUCAÇÃO</div>
+  <div class="rule"></div>
+  <div class="capa-title">60% de redução, só que não</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × EDUCAÇÃO</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">02 / 07</span>
+  </div>
+  <div class="kicker">O QUE A LEI GARANTE</div>
+  <div class="rule"></div>
+  <div class="solo-body">A LC 214/2025 reduz em <b>60%</b> a alíquota de IBS/CBS pra serviços educacionais listados no Anexo II da lei — escola, faculdade, curso livre, quando enquadrados.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × EDUCAÇÃO</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">03 / 07</span>
+  </div>
+  <div class="kicker">ONDE O DESCONTO PARA</div>
+  <div class="rule"></div>
+  <div class="solo-body">A redução vale só pra <b>mensalidade</b> e pro serviço educacional em si. Aluguel de espaço, material didático e atividade extracurricular avulsa pagam <b>alíquota cheia</b>.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × EDUCAÇÃO</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 4 — DUO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">04 / 07</span>
+  </div>
+  <div class="kicker">O QUE ENTRA VS O QUE FICA DE FORA</div>
+  <div class="rule"></div>
+  <div class="duo-title">Nem tudo que a escola cobra tem desconto</div>
+  <div class="duo-cols">
+    <div class="duo-col">
+      <div class="duo-num">ENTRA (60% OFF)</div>
+      <div class="duo-h">Mensalidade</div>
+      <div class="duo-text">Serviço educacional listado no Anexo II da LC 214/2025.</div>
+    </div>
+    <div class="duo-divider-v"></div>
+    <div class="duo-col">
+      <div class="duo-num">FICA DE FORA</div>
+      <div class="duo-h">Alíquota cheia</div>
+      <div class="duo-text">Material didático, aluguel de espaço, extracurricular avulso.</div>
+    </div>
+  </div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × EDUCAÇÃO</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 5 — SOLO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">05 / 07</span>
+  </div>
+  <div class="kicker">P&D SEM FINS LUCRATIVOS</div>
+  <div class="rule"></div>
+  <div class="solo-body">Pesquisa e desenvolvimento feito por <b>instituto científico e tecnológico sem fins lucrativos</b> tem alíquota <b>zero</b>.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × EDUCAÇÃO</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 6 — SOLO -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">06 / 07</span>
+  </div>
+  <div class="kicker">A LIÇÃO</div>
+  <div class="rule"></div>
+  <div class="solo-body">Quem só olhar "educação tem 60% de desconto" vai precificar errado. Quem não separa a mensalidade dos serviços correlatos paga cheio numa parte que <b>achava que tinha desconto</b>.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × EDUCAÇÃO</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 7 — CTA FINAL -->
+<div class="slide photo-bg cta-wrap">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">07 / 07</span>
+  </div>
+  <div class="cta-line">Se sua escola cobra material, espaço ou atividade extra junto da mensalidade, a hora de separar isso no contrato é agora.</div>
+  <div class="cta-tag">Inscrição no link da bio</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × EDUCAÇÃO</span><span>GILBERTOSENA.COM.BR</span></div>
+</div>
