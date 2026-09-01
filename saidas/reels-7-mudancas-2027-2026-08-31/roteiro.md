@@ -1,13 +1,15 @@
 # Reels — As 7 mudanças que caem juntas em 2027
 
 Base: adaptação de vídeo de terceiro (transcrito pelo Gilberto), reescrito na
-voz dele. Cruzado com `conhecimento/reforma-tributaria.md`,
-`reforma-tributaria-pessoa-fisica-autonomo.md` e
-`reforma-tributaria-imobiliario-aluguel.md` — bate nos pontos principais
-(data de extinção PIS/Cofins, alíquota de referência, janela do Simples,
-split payment, limiar de aluguel). Três dados não conferidos na base
-própria: CIB, limiar de R$40.500/ano do autônomo, detalhes da reforma do IR
-— usar como o vídeo original trouxe, sinalizar se virar fato formal.
+voz dele. Cruzado e confirmado (01/set/2026, via `/tendencias`) com
+`conhecimento/reforma-tributaria.md`,
+`reforma-tributaria-pessoa-fisica-autonomo.md`,
+`reforma-tributaria-imobiliario-aluguel.md`,
+`reforma-tributaria-nanoempreendedor.md`, `reforma-tributaria-cib.md` e
+`reforma-ir-dividendos-2026.md` — todos os 7 números batem, nenhuma data
+mudou. Detalhe extra que não estava no vídeo original: motorista/entregador
+de app tem teto efetivo de R$162 mil/ano (só 25% do bruto conta como
+receita) em vez dos R$40.500 padrão.
 
 Formato: vídeo falado, mais longo que o padrão de Reels (30-50s) — cabe no
 formato de segunda-feira (Ensino) da grade semanal, 3-4 min falado.
