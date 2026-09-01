@@ -1,0 +1,170 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; }
+
+  .slide {
+    width: 1080px; height: 1350px; position: relative;
+    font-family: 'Inter', sans-serif; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 90px 90px 100px 90px;
+  }
+
+  .dark  { background: #0F1419; color: #F4F1EA; }
+  .light { background: #F4F1EA; color: #151515; }
+
+  .photo-bg {
+    background-image: linear-gradient(180deg, rgba(15,20,25,0.75) 0%, rgba(15,20,25,0.58) 45%, rgba(15,20,25,0.90) 100%),
+      url('../../identidade/@eubernardocoelho-Gilberto-Sena-104.jpg');
+    background-size: cover;
+    background-position: center 20%;
+    color: #F4F1EA;
+  }
+
+  .gold { color: #C9A227; }
+  .kicker { font-size: 15px; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: #C9A227; margin-bottom: 28px; }
+  .photo-bg .kicker { color: #C9A227; }
+  .rule { width: 64px; height: 4px; background: #C9A227; margin-bottom: 32px; }
+  .photo-bg .rule { background: #C9A227; }
+
+  .topbar { position: absolute; top: 56px; left: 90px; right: 90px; display: flex; justify-content: space-between; align-items: center; z-index: 2; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo-icon { height: 34px; width: auto; display: block; }
+  .wordmark { font-size: 15px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .dark .wordmark, .photo-bg .wordmark { color: #C9A227; }
+  .light .wordmark { color: #151515; }
+  .counter { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; opacity: 0.55; }
+
+  .footer {
+    position: absolute; bottom: 56px; left: 90px; right: 90px;
+    padding-top: 24px; border-top: 1px solid;
+    display: flex; justify-content: space-between;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.04em; z-index: 2;
+  }
+  .dark .footer, .photo-bg .footer { border-color: rgba(244,241,234,0.24); color: rgba(244,241,234,0.65); }
+  .light .footer { border-color: rgba(21,21,21,0.14); color: rgba(21,21,21,0.5); }
+
+  .capa-title { font-size: 72px; font-weight: 900; letter-spacing: -0.03em; line-height: 1.12; max-width: 900px; }
+  .solo-body { font-size: 42px; font-weight: 600; line-height: 1.42; letter-spacing: -0.01em; max-width: 860px; }
+  .solo-body b, .solo-body strong { color: #C9A227; }
+
+  .numero-big { font-size: 76px; font-weight: 900; color: #C9A227; letter-spacing: -0.02em; line-height: 1.1; max-width: 900px; margin-bottom: 36px; }
+  .numero-sub { font-size: 30px; font-weight: 600; line-height: 1.4; max-width: 780px; }
+
+  .cta-wrap { align-items: center; text-align: center; }
+  .cta-line { font-size: 36px; font-weight: 700; line-height: 1.42; max-width: 800px; margin: 0 auto 32px auto; }
+  .cta-tag {
+    font-size: 24px; font-weight: 800; color: #C9A227; letter-spacing: 0.01em; text-transform: uppercase;
+    border: 2px solid #C9A227; padding: 14px 32px; border-radius: 999px; display: inline-block;
+  }
+</style>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide photo-bg">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">01 / 09</span>
+  </div>
+  <div class="kicker">REFORMA TRIBUTÁRIA 2027</div>
+  <div class="rule"></div>
+  <div class="capa-title">7 mudanças caem juntas na tua empresa</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">02 / 09</span>
+  </div>
+  <div class="kicker">1 — CBS SUBSTITUI PIS E COFINS</div>
+  <div class="rule"></div>
+  <div class="solo-body">1º de janeiro de 2027. Alíquota de referência: <b>26,5%</b> — mas já tem conta revisada beirando <b>28%</b>. Numa empresa de R$200 mil por mês, cada ponto de diferença são R$24 mil no ano.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 3 -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">03 / 09</span>
+  </div>
+  <div class="kicker">2 — O IMPOSTO DO PECADO</div>
+  <div class="rule"></div>
+  <div class="solo-body">Bebida, cigarro, refrigerante, veículo poluente: o <b>Imposto Seletivo</b> estreia junto. A alíquota está pronta desde maio e <b>ainda não foi divulgada</b>.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 4 -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">04 / 09</span>
+  </div>
+  <div class="kicker">3 — SPLIT PAYMENT</div>
+  <div class="rule"></div>
+  <div class="solo-body">O imposto sai <b>antes</b> de entrar no seu caixa. O sistema separa a parte do governo na hora do pagamento — no início, só entre empresas, de forma facultativa.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 5 — NÚMERO -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">05 / 09</span>
+  </div>
+  <div class="kicker">4 — SIMPLES NACIONAL</div>
+  <div class="rule"></div>
+  <div class="numero-big">1 a 30/set</div>
+  <div class="numero-sub">É a janela pra decidir como recolher CBS e IBS a partir de 2027. Vale pro 1º semestre — dá pra cancelar até 30 de novembro.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 6 -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">06 / 09</span>
+  </div>
+  <div class="kicker">5 — O AUTÔNOMO ENTRA</div>
+  <div class="rule"></div>
+  <div class="solo-body">Acima de <b>R$40.500 por ano</b> — uns R$3.300 por mês — psicólogo, designer, professor particular passam a apurar CBS e IBS a partir de 2027.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 7 -->
+<div class="slide dark">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">07 / 09</span>
+  </div>
+  <div class="kicker">6 — O IMÓVEL GANHA CPF</div>
+  <div class="rule"></div>
+  <div class="solo-body">Cartório, prefeitura e Receita passam a ver o mesmo imóvel no mesmo cadastro. Quem aluga só vira contribuinte com <b>mais de 3 imóveis</b> e mais de <b>R$240 mil</b> por ano — com redução de 70% na base.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 8 -->
+<div class="slide light">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">08 / 09</span>
+  </div>
+  <div class="kicker">7 — A SUA RETIRADA</div>
+  <div class="rule"></div>
+  <div class="solo-body">Dividendo acima de <b>R$50 mil/mês</b> já sai retido na fonte. Quem soma mais de <b>R$1,2 milhão/ano</b> entra num mínimo de 10%. A era do "salário baixo, dividendo isento" acabou.</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 9 — CTA FINAL -->
+<div class="slide photo-bg cta-wrap">
+  <div class="topbar">
+    <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
+    <span class="counter">09 / 09</span>
+  </div>
+  <div class="cta-line">O fio que liga as sete é o mesmo: informação incompleta e prazo correndo. A diferença não é sorte — é gestão.</div>
+  <div class="cta-tag">Inscrição no link da bio</div>
+  <div class="footer"><span>REFORMA TRIBUTÁRIA × 7 MUDANÇAS 2027</span><span>GILBERTOSENA.COM.BR</span></div>
+</div>
