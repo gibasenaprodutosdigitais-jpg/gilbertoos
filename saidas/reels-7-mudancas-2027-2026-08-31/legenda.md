@@ -4,7 +4,7 @@ Em 2027 não cai um imposto novo em cima da tua empresa. Cai o sistema inteiro, 
 
 1. CBS substitui PIS/Cofins (1º/jan/2027, alíquota ~26,5-28%)
 2. Imposto Seletivo — o "imposto do pecado", alíquota ainda travada
-3. Split payment — o imposto sai antes do seu caixa
+3. Split payment — o imposto vai sair antes do seu caixa, mas só a partir do 2º semestre de 2027, em etapas (não janeiro, como se falava)
 4. Simples Nacional — decisão em setembro
 5. Autônomo entra acima de R$40.500/ano
 6. Imóvel ganha CPF (CIB) — aluguel no radar

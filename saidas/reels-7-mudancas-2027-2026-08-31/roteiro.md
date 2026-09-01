@@ -6,10 +6,16 @@ voz dele. Cruzado e confirmado (01/set/2026, via `/tendencias`) com
 `reforma-tributaria-pessoa-fisica-autonomo.md`,
 `reforma-tributaria-imobiliario-aluguel.md`,
 `reforma-tributaria-nanoempreendedor.md`, `reforma-tributaria-cib.md` e
-`reforma-ir-dividendos-2026.md` — todos os 7 números batem, nenhuma data
-mudou. Detalhe extra que não estava no vídeo original: motorista/entregador
-de app tem teto efetivo de R$162 mil/ano (só 25% do bruto conta como
-receita) em vez dos R$40.500 padrão.
+`reforma-ir-dividendos-2026.md`. Detalhe extra que não estava no vídeo
+original: motorista/entregador de app tem teto efetivo de R$162 mil/ano (só
+25% do bruto conta como receita) em vez dos R$40.500 padrão.
+
+⚠️ **Correção 01/set/2026 — item 3 (split payment) mudou de fato**:
+confirmado em reunião do Comitê Gestor do IBS de 12/ago/2026 que o split
+payment NÃO começa em janeiro de 2027 — só é lançado a partir do 2º
+semestre de 2027, em etapas (menor volume primeiro, varejo por último).
+Texto abaixo já corrigido — ver `conhecimento/reforma-tributaria.md`,
+seção 8.
 
 Formato: vídeo falado, mais longo que o padrão de Reels (30-50s) — cabe no
 formato de segunda-feira (Ensino) da grade semanal, 3-4 min falado.
@@ -24,7 +30,7 @@ Primeira: CBS substitui PIS e Cofins, 1º de janeiro de 2027. A alíquota de ref
 
 Segunda: o Imposto Seletivo, o 'imposto do pecado'. Bebida, cigarro, refrigerante, veículo poluente — tudo que o governo classifica como prejudicial paga uma cobrança extra. A proposta de alíquota está pronta desde maio e ainda não foi divulgada.
 
-Terceira: split payment. O imposto sai antes de entrar no seu caixa. A partir de 2027, o sistema separa a parte do imposto na hora do pagamento — no início, de forma facultativa, só entre empresas. Se seu giro depende desse intervalo, refaz essa conta agora, enquanto ainda é escolha.
+Terceira: split payment. O imposto vai sair antes de entrar no seu caixa — só que não em janeiro, como muita gente ainda repete. Foi confirmado que o split payment só começa a ser lançado a partir do segundo semestre de 2027, em etapas — primeiro os segmentos de menor movimento, o varejo por último. Em janeiro, a cobrança segue pelo jeito de sempre: você apura e recolhe. Ganhou-se prazo, não se ganhou isenção — se seu giro depende desse intervalo, a hora de planejar é agora, com mais tempo do que se falava.
 
 Quarta: Simples Nacional, decisão em setembro. De 1º a 30 de setembro você escolhe como recolher CBS e IBS a partir de 2027. Vale só pro primeiro semestre, e dá pra cancelar até 30 de novembro. Trinta dias pra decidir seis meses.
 

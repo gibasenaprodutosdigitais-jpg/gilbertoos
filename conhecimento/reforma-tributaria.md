@@ -158,11 +158,23 @@ A partir de 2027, a empresa do Simples escolhe **como recolhe IBS e CBS**:
 - **Status:** documentação técnica da **Plataforma Pública do Split Payment**
   publicada pela Receita + Comitê Gestor do IBS em **junho/2026** (instituições
   financeiras e adquirentes desenvolvendo as integrações).
-- **Quando:** testes em 2026 (sem recolhimento real) → **valendo a partir de 2027**,
-  com prioridade para **Pix e boleto**.
-- **Por que dói:** acaba o "float" — aquele dinheiro do imposto que ficava no caixa
-  da empresa até a data de recolher. **Muda o fluxo de caixa de todo mundo.** Quem
-  vive de girar o dinheiro do imposto vai sentir.
+- ⚠ **Atualização 01/set/2026 — NÃO começa em janeiro de 2027.** Confirmado em
+  reunião do Comitê Gestor do IBS de **12/ago/2026**: o split payment de fato
+  só começa a ser lançado a partir do **2º semestre de 2027**, em etapas —
+  primeiro segmentos de **menor volume de transação**, deixando o varejo
+  (farmácias, em especial) pro final. Base legal: **Decreto nº 12.955/2026,
+  art. 33** (estrutura em fases; cronograma exato ainda por ato conjunto
+  Receita + Comitê Gestor). Motivo: o próprio sistema financeiro pediu mais
+  prazo — é considerada a ferramenta tecnicamente mais complexa da reforma.
+- **O que vale em janeiro/2027, então:** a cobrança da CBS acontece pelos
+  **meios tradicionais** — o contribuinte apura e extingue o débito por
+  compensação de crédito ou pagamento, igual acontece hoje. O split entra
+  depois, por cima disso.
+- **Por que dói (quando chegar):** acaba o "float" — aquele dinheiro do
+  imposto que ficava no caixa da empresa até a data de recolher. **Muda o
+  fluxo de caixa de todo mundo.** Quem vive de girar o dinheiro do imposto
+  vai sentir — só que agora com mais tempo de janela pra se preparar.
+- **Fontes da atualização:** [Diário do Comércio](https://dcomercio.com.br/publicacao/s/split-payment-da-reforma-tributaria-nao-fica-pronto-em-janeiro-de-2027), [Contábeis](https://www.contabeis.com.br/noticias/78723/split-payment-nao-comeca-em-janeiro-de-2027-entenda/), [Radar da Reforma Tributária — duas etapas](https://radardareformatributaria.com/split-payment-duas-etapas-implementacao-decreto-12955/), [Gaiga Advocacia](https://gaiga.adv.br/reforma-tributaria-por-que-o-split-payment-nao-vai-comecar-em-janeiro-de-2027/)
 
 ---
 

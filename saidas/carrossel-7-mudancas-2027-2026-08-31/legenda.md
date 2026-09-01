@@ -4,7 +4,7 @@ Em 2027 não cai um imposto novo em cima da tua empresa. Cai o sistema inteiro, 
 
 2. O Imposto Seletivo — "imposto do pecado" — estreia junto. Alíquota pronta desde maio, ainda não divulgada.
 
-3. Split payment: o imposto sai antes de entrar no seu caixa.
+3. Split payment: o imposto vai sair antes de entrar no seu caixa — mas só a partir do 2º semestre de 2027, em etapas (não janeiro, como se falava).
 
 4. Simples Nacional: de 1 a 30 de setembro você decide como recolher CBS e IBS a partir de 2027.
 

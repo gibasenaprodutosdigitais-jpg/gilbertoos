@@ -6,7 +6,12 @@ voz dele. Cruzado e confirmado (01/set/2026, via `/tendencias`) com
 `reforma-tributaria-pessoa-fisica-autonomo.md`,
 `reforma-tributaria-imobiliario-aluguel.md`,
 `reforma-tributaria-nanoempreendedor.md`, `reforma-tributaria-cib.md` e
-`reforma-ir-dividendos-2026.md` — os 7 números batem, nenhuma data mudou.
+`reforma-ir-dividendos-2026.md`.
+
+⚠️ **Correção 01/set/2026 — slide 4 (split payment) mudou de fato**:
+confirmado em reunião do Comitê Gestor do IBS de 12/ago/2026 que o split
+payment NÃO começa em janeiro de 2027 — só é lançado a partir do 2º
+semestre de 2027, em etapas. Slide abaixo já corrigido.
 
 ## Slide 1 — CAPA
 Kicker: REFORMA TRIBUTÁRIA 2027
@@ -21,8 +26,8 @@ Kicker: 2 — O IMPOSTO DO PECADO
 "Bebida, cigarro, refrigerante, veículo poluente: o Imposto Seletivo estreia junto. A alíquota está pronta desde maio e ainda não foi divulgada."
 
 ## Slide 4 — SOLO (light)
-Kicker: 3 — SPLIT PAYMENT
-"O imposto sai antes de entrar no seu caixa. O sistema separa a parte do governo na hora do pagamento — no início, só entre empresas, de forma facultativa."
+Kicker: 3 — SPLIT PAYMENT (ADIADO)
+"O imposto vai sair antes do seu caixa — só que não em janeiro. Split payment só começa a ser lançado no 2º semestre de 2027, em etapas: menor volume primeiro, varejo por último."
 
 ## Slide 5 — NÚMERO (dark)
 Kicker: 4 — SIMPLES NACIONAL
