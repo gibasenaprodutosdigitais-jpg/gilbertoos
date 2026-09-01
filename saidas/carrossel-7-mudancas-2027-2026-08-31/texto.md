@@ -1,12 +1,12 @@
 # Carrossel — As 7 mudanças que caem juntas em 2027
 
 Base: adaptação de vídeo de terceiro (transcrito pelo Gilberto), reescrito na
-voz dele e cruzado com `conhecimento/reforma-tributaria.md`,
-`reforma-tributaria-pessoa-fisica-autonomo.md` e
-`reforma-tributaria-imobiliario-aluguel.md`. Três dados (CIB, limiar de
-R$40.500/ano do autônomo, detalhes da reforma do IR) vêm só do vídeo
-original — não conferidos na base própria, sinalizar se usar como fato
-fechado.
+voz dele. Cruzado e confirmado (01/set/2026, via `/tendencias`) com
+`conhecimento/reforma-tributaria.md`,
+`reforma-tributaria-pessoa-fisica-autonomo.md`,
+`reforma-tributaria-imobiliario-aluguel.md`,
+`reforma-tributaria-nanoempreendedor.md`, `reforma-tributaria-cib.md` e
+`reforma-ir-dividendos-2026.md` — os 7 números batem, nenhuma data mudou.
 
 ## Slide 1 — CAPA
 Kicker: REFORMA TRIBUTÁRIA 2027
