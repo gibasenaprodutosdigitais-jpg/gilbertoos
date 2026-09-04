@@ -11,14 +11,17 @@
 
 **PARTE REVELADORA / PROPRIETÁRIA:**
 
-**GILBERTO LUÍS DE SENA**, brasileiro, nascido em 23/02/1973, empresário e advogado, portador do CPF nº `[ ]` e do RG nº `[ ]`, residente e domiciliado em `[endereço completo]`, doravante denominado **PROPRIETÁRIO** ou **PARTE REVELADORA**, atuando por si e em nome das sociedades por ele controladas, coligadas ou administradas, as quais são desde já reconhecidas como **beneficiárias diretas** deste acordo.
+**GILBERTO LUIS DE SENA**, brasileiro, casado, **empresário, gestor e CEO empresarial**, nascido em 23/02/1973, portador do CPF nº **850.812.306-00**, residente e domiciliado na Rua Cosme Damião, nº 100, bairro Nossa Senhora de Lourdes, CEP 33.233-224, Lagoa Santa/MG, doravante denominado **PROPRIETÁRIO** ou **PARTE REVELADORA**, atuando por si e em nome das sociedades por ele controladas, coligadas ou administradas, as quais são desde já reconhecidas como **beneficiárias diretas** deste acordo.
 
 **PARTE RECEPTORA:**
 
-**CID PINHEIRO** `[nome civil completo]`, brasileiro, `[estado civil]`, `[profissão]`, portador do CPF nº `[ ]` e do RG nº `[ ]`, residente e domiciliado em `[endereço completo]`, doravante denominado **RECEPTOR** ou **PARTE RECEPTORA**.
+**CID PINHEIRO NOGUEIRA DE FREITAS**, brasileiro, solteiro, desenvolvedor de software, nascido em 19/09/1994, natural de Cordeiro/RJ, filho de Antonio Teixeira de Freitas Junior e de Verônica Maria Pinheiro Nogueira, portador do CPF nº **149.650.067-98** e do RG nº **24.484.503-8 DETRAN/RJ**, expedido em 23/11/2021, residente e domiciliado na Rua Monteiro Lobato, nº 51, bairro Vista Alegre, CEP 33.200-017, Vespasiano/MG, doravante denominado **RECEPTOR** ou **PARTE RECEPTORA**;
 
-`[Se atuar por pessoa jurídica, acrescentar:]`
-`[RAZÃO SOCIAL DA PJ]`, inscrita no CNPJ nº `[ ]`, com sede em `[ ]`, representada por **Cid Pinheiro**, acima qualificado, que assina este instrumento também **na qualidade de pessoa física, como devedor solidário** de todas as obrigações aqui assumidas, respondendo com seu patrimônio pessoal.
+e, na qualidade de empresa individual por ele titularizada,
+
+**61.082.182 CID PINHEIRO NOGUEIRA DE FREITAS**, empresário individual, inscrito no CNPJ nº **61.082.182/0001-81**, porte ME, com sede na Rua Monteiro Lobato, nº 51, bairro Vista Alegre, CEP 33.200-017, Vespasiano/MG, doravante denominada **PJ DO RECEPTOR**.
+
+**Nota de responsabilidade patrimonial:** as PARTES registram que a PJ DO RECEPTOR é **empresário individual** (natureza jurídica 213-5), figura que **não possui separação patrimonial** em relação à pessoa física de seu titular. Assim, **Cid Pinheiro Nogueira de Freitas** responde pessoal, ilimitada e solidariamente, **com todo o seu patrimônio presente e futuro**, pelas obrigações deste acordo e, em especial, pela **cláusula penal do item 8.1**, assinando este instrumento **em ambas as qualidades** — como pessoa física e como titular da empresa individual —, sendo desnecessária qualquer medida de desconsideração da personalidade jurídica para a satisfação do crédito do PROPRIETÁRIO.
 
 ---
 
@@ -40,7 +43,7 @@ Assim, as PARTES celebram o presente **ACORDO DE CONFIDENCIALIDADE E NÃO DIVULG
 
 **1.1.** Este acordo tem por objeto estabelecer as condições de proteção, sigilo, uso restrito e não divulgação de todas as **Informações Confidenciais** reveladas pelo PROPRIETÁRIO ao RECEPTOR, ou por este conhecidas em razão de qualquer contato, tratativa, avaliação, negociação, prestação de serviço ou acesso a sistemas, ambientes e documentos do PROPRIETÁRIO.
 
-**1.2.** Este acordo alcança as informações reveladas **antes, durante e após** sua assinatura, **inclusive com efeitos retroativos** a todas as informações já compartilhadas entre as PARTES até a presente data.
+**1.2.** Este acordo alcança as informações reveladas **antes, durante e após** sua assinatura, **inclusive com efeitos retroativos a 01 de agosto de 2026**, data de início efetivo da relação entre as PARTES, e a toda e qualquer informação compartilhada em período anterior a essa data, alcançando integralmente tudo o que o RECEPTOR conheceu, acessou ou recebeu desde o primeiro contato entre as PARTES.
 
 ---
 
@@ -116,7 +119,7 @@ Assim, as PARTES celebram o presente **ACORDO DE CONFIDENCIALIDADE E NÃO DIVULG
 
 **5.2. Limites.** A restrição observa: **(a) escopo material** — os segmentos e as soluções acima; **(b) território** — território nacional brasileiro e os países em que o PROPRIETÁRIO comprovadamente opere ou tenha operação em implantação, notadamente `[Portugal, Angola, Panamá — ajustar]`; **(c)** independentemente de território, é vedado prestar serviços a cliente, prospecto ou parceiro do PROPRIETÁRIO conhecido em razão deste acordo.
 
-**5.3. Compensação.** Como contrapartida específica à restrição pós-término do item 5.1, o PROPRIETÁRIO pagará ao RECEPTOR compensação mensal de R$ `[ ]` (`[valor por extenso]`), durante os 24 (vinte e quatro) meses da restrição, mediante recibo. **5.3.1.** A compensação **cessa de imediato**, com dever de restituição integral do já recebido, em caso de violação de qualquer cláusula deste acordo. **5.3.2.** O PROPRIETÁRIO poderá, a seu exclusivo critério e mediante notificação escrita no término ou em até 15 (quinze) dias após, **renunciar** à restrição do item 5.1, total ou parcialmente, ficando desobrigado da compensação correspondente.
+**5.3. Compensação.** Como contrapartida específica à restrição pós-término do item 5.1, o PROPRIETÁRIO pagará ao RECEPTOR compensação mensal de **R$ 3.960,00 (três mil, novecentos e sessenta reais)**, correspondente a 99% (noventa e nove por cento) da última remuneração mensal do RECEPTOR no contrato de prestação de serviços celebrado entre as PARTES, durante os 24 (vinte e quatro) meses da restrição, mediante recibo. **5.3.1.** A compensação **cessa de imediato**, com dever de restituição integral do já recebido, em caso de violação de qualquer cláusula deste acordo. **5.3.2.** O PROPRIETÁRIO poderá, a seu exclusivo critério e mediante notificação escrita no término ou em até 15 (quinze) dias após, **renunciar** à restrição do item 5.1, total ou parcialmente, ficando desobrigado da compensação correspondente.
 
 **5.4. Não aliciamento.** Durante a vigência e por **24 (vinte e quatro) meses** após o término, o RECEPTOR obriga-se a não aliciar, contratar, desviar ou tentar desviar clientes, prospectos, parceiros, fornecedores, sócios, empregados, prestadores ou colaboradores do PROPRIETÁRIO. Esta obrigação **não é remunerada** pelo item 5.3, por não restringir o exercício profissional.
 
@@ -199,24 +202,26 @@ Assim, as PARTES celebram o presente **ACORDO DE CONFIDENCIALIDADE E NÃO DIVULG
 **10.5.** Este acordo obriga as PARTES, seus herdeiros e sucessores. É **vedada ao RECEPTOR** a cessão de sua posição; ao PROPRIETÁRIO é permitida a cessão a suas sociedades controladas, controladoras, coligadas ou a terceiros, sem anuência do RECEPTOR.
 
 **10.6.** As PARTES reconhecem a validade das notificações enviadas aos endereços eletrônicos abaixo e da **assinatura eletrônica** deste instrumento, nos termos do art. 10, § 2º, da MP nº 2.200-2/2001 e da Lei nº 14.063/2020.
-- PROPRIETÁRIO: `[e-mail]`
-- RECEPTOR: `[e-mail]`
 
-**10.7.** Fica eleito o foro da Comarca de **`[Belo Horizonte/MG]`**, com renúncia a qualquer outro, por mais privilegiado que seja.
+- PROPRIETÁRIO: gibasena.produtosdigitais@gmail.com
+- RECEPTOR: cid.pnogueira@gmail.com
 
-E por estarem de pleno acordo, as PARTES firmam o presente instrumento em `[2 (duas)]` vias de igual teor, ou por assinatura eletrônica, na presença das testemunhas abaixo, que também o subscrevem para os fins do art. 784, III, do CPC.
+**10.7.** Fica eleito o foro da Comarca de **Belo Horizonte/MG**, com renúncia a qualquer outro, por mais privilegiado que seja. `[Alternativa: Comarca de Lagoa Santa/MG, domicílio do PROPRIETÁRIO.]`
 
-`[Cidade]`, `[ ]` de `[ ]` de 2026.
+E por estarem de pleno acordo, as PARTES firmam o presente instrumento em 2 (duas) vias de igual teor, ou por assinatura eletrônica, na presença das testemunhas abaixo, que também o subscrevem para os fins do art. 784, III, do CPC.
+
+Belo Horizonte/MG, `[ ]` de `[ ]` de 2026.
 
 <br>
 
 | | |
 |---|---|
 | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |
-| **GILBERTO LUÍS DE SENA**<br>PROPRIETÁRIO / PARTE REVELADORA<br>CPF: `[ ]` | **CID PINHEIRO**<br>PARTE RECEPTORA<br>CPF: `[ ]` |
+| **GILBERTO LUIS DE SENA**<br>PROPRIETÁRIO / PARTE REVELADORA<br>CPF: 850.812.306-00 | **CID PINHEIRO NOGUEIRA DE FREITAS**<br>PARTE RECEPTORA — pessoa física<br>CPF: 149.650.067-98 |
 
-`[Se houver PJ:]` \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ — `[RAZÃO SOCIAL]`, CNPJ `[ ]`, p. Cid Pinheiro
-**(assina também como devedor solidário)**
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**61.082.182 CID PINHEIRO NOGUEIRA DE FREITAS** — CNPJ 61.082.182/0001-81
+*p. Cid Pinheiro Nogueira de Freitas, titular* — **(assina também nesta qualidade, como devedor solidário)**
 
 **TESTEMUNHAS** *(indispensáveis para valer como título executivo extrajudicial)***:**
 
@@ -229,7 +234,9 @@ E por estarem de pleno acordo, as PARTES firmam o presente instrumento em `[2 (d
 
 1. **As 2 testemunhas são obrigatórias.** Sem elas, o acordo perde a força de **título executivo extrajudicial** (art. 784, III, CPC) — e você teria que ganhar uma ação de conhecimento antes de poder executar o milhão. Com elas, vai direto pra execução.
 2. **Sobre o R$ 1.000.000,00:** o valor está redigido como multa **por evento** e **não compensatória** — ou seja, soma com perdas e danos. O juiz pode reduzi-la se entender desproporcional ao dano (art. 413 do Código Civil), e por isso o item 8.4 blinda o resto: mesmo reduzida, você segue podendo cobrar dano comprovado e o lucro que ele tirou da violação. O efeito dissuasório de um milhão declarado é, na prática, o principal valor da cláusula.
-3. **Assinatura em duplicidade (PJ + PF):** é o ponto mais importante depois das testemunhas. Se só a PJ assinar, ele fecha a empresa e a multa vira pó. Com a pessoa física como devedora solidária, responde o patrimônio pessoal.
-4. **Ordem de assinatura:** assine este NDA **primeiro**, antes de mostrar código, *business plan* ou base de clientes ao Cid. Ele é autônomo e vale mesmo se o contrato de serviço não for fechado.
-5. **Compensação de não concorrência (5.3):** sem valor preenchido, a restrição pós-término do item 5.1 fica frágil em juízo. O item 5.3.2 te deixa decidir no fim se paga ou se libera.
-6. **Revisão obrigatória:** minuta de trabalho. Passe pelo seu jurídico antes de assinar.
+3. **A PJ dele é Empresário Individual — e isso joga a seu favor.** O CNPJ 61.082.182/0001-81 é natureza jurídica 213-5 (Empresário Individual), que **não tem separação patrimonial**. Ou seja: a multa alcança o patrimônio pessoal do Cid direto, sem precisar de desconsideração da personalidade jurídica. Mesmo assim, mantenha as **duas assinaturas** (PF + EI) como está — elimina qualquer discussão futura.
+4. **Cobrabilidade real:** a empresa é ME, aberta em 30/05/2025, e ele não tem patrimônio para honrar R$ 1 milhão. A multa vale como **dissuasão** — o objetivo é a violação nunca acontecer. Se você quiser chance real de receber, avalie exigir **aval, fiança ou nota promissória de terceiro** na assinatura.
+5. **Ordem de assinatura:** assine este NDA **primeiro**, antes de mostrar código, *business plan* ou base de clientes. Ele é autônomo e vale mesmo se o contrato de serviço não fechar. Como o Cid já trabalha desde 01/08/2026, o item 1.2 faz o acordo **retroagir** e cobrir tudo que ele já viu.
+6. **Compensação de não concorrência (5.3):** fixada em R$ 3.960,00/mês (99% da remuneração de R$ 4.000,00 do contrato de serviço) — valor bem acima da faixa usual de mercado (30% a 50%), o que blinda a cláusula em juízo, mas ao longo de 24 meses soma quase R$ 95 mil se você mantiver a restrição até o fim. O item 5.3.2 é sua saída: no término, você decide pagar e manter o Cid fora do mercado, ou renunciar e não pagar nada.
+7. **Falta preencher:** data de assinatura e as duas testemunhas — isso só se define na hora de assinar.
+8. **Revisão obrigatória:** minuta de trabalho. Passe pelo seu jurídico antes de assinar.

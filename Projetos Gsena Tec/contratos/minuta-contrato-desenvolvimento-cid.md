@@ -9,17 +9,20 @@
 
 **CONTRATANTE E TITULAR DOS DIREITOS:**
 
-**GILBERTO LUÍS DE SENA**, brasileiro, nascido em 23/02/1973, empresário e advogado, portador do CPF nº `[ ]` e do RG nº `[ ]`, residente e domiciliado em `[endereço completo]`, doravante denominado **CONTRATANTE** ou **TITULAR**.
+**GILBERTO LUIS DE SENA**, brasileiro, casado, **empresário, gestor e CEO empresarial**, nascido em 23/02/1973, portador do CPF nº **850.812.306-00**, residente e domiciliado na Rua Cosme Damião, nº 100, bairro Nossa Senhora de Lourdes, CEP 33.233-224, Lagoa Santa/MG, doravante denominado **CONTRATANTE** ou **TITULAR**.
 
-`[Se o contrato for celebrado pela pessoa jurídica, incluir também:]`
-`[RAZÃO SOCIAL]`, pessoa jurídica de direito privado, inscrita no CNPJ nº `[ ]`, com sede em `[ ]`, neste ato representada por seu administrador **Gilberto Luís de Sena**, acima qualificado.
+`[Opcional — se o contrato for celebrado também pela pessoa jurídica, incluir:]`
+`[RAZÃO SOCIAL]`, pessoa jurídica de direito privado, inscrita no CNPJ nº `[ ]`, com sede em `[ ]`, neste ato representada por seu administrador **Gilberto Luis de Sena**, acima qualificado.
 
 **PRESTADOR DOS SERVIÇOS / DESENVOLVEDOR:**
 
-**CID PINHEIRO** `[nome civil completo]`, brasileiro, `[estado civil]`, `[profissão]`, portador do CPF nº `[ ]` e do RG nº `[ ]`, residente e domiciliado em `[endereço completo]`, doravante denominado **PRESTADOR** ou **DESENVOLVEDOR**.
+**CID PINHEIRO NOGUEIRA DE FREITAS**, brasileiro, solteiro, desenvolvedor de software, nascido em 19/09/1994, natural de Cordeiro/RJ, filho de Antonio Teixeira de Freitas Junior e de Verônica Maria Pinheiro Nogueira, portador do CPF nº **149.650.067-98** e do RG nº **24.484.503-8 DETRAN/RJ**, expedido em 23/11/2021, residente e domiciliado na Rua Monteiro Lobato, nº 51, bairro Vista Alegre, CEP 33.200-017, Vespasiano/MG, doravante denominado **PRESTADOR** ou **DESENVOLVEDOR**;
 
-`[Se atuar por pessoa jurídica, acrescentar:]`
-`[RAZÃO SOCIAL DA PJ]`, inscrita no CNPJ nº `[ ]`, com sede em `[ ]`, representada por **Cid Pinheiro**, acima qualificado, que assina este instrumento também **na qualidade de pessoa física, como devedor solidário** das obrigações de propriedade intelectual, confidencialidade, não concorrência e não aliciamento aqui assumidas.
+e, na qualidade de empresa individual por ele titularizada,
+
+**61.082.182 CID PINHEIRO NOGUEIRA DE FREITAS**, empresário individual, inscrito no CNPJ nº **61.082.182/0001-81**, porte ME, com sede na Rua Monteiro Lobato, nº 51, bairro Vista Alegre, CEP 33.200-017, Vespasiano/MG, doravante denominada **PJ DO PRESTADOR**.
+
+**Nota de responsabilidade:** as PARTES registram que a PJ DO PRESTADOR é **empresário individual** (natureza jurídica 213-5), figura que **não possui separação patrimonial** em relação à pessoa física de seu titular. Assim, **Cid Pinheiro Nogueira de Freitas** responde pessoal, ilimitada e solidariamente, com todo o seu patrimônio, por todas as obrigações deste instrumento — em especial as de propriedade intelectual, confidencialidade, não concorrência e não aliciamento —, assinando este contrato **em ambas as qualidades**, como pessoa física e como titular da empresa individual.
 
 As partes acima identificadas, doravante denominadas conjuntamente **PARTES** e individualmente **PARTE**, têm entre si justo e contratado o presente instrumento, que se regerá pelas cláusulas e condições seguintes.
 
@@ -46,6 +49,8 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 **1.1.** O objeto deste contrato é a prestação, pelo PRESTADOR ao CONTRATANTE, de serviços técnicos de análise, arquitetura, programação, desenvolvimento, integração, testes, implantação, documentação, manutenção e evolução de aplicativos, sistemas, plataformas web, plataformas em modelo **SaaS (Software as a Service)**, automações, agentes de inteligência artificial, bancos de dados e demais soluções de tecnologia, conforme especificado no **ANEXO I — Projetos Abrangidos** e no **ANEXO II — Escopo e Cronograma**.
 
 **1.2.** O objeto compreende, expressamente e sem limitação, os projetos denominados **OCEO** e **HUB GSENA**, bem como **todo e qualquer aplicativo, sistema, módulo, funcionalidade, ferramenta, produto ou solução tecnológica criado, desenvolvido, customizado, adaptado, integrado ou aprimorado pelo PRESTADOR para o CONTRATANTE**, sob a marca, o nome, o negócio ou a orientação do CONTRATANTE, durante toda a vigência deste instrumento — ainda que não expressamente listado no ANEXO I, o qual é meramente exemplificativo e será atualizado por simples troca de e-mail entre as PARTES, sem necessidade de termo aditivo.
+
+**1.2.1.** Consideram-se abrangidos por este contrato e de titularidade exclusiva do CONTRATANTE, **independentemente de aditivo ou nova assinatura**, quaisquer produtos, módulos, ferramentas, marcas, frentes de atuação ou **novos negócios** que venham a ser criados, agregados, integrados ou lançados **sob o Hub GSena ou a ele vinculados**, ainda que sob nome, marca ou pessoa jurídica distintos, bastando que tenham se originado, ainda que parcialmente, do trabalho do PRESTADOR no âmbito deste contrato.
 
 **1.3.** Presume-se abrangida por este contrato, pertencendo ao CONTRATANTE, toda criação de tecnologia produzida pelo PRESTADOR durante a vigência que: (a) tenha relação, direta ou indireta, com as atividades, os mercados ou os projetos do CONTRATANTE; (b) tenha se originado, ainda que parcialmente, de informação, ideia, dado, especificação, insumo, credencial, acesso ou recurso fornecido pelo CONTRATANTE; ou (c) tenha sido desenvolvida com uso de equipamentos, licenças, contas, ambientes, infraestrutura ou custeio do CONTRATANTE. Cabe ao PRESTADOR o ônus de provar o contrário.
 
@@ -93,15 +98,24 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 
 ## CLÁUSULA 5 — DA REMUNERAÇÃO
 
-**5.1.** Pelos serviços objeto deste contrato, o CONTRATANTE pagará ao PRESTADOR:
+**5.1.** Pelos serviços objeto deste contrato, o CONTRATANTE pagará ao PRESTADOR a **remuneração mensal fixa de R$ 4.000,00 (quatro mil reais)**, a título de honorários pela prestação de serviços técnicos autônomos.
 
-`[Escolher uma das modalidades e excluir as demais]`
+**5.1.1. Forma de pagamento.** A remuneração será quitada em **2 (duas) parcelas mensais de R$ 2.000,00 (dois mil reais)** cada, com os seguintes vencimentos:
 
-**( ) Modalidade mensal (retainer):** R$ `[ ]` (`[valor por extenso]`) por mês, com vencimento todo dia `[ ]` de cada mês, mediante apresentação de `[nota fiscal / recibo]`.
+| Parcela | Valor | Vencimento |
+|---|---|---|
+| 1ª | R$ 2.000,00 | **5º (quinto) dia útil** de cada mês |
+| 2ª | R$ 2.000,00 | **dia 27** de cada mês |
 
-**( ) Modalidade por projeto/entrega:** R$ `[ ]` (`[valor por extenso]`) por projeto, pago conforme o cronograma de marcos do **ANEXO II**.
+**5.1.2.** Caindo o dia 27 em sábado, domingo ou feriado bancário, o pagamento será efetuado no **primeiro dia útil seguinte**, sem incidência de multa ou juros.
 
-**( ) Modalidade por hora:** R$ `[ ]` por hora efetivamente trabalhada e aprovada, com limite mensal de `[ ]` horas, salvo autorização prévia e escrita para excedente.
+**5.1.3.** Os pagamentos serão realizados por transferência ou PIX na conta de titularidade do PRESTADOR ou da PJ DO PRESTADOR, **mediante apresentação da respectiva nota fiscal de serviço** emitida com CNAE compatível com o objeto deste contrato, sendo obrigação exclusiva do PRESTADOR manter sua inscrição regular e apta à emissão do documento fiscal.
+
+**5.1.4.** A remuneração ora ajustada **não configura salário**, não se sujeita a reajuste automático, décimo terceiro, férias, FGTS, aviso prévio, hora extra, adicional de qualquer natureza ou verba trabalhista, tratando-se de contraprestação por serviço autônomo, nos termos da Cláusula 2.
+
+**5.1.5. Reajuste.** A remuneração poderá ser revista **anualmente**, de comum acordo e por escrito, tomando por referência a variação do `[IPCA]` dos últimos 12 (doze) meses.
+
+**5.1.6. Serviços extraordinários.** Demandas fora do escopo do **ANEXO II** serão orçadas e aprovadas por escrito, caso a caso, antes da execução, e remuneradas em acréscimo — nada sendo devido sem aprovação prévia e escrita do CONTRATANTE.
 
 **5.2.** A remuneração ora ajustada **inclui e remunera integralmente** a cessão total e definitiva de todos os direitos de propriedade intelectual prevista na Cláusula 6, nada mais podendo o PRESTADOR pleitear a esse título, a qualquer tempo, sob qualquer fundamento, seja *royalty*, participação, licença, remuneração por exploração, reajuste ou indenização.
 
@@ -165,7 +179,7 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 **b) Território:** território nacional brasileiro e, adicionalmente, os países em que o CONTRATANTE comprovadamente opere ou tenha operação em implantação na data do término, notadamente `[Portugal, Angola, Panamá — ajustar]`;
 **c) Vedação especial:** é vedado, sem limitação territorial, prestar serviços a qualquer **cliente, prospecto ou parceiro do CONTRATANTE** com quem o PRESTADOR tenha tido contato, ou de quem tenha tido conhecimento, em razão deste contrato.
 
-**8.3. Compensação.** Como contrapartida específica à restrição do item 8.2, o CONTRATANTE pagará ao PRESTADOR compensação mensal de R$ `[ ]` (`[valor por extenso]`), correspondente a `[ ]`% da última remuneração mensal, durante os 24 (vinte e quatro) meses de vigência da restrição, mediante recibo. **8.3.1.** A compensação **cessa de imediato**, sem direito a qualquer valor remanescente e com dever de restituição do que já houver recebido, na hipótese de violação de qualquer obrigação deste contrato pelo PRESTADOR, ou de rescisão por justa causa a ele imputável. **8.3.2.** O CONTRATANTE poderá, a seu exclusivo critério e mediante notificação escrita no ato do término ou em até 15 (quinze) dias após, **renunciar** à restrição do item 8.2, total ou parcialmente, ficando desobrigado da compensação correspondente.
+**8.3. Compensação.** Como contrapartida específica à restrição do item 8.2, o CONTRATANTE pagará ao PRESTADOR compensação mensal de **R$ 3.960,00 (três mil, novecentos e sessenta reais)**, correspondente a **99% (noventa e nove por cento)** da última remuneração mensal, durante os 24 (vinte e quatro) meses de vigência da restrição, mediante recibo. **8.3.1.** A compensação **cessa de imediato**, sem direito a qualquer valor remanescente e com dever de restituição do que já houver recebido, na hipótese de violação de qualquer obrigação deste contrato pelo PRESTADOR, ou de rescisão por justa causa a ele imputável. **8.3.2.** O CONTRATANTE poderá, a seu exclusivo critério e mediante notificação escrita no ato do término ou em até 15 (quinze) dias após, **renunciar** à restrição do item 8.2, total ou parcialmente, ficando desobrigado da compensação correspondente.
 
 **8.4. Não aliciamento.** Durante a vigência e por **24 (vinte e quatro) meses** após o término, o PRESTADOR obriga-se a não abordar, aliciar, contratar, desviar ou tentar desviar, direta ou indiretamente: **(a)** clientes, prospectos, parceiros e fornecedores do CONTRATANTE; e **(b)** sócios, empregados, prestadores e colaboradores do CONTRATANTE ou de suas empresas. A obrigação deste item **não é remunerada** pela compensação do item 8.3, por não configurar restrição ao exercício profissional.
 
@@ -216,7 +230,11 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 
 ## CLÁUSULA 12 — DA VIGÊNCIA
 
-**12.1.** Este contrato vigorará por **`[12] (doze) meses`** a contar da data de assinatura, `[renovando-se automaticamente por iguais períodos, salvo manifestação escrita em contrário de qualquer das PARTES com 30 (trinta) dias de antecedência]`.
+**12.1.** Este contrato tem **início em 01 de agosto de 2026** e vigorará por **12 (doze) meses**, encerrando-se em **31 de julho de 2027**, renovando-se automaticamente por iguais períodos, salvo manifestação escrita em contrário de qualquer das PARTES com 30 (trinta) dias de antecedência.
+
+**12.1.1. Efeitos retroativos.** As PARTES reconhecem que a prestação de serviços teve início efetivo em **01/08/2026**, anteriormente à assinatura deste instrumento, e declaram que **todas as cláusulas deste contrato — em especial as Cláusulas 6 (Propriedade Intelectual), 7 (Confidencialidade) e 8 (Não Concorrência) — retroagem àquela data**, alcançando integralmente todos os serviços já prestados, todas as criações já desenvolvidas e todas as informações já compartilhadas desde então.
+
+**12.1.2.** As PARTES declaram que a remuneração vencida entre 01/08/2026 e a data da assinatura, referente às competências de agosto e setembro de 2026, encontra-se **integralmente quitada**, dando-se as PARTES mútua e recíproca quitação quanto a esse período.
 
 **12.2.** As Cláusulas 6 (Propriedade Intelectual), 7 (Confidencialidade), 8 (Não Concorrência e Não Aliciamento), 9.5 (Perda da Participação), 11 (LGPD), 15 (Penalidades) e 16 (Foro) **sobrevivem** ao término deste contrato, por seus respectivos prazos.
 
@@ -240,9 +258,14 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 
 ## CLÁUSULA 15 — DAS PENALIDADES
 
-**15.1.** A violação das Cláusulas 6 (Propriedade Intelectual), 7 (Confidencialidade), 8 (Não Concorrência e Não Aliciamento) ou 3.1(e) (código malicioso) sujeita o PRESTADOR ao pagamento de **multa não compensatória** de R$ `[ ]` (`[valor por extenso]`) **por evento de violação**, sem prejuízo de:
+**15.1.** A violação das Cláusulas 6 (Propriedade Intelectual), 7 (Confidencialidade), 8 (Não Concorrência e Não Aliciamento) ou 3.1(e) (código malicioso) sujeita o PRESTADOR ao pagamento de **multa não compensatória** de
+
+> ## **R$ 1.000.000,00**
+> ### (um milhão de reais)
+
+**por evento de violação**, sem prejuízo de:
 **a)** apuração e indenização integral de perdas e danos, danos emergentes, lucros cessantes e dano à imagem, que **excedam** a multa;
-**b)** obrigação de cessar imediatamente a conduta, com **tutela específica**, sob pena de multa diária de R$ `[ ]`;
+**b)** obrigação de cessar imediatamente a conduta, com **tutela específica**, sob pena de multa diária (*astreintes*) a ser fixada pelo juízo, na forma do art. 537 do Código de Processo Civil, considerados a gravidade da conduta, o proveito obtido pelo PRESTADOR e a necessidade de assegurar o cumprimento da ordem;
 **c)** perda integral da participação da Cláusula 9, nos termos do item 9.5;
 **d)** apuração de responsabilidade criminal, notadamente por violação de direito autoral de programa de computador (art. 12 da Lei nº 9.609/1998), concorrência desleal e violação de segredo de negócio (art. 195 da Lei nº 9.279/1996) e crimes cibernéticos (arts. 154-A e 154-B do Código Penal); e
 **e)** obrigação de **transferir ao CONTRATANTE** todo proveito econômico obtido com a violação, bem como a titularidade de qualquer criação, marca ou registro dela derivado.
@@ -264,23 +287,26 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 **16.5.** Este contrato obriga as PARTES, seus herdeiros e sucessores a qualquer título. É **vedada ao PRESTADOR** a cessão de sua posição contratual; ao CONTRATANTE é permitida a cessão, total ou parcial, deste contrato e dos direitos de PI a suas sociedades controladas, controladoras, coligadas ou a terceiros, sem necessidade de anuência do PRESTADOR.
 
 **16.6.** As PARTES reconhecem como válidas as comunicações e notificações enviadas para os endereços eletrônicos abaixo, bem como a **assinatura eletrônica** deste instrumento, nos termos do art. 10, § 2º, da MP nº 2.200-2/2001 e da Lei nº 14.063/2020.
-- CONTRATANTE: `[e-mail]`
-- PRESTADOR: `[e-mail]`
 
-**16.7.** As PARTES elegem o foro da Comarca de **`[Belo Horizonte/MG]`**, com renúncia a qualquer outro, por mais privilegiado que seja, para dirimir controvérsias oriundas deste contrato. `[Alternativa: cláusula de arbitragem — avaliar com o advogado.]`
+- CONTRATANTE: gibasena.produtosdigitais@gmail.com
+- PRESTADOR: cid.pnogueira@gmail.com
 
-E por estarem assim justas e contratadas, as PARTES firmam o presente instrumento, em `[2 (duas)]` vias de igual teor e forma, ou por assinatura eletrônica, na presença das testemunhas abaixo.
+**16.7.** As PARTES elegem o foro da Comarca de **Belo Horizonte/MG**, com renúncia a qualquer outro, por mais privilegiado que seja, para dirimir controvérsias oriundas deste contrato. `[Alternativa: Comarca de Lagoa Santa/MG, domicílio do CONTRATANTE.]`
 
-`[Cidade]`, `[ ]` de `[ ]` de 2026.
+E por estarem assim justas e contratadas, as PARTES firmam o presente instrumento, em 2 (duas) vias de igual teor e forma, ou por assinatura eletrônica, na presença das testemunhas abaixo.
+
+Belo Horizonte/MG, `[ ]` de `[ ]` de 2026.
 
 <br>
 
 | | |
 |---|---|
 | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |
-| **GILBERTO LUÍS DE SENA**<br>CONTRATANTE / TITULAR<br>CPF: `[ ]` | **CID PINHEIRO**<br>PRESTADOR / DESENVOLVEDOR<br>CPF: `[ ]` |
+| **GILBERTO LUIS DE SENA**<br>CONTRATANTE / TITULAR<br>CPF: 850.812.306-00 | **CID PINHEIRO NOGUEIRA DE FREITAS**<br>PRESTADOR / DESENVOLVEDOR — pessoa física<br>CPF: 149.650.067-98 |
 
-`[Se houver PJ:]` \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ — `[RAZÃO SOCIAL]`, CNPJ `[ ]`, p. Cid Pinheiro
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**61.082.182 CID PINHEIRO NOGUEIRA DE FREITAS** — CNPJ 61.082.182/0001-81
+*p. Cid Pinheiro Nogueira de Freitas, titular* — **(assina também nesta qualidade)**
 
 **TESTEMUNHAS:**
 
@@ -296,10 +322,12 @@ Rol **exemplificativo**, atualizável na forma do item 1.2. Todos de titularidad
 | # | Projeto | Natureza | Descrição sumária |
 |---|---|---|---|
 | 1 | **OCEO** | Sistema / plataforma SaaS | Solução estruturada nos 5 pilares (Contabilidade e BI; Gestão Financeira; Jurídico; Marketing e Vendas; Educação e Pré-Investimento), conforme concepção e *business plan* do CONTRATANTE. |
-| 2 | **HUB GSENA** | Plataforma / *hub* digital | `[descrever o escopo — módulos, público, integrações]` |
+| 2 | **HUB GSENA** | Plataforma / *hub* digital | Plataforma digital que centraliza e integra os produtos, ferramentas e soluções de tecnologia do Grupo Sena — incluindo o sistema **OCEO** —, funcionando como o **ecossistema sob o qual novos módulos, aplicativos, automações e frentes de negócio do CONTRATANTE são lançados, agregados ou integrados**. |
 | 3 | **Aplicativos móveis** | iOS / Android | `[listar]` |
 | 4 | **Automações e agentes de IA** | Ferramentas internas | `[listar]` |
 | 5 | `[novos projetos]` | | |
+
+**Novos negócios sob o Hub GSena.** Nos termos do item 1.2.1, **todo produto, módulo ou novo negócio criado, agregado ou incorporado ao Hub GSena — inclusive frentes ainda não existentes na data deste contrato — está automaticamente abrangido por este instrumento**, integrando este Anexo I independentemente de aditivo.
 
 **Sinais distintivos abrangidos:** marcas nominativas e figurativas, logotipos e identidade visual de OCEO e Hub GSena; domínios; nomes de aplicativos nas lojas; e demais sinais criados no âmbito deste contrato — todos de titularidade exclusiva do CONTRATANTE, que os registrará em seu nome junto ao INPI e demais órgãos.
 
@@ -348,7 +376,7 @@ Rol **exemplificativo**, atualizável na forma do item 1.2. Todos de titularidad
 
 `[Modelo a ser assinado a cada entrega — cria prova documental da cessão, entrega por entrega.]`
 
-Pelo presente, **CID PINHEIRO**, CPF `[ ]`, declara ter entregue a **GILBERTO LUÍS DE SENA**, CPF `[ ]`, no âmbito do Contrato de `[data]`, a entrega **`[nº / nome do marco]`**, compreendendo código-fonte, documentação, credenciais e acessos relacionados, e **ratifica a cessão total, definitiva, irrevogável e universal** de todos os direitos patrimoniais de propriedade intelectual sobre o entregue, nos termos da Cláusula 6 do referido contrato, nada tendo a reclamar a qualquer título além da remuneração ali prevista.
+Pelo presente, **CID PINHEIRO NOGUEIRA DE FREITAS**, CPF 149.650.067-98, declara ter entregue a **GILBERTO LUIS DE SENA**, CPF 850.812.306-00, no âmbito do Contrato de `[data]`, a entrega **`[nº / nome do marco]`**, compreendendo código-fonte, documentação, credenciais e acessos relacionados, e **ratifica a cessão total, definitiva, irrevogável e universal** de todos os direitos patrimoniais de propriedade intelectual sobre o entregue, nos termos da Cláusula 6 do referido contrato, nada tendo a reclamar a qualquer título além da remuneração ali prevista.
 
 `[Local]`, `[data]`. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -356,10 +384,20 @@ Pelo presente, **CID PINHEIRO**, CPF `[ ]`, declara ter entregue a **GILBERTO LU
 
 ## NOTAS DE PREENCHIMENTO (não integram o contrato — apagar antes de assinar)
 
-1. **Não concorrência pós-contrato (8.2/8.3):** sem compensação financeira, a jurisprudência brasileira tende a **anular** a cláusula. A saída do item 8.3.2 (direito de renúncia unilateral do CONTRATANTE) permite que você decida no fim se vale pagar ou liberar.
-2. **Risco de vínculo empregatício:** exclusividade + horário fixo + subordinação direta podem gerar reconhecimento de vínculo, com passivo trabalhista e previdenciário. Evite controlar jornada e prefira contratar via PJ do Cid.
-3. **Registro no INPI:** registrar as marcas **OCEO** e **HUB GSENA** o quanto antes (você já tem experiência com isso no caso BEMHOMEM). O contrato garante o direito, mas o registro garante a exclusividade.
-4. **Registro do software:** o programa de computador pode ser registrado no INPI — é a prova mais forte de titularidade em disputa.
-5. **Multa (15.1):** calibre em valor crível diante do porte do contrato. Multa desproporcional é reduzida pelo juiz (art. 413 do Código Civil).
-6. **Valores em branco:** remuneração, compensação de não concorrência e multa precisam de números antes de mandar pro Cid.
-7. **Revisão obrigatória:** esta é uma minuta de trabalho. Passe pelo seu jurídico antes de assinar.
+1. **⚠ CNAE do Cid é incompatível com o objeto deste contrato.** O CNPJ 61.082.182/0001-81 tem como atividade principal o CNAE **47.85-7-99 — Comércio varejista de outros artigos usados**, sem atividades secundárias. Ele **não pode emitir nota fiscal de serviço de desenvolvimento de software** com esse CNAE. Antes de contratar, ele precisa incluir os CNAEs próprios:
+   - **62.01-5-01** — Desenvolvimento de programas de computador sob encomenda *(o principal, é exatamente este contrato)*
+   - **62.02-3-00** — Desenvolvimento e licenciamento de programas customizáveis
+   - **62.04-0-00** — Consultoria em tecnologia da informação
+   - **62.09-1-00** — Suporte técnico e manutenção em TI
+   Sem isso: nota fiscal irregular, risco de glosa da despesa, problema de ISS e enquadramento errado no Simples (o anexo muda). Também confirmar se ele é optante do Simples e em qual anexo cai (desenvolvimento sob encomenda pode ir ao Anexo V ou III conforme o **Fator R**).
+2. **A PJ do Cid é Empresário Individual (213-5) — isso é a seu favor.** Não há separação patrimonial: o patrimônio pessoal dele responde direto pela multa, sem necessidade de desconsideração da personalidade jurídica. Mesmo assim, mantenha a assinatura nas duas qualidades (PF + EI), como está redigido — elimina qualquer discussão.
+3. **Capacidade de pagamento:** a empresa é ME, aberta em 30/05/2025. Na prática, ele não tem patrimônio para honrar a multa de R$ 1 milhão do NDA. A cláusula vale como **dissuasão**, não como garantia de recebimento. Se você quiser *cobrabilidade* real, avalie exigir **aval, fiança ou nota promissória de terceiro** — ou aceitar que a função da multa é fazer com que a violação nunca aconteça.
+4. **Não concorrência pós-contrato (8.2/8.3):** compensação fixada em 99% da remuneração (R$ 3.960,00/mês por 24 meses) — valor alto o suficiente pra blindar a cláusula na Justiça, mas repare que isso soma **quase R$ 95 mil** ao longo dos 2 anos se você decidir manter a restrição até o fim. O item 8.3.2 é sua saída: no término, você decide — paga e mantém o Cid fora do mercado, ou renuncia à restrição e não paga nada.
+5. **Risco de vínculo empregatício:** exclusividade + horário fixo + subordinação direta podem gerar reconhecimento de vínculo, com passivo trabalhista e previdenciário. Evite controlar jornada e contrate pela PJ dele (com o CNAE corrigido).
+6. **Registro no INPI:** registrar as marcas **OCEO** e **HUB GSENA** o quanto antes — você já tem procuração ativa com a Marcas Já (07/08/2026, caso BEMHOMEM), é só somar os dois pedidos. O contrato garante o direito; o registro garante a exclusividade.
+7. **Registro do software:** o programa de computador pode ser registrado no INPI — é a prova mais forte de titularidade em disputa.
+8. **Multa (15.1):** fixada em R$ 1.000.000,00, espelhando a multa do NDA. Como o porte do contrato (R$ 4.000/mês) é bem menor que o valor da multa, existe risco de um juiz **reduzir** o valor por desproporcionalidade (art. 413 do Código Civil) — por isso o item 15.1(a) garante que você segue podendo cobrar o dano real e o lucro cessante além da multa, mesmo se ela for reduzida.
+9. **Por que não escrevi "salário" (5.1.4):** "salário" é palavra de vínculo empregatício. Em ação trabalhista, um contrato de prestação de serviço que fala em salário e paga em duas datas fixas por mês vira prova contra você. Ficou como **honorários / remuneração mensal**, com renúncia expressa a verbas trabalhistas. As duas datas (5º dia útil e dia 27) estão mantidas exatamente como você pediu — só o nome mudou, e é o nome que protege.
+10. **Início retroativo em 01/08/2026 (12.1.1):** como ele já vem trabalhando desde agosto, a cláusula faz o contrato **retroagir**. Isso é essencial: sem ela, tudo que ele criou em agosto e setembro ficaria fora da cessão de propriedade intelectual. Marque no item 12.1.2 se agosto e setembro já estão pagos.
+11. **Falta preencher:** os marcos de entrega e valores do ANEXO II; data da assinatura; e as 2 testemunhas. Isso normalmente só se define na hora de assinar.
+12. **Revisão obrigatória:** esta é uma minuta de trabalho. Passe pelo seu jurídico antes de assinar.
