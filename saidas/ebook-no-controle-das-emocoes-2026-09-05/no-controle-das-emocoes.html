@@ -1,0 +1,1811 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>No Controle Das Emoções — Gilberto Sena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --grafite:#0F1419;
+    --preto:#0A0A0A;
+    --papel:#F4F1EA;
+    --tinta:#151515;
+    --corpo:#3f3f3f;
+    --ouro:#C9A227;
+    --linha:#d9d2c2;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    color:var(--corpo);
+    font-size:11.3pt;
+    line-height:1.62;
+    background:#fff;
+  }
+  @page{
+    size:A4;
+    margin:20mm 18mm 22mm 18mm;
+  }
+  @page{
+    @bottom-center{ content: counter(page); color:#8a8374; font-size:9pt; }
+  }
+
+  /* ---------- estrutura de página ---------- */
+  .page{ page-break-after:always; }
+  .page:last-child{ page-break-after:auto; }
+  h1,h2,h3,h4{ color:var(--tinta); line-height:1.2; }
+  p{ margin:0 0 .85em; text-align:justify; }
+  strong{ color:var(--tinta); }
+  .lead{ font-size:12.5pt; color:#2a2a2a; }
+
+  /* ---------- capa ---------- */
+  .cover{
+    background:var(--grafite);
+    color:var(--papel);
+    height:257mm;
+    margin:-20mm -18mm 0 -18mm;
+    padding:34mm 24mm;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    page-break-after:always;
+  }
+  .cover .brand{
+    font-size:12pt; font-weight:700; letter-spacing:.34em; color:var(--ouro);
+    text-transform:uppercase;
+  }
+  .cover .kick{
+    font-size:10.5pt; font-weight:700; letter-spacing:.30em; text-transform:uppercase;
+    color:#c9c2b0; margin-bottom:14mm;
+  }
+  .cover h1{
+    font-family:'Fraunces','Inter',serif;
+    font-size:52pt; font-weight:900; letter-spacing:-.02em; color:var(--papel);
+    margin:0 0 8mm; line-height:1.02;
+  }
+  .cover h1 .em{ color:var(--ouro); }
+  .cover .sub{
+    font-size:13pt; color:#d7d0be; max-width:130mm; line-height:1.5;
+  }
+  .cover .rule{ width:46mm; height:3px; background:var(--ouro); margin:10mm 0; }
+  .cover .foot{ font-size:10.5pt; color:#a9a291; }
+  .cover .foot b{ color:var(--papel); font-weight:700; }
+
+  /* ---------- aberturas de parte ---------- */
+  .part{
+    background:var(--preto); color:var(--papel);
+    height:257mm; margin:-20mm -18mm 0 -18mm; padding:60mm 26mm;
+    page-break-after:always;
+  }
+  .part .pnum{ font-size:11pt; letter-spacing:.4em; color:var(--ouro); font-weight:700; text-transform:uppercase; }
+  .part h2{
+    font-family:'Fraunces','Inter',serif;
+    color:var(--papel); font-size:40pt; font-weight:900; letter-spacing:-.015em;
+    margin:6mm 0 8mm; line-height:1.05;
+  }
+  .part .pintro{ font-size:12.5pt; color:#d7d0be; max-width:130mm; }
+  .part .rule{ width:40mm; height:3px; background:var(--ouro); margin:9mm 0; }
+
+  /* ---------- capítulos ---------- */
+  .chap{ page-break-before:always; }
+  .chap-head{ border-bottom:2px solid var(--ouro); padding-bottom:5mm; margin-bottom:8mm; }
+  .chap-head .ck{ font-size:10pt; letter-spacing:.28em; text-transform:uppercase; color:var(--ouro); font-weight:700; }
+  .chap-head h3{ font-family:'Fraunces','Inter',serif; font-size:24pt; font-weight:900; margin:3mm 0 0; letter-spacing:-.01em; }
+
+  h4{ font-size:12.5pt; font-weight:800; margin:7mm 0 2mm; color:var(--tinta); }
+  .kickline{ font-size:9.5pt; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:var(--ouro); margin:8mm 0 1mm; }
+
+  /* ---------- boxes ---------- */
+  .box{ border:1px solid var(--linha); border-left:4px solid var(--ouro); background:#faf8f2; padding:6mm 7mm; margin:6mm 0; page-break-inside:avoid; }
+  .box .bt{ font-size:9.5pt; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:var(--ouro); margin-bottom:2mm; }
+  .box p:last-child{ margin-bottom:0; }
+  .box.dark{ background:var(--grafite); border-color:#2a323a; border-left-color:var(--ouro); color:#e7e2d4; }
+  .box.dark .bt{ color:var(--ouro); }
+  .box.dark strong{ color:#fff; }
+
+  .quote{ font-family:'Fraunces','Inter',serif; font-size:13.5pt; line-height:1.5; color:var(--tinta); border-left:3px solid var(--ouro); padding-left:6mm; margin:6mm 0; font-style:italic; }
+  .quote .src{ display:block; font-family:'Inter',sans-serif; font-style:normal; font-size:9.5pt; letter-spacing:.12em; text-transform:uppercase; color:#8a8374; margin-top:2mm; }
+
+  ul,ol{ margin:.4em 0 1em; padding-left:6mm; }
+  li{ margin:.28em 0; }
+
+  table{ width:100%; border-collapse:collapse; margin:6mm 0; font-size:10pt; page-break-inside:avoid; }
+  th,td{ border:1px solid var(--linha); padding:3mm 3.5mm; text-align:left; vertical-align:top; }
+  th{ background:var(--grafite); color:var(--papel); font-weight:700; font-size:9pt; letter-spacing:.06em; text-transform:uppercase; }
+  tr:nth-child(even) td{ background:#faf8f2; }
+
+  .two{ display:grid; grid-template-columns:1fr 1fr; gap:5mm; margin:6mm 0; }
+  .mini{ border:1px solid var(--linha); padding:5mm; page-break-inside:avoid; }
+  .mini h5{ margin:0 0 2mm; font-size:10.5pt; font-weight:800; color:var(--tinta); }
+  .mini p{ margin:0; font-size:9.8pt; }
+
+  .fill{ border:1px solid var(--linha); padding:5mm 6mm; margin:5mm 0; page-break-inside:avoid; }
+  .fill .fl{ font-size:9.5pt; font-weight:700; color:var(--tinta); text-transform:uppercase; letter-spacing:.1em; }
+  .fill .line{ border-bottom:1px solid #c7bfab; height:8mm; }
+
+  /* ---------- sumário ---------- */
+  .toc h2{ font-family:'Fraunces','Inter',serif; font-size:26pt; font-weight:900; margin:0 0 8mm; }
+  .toc .trow{ display:flex; justify-content:space-between; border-bottom:1px dotted #cabfa7; padding:2.4mm 0; font-size:10.5pt; }
+  .toc .tpart{ margin-top:6mm; font-weight:800; color:var(--ouro); letter-spacing:.14em; text-transform:uppercase; font-size:9.5pt; }
+  .toc .trow span:first-child{ color:var(--tinta); }
+  .toc .trow span:last-child{ color:#8a8374; }
+
+  .frontmatter h2{ font-family:'Fraunces','Inter',serif; font-size:22pt; font-weight:900; margin:0 0 5mm; }
+  .center{ text-align:center; }
+  .small{ font-size:9.5pt; color:#8a8374; }
+</style>
+</head>
+<body>
+
+<!-- ============ CAPA ============ -->
+<section class="cover">
+  <div>
+    <div class="brand">Gilberto Sena</div>
+  </div>
+  <div>
+    <div class="kick">Inteligência emocional aplicada · negócios &amp; relações</div>
+    <h1>No Controle<br>Das <span class="em">Emoções</span></h1>
+    <div class="rule"></div>
+    <p class="sub">Como parar de pagar dívidas emocionais e usar o que você sente
+    a favor das suas decisões — na empresa, com sócios, com clientes, em casa.
+    Uma ponte entre a ciência da inteligência emocional e a sabedoria de
+    <i>“Não Há Dívidas”</i>.</p>
+  </div>
+  <div class="foot">
+    <b>Gilberto Sena</b> &nbsp;·&nbsp; e-book &nbsp;·&nbsp; 1ª edição, 2026
+  </div>
+</section>
+
+<!-- ============ FOLHA DE ROSTO ============ -->
+<section class="page frontmatter">
+  <br><br><br>
+  <h2>No Controle Das Emoções</h2>
+  <p class="lead">Inteligência emocional aplicada a negócios, empresas e relacionamentos.</p>
+  <p>Uma obra de colaboração entre dois materiais: os conceitos de
+  <strong>inteligência emocional</strong> popularizados por Daniel Goleman —
+  a mecânica de como a emoção funciona no cérebro e os cinco domínios do
+  autodomínio — e o livro <strong><i>“Não Há Dívidas”</i></strong>, de Gilberto
+  Sena, sobre as cobranças invisíveis que a gente carrega sem ter assinado.</p>
+  <p>Da ciência vem o “como funciona”. Da vivência vem o “o que fazer com isso”.
+  Deste encontro nasce um método prático para quem lidera pessoas, negocia,
+  decide sob pressão e ainda quer chegar em casa inteiro.</p>
+  <br>
+  <p class="small">Este material é de uso próprio e formação. As referências à obra
+  de Daniel Goleman são sínteses de conceitos, em texto próprio, e não
+  substituem a leitura original. Os trechos de <i>“Não Há Dívidas”</i> são de
+  autoria de Gilberto Sena.</p>
+  <br><br>
+  <p class="small center">© 2026 Gilberto Sena · GILBERTO SENA</p>
+</section>
+
+<!-- ============ SUMÁRIO ============ -->
+<section class="page toc">
+  <h2>Sumário</h2>
+
+  <div class="tpart">Abertura</div>
+  <div class="trow"><span>Carta ao leitor — por que “controle” não é “sufocar”</span><span>7</span></div>
+  <div class="trow"><span>Como usar este e-book</span><span>9</span></div>
+
+  <div class="tpart">Parte I — A máquina por dentro</div>
+  <div class="trow"><span>1 · O sequestro: quando a emoção assume o volante</span><span>13</span></div>
+  <div class="trow"><span>2 · Para que serve cada emoção</span><span>17</span></div>
+  <div class="trow"><span>3 · A janela entre o estímulo e a resposta</span><span>21</span></div>
+
+  <div class="tpart">Parte II — As dívidas emocionais</div>
+  <div class="trow"><span>4 · Quando você acha que é lealdade, mas é dívida</span><span>26</span></div>
+  <div class="trow"><span>5 · As raízes que herdamos sem saber</span><span>30</span></div>
+  <div class="trow"><span>6 · A relação que cansa: o esforço que virou fardo</span><span>34</span></div>
+  <div class="trow"><span>7 · A culpa que a gente aprendeu a carregar</span><span>38</span></div>
+  <div class="trow"><span>8 · O medo de perder que mantém preso</span><span>42</span></div>
+  <div class="trow"><span>9 · Dependência, silêncio e as pequenas concessões</span><span>46</span></div>
+  <div class="trow"><span>10 · Ser sempre o forte, a aprovação e a comparação</span><span>50</span></div>
+
+  <div class="tpart">Parte III — Os cinco domínios do controle</div>
+  <div class="trow"><span>11 · Autoconsciência: enxergar o que você sente</span><span>56</span></div>
+  <div class="trow"><span>12 · Autorregulação: raiva, ansiedade e tristeza</span><span>60</span></div>
+  <div class="trow"><span>13 · Motivação e o estado de fluxo</span><span>65</span></div>
+  <div class="trow"><span>14 · Empatia: ler a emoção do outro</span><span>69</span></div>
+  <div class="trow"><span>15 · Habilidades sociais: emoção em movimento</span><span>73</span></div>
+
+  <div class="tpart">Parte IV — No controle nos negócios</div>
+  <div class="trow"><span>16 · O líder é o termostato emocional da empresa</span><span>79</span></div>
+  <div class="trow"><span>17 · Crítica e feedback sem destruir a pessoa</span><span>83</span></div>
+  <div class="trow"><span>18 · Negociação e conflito: separar a pessoa do problema</span><span>87</span></div>
+  <div class="trow"><span>19 · Decidir sob pressão e o medo dentro da cultura</span><span>91</span></div>
+  <div class="trow"><span>20 · Sócios, dinheiro e as dívidas emocionais do negócio</span><span>95</span></div>
+
+  <div class="tpart">Parte V — No controle nos relacionamentos</div>
+  <div class="trow"><span>21 · Os quatro sinais que derrubam uma relação</span><span>101</span></div>
+  <div class="trow"><span>22 · Escuta que desarma</span><span>105</span></div>
+  <div class="trow"><span>23 · Limite é forma de amor</span><span>109</span></div>
+  <div class="trow"><span>24 · O perdão que liberta e a arte de se despedir</span><span>113</span></div>
+
+  <div class="tpart">Caixa de ferramentas</div>
+  <div class="trow"><span>Protocolos preenchíveis (6 segundos, diário, feedback, reparo, mapa de dívidas)</span><span>118</span></div>
+  <div class="trow"><span>Plano de 30 dias</span><span>126</span></div>
+</section>
+
+<!-- ============ CARTA AO LEITOR ============ -->
+<section class="page chap">
+  <div class="chap-head"><div class="ck">Abertura</div><h3>Carta ao leitor</h3></div>
+
+  <p class="lead">Emoção não é o problema. Emoção mal administrada é.</p>
+
+  <p>Passei anos numa mesa de negociação, outros tantos dentro de empresas em
+  crise, e boa parte da vida observando gente decidir dinheiro com o fígado. O
+  que aprendi é simples: quase nenhuma decisão ruim que eu vi de perto foi por
+  falta de informação. Foi por excesso de emoção não reconhecida. Medo vestido
+  de “prudência”. Raiva vestida de “firmeza”. Vaidade vestida de “visão”.</p>
+
+  <p>Do outro lado da mesa, em casa, a conta é a mesma. A gente confunde
+  cuidado com controle, cobrança com amor, silêncio com paz. E vai acumulando o
+  que no meu livro <i>“Não Há Dívidas”</i> eu chamei de <strong>dívida
+  emocional</strong>: uma fatura que ninguém assinou e que nunca deixa de
+  vencer.</p>
+
+  <p>Este e-book junta duas coisas que costumam andar separadas. De um lado, a
+  <strong>ciência</strong> — o que os estudos de inteligência emocional
+  mostraram sobre como a emoção nasce, sequestra a razão e pode ser treinada.
+  De outro, a <strong>sabedoria de quem viveu</strong> — os capítulos de
+  <i>“Não Há Dívidas”</i>, que falam das cobranças invisíveis que a gente
+  carrega em relação e em trabalho.</p>
+
+  <div class="quote">“Não há dívidas” se torna então mais do que um título — vira
+  um posicionamento. É o nosso jeito de dizer: não vou me endividar
+  emocionalmente para caber no seu amor que me diminui.
+  <span class="src">Não Há Dívidas · Capítulo 1</span></div>
+
+  <p>“Controle”, aqui, nunca vai significar sufocar o que você sente. Sufocar
+  emoção é como fechar a torneira e deixar o cano estourar mais adiante — no
+  peito, na pressão, num e-mail que não devia ter sido enviado. Controle é
+  outra coisa: é <strong>perceber</strong> o que está sentindo, <strong>entender</strong>
+  de onde vem, e <strong>escolher</strong> a resposta em vez de ser arrastado
+  por ela.</p>
+
+  <p>É disso que trata o livro que você tem em mãos. Não é teoria para guardar.
+  É ferramenta para usar na segunda-feira de manhã.</p>
+</section>
+
+<!-- ============ COMO USAR ============ -->
+<section class="page chap">
+  <div class="chap-head"><div class="ck">Abertura</div><h3>Como usar este e-book</h3></div>
+
+  <p>Cada capítulo segue a mesma arquitetura, para você não se perder:</p>
+
+  <table>
+    <tr><th>Bloco</th><th>O que traz</th></tr>
+    <tr><td><strong>Texto principal</strong></td><td>A ideia central, na minha voz.</td></tr>
+    <tr><td><strong>A ciência</strong></td><td>Caixa escura. O que a pesquisa de inteligência emocional mostra sobre o tema.</td></tr>
+    <tr><td><strong>A sabedoria</strong></td><td>Trecho ou síntese de <i>“Não Há Dívidas”</i> ligado ao ponto.</td></tr>
+    <tr><td><strong>Na prática · Negócios</strong></td><td>Exemplo e roteiro para empresa, equipe, sócio, cliente.</td></tr>
+    <tr><td><strong>Na prática · Relações</strong></td><td>Exemplo e roteiro para casa, família, amizade.</td></tr>
+    <tr><td><strong>Ferramenta</strong></td><td>Um exercício curto, às vezes preenchível.</td></tr>
+  </table>
+
+  <p>Você pode ler na ordem — as partes se apoiam umas nas outras — ou ir
+  direto ao capítulo do problema que está vivendo agora. A <strong>Caixa de
+  ferramentas</strong> no fim reúne todos os protocolos num lugar só, para
+  imprimir e usar.</p>
+
+  <div class="box">
+    <div class="bt">Um aviso honesto</div>
+    <p>Ler não muda hábito emocional. O que muda é <strong>repetição em
+    situação real</strong>. Escolha um protocolo por semana e use até virar
+    automático. É assim — e só assim — que o novo jeito entra.</p>
+  </div>
+</section>
+
+<!-- ============ PARTE I ============ -->
+<section class="part">
+  <div class="pnum">Parte I</div>
+  <h2>A máquina por dentro</h2>
+  <div class="rule"></div>
+  <p class="pintro">Antes de controlar qualquer coisa, você precisa entender o
+  que está controlando. Como a emoção nasce, por que ela é mais rápida que o
+  pensamento, e onde exatamente fica a brecha por onde o autodomínio entra.</p>
+</section>
+
+<!-- CAP 1 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte I · Capítulo 1</div><h3>O sequestro: quando a emoção assume o volante</h3></div>
+
+  <p class="lead">Existe um momento, curtíssimo, em que você deixa de dirigir e
+  vira passageiro. Reconhecer esse momento é o começo de tudo.</p>
+
+  <p>Você já respondeu uma mensagem e, dois minutos depois, quis desfazer? Já
+  levantou a voz numa reunião e, no carro, ficou remoendo? Já assinou (ou
+  rasgou) um contrato no calor de uma frase mal colocada? Isso tem nome. Não é
+  falta de caráter nem fraqueza. É a forma como o cérebro foi montado.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>O cérebro evoluiu de baixo para cima. As estruturas emocionais são mais
+    antigas que a parte racional. No centro do sistema emocional está a
+    <strong>amígdala</strong>, que funciona como sentinela: recebe um atalho
+    dos sentidos e dispara a reação — lutar, fugir, congelar — <strong>antes</strong>
+    de o córtex racional entender o que aconteceu.</p>
+    <p>É a chamada “tomada da amígdala” (<i>amygdala hijack</i>): sob carga
+    emocional forte, a parte antiga assume o comando e a pessoa age. Só depois
+    “cai a ficha”, junto com o arrependimento. O <strong>córtex pré-frontal</strong>
+    é o freio: avalia, atrasa, propõe alternativa. Treinar inteligência
+    emocional é, no fundo, fortalecer esse freio.</p>
+  </div>
+
+  <p>Os sinais do sequestro são sempre os mesmos, e o corpo avisa antes da
+  cabeça: mandíbula travando, respiração curta, calor no rosto, mão gelada,
+  vontade de responder <i>agora</i>. Se você aprende a ler esses sinais, ganha
+  a coisa mais valiosa que existe numa crise: <strong>tempo</strong>.</p>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>No capítulo sobre a culpa, eu conto de uma cena do filme <i>O Último
+    Samurai</i> que nunca me saiu da cabeça: cercado de inimigos, o guerreiro
+    fecha os olhos e diz para si mesmo — <i>não pense; respire, sinta, e
+    controle sua emoção</i>. É exatamente a brecha entre o estímulo e a
+    resposta. Quem respira primeiro, decide. Quem reage primeiro, paga depois.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>Situação:</strong> um cliente grande manda um e-mail acusando sua
+  equipe de erro que não houve. Você sente o calor subir e já está redigindo a
+  resposta “definitiva”.</p>
+  <p><strong>O que o sequestro faria:</strong> enviar na hora, com ironia, e
+  transformar um mal-entendido de 10 minutos numa crise de relacionamento de
+  seis meses.</p>
+  <p><strong>O que o controle faz:</strong> salvar o rascunho. Levantar da
+  cadeira. Voltar em 30 minutos — tempo real que a adrenalina leva para baixar.
+  Reescrever começando por um ponto de acordo (“quero resolver isso rápido com
+  você”) e só então apresentar os fatos.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p><strong>Situação:</strong> seu filho adolescente responde torto na frente
+  de visita. A vontade é revidar no mesmo tom, na frente de todo mundo.</p>
+  <p><strong>O que o controle faz:</strong> registrar internamente (“isto é
+  raiva, e é vergonha por estar na frente dos outros”), não resolver ali,
+  e chamar para conversar depois, a sós, quando os dois já não estiverem
+  “inundados”.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Mapa dos meus sinais</div>
+    <p>Complete, por escrito, com base nas suas três últimas explosões:</p>
+    <p>“Quando vou perder o controle, meu corpo faz ______________. O primeiro
+    pensamento que aparece é ______________. E o que eu costumo fazer em
+    seguida — e me arrependo — é ______________.”</p>
+    <p>Você não pode interromper o que não percebe. Esse mapa é o sensor.</p>
+  </div>
+</section>
+
+<!-- CAP 2 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte I · Capítulo 2</div><h3>Para que serve cada emoção</h3></div>
+
+  <p class="lead">Nenhuma emoção é “ruim”. Cada uma é um programa de ação que te
+  prepara para alguma coisa. O erro é ignorar o recado.</p>
+
+  <p>A gente foi ensinado a dividir emoção em “boa” e “ruim”. Alegria, boa;
+  raiva, ruim. Isso atrapalha. A raiva não é um defeito — é energia para
+  confrontar o que está errado. O medo não é covardia — é o sistema de alarme
+  contra risco. O problema nunca é sentir. É não saber o que a emoção está
+  tentando te dizer.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Cada emoção básica dispara uma preparação física com função clara:</p>
+    <ul>
+      <li><strong>Medo</strong> — sangue para os grandes músculos, corpo
+      congela um instante para avaliar a fuga, atenção estreita na ameaça.</li>
+      <li><strong>Raiva</strong> — sangue para as mãos, adrenalina, energia
+      para o confronto.</li>
+      <li><strong>Tristeza</strong> — queda de energia e de entusiasmo,
+      recolhimento para elaborar a perda e reorganizar planos.</li>
+      <li><strong>Nojo</strong> — rejeição do que é tóxico, literal ou moral.</li>
+      <li><strong>Alegria</strong> — mais energia, inibição de pensamentos
+      negativos, disposição para agir e cooperar.</li>
+      <li><strong>Surpresa</strong> — abre o campo de atenção para captar
+      informação nova.</li>
+    </ul>
+    <p>As emoções também carregam <strong>sabedoria de decisão</strong>: marcam
+    as opções como boas ou ruins com base na experiência acumulada. Sem esse
+    marcador, a pessoa trava até em escolhas simples.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>Boa parte de <i>“Não Há Dívidas”</i> é sobre <strong>ouvir o cansaço</strong>
+    — essa emoção que a gente tenta calar com “vai passar”. O cansaço de manter
+    aparência, de ser sempre o forte, de carregar o que não é seu. O cansaço é
+    um dado. Ele está te dizendo que a conta não fecha. Ignorar o recado é como
+    tirar a bateria do alarme de incêndio para poder dormir.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <table>
+    <tr><th>Emoção no trabalho</th><th>O recado que ela traz</th><th>Ação inteligente</th></tr>
+    <tr><td>Irritação recorrente com um processo</td><td>Há desperdício ou desrespeito ali</td><td>Mapear o processo, não o culpado</td></tr>
+    <tr><td>Medo antes de uma decisão de investimento</td><td>Falta informação ou o risco é real</td><td>Listar o que você não sabe e buscar; definir o valor máximo de perda aceitável</td></tr>
+    <tr><td>Desânimo com um projeto que era prioridade</td><td>A meta perdeu sentido ou está mal desenhada</td><td>Rever o “porquê” do projeto antes de cobrar mais esforço</td></tr>
+    <tr><td>Euforia com uma oportunidade “imperdível”</td><td>Pode haver ponto cego pela empolgação</td><td>Submeter a um sócio ou consultor cético antes de assinar</td></tr>
+  </table>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Antes de uma conversa difícil em casa, nomeie para si mesmo qual emoção
+  está no comando. “Estou com <strong>medo</strong> de ser rejeitado” conduz a
+  conversa de um jeito. “Estou com <strong>raiva</strong> por ter sido
+  desrespeitado” conduz de outro. Misturar as duas sem perceber é receita de
+  briga que não chega a lugar nenhum.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Roda de emoções em 20 segundos</div>
+    <p>Três vezes ao dia, pare e responda: “Agora eu sinto ______ , numa
+    intensidade de 0 a 10 é ______ , e isso está querendo me dizer ______ .”
+    Vinte segundos. O objetivo é treinar o músculo de <strong>nomear</strong> —
+    que é a base de tudo que vem depois.</p>
+  </div>
+</section>
+
+<!-- CAP 3 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte I · Capítulo 3</div><h3>A janela entre o estímulo e a resposta</h3></div>
+
+  <p class="lead">Entre o que te acontece e o que você faz existe um espaço.
+  Nesse espaço mora a sua liberdade. Inteligência emocional é aprender a
+  alargá-lo.</p>
+
+  <p>O estímulo chega — a frase, o e-mail, o olhar. A resposta sai — o grito, o
+  silêncio, a assinatura. Entre um e outro há uma fração de segundo. Quem vive
+  no automático nem sabe que ela existe. Quem treina, aprende a entrar ali e
+  escolher.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>A amígdala usa uma via rápida e imprecisa: age sobre um esboço grosseiro
+    da situação e erra com frequência — reage a algo que só <i>parecia</i>
+    ameaça. O córtex pré-frontal usa uma via mais lenta e precisa. O treino de
+    autorregulação consiste em dar tempo para a via lenta alcançar a rápida:
+    respirar, nomear, adiar a resposta. Poucos segundos mudam qual sistema
+    decide.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>O livro inteiro gira em torno de uma frase pequena e assustadora:
+    <strong>dizer “não”.</strong> Não como grosseria — como pausa. “Deixa eu
+    pensar.” “Te respondo amanhã.” “Agora não.” Cada “não” desses é a janela
+    sendo usada. É deixar de perguntar <i>“o que eu faço para não desagradar?”</i>
+    e passar a perguntar <i>“o que eu estou entregando de mim para permanecer
+    aqui?”</i>.</p>
+  </div>
+
+  <div class="kickline">O protocolo dos 6 segundos</div>
+  <ol>
+    <li><strong>Detectar</strong> — o sinal do corpo (do Capítulo 1).</li>
+    <li><strong>Respirar</strong> — uma expiração longa, mais lenta que a
+    inspiração. Isso baixa a ativação fisiológica de verdade.</li>
+    <li><strong>Nomear</strong> — em silêncio: “isto é raiva / medo / vergonha”.</li>
+    <li><strong>Perguntar</strong> — “qual resposta me serve daqui a uma hora?”</li>
+    <li><strong>Escolher</strong> — só então falar, escrever ou agir.</li>
+  </ol>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Institua na sua empresa a <strong>regra das 24 horas para e-mails
+  quentes</strong>: nenhuma mensagem escrita com raiva sai no mesmo dia. E a
+  <strong>frase de pausa na reunião</strong>: “Esse ponto é importante demais
+  para decidir agora com a cabeça quente. Retomamos amanhã às 9h.” Ninguém
+  perde autoridade adiando uma decisão emocional. Perde quem decide no calor e
+  volta atrás na frente de todo mundo.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Combine com quem você mora um <strong>sinal de pausa</strong> — uma
+  palavra, um gesto — que qualquer um dos dois pode acionar quando percebe que
+  está “inundado”. Não é fugir da conversa. É marcar hora para retomar (20
+  minutos depois, no mínimo) quando o corpo já baixou e a escuta voltou a ser
+  possível.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Cartão da janela</div>
+    <p>Escreva num cartão e deixe na carteira ou como papel de parede do
+    celular: <strong>“Respira. Nomeia. Pergunta o que me serve daqui a uma
+    hora. Depois responde.”</strong> Parece bobo. Funciona porque o sequestro
+    apaga a memória do plano — o cartão devolve.</p>
+  </div>
+</section>
+
+<!-- ============ PARTE II ============ -->
+<section class="part">
+  <div class="pnum">Parte II</div>
+  <h2>As dívidas emocionais</h2>
+  <div class="rule"></div>
+  <p class="pintro">Toda energia que você gasta pagando uma cobrança que não
+  assinou é energia que falta para decidir, liderar e amar. Esta parte é o
+  mapa das principais faturas invisíveis — e como cancelá-las. É o coração de
+  <i>“Não Há Dívidas”</i>, agora com nome e mecanismo.</p>
+</section>
+
+<!-- CAP 4 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 4</div><h3>Quando você acha que é lealdade, mas é dívida</h3></div>
+
+  <p class="lead">Tem relação — e tem sociedade, e tem emprego — que não nasce
+  para ser livre. Nasce para manter um acordo invisível. Você entrega, entrega,
+  entrega, e o saldo nunca diminui.</p>
+
+  <div class="quote">Existem amores que não são presentes, mas cobranças
+  disfarçadas. É como se alguém nos entregasse flores e, junto com elas, uma
+  fatura emocional que nunca deixa de vencer.
+  <span class="src">Não Há Dívidas · Capítulo 1</span></div>
+
+  <p>A dívida emocional se disfarça de virtude. Quem cobra se apresenta como
+  quem “se importa”. Quem exige diz que está “zelando pela relação”. E a gente,
+  com necessidade de aprovação, confunde vigilância com atenção e controle com
+  afeto. Começa a medir cada palavra: “será que isso vai agradar?”, “será que
+  vai dar discussão?”. Vira uma casa bonita com cadeado em todas as portas.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>O que sustenta esse ciclo é a <strong>necessidade de aprovação e
+    pertencimento</strong>, aprendida cedo: ser aceito significava seguir
+    certas regras, e quebrá-las trazia castigo — silêncio, afastamento,
+    desaprovação. Com o tempo, a pessoa antecipa o castigo e se pune sozinha.
+    A <strong>autoconsciência</strong> — perceber que a decisão está sendo
+    tomada pelo medo de desapontar, e não pelo que faz sentido — é o que
+    interrompe o piloto automático.</p>
+  </div>
+
+  <div class="kickline">Como reconhecer uma dívida emocional</div>
+  <ul>
+    <li>O esforço é sempre de um lado só.</li>
+    <li>Você mede seu valor pela sua capacidade de <strong>aguentar</strong>.</li>
+    <li>Existe uma parte de você que precisa ficar escondida para “manter a paz”.</li>
+    <li>Quando você põe um limite, o outro vira vítima: “depois de tudo que fiz…”.</li>
+    <li>Quitar uma parcela não diminui o saldo — só gera a próxima cobrança.</li>
+  </ul>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>O sócio que “te deu a chance”.</strong> Anos atrás ele te colocou
+  no negócio, e desde então cada divergência sua é respondida com a mesma
+  frase: “não esquece de onde você veio”. Isso é dívida emocional
+  transformada em ferramenta de controle societário. O gesto do passado foi
+  real e merece gratidão — <strong>uma vez</strong>. Não é juros perpétuos
+  sobre todas as suas decisões futuras. Nomear isso, com calma e por escrito
+  (“eu reconheço e sou grato; e preciso que as decisões daqui pra frente sejam
+  discutidas pelo mérito”), é cancelar o contrato invisível.</p>
+
+  <p><strong>O funcionário “da casa”.</strong> Aquele que faz tudo, nunca tira
+  férias, nunca reclama — e que a empresa inteira usa como muleta. Ele está
+  pagando uma dívida (“se eu não fizer, ninguém faz, e eu não valho nada
+  parado”). O gestor consciente não se aproveita disso: redistribui, obriga a
+  folga, e devolve a ele o direito de não ser indispensável.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Faça o inventário sem anestesia: “O que eu estou sacrificando para
+  permanecer aqui?” Não “o que eu ganho” — o que eu <strong>pago</strong>.
+  Quando a resposta é “minha paz, minha alegria, meu jeito de ser”, o preço já
+  passou do teto.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Extrato de dívidas emocionais</div>
+    <p>Para cada relação importante (pessoal e profissional), preencha:
+    <br>Relação: __________ · O que me cobram sem eu ter assinado: __________
+    <br>O que eu pago para não perder o vínculo: __________
+    <br>O “não” que eu venho adiando: __________</p>
+  </div>
+</section>
+
+<!-- CAP 5 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 5</div><h3>As raízes que herdamos sem saber</h3></div>
+
+  <p class="lead">Muito antes de assinar qualquer coisa, você já decorou
+  roteiros emocionais que não escreveu. Frases, gestos e silêncios de quem te
+  criou — e que você repete achando que é “o seu jeito”.</p>
+
+  <div class="quote">Herdamos medos que não são nossos, culpas que não
+  começamos e dívidas emocionais que nunca assinamos. E carregamos sem
+  perceber — até que, um dia, nos vemos vivendo uma vida que não parece nossa.
+  <span class="src">Não Há Dívidas · Capítulo 2</span></div>
+
+  <p>“Engole o choro.” “Você fala demais.” “Seja sempre agradável.” “Não pede
+  nada a ninguém.” O que para os nossos pais e avós foi <strong>sobrevivência</strong>,
+  para nós virou <strong>prisão</strong>. E enquanto a gente repete o padrão
+  sem examinar, está perpetuando uma história que talvez nem gostaria de
+  contar.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>A amígdala amadurece antes das estruturas que dão contexto à memória.
+    Por isso experiências emocionais fortes da primeira infância ficam gravadas
+    <strong>sem narrativa</strong> — viram reações adultas “sem causa
+    lembrada”. Além disso, o cérebro emocional aprende por
+    <strong>associação e repetição</strong>, não por argumento. É por isso que
+    discurso não muda padrão herdado; só experiência nova e repetida recondiciona.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Todo dono carrega um “roteiro herdado” sobre dinheiro e sobre gente.
+  Exemplos comuns:</p>
+  <ul>
+    <li>“Sócio é encrenca” → nunca divide, sobrecarrega, e trava o crescimento.</li>
+    <li>“Quem manda não explica” → não dá contexto, e a equipe decide no escuro.</li>
+    <li>“Pedir ajuda é fraqueza” → não contrata gente melhor que ele em nada.</li>
+    <li>“Dinheiro some” → sabota o caixa quando começa a sobrar.</li>
+  </ul>
+  <p>Identifique o seu. Pergunte: “essa regra é minha ou é do meu pai?” E:
+  “ela ainda me serve ou só me protege de um perigo que não existe mais?”</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Interromper um ciclo herdado não é acusar quem te criou — eles também
+  carregavam correntes e ensinaram o que sabiam. É <strong>maturidade</strong>:
+  agradecer o que serviu e devolver, sem rancor, o que não cabe mais. O
+  processo é solitário, porque quem se beneficiava do seu silêncio vai chamar
+  seu limite de egoísmo. Resista. A lealdade mais importante não é com o
+  passado — é com o futuro que você está construindo.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Carta de quitação</div>
+    <p>Escreva (para você, não para enviar): “Eu recebi ______. Sou grato por
+    ______. E hoje eu devolvo ______, porque não cabe mais na vida que eu
+    quero viver e liderar.” Guardar essa carta e reler nos dias em que a culpa
+    voltar a bater.</p>
+  </div>
+</section>
+
+<!-- CAP 6 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 6</div><h3>A relação que cansa: o esforço que virou fardo</h3></div>
+
+  <p class="lead">Existe diferença entre um vínculo que exige dedicação e um
+  que exige esgotamento. O primeiro constrói. O segundo drena. E a gente
+  demora a admitir qual é qual.</p>
+
+  <div class="quote">Sem perceber, passamos a andar na relação como quem carrega
+  um balde furado — despejando energia e atenção sem nunca sentir que é
+  suficiente.
+  <span class="src">Não Há Dívidas · Capítulo 3</span></div>
+
+  <p>O amor que cansa não chega de repente. Se infiltra. É um comentário que
+  fere e você deixa passar. É um pedido que exige demais e você aceita. É uma
+  promessa de mudança que nunca vem e você insiste em acreditar. Quando
+  percebe, já não está amando — está se esforçando para manter algo que só
+  existe porque você não largou.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Preocupação e esforço crônicos mantêm o corpo em ativação de estresse
+    prolongada, que compromete imunidade, sono e clareza de raciocínio. E há
+    uma armadilha de interpretação: muita gente acredita que “se é difícil, é
+    porque vale a pena”. A pesquisa sobre motivação aponta o contrário — o
+    que sustenta desempenho é a atividade que te coloca em <strong>fluxo</strong>
+    (desafio à altura da habilidade), não a que te coloca em resistência
+    permanente.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>O projeto zumbi.</strong> Aquele que consome time, caixa e moral
+  há dois anos, e que ninguém tem coragem de matar porque “já investimos
+  tanto”. Isso é a falácia do custo afundado com roupa emocional. Pergunta de
+  controle: <i>“Se esse projeto chegasse na minha mesa hoje, do zero, eu
+  começaria?”</i> Se a resposta é não, o esforço virou fardo. Encerrar com
+  dignidade libera energia para o que constrói.</p>
+  <p><strong>O cliente que drena.</strong> Paga pouco, cobra muito, desrespeita
+  a equipe. Você mantém “pelo faturamento”. Faça a conta do custo emocional:
+  horas de gestão de crise, rotatividade de quem atende ele, oportunidades que
+  você não perseguiu porque estava apagando incêndio. Quase sempre o balde
+  está furado.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Pergunta que liberta, do próprio livro: <i>“Será que estou vivendo esse
+  vínculo ou estou sobrevivendo a ele?”</i> A resposta costuma doer. Mas é ela
+  que devolve a leveza. Reconhecer que um amor pode <strong>deixar</strong> de
+  ser amor é o primeiro passo — não é fracasso seu, é lucidez.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Teste do balde</div>
+    <p>Para o vínculo (ou projeto) em questão, responda 0–10:
+    <br>Depois de conviver com isso, eu saio com <strong>mais</strong> ou
+    <strong>menos</strong> energia? ____
+    <br>Nos dias difíceis, eu me sinto vivo ou só resistindo? ____
+    <br>O esforço é dividido ou é meu sozinho? ____
+    <br>Três respostas “drenando” = o balde está furado. Ou se conserta o
+    furo (conversa real, com limite), ou se põe o balde no chão.</p>
+  </div>
+</section>
+
+<!-- CAP 7 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 7</div><h3>A culpa que a gente aprendeu a carregar</h3></div>
+
+  <p class="lead">A culpa não precisa gritar para te derrubar. Basta sussurrar
+  na hora certa. E boa parte da culpa que você carrega nem é sua — é cheque de
+  terceiro que você aceitou pagar.</p>
+
+  <div class="quote">Quem sabe acionar nossa culpa sabe como nos controlar.
+  Basta insinuar que decepcionamos alguém e pronto: largamos tudo para
+  remendar o que não estava rasgado.
+  <span class="src">Não Há Dívidas · Capítulo 5</span></div>
+
+  <p>“Depois de tudo que fiz por você.” “Você não pensa nos outros?” “Você me
+  magoou.” A culpa vira um filtro pelo qual você decide: em vez de perguntar
+  “isso é bom para mim / para a empresa?”, você pergunta “isso vai evitar que
+  fulano se irrite comigo?”. O resultado é uma vida — e uma gestão — conduzida
+  pelo medo de desapontar.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>A culpa internalizada dispensa acusador: a própria pessoa aponta o dedo.
+    Ela é útil quando sinaliza um erro real a reparar; é armadilha quando
+    apenas indica que você contrariou a <strong>expectativa</strong> de alguém.
+    Separar as duas é trabalho de autoconsciência: “o que eu fiz foi de fato
+    errado, ou só frustrou o que esperavam de mim?”.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>Demitir sem se destruir.</strong> Todo gestor humano sente algo ao
+  desligar alguém. A pergunta certa não é “como eu não sinto culpa?” — é “essa
+  culpa é responsabilidade real ou é peso indevido?”. Se o processo foi justo
+  (feedbacks dados, chances reais, decisão pelo mérito), o desconforto é
+  empatia, não culpa. Carregue a empatia — conduza a conversa com respeito e
+  transparência — e devolva a culpa, que não é sua.</p>
+  <p><strong>Cobrar preço justo.</strong> Muita gente boa dá desconto por culpa
+  de “estar cobrando caro”. Se a entrega vale, o preço é o preço. Culpa não
+  pode ter assento na formação de preço.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Antes de largar tudo para “remendar”, três perguntas:</p>
+  <ol>
+    <li>Essa culpa é <strong>realmente minha</strong>?</li>
+    <li>Eu <strong>errei</strong>, ou apenas contrariei uma expectativa?</li>
+    <li>Se eu não “consertar” agora, o que de fato acontece — um problema real
+    ou só o desconforto de alguém que estava acostumado com meu sim?</li>
+  </ol>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Filtro da culpa</div>
+    <p>Toda vez que a culpa aparecer, classifique em 30 segundos:
+    <br><strong>Culpa-bússola</strong> (apontou um erro real): repare com
+    sinceridade e siga.
+    <br><strong>Culpa-corrente</strong> (só contrariou expectativa alheia):
+    reconheça, respire, e <strong>não pague</strong>. Repita para si: “já fiz o
+    meu melhor e ele é suficiente”.</p>
+  </div>
+</section>
+
+<!-- CAP 8 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 8</div><h3>O medo de perder que mantém preso</h3></div>
+
+  <p class="lead">Quando você se segura a alguém — ou a um cargo, ou a um sócio
+  — por medo, já está vivendo uma despedida antecipada. A relação deixou de ser
+  encontro e virou contenção.</p>
+
+  <div class="quote">É como apertar areia nas mãos — quanto mais forte a gente
+  fecha, mais rápido ela escapa pelos dedos.
+  <span class="src">Não Há Dívidas · Capítulo 6</span></div>
+
+  <p>O medo de perder faz você aceitar menos do que merece, engolir palavras,
+  recuar em sonhos, colocar o outro no centro de todas as decisões. E o mais
+  perverso: no esforço de manter o outro, você se perde de si.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>O medo de perder costuma ser <strong>filho de perdas antigas</strong> —
+    abandonos, rejeições, traições que deixaram cicatriz. Cada ausência virou
+    um lembrete silencioso: “não deixe ninguém ir embora”. A saída não é ficar
+    indiferente; é <strong>se tornar inteiro</strong> — construir uma vida boa
+    o suficiente para seguir mesmo se alguém sair. Autoconsciência para
+    enxergar o padrão, e autorregulação para não agir por ele.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>Retenção pelo medo.</strong> Você mantém um diretor tóxico porque
+  “ele detém o relacionamento com os três maiores clientes”. Isso é a empresa
+  apertando areia. Enquanto o medo decide, você não desenvolve substituto, não
+  documenta processo, não distribui o relacionamento. Plano de controle:
+  reduzir a dependência de forma deliberada (segundo contato em cada cliente,
+  CRM alimentado, sucessor em formação) <strong>antes</strong> que a decisão
+  seja forçada por uma crise.</p>
+  <p><strong>Sócio que você não confronta</strong> por medo de romper a
+  sociedade: o silêncio vira dívida acumulada e um dia estoura tudo de uma vez.
+  Confrontar cedo, com método, é o que protege a sociedade.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>A frase que muda a lógica, do livro: <i>“Eu quero você aqui, mas não
+  preciso que você esteja para eu ser feliz.”</i> Parece que afasta. Aproxima —
+  quem fica por amor se sente mais livre quando percebe que não é responsável
+  por sustentar a sua existência.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Plano de inteireza</div>
+    <p>Liste 5 fontes de sentido e sustento <strong>que não dependem</strong>
+    dessa pessoa (ou desse cargo, ou desse cliente): ____________. Se a lista
+    está curta, o trabalho não é segurar mais forte — é engrossar a lista.</p>
+  </div>
+</section>
+
+<!-- CAP 9 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 9</div><h3>Dependência, silêncio e as pequenas concessões</h3></div>
+
+  <p class="lead">Nem toda prisão tem grades. Algumas têm abraços. E quase
+  nenhuma se fecha de uma vez — se fecha em concessões pequenas, uma de cada
+  vez, até você não caber mais em você.</p>
+
+  <div class="quote">“Eu não vivo sem você.” No início, parece prova de amor.
+  Com o tempo, a gente percebe que não é amor — é ausência de si mesmo.
+  <span class="src">Não Há Dívidas · Capítulo 7</span></div>
+
+  <p>Três faturas que andam juntas:</p>
+  <ul>
+    <li><strong>Dependência</strong> — colocar no outro o centro de gravidade
+    da sua vida emocional.</li>
+    <li><strong>Silêncio</strong> — deixar de dizer o que sente porque
+    “expressar é perigoso”. O não-dito também comunica, e pesa.</li>
+    <li><strong>Pequenas concessões</strong> — cada “tudo bem” que não era tudo
+    bem. Somadas, viram uma vida que não é sua.</li>
+  </ul>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Casais que caminham para a ruptura mostram um padrão de
+    <strong>muro de silêncio</strong> (<i>stonewalling</i>): um lado se fecha,
+    não responde, sai. Funciona a curto prazo (evita o atrito) e destrói a
+    longo prazo (o problema nunca é resolvido). O mesmo vale para equipes: o
+    silêncio que “mantém o clima” é o que impede a informação ruim de subir
+    até quem decide.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>A cultura do silêncio</strong> é cara. Se ninguém te diz que o
+  projeto vai atrasar, que o cliente está insatisfeito, que o processo tem
+  fraude — você decide no escuro. Combata com rituais: reunião semanal onde a
+  primeira pergunta é “o que está indo mal e ninguém falou ainda?”, e onde
+  quem traz o problema é <strong>agradecido</strong>, não punido. O mensageiro
+  protegido é a melhor apólice de seguro da empresa.</p>
+  <p><strong>As pequenas concessões societárias</strong> — “dessa vez eu deixo
+  passar” — viram jurisprudência interna. Registre acordos por escrito, mesmo
+  entre amigos. Não é desconfiança: é evitar que o não-dito vire dívida.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Faça o <strong>inventário das concessões</strong>: nas últimas duas
+  semanas, quantas vezes você disse “tudo bem” sem estar? Sobre o quê? A soma
+  te mostra onde a prisão está se fechando. Escolha <strong>uma</strong> para
+  renegociar essa semana, com fala direta e sem ataque.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Diário das concessões</div>
+    <p>Coluna 1: o que eu concedi. Coluna 2: o que eu realmente queria.
+    Coluna 3: o que me custou. Coluna 4: como eu renegocio isso.
+    <br>Uma linha por dia. Ao fim de duas semanas, o padrão fica visível — e
+    escolher o que devolver deixa de ser abstrato.</p>
+  </div>
+</section>
+
+<!-- CAP 10 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 10</div><h3>Ser sempre o forte, a aprovação e a comparação</h3></div>
+
+  <p class="lead">Três dívidas de quem lidera: a obrigação de nunca fraquejar,
+  o vício na aprovação dos outros e a régua da vida do vizinho. As três drenam
+  em silêncio.</p>
+
+  <div class="quote">Desde cedo aprendemos a nos olhar pelo reflexo dos outros.
+  A vida vira uma corrida em que não sabemos direito a linha de chegada, mas
+  sentimos sempre que estamos atrás.
+  <span class="src">Não Há Dívidas · Capítulo 27</span></div>
+
+  <h4>O cansaço de sempre ser o forte</h4>
+  <p>Quem sempre segura a barra acaba sozinho com o peso. Ninguém oferece ajuda
+  a quem “dá conta de tudo”. Pedir apoio não é rachadura na autoridade — é o
+  que torna a carga sustentável e ensina o time a crescer.</p>
+
+  <h4>Quando a aprovação vira prisão</h4>
+  <p>Se cada decisão sua passa antes pelo tribunal da opinião alheia, você não
+  lidera — você é conduzido. Aprovação é bom de ter e péssimo de precisar.</p>
+
+  <h4>O peso das comparações</h4>
+  <p>Você vê o palco do concorrente, nunca os bastidores. Compara o seu
+  “por dentro” com o “por fora” dos outros e sempre perde. A única comparação
+  justa é entre quem você era ano passado e quem você é hoje.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p><strong>Otimismo</strong> — ler o revés como situacional e temporário, e
+    não como sentença pessoal permanente — é um dos maiores preditores de
+    persistência. Já a comparação social crônica alimenta humor negativo, que
+    por sua vez <strong>estreita</strong> o pensamento e reduz a criatividade
+    para resolver problemas. Ou seja: comparar demais não só dói, também
+    piora a sua capacidade de decidir.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Troque o <i>benchmark</i> obsessivo com o concorrente por <strong>metas de
+  progresso próprio</strong>: “melhorar nossa margem em 2 pontos”, “reduzir o
+  churn em 15%”. Continue observando o mercado — sem transformar cada vitória
+  alheia em derrota sua. E crie, para você, um conselho de duas ou três
+  pessoas com quem você pode ser fraco em segurança. Todo líder precisa de um
+  lugar onde não precisa ser forte.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Regra de higiene: ao pegar no que sente inveja de alguém, force um
+  reconhecimento sincero (“que bom pra ele”) e volte para a sua pergunta:
+  <i>“Estou vivendo a vida que faz sentido para mim?”</i> Se sim, a dianteira
+  do outro não é problema seu.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Placar de mim contra mim</div>
+    <p>Todo domingo, três linhas: “Onde eu estava há 12 meses nisso: ____.
+    Onde estou hoje: ____. Próximo passo pequeno: ____.” Aplique a um número
+    do negócio e a um ponto pessoal. É o único placar que educa em vez de
+    corroer.</p>
+  </div>
+</section>
+
+<!-- ============ PARTE III ============ -->
+<section class="part">
+  <div class="pnum">Parte III</div>
+  <h2>Os cinco domínios do controle</h2>
+  <div class="rule"></div>
+  <p class="pintro">A inteligência emocional se organiza em cinco competências.
+  As três primeiras são sobre lidar consigo. As duas últimas, sobre lidar com
+  os outros. Todas se treinam. Nenhuma é dom.</p>
+</section>
+
+<!-- CAP 11 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Capítulo 11</div><h3>Autoconsciência: enxergar o que você sente</h3></div>
+
+  <p class="lead">É a pedra fundamental. Sem perceber o que você sente no
+  momento em que sente, não há nada para regular, motivar ou comunicar.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Autoconsciência tem três componentes: <strong>consciência emocional</strong>
+    (identificar a emoção e seus efeitos no comportamento e no desempenho),
+    <strong>autoavaliação precisa</strong> (conhecer forças e limites de forma
+    realista, aceitar feedback) e <strong>autoconfiança</strong> (senso firme
+    do próprio valor). Há um multiplicador: quanto mais fino o
+    <strong>vocabulário emocional</strong>, maior o controle. “Estou apreensivo
+    com o prazo” é acionável; “estou mal” não é.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>Cada capítulo do livro termina com o mesmo gesto: “Dizer <i>não há
+    dívidas</i> para ______ é reconhecer que ______.” Isso é autoconsciência em
+    forma de ritual — parar, nomear a cobrança, e declarar o que você entende
+    sobre ela. O que não é nomeado continua mandando em você.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Antes de reuniões decisivas, faça o <strong>check-in emocional</strong> de
+  30 segundos: “Chego nesta sala sentindo o quê? Isso vai me fazer decidir
+  melhor ou pior?” Um líder que chega com raiva não reconhecida contamina a
+  sala inteira (mais sobre isso no Capítulo 16).</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Antes de uma conversa difícil, escreva uma frase: “Eu me sinto ______
+  quando ______, e o que eu preciso é ______.” Entrar na conversa com essa
+  clareza reduz pela metade a chance de virar briga.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Diário emocional (base de tudo)</div>
+    <p>Por episódio relevante do dia: <strong>gatilho</strong> → <strong>emoção
+    e intensidade (0–10)</strong> → <strong>o que pensei</strong> →
+    <strong>o que fiz</strong> → <strong>resultado</strong> →
+    <strong>alternativa possível</strong>. Revisão semanal para achar padrões e
+    gatilhos que se repetem. Versão para gestor no fim do e-book.</p>
+  </div>
+</section>
+
+<!-- CAP 12 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Capítulo 12</div><h3>Autorregulação: raiva, ansiedade e tristeza</h3></div>
+
+  <p class="lead">Regular não é reprimir. É modular — deixar a emoção informar
+  a decisão sem tomar o volante.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Sub-habilidades da autorregulação: autocontrole de impulsos,
+    confiabilidade e integridade, adaptabilidade e abertura ao novo. Pontos
+    específicos da pesquisa:</p>
+    <ul>
+      <li><strong>Raiva</strong> se alimenta dos próprios pensamentos de
+      justificação. “Botar para fora” tende a <strong>amplificar</strong>, não
+      descarregar. O que funciona: cortar cedo a cadeia de pensamentos,
+      afastar-se fisicamente, esperar a adrenalina baixar (dezenas de minutos,
+      tempo real), reenquadrar.</li>
+      <li><strong>Ansiedade</strong> crônica é ensaio mental de ameaça que
+      nunca chega a solução. Antídoto: perceber o início do ciclo, checar a
+      probabilidade real e o plano de resposta, relaxamento, redirecionar a
+      atenção.</li>
+      <li><strong>Tristeza</strong>: distração ativa quebra a ruminação;
+      reenquadre dá nova leitura; pequenas vitórias e ajudar alguém restauram
+      energia.</li>
+    </ul>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <table>
+    <tr><th>Emoção</th><th>Erro comum do gestor</th><th>Manejo</th></tr>
+    <tr><td>Raiva com um erro da equipe</td><td>“Esfriar” gritando na hora</td><td>Adiar a conversa; quando ocorrer, falar do fato e do impacto, não do caráter</td></tr>
+    <tr><td>Ansiedade com o caixa</td><td>Microgerenciar tudo e paralisar o time</td><td>Definir cenário mínimo aceitável, 3 ações concretas, revisão semanal</td></tr>
+    <tr><td>Tristeza após perder um contrato grande</td><td>Fingir que não abalou</td><td>Reconhecer com o time, extrair 1 aprendizado, definir o próximo alvo em 48h</td></tr>
+  </table>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p><strong>Raiva em casa:</strong> combine o direito de dizer “preciso de 20
+  minutos” sem que isso seja lido como fuga. Volte quando o corpo baixou.
+  <br><strong>Ansiedade:</strong> escreva a preocupação em uma frase e, ao
+  lado, “o que depende de mim” e “o que não depende”. Aja no primeiro campo,
+  solte o segundo.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Reenquadrar em 3 perguntas</div>
+    <p>“Que outra leitura cabe aqui?” · “Como eu veria isso daqui a um ano?” ·
+    “O que eu diria a um amigo na mesma situação?” Responder as três, por
+    escrito, tira força do sequestro.</p>
+  </div>
+</section>
+
+<!-- CAP 13 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Capítulo 13</div><h3>Motivação e o estado de fluxo</h3></div>
+
+  <p class="lead">Motivação sustentável não vem de cobrança — vem de sentido,
+  de otimismo diante do revés, e de tarefas desenhadas para te absorver.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Componentes: <strong>impulso de realização</strong> (buscar um padrão de
+    excelência por satisfação, não só por recompensa), <strong>iniciativa</strong>,
+    <strong>compromisso</strong> com o objetivo do grupo e <strong>otimismo</strong>
+    (persistir lendo o fracasso como temporário). O <strong>fluxo</strong> é o
+    estado ótimo: concentração absorta numa tarefa cujo desafio está
+    ligeiramente acima da habilidade atual, com meta clara e feedback imediato.
+    No fluxo, a atividade é a própria recompensa. Ansiedade moderada mobiliza;
+    excesso paralisa. E adiar gratificação, medido desde a infância, prevê
+    melhores resultados anos depois.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Desenhe o trabalho para permitir fluxo:</p>
+  <ul>
+    <li><strong>Desafio calibrado</strong> — nem tarefa que entedia, nem que
+    apavora. Ajuste ao nível real de cada pessoa.</li>
+    <li><strong>Meta explícita e feedback rápido</strong> — a pessoa precisa
+    saber o alvo e ver o placar sem esperar a avaliação anual.</li>
+    <li><strong>Blocos sem interrupção</strong> — proteja janelas de foco.
+    Reunião empilhada mata fluxo e produtividade.</li>
+    <li><strong>Ligue a tarefa ao “porquê”</strong> — antes de cobrar mais
+    esforço, garanta que a meta ainda faz sentido para quem executa.</li>
+  </ul>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Otimismo se pratica em casa também: quando um plano falha, treine a
+  família (e você) a dizer “isso não deu certo <strong>desta vez</strong>, por
+  causa de X” em vez de “eu nunca consigo”. A explicação que você dá para o
+  fracasso é o que define se você tenta de novo.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Auditoria de fluxo</div>
+    <p>Liste suas tarefas da semana em três baldes: <strong>tédio</strong>
+    (fácil demais), <strong>pânico</strong> (difícil demais / sem clareza),
+    <strong>fluxo</strong> (desafio à altura). Meta: mover 2 tarefas por semana
+    para o balde do fluxo — quebrando as de pânico em passos e delegando ou
+    agrupando as de tédio.</p>
+  </div>
+</section>
+
+<!-- CAP 14 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Capítulo 14</div><h3>Empatia: ler a emoção do outro</h3></div>
+
+  <p class="lead">Empatia se constrói sobre a autoconsciência: quem lê os
+  próprios sinais lê melhor os alheios. E quase tudo que importa é
+  <strong>não verbal</strong>.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>A maior parte da comunicação emocional acontece no tom de voz, no ritmo,
+    na expressão, na postura — não nas palavras. Competências empáticas:
+    compreender os outros, ajudar no desenvolvimento deles, orientação para
+    servir o cliente, e <strong>consciência política</strong> (ler correntes
+    emocionais e relações de poder num grupo). A empatia <strong>cai</strong>
+    sob estresse, pressa, ameaça ou quando o outro é visto como “de fora”. E
+    ela é a raiz da ação ética: argumento moral sem base empática raramente
+    muda comportamento.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>O livro fecha um capítulo com um mandamento: <i>“Amarás o próximo como a
+    ti mesmo.”</i> Repare na segunda metade — <strong>como a ti mesmo</strong>.
+    Empatia saudável não é se anular pelo outro; é oferecer ao outro o mesmo
+    cuidado que você (deveria) dar a si. Sem o “a ti mesmo”, empatia vira
+    servidão.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>Reunião de equipe:</strong> antes de responder ao conteúdo do que
+  alguém trouxe, reconheça o estado — “vejo que isso te preocupou bastante”.
+  Custa 4 segundos e muda a temperatura. <br><strong>Negociação:</strong> leia
+  o não verbal do outro lado. Braços fechados e voz mais baixa depois de um
+  ponto = você tocou em algo sensível; vale desacelerar e perguntar em vez de
+  pressionar. <br><strong>Cliente:</strong> orientação para servir é antecipar
+  a necessidade antes de virar reclamação.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Pratique <strong>sintonização</strong>: espelhe de volta o sentimento
+  antes do conteúdo (“parece que você ficou magoado com o que eu falei
+  ontem”). E cuidado com as condições que derrubam sua empatia — pressa,
+  cansaço, telefone na mão. Conversa que importa pede as duas pessoas presentes
+  de verdade.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Escuta em 4 passos</div>
+    <ol>
+      <li>Não prepare a resposta enquanto o outro fala.</li>
+      <li>Reflita o sentimento antes do conteúdo.</li>
+      <li>Confirme se entendeu <strong>antes</strong> de discordar.</li>
+      <li>Só então traga o seu ponto.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- CAP 15 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Capítulo 15</div><h3>Habilidades sociais: emoção em movimento</h3></div>
+
+  <p class="lead">É inteligência emocional aplicada à interação: conduzir a
+  emoção do outro e a do grupo para um lugar produtivo.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Competências: influência, comunicação, gestão de conflitos, liderança,
+    catalisar mudança, construir vínculos, colaboração e capacidade de equipe.
+    Um fenômeno central: <strong>contágio emocional</strong> — emoções se
+    transmitem de pessoa para pessoa, sobretudo da mais expressiva ou da mais
+    poderosa para as demais. E existem <strong>regras de exibição</strong>:
+    normas sobre qual emoção mostrar e quanto. Quem as lê transita bem; quem
+    não as percebe é lido como inconveniente ou frio.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>O <strong>QI de um time não é a soma dos QIs individuais</strong> — depende
+  da harmonia emocional: o quanto o grupo consegue cooperar, incluir todos e
+  impedir que brigas de ego ou medo derrubem a inteligência coletiva. Ações:
+  garantir que os quietos falem, cortar interrupção, nomear tensão em vez de
+  varrer para baixo do tapete.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Numa mesa de família tensa, quem tem mais “peso emocional” define o clima.
+  Se você chega irritado, todos ficam. Se você regula a sua entrada — respira
+  antes, cumprimenta, baixa o tom — puxa a mesa para outro lugar. Isso não é
+  manipular; é assumir a responsabilidade de quem influencia.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Termômetro de grupo</div>
+    <p>No meio de uma reunião ou de um jantar, pare 5 segundos e leia a sala:
+    quem está fechado? quem não falou? qual é a emoção dominante? Depois faça
+    um movimento pequeno para corrigir (uma pergunta ao que está calado, uma
+    pausa, um reconhecimento). Repetir isso é o treino de habilidade social.</p>
+  </div>
+</section>
+
+<!-- ============ PARTE IV ============ -->
+<section class="part">
+  <div class="pnum">Parte IV</div>
+  <h2>No controle nos negócios</h2>
+  <div class="rule"></div>
+  <p class="pintro">A empresa é um sistema emocional. O caixa, a cultura, a
+  qualidade das decisões — tudo passa pela forma como as pessoas (a começar por
+  quem lidera) lidam com o que sentem. Aqui a inteligência emocional vira
+  gestão.</p>
+</section>
+
+<!-- CAP 16 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 16</div><h3>O líder é o termostato emocional da empresa</h3></div>
+
+  <p class="lead">Não o termômetro — o termostato. O time não só mede o seu
+  humor; ele se ajusta a ele.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Pelo contágio emocional, o estado do líder se espalha pelo grupo. Em
+    posições de comando, competências de inteligência emocional aparecem como
+    o fator que mais separa desempenho excepcional do mediano — porque, nesse
+    nível, a capacidade técnica já é alta e parecida entre os pares. Uma
+    organização com baixa IE tem informação distorcida por medo, feedback que
+    não circula e talento que vai embora.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>“O cansaço de sempre ser o forte” tem endereço na cadeira do dono. O
+    líder que nunca pode fraquejar não regula a própria emoção — descarrega no
+    time. Ter um lugar seguro para ser fraco (mentor, conselho, terapia) não é
+    luxo: é manutenção do termostato.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <ul>
+    <li><strong>Ritual de entrada:</strong> antes de pisar no escritório ou
+    abrir a câmera, 60 segundos — “que estado eu quero levar para dentro? o que
+    eu preciso deixar no carro?”.</li>
+    <li><strong>Reuniões sob pressão:</strong> nomeie a emoção do grupo em voz
+    alta (“sei que todo mundo está tenso com o resultado do mês”). O não-dito
+    manda mais que o dito; nomear tira poder dele.</li>
+    <li><strong>Más notícias:</strong> comunique com calma e plano. Pânico do
+    líder vira paralisia do time.</li>
+    <li><strong>Reconhecimento:</strong> emoção positiva também contagia e
+    amplia a criatividade coletiva. Elogio específico e público tem efeito
+    desproporcional.</li>
+  </ul>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Checklist do líder antes da reunião</div>
+    <ol>
+      <li>Qual emoção estou sentindo agora? (nomear, 0–10)</li>
+      <li>Ela vai me ajudar ou atrapalhar a conduzir essa sala?</li>
+      <li>Qual estado eu quero que a sala tenha ao sair?</li>
+      <li>Uma frase de abertura que reconheça o clima real.</li>
+      <li>Se eu estiver acima de 7 em raiva/ansiedade: adiar ou delegar a condução.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- CAP 17 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 17</div><h3>Crítica e feedback sem destruir a pessoa</h3></div>
+
+  <p class="lead">A crítica é uma das trocas emocionais mais mal feitas dentro
+  das empresas. Bem feita, corrige e aproxima. Mal feita, gera raiva,
+  defensividade e um funcionário que desligou por dentro.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Feedback destrutivo — genérico, sobre a pessoa (“você é
+    desorganizado”), com raiva, sem caminho de saída — produz sensação de
+    ameaça e trava o aprendizado. Feedback útil é: <strong>específico</strong>
+    (fato e comportamento, não rótulo), focado no <strong>que fazer
+    diferente</strong>, dado <strong>em particular</strong>, e com
+    <strong>empatia</strong> pelo impacto sobre quem recebe.</p>
+  </div>
+
+  <div class="kickline">O roteiro em 4 partes</div>
+  <table>
+    <tr><th>Parte</th><th>Exemplo</th></tr>
+    <tr><td><strong>Fato específico</strong></td><td>“O relatório de março foi entregue sem os números de custo.”</td></tr>
+    <tr><td><strong>Impacto</strong></td><td>“A diretoria ficou sem base para decidir o orçamento e a reunião teve que ser remarcada.”</td></tr>
+    <tr><td><strong>Comportamento desejado</strong></td><td>“Da próxima vez, feche os dados de custo até quinta e me mostre antes de enviar.”</td></tr>
+    <tr><td><strong>Oferta de ajuda</strong></td><td>“Se travar em alguma fonte de dado, me chame que a gente resolve junto.”</td></tr>
+  </table>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Regras de temperatura: nunca dar bronca com raiva alta (adie); nunca em
+  público; nunca acumular seis meses de queixa para despejar de uma vez —
+  isso é a “dívida emocional” do Capítulo 9 estourando. Feedback é fluxo
+  contínuo e pequeno, não bomba anual.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>O mesmo roteiro serve em casa. Troque “você nunca me ajuda” (rótulo,
+  ataque) por “ontem a louça ficou toda comigo depois do jantar (fato); eu
+  fiquei exausta e sem tempo pra mim (impacto); eu queria que a gente
+  combinasse quem faz o quê (comportamento); topa fechar isso agora?
+  (convite)”.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Cartão de feedback</div>
+    <p>Antes de qualquer conversa de correção, preencha as 4 linhas: Fato ·
+    Impacto · Comportamento desejado · Ajuda que ofereço. Se você não consegue
+    escrever o fato específico, é sinal de que ainda é opinião — não dê o
+    feedback ainda.</p>
+  </div>
+</section>
+
+<!-- CAP 18 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 18</div><h3>Negociação e conflito: separar a pessoa do problema</h3></div>
+
+  <p class="lead">Quase todo conflito que trava é conflito de posições. A
+  inteligência emocional abre espaço para chegar ao interesse por trás da
+  posição — que é onde mora o acordo.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Sob carga emocional forte, o campo de atenção <strong>estreita</strong>:
+    a pessoa só enxerga a ameaça e a própria posição. Gestão de conflito é uma
+    habilidade social treinável: reduzir a ativação (pausa, tom), reconhecer a
+    emoção do outro (empatia baixa a guarda), e reabrir o campo com perguntas
+    sobre interesse (“o que é importante pra você nisso?”).</p>
+  </div>
+
+  <div class="kickline">Roteiro de conflito quente</div>
+  <ol>
+    <li><strong>Baixar a temperatura</strong> — “vamos com calma, quero
+    resolver isso com você, não contra você.”</li>
+    <li><strong>Reconhecer o sentimento do outro</strong> — “entendo que você
+    ficou frustrado com o atraso.”</li>
+    <li><strong>Separar pessoa de problema</strong> — falar do fato e do
+    impacto, nunca do caráter.</li>
+    <li><strong>Buscar o interesse</strong> — “o que você precisa de fato que
+    aconteça aqui?”</li>
+    <li><strong>Gerar opções</strong> antes de decidir; escolher a que atende
+    os dois interesses centrais.</li>
+  </ol>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>Disputa com fornecedor</strong> sobre um atraso: a posição é
+  “vocês têm que absorver a multa”. O interesse pode ser “eu preciso garantir
+  que isso não se repita no pico de dezembro”. Descoberto o interesse, surge
+  acordo que a briga de posição escondia (prioridade na fila, comunicação
+  antecipada, cláusula de contingência).</p>
+  <p><strong>Conflito entre dois gerentes</strong>: não arbitre no calor.
+  Ouça os dois separados, traga para a mesa os interesses (não as acusações),
+  e faça-os desenhar juntos a regra que evita o próximo choque.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Combine o <strong>sinal de pausa</strong> e a <strong>regra de retomar</strong>
+  (Capítulo 3). Na volta, comece por um ponto de acordo — por menor que seja —
+  antes de voltar ao que divide.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Mapa posição × interesse</div>
+    <p>Antes da conversa, três colunas: <strong>minha posição</strong> /
+    <strong>meu interesse real</strong> (o porquê) / <strong>interesse provável
+    do outro</strong>. Negocie a partir da coluna do meio.</p>
+  </div>
+</section>
+
+<!-- CAP 19 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 19</div><h3>Decidir sob pressão e o medo dentro da cultura</h3></div>
+
+  <p class="lead">A pior hora para decidir é no pico da emoção. E a pior
+  cultura para uma empresa é a que roda no medo — porque o medo esconde a
+  informação de quem precisa dela.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Emoção não reconhecida não some — ela vira “prudência”, “firmeza” ou
+    “visão” e contamina a decisão sem ser percebida. Já o medo crônico numa
+    organização produz distorção de informação: ninguém reporta o problema
+    para não ser o portador da má notícia. A empatia e a autoconsciência do
+    líder são o que abre o canal.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios — decisão sob pressão</div>
+  <ul>
+    <li><strong>Nomeie a emoção antes do número.</strong> “Estou decidindo isso
+    com medo? com raiva de alguém? com pressa de provar algo?”</li>
+    <li><strong>Regra do valor máximo de perda.</strong> Antes de uma aposta,
+    defina quanto você aceita perder. Se a emoção quiser passar desse teto,
+    é a emoção decidindo.</li>
+    <li><strong>O sócio cético.</strong> Toda decisão empolgante passa por
+    alguém encarregado de listar por que <strong>não</strong>. Euforia tem
+    ponto cego.</li>
+    <li><strong>Dorme com a decisão grande.</strong> 24 horas. O que continua
+    fazendo sentido de manhã é decisão; o que perdeu força era impulso.</li>
+  </ul>
+
+  <div class="kickline">Na prática · Negócios — desarmar o medo na cultura</div>
+  <ul>
+    <li>Reunião semanal com a pergunta “o que está indo mal e ainda não foi
+    dito?” — e o portador da má notícia é <strong>agradecido</strong>.</li>
+    <li>Separar a análise do erro da punição da pessoa: post-mortem é sobre
+    processo, não sobre culpado.</li>
+    <li>O líder admite os próprios erros em público. Isso autoriza o resto.</li>
+  </ul>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Em casa, decisão grande (mudança, dinheiro, escola dos filhos) segue a
+  mesma higiene: não decidir no meio da briga, dormir com o tema, cada um
+  escreve o próprio interesse antes de sentar para conversar.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Pré-decisão em 5 linhas</div>
+    <p>1. Emoção que estou sentindo agora: ____ 2. Ela puxa para qual lado?
+    ____ 3. Qual o pior cenário aceitável (valor / consequência)? ____
+    4. O que um cético diria? ____ 5. Isso ainda faz sentido amanhã de manhã?
+    ____</p>
+  </div>
+</section>
+
+<!-- CAP 20 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 20</div><h3>Sócios, dinheiro e as dívidas emocionais do negócio</h3></div>
+
+  <p class="lead">Sociedade que quebra quase nunca quebra pela planilha. Quebra
+  pelo não-dito acumulado — a dívida emocional do Capítulo 4, agora com CNPJ.</p>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>“Nenhum favor é uma dívida eterna.” O sócio que entrou com o capital, o
+    que trouxe o cliente, o que colocou o nome — cada um fez a sua parte
+    <strong>uma vez</strong>. Transformar isso em juros perpétuos sobre toda
+    decisão futura é o que apodrece a sociedade por dentro.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>O padrão de deterioração é conhecido dos estudos sobre casais e vale
+    igual para sócios: <strong>crítica de caráter</strong> em vez de queixa
+    específica, <strong>desprezo</strong> (o pior sinal), <strong>defensividade</strong>
+    e <strong>muro de silêncio</strong>. Quando a proporção de trocas negativas
+    supera as positivas de forma consistente, a ruptura está no caminho.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <ul>
+    <li><strong>Acordo de sócios por escrito</strong>, mesmo (principalmente)
+    entre amigos: papéis, retiradas, o que acontece se um quiser sair, como se
+    resolve empate. Não é desconfiança — é impedir que o não-dito vire dívida.</li>
+    <li><strong>Reunião de sócios com pauta emocional</strong>, trimestral:
+    além dos números, a pergunta “o que está incomodando e a gente não falou?”.</li>
+    <li><strong>Gratidão datada, não perpétua:</strong> reconheça o aporte do
+    outro de forma explícita e feche o assunto. Decisão futura é pelo mérito.</li>
+    <li><strong>Desprezo é linha vermelha:</strong> ironia, revirar de olhos e
+    humilhação em reunião destroem a sociedade mais rápido que qualquer
+    prejuízo. Nomeie e corte na hora.</li>
+  </ul>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>O “favor que virou dívida eterna” também acontece na família — o parente
+  que ajudou uma vez e cobra para sempre. A quitação é a mesma: “sou grato de
+  verdade por aquilo; e não vou tomar minhas decisões a partir de uma dívida
+  que já foi honrada.”</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Raio-X da sociedade</div>
+    <p>Cada sócio responde em separado, 0–10, e depois compara:
+    <br>Sinto que minha contribuição é reconhecida: ____
+    <br>Consigo discordar sem virar briga: ____
+    <br>Existe algum favor antigo sendo cobrado até hoje: ____
+    <br>Nas nossas reuniões, sobra mais reconhecimento ou mais reclamação: ____
+    <br>Divergências grandes: leve a um facilitador externo antes que virem desprezo.</p>
+  </div>
+</section>
+
+<!-- ============ PARTE V ============ -->
+<section class="part">
+  <div class="pnum">Parte V</div>
+  <h2>No controle nos relacionamentos</h2>
+  <div class="rule"></div>
+  <p class="pintro">O mesmo autodomínio que protege o caixa protege o
+  casamento, a amizade e a relação com os filhos. Aqui os capítulos de
+  <i>“Não Há Dívidas”</i> encontram os protocolos.</p>
+</section>
+
+<!-- CAP 21 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte V · Capítulo 21</div><h3>Os quatro sinais que derrubam uma relação</h3></div>
+
+  <p class="lead">Existe um padrão de deterioração que aparece muito antes da
+  ruptura. Reconhecer os quatro sinais dá tempo de reverter.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <table>
+      <tr><th>Sinal</th><th>O que é</th><th>Troca por</th></tr>
+      <tr><td>Crítica de caráter</td><td>“Você é egoísta”</td><td>Queixa específica: “fiquei chateado que você não avisou”</td></tr>
+      <tr><td>Desprezo</td><td>Ironia, revirar de olhos, humilhação — o pior preditor</td><td>Respeito explícito, mesmo na discordância</td></tr>
+      <tr><td>Defensividade</td><td>Negar, contra-atacar, fazer-se de vítima</td><td>Assumir a parte que é sua, ainda que pequena</td></tr>
+      <tr><td>Muro de silêncio</td><td>Fechar-se, não responder, sair</td><td>“Preciso de uma pausa e volto às 21h para continuar”</td></tr>
+    </table>
+    <p>Há também a <strong>inundação</strong>: quando a ativação fisiológica de
+    um dos dois passa de certo ponto, não há mais escuta possível. Só o tempo
+    (e o afastamento breve) resolve.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>O livro fala do “amor silencioso que controla” — o que não grita, mas se
+    impõe pelo peso do não-dito, pelo suspiro, pelo silêncio demorado que faz
+    você pedir desculpa sem saber pelo quê. Esse é o muro de silêncio no seu
+    formato mais sofisticado. Nomear é o primeiro golpe contra ele.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Os quatro sinais valem para qualquer relação de trabalho de longo prazo:
+  sócio, chefe e liderado, empresa e fornecedor histórico. Faça o diagnóstico
+  também com essa lente. Desprezo entre lideranças é câncer organizacional.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Uma vez por mês, os dois avaliam juntos, 0–10, a presença de cada sinal na
+  relação. Não para acusar — para consertar cedo. Sinal acima de 5 vira
+  conversa marcada, com o roteiro do Capítulo 18.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Termômetro dos 4 sinais</div>
+    <p>Crítica de caráter: ___ · Desprezo: ___ · Defensividade: ___ · Muro de
+    silêncio: ___ · Proporção de trocas positivas para cada negativa nesta
+    semana: ___ : 1 (meta saudável: pelo menos 5:1).</p>
+  </div>
+</section>
+
+<!-- CAP 22 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte V · Capítulo 22</div><h3>Escuta que desarma</h3></div>
+
+  <p class="lead">A maior parte das brigas não é sobre o assunto. É sobre não
+  se sentir ouvido. Escuta de verdade resolve metade antes de começar.</p>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Reconhecer a emoção do outro <strong>baixa a guarda</strong> dele — a
+    ativação de defesa cede quando a pessoa se sente compreendida. Por isso a
+    ordem importa: primeiro o sentimento, depois o conteúdo, e só então o seu
+    ponto. Inverter a ordem mantém os dois em modo de combate.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — Não Há Dívidas</div>
+    <p>“As palavras já não se encontram no meio do caminho, mas se
+    desencontram.” O livro descreve o casal que conversa e não se alcança.
+    Escuta estruturada é o caminho de volta ao encontro — porque força cada um
+    a chegar até onde o outro está antes de responder.</p>
+  </div>
+
+  <div class="kickline">Na prática · Relações</div>
+  <ol>
+    <li><strong>Não prepare a resposta</strong> enquanto o outro fala.</li>
+    <li><strong>Devolva o sentimento:</strong> “parece que isso te machucou” /
+    “você ficou com raiva quando eu…”.</li>
+    <li><strong>Confirme o entendimento:</strong> “deixa eu ver se entendi:
+    você está dizendo que…”.</li>
+    <li><strong>Só então</strong> traga a sua parte — sem “mas” colado no
+    reconhecimento (“entendo, mas” apaga o entendimento; use “entendo. E do
+    meu lado…”).</li>
+  </ol>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Em conversa de desligamento, renegociação de contrato ou feedback duro, os
+  mesmos quatro passos reduzem a reatividade. A pessoa que se sente ouvida
+  aceita muito melhor uma resposta que não é a que ela queria.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — A frase-espelho</div>
+    <p>Antes de responder qualquer coisa carregada, diga em voz alta o que você
+    entendeu que o outro sentiu, e pergunte: “é isso?”. Só avance quando ele
+    disser “é isso”. Parece lento. Economiza horas de briga.</p>
+  </div>
+</section>
+
+<!-- CAP 23 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte V · Capítulo 23</div><h3>Limite é forma de amor</h3></div>
+
+  <p class="lead">O amor verdadeiro não é ameaçado por limites. Ele não se
+  perde quando você diz “basta” a algo que te fere. Ele floresce quando cada um
+  pode ser inteiro.</p>
+
+  <div class="quote">Amor que controla não permite que você seja 100% você
+  mesmo. Se há partes suas que precisam ficar escondidas para manter a paz,
+  isso não é saudável.
+  <span class="src">Não Há Dívidas · Capítulo 4</span></div>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Dizer “não” ativa, no começo, a mesma resposta de ameaça que a gente
+    tenta evitar — daí o medo. Mas o limite claro é o que permite a
+    autorregulação funcionar numa relação: sem fronteira, não há o que
+    regular, só acúmulo. E a longo prazo o limite <strong>aproxima</strong>
+    quem fica por vínculo real, porque devolve espontaneidade aos dois.</p>
+  </div>
+
+  <div class="kickline">Como pôr um limite sem romper</div>
+  <ol>
+    <li><strong>Reconheça o vínculo:</strong> “eu te amo / eu valorizo muito
+    a nossa relação.”</li>
+    <li><strong>Nomeie o comportamento</strong>, não a pessoa: “quando você
+    decide por mim sem me perguntar…”.</li>
+    <li><strong>Diga o efeito:</strong> “…eu me sinto sem espaço e vou me
+    afastando.”</li>
+    <li><strong>Peça o específico:</strong> “eu preciso que a gente combine
+    antes.”</li>
+    <li><strong>Aguente a reação.</strong> Pode vir mágoa, silêncio, acusação
+    de egoísmo. Isso é o custo do limite — não a prova de que ele está errado.</li>
+  </ol>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p>Limite com cliente que desrespeita a equipe: “valorizo a parceria (vínculo)
+  e não vou seguir com contratos em que meu time é tratado assim (limite).
+  Podemos ajustar a forma de comunicação (pedido) ou encerrar com respeito.”
+  Empresa sem limite com cliente tóxico ensina o time que ele não é protegido.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Comece pelo limite mais fácil da sua lista de concessões (Capítulo 9).
+  Um de cada vez. Cada limite bem posto torna o próximo menos assustador.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Roteiro do “não” em 5 linhas</div>
+    <p>Vínculo: “Eu ______.” · Comportamento: “Quando você ______.” · Efeito:
+    “Eu me sinto ______.” · Pedido: “Preciso que ______.” · Preparo para a
+    reação: “Se vier ______, eu respondo ______.”</p>
+  </div>
+</section>
+
+<!-- CAP 24 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte V · Capítulo 24</div><h3>O perdão que liberta e a arte de se despedir</h3></div>
+
+  <p class="lead">Perdão não é dizer que o que doeu não doeu. É parar de pagar
+  juros sobre uma dívida antiga. E despedir-se bem é reconhecer que algo mudou
+  de forma — sem transformar isso em fracasso.</p>
+
+  <div class="quote">Deixamos de esperar um pedido de desculpas que talvez
+  nunca venha e passamos a focar no que podemos mudar daqui para frente.
+  <span class="src">Não Há Dívidas · Capítulo 2</span></div>
+
+  <div class="box dark">
+    <div class="bt">A ciência</div>
+    <p>Ressentimento mantido é ativação de estresse de baixa intensidade e
+    longa duração — custa saúde e clareza. Reescrever a narrativa do episódio
+    com o afeto sob controle (o que aconteceu, o que aprendi, o que faço agora)
+    reduz a carga. Não é esquecer: é tirar o episódio do modo “alarme
+    permanente”.</p>
+  </div>
+
+  <div class="kickline">Na prática · Negócios</div>
+  <p><strong>Sócio que saiu mal, cliente que foi embora com mágoa, contratação
+  que deu errado.</strong> Encerrar com dignidade — uma conversa final que
+  reconhece o que foi bom, nomeia o que não funcionou e fecha sem desprezo —
+  libera energia que o rancor consome. Porta que bate com estrondo respinga na
+  reputação; porta que fecha com respeito preserva o mercado que você ainda vai
+  reencontrar.</p>
+
+  <div class="kickline">Na prática · Relações</div>
+  <p>Do livro: a lealdade mais importante não é com o passado, é com o futuro
+  que você está construindo. Despedir-se de uma relação, de um papel, de uma
+  versão sua — é reconhecer que a vida mudou de forma e de rumo, não que você
+  falhou.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Carta do perdão (não enviada)</div>
+    <p>“O que aconteceu: ______. O que isso me custou: ______. O que eu aprendi:
+    ______. A partir de hoje eu deixo de cobrar ______ e escolho ______.”
+    Reler quando a mágoa voltar. Você não está absolvendo o outro — está
+    encerrando o contrato de cobrança que estava vencendo em você.</p>
+  </div>
+</section>
+
+<!-- ============ CAIXA DE FERRAMENTAS ============ -->
+<section class="part">
+  <div class="pnum">Anexo</div>
+  <h2>Caixa de ferramentas</h2>
+  <div class="rule"></div>
+  <p class="pintro">Todos os protocolos num lugar só. Imprima estas páginas,
+  preencha à mão, revise toda semana. Ler não muda hábito — repetição em
+  situação real muda.</p>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">1 · Protocolo dos 6 segundos</h3>
+  <p>Para o momento do sequestro emocional (Capítulos 1 e 3).</p>
+  <ol>
+    <li><strong>Detectar</strong> o sinal do corpo.</li>
+    <li><strong>Respirar</strong> — expiração longa, mais lenta que a inspiração.</li>
+    <li><strong>Nomear</strong> em silêncio: “isto é raiva / medo / vergonha”.</li>
+    <li><strong>Perguntar</strong>: “qual resposta me serve daqui a uma hora?”</li>
+    <li><strong>Escolher</strong> — só então falar, escrever ou agir.</li>
+  </ol>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">2 · Diário emocional — pessoal</h3>
+  <table>
+    <tr><th>Gatilho</th><th>Emoção / 0–10</th><th>O que pensei</th><th>O que fiz</th><th>Resultado</th><th>Alternativa</th></tr>
+    <tr><td style="height:14mm"></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td style="height:14mm"></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td style="height:14mm"></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+  <p class="small">Revisão semanal: qual gatilho se repetiu? qual reação me
+  custou mais? qual alternativa vou testar?</p>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">3 · Diário emocional — do gestor</h3>
+  <table>
+    <tr><th>Situação na empresa</th><th>Emoção / 0–10</th><th>Custo da minha reação</th><th>Resposta melhor</th></tr>
+    <tr><td style="height:16mm"></td><td></td><td></td><td></td></tr>
+    <tr><td style="height:16mm"></td><td></td><td></td><td></td></tr>
+    <tr><td style="height:16mm"></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">4 · Cartão de feedback (Capítulo 17)</h3>
+  <div class="fill"><div class="fl">Fato específico</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Impacto</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Comportamento desejado</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Ajuda que eu ofereço</div><div class="line"></div></div>
+  <p class="small">Se você não consegue preencher a primeira linha com um fato
+  concreto, ainda é opinião. Não dê o feedback ainda.</p>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">5 · Checklist do líder antes da reunião (Capítulo 16)</h3>
+  <ol>
+    <li>Qual emoção estou sentindo agora? (nomear, 0–10) __________</li>
+    <li>Ela ajuda ou atrapalha a conduzir esta sala? __________</li>
+    <li>Qual estado eu quero que a sala tenha ao sair? __________</li>
+    <li>Frase de abertura que reconhece o clima real: __________</li>
+    <li>Se raiva/ansiedade acima de 7 → adiar ou delegar a condução.</li>
+  </ol>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">6 · Mapa posição × interesse (Capítulo 18)</h3>
+  <table>
+    <tr><th>Minha posição</th><th>Meu interesse real (o porquê)</th><th>Interesse provável do outro</th></tr>
+    <tr><td style="height:20mm"></td><td></td><td></td></tr>
+  </table>
+  <p class="small">Negocie a partir da coluna do meio.</p>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">7 · Pré-decisão em 5 linhas (Capítulo 19)</h3>
+  <div class="fill"><div class="fl">Emoção que estou sentindo agora</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Para qual lado ela me puxa</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Pior cenário aceitável (valor / consequência)</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">O que um cético diria</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Isso ainda faz sentido amanhã de manhã?</div><div class="line"></div></div>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">8 · Extrato de dívidas emocionais (Capítulos 4, 9)</h3>
+  <table>
+    <tr><th>Relação</th><th>O que me cobram sem eu ter assinado</th><th>O que eu pago p/ não perder o vínculo</th><th>O “não” que venho adiando</th></tr>
+    <tr><td style="height:16mm"></td><td></td><td></td><td></td></tr>
+    <tr><td style="height:16mm"></td><td></td><td></td><td></td></tr>
+    <tr><td style="height:16mm"></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">9 · Roteiro do “não” em 5 linhas (Capítulo 23)</h3>
+  <div class="fill"><div class="fl">Vínculo — “Eu…”</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Comportamento — “Quando você…”</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Efeito — “Eu me sinto…”</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Pedido — “Preciso que…”</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Preparo para a reação — “Se vier…, eu respondo…”</div><div class="line"></div></div>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">10 · Plano de 30 dias</h3>
+  <p>Um foco por semana. Sempre com o diário emocional rodando ao fundo.</p>
+  <table>
+    <tr><th>Semana</th><th>Foco</th><th>Prática diária</th><th>Sinal de que pegou</th></tr>
+    <tr>
+      <td><strong>1</strong></td>
+      <td>Autoconsciência</td>
+      <td>Roda de emoções 3×/dia + diário emocional à noite</td>
+      <td>Você nomeia a emoção no momento em que ela acontece</td>
+    </tr>
+    <tr>
+      <td><strong>2</strong></td>
+      <td>A janela</td>
+      <td>Protocolo dos 6 segundos em toda situação quente + regra das 24h para e-mails</td>
+      <td>Pelo menos 1 resposta que você <em>não</em> mandou no impulso</td>
+    </tr>
+    <tr>
+      <td><strong>3</strong></td>
+      <td>Uma dívida emocional</td>
+      <td>Preencher o extrato de dívidas + pôr 1 limite (roteiro do “não”)</td>
+      <td>Você disse um “não” que vinha adiando — e o mundo não acabou</td>
+    </tr>
+    <tr>
+      <td><strong>4</strong></td>
+      <td>Relação-chave</td>
+      <td>Escuta em 4 passos em toda conversa difícil + cartão de feedback no trabalho</td>
+      <td>Uma conversa que ia virar briga e não virou</td>
+    </tr>
+  </table>
+
+  <div class="box">
+    <div class="bt">Fecho</div>
+    <p>“Não há dívidas” não é sobre não dever nada a ninguém. É sobre não se
+    <strong>endividar emocionalmente</strong> para caber onde te diminuem — em
+    casa ou na empresa. Controle das emoções é o meio. Liberdade para decidir,
+    liderar e amar com o peito aberto é o fim.</p>
+  </div>
+
+  <p class="small center" style="margin-top:12mm;">Gilberto Sena · <i>No Controle Das Emoções</i> · 1ª edição, 2026 · GILBERTO SENA</p>
+</section>
+
+</body>
+</html>
