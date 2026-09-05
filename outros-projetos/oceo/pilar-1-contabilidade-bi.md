@@ -206,5 +206,12 @@ si, não só pra assinatura final.
 2. Validar com o time técnico/jurídico se cálculo interno (folha, apuração)
    exige responsável técnico CRC, mesmo sem ser o documento assinado final.
 3. Validar viabilidade/custo da integração RFB/Sefaz/Junta Comercial.
-4. Com isso encaminhado, transformar em peça visual (comparativo de custo +
-   mockup do painel), formato equivalente ao resto do business plan geral.
+4. ~~Com isso encaminhado, transformar em peça visual (comparativo de custo +
+   mockup do painel), formato equivalente ao resto do business plan geral.~~
+   **Resolvido em parte, 05/set/2026 — ver `pilar-1-mockup-painel-bi-real.md`:**
+   não é mockup teórico, são 9 painéis de Power BI já rodando de verdade pra
+   um cliente real do Grupo Sena, cobrindo a camada Contábil do pilar
+   (balancete, DRE gerencial, controle de entradas/custos/retiradas,
+   conciliação). Ainda falta o equivalente pras camadas Fiscal, DP/RH e
+   Legalização, e resolver a questão técnica de embed do Power BI vs.
+   dashboard nativo do OCEO.

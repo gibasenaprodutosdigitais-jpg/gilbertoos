@@ -42,7 +42,10 @@ gestão empresarial (ERP + BI) do Grupo Sena.
 - **Os 5 pilares, cada um com código, escopo, funcionalidades e
   comparativo de custo (CAGED onde possível):**
   - `pilar-1-contabilidade-bi.md` — **GC**, Contabilidade/BI (Contábil,
-    Fiscal, DP, RH, Legalização)
+    Fiscal, DP, RH, Legalização). Complementado por
+    `pilar-1-mockup-painel-bi-real.md` (05/set/2026) — 9 painéis de Power BI
+    reais, já rodando pra um cliente do Grupo Sena, cobrindo a camada
+    Contábil do pilar.
   - `pilar-2-gestao-financeira.md` — **GF**, Gestão Financeira (ERP +
     banco, DRE explicado, fundo de reserva de 3 meses de PE)
   - `pilar-3-juridico.md` — **GJ**, Jurídico (advogado consultivo interno)
