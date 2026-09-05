@@ -45,15 +45,23 @@ gestão empresarial (ERP + BI) do Grupo Sena.
     Fiscal, DP, RH, Legalização). Complementado por
     `pilar-1-mockup-painel-bi-real.md` (05/set/2026) — 9 painéis de Power BI
     reais, já rodando pra um cliente do Grupo Sena, cobrindo a camada
-    Contábil do pilar. Virou PDF de pitch em
-    `pitch-bi/OCEO - Prova de Conceito BI.pdf` (05/set/2026, 12 páginas,
-    gerado via Playwright com a identidade visual do OCEO) — capa,
-    contexto, os 9 painéis com legenda ligando cada um à função do Pilar 1,
-    e fechamento com o comparativo de custo. **Contém dado real de cliente
-    (nome da rede de franquias, valores individuais de fornecedor) e está
-    marcado "USO INTERNO" em toda página** — gerar versão sanitizada
-    (nome/valores generalizados) antes de enviar a qualquer investidor ou
-    terceiro sem NDA.
+    Contábil do pilar. Virou PDF de pitch em duas versões, ambas 12
+    páginas, geradas via Playwright com a identidade visual do OCEO
+    (capa, contexto, os 9 painéis com legenda ligando cada um à função do
+    Pilar 1, fechamento com o comparativo de custo):
+    - `pitch-bi/OCEO - Prova de Conceito BI.pdf` (05/set/2026) — contém
+      dado real de cliente (nome da rede de franquias, valores
+      individuais de fornecedor), marcado "USO INTERNO" em toda página.
+      Não sincronizado no GitHub (bloqueado pelo classificador de
+      segurança do modo automático por conter dado real de terceiro) —
+      existe só localmente no Desktop do Gilberto.
+    - `pitch-bi-externo/OCEO - Prova de Conceito BI (pitch externo).pdf`
+      (05/set/2026) — versão segura pra investidor/terceiro sem NDA:
+      mesma estrutura e tipos de gráfico, unidades e fornecedores
+      renomeados (Unidade A-H, Fornecedor 01-09) e valores fictícios em
+      ordem de grandeza compatível. Marcada "DADOS ILUSTRATIVOS" em toda
+      página. Esta é a versão sincronizada no GitHub — usar esta pro
+      pitch real, a outra é só referência interna do Gilberto.
   - `pilar-2-gestao-financeira.md` — **GF**, Gestão Financeira (ERP +
     banco, DRE explicado, fundo de reserva de 3 meses de PE)
   - `pilar-3-juridico.md` — **GJ**, Jurídico (advogado consultivo interno)

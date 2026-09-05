@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>OCEO — Prova de Conceito de BI (versão pitch externo)</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; color: #10182A; }
+  .page {
+    width: 210mm; height: 297mm;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+    background: #FAFBFD;
+  }
+  .page:last-child { page-break-after: auto; }
+
+  /* ---- Capa ---- */
+  .cover {
+    background: linear-gradient(165deg, #0B1220 0%, #17335c 55%, #223055 100%);
+    color: #FAFBFD;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 20mm 18mm;
+  }
+  .cover .logo { width: 46mm; }
+  .cover .kicker {
+    font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase;
+    color: #6FA8F0; font-weight: 700; margin-bottom: 6mm;
+  }
+  .cover h1 { font-size: 40px; font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; max-width: 150mm; }
+  .cover .sub { font-size: 16px; color: #C7D0E0; margin-top: 6mm; max-width: 140mm; line-height: 1.5; }
+  .cover .foot { font-size: 11px; color: #7C8AA8; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 4mm; }
+
+  /* ---- Página de texto ---- */
+  .textpage { padding: 20mm 18mm; display: flex; flex-direction: column; }
+  .textpage .kicker {
+    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: #a8451c; font-weight: 700; margin-bottom: 4mm;
+  }
+  .textpage h2 { font-size: 27px; font-weight: 800; color: #17335c; letter-spacing: -0.01em; margin-bottom: 8mm; line-height: 1.25; }
+  .textpage p { font-size: 13.5px; line-height: 1.6; color: #223055; margin-bottom: 4mm; }
+  .textpage .rule { height: 3px; width: 22mm; background: #eb6834; margin-bottom: 6mm; }
+  .box {
+    background: #EAF0FF; border-left: 4px solid #2a78d6; border-radius: 4px;
+    padding: 5mm 6mm; margin-top: 5mm; font-size: 12.5px; color: #17335c; line-height: 1.55;
+  }
+  .box b { color: #a8451c; }
+  table.cost { width: 100%; border-collapse: collapse; margin-top: 5mm; font-size: 12px; }
+  table.cost th { background: #17335c; color: #FAFBFD; text-align: left; padding: 3mm 3mm; font-weight: 700; }
+  table.cost td { padding: 2.6mm 3mm; border-bottom: 1px solid #C7D0E0; color: #223055; }
+  table.cost tr:last-child td { font-weight: 800; color: #a8451c; border-bottom: none; }
+  .footerbar {
+    position: absolute; bottom: 10mm; left: 18mm; right: 18mm;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 9.5px; color: #7C8AA8; border-top: 1px solid #C7D0E0; padding-top: 3mm;
+  }
+  .footerbar .wm2 { color: #2a78d6; font-weight: 700; }
+
+  /* ---- Página de painel ---- */
+  .panelpage { padding: 14mm 14mm 20mm 14mm; display: flex; flex-direction: column; }
+  .panelpage .ptitle { font-size: 19px; font-weight: 800; color: #17335c; margin-bottom: 1.5mm; }
+  .panelpage .pfunc { font-size: 11.5px; color: #a8451c; font-weight: 700; margin-bottom: 3mm; }
+  .panelpage .pdesc { font-size: 11.5px; color: #223055; line-height: 1.5; margin-bottom: 4mm; }
+  .panelbody {
+    flex: 1; border: 1px solid #C7D0E0; border-radius: 6px; overflow: hidden;
+    background: #fff; padding: 8mm; display: flex; flex-direction: column; justify-content: center;
+  }
+  .note { font-size: 10.5px; color: #7C8AA8; margin-bottom: 3mm; font-style: italic; }
+
+  /* generic table */
+  table.gtable { width: 100%; border-collapse: collapse; font-size: 11px; }
+  table.gtable.small { font-size: 10px; }
+  table.gtable th { background: #17335c; color: #fff; text-align: left; padding: 2mm 2.5mm; font-weight: 700; }
+  table.gtable td { padding: 1.8mm 2.5mm; border-bottom: 1px solid #E4E9F2; color: #223055; }
+  table.gtable tr:last-child td { background: #EAF0FF; }
+
+  /* stacked monthly bar chart */
+  .chartwrap { width: 100%; }
+  .barchart { display: flex; align-items: flex-end; justify-content: space-between; height: 150mm; gap: 3mm; padding: 0 4mm; }
+  .barcol { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; justify-content: flex-end; }
+  .bartotal { font-size: 9px; color: #7C8AA8; margin-bottom: 1.5mm; }
+  .barstack { width: 80%; height: 120mm; display: flex; flex-direction: column-reverse; border-radius: 2px 2px 0 0; overflow: hidden; }
+  .seg { width: 100%; }
+  .barlabel { font-size: 10px; color: #5B6579; margin-top: 2mm; font-weight: 600; }
+  .legendrow { display: flex; flex-wrap: wrap; justify-content: center; gap: 4mm; margin-top: 6mm; font-size: 10px; color: #5B6579; }
+  .legdot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 1.5mm; vertical-align: middle; }
+
+  /* horizontal ranking bars */
+  .hbarlist { display: flex; flex-direction: column; gap: 3mm; }
+  .hbarrow { display: flex; align-items: center; gap: 3mm; }
+  .hbarlabel { width: 32mm; font-size: 11px; color: #17335c; font-weight: 600; flex-shrink: 0; }
+  .hbartrack { flex: 1; background: #EAF0FF; border-radius: 3px; height: 6mm; overflow: hidden; }
+  .hbarfill { height: 100%; background: linear-gradient(90deg, #2a78d6, #6FA8F0); border-radius: 3px; }
+  .hbarval { width: 30mm; text-align: right; font-size: 10.5px; color: #223055; font-weight: 700; flex-shrink: 0; }
+
+  /* KPI cards */
+  .kpirow { display: flex; gap: 4mm; margin-bottom: 6mm; }
+  .kpi { flex: 1; background: #17335c; border-radius: 5px; padding: 5mm 3mm; text-align: center; }
+  .kpiv { font-size: 16px; font-weight: 800; color: #fff; }
+  .kpil { font-size: 9px; color: #C7D0E0; margin-top: 1.5mm; }
+
+  /* diverging chart */
+  .divergwrap { width: 100%; }
+  .divergchart { display: flex; align-items: stretch; justify-content: space-between; height: 140mm; gap: 3mm; padding: 0 4mm; }
+  .divcol { flex: 1; display: flex; flex-direction: column; align-items: center; }
+  .divval { font-size: 9px; color: #5B6579; margin-bottom: 1.5mm; }
+  .divbars { flex: 1; width: 70%; display: flex; flex-direction: column; }
+  .divbar { width: 100%; border-radius: 2px; }
+  .divzero { width: 100%; height: 1px; background: #C7D0E0; }
+  .divspace { flex: 1; }
+
+  /* ---- Fechamento ---- */
+  .closing { background: #0B1220; color: #FAFBFD; padding: 20mm 18mm; }
+  .closing h2 { font-size: 26px; font-weight: 800; color: #FAFBFD; margin-bottom: 5mm; }
+  .closing .rule { background: #6FA8F0; }
+  .closing p { color: #C7D0E0; }
+  .closing table.cost th { background: #17335c; }
+  .closing table.cost td { color: #C7D0E0; border-bottom: 1px solid #223055; }
+  .closing .cta {
+    margin-top: 8mm; background: #eb6834; color: #fff; display: inline-block;
+    padding: 4mm 8mm; border-radius: 4px; font-weight: 700; font-size: 13px;
+  }
+</style>
+</head>
+<body>
+
+<!-- 1. CAPA -->
+<div class="page cover">
+  <div>
+    <img class="logo" src="logo.png" alt="OCEO">
+  </div>
+  <div>
+    <div class="kicker">Pilar 1 · GC — Contabilidade &amp; BI</div>
+    <h1>Prova de conceito: Business Intelligence já em produção</h1>
+    <div class="sub">Nove painéis de gestão contábil e financeira, na estrutura real já construída e operada pelo Grupo Sena para um cliente — a evidência de que a camada Contábil do módulo OCEO não é promessa, é capacidade já instalada. Dados ilustrativos nesta versão de divulgação externa.</div>
+  </div>
+  <div class="foot">OCEO — Sistema de Gestão Empresarial · Grupo Sena · Versão para pitch externo — dados ilustrativos</div>
+</div>
+
+<!-- 2. CONTEXTO -->
+<div class="page textpage">
+  <div class="kicker">Contexto</div>
+  <h2>Por que isso importa pro pitch do OCEO</h2>
+  <div class="rule"></div>
+  <p>O Pilar 1 do OCEO (código <b>GC</b>) descreve um módulo que processa apuração contábil, fiscal e de departamento pessoal de verdade, devolvendo ao empresário um painel gerencial em tempo real — substituindo a necessidade de montar essa capacidade internamente, sem eliminar o escritório externo responsável pela assinatura legal (CRC).</p>
+  <p>A pergunta que qualquer investidor ou cliente faz primeiro é direta: <b>"vocês já fizeram isso, ou é só plano?"</b> As páginas seguintes respondem com evidência de estrutura: nove painéis de Power BI, na mesma arquitetura de dados e granularidade construída e operada pelo Grupo Sena para uma rede de franquias de serviço com holding e mais de vinte unidades — cobrindo balancete, financeiro, DRE consolidado e fluxo de caixa por unidade, mês a mês.</p>
+  <div class="box">
+    <b>O que isso prova:</b> a camada <b>Contábil</b> do Pilar 1 — lançamentos, conciliação, controle de entradas/custos/retiradas, balancete e DRE gerencial em tempo real — já está validada em operação real. O que ainda falta transformar em produto replicável são as camadas Fiscal, DP/RH e Legalização, e resolver a arquitetura técnica de entrega (embed de BI vs. dashboard nativo do OCEO).
+  </div>
+  <div class="box" style="border-left-color:#2a78d6; background:#EAF0FF;">
+    <b>Nota sobre os dados:</b> esta é a versão de divulgação externa deste material. Unidades, fornecedores e valores foram substituídos por dados ilustrativos, fictícios, em ordem de grandeza compatível com o painel real — nenhum número ou nome aqui identifica o cliente original. A estrutura, os tipos de gráfico e a granularidade mensal são fiéis ao painel em produção.
+  </div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+
+<!-- 3-11. PAINEIS -->
+<div class="page panelpage">
+  <div class="ptitle">01. Pagamento a Fornecedores — Balancete</div>
+  <div class="pfunc">Função do Pilar 1: Lançamentos contábeis automáticos + Balancete em tempo real</div>
+  <div class="pdesc">Tabela dinâmica de pagamentos por unidade e mês, com filtro por conta contábil. Estrutura idêntica ao painel real do Grupo Sena — unidades e valores substituídos por dados ilustrativos.</div>
+  <div class="panelbody"><div class="gtable-wrap">
+      <p class="note">Contas contábeis representadas: ICMS, ISS, PIS, COFINS, Simples Nacional, Depreciações (categorias contábeis padrão, sem identificar unidade real).</p>
+      <table class="gtable"><thead><tr><th>Unidade</th><th>Mês 4</th><th>Mês 5</th><th>Mês 6</th><th>Mês 7</th><th>Total</th></tr></thead><tbody><tr><td>Unidade A</td><td>R$ 142.000</td><td>R$ 98.000</td><td>R$ 161.000</td><td>R$ 226.000</td><td><b>R$ 627.000</b></td></tr><tr><td>Unidade B</td><td>R$ 72.000</td><td>R$ 78.000</td><td>R$ 197.000</td><td>R$ 84.000</td><td><b>R$ 431.000</b></td></tr><tr><td>Unidade C</td><td>R$ 153.000</td><td>R$ 209.000</td><td>R$ 74.000</td><td>R$ 189.000</td><td><b>R$ 625.000</b></td></tr><tr><td>Unidade D</td><td>R$ 114.000</td><td>R$ 69.000</td><td>R$ 82.000</td><td>R$ 171.000</td><td><b>R$ 436.000</b></td></tr><tr><td>Unidade E</td><td>R$ 167.000</td><td>R$ 77.000</td><td>R$ 121.000</td><td>R$ 83.000</td><td><b>R$ 448.000</b></td></tr><tr><td>Unidade F</td><td>R$ 201.000</td><td>R$ 168.000</td><td>R$ 75.000</td><td>R$ 204.000</td><td><b>R$ 648.000</b></td></tr><tr><td>Unidade G</td><td>R$ 91.000</td><td>R$ 117.000</td><td>R$ 221.000</td><td>R$ 220.000</td><td><b>R$ 649.000</b></td></tr><tr><td>Unidade H</td><td>R$ 209.000</td><td>R$ 75.000</td><td>R$ 207.000</td><td>R$ 209.000</td><td><b>R$ 700.000</b></td></tr><tr><td><b>Total</b></td><td><b>R$ 1.149.000</b></td><td><b>R$ 891.000</b></td><td><b>R$ 1.138.000</b></td><td><b>R$ 1.386.000</b></td><td><b>R$ 4.564.000</b></td></tr></tbody></table>
+    </div></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">02. Volume de Compras — Balancetes</div>
+  <div class="pfunc">Função do Pilar 1: Controle de custos e despesas por centro de custo</div>
+  <div class="pdesc">Fluxo de volume de compras ao longo do ano, por unidade. Dados ilustrativos, mesma granularidade mensal do painel real.</div>
+  <div class="panelbody"><div class="chartwrap">
+      <div class="barchart"><div class="barcol"><div class="bartotal">R$ 461k</div><div class="barstack"><div class="seg" style="height:7.0%; background:#17335c;"></div><div class="seg" style="height:6.8%; background:#2a78d6;"></div><div class="seg" style="height:6.6%; background:#6FA8F0;"></div><div class="seg" style="height:10.8%; background:#eb6834;"></div><div class="seg" style="height:6.1%; background:#a8451c;"></div><div class="seg" style="height:11.9%; background:#5B6579;"></div><div class="seg" style="height:6.7%; background:#7C8AA8;"></div><div class="seg" style="height:11.2%; background:#223055;"></div></div><div class="barlabel">Jan</div></div><div class="barcol"><div class="bartotal">R$ 496k</div><div class="barstack"><div class="seg" style="height:6.8%; background:#17335c;"></div><div class="seg" style="height:7.0%; background:#2a78d6;"></div><div class="seg" style="height:5.8%; background:#6FA8F0;"></div><div class="seg" style="height:12.1%; background:#eb6834;"></div><div class="seg" style="height:8.2%; background:#a8451c;"></div><div class="seg" style="height:12.1%; background:#5B6579;"></div><div class="seg" style="height:7.4%; background:#7C8AA8;"></div><div class="seg" style="height:12.8%; background:#223055;"></div></div><div class="barlabel">Fev</div></div><div class="barcol"><div class="bartotal">R$ 522k</div><div class="barstack"><div class="seg" style="height:5.8%; background:#17335c;"></div><div class="seg" style="height:8.3%; background:#2a78d6;"></div><div class="seg" style="height:7.1%; background:#6FA8F0;"></div><div class="seg" style="height:12.8%; background:#eb6834;"></div><div class="seg" style="height:8.0%; background:#a8451c;"></div><div class="seg" style="height:13.7%; background:#5B6579;"></div><div class="seg" style="height:6.4%; background:#7C8AA8;"></div><div class="seg" style="height:13.8%; background:#223055;"></div></div><div class="barlabel">Mar</div></div><div class="barcol"><div class="bartotal">R$ 571k</div><div class="barstack"><div class="seg" style="height:7.1%; background:#17335c;"></div><div class="seg" style="height:10.2%; background:#2a78d6;"></div><div class="seg" style="height:9.2%; background:#6FA8F0;"></div><div class="seg" style="height:13.1%; background:#eb6834;"></div><div class="seg" style="height:7.1%; background:#a8451c;"></div><div class="seg" style="height:12.8%; background:#5B6579;"></div><div class="seg" style="height:8.3%; background:#7C8AA8;"></div><div class="seg" style="height:15.3%; background:#223055;"></div></div><div class="barlabel">Abr</div></div><div class="barcol"><div class="bartotal">R$ 569k</div><div class="barstack"><div class="seg" style="height:6.6%; background:#17335c;"></div><div class="seg" style="height:9.8%; background:#2a78d6;"></div><div class="seg" style="height:8.3%; background:#6FA8F0;"></div><div class="seg" style="height:14.0%; background:#eb6834;"></div><div class="seg" style="height:8.6%; background:#a8451c;"></div><div class="seg" style="height:12.1%; background:#5B6579;"></div><div class="seg" style="height:7.4%; background:#7C8AA8;"></div><div class="seg" style="height:16.2%; background:#223055;"></div></div><div class="barlabel">Mai</div></div><div class="barcol"><div class="bartotal">R$ 597k</div><div class="barstack"><div class="seg" style="height:6.7%; background:#17335c;"></div><div class="seg" style="height:9.0%; background:#2a78d6;"></div><div class="seg" style="height:9.8%; background:#6FA8F0;"></div><div class="seg" style="height:15.4%; background:#eb6834;"></div><div class="seg" style="height:8.7%; background:#a8451c;"></div><div class="seg" style="height:13.2%; background:#5B6579;"></div><div class="seg" style="height:8.7%; background:#7C8AA8;"></div><div class="seg" style="height:15.3%; background:#223055;"></div></div><div class="barlabel">Jun</div></div><div class="barcol"><div class="bartotal">R$ 628k</div><div class="barstack"><div class="seg" style="height:7.4%; background:#17335c;"></div><div class="seg" style="height:10.5%; background:#2a78d6;"></div><div class="seg" style="height:8.7%; background:#6FA8F0;"></div><div class="seg" style="height:16.3%; background:#eb6834;"></div><div class="seg" style="height:9.9%; background:#a8451c;"></div><div class="seg" style="height:14.0%; background:#5B6579;"></div><div class="seg" style="height:10.2%; background:#7C8AA8;"></div><div class="seg" style="height:14.4%; background:#223055;"></div></div><div class="barlabel">Jul</div></div><div class="barcol"><div class="bartotal">R$ 654k</div><div class="barstack"><div class="seg" style="height:6.8%; background:#17335c;"></div><div class="seg" style="height:11.9%; background:#2a78d6;"></div><div class="seg" style="height:10.3%; background:#6FA8F0;"></div><div class="seg" style="height:16.7%; background:#eb6834;"></div><div class="seg" style="height:10.9%; background:#a8451c;"></div><div class="seg" style="height:13.5%; background:#5B6579;"></div><div class="seg" style="height:10.5%; background:#7C8AA8;"></div><div class="seg" style="height:14.4%; background:#223055;"></div></div><div class="barlabel">Ago</div></div><div class="barcol"><div class="bartotal">R$ 687k</div><div class="barstack"><div class="seg" style="height:8.2%; background:#17335c;"></div><div class="seg" style="height:13.7%; background:#2a78d6;"></div><div class="seg" style="height:10.0%; background:#6FA8F0;"></div><div class="seg" style="height:16.9%; background:#eb6834;"></div><div class="seg" style="height:11.2%; background:#a8451c;"></div><div class="seg" style="height:13.8%; background:#5B6579;"></div><div class="seg" style="height:10.8%; background:#7C8AA8;"></div><div class="seg" style="height:15.4%; background:#223055;"></div></div><div class="barlabel">Set</div></div></div>
+      <div class="legendrow"><span class="legdot" style="background:#17335c"></span>Unidade A<span class="legdot" style="background:#2a78d6"></span>Unidade B<span class="legdot" style="background:#6FA8F0"></span>Unidade C<span class="legdot" style="background:#eb6834"></span>Unidade D<span class="legdot" style="background:#a8451c"></span>Unidade E<span class="legdot" style="background:#5B6579"></span>Unidade F<span class="legdot" style="background:#7C8AA8"></span>Unidade G<span class="legdot" style="background:#223055"></span>Unidade H</div>
+    </div></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">03. Receita Contabilizada — Balancetes</div>
+  <div class="pfunc">Função do Pilar 1: Controle de entradas (receita/faturamento) por categoria</div>
+  <div class="pdesc">Fluxo de receita contabilizada ao longo do ano, por unidade. Dados ilustrativos.</div>
+  <div class="panelbody"><div class="chartwrap">
+      <div class="barchart"><div class="barcol"><div class="bartotal">R$ 831k</div><div class="barstack"><div class="seg" style="height:14.7%; background:#17335c;"></div><div class="seg" style="height:9.7%; background:#2a78d6;"></div><div class="seg" style="height:6.9%; background:#6FA8F0;"></div><div class="seg" style="height:5.5%; background:#eb6834;"></div><div class="seg" style="height:14.0%; background:#a8451c;"></div><div class="seg" style="height:8.9%; background:#5B6579;"></div><div class="seg" style="height:7.1%; background:#7C8AA8;"></div><div class="seg" style="height:13.6%; background:#223055;"></div></div><div class="barlabel">Jan</div></div><div class="barcol"><div class="bartotal">R$ 852k</div><div class="barstack"><div class="seg" style="height:14.1%; background:#17335c;"></div><div class="seg" style="height:10.1%; background:#2a78d6;"></div><div class="seg" style="height:6.2%; background:#6FA8F0;"></div><div class="seg" style="height:6.1%; background:#eb6834;"></div><div class="seg" style="height:14.3%; background:#a8451c;"></div><div class="seg" style="height:8.8%; background:#5B6579;"></div><div class="seg" style="height:7.9%; background:#7C8AA8;"></div><div class="seg" style="height:14.9%; background:#223055;"></div></div><div class="barlabel">Fev</div></div><div class="barcol"><div class="bartotal">R$ 861k</div><div class="barstack"><div class="seg" style="height:13.5%; background:#17335c;"></div><div class="seg" style="height:11.3%; background:#2a78d6;"></div><div class="seg" style="height:6.0%; background:#6FA8F0;"></div><div class="seg" style="height:6.5%; background:#eb6834;"></div><div class="seg" style="height:15.6%; background:#a8451c;"></div><div class="seg" style="height:8.0%; background:#5B6579;"></div><div class="seg" style="height:8.2%; background:#7C8AA8;"></div><div class="seg" style="height:14.2%; background:#223055;"></div></div><div class="barlabel">Mar</div></div><div class="barcol"><div class="bartotal">R$ 916k</div><div class="barstack"><div class="seg" style="height:14.8%; background:#17335c;"></div><div class="seg" style="height:11.6%; background:#2a78d6;"></div><div class="seg" style="height:6.1%; background:#6FA8F0;"></div><div class="seg" style="height:7.4%; background:#eb6834;"></div><div class="seg" style="height:16.0%; background:#a8451c;"></div><div class="seg" style="height:8.7%; background:#5B6579;"></div><div class="seg" style="height:9.3%; background:#7C8AA8;"></div><div class="seg" style="height:14.8%; background:#223055;"></div></div><div class="barlabel">Abr</div></div><div class="barcol"><div class="bartotal">R$ 937k</div><div class="barstack"><div class="seg" style="height:14.9%; background:#17335c;"></div><div class="seg" style="height:10.8%; background:#2a78d6;"></div><div class="seg" style="height:5.7%; background:#6FA8F0;"></div><div class="seg" style="height:7.4%; background:#eb6834;"></div><div class="seg" style="height:15.9%; background:#a8451c;"></div><div class="seg" style="height:9.7%; background:#5B6579;"></div><div class="seg" style="height:10.3%; background:#7C8AA8;"></div><div class="seg" style="height:16.1%; background:#223055;"></div></div><div class="barlabel">Mai</div></div><div class="barcol"><div class="bartotal">R$ 954k</div><div class="barstack"><div class="seg" style="height:16.1%; background:#17335c;"></div><div class="seg" style="height:11.4%; background:#2a78d6;"></div><div class="seg" style="height:5.6%; background:#6FA8F0;"></div><div class="seg" style="height:7.0%; background:#eb6834;"></div><div class="seg" style="height:15.5%; background:#a8451c;"></div><div class="seg" style="height:9.4%; background:#5B6579;"></div><div class="seg" style="height:10.5%; background:#7C8AA8;"></div><div class="seg" style="height:16.9%; background:#223055;"></div></div><div class="barlabel">Jun</div></div><div class="barcol"><div class="bartotal">R$ 970k</div><div class="barstack"><div class="seg" style="height:17.0%; background:#17335c;"></div><div class="seg" style="height:11.7%; background:#2a78d6;"></div><div class="seg" style="height:6.0%; background:#6FA8F0;"></div><div class="seg" style="height:7.5%; background:#eb6834;"></div><div class="seg" style="height:14.9%; background:#a8451c;"></div><div class="seg" style="height:9.4%; background:#5B6579;"></div><div class="seg" style="height:10.1%; background:#7C8AA8;"></div><div class="seg" style="height:17.3%; background:#223055;"></div></div><div class="barlabel">Jul</div></div><div class="barcol"><div class="bartotal">R$ 1009k</div><div class="barstack"><div class="seg" style="height:18.3%; background:#17335c;"></div><div class="seg" style="height:11.4%; background:#2a78d6;"></div><div class="seg" style="height:6.4%; background:#6FA8F0;"></div><div class="seg" style="height:8.3%; background:#eb6834;"></div><div class="seg" style="height:14.6%; background:#a8451c;"></div><div class="seg" style="height:9.5%; background:#5B6579;"></div><div class="seg" style="height:11.4%; background:#7C8AA8;"></div><div class="seg" style="height:17.7%; background:#223055;"></div></div><div class="barlabel">Ago</div></div><div class="barcol"><div class="bartotal">R$ 1033k</div><div class="barstack"><div class="seg" style="height:18.9%; background:#17335c;"></div><div class="seg" style="height:12.5%; background:#2a78d6;"></div><div class="seg" style="height:7.1%; background:#6FA8F0;"></div><div class="seg" style="height:8.3%; background:#eb6834;"></div><div class="seg" style="height:14.2%; background:#a8451c;"></div><div class="seg" style="height:8.7%; background:#5B6579;"></div><div class="seg" style="height:12.2%; background:#7C8AA8;"></div><div class="seg" style="height:18.1%; background:#223055;"></div></div><div class="barlabel">Set</div></div></div>
+      <div class="legendrow"><span class="legdot" style="background:#17335c"></span>Unidade A<span class="legdot" style="background:#2a78d6"></span>Unidade B<span class="legdot" style="background:#6FA8F0"></span>Unidade C<span class="legdot" style="background:#eb6834"></span>Unidade D<span class="legdot" style="background:#a8451c"></span>Unidade E<span class="legdot" style="background:#5B6579"></span>Unidade F<span class="legdot" style="background:#7C8AA8"></span>Unidade G<span class="legdot" style="background:#223055"></span>Unidade H</div>
+    </div></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">04. Pagamento a Fornecedores — Financeiro</div>
+  <div class="pfunc">Função do Pilar 1: Conciliação de contas a pagar x movimentação real</div>
+  <div class="pdesc">Ranking dos maiores pagamentos por fornecedor/credor, incluindo linhas de imposto (COFINS, IRPJ, CSLL, ISSQN). Fornecedores identificados por código genérico.</div>
+  <div class="panelbody"><div class="hbarlist"><div class="hbarrow"><div class="hbarlabel">Fornecedor 03</div><div class="hbartrack"><div class="hbarfill" style="width:100.0%"></div></div><div class="hbarval">R$ 1.136.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 04</div><div class="hbartrack"><div class="hbarfill" style="width:85.4%"></div></div><div class="hbarval">R$ 970.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 01</div><div class="hbartrack"><div class="hbarfill" style="width:84.2%"></div></div><div class="hbarval">R$ 957.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 08</div><div class="hbartrack"><div class="hbarfill" style="width:50.8%"></div></div><div class="hbarval">R$ 577.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 06</div><div class="hbartrack"><div class="hbarfill" style="width:47.5%"></div></div><div class="hbarval">R$ 540.000</div></div><div class="hbarrow"><div class="hbarlabel">COFINS</div><div class="hbartrack"><div class="hbarfill" style="width:37.0%"></div></div><div class="hbarval">R$ 420.000</div></div><div class="hbarrow"><div class="hbarlabel">IMPOSTOS</div><div class="hbartrack"><div class="hbarfill" style="width:33.5%"></div></div><div class="hbarval">R$ 380.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 02</div><div class="hbartrack"><div class="hbarfill" style="width:31.9%"></div></div><div class="hbarval">R$ 362.000</div></div><div class="hbarrow"><div class="hbarlabel">ISSQN</div><div class="hbartrack"><div class="hbarfill" style="width:27.3%"></div></div><div class="hbarval">R$ 310.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 07</div><div class="hbartrack"><div class="hbarfill" style="width:25.3%"></div></div><div class="hbarval">R$ 287.000</div></div></div></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">05. Contabilização de Notas Fiscais</div>
+  <div class="pfunc">Função do Pilar 1: Conciliação bancária (extrato x lançamento)</div>
+  <div class="pdesc">Volume de crédito por unidade ao longo dos meses, cruzando pagamento a fornecedores com a contabilização das notas fiscais. Dados ilustrativos.</div>
+  <div class="panelbody"><div class="chartwrap">
+      <div class="barchart"><div class="barcol"><div class="bartotal">R$ 390k</div><div class="barstack"><div class="seg" style="height:8.7%; background:#17335c;"></div><div class="seg" style="height:9.5%; background:#2a78d6;"></div><div class="seg" style="height:11.6%; background:#6FA8F0;"></div><div class="seg" style="height:11.0%; background:#eb6834;"></div><div class="seg" style="height:7.4%; background:#a8451c;"></div><div class="seg" style="height:10.4%; background:#5B6579;"></div><div class="seg" style="height:8.3%; background:#7C8AA8;"></div><div class="seg" style="height:8.5%; background:#223055;"></div></div><div class="barlabel">Jan</div></div><div class="barcol"><div class="bartotal">R$ 403k</div><div class="barstack"><div class="seg" style="height:7.7%; background:#17335c;"></div><div class="seg" style="height:10.1%; background:#2a78d6;"></div><div class="seg" style="height:12.2%; background:#6FA8F0;"></div><div class="seg" style="height:11.2%; background:#eb6834;"></div><div class="seg" style="height:5.8%; background:#a8451c;"></div><div class="seg" style="height:12.8%; background:#5B6579;"></div><div class="seg" style="height:10.1%; background:#7C8AA8;"></div><div class="seg" style="height:8.1%; background:#223055;"></div></div><div class="barlabel">Fev</div></div><div class="barcol"><div class="bartotal">R$ 429k</div><div class="barstack"><div class="seg" style="height:8.1%; background:#17335c;"></div><div class="seg" style="height:12.2%; background:#2a78d6;"></div><div class="seg" style="height:14.3%; background:#6FA8F0;"></div><div class="seg" style="height:10.1%; background:#eb6834;"></div><div class="seg" style="height:5.4%; background:#a8451c;"></div><div class="seg" style="height:11.6%; background:#5B6579;"></div><div class="seg" style="height:11.6%; background:#7C8AA8;"></div><div class="seg" style="height:9.7%; background:#223055;"></div></div><div class="barlabel">Mar</div></div><div class="barcol"><div class="bartotal">R$ 462k</div><div class="barstack"><div class="seg" style="height:10.3%; background:#17335c;"></div><div class="seg" style="height:10.6%; background:#2a78d6;"></div><div class="seg" style="height:14.9%; background:#6FA8F0;"></div><div class="seg" style="height:9.3%; background:#eb6834;"></div><div class="seg" style="height:7.0%; background:#a8451c;"></div><div class="seg" style="height:14.3%; background:#5B6579;"></div><div class="seg" style="height:12.0%; background:#7C8AA8;"></div><div class="seg" style="height:11.0%; background:#223055;"></div></div><div class="barlabel">Abr</div></div><div class="barcol"><div class="bartotal">R$ 469k</div><div class="barstack"><div class="seg" style="height:8.9%; background:#17335c;"></div><div class="seg" style="height:9.5%; background:#2a78d6;"></div><div class="seg" style="height:16.2%; background:#6FA8F0;"></div><div class="seg" style="height:8.3%; background:#eb6834;"></div><div class="seg" style="height:7.5%; background:#a8451c;"></div><div class="seg" style="height:14.3%; background:#5B6579;"></div><div class="seg" style="height:14.3%; background:#7C8AA8;"></div><div class="seg" style="height:11.6%; background:#223055;"></div></div><div class="barlabel">Mai</div></div><div class="barcol"><div class="bartotal">R$ 454k</div><div class="barstack"><div class="seg" style="height:7.9%; background:#17335c;"></div><div class="seg" style="height:9.1%; background:#2a78d6;"></div><div class="seg" style="height:15.3%; background:#6FA8F0;"></div><div class="seg" style="height:8.7%; background:#eb6834;"></div><div class="seg" style="height:6.8%; background:#a8451c;"></div><div class="seg" style="height:15.9%; background:#5B6579;"></div><div class="seg" style="height:14.1%; background:#7C8AA8;"></div><div class="seg" style="height:10.1%; background:#223055;"></div></div><div class="barlabel">Jun</div></div><div class="barcol"><div class="bartotal">R$ 472k</div><div class="barstack"><div class="seg" style="height:6.4%; background:#17335c;"></div><div class="seg" style="height:11.2%; background:#2a78d6;"></div><div class="seg" style="height:14.3%; background:#6FA8F0;"></div><div class="seg" style="height:8.7%; background:#eb6834;"></div><div class="seg" style="height:9.5%; background:#a8451c;"></div><div class="seg" style="height:16.4%; background:#5B6579;"></div><div class="seg" style="height:16.2%; background:#7C8AA8;"></div><div class="seg" style="height:8.5%; background:#223055;"></div></div><div class="barlabel">Jul</div></div><div class="barcol"><div class="bartotal">R$ 504k</div><div class="barstack"><div class="seg" style="height:8.3%; background:#17335c;"></div><div class="seg" style="height:12.0%; background:#2a78d6;"></div><div class="seg" style="height:15.7%; background:#6FA8F0;"></div><div class="seg" style="height:10.1%; background:#eb6834;"></div><div class="seg" style="height:11.2%; background:#a8451c;"></div><div class="seg" style="height:15.9%; background:#5B6579;"></div><div class="seg" style="height:15.9%; background:#7C8AA8;"></div><div class="seg" style="height:8.5%; background:#223055;"></div></div><div class="barlabel">Ago</div></div><div class="barcol"><div class="bartotal">R$ 517k</div><div class="barstack"><div class="seg" style="height:7.5%; background:#17335c;"></div><div class="seg" style="height:11.2%; background:#2a78d6;"></div><div class="seg" style="height:16.8%; background:#6FA8F0;"></div><div class="seg" style="height:12.8%; background:#eb6834;"></div><div class="seg" style="height:9.7%; background:#a8451c;"></div><div class="seg" style="height:16.4%; background:#5B6579;"></div><div class="seg" style="height:15.7%; background:#7C8AA8;"></div><div class="seg" style="height:9.9%; background:#223055;"></div></div><div class="barlabel">Set</div></div></div>
+      <div class="legendrow"><span class="legdot" style="background:#17335c"></span>Unidade A<span class="legdot" style="background:#2a78d6"></span>Unidade B<span class="legdot" style="background:#6FA8F0"></span>Unidade C<span class="legdot" style="background:#eb6834"></span>Unidade D<span class="legdot" style="background:#a8451c"></span>Unidade E<span class="legdot" style="background:#5B6579"></span>Unidade F<span class="legdot" style="background:#7C8AA8"></span>Unidade G<span class="legdot" style="background:#223055"></span>Unidade H</div>
+    </div></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">06. DRE Financeiro</div>
+  <div class="pfunc">Função do Pilar 1: Balancete e DRE gerencial em tempo real (funcionalidade central do módulo)</div>
+  <div class="pdesc">Cards de KPI e tabela por categoria x mês, consolidado do grupo. Categorias contábeis padrão; valores ilustrativos, ordem de grandeza compatível com uma rede de porte médio.</div>
+  <div class="panelbody"><div class="kpirow"><div class="kpi"><div class="kpiv">R$ 98,4 Mi</div><div class="kpil">Receita Total Ano</div></div><div class="kpi"><div class="kpiv">-R$ 22,1 Mi</div><div class="kpil">Custo Total</div></div><div class="kpi"><div class="kpiv">-R$ 44,7 Mi</div><div class="kpil">Despesa Total</div></div><div class="kpi"><div class="kpiv">-R$ 19,8 Mi</div><div class="kpil">Distribuição de Lucro</div></div><div class="kpi"><div class="kpiv">R$ 11,6 Mi</div><div class="kpil">Aporte dos Sócios</div></div></div>
+    <table class="gtable small"><thead><tr><th>Categoria</th><th>Jan</th><th>Fev</th><th>Mar</th><th>Abr</th><th>Mai</th><th>Jun</th></tr></thead><tbody><tr><td>A - RECEITAS</td><td>R$ 4.646.000</td><td>R$ 3.572.000</td><td>R$ 6.040.000</td><td>R$ 7.727.000</td><td>R$ 6.126.000</td><td>R$ 6.374.000</td></tr><tr><td>A - RECEITAS_FINANCEIRAS</td><td>R$ 1.719.000</td><td>R$ 4.012.000</td><td>R$ 2.073.000</td><td>R$ 4.116.000</td><td>R$ 8.101.000</td><td>R$ 3.622.000</td></tr><tr><td>DESPESAS</td><td>R$ -5.933.000</td><td>R$ -3.748.000</td><td>R$ -8.307.000</td><td>R$ -431.000</td><td>R$ -8.255.000</td><td>R$ -6.036.000</td></tr><tr><td>INVESTIMENTOS</td><td>R$ -1.789.000</td><td>R$ -2.364.000</td><td>R$ -6.765.000</td><td>R$ -3.665.000</td><td>R$ -8.232.000</td><td>R$ -3.324.000</td></tr><tr><td>INVESTIMENTOS_APORTE</td><td>R$ -7.509.000</td><td>R$ -5.847.000</td><td>R$ -1.821.000</td><td>R$ -6.885.000</td><td>R$ -7.988.000</td><td>R$ -6.976.000</td></tr><tr><td>REPASSES</td><td>R$ 1.791.000</td><td>R$ 3.002.000</td><td>R$ 3.185.000</td><td>R$ 2.481.000</td><td>R$ 851.000</td><td>R$ 2.876.000</td></tr><tr><td>RETIRADA_DE_LUCROS</td><td>R$ -8.024.000</td><td>R$ -2.794.000</td><td>R$ -8.171.000</td><td>R$ -6.141.000</td><td>R$ -2.954.000</td><td>R$ -2.546.000</td></tr></tbody></table></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">07. Sobra de Caixa por Unidade</div>
+  <div class="pfunc">Função do Pilar 1: Insumo direto para margem de contribuição e ponto de equilíbrio</div>
+  <div class="pdesc">Sobra ou consumo de caixa consolidado por mês. Dados ilustrativos.</div>
+  <div class="panelbody"><div class="divergwrap"><div class="divergchart"><div class="divcol"><div class="divval">-R$ 24k</div><div class="divbars"><div class="divspace"></div><div class="divzero"></div><div class="divbar" style="height:31.8%; background:#a8451c;"></div></div><div class="barlabel">Jan</div></div><div class="divcol"><div class="divval">-R$ 25k</div><div class="divbars"><div class="divspace"></div><div class="divzero"></div><div class="divbar" style="height:33.1%; background:#a8451c;"></div></div><div class="barlabel">Fev</div></div><div class="divcol"><div class="divval">R$ 26k</div><div class="divbars"><div class="divbar" style="height:34.4%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Mar</div></div><div class="divcol"><div class="divval">R$ 21k</div><div class="divbars"><div class="divbar" style="height:27.8%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Abr</div></div><div class="divcol"><div class="divval">R$ 16k</div><div class="divbars"><div class="divbar" style="height:21.2%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Mai</div></div><div class="divcol"><div class="divval">-R$ 19k</div><div class="divbars"><div class="divspace"></div><div class="divzero"></div><div class="divbar" style="height:25.1%; background:#a8451c;"></div></div><div class="barlabel">Jun</div></div><div class="divcol"><div class="divval">R$ 8k</div><div class="divbars"><div class="divbar" style="height:10.6%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Jul</div></div><div class="divcol"><div class="divval">R$ 22k</div><div class="divbars"><div class="divbar" style="height:29.1%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Ago</div></div><div class="divcol"><div class="divval">R$ 34k</div><div class="divbars"><div class="divbar" style="height:45.0%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Set</div></div></div></div></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">08. Distribuição de Lucros por Unidade</div>
+  <div class="pfunc">Função do Pilar 1: Controle de retiradas (pró-labore, distribuição de lucro)</div>
+  <div class="pdesc">Distribuição de lucro consolidada por mês. Dados ilustrativos.</div>
+  <div class="panelbody"><div class="divergwrap"><div class="divergchart"><div class="divcol"><div class="divval">-R$ 17k</div><div class="divbars"><div class="divspace"></div><div class="divzero"></div><div class="divbar" style="height:25.5%; background:#a8451c;"></div></div><div class="barlabel">Jan</div></div><div class="divcol"><div class="divval">R$ 2k</div><div class="divbars"><div class="divbar" style="height:3.0%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Fev</div></div><div class="divcol"><div class="divval">R$ 30k</div><div class="divbars"><div class="divbar" style="height:45.0%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Mar</div></div><div class="divcol"><div class="divval">-R$ 13k</div><div class="divbars"><div class="divspace"></div><div class="divzero"></div><div class="divbar" style="height:19.5%; background:#a8451c;"></div></div><div class="barlabel">Abr</div></div><div class="divcol"><div class="divval">R$ 27k</div><div class="divbars"><div class="divbar" style="height:40.5%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Mai</div></div><div class="divcol"><div class="divval">R$ 30k</div><div class="divbars"><div class="divbar" style="height:45.0%; background:#2a78d6; align-self:flex-end;"></div><div class="divzero"></div><div class="divspace"></div></div><div class="barlabel">Jun</div></div><div class="divcol"><div class="divval">-R$ 12k</div><div class="divbars"><div class="divspace"></div><div class="divzero"></div><div class="divbar" style="height:18.0%; background:#a8451c;"></div></div><div class="barlabel">Jul</div></div><div class="divcol"><div class="divval">-R$ 24k</div><div class="divbars"><div class="divspace"></div><div class="divzero"></div><div class="divbar" style="height:36.0%; background:#a8451c;"></div></div><div class="barlabel">Ago</div></div><div class="divcol"><div class="divval">-R$ 9k</div><div class="divbars"><div class="divspace"></div><div class="divzero"></div><div class="divbar" style="height:13.5%; background:#a8451c;"></div></div><div class="barlabel">Set</div></div></div></div></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">09. Volume de Compras por Fornecedor — NFE</div>
+  <div class="pfunc">Função do Pilar 1: Base de dados para o comparativo automático OCEO x escritório externo</div>
+  <div class="pdesc">Ranking dos maiores fornecedores por nota fiscal eletrônica emitida, com tabela detalhada mês a mês. Fornecedores identificados por código genérico.</div>
+  <div class="panelbody"><div class="hbarlist"><div class="hbarrow"><div class="hbarlabel">Fornecedor 05</div><div class="hbartrack"><div class="hbarfill" style="width:100.0%"></div></div><div class="hbarval">R$ 862.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 06</div><div class="hbartrack"><div class="hbarfill" style="width:78.9%"></div></div><div class="hbarval">R$ 680.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 09</div><div class="hbartrack"><div class="hbarfill" style="width:73.9%"></div></div><div class="hbarval">R$ 637.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 03</div><div class="hbartrack"><div class="hbarfill" style="width:68.8%"></div></div><div class="hbarval">R$ 593.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 07</div><div class="hbartrack"><div class="hbarfill" style="width:47.9%"></div></div><div class="hbarval">R$ 413.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 02</div><div class="hbartrack"><div class="hbarfill" style="width:44.0%"></div></div><div class="hbarval">R$ 379.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 08</div><div class="hbartrack"><div class="hbarfill" style="width:40.0%"></div></div><div class="hbarval">R$ 345.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 04</div><div class="hbartrack"><div class="hbarfill" style="width:37.8%"></div></div><div class="hbarval">R$ 326.000</div></div><div class="hbarrow"><div class="hbarlabel">Fornecedor 01</div><div class="hbartrack"><div class="hbarfill" style="width:34.5%"></div></div><div class="hbarval">R$ 297.000</div></div></div><table class="gtable small" style="margin-top:4mm;"><thead><tr><th>Fornecedor</th><th>Mês 6</th><th>Mês 7</th><th>Mês 8</th><th>Total</th></tr></thead><tbody><tr><td>Fornecedor 05</td><td>R$ 112.000</td><td>R$ 38.000</td><td>R$ 20.000</td><td><b>R$ 170.000</b></td></tr><tr><td>Fornecedor 06</td><td>R$ 194.000</td><td>R$ 95.000</td><td>R$ 122.000</td><td><b>R$ 411.000</b></td></tr><tr><td>Fornecedor 09</td><td>R$ 174.000</td><td>R$ 154.000</td><td>R$ 137.000</td><td><b>R$ 465.000</b></td></tr><tr><td>Fornecedor 03</td><td>R$ 112.000</td><td>R$ 133.000</td><td>R$ 38.000</td><td><b>R$ 283.000</b></td></tr><tr><td>Fornecedor 07</td><td>R$ 141.000</td><td>R$ 43.000</td><td>R$ 139.000</td><td><b>R$ 323.000</b></td></tr><tr><td>Fornecedor 02</td><td>R$ 135.000</td><td>R$ 9.000</td><td>R$ 117.000</td><td><b>R$ 261.000</b></td></tr></tbody></table></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Estrutura real, dados ilustrativos</span><span class="wm2">DADOS ILUSTRATIVOS</span></div>
+</div>
+
+
+<!-- 12. FECHAMENTO -->
+<div class="page closing">
+  <div class="kicker" style="color:#6FA8F0;">Leitura consolidada</div>
+  <h2>O que isso significa para o investimento no OCEO</h2>
+  <div class="rule"></div>
+  <p>Dos itens listados no escopo do Pilar 1 — apuração contábil, conciliação bancária, controle de custos/despesas por centro de custo, controle de entradas por categoria, controle de retiradas, balancete e DRE gerencial — pelo menos seis já têm painel real funcionando, hoje, para um cliente pagante do Grupo Sena, na mesma estrutura ilustrada nas páginas anteriores. Isso reduz o risco de execução do produto: a camada mais complexa (processamento contábil de verdade, não só monitoramento) já está provada.</p>
+  <p style="margin-top:5mm;">O comparativo de custo que sustenta a tese comercial do OCEO, já validado no Pilar 1:</p>
+  <table class="cost">
+    <tr><th>Cenário</th><th>Custo mensal</th></tr>
+    <tr><td>Montar equipe interna (Contábil + Fiscal + DP + RH)</td><td>R$ 30.834,39</td></tr>
+    <tr><td>OCEO (mensalidade)</td><td>R$ 3.500,00</td></tr>
+    <tr><td>Economia mensal</td><td>R$ 27.334,39 (88,6%)</td></tr>
+  </table>
+  <p style="margin-top:5mm; font-size:11.5px; color:#7C8AA8;">Setup R$ 12.500 (único). Payback do setup ≈ 14 dias. Fonte do comparativo de equipe interna: CAGED via salario.com.br.</p>
+  <div class="cta">OCEO — www.oceo.com.br</div>
+</div>
+
+</body>
+</html>
