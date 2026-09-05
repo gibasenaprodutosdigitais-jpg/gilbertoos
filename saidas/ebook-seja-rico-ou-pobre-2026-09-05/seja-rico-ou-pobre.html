@@ -1,0 +1,1402 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Seja Rico ou Pobre — Gilberto Sena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --grafite:#0F1419;
+    --preto:#0A0A0A;
+    --papel:#F4F1EA;
+    --tinta:#151515;
+    --corpo:#3f3f3f;
+    --ouro:#C9A227;
+    --linha:#d9d2c2;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    color:var(--corpo);
+    font-size:11.3pt;
+    line-height:1.62;
+    background:#fff;
+  }
+  @page{ size:A4; margin:20mm 18mm 22mm 18mm; }
+  @page{ @bottom-center{ content: counter(page); color:#8a8374; font-size:9pt; } }
+
+  .page{ page-break-after:always; }
+  .page:last-child{ page-break-after:auto; }
+  h1,h2,h3,h4{ color:var(--tinta); line-height:1.2; }
+  p{ margin:0 0 .85em; text-align:justify; }
+  strong{ color:var(--tinta); }
+  .lead{ font-size:12.5pt; color:#2a2a2a; }
+
+  .cover{
+    background:var(--grafite); color:var(--papel); height:257mm;
+    margin:-20mm -18mm 0 -18mm; padding:34mm 24mm;
+    display:flex; flex-direction:column; justify-content:space-between;
+    page-break-after:always;
+  }
+  .cover .brand{ font-size:12pt; font-weight:700; letter-spacing:.34em; color:var(--ouro); text-transform:uppercase; }
+  .cover .kick{ font-size:10.5pt; font-weight:700; letter-spacing:.30em; text-transform:uppercase; color:#c9c2b0; margin-bottom:14mm; }
+  .cover h1{ font-family:'Fraunces','Inter',serif; font-size:54pt; font-weight:900; letter-spacing:-.02em; color:var(--papel); margin:0 0 8mm; line-height:1.02; }
+  .cover h1 .em{ color:var(--ouro); }
+  .cover .sub{ font-size:13pt; color:#d7d0be; max-width:132mm; line-height:1.5; }
+  .cover .rule{ width:46mm; height:3px; background:var(--ouro); margin:10mm 0; }
+  .cover .foot{ font-size:10.5pt; color:#a9a291; }
+  .cover .foot b{ color:var(--papel); font-weight:700; }
+
+  .part{ background:var(--preto); color:var(--papel); height:257mm; margin:-20mm -18mm 0 -18mm; padding:60mm 26mm; page-break-after:always; }
+  .part .pnum{ font-size:11pt; letter-spacing:.4em; color:var(--ouro); font-weight:700; text-transform:uppercase; }
+  .part h2{ font-family:'Fraunces','Inter',serif; color:var(--papel); font-size:38pt; font-weight:900; letter-spacing:-.015em; margin:6mm 0 8mm; line-height:1.05; }
+  .part .pintro{ font-size:12.5pt; color:#d7d0be; max-width:132mm; }
+  .part .rule{ width:40mm; height:3px; background:var(--ouro); margin:9mm 0; }
+
+  .chap{ page-break-before:always; }
+  .chap-head{ border-bottom:2px solid var(--ouro); padding-bottom:5mm; margin-bottom:8mm; }
+  .chap-head .ck{ font-size:10pt; letter-spacing:.28em; text-transform:uppercase; color:var(--ouro); font-weight:700; }
+  .chap-head h3{ font-family:'Fraunces','Inter',serif; font-size:23pt; font-weight:900; margin:3mm 0 0; letter-spacing:-.01em; }
+
+  h4{ font-size:12.5pt; font-weight:800; margin:7mm 0 2mm; color:var(--tinta); }
+  .kickline{ font-size:9.5pt; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:var(--ouro); margin:8mm 0 1mm; }
+
+  .box{ border:1px solid var(--linha); border-left:4px solid var(--ouro); background:#faf8f2; padding:6mm 7mm; margin:6mm 0; page-break-inside:avoid; }
+  .box .bt{ font-size:9.5pt; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:var(--ouro); margin-bottom:2mm; }
+  .box p:last-child{ margin-bottom:0; }
+  .box.dark{ background:var(--grafite); border-color:#2a323a; border-left-color:var(--ouro); color:#e7e2d4; }
+  .box.dark .bt{ color:var(--ouro); }
+  .box.dark strong{ color:#fff; }
+
+  .quote{ font-family:'Fraunces','Inter',serif; font-size:13.5pt; line-height:1.5; color:var(--tinta); border-left:3px solid var(--ouro); padding-left:6mm; margin:6mm 0; font-style:italic; }
+  .quote .src{ display:block; font-family:'Inter',sans-serif; font-style:normal; font-size:9.5pt; letter-spacing:.12em; text-transform:uppercase; color:#8a8374; margin-top:2mm; }
+
+  ul,ol{ margin:.4em 0 1em; padding-left:6mm; }
+  li{ margin:.28em 0; }
+
+  table{ width:100%; border-collapse:collapse; margin:6mm 0; font-size:10pt; page-break-inside:avoid; }
+  th,td{ border:1px solid var(--linha); padding:3mm 3.5mm; text-align:left; vertical-align:top; }
+  th{ background:var(--grafite); color:var(--papel); font-weight:700; font-size:9pt; letter-spacing:.06em; text-transform:uppercase; }
+  tr:nth-child(even) td{ background:#faf8f2; }
+
+  .fill{ border:1px solid var(--linha); padding:5mm 6mm; margin:5mm 0; page-break-inside:avoid; }
+  .fill .fl{ font-size:9.5pt; font-weight:700; color:var(--tinta); text-transform:uppercase; letter-spacing:.1em; }
+  .fill .line{ border-bottom:1px solid #c7bfab; height:8mm; }
+
+  .toc h2{ font-family:'Fraunces','Inter',serif; font-size:26pt; font-weight:900; margin:0 0 8mm; }
+  .toc .trow{ display:flex; justify-content:space-between; border-bottom:1px dotted #cabfa7; padding:2.4mm 0; font-size:10.5pt; }
+  .toc .tpart{ margin-top:6mm; font-weight:800; color:var(--ouro); letter-spacing:.14em; text-transform:uppercase; font-size:9.5pt; }
+  .toc .trow span:first-child{ color:var(--tinta); }
+  .toc .trow span:last-child{ color:#8a8374; }
+
+  .frontmatter h2{ font-family:'Fraunces','Inter',serif; font-size:22pt; font-weight:900; margin:0 0 5mm; }
+  .center{ text-align:center; }
+  .small{ font-size:9.5pt; color:#8a8374; }
+</style>
+</head>
+<body>
+
+<!-- ============ CAPA ============ -->
+<section class="cover">
+  <div><div class="brand">Gilberto Sena</div></div>
+  <div>
+    <div class="kick">A herança invisível que decide o seu bolso</div>
+    <h1>Seja Rico<br>ou <span class="em">Pobre</span></h1>
+    <div class="rule"></div>
+    <p class="sub">As crenças sobre dinheiro que você herdou sem assinar embaixo — e
+    como trocar o roteiro antes que ele decida a sua vida inteira. Uma leitura
+    aplicada de <i>“Pai Rico, Pai Pobre”</i>, na minha voz.</p>
+  </div>
+  <div class="foot"><b>Gilberto Sena</b> &nbsp;·&nbsp; e-book &nbsp;·&nbsp; 1ª edição, 2026</div>
+</section>
+
+<!-- ============ FOLHA DE ROSTO ============ -->
+<section class="page frontmatter">
+  <br><br><br>
+  <h2>Seja Rico ou Pobre</h2>
+  <p class="lead">A herança invisível que decide o seu bolso — e como reprogramá-la.</p>
+  <p>Este material é uma <strong>leitura aplicada</strong>, na minha voz, das
+  ideias centrais de <i>“Pai Rico, Pai Pobre”</i>, de Robert Kiyosaki e Sharon
+  Lechter. Não é a reprodução do livro deles. É a minha releitura — os conceitos
+  organizados em torno de uma pergunta que me interessa mais que qualquer
+  outra: <strong>quais crenças sobre dinheiro você recebeu de graça e nunca
+  auditou?</strong></p>
+  <p>O ponto de partida é simples. Ninguém nasce achando que dinheiro é sujo,
+  que rico é ganancioso, que emprego é segurança, que casa é o maior
+  patrimônio. Alguém te ensinou. E o que era proteção para quem te criou virou,
+  para você, um limite mental. Este livro é sobre enxergar esse limite e
+  atravessá-lo.</p>
+  <br>
+  <p class="small">Uso próprio e formação. As referências a <i>“Pai Rico, Pai
+  Pobre”</i> são sínteses de conceitos, em texto próprio, e não substituem a
+  leitura da obra original. As aplicações práticas e o enquadramento são meus.</p>
+  <br><br>
+  <p class="small center">© 2026 Gilberto Sena · GILBERTO SENA</p>
+</section>
+
+<!-- ============ SUMÁRIO ============ -->
+<section class="page toc">
+  <h2>Sumário</h2>
+
+  <div class="tpart">Abertura</div>
+  <div class="trow"><span>Carta ao leitor — a frase que te programou</span><span>7</span></div>
+  <div class="trow"><span>Como ler este e-book</span><span>9</span></div>
+
+  <div class="tpart">Parte I — A herança que você não escolheu</div>
+  <div class="trow"><span>1 · O roteiro que você decorou antes de saber ler</span><span>13</span></div>
+  <div class="trow"><span>2 · “Não dá pra comprar” × “Como eu posso comprar”</span><span>17</span></div>
+  <div class="trow"><span>3 · As duas cabeças sobre dinheiro</span><span>21</span></div>
+  <div class="trow"><span>4 · A raiz falsa: amor ao dinheiro × falta de dinheiro</span><span>25</span></div>
+
+  <div class="tpart">Parte II — Quando a crença herdada vira algema</div>
+  <div class="trow"><span>5 · Confundir ativo com passivo</span><span>30</span></div>
+  <div class="trow"><span>6 · Trabalhar pelo dinheiro × fazer o dinheiro trabalhar</span><span>34</span></div>
+  <div class="trow"><span>7 · A Corrida dos Ratos: medo → trabalho → desejo → dívida</span><span>38</span></div>
+  <div class="trow"><span>8 · “Estude, tire nota, arruma emprego seguro”</span><span>42</span></div>
+  <div class="trow"><span>9 · Segurança × inteligência</span><span>46</span></div>
+
+  <div class="tpart">Parte III — Os cinco muros mentais</div>
+  <div class="trow"><span>10 · Medo de perder</span><span>52</span></div>
+  <div class="trow"><span>11 · Ceticismo — a voz do “o céu vai cair”</span><span>56</span></div>
+  <div class="trow"><span>12 · Preguiça disfarçada de ocupação</span><span>60</span></div>
+  <div class="trow"><span>13 · Maus hábitos — pagar todo mundo antes de si</span><span>64</span></div>
+  <div class="trow"><span>14 · Arrogância — o que você não sabe te custa caro</span><span>68</span></div>
+
+  <div class="tpart">Parte IV — Reprogramar a herança</div>
+  <div class="trow"><span>15 · Alfabetização financeira: a história que os números contam</span><span>74</span></div>
+  <div class="trow"><span>16 · Cuide do seu negócio (mesmo com emprego)</span><span>78</span></div>
+  <div class="trow"><span>17 · Pague-se primeiro: disciplina como pressão criativa</span><span>82</span></div>
+  <div class="trow"><span>18 · Trabalhe para aprender, não pelo dinheiro</span><span>86</span></div>
+  <div class="trow"><span>19 · A herança emocional e a dívida que não é sua</span><span>90</span></div>
+
+  <div class="tpart">Parte V — Do “não posso” ao “como eu faço”</div>
+  <div class="trow"><span>20 · Trocar o roteiro em 30 dias</span><span>96</span></div>
+  <div class="trow"><span>Caixa de ferramentas</span><span>100</span></div>
+</section>
+
+<!-- ============ CARTA ============ -->
+<section class="page chap">
+  <div class="chap-head"><div class="ck">Abertura</div><h3>Carta ao leitor</h3></div>
+
+  <p class="lead">A frase que mais moldou a sua vida financeira você ouviu antes
+  de saber contar dinheiro.</p>
+
+  <p>Pode ter sido “dinheiro não traz felicidade”. Pode ter sido “rico é tudo
+  ladrão”. Pode ter sido “na nossa família a gente trabalha, não fica sonhando”.
+  Ou o clássico, dito com carinho e com aperto no peito: “isso a gente não pode
+  comprar”. Você não anotou. Não precisou. O cérebro de criança grava esse tipo
+  de coisa como se fosse lei da física.</p>
+
+  <p>Anos depois, você toma decisões de adulto — que emprego aceitar, se abre um
+  negócio, se investe ou não, quanto cobra pelo seu trabalho, se briga por um
+  aumento — e acha que está decidindo com a razão. Não está. Está obedecendo a um
+  roteiro que alguém escreveu para você quando você tinha seis anos.</p>
+
+  <p><i>“Pai Rico, Pai Pobre”</i> é, no fundo, um livro sobre isso. Kiyosaki teve
+  a sorte estranha de crescer entre dois homens fortes que pensavam o dinheiro de
+  formas opostas: um pai instruído, funcionário, que morreu deixando contas; e o
+  pai de um amigo, com pouca escola e muito negócio, que morreu deixando império.
+  Os dois trabalhavam duro. Os dois eram inteligentes. A diferença estava
+  <strong>na cabeça</strong> — nas frases que cada um repetia sobre o que o
+  dinheiro é e como ele funciona.</p>
+
+  <div class="quote">Meu pai pobre dizia: “não posso comprar isso.” Meu pai rico
+  proibia essa frase e mandava perguntar: “como eu posso comprar isso?” Uma
+  fecha o cérebro. A outra obriga a pensar.
+  <span class="src">Ideia central de Pai Rico, Pai Pobre · em paráfrase</span></div>
+
+  <p>O que eu faço aqui é pegar essa ideia e as outras do livro — ativo e
+  passivo, a Corrida dos Ratos, trabalhar para aprender, os obstáculos mentais —
+  e organizar tudo em volta da pergunta que me parece a mais útil: <strong>qual
+  parte da minha cabeça sobre dinheiro é minha, e qual parte eu só herdei?</strong></p>
+
+  <p>Não é sobre culpar quem te criou. Eles te deram o que tinham. Muitas vezes o
+  que tinham era medo, e o medo os manteve vivos. Mas o que foi sobrevivência
+  para uma geração pode virar jaula para a seguinte. Reconhecer isso não é
+  ingratidão. É maturidade — e é o primeiro passo para escolher outro caminho.</p>
+
+  <p>“Seja rico ou pobre” não é ameaça. É constatação. A cada mês, a cada
+  decisão de dinheiro, você está votando num dos dois. E o voto quase sempre é
+  automático, ditado pela herança. Este livro é para tornar o voto consciente.</p>
+</section>
+
+<!-- ============ COMO LER ============ -->
+<section class="page chap">
+  <div class="chap-head"><div class="ck">Abertura</div><h3>Como ler este e-book</h3></div>
+
+  <p>Todo capítulo segue a mesma estrutura:</p>
+
+  <table>
+    <tr><th>Bloco</th><th>O que traz</th></tr>
+    <tr><td><strong>Texto principal</strong></td><td>A ideia, na minha voz.</td></tr>
+    <tr><td><strong>A crença herdada</strong></td><td>A frase de fundo que costuma estar por trás do problema.</td></tr>
+    <tr><td><strong>O que o livro mostra</strong></td><td>Caixa escura. A síntese do conceito de <i>Pai Rico, Pai Pobre</i> ligado ao ponto.</td></tr>
+    <tr><td><strong>Na prática</strong></td><td>Exemplo concreto e um movimento pequeno para fazer esta semana.</td></tr>
+    <tr><td><strong>Ferramenta</strong></td><td>Um exercício curto, às vezes preenchível.</td></tr>
+  </table>
+
+  <p>Leia na ordem — as partes se apoiam. A <strong>Parte I</strong> é o
+  diagnóstico das crenças. A <strong>II</strong> mostra como elas viram limite
+  prático no bolso. A <strong>III</strong> são os cinco muros mentais que
+  aparecem quando você tenta mudar. A <strong>IV</strong> é o método de
+  reprogramação. A <strong>V</strong> é o plano de execução.</p>
+
+  <div class="box">
+    <div class="bt">Um aviso reto</div>
+    <p>Ler não troca crença. Crença troca com <strong>experiência nova,
+    repetida</strong>. Escolha uma ferramenta por semana e use até doer menos.
+    É assim — e só assim — que o roteiro velho perde a força.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que este livro não é</div>
+    <p>Não é promessa de enriquecimento rápido. Não é dica de investimento. Não
+    é o texto de Kiyosaki reescrito. É uma releitura dos conceitos dele, com o
+    meu ângulo — as crenças herdadas — e as minhas aplicações.</p>
+  </div>
+</section>
+
+<!-- ============ PARTE I ============ -->
+<section class="part">
+  <div class="pnum">Parte I</div>
+  <h2>A herança que você não escolheu</h2>
+  <div class="rule"></div>
+  <p class="pintro">Antes de falar de investimento, de ativo, de fluxo de caixa,
+  a gente precisa abrir o porão. Lá estão as frases que você decorou sem
+  perceber e que hoje decidem, no automático, o que você acha possível e o que
+  você acha loucura.</p>
+</section>
+
+<!-- CAP 1 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte I · Capítulo 1</div><h3>O roteiro que você decorou antes de saber ler</h3></div>
+
+  <p class="lead">Você aprendeu a lidar com dinheiro do mesmo jeito que aprendeu
+  a falar: por imitação, sem aula, sem perceber que estava aprendendo.</p>
+
+  <p>Ninguém senta uma criança e diz “agora vou te ensinar sua relação com o
+  dinheiro”. O ensino acontece de outro jeito. Na cara que o adulto faz quando
+  chega a conta de luz. No tom de voz quando alguém fala de gente rica. No que se
+  pode e no que não se pode pedir no supermercado. No silêncio sobre salário. Em
+  vinte anos disso, você não tem uma opinião sobre dinheiro — você tem um
+  <strong>reflexo</strong>.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“É assim que a nossa família lida com dinheiro.” Dito ou não dito, esse é o
+    contrato que você assinou sem ler. E ele inclui cláusulas do tipo: até quanto
+    é seguro querer, o que é ambição demais, quem tem direito de ficar rico, o
+    que é gastar bem e o que é gastar errado.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki cresceu ouvindo dois roteiros ao mesmo tempo. Um pai dizia que os
+    ricos deviam pagar mais imposto; o outro, que imposto pune quem produz. Um
+    dizia “nossa casa é o maior investimento”; o outro, “a casa é uma dívida”.
+    Um mandava estudar para conseguir emprego numa boa empresa; o outro, estudar
+    para ser dono da empresa. Nenhuma das frases era neutra. Cada uma era um
+    programa mental sendo instalado — e cada pai colheu, décadas depois, o
+    resultado do seu.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p><strong>Situação:</strong> aparece uma oportunidade de negócio ou de
+  investimento. Antes de qualquer análise, você já sente um “isso não é pra
+  mim”. Repare: esse “não é pra mim” raramente é conclusão. É reflexo. É a voz
+  de alguém que te criou, falando pela sua boca.</p>
+  <p><strong>Movimento da semana:</strong> escreva as cinco frases sobre dinheiro
+  que você mais ouviu quando criança. Do lado de cada uma, marque: <em>isso ainda
+  é verdade pra mim, ou só me protege de um perigo que não existe mais?</em></p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Inventário de crenças herdadas</div>
+    <p>Complete, por escrito:
+    <br>“Sobre dinheiro, na minha casa se dizia ______________.”
+    <br>“Sobre gente rica, se dizia ______________.”
+    <br>“Sobre pedir, poupar e gastar, a regra era ______________.”
+    <br>“A frase que mais me limita hoje é ______________ — e ela é do(a) ______________.”</p>
+  </div>
+</section>
+
+<!-- CAP 2 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte I · Capítulo 2</div><h3>“Não dá pra comprar” × “Como eu posso comprar”</h3></div>
+
+  <p class="lead">Duas frases. Uma fecha a porta. A outra abre uma sala cheia de
+  possibilidades. A diferença entre um rico e um pobre muitas vezes está em qual
+  das duas ele diz no automático.</p>
+
+  <p>“Não dá pra comprar” é uma afirmação. Termina o assunto. O cérebro entende
+  que não há o que pensar e desliga. “Como eu posso comprar isso?” é uma
+  pergunta. Obriga o cérebro a trabalhar, a procurar caminho, a inventar
+  alternativa. Não é sobre comprar tudo o que se quer. É sobre manter a mente
+  ligada em vez de treiná-la para desistir.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“A gente não tem condição.” Repetida mil vezes, ela deixa de descrever a
+    conta bancária e passa a descrever <strong>você</strong>. Vira identidade.
+    E identidade a gente defende, mesmo quando ela nos machuca.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>No livro, “não dá pra comprar” é tratada como preguiça mental e como
+    mentira que o espírito reconhece. Ela traz junto uma sensação de desamparo,
+    às vezes de desânimo. Já “como eu posso comprar isso?” abre desejo, energia,
+    plano. A ideia não é romântica: é neurológica. Pergunta boa é ferramenta de
+    pensar. Afirmação de derrota é ferramenta de parar.</p>
+  </div>
+
+  <div class="kickline">Na prática · relação com você mesmo</div>
+  <p>Toda vez que “não dá” aparecer, reescreva na hora, por escrito:
+  <em>“como eu poderia ter acesso a isso — em 90 dias, em 1 ano, de um jeito que
+  eu ainda não enxerguei?”</em> Não precisa achar a resposta agora. Precisa
+  deixar a pergunta aberta. O cérebro trabalha nela sozinho, no fundo, enquanto
+  você faz outra coisa.</p>
+
+  <div class="kickline">Na prática · dentro da empresa</div>
+  <p>Se o seu time responde a todo projeto novo com “não dá”, você tem um
+  problema de cultura, não de recurso. Instale a pergunta como norma: em vez de
+  “não dá pra entregar em outubro”, exija “o que precisaria ser verdade pra dar
+  em outubro?”. Muda a reunião inteira.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Diário do “como eu posso”</div>
+    <p>Uma linha por dia. Coluna 1: o “não dá” que apareceu hoje. Coluna 2: a
+    versão em pergunta. Coluna 3: um primeiro passo pequeno, de 15 minutos.
+    Ao fim de duas semanas você vai ver que metade dos “não dá” era só hábito
+    de fala.</p>
+  </div>
+</section>
+
+<!-- CAP 3 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte I · Capítulo 3</div><h3>As duas cabeças sobre dinheiro</h3></div>
+
+  <p class="lead">Existe a cabeça que enxerga o dinheiro como algo que se
+  ganha, se gasta e acaba. E existe a cabeça que enxerga o dinheiro como algo que
+  se constrói, se coloca para trabalhar e se multiplica. Você opera quase sempre
+  com uma só — e não escolheu qual.</p>
+
+  <p>A primeira cabeça pensa em <strong>renda</strong>: quanto entra, quanto sai,
+  o que sobra. A vida gira em torno do contracheque. A segunda cabeça pensa em
+  <strong>patrimônio que gera renda</strong>: o que eu posso adquirir que ponha
+  dinheiro no meu bolso mesmo quando eu não estiver trabalhando. As duas
+  precisam de esforço. Só que uma constrói uma escada e a outra corre numa
+  esteira.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Dinheiro é pra pagar as contas.” Ponto. Nessa frase não existe a ideia de
+    excedente com propósito. O que sobra é para gastar, porque amanhã vem mais.
+    A cabeça de construção simplesmente não foi instalada — não porque você é
+    burro, mas porque ninguém te mostrou.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>A tese mais repetida do livro, em paráfrase: os pobres e a classe média
+    trabalham pelo dinheiro; os ricos fazem o dinheiro trabalhar para eles. Não é
+    sobre quanto se ganha — é sobre para onde o dinheiro vai depois que entra.
+    Quem foi educado só na primeira cabeça pode ter salário alto e viver
+    apertado, porque a despesa sempre acompanha a renda. Kiyosaki chama o
+    excedente na coluna de ativos de “empregado que trabalha 24 horas por dia,
+    inclusive por gerações”.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Faça a pergunta desconfortável sobre o seu último aumento de renda (salário,
+  faturamento, bônus): <em>ele virou patrimônio que gera renda, ou virou padrão
+  de vida mais caro?</em> Se a resposta é “padrão de vida”, você recebeu um
+  aumento e continuou operando na primeira cabeça.</p>
+  <p><strong>Movimento da semana:</strong> separe, agora, um percentual fixo e
+  pequeno de tudo que entra — 10% se der, 5% se não der — para a segunda cabeça.
+  Esse dinheiro não paga conta. Ele só serve para comprar coisas que geram renda.
+  Comece antes de “sobrar”. Nunca sobra.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Duas colunas</div>
+    <p>Numa folha, duas colunas. Esquerda: “o que eu comprei nos últimos 12 meses
+    que <strong>põe</strong> dinheiro no meu bolso”. Direita: “o que eu comprei que
+    <strong>tira</strong> dinheiro do meu bolso todo mês”. A folha vai contar a
+    verdade sobre qual cabeça está no comando.</p>
+  </div>
+</section>
+
+<!-- CAP 4 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte I · Capítulo 4</div><h3>A raiz falsa: amor ao dinheiro × falta de dinheiro</h3></div>
+
+  <p class="lead">Você provavelmente ouviu que “o amor ao dinheiro é a raiz de
+  todo mal”. E provavelmente nunca ouviu a outra metade da conversa: que a falta
+  de dinheiro também produz muito mal — vergonha, submissão, escolhas ruins,
+  gente presa onde não devia estar.</p>
+
+  <p>As duas frases são armadilhas quando viram dogma. “Amor ao dinheiro é mau”
+  ensina a pessoa a ter medo de querer, a sabotar o próprio crescimento, a se
+  sentir suja por cobrar bem. “Falta de dinheiro é a raiz do mal” pode virar
+  desculpa para ganância cega. A saída não é escolher um dos slogans. É entender
+  que <strong>dinheiro é ferramenta e é energia</strong> — amplifica o que você
+  já é. Na mão de quem constrói, constrói mais. Na mão de quem destrói, destrói
+  mais rápido.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Gente de bem não fala de dinheiro.” Essa é das mais caras. Ela ensina que
+    discutir preço, negociar, estudar investimento, olhar planilha é coisa de
+    gente interesseira. O resultado: pessoas honestas e trabalhadoras que passam
+    a vida sem instrução financeira, porque acham que buscá-la seria feio.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki nota que os amigos ricos dele falam de dinheiro — com interesse,
+    sem se gabar. Já os amigos em dificuldade financeira mudam de assunto,
+    acham o tema deselegante ou anti-intelectual. Ele aprende com os dois grupos:
+    com um, o que fazer; com o outro, o que não fazer. A recusa de falar de
+    dinheiro não é virtude. É o analfabetismo financeiro se defendendo.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — do meu lado</div>
+    <p>Em <i>“Não Há Dívidas”</i> eu falo de dívida emocional: cobrança que
+    ninguém assinou e nunca deixa de vencer. A crença de que “dinheiro é assunto
+    sujo” é uma dessas dívidas. Você paga com a sua paz — trabalhando demais,
+    cobrando de menos, com medo de olhar o extrato — para caber num padrão de
+    “pessoa de bem” que alguém definiu por você. Dá pra ser íntegro e ainda
+    assim entender profundamente de dinheiro. As duas coisas juntas, aliás, são
+    raras e valiosas.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Marque na agenda, esta semana, <strong>uma hora de conversa sobre dinheiro
+  sem culpa</strong>: com o sócio, com quem você mora, ou sozinho com uma
+  planilha. Fale de número, de preço, de meta, de investimento. Repita toda
+  semana. O objetivo é dessensibilizar o tema — tirar dele a carga de “feio”.</p>
+</section>
+
+<!-- ============ PARTE II ============ -->
+<section class="part">
+  <div class="pnum">Parte II</div>
+  <h2>Quando a crença herdada vira algema</h2>
+  <div class="rule"></div>
+  <p class="pintro">Crença não fica só na cabeça. Ela desce para a conta
+  bancária. Esta parte mostra como quatro ou cinco frases herdadas produzem, no
+  mundo real, endividamento, estagnação e uma vida inteira correndo sem sair do
+  lugar.</p>
+</section>
+
+<!-- CAP 5 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 5</div><h3>Confundir ativo com passivo</h3></div>
+
+  <p class="lead">Se você aprendeu errado a diferença entre o que constrói
+  riqueza e o que a consome, todo o resto desanda. É o erro que mais empobrece
+  gente trabalhadora.</p>
+
+  <p>Definição sem dicionário: <strong>ativo é o que põe dinheiro no seu
+  bolso</strong>. <strong>Passivo é o que tira</strong>. Simples assim. O
+  problema é que a cultura ensina a chamar de “patrimônio” um monte de coisa que,
+  todo mês, come o seu dinheiro: a casa grande, o carro do ano, os bens que
+  perdem valor na hora que saem da loja.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Nossa casa é o nosso maior bem.” Pode ser um teto, um lar, uma segurança
+    emocional — e tudo isso tem valor. Mas se ela só tira dinheiro do seu bolso
+    (financiamento, imposto, manutenção, oportunidade que você não perseguiu
+    porque o dinheiro está preso ali), do ponto de vista de fluxo de caixa ela
+    está na coluna errada da sua cabeça.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki insiste que a regra número um é conhecer a diferença entre ativo
+    e passivo e comprar ativos. Ele desenha o fluxo de caixa de três perfis: o
+    pobre, cujo dinheiro entra e sai todo em despesa; a classe média, que compra
+    passivos achando que são ativos e vive com o balanço lotado de dívida; e o
+    rico, cuja coluna de ativos gera renda suficiente para cobrir a despesa,
+    com o excedente reinvestido — o que faz a coluna crescer sozinha.</p>
+  </div>
+
+  <div class="kickline">Na prática · empresa</div>
+  <p><strong>O “ativo” que era passivo.</strong> Aquela filial, aquela linha de
+  produto, aquele equipamento parado que a empresa mantém “porque já investiu
+  tanto”. Se, mês a mês, só consome caixa e atenção, ele está na coluna errada.
+  Pergunta de controle: <i>“se isso chegasse hoje na minha mesa, do zero, eu
+  compraria?”</i></p>
+
+  <div class="kickline">Na prática · pessoal</div>
+  <p>Antes da próxima compra grande, classifique com honestidade: isto vai
+  <strong>pôr</strong> ou <strong>tirar</strong> dinheiro do meu bolso nos
+  próximos 12 meses? Se tira, tudo bem comprar — mas chame pelo nome. É consumo,
+  não patrimônio. E consumo entra depois que a coluna de ativos já está de pé.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Extrato de ativos e passivos reais</div>
+    <p>Liste tudo o que você chama de “patrimônio”. Ao lado de cada item, escreva
+    quanto ele <strong>coloca</strong> ou <strong>tira</strong> do seu bolso por
+    mês, em número. Some as duas colunas. O saldo é a sua situação de verdade —
+    não a que aparece na conversa de mesa de bar.</p>
+  </div>
+</section>
+
+<!-- CAP 6 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 6</div><h3>Trabalhar pelo dinheiro × fazer o dinheiro trabalhar</h3></div>
+
+  <p class="lead">A herança mais comum de todas: você aprendeu a trocar tempo
+  por dinheiro e nunca aprendeu a fazer dinheiro sem trocar tempo.</p>
+
+  <p>Trocar tempo por dinheiro não tem nada de errado — é como quase todo mundo
+  começa, é como se paga a conta no início. O erro é achar que é a
+  <strong>única</strong> forma. Quem só conhece essa fórmula fica preso a ela: se
+  para de trabalhar, para de ganhar. A vida inteira depende de um contracheque
+  que outra pessoa assina.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Quem não trabalha não tem.” Verdade parcial que virou verdade absoluta.
+    Ela ensina que todo dinheiro precisa ser suado <strong>por você, com o seu
+    corpo, hoje</strong>. Fecha a porta para a ideia de que um ativo — um
+    negócio que roda sem você, um investimento, um direito, uma obra — trabalhe
+    no seu lugar.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki conta como, ainda garoto, ele e o amigo tinham uma pequena
+    biblioteca de gibis que cobrava entrada e funcionava sem eles estarem
+    presentes: o dinheiro trabalhando enquanto eles faziam outra coisa. É uma
+    história boba de propósito — para mostrar que o princípio é simples. O
+    difícil não é a matemática. É a mudança de cabeça: parar de perguntar
+    “quanto eu ganho por hora?” e começar a perguntar “o que eu posso construir
+    que gere renda sem a minha hora?”.</p>
+  </div>
+
+  <div class="kickline">Na prática · dono de empresa</div>
+  <p>Se a sua empresa para quando você viaja, você não tem um negócio — tem um
+  emprego que você mesmo criou, com mais risco. O trabalho de virar “dono de
+  verdade” é construir processo, formar gente melhor que você em cada função, e
+  se tornar dispensável na operação. Isso é fazer o negócio trabalhar para você.</p>
+
+  <div class="kickline">Na prática · quem tem emprego</div>
+  <p>Não largue o emprego. Use-o. Todo mês, uma parte do que entra vai para
+  construir uma segunda fonte que não dependa da sua presença. No começo é
+  pequena e parece que não vale a pena. Vale. É a diferença entre, daqui a dez
+  anos, ter uma escada ou continuar na esteira.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Teste da ausência</div>
+    <p>Responda: “se eu ficar 90 dias sem poder trabalhar, quanto continua
+    entrando?” Escreva o número. Depois escreva a meta desse número para daqui a
+    12 meses. A distância entre os dois é o seu plano.</p>
+  </div>
+</section>
+
+<!-- CAP 7 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 7</div><h3>A Corrida dos Ratos: medo → trabalho → desejo → dívida</h3></div>
+
+  <p class="lead">Existe um ciclo que prende a maioria das pessoas a vida
+  inteira. Ele é movido por duas emoções herdadas — medo e desejo — e quase
+  ninguém percebe que está dentro dele.</p>
+
+  <p>O ciclo funciona assim: o <strong>medo</strong> de não ter dinheiro te faz
+  acordar e ir trabalhar. Você recebe. O <strong>desejo</strong> — de conforto,
+  de status, de “dar uma vida melhor” — te faz gastar, muitas vezes um pouco além
+  do que entrou. Vem a dívida. A dívida aumenta o medo. O medo te faz trabalhar
+  mais. Você ganha um aumento — e sobe também o padrão de gasto. O ciclo não
+  afrouxa; aperta. Kiyosaki chama isso de Corrida dos Ratos: pernas correndo,
+  roda girando, e no fim do dia você continua na mesma gaiola.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“É a vida. Todo mundo vive assim.” A normalização é o que mantém o ciclo
+    girando. Se todo mundo à sua volta está na esteira, a esteira parece o chão.
+    Você nem procura a saída porque não sabe que existe porta.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>O ponto do livro não é “não sinta medo nem desejo” — as duas emoções são
+    humanas e não vão embora. O ponto é <strong>não deixar que elas pensem por
+    você</strong>. Entre sentir o medo e sair correndo para o trabalho, existe
+    uma pergunta que quase ninguém faz: <i>“trabalhar mais é mesmo a melhor
+    solução de longo prazo para esse medo?”</i> Na maioria dos casos, não é.
+    Emprego é solução de curto prazo para um problema de longo prazo.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p><strong>Quebre o elo do desejo.</strong> Da próxima vez que a renda subir,
+  aplique a regra do “aumento pela metade”: metade do aumento vai para a coluna
+  de ativos, antes de qualquer coisa; a outra metade você pode gastar. Sem essa
+  regra, todo aumento é engolido pelo padrão de vida e o ciclo continua.</p>
+  <p><strong>Quebre o elo do medo.</strong> Construa uma reserva que cubra de 6 a
+  12 meses do essencial. Não é para render — é para tirar da amígdala o poder de
+  te obrigar a aceitar qualquer coisa. Medo com reserva na conta decide melhor.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Mapa medo / desejo</div>
+    <p>Duas perguntas, respondidas por escrito uma vez por mês:
+    <br>“Que decisão de dinheiro eu tomei este mês <strong>com medo</strong>? O
+    que ela me custou?”
+    <br>“Que gasto eu fiz este mês movido só por <strong>desejo de aparentar</strong>?
+    Ele valeu?”</p>
+  </div>
+</section>
+
+<!-- CAP 8 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 8</div><h3>“Estude, tire nota, arruma emprego seguro”</h3></div>
+
+  <p class="lead">Esse conselho não é maldade. É amor com data de validade
+  vencida. Funcionou para quem nasceu num mundo que não existe mais.</p>
+
+  <p>Para a geração dos nossos pais e avós, o caminho era claro: escola, diploma,
+  emprego numa empresa grande ou no governo, estabilidade, aposentadoria. Era um
+  bom conselho <strong>naquele mundo</strong>. O problema é repetir o conselho
+  num mundo de reestruturação constante, tecnologia que muda a cada ano, planos
+  de pensão que encolheram e carreiras que já não seguram ninguém a vida inteira.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Emprego é segurança.” Hoje, emprego é uma fonte de renda — importante,
+    respeitável — mas <strong>uma só</strong>, controlada por outra pessoa, que
+    pode acabar por decisão que não é sua. Chamar isso de “segurança” e não
+    construir mais nada é o que deixa a pessoa exposta.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki argumenta que o sistema de ensino prepara bem para ser
+    <strong>empregado</strong> e quase nada para ser <strong>empregador ou
+    investidor</strong>. Ensina profissão — engenheiro, contador, médico — e não
+    ensina como o dinheiro funciona. Por isso é comum ver profissionais muito
+    instruídos e bem pagos em dificuldade financeira a vida inteira: eles
+    aprenderam a trabalhar duro, não a fazer o dinheiro trabalhar.</p>
+  </div>
+
+  <div class="kickline">Na prática · com os filhos</div>
+  <p>Não jogue fora “estude e se forme” — habilidade e diploma abrem portas.
+  <strong>Some</strong> a isso o que a escola não dá: mesada com regra de
+  poupar–investir–gastar, conversa sobre juros, sobre ativo e passivo, sobre como
+  se cria uma renda que não depende de crachá. Ensine em casa, na mesa de jantar.
+  É lá que os ricos ensinam.</p>
+
+  <div class="kickline">Na prática · para você</div>
+  <p>Auditoria de fontes de renda: quantas você tem hoje? Se a resposta é “uma”,
+  a meta do ano é chegar a duas — mesmo que a segunda comece minúscula.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Carta de quitação do conselho antigo</div>
+    <p>Escreva (para você, não para enviar): “Eu recebi o conselho de buscar
+    segurança no emprego. Ele protegeu quem me criou e eu agradeço. Hoje eu
+    devolvo a parte dele que virou medo, porque o mundo mudou e eu preciso
+    construir mais de uma perna pra me sustentar.”</p>
+  </div>
+</section>
+
+<!-- CAP 9 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte II · Capítulo 9</div><h3>Segurança × inteligência</h3></div>
+
+  <p class="lead">Buscar segurança parece prudência. Em excesso, é o que mantém a
+  pessoa pobre — porque a faz recusar toda oportunidade e correr para o que rende
+  quase nada.</p>
+
+  <p>Existe uma diferença entre <strong>administrar risco</strong> e
+  <strong>fugir de risco</strong>. Quem administra estuda, entende o jogo, entra
+  com limite de perda definido, aprende com o erro. Quem foge coloca tudo no que
+  é “seguro” — e paga por essa paz com um retorno tão baixo que a vida inteira
+  não é suficiente para construir liberdade.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Melhor pouco e certo do que muito e duvidoso.” Numa família que já passou
+    aperto, essa frase é cicatriz, não filosofia. Ela ensina a nunca esticar a
+    mão, a ter horror a perder — e quem tem horror a perder acaba perdendo por
+    encolhimento, sem nem tentar.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki é duro nesse ponto: cerca de 90% das pessoas têm problema
+    financeiro porque jogam para <strong>não perder</strong>, não para ganhar.
+    O portfólio “equilibrado e seguro” que os consultores vendem é melhor que
+    nada — mas não é o portfólio de quem constrói riqueza. Ele lembra que o
+    investimento não é arriscado <strong>por natureza</strong>; é a falta de
+    instrução financeira que torna a pessoa “muito arriscada” para si mesma.
+    Quanto mais você aprende, menor o risco real.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Antes de chamar algo de “arriscado demais”, faça duas perguntas honestas:
+  <br>1. Eu <strong>estudei</strong> isso, ou estou repetindo o medo de outra
+  pessoa?
+  <br>2. Qual é o <strong>máximo</strong> que eu posso perder aqui — e eu
+  sobrevivo a essa perda?</p>
+  <p>Se você não estudou, o problema não é o investimento — é a sua ignorância
+  sobre ele, e isso se resolve. Se a perda máxima é sobrevivível e o aprendizado
+  é grande, muitas vezes o “arriscado” é só desconhecido.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Teste dos três filtros</div>
+    <p>Para qualquer oportunidade: <strong>(1)</strong> Eu entendo como isso ganha
+    dinheiro? <strong>(2)</strong> Qual meu valor máximo de perda, e ele cabe?
+    <strong>(3)</strong> O que eu aprendo mesmo se der errado? Se as três
+    respostas forem boas, “seguro” e “inteligente” deixam de ser sinônimos.</p>
+  </div>
+</section>
+
+<!-- ============ PARTE III ============ -->
+<section class="part">
+  <div class="pnum">Parte III</div>
+  <h2>Os cinco muros mentais</h2>
+  <div class="rule"></div>
+  <p class="pintro">Suponha que você já entendeu tudo até aqui. Ainda assim, na
+  hora de agir, cinco coisas travam quase todo mundo. Kiyosaki as chama de
+  obstáculos. Eu chamo de muros — e cada um tem uma crença herdada na base.</p>
+</section>
+
+<!-- CAP 10 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Muro 1</div><h3>Medo de perder</h3></div>
+
+  <p class="lead">Ninguém gosta de perder dinheiro. Mas nunca conheci gente rica
+  que não tenha perdido em algum momento. E conheço muita gente pobre que nunca
+  perdeu um centavo — porque nunca colocou um centavo pra trabalhar.</p>
+
+  <p>O medo de perder é real e é de todos, inclusive dos ricos. A diferença não
+  está em sentir ou não sentir. Está em <strong>o que você faz com a perda</strong>.
+  Para uns, perder é derrota, é vergonha, é motivo para nunca mais tentar. Para
+  outros, perder é informação, é aula cara, é combustível para voltar mais
+  esperto.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Errar é feio.” Você aprendeu isso na escola, quando erro dava nota baixa
+    e castigo. Mas na vida a gente aprende errando — andar, andar de bicicleta,
+    amar, negociar. Quem transporta a regra da prova para o dinheiro fica
+    paralisado: prefere não jogar a arriscar errar.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki cita o Álamo e Pearl Harbor: derrotas duras que viraram grito de
+    guerra, que <strong>inspiraram</strong> em vez de destruir. “Vencer é não ter
+    medo de perder”, ele repete, citando Fran Tarkenton. Quem odeia perder e sabe
+    quem é usa o fracasso como empurrão. Quem tem medo de perder é derrotado
+    pelo fracasso — e por isso joga a vida inteira só para não perder, o que
+    também é uma forma de perder.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Se você tem mais de 25 anos e horror a risco, tudo bem — comece cedo e
+  deixe o tempo e os juros compostos trabalharem numa fórmula conservadora. Mas
+  seja honesto sobre a troca: mais paz agora, menos liberdade depois.</p>
+  <p>Se você quer construir de verdade, faça o teste do fracasso: pense na sua
+  última perda financeira. Ela te fez encolher ou te fez estudar? A resposta diz
+  se você deve acelerar ou ir com calma.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Regra do valor máximo de perda</div>
+    <p>Antes de qualquer aposta, escreva: “eu aceito perder até R$ ______ aqui.”
+    Enquanto a decisão respeitar esse teto, é você decidindo. No instante em que
+    a emoção quiser passar do teto, é o medo (ou a ganância) no volante — pare.</p>
+  </div>
+</section>
+
+<!-- CAP 11 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Muro 2</div><h3>Ceticismo — a voz do “o céu vai cair”</h3></div>
+
+  <p class="lead">Todo mundo tem, dentro da cabeça, uma voz que corre em círculos
+  gritando que vai dar tudo errado. Ela raramente analisa. Ela critica. E crítica
+  cega; análise abre os olhos.</p>
+
+  <p>O cético soa inteligente. Ele sempre tem uma estatística, um artigo, um
+  vizinho que “já tentou isso e se deu mal”. Mas repare: quase sempre é alguém
+  que <strong>nunca fez</strong> falando para quem está prestes a fazer. A dúvida
+  dele custa caro para você — em oportunidade perdida, em anos parado.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Isso é bom demais pra ser verdade — deve ter pegadinha.” Numa família que
+    já foi enganada, essa desconfiança foi proteção. Mas transformada em regra,
+    ela faz a pessoa recusar tudo antes de examinar. E aí a única coisa que
+    sobra é o que rende quase nada — que também é uma pegadinha, só que lenta.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki conta o caso de um amigo que fechou a compra de um imóvel
+    barato, voltou pra casa e desistiu porque um vizinho — que não era investidor
+    — disse que era mau negócio. Anos depois, o imóvel valia o dobro e alugava
+    bem. O amigo continuou parado. Moral: não peça mapa a quem nunca saiu de
+    casa. Ouça os dois lados, mantenha a mente aberta, e depois <strong>analise</strong>
+    com os seus próprios números.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Crie a regra da fonte: só aceito alerta sobre um investimento de quem
+  <strong>já investiu naquilo</strong>. O resto é ruído — anota, agradece, e não
+  deixa decidir por você.</p>
+  <p>E vire a crítica em pergunta: em vez de “isso não vai dar certo”, force
+  “o que precisaria ser verdade pra isso dar certo — e é verdade?”. Isso
+  interrompe o pensamento emocional e liga o analítico.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Coluna do cético</div>
+    <p>Numa folha: liste todos os “isso não vai dar certo” que a sua cabeça
+    produziu sobre um projeto. Ao lado de cada um, escreva a evidência real (não
+    o medo). Quantos sobram quando você exige evidência? Geralmente, poucos.</p>
+  </div>
+</section>
+
+<!-- CAP 12 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Muro 3</div><h3>Preguiça disfarçada de ocupação</h3></div>
+
+  <p class="lead">A preguiça mais perigosa não é a do sofá. É a da agenda cheia.
+  Gente ocupadíssima que usa a correria para não encarar o que precisa encarar.</p>
+
+  <p>É o empresário que trabalha demais “pela família” e não olha para o
+  casamento até a casa esvaziar. É a pessoa que está sempre resolvendo urgência
+  e nunca senta para pensar no futuro financeiro. Ocupação vira anestésico. No
+  fundo, a pessoa sabe que está fugindo de algo importante — e se você tocar no
+  assunto, ela responde com irritação.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Enquanto eu estiver trabalhando, está tudo certo.” O movimento vira prova
+    de virtude. Parar para pensar, estudar dinheiro, planejar — parece
+    ociosidade, luxo, coisa de quem não tem o que fazer. Então a pessoa nunca
+    para, e nunca sai do lugar.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki diz que a cura da preguiça é <strong>um pouco de ambição</strong>
+    — no sentido de desejo saudável de algo melhor. A pergunta “o que eu ganho
+    com isso?” (uma vida sem ter que voltar a trabalhar por obrigação; tempo com
+    quem eu amo; saúde) reacende o motor. Sem esse desejo, qualquer esforço
+    parece grande demais e a pessoa se refugia na ocupação.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Bloqueie na agenda <strong>uma hora fixa por semana</strong>, com nome:
+  “Hora do meu dinheiro”. Nessa hora você não apaga incêndio. Você lê, revisa
+  seus números, estuda um ativo, ajusta o plano. Trate como reunião com o cliente
+  mais importante da sua vida — porque é.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — A pergunta da ambição</div>
+    <p>Responda com detalhe, à mão: “Como seria a minha semana se eu nunca mais
+    <strong>precisasse</strong> trabalhar por obrigação?” Quanto mais concreto,
+    mais força a resposta tem para tirar você da correria anestésica.</p>
+  </div>
+</section>
+
+<!-- CAP 13 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Muro 4</div><h3>Maus hábitos — pagar todo mundo antes de si</h3></div>
+
+  <p class="lead">A ordem em que você paga as coisas todo mês diz mais sobre o
+  seu futuro do que o quanto você ganha.</p>
+
+  <p>A maioria paga primeiro as contas, os boletos, o governo, os credores — e
+  se paga por último, com o que sobrar. Como quase nunca sobra, a pessoa nunca
+  investe. O rico faz na ordem inversa: <strong>separa primeiro a parte que vai
+  virar ativo</strong>, e só depois lida com o resto.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Primeiro as obrigações, depois o que der.” Parece responsabilidade.
+    Muitas vezes é só a ordem que garante que você fique sempre pra trás. Você
+    não é irresponsável por se pagar primeiro — desde que mantenha as despesas
+    sob controle e não se enterre em dívida de consumo.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>“Pague-se primeiro” Kiyosaki tirou de <i>“O Homem Mais Rico da
+    Babilônia”</i>. A parte contraintuitiva: ele conta que, em meses apertados,
+    ainda assim separava a sua parte antes — e deixava a pressão dos credores
+    gritar. Por quê? Porque essa pressão vira <strong>motivação</strong>: obriga
+    o cérebro a inventar renda nova. Quem se paga por último não sente pressão
+    nenhuma para crescer — e por isso não cresce.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p><strong>Automatize.</strong> No dia seguinte a cada entrada de dinheiro, uma
+  transferência automática leva um percentual fixo para uma conta separada, de
+  onde só sai para comprar ativo. Sem passar pela sua mão. O que não passa pela
+  mão não é gasto por impulso.</p>
+  <p><strong>Comece pequeno.</strong> 5% já muda o jogo se for todo mês, por
+  anos. O valor importa menos que a constância e a ordem.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Roteiro do “pague-se primeiro”</div>
+    <p>Preencha:
+    <br>Percentual que sai automático em toda entrada: ______%
+    <br>Para qual conta: ______________
+    <br>Esse dinheiro só pode ser usado para: ______________
+    <br>Data da transferência automática: dia ______ de cada mês</p>
+  </div>
+</section>
+
+<!-- CAP 14 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte III · Muro 5</div><h3>Arrogância — o que você não sabe te custa caro</h3></div>
+
+  <p class="lead">Arrogância, no dinheiro, é ego mais ignorância. É achar que o
+  que você não sabe não importa. E o que você não sabe é exatamente onde você
+  perde.</p>
+
+  <p>Muita gente usa a arrogância para tapar buraco de conhecimento. Discute com
+  o contador, com o investidor mais experiente, força a barra numa conversa que
+  não domina — não porque está mentindo, mas porque não suporta admitir que não
+  sabe. E o mercado cobra essa fatura.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Na minha idade eu não vou ficar aprendendo isso.” Ou o oposto: “eu já sei
+    o suficiente.” As duas fecham a porta. A primeira por vergonha, a segunda por
+    orgulho. Nas duas, a pessoa para de aprender — e no dinheiro, quem para de
+    aprender começa a perder.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki é direto: quando você é ignorante sobre um assunto, o caminho é
+    achar um especialista ou um livro e estudar. Ele conta que ouvia gravações
+    de grandes investidores e, quando discordava, em vez de bancar o crítico,
+    voltava a fita vinte vezes até entender o raciocínio. Duas cabeças passam a
+    resolver o problema no lugar de uma. Humildade de aprender é vantagem
+    competitiva.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Escolha <strong>um</strong> assunto de dinheiro em que você sabe que está
+  fraco — pode ser fluxo de caixa, imposto, juros, um tipo de investimento — e
+  se comprometa com 30 dias de estudo: um livro, um curso curto, ou uma pessoa
+  que já faz aquilo e topa te ensinar num almoço.</p>
+  <p>E adote a regra do “me explica de novo”: sempre que uma ideia nova bater de
+  frente com o que você pensa, primeiro pergunte e escute, depois discorde. A
+  ordem inversa — discordar antes de entender — é a arrogância trabalhando.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — O buraco que eu escondo</div>
+    <p>Complete: “O assunto de dinheiro que eu finjo entender e não entendo é
+    ______________. Nos próximos 30 dias eu vou fechar esse buraco assim:
+    ______________.”</p>
+  </div>
+</section>
+
+<!-- ============ PARTE IV ============ -->
+<section class="part">
+  <div class="pnum">Parte IV</div>
+  <h2>Reprogramar a herança</h2>
+  <div class="rule"></div>
+  <p class="pintro">Diagnóstico feito, muros mapeados. Agora o trabalho de
+  instalar o roteiro novo. Cinco competências que, treinadas, substituem as
+  crenças velhas — não por discurso, por prática repetida.</p>
+</section>
+
+<!-- CAP 15 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 15</div><h3>Alfabetização financeira: a história que os números contam</h3></div>
+
+  <p class="lead">Número não é o assunto. Número é linguagem. E toda demonstração
+  financeira conta uma história — quase sempre a história de para onde o seu
+  dinheiro está indo.</p>
+
+  <p>Alfabetização financeira é a capacidade de olhar uma entrada e uma saída, um
+  ativo e um passivo, e <strong>entender o enredo</strong>. Sem isso, a pessoa
+  trabalha, recebe, confere o saldo, e se espanta todo mês por não progredir. Com
+  isso, ela vê o vazamento — e vazamento visto é vazamento que dá pra tapar.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Isso é coisa de contador.” Terceirizar o entendimento do próprio dinheiro
+    é como terceirizar a mastigação. Contador é aliado essencial — mas quem não
+    sabe ler os próprios números fica refém de quem sabe, e nunca percebe quando
+    a conta não fecha.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki simplifica a contabilidade em dois quadros: um mede o que entra e
+    o que sai (renda e despesa); o outro mede o equilíbrio entre o que põe e o
+    que tira dinheiro do seu bolso (ativos e passivos). As setas entre os dois —
+    o fluxo de caixa — são a história. Ele resume: na contabilidade não importam
+    os números, importa o que eles <strong>contam</strong>.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Monte, à mão, o seu quadro pessoal do mês:
+  <br>1. O que entrou (todas as fontes).
+  <br>2. O que saiu (todas as despesas, sem esconder nenhuma).
+  <br>3. O que você tem que <strong>põe</strong> dinheiro no bolso.
+  <br>4. O que você tem que <strong>tira</strong> dinheiro do bolso.
+  <br>Faça isso 3 meses seguidos. No terceiro, o padrão fica gritante.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Uma frase por mês</div>
+    <p>Depois de montar o quadro, resuma em uma frase: “Este mês, a história dos
+    meus números foi ______________.” Ex.: “ganhei bem e o dinheiro todo virou
+    despesa fixa nova.” A frase é o diagnóstico. O mês seguinte é o tratamento.</p>
+  </div>
+</section>
+
+<!-- CAP 16 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 16</div><h3>Cuide do seu negócio (mesmo com emprego)</h3></div>
+
+  <p class="lead">Existe diferença entre a sua profissão e o seu negócio. A
+  profissão é o que você faz para os outros. O negócio é a sua coluna de ativos —
+  e a maioria das pessoas passa a vida cuidando do negócio dos outros.</p>
+
+  <p>O dono do McDonald’s, na história que Kiyosaki conta, dizia que o negócio
+  dele não era hambúrguer — era imóvel. Ele vendia franquia, mas o que
+  construía era um patrimônio de terrenos geradores de renda. Profissão: vender
+  franquia. Negócio: acumular ativo. A pergunta que quase ninguém se faz é:
+  <strong>além da minha profissão, qual é o meu negócio?</strong></p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Você é o que você faz.” Se você estuda direito, vira advogado, e pronto,
+    é isso. A crença amarra a identidade à profissão e esquece que dá pra ser
+    advogado <strong>e</strong> construtor de uma coluna de ativos ao mesmo
+    tempo. Uma coisa não anula a outra.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki lista o que ele considera ativo de verdade: negócio que roda sem a
+    sua presença; participações; imóveis que geram renda; direitos e
+    <i>royalties</i> (de obra, música, patente); qualquer coisa que tenha valor,
+    gere renda ou se valorize e tenha mercado. Regra dele: fique no emprego, seja
+    ótimo nele — e, em paralelo, alimente a coluna de ativos todo mês. Cada real
+    que entra ali vira “um empregado que trabalha pra você 24 horas por dia”.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Defina hoje qual vai ser o seu <strong>primeiro</strong> ativo — um só, para
+  aprender: uma reserva que rende, uma cota de um negócio que você entende, um
+  imóvel de renda modesto, um produto seu que gera receita sem a sua hora
+  (curso, livro, licença). Não diversifique no começo. Foque em um, domine a
+  lógica dele, depois parta para o próximo.</p>
+  <p>Regra do luxo: o supérfluo vem <strong>depois</strong> que a coluna de
+  ativos está de pé, pago pela renda que ela gera — não a crédito, antes.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Meu primeiro ativo</div>
+    <p>“O meu primeiro ativo vai ser ______________. Eu entendo como ele gera
+    renda: ______________. Vou colocar R$ ______ por mês nele. Só passo para o
+    segundo quando dominar este.”</p>
+  </div>
+</section>
+
+<!-- CAP 17 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 17</div><h3>Pague-se primeiro: disciplina como pressão criativa</h3></div>
+
+  <p class="lead">Autodisciplina é, provavelmente, o fator que mais separa quem
+  fica rico de quem fica pobre. E ela se treina com uma regra só: você antes dos
+  outros, na ordem de pagamento.</p>
+
+  <p>O capítulo anterior sobre maus hábitos já plantou isso. Aqui vai o
+  mecanismo. Quando você separa a sua parte primeiro, cria uma pressão saudável
+  para dar conta do resto. Essa pressão é o que empurra você a buscar renda
+  nova, a cortar gasto besta, a pensar. Quem se paga por último elimina a
+  pressão — e sem pressão, ninguém se move.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Poupar é o que sobra.” Não. Poupar é o que sai <strong>primeiro</strong>,
+    de propósito, doa o que doer no orçamento. O que sobra nunca sobra porque a
+    despesa é elástica: ela cresce até ocupar tudo o que você deixa disponível.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki confessa que já teve o contador em pânico com essa prática. Ele
+    mesmo assim se pagava primeiro e usava o desconforto dos credores como
+    motor. A lição do pai rico: o mundo bate em quem não tem controle interno.
+    Quem não se paga primeiro é o fracote do anúncio antigo, levando areia na
+    cara a vida inteira. Quem se paga primeiro fica mais forte — financeira,
+    mental e fisicamente — porque é obrigado a resolver.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Três regras que andam juntas:
+  <br>1. <strong>Não se enterre em dívida de consumo.</strong> A disciplina só
+  funciona se as contas forem pequenas.
+  <br>2. <strong>Separe a sua parte no dia da entrada</strong>, automático.
+  <br>3. <strong>Quando apertar, não meta a mão na poupança.</strong> Use a
+  pressão para criar renda e pague as contas com o dinheiro novo.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Contrato comigo mesmo</div>
+    <p>“Eu, ______________, me comprometo a separar ______% de toda entrada,
+    antes de qualquer pagamento, a partir de ____/____. Esse dinheiro é
+    intocável, exceto para adquirir ativo. Assinado: ______________.”</p>
+  </div>
+</section>
+
+<!-- CAP 18 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 18</div><h3>Trabalhe para aprender, não pelo dinheiro</h3></div>
+
+  <p class="lead">O mundo está cheio de gente talentosa e mal paga. Não pelo que
+  sabem — pelo que não sabem. Muitas vezes falta uma habilidade só para a coisa
+  virar.</p>
+
+  <p>A habilidade que mais falta, quase sempre, é <strong>vender e se
+  comunicar</strong>. Depois vêm entender de dinheiro, liderar gente, negociar,
+  escrever. São essas que multiplicam o valor de um talento técnico. Quem só
+  aprofunda o técnico e ignora essas costuma bater num teto e não entender por
+  quê.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Especializa que o dinheiro vem.” Era o conselho da era da especialização.
+    Hoje, quanto mais estreito você é, mais dependente fica daquele nicho — e se
+    o nicho encolhe, a sua habilidade não se transfere. O oposto do conselho
+    também tem valor: saber um pouco de várias coisas te torna mais livre.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki conta que largou emprego bom para entrar numa empresa conhecida
+    pelo treinamento em vendas — de propósito, para vencer o medo de ser
+    rejeitado. Trabalhou anos abaixo do que poderia ganhar, para aprender. A
+    lógica: no curto prazo, você ganha menos; no longo prazo, a habilidade paga
+    dividendos pela vida inteira. Escolha o emprego pelo que ele te
+    <strong>ensina</strong>, não só pelo que ele te paga.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Faça o mapa das suas habilidades. De um lado, o que você já domina. De
+  outro, as três habilidades-ponte (vender, dinheiro, liderar, comunicar) e onde
+  você está fraco. Escolha <strong>uma</strong> e passe os próximos 6 meses
+  colocando ela pra dentro — curso, prática, um projeto que te obrigue a usar.</p>
+  <p>Se puder, aceite um projeto ou função que pague menos mas te ensine a
+  habilidade que falta. É investimento, não perda.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — A habilidade que falta</div>
+    <p>“Eu tenho talento em ______________. A habilidade que, se eu dominasse,
+    multiplicaria o valor desse talento é ______________. Meu plano de 6 meses
+    para adquiri-la: ______________.”</p>
+  </div>
+</section>
+
+<!-- CAP 19 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte IV · Capítulo 19</div><h3>A herança emocional e a dívida que não é sua</h3></div>
+
+  <p class="lead">Nem toda herança que te limita é sobre dinheiro. Muita é sobre
+  merecimento, sobre culpa, sobre o direito de querer mais. E essa herança
+  emocional decide o teto do seu bolso mais do que qualquer técnica.</p>
+
+  <p>Tem gente que sabe exatamente o que fazer — alfabetização financeira,
+  coluna de ativos, pague-se primeiro — e não faz. Não por preguiça. Por um
+  freio emocional: “quem sou eu pra ter isso?”, “meu pai ralou a vida toda e
+  nunca teve, não é justo eu ter fácil”, “se eu enriquecer vou me afastar da
+  minha gente”. Esses freios são invisíveis e são fortíssimos.</p>
+
+  <div class="box">
+    <div class="bt">A crença herdada</div>
+    <p>“Não é pra gente como a gente.” Dita ou sentida, ela põe um teto no que
+    você se permite construir. Você sabota perto do limite — perde o dinheiro,
+    fura o plano, desiste antes de tentar — para voltar ao lugar “que é o meu”.</p>
+  </div>
+
+  <div class="box dark">
+    <div class="bt">O que o livro mostra</div>
+    <p>Kiyosaki fala do peso emocional dos “não pode” da família dele, das frases
+    ditas para criar culpa e sufocar a ambição — “pare de pensar só em você”,
+    “você acha que dinheiro dá em árvore?”. Ele descreve o esforço de romper com
+    esse dogma como a parte mais difícil da mudança, mais difícil que a
+    matemática. E lembra: erro e medo fazem parte do processo; quem evita o
+    fracasso evita também o sucesso.</p>
+  </div>
+
+  <div class="box">
+    <div class="bt">A sabedoria — do meu lado</div>
+    <p>É aqui que <i>“Pai Rico, Pai Pobre”</i> e <i>“Não Há Dívidas”</i> se
+    encontram. A crença de que “não é pra gente como a gente” é uma dívida
+    emocional: uma cobrança que você não contraiu e que vence todo dia. Quitar
+    não é esquecer de onde você veio — é honrar a origem e, ainda assim, seguir
+    livre. “Não há dívidas” para o teto herdado é dizer: eu já paguei o que
+    devia com respeito e gratidão; daqui pra frente eu construo pelo mérito,
+    não pela permissão que ninguém me deu.</p>
+  </div>
+
+  <div class="kickline">Na prática</div>
+  <p>Quando você se pegar sabotando perto de um resultado — perdendo dinheiro
+  sem explicação técnica, furando o plano, desistindo na véspera — pare e
+  pergunte: <em>“que crença sobre merecimento está me puxando de volta pro lugar
+  antigo?”</em> Nomear já tira metade da força.</p>
+
+  <div class="box">
+    <div class="bt">Ferramenta — Carta de quitação do teto</div>
+    <p>“Eu recebi de ______________ a ideia de que prosperidade não era pra mim.
+    Ela protegeu quem me criou de se decepcionar. Hoje eu agradeço e devolvo.
+    Eu me autorizo a construir ______________, pelo meu trabalho e pelo meu
+    aprendizado. E vou honrar minha origem sendo íntegro no caminho.”</p>
+  </div>
+</section>
+
+<!-- ============ PARTE V ============ -->
+<section class="part">
+  <div class="pnum">Parte V</div>
+  <h2>Do “não posso” ao “como eu faço”</h2>
+  <div class="rule"></div>
+  <p class="pintro">Tudo o que veio antes é diagnóstico e método. Esta parte é
+  execução: um plano de 30 dias para trocar o roteiro, e a caixa de ferramentas
+  reunida num lugar só, para imprimir e usar.</p>
+</section>
+
+<!-- CAP 20 -->
+<section class="chap">
+  <div class="chap-head"><div class="ck">Parte V · Capítulo 20</div><h3>Trocar o roteiro em 30 dias</h3></div>
+
+  <p class="lead">Crença não muda por decisão. Muda por repetição. Trinta dias
+  não trocam tudo — mas começam a abrir um segundo caminho no lugar onde só
+  existia o herdado.</p>
+
+  <p>Um foco por semana. Sempre com dois hábitos rodando ao fundo o mês inteiro:
+  o <strong>quadro dos números</strong> (Capítulo 15) e a <strong>transferência
+  automática do pague-se primeiro</strong> (Capítulo 17).</p>
+
+  <table>
+    <tr><th>Semana</th><th>Foco</th><th>Prática diária</th><th>Sinal de que pegou</th></tr>
+    <tr>
+      <td><strong>1</strong></td>
+      <td>Enxergar a herança</td>
+      <td>Inventário de crenças herdadas + diário do “como eu posso” (1 linha/dia)</td>
+      <td>Você reconhece a voz herdada no momento em que ela fala por você</td>
+    </tr>
+    <tr>
+      <td><strong>2</strong></td>
+      <td>Ativo × passivo</td>
+      <td>Montar o extrato de ativos e passivos reais + classificar toda compra antes de fazer</td>
+      <td>Você para de chamar de “patrimônio” o que só tira dinheiro do bolso</td>
+    </tr>
+    <tr>
+      <td><strong>3</strong></td>
+      <td>Pague-se primeiro</td>
+      <td>Configurar a transferência automática + assinar o contrato consigo mesmo</td>
+      <td>O primeiro mês fechou com a sua parte separada <em>antes</em> das contas</td>
+    </tr>
+    <tr>
+      <td><strong>4</strong></td>
+      <td>Primeiro ativo e primeira habilidade</td>
+      <td>Definir o primeiro ativo (um só) + iniciar o estudo da habilidade que falta</td>
+      <td>Você fez o primeiro aporte e teve a primeira aula — mesmo que minúsculos</td>
+    </tr>
+  </table>
+
+  <div class="box">
+    <div class="bt">Fecho</div>
+    <p>“Seja rico ou pobre” nunca foi sobre sorte nem sobre quanto você ganha. É
+    sobre qual roteiro está no comando quando você decide. O roteiro herdado te
+    protege de decepções que talvez nem existam mais — e cobra por isso a sua
+    liberdade. Trocar o roteiro é o trabalho de uma vida, mas começa com uma
+    frase: no lugar de “isso não é pra mim”, você aprende a dizer <strong>“como
+    é que eu faço isso?”</strong>. E aí a cabeça, que estava treinada pra parar,
+    volta a trabalhar pra você.</p>
+  </div>
+
+  <p class="small center" style="margin-top:12mm;">Gilberto Sena · <i>Seja Rico ou Pobre</i> · 1ª edição, 2026 · GILBERTO SENA</p>
+</section>
+
+<!-- ============ CAIXA DE FERRAMENTAS ============ -->
+<section class="part">
+  <div class="pnum">Anexo</div>
+  <h2>Caixa de ferramentas</h2>
+  <div class="rule"></div>
+  <p class="pintro">Todos os exercícios num lugar só. Imprima, preencha à mão,
+  revise toda semana. Ler não troca crença — repetição em situação real troca.</p>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">1 · Inventário de crenças herdadas</h3>
+  <div class="fill"><div class="fl">Sobre dinheiro, na minha casa se dizia</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Sobre gente rica, se dizia</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Sobre pedir, poupar e gastar, a regra era</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">A frase que mais me limita hoje é ______ — e ela é de ______</div><div class="line"></div></div>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">2 · Diário do “como eu posso”</h3>
+  <table>
+    <tr><th>O “não dá” que apareceu</th><th>A versão em pergunta</th><th>Primeiro passo (15 min)</th></tr>
+    <tr><td style="height:14mm"></td><td></td><td></td></tr>
+    <tr><td style="height:14mm"></td><td></td><td></td></tr>
+    <tr><td style="height:14mm"></td><td></td><td></td></tr>
+  </table>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">3 · Extrato de ativos e passivos reais</h3>
+  <table>
+    <tr><th>Item que eu chamo de “patrimônio”</th><th>Põe no bolso / mês (R$)</th><th>Tira do bolso / mês (R$)</th></tr>
+    <tr><td style="height:12mm"></td><td></td><td></td></tr>
+    <tr><td style="height:12mm"></td><td></td><td></td></tr>
+    <tr><td style="height:12mm"></td><td></td><td></td></tr>
+    <tr><td style="height:12mm"></td><td></td><td></td></tr>
+    <tr><td><strong>Somatório</strong></td><td></td><td></td></tr>
+  </table>
+  <p class="small">Saldo (põe − tira) = a sua situação de verdade.</p>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">4 · Quadro dos números do mês</h3>
+  <table>
+    <tr><th>Entrou (todas as fontes)</th><th>Saiu (todas as despesas)</th></tr>
+    <tr><td style="height:26mm"></td><td></td></tr>
+  </table>
+  <div class="fill"><div class="fl">A história dos meus números este mês, em uma frase</div><div class="line"></div></div>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">5 · Roteiro do “pague-se primeiro” / Contrato comigo mesmo</h3>
+  <div class="fill"><div class="fl">Percentual que sai automático em toda entrada</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Para qual conta</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Esse dinheiro só pode ser usado para</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Data da transferência automática</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Assinatura</div><div class="line"></div></div>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">6 · Mapa medo / desejo (mensal)</h3>
+  <div class="fill"><div class="fl">Decisão que tomei com medo este mês — e o que me custou</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Gasto que fiz só por desejo de aparentar — valeu?</div><div class="line"></div></div>
+</section>
+
+<section class="page">
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:0 0 5mm;">7 · Regra do valor máximo de perda</h3>
+  <div class="fill"><div class="fl">Nesta aposta, eu aceito perder até (R$)</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Eu sobrevivo a essa perda? Como?</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">O que eu aprendo mesmo se der errado</div><div class="line"></div></div>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">8 · Meu primeiro ativo / minha primeira habilidade</h3>
+  <div class="fill"><div class="fl">Meu primeiro ativo vai ser</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Como ele gera renda</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Quanto por mês eu coloco nele</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">A habilidade-ponte que eu vou dominar em 6 meses</div><div class="line"></div></div>
+
+  <h3 style="font-family:'Fraunces',serif;font-size:20pt;margin:10mm 0 5mm;">9 · Carta de quitação do teto herdado</h3>
+  <div class="fill"><div class="fl">Eu recebi de ______ a ideia de que prosperidade não era pra mim</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Hoje eu agradeço, devolvo, e me autorizo a construir</div><div class="line"></div></div>
+  <div class="fill"><div class="fl">Vou honrar minha origem sendo íntegro assim</div><div class="line"></div></div>
+
+  <p class="small center" style="margin-top:12mm;">Gilberto Sena · <i>Seja Rico ou Pobre</i> · leitura aplicada de <i>Pai Rico, Pai Pobre</i> · 2026</p>
+</section>
+
+</body>
+</html>
