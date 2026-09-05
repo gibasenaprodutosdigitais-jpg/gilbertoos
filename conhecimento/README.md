@@ -70,6 +70,8 @@ opinar sobre técnica** e cita de onde veio.
 | `reforma-tributaria-cib.md` | CIB, o "CPF do imóvel" — código único de 7 caracteres unificando cartório, prefeitura e Receita via Plataforma Sínter; obrigatório desde jan/2026 (cartórios/capitais), estende pra todo o país em jan/2027; multa de até 150% + retroativo de 5 anos pra quem omitir renda de aluguel | Técnico / tributário | ⚠ **fichado 01/set/2026 via `/tendencias` — fontes secundárias, conferir antes de uso formal/jurídico** |
 | `reforma-ir-dividendos-2026.md` | Lei 15.270/2025 (reforma do IR, distinta da reforma do consumo): isenção de IRPF até R$5 mil/mês; retenção na fonte sobre dividendo acima de R$50 mil/mês de uma mesma fonte; mínimo de 10% pra quem soma +R$1,2 milhão/ano (gradual 0-10% entre R$600 mil e R$1,2 milhão) — já vale desde 1º/jan/2026 | Técnico / tributário | ⚠ **fichado 01/set/2026 via `/tendencias` — fontes secundárias, conferir antes de uso formal/jurídico** |
 
+| **`certificacoes-gilberto.md`** | **★ Índice das 8 certificações formais dele (AAI/Ancord, Empreendedorismo SENAI, Plano de Negócios, Direito e Ética, Planejamento Estratégico, Negócios Internacionais, Direito Eletrônico, Tecnologias Aplicadas ao Direito) com carga horária e data extraídas dos certificados originais** | **Credencial / autoridade (autoral)** | ✅ **fichado 04/set/2026 — fonte primária são os PDFs em `dados/biblioteca/`** |
+
 ## Categorias previstas
 
 - **Técnico tributário** — impostos, regimes, planejamento
