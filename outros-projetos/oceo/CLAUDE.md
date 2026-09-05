@@ -45,7 +45,15 @@ gestão empresarial (ERP + BI) do Grupo Sena.
     Fiscal, DP, RH, Legalização). Complementado por
     `pilar-1-mockup-painel-bi-real.md` (05/set/2026) — 9 painéis de Power BI
     reais, já rodando pra um cliente do Grupo Sena, cobrindo a camada
-    Contábil do pilar.
+    Contábil do pilar. Virou PDF de pitch em
+    `pitch-bi/OCEO - Prova de Conceito BI.pdf` (05/set/2026, 12 páginas,
+    gerado via Playwright com a identidade visual do OCEO) — capa,
+    contexto, os 9 painéis com legenda ligando cada um à função do Pilar 1,
+    e fechamento com o comparativo de custo. **Contém dado real de cliente
+    (nome da rede de franquias, valores individuais de fornecedor) e está
+    marcado "USO INTERNO" em toda página** — gerar versão sanitizada
+    (nome/valores generalizados) antes de enviar a qualquer investidor ou
+    terceiro sem NDA.
   - `pilar-2-gestao-financeira.md` — **GF**, Gestão Financeira (ERP +
     banco, DRE explicado, fundo de reserva de 3 meses de PE)
   - `pilar-3-juridico.md` — **GJ**, Jurídico (advogado consultivo interno)
