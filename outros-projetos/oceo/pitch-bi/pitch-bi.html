@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>OCEO — Prova de Conceito de BI</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; color: #10182A; }
+  .page {
+    width: 210mm; height: 297mm;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+    background: #FAFBFD;
+  }
+  .page:last-child { page-break-after: auto; }
+
+  /* ---- Capa ---- */
+  .cover {
+    background: linear-gradient(165deg, #0B1220 0%, #17335c 55%, #223055 100%);
+    color: #FAFBFD;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 20mm 18mm;
+  }
+  .cover .logo { width: 46mm; }
+  .cover .kicker {
+    font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase;
+    color: #6FA8F0; font-weight: 700; margin-bottom: 6mm;
+  }
+  .cover h1 { font-size: 40px; font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; max-width: 150mm; }
+  .cover .sub { font-size: 16px; color: #C7D0E0; margin-top: 6mm; max-width: 140mm; line-height: 1.5; }
+  .cover .foot { font-size: 11px; color: #7C8AA8; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 4mm; }
+
+  /* ---- Página de texto ---- */
+  .textpage { padding: 20mm 18mm; display: flex; flex-direction: column; }
+  .textpage .kicker {
+    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: #a8451c; font-weight: 700; margin-bottom: 4mm;
+  }
+  .textpage h2 { font-size: 27px; font-weight: 800; color: #17335c; letter-spacing: -0.01em; margin-bottom: 8mm; line-height: 1.25; }
+  .textpage p { font-size: 13.5px; line-height: 1.6; color: #223055; margin-bottom: 4mm; }
+  .textpage .rule { height: 3px; width: 22mm; background: #eb6834; margin-bottom: 6mm; }
+  .box {
+    background: #EAF0FF; border-left: 4px solid #2a78d6; border-radius: 4px;
+    padding: 5mm 6mm; margin-top: 5mm; font-size: 12.5px; color: #17335c; line-height: 1.55;
+  }
+  .box b { color: #a8451c; }
+  table.cost { width: 100%; border-collapse: collapse; margin-top: 5mm; font-size: 12px; }
+  table.cost th { background: #17335c; color: #FAFBFD; text-align: left; padding: 3mm 3mm; font-weight: 700; }
+  table.cost td { padding: 2.6mm 3mm; border-bottom: 1px solid #C7D0E0; color: #223055; }
+  table.cost tr:last-child td { font-weight: 800; color: #a8451c; border-bottom: none; }
+  .badge {
+    display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; background: #eb6834; color: #fff; padding: 1.6mm 3mm; border-radius: 3px;
+  }
+  .footerbar {
+    position: absolute; bottom: 10mm; left: 18mm; right: 18mm;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 9.5px; color: #7C8AA8; border-top: 1px solid #C7D0E0; padding-top: 3mm;
+  }
+  .footerbar .wm { color: #a8451c; font-weight: 700; }
+
+  /* ---- Página de painel ---- */
+  .panelpage { padding: 14mm 14mm 20mm 14mm; display: flex; flex-direction: column; }
+  .panelpage .ptitle { font-size: 19px; font-weight: 800; color: #17335c; margin-bottom: 1.5mm; }
+  .panelpage .pfunc { font-size: 11.5px; color: #a8451c; font-weight: 700; margin-bottom: 3mm; }
+  .panelpage .pdesc { font-size: 11.5px; color: #223055; line-height: 1.5; margin-bottom: 3.5mm; }
+  .imgwrap {
+    flex: 1; border: 1px solid #C7D0E0; border-radius: 6px; overflow: hidden;
+    display: flex; align-items: flex-start; justify-content: center; background: #fff;
+  }
+  .imgwrap img { width: 100%; height: auto; display: block; }
+
+  /* ---- Fechamento ---- */
+  .closing { background: #0B1220; color: #FAFBFD; padding: 20mm 18mm; }
+  .closing h2 { font-size: 26px; font-weight: 800; color: #FAFBFD; margin-bottom: 5mm; }
+  .closing .rule { background: #6FA8F0; }
+  .closing p { color: #C7D0E0; }
+  .closing table.cost th { background: #17335c; }
+  .closing table.cost td { color: #C7D0E0; border-bottom: 1px solid #223055; }
+  .closing .cta {
+    margin-top: 8mm; background: #eb6834; color: #fff; display: inline-block;
+    padding: 4mm 8mm; border-radius: 4px; font-weight: 700; font-size: 13px;
+  }
+</style>
+</head>
+<body>
+
+<!-- 1. CAPA -->
+<div class="page cover">
+  <div>
+    <img class="logo" src="logo.png" alt="OCEO">
+  </div>
+  <div>
+    <div class="kicker">Pilar 1 · GC — Contabilidade &amp; BI</div>
+    <h1>Prova de conceito: Business Intelligence já em produção</h1>
+    <div class="sub">Nove painéis reais de gestão contábil e financeira, construídos e operados pelo Grupo Sena para um cliente real — a evidência concreta de que a camada Contábil do módulo OCEO não é promessa, é capacidade já instalada.</div>
+  </div>
+  <div class="foot">OCEO — Sistema de Gestão Empresarial · Grupo Sena · Documento de uso interno / pré-pitch</div>
+</div>
+
+<!-- 2. CONTEXTO -->
+<div class="page textpage">
+  <div class="kicker">Contexto</div>
+  <h2>Por que isso importa pro pitch do OCEO</h2>
+  <div class="rule"></div>
+  <p>O Pilar 1 do OCEO (código <b>GC</b>) descreve um módulo que processa apuração contábil, fiscal e de departamento pessoal de verdade, devolvendo ao empresário um painel gerencial em tempo real — substituindo a necessidade de montar essa capacidade internamente, sem eliminar o escritório externo responsável pela assinatura legal (CRC).</p>
+  <p>A pergunta que qualquer investidor ou cliente faz primeiro é direta: <b>"vocês já fizeram isso, ou é só plano?"</b> As páginas seguintes respondem com evidência, não com promessa: nove painéis de Power BI construídos e operados de verdade pelo Grupo Sena para uma rede de franquias de serviço com holding e mais de vinte unidades — cobrindo balancete, financeiro, DRE consolidado e fluxo de caixa por unidade, mês a mês.</p>
+  <div class="box">
+    <b>O que isso prova:</b> a camada <b>Contábil</b> do Pilar 1 — lançamentos, conciliação, controle de entradas/custos/retiradas, balancete e DRE gerencial em tempo real — já está validada em operação real. O que ainda falta transformar em produto replicável são as camadas Fiscal, DP/RH e Legalização, e resolver a arquitetura técnica de entrega (embed de BI vs. dashboard nativo do OCEO).
+  </div>
+  <div class="box" style="border-left-color:#a8451c; background:#FFF3EC;">
+    <b>Nota de confidencialidade:</b> os painéis a seguir usam dados reais de um cliente do Grupo Sena. Este documento é de <b>uso interno / pré-pitch</b>. Antes de qualquer envio externo a investidor ou terceiro sem NDA, o nome do cliente e os valores individuais de fornecedores pessoa física devem ser generalizados — peça a versão sanitizada quando for necessário.
+  </div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI</span><span class="wm">USO INTERNO</span></div>
+</div>
+
+<!-- 3-11. PAINEIS -->
+<div class="page panelpage">
+  <div class="ptitle">01. Pagamento a Fornecedores — Balancete</div>
+  <div class="pfunc">Funcao do Pilar 1: Lancamentos contabeis automaticos + Balancete em tempo real</div>
+  <div class="pdesc">Tabela dinamica de pagamentos por razao social e mes, com filtro por conta contabil (ICMS, ISS, PIS, COFINS, Simples Nacional, depreciacoes). Granularidade mensal, por conta contabil e empresa do grupo.</div>
+  <div class="imgwrap"><img src="paineis/painel-01-pagamento-fornecedores-balancete.png" alt="Pagamento a Fornecedores — Balancete"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">02. Volume de Compras — Balancetes</div>
+  <div class="pfunc">Funcao do Pilar 1: Controle de custos e despesas por centro de custo</div>
+  <div class="pdesc">Fluxo de volume de compras ao longo do ano, por razao social do grupo. Granularidade mensal, por empresa.</div>
+  <div class="imgwrap"><img src="paineis/painel-02-volume-compras-balancetes.png" alt="Volume de Compras — Balancetes"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">03. Receita Contabilizada — Balancetes</div>
+  <div class="pfunc">Funcao do Pilar 1: Controle de entradas (receita/faturamento) por categoria</div>
+  <div class="pdesc">Fluxo de receita contabilizada ao longo do ano, por razao social do grupo. Granularidade mensal, por empresa.</div>
+  <div class="imgwrap"><img src="paineis/painel-03-receita-contabilizada-balancetes.png" alt="Receita Contabilizada — Balancetes"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">04. Pagamento a Fornecedores — Financeiro</div>
+  <div class="pfunc">Funcao do Pilar 1: Conciliacao de contas a pagar x movimentacao real</div>
+  <div class="pdesc">Ranking dos maiores pagamentos por fornecedor/credor, incluindo linhas de imposto (COFINS, IRPJ, CSLL, ISSQN) lancadas como fornecedor. Granularidade mensal, por fornecedor/credor.</div>
+  <div class="imgwrap"><img src="paineis/painel-04-pagamento-fornecedores-financeiro.png" alt="Pagamento a Fornecedores — Financeiro"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">05. Contabilizacao de Notas Fiscais</div>
+  <div class="pfunc">Funcao do Pilar 1: Conciliacao bancaria (extrato x lancamento)</div>
+  <div class="pdesc">Barras de valor de credito por razao social ao longo dos meses, cruzando pagamento a fornecedores com a contabilizacao efetiva das notas fiscais.</div>
+  <div class="imgwrap"><img src="paineis/painel-05-pagamento-fornecedores-financeiro-contabilizacao-nf.png" alt="Contabilizacao de Notas Fiscais"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">06. DRE Financeiro</div>
+  <div class="pfunc">Funcao do Pilar 1: Balancete e DRE gerencial em tempo real (funcionalidade central do modulo)</div>
+  <div class="pdesc">Cards de KPI (Receita Total do Ano, Custo Total, Despesa Total, Distribuicao de Lucro, Aporte dos Socios) mais tabela por categoria x mes, consolidado do grupo inteiro.</div>
+  <div class="imgwrap"><img src="paineis/painel-06-dre-financeiro.png" alt="DRE Financeiro"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">07. Sobra de Caixa por Unidade</div>
+  <div class="pfunc">Funcao do Pilar 1: Insumo direto para margem de contribuicao e ponto de equilibrio</div>
+  <div class="pdesc">Fluxo de sobra ou consumo de caixa por unidade operacional ao longo do ano. Granularidade mensal, por unidade.</div>
+  <div class="imgwrap"><img src="paineis/painel-07-sobra-caixa-por-unidade.png" alt="Sobra de Caixa por Unidade"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">08. Distribuicao de Lucros por Unidade</div>
+  <div class="pfunc">Funcao do Pilar 1: Controle de retiradas (pro-labore, distribuicao de lucro)</div>
+  <div class="pdesc">Fluxo de distribuicao de lucro por unidade operacional ao longo do ano. Granularidade mensal, por unidade.</div>
+  <div class="imgwrap"><img src="paineis/painel-08-distribuicao-lucros-por-unidade.png" alt="Distribuicao de Lucros por Unidade"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+<div class="page panelpage">
+  <div class="ptitle">09. Volume de Compras por Fornecedor — NFE</div>
+  <div class="pfunc">Funcao do Pilar 1: Base de dados para o comparativo automatico OCEO x escritorio externo</div>
+  <div class="pdesc">Ranking dos maiores fornecedores por nota fiscal eletronica emitida, mais tabela detalhada mes a mes. Granularidade mensal, por fornecedor emitente de NF-e.</div>
+  <div class="imgwrap"><img src="paineis/painel-09-volume-compras-por-fornecedor-nfe.png" alt="Volume de Compras por Fornecedor — NFE"></div>
+  <div class="footerbar"><span>OCEO · Pilar 1 — Contabilidade/BI · Painel real do Grupo Sena</span><span class="wm">USO INTERNO</span></div>
+</div>
+
+<!-- 12. FECHAMENTO -->
+<div class="page closing">
+  <div class="kicker" style="color:#6FA8F0;">Leitura consolidada</div>
+  <h2>O que isso significa para o investimento no OCEO</h2>
+  <div class="rule"></div>
+  <p>Dos itens listados no escopo do Pilar 1 — apuração contábil, conciliação bancária, controle de custos/despesas por centro de custo, controle de entradas por categoria, controle de retiradas, balancete e DRE gerencial — pelo menos seis já têm painel real funcionando, hoje, para um cliente pagante do Grupo Sena. Isso reduz o risco de execução do produto: a camada mais complexa (processamento contábil de verdade, não só monitoramento) já está provada.</p>
+  <p style="margin-top:5mm;">O comparativo de custo que sustenta a tese comercial do OCEO, já validado no Pilar 1:</p>
+  <table class="cost">
+    <tr><th>Cenário</th><th>Custo mensal</th></tr>
+    <tr><td>Montar equipe interna (Contábil + Fiscal + DP + RH)</td><td>R$ 30.834,39</td></tr>
+    <tr><td>OCEO (mensalidade)</td><td>R$ 3.500,00</td></tr>
+    <tr><td>Economia mensal</td><td>R$ 27.334,39 (88,6%)</td></tr>
+  </table>
+  <p style="margin-top:5mm; font-size:11.5px; color:#7C8AA8;">Setup R$ 12.500 (único). Payback do setup ≈ 14 dias. Fonte do comparativo de equipe interna: CAGED via salario.com.br (ver <i>pilar-1-contabilidade-bi.md</i>).</p>
+  <div class="cta">OCEO — www.oceo.com.br</div>
+</div>
+
+</body>
+</html>
