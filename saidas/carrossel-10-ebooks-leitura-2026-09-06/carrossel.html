@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — 10 e-books do Gilberto Sena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark  { background: #0F1419; color: #F4F1EA; }
+  .bg-light { background: #F4F1EA; color: #151515; }
+  .gold { color: #C9A227; }
+
+  /* ---------- topbar ---------- */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 54px 62px 0 62px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: #C9A227;
+    position: relative;
+    z-index: 3;
+  }
+  .brand-block { display: flex; flex-direction: column; align-items: flex-start; }
+  .brandmark { width: 26px; height: 26px; display: block; margin-bottom: 10px; object-fit: contain; }
+
+  .rule { width: 62px; height: 4px; background: #C9A227; margin: 34px 62px 0 62px; position: relative; z-index: 3; }
+
+  .footer {
+    padding: 30px 62px 54px 62px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    opacity: 0.62;
+    position: relative;
+    z-index: 3;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+
+  /* ---------- CAPA ---------- */
+  .cover-photo {
+    position: absolute; inset: 0;
+    background-image: url('assets/gilberto.jpg');
+    background-size: cover;
+    background-position: 60% 12%;
+    filter: grayscale(0.15);
+  }
+  .cover-overlay {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(180deg, rgba(15,20,25,0.55) 0%, rgba(15,20,25,0.35) 34%, rgba(15,20,25,0.86) 68%, rgba(15,20,25,0.97) 100%);
+  }
+  .cover-content {
+    flex: 1;
+    padding: 0 62px 20px 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 3;
+  }
+  .cover-kicker {
+    font-size: 15px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.24em; color: #C9A227; margin-bottom: 26px;
+  }
+  .cover-title {
+    font-size: 76px; font-weight: 900; letter-spacing: -0.035em;
+    line-height: 1.1; color: #F4F1EA; max-width: 880px;
+  }
+
+  /* ---------- SOLO e-book ---------- */
+  .content {
+    flex: 1;
+    padding: 44px 62px 0 62px;
+    display: flex;
+    align-items: center;
+    gap: 54px;
+  }
+  .content.reverse { flex-direction: row-reverse; }
+
+  .cover-wrap {
+    flex: 0 0 388px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .cover-wrap::after {
+    content: "";
+    position: absolute;
+    left: 50%; bottom: -18px;
+    width: 300px; height: 40px;
+    transform: translateX(-50%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 70%);
+  }
+  .bg-dark .cover-wrap::before {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 460px; height: 460px;
+    transform: translate(-50%,-50%);
+    background: radial-gradient(circle, rgba(201,162,39,0.16) 0%, rgba(201,162,39,0) 68%);
+  }
+  .ebook-cover {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 2;
+    border-radius: 3px;
+    box-shadow: 0 26px 60px rgba(0,0,0,0.55), 0 6px 18px rgba(0,0,0,0.4);
+  }
+
+  .info { flex: 1; }
+  .info-kicker {
+    font-size: 14px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.22em; color: #C9A227; margin-bottom: 16px;
+  }
+  .info-title {
+    font-size: 44px; font-weight: 800; letter-spacing: -0.02em;
+    line-height: 1.12; margin-bottom: 24px;
+  }
+  .info-sep { width: 44px; height: 3px; background: #C9A227; margin-bottom: 24px; }
+  .info-body {
+    font-size: 23px; font-weight: 500; line-height: 1.52;
+  }
+  .bg-light .info-body { color: #454545; }
+
+  /* ---------- CTA ---------- */
+  .cta-photo {
+    position: absolute; inset: 0;
+    background-image: url('assets/gilberto.jpg');
+    background-size: cover;
+    background-position: 62% 14%;
+    filter: grayscale(0.2);
+  }
+  .cta-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(15,20,25,0.9) 0%, rgba(15,20,25,0.94) 45%, rgba(15,20,25,0.98) 100%);
+  }
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 108px;
+    position: relative;
+    z-index: 3;
+  }
+  .cta-seal {
+    width: 120px; height: 120px;
+    border: 3px solid #C9A227;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 40px;
+  }
+  .cta-seal img { width: 66px; height: 66px; object-fit: contain; }
+  .cta-kicker {
+    font-size: 14px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.24em; color: #C9A227; margin-bottom: 24px;
+  }
+  .cta-body {
+    font-size: 30px; font-weight: 600; line-height: 1.42;
+    color: #F4F1EA; max-width: 760px; margin-bottom: 38px;
+  }
+  .cta-handle {
+    font-size: 25px; font-weight: 800; color: #C9A227; letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="cover-photo"></div>
+  <div class="cover-overlay"></div>
+  <div class="topbar">
+    <div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <span>01/12</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cover-content">
+    <div class="cover-kicker">A biblioteca do Gilberto Sena</div>
+    <div class="cover-title">10 e-books. Um assunto só: parar de decidir no escuro.</div>
+  </div>
+  <div class="footer" style="border-top:1px solid rgba(244,241,234,0.14)">ARRASTA PRO LADO</div>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide bg-light">
+  <div class="topbar" style="color:#C9A227"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>02/12</span></div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/A Startap Unicornio.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 01</div>
+      <div class="info-title">A Startap Unicórnio</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Você não precisa de investidor, sócio nem galpão pra começar — precisa de um problema real e de alguém disposto a pagar pra resolver. Pego "A Startup de $100" e mostro o que a inteligência artificial faz com esse modelo agora: a era do unicórnio de uma pessoa só.</div>
+    </div>
+  </div>
+  <div class="footer">NEGÓCIO &amp; ESCALA</div>
+</div>
+
+<!-- SLIDE 3 -->
+<div class="slide bg-dark">
+  <div class="topbar"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>03/12</span></div>
+  <div class="rule"></div>
+  <div class="content reverse">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/De MotoBoy a Execultivo.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 02</div>
+      <div class="info-title">De Motoboy a Executivo</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Eu já fui o motoboy assaltado, afastado do emprego. Hoje comando o Grupo Sena. O que mudou foi entender que liderança não é cargo, é serviço — a ideia de "O Monge e o Executivo", que a Bíblia já dizia antes. Autoridade se conquista servindo.</div>
+    </div>
+  </div>
+  <div class="footer">LIDERANÇA</div>
+</div>
+
+<!-- SLIDE 4 -->
+<div class="slide bg-light">
+  <div class="topbar" style="color:#C9A227"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>04/12</span></div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/Entenda Suas Financas .png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 03</div>
+      <div class="info-title">Entenda Suas Finanças</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Quem quebra raramente quebra por falta de venda. Quebra por não saber ler o próprio balanço. Aqui é o básico bem feito: orçamento, fluxo de caixa e como enxergar a saúde da empresa antes de ela adoecer.</div>
+    </div>
+  </div>
+  <div class="footer">FINANÇAS DO NEGÓCIO</div>
+</div>
+
+<!-- SLIDE 5 -->
+<div class="slide bg-dark">
+  <div class="topbar"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>05/12</span></div>
+  <div class="rule"></div>
+  <div class="content reverse">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/Estrategia da Gestao.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 04</div>
+      <div class="info-title">Estratégia da Gestão</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Sun Tzu entende mais de gestão que muito livro de MBA. Vencer a batalha antes de lutar é planejar antes de agir. "A Arte da Guerra" traduzida em decisão de negócio — e nos 5 G's que eu uso todo dia.</div>
+    </div>
+  </div>
+  <div class="footer">GESTÃO</div>
+</div>
+
+<!-- SLIDE 6 -->
+<div class="slide bg-light">
+  <div class="topbar" style="color:#C9A227"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>06/12</span></div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/No Controle Das Emocoes.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 05</div>
+      <div class="info-title">No Controle Das Emoções</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Decisão tomada com raiva sai cara. Sob medo, também. Junto a ciência da inteligência emocional de Goleman com o meu "Não Há Dívidas": parar de pagar cobranças que você nunca assinou e usar o que sente a favor da escolha.</div>
+    </div>
+  </div>
+  <div class="footer">INTELIGÊNCIA EMOCIONAL</div>
+</div>
+
+<!-- SLIDE 7 -->
+<div class="slide bg-dark">
+  <div class="topbar"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>07/12</span></div>
+  <div class="rule"></div>
+  <div class="content reverse">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/O Segredo Das Financas.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 06</div>
+      <div class="info-title">O Segredo Das Finanças</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Juros não é opinião, é conta. Quem não sabe fazer essa conta paga por ela a vida inteira. Matemática financeira explicada por quem vive de número todo dia — com exercício e gabarito pra você conferir na ponta do lápis.</div>
+    </div>
+  </div>
+  <div class="footer">MATEMÁTICA FINANCEIRA</div>
+</div>
+
+<!-- SLIDE 8 -->
+<div class="slide bg-light">
+  <div class="topbar" style="color:#C9A227"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>08/12</span></div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/Os Pilares de um Homem Prospero.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 07</div>
+      <div class="info-title">Os Pilares de um Homem Próspero</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Um texto de três mil anos ainda decide o seu próximo passo. Provérbios aplicado ao negócio e à vida: a palavra que você dá, o trabalho que entrega, o dinheiro que guarda, a casa que cuida. Prosperar pra servir, não pra exibir.</div>
+    </div>
+  </div>
+  <div class="footer">SABEDORIA &amp; PROPÓSITO</div>
+</div>
+
+<!-- SLIDE 9 -->
+<div class="slide bg-dark">
+  <div class="topbar"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>09/12</span></div>
+  <div class="rule"></div>
+  <div class="content reverse">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/Posicione-se Ou Morra.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 08</div>
+      <div class="info-title">Posicione-se ou Morra</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Se o cliente não sabe dizer em uma frase o que você faz, você não existe pra ele. Releitura do clássico do posicionamento com casos reais — Cimed, Nubank, Magalu — e o ponto que quase todo empresário ignora: você é a marca antes da empresa.</div>
+    </div>
+  </div>
+  <div class="footer">POSICIONAMENTO</div>
+</div>
+
+<!-- SLIDE 10 -->
+<div class="slide bg-light">
+  <div class="topbar" style="color:#C9A227"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>10/12</span></div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/Quite Suas Dividas Já.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 09</div>
+      <div class="info-title">Quite Suas Dívidas Já</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Dívida não se resolve com vergonha, se resolve com estratégia. O guia pra sentar na mesa com banco, financeira, agiota e Fisco sabendo o que pedir, o que é irregular no seu contrato e até onde a outra parte pode ir.</div>
+    </div>
+  </div>
+  <div class="footer">DÍVIDA &amp; NEGOCIAÇÃO</div>
+</div>
+
+<!-- SLIDE 11 -->
+<div class="slide bg-dark">
+  <div class="topbar"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>11/12</span></div>
+  <div class="rule"></div>
+  <div class="content reverse">
+    <div class="cover-wrap"><img class="ebook-cover" src="assets/Seja Rico ou Pobre.png"></div>
+    <div class="info">
+      <div class="info-kicker">E-book 10</div>
+      <div class="info-title">Seja Rico ou Pobre</div>
+      <div class="info-sep"></div>
+      <div class="info-body">Ninguém nasce achando que dinheiro é sujo ou que emprego é segurança. Alguém te ensinou. Leitura aplicada de "Pai Rico, Pai Pobre" sobre as crenças que você herdou de graça e nunca auditou — e como trocar o roteiro antes que ele decida sua vida.</div>
+    </div>
+  </div>
+  <div class="footer">MENTALIDADE DE RIQUEZA</div>
+</div>
+
+<!-- SLIDE 12 — CTA -->
+<div class="slide bg-dark">
+  <div class="cta-photo"></div>
+  <div class="cta-overlay"></div>
+  <div class="topbar"><div class="brand-block"><img class="brandmark" src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div><span>12/12</span></div>
+  <div class="rule"></div>
+  <div class="cta-wrap">
+    <div class="cta-seal"><img src="assets/grupo-sena-icone-gold.png"></div>
+    <div class="cta-kicker">10 e-books · uma biblioteca</div>
+    <div class="cta-body">A técnica que me custou 7 quebras pra aprender, organizada pra você. Comenta qual desses você quer primeiro.</div>
+    <div class="cta-handle">@gilbertosenaoficial</div>
+  </div>
+  <div class="footer" style="border-top:1px solid rgba(244,241,234,0.14)">GILBERTO SENA</div>
+</div>
+
+</body>
+</html>
