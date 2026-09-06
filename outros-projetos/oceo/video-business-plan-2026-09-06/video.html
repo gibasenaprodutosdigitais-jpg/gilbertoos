@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>OCEO — Business Plan (vídeo)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{
+    --void:#0a0d12; --panel:#12161f; --panel2:#171c27; --ink:#f1eee6;
+    --amber:#e8a33d; --amber-dim:rgba(232,163,61,0.14); --muted:#838b9c;
+    --muted-dim:#565e70; --good:#4fae7c; --line:#262d3b; --line-soft:#1b2130;
+  }
+  html,body{width:1920px;height:1080px;overflow:hidden;background:#05070a}
+  body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:var(--ink)}
+  .disp{font-family:'Unbounded',system-ui,sans-serif}
+  .mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+
+  .frame{position:absolute;inset:0;overflow:hidden;background:var(--void)}
+
+  /* ---- background ---- */
+  .bg{position:absolute;inset:-6%;
+    background:
+      radial-gradient(46% 40% at 26% 30%, rgba(232,163,61,0.13) 0%, rgba(232,163,61,0) 62%),
+      radial-gradient(60% 60% at 88% 108%, rgba(79,174,124,0.08) 0%, rgba(79,174,124,0) 60%),
+      var(--void);
+    animation:bgMove 43000ms linear both}
+  @keyframes bgMove{0%{transform:scale(1.02) translate(0,0)}100%{transform:scale(1.12) translate(-30px,-18px)}}
+  .grid{position:absolute;inset:0;opacity:0.5;
+    background-image:linear-gradient(var(--line-soft) 1px,transparent 1px),linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);
+    background-size:96px 96px;
+    mask-image:radial-gradient(80% 80% at 50% 45%,#000 0%,transparent 78%);
+    -webkit-mask-image:radial-gradient(80% 80% at 50% 45%,#000 0%,transparent 78%);
+    animation:gridMove 43000ms linear both}
+  @keyframes gridMove{0%{transform:translateY(0)}100%{transform:translateY(-60px)}}
+  .stage{position:absolute;inset:0;animation:cam 43000ms linear both;will-change:transform}
+  @keyframes cam{
+    0%{transform:translate(0,0) scale(1.0)}
+    30%{transform:translate(-10px,6px) scale(1.02)}
+    60%{transform:translate(8px,-8px) scale(1.035)}
+    100%{transform:translate(4px,6px) scale(1.05)}
+  }
+
+  /* ---- persistent chrome ---- */
+  .wm{position:absolute;top:64px;left:96px;display:flex;align-items:center;gap:16px;z-index:40;
+    animation:fadeOnce 700ms 200ms both}
+  .wm .mk{width:40px;height:40px}
+  .wm .mk circle,.wm .mk path{vector-effect:non-scaling-stroke}
+  .wm b{font-family:'Unbounded',sans-serif;font-weight:800;font-size:26px;letter-spacing:0.14em;color:var(--ink)}
+  @keyframes fadeOnce{from{opacity:0}to{opacity:1}}
+  .slabel{position:absolute;top:74px;right:96px;z-index:40;font-family:'IBM Plex Mono',monospace;
+    font-size:17px;letter-spacing:0.22em;color:var(--muted);text-transform:uppercase}
+  .prog{position:absolute;left:0;bottom:0;height:5px;width:0;background:var(--amber);z-index:40;
+    animation:prog 43000ms linear both;opacity:0.9}
+  @keyframes prog{to{width:1920px}}
+
+  .scene{position:absolute;inset:0;padding:150px 150px 120px}
+  .s2{animation:sOut 260ms 9720ms both}
+  .s3{animation:sOut 260ms 14760ms both}
+  .s5{animation:sOut 260ms 34300ms both}
+  .s6{animation:sOut 260ms 39300ms both}
+  @keyframes sOut{to{opacity:0}}
+
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:19px;letter-spacing:0.28em;
+    text-transform:uppercase;color:var(--amber)}
+  .lead{color:var(--muted);font-size:26px;line-height:1.5;font-weight:400}
+
+  /* ===== S1 abertura ===== */
+  .s1{display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+  .s1 .mkbig{width:150px;height:150px;margin-bottom:52px;
+    animation:markDraw 1400ms 200ms ease-out both}
+  .s1 .mkbig circle.ring{stroke-dasharray:534;stroke-dashoffset:534;
+    animation:ringDraw 1200ms 300ms ease-out both}
+  .s1 .mkbig path.arc{stroke-dasharray:230;stroke-dashoffset:230;
+    animation:ringDraw 900ms 900ms ease-out both}
+  @keyframes ringDraw{to{stroke-dashoffset:0}}
+  @keyframes markDraw{0%{opacity:0;transform:scale(.8)}30%{opacity:1;transform:scale(1)}100%{opacity:1;transform:scale(1)}}
+  .s1 .eyebrow{opacity:0;animation:up 700ms 700ms ease-out both}
+  .s1 h1{font-family:'Unbounded',sans-serif;font-weight:800;font-size:170px;letter-spacing:0.04em;
+    line-height:1;margin:26px 0 30px;opacity:0;animation:up 800ms 950ms ease-out both}
+  .s1 .tag{font-size:34px;font-weight:500;color:var(--ink);opacity:0;
+    animation:up 800ms 1250ms ease-out both}
+  .s1 .tag em{color:var(--amber);font-style:normal}
+  .s1.scene{animation:sceneOut 500ms 3550ms both}
+
+  @keyframes up{0%{opacity:0;transform:translateY(34px)}100%{opacity:1;transform:translateY(0)}}
+  @keyframes sceneOut{to{opacity:0}}
+
+  /* ===== S2 problema ===== */
+  .s2{display:flex;flex-direction:column;justify-content:center}
+  .s2 .eyebrow{opacity:0;animation:life2 6000ms 4000ms ease-out both}
+  .s2 h2{font-family:'Unbounded',sans-serif;font-weight:600;font-size:92px;letter-spacing:-0.01em;
+    line-height:1.08;margin:22px 0 46px;max-width:1400px;opacity:0;animation:life2 6000ms 4150ms ease-out both}
+  .s2 ul{list-style:none;display:flex;flex-direction:column;gap:24px;max-width:1360px}
+  .s2 li{display:flex;gap:22px;align-items:flex-start;font-size:32px;font-weight:500;color:#cfd3dc;opacity:0}
+  .s2 li i{width:12px;height:12px;margin-top:14px;background:var(--amber);flex:0 0 auto;transform:rotate(45deg)}
+  .s2 li:nth-child(1){animation:life2 6000ms 4500ms ease-out both}
+  .s2 li:nth-child(2){animation:life2 6000ms 4750ms ease-out both}
+  .s2 li:nth-child(3){animation:life2 6000ms 5000ms ease-out both}
+  .s2 li:nth-child(4){animation:life2 6000ms 5250ms ease-out both}
+  .s2 .stat{margin-top:52px;display:flex;align-items:baseline;gap:22px;border-top:1px solid var(--line);
+    padding-top:30px;max-width:1360px;opacity:0;animation:life2 6000ms 5650ms ease-out both}
+  .s2 .stat b{font-family:'Unbounded',sans-serif;font-weight:800;font-size:56px;color:var(--amber)}
+  .s2 .stat span{font-size:24px;color:var(--muted)}
+  @keyframes life2{
+    0%{opacity:0;transform:translateY(30px)}
+    5%{opacity:1;transform:translateY(0)}
+    92%{opacity:1;transform:translateY(0)}
+    100%{opacity:0;transform:translateY(-14px)}
+  }
+
+  /* ===== S3 solucao ===== */
+  .s3{display:flex;flex-direction:column;justify-content:center}
+  .s3 .eyebrow{opacity:0;animation:life3 5000ms 10000ms ease-out both}
+  .s3 h2{font-family:'Unbounded',sans-serif;font-weight:600;font-size:104px;letter-spacing:-0.01em;
+    line-height:1.06;margin:22px 0 40px;max-width:1500px;opacity:0;animation:life3 5000ms 10200ms ease-out both}
+  .s3 p{font-size:36px;line-height:1.5;color:#cfd3dc;max-width:1400px;font-weight:400;opacity:0;
+    animation:life3 5000ms 10500ms ease-out both}
+  .s3 p strong{color:var(--ink);font-weight:600}
+  .s3 .badge{margin-top:48px;display:inline-flex;align-items:center;gap:16px;align-self:flex-start;
+    border:1px solid var(--amber);border-radius:100px;padding:16px 30px;background:var(--amber-dim);
+    font-family:'IBM Plex Mono',monospace;font-size:22px;letter-spacing:0.06em;color:var(--amber);opacity:0;
+    animation:life3 5000ms 10850ms ease-out both}
+  @keyframes life3{
+    0%{opacity:0;transform:translateY(30px)}
+    6%{opacity:1;transform:translateY(0)}
+    90%{opacity:1;transform:translateY(0)}
+    100%{opacity:0;transform:translateY(-14px)}
+  }
+
+  /* ===== S4 pilares ===== */
+  .s4{position:absolute;inset:0}
+  .pil{position:absolute;inset:150px 150px 120px;display:flex;flex-direction:column;justify-content:center}
+  .pil .top{display:flex;align-items:center;gap:28px;opacity:0;animation:pE1 2600ms var(--s) ease-out both}
+  .pil .code{font-family:'Unbounded',sans-serif;font-weight:800;font-size:40px;color:var(--void);
+    background:var(--amber);padding:12px 22px;letter-spacing:0.06em}
+  .pil .pnum{font-family:'IBM Plex Mono',monospace;font-size:22px;color:var(--muted);letter-spacing:0.2em}
+  .pil h3{font-family:'Unbounded',sans-serif;font-weight:600;font-size:82px;letter-spacing:-0.01em;
+    line-height:1.05;margin:30px 0 26px;max-width:1500px;opacity:0;animation:pE2 2600ms var(--s) ease-out both}
+  .pil .desc{font-size:33px;line-height:1.45;color:#cfd3dc;max-width:1300px;font-weight:400;opacity:0;
+    animation:pE3 2600ms var(--s) ease-out both}
+  .pil .repl{margin-top:44px;display:flex;align-items:baseline;gap:20px;flex-wrap:wrap;
+    border-left:4px solid var(--amber);padding-left:26px;opacity:0;animation:pE4 2600ms var(--s) ease-out both}
+  .pil .repl .k{font-family:'IBM Plex Mono',monospace;font-size:22px;letter-spacing:0.14em;
+    text-transform:uppercase;color:var(--muted)}
+  .pil .repl .v{font-family:'Unbounded',sans-serif;font-weight:800;font-size:52px;color:var(--ink)}
+  .pil .repl .v s{color:var(--muted);text-decoration:none;font-size:34px}
+  .pil .repl .note{font-size:22px;color:var(--muted-dim)}
+  @keyframes pE1{0%{opacity:0;transform:translateY(32px)}5%{opacity:1;transform:translateY(0)}88%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-16px)}}
+  @keyframes pE2{0%,3%{opacity:0;transform:translateY(32px)}9%{opacity:1;transform:translateY(0)}88%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-16px)}}
+  @keyframes pE3{0%,6%{opacity:0;transform:translateY(32px)}12%{opacity:1;transform:translateY(0)}88%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-16px)}}
+  @keyframes pE4{0%,10%{opacity:0;transform:translateY(32px)}17%{opacity:1;transform:translateY(0)}88%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-16px)}}
+  .pil .idx{position:absolute;right:0;top:40px;font-family:'Unbounded',sans-serif;font-weight:800;
+    font-size:300px;line-height:1;color:#fff;opacity:0;animation:pilIdx 2600ms var(--s) ease-out both}
+  @keyframes pilIdx{
+    0%{opacity:0;transform:translateY(30px)}10%{opacity:0.045;transform:translateY(0)}
+    86%{opacity:0.045}100%{opacity:0;transform:translateY(-20px)}
+  }
+
+  /* ===== S5 comparativo ===== */
+  .s5{display:flex;flex-direction:column;justify-content:center}
+  .s5 .eyebrow{opacity:0;animation:life5 6500ms 28000ms ease-out both}
+  .s5 h2{font-family:'Unbounded',sans-serif;font-weight:600;font-size:88px;line-height:1.05;
+    margin:20px 0 56px;opacity:0;animation:life5 6500ms 28200ms ease-out both}
+  .bars{display:flex;flex-direction:column;gap:34px;max-width:1560px}
+  .bar{opacity:0}
+  .bar:nth-child(1){animation:life5 6500ms 28550ms ease-out both}
+  .bar:nth-child(2){animation:life5 6500ms 28800ms ease-out both}
+  .bar .blab{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+  .bar .blab .n{font-size:26px;color:var(--muted);font-weight:500}
+  .bar .blab .amt{font-family:'Unbounded',sans-serif;font-weight:800;font-size:44px}
+  .bar .track{height:64px;background:var(--panel);border:1px solid var(--line);overflow:hidden}
+  .bar .fill{height:100%;transform-origin:left;transform:scaleX(0)}
+  .bar.a .fill{background:linear-gradient(90deg,#3a4356,#5b6578);animation:barA 1400ms 28900ms cubic-bezier(.2,.8,.2,1) both}
+  .bar.b .fill{background:linear-gradient(90deg,var(--amber),#f2c17d);animation:barB 1200ms 29200ms cubic-bezier(.2,.8,.2,1) both}
+  @keyframes barA{to{transform:scaleX(1)}}
+  @keyframes barB{to{transform:scaleX(0.0383)}}
+  .s5 .kpis{margin-top:56px;display:flex;gap:70px;flex-wrap:wrap;opacity:0;animation:life5 6500ms 29500ms ease-out both}
+  .s5 .kpi .kv{font-family:'Unbounded',sans-serif;font-weight:800;font-size:56px;color:var(--good)}
+  .s5 .kpi .kk{font-size:22px;color:var(--muted);margin-top:8px}
+  .s5 .foot{margin-top:44px;font-family:'IBM Plex Mono',monospace;font-size:20px;color:var(--muted-dim);
+    line-height:1.6;max-width:1560px;opacity:0;animation:life5 6500ms 29800ms ease-out both}
+  @keyframes life5{
+    0%{opacity:0;transform:translateY(28px)}
+    6%{opacity:1;transform:translateY(0)}
+    91%{opacity:1;transform:translateY(0)}
+    100%{opacity:0;transform:translateY(-14px)}
+  }
+
+  /* ===== S6 mercado/modelo ===== */
+  .s6{display:flex;flex-direction:column;justify-content:center}
+  .s6 .eyebrow{opacity:0;animation:life6 5000ms 34500ms ease-out both}
+  .s6 h2{font-family:'Unbounded',sans-serif;font-weight:600;font-size:88px;line-height:1.05;
+    margin:20px 0 44px;opacity:0;animation:life6 5000ms 34700ms ease-out both}
+  .s6 ul{list-style:none;display:flex;flex-direction:column;gap:22px;max-width:1500px}
+  .s6 li{display:flex;gap:22px;align-items:flex-start;font-size:31px;font-weight:500;color:#cfd3dc;opacity:0}
+  .s6 li i{width:12px;height:12px;margin-top:13px;background:var(--amber);flex:0 0 auto;transform:rotate(45deg)}
+  .s6 li:nth-child(1){animation:life6 5000ms 35000ms ease-out both}
+  .s6 li:nth-child(2){animation:life6 5000ms 35250ms ease-out both}
+  .s6 li:nth-child(3){animation:life6 5000ms 35500ms ease-out both}
+  .s6 .model{margin-top:46px;display:flex;align-items:center;gap:26px;opacity:0;animation:life6 5000ms 35850ms ease-out both}
+  .s6 .model .pill{font-family:'Unbounded',sans-serif;font-weight:800;font-size:40px;color:var(--ink);
+    border:1px solid var(--line);background:var(--panel);padding:18px 30px}
+  .s6 .model .pill em{color:var(--amber);font-style:normal}
+  .s6 .prem{margin-top:40px;display:inline-flex;align-self:flex-start;gap:14px;align-items:center;
+    border:1px dashed var(--muted-dim);border-radius:8px;padding:14px 24px;font-family:'IBM Plex Mono',monospace;
+    font-size:20px;color:var(--muted);opacity:0;animation:life6 5000ms 36200ms ease-out both}
+  .s6 .prem b{color:var(--amber);font-weight:600}
+  @keyframes life6{
+    0%{opacity:0;transform:translateY(28px)}
+    7%{opacity:1;transform:translateY(0)}
+    90%{opacity:1;transform:translateY(0)}
+    100%{opacity:0;transform:translateY(-14px)}
+  }
+
+  /* ===== S7 fecho ===== */
+  .s7{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+  .s7 .mkbig{width:140px;height:140px;margin-bottom:44px;opacity:0;animation:pop 3500ms 39500ms cubic-bezier(.2,.8,.2,1) both}
+  .s7 h1{font-family:'Unbounded',sans-serif;font-weight:800;font-size:150px;letter-spacing:0.05em;opacity:0;
+    animation:up7 3500ms 39750ms ease-out both}
+  .s7 .tag{font-size:36px;font-weight:500;color:#cfd3dc;margin-top:20px;opacity:0;animation:up7 3500ms 40050ms ease-out both}
+  .s7 .meta{margin-top:52px;font-family:'IBM Plex Mono',monospace;font-size:24px;color:var(--muted);
+    letter-spacing:0.08em;line-height:1.8;opacity:0;animation:up7 3500ms 40350ms ease-out both}
+  .s7 .meta b{color:var(--amber);font-weight:600}
+  @keyframes pop{0%{opacity:0;transform:scale(.6) rotate(-16deg)}16%{opacity:1;transform:scale(1) rotate(0)}100%{opacity:1}}
+  @keyframes up7{0%{opacity:0;transform:translateY(26px)}14%{opacity:1;transform:translateY(0)}100%{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="bg"></div>
+  <div class="grid"></div>
+  <div class="stage">
+
+    <!-- S1 -->
+    <div class="scene s1">
+      <svg class="mkbig" viewBox="0 0 200 200" fill="none">
+        <circle class="ring" cx="100" cy="100" r="85" stroke="#e8a33d" stroke-width="12"/>
+        <path class="arc" d="M124 138 A44 44 0 1 1 124 62" stroke="#f1eee6" stroke-width="12" stroke-linecap="round"/>
+      </svg>
+      <div class="eyebrow">Sistema de Gestão Empresarial · Grupo Sena</div>
+      <h1 class="disp">OCEO</h1>
+      <div class="tag">O sistema orienta. <em>Você decide.</em></div>
+    </div>
+
+    <!-- S2 -->
+    <div class="scene s2">
+      <div class="eyebrow">O problema</div>
+      <h2>A pequena empresa administra no escuro.</h2>
+      <ul>
+        <li><i></i><span>A contabilidade é caixa-preta — o dono assina sem entender.</span></li>
+        <li><i></i><span>Advogado, só quando o problema já virou processo.</span></li>
+        <li><i></i><span>Marketing terceirizado, sem controle do funil.</span></li>
+        <li><i></i><span>Sobra de caixa parada, sem para onde ir.</span></li>
+      </ul>
+      <div class="stat"><b>24 milhões</b><span>de pequenos negócios — 95% das empresas do Brasil (SEBRAE, 2025)</span></div>
+    </div>
+
+    <!-- S3 -->
+    <div class="scene s3">
+      <div class="eyebrow">A solução</div>
+      <h2>Um sistema. Cinco frentes. Uma mensalidade.</h2>
+      <p>O OCEO <strong>processa de verdade</strong> — contábil, financeiro, jurídico, marketing e educação de investimento dentro de casa. Sem a empresa montar cada equipe.</p>
+      <div class="badge">O sistema orienta, não decide.</div>
+    </div>
+
+    <!-- S4 pilares -->
+    <div class="s4">
+      <div class="pil" style="--s:15000ms;--s2:15150ms;--s3:15300ms;--s4:15550ms">
+        <div class="idx disp">01</div>
+        <div class="top"><span class="code">GC</span><span class="pnum">PILAR 01</span></div>
+        <h3>Contabilidade / BI + RH</h3>
+        <div class="desc">Contábil, Fiscal, DP, RH e Legalização processados por dentro. O escritório externo continua assinando a obrigação legal — o dado interno vira poder de barganha com ele.</div>
+        <div class="repl"><span class="k">Substitui equipe de 4</span><span class="v"><s>R$ 30.834/mês</s> → R$ 3.500</span></div>
+      </div>
+      <div class="pil" style="--s:17600ms;--s2:17750ms;--s3:17900ms;--s4:18150ms">
+        <div class="idx disp">02</div>
+        <div class="top"><span class="code">GF</span><span class="pnum">PILAR 02</span></div>
+        <h3>Gestão Financeira</h3>
+        <div class="desc">ERP ligado ao banco. DRE, caixa livre, EBITDA, ROI e valuation explicados em linguagem do dono. Fundo de reserva de 3 meses de ponto de equilíbrio.</div>
+        <div class="repl"><span class="k">Substitui Analista Financeiro</span><span class="v"><s>R$ 8.790/mês</s> → R$ 3.500</span></div>
+      </div>
+      <div class="pil" style="--s:20200ms;--s2:20350ms;--s3:20500ms;--s4:20750ms">
+        <div class="idx disp">03</div>
+        <div class="top"><span class="code">GJ</span><span class="pnum">PILAR 03</span></div>
+        <h3>Jurídico</h3>
+        <div class="desc">Advogado consultivo full-time: minuta padrão, análise de contrato, risco em compra, sociedade e venda. Execução que exige OAB continua com o advogado do cliente.</div>
+        <div class="repl"><span class="k">Substitui Advogado Empresarial</span><span class="v"><s>R$ 16.122/mês</s> → R$ 3.500</span></div>
+      </div>
+      <div class="pil" style="--s:22800ms;--s2:22950ms;--s3:23100ms;--s4:23350ms">
+        <div class="idx disp">04</div>
+        <div class="top"><span class="code">GM</span><span class="pnum">PILAR 04</span></div>
+        <h3>Marketing e Vendas</h3>
+        <div class="desc">Conteúdo, tráfego pago e atendimento comercial por IA — da captação ao fechamento, mesmo em operação física. Como ter uma agência completa por dentro.</div>
+        <div class="repl"><span class="k">Substitui equipe de 3</span><span class="v"><s>R$ 26.037/mês</s> → R$ 3.500</span><span class="note">· verba de mídia à parte</span></div>
+      </div>
+      <div class="pil" style="--s:25400ms;--s2:25550ms;--s3:25700ms;--s4:25950ms">
+        <div class="idx disp">05</div>
+        <div class="top"><span class="code">GI</span><span class="pnum">PILAR 05</span></div>
+        <h3>Educação Pré-Investimento</h3>
+        <div class="desc">Educação por categoria de perfil de investidor, sobre dado de mercado público. Só ativa depois que a reserva do Pilar 2 está completa. Rota educacional — não recomendação individualizada.</div>
+        <div class="repl"><span class="k">Substitui Analista de Fundos</span><span class="v"><s>R$ 9.604/mês</s> → R$ 3.500</span><span class="note">· rota educacional, não regulada</span></div>
+      </div>
+    </div>
+
+    <!-- S5 comparativo -->
+    <div class="scene s5">
+      <div class="eyebrow">O comparativo central</div>
+      <h2>Montar tudo por dentro &nbsp;x&nbsp; OCEO</h2>
+      <div class="bars">
+        <div class="bar a">
+          <div class="blab"><span class="n">Equipe interna equivalente — 5 frentes</span><span class="amt disp">R$ 91.387<span style="font-size:24px;color:var(--muted)"> /mês</span></span></div>
+          <div class="track"><div class="fill"></div></div>
+        </div>
+        <div class="bar b">
+          <div class="blab"><span class="n">OCEO — mensalidade</span><span class="amt disp" style="color:var(--amber)">R$ 3.500<span style="font-size:24px;color:var(--muted)"> /mês</span></span></div>
+          <div class="track"><div class="fill"></div></div>
+        </div>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><div class="kv disp">R$ 87.887</div><div class="kk">Economia por mês</div></div>
+        <div class="kpi"><div class="kv disp">96,2%</div><div class="kk">de redução de custo</div></div>
+        <div class="kpi"><div class="kv disp">≈ 4 dias</div><div class="kk">payback do setup</div></div>
+        <div class="kpi"><div class="kv disp">R$ 1,05 mi</div><div class="kk">economia em 12 meses</div></div>
+      </div>
+      <div class="foot mono">Setup R$ 12.500 (único). Salários: CAGED via salario.com.br, encargos ~80%. Leitura conservadora (Analista Financeiro no Pilar 2, não Diretor). Verba de mídia do Pilar 4 sempre à parte.</div>
+    </div>
+
+    <!-- S6 mercado/modelo -->
+    <div class="scene s6">
+      <div class="eyebrow">O mercado e o lugar do OCEO</div>
+      <h2>Mercado grande, dono mal servido.</h2>
+      <ul>
+        <li><i></i><span>ERP global: US$ 71–92 bilhões, crescendo cerca de 10% ao ano.</span></li>
+        <li><i></i><span>Totvs, SAP e Oracle: 77% do mercado nacional — e nenhum fala a língua do dono de PME.</span></li>
+        <li><i></i><span>Alvo do OCEO: PME faturando acima de R$ 50 mil/mês.</span></li>
+      </ul>
+      <div class="model"><span class="pill">Setup <em>R$ 12.500</em></span><span class="pill">+ <em>R$ 3.500</em> /mês</span></div>
+      <div class="prem"><b>Premissa —</b> CAC, churn e ponto de equilíbrio do plano são estimativas, a validar com operação real.</div>
+    </div>
+
+    <!-- S7 fecho -->
+    <div class="scene s7">
+      <svg class="mkbig" viewBox="0 0 200 200" fill="none">
+        <circle cx="100" cy="100" r="85" stroke="#e8a33d" stroke-width="12"/>
+        <path d="M124 138 A44 44 0 1 1 124 62" stroke="#f1eee6" stroke-width="12" stroke-linecap="round"/>
+      </svg>
+      <h1 class="disp">OCEO</h1>
+      <div class="tag">Administrar com o número na mão.</div>
+      <div class="meta">www.oceo.com.br<br>Grupo Sena · <b>Gilberto Sena, CEO</b></div>
+    </div>
+
+    <div class="wm">
+      <svg class="mk" viewBox="0 0 200 200" fill="none">
+        <circle cx="100" cy="100" r="85" stroke="#e8a33d" stroke-width="14"/>
+        <path d="M124 138 A44 44 0 1 1 124 62" stroke="#f1eee6" stroke-width="14" stroke-linecap="round"/>
+      </svg>
+      <b>OCEO</b>
+    </div>
+    <div class="slabel mono">Business Plan</div>
+  </div>
+  <div class="prog"></div>
+</div>
+</body>
+</html>
