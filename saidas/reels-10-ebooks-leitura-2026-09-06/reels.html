@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Reels — 10 e-books do Gilberto Sena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1920px;overflow:hidden;background:#0A0D11}
+  body{font-family:'Inter',sans-serif}
+
+  .frame{position:absolute;inset:0;overflow:hidden;background:#0F1419}
+
+  /* ---- persistent background ---- */
+  .bg{position:absolute;inset:-8%;
+    background:
+      radial-gradient(60% 42% at 50% 34%, rgba(201,162,39,0.16) 0%, rgba(201,162,39,0) 60%),
+      radial-gradient(90% 70% at 50% 120%, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 60%),
+      #0F1419;
+    animation:bgMove 31000ms linear both;
+  }
+  @keyframes bgMove{
+    0%{transform:scale(1.02) translateY(0) rotate(0deg)}
+    100%{transform:scale(1.14) translateY(-26px) rotate(1.2deg)}
+  }
+  .vignette{position:absolute;inset:0;box-shadow:inset 0 0 340px 90px rgba(0,0,0,0.6);pointer-events:none}
+
+  /* ---- camera drift ---- */
+  .stage{position:absolute;inset:0;animation:cam 31000ms linear both;will-change:transform}
+  @keyframes cam{
+    0%{transform:translate(0px,0px) scale(1.0)}
+    22%{transform:translate(-14px,10px) scale(1.03)}
+    46%{transform:translate(10px,-12px) scale(1.05)}
+    70%{transform:translate(-8px,-4px) scale(1.06)}
+    100%{transform:translate(6px,8px) scale(1.09)}
+  }
+
+  /* ---- brand watermark ---- */
+  .wm{position:absolute;top:70px;left:72px;display:flex;align-items:center;gap:14px;
+    color:#C9A227;font-size:20px;font-weight:700;letter-spacing:0.2em;
+    animation:fadeInOnce 700ms 200ms both;z-index:40}
+  .wm img{width:34px;height:34px;object-fit:contain}
+  @keyframes fadeInOnce{from{opacity:0}to{opacity:1}}
+
+  .counter{position:absolute;top:74px;right:74px;color:#C9A227;font-size:20px;font-weight:800;
+    letter-spacing:0.14em;z-index:40}
+
+  .progress{position:absolute;left:0;bottom:0;height:5px;background:#C9A227;width:0;
+    animation:prog 31000ms linear both;z-index:40;opacity:0.85}
+  @keyframes prog{from{width:0}to{width:1080px}}
+
+  /* ================= INTRO ================= */
+  .intro{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;
+    padding:0 92px;animation:introOut 500ms 3150ms both}
+  @keyframes introOut{from{opacity:1}to{opacity:0}}
+
+  .seal{width:150px;height:150px;border:3px solid #C9A227;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;margin-bottom:52px;
+    animation:sealIn 900ms 200ms cubic-bezier(.2,.8,.2,1) both}
+  .seal img{width:86px;height:86px;object-fit:contain}
+  @keyframes sealIn{
+    0%{opacity:0;transform:scale(.4) rotate(-30deg)}
+    100%{opacity:1;transform:scale(1) rotate(0deg)}
+  }
+
+  .intro-kicker{color:#C9A227;font-size:23px;font-weight:700;letter-spacing:0.3em;
+    text-transform:uppercase;margin-bottom:34px;animation:kUp 700ms 700ms ease-out both}
+  @keyframes kUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+  .intro-title{color:#F4F1EA;font-size:94px;font-weight:900;letter-spacing:-0.035em;
+    line-height:1.1;max-width:900px}
+  .intro-title span{display:block;opacity:0;transform:translateY(40px);
+    animation:wordUp 800ms ease-out both}
+  .intro-title span:nth-child(1){animation-delay:900ms}
+  .intro-title span:nth-child(2){animation-delay:1080ms}
+  .intro-title span:nth-child(3){animation-delay:1260ms}
+  .intro-title span:nth-child(4){animation-delay:1440ms}
+  .intro-title .g{color:#C9A227}
+  @keyframes wordUp{to{opacity:1;transform:translateY(0)}}
+
+  /* ================= COVERS ================= */
+  .covers{position:absolute;inset:0;perspective:1500px}
+  .cv{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+    justify-content:center;transform-style:preserve-3d}
+
+  .cv .num{position:absolute;top:150px;left:0;right:0;text-align:center;
+    font-size:400px;font-weight:900;color:#F4F1EA;opacity:0;line-height:1;
+    letter-spacing:-0.04em;animation:numLife 2000ms var(--s) ease-out both}
+  @keyframes numLife{
+    0%{opacity:0;transform:translateY(40px) scale(.9)}
+    10%{opacity:0.05;transform:translateY(0) scale(1)}
+    84%{opacity:0.05;transform:translateY(0) scale(1)}
+    100%{opacity:0;transform:translateY(-30px) scale(1.04)}
+  }
+
+  .cv .shot{width:560px;filter:drop-shadow(0 40px 70px rgba(0,0,0,0.6));
+    border-radius:4px;opacity:0;margin-top:40px;
+    animation:coverLife 2000ms var(--s) cubic-bezier(.2,.75,.2,1) both}
+  @keyframes coverLife{
+    0%{opacity:0;transform:translateX(520px) rotateY(-40deg) scale(.92)}
+    13%{opacity:1;transform:translateX(0) rotateY(0deg) scale(1)}
+    82%{opacity:1;transform:translateX(0) rotateY(0deg) scale(1)}
+    100%{opacity:0;transform:translateX(-190px) rotateY(16deg) scale(.82)}
+  }
+  .cv .glow{position:absolute;top:50%;left:50%;width:760px;height:760px;
+    transform:translate(-50%,-50%);border-radius:50%;
+    background:radial-gradient(circle,rgba(201,162,39,0.2) 0%,rgba(201,162,39,0) 66%);
+    opacity:0;animation:glowLife 2000ms var(--s) ease-out both}
+  @keyframes glowLife{
+    0%{opacity:0}14%{opacity:1}82%{opacity:1}100%{opacity:0}
+  }
+
+  .cv .info{position:absolute;left:92px;right:92px;bottom:196px;text-align:center}
+  .cv .ek{color:#C9A227;font-size:22px;font-weight:700;letter-spacing:0.24em;
+    text-transform:uppercase;opacity:0;animation:tLife 2000ms var(--s) ease-out both}
+  .cv .et{color:#F4F1EA;font-size:54px;font-weight:800;letter-spacing:-0.02em;
+    line-height:1.14;margin:16px 0 18px;opacity:0;
+    animation:tLife2 2000ms var(--s) ease-out both}
+  .cv .rule{width:54px;height:3px;background:#C9A227;margin:0 auto 18px;opacity:0;
+    animation:tLife2 2000ms var(--s) ease-out both}
+  .cv .el{color:#B9B4A7;font-size:31px;font-weight:500;line-height:1.4;max-width:820px;
+    margin:0 auto;opacity:0;animation:tLife3 2000ms var(--s) ease-out both}
+  @keyframes tLife{
+    0%{opacity:0;transform:translateY(26px)}
+    12%{opacity:1;transform:translateY(0)}
+    82%{opacity:1;transform:translateY(0)}
+    100%{opacity:0;transform:translateY(-14px)}
+  }
+  @keyframes tLife2{
+    0%{opacity:0;transform:translateY(30px)}
+    16%{opacity:1;transform:translateY(0)}
+    82%{opacity:1;transform:translateY(0)}
+    100%{opacity:0;transform:translateY(-14px)}
+  }
+  @keyframes tLife3{
+    0%{opacity:0;transform:translateY(30px)}
+    20%{opacity:1;transform:translateY(0)}
+    82%{opacity:1;transform:translateY(0)}
+    100%{opacity:0;transform:translateY(-14px)}
+  }
+
+  /* ================= GRID ================= */
+  .grid{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+    justify-content:center}
+  .grid .gnum{position:absolute;top:300px;left:0;right:0;text-align:center;
+    font-size:300px;font-weight:900;color:#C9A227;opacity:0;line-height:1;
+    animation:gnumIn 3400ms 23700ms ease-out both}
+  @keyframes gnumIn{
+    0%{opacity:0;transform:scale(.7)}
+    16%{opacity:0.12;transform:scale(1)}
+    88%{opacity:0.12;transform:scale(1)}
+    100%{opacity:0;transform:scale(1.05)}
+  }
+  .gwrap{display:grid;grid-template-columns:repeat(5,180px);gap:22px 24px;
+    margin-top:30px;z-index:2}
+  .gwrap img{width:180px;border-radius:3px;filter:drop-shadow(0 18px 30px rgba(0,0,0,0.55));
+    opacity:0}
+  .gwrap img{animation:gItem 3400ms ease-out both}
+  @keyframes gItem{
+    0%{opacity:0;transform:translateY(120px) scale(.3) rotate(-8deg)}
+    22%{opacity:1;transform:translateY(0) scale(1) rotate(0deg)}
+    86%{opacity:1;transform:translateY(0) scale(1) rotate(0deg)}
+    100%{opacity:0;transform:translateY(-40px) scale(1.03)}
+  }
+  .gwrap img:nth-child(1){animation-delay:23640ms}
+  .gwrap img:nth-child(2){animation-delay:23700ms}
+  .gwrap img:nth-child(3){animation-delay:23760ms}
+  .gwrap img:nth-child(4){animation-delay:23820ms}
+  .gwrap img:nth-child(5){animation-delay:23880ms}
+  .gwrap img:nth-child(6){animation-delay:23940ms}
+  .gwrap img:nth-child(7){animation-delay:24000ms}
+  .gwrap img:nth-child(8){animation-delay:24060ms}
+  .gwrap img:nth-child(9){animation-delay:24120ms}
+  .gwrap img:nth-child(10){animation-delay:24180ms}
+  .glabel{margin-top:46px;color:#F4F1EA;font-size:30px;font-weight:700;letter-spacing:0.05em;
+    text-align:center;opacity:0;animation:glabelIn 3400ms 24400ms ease-out both;z-index:2}
+  @keyframes glabelIn{
+    0%{opacity:0;transform:translateY(24px)}
+    22%{opacity:1;transform:translateY(0)}
+    86%{opacity:1;transform:translateY(0)}
+    100%{opacity:0;transform:translateY(-14px)}
+  }
+
+  /* ================= CTA ================= */
+  .cta{position:absolute;inset:0;overflow:hidden}
+  .cta .photo{position:absolute;inset:0;background:url('assets/gilberto.jpg') center 12%/cover;
+    filter:grayscale(.25);opacity:0;animation:ctaFade 4000ms 27000ms ease-out both}
+  .cta .ov{position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(15,20,25,.9) 0%,rgba(15,20,25,.95) 50%,rgba(15,20,25,.99) 100%);
+    opacity:0;animation:ctaFade 4000ms 27000ms ease-out both}
+  @keyframes ctaFade{0%{opacity:0}18%{opacity:1}100%{opacity:1}}
+  .cta .inner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+    justify-content:center;padding:0 110px;text-align:center;z-index:3}
+  .cta .seal2{width:150px;height:150px;border:3px solid #C9A227;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;margin-bottom:46px;opacity:0;
+    animation:ctaPop 4000ms 27100ms cubic-bezier(.2,.8,.2,1) both}
+  .cta .seal2 img{width:84px;height:84px;object-fit:contain}
+  @keyframes ctaPop{
+    0%{opacity:0;transform:scale(.5) rotate(-24deg)}
+    16%{opacity:1;transform:scale(1) rotate(0deg)}
+    100%{opacity:1;transform:scale(1) rotate(0deg)}
+  }
+  .cta .ck{color:#C9A227;font-size:21px;font-weight:700;letter-spacing:0.26em;
+    text-transform:uppercase;margin-bottom:26px;opacity:0;
+    animation:ctaUp 4000ms 27350ms ease-out both}
+  .cta .cl{color:#F4F1EA;font-size:44px;font-weight:600;line-height:1.34;max-width:800px;
+    margin-bottom:40px;opacity:0;animation:ctaUp 4000ms 27600ms ease-out both}
+  .cta .ch{color:#C9A227;font-size:36px;font-weight:800;letter-spacing:0.02em;opacity:0;
+    animation:ctaUp 4000ms 27900ms ease-out both}
+  @keyframes ctaUp{
+    0%{opacity:0;transform:translateY(28px)}
+    14%{opacity:1;transform:translateY(0)}
+    100%{opacity:1;transform:translateY(0)}
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="bg"></div>
+  <div class="stage">
+
+    <!-- INTRO -->
+    <div class="intro">
+      <div class="seal"><img src="assets/grupo-sena-icone-gold.png"></div>
+      <div class="intro-kicker">A biblioteca do Gilberto Sena</div>
+      <div class="intro-title">
+        <span>10 e-books.</span>
+        <span>Um assunto só:</span>
+        <span>parar de decidir</span>
+        <span class="g">no escuro.</span>
+      </div>
+    </div>
+
+    <!-- COVERS -->
+    <div class="covers">
+      <div class="cv" style="--s:3600ms">
+        <div class="num">01</div><div class="glow"></div>
+        <img class="shot" src="assets/A Startap Unicornio.png">
+        <div class="info"><div class="ek">E-book 01</div><div class="et">A Startap Unicórnio</div><div class="rule"></div><div class="el">O unicórnio de uma pessoa só — agora com inteligência artificial.</div></div>
+      </div>
+      <div class="cv" style="--s:5600ms">
+        <div class="num">02</div><div class="glow"></div>
+        <img class="shot" src="assets/De MotoBoy a Execultivo.png">
+        <div class="info"><div class="ek">E-book 02</div><div class="et">De Motoboy a Executivo</div><div class="rule"></div><div class="el">Liderança não é cargo. É serviço.</div></div>
+      </div>
+      <div class="cv" style="--s:7600ms">
+        <div class="num">03</div><div class="glow"></div>
+        <img class="shot" src="assets/Entenda Suas Financas .png">
+        <div class="info"><div class="ek">E-book 03</div><div class="et">Entenda Suas Finanças</div><div class="rule"></div><div class="el">Não se quebra por falta de venda. Se quebra sem ler o balanço.</div></div>
+      </div>
+      <div class="cv" style="--s:9600ms">
+        <div class="num">04</div><div class="glow"></div>
+        <img class="shot" src="assets/Estrategia da Gestao.png">
+        <div class="info"><div class="ek">E-book 04</div><div class="et">Estratégia da Gestão</div><div class="rule"></div><div class="el">"A Arte da Guerra" virou decisão de negócio.</div></div>
+      </div>
+      <div class="cv" style="--s:11600ms">
+        <div class="num">05</div><div class="glow"></div>
+        <img class="shot" src="assets/No Controle Das Emocoes.png">
+        <div class="info"><div class="ek">E-book 05</div><div class="et">No Controle Das Emoções</div><div class="rule"></div><div class="el">Decisão com raiva sai cara. Sob medo, também.</div></div>
+      </div>
+      <div class="cv" style="--s:13600ms">
+        <div class="num">06</div><div class="glow"></div>
+        <img class="shot" src="assets/O Segredo Das Financas.png">
+        <div class="info"><div class="ek">E-book 06</div><div class="et">O Segredo Das Finanças</div><div class="rule"></div><div class="el">Juros não é opinião. É conta.</div></div>
+      </div>
+      <div class="cv" style="--s:15600ms">
+        <div class="num">07</div><div class="glow"></div>
+        <img class="shot" src="assets/Os Pilares de um Homem Prospero.png">
+        <div class="info"><div class="ek">E-book 07</div><div class="et">Os Pilares de um Homem Próspero</div><div class="rule"></div><div class="el">Provérbios aplicado ao negócio e à vida.</div></div>
+      </div>
+      <div class="cv" style="--s:17600ms">
+        <div class="num">08</div><div class="glow"></div>
+        <img class="shot" src="assets/Posicione-se Ou Morra.png">
+        <div class="info"><div class="ek">E-book 08</div><div class="et">Posicione-se ou Morra</div><div class="rule"></div><div class="el">Se não te explicam numa frase, você não existe pro cliente.</div></div>
+      </div>
+      <div class="cv" style="--s:19600ms">
+        <div class="num">09</div><div class="glow"></div>
+        <img class="shot" src="assets/Quite Suas Dividas Já.png">
+        <div class="info"><div class="ek">E-book 09</div><div class="et">Quite Suas Dívidas Já</div><div class="rule"></div><div class="el">Dívida não se resolve com vergonha. Com estratégia.</div></div>
+      </div>
+      <div class="cv" style="--s:21600ms">
+        <div class="num">10</div><div class="glow"></div>
+        <img class="shot" src="assets/Seja Rico ou Pobre.png">
+        <div class="info"><div class="ek">E-book 10</div><div class="et">Seja Rico ou Pobre</div><div class="rule"></div><div class="el">As crenças sobre dinheiro que você herdou sem auditar.</div></div>
+      </div>
+    </div>
+
+    <!-- GRID -->
+    <div class="grid">
+      <div class="gnum">10</div>
+      <div class="gwrap">
+        <img src="assets/A Startap Unicornio.png">
+        <img src="assets/De MotoBoy a Execultivo.png">
+        <img src="assets/Entenda Suas Financas .png">
+        <img src="assets/Estrategia da Gestao.png">
+        <img src="assets/No Controle Das Emocoes.png">
+        <img src="assets/O Segredo Das Financas.png">
+        <img src="assets/Os Pilares de um Homem Prospero.png">
+        <img src="assets/Posicione-se Ou Morra.png">
+        <img src="assets/Quite Suas Dividas Já.png">
+        <img src="assets/Seja Rico ou Pobre.png">
+      </div>
+      <div class="glabel">Dez e-books. Uma biblioteca pra parar de decidir no escuro.</div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta">
+      <div class="photo"></div>
+      <div class="ov"></div>
+      <div class="inner">
+        <div class="seal2"><img src="assets/grupo-sena-icone-gold.png"></div>
+        <div class="ck">Gilberto Sena</div>
+        <div class="cl">A técnica que me custou 7 quebras pra aprender, organizada pra você. Comenta qual desses você quer primeiro.</div>
+        <div class="ch">@gilbertosenaoficial</div>
+      </div>
+    </div>
+
+    <div class="vignette"></div>
+    <div class="wm"><img src="assets/grupo-sena-icone-gold.png"><span>GILBERTO SENA</span></div>
+    <div class="counter">10 E-BOOKS</div>
+  </div>
+  <div class="progress"></div>
+</div>
+</body>
+</html>
