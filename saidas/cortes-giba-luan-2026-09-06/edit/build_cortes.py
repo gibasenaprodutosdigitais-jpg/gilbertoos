@@ -26,6 +26,8 @@ VID_H = 1500          # video occupies top 1500px of 1080x1920
 CAP_FPS = 15
 HANDLE = "@gilbertosenaoficial"
 
+def zone_h(c): return VID_H
+
 # crop per episode: crop=W:H:X:Y from 1920x1080 then scale to 1080x1500
 CROP = {"01": (700, 972, 730, 0),
         "03": (700, 972, 765, 0)}
@@ -43,10 +45,12 @@ CLIPS = {
  4: dict(ep="03", segs=[[343.70,372.65]],
          slug="quero-20-mil",
          hook=("“QUERO 20 MIL”", "tá — e o que você me entrega?")),
- 5: dict(ep="03", segs=[[241.50,254.90],[256.30,262.05],[267.40,272.40],[279.00,281.10],[282.60,285.60]],
+ 5: dict(ep="03", layout="fill",
+         segs=[[241.50,254.90],[256.30,262.05],[267.40,272.40],[279.00,281.10],[282.60,285.60]],
          slug="engolia-o-u2",
          hook=("SE FOSSEM 4 IGUAIS A MIM", "eu engolia o U2")),
- 6: dict(ep="03", segs=[[411.15,419.95],[401.65,409.70],[420.55,431.60]],
+ 6: dict(ep="03", layout="fill",
+         segs=[[411.15,419.95],[401.65,409.70],[420.55,431.60]],
          slug="patrao-enriquece",
          hook=("TODO FUNCIONÁRIO PENSA ISSO", "“o patrão enriquece às minhas costas”")),
 }
@@ -82,8 +86,14 @@ def ff(*a): run(["ffmpeg","-hide_banner","-loglevel","error","-y",*a])
 
 def build_body(cid):
     c = CLIPS[cid]; ep = c["ep"]; src = SRC[ep]
-    cw,ch,cx,cy = CROP[ep]
-    vf = (f"crop={cw}:{ch}:{cx}:{cy},scale=1080:{VID_H}:flags=lanczos,"
+    zh = zone_h(c)
+    if c.get("layout") == "fill":
+        # ep03 is a switched multicam (Gilberto CU / Luan CU / wide). A centred crop keeps
+        # whoever is on their close-up framed; the brief wide 2-shot shows the middle.
+        cw,ch,cx,cy = (778, 1080, 571, 0)
+    else:
+        cw,ch,cx,cy = CROP[ep]
+    vf = (f"crop={cw}:{ch}:{cx}:{cy},scale=1080:{zh}:flags=lanczos,"
           f"pad=1080:1920:0:0:color={PANEL},setsar=1,fps=30,format=yuv420p")
     parts = []
     for i,(s,e) in enumerate(c["segs"]):
@@ -134,7 +144,7 @@ def load_words(cid):
         out.append(w)
     return out
 
-def chunk_lines(ws, max_words=3, max_chars=20):
+def chunk_lines(ws, max_words=2, max_chars=13):
     lines, cur = [], []
     for w in ws:
         cand = cur + [w]
@@ -154,9 +164,20 @@ def render_caption_seq(cid, body_dur):
     lines = chunk_lines(ws)
     capdir = f"{WORK}/c{cid}_caps"; os.makedirs(capdir, exist_ok=True)
     for f in os.listdir(capdir): os.remove(os.path.join(capdir,f))
-    W, H = 1080, 420                     # caption panel size (below the video)
-    font = ImageFont.truetype(FONT_BLACK, 78)
+    W, H = 1080, 1920 - zone_h(CLIPS[cid])   # caption panel size (below the video)
+    MAXW = W - 120                       # usable text width (never clip)
+    BASE = 58                            # base caption font size
+    STROKE = 7
     hfont = ImageFont.truetype(FONT_BOLD, 28)
+    _fcache = {}
+    def fit_font(words):
+        d0 = ImageDraw.Draw(Image.new("RGBA",(4,4)))
+        for sz in range(BASE, 26, -3):
+            f = _fcache.setdefault(sz, ImageFont.truetype(FONT_BLACK, sz))
+            gap = d0.textlength(" ", font=f)
+            tot = sum(measure(d0,w,f)[0] for w in words) + gap*(len(words)-1)
+            if tot <= MAXW: return f
+        return _fcache[29]
     n = math.ceil(body_dur * CAP_FPS)
     # active state per line: (line_idx, active_word_idx) chosen by time
     def state_at(t):
@@ -180,15 +201,17 @@ def render_caption_seq(cid, body_dur):
             li, aw = st
             ln = lines[li]
             words = [w["t"].upper().rstrip(" .,;:") for w in ln]
+            font = fit_font(words)
             gap = d.textlength(" ", font=font)
             sizes = [measure(d, wt, font) for wt in words]
             total = sum(s[0] for s in sizes) + gap*(len(words)-1)
+            lh = max(s[1] for s in sizes)
             x = (W - total)/2
-            y = 118
+            y = (H - lh)/2 - 14
             for wi,wt in enumerate(words):
                 col = GOLD if wi==aw else INK
                 d.text((x,y), wt, font=font, fill=col,
-                       stroke_width=9, stroke_fill=(0,0,0))
+                       stroke_width=STROKE, stroke_fill=(0,0,0))
                 x += sizes[wi][0] + gap
         img.save(f"{capdir}/{fi:05d}.png")
     return capdir
@@ -233,7 +256,7 @@ def build_final(cid):
     cap = f"{WORK}/c{cid}_cap.mp4"
     ff("-i",body,"-framerate",str(CAP_FPS),"-i",f"{capdir}/%05d.png",
        "-filter_complex",
-       f"[1:v]setpts=PTS-STARTPTS,fps=30[c];[0:v][c]overlay=x=0:y={VID_H}:eof_action=pass:format=auto[v]",
+       f"[1:v]setpts=PTS-STARTPTS,fps=30[c];[0:v][c]overlay=x=0:y={zone_h(CLIPS[cid])}:eof_action=pass:format=auto[v]",
        "-map","[v]","-map","0:a",
        "-c:v","libx264","-preset","medium","-crf","18","-pix_fmt","yuv420p",
        "-c:a","aac","-b:a","192k","-ar","48000","-ac","2",
