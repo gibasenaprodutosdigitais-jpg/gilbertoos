@@ -67,6 +67,22 @@ CLIPS = {
          segs=[[609.55,612.10],[614.10,617.80]],
          slug="sacada-parar-de-apanhar",
          hook=("CHEGA UMA HORA", "que tem que parar de apanhar")),
+ # --- card + voz: foto do Gilberto com Ken Burns + a fala dele (sem risco de multicam) ---
+ 10: dict(ep="03", mode="card", segs=[[219.00,235.50]],
+         slug="card-so-cresce-quem-partilha",
+         hook=("SÓ CRESCE QUEM PARTILHA", "empresa que só pensa em grana não vira gigante")),
+ 11: dict(ep="03", mode="card", segs=[[293.30,300.90],[308.80,316.95]],
+         slug="card-comprometimento-nao-se-treina",
+         hook=("COMPROMETIMENTO NÃO SE TREINA", "não tem botão, não tem livro pra isso")),
+ 12: dict(ep="01", mode="card", segs=[[1336.40,1341.80],[1343.55,1353.10]],
+         slug="card-melhores-programadores",
+         hook=("OS MELHORES PROGRAMADORES DO MUNDO", "e as gringas levam todos")),
+ 13: dict(ep="02", mode="card", segs=[[1295.60,1303.10],[1313.05,1319.55]],
+         slug="card-quantos-gilberto",
+         hook=("QUANTOS “GILBERTO” TEM NO MUNDO?", "eu não venho de curso — eu já fiz")),
+ 14: dict(ep="02", mode="card", segs=[[1404.70,1411.70],[1412.60,1420.60]],
+         slug="card-nao-sou-full-tecnologia",
+         hook=("NÃO SOU “FULL TECNOLOGIA”", "isso estraga a conexão com o cliente")),
 }
 
 # single-token substitutions (match on stripped-lower text) -> replacement (keeps trailing punct)
@@ -92,6 +108,9 @@ SPLICE = {
      (["não","tinham","comprometido."], ["não","tinham","compromisso!"])],
  7: [(["fundo","do","ponto"], ["fundo","do","poço"]),
      (["em","a"], ["na"])],
+ 10:[(["cresce","que","não","compartilha."], ["cresce","quem","compartilha."]),
+     (["cresce","que","não","partilha."], ["cresce","quem","partilha."])],
+ 12:[(["todos","os","professores."], ["todos","os","profissionais."])],
 }
 
 def run(cmd):
@@ -100,8 +119,51 @@ def run(cmd):
 
 def ff(*a): run(["ffmpeg","-hide_banner","-loglevel","error","-y",*a])
 
-def build_body(cid):
+STILLS = {"01": f"{EDIT}/stills/t_01_330.png",
+          "02": f"{EDIT}/stills/t_02_1068.png",
+          "03": f"{EDIT}/stills/t_03_531.png"}
+STILL_CROP = {"01": (778,1080,560,0), "02": (778,1080,860,0), "03": (778,1080,760,0)}
+
+def build_card_body(cid):
+    """card mode: Gilberto's audio over a slow Ken-Burns still of him (no multicam risk)."""
     c = CLIPS[cid]; ep = c["ep"]; src = SRC[ep]
+    # 1) audio-only segments with fades -> concat
+    parts = []
+    for i,(s,e) in enumerate(c["segs"]):
+        dur = e - s
+        p = f"{WORK}/c{cid}_a{i}.m4a"
+        af = f"afade=t=in:st=0:d=0.03,afade=t=out:st={max(dur-0.03,0):.3f}:d=0.03,aresample=48000"
+        ff("-ss",f"{s:.3f}","-i",src,"-t",f"{dur:.3f}","-vn","-af",af,
+           "-c:a","aac","-b:a","192k","-ar","48000","-ac","2", p)
+        parts.append(p)
+    lst = f"{WORK}/c{cid}_alist.txt"; open(lst,"w").write("".join(f"file '{p}'\n" for p in parts))
+    aud = f"{WORK}/c{cid}_aud.m4a"
+    ff("-f","concat","-safe","0","-i",lst,"-c","copy",aud)
+    dur = float(subprocess.check_output(
+        ["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",aud]).strip())
+    zh = zone_h(c)
+    cw,ch,cx,cy = c.get("crop") or STILL_CROP[ep]
+    still = c.get("still") or STILLS[ep]
+    total = int(round(dur*30)) + 6
+    vf = (f"crop={cw}:{ch}:{cx}:{cy},scale=-1:2100:flags=lanczos,"
+          f"zoompan=z='min(zoom+0.00034,1.11)':d=1:fps=30"
+          f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x{zh},"
+          f"pad=1080:1920:0:0:color={PANEL},setsar=1,format=yuv420p")
+    body = f"{WORK}/c{cid}_body.mp4"
+    ff("-loop","1","-framerate","30","-t",f"{dur:.3f}","-i",still,"-i",aud,
+       "-vf",vf,"-map","0:v","-map","1:a",
+       "-c:v","libx264","-preset","medium","-crf","18","-pix_fmt","yuv420p",
+       "-c:a","aac","-b:a","192k","-ar","48000","-ac","2",
+       "-video_track_timescale","30000","-shortest",body)
+    ff("-i",body,"-vn","-c:a","pcm_s16le","-ar","16000","-ac","1",f"{WORK}/c{cid}_body.wav")
+    print("CARD BODY:", body, f"({dur:.1f}s)")
+    return body
+
+def build_body(cid):
+    c = CLIPS[cid]
+    if c.get("mode") == "card":
+        return build_card_body(cid)
+    ep = c["ep"]; src = SRC[ep]
     zh = zone_h(c)
     if c.get("layout") == "fill":
         # ep03 is a switched multicam (Gilberto CU / Luan CU / wide). A centred crop keeps
