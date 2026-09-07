@@ -4,7 +4,7 @@
 **Fonte:** 3 episódios do Drive (Meu Drive/Pod GibaCast/Giba e Luan) — baixados em `fonte/` (não versionado).
 **Formato de saída:** 1080x1920 (9:16) · 30fps · legenda karaokê queimada · cartela de gancho 1,6s.
 
-Gilberto é o convidado. Ep. 1 e Ep. 3 são câmera única travada nele — os 6 cortes saíram só desses dois (o Ep. 2 tem corte de câmera que mostra quem escuta, não dava pra fechar no rosto dele).
+Gilberto é o convidado. **Os 3 episódios são multicam** (corta pra quem escuta), então cada janela precisou ser verificada frame a frame pra garantir que a câmera fica nele. Os cortes 3 e 6 (originais) foram descartados por mostrarem muito o Luan e substituídos pelas sacadas 7 e 8, montadas em janelas onde a câmera fica travada no Gilberto.
 
 ## Os 6 cortes (`cortes/`)
 
@@ -12,10 +12,12 @@ Gilberto é o convidado. Ep. 1 e Ep. 3 são câmera única travada nele — os 6
 |---|---|---|---|
 | 1 | `corte-1-golpe-ia.mp4` | CAÍ NUM GOLPE feito por IA | 34s |
 | 2 | `corte-2-7-piramides.mp4` | CAÍ EM 7 PIRÂMIDES e nunca arrastei ninguém | 26s |
-| 3 | `corte-3-acharam-golpe.mp4` | ACHARAM QUE ERA GOLPE (cabana temática) | 31s |
 | 4 | `corte-4-quero-20-mil.mp4` | "QUERO 20 MIL" — tá, e o que você entrega? | 31s |
 | 5 | `corte-5-engolia-o-u2.mp4` | SE FOSSEM 4 IGUAIS A MIM eu engolia o U2 | 31s |
-| 6 | `corte-6-patrao-enriquece.mp4` | Todo funcionário pensa: "o patrão enriquece às minhas costas" | 30s |
+| 7 | `corte-7-sacada-40-certificacoes.mp4` | 40 CERTIFICAÇÕES e 7 vezes quebrado | 15s |
+| 8 | `corte-8-sacada-certo-e-errado.mp4` | NÃO EXISTE CERTO E ERRADO | 11s |
+
+Sacadas 7 e 8 são cortes curtos, só com a fala do Gilberto (janela verificada como câmera nele o tempo todo).
 
 Legendas prontas pra postar em `legenda.md`.
 

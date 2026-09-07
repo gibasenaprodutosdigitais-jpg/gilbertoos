@@ -10,6 +10,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 BASE = "/Users/gilbertosena/Desktop/GilbertoOS/saidas/cortes-giba-luan-2026-09-06"
 SRC = {"01": f"{BASE}/fonte/giba-luan-01.mp4",
+       "02": f"{BASE}/fonte/giba-luan-02.mp4",
        "03": f"{BASE}/fonte/giba-luan-03.mp4"}
 EDIT = f"{BASE}/edit"
 WORK = f"{BASE}/edit/work"
@@ -53,6 +54,19 @@ CLIPS = {
          segs=[[411.15,419.95],[401.65,409.70],[420.55,431.60]],
          slug="patrao-enriquece",
          hook=("TODO FUNCIONÁRIO PENSA ISSO", "“o patrão enriquece às minhas costas”")),
+ # --- sacadas curtas (só falas do Gilberto, janelas onde a câmera fica nele) ---
+ 7: dict(ep="02", crop=(800,1080,860,0),
+         segs=[[1064.30,1071.20],[1080.55,1087.15]],
+         slug="sacada-40-certificacoes",
+         hook=("40 CERTIFICAÇÕES", "e 7 vezes quebrado")),
+ 8: dict(ep="03",
+         segs=[[521.90,530.85]],
+         slug="sacada-certo-e-errado",
+         hook=("NÃO EXISTE CERTO E ERRADO", "existe o caminho que você precisa trilhar")),
+ 9: dict(ep="03",
+         segs=[[609.55,612.10],[614.10,617.80]],
+         slug="sacada-parar-de-apanhar",
+         hook=("CHEGA UMA HORA", "que tem que parar de apanhar")),
 }
 
 # single-token substitutions (match on stripped-lower text) -> replacement (keeps trailing punct)
@@ -76,6 +90,8 @@ SPLICE = {
  5: [(["engolir","o","youtube."], ["engolia","o","U2!"]),
      (["botei","o","estúdio"],    ["montei","o","estúdio"]),
      (["não","tinham","comprometido."], ["não","tinham","compromisso!"])],
+ 7: [(["fundo","do","ponto"], ["fundo","do","poço"]),
+     (["em","a"], ["na"])],
 }
 
 def run(cmd):
@@ -92,7 +108,7 @@ def build_body(cid):
         # whoever is on their close-up framed; the brief wide 2-shot shows the middle.
         cw,ch,cx,cy = (778, 1080, 571, 0)
     else:
-        cw,ch,cx,cy = CROP[ep]
+        cw,ch,cx,cy = c.get("crop") or CROP[ep]
     vf = (f"crop={cw}:{ch}:{cx}:{cy},scale=1080:{zh}:flags=lanczos,"
           f"pad=1080:1920:0:0:color={PANEL},setsar=1,fps=30,format=yuv420p")
     parts = []
@@ -227,14 +243,20 @@ def render_hook_card(cid, body_first_frame):
     wf = ImageFont.truetype(FONT_BOLD, 30)
     d.text((1080/2, 300), "G I L B E R T O   S E N A", font=wf, fill=GOLD, anchor="mm")
     d.line([(1080/2-60, 340),(1080/2+60,340)], fill=GOLD, width=3)
-    # title (wrapped)
-    tf = ImageFont.truetype(FONT_BLACK, 118)
+    # title (wrapped + auto-fit so no line is ever clipped)
     lines = textwrap.wrap(title, width=14)
-    y = 860 - len(lines)*70
+    tsize = 118
+    while tsize > 60:
+        tf = ImageFont.truetype(FONT_BLACK, tsize)
+        widest = max(d.textbbox((0,0), ln, font=tf, stroke_width=4)[2] for ln in lines)
+        if widest <= 1000: break
+        tsize -= 4
+    lh = tsize + 22
+    y = 860 - len(lines)*(lh/2)
     for ln in lines:
         d.text((1080/2, y), ln, font=tf, fill=INK, anchor="mm",
                stroke_width=4, stroke_fill=(0,0,0))
-        y += 140
+        y += lh
     # sub
     sf = ImageFont.truetype(FONT_BOLD, 46)
     for ln in textwrap.wrap(sub, width=34):

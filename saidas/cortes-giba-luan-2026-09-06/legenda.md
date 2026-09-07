@@ -28,15 +28,13 @@ Errar faz parte. Arrastar gente junto, não.
 
 ---
 
-## Corte 3 — "Acharam que era golpe"
+## Corte 7 — "40 certificações — e 7 vezes quebrado" (substitui o 3)
 
-Inaugurei uma cabana de luxo num município de 6 mil habitantes que ninguém conhece. As pessoas acharam que era golpe — "quem é o doido que traz um investimento desse pra cá?".
+Qual posicionamento eu busco? O intelectual. Tenho mais de 40 certificações, pós-graduação, mestrado, doutorando.
 
-O segredo não foi o produto. Foi a narrativa: eu não vendo "Jambeiro", eu vendo um pedaço da Indonésia a uma hora de São Paulo. Descobri o público certo e entreguei uma experiência temática. A procura não parou mais.
+Mas teoria sem prática não sustenta. Quebrei sete vezes. Já fui ao fundo do poço sete vezes. Por isso eu sei qual caminho não pegar — não porque li, porque vivi.
 
-Mesmo produto, história diferente, resultado diferente.
-
-#GilbertoSena #Posicionamento #Turismo #Negocios #MarcaEExperiencia
+#GilbertoSena #Empreendedorismo #ErroCaro #Gestao #Autoridade
 
 ---
 
@@ -64,12 +62,10 @@ Talento sem compromisso não constrói nada. Nem banda, nem empresa.
 
 ---
 
-## Corte 6 — "O patrão enriquece às minhas costas"
+## Corte 8 — "Não existe certo e errado" (substitui o 6)
 
-Funcionário por funcionário sempre vai pensar a mesma coisa: "o patrão tá enriquecendo às minhas costas enquanto eu me ferro aqui".
+O empresário fica com medo de trocar de contador, de mudar o que faz há anos — com medo de que o erro venha à tona.
 
-O jeito de sair disso é parar de contratar funcionário e começar a contratar intra-empreendedor — gente com a mesma mentalidade que a sua, cuidando do teu negócio como se fosse dela.
+Mas não existe certo e errado. Existe o caminho que você precisa trilhar. Ponto. Quem entende isso, anda. Quem fica preso ao medo, não.
 
-Aí a conta muda.
-
-#GilbertoSena #IntraEmpreendedor #Gestao #Time #Lideranca
+#GilbertoSena #Gestao #Decisao #MentalidadeEmpreendedora #Coragem
