@@ -69,3 +69,37 @@ O empresário fica com medo de trocar de contador, de mudar o que faz há anos �
 Mas não existe certo e errado. Existe o caminho que você precisa trilhar. Ponto. Quem entende isso, anda. Quem fica preso ao medo, não.
 
 #GilbertoSena #Gestao #Decisao #MentalidadeEmpreendedora #Coragem
+
+---
+
+# Card + voz (foto do Gilberto + fala dele, ~15-18s)
+
+## Corte 10 — "Só cresce quem partilha"
+
+Empresa que só pensa em ganhar dinheiro não vira gigante. Só cresce quem partilha: no momento que você começa a reconhecer, remunerar bem e tornar o time parte do negócio, a empresa vai de média pra gigante — e rápido.
+
+#GilbertoSena #Gestao #Time #Lideranca #EscalaDeNegocio
+
+## Corte 11 — "Comprometimento não se treina"
+
+Não existe ferramenta que treina, que qualifica compromisso. Ou a pessoa é, ou não é. Não tem botão pra apertar, não tem livro pra ler. Comprometimento tá dentro de cada um — no objetivo pessoal de cada um.
+
+#GilbertoSena #Time #Contratacao #Cultura #Gestao
+
+## Corte 12 — "Os melhores programadores do mundo"
+
+O brasileiro tem os melhores programadores do mundo — criativo, sabe improvisar. Só que a gente não prepara essa gente. Aí as grandes empresas americanas chegam e levam todos.
+
+#GilbertoSena #Tecnologia #Brasil #MercadoDeTrabalho #Talento
+
+## Corte 13 — "Quantos 'Gilberto' tem no mundo?"
+
+As empresas de marketing queriam me tratar como um cara que veio de curso — funil, antecipação, o pacote de sempre. Não é a mesma pegada. Eu não venho de curso: eu já fiz, lá no off. O trabalho é trazer isso pra internet e escalar.
+
+#GilbertoSena #MarketingDigital #Posicionamento #Autoridade #AntiGenerico
+
+## Corte 14 — "Não sou full tecnologia"
+
+Gosto do marketing da moda antiga, agregado com a tecnologia. Venda humanizada. Não sou full tecnologia — porque isso também estraga a conexão com o cliente.
+
+#GilbertoSena #Vendas #MarketingHumanizado #Tecnologia #Relacionamento
