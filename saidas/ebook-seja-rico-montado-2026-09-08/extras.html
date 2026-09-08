@@ -54,9 +54,14 @@
   .cc .partes div{ font-size:9.5pt; line-height:1.4; color:var(--corpo); }
   .cc .partes b{ color:var(--ouro); font-weight:700; margin-right:6pt; font-family:'Inter'; }
 
-  .cc .autor{ margin-top:20pt; }
+  .cc .autor{ margin-top:20pt; display:flex; gap:16pt; align-items:flex-start; }
+  .cc .autor .foto{
+    flex:0 0 34mm; width:34mm; height:45mm; object-fit:cover; object-position:50% 22%;
+    border-radius:4pt; border:1pt solid var(--linha); filter:grayscale(0.15);
+  }
+  .cc .autor .txt{ flex:1; }
   .cc .autor .h{ font-size:9pt; font-weight:700; letter-spacing:.24em; text-transform:uppercase; color:var(--tinta); margin-bottom:7pt; }
-  .cc .autor p{ font-size:10pt; line-height:1.58; color:var(--corpo); max-width:150mm; }
+  .cc .autor p{ font-size:10pt; line-height:1.58; color:var(--corpo); }
 
   .cc .foot{
     margin-top:auto; padding-top:16pt; border-top:1pt solid var(--linha);
@@ -106,11 +111,14 @@
   </div>
 
   <div class="autor">
-    <div class="h">Sobre o autor</div>
-    <p>Gilberto Sena é empresário e fundador do Grupo Sena — consultoria em contabilidade,
-    tributário e gestão, com escritórios em cinco capitais. Foi de motoboy a fundador de grupo
-    empresarial e hoje ajuda outros donos de negócio a fazer o mesmo percurso. Escreve como fala:
-    reto, com história e com lição.</p>
+    <img class="foto" src="foto-autor.jpg" alt="Gilberto Sena" />
+    <div class="txt">
+      <div class="h">Sobre o autor</div>
+      <p>Gilberto Sena é empresário e fundador do Grupo Sena — consultoria em contabilidade,
+      tributário e gestão, com escritórios em cinco capitais. Foi de motoboy a fundador de grupo
+      empresarial e hoje ajuda outros donos de negócio a fazer o mesmo percurso. Escreve como
+      fala: reto, com história e com lição.</p>
+    </div>
   </div>
 
   <div class="foot">
