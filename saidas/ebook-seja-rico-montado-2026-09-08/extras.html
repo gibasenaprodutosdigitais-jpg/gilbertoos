@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --papel:#F4F1EA; --tinta:#151515; --corpo:#3f3f3f; --ouro:#C9A227;
+    --grafite:#0F1419; --linha:#d9d2c2; --preto:#0A0A0A;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  @page{ size:A4; margin:0; }
+  html,body{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .page{
+    width:210mm; height:297mm; position:relative; overflow:hidden;
+    page-break-after:always; break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
+
+  /* ---------- CAPA ---------- */
+  .capa{ background:#0A0A0A; display:flex; align-items:center; justify-content:center; }
+  .capa img{ height:100%; width:auto; max-width:100%; display:block; }
+
+  /* ---------- CONTRACAPA ---------- */
+  .cc{
+    background:var(--papel); color:var(--corpo);
+    font-family:'Inter',sans-serif;
+    padding:26mm 22mm 20mm;
+    display:flex; flex-direction:column;
+  }
+  .cc .kicker{
+    font-size:9.5pt; font-weight:700; letter-spacing:.28em; text-transform:uppercase;
+    color:var(--ouro);
+  }
+  .cc .rule{ width:46pt; height:2.5pt; background:var(--ouro); margin:9pt 0 20pt; }
+  .cc h1{
+    font-family:'Fraunces',serif; font-weight:600; color:var(--tinta);
+    font-size:23pt; line-height:1.28; letter-spacing:-0.01em; max-width:150mm;
+  }
+  .cc .lead{ margin-top:16pt; font-size:11pt; line-height:1.62; color:var(--corpo); }
+  .cc .lead + .lead{ margin-top:9pt; }
+  .cc .lead em{ font-style:italic; }
+  .cc .quote{
+    margin:22pt 0; padding:14pt 0 14pt 18pt; border-left:3pt solid var(--ouro);
+    font-family:'Fraunces',serif; font-size:13.5pt; line-height:1.5; color:var(--tinta);
+    font-weight:400;
+  }
+  .cc .partes{
+    margin-top:4pt; border-top:1pt solid var(--linha); border-bottom:1pt solid var(--linha);
+    padding:14pt 0; display:grid; grid-template-columns:1fr 1fr; gap:7pt 22pt;
+  }
+  .cc .partes div{ font-size:9.5pt; line-height:1.4; color:var(--corpo); }
+  .cc .partes b{ color:var(--ouro); font-weight:700; margin-right:6pt; font-family:'Inter'; }
+
+  .cc .autor{ margin-top:20pt; }
+  .cc .autor .h{ font-size:9pt; font-weight:700; letter-spacing:.24em; text-transform:uppercase; color:var(--tinta); margin-bottom:7pt; }
+  .cc .autor p{ font-size:10pt; line-height:1.58; color:var(--corpo); max-width:150mm; }
+
+  .cc .foot{
+    margin-top:auto; padding-top:16pt; border-top:1pt solid var(--linha);
+    display:flex; align-items:flex-end; justify-content:space-between; gap:14pt;
+  }
+  .cc .foot .brand{ display:flex; align-items:center; gap:10pt; }
+  .cc .foot .brand img{ width:30pt; height:30pt; object-fit:contain; }
+  .cc .foot .brand .n{ font-family:'Fraunces',serif; font-weight:600; font-size:12pt; color:var(--tinta); letter-spacing:.02em; }
+  .cc .foot .meta{ text-align:right; font-size:8pt; line-height:1.6; color:#8a8374; }
+  .cc .foot .meta b{ color:var(--corpo); font-weight:600; }
+</style>
+</head>
+<body>
+
+<!-- PÁGINA 1 — CAPA -->
+<div class="page capa">
+  <img src="capa.png" alt="Capa — Seja Rico ou Pobre" />
+</div>
+
+<!-- PÁGINA 2 — CONTRACAPA -->
+<div class="page cc">
+  <div class="kicker">Gilberto Sena · e-book</div>
+  <div class="rule"></div>
+
+  <h1>A frase que mais moldou a sua vida financeira, você ouviu antes de saber contar dinheiro.</h1>
+
+  <p class="lead">Ninguém nasce achando que dinheiro é sujo, que rico é ganancioso, que emprego é
+  segurança, que casa é o maior patrimônio. Alguém te ensinou. E o que era proteção para quem te
+  criou virou, para você, um limite mental.</p>
+
+  <p class="lead">Numa leitura aplicada de <em>Pai Rico, Pai Pobre</em> — na voz do Gilberto — este
+  e-book organiza as ideias de Kiyosaki em torno de uma única pergunta: <em>quais crenças sobre
+  dinheiro você recebeu de graça e nunca auditou?</em> Da herança que você não escolheu até o plano
+  de trocar o roteiro em 30 dias.</p>
+
+  <div class="quote">“Seja rico ou pobre” não é ameaça — é constatação. A cada decisão de dinheiro,
+  você está votando num dos dois, quase sempre no automático. Este livro é para tornar o voto
+  consciente.</div>
+
+  <div class="partes">
+    <div><b>I</b>A herança que você não escolheu</div>
+    <div><b>II</b>Quando a crença herdada vira algema</div>
+    <div><b>III</b>Os cinco muros mentais da mudança</div>
+    <div><b>IV</b>O método de reprogramação</div>
+    <div><b>V</b>Do “não posso” ao “como eu faço”</div>
+    <div><b>+</b>Caixa de ferramentas para a semana</div>
+  </div>
+
+  <div class="autor">
+    <div class="h">Sobre o autor</div>
+    <p>Gilberto Sena é empresário e fundador do Grupo Sena — consultoria em contabilidade,
+    tributário e gestão, com escritórios em cinco capitais. Foi de motoboy a fundador de grupo
+    empresarial e hoje ajuda outros donos de negócio a fazer o mesmo percurso. Escreve como fala:
+    reto, com história e com lição.</p>
+  </div>
+
+  <div class="foot">
+    <div class="brand">
+      <img src="leao.png" alt="" />
+      <span class="n">GILBERTO SENA</span>
+    </div>
+    <div class="meta">
+      <b>Seja Rico ou Pobre</b> · 1ª edição · 2026<br>
+      Leitura aplicada de “Pai Rico, Pai Pobre” (Kiyosaki &amp; Lechter).<br>
+      Não substitui a obra original. @gilbertosenaoficial
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
