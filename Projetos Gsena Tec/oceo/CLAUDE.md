@@ -119,7 +119,7 @@ Pilar 6 (se houver) ou aprofundar pendências acima.
   contábil, CRC, pesquisa de mercado) — não estimar sem avisar que é
   estimativa, mesma disciplina do resto do documento.
 - Ao gerar qualquer material novo (estrutura visual, comparativo, proposta
-  de módulo), salvar nesta pasta (`outros-projetos/oceo/`) ou em subpasta
+  de módulo), salvar nesta pasta (`Projetos Gsena Tec/oceo/`) ou em subpasta
   dela — não em `saidas/` do GilbertoOS, que é reservado pra conteúdo do
   Instagram do Gilberto.
 - Se a sessão precisar de contexto pessoal do Gilberto (ex.: habilitação
