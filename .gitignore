@@ -56,3 +56,5 @@ saidas/ebook-seja-rico-montado-2026-09-08/miolos-claros/
 E-boocks prontos/cópia de Seja Rico ou Pobre - Gilberto Sena.pdf
 
 Projetos Gsena Tec/oceo/identidade-visual/_3d-render/
+__pycache__/
+*.pyc
