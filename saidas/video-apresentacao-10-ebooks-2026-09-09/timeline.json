@@ -1,0 +1,128 @@
+{
+ "fps": 30,
+ "w": 1920,
+ "h": 1080,
+ "total": 78.825,
+ "scenes": [
+  {
+   "id": "sc-intro",
+   "sid": "intro",
+   "kind": "intro",
+   "start": 0.0,
+   "dur": 6.532,
+   "narr_at": 0.45,
+   "narr_dur": 4.982,
+   "wav": "audio/intro.wav"
+  },
+  {
+   "id": "sc-s01",
+   "sid": "s01",
+   "kind": "book",
+   "start": 6.532,
+   "dur": 7.09,
+   "narr_at": 6.982,
+   "narr_dur": 5.49,
+   "wav": "audio/s01.wav"
+  },
+  {
+   "id": "sc-s02",
+   "sid": "s02",
+   "kind": "book",
+   "start": 13.623,
+   "dur": 6.303,
+   "narr_at": 14.073,
+   "narr_dur": 4.703,
+   "wav": "audio/s02.wav"
+  },
+  {
+   "id": "sc-s03",
+   "sid": "s03",
+   "kind": "book",
+   "start": 19.926,
+   "dur": 6.475,
+   "narr_at": 20.376,
+   "narr_dur": 4.875,
+   "wav": "audio/s03.wav"
+  },
+  {
+   "id": "sc-s04",
+   "sid": "s04",
+   "kind": "book",
+   "start": 26.401,
+   "dur": 6.931,
+   "narr_at": 26.851,
+   "narr_dur": 5.331,
+   "wav": "audio/s04.wav"
+  },
+  {
+   "id": "sc-s05",
+   "sid": "s05",
+   "kind": "book",
+   "start": 33.332,
+   "dur": 7.151,
+   "narr_at": 33.782,
+   "narr_dur": 5.551,
+   "wav": "audio/s05.wav"
+  },
+  {
+   "id": "sc-s06",
+   "sid": "s06",
+   "kind": "book",
+   "start": 40.483,
+   "dur": 6.631,
+   "narr_at": 40.933,
+   "narr_dur": 5.031,
+   "wav": "audio/s06.wav"
+  },
+  {
+   "id": "sc-s07",
+   "sid": "s07",
+   "kind": "book",
+   "start": 47.114,
+   "dur": 5.454,
+   "narr_at": 47.564,
+   "narr_dur": 3.854,
+   "wav": "audio/s07.wav"
+  },
+  {
+   "id": "sc-s08",
+   "sid": "s08",
+   "kind": "book",
+   "start": 52.568,
+   "dur": 6.513,
+   "narr_at": 53.018,
+   "narr_dur": 4.913,
+   "wav": "audio/s08.wav"
+  },
+  {
+   "id": "sc-s09",
+   "sid": "s09",
+   "kind": "book",
+   "start": 59.08,
+   "dur": 5.723,
+   "narr_at": 59.53,
+   "narr_dur": 4.123,
+   "wav": "audio/s09.wav"
+  },
+  {
+   "id": "sc-s10",
+   "sid": "s10",
+   "kind": "book",
+   "start": 64.804,
+   "dur": 6.792,
+   "narr_at": 65.254,
+   "narr_dur": 5.192,
+   "wav": "audio/s10.wav"
+  },
+  {
+   "id": "sc-close",
+   "sid": "close",
+   "kind": "close",
+   "start": 71.595,
+   "dur": 7.23,
+   "narr_at": 72.045,
+   "narr_dur": 5.18,
+   "wav": "audio/close.wav"
+  }
+ ]
+}
