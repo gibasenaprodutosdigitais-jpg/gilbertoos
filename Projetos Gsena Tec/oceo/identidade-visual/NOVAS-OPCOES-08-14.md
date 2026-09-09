@@ -20,3 +20,12 @@ orienta, você decide". O nome lê como **"O CEO"**.
 | 14 | **Pedra-chave** | Anel aberto no topo com a cunha dourada encaixada — a peça que **trava a estrutura** do negócio. |
 
 Arquivos: `logo-08-bi.svg` / `logo-08-bi-mono.svg` … até `logo-14-chave`.
+
+---
+
+## Estudo em 3D
+
+`_3d-preview.png` — 6 marcas (08, 09, 10, 12, 13, 14) em versão dimensional:
+objeto extrudado, fundo estúdio escuro, reflexo e sombra de contato, com o
+lettering **OCEO**. É um estudo feito em CSS/SVG (não é render de engine 3D
+nem arquivo .glb/.obj). Gerador: `gerar-3d.py`.
