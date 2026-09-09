@@ -4,8 +4,9 @@
 **Formato:** 1920×1080 (16:9) · 30 fps · ~79 s
 **Áudio:** locução PT-BR (voz do sistema `Luciana`) + cama musical sutil
 
-## Entregável
-- `Apresentacao 10 e-books - Gilberto Sena.mp4` — vídeo final
+## Entregáveis
+- `Apresentacao 10 e-books - Gilberto Sena.mp4` — locução voz feminina (`Luciana`), ~79 s
+- `Apresentacao 10 e-books - Gilberto Sena (voz rocko).mp4` — locução voz masculina (`Rocko`), ~76 s
 
 ## Estrutura
 1. **Intro** (0–6,5 s): leão dourado + "A biblioteca de Gilberto Sena" + "10 e-books. / Um assunto só: parar de decidir no escuro."
