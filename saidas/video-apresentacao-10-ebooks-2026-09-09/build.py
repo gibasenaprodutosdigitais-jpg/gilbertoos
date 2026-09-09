@@ -16,10 +16,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 AUD  = os.path.join(HERE, "audio")
 os.makedirs(AUD, exist_ok=True)
 
-VOICE = "Luciana"          # PT-BR, neutra/clara
-RATE  = 190               # levemente pausado
+VOICE = os.environ.get("VOICE", "Luciana")   # ex.: Rocko (masc.), Reed (masc.)
+RATE  = int(os.environ.get("RATE", "190"))    # Rocko/Reed pedem ~260-270
 FPS   = 30
 W, H  = 1920, 1080
+SUFFIX = "" if VOICE == "Luciana" else f" (voz {VOICE.lower()})"
 
 # ------------------------------------------------------------------ conteudo
 INTRO_NARR = "Dez e-books de Gilberto Sena. Um assunto só: parar de decidir no escuro."
@@ -368,7 +369,7 @@ ffmpeg -y -loglevel error -framerate $FPS -start_number 0 -i frames/f-%05d.png \
   -i audio/mix.wav \\
   -c:v libx264 -pix_fmt yuv420p -crf 18 -preset slow \\
   -c:a aac -b:a 192k -movflags +faststart -shortest \\
-  "Apresentacao 10 e-books - Gilberto Sena.mp4"
+  "Apresentacao 10 e-books - Gilberto Sena{SUFFIX}.mp4"
 
 echo "OK -> Apresentacao 10 e-books - Gilberto Sena.mp4"
 """
