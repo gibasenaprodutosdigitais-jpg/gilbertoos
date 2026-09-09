@@ -1,0 +1,110 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;background:#0a0d12;overflow:hidden}#c{display:block}
+</style></head><body><canvas id="c"></canvas>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const NAVY=0x2c5896, GOLD=0xf0b53e, SIZE=1400;
+
+const renderer=new THREE.WebGLRenderer({canvas:c,antialias:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(1); renderer.setSize(SIZE,SIZE,false);
+renderer.shadowMap.enabled=true; renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+renderer.toneMapping=THREE.ACESFilmicToneMapping; renderer.toneMappingExposure=1.9;
+
+const scene=new THREE.Scene(); scene.background=new THREE.Color(0x0a0d12);
+const pmrem=new THREE.PMREMGenerator(renderer);
+scene.environment=pmrem.fromScene(new RoomEnvironment(),0.02).texture;
+
+const camera=new THREE.PerspectiveCamera(30,1,0.1,200);
+
+const key=new THREE.DirectionalLight(0xffffff,4.2);
+key.position.set(5,8,7); key.castShadow=true;
+key.shadow.mapSize.set(2048,2048);
+Object.assign(key.shadow.camera,{near:1,far:60,left:-8,right:8,top:8,bottom:-8});
+key.shadow.bias=-0.0005; scene.add(key);
+const rim=new THREE.DirectionalLight(0xcfe0ff,2.4); rim.position.set(-7,4,-6); scene.add(rim);
+const fill=new THREE.DirectionalLight(0xffe4bb,0.8); fill.position.set(-3,-4,6); scene.add(fill);
+scene.add(new THREE.AmbientLight(0xffffff,0.22));
+const top=new THREE.SpotLight(0xfff2df,120,0,Math.PI/5,0.5,1.8); top.position.set(1,14,4); top.castShadow=false; scene.add(top);
+
+const ground=new THREE.Mesh(new THREE.PlaneGeometry(120,120),new THREE.ShadowMaterial({opacity:0.55}));
+ground.rotation.x=-Math.PI/2; ground.receiveShadow=true; scene.add(ground);
+
+const matNavy=new THREE.MeshPhysicalMaterial({color:NAVY,metalness:0.8,roughness:0.22,clearcoat:0.8,clearcoatRoughness:0.12});
+const matGold=new THREE.MeshPhysicalMaterial({color:GOLD,metalness:1,roughness:0.13,clearcoat:0.3});
+
+const loader=new SVGLoader();
+let grp=null;
+
+function isGold(node){
+  const c=((node.getAttribute('stroke')||'')+' '+(node.getAttribute('fill')||'')
+          +' '+(node.parentNode&&node.parentNode.getAttribute?node.parentNode.getAttribute('fill')||'':'')).toLowerCase();
+  return c.includes('#dd9a34');
+}
+
+function build(txt){
+  if(grp){ scene.remove(grp); }
+  grp=new THREE.Group();
+  const data=loader.parse(txt);
+  const EX={depth:22,bevelEnabled:true,bevelThickness:3,bevelSize:2.4,bevelSegments:3,curveSegments:64};
+
+  for(const path of data.paths){
+    const node=path.userData.node, style=path.userData.style;
+    const mat=isGold(node)?matGold:matNavy;
+
+    if(style.fill && style.fill!=='none'){
+      for(const shape of SVGLoader.createShapes(path)){
+        const g=new THREE.ExtrudeGeometry(shape,EX); g.scale(1,-1,1); g.computeVertexNormals();
+        const m=new THREE.Mesh(g,mat); m.castShadow=m.receiveShadow=true; grp.add(m);
+      }
+    }
+    if(style.stroke && style.stroke!=='none'){
+      const w=parseFloat(style.strokeWidth||node.getAttribute('stroke-width')||12);
+      for(const sp of path.subPaths){
+        const p2=sp.getPoints(260);
+        if(p2.length<2) continue;
+        const closed = p2[0].distanceTo(p2[p2.length-1])<0.5;
+        const pts=p2.map(p=>new THREE.Vector3(p.x,-p.y,0));
+        if(closed) pts.pop();
+        const curve=new THREE.CatmullRomCurve3(pts,closed,'catmullrom',0.0);
+        const tube=new THREE.TubeGeometry(curve,Math.max(80,pts.length*2),w/2,20,closed);
+        const m=new THREE.Mesh(tube,mat); m.castShadow=m.receiveShadow=true; grp.add(m);
+      }
+    }
+  }
+  scene.add(grp);
+  const b0=new THREE.Box3().setFromObject(grp);
+  const sz=b0.getSize(new THREE.Vector3());
+  const s=6.5/Math.max(sz.x,sz.y);
+  grp.scale.set(s,s,s);
+  grp.updateMatrixWorld(true);
+  const b1=new THREE.Box3().setFromObject(grp);
+  const c1=b1.getCenter(new THREE.Vector3());
+  grp.position.x-=c1.x; grp.position.z-=c1.z;
+  grp.position.y-=b1.min.y;               // pousa no chão
+}
+
+function setAngle(a){
+  const r=a*Math.PI/180, d=19;
+  camera.position.set(Math.sin(r)*d, 6.2, Math.cos(r)*d);
+  camera.lookAt(0,3.0,0);
+}
+
+window.__ready=false;
+window.__setup=(txt,ang)=>{
+  window.__ready=false;
+  build(txt); setAngle(ang);
+  renderer.render(scene,camera); renderer.render(scene,camera);
+  window.__ready=true;
+};
+window.__err=null;
+addEventListener('error',e=>{window.__err=String(e.message||e.error);});
+</script></body></html>
