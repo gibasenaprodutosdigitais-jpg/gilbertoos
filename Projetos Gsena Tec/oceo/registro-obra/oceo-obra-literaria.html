@@ -1,0 +1,2278 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>OCEO — A Obra Completa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --papel:#F4F1EA; --tinta:#151515; --corpo:#33352f; --ouro:#C9A227;
+    --grafite:#0F1419; --linha:#d9d2c2; --azul:#2c5896;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  @page{ size:A4; margin:22mm 20mm 20mm 20mm; }
+  @page{ @bottom-center{ content: counter(page); color:#8a8374; font-size:9pt; } }
+  html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  body{ font-family:'Inter',system-ui,sans-serif; color:var(--corpo); font-size:10.6pt; line-height:1.62; background:#fff; }
+  h1,h2,h3,h4{ color:var(--tinta); line-height:1.18; }
+  p{ margin:0 0 .8em; text-align:justify; }
+  strong{ color:var(--tinta); }
+  em{ font-style:italic; }
+  .small{ font-size:8.6pt; color:#8a8374; }
+
+  /* ---- CAPA ---- */
+  .capa{ height:257mm; margin:-22mm -20mm 0; padding:44mm 26mm; background:var(--papel);
+    display:flex; flex-direction:column; justify-content:space-between; page-break-after:always;
+    border-bottom:2px solid var(--ouro); }
+  .capa .top{ font-family:'Inter'; font-size:11pt; font-weight:700; letter-spacing:.32em; text-transform:uppercase; color:var(--ouro); }
+  .capa h1{ font-family:'Fraunces',serif; font-weight:600; font-size:46pt; letter-spacing:-.02em; line-height:1.06; color:var(--tinta); margin:0 0 10mm; }
+  .capa h1 span{ color:var(--ouro); }
+  .capa .sub{ font-size:13pt; line-height:1.5; max-width:150mm; color:var(--corpo); }
+  .capa .rule{ width:52mm; height:3px; background:var(--ouro); margin:12mm 0; }
+  .capa .foot{ font-size:10.5pt; color:#6b6b62; }
+  .capa .foot b{ color:var(--tinta); }
+  .capa .logo{ width:56mm; height:auto; margin-bottom:10mm; filter:drop-shadow(0 4px 12px rgba(0,0,0,.18)); }
+
+  /* ---- FICHA / FOLHA DE ROSTO ---- */
+  .rosto{ page-break-after:always; padding-top:6mm; }
+  .rosto h2{ font-family:'Fraunces',serif; font-size:20pt; font-weight:600; margin:0 0 6mm; }
+  .ficha{ border:1px solid var(--linha); border-left:4px solid var(--ouro); background:#faf8f2; padding:8mm 9mm; margin:6mm 0; }
+  .ficha table{ width:100%; border-collapse:collapse; font-size:9.6pt; }
+  .ficha td{ padding:2.4mm 0; vertical-align:top; border-bottom:1px dotted #d9d2c2; }
+  .ficha td:first-child{ width:44mm; color:var(--tinta); font-weight:600; }
+  .ficha tr:last-child td{ border-bottom:none; }
+
+  /* ---- SUMÁRIO ---- */
+  .toc{ page-break-after:always; }
+  .toc h2{ font-family:'Fraunces',serif; font-size:22pt; font-weight:600; margin:0 0 8mm; }
+  .toc .tpart{ margin-top:6mm; font-weight:700; color:var(--ouro); letter-spacing:.12em; text-transform:uppercase; font-size:9pt; }
+  .toc .trow{ display:flex; justify-content:space-between; gap:8mm; border-bottom:1px dotted #cabfa7; padding:1.8mm 0; font-size:9.8pt; }
+  .toc .trow span:first-child{ color:var(--tinta); }
+  .toc .trow span:last-child{ color:#8a8374; }
+
+  /* ---- DIVISÓRIA DE PARTE (clara) ---- */
+  .part{ page-break-before:always; page-break-after:always; min-height:220mm; padding-top:70mm; }
+  .part .pnum{ font-size:11pt; letter-spacing:.4em; color:var(--ouro); font-weight:700; text-transform:uppercase; }
+  .part h2{ font-family:'Fraunces',serif; color:var(--tinta); font-size:34pt; font-weight:600; letter-spacing:-.015em; margin:6mm 0 8mm; line-height:1.06; }
+  .part .pintro{ font-size:12pt; color:var(--corpo); max-width:140mm; }
+  .part .rule{ width:42mm; height:3px; background:var(--ouro); margin:8mm 0; }
+
+  /* ---- CAPÍTULO ---- */
+  .chap{ page-break-before:always; }
+  .chap-head{ border-bottom:2px solid var(--ouro); padding-bottom:4mm; margin-bottom:7mm; }
+  .chap-head .ck{ font-size:9pt; letter-spacing:.26em; text-transform:uppercase; color:var(--ouro); font-weight:700; }
+  .chap-head h3{ font-family:'Fraunces',serif; font-size:20pt; font-weight:600; margin:2.5mm 0 0; letter-spacing:-.01em; }
+  h4{ font-size:11.5pt; font-weight:700; margin:6mm 0 2mm; color:var(--tinta); }
+  .kickline{ font-size:9pt; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--ouro); margin:7mm 0 1mm; }
+
+  ul,ol{ margin:.4em 0 1em; padding-left:6mm; }
+  li{ margin:.24em 0; }
+
+  .box{ border:1px solid var(--linha); border-left:4px solid var(--ouro); background:#faf8f2; padding:5mm 6mm; margin:5mm 0; page-break-inside:avoid; }
+  .box .bt{ font-size:9pt; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ouro); margin-bottom:2mm; }
+  .box p:last-child{ margin-bottom:0; }
+  .box.fato{ border-left-color:var(--azul); } .box.fato .bt{ color:var(--azul); }
+  .box.prem{ border-left-color:#9a7b1e; background:#f6f0e2; } .box.prem .bt{ color:#9a7b1e; }
+
+  .quote{ font-family:'Fraunces',serif; font-size:12.5pt; line-height:1.5; color:var(--tinta); border-left:3px solid var(--ouro); padding-left:6mm; margin:5mm 0; }
+  .quote .src{ display:block; font-family:'Inter'; font-size:8.6pt; letter-spacing:.1em; text-transform:uppercase; color:#8a8374; margin-top:2mm; }
+
+  table.data{ width:100%; border-collapse:collapse; margin:5mm 0; font-size:9.4pt; page-break-inside:avoid; }
+  table.data th, table.data td{ border:1px solid var(--linha); padding:2.6mm 3mm; text-align:left; vertical-align:top; }
+  table.data th{ background:#efe9da; color:var(--tinta); font-weight:700; font-size:8.6pt; letter-spacing:.04em; text-transform:uppercase; }
+  table.data tr:nth-child(even) td{ background:#faf8f2; }
+  table.data td.num{ text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  table.data tr.total td{ background:#efe9da; font-weight:700; color:var(--tinta); }
+</style>
+</head>
+<body>
+
+<!-- ================= CAPA ================= -->
+<section class="capa">
+  <div class="top">Grupo Sena · Registro de Obra Literária</div>
+  <div>
+    <img class="logo" src="../identidade-visual/LOGO-OCEO.png" alt="OCEO">
+    <h1>OCEO<br><span>A obra completa</span></h1>
+    <div class="rule"></div>
+    <p class="sub">Concepção, arquitetura e especificação técnica de um sistema de gestão
+    empresarial em nuvem para a pequena e média empresa brasileira — os cinco pilares,
+    produto a produto, conforme o vídeo institucional. Documento de referência para
+    registro de direito autoral.</p>
+  </div>
+  <div class="foot">
+    <b>Gilberto Luís de Sena</b> — autor, idealizador e titular<br>
+    Grupo Sena — Soluções Empresariais · www.oceo.com.br<br>
+    1ª edição · setembro de 2026 · versão 1.0
+  </div>
+</section>
+
+<!-- ================= FOLHA DE ROSTO / FICHA ================= -->
+<section class="rosto">
+  <h2>Sobre esta obra</h2>
+  <p>Este documento reúne, num único corpo, todo o processo de concepção do <strong>OCEO —
+  Sistema de Gestão Empresarial</strong>: a origem, os princípios fundadores, a arquitetura
+  dos cinco pilares e a especificação detalhada de cada produto, módulo e funcionalidade
+  dentro do sistema, além do comparativo de custo que sustenta a proposta de valor, da
+  leitura de mercado por pilar, do roteiro do vídeo institucional e da identidade de marca.</p>
+
+  <p>A obra foi escrita para servir de <strong>peça de referência para registro de direito
+  autoral</strong> (obra literária de natureza técnica) e como documento-mestre de produto —
+  a fonte da qual derivam o plano de negócio, os materiais de <em>pitch</em>, as
+  apresentações e o roteiro audiovisual. Onde há número de mercado ou de salário, a fonte
+  está citada; onde há projeção de negócio, o texto marca explicitamente que se trata de
+  premissa a validar, não de fato consolidado.</p>
+
+  <p>O sistema descrito nasce de mais de doze anos de prática de consultoria empresarial do
+  Grupo Sena — contabilidade, auditoria fiscal e tributária, assessoria jurídica, gestão
+  trabalhista e assessoria de negócios — e não de uma tese abstrata de <em>startup</em>. A
+  camada contábil do Pilar 1, em particular, não é protótipo: já opera, em produção, para
+  um cliente real do Grupo Sena, como se detalha no capítulo próprio.</p>
+
+  <div class="ficha">
+    <table>
+      <tr><td>Título da obra</td><td>OCEO — A obra completa: concepção, arquitetura e especificação dos cinco pilares</td></tr>
+      <tr><td>Natureza</td><td>Obra literária de caráter técnico — documento de concepção e especificação de produto de <em>software</em></td></tr>
+      <tr><td>Autor / titular</td><td>Gilberto Luís de Sena — idealizador, criador intelectual e único titular. Colaboradores técnicos que venham a desenvolver o <em>software</em> atuam como executores, sem cotitularidade sobre a concepção aqui registrada.</td></tr>
+      <tr><td>Editor / detentor</td><td>Grupo Sena — Soluções Empresariais</td></tr>
+      <tr><td>Produto descrito</td><td>OCEO — Sistema de Gestão Empresarial (plataforma SaaS: ERP + Business Intelligence)</td></tr>
+      <tr><td>Domínio</td><td>www.oceo.com.br (registrado)</td></tr>
+      <tr><td>Marca</td><td>OCEO — em processo de registro no INPI (marca mista)</td></tr>
+      <tr><td>Idioma</td><td>Português (Brasil). Versão internacional para Portugal descrita no capítulo 12.</td></tr>
+      <tr><td>Edição</td><td>1ª edição digital — setembro de 2026 — versão 1.0</td></tr>
+      <tr><td>Extensão</td><td>Documento único, aproximadamente 70 páginas na versão digital</td></tr>
+      <tr><td>Palavras-chave</td><td>Gestão empresarial; ERP; Business Intelligence; SaaS; contabilidade; gestão financeira; jurídico consultivo; marketing e vendas; educação financeira; pequena e média empresa</td></tr>
+    </table>
+  </div>
+  <p class="small">Ficha elaborada pelo próprio autor para fins de organização e futura solicitação
+  de registro. Não constitui, nesta data, registro oficial concedido — o número correspondente,
+  quando emitido, será incluído em edição posterior.</p>
+
+  <div class="quote">O OCEO é mais que um sistema. É a decisão de tirar a pequena empresa
+  brasileira do escuro — dar ao dono o número na mão, e deixar a decisão com ele.
+  <span class="src">Gilberto Sena — nota de abertura</span></div>
+</section>
+
+<!-- ================= SUMÁRIO ================= -->
+<section class="toc">
+  <h2>Sumário</h2>
+
+  <div class="tpart">Parte I — A obra e sua origem</div>
+  <div class="trow"><span>1 · O que é o OCEO</span><span>8</span></div>
+  <div class="trow"><span>2 · A origem — doze anos de prática antes da primeira linha de código</span><span>9</span></div>
+  <div class="trow"><span>3 · O problema — a pequena empresa administra no escuro</span><span>11</span></div>
+  <div class="trow"><span>4 · A tese — um sistema, cinco frentes, uma mensalidade</span><span>13</span></div>
+  <div class="trow"><span>5 · Os princípios fundadores</span><span>15</span></div>
+  <div class="trow"><span>6 · O nome OCEO e a marca</span><span>18</span></div>
+
+  <div class="tpart">Parte II — Arquitetura do sistema</div>
+  <div class="trow"><span>7 · Os cinco pilares e seus códigos</span><span>20</span></div>
+  <div class="trow"><span>8 · Como os pilares se integram — o ciclo de dado</span><span>22</span></div>
+  <div class="trow"><span>9 · Ativação em cadeia — a ordem importa</span><span>24</span></div>
+  <div class="trow"><span>10 · O ecossistema humano por trás da tecnologia</span><span>25</span></div>
+  <div class="trow"><span>11 · Precificação — o que está e o que não está incluído</span><span>26</span></div>
+  <div class="trow"><span>12 · A versão internacional — Portugal</span><span>28</span></div>
+
+  <div class="tpart">Parte III — Pilar 1 · GC — Contabilidade e Business Intelligence</div>
+  <div class="trow"><span>13 · Conceito — o escritório interno, o externo que permanece</span><span>30</span></div>
+  <div class="trow"><span>14 · Setor Contábil — apuração e conciliação</span><span>32</span></div>
+  <div class="trow"><span>15 · Setor RH — atração e seleção</span><span>35</span></div>
+  <div class="trow"><span>16 · Setor DP — Departamento Pessoal</span><span>37</span></div>
+  <div class="trow"><span>17 · Setor Fiscal — apuração, guias e o radar da reforma</span><span>39</span></div>
+  <div class="trow"><span>18 · Departamento de Legalização</span><span>41</span></div>
+  <div class="trow"><span>19 · A prova de conceito — nove painéis já em produção</span><span>43</span></div>
+  <div class="trow"><span>20 · Comparativo de custo do Pilar 1</span><span>46</span></div>
+  <div class="trow"><span>21 · O Pilar 1 no mercado SaaS</span><span>48</span></div>
+
+  <div class="tpart">Parte IV — Pilar 2 · GF — Gestão Financeira</div>
+  <div class="trow"><span>22 · Conceito — leitura, decisão e planejamento</span><span>50</span></div>
+  <div class="trow"><span>23 · Integração bancária</span><span>51</span></div>
+  <div class="trow"><span>24 · Leitura simples do balanço e do balancete</span><span>52</span></div>
+  <div class="trow"><span>25 · DRE explicado — indicador por indicador</span><span>53</span></div>
+  <div class="trow"><span>26 · Alertas, PF x PJ e o fundo de reserva</span><span>55</span></div>
+  <div class="trow"><span>27 · Comparativo de custo do Pilar 2</span><span>58</span></div>
+  <div class="trow"><span>28 · O Pilar 2 no mercado SaaS</span><span>60</span></div>
+
+  <div class="tpart">Parte V — Pilar 3 · GJ — Jurídico</div>
+  <div class="trow"><span>29 · Conceito — advogado consultivo interno</span><span>62</span></div>
+  <div class="trow"><span>30 · Geração e análise de contratos</span><span>63</span></div>
+  <div class="trow"><span>31 · Oportunidades legais e esclarecimento contínuo</span><span>65</span></div>
+  <div class="trow"><span>32 · Ponto de atenção regulatória — a linha da OAB</span><span>66</span></div>
+  <div class="trow"><span>33 · Comparativo de custo e mercado do Pilar 3</span><span>68</span></div>
+
+  <div class="tpart">Parte VI — Pilar 4 · GM — Marketing e Vendas</div>
+  <div class="trow"><span>34 · Conceito — a agência por dentro</span><span>70</span></div>
+  <div class="trow"><span>35 · Conteúdo, tráfego pago e agente comercial de IA</span><span>71</span></div>
+  <div class="trow"><span>36 · Comparativo de custo e mercado do Pilar 4</span><span>74</span></div>
+
+  <div class="tpart">Parte VII — Pilar 5 · GI — Educação Pré-Investimento</div>
+  <div class="trow"><span>37 · Conceito e a mudança de nome</span><span>76</span></div>
+  <div class="trow"><span>38 · Gatilho, perfil e universo de produtos</span><span>77</span></div>
+  <div class="trow"><span>39 · Ponto de atenção regulatória — CVM e a trava AAI</span><span>79</span></div>
+  <div class="trow"><span>40 · Comparativo de custo e mercado do Pilar 5</span><span>81</span></div>
+
+  <div class="tpart">Parte VIII — O comparativo central e os números</div>
+  <div class="trow"><span>41 · A tese do comparativo</span><span>83</span></div>
+  <div class="trow"><span>42 · A soma das cinco frentes x OCEO</span><span>84</span></div>
+  <div class="trow"><span>43 · Disciplina metodológica — fato e premissa</span><span>86</span></div>
+
+  <div class="tpart">Parte IX — Mercado, modelo e roadmap</div>
+  <div class="trow"><span>44 · O mercado e a janela da reforma tributária</span><span>88</span></div>
+  <div class="trow"><span>45 · Modelo de negócio e escala</span><span>90</span></div>
+  <div class="trow"><span>46 · As premissas do modelo</span><span>91</span></div>
+  <div class="trow"><span>47 · Roadmap — o que já existe, o que falta</span><span>92</span></div>
+
+  <div class="tpart">Parte X — O vídeo institucional</div>
+  <div class="trow"><span>48 · Roteiro completo — as sete cenas</span><span>95</span></div>
+
+  <div class="tpart">Parte XI — Identidade visual e marca</div>
+  <div class="trow"><span>49 · A marca OCEO</span><span>98</span></div>
+
+  <div class="tpart">Anexos</div>
+  <div class="trow"><span>A · Glossário</span><span>100</span></div>
+  <div class="trow"><span>B · Tabela-síntese dos cinco pilares</span><span>102</span></div>
+  <div class="trow"><span>C · Lista de premissas do modelo</span><span>103</span></div>
+  <div class="trow"><span>D · Fontes e referências</span><span>104</span></div>
+</section>
+<!-- ========================================================= -->
+<!-- PARTE I -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte I</div>
+  <h2>A obra e sua origem</h2>
+  <div class="rule"></div>
+  <p class="pintro">Antes da arquitetura e antes da primeira tela, há uma leitura de mundo:
+  a de quem passou doze anos dentro da pequena empresa brasileira e viu, de perto, por que
+  ela quebra. Esta parte registra essa leitura — o que o OCEO é, de onde vem, o problema
+  que ataca, a tese que defende e os princípios que não se negociam.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 1</div><h3>O que é o OCEO</h3></div>
+
+  <p>O <strong>OCEO</strong> é um sistema de gestão empresarial em nuvem — uma plataforma
+  de <em>software</em> como serviço (SaaS) que combina, num só ambiente, um ERP (sistema
+  integrado de gestão) e uma camada de <em>Business Intelligence</em> (inteligência de
+  dados). Ele foi desenhado para um público específico e frequentemente mal servido: a
+  <strong>pequena e média empresa brasileira</strong>, aquela que fatura a partir de
+  aproximadamente R$ 50.000 por mês, já passou da informalidade, mas ainda não tem — e
+  dificilmente terá — estrutura para montar internamente um time completo de contabilidade
+  gerencial, finanças, jurídico, marketing e planejamento.</p>
+
+  <p>A proposta cabe numa frase, e é a mesma que abre o vídeo institucional:
+  <strong>um sistema, cinco frentes, uma mensalidade</strong>. As cinco frentes — que
+  chamamos de pilares — são Contabilidade e <em>Business Intelligence</em>, Gestão
+  Financeira, Jurídico, Marketing e Vendas, e Educação Pré-Investimento. Cada pilar
+  substitui, no todo ou em parte, uma equipe ou um fornecedor externo que a empresa
+  teria de contratar e coordenar por conta própria. O OCEO entrega o trabalho dessas
+  cinco áreas de forma integrada, pelo preço de uma assinatura mensal.</p>
+
+  <div class="quote">O sistema orienta. Você decide.
+  <span class="src">Princípio de abertura — cena 1 do vídeo</span></div>
+
+  <p>Essa frase não é um <em>slogan</em> de efeito. É uma definição de escopo e de
+  responsabilidade. O OCEO <strong>não</strong> é um piloto automático que toma decisões
+  no lugar do empresário, não assina documento contábil, não substitui advogado inscrito
+  na OAB, não faz recomendação individualizada de investimento e não movimenta dinheiro
+  sozinho. O que ele faz é <strong>ler o dado da empresa, traduzir esse dado em linguagem
+  de dono e apontar consequências</strong> — para que a decisão, que continua sendo humana,
+  seja tomada com o número na mão em vez de no escuro.</p>
+
+  <h4>O que o OCEO é, em termos práticos</h4>
+  <ul>
+    <li><strong>Um ERP para PME</strong> — organiza contábil, fiscal, financeiro, folha e
+    obrigações num fluxo único, sem a empresa precisar montar cada peça isolada.</li>
+    <li><strong>Uma camada de BI</strong> — transforma balancete, extrato bancário e nota
+    fiscal em painéis que o dono entende: caixa livre, margem, ponto de equilíbrio,
+    distribuição de lucro por unidade.</li>
+    <li><strong>Um consultor multidisciplinar de plantão</strong> — responde em linguagem
+    simples sobre contabilidade, tributos, contrato, finanças e planejamento, sempre
+    ancorado no dado da própria empresa.</li>
+    <li><strong>Um substituto econômico de estrutura</strong> — no lugar de cinco áreas
+    contratadas, uma mensalidade.</li>
+  </ul>
+
+  <h4>O que o OCEO não é</h4>
+  <ul>
+    <li>Não é um assistente genérico de inteligência artificial. Ele opera sobre o dado
+    real da empresa e dentro de regras definidas por especialistas do Grupo Sena.</li>
+    <li>Não é um robô que decide. A palavra final — investir, contratar, demitir, assinar,
+    distribuir lucro — é sempre do empresário.</li>
+    <li>Não dispensa os profissionais regulados. O contador externo continua assinando o
+    que a lei manda ele assinar; o advogado com OAB continua sendo necessário para o ato
+    privativo; a recomendação de investimento individual continua sendo de quem tem
+    licença para dá-la.</li>
+    <li>Não é um ERP de indústria pesada. O alvo é a empresa de serviços, comércio e
+    operação enxuta que fatura a partir de R$ 50.000/mês.</li>
+  </ul>
+
+  <p>Essa fronteira — orientar sem decidir, informar sem assinar — é o que separa o OCEO
+  de um <em>chatbot</em> qualquer e o que o mantém dentro da lei em cinco áreas
+  reguladas de formas diferentes. Ela reaparece, com nome e detalhe, em cada capítulo de
+  pilar desta obra.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 2</div><h3>A origem — doze anos de prática antes da primeira linha de código</h3></div>
+
+  <p>O OCEO não nasceu de uma tese de mercado nem de um <em>hackathon</em>. Nasceu de
+  <strong>mais de doze anos de consultoria empresarial</strong> prestada pelo Grupo Sena a
+  pequenas e médias empresas brasileiras — em contabilidade, auditoria fiscal e tributária,
+  assessoria jurídica empresarial, gestão trabalhista e de departamento pessoal, e
+  assessoria de negócios. Ao longo desse período, um padrão se repetiu em quase todos os
+  clientes que quebraram ou passaram aperto: <strong>não faltava faturamento, faltava
+  leitura</strong>. O dinheiro entrava, o dono não sabia se sobrava; o imposto vencia, o
+  dono não tinha provisionado; o contrato era assinado, ninguém tinha lido a cláusula de
+  reajuste; a empresa dava lucro no papel e não tinha caixa.</p>
+
+  <p>O Grupo Sena resolvia esses casos um a um, com gente. Um analista contábil montava o
+  balancete gerencial; um analista financeiro montava o fluxo de caixa; um advogado
+  revisava o contrato; um consultor sentava com o dono e explicava. Funcionava — mas não
+  escalava, e custava caro. Só a empresa que já era grande o suficiente conseguia pagar
+  por essa estrutura de consultoria continuada. A empresa de R$ 50.000, R$ 80.000, R$
+  150.000 por mês — exatamente a que mais precisava — ficava de fora.</p>
+
+  <div class="quote">Se um contador comum posta, eu não posto. O diferencial não é a
+  técnica sozinha — é a técnica pesada junto com a escala de negócio e a sabedoria de
+  quem já viu empresa quebrar por falta de leitura.
+  <span class="src">Gilberto Sena</span></div>
+
+  <p>O OCEO é a resposta a essa lacuna: <strong>pegar o método que o Grupo Sena aplicava
+  à mão, codificar as regras que os especialistas usam e entregar isso como sistema</strong>,
+  a um preço que a PME consegue pagar. Não é a consultoria substituída por um robô — é a
+  consultoria transformada em produto, com o profissional humano por trás definindo,
+  auditando e assinando o que precisa ser assinado.</p>
+
+  <h4>O que já existia antes do produto</h4>
+  <p>Três ativos concretos sustentam a concepção e diferenciam o OCEO de um projeto que
+  parte do zero:</p>
+  <ul>
+    <li><strong>Método consolidado.</strong> Doze anos de prática deram ao Grupo Sena um
+    conjunto de rotinas, checklists e critérios — como se monta um balancete gerencial,
+    como se lê um DRE para o dono, quais cláusulas de contrato sempre revisar, como se
+    dimensiona um fundo de reserva. Esse método é a matéria-prima das regras do sistema.</li>
+    <li><strong>Prova de conceito em produção.</strong> A camada contábil do Pilar 1 já
+    roda, hoje, para um cliente real do Grupo Sena — uma rede com <em>holding</em> e cerca
+    de vinte e quatro unidades — em nove painéis de <em>Business Intelligence</em>
+    construídos sobre os dados contábeis reais desse cliente. O capítulo 19 detalha cada
+    painel.</li>
+    <li><strong>Estrutura de profissionais regulados.</strong> O Grupo Sena tem contadores
+    com CRC, advogados com OAB e especialistas fiscais. É essa estrutura que assina, revisa
+    e responde tecnicamente pelo que o sistema entrega nas áreas em que a lei exige um
+    responsável humano.</li>
+  </ul>
+
+  <p>Em resumo: o OCEO é a industrialização de uma consultoria que já funcionava — não a
+  aposta de que ela vai funcionar.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 3</div><h3>O problema — a pequena empresa administra no escuro</h3></div>
+
+  <p>A cena 2 do vídeo institucional resume o diagnóstico numa linha:
+  <strong>"A pequena empresa administra no escuro."</strong> Esta obra registra o que
+  está por trás dessa frase.</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — porte do problema</div>
+    <p>O Brasil tem cerca de <strong>21,7 milhões de micro e pequenas empresas</strong>, que
+    respondem por aproximadamente <strong>30% do Produto Interno Bruto</strong> e pela maior
+    parte dos empregos formais gerados no país (SEBRAE). É sobre essa base que o problema
+    incide.</p>
+  </div>
+
+  <div class="box fato">
+    <div class="bt">Fato — mortalidade</div>
+    <p>Segundo levantamentos do SEBRAE, cerca de <strong>29% das pequenas empresas fecham
+    antes de completar cinco anos</strong> de atividade, e as causas mais citadas não são
+    falta de mercado — são <strong>gestão financeira deficiente, ausência de planejamento
+    e desorganização de informação</strong>.</p>
+  </div>
+
+  <p>O que "administrar no escuro" significa, na prática, para o dono de uma PME:</p>
+
+  <h4>1. Ele não sabe se sobra dinheiro</h4>
+  <p>O empresário olha o saldo do banco, não o resultado. Confunde faturamento com lucro,
+  caixa com sobra, dinheiro da empresa com dinheiro pessoal. Sem um DRE que ele entenda,
+  a pergunta "esse mês deu lucro?" não tem resposta objetiva — tem sensação.</p>
+
+  <h4>2. Ele é surpreendido pelo imposto</h4>
+  <p>Guia de tributo que vence sem provisão, parcelamento que estoura, regime tributário
+  errado que faz a empresa pagar mais do que devia por anos. O contador externo entrega a
+  guia; ninguém traduz, com antecedência, quanto vai sair e de onde vai sair.</p>
+
+  <h4>3. Ele assina o que não leu</h4>
+  <p>Contrato de fornecedor, de aluguel, de prestação de serviço, distrato de sócio —
+  assinados na pressa, sem ninguém revisar cláusula de reajuste, multa, exclusividade,
+  rescisão. O custo aparece meses depois.</p>
+
+  <h4>4. Ele contrata marketing sem controle</h4>
+  <p>Agência que cobra caro e não presta conta, tráfego pago sem dono do gerenciador,
+  conteúdo desconectado da operação. O dinheiro sai, o retorno não é medido.</p>
+
+  <h4>5. Ele não planeja o passo seguinte</h4>
+  <p>Quando sobra caixa, o dinheiro fica parado na conta perdendo para a inflação, ou é
+  gasto por impulso. Não há critério para reserva, nem noção de quando e como o excedente
+  poderia trabalhar.</p>
+
+  <div class="quote">Não é falta de trabalho. É falta de leitura. A empresa fatura, o
+  dono se mata de trabalhar, e no fim do ano ninguém sabe explicar para onde foi o
+  dinheiro.
+  <span class="src">Gilberto Sena</span></div>
+
+  <p>Cada um desses cinco pontos cegos corresponde, diretamente, a um dos cinco pilares do
+  OCEO. O sistema não foi montado a partir de módulos de <em>software</em> disponíveis —
+  foi montado a partir dos buracos por onde a pequena empresa brasileira afunda.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 4</div><h3>A tese — um sistema, cinco frentes, uma mensalidade</h3></div>
+
+  <p>A resposta do mercado ao problema descrito no capítulo anterior costuma ser
+  fragmentada: a empresa compra um <em>software</em> de emissão de nota, outro de fluxo de
+  caixa, contrata um contador externo, uma agência de marketing, e — se sobra — um
+  advogado por hora. Cada fornecedor enxerga um pedaço. Ninguém junta.</p>
+
+  <p>A tese do OCEO é a <strong>integração</strong>. Um único sistema que:</p>
+  <ul>
+    <li>usa o <strong>mesmo dado</strong> nas cinco frentes — o balancete que alimenta o
+    painel contábil é o mesmo que alimenta a leitura financeira, que alimenta a análise de
+    oportunidade tributária do jurídico;</li>
+    <li>cobra <strong>uma mensalidade</strong>, não cinco contratos;</li>
+    <li>fala <strong>uma língua</strong> — a do dono — em todas as áreas;</li>
+    <li>tem <strong>um responsável</strong> — o Grupo Sena — coordenando o conjunto.</li>
+  </ul>
+
+  <div class="quote">Um sistema. Cinco frentes. Uma mensalidade.
+  <span class="src">Cena 3 do vídeo institucional</span></div>
+
+  <h4>Por que cinco, e não três ou dez</h4>
+  <p>Os cinco pilares não são um número redondo escolhido por estética. Cada um resolve um
+  dos pontos cegos do capítulo 3, e juntos cobrem o ciclo completo de uma decisão
+  empresarial: <strong>medir</strong> (Pilar 1 — contabilidade e BI), <strong>entender e
+  decidir</strong> (Pilar 2 — finanças), <strong>proteger</strong> (Pilar 3 — jurídico),
+  <strong>crescer</strong> (Pilar 4 — marketing e vendas) e <strong>fazer o excedente
+  trabalhar</strong> (Pilar 5 — educação pré-investimento). Tirar qualquer um deixa um
+  furo no ciclo.</p>
+
+  <h4>O modelo: tecnologia mais humano</h4>
+  <p>O OCEO não é "inteligência artificial substituindo profissional". É
+  <strong>tecnologia fazendo o volume e o humano especialista fazendo o julgamento e a
+  assinatura</strong>. O sistema processa o balancete, monta o painel, gera a minuta,
+  redige o conteúdo, responde a dúvida. O contador com CRC assina o que a lei manda; o
+  advogado com OAB cuida do ato privativo; o consultor do Grupo Sena audita o que sai. O
+  cliente paga por um resultado de nível de consultoria a preço de assinatura porque a
+  parte cara — o trabalho repetitivo de coletar, organizar e formatar — foi automatizada.</p>
+
+  <p>Esse arranjo é o que o mercado internacional começou a chamar de
+  <strong>"Services-as-Software"</strong>: entregar, como produto de assinatura, aquilo que
+  antes só existia como serviço faturado por hora. O OCEO aplica esse modelo à gestão da
+  PME brasileira.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 5</div><h3>Os princípios fundadores</h3></div>
+
+  <p>Cinco princípios governam toda decisão de produto do OCEO. Eles estão registrados aqui
+  porque são o que garante que o sistema continue sendo o que se propõe a ser, mesmo quando
+  crescer.</p>
+
+  <h4>Princípio 1 — O sistema orienta, não decide</h4>
+  <p>Toda saída do OCEO é informativa e consultiva. Ele mostra o número, aponta a
+  consequência, sugere caminhos — e para aí. Investir, contratar, demitir, assinar,
+  distribuir lucro, mudar de regime: a ação é sempre do empresário, com clique explícito
+  e ciente da consequência. O sistema nunca executa uma decisão de negócio no lugar do
+  dono.</p>
+
+  <h4>Princípio 2 — Separar fato de premissa, sempre</h4>
+  <p>Todo número que o OCEO apresenta é rotulado quanto à sua natureza. É
+  <strong>fato</strong> o que tem fonte pública verificável ou vem do dado real da empresa:
+  o preço do sistema, um piso salarial do CAGED, uma alíquota vigente, o saldo do
+  balancete. É <strong>premissa</strong> o que é projeção ou estimativa: custo de aquisição
+  de cliente, taxa de cancelamento, cenário de crescimento, ponto de equilíbrio futuro.
+  Premissa aparece marcada como premissa, com o valor assumido explícito, para que quem lê
+  possa discordar do número sem precisar desmontar a conta. Esta obra segue a mesma regra:
+  caixas azuis para fato, caixas âmbar para premissa.</p>
+
+  <div class="box prem">
+    <div class="bt">Premissa — exemplo do próprio documento</div>
+    <p>Onde este texto estima o custo de um cargo que o CAGED não cobre (por exemplo, um
+    analista de departamento pessoal ou um SDR), o valor é uma <strong>premissa</strong> —
+    construído por proporção a cargos vizinhos que o CAGED cobre, e sinalizado como tal no
+    capítulo correspondente.</p>
+  </div>
+
+  <h4>Princípio 3 — A voz é do dono, não do técnico</h4>
+  <p>O OCEO traduz. Balancete vira "quanto entrou, quanto saiu, quanto sobrou". DRE vira
+  "sua empresa deu lucro, mas o lucro está preso em estoque". Cláusula contratual vira
+  "esse contrato reajusta todo ano pelo índice X, e você não pode sair antes de 24 meses
+  sem multa". Nenhuma tela do sistema exige que o empresário aprenda a linguagem do
+  contador, do advogado ou do analista.</p>
+
+  <h4>Princípio 4 — Anti-genérico</h4>
+  <p>O sistema opera sobre o dado da empresa específica, dentro de regras escritas por
+  especialistas de uma casa de consultoria com doze anos de estrada. Não é um modelo de
+  linguagem genérico respondendo pergunta genérica. Se a informação técnica não está na
+  base de conhecimento do Grupo Sena, o sistema diz que não tem base — não inventa.</p>
+
+  <h4>Princípio 5 — Respeitar a fronteira regulatória de cada área</h4>
+  <p>Contabilidade, direito, consultoria de investimento e assessoria de tráfego têm, cada
+  uma, uma linha legal que um produto não pode cruzar. O OCEO conhece cada linha e
+  desenha o escopo do pilar para ficar sempre do lado de dentro: não assina peça contábil
+  (isso é do contador com CRC), não pratica ato privativo de advogado (Lei 8.906/1994),
+  não faz recomendação individualizada de investimento (Resoluções CVM 19 e 21 de 2021),
+  não é dono da verba de mídia do cliente. Cada capítulo de pilar tem uma seção dedicada a
+  essa fronteira.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 6</div><h3>O nome OCEO e a marca</h3></div>
+
+  <p>O nome <strong>OCEO</strong> evoca o oceano — a massa de água que o dono de empresa
+  precisa navegar — e, ao mesmo tempo, contrai a ideia de <em>"o CEO"</em>: a função de
+  quem comanda. O sistema é a ferramenta de navegação de quem está no comando de uma
+  pequena empresa: mostra a profundidade, a corrente e a rota, mas quem segura o leme é o
+  empresário.</p>
+
+  <p>A marca nominativa e mista <strong>OCEO</strong> está em processo de registro no
+  Instituto Nacional da Propriedade Industrial (INPI). O domínio
+  <strong>www.oceo.com.br</strong> está registrado e é o endereço institucional do produto,
+  exibido no fecho do vídeo.</p>
+
+  <p>O símbolo gráfico — detalhado na Parte XI — combina um <strong>anel</strong> (o
+  horizonte, o ciclo de gestão que se fecha) com uma <strong>seta ascendente em forma de
+  colunas</strong> (o gráfico de barras que cresce, o BI que é o coração do sistema),
+  executado em cromo e dourado. O conjunto diz, sem texto: <em>dado que vira direção</em>.</p>
+
+  <div class="quote">O dono da pequena empresa é o CEO dela, mesmo que nunca tenha usado
+  esse nome. O OCEO é o painel de comando que ele nunca teve.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE II -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte II</div>
+  <h2>Arquitetura do sistema</h2>
+  <div class="rule"></div>
+  <p class="pintro">Os cinco pilares, seus códigos internos, a forma como trocam dado entre
+  si, a ordem em que entram no ar, o time humano que sustenta a automação, o preço e a
+  versão para o mercado português. Esta parte é o mapa do sistema antes de descer pilar a
+  pilar.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 7</div><h3>Os cinco pilares e seus códigos</h3></div>
+
+  <p>Internamente, cada pilar tem um código de duas letras. O código não aparece para o
+  cliente — serve para a equipe do Grupo Sena e para a documentação técnica referenciarem
+  o módulo sem ambiguidade.</p>
+
+  <table class="data">
+    <tr><th>Código</th><th>Pilar</th><th>Função no ciclo</th><th>O que substitui</th></tr>
+    <tr><td><strong>GC</strong></td><td>Contabilidade e Business Intelligence</td><td>Medir</td><td>Escritório contábil interno + analistas fiscal, DP e RH + camada de BI</td></tr>
+    <tr><td><strong>GF</strong></td><td>Gestão Financeira</td><td>Entender e decidir</td><td>Analista e diretor financeiro; controladoria</td></tr>
+    <tr><td><strong>GJ</strong></td><td>Jurídico</td><td>Proteger</td><td>Advogado empresarial consultivo interno</td></tr>
+    <tr><td><strong>GM</strong></td><td>Marketing e Vendas</td><td>Crescer</td><td>Agência de marketing + estrutura comercial interna (SDR, tráfego)</td></tr>
+    <tr><td><strong>GI</strong></td><td>Educação Pré-Investimento</td><td>Fazer o excedente trabalhar</td><td>Analista de investimentos / educação financeira estruturada</td></tr>
+  </table>
+
+  <p>A inicial <strong>G</strong> comum aos cinco vem de <em>gestão</em>. A segunda letra
+  identifica a área: <strong>C</strong>ontábil, <strong>F</strong>inanceiro,
+  <strong>J</strong>urídico, <strong>M</strong>arketing, <strong>I</strong>nvestimento.
+  Cada capítulo das Partes III a VII abre com o código do pilar que descreve.</p>
+
+  <h4>Leitura rápida de cada pilar</h4>
+  <p><strong>GC — Contabilidade e BI.</strong> Organiza a espinha dorsal de dados da
+  empresa: contábil, fiscal, folha, obrigações e legalização, e transforma esse dado em
+  painéis que o dono entende. É o pilar que já tem prova de conceito em produção.</p>
+  <p><strong>GF — Gestão Financeira.</strong> Pega o dado organizado pelo GC, soma o
+  extrato bancário e devolve leitura de caixa, DRE explicado, alertas e planejamento de
+  reserva. É onde a decisão do dia a dia acontece.</p>
+  <p><strong>GJ — Jurídico.</strong> Gera e analisa contratos, aponta risco e oportunidade
+  legal, responde dúvida jurídica sobre o dado da própria empresa — sem praticar ato
+  privativo de advogado.</p>
+  <p><strong>GM — Marketing e Vendas.</strong> Funciona como agência interna: conteúdo,
+  tráfego pago e um agente de IA que faz o primeiro atendimento comercial no WhatsApp.</p>
+  <p><strong>GI — Educação Pré-Investimento.</strong> Só liga depois que a empresa tem
+  reserva formada e caixa livre com folga. Ensina, em rota genérica e educacional, o
+  universo de produtos financeiros — sem individualizar por CPF/CNPJ e sem vínculo com
+  corretora.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 8</div><h3>Como os pilares se integram — o ciclo de dado</h3></div>
+
+  <p>O que faz do OCEO um sistema, e não cinco produtos numa mesma fatura, é o
+  <strong>dado único</strong>. Uma informação entra uma vez e circula por todos os pilares
+  que precisam dela.</p>
+
+  <h4>O caminho de uma nota fiscal</h4>
+  <ol>
+    <li><strong>Entrada (GC).</strong> A nota é capturada, classificada contabilmente e
+    escriturada. Vira lançamento no balancete e base para apuração fiscal.</li>
+    <li><strong>Leitura financeira (GF).</strong> O mesmo lançamento entra no fluxo de
+    caixa projetado — a nota a pagar vira saída futura, a nota a receber vira entrada
+    futura; o DRE do mês se ajusta.</li>
+    <li><strong>Radar jurídico e tributário (GJ).</strong> O padrão de notas do mesmo
+    fornecedor, cruzado com o contrato em vigor, permite ao pilar jurídico apontar
+    divergência de preço, reajuste fora do combinado, ou oportunidade de enquadramento
+    tributário melhor.</li>
+    <li><strong>Contexto de marketing (GM).</strong> O volume de vendas por produto e por
+    canal informa onde o investimento em mídia está convertendo.</li>
+    <li><strong>Gatilho de excedente (GI).</strong> Quando o acúmulo de resultado, lido no
+    GF, ultrapassa a reserva-alvo, o pilar de educação pré-investimento é liberado.</li>
+  </ol>
+
+  <div class="box">
+    <div class="bt">O ganho da integração</div>
+    <p>Numa estrutura fragmentada, o dono contrata cinco fornecedores e vira ele mesmo o
+    integrador — o único ponto onde a informação das cinco áreas se junta. É trabalho que
+    ninguém paga e quase ninguém faz bem. No OCEO, a integração é do sistema: o dado nasce
+    uma vez e chega pronto a cada frente.</p>
+  </div>
+
+  <h4>As três camadas de dado do Pilar 1 e por que elas importam para todos</h4>
+  <p>O Pilar 1 opera num modelo de três camadas que sustenta a integração inteira:</p>
+  <ul>
+    <li><strong>Escritório contábil interno</strong> — a operação de organização e
+    apuração roda dentro do OCEO, com a tecnologia fazendo o volume.</li>
+    <li><strong>Contador externo permanece</strong> — para a assinatura que o Conselho
+    Regional de Contabilidade exige, o profissional com CRC do cliente (ou parceiro)
+    continua no circuito. O OCEO não substitui a responsabilidade técnica registrada.</li>
+    <li><strong>O dado interno é poder de barganha</strong> — porque a empresa passa a ter
+    seus próprios números organizados em tempo quase real, ela deixa de depender do prazo e
+    da boa vontade de terceiros para saber como está. Esse dado, sob controle do dono, é o
+    que alimenta os outros quatro pilares.</li>
+  </ul>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 9</div><h3>Ativação em cadeia — a ordem importa</h3></div>
+
+  <p>Os cinco pilares não entram no ar todos no mesmo dia. Há uma ordem, e ela é uma
+  decisão de produto, não uma limitação técnica.</p>
+
+  <table class="data">
+    <tr><th>Ordem</th><th>Pilar</th><th>Condição para ativar</th></tr>
+    <tr><td>1º</td><td>GC — Contabilidade e BI</td><td>Imediata. É a fundação: sem dado organizado, nenhum outro pilar funciona.</td></tr>
+    <tr><td>2º</td><td>GF — Gestão Financeira</td><td>Assim que o GC tiver pelo menos um ciclo mensal fechado e a integração bancária ligada.</td></tr>
+    <tr><td>3º</td><td>GJ — Jurídico</td><td>Em paralelo ao GF. Depende de os contratos-chave da empresa terem sido carregados.</td></tr>
+    <tr><td>4º</td><td>GM — Marketing e Vendas</td><td>Quando o cliente decidir investir em crescimento. Verba de mídia é à parte.</td></tr>
+    <tr><td>5º</td><td>GI — Educação Pré-Investimento</td><td>Só depois de o fundo de reserva do GF estar completo e haver caixa livre com margem. Nunca antes.</td></tr>
+  </table>
+
+  <div class="quote">Não adianta falar de investimento com quem ainda não sabe se sobra
+  dinheiro no mês. Primeiro o número na mão, depois a reserva, só então o excedente
+  trabalhando.
+  <span class="src">Gilberto Sena — sobre a ordem dos pilares</span></div>
+
+  <p>A trava do Pilar 5 é o exemplo mais rígido: o gatilho de ativação exige que a reserva
+  esteja formada <em>e</em> que exista caixa livre acima de uma margem mínima (padrão:
+  pelo menos 10% do caixa livre disponível para destinação). Isso está detalhado no
+  capítulo 38.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 10</div><h3>O ecossistema humano por trás da tecnologia</h3></div>
+
+  <p>O OCEO é um produto de <em>software</em>, mas não é só <em>software</em>. Cada pilar
+  tem um profissional ou uma equipe do Grupo Sena por trás, definindo as regras, auditando
+  o resultado e assinando o que precisa de assinatura.</p>
+
+  <table class="data">
+    <tr><th>Pilar</th><th>Humano por trás</th><th>Papel do humano</th></tr>
+    <tr><td>GC</td><td>Contadores com CRC, especialistas fiscal, DP e RH</td><td>Definem o plano de contas e as regras de apuração; revisam o fechamento; assinam as peças que a lei exige.</td></tr>
+    <tr><td>GF</td><td>Consultor financeiro / controller</td><td>Calibra os parâmetros de leitura (o que é caixa livre, como dimensionar a reserva); valida os alertas antes de virarem padrão.</td></tr>
+    <tr><td>GJ</td><td>Advogado empresarial com OAB</td><td>Escreve e mantém os modelos de contrato; revisa as análises de risco; assume o ato privativo quando o caso exige.</td></tr>
+    <tr><td>GM</td><td>Time de conteúdo, tráfego e comercial</td><td>Define linha editorial e estratégia de campanha; opera o que o agente de IA não resolve; presta conta da verba.</td></tr>
+    <tr><td>GI</td><td>Responsável pela trilha educacional</td><td>Escreve o conteúdo educativo; garante que toda saída seja genérica e traga o aviso legal; mantém a rota longe de recomendação individualizada.</td></tr>
+  </table>
+
+  <p>O que a tecnologia elimina é o <strong>trabalho repetitivo</strong> — coletar,
+  classificar, formatar, cruzar, redigir a primeira versão. O que o humano mantém é o
+  <strong>julgamento e a responsabilidade</strong>. É essa divisão que permite entregar
+  resultado de consultoria a preço de assinatura.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 11</div><h3>Precificação — o que está e o que não está incluído</h3></div>
+
+  <div class="box fato">
+    <div class="bt">Fato — preço vigente (Brasil)</div>
+    <p><strong>Setup: R$ 12.500</strong>, pagamento único, na implantação.<br>
+    <strong>Mensalidade: R$ 3.500/mês</strong> — fixa, "simples, mas completa".</p>
+  </div>
+
+  <h4>O que a mensalidade cobre</h4>
+  <ul>
+    <li>Os cinco pilares em operação, na medida em que forem sendo ativados.</li>
+    <li>A camada de <em>Business Intelligence</em> com os painéis do cliente.</li>
+    <li>O acesso ao consultor multidisciplinar do sistema, ancorado no dado da empresa.</li>
+    <li>A manutenção das regras, dos modelos de contrato e das trilhas por especialistas do
+    Grupo Sena.</li>
+    <li>A coordenação do conjunto — um responsável pelo todo, não cinco fornecedores
+    soltos.</li>
+  </ul>
+
+  <h4>O que fica de fora da mensalidade</h4>
+  <ul>
+    <li><strong>Honorário do contador externo</strong> para a assinatura exigida por lei.
+    O valor varia por regime tributário — de R$ 100 a R$ 250 para MEI; R$ 250 a R$ 800
+    para ME/Simples; R$ 600 a R$ 2.500 para Lucro Presumido; R$ 1.500 a mais de R$ 10.000
+    para Lucro Real.</li>
+    <li><strong>Verba de mídia</strong> do Pilar 4. O cliente é dono do gerenciador de
+    anúncios e paga a plataforma diretamente.</li>
+    <li><strong>Custo variável já identificado que é repassado</strong> — por exemplo, o
+    consumo do WhatsApp Business API acima da franquia gratuita mensal (o capítulo 35
+    detalha o modelo de cobrança por conversa).</li>
+    <li><strong>Ato privativo de advogado</strong> que exija atuação processual ou
+    representação — isso é contratação à parte com o advogado.</li>
+  </ul>
+
+  <div class="box prem">
+    <div class="bt">Premissa — estrutura de custo do modelo</div>
+    <p>O plano de negócio trabalha com um custo fixo operacional da ordem de
+    <strong>R$ 150.000/mês</strong> para sustentar a operação do OCEO em escala, além de
+    premissas de custo de aquisição de cliente (CAC), taxa de cancelamento (churn) e
+    ponto de equilíbrio. Todos esses são números de ordem de grandeza a validar — não
+    dados fechados. A Parte IX os lista um a um.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 12</div><h3>A versão internacional — Portugal</h3></div>
+
+  <p>O OCEO tem uma adaptação para o mercado europeu, começando por Portugal. A mecânica do
+  produto é a mesma — cinco pilares, dado único, tecnologia mais humano. O que muda é a
+  base de custo comparada e a moeda.</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — preço vigente (Portugal)</div>
+    <p><strong>Setup: 2.950 €</strong>, pagamento único.<br>
+    <strong>Mensalidade: 850 €/mês.</strong></p>
+  </div>
+
+  <p>O comparativo de custo de equipe na versão portuguesa segue o modelo trabalhista local
+  — <strong>14 meses de salário</strong> por ano e Taxa Social Única de
+  <strong>23,75%</strong> a cargo do empregador, e não o modelo brasileiro de encargos da
+  ordem de 80%. As faixas salariais foram levantadas em portais de emprego portugueses
+  (Indeed.pt, Jobted.pt, Talent.com Portugal). Nesse cenário, a mensalidade de 850 €
+  fica acima do piso de conversão direta do preço brasileiro (cerca de 594 €) e muito
+  abaixo do teto de custo de uma equipe equivalente (cerca de 19.954 €/mês), o que
+  representa uma economia da ordem de <strong>95,7%</strong> ante a estrutura interna.</p>
+
+  <p>A versão Portugal existe como material de plano de negócio próprio. A especificação de
+  produto — os capítulos de pilar desta obra — vale para as duas versões; muda apenas a
+  tabela de comparação de custo e o enquadramento regulatório local, que na Europa segue as
+  normas da respectiva ordem profissional (contabilistas certificados, ordem dos advogados)
+  e do supervisor de mercado local.</p>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE III — PILAR 1 · GC -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte III · Pilar 1 · Código GC</div>
+  <h2>Contabilidade e Business Intelligence</h2>
+  <div class="rule"></div>
+  <p class="pintro">O pilar-fundação. Organiza a espinha dorsal de dados da empresa —
+  contábil, fiscal, folha, obrigações e legalização — e transforma esse dado em painéis
+  que o dono entende. É o único pilar que já tem prova de conceito rodando em produção
+  para um cliente real. Sete capítulos: o conceito de três camadas, os cinco setores um a
+  um, a prova de conceito com nove painéis, o comparativo de custo e o lugar do pilar no
+  mercado SaaS.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 13 · Pilar 1 · GC</div><h3>Conceito — o escritório interno, o externo que permanece, o dado que é poder</h3></div>
+
+  <p>O Pilar 1 responde à pergunta mais básica e mais ignorada da pequena empresa:
+  <strong>"como eu estou, hoje, em número?"</strong>. Não no fechamento do ano, não quando
+  o contador externo tiver tempo — hoje, com o dado organizado e sob controle do dono.</p>
+
+  <h4>As três camadas</h4>
+  <p><strong>Camada 1 — o escritório contábil interno.</strong> A rotina de organização,
+  classificação e apuração passa a rodar dentro do OCEO. A tecnologia faz o volume:
+  captura documento, classifica lançamento, concilia, monta o balancete gerencial. O que
+  antes dependia da agenda de um escritório terceiro vira processo contínuo.</p>
+
+  <p><strong>Camada 2 — o contador externo permanece.</strong> A legislação brasileira
+  exige que determinadas peças e responsabilidades técnicas sejam assinadas por
+  profissional inscrito no Conselho Regional de Contabilidade. O OCEO não remove esse
+  profissional — ele continua no circuito para a assinatura e a responsabilidade técnica
+  registrada. O que muda é que ele recebe o trabalho pré-organizado, e não uma caixa de
+  documentos soltos.</p>
+
+  <p><strong>Camada 3 — o dado interno como poder de barganha.</strong> Ao ter os próprios
+  números organizados em tempo quase real, a empresa deixa de depender do prazo e da boa
+  vontade de terceiros para saber como está. Esse dado sob controle do dono é o que
+  alimenta os outros quatro pilares e o que dá ao empresário posição para negociar —
+  honorário, financiamento, contrato, sociedade — de igual para igual, com informação.</p>
+
+  <div class="quote">A empresa que não tem o próprio número na mão negocia no escuro com
+  todo mundo: com o banco, com o sócio, com o fornecedor, até com o próprio contador.
+  <span class="src">Gilberto Sena</span></div>
+
+  <h4>Os cinco setores do Pilar 1</h4>
+  <p>O pilar cobre cinco setores de uma operação contábil-trabalhista completa. Cada um tem
+  capítulo próprio a seguir:</p>
+  <ul>
+    <li><strong>Contábil</strong> — apuração, conciliação e balancete gerencial (cap. 14).</li>
+    <li><strong>RH</strong> — atração e seleção de pessoas (cap. 15).</li>
+    <li><strong>DP — Departamento Pessoal</strong> — admissão, folha, férias, rescisão,
+    eSocial (cap. 16).</li>
+    <li><strong>Fiscal</strong> — apuração de tributos, guias, obrigações acessórias e o
+    radar da reforma tributária (cap. 17).</li>
+    <li><strong>Legalização</strong> — abertura, alteração, licenças e certidões (cap. 18).</li>
+  </ul>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 14 · Pilar 1 · GC — Setor Contábil</div><h3>Apuração, conciliação e o balancete que o dono entende</h3></div>
+
+  <p>O setor Contábil é o coração do pilar. Sua entrega é um <strong>balancete gerencial
+  atualizado e legível</strong> — não o balancete técnico que só o contador lê, mas a
+  versão traduzida: quanto entrou, quanto saiu, quanto sobrou, onde está o dinheiro.</p>
+
+  <h4>Funcionalidades</h4>
+  <p><strong>Captura e classificação de documentos.</strong> Notas de entrada e saída,
+  extratos, recibos e comprovantes são capturados e classificados no plano de contas
+  definido pelos contadores do Grupo Sena para o perfil da empresa. O que era digitação
+  manual vira processo assistido.</p>
+
+  <p><strong>Conciliação contábil e bancária.</strong> O sistema cruza o que foi lançado
+  com o que efetivamente entrou e saiu do banco, aponta divergência, lançamento em
+  duplicidade, pagamento sem nota e nota sem pagamento.</p>
+
+  <p><strong>Balancete gerencial contínuo.</strong> Em vez de esperar o fechamento, o dono
+  vê o balancete se formando ao longo do mês, com os grupos traduzidos: disponível,
+  a receber, a pagar, resultado do período.</p>
+
+  <p><strong>Contabilização de notas fiscais em lote.</strong> O volume de notas — o
+  trabalho mais repetitivo do escritório contábil — é processado pelo sistema e revisado
+  por exceção, não uma a uma.</p>
+
+  <p><strong>Receita contabilizada versus receita financeira.</strong> O sistema mostra a
+  diferença entre o que foi reconhecido na contabilidade e o que de fato circulou no
+  caixa — a origem clássica do "deu lucro no papel e não tem dinheiro".</p>
+
+  <p><strong>Fechamento assistido e entrega ao contador externo.</strong> No fim do ciclo,
+  o pacote sai organizado para a assinatura da Camada 2.</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — o cargo substituído</div>
+    <p>O trabalho deste setor equivale ao de um <strong>Analista Contábil</strong>. Piso de
+    referência do CAGED: <strong>R$ 5.483,98</strong>. Com encargos da ordem de 80%, o
+    custo total do cargo para a empresa fica em torno de <strong>R$ 9.871,16/mês</strong>.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 15 · Pilar 1 · GC — Setor RH</div><h3>Atração e seleção — a análise comportamental antes da contratação</h3></div>
+
+  <p>O setor de RH do Pilar 1 cobre a ponta de <strong>recrutamento e seleção</strong>:
+  ajudar a pequena empresa a contratar melhor, com método, em vez de contratar no
+  "conhecido do conhecido" e demitir três meses depois.</p>
+
+  <h4>Funcionalidades</h4>
+  <p><strong>Descrição de vaga estruturada.</strong> A partir da função e do porte da
+  empresa, o sistema monta a descrição da vaga, a faixa salarial de mercado (referência
+  CAGED e portais) e os requisitos objetivos.</p>
+
+  <p><strong>Triagem de currículos.</strong> Organização e pré-classificação dos
+  candidatos segundo os critérios da vaga.</p>
+
+  <p><strong>Roteiro de entrevista e análise comportamental.</strong> O sistema oferece um
+  roteiro de perguntas e um enquadramento de perfil comportamental, para o dono ir para a
+  conversa com estrutura e não só com feeling.</p>
+
+  <p><strong>Comparativo de candidatos.</strong> Um quadro lado a lado — experiência,
+  pretensão, aderência ao perfil — para a decisão final, que continua sendo do
+  empresário.</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — o cargo substituído</div>
+    <p>Equivale a um <strong>Agente de Recrutamento e Seleção</strong>. Piso CAGED de
+    referência: <strong>R$ 3.504,71</strong>. Custo total com encargos: em torno de
+    <strong>R$ 6.308,48/mês</strong>.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 16 · Pilar 1 · GC — Setor DP</div><h3>Departamento Pessoal — do contrato de admissão ao eSocial</h3></div>
+
+  <p>O Departamento Pessoal é onde a pequena empresa mais toma multa por desatenção:
+  prazo de eSocial perdido, cálculo de rescisão errado, férias vencidas, adicional não
+  pago. O setor DP do Pilar 1 automatiza o cálculo e controla o prazo.</p>
+
+  <h4>Funcionalidades</h4>
+  <ul>
+    <li><strong>Admissão</strong> — geração do contrato de trabalho, registro, envio dos
+    eventos de admissão ao eSocial dentro do prazo.</li>
+    <li><strong>Folha de pagamento</strong> — cálculo mensal de salários, descontos,
+    adicionais (noturno, insalubridade, periculosidade), horas extras e benefícios.</li>
+    <li><strong>Encargos e guias</strong> — apuração de INSS, FGTS e demais recolhimentos,
+    com as guias e os prazos no radar.</li>
+    <li><strong>Férias</strong> — controle de período aquisitivo e concessivo, aviso de
+    férias a vencer (antes de virar dobra), cálculo do pagamento.</li>
+    <li><strong>13º salário</strong> — cálculo e controle das duas parcelas.</li>
+    <li><strong>Rescisão</strong> — cálculo do acerto conforme o tipo de desligamento,
+    verbas rescisórias, homologação, eventos de desligamento no eSocial.</li>
+    <li><strong>Obrigações acessórias trabalhistas</strong> — eSocial, DCTFWeb e correlatas,
+    com calendário e alerta.</li>
+  </ul>
+
+  <div class="box fato">
+    <div class="bt">Fato / Premissa — o cargo substituído</div>
+    <p>Equivale a um <strong>Analista de Departamento Pessoal</strong>. Este cargo não tem
+    piso limpo isolável no CAGED; a referência usada é uma <strong>premissa</strong>
+    construída por proporção a cargos vizinhos: salário da ordem de <strong>R$ 3.300</strong>,
+    custo total com encargos em torno de <strong>R$ 5.940/mês</strong>. Validar com fonte
+    sindical é uma pendência registrada do projeto.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 17 · Pilar 1 · GC — Setor Fiscal</div><h3>Apuração de tributos, guias, obrigações e o radar da reforma</h3></div>
+
+  <p>O setor Fiscal apura o que a empresa deve, quando deve e por quê — e antecipa o
+  impacto da reforma tributária, que é a maior mudança de regra do jogo em uma geração.</p>
+
+  <h4>Funcionalidades</h4>
+  <p><strong>Apuração dos tributos do regime.</strong> Simples Nacional, Lucro Presumido ou
+  Lucro Real: o sistema apura os tributos devidos no período conforme o enquadramento da
+  empresa.</p>
+
+  <p><strong>Guias e calendário.</strong> Toda guia com valor e vencimento no radar, com
+  alerta antes do prazo — para acabar com a surpresa de imposto descrita no capítulo 3.</p>
+
+  <p><strong>Obrigações acessórias.</strong> SPED (Fiscal e Contribuições), EFD-Reinf,
+  DCTF, declarações do Simples e correlatas, com calendário e controle de entrega.</p>
+
+  <p><strong>Revisão de enquadramento.</strong> O sistema simula os regimes e aponta se a
+  empresa está no enquadramento tributário mais eficiente para o seu faturamento e a sua
+  atividade — uma das economias mais comuns que passam despercebidas por anos.</p>
+
+  <p><strong>Radar da reforma tributária (IBS/CBS).</strong> À medida que a transição para
+  o IVA dual avança, o sistema traduz o que muda para aquele CNAE específico: o que entra,
+  o que sai, o que precisa ser ajustado em preço e em contrato. É a materialização da
+  janela de demanda descrita na Parte IX.</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — o cargo substituído</div>
+    <p>Equivale a um <strong>Analista Fiscal</strong>. Piso CAGED de referência:
+    <strong>R$ 4.841,53</strong>. Custo total com encargos: em torno de
+    <strong>R$ 8.714,75/mês</strong>.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 18 · Pilar 1 · GC — Setor Legalização</div><h3>Abertura, alteração, licenças e certidões</h3></div>
+
+  <p>O setor de Legalização cuida da vida cartorial e de licenciamento da empresa — o
+  trabalho que costuma parar o dono num balcão de junta comercial ou de prefeitura.</p>
+
+  <h4>Funcionalidades</h4>
+  <ul>
+    <li><strong>Abertura de empresa</strong> — constituição, registro na junta comercial,
+    inscrições federal, estadual e municipal.</li>
+    <li><strong>Alterações contratuais</strong> — mudança de endereço, de objeto social, de
+    capital, de quadro societário, de administrador.</li>
+    <li><strong>Licenças e alvarás</strong> — alvará de funcionamento, licença sanitária,
+    licença ambiental, corpo de bombeiros, conforme a atividade.</li>
+    <li><strong>Certidões negativas</strong> — federal, estadual, municipal, FGTS,
+    trabalhista — emissão e monitoramento de validade, para nunca perder um edital ou um
+    financiamento por certidão vencida.</li>
+    <li><strong>Enquadramento e reenquadramento de porte</strong> — MEI, ME, EPP —
+    conforme o faturamento evolui.</li>
+    <li><strong>Baixa e encerramento</strong> — quando for o caso, o processo completo de
+    encerramento regular.</li>
+  </ul>
+
+  <div class="box">
+    <div class="bt">Nota de escopo</div>
+    <p>O setor de Legalização é operado pela estrutura do Grupo Sena. Não há cargo isolado
+    equivalente no comparativo de custo do capítulo 20 — na pequena empresa, essa função
+    costuma ser terceirizada por demanda a um despachante ou ao próprio escritório
+    contábil, e o custo aparece diluído. A entrega dentro do OCEO elimina esse custo
+    avulso e o tempo do dono.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 19 · Pilar 1 · GC</div><h3>A prova de conceito — nove painéis já em produção</h3></div>
+
+  <p>A camada contábil do Pilar 1 não é maquete. Ela <strong>já opera, hoje</strong>, para
+  um cliente real do Grupo Sena — uma rede com <em>holding</em> e cerca de vinte e quatro
+  unidades — em nove painéis de <em>Business Intelligence</em> construídos sobre os dados
+  contábeis reais desse cliente. Os painéis foram extraídos e documentados como prova de
+  conceito e existem também como material de <em>pitch</em> em duas versões (uma interna,
+  com dado real, e uma externa, com unidades e fornecedores renomeados e valores
+  ilustrativos).</p>
+
+  <div class="box">
+    <div class="bt">Nota de confidencialidade</div>
+    <p>Para qualquer uso externo desta obra, os painéis descritos a seguir devem ser
+    apresentados de forma generalizada: nome do cliente substituído, sem faturamento exato,
+    sem nome de fornecedor pessoa física, sem fragmento de documento. A versão de
+    <em>pitch</em> externo já traz "Unidade A–H" e "Fornecedor 01–09" com valores
+    fictícios em ordem de grandeza compatível.</p>
+  </div>
+
+  <h4>Os nove painéis e o que cada um prova</h4>
+  <table class="data">
+    <tr><th>#</th><th>Painel</th><th>O que mostra</th><th>Função do Pilar 1 que comprova</th></tr>
+    <tr><td>1</td><td>Volume de Compras — Balancetes</td><td>Compras do período por unidade, a partir do balancete</td><td>Contábil — balancete gerencial contínuo</td></tr>
+    <tr><td>2</td><td>Pagamento a Fornecedores — Balancete</td><td>Saídas para fornecedores reconhecidas na contabilidade</td><td>Contábil — conciliação</td></tr>
+    <tr><td>3</td><td>Receita Contabilizada</td><td>Receita reconhecida por unidade e por período</td><td>Contábil — reconhecimento de receita</td></tr>
+    <tr><td>4</td><td>Pagamento a Fornecedores — Financeiro</td><td>Saídas efetivamente ocorridas no caixa</td><td>Contábil — receita/despesa contábil x financeira</td></tr>
+    <tr><td>5</td><td>Contabilização de NFs</td><td>Volume e status de notas fiscais escrituradas</td><td>Contábil — contabilização de notas em lote</td></tr>
+    <tr><td>6</td><td>DRE Financeiro</td><td>Demonstração de resultado consolidada e por unidade</td><td>Contábil — fechamento assistido; ponte para o Pilar 2</td></tr>
+    <tr><td>7</td><td>Sobra de Caixa por Unidade</td><td>Quanto cada unidade gera de caixa depois de tudo</td><td>Contábil + BI — leitura de resultado por operação</td></tr>
+    <tr><td>8</td><td>Distribuição de Lucros por Unidade</td><td>Lucro distribuído x retido, por unidade</td><td>BI — decisão de distribuição, ponte para o Pilar 5</td></tr>
+    <tr><td>9</td><td>Volume de Compras por Fornecedor — NF-e</td><td>Concentração de compras por fornecedor, a partir da NF-e</td><td>Contábil + radar jurídico — dependência e barganha de fornecedor</td></tr>
+  </table>
+
+  <p>Os painéis 1 a 6 comprovam diretamente a <strong>camada Contábil</strong> do pilar. Os
+  setores Fiscal, DP, RH e Legalização ainda não têm painel equivalente em produção — são a
+  fronteira de desenvolvimento do pilar. O painel 6 (DRE Financeiro) é o ponto de conexão
+  formal com o Pilar 2; o painel 8 (distribuição de lucros) conversa com o gatilho do
+  Pilar 5.</p>
+
+  <div class="quote">O que a gente mostra para o cliente não é uma promessa de dashboard. É
+  o dashboard rodando, com o dinheiro dele, há meses.
+  <span class="src">Gilberto Sena — sobre a prova de conceito</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 20 · Pilar 1 · GC</div><h3>Comparativo de custo do Pilar 1</h3></div>
+
+  <p>O Pilar 1 substitui, no todo ou em parte, quatro cargos que a empresa teria de
+  contratar para ter internamente a mesma cobertura contábil-trabalhista com leitura de
+  dados. Os valores de custo total incluem encargos da ordem de 80% sobre o salário de
+  referência do CAGED.</p>
+
+  <table class="data">
+    <tr><th>Cargo interno equivalente</th><th class="num">Salário ref. (CAGED)</th><th class="num">Custo total /mês</th></tr>
+    <tr><td>Analista Contábil</td><td class="num">R$ 5.483,98</td><td class="num">R$ 9.871,16</td></tr>
+    <tr><td>Analista Fiscal</td><td class="num">R$ 4.841,53</td><td class="num">R$ 8.714,75</td></tr>
+    <tr><td>Analista de Departamento Pessoal <span class="small">(premissa)</span></td><td class="num">R$ 3.300,00</td><td class="num">R$ 5.940,00</td></tr>
+    <tr><td>Agente de Recrutamento e Seleção</td><td class="num">R$ 3.504,71</td><td class="num">R$ 6.308,48</td></tr>
+    <tr class="total"><td>Total da equipe interna</td><td class="num">—</td><td class="num">R$ 30.834,39</td></tr>
+  </table>
+
+  <table class="data">
+    <tr><th>Comparação</th><th class="num">Valor</th></tr>
+    <tr><td>Custo da equipe interna equivalente</td><td class="num">R$ 30.834,39/mês</td></tr>
+    <tr><td>Mensalidade do OCEO (sistema completo, cinco pilares)</td><td class="num">R$ 3.500,00/mês</td></tr>
+    <tr class="total"><td>Economia mensal atribuível ao Pilar 1</td><td class="num">R$ 27.334,39 (88,6%)</td></tr>
+    <tr><td>Payback do setup (R$ 12.500) só com a economia do Pilar 1</td><td class="num">≈ 14 dias</td></tr>
+  </table>
+
+  <div class="box prem">
+    <div class="bt">Premissa — leitura do comparativo</div>
+    <p>O comparativo assume que a empresa contrataria os quatro cargos em regime CLT, com
+    encargos de 80%, e que uma pessoa por cargo dá conta do volume. Empresas menores
+    tendem a acumular funções numa pessoa só (e a fazer pior); empresas maiores precisam de
+    mais de uma. O número serve como <strong>ordem de grandeza da economia</strong>, não
+    como cotação. A mensalidade de R$ 3.500 cobre os cinco pilares — atribuí-la
+    integralmente ao Pilar 1 é conservador contra o OCEO.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 21 · Pilar 1 · GC</div><h3>O Pilar 1 no mercado SaaS</h3></div>
+
+  <p>A camada de contabilidade e gestão para PME é o segmento mais povoado do mercado
+  brasileiro de <em>software</em> de gestão. Entender quem já está nele situa o
+  diferencial do OCEO.</p>
+
+  <h4>Quem já está no mercado</h4>
+  <ul>
+    <li><strong>Conta Azul</strong> — gestão financeira e contábil para PME, forte no elo
+    com o escritório de contabilidade parceiro; um dos nomes mais capitalizados do
+    segmento.</li>
+    <li><strong>Omie</strong> — ERP na nuvem para PME com rede de contadores parceiros e
+    posicionamento de "ERP + contador".</li>
+    <li><strong>Bling e Tiny</strong> — mais focados em emissão de nota, controle de
+    estoque e integração com <em>marketplace</em>/e-commerce; entram na contabilidade pela
+    ponta fiscal.</li>
+    <li><strong>Sistemas dos próprios escritórios contábeis</strong> (Domínio/Thomson
+    Reuters, Fortes, Alterdata e correlatos) — robustos na apuração, feitos para o contador,
+    não para o dono.</li>
+  </ul>
+
+  <h4>Onde o OCEO se diferencia</h4>
+  <p><strong>1. Não é ferramenta para o contador — é leitura para o dono.</strong> Os
+  concorrentes de ERP contábil entregam a máquina de apurar; o dono continua dependendo de
+  alguém para traduzir. O OCEO nasce da tradução.</p>
+
+  <p><strong>2. A contabilidade é uma camada, não o produto inteiro.</strong> No OCEO ela
+  vem integrada a finanças, jurídico, marketing e planejamento, com o mesmo dado. Comprar
+  Conta Azul ou Omie resolve um pilar; ainda sobram quatro para o dono contratar e
+  integrar.</p>
+
+  <p><strong>3. Serviço embutido, não só <em>software</em>.</strong> Os concorrentes vendem
+  a licença e deixam a operação com o cliente ou com o contador parceiro. O OCEO embute a
+  operação e o julgamento humano do Grupo Sena — o modelo "Services-as-Software".</p>
+
+  <p><strong>4. Prova de conceito com dado real e histórico.</strong> Não é <em>onboarding</em>
+  de teste — são nove painéis rodando há meses sobre a operação real de uma rede com
+  <em>holding</em> e vinte e quatro unidades.</p>
+
+  <div class="box">
+    <div class="bt">Posição</div>
+    <p>O OCEO não disputa o cliente que quer "só um sistema para emitir nota e o contador
+    fechar". Disputa o dono que já tem um desses e continua sem saber se sobra dinheiro,
+    se o regime está certo e para onde vai o resultado — e que não vai montar uma
+    controladoria para descobrir.</p>
+  </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE IV — PILAR 2 · GF -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte IV · Pilar 2 · Código GF</div>
+  <h2>Gestão Financeira</h2>
+  <div class="rule"></div>
+  <p class="pintro">O pilar da decisão do dia a dia. Pega o dado organizado pelo Pilar 1,
+  soma o extrato bancário via integração e devolve leitura de caixa, DRE explicado em
+  língua de dono, alertas de movimentação, separação entre pessoa física e jurídica e o
+  planejamento do fundo de reserva. Alvo: a empresa que fatura a partir de R$ 50.000 por
+  mês. Sete capítulos.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 22 · Pilar 2 · GF</div><h3>Conceito — leitura, decisão e planejamento</h3></div>
+
+  <p>O Pilar 2 assume a pergunta que vem depois de "como eu estou em número?": <strong>"e
+  agora, o que eu faço com isso?"</strong>. Ele transforma o dado contábil e bancário em
+  três entregas: <strong>leitura</strong> (o que os números dizem), <strong>decisão</strong>
+  (o que eles recomendam olhar) e <strong>planejamento</strong> (como blindar a empresa
+  para o mês que vem).</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — público-alvo</div>
+    <p>O Pilar 2 é calibrado para a <strong>PME que fatura a partir de R$ 50.000/mês</strong>.
+    Abaixo disso, a operação financeira é simples demais para justificar a camada; a partir
+    daí, a complexidade de caixa, prazo e regime já supera o que o dono consegue controlar
+    de cabeça.</p>
+  </div>
+
+  <div class="box fato">
+    <div class="bt">Fato — a dor que o pilar ataca</div>
+    <p>Levantamentos do SEBRAE apontam que cerca de <strong>29% das pequenas empresas
+    fecham antes de cinco anos</strong>, e a gestão financeira deficiente é a causa mais
+    recorrente. O Pilar 2 é a resposta direta a essa estatística.</p>
+  </div>
+
+  <div class="quote">O empresário não morre de falta de venda. Morre de não saber que o
+  dinheiro que entrou já tinha dono antes de entrar.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 23 · Pilar 2 · GF</div><h3>Integração bancária</h3></div>
+
+  <p>A base do pilar é enxergar o dinheiro <strong>de verdade</strong>, não o dinheiro
+  informado. Para isso, o OCEO se conecta às contas bancárias da empresa via
+  <strong>Open Finance</strong>, o padrão regulado de compartilhamento de dados financeiros
+  do Sistema Financeiro Nacional.</p>
+
+  <h4>Funcionalidades</h4>
+  <ul>
+    <li><strong>Consolidação multibanco</strong> — todas as contas da empresa (e, quando o
+    dono autoriza, as contas pessoais relevantes) numa visão só.</li>
+    <li><strong>Categorização automática de movimentação</strong> — cada entrada e saída
+    classificada por natureza, cruzada com o lançamento contábil do Pilar 1.</li>
+    <li><strong>Saldo real x saldo projetado</strong> — o que tem hoje e o que vai ter,
+    considerando o que está agendado a pagar e a receber.</li>
+    <li><strong>Conciliação com o contábil</strong> — divergência entre banco e
+    contabilidade apontada na hora, não no fechamento.</li>
+  </ul>
+
+  <div class="box prem">
+    <div class="bt">Premissa — pendência do projeto</div>
+    <p>A viabilidade técnica e o custo de operar a integração Open Finance em escala (via
+    provedor de <em>open banking</em> ou iniciação direta) ainda estão em validação. É uma
+    pendência registrada do Pilar 2.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 24 · Pilar 2 · GF</div><h3>Leitura simples do balanço e do balancete</h3></div>
+
+  <p>O balanço patrimonial e o balancete são documentos técnicos. O Pilar 2 os
+  <strong>traduz</strong>, sem pedir que o dono aprenda contabilidade.</p>
+
+  <h4>O que a tradução entrega</h4>
+  <ul>
+    <li><strong>"O que a empresa tem"</strong> — disponível em caixa e banco, a receber de
+    clientes, estoque, bens.</li>
+    <li><strong>"O que a empresa deve"</strong> — a fornecedores, a bancos, ao governo, à
+    folha, aos sócios.</li>
+    <li><strong>"O que sobra se tudo fosse liquidado hoje"</strong> — o patrimônio líquido,
+    explicado como a parte que é de fato dos donos.</li>
+    <li><strong>Evolução no tempo</strong> — se a empresa está ficando mais sólida ou se
+    endividando, mês a mês, em gráfico.</li>
+  </ul>
+
+  <p>Cada linha traz o <em>porquê importa</em>: "seu 'a receber' cresceu 40% e seu caixa
+  caiu — você está vendendo mais e financiando o cliente com o seu dinheiro".</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 25 · Pilar 2 · GF</div><h3>DRE explicado — indicador por indicador</h3></div>
+
+  <p>A Demonstração de Resultado do Exercício é o centro do pilar. O OCEO a apresenta em
+  linguagem de dono e destrincha cada indicador que dela deriva.</p>
+
+  <table class="data">
+    <tr><th>Indicador</th><th>Como o OCEO explica</th><th>Decisão que informa</th></tr>
+    <tr><td><strong>Caixa livre</strong></td><td>O dinheiro que sobra de fato depois de pagar tudo o que é obrigação do período — o que pode ser usado sem comprometer a operação.</td><td>Quanto dá para retirar, reinvestir ou reservar sem apertar a empresa.</td></tr>
+    <tr><td><strong>Caixa circulante</strong></td><td>O dinheiro que precisa ficar girando para a operação não travar — pagar fornecedor, folha, tributo no prazo.</td><td>O piso de caixa que nunca deve ser tocado.</td></tr>
+    <tr><td><strong>Margem de contribuição</strong></td><td>Quanto sobra de cada venda depois de tirar só os custos que variam com ela — antes das despesas fixas.</td><td>Quais produtos/serviços realmente pagam a conta; onde dar desconto e onde não.</td></tr>
+    <tr><td><strong>EBITDA</strong></td><td>O resultado que a operação gera antes de juros, impostos sobre o lucro, depreciação e amortização — a "força bruta" do negócio.</td><td>Se a atividade-fim é lucrativa, separada do efeito de dívida e de contabilidade.</td></tr>
+    <tr><td><strong>ROI</strong></td><td>Para cada real investido (em máquina, em campanha, em unidade nova), quanto voltou.</td><td>Onde colocar o próximo real e de onde tirar.</td></tr>
+    <tr><td><strong>Valuation (referência)</strong></td><td>Uma faixa de quanto a empresa valeria, com base em múltiplos de resultado — como referência, não como laudo.</td><td>Preparar venda, entrada de sócio, sucessão, captação.</td></tr>
+  </table>
+
+  <div class="quote">DRE não é para o contador. É para o dono entender que a empresa deu
+  lucro e mesmo assim ele não pode tirar o dinheiro, porque o lucro está no estoque.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 26 · Pilar 2 · GF</div><h3>Alertas, separação PF × PJ e o fundo de reserva</h3></div>
+
+  <h4>Alertas de movimentação</h4>
+  <p>O sistema observa o padrão da empresa e avisa quando algo foge dele:</p>
+  <ul>
+    <li>saída atípica em valor ou em beneficiário;</li>
+    <li>concentração de recebimento num único cliente acima de um limite;</li>
+    <li>caixa projetado furando o piso de caixa circulante em data futura;</li>
+    <li>tributo ou folha a vencer sem provisão correspondente;</li>
+    <li>margem de um produto caindo mês a mês.</li>
+  </ul>
+  <p>O alerta aponta a <strong>consequência</strong> ("se nada mudar, dia 20 falta caixa
+  para a folha"), não só o fato.</p>
+
+  <h4>Transparência entre pessoa física e pessoa jurídica</h4>
+  <p>Um dos vícios mais comuns e mais destrutivos da pequena empresa é a mistura de caixa
+  do dono com caixa da empresa. O Pilar 2 mantém um <strong>centro de custos PF × PJ</strong>:
+  mostra, sem julgamento, quanto saiu da empresa para a vida pessoal do sócio no período,
+  como pró-labore, distribuição de lucro ou retirada informal — e o efeito disso no caixa
+  e no resultado.</p>
+
+  <h4>O fundo de reserva</h4>
+  <p>O planejamento de blindagem do pilar tem um padrão explícito:</p>
+  <div class="box fato">
+    <div class="bt">Padrão — dimensionamento da reserva</div>
+    <p>O fundo de reserva-alvo do OCEO equivale a <strong>três meses de ponto de
+    equilíbrio</strong> da empresa — ou seja, três meses do valor necessário para manter as
+    portas abertas sem nenhuma venda. O sistema calcula esse alvo a partir do custo fixo e
+    da margem, acompanha o quanto já foi acumulado e só libera o Pilar 5 quando a reserva
+    está completa.</p>
+  </div>
+  <p>A reserva não é um número fixo — ela sobe e desce com o custo fixo da empresa, e o
+  sistema recalcula.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 27 · Pilar 2 · GF</div><h3>Comparativo de custo do Pilar 2</h3></div>
+
+  <p>O Pilar 2 substitui a função financeira que, numa empresa estruturada, se divide entre
+  um analista (a execução) e um diretor financeiro (a leitura estratégica e a decisão).</p>
+
+  <table class="data">
+    <tr><th>Cargo interno equivalente</th><th class="num">Salário ref. (CAGED)</th><th class="num">Custo total /mês</th><th class="num">Economia vs OCEO</th></tr>
+    <tr><td>Analista Financeiro</td><td class="num">R$ 4.883,27</td><td class="num">R$ 8.789,90</td><td class="num">R$ 5.289,90 (60,2%)</td></tr>
+    <tr><td>Diretor Financeiro</td><td class="num">R$ 24.106,54</td><td class="num">R$ 43.391,77</td><td class="num">R$ 39.891,77 (91,9%)</td></tr>
+  </table>
+
+  <p>A comparação com o analista é a mais conservadora: mesmo trocando só a execução
+  financeira de nível analista pelo OCEO, a economia já é de <strong>60,2%</strong>. A
+  comparação com o diretor financeiro mostra o teto: a leitura estratégica que uma PME
+  quase nunca consegue pagar (R$ 43 mil/mês de custo total) o OCEO entrega dentro da
+  mensalidade — economia de <strong>91,9%</strong>.</p>
+
+  <div class="box prem">
+    <div class="bt">Premissa</div>
+    <p>Poucas PMEs contratam um diretor financeiro dedicado; o cargo entra no comparativo
+    como referência do <em>valor da entrega</em>, não como despesa que a empresa
+    necessariamente teria. O piso realista de comparação é o analista financeiro.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 28 · Pilar 2 · GF</div><h3>O Pilar 2 no mercado SaaS</h3></div>
+
+  <h4>Quem já está no mercado</h4>
+  <ul>
+    <li><strong>Granatum</strong> — fluxo de caixa e gestão financeira para PME, com DRE e
+    conciliação; um dos nomes tradicionais do nicho.</li>
+    <li><strong>Conta Azul</strong> — entra também aqui, com fluxo de caixa e conciliação
+    ligados à contabilidade.</li>
+    <li><strong>eGestor, Nibo, Zeev/Vhsys e correlatos</strong> — gestão financeira e
+    emissão para micro e pequena empresa.</li>
+    <li><strong>Agregadores financeiros via Open Finance</strong> (Klavi, Belvo, Pluggy como
+    infraestrutura) — permitem que qualquer plataforma consolide contas bancárias.</li>
+    <li><strong>Planilha e o próprio internet banking</strong> — ainda o "concorrente" mais
+    usado pela PME real.</li>
+  </ul>
+
+  <h4>Onde o OCEO se diferencia</h4>
+  <p><strong>1. Não entrega gráfico — entrega leitura.</strong> Os concorrentes mostram o
+  fluxo de caixa; o OCEO diz o que fazer com ele, com a consequência escrita.</p>
+  <p><strong>2. O dado vem do Pilar 1, não de digitação.</strong> Em ferramentas
+  financeiras isoladas, a qualidade do relatório depende de o dono lançar tudo
+  corretamente. No OCEO, a base já vem conciliada da camada contábil.</p>
+  <p><strong>3. O fundo de reserva é regra do produto.</strong> Nenhuma ferramenta de
+  fluxo de caixa força a disciplina de reserva de três meses de ponto de equilíbrio como
+  gatilho para liberar o passo seguinte. No OCEO isso é estrutural.</p>
+  <p><strong>4. PF × PJ tratado de frente.</strong> A mistura caixa do dono / caixa da
+  empresa é o problema número um da PME e quase nenhuma ferramenta o encara — o OCEO o
+  transforma em centro de custos visível.</p>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE V — PILAR 3 · GJ -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte V · Pilar 3 · Código GJ</div>
+  <h2>Jurídico</h2>
+  <div class="rule"></div>
+  <p class="pintro">O advogado consultivo interno que a pequena empresa nunca teve à mão.
+  Gera contratos-modelo, analisa contratos recebidos apontando risco e incoerência, procura
+  oportunidade legal e tributária no próprio dado da empresa e responde dúvida jurídica em
+  linguagem de dono — sempre do lado de dentro da linha do ato privativo de advogado.
+  Cinco capítulos.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 29 · Pilar 3 · GJ</div><h3>Conceito — advogado consultivo interno</h3></div>
+
+  <p>A pequena empresa vive uma de duas situações no jurídico: não tem advogado e assina
+  tudo no escuro, ou tem um advogado por hora que ela evita acionar para não gerar
+  honorário — e acaba, de novo, assinando no escuro. O Pilar 3 elimina esse dilema
+  colocando um <strong>consultivo jurídico de plantão</strong> dentro do sistema, sem
+  relógio rodando.</p>
+
+  <p>Ele funciona como o <strong>departamento jurídico interno</strong> de uma empresa
+  grande faria no dia a dia: padroniza contrato, revisa o que chega, sinaliza risco,
+  aponta oportunidade, tira dúvida — e escala para o advogado com OAB o que for ato
+  privativo.</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — a fronteira legal</div>
+    <p>A <strong>Lei 8.906/1994</strong> (Estatuto da Advocacia) reserva a advogado inscrito
+    na OAB a postulação a órgão do Judiciário e as atividades de consultoria, assessoria e
+    direção jurídicas <em>quando exercidas como advocacia</em>. O Pilar 3 é desenhado como
+    ferramenta de apoio e informação ao empresário sobre o próprio negócio, com um
+    advogado com OAB do Grupo Sena por trás mantendo os modelos e assumindo o ato
+    privativo. O capítulo 32 detalha essa linha.</p>
+  </div>
+
+  <div class="quote">O dono não liga para o advogado por causa dos R$ 400 da consulta. Aí
+  assina um contrato com reajuste anual composto e multa de rescisão de seis meses. O
+  barato saiu caríssimo.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 30 · Pilar 3 · GJ</div><h3>Geração e análise de contratos</h3></div>
+
+  <h4>Geração de contratos padrão e modelo</h4>
+  <p>O sistema produz a minuta dos instrumentos que a PME mais usa, a partir de modelos
+  escritos e mantidos pelo advogado do Grupo Sena:</p>
+  <ul>
+    <li>prestação de serviço (nas duas pontas — a empresa como contratada e como contratante);</li>
+    <li>fornecimento e compra recorrente;</li>
+    <li>locação comercial;</li>
+    <li>contrato de trabalho e de experiência (em conjunto com o setor DP do Pilar 1);</li>
+    <li>parceria, representação comercial e comissão;</li>
+    <li>confidencialidade (NDA);</li>
+    <li>societário básico — contrato social, alteração, acordo de sócios, distrato;</li>
+    <li>termos de uso e política de privacidade para quem vende <em>online</em>.</li>
+  </ul>
+  <p>A minuta sai preenchida com os dados da empresa (puxados do Pilar 1) e com as
+  cláusulas-padrão calibradas para proteger o lado do cliente — prazo, reajuste, multa,
+  rescisão, foro, LGPD.</p>
+
+  <h4>Análise de contratos recebidos</h4>
+  <p>O empresário joga no sistema o contrato que vai assinar, e o Pilar 3 devolve:</p>
+  <ul>
+    <li><strong>Mapa de risco</strong> — cláusulas que expõem a empresa: multa
+    desproporcional, reajuste composto, exclusividade, renovação automática, garantias
+    pessoais do sócio, foro distante.</li>
+    <li><strong>Incoerências e lacunas</strong> — prazos que se contradizem, valor por
+    extenso diferente do numérico, obrigação sem contrapartida, ausência de cláusula de
+    rescisão ou de reajuste.</li>
+    <li><strong>Tradução das cláusulas críticas</strong> — cada ponto de risco explicado em
+    uma frase de dono, com a consequência prática.</li>
+    <li><strong>Sugestão de contraproposta</strong> — a redação alternativa para negociar.</li>
+  </ul>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 31 · Pilar 3 · GJ</div><h3>Oportunidades legais e esclarecimento contínuo</h3></div>
+
+  <h4>Busca de oportunidades tributárias e financeiras</h4>
+  <p>Cruzando o dado do Pilar 1 com a legislação, o Pilar 3 aponta oportunidades que a
+  empresa está deixando na mesa:</p>
+  <ul>
+    <li>regime tributário mais eficiente para o faturamento e a atividade atuais;</li>
+    <li>créditos tributários não aproveitados;</li>
+    <li>benefícios fiscais setoriais ou regionais aplicáveis ao CNAE;</li>
+    <li>incentivos e linhas de crédito para os quais a empresa se qualifica;</li>
+    <li>ajustes contratuais para reduzir exposição tributária de forma lícita;</li>
+    <li>impactos e oportunidades da transição para IBS/CBS específicos do negócio.</li>
+  </ul>
+  <p>Toda oportunidade vem com a base legal citada e com a ressalva de que a execução
+  depende de validação do profissional responsável.</p>
+
+  <h4>Esclarecimentos jurídicos e consulta livre sobre o dado da empresa</h4>
+  <p>O empresário pergunta em linguagem natural — "posso demitir por justa causa nesse
+  caso?", "esse cliente não paga há 90 dias, o que eu faço?", "preciso registrar essa
+  marca?", "o que muda para mim com a reforma?" — e recebe uma resposta estruturada,
+  ancorada no dado da própria empresa e na base de conhecimento do Grupo Sena, com o
+  encaminhamento para o advogado quando o caso exige ato privativo.</p>
+
+  <div class="quote">Não é o Google respondendo lei em tese. É a resposta olhando para o
+  contrato daquele cliente, o histórico daquele fornecedor, o regime daquela empresa.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 32 · Pilar 3 · GJ</div><h3>Ponto de atenção regulatória — a linha da OAB</h3></div>
+
+  <p>O Pilar 3 é o que exige o desenho de escopo mais cuidadoso de todo o OCEO, porque a
+  advocacia é atividade privativa e fiscalizada.</p>
+
+  <h4>O que o Pilar 3 faz</h4>
+  <ul>
+    <li>gera minutas a partir de modelos mantidos por advogado com OAB;</li>
+    <li>analisa e traduz contratos para o empresário entender o que assina;</li>
+    <li>informa sobre legislação aplicável ao negócio;</li>
+    <li>organiza o dado jurídico da empresa (contratos, prazos, obrigações);</li>
+    <li>encaminha ao advogado responsável o que for ato privativo.</li>
+  </ul>
+
+  <h4>O que o Pilar 3 não faz</h4>
+  <ul>
+    <li>não postula em juízo nem representa a empresa perante o Judiciário;</li>
+    <li>não emite parecer jurídico como peça de advocacia assinada pelo sistema;</li>
+    <li>não substitui a atuação do advogado nos atos que a Lei 8.906/1994 lhe reserva;</li>
+    <li>não se apresenta como escritório de advocacia nem usa a palavra "advogado" para
+    descrever o software.</li>
+  </ul>
+
+  <div class="box prem">
+    <div class="bt">Premissa — pendência do projeto</div>
+    <p>Falta definir se o OCEO terá um <strong>advogado parceiro fixo</strong> dedicado à
+    personalização e à execução dos atos privativos para os clientes, ou se essa camada
+    fica sempre com o advogado do próprio cliente. É uma pendência registrada do Pilar 3.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 33 · Pilar 3 · GJ</div><h3>Comparativo de custo e o Pilar 3 no mercado SaaS</h3></div>
+
+  <h4>Comparativo de custo</h4>
+  <table class="data">
+    <tr><th>Cargo interno equivalente</th><th class="num">Salário ref. (CAGED)</th><th class="num">Custo total /mês</th><th class="num">Economia vs OCEO</th></tr>
+    <tr><td>Advogado Empresarial (consultivo, dedicado)</td><td class="num">R$ 8.956,85</td><td class="num">R$ 16.122,33</td><td class="num">R$ 12.622,33 (78,3%)</td></tr>
+  </table>
+  <p>Uma PME praticamente nunca contrata um advogado empresarial dedicado em regime CLT —
+  o custo total de R$ 16 mil/mês é proibitivo para o porte. Na prática, ela fica sem
+  jurídico. O Pilar 3 entrega a função consultiva contínua dentro da mensalidade,
+  economia de <strong>78,3%</strong> ante o cargo dedicado e cobertura de uma área que
+  antes simplesmente não existia na empresa.</p>
+
+  <h4>O mercado de legaltech</h4>
+  <div class="box fato">
+    <div class="bt">Fato — o setor no Brasil</div>
+    <p>O ecossistema brasileiro de <em>legaltechs</em> passa de <strong>190 empresas</strong>
+    mapeadas, com aporte acumulado estimado acima de <strong>R$ 700 milhões</strong>. Cerca
+    de <strong>três em cada quatro profissionais do Direito</strong> já relatam usar
+    inteligência artificial generativa em alguma tarefa. Movimentos recentes de consolidação
+    incluem a aquisição da MinutaIA (agosto de 2026) e o crescimento de Jusbrasil/Jus IA e
+    Cria.AI.</p>
+  </div>
+
+  <h4>Onde o OCEO se diferencia</h4>
+  <p><strong>1. O cliente é o dono da PME, não o advogado.</strong> A maioria das
+  legaltechs vende produtividade para escritório de advocacia — pesquisa de jurisprudência,
+  geração de petição, gestão de processo. O Pilar 3 fala com o empresário leigo sobre o
+  contrato e o risco dele.</p>
+  <p><strong>2. Jurídico integrado ao contábil e ao financeiro.</strong> A análise de
+  oportunidade tributária só é possível porque o Pilar 3 lê o dado do Pilar 1. Uma
+  legaltech isolada não tem esse dado.</p>
+  <p><strong>3. Humano com OAB no circuito.</strong> Não é geração de minuta "por conta e
+  risco do usuário" — há advogado do Grupo Sena mantendo os modelos e assumindo o ato
+  privativo.</p>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE VI — PILAR 4 · GM -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte VI · Pilar 4 · Código GM</div>
+  <h2>Marketing e Vendas</h2>
+  <div class="rule"></div>
+  <p class="pintro">A agência de marketing e a estrutura comercial por dentro do sistema.
+  Conteúdo e social, tráfego pago com o cliente dono do gerenciador, e um agente de
+  inteligência artificial fazendo o primeiro atendimento comercial no WhatsApp. Assessoria
+  externa só entra para campanha específica. Três capítulos.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 34 · Pilar 4 · GM</div><h3>Conceito — a agência por dentro</h3></div>
+
+  <p>A pequena empresa que contrata marketing costuma cair num de dois extremos: a agência
+  cara que não presta conta e some, ou o "sobrinho" que posta quando lembra. O Pilar 4
+  interna essa função: <strong>uma agência e um comercial dentro do sistema</strong>, com o
+  dado da operação à vista e prestação de conta embutida.</p>
+
+  <p>A lógica é a mesma dos outros pilares: a tecnologia faz o volume repetitivo — produzir
+  conteúdo, configurar campanha, responder o primeiro contato — e o time do Grupo Sena faz
+  a estratégia, a linha editorial e o que o agente de IA não resolve.</p>
+
+  <div class="box">
+    <div class="bt">Limite de escopo</div>
+    <p>Assessoria de marketing externa e especializada (uma campanha de lançamento
+    complexa, uma produção audiovisual grande) fica <strong>fora</strong> do Pilar 4 e é
+    contratada à parte. O pilar cobre a operação contínua de presença e de primeiro
+    atendimento, não o projeto pontual de grande porte.</p>
+  </div>
+
+  <div class="quote">Marketing sem o número da operação do lado é aposta. O Pilar 4 sabe
+  qual produto tem margem antes de decidir qual produto anunciar.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 35 · Pilar 4 · GM</div><h3>Conteúdo, tráfego pago e agente comercial de IA</h3></div>
+
+  <h4>Social media e conteúdo</h4>
+  <ul>
+    <li>linha editorial definida com o time do Grupo Sena a partir do posicionamento do
+    negócio;</li>
+    <li>calendário de publicação e produção de posts, legendas e roteiros de vídeo curto;</li>
+    <li>adaptação de um mesmo conteúdo para os formatos de cada rede;</li>
+    <li>acompanhamento de alcance, engajamento e crescimento, com leitura do que funcionou.</li>
+  </ul>
+
+  <h4>Tráfego pago</h4>
+  <ul>
+    <li>estruturação de campanha em Meta (Facebook/Instagram) e Google;</li>
+    <li>definição de público, criativo e verba recomendada;</li>
+    <li>acompanhamento de custo por resultado (lead, conversa, venda) e otimização;</li>
+    <li>relatório em linguagem de dono: "cada real investido trouxe X em venda".</li>
+  </ul>
+  <div class="box fato">
+    <div class="bt">Fato — a verba de mídia é do cliente</div>
+    <p>O <strong>cliente é o dono do gerenciador de anúncios (Business Manager)</strong> e
+    paga a plataforma diretamente. A verba de mídia não passa pelo caixa do OCEO e não
+    está na mensalidade. Isso protege o cliente (a conta de anúncios é dele, com histórico
+    e ativos) e mantém a transparência do gasto.</p>
+  </div>
+
+  <h4>Atendimento comercial via agente de IA</h4>
+  <p>Um agente de inteligência artificial faz o <strong>primeiro atendimento comercial no
+  WhatsApp</strong>: responde a dúvida inicial, qualifica o interessado, agenda, e passa
+  para um humano o que exige negociação. Roda sobre a <strong>WhatsApp Business Cloud
+  API</strong>, oficial da Meta.</p>
+  <div class="box fato">
+    <div class="bt">Fato — modelo de custo do WhatsApp</div>
+    <p>A WhatsApp Business Cloud API cobra <strong>por conversa</strong>, da ordem de
+    <strong>R$ 0,15</strong> cada, com uma <strong>franquia de cerca de 1.000 conversas
+    gratuitas por mês</strong>. A partir de <strong>1º de outubro de 2026</strong>, a Meta
+    ajusta o modelo de cobrança, com cobrança adicional sobre determinados tipos de
+    mensagem. O consumo acima da franquia é <strong>custo variável repassado</strong> ao
+    cliente, identificado na fatura.</p>
+  </div>
+  <div class="box prem">
+    <div class="bt">Premissa — pendência do projeto</div>
+    <p>Modelar com precisão o custo variável do WhatsApp Business API dentro da margem do
+    OCEO é uma pendência registrada do Pilar 4.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 36 · Pilar 4 · GM</div><h3>Comparativo de custo e o Pilar 4 no mercado SaaS</h3></div>
+
+  <h4>Comparativo de custo</h4>
+  <table class="data">
+    <tr><th>Cargo interno equivalente</th><th class="num">Salário ref. (CAGED)</th><th class="num">Custo total /mês</th></tr>
+    <tr><td>Analista de Marketing</td><td class="num">R$ 4.864,33</td><td class="num">R$ 8.755,79</td></tr>
+    <tr><td>Gerente de Tráfego Pago</td><td class="num">R$ 6.100,70</td><td class="num">R$ 10.981,26</td></tr>
+    <tr><td>SDR / pré-vendas <span class="small">(premissa)</span></td><td class="num">R$ 3.500,00</td><td class="num">R$ 6.300,00</td></tr>
+    <tr class="total"><td>Total da equipe interna</td><td class="num">—</td><td class="num">R$ 26.037,05</td></tr>
+  </table>
+  <table class="data">
+    <tr><th>Comparação</th><th class="num">Valor</th></tr>
+    <tr><td>Custo da equipe interna equivalente</td><td class="num">R$ 26.037,05/mês</td></tr>
+    <tr><td>Mensalidade do OCEO (sistema completo)</td><td class="num">R$ 3.500,00/mês</td></tr>
+    <tr class="total"><td>Economia mensal atribuível ao Pilar 4</td><td class="num">R$ 22.537,05 (86,6%)</td></tr>
+    <tr><td>Payback do setup só com a economia do Pilar 4</td><td class="num">≈ 17 dias</td></tr>
+  </table>
+  <p class="small">Não inclui a verba de mídia (paga pelo cliente à plataforma) nem o
+  custo variável de WhatsApp acima da franquia (repassado).</p>
+
+  <h4>O mercado</h4>
+  <div class="box fato">
+    <div class="bt">Fato — o canal</div>
+    <p>Cerca de <strong>79%</strong> das empresas brasileiras usam o WhatsApp para se
+    comunicar com clientes, o que faz do canal o campo natural do agente comercial do
+    Pilar 4.</p>
+  </div>
+  <p><strong>Quem já está no mercado:</strong> plataformas de automação de atendimento e
+  CRM de conversa como SocialHub, Atendente.AI, Cubo Suite, Clint, Kommo, Take Blip e
+  correlatas; agências de marketing tradicionais; ferramentas de agendamento de conteúdo
+  (mLabs, Etus).</p>
+
+  <h4>Onde o OCEO se diferencia</h4>
+  <p><strong>1. Marketing com o dado da operação junto.</strong> O Pilar 4 sabe qual
+  produto tem margem (Pilar 2) e qual cliente concentra risco antes de decidir o que
+  anunciar e para quem.</p>
+  <p><strong>2. Agência + ferramenta, não só ferramenta.</strong> As plataformas de
+  automação entregam o <em>software</em> e deixam a estratégia com o cliente. O Pilar 4
+  embute o time — de novo, "Services-as-Software".</p>
+  <p><strong>3. Uma fatura, não quatro contratos.</strong> Ferramenta de conteúdo +
+  ferramenta de tráfego + plataforma de WhatsApp + agência: no OCEO isso é um pilar da
+  mensalidade única.</p>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE VII — PILAR 5 · GI -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte VII · Pilar 5 · Código GI</div>
+  <h2>Educação Pré-Investimento</h2>
+  <div class="rule"></div>
+  <p class="pintro">O último pilar a entrar no ar, e só depois que a reserva está formada e
+  há caixa livre com folga. Ensina, em rota estritamente educacional e genérica, o universo
+  de produtos financeiros — sem individualizar por CPF ou CNPJ, sem vínculo com corretora e
+  sem receber comissão. Quatro capítulos, com atenção especial à fronteira da CVM.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 37 · Pilar 5 · GI</div><h3>Conceito e a mudança de nome</h3></div>
+
+  <p>Este pilar começou com o nome <strong>"Criação de Renda Passiva"</strong>. O nome foi
+  trocado para <strong>"Educação Pré-Investimento"</strong> por uma razão que é de
+  princípio e de conformidade: o OCEO <strong>não</strong> promete renda, não recomenda
+  onde aplicar e não faz o investimento. Ele <strong>educa o empresário</strong> para que
+  ele chegue à mesa de investimento — com um assessor licenciado, com a corretora que
+  escolher — sabendo o que está fazendo.</p>
+
+  <p>A entrega do pilar é <strong>preparo</strong>, não alocação: o dono aprende os
+  conceitos, entende o próprio perfil em termos genéricos, conhece o universo de produtos
+  que existe e os riscos de cada classe — e a decisão de investir, quanto e em quê,
+  acontece fora do OCEO, com quem tem licença para orientá-la.</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — por que só entra por último</div>
+    <p>O Pilar 5 só é ativado quando <strong>duas condições</strong> do Pilar 2 são
+    satisfeitas: o <strong>fundo de reserva</strong> (três meses de ponto de equilíbrio)
+    está completo, e existe <strong>caixa livre com margem</strong> acima do necessário
+    para a operação. Falar de investimento antes disso seria irresponsável.</p>
+  </div>
+
+  <div class="quote">Antes de ensinar alguém a investir, você tem que garantir que a
+  empresa dele não vai quebrar no primeiro mês ruim. Reserva primeiro. Sempre.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 38 · Pilar 5 · GI</div><h3>Gatilho, perfil e universo de produtos</h3></div>
+
+  <h4>Gatilho de ativação</h4>
+  <p>O sistema monitora o Pilar 2 e libera o Pilar 5 quando a reserva-alvo está formada.
+  A partir daí, considera "excedente destinável" apenas o valor acima da reserva e do
+  caixa circulante, com um piso mínimo — padrão de <strong>pelo menos 10% do caixa livre
+  disponível</strong> — para que a conversa de investimento só comece quando há folga
+  real.</p>
+
+  <h4>Perfil comportamental genérico</h4>
+  <p>O pilar apresenta os três perfis clássicos — <strong>conservador</strong>,
+  <strong>moderado</strong>, <strong>arrojado</strong> — de forma <strong>educativa e não
+  vinculante</strong>. O empresário se reconhece num deles; o sistema não "atribui" um
+  perfil a um CPF nem gera recomendação a partir dele. É material de formação, não
+  <em>suitability</em> regulado.</p>
+
+  <h4>Universo de produtos</h4>
+  <p>O pilar explica, em nível introdutório, as classes de ativo e seus riscos:</p>
+  <ul>
+    <li><strong>Renda fixa</strong> — Tesouro Direto, CDB, LCI/LCA, CRI/CRA, debêntures:
+    como funcionam, o que é risco de crédito, de mercado e de liquidez, o papel do FGC;</li>
+    <li><strong>Renda variável</strong> — ações, fundos imobiliários, ETFs: o que é
+    volatilidade, horizonte, diversificação;</li>
+    <li><strong>Fundos de investimento</strong> — tipos, taxas, come-cotas;</li>
+    <li><strong>Criptoativos</strong> — o que são, por que o risco é alto, o que é
+    custódia;</li>
+    <li><strong>Previdência e produtos de longo prazo</strong>.</li>
+  </ul>
+  <p>Nomes de instituições (por exemplo, XP ou BTG) aparecem apenas como
+  <strong>exemplo ilustrativo</strong> de onde esses produtos são negociados — nunca como
+  indicação.</p>
+
+  <h4>Ferramentas de estudo</h4>
+  <p>O pilar oferece ferramentas educativas de análise sobre <strong>dado público de
+  mercado</strong> — por exemplo, leitura de retração e projeção por níveis de Fibonacci
+  aplicada a séries históricas públicas, com fim didático. Nada disso opera sobre a
+  carteira do cliente nem gera ordem.</p>
+
+  <div class="box">
+    <div class="bt">Aviso legal padrão</div>
+    <p>Toda saída do Pilar 5 carrega um <em>disclaimer</em>: conteúdo de caráter
+    exclusivamente educacional e informativo, que não constitui recomendação, consultoria
+    ou oferta de valores mobiliários; decisões de investimento devem ser tomadas com
+    profissional habilitado. O texto padrão do <em>disclaimer</em> ainda está em validação
+    com o jurídico — pendência registrada do pilar.</p>
+  </div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 39 · Pilar 5 · GI</div><h3>Ponto de atenção regulatória — CVM e a trava do AAI</h3></div>
+
+  <div class="box fato">
+    <div class="bt">Fato — o marco regulatório</div>
+    <p>As <strong>Resoluções CVM nº 19 e nº 21, ambas de 2021</strong>, disciplinam a
+    consultoria e a análise de valores mobiliários e o agente autônomo de investimento
+    (AAI). Um sistema que faça <strong>recomendação de carteira personalizada por perfil</strong>
+    (o chamado <em>robo-advisor</em>) exerce <strong>consultoria de valores mobiliários</strong>
+    e precisa de registro na CVM. Além disso, o <strong>AAI só pode estar vinculado a uma
+    corretora por vez</strong> para a distribuição de produtos de renda variável.</p>
+  </div>
+
+  <h4>A decisão de escopo do OCEO</h4>
+  <p>Diante desse quadro, o Pilar 5 adota deliberadamente a <strong>rota educacional
+  genérica pura</strong>:</p>
+  <ul>
+    <li><strong>não individualiza</strong> — nenhuma saída é calculada para um CPF ou CNPJ
+    específico;</li>
+    <li><strong>não recomenda</strong> — não diz "compre este ativo" nem "monte esta
+    carteira";</li>
+    <li><strong>não vincula corretora</strong> — não encaminha o cliente a uma instituição
+    e não opera como distribuidor;</li>
+    <li><strong>não recebe comissão</strong> — não há <em>rebate</em>, <em>revenue
+    share</em> ou qualquer remuneração de instituição financeira sobre o que o cliente vier
+    a investir.</li>
+  </ul>
+  <p>Com isso, o pilar se mantém como <strong>produção de conteúdo educacional</strong> —
+  atividade livre — e não como consultoria ou distribuição regulada. Se, no futuro, o
+  Grupo Sena quiser oferecer a camada de recomendação individualizada, isso será um
+  serviço separado, com o registro regulatório próprio, e não uma função embutida no
+  OCEO.</p>
+
+  <div class="quote">A hora que o sistema disser "põe seu dinheiro aqui", ele virou outra
+  coisa, com outra lei em cima. O Pilar 5 ensina a pescar. Não entrega o peixe nem indica
+  o lago.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 40 · Pilar 5 · GI</div><h3>Comparativo de custo e o Pilar 5 no mercado</h3></div>
+
+  <h4>Comparativo de custo</h4>
+  <table class="data">
+    <tr><th>Cargo interno equivalente</th><th class="num">Salário ref. (CAGED)</th><th class="num">Custo total /mês</th><th class="num">Economia vs OCEO</th></tr>
+    <tr><td>Analista de Fundos / Educação Financeira</td><td class="num">R$ 5.335,73</td><td class="num">R$ 9.604,31</td><td class="num">R$ 6.104,31 (63,6%)</td></tr>
+  </table>
+  <div class="box prem">
+    <div class="bt">Premissa — o comparativo mais artificial dos cinco</div>
+    <p>Nenhuma PME contrata um analista de fundos dedicado. Este comparativo serve só como
+    referência de ordem de grandeza do valor da entrega educacional continuada; não
+    representa uma despesa que a empresa teria de fato. É o comparativo mais frágil do
+    conjunto e é apresentado como tal.</p>
+  </div>
+
+  <h4>O mercado</h4>
+  <p>O campo de <strong>educação financeira</strong> no Brasil é ocupado por: a B3 Educação
+  (mais de 500 conteúdos gratuitos), plataformas como Xpeed/XP School, escolas de
+  investimento independentes, canais de criador de conteúdo e cursos avulsos. Do lado da
+  recomendação, os <em>robo-advisors</em> (Magnetis, Warren e correlatos) operam com
+  registro na CVM.</p>
+
+  <h4>Onde o OCEO se diferencia</h4>
+  <p><strong>1. Educação no contexto da empresa, não do indivíduo genérico.</strong> O
+  conteúdo entra quando a empresa do aluno já tem reserva e excedente — o aprendizado
+  chega no momento em que ele vai usar.</p>
+  <p><strong>2. Sequenciado pelo sistema.</strong> Não é uma biblioteca de vídeos solta —
+  o Pilar 5 só libera o tema quando o Pilar 2 diz que faz sentido.</p>
+  <p><strong>3. Sem conflito de interesse.</strong> Como não recebe comissão e não vincula
+  corretora, o conteúdo não tem incentivo para empurrar produto — diferente de boa parte
+  da "educação" gratuita do mercado, que é funil de captação de corretora.</p>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE VIII — COMPARATIVO CENTRAL -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte VIII</div>
+  <h2>O comparativo central e os números</h2>
+  <div class="rule"></div>
+  <p class="pintro">A soma das cinco frentes contra uma mensalidade. É o argumento que a
+  cena 5 do vídeo mostra numa tela só, e que aqui aparece com cada linha aberta e com a
+  disciplina de fato e premissa aplicada a cada valor.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 41</div><h3>A tese do comparativo</h3></div>
+
+  <p>Todo capítulo de pilar terminou com um comparativo local. Reunidos, eles respondem a
+  uma pergunta simples: <strong>quanto custaria montar internamente uma estrutura que
+  entregasse o que os cinco pilares do OCEO entregam?</strong></p>
+
+  <p>A resposta não é uma cotação — é uma <strong>ordem de grandeza</strong>. Serve para
+  situar a mensalidade de R$ 3.500 na escala certa: ela não se compara ao preço de um
+  <em>software</em>, se compara ao custo de uma folha de pagamento inteira de retaguarda.</p>
+
+  <p>Regras da conta:</p>
+  <ul>
+    <li>salários são o piso de referência do <strong>CAGED</strong> para o cargo, onde
+    existe (fato); onde não existe cargo isolável, o valor é <strong>premissa</strong>
+    construída por proporção e assinalada;</li>
+    <li>o custo total por cargo aplica encargos da ordem de <strong>80%</strong> sobre o
+    salário — padrão de custo de empregado CLT no Brasil;</li>
+    <li>para o Pilar 2, usa-se o <strong>Analista Financeiro</strong> (não o Diretor), a
+    leitura mais conservadora contra o OCEO;</li>
+    <li>assume-se <strong>uma pessoa por cargo</strong> — empresas maiores precisariam de
+    mais, o que aumentaria a economia.</li>
+  </ul>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 42</div><h3>A soma das cinco frentes × OCEO</h3></div>
+
+  <table class="data">
+    <tr><th>Pilar</th><th>Cargo(s) interno(s) equivalente(s)</th><th class="num">Custo total /mês</th></tr>
+    <tr><td>GC · Pilar 1</td><td>Analista Contábil + Analista Fiscal + Analista de DP + Agente de R&amp;S</td><td class="num">R$ 30.834,39</td></tr>
+    <tr><td>GF · Pilar 2</td><td>Analista Financeiro</td><td class="num">R$ 8.789,90</td></tr>
+    <tr><td>GJ · Pilar 3</td><td>Advogado Empresarial consultivo</td><td class="num">R$ 16.122,33</td></tr>
+    <tr><td>GM · Pilar 4</td><td>Analista de Marketing + Gerente de Tráfego + SDR</td><td class="num">R$ 26.037,05</td></tr>
+    <tr><td>GI · Pilar 5</td><td>Analista de Fundos / Educação Financeira</td><td class="num">R$ 9.604,31</td></tr>
+    <tr class="total"><td colspan="2">Custo total da estrutura interna equivalente</td><td class="num">R$ 91.387,98</td></tr>
+  </table>
+
+  <table class="data">
+    <tr><th>Comparação central</th><th class="num">Valor</th></tr>
+    <tr><td>Estrutura interna equivalente</td><td class="num">R$ 91.387,98/mês</td></tr>
+    <tr><td>OCEO — mensalidade única, cinco pilares</td><td class="num">R$ 3.500,00/mês</td></tr>
+    <tr class="total"><td>Economia mensal</td><td class="num">R$ 87.887,98 (96,2%)</td></tr>
+    <tr><td>Economia em 12 meses</td><td class="num">≈ R$ 1.054.655,76</td></tr>
+    <tr><td>Payback do setup (R$ 12.500)</td><td class="num">≈ 4 dias de economia</td></tr>
+  </table>
+
+  <div class="quote">Noventa e um mil por mês para ter tudo isso dentro de casa. Ou três
+  mil e quinhentos. Essa é a conta.
+  <span class="src">Cena 5 do vídeo institucional</span></div>
+
+  <p>O número de doze meses — mais de um milhão de reais — é o que dá a dimensão real: o
+  OCEO não é uma linha de despesa a mais no orçamento da PME. É a substituição de uma
+  estrutura que a esmagadora maioria das pequenas empresas <strong>nunca poderia
+  bancar</strong>, e por isso simplesmente não tem.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 43</div><h3>Disciplina metodológica — fato e premissa</h3></div>
+
+  <p>Esta obra e todo o material do OCEO seguem uma regra herdada da prática de consultoria
+  do Grupo Sena: <strong>nunca apresentar estimativa como se fosse número fechado</strong>.</p>
+
+  <div class="box fato">
+    <div class="bt">É fato (fonte pública ou dado real)</div>
+    <ul>
+      <li>o preço do OCEO: setup R$ 12.500 + R$ 3.500/mês;</li>
+      <li>os pisos salariais do CAGED usados nos comparativos;</li>
+      <li>os dados de mercado do SEBRAE (nº de PMEs, participação no PIB, mortalidade);</li>
+      <li>o <em>market share</em> de ERP (SAP, Totvs, Oracle) citado na Parte IX;</li>
+      <li>os marcos regulatórios: Lei 8.906/1994, Resoluções CVM 19 e 21/2021, modelo de
+      cobrança da WhatsApp Business API;</li>
+      <li>os nove painéis de BI em produção para o cliente real do Grupo Sena.</li>
+    </ul>
+  </div>
+
+  <div class="box prem">
+    <div class="bt">É premissa (estimativa a validar)</div>
+    <ul>
+      <li>o custo fixo operacional do OCEO em escala (ordem de R$ 150.000/mês);</li>
+      <li>o custo de aquisição de cliente (CAC);</li>
+      <li>a taxa de cancelamento (churn);</li>
+      <li>o ponto de equilíbrio da operação e os cenários de crescimento;</li>
+      <li>os salários dos cargos sem piso isolável no CAGED (Analista de DP, SDR);</li>
+      <li>a viabilidade e o custo unitário da integração Open Finance em escala;</li>
+      <li>o custo variável do WhatsApp dentro da margem.</li>
+    </ul>
+  </div>
+
+  <p>Onde a premissa aparece nesta obra, o valor assumido está escrito. Quem discorda troca
+  o número e refaz a conta — sem precisar desmontar o raciocínio.</p>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE IX — MERCADO, MODELO E ROADMAP -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte IX</div>
+  <h2>Mercado, modelo e roadmap</h2>
+  <div class="rule"></div>
+  <p class="pintro">O tamanho do mercado, a janela aberta pela reforma tributária, o modelo
+  de receita e escala, as premissas que ainda precisam ser validadas e o estado real do
+  produto — o que já roda e o que falta construir.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 44</div><h3>O mercado e a janela da reforma tributária</h3></div>
+
+  <div class="box fato">
+    <div class="bt">Fato — o mercado de ERP</div>
+    <p>O mercado global de ERP é da ordem de <strong>US$ 70 a 90 bilhões</strong> ao ano,
+    crescendo perto de <strong>10% a.a.</strong> No Brasil, três participantes concentram a
+    maior parte: <strong>SAP</strong> e <strong>Totvs</strong> com cerca de 34% de
+    participação cada, e <strong>Oracle</strong> com cerca de 10% — juntos, aproximadamente
+    <strong>77%</strong> do mercado. No recorte de PME brasileira, a Totvs isoladamente
+    responde por algo em torno de <strong>53%</strong>.</p>
+  </div>
+
+  <p>Esses números descrevem o mercado de <em>software</em> de gestão que o OCEO tangencia.
+  Mas o OCEO não disputa o mesmo cliente da SAP ou da Totvs de médio/grande porte — ele
+  atende a <strong>base larga e desassistida</strong> abaixo desse recorte: a PME que
+  fatura a partir de R$ 50.000/mês, para quem os ERPs tradicionais são caros, complexos e
+  feitos para outra realidade.</p>
+
+  <div class="box fato">
+    <div class="bt">Fato — a janela</div>
+    <p>A <strong>reforma tributária brasileira</strong> (transição para o IVA dual —
+    IBS e CBS) cria uma janela de demanda concentrada: nos próximos cerca de
+    <strong>24 meses</strong>, toda pequena empresa vai precisar entender o que muda no
+    seu regime, no seu preço e nos seus contratos. É o momento de maior disposição do
+    empresário para contratar quem organiza o número dele.</p>
+  </div>
+
+  <div class="quote">A reforma vai obrigar todo dono de pequena empresa a olhar para
+  dentro. Quem tiver o sistema que traduz isso para ele, na hora certa, ganha o cliente.
+  <span class="src">Gilberto Sena</span></div>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 45</div><h3>Modelo de negócio e escala</h3></div>
+
+  <h4>Receita</h4>
+  <ul>
+    <li><strong>Setup</strong> — R$ 12.500 por cliente, na implantação. Cobre o
+    <em>onboarding</em>: montagem do plano de contas, carga de histórico, integração
+    bancária, configuração dos painéis, carga dos contratos.</li>
+    <li><strong>Mensalidade recorrente</strong> — R$ 3.500/mês por cliente, fixa.</li>
+    <li><strong>Repasse de custo variável identificado</strong> — WhatsApp acima da
+    franquia, no Pilar 4.</li>
+  </ul>
+
+  <h4>Estrutura de custo</h4>
+  <p>O custo do OCEO é dominado pelo <strong>time de especialistas do Grupo Sena</strong>
+  (contadores, fiscal, DP, advogado, consultores, time de marketing) que sustenta a camada
+  humana dos cinco pilares, mais a infraestrutura de <em>software</em> e os custos
+  variáveis de terceiros (provedores de dados bancários, APIs, nuvem).</p>
+
+  <div class="box prem">
+    <div class="bt">Premissa — custo fixo operacional</div>
+    <p>O plano de negócio trabalha com um custo fixo operacional de ordem de
+    <strong>R$ 150.000/mês</strong> para a operação em escala. É premissa a validar.</p>
+  </div>
+
+  <h4>Alavanca de escala</h4>
+  <p>A margem melhora com o número de clientes porque a parte cara — a definição das regras,
+  os modelos de contrato, as trilhas educacionais, os <em>templates</em> de painel — é
+  construída <strong>uma vez</strong> e reaproveitada em todos os clientes. O custo
+  incremental de um cliente a mais é menor que o anterior. É a economia de escala clássica
+  de SaaS, aplicada a um produto com serviço embutido.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 46</div><h3>As premissas do modelo</h3></div>
+
+  <p>O plano de negócio do OCEO depende de um conjunto de premissas que precisam de
+  validação antes de irem a um investidor. Elas estão listadas aqui de forma explícita.</p>
+
+  <table class="data">
+    <tr><th>Premissa</th><th>Como está hoje</th><th>Como validar</th></tr>
+    <tr><td>Custo fixo operacional</td><td>Estimativa de ordem de R$ 150.000/mês</td><td>Orçamento detalhado do time e da infraestrutura para os primeiros 12 meses</td></tr>
+    <tr><td>CAC — custo de aquisição de cliente</td><td>Não medido</td><td>Rodar aquisição real (conteúdo, indicação, tráfego) e medir</td></tr>
+    <tr><td>Churn — cancelamento</td><td>Não medido</td><td>Acompanhar coorte dos primeiros clientes por 6–12 meses</td></tr>
+    <tr><td>Ponto de equilíbrio</td><td>Derivado das premissas acima</td><td>Recalcular com CAC, churn e custo fixo reais</td></tr>
+    <tr><td>Salário de Analista de DP e de SDR</td><td>Premissa por proporção</td><td>Fonte sindical / pesquisa salarial dedicada</td></tr>
+    <tr><td>Integração Open Finance (viabilidade e custo)</td><td>Em estudo</td><td>Cotação com provedores de open banking; teste técnico</td></tr>
+    <tr><td>Custo variável do WhatsApp na margem</td><td>Não modelado</td><td>Medir consumo real por cliente após ativação do Pilar 4</td></tr>
+  </table>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 47</div><h3>Roadmap — o que já existe, o que falta</h3></div>
+
+  <h4>O que já existe</h4>
+  <ul>
+    <li><strong>Concepção completa dos cinco pilares</strong> — escopo, funcionalidades,
+    ponto de atenção regulatória e comparativo de custo de cada um (este documento).</li>
+    <li><strong>Camada contábil do Pilar 1 em produção</strong> — nove painéis de BI
+    rodando para um cliente real do Grupo Sena.</li>
+    <li><strong>Materiais de apresentação</strong> — plano de negócio, os cinco pilares
+    consolidados, o <em>pitch</em> da prova de conceito de BI (versões interna e externa),
+    o vídeo institucional.</li>
+    <li><strong>Marca e domínio</strong> — www.oceo.com.br registrado; marca OCEO em
+    processo no INPI; identidade visual em desenvolvimento.</li>
+    <li><strong>Versão Portugal</strong> — plano de negócio adaptado, com preço em euro.</li>
+  </ul>
+
+  <h4>O que falta construir</h4>
+  <ul>
+    <li>os setores Fiscal, DP, RH e Legalização do Pilar 1 em produção (hoje só a camada
+    Contábil tem painel real);</li>
+    <li>a integração Open Finance do Pilar 2, validada tecnicamente e em custo;</li>
+    <li>a definição do arranjo com advogado parceiro para os atos privativos do Pilar 3;</li>
+    <li>o modelo de custo variável do WhatsApp no Pilar 4;</li>
+    <li>o texto padrão de <em>disclaimer</em> do Pilar 5, validado com o jurídico;</li>
+    <li>a regeração do plano de negócio geral de 27 páginas com o preço e os comparativos
+    atuais;</li>
+    <li>a validação das premissas do capítulo 46 com dado real dos primeiros clientes.</li>
+  </ul>
+
+  <div class="box">
+    <div class="bt">Estado do produto, em uma frase</div>
+    <p>O OCEO tem <strong>a concepção inteira registrada e um pilar com prova de conceito
+    rodando</strong>. O caminho à frente é levar os outros quatro pilares ao mesmo nível de
+    maturidade e validar o modelo econômico com clientes reais.</p>
+  </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE X — O VÍDEO INSTITUCIONAL -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte X</div>
+  <h2>O vídeo institucional</h2>
+  <div class="rule"></div>
+  <p class="pintro">O roteiro completo do vídeo animado de apresentação do OCEO — sete
+  cenas, formato 16:9, cerca de 43 segundos. É a versão condensada desta obra: a mesma
+  tese, a mesma disciplina de fato e premissa, o mesmo fecho.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 48</div><h3>Roteiro completo — as sete cenas</h3></div>
+
+  <h4>Cena 1 — Abertura</h4>
+  <p><strong>Tela:</strong> logotipo OCEO surge sobre fundo escuro; sob ele, a frase.</p>
+  <p><strong>Texto:</strong> "O sistema orienta. Você decide."</p>
+  <p><strong>Leitura:</strong> antes de dizer o que o produto faz, o vídeo estabelece o que
+  ele <em>não</em> faz — não decide no lugar do dono. É o Princípio 1 desta obra, dito
+  primeiro.</p>
+
+  <h4>Cena 2 — O problema</h4>
+  <p><strong>Tela:</strong> tipografia grande; números do SEBRAE entram como dado de apoio.</p>
+  <p><strong>Texto:</strong> "A pequena empresa administra no escuro." Apoio: milhões de
+  micro e pequenas empresas no Brasil; a maioria fecha as contas do mês sem saber se
+  sobrou.</p>
+  <p><strong>Leitura:</strong> corresponde ao capítulo 3. O diagnóstico antes da solução.</p>
+
+  <h4>Cena 3 — A solução</h4>
+  <p><strong>Tela:</strong> três blocos de texto entram em sequência.</p>
+  <p><strong>Texto:</strong> "Um sistema. Cinco frentes. Uma mensalidade."</p>
+  <p><strong>Leitura:</strong> a tese do capítulo 4, na forma mais curta possível.</p>
+
+  <h4>Cena 4 — Os cinco pilares</h4>
+  <p><strong>Tela:</strong> os cinco pilares entram um a um. Cada um com nome, uma linha de
+  descrição e a etiqueta "substitui equipe → R$ X/mês".</p>
+  <table class="data">
+    <tr><th>Pilar</th><th>Linha de descrição no vídeo</th><th class="num">Substitui</th></tr>
+    <tr><td>Contabilidade e BI</td><td>organiza o número e mostra em painel que o dono entende</td><td class="num">R$ 30.834/mês</td></tr>
+    <tr><td>Gestão Financeira</td><td>leitura de caixa, DRE explicado, reserva e alertas</td><td class="num">R$ 8.790/mês</td></tr>
+    <tr><td>Jurídico</td><td>contrato gerado e revisado, risco e oportunidade apontados</td><td class="num">R$ 16.122/mês</td></tr>
+    <tr><td>Marketing e Vendas</td><td>agência interna e primeiro atendimento comercial por IA</td><td class="num">R$ 26.037/mês</td></tr>
+    <tr><td>Educação Pré-Investimento</td><td>preparo para investir, só depois da reserva formada</td><td class="num">R$ 9.604/mês</td></tr>
+  </table>
+
+  <h4>Cena 5 — O comparativo central</h4>
+  <p><strong>Tela:</strong> dois números frente a frente.</p>
+  <p><strong>Texto:</strong> "R$ 91.387 por mês para ter tudo isso dentro de casa. Ou
+  R$ 3.500." Abaixo: economia de 96,2%; payback do setup em cerca de 4 dias.</p>
+  <p><strong>Leitura:</strong> o capítulo 42, numa tela.</p>
+
+  <h4>Cena 6 — Mercado e modelo</h4>
+  <p><strong>Tela:</strong> dados de mercado; preço; etiqueta "premissa do modelo" sobre os
+  itens estimados.</p>
+  <p><strong>Texto:</strong> mercado global de ERP de US$ 71–92 bilhões, crescendo ~10%
+  a.a.; SAP, Totvs e Oracle concentram ~77%. Alvo do OCEO: PME que fatura a partir de
+  R$ 50 mil/mês. Preço: setup R$ 12.500 + R$ 3.500/mês. <em>Etiqueta premissa:</em> CAC,
+  churn e ponto de equilíbrio.</p>
+  <p><strong>Leitura:</strong> a Parte IX, com a disciplina de fato e premissa visível na
+  própria tela.</p>
+
+  <h4>Cena 7 — Fecho</h4>
+  <p><strong>Tela:</strong> logotipo OCEO; endereço.</p>
+  <p><strong>Texto:</strong> "Administrar com o número na mão." — www.oceo.com.br</p>
+  <p><strong>Leitura:</strong> a promessa do produto reduzida a cinco palavras, e o
+  endereço para agir.</p>
+</section>
+
+<!-- ========================================================= -->
+<!-- PARTE XI — IDENTIDADE VISUAL E MARCA -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Parte XI</div>
+  <h2>Identidade visual e marca</h2>
+  <div class="rule"></div>
+  <p class="pintro">O nome, o símbolo, as cores e o que o conjunto comunica sem texto.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Capítulo 49</div><h3>A marca OCEO</h3></div>
+
+  <h4>O nome</h4>
+  <p><strong>OCEO</strong> — evoca <em>oceano</em> (a massa de água que o dono navega) e
+  contrai <em>"o CEO"</em> (a função de quem comanda). O sistema é o instrumento de
+  navegação de quem está no comando de uma pequena empresa.</p>
+
+  <h4>O símbolo</h4>
+  <p>Um <strong>anel</strong> — o horizonte, o ciclo de gestão que se fecha — contendo uma
+  <strong>seta ascendente formada por colunas</strong> de altura crescente — o gráfico de
+  barras, o BI que é o coração do sistema. O conjunto diz: <em>dado que vira direção</em>.
+  A palavra "OCEO" acompanha o símbolo no logotipo horizontal.</p>
+
+  <h4>As cores</h4>
+  <ul>
+    <li><strong>Cromo / prata escovada</strong> — a estrutura, a solidez, o instrumento.</li>
+    <li><strong>Dourado</strong> — o resultado, o valor, o que o sistema faz crescer.</li>
+    <li><strong>Azul-marinho profundo</strong> — o oceano, a base sobre a qual o logotipo
+    se apoia.</li>
+  </ul>
+  <p>A paleta foi estudada também em versões tridimensionais do símbolo (renderizações do
+  monograma, do painel de BI, da pedra-chave e da estrela-norte), como exploração de como
+  a marca se comporta com volume, luz e sombra.</p>
+
+  <h4>Uso</h4>
+  <p>O logotipo aparece na abertura e no fecho do vídeo institucional, nas capas dos
+  materiais de <em>pitch</em> e no material consolidado dos cinco pilares. Há uma versão
+  completa (símbolo + palavra) e uma versão reduzida (só o símbolo) para marca d'água e
+  espaços pequenos.</p>
+
+  <div class="box">
+    <div class="bt">Situação da marca</div>
+    <p>Domínio <strong>www.oceo.com.br</strong> registrado. Marca mista <strong>OCEO</strong>
+    em processo de registro no <strong>INPI</strong>. Identidade visual em desenvolvimento —
+    várias opções de logotipo em estudo.</p>
+  </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- ANEXOS -->
+<!-- ========================================================= -->
+<section class="part">
+  <div class="pnum">Anexos</div>
+  <h2>Anexos</h2>
+  <div class="rule"></div>
+  <p class="pintro">Glossário, tabela-síntese dos cinco pilares, lista consolidada de
+  premissas e fontes.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Anexo A</div><h3>Glossário</h3></div>
+  <table class="data">
+    <tr><th>Termo</th><th>Significado no contexto do OCEO</th></tr>
+    <tr><td>Balancete gerencial</td><td>Versão traduzida do balancete contábil, com os grupos explicados em linguagem de dono.</td></tr>
+    <tr><td>BI — Business Intelligence</td><td>Camada que transforma dado bruto (balancete, extrato, nota) em painéis de leitura.</td></tr>
+    <tr><td>CAC</td><td>Custo de aquisição de cliente. Premissa do modelo, ainda não medida.</td></tr>
+    <tr><td>CAGED</td><td>Cadastro Geral de Empregados e Desempregados. Fonte dos pisos salariais usados nos comparativos.</td></tr>
+    <tr><td>Caixa circulante</td><td>Dinheiro que precisa ficar girando para a operação não travar; piso que não se toca.</td></tr>
+    <tr><td>Caixa livre</td><td>O que sobra de fato depois de honrar as obrigações do período; disponível para destinação.</td></tr>
+    <tr><td>Churn</td><td>Taxa de cancelamento de clientes. Premissa do modelo.</td></tr>
+    <tr><td>CVM</td><td>Comissão de Valores Mobiliários. Regula consultoria e distribuição de investimentos (Resoluções 19 e 21/2021).</td></tr>
+    <tr><td>DRE</td><td>Demonstração de Resultado do Exercício. Mostra se a empresa deu lucro e onde ele está.</td></tr>
+    <tr><td>Encargos</td><td>Custo adicional sobre o salário de um empregado CLT — da ordem de 80% no modelo brasileiro.</td></tr>
+    <tr><td>Fundo de reserva</td><td>Colchão de caixa-alvo do OCEO: três meses de ponto de equilíbrio da empresa.</td></tr>
+    <tr><td>IBS / CBS</td><td>Os dois tributos sobre valor agregado da reforma tributária brasileira (IVA dual).</td></tr>
+    <tr><td>Open Finance</td><td>Padrão regulado de compartilhamento de dados bancários; base da integração do Pilar 2.</td></tr>
+    <tr><td>Ponto de equilíbrio</td><td>Faturamento mínimo para a empresa não ter prejuízo no período.</td></tr>
+    <tr><td>Services-as-Software</td><td>Modelo de entregar como produto de assinatura o que antes era serviço faturado por hora.</td></tr>
+    <tr><td>Setup</td><td>Taxa única de implantação: R$ 12.500.</td></tr>
+    <tr><td>Suitability</td><td>Análise de adequação de produto financeiro ao perfil do investidor; atividade regulada — fora do escopo do Pilar 5.</td></tr>
+  </table>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Anexo B</div><h3>Tabela-síntese dos cinco pilares</h3></div>
+  <table class="data">
+    <tr><th>Pilar</th><th>Código</th><th>Entrega central</th><th>Fronteira que respeita</th><th class="num">Economia /mês</th></tr>
+    <tr><td>Contabilidade e BI</td><td>GC</td><td>Dado organizado + painéis + escritório interno</td><td>Contador com CRC assina o que a lei exige</td><td class="num">R$ 27.334 (88,6%)</td></tr>
+    <tr><td>Gestão Financeira</td><td>GF</td><td>Leitura de caixa, DRE explicado, reserva, alertas</td><td>Não movimenta dinheiro; orienta</td><td class="num">R$ 5.290 (60,2%)*</td></tr>
+    <tr><td>Jurídico</td><td>GJ</td><td>Contratos gerados/revisados, risco e oportunidade legal</td><td>Não pratica ato privativo de advogado (Lei 8.906/94)</td><td class="num">R$ 12.622 (78,3%)</td></tr>
+    <tr><td>Marketing e Vendas</td><td>GM</td><td>Agência interna + agente comercial de IA no WhatsApp</td><td>Verba de mídia é do cliente; ele é dono do BM</td><td class="num">R$ 22.537 (86,6%)</td></tr>
+    <tr><td>Educação Pré-Investimento</td><td>GI</td><td>Preparo educacional para investir, pós-reserva</td><td>Não individualiza, não recomenda, não vincula corretora (CVM 19 e 21/2021)</td><td class="num">R$ 6.104 (63,6%)</td></tr>
+    <tr class="total"><td colspan="4">Estrutura interna equivalente x OCEO (mensalidade única)</td><td class="num">R$ 87.888 (96,2%)</td></tr>
+  </table>
+  <p class="small">* Pilar 2 comparado ao Analista Financeiro (leitura conservadora); ante um Diretor Financeiro, a economia seria de 91,9%.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Anexo C</div><h3>Lista consolidada de premissas do modelo</h3></div>
+  <ol>
+    <li>Custo fixo operacional do OCEO em escala: ordem de R$ 150.000/mês.</li>
+    <li>Custo de aquisição de cliente (CAC): não medido.</li>
+    <li>Taxa de cancelamento (churn): não medida.</li>
+    <li>Ponto de equilíbrio e cenários de crescimento: derivados das premissas acima.</li>
+    <li>Encargos trabalhistas de 80% sobre o salário nos comparativos.</li>
+    <li>Uma pessoa por cargo no comparativo de estrutura interna.</li>
+    <li>Salário de Analista de Departamento Pessoal: ~R$ 3.300 (por proporção, sem piso CAGED isolável).</li>
+    <li>Salário de SDR / pré-vendas: ~R$ 3.500 (por proporção).</li>
+    <li>Viabilidade e custo unitário da integração Open Finance em escala.</li>
+    <li>Custo variável do WhatsApp Business API dentro da margem do OCEO.</li>
+    <li>Preço da versão Portugal: setup 2.950 € + 850 €/mês; comparativo no modelo trabalhista português (14 meses + TSU 23,75%).</li>
+  </ol>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Anexo D</div><h3>Fontes e referências</h3></div>
+  <ul>
+    <li><strong>SEBRAE</strong> — número de micro e pequenas empresas no Brasil, participação no PIB, taxa de mortalidade de PMEs antes de cinco anos.</li>
+    <li><strong>CAGED / Ministério do Trabalho</strong> — pisos salariais de referência dos cargos usados nos comparativos.</li>
+    <li><strong>Lei nº 8.906/1994</strong> — Estatuto da Advocacia e da OAB.</li>
+    <li><strong>Resoluções CVM nº 19 e nº 21, de 2021</strong> — consultoria e análise de valores mobiliários; agente autônomo de investimento.</li>
+    <li><strong>Meta / WhatsApp Business Platform</strong> — modelo de cobrança por conversa da Cloud API e ajuste anunciado para 1º de outubro de 2026.</li>
+    <li><strong>Relatórios de mercado de ERP</strong> — dimensão do mercado global, crescimento e participação de SAP, Totvs e Oracle no Brasil e no segmento PME.</li>
+    <li><strong>Levantamentos do setor de legaltech no Brasil</strong> — número de legaltechs, volume de investimento, adoção de IA generativa por profissionais do Direito.</li>
+    <li><strong>Pesquisas sobre uso de WhatsApp por empresas brasileiras</strong> — participação do canal na comunicação com clientes.</li>
+    <li><strong>B3 Educação</strong> — volume de conteúdo gratuito de educação financeira.</li>
+    <li><strong>Portais de emprego de Portugal</strong> (Indeed.pt, Jobted.pt, Talent.com) — faixas salariais da versão europeia.</li>
+    <li><strong>Documentação interna do Grupo Sena / OCEO</strong> — os cinco arquivos de pilar, o plano de negócio, a prova de conceito de BI (nove painéis) e o roteiro do vídeo institucional, dos quais esta obra é a consolidação.</li>
+  </ul>
+  <p class="small">Onde um número aparece como "da ordem de" ou "cerca de", trata-se de
+  arredondamento de fonte pública para leitura; o valor exato consta da fonte citada.</p>
+</section>
+
+<section class="chap">
+  <div class="chap-head"><div class="ck">Encerramento</div><h3>Nota final do autor</h3></div>
+  <p>Este documento nasceu para dois usos. O primeiro é prático: servir de peça de
+  referência para o registro de direito autoral desta obra — a concepção do OCEO, escrita
+  por extenso. O segundo é interno: ser o documento-mestre do produto, a fonte única da
+  qual derivam o plano de negócio, o <em>pitch</em>, as apresentações e o vídeo.</p>
+  <p>O OCEO não é uma ideia à espera de validação. É a industrialização de um método de
+  consultoria que o Grupo Sena aplica há mais de doze anos, com um pilar já rodando em
+  produção para um cliente real. O que falta é engenharia e tempo — não a prova de que a
+  tese funciona.</p>
+  <p>A frase que abre e fecha o vídeo resume tudo o que este documento detalha em setenta
+  páginas: <strong>o sistema orienta, você decide</strong>. O OCEO existe para que a
+  decisão do dono da pequena empresa brasileira seja, pela primeira vez, uma decisão
+  tomada com o número na mão.</p>
+  <div class="quote">Ilha própria, número na mão, decisão do dono. É isso que a gente
+  está construindo.
+  <span class="src">Gilberto Luís de Sena — setembro de 2026</span></div>
+  <p class="small" style="margin-top:12mm">OCEO — A obra completa · 1ª edição · setembro de 2026 · versão 1.0<br>
+  Gilberto Luís de Sena · Grupo Sena — Soluções Empresariais · www.oceo.com.br</p>
+</section>
+
+</body>
+</html>
