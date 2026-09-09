@@ -14,6 +14,12 @@ gestão empresarial (ERP + BI) do Grupo Sena.
 06/ago/2026). O Gilberto está em **fase de registro de marca** — ver
 `identidade-visual/` pra logos.
 
+**Frase / assinatura do produto:** **"OCEO. Simples. Mais completo."** —
+trocadilho proposital com a nota de preço ("simples, mas completo"): não é
+só simples *apesar de* completo, é simples *e* mais completo que a
+alternativa. Usar como slogan/tagline nos materiais (capa, fecho de vídeo,
+deck, assinatura de e-mail).
+
 ---
 
 ## O que já existe
