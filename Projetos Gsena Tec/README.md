@@ -13,7 +13,7 @@ nunca coproprietário.
 
 | Projeto | Natureza | Status |
 |---|---|---|
-| **OCEO** | Plataforma SaaS — 5 pilares (Contabilidade/BI, Financeiro, Jurídico, Marketing/Vendas, Educação e Pré-Investimento) | Em desenvolvimento — material em `outros-projetos/oceo/` |
+| **OCEO** | Plataforma SaaS — 5 pilares (Contabilidade/BI, Financeiro, Jurídico, Marketing/Vendas, Educação e Pré-Investimento) | Em desenvolvimento — material em [`oceo/`](oceo/) |
 | **Hub GSena** | Plataforma / hub digital | A detalhar |
 | Aplicativos e automações | iOS/Android, agentes de IA, ferramentas internas | A listar |
 
