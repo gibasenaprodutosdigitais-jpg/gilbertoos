@@ -1,0 +1,325 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:#0F1419}
+  #root{position:relative;width:1920px;height:1080px;background:#0F1419;
+        font-family:'Inter',system-ui,sans-serif}
+  .scene{position:absolute;inset:0;opacity:0;will-change:opacity}
+  .grain{position:absolute;inset:0;pointer-events:none;opacity:.035;
+        background-image:radial-gradient(circle at 20% 30%, #fff 0, transparent 40%),
+                         radial-gradient(circle at 80% 70%, #fff 0, transparent 40%)}
+  .vig{position:absolute;inset:0;pointer-events:none;
+        background:radial-gradient(ellipse at 50% 42%, transparent 55%, rgba(0,0,0,.45) 100%)}
+
+  /* marca comum */
+  .brand{position:absolute;left:72px;top:54px;display:flex;align-items:center;gap:16px}
+  .brand img{height:48px;width:auto;display:block}
+  .brand span{color:#F4F1EA;font-size:20px;font-weight:700;letter-spacing:.28em}
+  .counter{position:absolute;right:84px;bottom:64px;color:#C9A227;
+            font-size:20px;font-weight:700;letter-spacing:.22em}
+
+  /* cena de livro */
+  .book .stage{position:absolute;inset:0;perspective:1500px}
+  .book .cover{position:absolute;left:210px;top:206px;height:668px;width:auto;
+        border-radius:5px;transform-origin:center center;
+        box-shadow:0 40px 90px rgba(0,0,0,.6),0 12px 28px rgba(0,0,0,.5);
+        filter:drop-shadow(0 0 1px rgba(201,162,39,.25))}
+  .book .right{position:absolute;left:1006px;top:214px;width:788px}
+  .book .num{font-family:'Fraunces',serif;font-weight:300;font-size:150px;
+        line-height:.9;color:#C9A227}
+  .book .pilar{margin-top:10px;color:#C9A227;font-size:17px;font-weight:700;
+        letter-spacing:.26em}
+  .book .title{margin-top:22px;font-family:'Fraunces',serif;font-weight:600;
+        font-size:58px;line-height:1.12;color:#F4F1EA;letter-spacing:-.01em}
+  .book .rule{margin-top:24px;width:96px;height:3px;background:#C9A227;
+        transform-origin:left center}
+  .book .tag{margin-top:22px;font-size:19px;font-style:italic;color:#9a9384}
+  .book .forca{margin-top:16px;font-size:26px;font-weight:500;line-height:1.5;
+        color:#F4F1EA;max-width:760px}
+
+  /* intro */
+  #sc-intro .wrap{position:absolute;inset:0;display:flex;flex-direction:column;
+        align-items:center;justify-content:center;text-align:center}
+  #sc-intro .leao{height:220px;width:auto;margin-bottom:36px}
+  #sc-intro .kick{color:#C9A227;font-size:20px;font-weight:700;letter-spacing:.34em;
+        margin-bottom:24px}
+  #sc-intro .big{font-family:'Fraunces',serif;font-weight:700;font-size:132px;
+        color:#F4F1EA;line-height:1;letter-spacing:-.02em}
+  #sc-intro .rule{width:120px;height:3px;background:#C9A227;margin:34px 0}
+  #sc-intro .sub{font-size:30px;font-weight:500;color:#F4F1EA;max-width:1080px}
+
+  /* close */
+  #sc-close .big10{position:absolute;left:0;right:0;top:170px;text-align:center;
+        font-family:'Fraunces',serif;font-weight:700;font-size:560px;color:#C9A227;
+        opacity:.09;line-height:1}
+  #sc-close .row{position:absolute;left:0;right:0;top:288px;display:flex;
+        justify-content:center;gap:20px}
+  #sc-close .mini{height:230px;width:auto;border-radius:4px;
+        box-shadow:0 20px 44px rgba(0,0,0,.55)}
+  #sc-close .foot{position:absolute;left:0;right:0;top:610px;text-align:center}
+  #sc-close .leao{height:132px;width:auto;margin-bottom:22px}
+  #sc-close .handle{color:#F4F1EA;font-size:40px;font-weight:700;letter-spacing:.02em}
+  #sc-close .cta{margin-top:14px;color:#C9A227;font-size:24px;font-weight:600;
+        letter-spacing:.06em}
+  #sc-close .wm{margin-top:26px;color:#9a9384;font-size:18px;font-weight:700;
+        letter-spacing:.3em}
+</style></head><body>
+<div id="root">
+  <div class="scene" id="sc-intro">
+    <div class="wrap">
+      <img class="leao" src="assets/leao.png" alt="">
+      <div class="kick">A BIBLIOTECA DE GILBERTO SENA</div>
+      <div class="big">10 e-books.</div>
+      <div class="rule"></div>
+      <div class="sub">Um assunto só: parar de decidir no escuro.</div>
+    </div>
+  </div>
+  
+<div class="scene book" id="sc-s01">
+  <div class="stage">
+    <img class="cover" src="assets/cover01.png" alt="">
+    <div class="right">
+      <div class="num">01</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;EMPREENDER</div>
+      <div class="title">A Startup Unicórnio</div>
+      <div class="rule"></div>
+      <div class="tag">diálogo com “A Startup de $100”</div>
+      <div class="forca">Não precisa de investidor nem galpão. Precisa de um problema real — e da inteligência artificial.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">01&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s02">
+  <div class="stage">
+    <img class="cover" src="assets/cover02.png" alt="">
+    <div class="right">
+      <div class="num">02</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;LIDERANÇA</div>
+      <div class="title">De Motoboy a Executivo</div>
+      <div class="rule"></div>
+      <div class="tag">diálogo com “O Monge e o Executivo”</div>
+      <div class="forca">Liderança não é cargo, é serviço. Autoridade se conquista servindo.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">02&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s03">
+  <div class="stage">
+    <img class="cover" src="assets/cover03.png" alt="">
+    <div class="right">
+      <div class="num">03</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;LEITURA DO NEGÓCIO</div>
+      <div class="title">Entenda Suas Finanças</div>
+      <div class="rule"></div>
+      <div class="tag">material original · o básico bem feito</div>
+      <div class="forca">Quem quebra raramente quebra por falta de venda. Quebra por não saber ler o próprio balanço.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">03&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s04">
+  <div class="stage">
+    <img class="cover" src="assets/cover04.png" alt="">
+    <div class="right">
+      <div class="num">04</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;ESTRATÉGIA</div>
+      <div class="title">Estratégia da Gestão</div>
+      <div class="rule"></div>
+      <div class="tag">diálogo com “A Arte da Guerra”</div>
+      <div class="forca">Vencer a batalha antes de lutar é planejar antes de agir. Sun Tzu na decisão de negócio.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">04&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s05">
+  <div class="stage">
+    <img class="cover" src="assets/cover05.png" alt="">
+    <div class="right">
+      <div class="num">05</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;EMOÇÃO</div>
+      <div class="title">No Controle das Emoções</div>
+      <div class="rule"></div>
+      <div class="tag">diálogo com Goleman · “Inteligência Emocional”</div>
+      <div class="forca">Decisão tomada com raiva sai cara. Sob medo, também. Inteligência emocional aplicada ao dinheiro.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">05&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s06">
+  <div class="stage">
+    <img class="cover" src="assets/cover06.png" alt="">
+    <div class="right">
+      <div class="num">06</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;MATEMÁTICA DO DINHEIRO</div>
+      <div class="title">O Segredo das Finanças</div>
+      <div class="rule"></div>
+      <div class="tag">material original · matemática financeira</div>
+      <div class="forca">Juros não é opinião, é conta. Quem não sabe fazer essa conta paga por ela a vida inteira.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">06&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s07">
+  <div class="stage">
+    <img class="cover" src="assets/cover07.png" alt="">
+    <div class="right">
+      <div class="num">07</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;CARÁTER</div>
+      <div class="title">Os Pilares de um Homem Próspero</div>
+      <div class="rule"></div>
+      <div class="tag">diálogo com Provérbios</div>
+      <div class="forca">Um texto de três mil anos ainda decide o seu próximo passo. Provérbios aplicado ao negócio e à vida.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">07&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s08">
+  <div class="stage">
+    <img class="cover" src="assets/cover08.png" alt="">
+    <div class="right">
+      <div class="num">08</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;POSICIONAMENTO</div>
+      <div class="title">Posicione-se ou Morra</div>
+      <div class="rule"></div>
+      <div class="tag">releitura do clássico do Posicionamento</div>
+      <div class="forca">Se o cliente não diz em uma frase o que você faz, você não existe pra ele.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">08&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s09">
+  <div class="stage">
+    <img class="cover" src="assets/cover09.png" alt="">
+    <div class="right">
+      <div class="num">09</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;DÍVIDA</div>
+      <div class="title">Quite Suas Dívidas Já</div>
+      <div class="rule"></div>
+      <div class="tag">material original · guia de negociação</div>
+      <div class="forca">Dívida não se resolve com vergonha. Se resolve com estratégia — e sabendo o que é irregular no contrato.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">09&nbsp;/&nbsp;10</div>
+</div>
+<div class="scene book" id="sc-s10">
+  <div class="stage">
+    <img class="cover" src="assets/cover10.png" alt="">
+    <div class="right">
+      <div class="num">10</div>
+      <div class="pilar">PILAR&nbsp;&middot;&nbsp;MENTALIDADE</div>
+      <div class="title">Seja Rico ou Pobre</div>
+      <div class="rule"></div>
+      <div class="tag">diálogo com “Pai Rico, Pai Pobre”</div>
+      <div class="forca">Alguém te ensinou que dinheiro é sujo. Troque o roteiro antes que ele decida a sua vida.</div>
+    </div>
+  </div>
+  <div class="brand"><img src="assets/leao.png" alt=""><span>GILBERTO&nbsp;SENA</span></div>
+  <div class="counter">10&nbsp;/&nbsp;10</div>
+</div>
+  <div class="scene" id="sc-close">
+    <div class="big10">10</div>
+    <div class="row"><img class="mini" src="assets/cover01.png" alt=""><img class="mini" src="assets/cover02.png" alt=""><img class="mini" src="assets/cover03.png" alt=""><img class="mini" src="assets/cover04.png" alt=""><img class="mini" src="assets/cover05.png" alt=""><img class="mini" src="assets/cover06.png" alt=""><img class="mini" src="assets/cover07.png" alt=""><img class="mini" src="assets/cover08.png" alt=""><img class="mini" src="assets/cover09.png" alt=""><img class="mini" src="assets/cover10.png" alt=""></div>
+    <div class="foot">
+      <img class="leao" src="assets/leao.png" alt="">
+      <div class="handle">@gilbertosenaoficial</div>
+      <div class="cta">comenta qual você quer primeiro</div>
+      <div class="wm">GILBERTO SENA</div>
+    </div>
+  </div>
+  <div class="grain"></div><div class="vig"></div>
+</div>
+<script>
+const TL = {"fps": 30, "w": 1920, "h": 1080, "total": 78.825, "scenes": [{"id": "sc-intro", "sid": "intro", "kind": "intro", "start": 0.0, "dur": 6.532, "narr_at": 0.45, "narr_dur": 4.982, "wav": "audio/intro.wav"}, {"id": "sc-s01", "sid": "s01", "kind": "book", "start": 6.532, "dur": 7.09, "narr_at": 6.982, "narr_dur": 5.49, "wav": "audio/s01.wav"}, {"id": "sc-s02", "sid": "s02", "kind": "book", "start": 13.623, "dur": 6.303, "narr_at": 14.073, "narr_dur": 4.703, "wav": "audio/s02.wav"}, {"id": "sc-s03", "sid": "s03", "kind": "book", "start": 19.926, "dur": 6.475, "narr_at": 20.376, "narr_dur": 4.875, "wav": "audio/s03.wav"}, {"id": "sc-s04", "sid": "s04", "kind": "book", "start": 26.401, "dur": 6.931, "narr_at": 26.851, "narr_dur": 5.331, "wav": "audio/s04.wav"}, {"id": "sc-s05", "sid": "s05", "kind": "book", "start": 33.332, "dur": 7.151, "narr_at": 33.782, "narr_dur": 5.551, "wav": "audio/s05.wav"}, {"id": "sc-s06", "sid": "s06", "kind": "book", "start": 40.483, "dur": 6.631, "narr_at": 40.933, "narr_dur": 5.031, "wav": "audio/s06.wav"}, {"id": "sc-s07", "sid": "s07", "kind": "book", "start": 47.114, "dur": 5.454, "narr_at": 47.564, "narr_dur": 3.854, "wav": "audio/s07.wav"}, {"id": "sc-s08", "sid": "s08", "kind": "book", "start": 52.568, "dur": 6.513, "narr_at": 53.018, "narr_dur": 4.913, "wav": "audio/s08.wav"}, {"id": "sc-s09", "sid": "s09", "kind": "book", "start": 59.08, "dur": 5.723, "narr_at": 59.53, "narr_dur": 4.123, "wav": "audio/s09.wav"}, {"id": "sc-s10", "sid": "s10", "kind": "book", "start": 64.804, "dur": 6.792, "narr_at": 65.254, "narr_dur": 5.192, "wav": "audio/s10.wav"}, {"id": "sc-close", "sid": "close", "kind": "close", "start": 71.595, "dur": 7.23, "narr_at": 72.045, "narr_dur": 5.18, "wav": "audio/close.wav"}]};
+const clamp01 = x => x < 0 ? 0 : x > 1 ? 1 : x;
+const eOut = t => 1 - Math.pow(1 - t, 3);
+const eIO  = t => t < .5 ? 4*t*t*t : 1 - Math.pow(-2*t+2,3)/2;
+
+function reveal(node, local, delay, dur, dy){
+  const p = eOut(clamp01((local - delay) / dur));
+  node.style.opacity = p;
+  node.style.transform = 'translateY(' + ((1 - p) * dy).toFixed(2) + 'px)';
+}
+
+function animBook(el, local){
+  const cov = el.querySelector('.cover');
+  const cp = eOut(clamp01(local / .8));
+  const drift = Math.sin(Math.max(0, local - .8) * .6) * 4;
+  const ry = (-16 + cp * 9).toFixed(2);
+  const tx = ((1 - cp) * -130).toFixed(2);
+  cov.style.opacity = cp;
+  cov.style.transform = 'translate(' + tx + 'px,' + drift.toFixed(2) +
+                        'px) rotateY(' + ry + 'deg)';
+  reveal(el.querySelector('.num'),   local, .12, .5, 26);
+  reveal(el.querySelector('.pilar'), local, .28, .5, 22);
+  reveal(el.querySelector('.title'), local, .40, .55, 30);
+  const r = el.querySelector('.rule');
+  r.style.transform = 'scaleX(' + eOut(clamp01((local - .62) / .5)).toFixed(3) + ')';
+  reveal(el.querySelector('.tag'),   local, .82, .5, 16);
+  reveal(el.querySelector('.forca'), local, .78, .6, 22);
+  el.querySelector('.brand').style.opacity   = clamp01((local - .2) / .5);
+  el.querySelector('.counter').style.opacity = clamp01((local - .2) / .5);
+}
+
+function animIntro(el, local){
+  const l = el.querySelector('.leao');
+  const p = eOut(clamp01(local / .7));
+  l.style.opacity = p;
+  l.style.transform = 'scale(' + (.82 + p * .18).toFixed(3) + ')';
+  reveal(el.querySelector('.kick'), local, .25, .5, 18);
+  reveal(el.querySelector('.big'),  local, .38, .6, 40);
+  const r = el.querySelector('.rule');
+  r.style.transform = 'scaleX(' + eOut(clamp01((local - .55) / .5)).toFixed(3) + ')';
+  r.style.transformOrigin = 'center';
+  reveal(el.querySelector('.sub'),  local, .68, .6, 28);
+}
+
+function animClose(el, local){
+  const b = el.querySelector('.big10');
+  const bp = eOut(clamp01(local / .9));
+  b.style.opacity = (bp * .09).toFixed(3);
+  b.style.transform = 'scale(' + (1.12 - bp * .12).toFixed(3) + ')';
+  el.querySelectorAll('.mini').forEach((m, i) => {
+    const p = eOut(clamp01((local - i * .05) / .55));
+    m.style.opacity = p;
+    m.style.transform = 'translateY(' + ((1 - p) * 34).toFixed(2) + 'px)';
+  });
+  reveal(el.querySelector('.leao'),   local, .75, .5, 20);
+  reveal(el.querySelector('.handle'), local, .88, .5, 22);
+  reveal(el.querySelector('.cta'),    local, 1.02, .5, 18);
+  reveal(el.querySelector('.wm'),     local, 1.16, .5, 14);
+}
+
+function seek(t){
+  let sc = TL.scenes[0], local = 0;
+  for (const s of TL.scenes){
+    if (t >= s.start && t < s.start + s.dur){ sc = s; local = t - s.start; break; }
+    if (t >= s.start) { sc = s; local = t - s.start; }
+  }
+  for (const s of TL.scenes){
+    const el = document.getElementById(s.id);
+    if (el) el.style.opacity = '0';
+  }
+  const el = document.getElementById(sc.id);
+  const fin  = clamp01(local / .40);
+  const fout = clamp01((sc.dur - local) / .35);
+  el.style.opacity = Math.min(fin, fout);
+  if (sc.kind === 'book') animBook(el, local);
+  else if (sc.kind === 'intro') animIntro(el, local);
+  else animClose(el, local);
+}
+window.__seek = seek;
+window.__ready = true;
+seek(0);
+</script></body></html>
