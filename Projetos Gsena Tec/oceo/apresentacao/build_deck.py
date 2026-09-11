@@ -182,13 +182,16 @@ def _effect_par(ids, preset, subtype, delay, behaviors):
     </p:cTn></p:par>"""
 
 
-def animate(slide, logo_sid, extra_sids):
-    """logo: zoom+fade @0 ; extras: fade em cascata."""
+def animate(slide, sids, logo_sid=None):
+    """logo (so na capa/fecho): zoom+fade @0 ; sids: fade em cascata."""
     ids = Ids()
     grp = ids.nxt()  # click-group cTn id
-    pars = [_effect_par(ids, 23, 16, 0, _zoom_behaviors(ids, logo_sid))]
-    delay = 350
-    for sid in extra_sids:
+    pars = []
+    delay = 0
+    if logo_sid is not None:
+        pars.append(_effect_par(ids, 23, 16, 0, _zoom_behaviors(ids, logo_sid)))
+        delay = 350
+    for sid in sids:
         pars.append(_effect_par(ids, 10, 0, delay, _fade_behaviors(ids, sid)))
         delay += 250
     xml = f"""<p:timing {nsdecls('p')}>
@@ -226,7 +229,6 @@ def logo_mark(slide):
 def content_slide(kick, ttl, body_builder, ttl_size=32):
     s = prs.slides.add_slide(BLANK)
     bg(s, PAPEL)
-    lsid = logo_mark(s)
     # faixa lateral fina
     rect(s, 0, 0, Inches(0.16), SH, GOLD)
     # cabecalho
@@ -240,20 +242,15 @@ def content_slide(kick, ttl, body_builder, ttl_size=32):
     body_builder(ctf)
     csid = cbox.shape_id
     add_transition(s)
-    animate(s, lsid, [hsid, csid])
+    animate(s, [hsid, csid])
     return s
 
 
 def divider_slide(code, ttl, sub):
     s = prs.slides.add_slide(BLANK)
     bg(s, DARK)
-    # logo grande
-    w = Inches(2.7)
-    h = Emu(int(w * FULL_RATIO))
-    pic = s.shapes.add_picture(LOGO_FULL, Inches(0.95), Inches(0.85), w, h)
-    lsid = pic.shape_id
-    rect(s, Inches(1.0), Inches(4.35), Inches(2.2), Pt(3), GOLD)
-    box, tf = tb(s, Inches(0.98), Inches(4.6), Inches(11), Inches(2.4))
+    rect(s, Inches(1.0), Inches(2.9), Inches(2.2), Pt(3), GOLD)
+    box, tf = tb(s, Inches(0.98), Inches(3.15), Inches(11), Inches(2.4))
     p = tf.paragraphs[0]
     setrun(p, code, 15, GOLD, SANS, bold=True, spacing=3.0)
     p2 = tf.add_paragraph()
@@ -265,14 +262,13 @@ def divider_slide(code, ttl, sub):
     p3.line_spacing = 1.2
     tsid = box.shape_id
     add_transition(s)
-    animate(s, lsid, [tsid])
+    animate(s, [tsid])
     return s
 
 
 def comparativo_slide(kick, ttl, rows, foot):
     s = prs.slides.add_slide(BLANK)
     bg(s, PAPEL)
-    lsid = logo_mark(s)
     rect(s, 0, 0, Inches(0.16), SH, GOLD)
     hbox, htf = tb(s, Inches(0.9), Inches(0.58), Inches(9.7), Inches(1.3))
     kicker(htf, kick)
@@ -318,7 +314,7 @@ def comparativo_slide(kick, ttl, rows, foot):
         p.line_spacing = 1.1
     fsid = fbox.shape_id
     add_transition(s)
-    animate(s, lsid, [hsid, tsid, fsid])
+    animate(s, [hsid, tsid, fsid])
     return s
 
 
@@ -345,7 +341,7 @@ setrun(p4, "Gilberto Luís de Sena  ·  Grupo Sena  ·  www.oceo.com.br", 12, MU
 p4.space_before = Pt(14)
 tsid = box.shape_id
 add_transition(s)
-animate(s, lsid, [tsid])
+animate(s, [tsid], lsid)
 
 # ---- 2 · Sobre esta obra
 def _b(tf):
@@ -443,7 +439,6 @@ content_slide("Capítulo 5", "Os cinco princípios fundadores", _b)
 # ---- 10 · Arquitetura (tabela)
 s = prs.slides.add_slide(BLANK)
 bg(s, PAPEL)
-lsid = logo_mark(s)
 rect(s, 0, 0, Inches(0.16), SH, GOLD)
 hbox, htf = tb(s, Inches(0.9), Inches(0.62), Inches(9.7), Inches(1.5))
 kicker(htf, "Capítulo 7")
@@ -478,7 +473,7 @@ for i, row in enumerate(rows):
         rn.font.color.rgb = INK if ((i == 0) or (j == 0)) else BODY
 tsid = tsh.shape_id
 add_transition(s)
-animate(s, lsid, [hsid, tsid])
+animate(s, [hsid, tsid])
 
 # ---- 11 · ciclo de dado
 def _b(tf):
@@ -783,7 +778,7 @@ setrun(p3, "Gilberto Luís de Sena  ·  Grupo Sena — Soluções Empresariais  
 p3.space_before = Pt(14)
 tsid = box.shape_id
 add_transition(s)
-animate(s, lsid, [tsid])
+animate(s, [tsid], lsid)
 
 prs.save(OUT)
 print("OK ->", OUT)
