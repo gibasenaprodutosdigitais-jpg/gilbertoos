@@ -247,10 +247,16 @@ def content_slide(kick, ttl, body_builder, ttl_size=32):
 
 
 def divider_slide(code, ttl, sub):
+    """Abre-pilar — as 'cinco modalidades' do OCEO. Leva a logo (a unica
+    excecao a regra de 'logo so no inicio e no fim' do resto do deck)."""
     s = prs.slides.add_slide(BLANK)
     bg(s, DARK)
-    rect(s, Inches(1.0), Inches(2.9), Inches(2.2), Pt(3), GOLD)
-    box, tf = tb(s, Inches(0.98), Inches(3.15), Inches(11), Inches(2.4))
+    w = Inches(2.7)
+    h = Emu(int(w * FULL_RATIO))
+    pic = s.shapes.add_picture(LOGO_FULL, Inches(0.95), Inches(0.85), w, h)
+    lsid = pic.shape_id
+    rect(s, Inches(1.0), Inches(4.35), Inches(2.2), Pt(3), GOLD)
+    box, tf = tb(s, Inches(0.98), Inches(4.6), Inches(11), Inches(2.4))
     p = tf.paragraphs[0]
     setrun(p, code, 15, GOLD, SANS, bold=True, spacing=3.0)
     p2 = tf.add_paragraph()
@@ -262,7 +268,7 @@ def divider_slide(code, ttl, sub):
     p3.line_spacing = 1.2
     tsid = box.shape_id
     add_transition(s)
-    animate(s, [tsid])
+    animate(s, [tsid], lsid)
     return s
 
 
