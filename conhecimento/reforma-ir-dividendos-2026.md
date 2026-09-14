@@ -16,8 +16,12 @@
 - **Retenção na fonte sobre lucros e dividendos**: quando uma mesma fonte
   pagadora distribui **mais de R$50.000 no mês** pra uma pessoa física
   (soma de todos os pagamentos daquele mês, se houver mais de um), a
-  empresa é obrigada a **reter na fonte** — o dinheiro já sai descontado,
-  não entra mais inteiro na conta de quem recebe.
+  empresa é obrigada a **reter na fonte, à alíquota de 10% sobre o total
+  distribuído no mês** (não só sobre o excedente — ultrapassou R$50 mil,
+  tributa o valor inteiro; sem deduções na base) — o dinheiro já sai
+  descontado, não entra mais inteiro na conta de quem recebe. Confirmado
+  via `/tendencias` em 13/set/2026 (Receita Federal — Perguntas e
+  Respostas sobre tributação de altas rendas; Conjur; Andere Advocacia).
 - **Tributação mínima anual (IRPFM — Imposto de Renda Pessoa Física
   Mínimo)**:
   - Entre **R$600 mil e R$1,2 milhão** de renda no ano: alíquota **gradual,
