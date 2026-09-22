@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Carrossel — prazo 30/set Simples Nacional</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --papel:#F5F2E9;
+    --tinta:#1F2833;
+    --caneta:#2F5FA8;
+    --marca:#E8C547;
+    --grade-forte:rgba(184,175,152,.30);
+    --grade-fraca:rgba(184,175,152,.17);
+    --margem-cor:rgba(190,150,120,.55);
+  }
+  *{margin:0; padding:0; box-sizing:border-box;}
+  body{background:#55524B; font-family:'Cabin',sans-serif;}
+
+  .slide{
+    position:relative; width:1080px; height:1350px; overflow:hidden;
+    background-color:var(--papel);
+    background-image:
+      linear-gradient(var(--grade-forte) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grade-forte) 1px, transparent 1px),
+      linear-gradient(var(--grade-fraca) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grade-fraca) 1px, transparent 1px);
+    background-size:135px 135px, 135px 135px, 27px 27px, 27px 27px;
+    color:var(--tinta);
+    margin:0 auto 40px;
+    padding:104px 96px 96px 152px;
+    display:flex; flex-direction:column;
+  }
+  .slide::before{
+    content:""; position:absolute; top:0; bottom:0; left:118px;
+    width:2px; background:var(--margem-cor);
+  }
+
+  /* miolo centrado no centro óptico (levemente acima do geométrico) */
+  .conteudo{
+    flex:1; display:flex; flex-direction:column; justify-content:center;
+    padding-bottom:70px;
+  }
+
+  .etiqueta{
+    font-size:19px; font-weight:600; letter-spacing:.17em; text-transform:uppercase;
+    color:rgba(31,40,51,.62);
+  }
+  h1{ font-size:84px; font-weight:700; line-height:1.03; letter-spacing:-.018em; }
+  h2{ font-size:64px; font-weight:700; line-height:1.08; letter-spacing:-.014em; }
+  .corpo{ font-size:33px; font-weight:400; line-height:1.48; color:rgba(31,40,51,.88); }
+  .mao{ font-family:'Caveat',cursive; color:var(--caneta); }
+
+  .mark{
+    background:linear-gradient(to right,
+      rgba(232,197,71,0) 0%, rgba(232,197,71,.60) 1.5%,
+      rgba(232,197,71,.60) 98.5%, rgba(232,197,71,0) 100%);
+    padding:0 .1em;
+  }
+
+  svg.hand{ fill:none; stroke:var(--caneta); stroke-width:3.4;
+    stroke-linecap:round; stroke-linejoin:round; }
+
+  .rodape{ display:flex; align-items:flex-end; justify-content:space-between; gap:28px; }
+  .fonte{ font-size:18px; color:rgba(31,40,51,.5); line-height:1.45; }
+  .passo{ font-size:18px; font-weight:600; letter-spacing:.14em; color:rgba(31,40,51,.38); }
+
+  .capa h1{ font-size:92px; }
+  .capa .assinatura{ font-family:'Caveat',cursive; font-size:62px; color:var(--caneta); }
+
+  .numero-gigante{ font-size:250px; font-weight:700; line-height:.9;
+    letter-spacing:-.03em; color:var(--tinta); }
+
+  .colunas{ display:flex; gap:56px; }
+  .col{ flex:1; }
+  .col + .col{ border-left:2px solid rgba(31,40,51,.16); padding-left:56px; }
+  .col .cabeca{ font-size:23px; font-weight:700; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--caneta); margin-bottom:22px; line-height:1.3; }
+  .col .texto{ font-size:31px; line-height:1.45; }
+  .anota-col{ display:flex; align-items:flex-start; gap:14px; margin-top:34px; }
+
+  ul.itens{ list-style:none; display:flex; flex-direction:column; gap:42px; }
+  ul.itens li{ display:flex; gap:26px; align-items:flex-start; }
+  ul.itens .n{ font-family:'Caveat',cursive; font-size:58px; font-weight:700;
+    color:var(--caneta); line-height:.9; flex:none; width:54px; }
+  ul.itens .t{ font-size:34px; line-height:1.42; padding-top:6px; }
+
+  ul.datas{ list-style:none; display:flex; flex-direction:column; gap:36px; }
+  ul.datas li{ display:flex; gap:28px; align-items:baseline; }
+  ul.datas .d{ font-size:31px; font-weight:700; color:var(--caneta); flex:none; width:252px; }
+  ul.datas .t{ font-size:31px; line-height:1.4; }
+
+  .citacao{ font-family:'Caveat',cursive; font-size:56px; line-height:1.18;
+    color:var(--caneta); }
+
+  .cta .handle{ font-size:34px; font-weight:600; }
+  .cta .leao{ width:108px; height:auto; }
+</style>
+</head>
+<body>
+
+<!-- 1 · CAPA -->
+<div class="slide capa">
+  <div class="etiqueta">Simples Nacional · Reforma</div>
+  <div class="conteudo">
+    <h1>Dia 30 de setembro,<br>uma porta<br>se fecha.</h1>
+    <div style="height:42px"></div>
+    <div class="corpo" style="max-width:20ch">E o que você decidir nela vale
+      o ano inteiro de 2027.</div>
+  </div>
+  <div class="rodape">
+    <div class="assinatura">Gilberto Sena</div>
+    <div class="passo">ARRASTA →</div>
+  </div>
+</div>
+
+<!-- 2 · NÚMERO -->
+<div class="slide">
+  <div class="etiqueta">Último dia pra escolher</div>
+  <div class="conteudo">
+    <div style="position:relative; align-self:flex-start;">
+      <div class="numero-gigante">30/09</div>
+      <svg class="hand" viewBox="0 0 640 260"
+           style="position:absolute; left:-46px; top:-32px; width:700px; height:290px;">
+        <path d="M 318 16 C 168 12, 40 58, 32 128 C 24 200, 158 246, 322 244
+                 C 484 242, 606 196, 604 124 C 602 56, 480 14, 322 18
+                 C 250 20, 190 32, 148 52"/>
+      </svg>
+    </div>
+    <div style="height:74px"></div>
+    <div class="corpo" style="max-width:24ch">Como a sua empresa vai recolher
+      IBS e CBS a partir de 1º de janeiro de 2027.</div>
+  </div>
+  <div class="rodape">
+    <div class="mao" style="font-size:46px">a janela abriu dia 1º</div>
+    <div class="passo">02</div>
+  </div>
+</div>
+
+<!-- 3 · CONTRASTE -->
+<div class="slide">
+  <div class="etiqueta">São dois caminhos</div>
+  <div class="conteudo">
+    <h2>Como você vai<br>recolher em 2027</h2>
+    <div style="height:56px"></div>
+    <div class="colunas">
+      <div class="col">
+        <div class="cabeca">Dentro do DAS</div>
+        <div class="texto">Tudo na guia unificada, do jeito que você já faz hoje.</div>
+      </div>
+      <div class="col">
+        <div class="cabeca">Por fora do DAS</div>
+        <div class="texto">Você continua no Simples, mas apura IBS e CBS separado,
+          pelas regras dos outros regimes.</div>
+        <div class="anota-col">
+          <svg class="hand" viewBox="0 0 110 130" style="width:70px; height:86px;">
+            <path d="M 66 124 C 62 84, 54 50, 44 20"/>
+            <path d="M 24 44 L 43 14 L 64 40"/>
+          </svg>
+          <div class="mao" style="font-size:48px; padding-top:30px">é o tal
+            do híbrido</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rodape">
+    <div class="fonte"></div>
+    <div class="passo">03</div>
+  </div>
+</div>
+
+<!-- 4 · DECLARAÇÃO -->
+<div class="slide">
+  <div class="etiqueta">A confusão da vez</div>
+  <div class="conteudo">
+    <h1 style="font-size:78px">Escolher por fora<br>não tira você<br>do Simples.</h1>
+    <div style="height:46px"></div>
+    <div class="corpo" style="max-width:26ch">A empresa continua optante.
+      Muda a forma de apurar IBS e CBS, e só.</div>
+  </div>
+  <div class="rodape">
+    <div class="fonte">Resolução CGSN nº 186/2026</div>
+    <div class="passo">04</div>
+  </div>
+</div>
+
+<!-- 5 · LISTA -->
+<div class="slide">
+  <div class="etiqueta">O que muda de verdade</div>
+  <div class="conteudo">
+    <ul class="itens">
+      <li><span class="n">1</span><span class="t">Acaba o crédito presumido
+        de 9,25%.</span></li>
+      <li><span class="n">2</span><span class="t">Quem compra de você passa a
+        creditar só o valor que você pagou no DAS.</span></li>
+      <li><span class="n">3</span><span class="t">No B2B, você pode virar o
+        <span class="mark">fornecedor caro</span> sem ter mexido no seu preço.</span></li>
+    </ul>
+  </div>
+  <div class="rodape">
+    <div class="fonte">Fonte: Receita Federal · CGSN 186/2026</div>
+    <div class="passo">05</div>
+  </div>
+</div>
+
+<!-- 6 · CONTRASTE -->
+<div class="slide">
+  <div class="etiqueta">A tendência, pelo seu tipo de cliente</div>
+  <div class="conteudo">
+    <div class="colunas">
+      <div class="col">
+        <div class="cabeca">Vende pra empresa</div>
+        <div class="texto">Muito insumo, cliente que precisa de crédito.
+          Recolher por fora tende a favorecer.</div>
+      </div>
+      <div class="col">
+        <div class="cabeca">Vende pro consumidor final</div>
+        <div class="texto">O cliente não aproveita crédito. O unificado tende
+          a manter a vantagem.</div>
+      </div>
+    </div>
+    <div style="height:62px"></div>
+    <div class="mao" style="font-size:50px; line-height:1.22">Tendência, não veredito.<br>
+      A conta é da sua empresa.</div>
+  </div>
+  <div class="rodape">
+    <div class="fonte"></div>
+    <div class="passo">06</div>
+  </div>
+</div>
+
+<!-- 7 · RESPIRO -->
+<div class="slide">
+  <div class="etiqueta"></div>
+  <div class="conteudo">
+    <h2 style="max-width:16ch">Quem não escolher<br>fica no padrão.</h2>
+    <div style="height:32px"></div>
+    <div class="corpo" style="max-width:22ch">A omissão decide junto com você.</div>
+    <div style="height:92px"></div>
+    <div class="citacao">“O prudente prevê o mal<br>e se esconde; o ingênuo<br>passa
+      e sofre a pena.”</div>
+    <div class="etiqueta" style="margin-top:26px">Provérbios 22,3</div>
+  </div>
+  <div class="rodape">
+    <div class="fonte"></div>
+    <div class="passo">07</div>
+  </div>
+</div>
+
+<!-- 8 · DATAS -->
+<div class="slide">
+  <div class="etiqueta">As datas que importam</div>
+  <div class="conteudo">
+    <ul class="datas">
+      <li><span class="d">30/set/2026</span><span class="t">último dia pra optar,
+        com efeito em 1º/jan/2027</span></li>
+      <li><span class="d">30/nov/2026</span><span class="t">último dia pra cancelar,
+        e o cancelamento é irretratável</span></li>
+      <li><span class="d">março/2027</span><span class="t">nova janela pra ajustar
+        o segundo semestre</span></li>
+      <li><span class="d">MEI</span><span class="t">fica de fora desta regra,
+        mantém os prazos de janeiro</span></li>
+    </ul>
+  </div>
+  <div class="rodape">
+    <div class="fonte">Receita Federal · Resolução CGSN nº 186/2026</div>
+    <div class="passo">08</div>
+  </div>
+</div>
+
+<!-- 9 · CTA -->
+<div class="slide cta">
+  <div class="etiqueta">O ponto</div>
+  <div class="conteudo">
+    <h1 style="font-size:80px">Isso se decide<br>com conta<br>na mesa.</h1>
+    <div style="height:42px"></div>
+    <div class="corpo" style="max-width:24ch">Se você ainda não fez a sua,
+      o calendário está contando.</div>
+  </div>
+  <div class="rodape">
+    <div>
+      <img class="leao" src="assets/leao.png" alt="">
+      <div class="handle" style="margin-top:12px">@gilbertosenaoficial</div>
+    </div>
+    <div class="passo">09</div>
+  </div>
+</div>
+
+</body>
+</html>
