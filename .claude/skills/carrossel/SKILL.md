@@ -18,7 +18,8 @@ Gilberto e no visual de autoridade dele.
    segue isto ESTRITAMENTE)
 2. `_memoria/quem-e-gilberto.md` — autoridade, história, o que ele domina
 3. `_memoria/posicionamento.md` — o ângulo e os pilares de conteúdo
-4. `identidade/design-guide.md` — cores, fonte, sobriedade do visual dele
+4. `identidade/design-guide.md` — o que é fixo (a marca) e o que não é mais
+   (cor e fonte saem do assunto de cada peça)
 5. Se o tema for técnico (imposto, reforma) → `conhecimento/` pra não errar
    fato e poder citar. **Nunca inventar número ou regra técnica.**
 
@@ -27,29 +28,30 @@ Gilberto e no visual de autoridade dele.
 Escrever como o **Gilberto** escreveria — autoridade + sabedoria, não redator
 publicitário. Sem jargão de guru, sem promessa fácil. Ver `tom-de-voz.md`.
 
-## Estilo visual base (quando o design-guide for vago)
+## Direção visual: vem da skill `direcao-de-arte`
 
-Sóbrio e premium: fundo escuro OU claro + off-white + **UMA** cor de destaque
-(dourado/azul do guia). Nunca cores brigando. Cara de quem entende de dinheiro,
-não de coach de Instagram.
+**Não existe mais paleta fixa** (revogado em 22/set/2026). Antes de desenhar
+qualquer coisa, invocar a skill `direcao-de-arte`: ela lê o assunto, propõe
+três direções visuais diferentes e só então se monta. Cor, tipografia e
+composição saem do **assunto daquele carrossel**, não de um padrão do
+Gilberto. Ela também tem validador de contraste e auditoria anti-cara-de-IA.
 
-- **Tipografia:** Inter. Capa 88-100px/900, letter-spacing -0.035em. H2
-  60-72px/800. Corpo 20-24px/500. Kicker 13-15px/700 UPPERCASE, spacing 0.24em.
-- **Elementos:** régua fina na cor de destaque, wordmark/nome top-left +
-  contador top-right, border-top translúcida no rodapé.
-- **Layouts nomeados** (variar pra criar ritmo): CAPA · SOLO · DUO · NÚMERO ·
-  CITAÇÃO · CTA FINAL. Nunca dois slides seguidos com o mesmo fundo.
+O que continua fixo, porque não é sobre cor: a logo do leão entra uma vez,
+pequena. Autoridade acima de enfeite. Sem foto de banco de imagem, sem emoji
+como ícone.
 
-### Foto do Gilberto de fundo (decidido 27/ago/2026)
+- **Layouts nomeados** (variar pra criar ritmo): CAPA · DECLARAÇÃO · NÚMERO ·
+  CONTRASTE · LISTA · RESPIRO · CTA FINAL. Nunca repetir o mesmo tipo em dois
+  slides seguidos.
 
-Por padrão, usar uma foto dele (`identidade/@eubernardocoelho-Gilberto-Sena-104.jpg`
-ou outra equivalente em `identidade/`) como fundo **só do slide CAPA e do CTA
-FINAL** — os slides internos ficam com fundo sólido (mais fácil ler texto
-técnico). Aplicar um overlay escuro semi-transparente por cima da foto
-(gradiente ou cor sólida ~60-75% de opacidade, tom grafite `#0F1419`) pra
-manter o texto/logo legíveis — nunca a foto crua atrás de texto. Se o
-Gilberto pedir claramente "sem foto" nesse pedido específico, usar o fundo
-sólido normal.
+### Foto do Gilberto de fundo (27/ago/2026, agora condicionada à direção)
+
+Quando a direção escolhida comportar foto, usar uma dele
+(`identidade/@eubernardocoelho-Gilberto-Sena-104.jpg` ou equivalente) como
+fundo só da CAPA e do CTA FINAL, sempre com véu por cima pra o texto ficar
+legível. A cor do véu sai da direção escolhida, não é mais fixa em grafite.
+Direção de papel, cartaz ou caderno geralmente não comporta foto: nesse caso
+não force.
 
 ## Estrutura (5 a 10 slides)
 
