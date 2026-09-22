@@ -130,7 +130,9 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
 - `_memoria/` — quem é o Gilberto, como fala, o que defende
 - `conhecimento/` — fichamentos dos livros e materiais (técnico + desenvolvimento)
 - `dados/biblioteca/` — PDFs e materiais crus pra fichar
-- `identidade/` — visual dos posts do Gilberto (cores, fonte)
+- `identidade/` — a marca fixa do Gilberto (logo, nome). Cor/tipografia/
+  composição não são mais fixas — saem do assunto de cada peça, decididas
+  pela skill `direcao-de-arte` (`~/.claude/skills/direcao-de-arte/`)
 - `saidas/` — todo conteúdo gerado (carrossel, reels, ideias)
 - `.claude/skills/` — os 4 comandos
 - `scripts/` — utilitários (ex.: extrair texto de PDF)

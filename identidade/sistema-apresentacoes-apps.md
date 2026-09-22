@@ -1,18 +1,23 @@
-# Sistema visual — apresentações de palco e aplicativos
+# Sistema visual — apresentações de palco e aplicativos (histórico)
 
-> Extensão do `identidade/design-guide.md` (que cobre os posts de Instagram)
-> pra dois formatos novos: **decks de palestra/imersão interativos** (web,
-> não PowerPoint estático) e **aplicativos**. Usa a mesma base de marca —
-> nunca cria uma identidade paralela.
+> **Superado em 22/set/2026.** Este arquivo fixava uma paleta (dourado +
+> acento coral) e um cromo de navegação padrão pra todo deck/app. O
+> Gilberto decidiu não fixar mais paleta em nenhuma peça — quer mais
+> originalidade, com cor, tipografia e composição saindo do **assunto** de
+> cada peça, não de um padrão herdado. Quem decide isso agora, peça por
+> peça, é a skill `direcao-de-arte` (`~/.claude/skills/direcao-de-arte/`).
+> Ver `identidade/design-guide.md` pra decisão completa e o que continua
+> fixo (só a marca: logo + nome).
+>
+> O que segue abaixo fica só como **registro histórico** de uma direção
+> específica já usada (Bloco 1 de
+> `saidas/apresentacao-web-reengenharia-empresarial-2026-09-18/`) — não é
+> mais o padrão a seguir na próxima peça. O cromo de navegação (contador,
+> setas, tela cheia, stepper por etapa) continua sendo uma opção válida
+> *entre outras* que a skill `direcao-de-arte` pode propor quando o assunto
+> pedir esse formato — só não é mais obrigatório em todo deck.
 
-## Quando usar este arquivo em vez do `design-guide.md`
-
-- `design-guide.md` → carrossel e reels (Instagram). Regra de uma cor só.
-- Este arquivo → apresentação de palco/imersão em HTML interativo,
-  ferramentas internas, protótipos de app, qualquer coisa com navegação,
-  estado ou interação (não é só uma imagem estática).
-
-## Base (herdada, não muda)
+## Base (histórico — não é mais obrigatório)
 
 - Fundo escuro principal `#0F1419`, preto `#0A0A0A`, papel `#F4F1EA`.
 - Texto sobre escuro `#F4F1EA`; sobre claro `#151515` (título) / `#454545` (corpo).
@@ -21,7 +26,7 @@
   (sans, rótulos/kicker/UI). Leão dourado (`identidade/logo-transparente-crop.png`)
   + wordmark "GILBERTO SENA".
 
-## O que este formato acrescenta
+## O que aquele formato acrescentava (histórico)
 
 **1. Um segundo acento — coral de risco, só pra isto**
 `#E0654F` (coral queimado). Reservado pra sinalizar *problema, risco,
