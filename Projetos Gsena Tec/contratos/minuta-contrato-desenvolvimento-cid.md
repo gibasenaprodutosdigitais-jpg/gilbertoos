@@ -2,7 +2,7 @@
 
 > **MINUTA — v2 — 23/09/2026**
 > Campos entre `[ ]` devem ser preenchidos. Revisar com advogado antes da assinatura.
-> **Alterado na v2:** participação de êxito passou de 1% para **10%** (Cláusula 9 e Anexo IV) e foi acrescentada a **Cláusula 9.8**, que trata da diluição por entrada de investidor e do ressarcimento de capital inicial e intelectual na primeira rodada. Ver notas 13 e 14 ao final.
+> **Alterado na v2:** participação de êxito passou de 1% para **10%** (Cláusula 9 e Anexo IV); acrescentada a **Cláusula 9.8** (diluição por entrada de investidor e ressarcimento de capital inicial e intelectual na primeira rodada); e ativado o ***vesting* gradual de 1/48 ao mês** no novo item **9.4.1**, com escala de aquisição no ANEXO IV. Ver notas 13 e 14 ao final.
 
 ---
 
@@ -201,7 +201,18 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 **d) não substitutiva** da remuneração da Cláusula 5, que permanece devida de forma independente;
 **e) não conversível** em direito sobre a propriedade intelectual, que permanece integralmente do CONTRATANTE nos termos da Cláusula 6, **sendo a participação meramente econômica e societária, jamais dominial sobre os ativos de PI**.
 
-**9.4. Condições de aquisição (*vesting*).** A outorga fica condicionada, cumulativamente, a que o PRESTADOR: **(a)** esteja em pleno e regular cumprimento deste contrato na data do Evento de Êxito e **em efetiva prestação de serviços** ao CONTRATANTE nessa data; **(b)** tenha prestado serviços de forma contínua por, no mínimo, **`[24]` meses** (período de carência / *cliff*); e **(c)** não tenha, a qualquer tempo, violado as Cláusulas 3.1(e), 6, 7 ou 8. `[Opcional: aquisição gradual de 1/48 por mês a partir do cliff.]`
+**9.4. Condições de aquisição (*vesting*).** A outorga fica condicionada, cumulativamente, a que o PRESTADOR: **(a)** esteja em pleno e regular cumprimento deste contrato na data do Evento de Êxito e **em efetiva prestação de serviços** ao CONTRATANTE nessa data; **(b)** tenha prestado serviços de forma contínua por, no mínimo, **24 (vinte e quatro) meses** (período de carência / *cliff*); e **(c)** não tenha, a qualquer tempo, violado as Cláusulas 3.1(e), 6, 7 ou 8.
+
+**9.4.1. Aquisição gradual.** A participação de 10% (dez por cento) **não se adquire de uma só vez**. Ela é adquirida de forma **gradual e proporcional ao tempo de efetiva prestação de serviços**, à razão de **1/48 (um quarenta e oito avos) por mês completo**, equivalente a **0,2083% (zero vírgula dois zero oito três por cento) do capital social por mês**, contado o termo inicial em **01 de agosto de 2026**, na forma do item 12.1.1, observado que:
+
+**a)** **nada se adquire antes de completado o *cliff*** de 24 (vinte e quatro) meses previsto no item 9.4(b);
+**b)** completado o *cliff*, considera-se adquirido **de uma só vez** o correspondente aos 24 (vinte e quatro) meses já transcorridos, isto é, **24/48, equivalentes a 5% (cinco por cento)** do capital social;
+**c)** a partir daí, a aquisição passa a ocorrer **mensalmente**, à razão de 1/48 por mês completo subsequente de prestação contínua;
+**d)** a **aquisição integral dos 10%** somente se completa ao final de **48 (quarenta e oito) meses** de prestação contínua;
+**e)** a parcela **ainda não adquirida** na data do término, da rescisão, da resilição ou da interrupção dos serviços, por qualquer motivo e por iniciativa de qualquer das PARTES, é **definitivamente perdida**, sem direito a indenização, compensação, arbitramento de valor ou aquisição acelerada (*acceleration*);
+**f)** períodos de interrupção, suspensão, abandono ou não prestação efetiva dos serviços **não são computados** para fins de *vesting*, que fica suspenso e retoma a contagem quando da retomada regular dos serviços.
+
+**9.4.2.** A parcela eventualmente adquirida nos termos do item 9.4.1 **permanece integralmente condicionada** ao implemento do Evento de Êxito (item 9.2) e à formalização do item 9.6, e **não afasta** as hipóteses de perda integral do item 9.5, que prevalecem sobre o *vesting* e alcançam inclusive a parcela já adquirida.
 
 **9.5. Perda integral (*bad leaver*).** O PRESTADOR **perderá automaticamente, de pleno direito e sem qualquer indenização**, a participação ou a expectativa dela, na hipótese de: **(a)** violação das Cláusulas 6 (propriedade intelectual), 7 (confidencialidade) ou 8 (não concorrência e não aliciamento); **(b)** rescisão por justa causa a ele imputável; **(c)** abandono, interrupção injustificada dos serviços por mais de `[30]` dias corridos ou resilição imotivada por sua iniciativa antes do Evento de Êxito; **(d)** inserção de *backdoor*, *kill switch* ou código malicioso; **(e)** ato de improbidade, fraude, desvio, concorrência desleal, apropriação de informação confidencial ou condenação criminal transitada em julgado por crime doloso; ou **(f)** retenção ou recusa de entrega de código-fonte, dados ou acessos. **9.5.1.** Já implementada a outorga, verificada qualquer das hipóteses acima o CONTRATANTE poderá **readquirir compulsoriamente** a participação pelo **valor nominal** das quotas, independentemente do valor de mercado, mediante simples notificação, valendo esta cláusula como outorga de poderes irrevogáveis para tanto.
 
@@ -389,9 +400,27 @@ Rol **exemplificativo**, atualizável na forma do item 1.2. Todos de titularidad
 | Valor-gatilho | R$ `[ ]` |
 | Data-limite de verificação | `[ ]` |
 | Percentual | 10% (dez por cento) |
-| Carência (*cliff*) | `[24]` meses |
+| Carência (*cliff*) | 24 meses — nada adquirido antes disso |
+| *Vesting* | 1/48 por mês completo (0,2083% do capital/mês), termo inicial 01/08/2026 — item 9.4.1 |
+| Aquisição integral | 48 meses de prestação contínua |
 | Diluível | **Sim** — diluição de pleno direito na entrada de investidor (item 9.8.1/9.8.2), sem *anti-diluição* |
 | Ressarcimento de capital inicial e intelectual na 1ª rodada | Faculdade dos sócios, por consenso e com aceite do investidor (item 9.8.3) — critério de apuração a definir no ato |
+
+### Escala de aquisição (ilustrativa — prevalece o item 9.4.1)
+
+Termo inicial 01/08/2026. Pressupõe prestação contínua e sem interrupção.
+
+| Tempo de serviço | Data de referência | Adquirido | % do capital |
+|---|---|---|---|
+| 12 meses | 31/07/2027 | nada (dentro do *cliff*) | 0% |
+| 23 meses | 30/06/2028 | nada (dentro do *cliff*) | 0% |
+| **24 meses (*cliff*)** | **31/07/2028** | **24/48, de uma só vez** | **5,00%** |
+| 30 meses | 31/01/2029 | 30/48 | 6,25% |
+| 36 meses | 31/07/2029 | 36/48 | 7,50% |
+| 42 meses | 31/01/2030 | 42/48 | 8,75% |
+| **48 meses** | **31/07/2030** | **48/48 — integral** | **10,00%** |
+
+⚠ Mesmo a parcela já adquirida continua condicionada ao Evento de Êxito (item 9.2), à formalização societária (item 9.6) e sujeita à perda integral por *bad leaver* (item 9.5).
 | Instrumento de formalização | `[alteração de contrato social / acordo de sócios / plano de opções]` |
 
 ---
@@ -426,7 +455,7 @@ Pelo presente, **CID PINHEIRO NOGUEIRA DE FREITAS**, CPF 149.650.067-98, declara
 11. **Falta preencher:** os marcos de entrega e valores do ANEXO II; data da assinatura; e as 2 testemunhas. Isso normalmente só se define na hora de assinar.
 12. **Revisão obrigatória:** esta é uma minuta de trabalho. Passe pelo seu jurídico antes de assinar.
 13. **⚠ A participação subiu de 1% para 10% (v2) — o que muda na prática.** Não é só um número dez vezes maior; muda a natureza da coisa. Três pontos:
-    - **Vesting gradual deixa de ser opcional.** Com 1%, o *cliff* de 24 meses sozinho resolvia. Com 10%, se o Cid sair no mês 25 ele leva os 10% inteiros. O item 9.4 tem, entre colchetes, a aquisição gradual de 1/48 ao mês — **com 10% vale ativar isso**, ou encurtar (ex.: 1/36). Decida antes de assinar.
+    - **Vesting gradual foi ativado (item 9.4.1).** Com 1%, o *cliff* de 24 meses sozinho resolvia. Com 10%, sem *vesting*, bastaria o Cid chegar ao mês 25 pra levar os 10% inteiros. Agora a aquisição é de 1/48 ao mês: no *cliff* ele trava **5%** de uma vez (os 24 meses já corridos) e só completa os 10% em **48 meses**, em 31/07/2030. Saiu antes, perde o que não venceu, sem aceleração. A escala mês a mês está no ANEXO IV.
     - **Direito de fiscalização.** O item 9.3(a) limita o acesso do Cid às demonstrações financeiras anuais. Em sociedade limitada, o art. 1.021 do Código Civil dá ao sócio o direito de examinar livros e documentos a qualquer tempo. Com 1% ninguém discutiria; com 10% essa restrição contratual fica mais frágil se ele quiser brigar. Não é motivo pra tirar a cláusula, é motivo pra saber que ela pode ceder.
     - **Controle societário.** Com 90/10 você mantém folgadamente o quórum de 3/4 para alteração do contrato social (art. 1.076, I, CC). Só fique atento se novas diluições e a entrada do investidor reduzirem sua fatia — é aí que o quórum começa a importar.
 14. **Cláusula 9.8 (diluição e ressarcimento na 1ª rodada) — leia o que ela faz e o que ela não faz.** Ela garante duas coisas a seu favor: a diluição opera **de pleno direito**, sem o Cid poder travar rodada nenhuma (9.8.1/9.8.2), e o ressarcimento por capital inicial e intelectual é **faculdade dependente de consenso e do aceite do investidor**, nunca um crédito que ele possa cobrar de você (9.8.6). O item 9.8.7 é o mais importante: deixa expresso que ser ressarcido por "capital intelectual" **não dá ao Cid nenhum pedaço da propriedade intelectual** — que continua 100% sua pela Cláusula 6. Sem esse item, a expressão "capital intelectual" seria a brecha natural pra ele reivindicar cotitularidade lá na frente. Um ponto que ficou em aberto de propósito: **o critério de apuração do capital intelectual** (9.8.4(b)) não está definido, porque depende do business plan e do valuation. Investidor costuma resistir a *cash-out* em rodada seed, então a forma mais provável de isso acontecer na prática é a letra (a) do item 9.8.5, reconhecimento no valuation pré-money.
