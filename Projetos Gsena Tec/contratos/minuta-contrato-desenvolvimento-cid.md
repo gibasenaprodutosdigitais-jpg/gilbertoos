@@ -1,7 +1,8 @@
 # CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE, CESSÃO TOTAL DE DIREITOS DE PROPRIEDADE INTELECTUAL, CONFIDENCIALIDADE E NÃO CONCORRÊNCIA
 
-> **MINUTA — v1 — 04/09/2026**
+> **MINUTA — v2 — 23/09/2026**
 > Campos entre `[ ]` devem ser preenchidos. Revisar com advogado antes da assinatura.
+> **Alterado na v2:** participação de êxito passou de 1% para **10%** (Cláusula 9 e Anexo IV) e foi acrescentada a **Cláusula 9.8**, que trata da diluição por entrada de investidor e do ressarcimento de capital inicial e intelectual na primeira rodada. Ver notas 13 e 14 ao final.
 
 ---
 
@@ -187,15 +188,15 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 
 ---
 
-## CLÁUSULA 9 — DA PARTICIPAÇÃO DE ÊXITO DE 1% (*EQUITY*)
+## CLÁUSULA 9 — DA PARTICIPAÇÃO DE ÊXITO DE 10% (*EQUITY*)
 
-**9.1. Concessão.** Como incentivo de longo prazo e em caráter **exclusivamente condicional**, o CONTRATANTE promete outorgar ao PRESTADOR participação equivalente a **1% (um por cento)** do capital social da sociedade que vier a ser titular do respectivo projeto (ou, conforme o caso, do conjunto de projetos definido no ANEXO IV), **desde que integral e cumulativamente verificadas** as condições desta cláusula.
+**9.1. Concessão.** Como incentivo de longo prazo e em caráter **exclusivamente condicional**, o CONTRATANTE promete outorgar ao PRESTADOR participação equivalente a **10% (dez por cento)** do capital social da sociedade que vier a ser titular do respectivo projeto (ou, conforme o caso, do conjunto de projetos definido no ANEXO IV), **desde que integral e cumulativamente verificadas** as condições desta cláusula.
 
 **9.2. Evento de Êxito.** A participação somente se torna exigível a partir do implemento do **Evento de Êxito**, assim definido como o atingimento, pelo projeto, do patamar de `[receita anual recorrente / faturamento / valuation / captação de rodada]` a ser **definido de comum acordo entre as PARTES no *business plan*** do respectivo projeto, o qual, uma vez aprovado e assinado, passará a integrar este contrato como **ANEXO IV**. **9.2.1.** As PARTES reconhecem que, **até a assinatura do ANEXO IV**, o valor do Evento de Êxito é indeterminado e, portanto, **nenhuma participação, expectativa de direito, direito adquirido, crédito ou pretensão indenizatória** decorre desta cláusula em favor do PRESTADOR. **9.2.2.** A não celebração do ANEXO IV, por qualquer motivo, não gera ao PRESTADOR direito a participação, a arbitramento judicial de valor ou a qualquer compensação.
 
 **9.3. Natureza e limites da participação.** Verificado o Evento de Êxito e implementada a outorga, a participação será:
 **a) minoritária, sem direito de gestão**, administração, representação, veto, voto qualificado, assento em conselho, ingerência em decisões de negócio ou acesso a informações além das demonstrações financeiras anuais;
-**b) sujeita a diluição** proporcional em aportes, rodadas de investimento, entrada de novos sócios, planos de opções ou reorganizações societárias, sem direito a *anti-diluição*, preferência ou reposição;
+**b) sujeita a diluição** proporcional em aportes, rodadas de investimento, entrada de novos sócios, planos de opções ou reorganizações societárias, sem direito a *anti-diluição*, preferência ou reposição, na forma detalhada da **Cláusula 9.8**;
 **c) intransferível** — vedada cessão, alienação, oneração, empenho, doação, permuta ou constituição de qualquer gravame, a qualquer título, sem consentimento prévio e escrito do CONTRATANTE, a quem ficam assegurados **direito de preferência**, *tag along* e *drag along*;
 **d) não substitutiva** da remuneração da Cláusula 5, que permanece devida de forma independente;
 **e) não conversível** em direito sobre a propriedade intelectual, que permanece integralmente do CONTRATANTE nos termos da Cláusula 6, **sendo a participação meramente econômica e societária, jamais dominial sobre os ativos de PI**.
@@ -207,6 +208,28 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 **9.6. Formalização.** A participação de que trata esta cláusula **não se opera por este instrumento**, exigindo, para sua eficácia, a celebração de **instrumento societário próprio** (alteração de contrato social, acordo de sócios ou plano de opção de compra), no qual serão detalhados a sociedade emissora, a classe e o valor das quotas, o *vesting*, as regras de saída e as demais condições, sempre em conformidade e sem contrariar esta Cláusula 9. Em caso de divergência entre este contrato e o instrumento societário quanto às condições de perda, prevalecerá o que for mais protetivo ao CONTRATANTE.
 
 **9.7. Não sociedade de fato.** Esta cláusula **não** constitui sociedade, sociedade em conta de participação, sociedade de fato, *joint venture* ou copropriedade entre as PARTES, nem confere ao PRESTADOR a condição de sócio antes da formalização do item 9.6.
+
+**9.8. Da diluição por entrada de investidor e do reconhecimento do capital inicial e intelectual.**
+
+**9.8.1. Diluição.** Havendo entrada de investidor, aporte de capital, rodada de investimento, emissão de novas quotas ou ações, conversão de mútuo ou instrumento conversível, plano de opções, incorporação, cisão, *drop down* ou qualquer outra reorganização societária, **as participações de todos os sócios, inclusive a do PRESTADOR, poderão ser diluídas na medida necessária à acomodação do capital ingressante**, conforme o valor da empresa (*valuation*) e as condições negociadas com o investidor.
+
+**9.8.2.** A diluição de que trata o item 9.8.1 opera-se **de pleno direito**, independentemente de anuência, notificação prévia, compensação, reposição, ajuste de percentual ou qualquer contrapartida ao PRESTADOR, que desde já a reconhece como inerente ao crescimento do negócio e **renuncia expressamente** a direito de *anti-diluição*, de preferência na subscrição, de manutenção de percentual e a qualquer pretensão indenizatória a esse título.
+
+**9.8.3. Reconhecimento do capital inicial e do capital intelectual na primeira rodada.** Por ocasião da **primeira rodada de investimento** com entrada de terceiro, ao se definir o valor da empresa, os sócios poderão, **de comum acordo entre si e desde que aceito pelo investidor**, deliberar que sejam **ressarcidos pelo capital inicial e pelo capital intelectual** que cada um houver comprovadamente investido no projeto até aquela data, **na proporção da participação societária de cada um** no momento imediatamente anterior à rodada.
+
+**9.8.4. Do que se compõe.** Para os fins do item 9.8.3, entende-se por:
+
+**a) Capital inicial:** os aportes financeiros comprovadamente realizados por cada sócio no projeto — recursos próprios, custeio de infraestrutura, licenças, serviços de terceiros, registros, despesas de constituição e demais desembolsos documentados;
+
+**b) Capital intelectual:** a concepção, a estratégia, a arquitetura de negócio, a metodologia, as regras de negócio, o posicionamento, a marca, a carteira e a reputação aportadas ao projeto, bem como o trabalho técnico efetivamente prestado e não remunerado por outra via, tudo apurado conforme critério a ser definido no mesmo ato e registrado por escrito.
+
+**9.8.5. Forma do ressarcimento.** O ressarcimento poderá ser implementado, conforme deliberado pelos sócios e aceito pelo investidor, por: **(a)** reconhecimento do respectivo valor no *valuation* pré-investimento, refletindo-se na participação de cada sócio; **(b)** pagamento direto aos sócios com parte dos recursos da rodada (*cash-out* / venda secundária de quotas); **(c)** emissão de quotas ou crédito em favor dos sócios; ou **(d)** combinação dessas formas.
+
+**9.8.6. Natureza facultativa.** O ressarcimento de que trata o item 9.8.3 é **faculdade dos sócios, dependente de consenso entre eles e de aceitação pelo investidor**, não constituindo direito adquirido, crédito líquido e certo, expectativa de direito ou obrigação exigível de qualquer das PARTES. **Não havendo consenso, ou não sendo aceito pelo investidor, a rodada segue sem o ressarcimento, sem que disso decorra direito a indenização, arbitramento judicial de valor ou compensação a qualquer título.**
+
+**9.8.7. Ressalva de propriedade intelectual.** O reconhecimento ou o ressarcimento de capital intelectual previsto nesta cláusula tem natureza **exclusivamente econômica** e **não transfere, não compartilha, não onera nem confere ao PRESTADOR qualquer direito, cotitularidade ou reivindicação sobre a propriedade intelectual dos projetos**, que permanece integral, originária e exclusivamente do CONTRATANTE nos termos da Cláusula 6, ainda que o PRESTADOR venha a ser ressarcido nos termos do item 9.8.3.
+
+**9.8.8.** As condições desta cláusula aplicam-se ao PRESTADOR **somente após** a efetiva implementação da outorga na forma do item 9.6, e não afastam as hipóteses de perda integral do item 9.5.
 
 ---
 
@@ -354,7 +377,7 @@ Rol **exemplificativo**, atualizável na forma do item 1.2. Todos de titularidad
 
 ---
 
-# ANEXO IV — EVENTO DE ÊXITO E PARTICIPAÇÃO DE 1%
+# ANEXO IV — EVENTO DE ÊXITO E PARTICIPAÇÃO DE 10%
 
 `[A ser celebrado após a conclusão do business plan. Enquanto não assinado, não gera direito algum ao PRESTADOR — item 9.2.1.]`
 
@@ -365,9 +388,10 @@ Rol **exemplificativo**, atualizável na forma do item 1.2. Todos de titularidad
 | Métrica do Evento de Êxito | `[receita anual recorrente / faturamento / valuation / captação]` |
 | Valor-gatilho | R$ `[ ]` |
 | Data-limite de verificação | `[ ]` |
-| Percentual | 1% (um por cento) |
+| Percentual | 10% (dez por cento) |
 | Carência (*cliff*) | `[24]` meses |
-| Diluível | Sim |
+| Diluível | **Sim** — diluição de pleno direito na entrada de investidor (item 9.8.1/9.8.2), sem *anti-diluição* |
+| Ressarcimento de capital inicial e intelectual na 1ª rodada | Faculdade dos sócios, por consenso e com aceite do investidor (item 9.8.3) — critério de apuração a definir no ato |
 | Instrumento de formalização | `[alteração de contrato social / acordo de sócios / plano de opções]` |
 
 ---
@@ -401,3 +425,8 @@ Pelo presente, **CID PINHEIRO NOGUEIRA DE FREITAS**, CPF 149.650.067-98, declara
 10. **Início retroativo em 01/08/2026 (12.1.1):** como ele já vem trabalhando desde agosto, a cláusula faz o contrato **retroagir**. Isso é essencial: sem ela, tudo que ele criou em agosto e setembro ficaria fora da cessão de propriedade intelectual. Marque no item 12.1.2 se agosto e setembro já estão pagos.
 11. **Falta preencher:** os marcos de entrega e valores do ANEXO II; data da assinatura; e as 2 testemunhas. Isso normalmente só se define na hora de assinar.
 12. **Revisão obrigatória:** esta é uma minuta de trabalho. Passe pelo seu jurídico antes de assinar.
+13. **⚠ A participação subiu de 1% para 10% (v2) — o que muda na prática.** Não é só um número dez vezes maior; muda a natureza da coisa. Três pontos:
+    - **Vesting gradual deixa de ser opcional.** Com 1%, o *cliff* de 24 meses sozinho resolvia. Com 10%, se o Cid sair no mês 25 ele leva os 10% inteiros. O item 9.4 tem, entre colchetes, a aquisição gradual de 1/48 ao mês — **com 10% vale ativar isso**, ou encurtar (ex.: 1/36). Decida antes de assinar.
+    - **Direito de fiscalização.** O item 9.3(a) limita o acesso do Cid às demonstrações financeiras anuais. Em sociedade limitada, o art. 1.021 do Código Civil dá ao sócio o direito de examinar livros e documentos a qualquer tempo. Com 1% ninguém discutiria; com 10% essa restrição contratual fica mais frágil se ele quiser brigar. Não é motivo pra tirar a cláusula, é motivo pra saber que ela pode ceder.
+    - **Controle societário.** Com 90/10 você mantém folgadamente o quórum de 3/4 para alteração do contrato social (art. 1.076, I, CC). Só fique atento se novas diluições e a entrada do investidor reduzirem sua fatia — é aí que o quórum começa a importar.
+14. **Cláusula 9.8 (diluição e ressarcimento na 1ª rodada) — leia o que ela faz e o que ela não faz.** Ela garante duas coisas a seu favor: a diluição opera **de pleno direito**, sem o Cid poder travar rodada nenhuma (9.8.1/9.8.2), e o ressarcimento por capital inicial e intelectual é **faculdade dependente de consenso e do aceite do investidor**, nunca um crédito que ele possa cobrar de você (9.8.6). O item 9.8.7 é o mais importante: deixa expresso que ser ressarcido por "capital intelectual" **não dá ao Cid nenhum pedaço da propriedade intelectual** — que continua 100% sua pela Cláusula 6. Sem esse item, a expressão "capital intelectual" seria a brecha natural pra ele reivindicar cotitularidade lá na frente. Um ponto que ficou em aberto de propósito: **o critério de apuração do capital intelectual** (9.8.4(b)) não está definido, porque depende do business plan e do valuation. Investidor costuma resistir a *cash-out* em rodada seed, então a forma mais provável de isso acontecer na prática é a letra (a) do item 9.8.5, reconhecimento no valuation pré-money.
