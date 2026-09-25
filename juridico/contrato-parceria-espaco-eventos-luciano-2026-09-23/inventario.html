@@ -1,219 +1,118 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<title>Inventário para Parceria</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --papel:#F2F0EB;
-    --tinta:#16161A;
-    --acento:#D6412B;
-    --linha:#C9C5BC;
-    --fraco:#6E6A63;
-  }
-  @page { size: A4; margin: 14mm 12mm; }
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Inventário para Parceria</title><link rel='preconnect' href='https://fonts.googleapis.com'><link rel='preconnect' href='https://fonts.gstatic.com' crossorigin><link href='https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap' rel='stylesheet'><style>
+  @page { size:A4; margin:13mm 11mm; }
+  
+  :root{ --papel:#F2F0EB; --tinta:#16161A; --acento:#D6412B;
+         --linha:#C9C5BC; --fraco:#6E6A63; }
   *{margin:0; padding:0; box-sizing:border-box;}
-  body{
-    font-family:'Archivo',sans-serif; color:var(--tinta);
-    background:var(--papel); font-size:9pt; line-height:1.45;
-    -webkit-print-color-adjust:exact; print-color-adjust:exact;
-  }
-  .pag{ padding:0; }
-
+  body{ font-family:'Archivo',sans-serif; color:var(--tinta); background:var(--papel);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
   header{ border-bottom:2.5pt solid var(--tinta); padding-bottom:7pt; margin-bottom:12pt; }
-  .kicker{ font-size:7.5pt; font-weight:700; letter-spacing:.18em;
-    text-transform:uppercase; color:var(--acento); margin-bottom:5pt; }
-  h1{ font-size:19pt; font-weight:700; letter-spacing:-.02em; line-height:1.1; }
-  .sub{ font-size:8.5pt; color:var(--fraco); margin-top:4pt; max-width:135mm; }
-
-  .partes{ display:flex; gap:7pt; margin-bottom:11pt; }
-  .parte{ flex:1; border:.7pt solid var(--linha); padding:6pt 7pt; }
-  .parte .rot{ font-size:6.8pt; font-weight:700; letter-spacing:.13em;
-    text-transform:uppercase; color:var(--acento); margin-bottom:3pt; }
-  .parte .nome{ font-size:9.5pt; font-weight:700; }
-  .parte .det{ font-size:7.5pt; color:var(--fraco); margin-top:2pt; line-height:1.35; }
-
-  .meta{ display:flex; gap:7pt; margin-bottom:12pt; }
-  .meta div{ flex:1; border-bottom:.7pt solid var(--linha); padding-bottom:3pt; }
-  .meta .r{ font-size:6.8pt; font-weight:700; letter-spacing:.13em;
-    text-transform:uppercase; color:var(--fraco); }
-  .meta .v{ font-size:9pt; min-height:12pt; }
-
-  h2{ font-size:8pt; font-weight:700; letter-spacing:.15em; text-transform:uppercase;
-    margin:11pt 0 5pt; padding-bottom:3pt; border-bottom:1.2pt solid var(--tinta); }
-
+  .kicker{ font-size:7.5pt; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
+           color:var(--acento); margin-bottom:5pt; }
+  h1{ font-weight:700; letter-spacing:-.02em; line-height:1.08; }
+  .sub{ color:var(--fraco); margin-top:5pt; max-width:150mm; }
+  h2{ font-weight:700; letter-spacing:.15em; text-transform:uppercase; }
   table{ width:100%; border-collapse:collapse; }
-  thead th{
-    font-size:6.8pt; font-weight:700; letter-spacing:.09em; text-transform:uppercase;
-    color:var(--fraco); text-align:left; padding:3pt 4pt; border-bottom:.7pt solid var(--linha);
-  }
-  tbody td{ padding:5pt 4pt; border-bottom:.5pt solid var(--linha); vertical-align:middle; }
-  /* linhas em branco: altura pra caber escrita à mão na apuração */
-  tbody tr.vazia td{ height:22pt; }
-  tbody tr.cat td{ background:rgba(22,22,26,.055); font-weight:700; font-size:7.5pt;
-    letter-spacing:.1em; text-transform:uppercase; padding:4pt; border-bottom:.7pt solid var(--linha); }
-  .n{ width:7mm; font-family:'IBM Plex Mono',monospace; font-size:8pt; color:var(--fraco); }
-  .item{ font-weight:500; font-size:9pt; }
-  .qtd{ width:13mm; text-align:center; font-family:'IBM Plex Mono',monospace; font-weight:500; }
-  .campo{ font-family:'IBM Plex Mono',monospace; color:var(--linha); font-size:8pt; }
-  .col-marca{ width:34mm; } .col-serie{ width:30mm; }
-  .col-estado{ width:20mm; } .col-valor{ width:26mm; text-align:right; }
+  tr, td, th{ page-break-inside:avoid; }
+  thead{ display:table-header-group; }
+  footer{ margin-top:14pt; padding-top:5pt; border-top:.7pt solid var(--linha);
+          font-size:7pt; color:var(--fraco); display:flex; justify-content:space-between; }
 
+  body{ font-size:8.5pt; line-height:1.4; }
+  h1{ font-size:18pt; } .sub{ font-size:8pt; }
+  .partes{ display:flex; gap:7pt; margin-bottom:10pt; }
+  .parte{ flex:1; border:.7pt solid var(--linha); padding:6pt 7pt; }
+  .parte .rot{ font-size:6.5pt; font-weight:700; letter-spacing:.13em;
+    text-transform:uppercase; color:var(--acento); margin-bottom:3pt; }
+  .parte .nome{ font-size:9pt; font-weight:700; }
+  .parte .det{ font-size:7pt; color:var(--fraco); margin-top:2pt; line-height:1.3; }
+  .meta{ display:flex; gap:7pt; margin-bottom:11pt; }
+  .meta div{ flex:1; border-bottom:.7pt solid var(--linha); padding-bottom:3pt; }
+  .meta .r{ font-size:6.5pt; font-weight:700; letter-spacing:.13em;
+    text-transform:uppercase; color:var(--fraco); }
+  .meta .v{ min-height:12pt; }
+  h2{ font-size:7.5pt; margin:0 0 5pt; padding-bottom:3pt;
+       border-bottom:1.2pt solid var(--tinta); }
+  thead th{ font-size:6.3pt; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--fraco); text-align:left; padding:3pt; border-bottom:.7pt solid var(--linha); }
+  tbody td{ padding:3.6pt 3pt; border-bottom:.5pt solid var(--linha); vertical-align:middle; }
+  tbody tr.cat td{ background:rgba(22,22,26,.055); font-weight:700; font-size:7pt;
+    letter-spacing:.1em; text-transform:uppercase; padding:3.5pt 3pt;
+    border-bottom:.7pt solid var(--linha); }
+  tbody tr.vazia td{ height:18pt; }
+  .n{ width:7mm; font-family:'IBM Plex Mono',monospace; font-size:7.5pt; color:var(--fraco); }
+  .item{ font-weight:500; font-size:8.5pt; }
+  .item .obs{ color:var(--fraco); font-weight:400; font-size:7pt; }
+  .qtd{ width:12mm; text-align:center; font-family:'IBM Plex Mono',monospace;
+         font-weight:600; font-size:8.5pt; }
+  .campo{ border-bottom:.5pt solid var(--linha); }
+  th:nth-child(4),td:nth-child(4){ width:31mm; }
+  th:nth-child(5),td:nth-child(5){ width:27mm; }
+  th:nth-child(6),td:nth-child(6){ width:18mm; }
+  .col-valor{ width:24mm; }
   .total{ display:flex; justify-content:flex-end; gap:10pt; align-items:baseline;
     margin-top:7pt; padding-top:6pt; border-top:2pt solid var(--tinta); }
-  .total .r{ font-size:7.5pt; font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
-  .total .v{ font-family:'IBM Plex Mono',monospace; font-size:11pt; font-weight:500;
-    color:var(--linha); min-width:42mm; text-align:right; border-bottom:.7pt solid var(--linha); }
-
-  .decl{ margin-top:13pt; border-left:2.5pt solid var(--acento); padding:7pt 0 7pt 9pt;
-    font-size:8pt; line-height:1.5; max-width:165mm; }
-  .decl b{ font-weight:700; }
-
-  .assin{ display:flex; gap:14pt; margin-top:20pt; }
+  .total .r{ font-size:7pt; font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
+  .total .v{ font-family:'IBM Plex Mono',monospace; font-size:10pt; min-width:42mm;
+    text-align:right; border-bottom:.7pt solid var(--linha); }
+  .decl{ margin-top:11pt; border-left:2.5pt solid var(--acento); padding:6pt 0 6pt 9pt;
+    font-size:7.5pt; line-height:1.45; max-width:168mm; }
+  .assin{ display:flex; gap:14pt; margin-top:16pt; }
   .assin div{ flex:1; text-align:center; }
   .assin .linha{ border-top:.7pt solid var(--tinta); margin-bottom:3pt; }
-  .assin .q{ font-size:7.5pt; font-weight:700; }
-  .assin .p{ font-size:7pt; color:var(--fraco); }
-
-  footer{ margin-top:14pt; padding-top:5pt; border-top:.7pt solid var(--linha);
-    font-size:7pt; color:var(--fraco); display:flex; justify-content:space-between; }
-</style>
-</head>
-<body>
-<div class="pag">
-
-  <header>
-    <div class="kicker">Anexo I · Contrato de Parceria Comercial</div>
-    <h1>Inventário de equipamentos e mobiliário</h1>
-    <div class="sub">Espaço de eventos <strong>"Kairós"</strong> (denominação provisória).
-      Relação preliminar, a ser conferida item a item na apuração física e substituída
-      pelo inventário definitivo, com número de série e valor de reposição preenchidos.</div>
-  </header>
-
-  <div class="partes">
-    <div class="parte">
-      <div class="rot">Proprietário dos bens</div>
-      <div class="nome">Gilberto Luis de Sena</div>
-      <div class="det">CPF 850.812.306-00 — aporta os bens em comodato, mantendo a
-        propriedade exclusiva, nos termos da Cláusula 5 do contrato.</div>
-    </div>
-    <div class="parte">
-      <div class="rot">Depositário dos bens</div>
-      <div class="nome">______________________________</div>
-      <div class="det">CPF ______________________ — responde pela guarda e conservação
-        enquanto os bens permanecerem no espaço.</div>
-    </div>
-  </div>
-
-  <div class="meta">
-    <div><div class="r">Local da apuração</div><div class="v">&nbsp;</div></div>
-    <div><div class="r">Data</div><div class="v">&nbsp;</div></div>
-    <div><div class="r">Registro fotográfico</div><div class="v">&nbsp;</div></div>
-  </div>
-
-  <h2>Relação de bens</h2>
-  <table>
-    <thead>
-      <tr>
-        <th class="n">#</th>
-        <th>Item</th>
-        <th class="qtd">Qtd.</th>
-        <th class="col-marca">Marca / modelo</th>
-        <th class="col-serie">Nº de série</th>
-        <th class="col-estado">Estado</th>
-        <th class="col-valor">Valor de reposição</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="cat"><td colspan="7">Vídeo e projeção</td></tr>
-      <tr><td class="n">01</td><td class="item">Telão de LED</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">02</td><td class="item">Palco para telão</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">03</td><td class="item">Suporte de telão</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">04</td><td class="item">TV</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">05</td><td class="item">Tela interativa</td><td class="qtd">1</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">06</td><td class="item">Telas para <i>house</i></td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-
-      <tr class="cat"><td colspan="7">Áudio</td></tr>
-      <tr><td class="n">07</td><td class="item">Caixas de som</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">08</td><td class="item">Microfones sem fio</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-
-      <tr class="cat"><td colspan="7">Iluminação</td></tr>
-      <tr><td class="n">09</td><td class="item">Iluminação de ambiente (completa)</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">10</td><td class="item">Iluminação de palco (completa)</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">11</td><td class="item">Mesa(s) de iluminação</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-
-      <tr class="cat"><td colspan="7">Captação e transmissão</td></tr>
-      <tr><td class="n">12</td><td class="item">Câmeras Sony</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">13</td><td class="item">Câmera PTZ (transmissão ao vivo)</td><td class="qtd">1</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-
-      <tr class="cat"><td colspan="7">Informática e cabeamento</td></tr>
-      <tr><td class="n">14</td><td class="item">Notebooks</td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">15</td><td class="item">Cabos e conectores</td><td class="qtd">lote</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-
-      <tr class="cat"><td colspan="7">Mobiliário</td></tr>
-      <tr><td class="n">16</td><td class="item">Mesas de auditório (3 lugares cada)</td><td class="qtd">20</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">17</td><td class="item">Cadeiras para as mesas do auditório</td><td class="qtd">120</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-      <tr><td class="n">18</td><td class="item">Mesa e móveis de escritório <span style="color:var(--fraco); font-weight:400; font-size:7.5pt">(a levantar)</span></td><td class="qtd campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="campo">—</td><td class="col-valor campo">—</td></tr>
-
-      <tr class="cat"><td colspan="7">Itens acrescidos na apuração</td></tr>
-      <tr class="vazia"><td class="n">19</td><td class="item campo">&nbsp;</td><td class="qtd campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr>
-      <tr class="vazia"><td class="n">20</td><td class="item campo">&nbsp;</td><td class="qtd campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr>
-      <tr class="vazia"><td class="n">21</td><td class="item campo">&nbsp;</td><td class="qtd campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr>
-      <tr class="vazia"><td class="n">22</td><td class="item campo">&nbsp;</td><td class="qtd campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr>
-    </tbody>
-  </table>
-
-  <div class="total">
-    <div class="r">Valor total de reposição</div>
-    <div class="v">&nbsp;</div>
-  </div>
-
-  <div class="decl">
-    Os signatários declaram que os bens acima foram conferidos item a item nesta data.
-    Os bens são de <b>propriedade exclusiva de Gilberto Luis de Sena</b>, permanecem
-    assim em qualquer cenário e <b>não se comunicam com o imóvel</b> por acessão,
-    benfeitoria ou qualquer outro título, ainda que fixados ou instalados em caráter
-    permanente. O depositário responde pela guarda e conservação enquanto os bens
-    permanecerem no espaço e obriga-se a comunicar em até 24 horas qualquer dano,
-    furto, sinistro ou apreensão. Este inventário, uma vez assinado,
-    <b>substitui o Anexo I</b> e integra o Contrato de Parceria Comercial para todos
-    os fins.
-  </div>
-
-  <div class="assin">
-    <div>
-      <div class="linha"></div>
-      <div class="q">GILBERTO LUIS DE SENA</div>
-      <div class="p">Proprietário dos bens — CPF 850.812.306-00</div>
-    </div>
-    <div>
-      <div class="linha"></div>
-      <div class="q">DEPOSITÁRIO</div>
-      <div class="p">Nome e CPF</div>
-    </div>
-  </div>
-
-  <div class="assin" style="margin-top:14pt">
-    <div>
-      <div class="linha"></div>
-      <div class="q">TESTEMUNHA 1</div>
-      <div class="p">Nome e CPF</div>
-    </div>
-    <div>
-      <div class="linha"></div>
-      <div class="q">TESTEMUNHA 2</div>
-      <div class="p">Nome e CPF</div>
-    </div>
-  </div>
-
-  <footer>
-    <span>Anexo I — Contrato de Parceria Comercial · Espaço de eventos "Kairós"</span>
-    <span>Documento preliminar — conferir na apuração física</span>
-  </footer>
-
+  .assin .q{ font-size:7pt; font-weight:700; }
+  .assin .p{ font-size:6.5pt; color:var(--fraco); }
+</style></head><body>
+<header>
+  <div class="kicker">Anexo I · Contrato de Parceria Comercial</div>
+  <h1>Inventário de equipamentos e mobiliário</h1>
+  <div class="sub">Espaço de eventos <strong>"Kairós"</strong> (denominação provisória)
+    — Praça da República. Relação a ser conferida item a item na apuração física,
+    preenchendo marca, número de série, estado e valor de reposição.</div>
+</header>
+<div class="partes">
+  <div class="parte"><div class="rot">Proprietário dos bens</div>
+    <div class="nome">Gilberto Luis de Sena</div>
+    <div class="det">CPF 850.812.306-00 — aporta os bens em comodato, mantendo a
+      propriedade exclusiva, nos termos da Cláusula 5 do contrato.</div></div>
+  <div class="parte"><div class="rot">Depositário dos bens</div>
+    <div class="nome">______________________________</div>
+    <div class="det">CPF ______________________ — responde pela guarda e conservação
+      enquanto os bens permanecerem no espaço.</div></div>
 </div>
-</body>
-</html>
+<div class="meta">
+  <div><div class="r">Local da apuração</div><div class="v">&nbsp;</div></div>
+  <div><div class="r">Data</div><div class="v">&nbsp;</div></div>
+  <div><div class="r">Registro fotográfico</div><div class="v">&nbsp;</div></div>
+</div>
+<h2>Relação de bens</h2>
+<table><thead><tr>
+  <th class="n">#</th><th>Item</th><th class="qtd">Qtd.</th>
+  <th>Marca / modelo</th><th>Nº de série</th><th>Estado</th>
+  <th class="col-valor">Valor de reposição</th>
+</tr></thead><tbody><tr class="cat"><td colspan="7">Painel de LED e projeção</td></tr><tr><td class="n">01</td><td class="item">Placas de painel de LED</td><td class="qtd">12</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">02</td><td class="item">Cases para painel de LED</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">03</td><td class="item">Suporte do painel de LED</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">04</td><td class="item">Cabos de sinal <span class="obs">(do painel)</span></td><td class="qtd">3</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">05</td><td class="item">Cabos de energia <span class="obs">(do painel)</span></td><td class="qtd">3</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">06</td><td class="item">Computador do telão</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">07</td><td class="item">TVs de retorno</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">08</td><td class="item">Tela interativa</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">09</td><td class="item">Suporte para tela interativa</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="cat"><td colspan="7">Captação de vídeo</td></tr><tr><td class="n">10</td><td class="item">Câmeras do auditório</td><td class="qtd">3</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">11</td><td class="item">Placas de captura de vídeo</td><td class="qtd">3</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">12</td><td class="item">Cabos HDMI</td><td class="qtd">3</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">13</td><td class="item">Cabos HDMI do palco</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="cat"><td colspan="7">Áudio</td></tr><tr><td class="n">14</td><td class="item">Caixa PA</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">15</td><td class="item">Caixa com subwoofer</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">16</td><td class="item">Caixas de som <span class="obs">(ativa e passiva)</span></td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">17</td><td class="item">Mesa de som Soundcraft UI16</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">18</td><td class="item">Mesa de som NXA MSX Player</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">19</td><td class="item">Microfones bastão</td><td class="qtd">3</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">20</td><td class="item">Base EW135G4 Sennheiser</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">21</td><td class="item">Cabos longos de áudio</td><td class="qtd">6</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">22</td><td class="item">Cabos de energia <span class="obs">(ligação dos áudios, sob o palco)</span></td><td class="qtd">6</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="cat"><td colspan="7">Iluminação</td></tr><tr><td class="n">23</td><td class="item">Par LED</td><td class="qtd">12</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">24</td><td class="item">COB</td><td class="qtd">4</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">25</td><td class="item">Mesa de iluminação</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="cat"><td colspan="7">Informática e acessórios</td></tr><tr><td class="n">26</td><td class="item">Notebooks</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">27</td><td class="item">Teclados</td><td class="qtd">3</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">28</td><td class="item">Mouses</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">29</td><td class="item">Passadoras de slides</td><td class="qtd">3</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">30</td><td class="item">Baterias AA recarregáveis <span class="obs">(com carregador)</span></td><td class="qtd">4</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">31</td><td class="item">Transformador 220V para 127V <span class="obs">(estava sobre o forro)</span></td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">32</td><td class="item">Cabos HDMI avulsos</td><td class="qtd">lote</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">33</td><td class="item">Cabos e cabos de energia <span class="obs">(estavam sobre o forro)</span></td><td class="qtd">lote</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="cat"><td colspan="7">Auditório</td></tr><tr><td class="n">34</td><td class="item">Mesas</td><td class="qtd">20</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">35</td><td class="item">Forros de mesa</td><td class="qtd">20</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">36</td><td class="item">Cadeiras</td><td class="qtd">120</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">37</td><td class="item">Palcos</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="cat"><td colspan="7">Mobiliário de escritório</td></tr><tr><td class="n">38</td><td class="item">Mesa de reunião retangular</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">39</td><td class="item">Cadeiras <span class="obs">(da mesa de reunião)</span></td><td class="qtd">6</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">40</td><td class="item">Cadeiras brancas</td><td class="qtd">10</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">41</td><td class="item">Jogos de bistrô</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">42</td><td class="item">Escrivaninhas</td><td class="qtd">6</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">43</td><td class="item">Baias de atendimento duplas</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">44</td><td class="item">Conjuntos de mesa com armário aparador</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">45</td><td class="item">Armários médios</td><td class="qtd">7</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">46</td><td class="item">Armário grande</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">47</td><td class="item">Armários arquivo</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">48</td><td class="item">Mesa redonda</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">49</td><td class="item">Armários aparador</td><td class="qtd">2</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">50</td><td class="item">Cadeiras</td><td class="qtd">5</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">51</td><td class="item">Armário canto aparador</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">52</td><td class="item">Mesa de escritório</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">53</td><td class="item">Cadeira</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="cat"><td colspan="7">Cortinas</td></tr><tr><td class="n">54</td><td class="item">Bastões de cortina</td><td class="qtd">10</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">55</td><td class="item">Cortinas</td><td class="qtd">10</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="cat"><td colspan="7">Eletrodomésticos</td></tr><tr><td class="n">56</td><td class="item">Geladeira</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr><td class="n">57</td><td class="item">Geladeira de duas portas</td><td class="qtd">1</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="vazia"><td class="n">58</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="vazia"><td class="n">59</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="vazia"><td class="n">60</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr><tr class="vazia"><td class="n">61</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="campo">&nbsp;</td><td class="col-valor campo">&nbsp;</td></tr></tbody></table>
+<div class="total"><div class="r">Valor total de reposição</div><div class="v">&nbsp;</div></div>
+<div class="decl">
+  Os signatários declaram que os bens acima foram conferidos item a item nesta data.
+  Os bens são de <b>propriedade exclusiva de Gilberto Luis de Sena</b>, permanecem assim
+  em qualquer cenário e <b>não se comunicam com o imóvel</b> por acessão, benfeitoria ou
+  qualquer outro título, ainda que fixados ou instalados em caráter permanente. O
+  depositário responde pela guarda e conservação enquanto os bens permanecerem no espaço
+  e obriga-se a comunicar em até 24 horas qualquer dano, furto, sinistro ou apreensão.
+  Este inventário, uma vez assinado, <b>substitui o Anexo I</b> e integra o Contrato de
+  Parceria Comercial para todos os fins.
+</div>
+<div class="assin">
+  <div><div class="linha"></div><div class="q">GILBERTO LUIS DE SENA</div>
+    <div class="p">Proprietário dos bens — CPF 850.812.306-00</div></div>
+  <div><div class="linha"></div><div class="q">DEPOSITÁRIO</div>
+    <div class="p">Nome e CPF</div></div>
+</div>
+<div class="assin" style="margin-top:12pt">
+  <div><div class="linha"></div><div class="q">TESTEMUNHA 1</div><div class="p">Nome e CPF</div></div>
+  <div><div class="linha"></div><div class="q">TESTEMUNHA 2</div><div class="p">Nome e CPF</div></div>
+</div>
+<footer><span>Anexo I — Contrato de Parceria Comercial · Espaço de eventos "Kairós"</span>
+<span>57 itens · 325 peças</span></footer>
+</body></html>

@@ -1,140 +1,67 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<title>Inventário para Parceria — Itens e Quantidades</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --papel:#F2F0EB;
-    --tinta:#16161A;
-    --acento:#D6412B;
-    --linha:#C9C5BC;
-    --fraco:#6E6A63;
-  }
-  @page { size: A4; margin: 16mm 14mm; }
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Inventário para Parceria — Itens e Quantidades</title><link rel='preconnect' href='https://fonts.googleapis.com'><link rel='preconnect' href='https://fonts.gstatic.com' crossorigin><link href='https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap' rel='stylesheet'><style>
+  @page { size:A4; margin:15mm 14mm; }
+  
+  :root{ --papel:#F2F0EB; --tinta:#16161A; --acento:#D6412B;
+         --linha:#C9C5BC; --fraco:#6E6A63; }
   *{margin:0; padding:0; box-sizing:border-box;}
-  body{
-    font-family:'Archivo',sans-serif; color:var(--tinta);
-    background:var(--papel); font-size:10pt; line-height:1.45;
-    -webkit-print-color-adjust:exact; print-color-adjust:exact;
-  }
+  body{ font-family:'Archivo',sans-serif; color:var(--tinta); background:var(--papel);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  header{ border-bottom:2.5pt solid var(--tinta); padding-bottom:7pt; margin-bottom:12pt; }
+  .kicker{ font-size:7.5pt; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
+           color:var(--acento); margin-bottom:5pt; }
+  h1{ font-weight:700; letter-spacing:-.02em; line-height:1.08; }
+  .sub{ color:var(--fraco); margin-top:5pt; max-width:150mm; }
+  h2{ font-weight:700; letter-spacing:.15em; text-transform:uppercase; }
+  table{ width:100%; border-collapse:collapse; }
+  tr, td, th{ page-break-inside:avoid; }
+  thead{ display:table-header-group; }
+  footer{ margin-top:14pt; padding-top:5pt; border-top:.7pt solid var(--linha);
+          font-size:7pt; color:var(--fraco); display:flex; justify-content:space-between; }
 
-  header{ border-bottom:2.5pt solid var(--tinta); padding-bottom:8pt; margin-bottom:16pt; }
-  .kicker{ font-size:8pt; font-weight:700; letter-spacing:.18em;
-    text-transform:uppercase; color:var(--acento); margin-bottom:6pt; }
-  h1{ font-size:23pt; font-weight:700; letter-spacing:-.02em; line-height:1.08; }
-  .sub{ font-size:9.5pt; color:var(--fraco); margin-top:6pt; max-width:150mm; }
-
-  h2{ font-size:8.5pt; font-weight:700; letter-spacing:.16em; text-transform:uppercase;
-    color:var(--acento); margin:15pt 0 6pt; }
-  h2:first-of-type{ margin-top:0; }
-
-  table{ width:100%; border-collapse:collapse; margin-bottom:2pt; }
-  tbody td{ padding:7pt 4pt; border-bottom:.6pt solid var(--linha); vertical-align:baseline; }
-  .item{ font-size:11pt; font-weight:500; }
-  .item .obs{ color:var(--fraco); font-weight:400; font-size:9pt; }
-  .qtd{ width:30mm; text-align:right; font-family:'IBM Plex Mono',monospace;
-    font-size:13pt; font-weight:600; }
-  .qtd.aberto{ color:var(--linha); font-weight:400; font-size:11pt; }
-  .un{ font-size:8.5pt; color:var(--fraco); font-weight:400; font-family:'Archivo',sans-serif; }
-
-  .totais{ margin-top:18pt; border-top:2.5pt solid var(--tinta); padding-top:10pt;
-    display:flex; gap:10mm; }
+  body{ font-size:8.5pt; line-height:1.35; }
+  h1{ font-size:20pt; } .sub{ font-size:8.5pt; }
+  /* duas colunas: 57 itens cabem numa folha só sem apertar a leitura */
+  .colunas{ column-count:2; column-gap:9mm; }
+  section{ break-inside:avoid; page-break-inside:avoid; margin-bottom:7pt; }
+  h2{ font-size:7.5pt; color:var(--acento); margin:0 0 3pt; }
+  tbody td{ padding:3.2pt 2pt; border-bottom:.5pt solid var(--linha); vertical-align:baseline; }
+  .item{ font-size:9pt; font-weight:500; }
+  .item .obs{ color:var(--fraco); font-weight:400; font-size:7pt; }
+  .qtd{ width:16mm; text-align:right; font-family:'IBM Plex Mono',monospace;
+         font-size:10pt; font-weight:600; }
+  .qtd.aberto{ color:var(--fraco); font-weight:400; font-size:8pt; }
+  .totais{ margin-top:14pt; border-top:2.5pt solid var(--tinta); padding-top:9pt;
+    display:flex; gap:9mm; }
   .totais div{ flex:1; }
-  .totais .r{ font-size:7.5pt; font-weight:700; letter-spacing:.14em;
-    text-transform:uppercase; color:var(--fraco); margin-bottom:3pt; }
-  .totais .v{ font-family:'IBM Plex Mono',monospace; font-size:16pt; font-weight:600; }
-  .totais .v small{ font-family:'Archivo',sans-serif; font-size:8.5pt;
-    font-weight:400; color:var(--fraco); }
-
-  .nota{ margin-top:16pt; border-left:2.5pt solid var(--acento); padding:6pt 0 6pt 9pt;
-    font-size:8.5pt; line-height:1.5; color:var(--fraco); max-width:165mm; }
-
-  footer{ margin-top:18pt; padding-top:6pt; border-top:.7pt solid var(--linha);
-    font-size:7.5pt; color:var(--fraco); display:flex; justify-content:space-between; }
-</style>
-</head>
-<body>
-
-  <header>
-    <div class="kicker">Parceria · Espaço de eventos "Kairós"</div>
-    <h1>Itens e quantidades</h1>
-    <div class="sub">Relação resumida dos equipamentos e do mobiliário aportados por
-      Gilberto Luis de Sena. Os itens sem quantidade fechada serão contados na
-      apuração física.</div>
-  </header>
-
-  <h2>Vídeo e projeção</h2>
-  <table><tbody>
-    <tr><td class="item">Telão de LED</td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">Palco para telão</td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">Suporte de telão</td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">TV</td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">Tela interativa</td><td class="qtd">1</td></tr>
-    <tr><td class="item">Telas para <i>house</i></td><td class="qtd aberto">a contar</td></tr>
-  </tbody></table>
-
-  <h2>Áudio</h2>
-  <table><tbody>
-    <tr><td class="item">Caixas de som</td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">Microfones sem fio</td><td class="qtd aberto">a contar</td></tr>
-  </tbody></table>
-
-  <h2>Iluminação</h2>
-  <table><tbody>
-    <tr><td class="item">Iluminação de ambiente <span class="obs">(completa)</span></td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">Iluminação de palco <span class="obs">(completa)</span></td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">Mesa de iluminação</td><td class="qtd aberto">a contar</td></tr>
-  </tbody></table>
-
-  <h2>Captação e transmissão</h2>
-  <table><tbody>
-    <tr><td class="item">Câmeras Sony</td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">Câmera PTZ <span class="obs">(transmissão ao vivo)</span></td><td class="qtd">1</td></tr>
-  </tbody></table>
-
-  <h2>Informática e cabeamento</h2>
-  <table><tbody>
-    <tr><td class="item">Notebooks</td><td class="qtd aberto">a contar</td></tr>
-    <tr><td class="item">Cabos e conectores</td><td class="qtd aberto">lote</td></tr>
-  </tbody></table>
-
-  <h2>Mobiliário</h2>
-  <table><tbody>
-    <tr><td class="item">Mesas de auditório <span class="obs">(3 lugares cada)</span></td><td class="qtd">20</td></tr>
-    <tr><td class="item">Cadeiras para as mesas do auditório</td><td class="qtd">120</td></tr>
-    <tr><td class="item">Mesa e móveis de escritório</td><td class="qtd aberto">a levantar</td></tr>
-  </tbody></table>
-
-  <div class="totais">
-    <div>
-      <div class="r">Tipos de item</div>
-      <div class="v">18</div>
-    </div>
-    <div>
-      <div class="r">Quantidades já fechadas</div>
-      <div class="v">142 <small>peças (20 mesas + 120 cadeiras + 1 tela interativa + 1 PTZ)</small></div>
-    </div>
-    <div>
-      <div class="r">Itens a contar na apuração</div>
-      <div class="v">14</div>
-    </div>
-  </div>
-
-  <div class="nota">
-    Documento de referência, sem valor de conferência. A relação com marca, modelo,
-    número de série, estado e valor de reposição — que é a que vale como Anexo I do
-    contrato e como termo de depósito — está no documento
-    <b>"Inventário para Parceria"</b>, assinado pelas partes e por duas testemunhas.
-  </div>
-
-  <footer>
-    <span>Parceria — Espaço de eventos "Kairós" · Itens e quantidades</span>
-    <span>Preliminar — atualizar após a apuração física</span>
-  </footer>
-
-</body>
-</html>
+  .totais .r{ font-size:7pt; font-weight:700; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--fraco); margin-bottom:2pt; }
+  .totais .v{ font-family:'IBM Plex Mono',monospace; font-size:15pt; font-weight:600; }
+  .totais .v small{ font-family:'Archivo',sans-serif; font-size:8pt; font-weight:400;
+    color:var(--fraco); }
+  .nota{ margin-top:13pt; border-left:2.5pt solid var(--acento); padding:5pt 0 5pt 9pt;
+    font-size:8pt; line-height:1.45; color:var(--fraco); max-width:168mm; }
+</style></head><body>
+<header>
+  <div class="kicker">Parceria · Espaço de eventos "Kairós" — Praça da República</div>
+  <h1>Itens e quantidades</h1>
+  <div class="sub">Relação dos equipamentos e do mobiliário aportados por
+    Gilberto Luis de Sena.</div>
+</header>
+<div class="colunas"><section><h2>Painel de LED e projeção</h2><table><tbody><tr><td class="item">Placas de painel de LED</td><td class="qtd">12</td></tr><tr><td class="item">Cases para painel de LED</td><td class="qtd">2</td></tr><tr><td class="item">Suporte do painel de LED</td><td class="qtd">1</td></tr><tr><td class="item">Cabos de sinal <span class="obs">(do painel)</span></td><td class="qtd">3</td></tr><tr><td class="item">Cabos de energia <span class="obs">(do painel)</span></td><td class="qtd">3</td></tr><tr><td class="item">Computador do telão</td><td class="qtd">1</td></tr><tr><td class="item">TVs de retorno</td><td class="qtd">2</td></tr><tr><td class="item">Tela interativa</td><td class="qtd">1</td></tr><tr><td class="item">Suporte para tela interativa</td><td class="qtd">1</td></tr></tbody></table></section><section><h2>Captação de vídeo</h2><table><tbody><tr><td class="item">Câmeras do auditório</td><td class="qtd">3</td></tr><tr><td class="item">Placas de captura de vídeo</td><td class="qtd">3</td></tr><tr><td class="item">Cabos HDMI</td><td class="qtd">3</td></tr><tr><td class="item">Cabos HDMI do palco</td><td class="qtd">2</td></tr></tbody></table></section><section><h2>Áudio</h2><table><tbody><tr><td class="item">Caixa PA</td><td class="qtd">1</td></tr><tr><td class="item">Caixa com subwoofer</td><td class="qtd">1</td></tr><tr><td class="item">Caixas de som <span class="obs">(ativa e passiva)</span></td><td class="qtd">2</td></tr><tr><td class="item">Mesa de som Soundcraft UI16</td><td class="qtd">1</td></tr><tr><td class="item">Mesa de som NXA MSX Player</td><td class="qtd">1</td></tr><tr><td class="item">Microfones bastão</td><td class="qtd">3</td></tr><tr><td class="item">Base EW135G4 Sennheiser</td><td class="qtd">1</td></tr><tr><td class="item">Cabos longos de áudio</td><td class="qtd">6</td></tr><tr><td class="item">Cabos de energia <span class="obs">(ligação dos áudios, sob o palco)</span></td><td class="qtd">6</td></tr></tbody></table></section><section><h2>Iluminação</h2><table><tbody><tr><td class="item">Par LED</td><td class="qtd">12</td></tr><tr><td class="item">COB</td><td class="qtd">4</td></tr><tr><td class="item">Mesa de iluminação</td><td class="qtd">1</td></tr></tbody></table></section><section><h2>Informática e acessórios</h2><table><tbody><tr><td class="item">Notebooks</td><td class="qtd">2</td></tr><tr><td class="item">Teclados</td><td class="qtd">3</td></tr><tr><td class="item">Mouses</td><td class="qtd">2</td></tr><tr><td class="item">Passadoras de slides</td><td class="qtd">3</td></tr><tr><td class="item">Baterias AA recarregáveis <span class="obs">(com carregador)</span></td><td class="qtd">4</td></tr><tr><td class="item">Transformador 220V para 127V <span class="obs">(estava sobre o forro)</span></td><td class="qtd">1</td></tr><tr><td class="item">Cabos HDMI avulsos <span class="obs">(lote)</span></td><td class="qtd aberto">lote</td></tr><tr><td class="item">Cabos e cabos de energia <span class="obs">(estavam sobre o forro)</span></td><td class="qtd aberto">lote</td></tr></tbody></table></section><section><h2>Auditório</h2><table><tbody><tr><td class="item">Mesas</td><td class="qtd">20</td></tr><tr><td class="item">Forros de mesa</td><td class="qtd">20</td></tr><tr><td class="item">Cadeiras</td><td class="qtd">120</td></tr><tr><td class="item">Palcos</td><td class="qtd">2</td></tr></tbody></table></section><section><h2>Mobiliário de escritório</h2><table><tbody><tr><td class="item">Mesa de reunião retangular</td><td class="qtd">1</td></tr><tr><td class="item">Cadeiras <span class="obs">(da mesa de reunião)</span></td><td class="qtd">6</td></tr><tr><td class="item">Cadeiras brancas</td><td class="qtd">10</td></tr><tr><td class="item">Jogos de bistrô</td><td class="qtd">2</td></tr><tr><td class="item">Escrivaninhas</td><td class="qtd">6</td></tr><tr><td class="item">Baias de atendimento duplas</td><td class="qtd">2</td></tr><tr><td class="item">Conjuntos de mesa com armário aparador</td><td class="qtd">2</td></tr><tr><td class="item">Armários médios</td><td class="qtd">7</td></tr><tr><td class="item">Armário grande</td><td class="qtd">1</td></tr><tr><td class="item">Armários arquivo</td><td class="qtd">2</td></tr><tr><td class="item">Mesa redonda</td><td class="qtd">1</td></tr><tr><td class="item">Armários aparador</td><td class="qtd">2</td></tr><tr><td class="item">Cadeiras</td><td class="qtd">5</td></tr><tr><td class="item">Armário canto aparador</td><td class="qtd">1</td></tr><tr><td class="item">Mesa de escritório</td><td class="qtd">1</td></tr><tr><td class="item">Cadeira</td><td class="qtd">1</td></tr></tbody></table></section><section><h2>Cortinas</h2><table><tbody><tr><td class="item">Bastões de cortina</td><td class="qtd">10</td></tr><tr><td class="item">Cortinas</td><td class="qtd">10</td></tr></tbody></table></section><section><h2>Eletrodomésticos</h2><table><tbody><tr><td class="item">Geladeira</td><td class="qtd">1</td></tr><tr><td class="item">Geladeira de duas portas</td><td class="qtd">1</td></tr></tbody></table></section></div>
+<div class="totais">
+  <div><div class="r">Tipos de item</div><div class="v">57</div></div>
+  <div><div class="r">Total de peças</div>
+    <div class="v">325 <small>unidades contadas</small></div></div>
+  <div><div class="r">Lotes a detalhar</div>
+    <div class="v">2 <small>cabeamento avulso</small></div></div>
+</div>
+<div class="nota">
+  Documento de referência, sem valor de conferência. A relação com marca, modelo,
+  número de série, estado e valor de reposição — que é a que vale como Anexo I do
+  contrato e como termo de depósito — está no documento
+  <b>"Inventário para Parceria"</b>, assinado pelas partes e por duas testemunhas.
+</div>
+<footer><span>Parceria — Espaço de eventos "Kairós" · Itens e quantidades</span>
+<span>Atualizar após a apuração física</span></footer>
+</body></html>
