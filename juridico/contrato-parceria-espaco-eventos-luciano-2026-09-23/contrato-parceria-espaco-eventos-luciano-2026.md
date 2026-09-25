@@ -590,7 +590,7 @@ igual teor, ou por assinatura eletrônica, na presença de duas testemunhas.
 | 13 | Notebooks | `[ ]` | `[ ]` | `[ ]` | `[ ]` | R$ `[ ]` |
 | 14 | Cabos e conectores | lote | `[ ]` | — | `[ ]` | R$ `[ ]` |
 | 15 | Mesas de auditório (3 lugares cada) | 20 | `[ ]` | — | `[ ]` | R$ `[ ]` |
-| 16 | Cadeiras de auditório | 100 | `[ ]` | — | `[ ]` | R$ `[ ]` |
+| 16 | Cadeiras de auditório | 120 | `[ ]` | — | `[ ]` | R$ `[ ]` |
 | 17 | Mesa e móveis de escritório | a levantar | `[ ]` | — | `[ ]` | R$ `[ ]` |
 
 **Valor total de reposição:** R$ `[ ]` · **Data do inventário:** `[ ]`

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Inventário para Parceria — Itens e Quantidades</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --papel:#F2F0EB;
+    --tinta:#16161A;
+    --acento:#D6412B;
+    --linha:#C9C5BC;
+    --fraco:#6E6A63;
+  }
+  @page { size: A4; margin: 16mm 14mm; }
+  *{margin:0; padding:0; box-sizing:border-box;}
+  body{
+    font-family:'Archivo',sans-serif; color:var(--tinta);
+    background:var(--papel); font-size:10pt; line-height:1.45;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  header{ border-bottom:2.5pt solid var(--tinta); padding-bottom:8pt; margin-bottom:16pt; }
+  .kicker{ font-size:8pt; font-weight:700; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--acento); margin-bottom:6pt; }
+  h1{ font-size:23pt; font-weight:700; letter-spacing:-.02em; line-height:1.08; }
+  .sub{ font-size:9.5pt; color:var(--fraco); margin-top:6pt; max-width:150mm; }
+
+  h2{ font-size:8.5pt; font-weight:700; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--acento); margin:15pt 0 6pt; }
+  h2:first-of-type{ margin-top:0; }
+
+  table{ width:100%; border-collapse:collapse; margin-bottom:2pt; }
+  tbody td{ padding:7pt 4pt; border-bottom:.6pt solid var(--linha); vertical-align:baseline; }
+  .item{ font-size:11pt; font-weight:500; }
+  .item .obs{ color:var(--fraco); font-weight:400; font-size:9pt; }
+  .qtd{ width:30mm; text-align:right; font-family:'IBM Plex Mono',monospace;
+    font-size:13pt; font-weight:600; }
+  .qtd.aberto{ color:var(--linha); font-weight:400; font-size:11pt; }
+  .un{ font-size:8.5pt; color:var(--fraco); font-weight:400; font-family:'Archivo',sans-serif; }
+
+  .totais{ margin-top:18pt; border-top:2.5pt solid var(--tinta); padding-top:10pt;
+    display:flex; gap:10mm; }
+  .totais div{ flex:1; }
+  .totais .r{ font-size:7.5pt; font-weight:700; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--fraco); margin-bottom:3pt; }
+  .totais .v{ font-family:'IBM Plex Mono',monospace; font-size:16pt; font-weight:600; }
+  .totais .v small{ font-family:'Archivo',sans-serif; font-size:8.5pt;
+    font-weight:400; color:var(--fraco); }
+
+  .nota{ margin-top:16pt; border-left:2.5pt solid var(--acento); padding:6pt 0 6pt 9pt;
+    font-size:8.5pt; line-height:1.5; color:var(--fraco); max-width:165mm; }
+
+  footer{ margin-top:18pt; padding-top:6pt; border-top:.7pt solid var(--linha);
+    font-size:7.5pt; color:var(--fraco); display:flex; justify-content:space-between; }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="kicker">Parceria · Espaço de eventos "Kairós"</div>
+    <h1>Itens e quantidades</h1>
+    <div class="sub">Relação resumida dos equipamentos e do mobiliário aportados por
+      Gilberto Luis de Sena. Os itens sem quantidade fechada serão contados na
+      apuração física.</div>
+  </header>
+
+  <h2>Vídeo e projeção</h2>
+  <table><tbody>
+    <tr><td class="item">Telão de LED</td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">Palco para telão</td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">Suporte de telão</td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">TV</td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">Tela interativa</td><td class="qtd">1</td></tr>
+    <tr><td class="item">Telas para <i>house</i></td><td class="qtd aberto">a contar</td></tr>
+  </tbody></table>
+
+  <h2>Áudio</h2>
+  <table><tbody>
+    <tr><td class="item">Caixas de som</td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">Microfones sem fio</td><td class="qtd aberto">a contar</td></tr>
+  </tbody></table>
+
+  <h2>Iluminação</h2>
+  <table><tbody>
+    <tr><td class="item">Iluminação de ambiente <span class="obs">(completa)</span></td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">Iluminação de palco <span class="obs">(completa)</span></td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">Mesa de iluminação</td><td class="qtd aberto">a contar</td></tr>
+  </tbody></table>
+
+  <h2>Captação e transmissão</h2>
+  <table><tbody>
+    <tr><td class="item">Câmeras Sony</td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">Câmera PTZ <span class="obs">(transmissão ao vivo)</span></td><td class="qtd">1</td></tr>
+  </tbody></table>
+
+  <h2>Informática e cabeamento</h2>
+  <table><tbody>
+    <tr><td class="item">Notebooks</td><td class="qtd aberto">a contar</td></tr>
+    <tr><td class="item">Cabos e conectores</td><td class="qtd aberto">lote</td></tr>
+  </tbody></table>
+
+  <h2>Mobiliário</h2>
+  <table><tbody>
+    <tr><td class="item">Mesas de auditório <span class="obs">(3 lugares cada)</span></td><td class="qtd">20</td></tr>
+    <tr><td class="item">Cadeiras para as mesas do auditório</td><td class="qtd">120</td></tr>
+    <tr><td class="item">Mesa e móveis de escritório</td><td class="qtd aberto">a levantar</td></tr>
+  </tbody></table>
+
+  <div class="totais">
+    <div>
+      <div class="r">Tipos de item</div>
+      <div class="v">18</div>
+    </div>
+    <div>
+      <div class="r">Quantidades já fechadas</div>
+      <div class="v">142 <small>peças (20 mesas + 120 cadeiras + 1 tela interativa + 1 PTZ)</small></div>
+    </div>
+    <div>
+      <div class="r">Itens a contar na apuração</div>
+      <div class="v">14</div>
+    </div>
+  </div>
+
+  <div class="nota">
+    Documento de referência, sem valor de conferência. A relação com marca, modelo,
+    número de série, estado e valor de reposição — que é a que vale como Anexo I do
+    contrato e como termo de depósito — está no documento
+    <b>"Inventário para Parceria"</b>, assinado pelas partes e por duas testemunhas.
+  </div>
+
+  <footer>
+    <span>Parceria — Espaço de eventos "Kairós" · Itens e quantidades</span>
+    <span>Preliminar — atualizar após a apuração física</span>
+  </footer>
+
+</body>
+</html>
