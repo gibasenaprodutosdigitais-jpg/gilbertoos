@@ -342,8 +342,29 @@ def markdown_anexo():
     return "\n".join(out)
 
 
+def atualizar_resumo_parceria():
+    """O resumo de 1 pagina cita a contagem do inventario. Como a lista vai
+    crescer, o numero e reescrito aqui, senao os dois documentos divergem —
+    foi o que aconteceu com as 120 cadeiras."""
+    import re
+    alvo = AQUI / "resumo.html"
+    if not alvo.exists():
+        return
+    s = alvo.read_text(encoding="utf-8")
+    novo = f"Equipamentos e mobiliário: {total_linhas} itens, {total_pecas} peças (Anexo I)"
+    s2 = re.sub(r"Equipamentos e mobiliário: \d+ itens, \d+ peças \(Anexo I\)", novo, s)
+    if s2 != s:
+        alvo.write_text(s2, encoding="utf-8")
+        print(f"resumo.html atualizado -> {total_linhas} itens, {total_pecas} pecas")
+
+
 if __name__ == "__main__":
     (AQUI / "inventario.html").write_text(html_completo(), encoding="utf-8")
     (AQUI / "inventario-resumo.html").write_text(html_resumo(), encoding="utf-8")
     (AQUI / "anexo-i.md").write_text(markdown_anexo(), encoding="utf-8")
+    atualizar_resumo_parceria()
     print(f"{total_linhas} itens | {total_pecas} pecas | {lotes} lotes")
+    print("\nDepois de rodar, regerar os PDFs:")
+    print('  inventario.html          -> "Inventario para Parceria.pdf"')
+    print('  inventario-resumo.html   -> "Inventario para Parceria - Itens e Quantidades.pdf"')
+    print('  resumo.html              -> "Resumo da Parceria - 1 pagina.pdf"')
