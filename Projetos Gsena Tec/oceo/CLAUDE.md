@@ -45,6 +45,14 @@ deck, assinatura de e-mail).
   850 €/mês** — acima do piso de conversão direta (594 €) e bem abaixo do
   teto de custo de equipe (19.954 €), 95,7% de economia. Gerado 06/ago/2026,
   preço atualizado 07/ago/2026.
+- `seguranca/` — **tudo sobre proteção do dado do cliente** (27/set/2026):
+  a postura técnica, a decisão registrada sobre blockchain, o mapeamento com
+  a LGPD e o roteiro de resposta comercial. **Antes de afirmar qualquer coisa
+  sobre segurança do OCEO — em pitch, contrato ou conversa com cliente —
+  ler esta pasta.** O código que implementa está em `oceo-core/`.
+- `oceo-core/` — o núcleo que interliga os cinco pilares: modelo de domínio,
+  barramento de eventos, banco, login, isolamento entre clientes, trilha
+  auditável, API e portal. Três suítes de teste.
 - **Os 5 pilares, cada um com código, escopo, funcionalidades e
   comparativo de custo (CAGED onde possível):**
   - `pilar-1-contabilidade-bi.md` — **GC**, Contabilidade/BI (Contábil,
@@ -107,7 +115,11 @@ comparativo de custo. Pendências reais que sobraram, por pilar:
   (hoje é estimativa de portal, não CAGED).
 - **GF (Pilar 2):** validar viabilidade/custo da integração Open Finance.
 - **GJ (Pilar 3):** definir se há advogado parceiro fixo do OCEO pra
-  personalização/execução, ou se fica sempre com o advogado do cliente.
+  personalização/execução, ou se fica sempre com o advogado do cliente. Além
+  disso, validar o conteúdo de `seguranca/lgpd.md`: conferir os artigos
+  citados, redigir política de privacidade, termo de uso e contrato de
+  operador, definir o encarregado (DPO) e fechar a tabela de prazo de guarda.
+  **Obrigatório antes do primeiro cliente real.**
 - **GM (Pilar 4):** modelar o custo variável do WhatsApp Business API
   (conversa) na margem do OCEO.
 - **GI (Pilar 5):** redigir e validar com jurídico o texto padrão de
