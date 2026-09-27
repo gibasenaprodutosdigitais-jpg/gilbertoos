@@ -116,6 +116,10 @@ Postgres é escrever outra classe com os mesmos métodos de
 
 ## Integridade dos dados (a parte útil da blockchain, sem os problemas dela)
 
+> A documentação completa de segurança — decisão sobre blockchain, LGPD e
+> como responder ao cliente — está em `../seguranca/`. Aqui fica só o que
+> diz respeito ao código.
+
 Cada fato gravado guarda o **resumo criptográfico do fato anterior**
 (SHA-256). Os registros formam uma corrente: alterar qualquer um deles
 quebra a corrente a partir dali, e a conferência aponta o registro exato.
