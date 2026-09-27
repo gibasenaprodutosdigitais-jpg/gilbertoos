@@ -20,6 +20,7 @@ o que ainda falta.
 | `lgpd.md` | Onde o OCEO encosta na Lei 13.709/2018 e o que ainda precisa de validação do jurídico. |
 | `resposta-ao-cliente.md` | Como responder "meus dados estão seguros?" numa reunião comercial, sem jargão. |
 | `prova-adulteracao-detectada.png` | A tela do portal acusando uma adulteração feita de propósito no banco. É a prova visual. |
+| **`OCEO - Seguranca de Dados (guia de reuniao).pdf`** | **Uma página, pra levar impressa.** É o `resposta-ao-cliente` com a identidade do OCEO. Gerado por `guia-reuniao.html` + `render.js` — pra atualizar, edite o HTML e rode `node render.js`. |
 
 O código que implementa tudo isso está em `../oceo-core/`, com os testes que
 provam cada afirmação feita aqui.
@@ -49,22 +50,32 @@ a uma pergunta diferente:
 Nada disto impede demonstrar o sistema hoje. Tudo isto é obrigatório
 **antes do primeiro cliente real com dado de verdade dentro.**
 
-1. **Limite de tentativas de login.** Hoje dá pra tentar senha infinitas
-   vezes. É a falha mais fácil de explorar e a mais fácil de corrigir.
-2. **Recuperação de senha por e-mail.** Sem isso, cliente que esquece a
-   senha depende de alguém do Grupo Sena mexer no banco — e isso é
-   exatamente o que a trilha existe pra flagrar.
-3. **Segundo fator para o papel `dono`.** Quem pode tudo precisa de mais que
-   uma senha.
-4. **Criptografia do banco em repouso.** Se o servidor for levado, o arquivo
+1. **Ligar o envio de e-mail.** A recuperação de senha está construída e
+   testada, mas o e-mail hoje é gravado em arquivo em vez de enviado —
+   falta contratar e configurar o serviço de envio. É o item mais curto da
+   lista e o único que separa a recuperação de estar completa.
+2. **Segundo fator para o papel `dono`.** Quem pode tudo precisa de mais
+   que uma senha.
+3. **Criptografia do banco em repouso.** Se o servidor for levado, o arquivo
    do banco não pode ser legível.
-5. **Rotina de backup testada.** Backup que nunca foi restaurado não é
+4. **Rotina de backup testada.** Backup que nunca foi restaurado não é
    backup. Precisa de um teste de restauração com data marcada.
-6. **Plano de resposta a incidente.** A LGPD dá prazo pra comunicar. Ver
+5. **Plano de resposta a incidente.** A LGPD dá prazo pra comunicar. Ver
    `lgpd.md`.
-7. **Postgres no lugar do SQLite**, quando houver mais de um servidor.
+6. **Postgres no lugar do SQLite**, quando houver mais de um servidor.
+
+### Já resolvido
+
+- ~~Limite de tentativas de login~~ — **feito em 27/set/2026.** Cinco senhas
+  erradas travam a conta por 15 minutos; vinte contas diferentes travam a
+  origem. Seis testes provam.
+- ~~Recuperação de senha~~ — **o mecanismo está pronto e testado** em
+  27/set/2026: link que vence em 30 minutos, vale uma vez só, fica guardado
+  resumido no banco e derruba todas as sessões abertas ao ser usado. Falta
+  só o envio de e-mail de verdade (item 1 acima).
 
 ---
 
-*Registrado em 27/set/2026. Atualizar este índice sempre que um documento
-novo entrar na pasta.*
+*Registrado em 27/set/2026. Atualizado em 27/set/2026 com a trava de
+login e a recuperação de senha. Atualizar sempre que um documento novo
+entrar na pasta.*

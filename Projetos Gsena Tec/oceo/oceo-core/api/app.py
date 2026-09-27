@@ -16,19 +16,21 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 
-from fastapi import Cookie, Depends, FastAPI, HTTPException, Response   # noqa: E402
+from fastapi import (Cookie, Depends, FastAPI, HTTPException,          # noqa: E402
+                     Request, Response)
 from fastapi.responses import FileResponse                              # noqa: E402
 from pydantic import BaseModel, Field                                   # noqa: E402
 
-from oceo.acesso import (AcessoNegado, FalhaDeLogin, SenhaFraca,        # noqa: E402
-                         Usuario)
+from oceo.acesso import (AcessoNegado, ExcessoDeTentativas,             # noqa: E402
+                         FalhaDeLogin, SenhaFraca, Usuario)
 from oceo.dominio import DEPENDENCIAS, Empresa, Evento, Pilar, Regime   # noqa: E402
 from oceo.montagem import montar                                        # noqa: E402
 from oceo.nucleo import DependenciaFaltando, PilarNaoContratado         # noqa: E402
 from oceo.trilha import recibo                                          # noqa: E402
 
 BANCO = os.environ.get("OCEO_BANCO", str(RAIZ / "dados" / "oceo.db"))
-sistema, acesso = montar(BANCO)
+BASE_URL = os.environ.get("OCEO_URL", "http://127.0.0.1:8000")
+sistema, acesso = montar(BANCO, base_url=BASE_URL)
 
 app = FastAPI(title="OCEO", version="0.2.0",
               description="Núcleo de interligação dos cinco pilares.")
@@ -57,6 +59,15 @@ def liberar(usuario: Usuario, empresa_id: str, escrita: bool = False) -> None:
 
 class Credencial(BaseModel):
     email: str
+    senha: str
+
+
+class PedidoRecuperacao(BaseModel):
+    email: str
+
+
+class NovaSenha(BaseModel):
+    token: str
     senha: str
 
 
@@ -95,9 +106,12 @@ def criar_conta(dados: Cadastro) -> dict:
 
 
 @app.post("/api/entrar")
-def entrar(cred: Credencial, resposta: Response) -> dict:
+def entrar(cred: Credencial, pedido: Request, resposta: Response) -> dict:
+    origem = pedido.client.host if pedido.client else ""
     try:
-        token = acesso.entrar(cred.email, cred.senha)
+        token = acesso.entrar(cred.email, cred.senha, origem=origem)
+    except ExcessoDeTentativas as erro:
+        raise HTTPException(429, str(erro))
     except FalhaDeLogin as erro:
         raise HTTPException(401, str(erro))
     resposta.set_cookie("oceo_sessao", token, httponly=True, samesite="lax", max_age=43200)
@@ -111,6 +125,28 @@ def sair(resposta: Response, oceo_sessao: str | None = Cookie(default=None)) -> 
         acesso.sair(oceo_sessao)
     resposta.delete_cookie("oceo_sessao")
     return {"ok": True}
+
+
+@app.post("/api/recuperar", status_code=202)
+def recuperar(pedido: PedidoRecuperacao) -> dict:
+    """
+    A resposta é sempre a mesma, exista o e-mail ou não. Um formulário que
+    responde "este e-mail não está cadastrado" entrega a lista de clientes.
+    """
+    acesso.pedir_recuperacao(pedido.email)
+    return {"mensagem": "Se este e-mail tiver conta no OCEO, o link de "
+                        "redefinição foi enviado para ele."}
+
+
+@app.post("/api/redefinir")
+def redefinir(dados: NovaSenha) -> dict:
+    try:
+        u = acesso.redefinir_senha(dados.token, dados.senha)
+    except SenhaFraca as erro:
+        raise HTTPException(422, str(erro))
+    except FalhaDeLogin as erro:
+        raise HTTPException(400, str(erro))
+    return {"mensagem": f"Senha alterada, {u.nome}. Entre com a senha nova."}
 
 
 @app.get("/api/eu")

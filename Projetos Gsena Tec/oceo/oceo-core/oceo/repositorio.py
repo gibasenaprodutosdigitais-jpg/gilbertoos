@@ -88,6 +88,28 @@ CREATE TABLE IF NOT EXISTS sessoes (
     expira_em  TEXT NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_sessoes_usuario ON sessoes(usuario_id);
+
+-- Tentativas de login que falharam. Serve para travar força bruta.
+-- Guarda só a chave e a hora: nenhuma senha tentada é registrada, nem o
+-- registro serviria de pista para quem roubasse o banco.
+CREATE TABLE IF NOT EXISTS tentativas (
+    id    INTEGER PRIMARY KEY AUTOINCREMENT,
+    chave TEXT NOT NULL,          -- 'conta:<email>' ou 'origem:<ip>'
+    em    TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_tentativas ON tentativas(chave, em);
+
+-- Pedidos de redefinição de senha.
+-- O token NUNCA é guardado em claro: guarda-se o resumo dele. Quem roubar
+-- o banco não consegue redefinir a senha de ninguem.
+CREATE TABLE IF NOT EXISTS recuperacoes (
+    token_hash TEXT PRIMARY KEY,
+    usuario_id TEXT NOT NULL REFERENCES usuarios(id) ON DELETE CASCADE,
+    criada_em  TEXT NOT NULL,
+    expira_em  TEXT NOT NULL,
+    usada_em   TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_recuperacoes_usuario ON recuperacoes(usuario_id);
 """
 
 
