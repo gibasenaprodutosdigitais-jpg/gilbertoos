@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>OCEO — Segurança de dados: o que responder</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; color: #10182A;
+         -webkit-print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; position: relative; overflow: hidden;
+          background: #FAFBFD; display: flex; flex-direction: column; }
+
+  /* ---------- topo ---------- */
+  header { background: linear-gradient(140deg, #0B1220 0%, #17335c 60%, #223055 100%);
+           color: #FAFBFD; padding: 9mm 14mm 7mm 14mm; }
+  .linha1 { display: flex; justify-content: space-between; align-items: flex-start; }
+  header img { width: 25mm; }
+  .tag { font-size: 8.5px; letter-spacing: .2em; text-transform: uppercase;
+         color: #6FA8F0; font-weight: 700; border: 1px solid rgba(111,168,240,.45);
+         border-radius: 3px; padding: 1.6mm 2.8mm; }
+  header h1 { font-size: 23px; font-weight: 800; letter-spacing: -.02em;
+              line-height: 1.15; margin-top: 4.5mm; }
+  header .sub { font-size: 11.5px; color: #C7D0E0; margin-top: 2.5mm; max-width: 150mm;
+                line-height: 1.5; }
+
+  /* ---------- corpo ---------- */
+  main { flex: 1; padding: 6.5mm 14mm 0 14mm; display: flex; flex-direction: column; }
+
+  .abre { background: #17335c; color: #FAFBFD; border-radius: 5px;
+          padding: 5mm 6.5mm; border-left: 4px solid #eb6834; }
+  .abre .rot { font-size: 8.5px; letter-spacing: .2em; text-transform: uppercase;
+               color: #6FA8F0; font-weight: 700; margin-bottom: 3mm; }
+  .abre p { font-size: 13.5px; line-height: 1.55; font-weight: 600; }
+  .abre .nota { font-size: 10px; color: #C7D0E0; margin-top: 3.5mm;
+                font-weight: 400; line-height: 1.5; }
+  .abre .nota b { color: #FFB38A; }
+
+  .grade { margin-top: 5mm; column-count: 2; column-gap: 8mm; }
+  .qa { break-inside: avoid; margin-bottom: 4mm; }
+  .qa .p { font-size: 10.5px; font-weight: 800; color: #a8451c; line-height: 1.35;
+           margin-bottom: 1.8mm; }
+  .qa .r { font-size: 10.5px; line-height: 1.52; color: #223055;
+           border-left: 2px solid #C7D0E0; padding-left: 3.2mm; }
+  .qa .obs { display: block; font-size: 9px; color: #7C8AA8; margin-top: 1.6mm;
+             font-style: italic; line-height: 1.45; }
+
+  /* ---------- rodapé ---------- */
+  .nao { margin: 0 14mm; background: #FDECE5; border: 1px solid #F2C3AE;
+         border-radius: 5px; padding: 4.5mm 6mm; }
+  .nao h3 { font-size: 9px; letter-spacing: .18em; text-transform: uppercase;
+            color: #a8451c; font-weight: 800; margin-bottom: 3mm; }
+  .nao ul { list-style: none; column-count: 2; column-gap: 8mm; }
+  .nao li { font-size: 9.8px; color: #6b2f14; line-height: 1.45; margin-bottom: 2mm;
+            padding-left: 4.5mm; position: relative; break-inside: avoid; }
+  .nao li::before { content: "×"; position: absolute; left: 0; font-weight: 800;
+                    color: #eb6834; }
+  .nao li b { color: #a8451c; }
+
+  footer { display: flex; justify-content: space-between; align-items: center;
+           margin: 4mm 14mm 6mm 14mm; padding-top: 2.5mm; border-top: 1px solid #C7D0E0;
+           font-size: 8.5px; color: #7C8AA8; }
+  footer .marca { font-weight: 800; color: #17335c; letter-spacing: .02em; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="linha1">
+      <img src="logo.png" alt="OCEO">
+      <span class="tag">Guia de reunião · uso interno</span>
+    </div>
+    <h1>“Meus dados estão seguros aí dentro?”</h1>
+    <div class="sub">O que responder, frase por frase. Sem jargão, sem prometer
+      o que ainda não existe — o que constrói confiança é a parte que você
+      admite não estar pronta.</div>
+  </header>
+
+  <main>
+    <div class="abre">
+      <div class="rot">A resposta curta</div>
+      <p>“Seu dado fica isolado do de qualquer outro cliente, a senha é guardada
+         de um jeito que nem nós conseguimos ler, e todo movimento dentro do
+         sistema fica registrado numa trilha que acusa se alguém mexeu —
+         <u>inclusive se formos nós</u>.”</p>
+      <div class="nota"><b>O peso está na última parte.</b> Todo fornecedor diz
+        que protege contra gente de fora. Quase nenhum se dispõe a provar
+        contra si mesmo. É aí que a conversa vira.</div>
+    </div>
+
+    <div class="grade">
+
+      <div class="qa">
+        <div class="p">“Como assim, inclusive vocês?”</div>
+        <div class="r">“Cada lançamento guarda uma assinatura do lançamento
+          anterior. Se alguém abrir o banco por fora e mudar um número, essa
+          cadeia quebra — e o sistema aponta qual registro foi mexido. Quem tem
+          a senha do servidor consegue alterar. O que ele não consegue é
+          alterar sem deixar rastro.”
+          <span class="obs">Se puder, mostre a tela do sistema acusando a
+          adulteração. Vale mais que a explicação.</span></div>
+      </div>
+
+      <div class="qa">
+        <div class="p">“E se eu quiser provar isso lá na frente?”</div>
+        <div class="r">“A cada fechamento a gente te manda um número que resume
+          todos os lançamentos do período. Ele não revela nenhum dado. Se daqui
+          a dois anos alguém questionar o histórico, refaz a conta: deu o mesmo
+          número, nada foi tocado.”
+          <span class="obs">Hoje é gerado sob demanda. Virar entregável
+          automático do fechamento está no roteiro.</span></div>
+      </div>
+
+      <div class="qa">
+        <div class="p">“Vocês usam blockchain?”</div>
+        <div class="r">“A gente usa a criptografia que está por trás dela, que
+          é o que prova que nada foi adulterado. O que a gente não faz é
+          espalhar seu dado por uma rede — isso não protegeria nada, porque
+          blockchain garante que o registro não mudou, não que ele seja
+          secreto. E tem um problema pior: como lá nada pode ser apagado, a
+          gente ficaria impedido de eliminar seu dado quando você exigisse, que
+          é um direito seu pela LGPD.”
+          <span class="obs">É hora de virar o jogo: quem oferece blockchain
+          pra guardar dado contábil ou não entendeu a tecnologia, ou está
+          usando a palavra como argumento de venda.</span></div>
+      </div>
+
+      <div class="qa">
+        <div class="p">“Outro cliente pode ver meus números?”</div>
+        <div class="r">“Cada empresa é uma caixa separada. Se alguém tentar
+          abrir a sua sem ter acesso, o sistema responde ‘não encontrado’ —
+          nem confirma que ela existe aqui dentro. Nem a lista de clientes do
+          OCEO dá pra descobrir de fora.”</div>
+      </div>
+
+      <div class="qa">
+        <div class="p">“Meu sócio pode acompanhar sem mexer em nada?”</div>
+        <div class="r">“Dá pra liberar como leitor: vê todos os números e não
+          altera nada. Os botões de ação nem aparecem pra ele.”</div>
+      </div>
+
+      <div class="qa">
+        <div class="p">“E se vazar?”</div>
+        <div class="r">“Nenhum sistema no mundo promete que não vaza — quem
+          promete isso está mentindo. O que dá pra prometer é o que a gente faz
+          pra reduzir o risco e o que a gente faz se acontecer. A parte técnica
+          já está construída; o plano formal de comunicação está sendo fechado
+          com nosso jurídico agora.”
+          <span class="obs">Honestidade aqui vale mais que promessa. Cliente
+          grande já ouviu a promessa antes.</span></div>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="nao">
+    <h3>O que não falar</h3>
+    <ul>
+      <li><b>“É seguro.”</b> Vazio. Troque por o quê, especificamente.</li>
+      <li><b>“Usamos blockchain.”</b> Não usamos — e é decisão consciente e
+        defensável, não falta.</li>
+      <li><b>“É impossível invadir.”</b> Não é, e o cliente sabe.</li>
+      <li><b>Sigla e nome de algoritmo.</b> Ninguém compra por causa deles.</li>
+      <li><b>Prazo de aviso em caso de incidente.</b> Só depois que o jurídico
+        fechar.</li>
+      <li><b>Recuperação de senha por e-mail.</b> O mecanismo está pronto, o
+        envio ainda não está ligado.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <span>Documentação completa: <b>Projetos Gsena Tec / oceo / seguranca</b></span>
+    <span class="marca">OCEO. SIMPLES. MAIS COMPLETO.</span>
+    <span>27/set/2026</span>
+  </footer>
+
+</div>
+</body>
+</html>

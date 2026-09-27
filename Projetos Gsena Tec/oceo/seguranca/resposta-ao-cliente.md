@@ -2,6 +2,10 @@
 
 Como responder numa reunião, sem jargão e sem prometer o que não existe.
 
+> **Versão impressa:** `OCEO - Seguranca de Dados (guia de reuniao).pdf` —
+> uma página, com a identidade do OCEO, pra levar na reunião. Mudou algo
+> aqui? Atualize `guia-reuniao.html` e rode `node render.js`.
+
 > Regra: **não vender o que ainda não está pronto.** A lista do que falta
 > está no `README.md` desta pasta. Se a pergunta for sobre um item de lá, a
 > resposta certa é "ainda não, está no roteiro" — isso constrói mais

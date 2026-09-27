@@ -7,8 +7,9 @@ Como conferir, na máquina:
 
 ```
 cd "Projetos Gsena Tec/oceo/oceo-core"
-python3 testes/test_acesso.py     # login e isolamento entre clientes
-python3 testes/test_trilha.py     # a trilha pega adulteração
+python3 testes/test_acesso.py           # login e isolamento entre clientes
+python3 testes/test_trilha.py           # a trilha pega adulteração
+python3 testes/test_protecao_login.py   # força bruta e recuperação de senha
 ```
 
 ---
@@ -38,6 +39,30 @@ demorasse mais quando o e-mail existe — daria pra descobrir quem é cliente
 do OCEO só testando endereços. Num sistema contábil, a lista de clientes já
 é informação sensível por si só.
 
+### A trava de força bruta
+
+Senha boa não adianta se o invasor puder tentar um milhão de vezes.
+
+- **Cinco senhas erradas travam a conta por 15 minutos.** Durante o
+  bloqueio, **nem a senha certa entra** — é isso que impede o ataque de
+  continuar rodando enquanto o dono não percebe.
+- **Vinte falhas do mesmo endereço de rede travam a origem.** Pega o ataque
+  que a trava por conta não pegaria: varrer muitas contas diferentes
+  tentando uma senha comum em cada.
+- **Acertar a senha zera o contador.** Quem errou duas vezes e acertou na
+  terceira não fica com o orçamento pela metade.
+- **O bloqueio é temporário, nunca permanente.** Passada a janela, a conta
+  volta a aceitar login sozinha.
+
+O detalhe que importa: **o bloqueio vale igual para e-mail que não existe.**
+Se só a conta real travasse, o próprio bloqueio viraria o jeito de descobrir
+quem é cliente do OCEO — o contrário do que a camada 1 protege.
+
+> **Contrapartida honesta:** alguém que conheça o e-mail de um usuário pode
+> travar a conta dele por 15 minutos de propósito. É incômodo, não é
+> vazamento, e o caminho de recuperação de senha continua aberto. A
+> alternativa — não travar — é bem pior.
+
 ## Camada 2 — A sessão
 
 - A sessão vive num **cookie `httponly`**. Se alguém conseguir injetar
@@ -47,6 +72,33 @@ do OCEO só testando endereços. Num sistema contábil, a lista de clientes já
 - **Expira em 12 horas.** Sessão abandonada em computador de escritório não
   fica eterna.
 - Sair do sistema **apaga a sessão no servidor**, não só no navegador.
+
+### Recuperação de senha
+
+Antes disso, cliente que esquecia a senha dependia de alguém do Grupo Sena
+abrir o banco e mexer — exatamente o que a trilha da camada 4 existe pra
+flagrar. Agora o caminho é o próprio usuário.
+
+Como foi construído:
+
+- **Link que vence em 30 minutos** e **só funciona uma vez**.
+- **Pedir um link novo invalida o anterior.** Só o último vale.
+- **O link não fica legível no banco.** Guarda-se só o resumo dele. Quem
+  roubar a base não consegue redefinir a senha de ninguém.
+- **A resposta é sempre a mesma**, exista o e-mail ou não. Formulário de
+  "esqueci minha senha" que responde "este e-mail não está cadastrado"
+  entrega a lista de clientes pra qualquer um.
+- **Redefinir derruba todas as sessões abertas daquela conta.** Se a conta
+  estava tomada, o invasor perde o acesso no mesmo instante.
+- **O token some da barra de endereço** assim que a senha é salva, pra não
+  ficar no histórico do navegador.
+- A senha nova passa pela **mesma política** da senha original.
+
+> **O que ainda não funciona:** o e-mail não é enviado de verdade. Hoje a
+> mensagem é **gravada em arquivo** em `dados/emails/`, porque não há
+> serviço de envio contratado. Todo o mecanismo de segurança — o que é
+> difícil de acertar — está pronto e testado; o que falta é configuração.
+> **Não anunciar recuperação de senha ao cliente antes de ligar o envio.**
 
 ## Camada 3 — O isolamento entre clientes
 
@@ -159,4 +211,5 @@ Segurança de infraestrutura — servidor, rede, backup, criptografia do disco
 — ainda não está definida porque o OCEO ainda não está hospedado em produção.
 A lista do que falta está no `README.md` desta pasta.
 
-*Escrito em 27/set/2026.*
+*Escrito em 27/set/2026. Trava de força bruta e recuperação de senha
+acrescentadas no mesmo dia.*

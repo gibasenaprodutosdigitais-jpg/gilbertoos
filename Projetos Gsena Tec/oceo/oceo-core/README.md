@@ -18,6 +18,7 @@ cd oceo-core
 python3 testes/test_interligacao.py     # os pilares conversam
 python3 testes/test_acesso.py           # login, persistência e isolamento
 python3 testes/test_trilha.py           # a trilha pega adulteração
+python3 testes/test_protecao_login.py   # força bruta e recuperação de senha
 python3 api/app.py                      # sobe o portal em http://127.0.0.1:8000
 ```
 
@@ -77,6 +78,7 @@ oceo-core/
 │   └── pilares/reacoes.py   ← quem reage a quê — a interligação em si
 │   ├── repositorio.py       ← persistência (SQLite hoje, Postgres depois)
 │   ├── acesso.py            ← usuários, senhas, sessões e permissão
+│   ├── correio.py           ← saída de e-mail (envio real ainda não ligado)
 │   └── trilha.py            ← corrente de hashes: prova que ninguém adulterou
 ├── api/app.py               ← FastAPI: a única porta para o mundo de fora
 ├── portal/index.html        ← portal de demonstração
@@ -107,6 +109,14 @@ Decisões de segurança que valem saber:
   não confirma nem que aquela empresa existe.
 - Papéis: `dono`, `operador` e `leitor`. O leitor não altera nada, e o portal
   esconde os botões de ação para ele.
+- **Cinco senhas erradas travam a conta por 15 minutos**, e durante o bloqueio
+  nem a senha certa entra. Vinte falhas do mesmo endereço travam a origem. O
+  bloqueio vale igual para e-mail inexistente — senão ele próprio viraria o
+  jeito de descobrir quem é cliente.
+- **Recuperação de senha**: link que vence em 30 minutos, vale uma vez, fica
+  guardado resumido no banco e derruba todas as sessões abertas ao ser usado.
+  O envio de e-mail ainda não está ligado — a mensagem é gravada em
+  `dados/emails/`. Ver `oceo/correio.py`.
 
 O banco é SQLite, guardado em `dados/oceo.db` (fora do Git). Trocar por
 Postgres é escrever outra classe com os mesmos métodos de
@@ -161,14 +171,16 @@ Se um dia fizer sentido publicar a prova numa rede pública, publica-se só o
 
 Em ordem de quem entra primeiro:
 
-1. **As regras de cada pilar por dentro.** O que existe são as reações
+1. **Ligar o envio de e-mail**, para a recuperação de senha funcionar ponta
+   a ponta. O mecanismo já está pronto e testado; falta o serviço de envio.
+2. **As regras de cada pilar por dentro.** O que existe são as reações
    *entre* pilares; falta o trabalho *dentro* de cada um (apuração real,
    conciliação bancária, geração de contrato).
-2. **Integrações.** Open Finance (GF), WhatsApp Business API (GM), e a
+3. **Integrações.** Open Finance (GF), WhatsApp Business API (GM), e a
    entrada dos painéis de BI que já rodam hoje (GC).
-3. **Recuperação de senha** por e-mail, e segundo fator para o papel `dono`.
-4. **Limite de tentativas de login**, para travar ataque de força bruta.
-5. **Postgres** no lugar do SQLite, quando houver mais de um servidor.
+4. **Segundo fator** para o papel `dono`.
+5. **Criptografia do banco em repouso** e rotina de backup testada.
+6. **Postgres** no lugar do SQLite, quando houver mais de um servidor.
 
 ## Decisões técnicas e por quê
 

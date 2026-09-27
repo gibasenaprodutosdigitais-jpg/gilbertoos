@@ -106,6 +106,8 @@
              border-radius:20px;}
   .raiz{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--fraco);
         word-break:break-all;margin-top:6px;}
+  .aviso{background:rgba(46,125,91,.09);color:var(--ok);border-radius:8px;
+         padding:11px 14px;margin-top:14px;font-size:13.5px;line-height:1.5;}
   .erro{background:rgba(192,57,43,.08);border:1px solid rgba(192,57,43,.3);color:var(--critico);
         padding:10px 14px;border-radius:7px;margin-top:12px;font-size:13.5px;}
 </style>
@@ -128,7 +130,7 @@ const api = (rota, opc) => fetch(rota, opc).then(async r => {
 const esc = t => String(t ?? "").replace(/[&<>"]/g, c =>
   ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-let eu = null, empresaId = null, ultimoErro = "";
+let eu = null, empresaId = null, ultimoErro = "", aviso = "";
 
 // ---------------------------------------------------------------- entrada
 async function abrir(){
@@ -150,29 +152,77 @@ function desenharTopo(){
 
 function telaLogin(modo){
   modo = modo || "entrar";
-  const criando = modo === "criar";
+  const criando = modo === "criar", esqueci = modo === "esqueci";
+  const titulo = criando ? "Criar conta" : esqueci ? "Esqueci minha senha" : "Entrar no OCEO";
+  const ajuda  = criando ? "A senha precisa ter pelo menos 10 caracteres."
+               : esqueci ? "Informe seu e-mail. Se houver conta, o link de redefinição vai para ela."
+               : "Use o e-mail e a senha da sua conta.";
+  const acao   = criando ? "criarConta" : esqueci ? "pedirRecuperacao" : "fazerLogin";
   desenharTopo();
   document.getElementById("app").innerHTML = `
     <div class="login">
-      <h2>${criando ? "Criar conta" : "Entrar no OCEO"}</h2>
-      <p class="ajuda">${criando
-        ? "A senha precisa ter pelo menos 10 caracteres."
-        : "Use o e-mail e a senha da sua conta."}</p>
-      <form onsubmit="event.preventDefault(); ${criando?"criarConta":"fazerLogin"}()">
+      <h2>${titulo}</h2>
+      <p class="ajuda">${ajuda}</p>
+      <form onsubmit="event.preventDefault(); ${acao}()">
         ${criando ? `<div class="campo"><label>Seu nome</label>
            <input id="nome" autocomplete="name" required></div>` : ""}
         <div class="campo"><label>E-mail</label>
           <input id="email" type="email" autocomplete="email" required></div>
-        <div class="campo"><label>Senha</label>
+        ${esqueci ? "" : `<div class="campo"><label>Senha</label>
           <input id="senha" type="password"
-                 autocomplete="${criando?"new-password":"current-password"}" required></div>
-        <button type="submit">${criando ? "Criar conta e entrar" : "Entrar"}</button>
+                 autocomplete="${criando?"new-password":"current-password"}" required></div>`}
+        <button type="submit">${criando ? "Criar conta e entrar"
+                                : esqueci ? "Enviar link" : "Entrar"}</button>
       </form>
       <div class="alternar">${criando
         ? `Já tem conta? <a onclick="telaLogin('entrar')">Entrar</a>`
-        : `Primeira vez? <a onclick="telaLogin('criar')">Criar uma conta</a>`}</div>
+        : esqueci
+        ? `<a onclick="telaLogin('entrar')">Voltar para o login</a>`
+        : `Primeira vez? <a onclick="telaLogin('criar')">Criar uma conta</a>
+           &nbsp;·&nbsp; <a onclick="telaLogin('esqueci')">Esqueci minha senha</a>`}</div>
+      ${aviso ? `<div class="aviso">${esc(aviso)}</div>` : ""}
       ${ultimoErro ? `<div class="erro">${esc(ultimoErro)}</div>` : ""}
     </div>`;
+}
+
+function telaRedefinir(token){
+  desenharTopo();
+  document.getElementById("app").innerHTML = `
+    <div class="login">
+      <h2>Escolher uma senha nova</h2>
+      <p class="ajuda">Pelo menos 10 caracteres. Ao confirmar, todas as sessões
+        abertas nesta conta são encerradas.</p>
+      <form onsubmit="event.preventDefault(); confirmarRedefinicao('${esc(token)}')">
+        <div class="campo"><label>Senha nova</label>
+          <input id="nova" type="password" autocomplete="new-password" required></div>
+        <button type="submit">Salvar senha</button>
+      </form>
+      <div class="alternar"><a onclick="telaLogin('entrar')">Voltar para o login</a></div>
+      ${ultimoErro ? `<div class="erro">${esc(ultimoErro)}</div>` : ""}
+    </div>`;
+}
+
+async function pedirRecuperacao(){
+  ultimoErro = ""; aviso = "";
+  try{
+    const r = await api("/api/recuperar", {method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({email: email.value})});
+    aviso = r.mensagem;
+  }catch(e){ ultimoErro = e.message; }
+  telaLogin("esqueci");
+}
+
+async function confirmarRedefinicao(token){
+  ultimoErro = "";
+  try{
+    const r = await api("/api/redefinir", {method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({token: token, senha: document.getElementById("nova").value})});
+    history.replaceState({}, "", "/");
+    aviso = r.mensagem;
+    telaLogin("entrar");
+  }catch(e){ ultimoErro = e.message; telaRedefinir(token); }
 }
 
 async function fazerLogin(){
@@ -325,7 +375,8 @@ async function conferir(){
   }
 }
 
-abrir();
+const tokenNaUrl = new URLSearchParams(location.search).get("redefinir");
+if (tokenNaUrl) telaRedefinir(tokenNaUrl); else abrir();
 </script>
 </body>
 </html>
