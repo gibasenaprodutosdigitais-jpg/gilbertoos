@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Iterable
 
 from .dominio import Alerta, Empresa, Evento, Fato, Pilar, Regime
+from .trilha import GENESE, Conferencia, conferir, resumir
 
 ESQUEMA = """
 PRAGMA foreign_keys = ON;
@@ -43,7 +44,10 @@ CREATE TABLE IF NOT EXISTS fatos (
     empresa_id TEXT NOT NULL REFERENCES empresas(id) ON DELETE CASCADE,
     origem     TEXT NOT NULL,
     dados      TEXT NOT NULL DEFAULT '{}',
-    em         TEXT NOT NULL
+    em         TEXT NOT NULL,
+    -- corrente de integridade: ver oceo/trilha.py
+    hash           TEXT NOT NULL DEFAULT '',
+    hash_anterior  TEXT NOT NULL DEFAULT ''
 );
 CREATE INDEX IF NOT EXISTS idx_fatos_empresa ON fatos(empresa_id, em);
 
@@ -137,12 +141,37 @@ class RepositorioSQLite:
 
     # --------------------------------------------------------------- fatos
     def salvar_fato(self, f: Fato) -> None:
+        """Grava o fato já encadeado ao anterior, formando a trilha auditável."""
+        anterior = self.con.execute(
+            "SELECT hash FROM fatos ORDER BY id DESC LIMIT 1").fetchone()
+        hash_anterior = anterior["hash"] if anterior else GENESE
+        dados = json.loads(json.dumps(f.dados, default=str))   # normaliza tipos
+        em = f.em.isoformat()
+        h = resumir(f.evento.value, f.empresa_id, f.origem.value,
+                    dados, em, hash_anterior)
         self.con.execute(
-            "INSERT INTO fatos (evento,empresa_id,origem,dados,em) VALUES (?,?,?,?,?)",
+            "INSERT INTO fatos (evento,empresa_id,origem,dados,em,hash,hash_anterior) "
+            "VALUES (?,?,?,?,?,?,?)",
             (f.evento.value, f.empresa_id, f.origem.value,
-             json.dumps(f.dados, default=str), f.em.isoformat()),
+             json.dumps(dados, ensure_ascii=False), em, h, hash_anterior),
         )
         self.con.commit()
+
+    # -------------------------------------------------------------- trilha
+    def conferir_trilha(self, empresa_id: str | None = None) -> Conferencia:
+        """
+        Refaz a corrente inteira e diz se alguém mexeu na base por fora.
+
+        A corrente é global (um livro só para todo o sistema), então a
+        conferência roda sempre sobre tudo; `empresa_id` serve para o recibo.
+        """
+        linhas = [
+            {"id": r["id"], "evento": r["evento"], "empresa_id": r["empresa_id"],
+             "origem": r["origem"], "dados": json.loads(r["dados"]),
+             "em": r["em"], "hash": r["hash"], "hash_anterior": r["hash_anterior"]}
+            for r in self.con.execute("SELECT * FROM fatos ORDER BY id ASC")
+        ]
+        return conferir(linhas)
 
     def listar_fatos(self, empresa_id: str | None = None, limite: int = 200) -> list[Fato]:
         if empresa_id:

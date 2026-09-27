@@ -5,7 +5,7 @@ entre si em vez de virarem cinco sistemas separados com cinco cadastros do
 mesmo cliente.
 
 > Estado: **fundação funcional**, com banco, login, isolamento entre
-> clientes, API e portal. Ainda faltam as regras internas de cada pilar e as
+> clientes, trilha auditável, API e portal. Ainda faltam as regras internas de cada pilar e as
 > integrações externas. O que existe aqui é a estrutura em que esse resto se
 > encaixa.
 
@@ -17,6 +17,7 @@ mesmo cliente.
 cd oceo-core
 python3 testes/test_interligacao.py     # os pilares conversam
 python3 testes/test_acesso.py           # login, persistência e isolamento
+python3 testes/test_trilha.py           # a trilha pega adulteração
 python3 api/app.py                      # sobe o portal em http://127.0.0.1:8000
 ```
 
@@ -75,10 +76,11 @@ oceo-core/
 │   ├── montagem.py          ← junta as peças (único lugar que sabe montar)
 │   └── pilares/reacoes.py   ← quem reage a quê — a interligação em si
 │   ├── repositorio.py       ← persistência (SQLite hoje, Postgres depois)
-│   └── acesso.py            ← usuários, senhas, sessões e permissão
+│   ├── acesso.py            ← usuários, senhas, sessões e permissão
+│   └── trilha.py            ← corrente de hashes: prova que ninguém adulterou
 ├── api/app.py               ← FastAPI: a única porta para o mundo de fora
 ├── portal/index.html        ← portal de demonstração
-└── testes/test_interligacao.py
+└── testes/                  ← test_interligacao, test_acesso, test_trilha
 ```
 
 O núcleo **não depende de nada externo**. Roda com Python puro, em qualquer
@@ -109,6 +111,47 @@ Decisões de segurança que valem saber:
 O banco é SQLite, guardado em `dados/oceo.db` (fora do Git). Trocar por
 Postgres é escrever outra classe com os mesmos métodos de
 `RepositorioSQLite` — nenhuma regra de negócio muda.
+
+---
+
+## Integridade dos dados (a parte útil da blockchain, sem os problemas dela)
+
+Cada fato gravado guarda o **resumo criptográfico do fato anterior**
+(SHA-256). Os registros formam uma corrente: alterar qualquer um deles
+quebra a corrente a partir dali, e a conferência aponta o registro exato.
+
+Isso responde à pergunta que um cliente grande sempre faz — *"como eu sei
+que ninguém mexeu no meu histórico?"* — inclusive quando o "alguém" é o
+próprio Grupo Sena. Quem tem a senha do banco consegue mudar uma linha; o
+que ele **não** consegue é mudar sem que a conferência acuse.
+
+No portal: **Conferir agora**, no bloco "Integridade dos dados".
+Na API: `GET /api/empresas/{id}/integridade`.
+
+O `hash_raiz` é um número de 64 caracteres que resume o período inteiro
+**sem revelar nenhum dado**. Guardado mês a mês (e-mail datado, cartório, ou
+uma blockchain pública), vira prova de que aqueles registros já existiam
+naquela data.
+
+### Por que não uma blockchain de verdade
+
+Foi avaliado e descartado para os dados em si, por três motivos técnicos:
+
+1. **Blockchain não esconde nada.** Ela garante que o registro não mudou,
+   não que ele seja secreto. O sigilo continua vindo de criptografia e
+   controle de acesso — que é onde o esforço tem que estar.
+2. **Espalhar o dado é o contrário de protegê-lo.** Uma rede replica cada
+   registro em vários nós. Folha, faturamento e apuração do cliente em
+   várias cópias é mais superfície de ataque, não menos.
+3. **Imutabilidade briga com a LGPD.** O art. 18 dá ao titular o direito de
+   eliminação. Se o dado é imutável por construção, não há como cumprir.
+
+A corrente de hashes entrega o que interessa — a prova de não-adulteração —
+e deixa o dado onde ele pode ser corrigido e apagado quando a lei manda.
+Se um dia fizer sentido publicar a prova numa rede pública, publica-se só o
+`hash_raiz`: um número, sem dado de cliente nenhum dentro.
+
+---
 
 ## O que falta para virar produto
 
