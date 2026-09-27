@@ -1,8 +1,10 @@
 # CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE, CESSÃO TOTAL DE DIREITOS DE PROPRIEDADE INTELECTUAL, CONFIDENCIALIDADE E NÃO CONCORRÊNCIA
 
-> **MINUTA — v2 — 23/09/2026**
+> **MINUTA — v3 — 27/09/2026**
 > Campos entre `[ ]` devem ser preenchidos. Revisar com advogado antes da assinatura.
 > **Alterado na v2:** participação de êxito passou de 1% para **10%** (Cláusula 9 e Anexo IV); acrescentada a **Cláusula 9.8** (diluição por entrada de investidor e ressarcimento de capital inicial e intelectual na primeira rodada); e ativado o ***vesting* gradual de 1/48 ao mês, com *cliff* reduzido de 24 para 12 meses**, no novo item **9.4.1**, com escala de aquisição no ANEXO IV. Ver notas 13 e 14 ao final.
+>
+> **Alterado na v3 (27/09/2026):** vedação expressa de **usar, emprestar ou testar** as ferramentas do CONTRATANTE, com destaque para as de marketing (novo item **6.9** e seguintes); inclusão do **mapa de construção** na abrangência da titularidade (item **6.2(i)**); e gatilho explícito dessa conduta na cláusula da multa (novos itens **15.1.1 a 15.1.3**). Ver nota 15.
 
 ---
 
@@ -139,8 +141,9 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 **e)** interfaces, telas, *layouts*, protótipos, *wireframes*, *design system*, ícones, ilustrações e demais elementos visuais;
 **f)** documentação técnica, manuais, materiais de treinamento e apresentações;
 **g)** nomes, marcas nominativas e figurativas, logotipos, identidade visual, domínios, nomes de aplicativos, *slogans* e sinais distintivos, incluindo **OCEO** e **HUB GSENA**;
-**h)** invenções, modelos de utilidade, desenhos industriais, *know-how*, metodologias, segredos de negócio e todo conteúdo passível ou não de registro; e
-**i)** todas as versões, derivações, traduções, adaptações, atualizações, correções, melhorias e obras derivadas, presentes e futuras.
+**h)** invenções, modelos de utilidade, desenhos industriais, *know-how*, metodologias, segredos de negócio e todo conteúdo passível ou não de registro;
+**i)** o **mapa de construção** de cada produto, assim entendido o conjunto de informações que permite reproduzi-lo ou reconstruí-lo: sequência e método de desenvolvimento, decisões de arquitetura e o porquê de cada uma, dependências, parâmetros, variáveis de ambiente, pipelines, rotinas de *deploy*, scripts de automação, diagramas de integração, roteiros de configuração e o histórico de evolução do projeto; e
+**j)** todas as versões, derivações, traduções, adaptações, atualizações, correções, melhorias e obras derivadas, presentes e futuras.
 
 **6.3. Cessão confirmatória.** Na medida em que, por qualquer razão, se entenda que algum direito não nasceu originariamente na titularidade do CONTRATANTE, o PRESTADOR, neste ato e em caráter definitivo, **cede e transfere ao CONTRATANTE a integralidade de tais direitos**, de forma gratuita e já quitada pela remuneração da Cláusula 5, com efeitos retroativos à data de sua criação, obrigando-se a firmar, sempre que solicitado e no prazo de 5 (cinco) dias corridos, quaisquer termos, procurações, formulários ou instrumentos complementares necessários ao registro, à averbação, ao depósito ou à comprovação da titularidade do CONTRATANTE perante o **INPI**, a Biblioteca Nacional, registros de domínio, lojas de aplicativos ou qualquer órgão nacional ou estrangeiro.
 
@@ -153,6 +156,24 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 **6.7. Retenção proibida.** O PRESTADOR **não detém e não poderá alegar** qualquer direito de retenção, garantia, penhor, licença implícita ou condicionamento de entrega sobre código, dados, acessos ou sistemas, por nenhum motivo, inclusive por inadimplemento do CONTRATANTE.
 
 **6.8. Ferramentas preexistentes.** Eventuais bibliotecas, *frameworks* ou componentes genéricos de titularidade anterior e comprovada do PRESTADOR, para serem excluídos da cessão, deverão constar **expressamente listados no ANEXO III**, firmado na assinatura deste contrato; nada listado, presume-se que **nada há** de preexistente. Ainda nesse caso, o PRESTADOR concede ao CONTRATANTE **licença de uso perpétua, mundial, irrevogável, gratuita, exclusiva quanto ao setor de atuação do CONTRATANTE, transferível e sublicenciável**, incluindo o direito de modificar e de manter o respectivo código-fonte.
+
+**6.9. Vedação absoluta de uso, empréstimo e teste das ferramentas (CLÁUSULA ESSENCIAL).** As ferramentas, sistemas, automações, agentes de inteligência artificial, fluxos, *prompts*, painéis, integrações e demais soluções desenvolvidas, configuradas, customizadas ou direcionadas pelo CONTRATANTE — **com destaque, sem limitação, para as ferramentas de marketing, captação, tráfego, automação de conteúdo, relacionamento e vendas** — constituem concepção, direção e propriedade intelectual **exclusivas do CONTRATANTE**, tanto de direito quanto de fato, cabendo ao PRESTADOR apenas a execução técnica sob encomenda, nos termos das Considerações Preliminares e desta Cláusula 6.
+
+**6.9.1.** É **expressamente vedado** ao PRESTADOR, durante a vigência e após o término, por prazo indeterminado, em proveito próprio ou de terceiro, a título gratuito ou oneroso:
+
+**a)** **usar** a ferramenta, ainda que parcialmente e ainda que fora do ambiente do CONTRATANTE, para qualquer finalidade estranha à execução deste contrato;
+**b)** **emprestar, ceder, compartilhar, repassar ou conceder acesso** da ferramenta, de suas credenciais, de seus ambientes, de suas contas ou de suas chaves a qualquer pessoa física ou jurídica;
+**c)** **testar, experimentar, demonstrar, apresentar ou exibir** a ferramenta a terceiros, inclusive como prova de conceito, demonstração comercial, amostra de capacidade técnica, material de portfólio, aula, palestra, conteúdo em redes sociais ou argumento de captação de cliente próprio;
+**d)** **instalar, hospedar, replicar, clonar ou executar** a ferramenta em infraestrutura, conta, servidor, nuvem ou dispositivo que não seja de titularidade do CONTRATANTE;
+**e)** **extrair, exportar ou reaproveitar** a lógica, as regras de negócio, os *prompts*, os fluxos, a modelagem ou os dados da ferramenta para construir, treinar ou alimentar qualquer outra solução.
+
+**6.9.2.** As vedações do item 6.9.1 **não comportam exceção** de uso interno, uso para estudo, uso em ambiente de homologação, uso temporário, uso sem finalidade comercial ou uso a pedido de terceiro. **Não existe licença implícita, tácita, residual ou de cortesia** em favor do PRESTADOR sobre qualquer ferramenta objeto deste contrato.
+
+**6.9.3.** A permanência, no poder do PRESTADOR, de cópia, acesso, credencial ou ambiente da ferramenta após o término do contrato, sem a devolução ou destruição de que trata a Cláusula 3.1(h), **presume-se uso indevido** para os fins do item 6.9.1, cabendo ao PRESTADOR o ônus de provar o contrário.
+
+**6.9.4. Código-fonte e mapa de construção.** As vedações do item 6.9.1 alcançam, com a mesma extensão e o mesmo rigor, **o código-fonte de todos os produtos e o respectivo mapa de construção** definido no item 6.2(i). O PRESTADOR **não poderá usar, guardar, copiar, emprestar, publicar, ensinar, comentar, reaproveitar nem manter consigo**, a qualquer tempo, o código-fonte ou o mapa de construção de qualquer produto objeto deste contrato, ainda que a título de acervo pessoal, registro de aprendizado, material de estudo ou memória técnica de trabalho.
+
+**6.9.5.** O direito sobre o código-fonte e sobre o mapa de construção de **todos os produtos**, presentes e futuros, abrangidos por este contrato, é **originário, exclusivo e integral do CONTRATANTE**, na condição de idealizador e encomendante, não se admitindo cotitularidade, copropriedade, direito de uso residual ou reserva de qualquer natureza em favor do PRESTADOR, ainda que este tenha concebido a implementação técnica de determinada rotina.
 
 ---
 
@@ -303,6 +324,12 @@ As PARTES declaram e reconhecem, como premissa essencial deste contrato, que:
 **c)** perda integral da participação da Cláusula 9, nos termos do item 9.5;
 **d)** apuração de responsabilidade criminal, notadamente por violação de direito autoral de programa de computador (art. 12 da Lei nº 9.609/1998), concorrência desleal e violação de segredo de negócio (art. 195 da Lei nº 9.279/1996) e crimes cibernéticos (arts. 154-A e 154-B do Código Penal); e
 **e)** obrigação de **transferir ao CONTRATANTE** todo proveito econômico obtido com a violação, bem como a titularidade de qualquer criação, marca ou registro dela derivado.
+
+**15.1.1. Uso, empréstimo ou teste de ferramenta, de código-fonte ou de mapa de construção.** Para afastar qualquer dúvida interpretativa, a multa do item 15.1 incide, **por evento**, sempre que o PRESTADOR **usar, emprestar, ceder, compartilhar, conceder acesso, testar, experimentar, demonstrar, exibir, hospedar, replicar ou reaproveitar** qualquer ferramenta, sistema, automação, agente de inteligência artificial, **código-fonte** ou **mapa de construção** de produto do CONTRATANTE, nas hipóteses vedadas pelos itens 6.9.1, 6.9.4 e 6.9.5 — **com destaque para as ferramentas de marketing, captação, tráfego, automação de conteúdo, relacionamento e vendas**, cuja concepção, direção e titularidade são exclusivas do CONTRATANTE, de direito e de fato.
+
+**15.1.2.** Para fins de contagem da multa, configura **evento autônomo de violação**, punível de forma cumulativa: **(a)** cada ferramenta ou produto envolvido; **(b)** cada terceiro a quem se conceda acesso, demonstração ou empréstimo; e **(c)** cada ocorrência em data distinta.
+
+**15.1.3.** A multa deste item é devida **independentemente de proveito econômico**, de prejuízo demonstrado, de a conduta ter sido gratuita, experimental, interna ou a pedido de terceiro, e independentemente de o uso ter sido parcial, temporário ou em ambiente de teste.
 
 **15.2.** As PARTES reconhecem, expressamente, que as obrigações das Cláusulas 6, 7 e 8 são de natureza **essencial e insubstituível**, cuja violação causa dano de difícil reparação, justificando a concessão de **medidas de urgência, liminares e tutelas de evidência**, inclusive *inaudita altera parte*.
 
@@ -460,3 +487,8 @@ Pelo presente, **CID PINHEIRO NOGUEIRA DE FREITAS**, CPF 149.650.067-98, declara
     - **Direito de fiscalização.** O item 9.3(a) limita o acesso do Cid às demonstrações financeiras anuais. Em sociedade limitada, o art. 1.021 do Código Civil dá ao sócio o direito de examinar livros e documentos a qualquer tempo. Com 1% ninguém discutiria; com 10% essa restrição contratual fica mais frágil se ele quiser brigar. Não é motivo pra tirar a cláusula, é motivo pra saber que ela pode ceder.
     - **Controle societário.** Com 90/10 você mantém folgadamente o quórum de 3/4 para alteração do contrato social (art. 1.076, I, CC). Só fique atento se novas diluições e a entrada do investidor reduzirem sua fatia — é aí que o quórum começa a importar.
 14. **Cláusula 9.8 (diluição e ressarcimento na 1ª rodada) — leia o que ela faz e o que ela não faz.** Ela garante duas coisas a seu favor: a diluição opera **de pleno direito**, sem o Cid poder travar rodada nenhuma (9.8.1/9.8.2), e o ressarcimento por capital inicial e intelectual é **faculdade dependente de consenso e do aceite do investidor**, nunca um crédito que ele possa cobrar de você (9.8.6). O item 9.8.7 é o mais importante: deixa expresso que ser ressarcido por "capital intelectual" **não dá ao Cid nenhum pedaço da propriedade intelectual** — que continua 100% sua pela Cláusula 6. Sem esse item, a expressão "capital intelectual" seria a brecha natural pra ele reivindicar cotitularidade lá na frente. Um ponto que ficou em aberto de propósito: **o critério de apuração do capital intelectual** (9.8.4(b)) não está definido, porque depende do business plan e do valuation. Investidor costuma resistir a *cash-out* em rodada seed, então a forma mais provável de isso acontecer na prática é a letra (a) do item 9.8.5, reconhecimento no valuation pré-money.
+15. **Sobre a vedação de usar, emprestar ou testar as ferramentas (v3).** Você pediu isso na cláusula da multa, e eu escrevi nos dois lugares de propósito: a **proibição** ficou na Cláusula 6, que é onde mora a propriedade intelectual, e o **gatilho da multa** ficou no item 15.1.1. Multa sem proibição correspondente é atacável; proibição sem multa não intimida. Três pontos que valem sua atenção:
+    - **Fechei as saídas de sempre.** O item 6.9.2 diz que não vale a desculpa de uso interno, de estudo, de homologação, temporário ou sem fim comercial. E o 15.1.3 deixa a multa devida ainda que não tenha havido proveito econômico nem prejuízo demonstrado. Sem isso, a discussão vira "eu só estava testando".
+    - **A multa conta por evento, e evento é cada coisa.** O item 15.1.2 define que cada ferramenta, cada terceiro que recebeu acesso e cada data distinta contam separado. Isso multiplica a exposição dele, que é o que faz a cláusula funcionar como dissuasão. Vale lembrar a nota 8: um juiz pode reduzir multa desproporcional, e o acúmulo aumenta esse risco. A alínea 15.1(a) continua garantindo a cobrança do dano real por fora.
+    - **A presunção do item 6.9.3 é sua melhor ferramenta de prova.** Se ele ficar com cópia, credencial ou ambiente depois do fim do contrato, presume-se uso indevido e o ônus de provar o contrário é dele. Na prática, é o que resolve o problema de você ter que provar um uso que acontece na máquina dele.
+16. **Sobre o mapa de construção (v3).** O código-fonte já estava coberto desde a v1. O que entrou agora é o **mapa de construção** (item 6.2(i)): a sequência de desenvolvimento, as decisões de arquitetura e o porquê de cada uma, dependências, variáveis de ambiente, pipelines, rotinas de deploy e roteiros de configuração. É a diferença entre ter o código e conseguir **reconstruir e operar** o produto. Sem isso escrito, alguém entrega o repositório e leva na cabeça o que faz aquilo funcionar. Isso tem efeito prático imediato: some com a garantia da Cláusula 3.1(c), porque agora essa documentação é entrega obrigatória e não cortesia.
