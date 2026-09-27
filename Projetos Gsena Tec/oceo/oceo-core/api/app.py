@@ -25,6 +25,7 @@ from oceo.acesso import (AcessoNegado, FalhaDeLogin, SenhaFraca,        # noqa: 
 from oceo.dominio import DEPENDENCIAS, Empresa, Evento, Pilar, Regime   # noqa: E402
 from oceo.montagem import montar                                        # noqa: E402
 from oceo.nucleo import DependenciaFaltando, PilarNaoContratado         # noqa: E402
+from oceo.trilha import recibo                                          # noqa: E402
 
 BANCO = os.environ.get("OCEO_BANCO", str(RAIZ / "dados" / "oceo.db"))
 sistema, acesso = montar(BANCO)
@@ -211,6 +212,16 @@ def auditoria(empresa_id: str, usuario: Usuario = Depends(usuario_logado)) -> li
     return [{"evento": f.evento.value, "origem": f.origem.value,
              "dados": f.dados, "em": f.em.isoformat(timespec="seconds")}
             for f in sistema.repo.listar_fatos(empresa_id)]
+
+
+@app.get("/api/empresas/{empresa_id}/integridade")
+def integridade(empresa_id: str, usuario: Usuario = Depends(usuario_logado)) -> dict:
+    """
+    Confere a trilha e devolve o comprovante. É o que prova ao cliente que
+    ninguém alterou o histórico dele — nem nós.
+    """
+    liberar(usuario, empresa_id)
+    return recibo(sistema.repo.conferir_trilha(), empresa_id)
 
 
 # ------------------------------------------------------------------ portal

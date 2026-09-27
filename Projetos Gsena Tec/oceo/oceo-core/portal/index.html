@@ -95,6 +95,17 @@
   .papel{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
          background:rgba(42,120,214,.12);color:var(--azul-claro);padding:3px 9px;
          border-radius:20px;}
+  .integridade{background:var(--branco);border:1px solid var(--linha);border-radius:10px;
+               padding:16px 20px;margin-top:20px;display:flex;align-items:center;
+               justify-content:space-between;gap:16px;flex-wrap:wrap;}
+  .integridade .txt{font-size:13px;color:var(--fraco);max-width:60ch;}
+  .selo-ok{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+           background:rgba(46,125,91,.12);color:var(--ok);padding:5px 11px;border-radius:20px;}
+  .selo-ruim{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+             background:rgba(192,57,43,.12);color:var(--critico);padding:5px 11px;
+             border-radius:20px;}
+  .raiz{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--fraco);
+        word-break:break-all;margin-top:6px;}
   .erro{background:rgba(192,57,43,.08);border:1px solid rgba(192,57,43,.3);color:var(--critico);
         padding:10px 14px;border-radius:7px;margin-top:12px;font-size:13.5px;}
 </style>
@@ -266,6 +277,17 @@ async function desenharPainel(lista){
       : `<div class="vazio"><p>Nenhum alerta ainda. Dispare um fato abaixo
            e veja outro pilar reagir sozinho.</p></div>`}
 
+    <div class="integridade">
+      <div>
+        <h2 class="secao" style="margin:0 0 4px">Integridade dos dados</h2>
+        <div class="txt">Cada registro guarda o resumo do anterior. Se alguém
+          alterar o histórico por fora do sistema, a corrente quebra e a
+          conferência aponta onde.</div>
+        <div class="raiz" id="raiz"></div>
+      </div>
+      <button class="fantasma" onclick="conferir()">Conferir agora</button>
+    </div>
+
     ${somenteLeitura ? "" : `
     <div class="simular">
       <h2 class="secao" style="margin-top:0">Disparar um fato</h2>
@@ -286,6 +308,21 @@ async function desenharPainel(lista){
           GM fecha uma venda</button>
       </div>
     </div>`}`;
+}
+
+async function conferir(){
+  try{
+    const r = await api(`/api/empresas/${empresaId}/integridade`);
+    document.getElementById("raiz").innerHTML = `
+      <span class="${r.integra ? "selo-ok" : "selo-ruim"}">
+        ${r.integra ? "íntegra" : "adulterada"}</span>
+      &nbsp;${r.registros_conferidos} registro(s) conferido(s)<br>
+      resumo do período: ${esc(r.hash_raiz)}
+      ${r.integra ? "" : `<br><span style="color:var(--critico)">
+        quebrou no registro ${r.rompeu_no_registro} — ${esc(r.motivo)}</span>`}`;
+  }catch(e){
+    document.getElementById("raiz").textContent = e.message;
+  }
 }
 
 abrir();
