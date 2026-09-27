@@ -76,6 +76,25 @@
            padding:18px 20px;margin-top:26px;}
   .simular p{font-size:13px;color:var(--fraco);margin-bottom:12px;max-width:66ch;}
   .botoes{display:flex;flex-wrap:wrap;gap:8px;}
+  .login{max-width:390px;margin:60px auto;background:var(--branco);
+         border:1px solid var(--linha);border-radius:12px;padding:30px;}
+  .login h2{font-size:20px;margin-bottom:5px;}
+  .login p.ajuda{font-size:13px;color:var(--fraco);margin-bottom:20px;}
+  .campo{margin-bottom:14px;}
+  .campo label{display:block;font-size:12px;font-weight:600;color:var(--fraco);
+               margin-bottom:5px;letter-spacing:.03em;}
+  .campo input{width:100%;padding:11px 13px;font-family:inherit;font-size:15px;
+               border:1.5px solid var(--linha);border-radius:7px;background:#fff;}
+  .campo input:focus{outline:0;border-color:var(--azul-claro);}
+  .login button{width:100%;padding:12px;font-size:15px;}
+  .alternar{margin-top:16px;text-align:center;font-size:13px;color:var(--fraco);}
+  .alternar a{color:var(--azul-claro);cursor:pointer;font-weight:600;text-decoration:none;}
+  .usuario{display:flex;align-items:center;gap:14px;font-size:13px;}
+  .usuario b{font-weight:600;}
+  .usuario button{padding:6px 13px;font-size:12px;background:rgba(255,255,255,.14);}
+  .papel{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+         background:rgba(42,120,214,.12);color:var(--azul-claro);padding:3px 9px;
+         border-radius:20px;}
   .erro{background:rgba(192,57,43,.08);border:1px solid rgba(192,57,43,.3);color:var(--critico);
         padding:10px 14px;border-radius:7px;margin-top:12px;font-size:13.5px;}
 </style>
@@ -84,7 +103,7 @@
 
 <header>
   <div class="marca">OCEO<small>SIMPLES. MAIS COMPLETO.</small></div>
-  <div class="estado mono" id="estado">carregando…</div>
+  <div id="topo-direita"><span class="estado mono">carregando…</span></div>
 </header>
 
 <main id="app"><div class="vazio">carregando…</div></main>
@@ -95,67 +114,128 @@ const api = (rota, opc) => fetch(rota, opc).then(async r => {
   if (!r.ok) throw new Error(corpo.detail || `erro ${r.status}`);
   return corpo;
 });
+const esc = t => String(t ?? "").replace(/[&<>"]/g, c =>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-let empresaId = null;
-let ultimoErro = "";
+let eu = null, empresaId = null, ultimoErro = "";
 
-async function atualizarEstado(){
-  try{
-    const s = await api("/api/saude");
-    document.getElementById("estado").textContent =
-      `${s.empresas} empresa(s) · ${s.eventos} evento(s) no barramento`;
-  }catch{ document.getElementById("estado").textContent = "sem conexão"; }
+// ---------------------------------------------------------------- entrada
+async function abrir(){
+  try { eu = await api("/api/eu"); }
+  catch { eu = null; return telaLogin(); }
+  desenharTopo();
+  const lista = await api("/api/empresas");
+  if(!lista.length) return telaSemEmpresa();
+  empresaId = empresaId && lista.some(e=>e.id===empresaId) ? empresaId : lista[0].id;
+  desenharPainel(lista);
 }
 
-async function inicio(){
-  const lista = await api("/api/empresas");
-  if(lista.length){ empresaId = lista[0].id; return desenharPainel(); }
+function desenharTopo(){
+  document.getElementById("topo-direita").innerHTML = eu ? `
+    <div class="usuario"><span>Olá, <b>${esc(eu.nome)}</b></span>
+      <button onclick="sair()">sair</button></div>` :
+    `<span class="estado mono">não autenticado</span>`;
+}
+
+function telaLogin(modo){
+  modo = modo || "entrar";
+  const criando = modo === "criar";
+  desenharTopo();
+  document.getElementById("app").innerHTML = `
+    <div class="login">
+      <h2>${criando ? "Criar conta" : "Entrar no OCEO"}</h2>
+      <p class="ajuda">${criando
+        ? "A senha precisa ter pelo menos 10 caracteres."
+        : "Use o e-mail e a senha da sua conta."}</p>
+      <form onsubmit="event.preventDefault(); ${criando?"criarConta":"fazerLogin"}()">
+        ${criando ? `<div class="campo"><label>Seu nome</label>
+           <input id="nome" autocomplete="name" required></div>` : ""}
+        <div class="campo"><label>E-mail</label>
+          <input id="email" type="email" autocomplete="email" required></div>
+        <div class="campo"><label>Senha</label>
+          <input id="senha" type="password"
+                 autocomplete="${criando?"new-password":"current-password"}" required></div>
+        <button type="submit">${criando ? "Criar conta e entrar" : "Entrar"}</button>
+      </form>
+      <div class="alternar">${criando
+        ? `Já tem conta? <a onclick="telaLogin('entrar')">Entrar</a>`
+        : `Primeira vez? <a onclick="telaLogin('criar')">Criar uma conta</a>`}</div>
+      ${ultimoErro ? `<div class="erro">${esc(ultimoErro)}</div>` : ""}
+    </div>`;
+}
+
+async function fazerLogin(){
+  ultimoErro = "";
+  try{
+    await api("/api/entrar", {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({email:email.value, senha:senha.value})});
+    abrir();
+  }catch(e){ ultimoErro = e.message; telaLogin("entrar"); }
+}
+
+async function criarConta(){
+  ultimoErro = "";
+  try{
+    await api("/api/conta", {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({email:email.value, nome:nome.value, senha:senha.value})});
+    await api("/api/entrar", {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({email:email.value, senha:senha.value})});
+    abrir();
+  }catch(e){ ultimoErro = e.message; telaLogin("criar"); }
+}
+
+async function sair(){
+  await api("/api/sair", {method:"POST"});
+  eu = null; empresaId = null; telaLogin();
+}
+
+// ---------------------------------------------------------------- empresa
+function telaSemEmpresa(){
   document.getElementById("app").innerHTML = `
     <div class="vazio">
-      <h2>Nenhuma empresa cadastrada</h2>
-      <p>Crie uma empresa de demonstração para ver os cinco pilares conversando
-         entre si. Nada aqui é salvo em banco ainda: é memória da sessão.</p>
-      <button onclick="criarDemo()">Criar empresa de demonstração</button>
+      <h2>Nenhuma empresa nesta conta</h2>
+      <p>Cadastre a primeira empresa para ver os pilares conversando entre si.
+         Ela nasce com Contabilidade, Financeiro e Jurídico ligados, e você como dono.</p>
+      <button onclick="criarDemo()">Cadastrar empresa de demonstração</button>
+      ${ultimoErro ? `<div class="erro">${esc(ultimoErro)}</div>` : ""}
     </div>`;
 }
 
 async function criarDemo(){
-  await api("/api/empresas", {
-    method:"POST", headers:{"Content-Type":"application/json"},
-    body: JSON.stringify({
-      cnpj:"13.592.146/0001-15", razao_social:"Empresa Demonstração Ltda",
-      regime:"simples_nacional", municipio:"Belo Horizonte", uf:"MG",
-      pilares:["GC","GF"]
-    })
-  });
-  const lista = await api("/api/empresas");
-  empresaId = lista[0].id;
-  desenharPainel();
+  ultimoErro = "";
+  try{
+    await api("/api/empresas", {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({cnpj:"13.592.146/0001-15",
+        razao_social:"Empresa Demonstração Ltda", regime:"simples_nacional",
+        municipio:"Belo Horizonte", uf:"MG", pilares:["GC","GF","GJ"]})});
+  }catch(e){ ultimoErro = e.message; }
+  abrir();
 }
 
 async function acao(fn){
   ultimoErro = "";
   try{ await fn(); }catch(e){ ultimoErro = e.message; }
-  desenharPainel();
+  abrir();
 }
-
-const ativar   = c => acao(() => api(`/api/empresas/${empresaId}/pilares/${c}`, {method:"POST"}));
-const desativar= c => acao(() => api(`/api/empresas/${empresaId}/pilares/${c}`, {method:"DELETE"}));
-const evento   = (ev, origem, dados) => acao(() => api(`/api/empresas/${empresaId}/eventos`, {
+const ativar   = c => acao(()=>api(`/api/empresas/${empresaId}/pilares/${c}`,{method:"POST"}));
+const desativar= c => acao(()=>api(`/api/empresas/${empresaId}/pilares/${c}`,{method:"DELETE"}));
+const evento   = (ev,origem,dados) => acao(()=>api(`/api/empresas/${empresaId}/eventos`,{
   method:"POST", headers:{"Content-Type":"application/json"},
-  body: JSON.stringify({evento:ev, origem:origem, dados:dados})
-}));
+  body: JSON.stringify({evento:ev, origem:origem, dados:dados})}));
 
-async function desenharPainel(){
+async function desenharPainel(lista){
   const p = await api(`/api/empresas/${empresaId}/painel`);
-  atualizarEstado();
+  const somenteLeitura = p.meu_papel === "leitor";
   document.getElementById("app").innerHTML = `
     <div class="empresa">
       <div>
-        <h1>${p.empresa.razao_social}</h1>
+        <h1>${esc(p.empresa.razao_social)}</h1>
         <div class="cnpj mono">${p.empresa.cnpj} · ${p.empresa.regime.replace(/_/g," ")}</div>
       </div>
-      <div class="cnpj">${p.eventos_no_periodo} evento(s) trocados entre pilares</div>
+      <div style="display:flex;align-items:center;gap:12px;">
+        <span class="papel">${esc(p.meu_papel)}</span>
+        <span class="cnpj">${p.eventos_no_periodo} evento(s) entre pilares</span>
+      </div>
     </div>
 
     <h2 class="secao">Os cinco pilares</h2>
@@ -163,33 +243,34 @@ async function desenharPainel(){
       ${p.pilares.map(pi => `
         <div class="pilar ${pi.ativo?"ativo":""}">
           <div class="cod">${pi.codigo}</div>
-          <div class="nome">${pi.nome}</div>
+          <div class="nome">${esc(pi.nome)}</div>
           <div class="dep">${pi.depende_de.length ? "depende de "+pi.depende_de.join(", ") : "&nbsp;"}</div>
           <div class="rodape">
             <span class="selo ${pi.ativo?"on":"off"}">${pi.ativo?"ativo":"inativo"}</span>
-            <button class="pequeno ${pi.ativo?"fantasma":""}"
+            ${somenteLeitura ? "" : `<button class="pequeno ${pi.ativo?"fantasma":""}"
               onclick="${pi.ativo?`desativar('${pi.codigo}')`:`ativar('${pi.codigo}')`}">
-              ${pi.ativo?"desligar":"ligar"}</button>
+              ${pi.ativo?"desligar":"ligar"}</button>`}
           </div>
         </div>`).join("")}
     </div>
-    ${ultimoErro ? `<div class="erro"><b>O sistema recusou:</b> ${ultimoErro}</div>` : ""}
+    ${ultimoErro ? `<div class="erro"><b>O sistema recusou:</b> ${esc(ultimoErro)}</div>` : ""}
 
     <h2 class="secao">O que os pilares falaram entre si</h2>
     ${p.alertas.length ? p.alertas.map(a => `
       <div class="alerta ${a.severidade}">
-        <div class="topo"><span class="de mono">${a.pilar}</span><span class="tit">${a.titulo}</span></div>
-        <div class="det">${a.detalhe}</div>
+        <div class="topo"><span class="de mono">${a.pilar}</span>
+          <span class="tit">${esc(a.titulo)}</span></div>
+        <div class="det">${esc(a.detalhe)}</div>
         ${a.origem ? `<div class="via mono">reagiu a ${a.origem}</div>` : ""}
       </div>`).join("")
-      : `<div class="vazio"><p>Nenhum alerta ainda. Use os botões abaixo para
-           disparar um fato e ver outro pilar reagir sozinho.</p></div>`}
+      : `<div class="vazio"><p>Nenhum alerta ainda. Dispare um fato abaixo
+           e veja outro pilar reagir sozinho.</p></div>`}
 
+    ${somenteLeitura ? "" : `
     <div class="simular">
       <h2 class="secao" style="margin-top:0">Disparar um fato</h2>
       <p>Cada botão publica um fato em nome de um pilar. Quem reage é decidido
-         pelo barramento, não pelo botão. Ligue e desligue pilares acima para
-         ver a diferença na resposta.</p>
+         pelo barramento, não pelo botão. Tudo fica gravado no banco.</p>
       <div class="botoes">
         <button onclick="evento('gc.apuracao_fechada','GC',{competencia:'09/2026',receita:120000,custo_fixo:70000,imposto:20000})">
           GC fecha apuração com carga alta</button>
@@ -204,10 +285,10 @@ async function desenharPainel(){
         <button onclick="evento('gm.venda_fechada','GM',{valor:18500})">
           GM fecha uma venda</button>
       </div>
-    </div>`;
+    </div>`}`;
 }
 
-inicio();
+abrir();
 </script>
 </body>
 </html>

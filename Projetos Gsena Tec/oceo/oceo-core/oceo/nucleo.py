@@ -115,22 +115,48 @@ class Sistema:
 
     É o ponto único de entrada. A API e o portal conversam só com ele, nunca
     com os pilares direto.
+
+    Sem repositório, roda em memória (útil em teste). Com repositório, tudo
+    sobrevive ao desligamento do servidor. As regras de negócio não mudam
+    entre os dois modos, porque elas não sabem onde o dado é guardado.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, repo=None) -> None:
         self.barramento = Barramento()
+        self.repo = repo
         self.empresas: dict[str, Empresa] = {}
         self.assinaturas: dict[str, Assinatura] = {}
         self.alertas: list[Alerta] = []
+        if repo:
+            self._recarregar()
+
+    def _recarregar(self) -> None:
+        """Traz do banco o que já existia. Chamado ao subir o sistema."""
+        for empresa in self.repo.listar_empresas():
+            self.empresas[empresa.id] = empresa
+            a = Assinatura.__new__(Assinatura)      # sem revalidar dependência
+            a.empresa = empresa
+            a.pilares = self.repo.carregar_assinatura(empresa.id)
+            self.assinaturas[empresa.id] = a
+        self.barramento.historico = self.repo.listar_fatos()
 
     # ---- cadastro
     def cadastrar(self, empresa: Empresa, pilares: set[Pilar] | None = None) -> Empresa:
+        assinatura = Assinatura(empresa, pilares)   # valida dependências aqui
         self.empresas[empresa.id] = empresa
-        self.assinaturas[empresa.id] = Assinatura(empresa, pilares)
+        self.assinaturas[empresa.id] = assinatura
+        if self.repo:
+            self.repo.salvar_empresa(empresa)
+            self.repo.salvar_assinatura(empresa.id, assinatura.pilares)
         return empresa
 
     def assinatura_de(self, empresa_id: str) -> Assinatura | None:
         return self.assinaturas.get(empresa_id)
+
+    def salvar_assinatura(self, empresa_id: str) -> None:
+        """Persiste a assinatura depois de ligar ou desligar um pilar."""
+        if self.repo and empresa_id in self.assinaturas:
+            self.repo.salvar_assinatura(empresa_id, self.assinaturas[empresa_id].pilares)
 
     def exigir(self, empresa_id: str, pilar: Pilar) -> None:
         a = self.assinatura_de(empresa_id)
@@ -143,15 +169,21 @@ class Sistema:
     def anunciar(self, evento: Evento, empresa_id: str, origem: Pilar, **dados) -> Fato:
         self.exigir(empresa_id, origem)
         fato = Fato(evento=evento, empresa_id=empresa_id, origem=origem, dados=dados)
+        if self.repo:
+            self.repo.salvar_fato(fato)
         self.barramento.publicar(fato, self)
         return fato
 
     # ---- saída para o cliente
     def alertar(self, alerta: Alerta) -> Alerta:
         self.alertas.append(alerta)
+        if self.repo:
+            self.repo.salvar_alerta(alerta)
         return alerta
 
     def alertas_de(self, empresa_id: str) -> list[Alerta]:
+        if self.repo:
+            return self.repo.listar_alertas(empresa_id)
         return [a for a in self.alertas if a.empresa_id == empresa_id]
 
     def painel(self, empresa_id: str) -> dict:
@@ -186,7 +218,9 @@ class Sistema:
                 }
                 for a in sorted(alertas, key=lambda x: x.em, reverse=True)
             ],
-            "eventos_no_periodo": len(
-                [f for f in self.barramento.historico if f.empresa_id == empresa_id]
+            "eventos_no_periodo": (
+                self.repo.contar_fatos(empresa_id) if self.repo
+                else len([f for f in self.barramento.historico
+                          if f.empresa_id == empresa_id])
             ),
         }

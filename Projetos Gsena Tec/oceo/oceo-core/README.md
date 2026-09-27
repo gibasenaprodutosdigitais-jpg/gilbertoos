@@ -4,9 +4,10 @@ Este é o **miolo** do OCEO: o código que faz os cinco pilares conversarem
 entre si em vez de virarem cinco sistemas separados com cinco cadastros do
 mesmo cliente.
 
-> Estado: **fundação funcional**, com API e portal de demonstração em cima.
-> Ainda não tem banco de dados, login nem as regras de cada pilar por
-> inteiro. O que existe aqui é a estrutura em que esse resto se encaixa.
+> Estado: **fundação funcional**, com banco, login, isolamento entre
+> clientes, API e portal. Ainda faltam as regras internas de cada pilar e as
+> integrações externas. O que existe aqui é a estrutura em que esse resto se
+> encaixa.
 
 ---
 
@@ -14,13 +15,15 @@ mesmo cliente.
 
 ```bash
 cd oceo-core
-python3 testes/test_interligacao.py     # prova, no terminal, que os pilares conversam
+python3 testes/test_interligacao.py     # os pilares conversam
+python3 testes/test_acesso.py           # login, persistência e isolamento
 python3 api/app.py                      # sobe o portal em http://127.0.0.1:8000
 ```
 
-No portal: crie a empresa de demonstração, ligue e desligue pilares e use os
-botões de "disparar um fato". Cada fato é publicado em nome de **um** pilar,
-e quem reage é decidido pelo sistema, não pelo botão.
+No portal: crie uma conta, cadastre a empresa de demonstração, ligue e
+desligue pilares e use os botões de "disparar um fato". Cada fato é publicado
+em nome de **um** pilar, e quem reage é decidido pelo sistema, não pelo botão.
+Tudo fica gravado: feche o servidor, suba de novo e o estado continua lá.
 
 ---
 
@@ -71,6 +74,8 @@ oceo-core/
 │   ├── nucleo.py            ← barramento de eventos, assinatura, sistema
 │   ├── montagem.py          ← junta as peças (único lugar que sabe montar)
 │   └── pilares/reacoes.py   ← quem reage a quê — a interligação em si
+│   ├── repositorio.py       ← persistência (SQLite hoje, Postgres depois)
+│   └── acesso.py            ← usuários, senhas, sessões e permissão
 ├── api/app.py               ← FastAPI: a única porta para o mundo de fora
 ├── portal/index.html        ← portal de demonstração
 └── testes/test_interligacao.py
@@ -81,21 +86,42 @@ máquina, e é testável sem subir servidor. Só a API precisa de FastAPI.
 
 ---
 
+## Login e isolamento entre clientes
+
+Toda rota que toca dado de empresa passa por duas portas, nesta ordem:
+
+1. **Quem é você** — sessão por cookie `httponly`, validada a cada chamada.
+2. **Você pode ver esta empresa?** — `acesso.exigir_acesso`, inclusive na
+   leitura.
+
+Decisões de segurança que valem saber:
+
+- Senha guardada com **PBKDF2-HMAC-SHA256, 600 mil iterações e salt próprio**
+  por conta. Duas pessoas com a mesma senha têm hashes diferentes.
+- E-mail inexistente e senha errada dão **a mesma mensagem**, e o login gasta
+  o mesmo tempo nos dois casos. Não dá para descobrir quem é cliente do OCEO
+  testando e-mails.
+- Tentar abrir a empresa de outro cliente devolve **404, não 403**: o sistema
+  não confirma nem que aquela empresa existe.
+- Papéis: `dono`, `operador` e `leitor`. O leitor não altera nada, e o portal
+  esconde os botões de ação para ele.
+
+O banco é SQLite, guardado em `dados/oceo.db` (fora do Git). Trocar por
+Postgres é escrever outra classe com os mesmos métodos de
+`RepositorioSQLite` — nenhuma regra de negócio muda.
+
 ## O que falta para virar produto
 
 Em ordem de quem entra primeiro:
 
-1. **Persistência.** Hoje tudo vive em memória e some quando o servidor cai.
-   Trocar por Postgres é substituir o `Sistema` — o resto do código não muda,
-   porque todo mundo conversa através dele.
-2. **Login e multiusuário.** Hoje qualquer um vê qualquer empresa.
-3. **As regras de cada pilar por dentro.** O que existe são as reações
+1. **As regras de cada pilar por dentro.** O que existe são as reações
    *entre* pilares; falta o trabalho *dentro* de cada um (apuração real,
    conciliação bancária, geração de contrato).
-4. **Integrações.** Open Finance (GF), WhatsApp Business API (GM), e a
+2. **Integrações.** Open Finance (GF), WhatsApp Business API (GM), e a
    entrada dos painéis de BI que já rodam hoje (GC).
-5. **Auditoria.** O barramento já guarda o histórico de fatos; falta expor
-   isso como trilha de auditoria para o cliente.
+3. **Recuperação de senha** por e-mail, e segundo fator para o papel `dono`.
+4. **Limite de tentativas de login**, para travar ataque de força bruta.
+5. **Postgres** no lugar do SQLite, quando houver mais de um servidor.
 
 ## Decisões técnicas e por quê
 
@@ -107,5 +133,8 @@ Em ordem de quem entra primeiro:
   separado. Com eventos, cada pilar é autônomo.
 - **Núcleo sem dependência externa.** Framework envelhece; regra de negócio
   não. O miolo tem que sobreviver à troca de framework.
-- **Uma instância em memória na API.** É proposital, para demonstração. O
-  ponto de troca para banco está isolado num lugar só.
+- **SQLite primeiro.** Vem na stdlib, não exige servidor de banco e deixa o
+  teste rodar com banco em memória. A troca por Postgres já está isolada numa
+  classe só.
+- **Sessão em cookie `httponly`**, e não token no JavaScript: se alguém
+  conseguir injetar script na página, não consegue ler a sessão.
