@@ -34,7 +34,7 @@ def nova_empresa(sis, pilares):
 # --------------------------------------------------------------------------
 def teste_cadastro_unico():
     print("\n[1] O cadastro do cliente é único, não um por pilar")
-    sis = montar()
+    sis, _ = montar()
     e = nova_empresa(sis, {Pilar.GC, Pilar.GF})
     checar(len(sis.empresas) == 1, "uma empresa cadastrada, compartilhada pelos pilares")
     checar(e.cnpj == "13592146000115", "CNPJ normalizado (só dígitos)")
@@ -43,7 +43,7 @@ def teste_cadastro_unico():
 
 def teste_dependencia_entre_pilares():
     print("\n[2] Um pilar não liga sem o pré-requisito dele")
-    sis = montar()
+    sis, _ = montar()
     e = nova_empresa(sis, {Pilar.GC})
     try:
         sis.assinatura_de(e.id).ativar(Pilar.GI)   # GI depende de GF
@@ -58,7 +58,7 @@ def teste_dependencia_entre_pilares():
 
 def teste_cadeia_gc_gf_gi():
     print("\n[3] A cadeia atravessa três pilares: GC fecha apuração → GF → GI")
-    sis = montar()
+    sis, _ = montar()
     e = nova_empresa(sis, {Pilar.GC, Pilar.GF, Pilar.GI})
 
     sis.anunciar(Evento.APURACAO_FECHADA, e.id, Pilar.GC,
@@ -81,7 +81,7 @@ def teste_cadeia_gc_gf_gi():
 
 def teste_reserva_insuficiente_nao_libera():
     print("\n[4] Reserva abaixo da política não libera a trilha")
-    sis = montar()
+    sis, _ = montar()
     e = nova_empresa(sis, {Pilar.GC, Pilar.GF, Pilar.GI})
     sis.anunciar(Evento.RESERVA_COMPLETA, e.id, Pilar.GF, meses_cobertos=1)
     checar(Evento.TRILHA_LIBERADA not in [f.evento for f in sis.barramento.historico],
@@ -90,7 +90,7 @@ def teste_reserva_insuficiente_nao_libera():
 
 def teste_pilar_nao_contratado_fica_de_fora():
     print("\n[5] Quem não contratou o pilar não recebe a saída dele")
-    sis = montar()
+    sis, _ = montar()
     e = nova_empresa(sis, {Pilar.GC})          # sem GJ
     sis.anunciar(Evento.APURACAO_FECHADA, e.id, Pilar.GC,
                  competencia="09/2026", receita=100_000.0,
@@ -98,7 +98,7 @@ def teste_pilar_nao_contratado_fica_de_fora():
     checar(not [a for a in sis.alertas_de(e.id) if a.pilar == Pilar.GJ],
            "sem GJ contratado, nenhum alerta jurídico foi gerado")
 
-    sis2 = montar()
+    sis2, _ = montar()
     e2 = nova_empresa(sis2, {Pilar.GC, Pilar.GJ})
     sis2.anunciar(Evento.APURACAO_FECHADA, e2.id, Pilar.GC,
                   competencia="09/2026", receita=100_000.0,
@@ -109,7 +109,7 @@ def teste_pilar_nao_contratado_fica_de_fora():
 
 def teste_nao_deixa_pilar_desligado_publicar():
     print("\n[6] Pilar desligado não consegue publicar evento")
-    sis = montar()
+    sis, _ = montar()
     e = nova_empresa(sis, {Pilar.GC})
     try:
         sis.anunciar(Evento.VENDA_FECHADA, e.id, Pilar.GM, valor=5_000.0)
@@ -120,7 +120,7 @@ def teste_nao_deixa_pilar_desligado_publicar():
 
 def teste_desativar_cai_em_cascata():
     print("\n[7] Desligar um pilar derruba quem dependia dele")
-    sis = montar()
+    sis, _ = montar()
     e = nova_empresa(sis, {Pilar.GC, Pilar.GF, Pilar.GI})
     caidos = sis.assinatura_de(e.id).desativar(Pilar.GF)
     checar(Pilar.GI in caidos, "ao desligar GF, o GI caiu junto")
@@ -130,7 +130,7 @@ def teste_desativar_cai_em_cascata():
 
 def teste_painel_do_portal():
     print("\n[8] O portal recebe tudo o que precisa numa chamada")
-    sis = montar()
+    sis, _ = montar()
     e = nova_empresa(sis, {Pilar.GC, Pilar.GF})
     sis.anunciar(Evento.FOLHA_PROCESSADA, e.id, Pilar.GC, total=38_500.0)
     p = sis.painel(e.id)

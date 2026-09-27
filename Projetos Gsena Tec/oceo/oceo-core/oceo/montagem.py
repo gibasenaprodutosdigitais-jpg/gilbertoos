@@ -6,11 +6,20 @@ com todas as reações já ligadas no barramento.
 """
 from __future__ import annotations
 
+from pathlib import Path
+
+from .acesso import ControleDeAcesso
 from .nucleo import Sistema
 from .pilares import reacoes
+from .repositorio import RepositorioSQLite
 
 
-def montar() -> Sistema:
-    sistema = Sistema()
+def montar(banco: str | Path | None = None) -> tuple[Sistema, ControleDeAcesso]:
+    """
+    `banco=None` roda tudo em memória (teste, demonstração).
+    `banco="oceo.db"` persiste em disco.
+    """
+    repo = RepositorioSQLite(banco or ":memory:")
+    sistema = Sistema(repo)
     reacoes.registrar_todas(sistema.barramento)
-    return sistema
+    return sistema, ControleDeAcesso(repo)
