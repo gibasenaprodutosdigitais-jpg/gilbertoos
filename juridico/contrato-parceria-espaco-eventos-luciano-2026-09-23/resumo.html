@@ -9,73 +9,75 @@
 <style>
   :root{ --papel:#F2F0EB; --tinta:#16161A; --acento:#D6412B;
          --linha:#C9C5BC; --fraco:#6E6A63; }
-  @page{ size:A4; margin:13mm 12mm; }
+  @page{ size:A4; margin:10mm 10mm; }
   *{margin:0; padding:0; box-sizing:border-box;}
   body{ font-family:'Archivo',sans-serif; color:var(--tinta); background:var(--papel);
-        font-size:8.6pt; line-height:1.42;
+        font-size:7.3pt; line-height:1.3;
         -webkit-print-color-adjust:exact; print-color-adjust:exact; }
 
-  header{ border-bottom:2.5pt solid var(--tinta); padding-bottom:7pt; margin-bottom:10pt; }
+  header{ border-bottom:2.2pt solid var(--tinta); padding-bottom:5pt; margin-bottom:7pt; }
   .kicker{ font-size:7pt; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
            color:var(--acento); margin-bottom:4pt; }
-  h1{ font-size:19pt; font-weight:700; letter-spacing:-.02em; line-height:1.08; }
-  .sub{ font-size:8.3pt; color:var(--fraco); margin-top:4pt; max-width:152mm; }
+  h1{ font-size:16pt; font-weight:700; letter-spacing:-.02em; line-height:1.08; }
+  .sub{ font-size:7.2pt; color:var(--fraco); margin-top:4pt; max-width:152mm; }
 
-  h2{ font-size:7.2pt; font-weight:700; letter-spacing:.15em; text-transform:uppercase;
-      margin:10pt 0 5pt; padding-bottom:2.5pt; border-bottom:1.1pt solid var(--tinta); }
+  h2{ font-size:6.5pt; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+      margin:7pt 0 3.5pt; padding-bottom:2pt; border-bottom:1pt solid var(--tinta); }
 
   .duo{ display:flex; gap:8pt; }
-  .col{ flex:1; border:.7pt solid var(--linha); padding:7pt 8pt; }
+  .col{ flex:1; border:.7pt solid var(--linha); padding:5pt 6pt; }
   .col .quem{ font-size:6.8pt; font-weight:700; letter-spacing:.12em;
     text-transform:uppercase; color:var(--acento); margin-bottom:3pt; }
-  .col .nome{ font-size:10.5pt; font-weight:700; margin-bottom:5pt; }
+  .col .nome{ font-size:9pt; font-weight:700; margin-bottom:3.5pt; }
   .col ul{ list-style:none; }
-  .col li{ padding:2.2pt 0 2.2pt 9pt; position:relative; border-bottom:.4pt solid var(--linha); }
+  .col li{ padding:1.6pt 0 1.6pt 8pt; position:relative; border-bottom:.4pt solid var(--linha); }
   .col li:last-child{ border-bottom:0; }
-  .col li::before{ content:""; position:absolute; left:0; top:7.5pt;
+  .col li::before{ content:""; position:absolute; left:0; top:5.5pt;
     width:4pt; height:4pt; background:var(--acento); transform:rotate(45deg); }
-  .col .paga{ margin-top:6pt; padding-top:5pt; border-top:.7pt solid var(--linha);
-    font-size:7.4pt; color:var(--fraco); line-height:1.4; }
+  .col .paga{ margin-top:4pt; padding-top:3.5pt; border-top:.7pt solid var(--linha);
+    font-size:6.6pt; color:var(--fraco); line-height:1.35; }
   .col .paga b{ color:var(--tinta); font-weight:600; }
 
-  .destaque{ border:1.6pt solid var(--acento); padding:8pt 10pt; margin-top:5pt;
-    display:flex; align-items:center; gap:12pt; }
-  .destaque .big{ font-family:'IBM Plex Mono',monospace; font-size:21pt; font-weight:600;
+  .destaque{ border:1.4pt solid var(--acento); padding:6pt 7pt; margin-top:3pt;
+    display:flex; align-items:flex-start; gap:8pt; flex:1; }
+  .destaque .big{ font-family:'IBM Plex Mono',monospace; font-size:17pt; font-weight:600;
     color:var(--acento); line-height:1; flex:none; }
-  .destaque .txt{ font-size:8.4pt; line-height:1.45; }
+  .destaque .txt{ font-size:7.1pt; line-height:1.35; }
   .destaque .txt b{ font-weight:700; }
 
   table{ width:100%; border-collapse:collapse; }
-  td{ padding:3.4pt 4pt; border-bottom:.5pt solid var(--linha); vertical-align:top; }
-  td.rot{ width:42mm; font-weight:600; }
+  td{ padding:2.3pt 3pt; border-bottom:.5pt solid var(--linha); vertical-align:top; }
+  td.rot{ width:34mm; font-weight:600; }
   td.val b{ font-weight:700; }
 
+  .par{ display:flex; gap:8pt; align-items:stretch; margin-bottom:2pt; }
+  .par > div{ flex:1; min-width:0; display:flex; flex-direction:column; }
+  .par h2{ margin-top:0; }
+  .par td.rot{ width:24mm; }
   .grid3{ display:flex; gap:8pt; }
   .grid3 > div{ flex:1; }
 
-  .aberto{ border-left:2.5pt solid var(--acento); padding:6pt 0 6pt 9pt; margin-top:5pt; }
+  .aberto{ border-left:2.2pt solid var(--acento); padding:4pt 0 4pt 8pt; margin-top:3pt; }
   .aberto ol{ margin-left:13pt; }
-  .aberto li{ margin-bottom:3.5pt; }
+  .aberto li{ margin-bottom:2.2pt; }
   .aberto b{ font-weight:700; }
 
-  footer{ margin-top:10pt; padding-top:5pt; border-top:.7pt solid var(--linha);
+  footer{ margin-top:7pt; padding-top:4pt; border-top:.7pt solid var(--linha);
     font-size:6.8pt; color:var(--fraco); display:flex; justify-content:space-between; }
 </style>
 </head>
 <body>
 
 <header>
-  <div class="kicker">Resumo da minuta · Contrato de parceria comercial</div>
+  <div class="kicker">Resumo da minuta v2 · Contrato de parceria comercial</div>
   <h1>Espaço de eventos "Kairós"</h1>
-  <div class="sub">Resumo dos termos principais para leitura rápida. Não substitui o
-    contrato, que é o documento que vale e onde cada ponto está detalhado. Denominação
-    do espaço ainda provisória.</div>
+  <div class="sub">Termos principais para leitura rápida. Não substitui o contrato, que é o documento que vale. <b>Inventário dos equipamentos em anexo separado.</b> Nome do espaço ainda provisório.</div>
 </header>
 
-<h2>O que cada um coloca</h2>
+<h2>As partes</h2>
 <div class="duo">
   <div class="col">
-    <div class="quem">Luciano aporta</div>
+    <div class="quem">Motor em Ação aporta</div>
     <div class="nome">O espaço físico</div>
     <ul>
       <li>Imóvel com auditório e dependências, pronto para uso</li>
@@ -86,7 +88,7 @@
       e manutenção predial, alvará e AVCB.</div>
   </div>
   <div class="col">
-    <div class="quem">Gilberto aporta</div>
+    <div class="quem">Espaço Kairós aporta</div>
     <div class="nome">A estrutura e a operação</div>
     <ul>
       <li>Equipamentos e mobiliário: 57 itens, 325 peças (Anexo I)</li>
@@ -99,34 +101,52 @@
   </div>
 </div>
 
-<h2>Como o dinheiro é dividido</h2>
+<div class="par">
+<div><h2>Como o dinheiro é dividido</h2>
 <div class="destaque">
   <div class="big">50/50</div>
-  <div class="txt">Toda a arrecadação do espaço entra numa conta própria da parceria.
-    Dela saem as despesas de operação, e <b>o que sobra é dividido em duas partes
-    iguais</b>. Havendo prejuízo no mês, os dois cobrem em partes iguais também.
-    Nenhum dos dois tem pró-labore ou retirada fixa.</div>
+  <div class="txt">Nas <b>datas comercializadas</b>, tudo que o espaço arrecada entra numa
+    conta própria da parceria. Dela saem <b>somente os custos da operação</b> — a lista é
+    fechada — e <b>o que sobra é dividido em duas partes iguais</b>. Prejuízo no mês, os dois cobrem meio a meio. Ninguém tem pró-labore.</div>
 </div>
 
-<table style="margin-top:6pt">
-  <tr><td class="rot">Entra no rateio</td>
+</div>
+<div><h2>As duas datas mensais de Gilberto</h2>
+<div class="destaque" style="border-color:var(--tinta)">
+  <div class="big" style="color:var(--tinta)">2</div>
+  <div class="txt">Gilberto tem <b>duas datas por mês</b> para seus próprios eventos —
+    imersões, treinamentos, palestras, gravações —, <b>sem custo de locação do espaço nem
+    de uso dos equipamentos</b>. A receita dessas datas é <b>integralmente dele</b> e não
+    entra no rateio. Ele paga apenas os custos variáveis do dia (equipe extra,
+    alimentação, limpeza). Indicadas com 30 dias de antecedência, têm preferência na agenda. Não são cumulativas.</div>
+</div>
+
+</div>
+</div>
+
+<table style="margin-top:4pt">
+  <tr><td class="rot">Únicos custos abatidos</td>
       <td class="val">Energia, água, internet, limpeza, segurança, equipe de evento,
-        tributos sobre a receita, ECAD, seguros, marketing aprovado pelos dois.</td></tr>
-  <tr><td class="rot">Fica fora do rateio</td>
-      <td class="val">Custos do imóvel (com Luciano) e manutenção dos equipamentos
-        (com Gilberto).</td></tr>
+        tributos sobre a receita, ECAD, seguros e marketing aprovado pelos dois.</td></tr>
+  <tr><td class="rot">Não pode ser abatido</td>
+      <td class="val"><b>Lista fechada:</b> pró-labore, taxa de administração, aluguel ou
+        IPTU do imóvel, royalty de marca, depreciação e despesa estranha à operação.
+        Despesa sem nota fiscal idônea também não entra.</td></tr>
+  <tr><td class="rot">Fica com cada um</td>
+      <td class="val">Custos do imóvel (Motor em Ação) e manutenção dos equipamentos
+        (Kairós).</td></tr>
   <tr><td class="rot">Apuração e repasse</td>
-      <td class="val">Fechamento <b>mensal</b>, com demonstrativo de cada evento,
-        receita, despesa e memória de cálculo. Repasse logo após o fechamento.</td></tr>
+      <td class="val">Fechamento <b>mensal</b>, com demonstrativo de cada data, receita,
+        custo e memória de cálculo. Repasse logo após o fechamento.</td></tr>
 </table>
+
 
 <h2>Controle, preços e decisões</h2>
 <div class="grid3">
   <div>
     <table>
       <tr><td class="rot" style="width:auto"><b>Conta própria</b></td></tr>
-      <tr><td>Conta exclusiva da parceria, com acesso permanente dos dois aos extratos
-        e comprovantes. Valor recebido por fora entra na conta em até 48 horas.</td></tr>
+      <tr><td>Conta exclusiva da parceria, com acesso permanente dos dois. Valor recebido por fora entra nela em até 48 horas.</td></tr>
     </table>
   </div>
   <div>
@@ -145,54 +165,59 @@
   </div>
 </div>
 
-<h2>O que não muda de dono</h2>
+<div class="par">
+<div><h2>O comodato dos equipamentos</h2>
 <table>
-  <tr><td class="rot">Equipamentos</td>
-      <td class="val">Seguem sendo <b>de Gilberto</b>, cedidos em comodato para uso no
-        espaço. <b>Não se incorporam ao imóvel</b>, mesmo se instalados em caráter
-        permanente. Luciano é depositário e responde pela guarda.</td></tr>
+  <tr><td class="rot">Prazo</td>
+      <td class="val"><b>24 meses</b>, contados do termo de entrega, renovando junto com a
+        parceria. Nenhum bem vai para o espaço antes do termo assinado, com fotos.</td></tr>
+  <tr><td class="rot">Retirada por vontade própria</td>
+      <td class="val">Kairós pode retirar os bens avisando por escrito com <b>90 dias</b> de
+        antecedência.</td></tr>
+  <tr><td class="rot">Retirada imediata</td>
+      <td class="val">Sem aviso nenhum em caso de <b>fim do contrato, inadimplência, risco
+        aos bens ou manutenção</b>. Esperar 90 dias aí seria deixar o patrimônio exposto justo quando está ameaçado.</td></tr>
+  <tr><td class="rot">Propriedade</td>
+      <td class="val">Seguem <b>da Kairós</b> (ou de Gilberto, conforme o inventário) e <b>não se incorporam ao imóvel</b>, mesmo instalados em caráter permanente. Motor em Ação é depositária, <b>sem direito de retenção</b>.</td></tr>
   <tr><td class="rot">Marca, CNPJ e redes</td>
-      <td class="val">Seguem sendo <b>de Gilberto</b>, licenciados a Luciano só
+      <td class="val">Seguem sendo <b>da Kairós</b>, licenciados à Motor em Ação só
         enquanto durar a parceria e só para operar o espaço.</td></tr>
-  <tr><td class="rot">Retirada</td>
-      <td class="val">Gilberto pode retirar os bens ao fim do contrato, em caso de
-        inadimplência ou de risco aos equipamentos. <b>Sem direito de retenção</b> pela
-        outra parte.</td></tr>
 </table>
 
-<h2>Prazo e saída</h2>
+</div>
+<div><h2>Prazo e saída</h2>
 <table>
   <tr><td class="rot">Vigência</td>
       <td class="val">24 meses, renovando sozinha. Para não renovar, aviso escrito com
-        90 dias de antecedência.</td></tr>
+        90 dias de antecedência. Parceria e comodato começam e terminam juntos.</td></tr>
   <tr><td class="rot">Eventos já vendidos</td>
       <td class="val">São honrados até a data de realização, com o rateio mantido.</td></tr>
   <tr><td class="rot">No encerramento</td>
-      <td class="val">Equipamentos voltam para Gilberto. A licença da marca cessa e
-        Luciano remove toda referência ao "Kairós". Acerto final de contas em 30 dias.</td></tr>
+      <td class="val">Equipamentos voltam para a Kairós em até 30 dias. A licença da marca
+        cessa e a Motor em Ação remove toda referência ao "Kairós". Acerto final de contas
+        em 30 dias.</td></tr>
   <tr><td class="rot">Depois da saída</td>
-      <td class="val">Sigilo por 5 anos. Luciano pode seguir explorando o imóvel para
-        eventos, com marca e estrutura próprias, sem usar a marca, a carteira ou os
-        equipamentos de Gilberto.</td></tr>
+      <td class="val">Sigilo por 5 anos. Motor em Ação pode seguir com o imóvel, com marca e estrutura próprias, sem usar a marca, a carteira ou os equipamentos da Kairós.</td></tr>
 </table>
+
+</div>
+</div>
 
 <h2>Pontos ainda em aberto</h2>
 <div class="aberto">
   <ol>
-    <li><b>Divisão sobre o líquido ou sobre o bruto.</b> A minuta está escrita sobre o
-      resultado líquido, que é o desenho que evita disputa. Dividir a receita bruta
-      muda a Cláusula 6 inteira e exige definir quem paga cada conta.</li>
-    <li><b>Confirmar a titularidade do CNPJ do "Kairós".</b> O texto parte de que ele é
-      de Gilberto. Sendo de Luciano, a Cláusula 10 inverte.</li>
-    <li><b>Dados de Luciano, endereço do imóvel e inventário definitivo</b> com número
-      de série e valor de reposição, a ser assinado na apuração física.</li>
+    <li><b>Qual é o papel do Luciano.</b> Os dados recebidos são da Motor em Ação, administrada por Davi Leonardo de Paula Arraz. Se o Luciano não assinar, não se obriga a nada.</li>
+    <li><b>Garantia pessoal do administrador.</b> O equipamento vai para uma empresa de patrimônio desconhecido. O item 18.3 põe o administrador como devedor solidário — é o ponto mais relevante na prática.</li>
+    <li><b>Cessão das datas próprias.</b> Definir se Gilberto pode repassar suas duas
+      datas a terceiro livremente ou só com anuência.</li>
+    <li><b>Endereço do imóvel e inventário definitivo</b> com número de série, titularidade e valor de reposição, assinado na apuração dos 30 dias.</li>
     <li><b>Valores</b> da multa por violação e da cobertura do seguro de
-      responsabilidade civil, além do foro.</li>
+      responsabilidade civil, além do foro e da data de início.</li>
   </ol>
 </div>
 
 <footer>
-  <span>Resumo da minuta v2 · Contrato de Parceria Comercial · Espaço de eventos "Kairós"</span>
+  <span>Resumo da minuta v2 · 28/09/2026 · Inventário completo em anexo separado</span>
   <span>Sujeito a revisão jurídica antes da assinatura</span>
 </footer>
 
