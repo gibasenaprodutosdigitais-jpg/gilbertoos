@@ -1,18 +1,25 @@
 # CONTRATO DE PARCERIA COMERCIAL PARA ESTRUTURAÇÃO E EXPLORAÇÃO DE ESPAÇO DE EVENTOS
 
-> ## ⚠ ESTADO: JÁ HOUVE ASSINATURA — 28/09/2026
+> ## ⚠ ESTADO: EXISTE UM PRÉ-CONTRATO ASSINADO EM 28/09/2026
 >
-> Assinaram, conforme informado pelo Gilberto: **GILBERTO LUIS DE SENA** pela
-> ESPAÇO KAIRÓS LTDA; **LUCIANO DUARTE PERES** e **DAVI LEONARDO DE PAULA
-> ARRAZ** pela MOTOR EM AÇÃO DISTRIBUIÇÃO LTDA.
+> Em 28/09/2026, **GILBERTO LUIS DE SENA** (pela ESPAÇO KAIRÓS LTDA) e
+> **LUCIANO DUARTE PERES** e **DAVI LEONARDO DE PAULA ARRAZ** (pela MOTOR EM
+> AÇÃO DISTRIBUIÇÃO LTDA) assinaram o **resumo de uma página** — não este
+> contrato. O texto do que foi assinado está guardado em
+> `resumo-assinado-2026-09-28.md`, que **não deve ser editado**.
 >
-> **Duas coisas precisam ser verificadas no papel assinado, antes de confiar
-> nele — ver notas 3 e 4:**
-> 1. **Em que qualidade o Luciano assinou.** Se ele assinou apenas *pela
->    empresa*, **a garantia pessoal do item 18.3 não existe.** Garantidor
->    assina em nome próprio, numa linha que diga isso.
-> 2. **Qual texto foi assinado.** Este arquivo mudou cinco vezes em 28/09.
->    Vale o papel, não este arquivo.
+> **O que isso significa:** aquele papel vale como **contrato preliminar**
+> (art. 462 do Código Civil) quanto ao que está escrito nele — partes, objeto,
+> 50/50, 24 meses, comodato, as duas datas e a garantia do Luciano. **Mas ele
+> próprio diz "não substitui o contrato"**, e não traz endereço do imóvel,
+> valor de multa, foro nem inventário definitivo.
+>
+> **Este documento é o contrato definitivo que aquele papel anunciava.** A
+> Cláusula 19.1 ratifica o resumo e faz os efeitos retroagirem a 28/09/2026.
+>
+> **Antes de levar este texto para assinatura, leia a nota 1:** ele contém
+> pontos que **não estavam** no papel assinado, e o garantidor do outro lado é
+> advogado — ele vai comparar.
 
 > **MINUTA — v5 — 28/09/2026.** Gerada a partir das instruções do Gilberto e
 > das alterações que ele marcou no resumo. Campos entre `[ ]` devem ser
@@ -778,8 +785,22 @@ contrato (Cláusula 2).
 
 ## CLÁUSULA 19 — DAS DISPOSIÇÕES GERAIS E DO FORO
 
-**19.1.** Este instrumento e seus Anexos constituem o acordo integral entre as
-PARCEIRAS, substituindo tratativas e ajustes verbais anteriores.
+**19.1. Ratificação do resumo assinado em 28/09/2026.** As PARCEIRAS
+reconhecem ter assinado, em **28/09/2026**, documento de uma página
+denominado "A Minuta — Contrato de Parceria Comercial", que consignava os
+termos principais da parceria e declarava expressamente **não substituir o
+contrato**.
+
+**19.1.1.** As PARCEIRAS **ratificam** aquele documento e o integram a este
+instrumento, que passa a ser o **contrato definitivo** a que ele se referia,
+produzindo efeitos **desde 28/09/2026**, data daquela assinatura.
+
+**19.1.2.** Havendo divergência entre o resumo de 28/09/2026 e este
+instrumento, **prevalece este**, que é mais completo e detalhado, sem que isso
+importe novação ou renúncia a direitos já constituídos.
+
+**19.1.3.** Este instrumento e seus Anexos constituem o acordo integral entre
+as PARCEIRAS, substituindo tratativas e ajustes verbais anteriores.
 
 **19.2.** Alterações só valem por escrito e assinadas por ambas, ressalvada a
 substituição do ANEXO I na forma do item 5.2.
@@ -976,33 +997,41 @@ Todo o resto cada uma paga do próprio bolso.
 
 ## NOTAS DE PREENCHIMENTO (não integram o contrato — apagar antes de assinar)
 
-1. **☠☠☠ CONFIRA EM QUE QUALIDADE O LUCIANO ASSINOU.** Você me disse que
-   "Luciano e Davi assinaram pela Motor em Ação". Se for isso mesmo — os dois
-   assinando **como representantes da empresa** —, então **a garantia pessoal
-   dele não foi constituída**, e todo o item 18.3 virou letra morta.
-   Quem garante uma dívida assina **em nome próprio**, numa linha separada que
-   diz "na qualidade de devedor solidário". Assinar pela empresa obriga a
-   empresa, não a pessoa. É a diferença entre poder cobrar do patrimônio dele
-   e só poder cobrar de uma LTDA cujo patrimônio você não conhece — que é
-   exatamente o problema que a garantia existia para resolver.
-   **Pegue o papel e olhe a linha de assinatura dele.** Se estiver só como
-   representante, isso se conserta em cinco minutos: ele assina um termo à
-   parte, em nome próprio, como devedor solidário. Se ele resistir a assinar
-   de novo agora, **você acabou de descobrir algo importante sobre a
-   negociação.**
-2. **☠☠ QUAL TEXTO FOI ASSINADO?** Este documento mudou cinco vezes em
-   28/09/2026 — da v1 à v5. O que obriga as partes é **o papel que foi
-   assinado**, não o arquivo mais recente. Preciso saber se o que eles
-   assinaram foi:
-   **(a)** o contrato completo (qual versão?), ou
-   **(b)** o resumo de uma página — que diz, na primeira linha, "não substitui
-   o contrato" e não tem endereço do imóvel, valor de multa, foro nem
-   inventário definitivo.
-   Se foi o resumo, vocês têm um pré-acordo válido quanto ao que está escrito
-   nele, e todo o resto continua em aberto. **Me diga qual foi e eu preparo o
-   termo que fecha o buraco** — ratificando o que já foi assinado e
-   incorporando o que ficou de fora, numa folha só, sem refazer nada.
+1. **☠☠☠ O QUE ESTE CONTRATO TEM A MAIS DO QUE O PAPEL QUE VOCÊS ASSINARAM.**
+   Vocês assinaram o resumo de uma página. Este contrato é mais completo — e
+   **o garantidor do outro lado é advogado: ele vai conferir linha por linha.**
+   Entre no assunto sabendo exatamente o que mudou, porque ser pego
+   acrescentando cláusula em silêncio custa mais caro que negociar de frente.
 
+   **O que mudou em relação ao papel assinado:**
+
+   | Ponto | No papel assinado | Neste contrato |
+   |---|---|---|
+   | Retirada dos equipamentos | Kairós pode **solicitar** a retirada | Kairós **retira, avisando** com 90 dias (item 5.7.1) |
+   | Inventário | 57 itens, **330 peças** | 57 itens, **325 peças** — você confirmou que 330 era erro |
+   | Energia, água, internet, portaria, ECAD | não estavam em lista nenhuma | passam a ser da MOTOR EM AÇÃO (item 3.3, "f") |
+   | Seguro dos equipamentos | não dizia quem paga | KAIRÓS (item 5.6) |
+   | Seguro de responsabilidade civil | não dizia quem paga | MOTOR EM AÇÃO (item 12.3) |
+   | Cessão das suas duas datas | ficou "a definir" | **livre**, sem anuência (item 11.7) |
+   | Multa por violação | não existia | item 18.1, valor a preencher |
+   | Não concorrência, foro, gestão, impasse | não existiam | Cláusulas 9, 14 e 19 |
+
+   **Os dois primeiros são os que ele vai contestar.** "Solicitar" para
+   "avisar" muda um pedido de autorização em direito seu, e é justamente a
+   palavra que alguém trocou no arquivo que você me devolveu. Tenha a resposta
+   pronta: o equipamento é seu, e o prazo de 90 dias já protege a operação
+   deles — ver nota 4.
+2. **✓ RESPONDIDO — foi o resumo de uma página que assinaram.** Confirmado
+   pelo Gilberto. Por isso o item **19.1** foi escrito: ele ratifica aquele
+   papel, integra-o a este contrato e faz os efeitos retroagirem a
+   **28/09/2026**, de modo que o período entre a assinatura do resumo e a
+   assinatura deste contrato não fica no vácuo.
+   **Fica uma pergunta ainda sem resposta:** *em que qualidade o Luciano
+   assinou?* Se ele assinou só como representante da Motor em Ação, a garantia
+   pessoal não se constituiu, por mais que o texto do resumo a descreva.
+   Garantidor assina em nome próprio, em linha que diga isso. **Olhe o papel.**
+   Se estiver errado, este contrato resolve: aqui existe linha de assinatura
+   própria para ele como interveniente garantidor.
 3. **☠☠ LEIA ESTA ANTES DE TUDO: o imposto ficou inteiro com você.** Você
    enxugou a lista de custos abatidos para "operador técnico, limpeza,
    segurança e equipe de evento". Como o faturamento sai no **CNPJ da Kairós**,
