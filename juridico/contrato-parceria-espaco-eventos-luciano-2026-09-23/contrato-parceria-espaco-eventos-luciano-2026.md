@@ -1,15 +1,29 @@
 # CONTRATO DE PARCERIA COMERCIAL PARA ESTRUTURAÇÃO E EXPLORAÇÃO DE ESPAÇO DE EVENTOS
 
+> ## ⚠ ESTADO: JÁ HOUVE ASSINATURA — 28/09/2026
+>
+> Assinaram, conforme informado pelo Gilberto: **GILBERTO LUIS DE SENA** pela
+> ESPAÇO KAIRÓS LTDA; **LUCIANO DUARTE PERES** e **DAVI LEONARDO DE PAULA
+> ARRAZ** pela MOTOR EM AÇÃO DISTRIBUIÇÃO LTDA.
+>
+> **Duas coisas precisam ser verificadas no papel assinado, antes de confiar
+> nele — ver notas 3 e 4:**
+> 1. **Em que qualidade o Luciano assinou.** Se ele assinou apenas *pela
+>    empresa*, **a garantia pessoal do item 18.3 não existe.** Garantidor
+>    assina em nome próprio, numa linha que diga isso.
+> 2. **Qual texto foi assinado.** Este arquivo mudou cinco vezes em 28/09.
+>    Vale o papel, não este arquivo.
+
 > **MINUTA — v5 — 28/09/2026.** Gerada a partir das instruções do Gilberto e
 > das alterações que ele marcou no resumo. Campos entre `[ ]` devem ser
 > preenchidos. **Revisar com advogado antes de assinar.**
 >
-> **☠ ANTES DE MANDAR: leia as notas 1 e 2.** Enxugar a lista de custos abatidos
+> **☠ ANTES DE MANDAR: leia as notas 3 e 4.** Enxugar a lista de custos abatidos
 > tirou o imposto de dentro da divisão. Como o faturamento sai no seu CNPJ,
 > você passou a pagar o imposto sozinho **depois** de dividir. A conta está
-> feita na nota 1: são cerca de **R$ 600 por evento** que saem de você e vão
+> feita na nota 3: são cerca de **R$ 600 por evento** que saem de você e vão
 > para a Motor em Ação. Se for intencional, ignore. Se não for, é uma linha
-> pra corrigir. **E a nota 2**: a troca de "retirar" por "solicitar a
+> pra corrigir. **E a nota 4**: a troca de "retirar" por "solicitar a
 > retirada", no resumo que você me devolveu, converteria um direito seu em
 > pedido de autorização. Mantive como aviso e alinhei o resumo ao contrato.
 >
@@ -21,20 +35,20 @@
 > 3. **Acabou a conta única.** Contas separadas: a KAIRÓS fatura, recebe, abate
 >    os custos do evento e repassa 50% do líquido (Cláusula 7 inteira reescrita).
 > 4. **Sigilo de 2 anos** após o término, no lugar de 5.
-> 5. **Cessão das suas datas ficou livre** (item 11.7) — **ver nota 12**.
-> 6. Os dois seguros saíram do abatimento e foram redistribuídos — **nota 3**.
-> 7. **Inventário: você escreveu 330 peças, a lista comporta 325** — **nota 4**.
->    Me mande os itens que faltam.
+> 5. **Cessão das suas datas ficou livre** (item 11.7) — **ver nota 14**.
+> 6. Os dois seguros saíram do abatimento e foram redistribuídos — **nota 5**.
+> 7. **Inventário confirmado em 325 peças** — as 330 eram engano de digitação
+>    (**nota 6**).
 >
 > **O que já vinha das versões anteriores:**
 > 8. **LUCIANO DUARTE PERES** é o interlocutor (item 9.2.1) e o **devedor
->    solidário** (item 18.3). **Faltam os dados dele e, se for casado, a
->    outorga do cônjuge — notas 5 e 7.**
+>    solidário** (item 18.3) — **advogado, OAB/SC 2010, solteiro. Qualificação
+>    completa, e sem necessidade de outorga de cônjuge (notas 7 e 9).**
 > 9. **Comodato de 24 meses**, aviso de **90 dias** para retirada voluntária.
 > 10. **Duas datas por mês** para GILBERTO, sem custo, fora do rateio —
->    **ver nota 9**.
+>    **ver nota 11**.
 > 11. **Manutenção**: a MOTOR EM AÇÃO paga, a KAIRÓS escolhe o técnico e
->    executa (item 3.3.1) — **ver nota 10**.
+>    executa (item 3.3.1) — **ver nota 12**.
 
 ---
 
@@ -71,7 +85,7 @@ na Rua Oswald de Andrade, nº 81, Jordanópolis, São Bernardo do Campo/SP, CEP
 
 **INTERVENIENTE GARANTIDOR — DEVEDOR SOLIDÁRIO:**
 
-**LUCIANO DUARTE PERES**, brasileiro, `[estado civil]`, **advogado**, inscrito
+**LUCIANO DUARTE PERES**, brasileiro, **solteiro**, **advogado**, inscrito
 na **OAB/SC sob o nº 2010** e no CPF sob o nº **020.168.849-24**, com endereço
 na **Avenida Dr. Chucri Zaidan, nº 246, 11º andar, Vila Cordeiro, São Paulo/SP,
 CEP 04583-110**, **responsável administrativo
@@ -80,7 +94,6 @@ parceria**, que comparece neste ato **em nome próprio**, na qualidade de
 **devedor solidário** das obrigações da MOTOR EM AÇÃO, nos termos do item 18.3,
 doravante denominado **LUCIANO**.
 
-`[Se LUCIANO for casado, qualificar o cônjuge e colher a outorga — ver nota 7.]`
 
 **INTERVENIENTE:**
 
@@ -303,7 +316,7 @@ constar expressamente dos contratos de locação do espaço.
 **5.6. Seguro.** KAIRÓS contratará e manterá seguro dos equipamentos contra
 incêndio, furto, roubo e danos elétricos, com cobertura mínima equivalente ao
 valor de reposição do inventário. **O prêmio corre por conta da KAIRÓS**, sem abatimento da Receita Bruta — é
-seguro do patrimônio dela. **Ver nota 3.** MOTOR EM AÇÃO obriga-se a manter as
+seguro do patrimônio dela. **Ver nota 5.** MOTOR EM AÇÃO obriga-se a manter as
 condições prediais exigidas pela apólice, sob pena de responder pelo prejuízo
 em caso de negativa de cobertura por descumprimento.
 
@@ -358,7 +371,7 @@ MOTOR EM AÇÃO, na forma do item 3.3, "f".
 
 **6.2.0.1. Seguros e tributos.** O prêmio dos seguros (itens 5.6 e 12.3) e os
 tributos incidentes sobre a receita faturada **não figuram na lista acima**,
-por decisão do Gilberto de 28/09/2026. **Leia a nota 1 antes de assinar: como
+por decisão do Gilberto de 28/09/2026. **Leia a nota 3 antes de assinar: como
 o faturamento sai no CNPJ da KAIRÓS, o tributo da receita inteira recai sobre
 ela, e não sobre a parceria.**
 
@@ -531,7 +544,7 @@ material de que tenha participado, vedado sugerir continuidade da parceria.
 
 **10.5. Alteração de nome.** Deliberada a alteração do nome do espaço (item
 1.2), a nova marca `[será de titularidade da KAIRÓS / será definida em aditivo
-quanto à titularidade]` — **ponto a decidir antes da assinatura, ver nota 14**.
+quanto à titularidade]` — **ponto a decidir antes da assinatura, ver nota 16**.
 
 **10.6. Faturamento pelo CNPJ.** Sendo o CNPJ de titularidade da KAIRÓS, ela
 responde perante o Fisco pelas obrigações acessórias e principais dele
@@ -609,7 +622,7 @@ telão e instalações elétricas dos equipamentos.
 **12.3. Seguro de responsabilidade civil.** MOTOR EM AÇÃO contratará e manterá,
 **a suas expensas**, seguro de responsabilidade civil para eventos, com
 cobertura mínima de R$ `[ ]`, entregando cópia da apólice à KAIRÓS. O prêmio
-**não** é abatido da Receita Bruta. **Ver nota 3.**
+**não** é abatido da Receita Bruta. **Ver nota 5.**
 
 **12.4. Contratos com clientes.** Todo contrato de locação do espaço firmado
 com terceiro conterá, obrigatoriamente: responsabilidade do cliente por danos
@@ -688,7 +701,7 @@ Cláusula 6 quanto a eles, ainda que realizados após a extinção.
 prazo de até `[30]` dias da extinção, na forma do item 5.7, **sem sujeição ao
 aviso prévio do item 5.7.1**. Eventual benfeitoria fixada ao imóvel por conta da
 parceria `[será indenizada / não será indenizada]` — **ponto a definir, ver
-nota 15**.
+nota 17**.
 
 **16.4. Marca, CNPJ e redes.** Cessa imediatamente a licença da Cláusula 10.
 MOTOR EM AÇÃO obriga-se a remover, em até `[10]` dias, toda referência à marca
@@ -808,10 +821,8 @@ teor, ou por assinatura eletrônica, na presença de duas testemunhas.
 | |
 |---|
 | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |
-| **LUCIANO DUARTE PERES** — interveniente garantidor, em nome próprio<br>na qualidade de devedor solidário (item 18.3)<br>OAB/SC 2010 · CPF: 020.168.849-24 |
+| **LUCIANO DUARTE PERES** — interveniente garantidor, em nome próprio<br>na qualidade de **devedor solidário** (item 18.3)<br>OAB/SC 2010 · CPF: 020.168.849-24 |
 
-`[Se LUCIANO for casado, acrescentar a assinatura do cônjuge, dando outorga à
-garantia — ver nota 7.]`
 
 **TESTEMUNHAS:**
 
@@ -954,7 +965,7 @@ Todo o resto cada uma paga do próprio bolso.
 | **Manutenção dos equipamentos (3.3.1)** | **MOTOR EM AÇÃO** paga · **KAIRÓS** escolhe o técnico e executa | Não |
 | Reposição de equipamento por desgaste | KAIRÓS | Não |
 | Seguro dos equipamentos (5.6) | KAIRÓS | Não |
-| **Tributos sobre a receita faturada** | **KAIRÓS** — ver **nota 1** | Não |
+| **Tributos sobre a receita faturada** | **KAIRÓS** — ver **nota 3** | Não |
 | Marketing e tráfego pago | de quem contratar, salvo acordo escrito | Não |
 | Custos variáveis das 2 datas próprias de GILBERTO | GILBERTO | Não (item 11.4) |
 
@@ -965,7 +976,34 @@ Todo o resto cada uma paga do próprio bolso.
 
 ## NOTAS DE PREENCHIMENTO (não integram o contrato — apagar antes de assinar)
 
-1. **☠☠ LEIA ESTA ANTES DE TUDO: o imposto ficou inteiro com você.** Você
+1. **☠☠☠ CONFIRA EM QUE QUALIDADE O LUCIANO ASSINOU.** Você me disse que
+   "Luciano e Davi assinaram pela Motor em Ação". Se for isso mesmo — os dois
+   assinando **como representantes da empresa** —, então **a garantia pessoal
+   dele não foi constituída**, e todo o item 18.3 virou letra morta.
+   Quem garante uma dívida assina **em nome próprio**, numa linha separada que
+   diz "na qualidade de devedor solidário". Assinar pela empresa obriga a
+   empresa, não a pessoa. É a diferença entre poder cobrar do patrimônio dele
+   e só poder cobrar de uma LTDA cujo patrimônio você não conhece — que é
+   exatamente o problema que a garantia existia para resolver.
+   **Pegue o papel e olhe a linha de assinatura dele.** Se estiver só como
+   representante, isso se conserta em cinco minutos: ele assina um termo à
+   parte, em nome próprio, como devedor solidário. Se ele resistir a assinar
+   de novo agora, **você acabou de descobrir algo importante sobre a
+   negociação.**
+2. **☠☠ QUAL TEXTO FOI ASSINADO?** Este documento mudou cinco vezes em
+   28/09/2026 — da v1 à v5. O que obriga as partes é **o papel que foi
+   assinado**, não o arquivo mais recente. Preciso saber se o que eles
+   assinaram foi:
+   **(a)** o contrato completo (qual versão?), ou
+   **(b)** o resumo de uma página — que diz, na primeira linha, "não substitui
+   o contrato" e não tem endereço do imóvel, valor de multa, foro nem
+   inventário definitivo.
+   Se foi o resumo, vocês têm um pré-acordo válido quanto ao que está escrito
+   nele, e todo o resto continua em aberto. **Me diga qual foi e eu preparo o
+   termo que fecha o buraco** — ratificando o que já foi assinado e
+   incorporando o que ficou de fora, numa folha só, sem refazer nada.
+
+3. **☠☠ LEIA ESTA ANTES DE TUDO: o imposto ficou inteiro com você.** Você
    enxugou a lista de custos abatidos para "operador técnico, limpeza,
    segurança e equipe de evento". Como o faturamento sai no **CNPJ da Kairós**,
    o imposto sobre a receita **não** é mais abatido antes da divisão — ele
@@ -990,7 +1028,7 @@ Todo o resto cada uma paga do próprio bolso.
    **Se quiser corrigir, é uma linha:** acrescentar "tributos incidentes sobre
    a receita faturada" ao item 6.2. Me fala e eu ajusto. Deixei como você
    escreveu porque a decisão é sua — mas não quero que seja por descuido.
-2. **☠ "Solicitar a retirada" não é a mesma coisa que "retirar".** No resumo
+4. **☠ "Solicitar a retirada" não é a mesma coisa que "retirar".** No resumo
    que você me devolveu, a linha da retirada dos equipamentos passou de
    *"Kairós pode retirar os bens avisando com 90 dias"* para *"Kairós pode
    **solicitar** a retirada dos bens avisando com 90 dias"*. **Solicitar
@@ -1002,18 +1040,17 @@ Todo o resto cada uma paga do próprio bolso.
    5.7.1) e **corrigi o resumo para bater com o contrato**. Se a intenção era
    mesmo depender da autorização deles, me diga e eu mudo — mas saiba que isso
    transforma seu equipamento em refém de uma assinatura.
-3. **⚠ Os dois seguros também saíram do abatimento.** Como não são custo de
+5. **⚠ Os dois seguros também saíram do abatimento.** Como não são custo de
    evento, redistribuí: o **seguro dos equipamentos** ficou com você (item 5.6
    — é o seu patrimônio que ele protege) e o **seguro de responsabilidade
    civil** ficou com a Motor em Ação (item 12.3 — vai junto com alvará e AVCB,
    que já são dela). Se preferir outro desenho, é rápido mudar.
-4. **⚠ A contagem do inventário: você escreveu 330 peças, o meu gerador conta
-   325.** Não inventei os 5 itens que faltam. **Me diga quais são** que eu
-   acrescento na lista e os três documentos se atualizam sozinhos — o
-   inventário, o anexo e o resumo. Enquanto isso, está valendo 325, que é o que
-   a lista comporta hoje.
-
-5. **Quem é quem, agora definido.** **MOTOR EM AÇÃO DISTRIBUIÇÃO LTDA** é a
+6. **✓ RESOLVIDO — o inventário é de 325 peças.** Confirmado pelo Gilberto em
+   28/09/2026: as 330 do arquivo que ele devolveu foram engano de digitação.
+   Vale a lista do ANEXO I: **57 itens, 325 peças e 2 lotes de cabeamento a
+   detalhar**. O número sai do gerador, então os três documentos batem entre
+   si. Se entrar item novo, é só me mandar que tudo se atualiza junto.
+7. **Quem é quem, agora definido.** **MOTOR EM AÇÃO DISTRIBUIÇÃO LTDA** é a
    parceira; **Davi Leonardo de Paula Arraz** é o sócio administrador e assina
    pela empresa; **Luciano Duarte Peres** é o responsável administrativo, o
    interlocutor da parceria (item 9.2.1) e o **devedor solidário** (item 18.3).
@@ -1026,35 +1063,35 @@ Todo o resto cada uma paga do próprio bolso.
    alegar que não entendeu o que assinou, e a OAB dá a ele um endereço
    profissional localizável. Confirme se "2010" é o número da inscrição e não o
    ano — é o dado que identifica ele num processo.
-6. **⚠ Divergência na sua qualificação.** A v1 trazia "casado, residente em
+8. **⚠ Divergência na sua qualificação.** A v1 trazia "casado, residente em
    Lagoa Santa/MG". O contrato social do Espaço Kairós que você me mandou diz
    **"solteiro, residente na Alameda Mamoré, Alphaville, Barueri/SP"**. Usei o
    contrato social, que é o documento registrado. **Se o estado civil mudou e
    a Junta não foi atualizada, corrija lá antes de assinar isto** — qualificação
    errada é argumento de nulidade e, se você for casado em regime que exija
    outorga, o negócio pode ser questionado pelo cônjuge.
-7. **☠ Se o Luciano for casado, o cônjuge precisa assinar.** Garantia pessoal
-   dada por pessoa casada — salvo no regime de separação absoluta — depende de
-   **outorga do cônjuge** (art. 1.647, III, do Código Civil). Sem ela, o cônjuge
-   pode pedir a anulação da garantia depois, e você fica sem nada justamente na
-   hora de executar. **Pergunte o estado civil e o regime de bens do Luciano
-   antes de fechar** e, sendo casado, coloque o cônjuge para assinar. Esse
-   detalhe derruba fiança todo dia no Judiciário.
-8. **⚠ A garantia vale o patrimônio de quem a dá.** O Luciano responde agora
+9. **✓ RESOLVIDO — o Luciano é solteiro, não precisa de outorga.** Confirmado
+   por ele em 28/09/2026. Isso tira do caminho o maior motivo de anulação de
+   garantia pessoal no Judiciário: como ele não é casado, não há cônjuge para
+   dar outorga (art. 1.647, III, do Código Civil) nem para questionar a
+   garantia depois. **A garantia do item 18.3 nasce sólida.** Só confirme o
+   estado civil na hora da assinatura, com documento — se ele casar durante a
+   vigência, a garantia já constituída continua valendo.
+10. **⚠ A garantia vale o patrimônio de quem a dá.** O Luciano responde agora
    com o patrimônio pessoal dele, o que é muito melhor do que só a empresa. Mas
    ele é **responsável administrativo**, não consta como sócio na informação que
    você me passou — pode não ter bens. Quem tem participação societária é o
    **Davi**. Se puder, peça **os dois** como devedores solidários; se não puder,
    pelo menos confira se o Luciano tem imóvel ou veículo em nome dele. Uma
    garantia de quem não tem nada é um parágrafo bonito e inútil.
-9. **⚠ Suas duas datas: mudei o desenho da v1.** Você disse "duas datas no mês
+11. **⚠ Suas duas datas: mudei o desenho da v1.** Você disse "duas datas no mês
    para seus eventos próprios" e, em seguida, "as datas **comercializadas pelo
    Kairós** têm o lucro dividido". Li isso como dois bolsos separados: as suas
    duas datas são suas, a receita delas não entra no rateio (itens 6.1.1 e
    11.4.1). **A v1 dizia o contrário** — que evento próprio com cobrança
    entrava no rateio. Se a sua intenção era só ter a data reservada, mas
    dividir o lucro dela também, me avisa: muda o 6.1.1 e o 11.4.1.
-10. **⚠ A manutenção dos equipamentos mudou de bolso — e isso tem um risco.**
+12. **⚠ A manutenção dos equipamentos mudou de bolso — e isso tem um risco.**
    Agora a Motor em Ação **paga** a manutenção dos seus equipamentos. Isso é bom
    pra você. Mas quem paga tende a querer escolher o técnico, e técnico barato
    em mesa de som e painel de LED estraga equipamento caro. Por isso escrevi o
@@ -1062,57 +1099,57 @@ Todo o resto cada uma paga do próprio bolso.
    suas**. Eles não podem abrir, adaptar nem contratar ninguém para mexer nos
    bens sem sua autorização escrita. **Não abra mão disso na negociação** — é o
    que separa "eles bancam a manutenção" de "eles mexem no seu patrimônio".
-11. **O que continua sendo seu custo.** Só a **reposição por desgaste** (item
+13. **O que continua sendo seu custo.** Só a **reposição por desgaste** (item
    4.5). Se uma caixa de som morre de velha, a troca é sua — o que é justo,
    porque o equipamento novo continua seu. Conserto é deles; substituição é
    sua.
-12. **Cessão das suas datas: ficou livre, como você pediu.** O item 11.7 agora
+14. **Cessão das suas datas: ficou livre, como você pediu.** O item 11.7 agora
     permite repassar suas duas datas a terceiro, de graça ou cobrando, sem pedir
     nada a ninguém. Só antecipo o que a Motor em Ação vai dizer: que isso é um
     furo no 50/50, porque você pode alugar sua data e ficar com tudo. Tenha a
     resposta pronta — a contrapartida é que o equipamento todo é seu.
-13. **Custo variável das suas datas (11.4.2).** Escrevi que você paga equipe
+15. **Custo variável das suas datas (11.4.2).** Escrevi que você paga equipe
    extra, alimentação e limpeza do dia. Energia, internet e segurança do
    prédio continuam na conta comum. Se a Motor em Ação quiser cobrar uma
    diária fixa por essas datas, isso **não** está previsto — e não deveria
    estar, porque a contrapartida do uso é você ter aportado todo o
    equipamento.
-14. **Se mudarem o nome (item 10.5):** decida antes quem será titular da marca
+16. **Se mudarem o nome (item 10.5):** decida antes quem será titular da marca
    nova. Se ela nascer sem dono definido e a parceria acabar, vocês vão
    disputar um ativo que os dois ajudaram a construir. Minha sugestão é que a
    marca nova nasça em nome da Kairós, com licença à Motor em Ação, espelhando
    o desenho atual.
-15. **Benfeitorias (item 16.3):** defina se obra paga pela parceria e fixada ao
+17. **Benfeitorias (item 16.3):** defina se obra paga pela parceria e fixada ao
    imóvel (forro acústico, elétrica dedicada, estrutura de palco fixa) será
    indenizada na saída. Sem isso escrito, o padrão é que fique para o dono do
    imóvel — ou seja, a parceria paga e a Motor em Ação leva.
-16. **☠ Risco de ser reconhecida como sociedade de fato.** Divisão 50/50 +
+18. **☠ Risco de ser reconhecida como sociedade de fato.** Divisão 50/50 +
    gestão conjunta + conta comum + marca comum é, na prática, muito próximo de
    uma sociedade. A Cláusula 2 nega isso expressamente, que é o mínimo, mas
    não é blindagem absoluta. **Converse com seu contador e seu advogado sobre
    formalizar como Sociedade em Conta de Participação (SCP).** Do jeito que
    está, a Motor em Ação opera sob o CNPJ da Kairós, e o risco fiscal disso é
    seu.
-17. **Rol taxativo de custos (item 6.2.1).** Fechei a lista de propósito e
+19. **Rol taxativo de custos (item 6.2.1).** Fechei a lista de propósito e
     listei o que **não** pode ser abatido — pró-labore, taxa de administração,
     aluguel do imóvel, royalty de marca, depreciação. É o que impede o
     "lucro líquido" de virar zero todo mês por conta de despesas que apareceram
     do nada. Se a Motor em Ação pedir pra abrir alguma exceção, cada exceção
     sai direto do seu bolso.
-18. **O inventário é a peça mais importante desta minuta.** Enquanto o ANEXO I
+20. **O inventário é a peça mais importante desta minuta.** Enquanto o ANEXO I
     estiver em branco, você não tem prova do que é seu. Faça com número de
     série e fotos, em duas vias assinadas, **antes de levar qualquer
     equipamento para o espaço** — o item 5.3.3 agora exige isso expressamente.
-19. **Titularidade dos bens (item 5.1.1).** Parte do equipamento pode estar em
+21. **Titularidade dos bens (item 5.1.1).** Parte do equipamento pode estar em
     seu nome pessoal e não no da Kairós. Quem não é dono não pode emprestar.
     Por isso você entra também como interveniente e o inventário definitivo vai
     ter uma coluna de titularidade. Resolva isso na apuração dos 30 dias.
-20. **Seguro:** confirme com a seguradora se a apólice cobre equipamento de
+22. **Seguro:** confirme com a seguradora se a apólice cobre equipamento de
     terceiro instalado em imóvel de terceiro — algumas recusam. Sem cobertura,
     o item 5.6 vira letra morta e o prejuízo de um furto é integralmente seu.
-21. **Falta preencher:** endereço e dados do imóvel; data de início; valores da
+23. **Falta preencher:** endereço e dados do imóvel; data de início; valores da
     multa (18.1) e do seguro (12.3); prazos entre colchetes; tabela de preços;
     foro; e o inventário definitivo.
-22. **Revisão obrigatória:** esta é uma minuta de trabalho, escrita a partir das
+24. **Revisão obrigatória:** esta é uma minuta de trabalho, escrita a partir das
     suas instruções por voz. Passe pelo seu advogado antes de assinar,
     especialmente pelos pontos 1, 3, 4 e 9.
