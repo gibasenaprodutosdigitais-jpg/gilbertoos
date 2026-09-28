@@ -105,7 +105,42 @@ do produto (setup R$12.500 + R$3.500/mês) e os dados de mercado
 Manter essa disciplina em tudo que for produzido aqui — nunca apresentar
 estimativa como se fosse número fechado.
 
-## Estado atual — 05/ago/2026
+## Estado atual — 27/set/2026
+
+O OCEO deixou de ser só documento: **existe sistema rodando.**
+
+### O que foi construído em setembro
+
+- **`oceo-core/`** — o núcleo que interliga os cinco pilares. Nenhum pilar
+  chama outro: cada um anuncia um fato e quem tiver interesse reage. É isso
+  que permite vender pilar avulso sem virar cinco produtos desconectados.
+  Tem banco (SQLite), login, isolamento entre clientes, trilha auditável,
+  API e portal de demonstração. **Quatro suítes de teste, todas passando.**
+- **`seguranca/`** — a documentação de proteção do dado do cliente: postura
+  técnica, a decisão registrada sobre blockchain, o mapeamento com a LGPD,
+  o roteiro de resposta comercial e o guia de reunião em PDF.
+
+### Onde parou, e o que vem quando voltar
+
+1. **Ligar o envio de e-mail.** A recuperação de senha está pronta e
+   testada, mas a mensagem é gravada em arquivo em vez de enviada. Falta
+   contratar e configurar o serviço. É curto e é o item 1 da lista.
+2. **Criptografia do banco em repouso** — foi a próxima que eu sugeri ao
+   Gilberto: se levarem o servidor, o arquivo do banco não pode ser legível.
+3. Depois disso, a lista completa está em `seguranca/README.md`.
+
+**Nada disso impede demonstrar o sistema hoje.** Impede colocar dado de
+cliente real dentro.
+
+### Regra que vale daqui pra frente
+
+Não anunciar ao cliente recuperação de senha por e-mail enquanto o envio
+não estiver ligado. O que constrói confiança em reunião é justamente a
+parte que se admite não estar pronta — ver `seguranca/resposta-ao-cliente.md`.
+
+---
+
+## Estado anterior — 05/ago/2026 (histórico)
 
 **Os 5 pilares estão registrados e detalhados** (ver "O que já existe"),
 cada um com escopo, ponto de atenção regulatório quando existe, e
