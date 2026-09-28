@@ -1,29 +1,31 @@
 # CONTRATO DE PARCERIA COMERCIAL PARA ESTRUTURAÇÃO E EXPLORAÇÃO DE ESPAÇO DE EVENTOS
 
-> **MINUTA — v3 — 28/09/2026.** Gerada a partir das instruções do Gilberto.
+> **MINUTA — v4 — 28/09/2026.** Gerada a partir das instruções do Gilberto.
 > Campos entre `[ ]` devem ser preenchidos. **Revisar com advogado antes de
 > assinar.**
 >
-> **O que mudou da v2 para a v3:**
-> 1. **LUCIANO DUARTE PERES entra no contrato em três posições:** responsável
->    administrativo da Motor em Ação, **interlocutor único da parceria** (item
->    9.2.1) e **devedor solidário** das obrigações dela (item 18.3). Antes a
->    garantia estava só como sugestão, em branco.
-> 2. A garantia **sobrevive à saída dele da empresa** e só acaba com a quitação
->    integral e a devolução de todos os equipamentos (item 18.3.2).
-> 3. **Falta a qualificação completa do Luciano** — e, se ele for casado, a
->    assinatura do cônjuge. **Ver notas 1 e 3: sem isso a garantia fica frágil.**
+> **O que mudou da v3 para a v4 — os custos:**
+> 1. **A manutenção saiu da conta comum.** Nem a manutenção predial nem a dos
+>    equipamentos são abatidas da receita: **as duas passam a ser custo da
+>    MOTOR EM AÇÃO**, pagas por fora (itens 3.3 "c" e "e", e 6.2.1).
+> 2. **Mas quem manda na manutenção continua sendo você.** A Motor em Ação
+>    paga; a KAIRÓS escolhe o técnico e executa, e eles não podem mexer nos
+>    equipamentos sem autorização escrita (item 3.3.1). **Ver nota 6.**
+> 3. **Sobra com você apenas a reposição por desgaste** (item 4.5): conserto é
+>    deles, substituição é sua. **Ver nota 7.**
+> 4. A divisão continua sobre o **lucro líquido** — o que protege você, porque
+>    a receita é faturada no seu CNPJ e o imposto sai antes da divisão.
 >
-> **O que já vinha da v2:**
-> 4. As partes são as duas pessoas jurídicas reais — ESPAÇO KAIRÓS LTDA (você)
->    e MOTOR EM AÇÃO DISTRIBUIÇÃO LTDA.
-> 5. **Comodato de 24 meses** e **aviso de 90 dias** para retirada voluntária
->    dos bens (Cláusula 5).
-> 6. **Duas datas por mês** reservadas aos eventos próprios de GILBERTO, sem
->    custo de locação, com a receita delas fora do rateio (Cláusula 11).
->    **Ver nota 5 — isso inverte o que estava na v1.**
-> 7. **Divisão do lucro líquido abatendo somente os custos da operação**, com o
->    rol de descontos fechado (Cláusula 6).
+> **O que já vinha das versões anteriores:**
+> 5. **LUCIANO DUARTE PERES** é o interlocutor da parceria (item 9.2.1) e o
+>    **devedor solidário** (item 18.3). **Faltam os dados dele e, se for
+>    casado, a outorga do cônjuge — notas 1 e 3.**
+> 6. As partes são ESPAÇO KAIRÓS LTDA e MOTOR EM AÇÃO DISTRIBUIÇÃO LTDA.
+> 7. **Comodato de 24 meses** e **aviso de 90 dias** para retirada voluntária
+>    (Cláusula 5).
+> 8. **Duas datas por mês** para os eventos próprios de GILBERTO, sem custo,
+>    com a receita fora do rateio (Cláusula 11). **Ver nota 5.**
+> 9. Rol de descontos **fechado** (item 6.2.1).
 
 ---
 
@@ -163,11 +165,30 @@ imóvel está livre de ônus, disputas ou restrições que impeçam a atividade 
 eventos; e **(c)** `[se locatária: possui autorização escrita do proprietário
 para a destinação e para a cessão de uso ora pactuada — anexar]`.
 
-**3.3.** Correm por conta de MOTOR EM AÇÃO, salvo ajuste escrito em contrário:
+**3.3.** Correm por conta de MOTOR EM AÇÃO, **por fora da conta da parceria e
+sem abatimento da Receita Bruta**, salvo ajuste escrito em contrário:
 **(a)** IPTU e tributos incidentes sobre a propriedade; **(b)** aluguel, se o
 imóvel for locado de terceiro; **(c)** obras estruturais, reformas e manutenção
-predial (telhado, hidráulica, elétrica de base, estrutura); e **(d)**
-regularização do imóvel para a atividade (Cláusula 12).
+predial (telhado, hidráulica, elétrica de base, estrutura); **(d)**
+regularização do imóvel para a atividade (Cláusula 12); e **(e)** a
+**manutenção preventiva e corretiva dos equipamentos e do mobiliário do
+ANEXO I**, na forma do item 3.3.1.
+
+**3.3.1. Manutenção dos equipamentos: quem paga e quem manda.** O **custo** da
+manutenção dos bens do ANEXO I é de MOTOR EM AÇÃO, mas a **escolha do técnico e
+a execução do serviço cabem à KAIRÓS**, que é a proprietária. MOTOR EM AÇÃO
+**não** poderá abrir, reparar, adaptar, atualizar ou contratar terceiro para
+intervir nos bens sem autorização escrita da KAIRÓS.
+
+**3.3.2.** Executada a manutenção pela KAIRÓS ou por técnico por ela indicado,
+MOTOR EM AÇÃO reembolsará o custo comprovado em até **`[10]` dias** do
+recebimento da nota, **por fora do rateio da Cláusula 6**. Não havendo
+reembolso no prazo, o valor será descontado da parte de MOTOR EM AÇÃO no
+fechamento seguinte.
+
+**3.3.3.** Não se incluem nesta obrigação, permanecendo com a KAIRÓS: a
+reposição de equipamento por desgaste natural (item 4.5) e o reparo de dano
+decorrente de defeito de fabricação ou de vício anterior à entrega.
 
 **3.4.** MOTOR EM AÇÃO obriga-se a manter o imóvel disponível e apto ao uso
 durante toda a vigência, respondendo pelos prejuízos comprovados decorrentes de
@@ -198,10 +219,13 @@ contatos comerciais e a reputação de mercado associados ao **"Kairós"**, ativ
 que as PARCEIRAS reconhecem como parte relevante e economicamente mensurável de
 sua contribuição, e não como mero acessório do aporte de equipamentos.
 
-**4.5.** Correm por conta de KAIRÓS, salvo ajuste escrito em contrário:
-**(a)** a manutenção preventiva e corretiva dos equipamentos do ANEXO I;
-**(b)** o seguro de que trata o item 5.6; e **(c)** a reposição de equipamento
-por desgaste natural de uso, a seu critério.
+**4.5.** Corre por conta de KAIRÓS, **por fora da conta da parceria e sem
+abatimento da Receita Bruta**, a **reposição de equipamento por desgaste
+natural de uso**, a seu critério.
+
+**4.6.** KAIRÓS contratará e manterá o seguro de que trata o item 5.6, cujo
+prêmio é **Custo da Operação** (item 6.2), e executará a manutenção dos bens do
+ANEXO I na forma do item 3.3.1, **com custo reembolsado por MOTOR EM AÇÃO**.
 
 ---
 
@@ -317,23 +341,24 @@ saber: energia elétrica, água, gás, internet e telefonia; limpeza, segurança
 portaria; material de consumo; equipe operacional e técnica do evento; taxas
 públicas de funcionamento, ECAD e congêneres; tributos incidentes sobre a
 receita faturada pelo CNPJ; taxas de meios de pagamento; marketing e tráfego
-pago aprovados conjuntamente; seguro dos equipamentos (item 5.6); seguro de
-responsabilidade civil (item 12.3); e manutenção corretiva imputável à
-operação.
+pago aprovados conjuntamente; seguro dos equipamentos (item 5.6); e seguro de
+responsabilidade civil (item 12.3).
 
 **6.2.1. Rol taxativo.** A relação do item 6.2 é **taxativa**. Nenhum outro
 valor será abatido da Receita Bruta, sendo **expressamente vedado** deduzir,
 a qualquer título: pró-labore, retirada ou remuneração de sócio,
 administrador ou colaborador de qualquer das PARCEIRAS; taxa de administração
-ou de gestão; aluguel, IPTU ou encargo do imóvel; royalty, licença ou
-remuneração pelo uso da marca, do CNPJ ou das redes sociais; depreciação,
-amortização ou provisão contábil; despesa de estrutura, veículo, viagem ou
+ou de gestão; aluguel, IPTU ou encargo do imóvel; **manutenção predial**;
+**manutenção preventiva ou corretiva dos equipamentos e do mobiliário do
+ANEXO I**; royalty, licença ou remuneração pelo uso da marca, do CNPJ ou das
+redes sociais; depreciação, amortização ou provisão contábil; despesa de estrutura, veículo, viagem ou
 representação de qualquer das PARCEIRAS; e despesa de qualquer natureza
 estranha à operação do espaço.
 
 **6.2.2.** **Não** são Custos da Operação, correndo por conta exclusiva de cada
-PARCEIRA: as despesas do item 3.3 (por MOTOR EM AÇÃO) e as dos itens 4.5, "a" e
-"c" (por KAIRÓS).
+PARCEIRA: **todas** as despesas do item 3.3, alíneas "a" a "e" — incluída a
+manutenção predial e a dos equipamentos — por MOTOR EM AÇÃO; e a reposição por
+desgaste do item 4.5, por KAIRÓS.
 
 **6.2.3.** Despesa não comprovada por documento fiscal idôneo em nome do CNPJ
 da parceria **não é abatida** e corre por conta de quem a contratou.
@@ -473,7 +498,7 @@ material de que tenha participado, vedado sugerir continuidade da parceria.
 
 **10.5. Alteração de nome.** Deliberada a alteração do nome do espaço (item
 1.2), a nova marca `[será de titularidade da KAIRÓS / será definida em aditivo
-quanto à titularidade]` — **ponto a decidir antes da assinatura, ver nota 8**.
+quanto à titularidade]` — **ponto a decidir antes da assinatura, ver nota 10**.
 
 **10.6. Faturamento pelo CNPJ.** Sendo o CNPJ de titularidade da KAIRÓS, ela
 responde perante o Fisco pelas obrigações acessórias e principais dele
@@ -529,7 +554,7 @@ duas datas daquele período e do disposto no item 3.4.
 
 **11.7. Terceiros nas datas próprias.** GILBERTO poderá ceder suas datas
 próprias a terceiro `[somente mediante anuência escrita da MOTOR EM AÇÃO /
-livremente]` — **ponto a decidir, ver nota 6**. A cessão, se admitida, não
+livremente]` — **ponto a decidir, ver nota 8**. A cessão, se admitida, não
 descaracteriza a natureza da data nem a sujeita ao rateio.
 
 ---
@@ -628,7 +653,7 @@ Cláusula 6 quanto a eles, ainda que realizados após a extinção.
 prazo de até `[30]` dias da extinção, na forma do item 5.7, **sem sujeição ao
 aviso prévio do item 5.7.1**. Eventual benfeitoria fixada ao imóvel por conta da
 parceria `[será indenizada / não será indenizada]` — **ponto a definir, ver
-nota 9**.
+nota 11**.
 
 **16.4. Marca, CNPJ e redes.** Cessa imediatamente a licença da Cláusula 10.
 MOTOR EM AÇÃO obriga-se a remover, em até `[10]` dias, toda referência à marca
@@ -885,7 +910,8 @@ Assinaturas do inventário: \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (KAIRÓS) · \_\_\_\_\_
 | IPTU e aluguel do imóvel | MOTOR EM AÇÃO | **Não** |
 | Obras e manutenção predial | MOTOR EM AÇÃO | **Não** |
 | Licenças do imóvel (alvará, AVCB) | MOTOR EM AÇÃO | **Não** |
-| Manutenção dos equipamentos | KAIRÓS | **Não** |
+| Manutenção predial | MOTOR EM AÇÃO | **Não** |
+| **Manutenção dos equipamentos (item 3.3.1)** | **MOTOR EM AÇÃO** paga · **KAIRÓS** escolhe o técnico e executa | **Não** |
 | Reposição de equipamento por desgaste | KAIRÓS | **Não** |
 | Custos variáveis diretos das 2 datas próprias de GILBERTO | GILBERTO | **Não** (item 11.4) |
 
@@ -928,53 +954,65 @@ Assinaturas do inventário: \_\_\_\_\_\_\_\_\_\_\_\_\_\_ (KAIRÓS) · \_\_\_\_\_
    11.4.1). **A v1 dizia o contrário** — que evento próprio com cobrança
    entrava no rateio. Se a sua intenção era só ter a data reservada, mas
    dividir o lucro dela também, me avisa: muda o 6.1.1 e o 11.4.1.
-6. **Você pode ceder suas datas a terceiro?** (item 11.7) Se puder livremente,
+6. **⚠ A manutenção dos equipamentos mudou de bolso — e isso tem um risco.**
+   Agora a Motor em Ação **paga** a manutenção dos seus equipamentos. Isso é bom
+   pra você. Mas quem paga tende a querer escolher o técnico, e técnico barato
+   em mesa de som e painel de LED estraga equipamento caro. Por isso escrevi o
+   **item 3.3.1**: o custo é deles, **a escolha do técnico e a execução são
+   suas**. Eles não podem abrir, adaptar nem contratar ninguém para mexer nos
+   bens sem sua autorização escrita. **Não abra mão disso na negociação** — é o
+   que separa "eles bancam a manutenção" de "eles mexem no seu patrimônio".
+7. **O que continua sendo seu custo.** Só a **reposição por desgaste** (item
+   4.5). Se uma caixa de som morre de velha, a troca é sua — o que é justo,
+   porque o equipamento novo continua seu. Conserto é deles; substituição é
+   sua.
+8. **Você pode ceder suas datas a terceiro?** (item 11.7) Se puder livremente,
    nada impede você de alugar sua data pra outra pessoa e ficar com o valor —
    e a Motor em Ação vai enxergar isso como furo no 50/50. Se não puder, você
    perde flexibilidade. Decida antes, porque isso vira discussão no primeiro
    mês bom.
-7. **Custo variável das suas datas (11.4.2).** Escrevi que você paga equipe
+9. **Custo variável das suas datas (11.4.2).** Escrevi que você paga equipe
    extra, alimentação e limpeza do dia. Energia, internet e segurança do
    prédio continuam na conta comum. Se a Motor em Ação quiser cobrar uma
    diária fixa por essas datas, isso **não** está previsto — e não deveria
    estar, porque a contrapartida do uso é você ter aportado todo o
    equipamento.
-8. **Se mudarem o nome (item 10.5):** decida antes quem será titular da marca
+10. **Se mudarem o nome (item 10.5):** decida antes quem será titular da marca
    nova. Se ela nascer sem dono definido e a parceria acabar, vocês vão
    disputar um ativo que os dois ajudaram a construir. Minha sugestão é que a
    marca nova nasça em nome da Kairós, com licença à Motor em Ação, espelhando
    o desenho atual.
-9. **Benfeitorias (item 16.3):** defina se obra paga pela parceria e fixada ao
+11. **Benfeitorias (item 16.3):** defina se obra paga pela parceria e fixada ao
    imóvel (forro acústico, elétrica dedicada, estrutura de palco fixa) será
    indenizada na saída. Sem isso escrito, o padrão é que fique para o dono do
    imóvel — ou seja, a parceria paga e a Motor em Ação leva.
-10. **☠ Risco de ser reconhecida como sociedade de fato.** Divisão 50/50 +
+12. **☠ Risco de ser reconhecida como sociedade de fato.** Divisão 50/50 +
    gestão conjunta + conta comum + marca comum é, na prática, muito próximo de
    uma sociedade. A Cláusula 2 nega isso expressamente, que é o mínimo, mas
    não é blindagem absoluta. **Converse com seu contador e seu advogado sobre
    formalizar como Sociedade em Conta de Participação (SCP).** Do jeito que
    está, a Motor em Ação opera sob o CNPJ da Kairós, e o risco fiscal disso é
    seu.
-11. **Rol taxativo de custos (item 6.2.1).** Fechei a lista de propósito e
+13. **Rol taxativo de custos (item 6.2.1).** Fechei a lista de propósito e
     listei o que **não** pode ser abatido — pró-labore, taxa de administração,
     aluguel do imóvel, royalty de marca, depreciação. É o que impede o
     "lucro líquido" de virar zero todo mês por conta de despesas que apareceram
     do nada. Se a Motor em Ação pedir pra abrir alguma exceção, cada exceção
     sai direto do seu bolso.
-12. **O inventário é a peça mais importante desta minuta.** Enquanto o ANEXO I
+14. **O inventário é a peça mais importante desta minuta.** Enquanto o ANEXO I
     estiver em branco, você não tem prova do que é seu. Faça com número de
     série e fotos, em duas vias assinadas, **antes de levar qualquer
     equipamento para o espaço** — o item 5.3.3 agora exige isso expressamente.
-13. **Titularidade dos bens (item 5.1.1).** Parte do equipamento pode estar em
+15. **Titularidade dos bens (item 5.1.1).** Parte do equipamento pode estar em
     seu nome pessoal e não no da Kairós. Quem não é dono não pode emprestar.
     Por isso você entra também como interveniente e o inventário definitivo vai
     ter uma coluna de titularidade. Resolva isso na apuração dos 30 dias.
-14. **Seguro:** confirme com a seguradora se a apólice cobre equipamento de
+16. **Seguro:** confirme com a seguradora se a apólice cobre equipamento de
     terceiro instalado em imóvel de terceiro — algumas recusam. Sem cobertura,
     o item 5.6 vira letra morta e o prejuízo de um furto é integralmente seu.
-15. **Falta preencher:** endereço e dados do imóvel; data de início; valores da
+17. **Falta preencher:** endereço e dados do imóvel; data de início; valores da
     multa (18.1) e do seguro (12.3); prazos entre colchetes; tabela de preços;
     foro; e o inventário definitivo.
-16. **Revisão obrigatória:** esta é uma minuta de trabalho, escrita a partir das
+18. **Revisão obrigatória:** esta é uma minuta de trabalho, escrita a partir das
     suas instruções por voz. Passe pelo seu advogado antes de assinar,
     especialmente pelos pontos 1, 3, 4 e 9.
