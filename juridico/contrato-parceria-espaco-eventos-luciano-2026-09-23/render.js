@@ -15,6 +15,7 @@ const fs = require('fs');
 const PECAS = [
   ['inventario.html',         'Inventario para Parceria.pdf'],
   ['inventario-resumo.html',  'Inventario para Parceria - Itens e Quantidades.pdf'],
+  ['checklist.html',          'Check-list do Inventario.pdf'],
   ['resumo.html',             'Resumo da Parceria - 1 pagina.pdf'],
 ];
 

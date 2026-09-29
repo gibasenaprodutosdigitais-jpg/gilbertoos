@@ -2,15 +2,17 @@
 """
 Gera os dois PDFs do inventario a partir de UMA fonte de dados.
 
-Fonte: "Mini Inventario para Praca Rebublica.pdf" / "3 cameras do auditorio.docx",
-enviados pelo Gilberto em 24/09/2026. Na origem, o numero vem ANTES do item
+Fonte: "Inventario Gilberto - Republica -SP.pdf", enviado pelo Gilberto em
+29/09/2026. Substitui a lista de 24/09/2026 ("Mini Inventario para Praca
+Rebublica.pdf"), que tinha 57 linhas. Na origem, o numero vem ANTES do item
 (coluna "Q" = quantidade). Grafia normalizada aqui (Parled's -> Par LED,
 caisses -> cases, foros -> forros, Bias -> baias, escrivanias -> escrivaninhas).
 
 Saidas:
-  Inventario para Parceria.pdf                      (completo, com campos e assinaturas)
-  Inventario para Parceria - Itens e Quantidades.pdf (resumido)
-  anexo-i.md                                         (trecho pra colar na minuta)
+  Inventario para Parceria.pdf                       (completo, com campos e assinaturas)
+  Inventario para Parceria - Itens e Quantidades.pdf  (resumido)
+  Check-list do Inventario.pdf                        (caixinha pra ticar item por item)
+  anexo-i.md                                          (trecho pra colar na minuta)
 """
 import json, subprocess, sys
 from pathlib import Path
@@ -23,77 +25,88 @@ INVENTARIO = [
     ("Painel de LED e projeção", [
         (12, "Placas de painel de LED", ""),
         (2,  "Cases para painel de LED", ""),
-        (1,  "Suporte do painel de LED", ""),
-        (3,  "Cabos de sinal", "do painel"),
-        (3,  "Cabos de energia", "do painel"),
-        (1,  "Computador do telão", ""),
+        (12, "Cabos de sinal", "do painel"),
+        (12, "Cabos de energia", "do painel"),
+        (1,  "Suporte de fixação do painel de LED", ""),
+        (1,  "Computador do telão", "CPU"),
         (2,  "TVs de retorno", ""),
         (1,  "Tela interativa", ""),
         (1,  "Suporte para tela interativa", ""),
     ]),
     ("Captação de vídeo", [
         (3, "Câmeras do auditório", ""),
+        (3, "Suportes tripé para câmeras", ""),
         (3, "Placas de captura de vídeo", ""),
-        (3, "Cabos HDMI", ""),
+        (3, "Cabos HDMI longos", ""),
         (2, "Cabos HDMI do palco", ""),
     ]),
     ("Áudio", [
-        (1, "Caixa PA", ""),
-        (1, "Caixa com subwoofer", ""),
-        (2, "Caixas de som", "ativa e passiva"),
+        (1, "Caixa JBL PA", "com tripé"),
+        (1, "Caixa JBL menor", ""),
+        (1, "Caixa subwoofer Frahm", ""),
         (1, "Mesa de som Soundcraft UI16", ""),
         (1, "Mesa de som NXA MSX Player", ""),
         (3, "Microfones bastão", ""),
         (1, "Base EW135G4 Sennheiser", ""),
         (6, "Cabos longos de áudio", ""),
-        (6, "Cabos de energia", "ligação dos áudios, sob o palco"),
+        (6, "Cabos de energia", "ligação dos áudios"),
     ]),
     ("Iluminação", [
-        (12, "Par LED", ""),
-        (4,  "COB", ""),
+        (12, "Luzes Par LED", ""),
+        (4,  "Luzes COB ST-MN200BFQ", ""),
         (1,  "Mesa de iluminação", ""),
     ]),
     ("Informática e acessórios", [
         (2, "Notebooks", ""),
         (3, "Teclados", ""),
         (2, "Mouses", ""),
-        (3, "Passadoras de slides", ""),
+        (3, "Passadores de slides", ""),
         (4, "Baterias AA recarregáveis", "com carregador"),
-        (1, "Transformador 220V para 127V", "estava sobre o forro"),
+        (1, "Transformador 220V para 127V", ""),
         (None, "Cabos HDMI avulsos", "lote"),
-        (None, "Cabos e cabos de energia", "estavam sobre o forro — lote"),
+        (None, "Cabos e cabos de energia avulsos", "lote"),
     ]),
     ("Auditório", [
-        (20,  "Mesas", ""),
-        (20,  "Forros de mesa", ""),
-        (120, "Cadeiras", ""),
-        (2,   "Palcos", ""),
+        (20,  "Mesas de auditório", ""),
+        (20,  "Forros de mesa de auditório", ""),
+        (120, "Cadeiras de auditório", ""),
+        (3,   "Palcos", ""),
     ]),
     ("Mobiliário de escritório", [
+        (1,  "Sofá preto", "dois lugares"),
         (1,  "Mesa de reunião retangular", ""),
         (6,  "Cadeiras", "da mesa de reunião"),
-        (10, "Cadeiras brancas", ""),
-        (2,  "Jogos de bistrô", ""),
-        (6,  "Escrivaninhas", ""),
+        (10, "Cadeiras brancas com rodas", ""),
+        (5,  "Cadeiras pretas com rodas", ""),
+        (2,  "Jogos de bistrô", "com 8 cadeiras no total"),
+        (8,  "Cadeiras de bistrô", "dos jogos acima"),
+        (1,  "Mesa em L", "para house"),
+        (4,  "Mesas com pufes", ""),
+        (16, "Pufes", "das mesas acima"),
+        (2,  "Mesas pretas retangulares com rodas", ""),
+        (1,  "Móvel aparador", ""),
+        (5,  "Escrivaninhas", ""),
+        (2,  "Armários marrons", ""),
         (2,  "Baias de atendimento duplas", ""),
-        (2,  "Conjuntos de mesa com armário aparador", ""),
         (7,  "Armários médios", ""),
         (1,  "Armário grande", ""),
-        (2,  "Armários arquivo", ""),
+        (7,  "Armários arquivo", ""),
         (1,  "Mesa redonda", ""),
-        (2,  "Armários aparador", ""),
-        (5,  "Cadeiras", ""),
-        (1,  "Armário canto aparador", ""),
-        (1,  "Mesa de escritório", ""),
-        (1,  "Cadeira", ""),
+        (1,  "Mesa média retangular", ""),
+        (1,  "Mesa grande oval cinza jumbo", ""),
+        (1,  "Mesa de escritório com escrivaninha", ""),
+        (1,  "Armário preto com 6 portas", ""),
+        (1,  "Aparador", ""),
+        (1,  "Cadeira com rodas", ""),
     ]),
     ("Cortinas", [
-        (10, "Bastões de cortina", ""),
-        (10, "Cortinas", ""),
+        (8, "Bastões de cortina", ""),
+        (9, "Cortinas", ""),
     ]),
     ("Eletrodomésticos", [
         (1, "Geladeira", ""),
         (1, "Geladeira de duas portas", ""),
+        (1, "Purificador IBBL Vivax", ""),
     ]),
 ]
 
@@ -326,6 +339,133 @@ def html_resumo():
 
 
 # ----------------------------------------------------------------- anexo md
+def html_checklist():
+    """
+    Check-list de conferencia: uma caixinha por item, pra ticar na entrega e
+    outra na devolucao. O mesmo papel serve nas duas pontas do comodato, e e
+    na devolucao que costuma faltar item.
+
+    Duas paginas de proposito, com a quebra decidida aqui e nao pelo
+    navegador: pagina 1 e a estrutura tecnica (o que quebra e o que some),
+    pagina 2 e o mobiliario. Apertar os 68 itens numa folha so deixaria a
+    linha fina demais pra ticar a mao, que e o unico uso deste papel.
+    """
+    def bloco_cat(cat, itens, contador):
+        linhas = []
+        for q, item, obs in itens:
+            contador[0] += 1
+            o = f' <span class="obs">({obs.replace(" — lote", "")})</span>' if obs else ""
+            linhas.append(
+                f'<tr><td class="cx"><span class="caixa"></span></td>'
+                f'<td class="cx"><span class="caixa"></span></td>'
+                f'<td class="qtd">{q_txt(q, obs)}</td>'
+                f'<td class="item">{item}{o}</td></tr>')
+        # bloco com muitos itens PRECISA poder fluir entre as colunas: Mobiliario
+        # tem 25 linhas e, travado, jogava a folha inteira pra fora da pagina
+        cls = ' class="longa"' if len(itens) > 14 else ""
+        return (f'<section{cls}><h2>{cat}</h2>'
+                f'<table><tbody>{"".join(linhas)}</tbody></table></section>')
+
+    TECNICO = {"Painel de LED e projeção", "Captação de vídeo", "Áudio",
+               "Iluminação", "Informática e acessórios", "Auditório"}
+    cont = [0]
+    p1 = "".join(bloco_cat(c, i, cont) for c, i in INVENTARIO if c in TECNICO)
+    itens_p1 = cont[0]
+    p2 = "".join(bloco_cat(c, i, cont) for c, i in INVENTARIO if c not in TECNICO)
+    itens_p2 = cont[0] - itens_p1
+
+    cabecalho = """<div class="rodape-cabecalho">
+  <div><div class="r">Data da conferência</div><div class="linha"></div></div>
+  <div><div class="r">Quem conferiu</div><div class="linha"></div></div>
+  <div><div class="r">Local</div><div class="linha"></div></div>
+</div>
+<div class="legenda">
+  <span><b>1ª caixa:</b> entrega</span>
+  <span><b>2ª caixa:</b> devolução</span>
+  <span><b>Qtd.:</b> quantidade que tem que estar lá</span>
+</div>"""
+
+    return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Check-list do Inventário</title>{FONTES}<style>
+  @page {{ size:A4; margin:12mm 12mm; }}
+  {CSS_BASE}
+  body{{ font-size:8.5pt; line-height:1.3; }}
+  h1{{ font-size:19pt; }} .sub{{ font-size:8pt; }}
+  .folha{{ page-break-after:always; }}
+  .folha:last-child{{ page-break-after:auto; }}
+  .legenda{{ display:flex; gap:7mm; margin:0 0 8pt; font-size:7.5pt; color:var(--fraco); }}
+  .legenda b{{ color:var(--tinta); }}
+  .colunas{{ column-count:2; column-gap:8mm; }}
+  section{{ break-inside:avoid; page-break-inside:avoid; margin-bottom:7pt; }}
+  section.longa{{ break-inside:auto; page-break-inside:auto; }}
+  section.longa h2{{ break-after:avoid; }}
+  h2{{ font-size:7.5pt; color:var(--acento); margin:0 0 3pt;
+       border-bottom:.7pt solid var(--linha); padding-bottom:2pt; }}
+  tbody td{{ padding:3pt 2pt; border-bottom:.4pt solid var(--linha);
+             vertical-align:middle; }}
+  td.cx{{ width:7mm; text-align:center; }}
+  .caixa{{ display:inline-block; width:4mm; height:4mm;
+           border:.9pt solid var(--tinta); }}
+  .qtd{{ width:11mm; text-align:right; font-family:'IBM Plex Mono',monospace;
+         font-size:9pt; font-weight:600; padding-right:3pt; }}
+  .item{{ font-size:8.6pt; font-weight:500; }}
+  .item .obs{{ color:var(--fraco); font-weight:400; font-size:7pt; }}
+  .rodape-cabecalho{{ display:flex; gap:6pt; margin-bottom:8pt; }}
+  .rodape-cabecalho div{{ flex:1; border:.7pt solid var(--linha); padding:5pt 6pt; }}
+  .rodape-cabecalho .r{{ font-size:6.5pt; font-weight:700; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--fraco); }}
+  .rodape-cabecalho .linha{{ border-bottom:.7pt solid var(--linha); height:12pt; }}
+  .assina{{ margin-top:14pt; border-top:2.5pt solid var(--tinta); padding-top:12pt;
+    display:flex; gap:9mm; }}
+  .assina div{{ flex:1; }}
+  .assina .risco{{ border-bottom:.9pt solid var(--tinta); height:22pt; }}
+  .assina .r{{ font-size:7pt; color:var(--fraco); margin-top:4pt; }}
+  .nota{{ margin-top:11pt; border-left:2.5pt solid var(--acento); padding:5pt 0 5pt 9pt;
+    font-size:7.6pt; line-height:1.45; color:var(--fraco); }}
+  .cont{{ font-size:7pt; color:var(--fraco); margin-top:5pt; }}
+</style></head><body>
+
+<div class="folha">
+<header>
+  <div class="kicker">Parceria · Espaço de eventos "Kairós" — Praça da República</div>
+  <h1>Check-list do inventário <span style="font-size:10pt;color:var(--fraco)">· 1 de 2 · estrutura técnica e auditório</span></h1>
+  <div class="sub">Confira item por item na <b>entrega</b> e de novo na
+    <b>devolução</b>. O que não for ticado nas duas colunas é item a
+    justificar, e a justificativa vale no mesmo dia.</div>
+</header>
+{cabecalho}
+<div class="colunas">{p1}</div>
+<div class="cont">Página 1 — {itens_p1} linhas de {total_linhas}.</div>
+<footer><span>Check-list do inventário · Parceria "Kairós"</span>
+<span>Página 1 de 2</span></footer>
+</div>
+
+<div class="folha">
+<header>
+  <div class="kicker">Parceria · Espaço de eventos "Kairós" — Praça da República</div>
+  <h1>Check-list do inventário <span style="font-size:10pt;color:var(--fraco)">· 2 de 2 · auditório e mobiliário</span></h1>
+</header>
+<div class="colunas">{p2}</div>
+<div class="cont">Página 2 — {itens_p2} linhas de {total_linhas}.</div>
+
+<div class="assina">
+  <div><div class="risco"></div><div class="r">Gilberto Luis de Sena — p. Espaço Kairós Ltda</div></div>
+  <div><div class="risco"></div><div class="r">p. Motor em Ação Distribuição Ltda</div></div>
+</div>
+
+<div class="nota"><b>{total_linhas} linhas · {total_pecas} peças contadas · {lotes} lotes de
+  cabeamento a detalhar.</b> Lote não tem quantidade fechada: conte e anote na
+  hora, porque item sem número não se cobra depois. Divergência encontrada deve
+  ser anotada no verso e assinada pelos dois no mesmo dia — conferência que fica
+  pra semana seguinte não vale nada.</div>
+
+<footer><span>Check-list do inventário · Parceria "Kairós"</span>
+<span>Página 2 de 2 · {total_linhas} itens · {total_pecas} peças</span></footer>
+</div>
+
+</body></html>"""
+
+
 def markdown_anexo():
     out = ["| # | Item | Qtd. | Marca/modelo | Nº de série | Estado | Valor de reposição |",
            "|---|---|---|---|---|---|---|"]
@@ -361,10 +501,12 @@ def atualizar_resumo_parceria():
 if __name__ == "__main__":
     (AQUI / "inventario.html").write_text(html_completo(), encoding="utf-8")
     (AQUI / "inventario-resumo.html").write_text(html_resumo(), encoding="utf-8")
+    (AQUI / "checklist.html").write_text(html_checklist(), encoding="utf-8")
     (AQUI / "anexo-i.md").write_text(markdown_anexo(), encoding="utf-8")
     atualizar_resumo_parceria()
     print(f"{total_linhas} itens | {total_pecas} pecas | {lotes} lotes")
     print("\nDepois de rodar, regerar os PDFs:")
     print('  inventario.html          -> "Inventario para Parceria.pdf"')
     print('  inventario-resumo.html   -> "Inventario para Parceria - Itens e Quantidades.pdf"')
+    print('  checklist.html           -> "Check-list do Inventario.pdf"')
     print('  resumo.html              -> "Resumo da Parceria - 1 pagina.pdf"')
