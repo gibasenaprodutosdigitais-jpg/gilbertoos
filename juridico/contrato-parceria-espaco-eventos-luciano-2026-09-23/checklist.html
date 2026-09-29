@@ -1,0 +1,105 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Check-list do Inventário</title><link rel='preconnect' href='https://fonts.googleapis.com'><link rel='preconnect' href='https://fonts.gstatic.com' crossorigin><link href='https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap' rel='stylesheet'><style>
+  @page { size:A4; margin:12mm 12mm; }
+  
+  :root{ --papel:#F2F0EB; --tinta:#16161A; --acento:#D6412B;
+         --linha:#C9C5BC; --fraco:#6E6A63; }
+  *{margin:0; padding:0; box-sizing:border-box;}
+  body{ font-family:'Archivo',sans-serif; color:var(--tinta); background:var(--papel);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  header{ border-bottom:2.5pt solid var(--tinta); padding-bottom:7pt; margin-bottom:12pt; }
+  .kicker{ font-size:7.5pt; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
+           color:var(--acento); margin-bottom:5pt; }
+  h1{ font-weight:700; letter-spacing:-.02em; line-height:1.08; }
+  .sub{ color:var(--fraco); margin-top:5pt; max-width:150mm; }
+  h2{ font-weight:700; letter-spacing:.15em; text-transform:uppercase; }
+  table{ width:100%; border-collapse:collapse; }
+  tr, td, th{ page-break-inside:avoid; }
+  thead{ display:table-header-group; }
+  footer{ margin-top:14pt; padding-top:5pt; border-top:.7pt solid var(--linha);
+          font-size:7pt; color:var(--fraco); display:flex; justify-content:space-between; }
+
+  body{ font-size:8.5pt; line-height:1.3; }
+  h1{ font-size:19pt; } .sub{ font-size:8pt; }
+  .folha{ page-break-after:always; }
+  .folha:last-child{ page-break-after:auto; }
+  .legenda{ display:flex; gap:7mm; margin:0 0 8pt; font-size:7.5pt; color:var(--fraco); }
+  .legenda b{ color:var(--tinta); }
+  .colunas{ column-count:2; column-gap:8mm; }
+  section{ break-inside:avoid; page-break-inside:avoid; margin-bottom:7pt; }
+  section.longa{ break-inside:auto; page-break-inside:auto; }
+  section.longa h2{ break-after:avoid; }
+  h2{ font-size:7.5pt; color:var(--acento); margin:0 0 3pt;
+       border-bottom:.7pt solid var(--linha); padding-bottom:2pt; }
+  tbody td{ padding:3pt 2pt; border-bottom:.4pt solid var(--linha);
+             vertical-align:middle; }
+  td.cx{ width:7mm; text-align:center; }
+  .caixa{ display:inline-block; width:4mm; height:4mm;
+           border:.9pt solid var(--tinta); }
+  .qtd{ width:11mm; text-align:right; font-family:'IBM Plex Mono',monospace;
+         font-size:9pt; font-weight:600; padding-right:3pt; }
+  .item{ font-size:8.6pt; font-weight:500; }
+  .item .obs{ color:var(--fraco); font-weight:400; font-size:7pt; }
+  .rodape-cabecalho{ display:flex; gap:6pt; margin-bottom:8pt; }
+  .rodape-cabecalho div{ flex:1; border:.7pt solid var(--linha); padding:5pt 6pt; }
+  .rodape-cabecalho .r{ font-size:6.5pt; font-weight:700; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--fraco); }
+  .rodape-cabecalho .linha{ border-bottom:.7pt solid var(--linha); height:12pt; }
+  .assina{ margin-top:14pt; border-top:2.5pt solid var(--tinta); padding-top:12pt;
+    display:flex; gap:9mm; }
+  .assina div{ flex:1; }
+  .assina .risco{ border-bottom:.9pt solid var(--tinta); height:22pt; }
+  .assina .r{ font-size:7pt; color:var(--fraco); margin-top:4pt; }
+  .nota{ margin-top:11pt; border-left:2.5pt solid var(--acento); padding:5pt 0 5pt 9pt;
+    font-size:7.6pt; line-height:1.45; color:var(--fraco); }
+  .cont{ font-size:7pt; color:var(--fraco); margin-top:5pt; }
+</style></head><body>
+
+<div class="folha">
+<header>
+  <div class="kicker">Parceria · Espaço de eventos "Kairós" — Praça da República</div>
+  <h1>Check-list do inventário <span style="font-size:10pt;color:var(--fraco)">· 1 de 2 · estrutura técnica e auditório</span></h1>
+  <div class="sub">Confira item por item na <b>entrega</b> e de novo na
+    <b>devolução</b>. O que não for ticado nas duas colunas é item a
+    justificar, e a justificativa vale no mesmo dia.</div>
+</header>
+<div class="rodape-cabecalho">
+  <div><div class="r">Data da conferência</div><div class="linha"></div></div>
+  <div><div class="r">Quem conferiu</div><div class="linha"></div></div>
+  <div><div class="r">Local</div><div class="linha"></div></div>
+</div>
+<div class="legenda">
+  <span><b>1ª caixa:</b> entrega</span>
+  <span><b>2ª caixa:</b> devolução</span>
+  <span><b>Qtd.:</b> quantidade que tem que estar lá</span>
+</div>
+<div class="colunas"><section><h2>Painel de LED e projeção</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">12</td><td class="item">Placas de painel de LED</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">Cases para painel de LED</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">12</td><td class="item">Cabos de sinal <span class="obs">(do painel)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">12</td><td class="item">Cabos de energia <span class="obs">(do painel)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Suporte de fixação do painel de LED</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Computador do telão <span class="obs">(CPU)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">TVs de retorno</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Tela interativa</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Suporte para tela interativa</td></tr></tbody></table></section><section><h2>Captação de vídeo</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">3</td><td class="item">Câmeras do auditório</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">3</td><td class="item">Suportes tripé para câmeras</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">3</td><td class="item">Placas de captura de vídeo</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">3</td><td class="item">Cabos HDMI longos</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">Cabos HDMI do palco</td></tr></tbody></table></section><section><h2>Áudio</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Caixa JBL PA <span class="obs">(com tripé)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Caixa JBL menor</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Caixa subwoofer Frahm</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa de som Soundcraft UI16</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa de som NXA MSX Player</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">3</td><td class="item">Microfones bastão</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Base EW135G4 Sennheiser</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">6</td><td class="item">Cabos longos de áudio</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">6</td><td class="item">Cabos de energia <span class="obs">(ligação dos áudios)</span></td></tr></tbody></table></section><section><h2>Iluminação</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">12</td><td class="item">Luzes Par LED</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">4</td><td class="item">Luzes COB ST-MN200BFQ</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa de iluminação</td></tr></tbody></table></section><section><h2>Informática e acessórios</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">Notebooks</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">3</td><td class="item">Teclados</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">Mouses</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">3</td><td class="item">Passadores de slides</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">4</td><td class="item">Baterias AA recarregáveis <span class="obs">(com carregador)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Transformador 220V para 127V</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">lote</td><td class="item">Cabos HDMI avulsos <span class="obs">(lote)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">lote</td><td class="item">Cabos e cabos de energia avulsos <span class="obs">(lote)</span></td></tr></tbody></table></section><section><h2>Auditório</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">20</td><td class="item">Mesas de auditório</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">20</td><td class="item">Forros de mesa de auditório</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">120</td><td class="item">Cadeiras de auditório</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">3</td><td class="item">Palcos</td></tr></tbody></table></section></div>
+<div class="cont">Página 1 — 38 linhas de 68.</div>
+<footer><span>Check-list do inventário · Parceria "Kairós"</span>
+<span>Página 1 de 2</span></footer>
+</div>
+
+<div class="folha">
+<header>
+  <div class="kicker">Parceria · Espaço de eventos "Kairós" — Praça da República</div>
+  <h1>Check-list do inventário <span style="font-size:10pt;color:var(--fraco)">· 2 de 2 · auditório e mobiliário</span></h1>
+</header>
+<div class="colunas"><section class="longa"><h2>Mobiliário de escritório</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Sofá preto <span class="obs">(dois lugares)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa de reunião retangular</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">6</td><td class="item">Cadeiras <span class="obs">(da mesa de reunião)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">10</td><td class="item">Cadeiras brancas com rodas</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">5</td><td class="item">Cadeiras pretas com rodas</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">Jogos de bistrô <span class="obs">(com 8 cadeiras no total)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">8</td><td class="item">Cadeiras de bistrô <span class="obs">(dos jogos acima)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa em L <span class="obs">(para house)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">4</td><td class="item">Mesas com pufes</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">16</td><td class="item">Pufes <span class="obs">(das mesas acima)</span></td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">Mesas pretas retangulares com rodas</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Móvel aparador</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">5</td><td class="item">Escrivaninhas</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">Armários marrons</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">2</td><td class="item">Baias de atendimento duplas</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">7</td><td class="item">Armários médios</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Armário grande</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">7</td><td class="item">Armários arquivo</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa redonda</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa média retangular</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa grande oval cinza jumbo</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Mesa de escritório com escrivaninha</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Armário preto com 6 portas</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Aparador</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Cadeira com rodas</td></tr></tbody></table></section><section><h2>Cortinas</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">8</td><td class="item">Bastões de cortina</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">9</td><td class="item">Cortinas</td></tr></tbody></table></section><section><h2>Eletrodomésticos</h2><table><tbody><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Geladeira</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Geladeira de duas portas</td></tr><tr><td class="cx"><span class="caixa"></span></td><td class="cx"><span class="caixa"></span></td><td class="qtd">1</td><td class="item">Purificador IBBL Vivax</td></tr></tbody></table></section></div>
+<div class="cont">Página 2 — 30 linhas de 68.</div>
+
+<div class="assina">
+  <div><div class="risco"></div><div class="r">Gilberto Luis de Sena — p. Espaço Kairós Ltda</div></div>
+  <div><div class="risco"></div><div class="r">p. Motor em Ação Distribuição Ltda</div></div>
+</div>
+
+<div class="nota"><b>68 linhas · 382 peças contadas · 2 lotes de
+  cabeamento a detalhar.</b> Lote não tem quantidade fechada: conte e anote na
+  hora, porque item sem número não se cobra depois. Divergência encontrada deve
+  ser anotada no verso e assinada pelos dois no mesmo dia — conferência que fica
+  pra semana seguinte não vale nada.</div>
+
+<footer><span>Check-list do inventário · Parceria "Kairós"</span>
+<span>Página 2 de 2 · 68 itens · 382 peças</span></footer>
+</div>
+
+</body></html>
