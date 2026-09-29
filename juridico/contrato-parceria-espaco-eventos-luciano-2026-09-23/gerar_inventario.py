@@ -4,7 +4,14 @@ Gera os dois PDFs do inventario a partir de UMA fonte de dados.
 
 Fonte: "Inventario Gilberto - Republica -SP.pdf", enviado pelo Gilberto em
 29/09/2026. Substitui a lista de 24/09/2026 ("Mini Inventario para Praca
-Rebublica.pdf"), que tinha 57 linhas. Na origem, o numero vem ANTES do item
+Rebublica.pdf"), que tinha 57 linhas e 325 pecas.
+
+Nesta lista algumas quantidades DIMINUIRAM em relacao a de setembro:
+escrivaninhas 6->5, bastoes de cortina 10->8, cortinas 10->9, e sairam o
+armario canto aparador, os conjuntos de mesa com armario aparador e uma das
+caixas de som. O Gilberto confirmou em 29/09/2026 que isso e CORRECAO da
+contagem anterior, nao bem que deixou o espaco. Nao reabrir: a lista de
+29/09 e a boa. Na origem, o numero vem ANTES do item
 (coluna "Q" = quantidade). Grafia normalizada aqui (Parled's -> Par LED,
 caisses -> cases, foros -> forros, Bias -> baias, escrivanias -> escrivaninhas).
 
