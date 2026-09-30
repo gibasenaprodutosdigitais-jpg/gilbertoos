@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>A DRE em 7 passos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   Direção: BAUHAUS
+   A própria direção manda usar em "processo, etapas, estrutura" —
+   e isto é uma cascata de 7 degraus. Ela é a única com três
+   acentos, e a regra é que cada cor signifique UMA coisa na peça
+   inteira. Aqui:
+       AZUL     = o que ENTRA
+       VERMELHO = o que SAI
+       AMARELO  = o que SOBRA
+   Cor nunca é a única informação: a palavra vai junto do bloco.
+
+   Contraste medido no motor/paleta.py:
+     tinta sobre creme .......... 15.27:1
+     creme sobre bloco azul ......5.68:1  (serve em corpo)
+     tinta sobre bloco amarelo .. 10.63:1 (serve em corpo)
+     bloco vermelho ............. 4.09:1  SÓ TEXTO GRANDE — por isso
+       no vermelho entra só título, e o corpo desce pro creme.
+   ============================================================ */
+:root{
+  --papel:#F0EDE4;
+  --tinta:#17171B;
+  --entra:#1B4CE0;
+  --sai:#E63329;
+  --sobra:#F2C200;
+  --creme:#FFF8F0;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#d8d4c8;font-family:'Jost',sans-serif}
+
+.slide{
+  width:1080px;height:1350px;position:relative;overflow:hidden;
+  background:var(--papel);color:var(--tinta);margin:0 auto 40px;
+  display:flex;flex-direction:column;padding:88px 84px 76px;
+}
+
+/* ---------- etiqueta de topo ---------- */
+.topo{display:flex;justify-content:space-between;align-items:center;
+      font-size:17px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+.topo .quem{color:#6E6A63}
+
+/* ---------- o degrau ---------- */
+.degrau{display:flex;align-items:flex-start;gap:30px;margin-top:54px}
+.selo{flex:none;width:132px;height:132px;display:flex;align-items:center;
+      justify-content:center;font-size:72px;font-weight:700;line-height:1}
+.selo.circ{border-radius:50%}
+.tag{display:inline-block;font-size:16px;font-weight:700;letter-spacing:.2em;
+     text-transform:uppercase;padding:7px 16px;margin-bottom:16px}
+h2{font-size:64px;font-weight:700;line-height:1.02;letter-spacing:-.02em;max-width:13ch}
+
+.corpo{font-size:29px;line-height:1.46;margin-top:34px;max-width:24ch;font-weight:400}
+.corpo b{font-weight:600}
+
+.espaco{flex:1}
+
+/* ---------- caixa da pergunta ---------- */
+/* largura em px, nao em ch: 30ch a 26px dava 390px e a caixa virava
+   uma coluna alta e estreita, com 11 linhas pra uma frase */
+.caixa{padding:32px 36px;width:660px;align-self:flex-start;margin-top:52px}
+.caixa .rot{font-size:16px;font-weight:700;letter-spacing:.2em;
+            text-transform:uppercase;display:block;margin-bottom:12px}
+.caixa p{font-size:26px;line-height:1.42;font-weight:500}
+
+/* ---------- a escada: o mapa da cascata ----------
+   Nao e enfeite: mostra os sete degraus inteiros e em qual deles o slide
+   esta. Quem cai no meio do carrossel entende onde entrou. */
+.escada{display:flex;gap:10px;align-items:flex-end;margin-top:26px}
+.escada span{flex:1;display:flex;flex-direction:column;justify-content:flex-end}
+.escada i{display:block;width:100%;background:#DCD7C9}
+.escada .lab{font-size:16px;font-weight:600;color:#9A9488;margin-bottom:10px;
+             text-align:center;line-height:1.18;height:42px;
+             display:flex;align-items:flex-end;justify-content:center}
+.escada .agora .lab{color:var(--tinta);font-weight:700}
+
+/* ---------- capa ---------- */
+.capa{padding:0}
+.capa .banda{position:absolute;inset:0 0 auto 0;height:26px;display:flex}
+.capa .banda i{flex:1}
+.capa .interno{padding:112px 84px 76px;display:flex;flex-direction:column;height:100%}
+.capa h1{font-size:118px;font-weight:700;line-height:.92;letter-spacing:-.045em}
+.capa h1 em{font-style:normal;display:block}
+.capa .sub{font-size:31px;line-height:1.38;margin-top:34px;max-width:19ch;font-weight:400}
+.capa .foto{position:absolute;right:76px;bottom:132px;width:392px;height:392px;
+  border-radius:50%;overflow:hidden;background:var(--entra)}
+.capa .foto img{width:100%;height:100%;object-fit:cover;object-position:center 12%;
+  filter:grayscale(1) contrast(1.12);mix-blend-mode:luminosity;opacity:.96}
+.capa .tri{position:absolute;left:84px;bottom:150px;width:0;height:0;
+  border-left:96px solid transparent;border-right:96px solid transparent;
+  border-bottom:150px solid var(--sobra)}
+
+/* ---------- fechamento ---------- */
+.fim h2{font-size:58px;max-width:16ch}
+.fim .lista{margin-top:52px;display:flex;flex-direction:column;gap:0}
+.fim .lista div{display:flex;gap:20px;align-items:baseline;padding:21px 0;
+  border-bottom:2px solid #DCD7C9;font-size:27px;line-height:1.32}
+.fim .lista div:last-child{border-bottom:0}
+.fim .lista i{font-style:normal;font-weight:700;color:var(--entra);flex:none;width:28px}
+.fim .foto{position:absolute;right:84px;top:168px;width:206px;height:206px;
+  border-radius:50%;overflow:hidden;background:var(--sobra)}
+.fim .foto img{width:100%;height:100%;object-fit:cover;object-position:center 14%;
+  filter:grayscale(1) contrast(1.1);mix-blend-mode:luminosity}
+.fim .arroba{font-size:30px;font-weight:700;color:var(--entra);margin-top:auto;
+  padding-bottom:6px}
+.fim .logo{left:auto;right:84px;bottom:56px;width:80px}
+
+.logo{position:absolute;left:84px;bottom:50px;width:74px}
+
+</style>
+</head>
+<body>
+
+<!-- ===================== 1. CAPA ===================== -->
+<div class="slide capa">
+  <div class="banda"><i style="background:var(--entra)"></i><i style="background:var(--sai)"></i><i style="background:var(--sobra)"></i></div>
+  <div class="interno">
+    <div class="topo"><span>Gestão · Leitura de resultado</span><span class="quem">Gilberto Sena</span></div>
+    <div class="espaco" style="flex:0 0 78px"></div>
+    <h1>A DRE<em>em 7</em><em>passos</em></h1>
+    <div class="sub">Do que entra ao que sobra. Sem contabilês.</div>
+    <div class="espaco"></div>
+  </div>
+  <div class="tri"></div>
+  <div class="foto"><img src="assets/capa.jpg" alt=""></div>
+  <img class="logo" src="assets/logo.png" alt="">
+</div>
+
+<!-- ===================== 2. PASSO 1 ===================== -->
+<div class="slide">
+  <div class="topo"><span>A DRE em 7 passos</span><span class="quem">Passo 1</span></div>
+  <div class="degrau">
+    <div class="selo circ" style="background:var(--entra);color:var(--papel)">1</div>
+    <div>
+      <span class="tag" style="background:var(--entra);color:var(--creme)">Entra</span>
+      <h2>Receita líquida</h2>
+    </div>
+  </div>
+  <p class="corpo">O que sobrou depois de devolução, cancelamento e do imposto
+    que incide sobre a venda. Sempre menos do que você vendeu.</p>
+  <div class="caixa" style="background:var(--sobra)">
+    <span class="rot">A pergunta</span>
+    <p>Cresceu por quê? Mais clientes, preço maior ou mix melhor? Faturamento
+      que sobe sem explicação sobe por sorte. E sorte não se repete.</p>
+  </div>
+  <div class="espaco"></div>
+  <div class="escada">
+    <span class="agora"><span class="lab">Receita</span><i style="height:74px;background:var(--entra)"></i></span>
+    <span><span class="lab">Custo</span><i style="height:22px"></i></span>
+    <span><span class="lab">Margem<br>bruta</span><i style="height:22px"></i></span>
+    <span><span class="lab">Despesas</span><i style="height:22px"></i></span>
+    <span><span class="lab">Margem<br>operac.</span><i style="height:22px"></i></span>
+    <span><span class="lab">Fin. e<br>impostos</span><i style="height:22px"></i></span>
+    <span><span class="lab">Lucro</span><i style="height:22px"></i></span>
+    </div>
+</div>
+
+<!-- ===================== 3. PASSO 2 ===================== -->
+<div class="slide">
+  <div class="topo"><span>A DRE em 7 passos</span><span class="quem">Passo 2</span></div>
+  <div class="degrau">
+    <div class="selo" style="background:var(--sai);color:var(--creme)">2</div>
+    <div>
+      <span class="tag" style="background:var(--sai);color:var(--creme)">Sai</span>
+      <h2>Custo do que foi vendido</h2>
+    </div>
+  </div>
+  <p class="corpo">Matéria-prima, mercadoria, mão de obra direta. Só o que
+    existe <b>porque</b> você vendeu. Se não vendeu nada, esse custo não
+    aparece.</p>
+  <div class="caixa" style="background:var(--sobra)">
+    <span class="rot">A pergunta</span>
+    <p>Subiu porque o fornecedor aumentou, ou porque você deu desconto demais?
+      São doenças diferentes, com remédios diferentes.</p>
+  </div>
+  <div class="espaco"></div>
+  <div class="escada">
+    <span><span class="lab">Receita</span><i style="height:22px;background:var(--entra)"></i></span>
+    <span class="agora"><span class="lab">Custo</span><i style="height:74px;background:var(--sai)"></i></span>
+    <span><span class="lab">Margem<br>bruta</span><i style="height:22px"></i></span>
+    <span><span class="lab">Despesas</span><i style="height:22px"></i></span>
+    <span><span class="lab">Margem<br>operac.</span><i style="height:22px"></i></span>
+    <span><span class="lab">Fin. e<br>impostos</span><i style="height:22px"></i></span>
+    <span><span class="lab">Lucro</span><i style="height:22px"></i></span>
+    </div>
+</div>
+
+<!-- ===================== 4. PASSO 3 ===================== -->
+<div class="slide">
+  <div class="topo"><span>A DRE em 7 passos</span><span class="quem">Passo 3</span></div>
+  <div class="degrau">
+    <div class="selo" style="background:var(--sobra);color:var(--tinta)">3</div>
+    <div>
+      <span class="tag" style="background:var(--sobra);color:var(--tinta)">Sobra</span>
+      <h2>Margem bruta</h2>
+    </div>
+  </div>
+  <p class="corpo">O que sobra depois do custo. É aqui que se descobre se o
+    que você vende <b>se paga sozinho</b>.</p>
+  <div class="caixa" style="background:var(--sai);color:var(--creme)">
+    <span class="rot">O sinal vermelho</span>
+    <p>Margem caindo enquanto o faturamento sobe. Você está vendendo mais e
+      ganhando menos por venda. Trabalho dobrado para andar de lado.</p>
+  </div>
+  <div class="espaco"></div>
+  <div class="escada">
+    <span><span class="lab">Receita</span><i style="height:22px;background:var(--entra)"></i></span>
+    <span><span class="lab">Custo</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span class="agora"><span class="lab">Margem<br>bruta</span><i style="height:74px;background:var(--sobra)"></i></span>
+    <span><span class="lab">Despesas</span><i style="height:22px"></i></span>
+    <span><span class="lab">Margem<br>operac.</span><i style="height:22px"></i></span>
+    <span><span class="lab">Fin. e<br>impostos</span><i style="height:22px"></i></span>
+    <span><span class="lab">Lucro</span><i style="height:22px"></i></span>
+    </div>
+</div>
+
+<!-- ===================== 5. PASSO 4 ===================== -->
+<div class="slide">
+  <div class="topo"><span>A DRE em 7 passos</span><span class="quem">Passo 4</span></div>
+  <div class="degrau">
+    <div class="selo" style="background:var(--sai);color:var(--creme)">4</div>
+    <div>
+      <span class="tag" style="background:var(--sai);color:var(--creme)">Sai</span>
+      <h2>Despesas operacionais</h2>
+    </div>
+  </div>
+  <p class="corpo">Aluguel, salário administrativo, marketing, sistema,
+    contador. Existe mesmo nos meses em que você não vende nada.</p>
+  <div class="caixa" style="background:var(--sobra)">
+    <span class="rot">A pergunta</span>
+    <p>Elas estão crescendo mais rápido que a receita? Quando a despesa corre
+      na frente, a empresa cresce em tamanho e encolhe em lucro.</p>
+  </div>
+  <div class="espaco"></div>
+  <div class="escada">
+    <span><span class="lab">Receita</span><i style="height:22px;background:var(--entra)"></i></span>
+    <span><span class="lab">Custo</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span><span class="lab">Margem<br>bruta</span><i style="height:22px;background:var(--sobra)"></i></span>
+    <span class="agora"><span class="lab">Despesas</span><i style="height:74px;background:var(--sai)"></i></span>
+    <span><span class="lab">Margem<br>operac.</span><i style="height:22px"></i></span>
+    <span><span class="lab">Fin. e<br>impostos</span><i style="height:22px"></i></span>
+    <span><span class="lab">Lucro</span><i style="height:22px"></i></span>
+    </div>
+</div>
+
+<!-- ===================== 6. PASSO 5 ===================== -->
+<div class="slide">
+  <div class="topo"><span>A DRE em 7 passos</span><span class="quem">Passo 5</span></div>
+  <div class="degrau">
+    <div class="selo" style="background:var(--sobra);color:var(--tinta)">5</div>
+    <div>
+      <span class="tag" style="background:var(--sobra);color:var(--tinta)">Sobra</span>
+      <h2>Margem operacional</h2>
+    </div>
+  </div>
+  <p class="corpo">O resultado do seu negócio <b>antes de banco e governo</b>
+    entrarem na conta. É o número mais honesto da DRE, porque mede só o que
+    depende de você.</p>
+  <div class="caixa" style="background:var(--entra);color:var(--creme)">
+    <span class="rot">A leitura</span>
+    <p>Esse degrau mede gestão, não contabilidade. É o retrato do seu
+      processo, da sua produtividade e da sua disciplina.</p>
+  </div>
+  <div class="espaco"></div>
+  <div class="escada">
+    <span><span class="lab">Receita</span><i style="height:22px;background:var(--entra)"></i></span>
+    <span><span class="lab">Custo</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span><span class="lab">Margem<br>bruta</span><i style="height:22px;background:var(--sobra)"></i></span>
+    <span><span class="lab">Despesas</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span class="agora"><span class="lab">Margem<br>operac.</span><i style="height:74px;background:var(--sobra)"></i></span>
+    <span><span class="lab">Fin. e<br>impostos</span><i style="height:22px"></i></span>
+    <span><span class="lab">Lucro</span><i style="height:22px"></i></span>
+    </div>
+</div>
+
+<!-- ===================== 7. PASSO 6 ===================== -->
+<div class="slide">
+  <div class="topo"><span>A DRE em 7 passos</span><span class="quem">Passo 6</span></div>
+  <div class="degrau">
+    <div class="selo" style="background:var(--sai);color:var(--creme)">6</div>
+    <div>
+      <span class="tag" style="background:var(--sai);color:var(--creme)">Sai</span>
+      <h2>Financeiro e impostos</h2>
+    </div>
+  </div>
+  <p class="corpo">Juros que você paga (ou recebe) e o imposto sobre o lucro.
+    Nada disso é operação: é o preço do dinheiro que você tomou e a parte do
+    governo.</p>
+  <div class="caixa" style="background:var(--sobra)">
+    <span class="rot">O alerta</span>
+    <p>É aqui que empresa boa quebra. Operação saudável com dívida cara vira
+      prejuízo sem que o dono entenda o motivo.</p>
+  </div>
+  <div class="espaco"></div>
+  <div class="escada">
+    <span><span class="lab">Receita</span><i style="height:22px;background:var(--entra)"></i></span>
+    <span><span class="lab">Custo</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span><span class="lab">Margem<br>bruta</span><i style="height:22px;background:var(--sobra)"></i></span>
+    <span><span class="lab">Despesas</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span><span class="lab">Margem<br>operac.</span><i style="height:22px;background:var(--sobra)"></i></span>
+    <span class="agora"><span class="lab">Fin. e<br>impostos</span><i style="height:74px;background:var(--sai)"></i></span>
+    <span><span class="lab">Lucro</span><i style="height:22px"></i></span>
+    </div>
+</div>
+
+<!-- ===================== 8. PASSO 7 ===================== -->
+<div class="slide">
+  <div class="topo"><span>A DRE em 7 passos</span><span class="quem">Passo 7</span></div>
+  <div class="degrau">
+    <div class="selo circ" style="background:var(--sobra);color:var(--tinta)">7</div>
+    <div>
+      <span class="tag" style="background:var(--sobra);color:var(--tinta)">Sobra</span>
+      <h2>Lucro líquido</h2>
+    </div>
+  </div>
+  <p class="corpo">O último degrau. Se você só olha para ele, já entende a
+    maior parte da DRE. Mas nunca vai saber <b>por que</b> ele é esse.</p>
+  <div class="caixa" style="background:var(--tinta);color:var(--papel)">
+    <span class="rot" style="color:var(--sobra)">O que ninguém te conta</span>
+    <p>Lucro no papel não paga boleto. Caixa paga. Confundir os dois quebra
+      empresa boa.</p>
+  </div>
+  <div class="espaco"></div>
+  <div class="escada">
+    <span><span class="lab">Receita</span><i style="height:22px;background:var(--entra)"></i></span>
+    <span><span class="lab">Custo</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span><span class="lab">Margem<br>bruta</span><i style="height:22px;background:var(--sobra)"></i></span>
+    <span><span class="lab">Despesas</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span><span class="lab">Margem<br>operac.</span><i style="height:22px;background:var(--sobra)"></i></span>
+    <span><span class="lab">Fin. e<br>impostos</span><i style="height:22px;background:var(--sai)"></i></span>
+    <span class="agora"><span class="lab">Lucro</span><i style="height:74px;background:var(--sobra)"></i></span>
+    </div>
+</div>
+
+<!-- ===================== 9. FECHAMENTO ===================== -->
+<div class="slide fim">
+  <div class="topo"><span>A DRE em 7 passos</span><span class="quem"></span></div>
+  <div class="foto"><img src="assets/fim.jpg" alt=""></div>
+  <div class="espaco" style="flex:0 0 100px"></div>
+  <h2>A DRE não é uma lista de contas. É a história do seu negócio.</h2>
+  <p class="corpo" style="max-width:27ch">Ler o lucro sozinho é ouvir o final
+    da história e achar que entendeu o livro.</p>
+  <div class="lista">
+    <div><i>1</i><span>A receita cresceu? Por quê?</span></div>
+    <div><i>2</i><span>A margem bruta subiu ou caiu? Por quê?</span></div>
+    <div><i>3</i><span>As despesas estão sob controle?</span></div>
+    <div><i>4</i><span>Tem item não recorrente distorcendo o resultado?</span></div>
+    <div><i>5</i><span>O lucro faz sentido com o mês que você viveu?</span></div>
+  </div>
+  <div class="arroba">@gilbertosenaoficial</div>
+  <img class="logo" src="assets/logo.png" alt="">
+</div>
+
+</body>
+</html>
