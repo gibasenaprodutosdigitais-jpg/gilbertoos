@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<title>OCEO — apresentação</title>
+<style>
+  /* ------------------------------------------------------------------
+     Direção: Cartaz de Rua.
+     Papel sujo, letra que estoura a margem e é cortada pela borda,
+     laranja sinal como único acento. Zero arredondamento, zero sombra.
+
+     Três atos pelo fundo:
+       escuro  (o problema)  ->  papel (a solução)  ->  escuro (a marca)
+     O papel entra junto com a sabedoria. É o único motivo da virada.
+     ------------------------------------------------------------------ */
+  :root{
+    --papel:#E8E4DC;
+    --breu:#12110E;
+    --tinta:#0A0A0A;
+    --sinal:#CC4A1E;
+    --claro:#E8E4DC;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:var(--breu)}
+  body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+
+  .cena{position:absolute;inset:0;overflow:hidden;opacity:0}
+  .cena.papel{background:var(--papel);color:var(--tinta)}
+  .cena.breu {background:var(--breu); color:var(--claro)}
+
+  /* grão: é papel de cartaz, não enfeite. fica quase invisível. */
+  .grao{position:absolute;inset:0;pointer-events:none;opacity:.055;
+        background-image:url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'>\
+<filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/></filter>\
+<rect width='220' height='220' filter='url(%23n)'/></svg>")}
+
+  /* a assinatura da peça: a palavra estoura a margem esquerda e é cortada */
+  .palavra{position:absolute;left:0;right:0;
+           font-family:Impact,"Haettenschweiler","Arial Narrow Bold",sans-serif;
+           font-weight:400;text-transform:uppercase;
+           line-height:.80;letter-spacing:-.015em;white-space:nowrap;
+           margin-left:-3.2vw}
+  .palavra.duas{white-space:normal;line-height:.84}
+  .p1{font-size:300px}
+  .p2{font-size:250px}
+  .p3{font-size:205px}
+  .ponto{color:var(--sinal)}
+
+  .linha{position:absolute;left:96px;bottom:118px;max-width:1120px;
+         font-size:38px;line-height:1.42;font-weight:400}
+  .cena.papel .linha{color:#2A2621}
+  .cena.breu  .linha{color:#B9B4AA}
+
+  .rotulo{position:absolute;left:96px;top:84px;font-size:22px;letter-spacing:.26em;
+          text-transform:uppercase;font-weight:700;color:#2A2621}
+
+  /* preço */
+  .preco{position:absolute;left:0;right:0;top:300px;
+         font-family:Impact,sans-serif;font-size:330px;line-height:.8;
+         margin-left:-2vw;letter-spacing:-.02em}
+  .preco .mes{font-family:"Helvetica Neue",sans-serif;font-size:62px;
+              font-weight:400;letter-spacing:0;color:#2A2621}
+
+  /* retrato */
+  .retrato{position:absolute;right:0;top:0;height:1080px;width:820px;
+           object-fit:cover;object-position:46% 20%;filter:grayscale(1) contrast(1.08);
+           -webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 42%)}
+  .nome{position:absolute;left:96px;top:382px;
+        font-family:Impact,sans-serif;font-size:150px;line-height:.86;
+        text-transform:uppercase;letter-spacing:-.01em}
+  .creds{position:absolute;left:100px;top:672px;font-size:34px;line-height:1.8;color:#B9B4AA}
+
+  /* lição */
+  .licao{position:absolute;left:96px;right:96px;top:330px;
+         font-family:Impact,sans-serif;font-size:188px;line-height:.86;
+         text-transform:uppercase;letter-spacing:-.012em}
+
+  /* marca */
+  .logo{position:absolute;left:50%;top:330px;transform:translateX(-50%);width:560px}
+  .assina{position:absolute;left:0;right:0;top:810px;text-align:center;
+          font-size:46px;letter-spacing:.02em;color:var(--claro)}
+  .dominio{position:absolute;left:0;right:0;top:902px;text-align:center;
+           font-size:27px;letter-spacing:.34em;text-transform:uppercase;color:#B9B4AA}
+</style>
+<body></body>
+<script>
+// --------------------------------------------------------------------------
+// O roteiro. Cada cena tem um começo e uma duração em segundos.
+// Nada de texto solto no HTML: a linha do tempo tem que ser calculada.
+// --------------------------------------------------------------------------
+const CENAS = [
+  {ini:0.0,  dur:5.0, fundo:"breu",  tipo:"palavra", classe:"p1", palavra:"No escuro",
+   linha:"É assim que a maioria das empresas é administrada."},
+
+  {ini:5.0,  dur:5.0, fundo:"breu",  tipo:"palavra", classe:"p1", palavra:"Achismo",
+   linha:"O dono decide pelo que sente. O número chega no mês seguinte, só pra confirmar o estrago."},
+
+  {ini:10.0, dur:6.0, fundo:"papel", tipo:"palavra", classe:"p1", palavra:"Sabedoria",
+   linha:"Salomão podia pedir ouro. Pediu sabedoria. O ouro veio junto. Todo empresário faz o contrário."},
+
+  {ini:16.0, dur:5.5, fundo:"papel", tipo:"palavra", classe:"p3 duas", palavra:"O número<br>vem depois",
+   linha:"Primeiro a decisão certa. O número só mostra se ela foi boa."},
+
+  {ini:21.5, dur:4.5, fundo:"papel", tipo:"palavra", classe:"p1", rotulo:"Pilar 1",
+   palavra:"Contábil",
+   linha:"Contabilidade e BI processados aqui dentro. O balanço vira painel."},
+
+  {ini:26.0, dur:4.5, fundo:"papel", tipo:"palavra", classe:"p2", rotulo:"Pilar 2",
+   palavra:"Financeiro",
+   linha:"ERP ligado ao banco. DRE explicada. Reserva de três meses do ponto de equilíbrio."},
+
+  {ini:30.5, dur:4.5, fundo:"papel", tipo:"palavra", classe:"p1", rotulo:"Pilar 3",
+   palavra:"Jurídico",
+   linha:"Advogado consultivo interno. Acesso antes do problema virar processo."},
+
+  {ini:35.0, dur:4.5, fundo:"papel", tipo:"palavra", classe:"p1", rotulo:"Pilar 4",
+   palavra:"Vendas",
+   linha:"Agência e time comercial por dentro. Marketing da empresa e do dono."},
+
+  {ini:39.5, dur:4.5, fundo:"papel", tipo:"palavra", classe:"p1", rotulo:"Pilar 5",
+   palavra:"Formação",
+   linha:"Educação pré-investimento. O sistema prepara o empresário pra investir."},
+
+  {ini:44.0, dur:5.0, fundo:"papel", tipo:"palavra", classe:"p1", palavra:"Um só",
+   linha:"Cinco frentes. Um sistema. Uma mensalidade."},
+
+  {ini:49.0, dur:6.0, fundo:"papel", tipo:"preco"},
+
+  {ini:55.0, dur:6.0, fundo:"breu",  tipo:"retrato"},
+
+  {ini:61.0, dur:5.0, fundo:"breu",  tipo:"licao"},
+
+  {ini:66.0, dur:5.0, fundo:"breu",  tipo:"marca"},
+];
+const TOTAL = 71;
+
+const el = (t, c, h) => { const n = document.createElement(t); if (c) n.className = c;
+                          if (h != null) n.innerHTML = h; return n; };
+const anima = (n, quadros, msDur, msAtraso, curva) =>
+  n.animate(quadros, {duration: msDur, delay: msAtraso, fill: "both",
+                      easing: curva || "cubic-bezier(.16,.84,.26,1)"});
+
+// corte seco entre cenas: a cena acende e apaga de uma vez, sem transição.
+const SECO = [{opacity:0, offset:0}, {opacity:1, offset:0.0001},
+              {opacity:1, offset:0.9999}, {opacity:0, offset:1}];
+
+// a palavra entra deslizando da esquerda e para firme. 200ms, sem suavidade.
+const ENTRA = [{transform:"translateX(-78px)"}, {transform:"translateX(0)"}];
+
+for (const c of CENAS) {
+  const cena = el("section", `cena ${c.fundo}`);
+  anima(cena, SECO, c.dur * 1000 + 120, c.ini * 1000, "linear");
+  cena.appendChild(el("div", "grao"));
+
+  if (c.tipo === "palavra") {
+    if (c.rotulo) {
+      const r = el("div", "rotulo", c.rotulo);
+      anima(r, [{opacity:0},{opacity:1}], 1, c.ini * 1000 + 240, "linear");
+      cena.appendChild(r);
+    }
+    const p = el("div", `palavra ${c.classe}`, c.palavra + '<span class="ponto">.</span>');
+    // centro óptico: um pouco acima do centro geométrico
+    p.style.top = c.classe.includes("duas") ? "300px" : "350px";
+    anima(p, ENTRA, 220, c.ini * 1000);
+    cena.appendChild(p);
+
+    const l = el("div", "linha", c.linha);
+    anima(l, [{opacity:0},{opacity:1}], 1, c.ini * 1000 + 300, "linear");
+    cena.appendChild(l);
+  }
+
+  if (c.tipo === "preco") {
+    const p = el("div", "preco", 'R$ 3.500<span class="mes"> / mês</span>');
+    anima(p, ENTRA, 220, c.ini * 1000);
+    cena.appendChild(p);
+    const l = el("div", "linha",
+      "A equipe equivalente dentro de casa custa R$ 91.387 por mês. " +
+      "Setup de R$ 12.500, uma vez.");
+    anima(l, [{opacity:0},{opacity:1}], 1, c.ini * 1000 + 300, "linear");
+    cena.appendChild(l);
+  }
+
+  if (c.tipo === "retrato") {
+    const img = el("img", "retrato"); img.src = "retrato.jpg";
+    cena.appendChild(img);
+    const n = el("div", "nome", 'Gilberto<br>Sena<span class="ponto">.</span>');
+    anima(n, ENTRA, 220, c.ini * 1000);
+    cena.appendChild(n);
+    const cr = el("div", "creds",
+      "Pós-graduado em Direito Tributário<br>Perito financeiro<br>Grupo Sena");
+    anima(cr, [{opacity:0},{opacity:1}], 1, c.ini * 1000 + 320, "linear");
+    cena.appendChild(cr);
+  }
+
+  if (c.tipo === "licao") {
+    const t = el("div", "licao",
+      'O sistema orienta<span class="ponto">.</span><br>Você decide<span class="ponto">.</span>');
+    anima(t, ENTRA, 220, c.ini * 1000);
+    cena.appendChild(t);
+  }
+
+  if (c.tipo === "marca") {
+    const img = el("img", "logo"); img.src = "logo-oceo.png";
+    anima(img, [{opacity:0},{opacity:1}], 1, c.ini * 1000 + 120, "linear");
+    cena.appendChild(img);
+    const a = el("div", "assina", "Simples. Mais completo.");
+    anima(a, [{opacity:0},{opacity:1}], 1, c.ini * 1000 + 600, "linear");
+    cena.appendChild(a);
+    const d = el("div", "dominio", "www.oceo.com.br");
+    anima(d, [{opacity:0},{opacity:1}], 1, c.ini * 1000 + 1000, "linear");
+    cena.appendChild(d);
+  }
+
+  document.body.appendChild(cena);
+}
+window.TOTAL_MS = TOTAL * 1000;
+</script>
+</html>
