@@ -238,9 +238,9 @@ declara por escrito que o fez.
 
 **9.8. Quebra de sigilo.** O Parceiro que quebrar o sigilo responde por:
 
-- **a)** multa de **R$ 50.000,00 (cinquenta mil reais)** por infração,
-  equivalente ao valor de um programa de mentoria, aplicada por cada evento
-  de quebra;
+- **a)** multa de **R$ 500.000,00 (quinhentos mil reais)** por infração,
+  equivalente a **10 (dez) vezes o valor de um programa de mentoria**,
+  aplicada por cada evento de quebra;
 - **b)** as **perdas e danos que excederem** esse valor, apuradas na forma da
   lei;
 - **c)** a **cessação imediata** do uso ou da divulgação, que pode ser exigida
@@ -249,6 +249,13 @@ declara por escrito que o fez.
 
 **9.8.1.** A multa da alínea "a" é piso, e não teto: recebê-la não impede a
 cobrança do prejuízo real quando ele for maior.
+
+**9.8.2. Por que este valor.** O projeto tem por objetivo declarado a
+captação e o atendimento de **100 (cem) médicos**. A carteira que esta
+parceria constrói vale, portanto, múltiplas vezes o preço de um único
+programa, e a informação sobre ela é o ativo mais sensível do grupo. A multa
+corresponde a dez programas, o que a mantém proporcional ao dano que uma
+quebra de sigilo causaria, e não a um evento isolado.
 
 ---
 
@@ -358,10 +365,13 @@ se sustenta melhor que um valor redondo e alto: ancorar a multa num valor que
 o próprio contrato produz, declarar que ela é piso e não teto, e somar a ela
 o direito de exigir que a divulgação pare na hora.
 
-Foi o que a cláusula 9.8 passou a fazer. Os R$ 50.000 são o valor de um
-programa de mentoria, o que torna o número explicável em juízo, e ele se
-aplica **por evento de quebra**, não uma vez só. Se o prejuízo real for
-maior, cobra-se a diferença.
+Foi o que a cláusula 9.8 passou a fazer. Os R$ 500.000 são dez vezes o valor
+de um programa de mentoria, e a cláusula 9.8.2 diz de onde vem esse múltiplo:
+o projeto mira 100 médicos, então a carteira vale muito mais que uma venda
+avulsa, e a informação sobre ela é o ativo mais sensível do grupo. Número com
+origem declarada se defende; número redondo escolhido no ar, não. A multa se
+aplica **por evento de quebra**, e se o prejuízo real for maior, cobra-se a
+diferença.
 
 Um valor redondo muito acima do prejuízo provável tende a ser contestado, e
 quando é reduzido o que sobra costuma ser menos do que uma multa
