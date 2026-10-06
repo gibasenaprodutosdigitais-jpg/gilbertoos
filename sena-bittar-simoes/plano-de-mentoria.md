@@ -1,6 +1,6 @@
-# Plano de mentoria: Sena e Bittar
+# Plano de mentoria: Sena, Bittar e Simões
 
-**Consultoria e assessoria para médicos** · Stanley Bittar e Gilberto Sena
+**Consultoria e assessoria médica empresarial** · Documento de trabalho dos sócios
 Versão 1 · 06/out/2026
 
 > Documento de trabalho dos dois sócios. É o desenho do programa: o que a
@@ -8,8 +8,12 @@ Versão 1 · 06/out/2026
 > As peças comerciais saem deste documento, não o contrário.
 >
 > **Público:** médico, dentista, biomédico e esteticista, todos donos da
-> própria estrutura. A assinatura da marca hoje fala só em médicos; isso
-> está na lista de decisões da seção 9.
+> própria estrutura.
+>
+> **Nome:** a casa passou a se chamar **Sena, Bittar e Simões** em
+> 06/out/2026, com a entrada de um terceiro sócio. O nome completo dele
+> ainda não está registrado aqui, e por isso a folha de rosto fala em
+> sócios em vez de nomear os três.
 
 ---
 

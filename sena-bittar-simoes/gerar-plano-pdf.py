@@ -1,5 +1,5 @@
 """
-Transforma o plano-de-mentoria.md em PDF na identidade da Sena e Bittar.
+Transforma o plano-de-mentoria.md em PDF na identidade da Sena, Bittar e Simões.
 
 Não tem conversor de markdown instalado nesta máquina, e o documento usa um
 punhado pequeno de marcações: título, parágrafo, tabela, lista, negrito,
@@ -15,7 +15,7 @@ from pathlib import Path
 AQUI = Path(__file__).parent
 ENTRADA = AQUI / "plano-de-mentoria.md"
 HTML_SAIDA = AQUI / "plano-de-mentoria.html"
-PDF_SAIDA = AQUI / "Sena e Bittar - Plano de Mentoria.pdf"
+PDF_SAIDA = AQUI / "Sena, Bittar e Simões - Plano de Mentoria.pdf"
 
 
 def inline(t: str) -> str:
@@ -128,7 +128,7 @@ def converter(md: str) -> str:
 
 
 ESTILO = """
-:root{ --grafite:#1C1C1E; --ouro:#C9A24B; --ouro-escuro:#8C7A4A;
+:root{ --grafite:#0C1A2E; --ouro:#C9A24B; --ouro-escuro:#8C7A4A;
        --tinta:#1A1A1A; --cinza:#5E5E5E; --linha:#DAD6CC; --claro:#F2F0EC; }
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{background:#FFFFFF}
@@ -137,14 +137,13 @@ body{font-family:"Helvetica Neue",Arial,sans-serif;color:var(--tinta);
 .pagina{max-width:760px;margin:0 auto;padding:26px 4px;position:relative;z-index:1}
 .capa{background:var(--grafite);color:var(--claro);padding:48px 44px 42px;
       text-align:center;margin-bottom:26px;position:relative}
-.mono{position:absolute;left:36px;top:50%;transform:translateY(-50%);
-      height:72px;width:auto}
+.mono{display:block;height:58px;width:auto;margin:0 auto 18px}
 .capa .marca{font-family:Georgia,serif;font-size:20px;letter-spacing:.2em;
              color:var(--ouro);margin-bottom:7px}
-.capa .sub{font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:#A8A6A1;
-           padding-top:8px;border-top:1px solid #3C3C3E;display:inline-block;padding-left:14px;padding-right:14px}
+.capa .sub{font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:#9FB0C4;
+           padding-top:8px;border-top:1px solid #2A4062;display:inline-block;padding-left:14px;padding-right:14px}
 .capa h1{font-family:Georgia,serif;font-size:30px;font-weight:400;margin:24px 0 6px}
-.capa .quem{font-size:11px;color:#A8A6A1}
+.capa .quem{font-size:11px;color:#9FB0C4}
 h1,h2,h3,h4{font-family:Georgia,serif;font-weight:400;line-height:1.25}
 h2{font-size:19px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--linha);
    page-break-after:avoid}
@@ -168,7 +167,7 @@ th{background:var(--grafite);color:var(--claro);padding:7px 9px;text-align:left;
 td{border:1px solid var(--linha);padding:7px 9px;vertical-align:top}
 tbody tr:nth-child(even) td{background:#FAF9F6}
 .dagua{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
-       width:300px;z-index:0;pointer-events:none}
+       width:420px;z-index:0;pointer-events:none}
 /* position:fixed se repete em toda folha no PDF do Chromium. Conferi
    descomprimindo os fluxos: as 7 paginas desenham a imagem. */
 .rodape{margin-top:26px;padding-top:9px;border-top:1px solid var(--linha);
@@ -181,18 +180,18 @@ corpo = md.split("---", 1)[1] if md.startswith("# ") else md
 corpo = converter(corpo.lstrip("\n-"))
 
 pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8">
-<title>Plano de Mentoria — Sena e Bittar</title><style>{ESTILO}</style></head><body>
-<img class="dagua" src="ficha-diagnostico/marca-dagua.png" alt="">
+<title>Plano de Mentoria — Sena, Bittar e Simões</title><style>{ESTILO}</style></head><body>
+<img class="dagua" src="marca/sbs-marca-dagua.png" alt="">
 <div class="pagina">
   <div class="capa">
-    <img class="mono" src="ficha-diagnostico/monograma-sb.png" alt="">
-    <div class="marca">SENA E BITTAR</div>
-    <div class="sub">Consultoria e assessoria para médicos</div>
+    <img class="mono" src="marca/sbs-logo.png" alt="">
+    <div class="marca">SENA, BITTAR E SIMÕES</div>
+    <div class="sub">Consultoria e assessoria médica empresarial</div>
     <h1>Plano de mentoria</h1>
-    <div class="quem">Stanley Bittar e Gilberto Sena &nbsp;·&nbsp; versão 1, 06/out/2026</div>
+    <div class="quem">Documento de trabalho dos sócios &nbsp;·&nbsp; versão 2, 06/out/2026</div>
   </div>
   {corpo}
-  <div class="rodape">Sena e Bittar · Documento de trabalho dos sócios · Confidencial</div>
+  <div class="rodape">Sena, Bittar e Simões · Documento de trabalho dos sócios · Confidencial</div>
 </div></body></html>"""
 
 io.open(HTML_SAIDA, "w", encoding="utf-8").write(pagina)
@@ -202,7 +201,7 @@ const path=require('path'); const {chromium}=require('playwright');
 (async()=>{const b=await chromium.launch();const p=await b.newPage();
 await p.goto('file://'+path.join(__dirname,'plano-de-mentoria.html'));
 await p.evaluate(()=>document.fonts.ready);
-await p.pdf({path:path.join(__dirname,'Sena e Bittar - Plano de Mentoria.pdf'),
+await p.pdf({path:path.join(__dirname,'Sena, Bittar e Simões - Plano de Mentoria.pdf'),
   format:'A4',printBackground:true,
   margin:{top:'14mm',bottom:'14mm',left:'15mm',right:'15mm'}});
 await b.close();console.log('PDF ok');})();

@@ -2,16 +2,16 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Ficha de Diagnóstico do Consultório — Sena e Bittar</title>
+<title>Ficha de Diagnóstico do Consultório — Sena, Bittar e Simões</title>
 <style>
   /* --------------------------------------------------------------
-     Identidade da Sena e Bittar, tirada do video de apresentacao:
+     Identidade da Sena, Bittar e Simões, tirada do video de apresentacao:
      azul-noite, ouro, serifa com italico no destaque.
      A marca aqui e tipografica. Quando o arquivo original do
      monograma aparecer, trocar no .marca.
      -------------------------------------------------------------- */
   :root{
-    --noite:#1C1C1E;
+    --noite:#0C1A2E;
     --noite-claro:#2A2A2C;
     --ouro:#C9A24B;
     --ouro-claro:#E4CE97;
@@ -27,13 +27,12 @@
 
   /* ---------- capa ---------- */
   .capa{background:var(--noite);color:#F2EFE8;margin-bottom:20px;position:relative}
-  .mono{position:absolute;left:36px;top:50%;transform:translateY(-50%);
-        height:78px;width:auto}
-  .capa-texto{padding:54px 44px 50px;text-align:center}
+  .mono{display:block;height:62px;width:auto;margin:0 auto 20px}
+  .capa-texto{padding:44px 44px 46px;text-align:center}
   .capa h1{font-family:Georgia,serif;font-size:28px;font-weight:400;
            letter-spacing:-.005em;margin:0 0 8px;line-height:1.18}
   .capa h1 em{color:var(--ouro);font-style:italic}
-  .capa .linha-fina{font-size:11.5px;color:#A8A6A1;max-width:430px;margin:0 auto}
+  .capa .linha-fina{font-size:11.5px;color:#9FB0C4;max-width:430px;margin:0 auto}
 
   /* ---------- avisos ---------- */
   .aviso{border:1px solid var(--linha);border-left:3px solid var(--ouro);
@@ -61,9 +60,9 @@
   .pilar-num{font-size:8.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--ouro)}
   .pilar-nome{font-family:Georgia,serif;font-size:22px;letter-spacing:.07em;
               text-transform:uppercase;margin:3px 0 7px}
-  .pilar-tese{font-family:Georgia,serif;font-size:13px;font-style:italic;color:#CFCCC5}
-  .pilar-mede{margin-top:11px;padding-top:9px;border-top:1px solid #3C3C3E;
-              font-size:9.5px;letter-spacing:.06em;color:#A8A6A1}
+  .pilar-tese{font-family:Georgia,serif;font-size:13px;font-style:italic;color:#C6D2E0}
+  .pilar-mede{margin-top:11px;padding-top:9px;border-top:1px solid #2A4062;
+              font-size:9.5px;letter-spacing:.06em;color:#9FB0C4}
   .pilar-mede b{color:var(--ouro-claro);letter-spacing:.14em;text-transform:uppercase;
                 font-size:8.5px}
 
@@ -97,7 +96,7 @@
   /* ---------- fecho ---------- */
   .fecho{background:var(--noite);color:#F2EFE8;padding:18px 28px;margin-top:18px;
          text-align:center}
-  .fecho p{font-family:Georgia,serif;font-style:italic;font-size:13px;color:#CFCCC5}
+  .fecho p{font-family:Georgia,serif;font-style:italic;font-size:13px;color:#C6D2E0}
   .fecho .assina{margin-top:13px;font-size:8.5px;letter-spacing:.26em;
                  text-transform:uppercase;color:var(--ouro)}
   /* marca d'agua: uma por folha, atras do conteudo.
@@ -106,7 +105,7 @@
   .folha{position:relative;z-index:0}
   .folha > *:not(.dagua){position:relative;z-index:1}
   .dagua{position:absolute;top:56%;left:50%;transform:translate(-50%,-50%);
-         width:300px;z-index:0;pointer-events:none}
+         width:430px;z-index:0;pointer-events:none}
 
   .rodape{margin-top:12px;padding-top:8px;border-top:1px solid var(--linha);
           font-size:8.5px;color:#9A9A9A;text-align:center;letter-spacing:.04em}
@@ -116,8 +115,8 @@
 <div class="pagina">
 
 <div class="capa">
-  <img class="mono" src="monograma-sb.png" alt="">
   <div class="capa-texto">
+    <img class="mono" src="../marca/sbs-logo.png" alt="">
     <h1>Onde o seu consultório<br><em>perde dinheiro</em></h1>
     <div class="linha-fina">Ficha de diagnóstico dos quatro pilares. Aplicada no
       primeiro encontro, antes de qualquer plano.</div>
@@ -131,11 +130,11 @@
   dois mentores presentes.
   <br><br>
   <b>Sigilo.</b> Tudo o que está escrito aqui é confidencial entre o
-  profissional e a Sena e Bittar, e não sai desta sala sem autorização dele.
+  profissional e a Sena, Bittar e Simões, e não sai desta sala sem autorização dele.
 </div>
 
 <div class="bloco folha" style="padding-top:2px">
-  <img class="dagua" src="marca-dagua.png" alt="">
+  <img class="dagua" src="../marca/sbs-marca-dagua.png" alt="">
   <div class="bloco-titulo">Quem está na frente</div>
   <div class="linha-campos">
     <div class="campo"><label>Nome</label><div class="risco"></div></div>
@@ -180,7 +179,7 @@
 
 <!-- ================= PILAR 01 ================= -->
 <div class="pilar folha">
-  <img class="dagua" src="marca-dagua.png" alt="">
+  <img class="dagua" src="../marca/sbs-marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Pilar 01 de 04</div>
     <div class="pilar-nome">Gestão</div>
@@ -216,7 +215,7 @@
 
 <!-- ================= PILAR 02 ================= -->
 <div class="pilar folha">
-  <img class="dagua" src="marca-dagua.png" alt="">
+  <img class="dagua" src="../marca/sbs-marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Pilar 02 de 04</div>
     <div class="pilar-nome">Marketing</div>
@@ -249,7 +248,7 @@
 
 <!-- ================= PILAR 03 ================= -->
 <div class="pilar folha">
-  <img class="dagua" src="marca-dagua.png" alt="">
+  <img class="dagua" src="../marca/sbs-marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Pilar 03 de 04</div>
     <div class="pilar-nome">Vendas</div>
@@ -281,7 +280,7 @@
 
 <!-- ================= PILAR 04 ================= -->
 <div class="pilar folha">
-  <img class="dagua" src="marca-dagua.png" alt="">
+  <img class="dagua" src="../marca/sbs-marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Pilar 04 de 04</div>
     <div class="pilar-nome">Lucratividade</div>
@@ -319,7 +318,7 @@
 
 <!-- ================= NUMEROS E DOCUMENTOS ================= -->
 <div class="pilar folha">
-  <img class="dagua" src="marca-dagua.png" alt="">
+  <img class="dagua" src="../marca/sbs-marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Fecho do encontro</div>
     <div class="pilar-nome">Linha de partida</div>
@@ -361,16 +360,16 @@
 
   <div class="linha-campos" style="margin-top:20px">
     <div class="campo"><label>Assinatura do profissional</label><div class="risco"></div></div>
-    <div class="campo"><label>Pela Sena e Bittar</label><div class="risco"></div></div>
+    <div class="campo"><label>Pela Sena, Bittar e Simões</label><div class="risco"></div></div>
   </div>
 
   <div class="fecho">
     <p>“A agenda lota. O caixa não acompanha.”</p>
-    <div class="assina">Stanley Bittar &nbsp;·&nbsp; Gilberto Sena</div>
+    <div class="assina">Sena &nbsp;·&nbsp; Bittar &nbsp;·&nbsp; Simões</div>
   </div>
 
   <div class="rodape">
-    Sena e Bittar · Consultoria e assessoria para médicos · Documento confidencial
+    Sena, Bittar e Simões · Consultoria e assessoria para médicos · Documento confidencial
   </div>
 </div>
 

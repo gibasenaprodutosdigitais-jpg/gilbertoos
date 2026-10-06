@@ -3,7 +3,7 @@
 Aplicada no primeiro encontro da mentoria, antes de qualquer plano. Sai da
 seção 4 do `plano-de-mentoria.md`.
 
-**Entregável:** `Sena e Bittar - Ficha de Diagnostico.pdf`, 7 páginas A4.
+**Entregável:** `Sena, Bittar e Simões - Ficha de Diagnostico.pdf`, 7 páginas A4.
 Capa, identificação, uma página por pilar e a folha de fecho com a linha de
 partida.
 
@@ -37,7 +37,7 @@ Dois arquivos, os dois tirados da foto da fachada que o Gilberto mandou em
   opacidade de 8,5% **assada no arquivo**. Não use `opacity` no CSS junto com
   `z-index` negativo: isso vira grupo de transparência no PDF e nem todo
   leitor compõe igual.
-- **`logo-sena-e-bittar.jpg`** foi a capa até 06/out/2026, tirada da foto da
+- **`logo-sena-bittar-simoes.jpg`** foi a capa até 06/out/2026, tirada da foto da
   fachada. O Gilberto pediu pra tirar. Fica no arquivo caso volte a servir.
 
 O recorte usa a própria luz da foto como máscara. O metal é claro, o mármore

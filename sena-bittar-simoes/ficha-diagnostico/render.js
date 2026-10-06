@@ -7,7 +7,7 @@ const { chromium } = require('playwright');
   await p.goto('file://' + path.join(dir, 'ficha-diagnostico.html'));
   await p.evaluate(() => document.fonts.ready);
   await p.pdf({
-    path: path.join(dir, 'Sena e Bittar - Ficha de Diagnostico.pdf'),
+    path: path.join(dir, 'Sena, Bittar e Simoes - Ficha de Diagnostico.pdf'),
     format: 'A4', printBackground: true,
     margin: { top: '11mm', bottom: '11mm', left: '13mm', right: '13mm' },
   });
