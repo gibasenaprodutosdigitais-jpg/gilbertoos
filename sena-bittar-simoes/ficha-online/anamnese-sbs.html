@@ -1,0 +1,387 @@
+<title>Diagnóstico do Consultório SBS</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Archivo:wght@400;500;600&display=swap">
+<style>
+  /* Identidade Sena, Bittar e Simões: azul-noite e ouro, serifa de alto
+     contraste no título. Mundo único e escuro, de propósito: é a cor da
+     marca, e o formulário é peça dela. */
+  :root{
+    --noite:#0C1A2E;
+    --noite-fundo:#081421;
+    --carta:#112741;
+    --tinta:#EEF2F7;
+    --tinta-fraca:#9FB0C4;
+    --ouro:#C9A24B;
+    --ouro-claro:#E4CE97;
+    --borda:#23405F;
+    --erro:#E8927C;
+    --ok:#7FC8A0;
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--noite-fundo); color:var(--tinta);
+    font-family:Archivo,"Helvetica Neue",Arial,sans-serif;
+    font-size:16px; line-height:1.6;
+    padding-block:0; padding-left:16px; padding-right:16px;
+  }
+  .folha{max-width:760px;margin:0 auto;padding-block:0 64px}
+
+  header.capa{
+    background:var(--noite); border:1px solid var(--borda);
+    margin:28px 0 24px; padding:40px 28px 34px; text-align:center;
+  }
+  .marca{
+    font-family:"Cormorant Garamond",Georgia,serif; font-size:30px;
+    letter-spacing:.2em; color:var(--ouro); margin:0 0 6px;
+  }
+  .marca-sub{
+    font-size:10px; letter-spacing:.26em; text-transform:uppercase;
+    color:var(--tinta-fraca); border-top:1px solid var(--borda);
+    display:inline-block; padding:8px 14px 0; margin:0 0 22px;
+  }
+  h1{
+    font-family:"Cormorant Garamond",Georgia,serif; font-weight:600;
+    font-size:clamp(28px,6vw,38px); line-height:1.15; margin:0 0 10px;
+    text-wrap:balance;
+  }
+  h1 em{color:var(--ouro);font-style:italic}
+  .capa p{margin:0;color:var(--tinta-fraca);font-size:15px;max-width:44ch;
+          margin-inline:auto}
+
+  .aviso{
+    border:1px solid var(--borda); border-left:3px solid var(--ouro);
+    padding:16px 18px; margin:0 0 30px; font-size:14px; color:#C8D4E2;
+  }
+  .aviso b{color:var(--tinta)}
+
+  section.pilar{margin:0 0 34px}
+  .pilar-topo{
+    background:var(--noite); border:1px solid var(--borda);
+    padding:18px 22px; margin:0 0 20px;
+  }
+  .pilar-num{font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+             color:var(--ouro);font-weight:600}
+  .pilar-nome{font-family:"Cormorant Garamond",Georgia,serif;font-size:26px;
+              letter-spacing:.06em;text-transform:uppercase;margin:2px 0 6px}
+  .pilar-tese{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;
+              font-size:17px;color:#C8D4E2;margin:0}
+  .pilar-conduz{margin-top:12px;padding-top:10px;border-top:1px solid var(--borda);
+                font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+                color:var(--tinta-fraca)}
+  .pilar-conduz b{color:var(--ouro-claro)}
+
+  .campo{margin:0 0 22px}
+  label{display:block;font-size:15px;font-weight:500;margin:0 0 8px;color:var(--tinta)}
+  .num{color:var(--ouro);font-variant-numeric:tabular-nums;margin-right:8px;
+       font-weight:600}
+  .dica{display:block;font-size:13px;color:var(--tinta-fraca);font-weight:400;
+        margin-top:3px}
+  input[type=text], textarea, select{
+    width:100%; background:var(--carta); color:var(--tinta);
+    border:1px solid var(--borda); border-radius:0; padding:11px 13px;
+    font-family:inherit; font-size:15px; line-height:1.5;
+  }
+  textarea{min-height:76px;resize:vertical}
+  input:focus-visible, textarea:focus-visible, select:focus-visible,
+  button:focus-visible{outline:2px solid var(--ouro);outline-offset:2px}
+  .dupla{display:flex;gap:14px;flex-wrap:wrap}
+  .dupla > *{flex:1 1 220px;min-width:0}
+
+  .escolhas{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
+  .escolha{
+    display:inline-flex;align-items:center;gap:8px;background:var(--carta);
+    border:1px solid var(--borda);padding:9px 14px;font-size:14px;cursor:pointer;
+  }
+  .escolha input{accent-color:var(--ouro)}
+  .escolha:hover{border-color:var(--ouro)}
+
+  #estetica[hidden]{display:none!important}
+  #estetica{border:1px solid var(--ouro);padding:18px;margin-top:6px}
+  .selo{font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+        color:var(--ouro);font-weight:600;margin-bottom:10px}
+
+  .acoes{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:30px}
+  button{
+    font-family:inherit;font-size:15px;font-weight:600;letter-spacing:.04em;
+    padding:14px 28px;border:1px solid var(--ouro);background:var(--ouro);
+    color:#15202E;cursor:pointer;
+  }
+  button:hover{background:var(--ouro-claro);border-color:var(--ouro-claro)}
+  button.vazio{background:transparent;color:var(--ouro)}
+  button.vazio:hover{background:rgba(201,162,75,.12)}
+  button[disabled]{opacity:.5;cursor:default}
+
+  .recado{margin-top:18px;padding:16px 18px;border:1px solid var(--borda);
+          font-size:14px;display:none}
+  .recado.ver{display:block}
+  .recado.bom{border-color:var(--ok);color:var(--ok)}
+  .recado.ruim{border-color:var(--erro);color:var(--erro)}
+  .recado pre{white-space:pre-wrap;word-break:break-word;color:var(--tinta);
+              font-family:inherit;font-size:14px;margin:12px 0 0;
+              max-height:260px;overflow:auto;border-top:1px solid var(--borda);
+              padding-top:12px}
+
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--borda);
+         font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+         color:var(--tinta-fraca);text-align:center}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="folha">
+  <header class="capa">
+    <div class="marca">SBS</div>
+    <div class="marca-sub">Sena, Bittar e Simões</div>
+    <h1>Onde o seu consultório <em>perde dinheiro</em></h1>
+    <p>Diagnóstico dos quatro pilares. Leva cerca de 15 minutos e é o ponto
+       de partida da mentoria.</p>
+  </header>
+
+  <div class="aviso">
+    <b>Responda do jeito que é hoje, não do jeito que deveria ser.</b>
+    Resposta aproximada vale mais que resposta bonita, e "não sei" é uma
+    resposta legítima: saber que não se sabe já é diagnóstico.
+    <br><br>
+    <b>Sigilo.</b> O que você escrever aqui fica entre você e a Sena, Bittar
+    e Simões.
+  </div>
+
+  <form id="formulario" novalidate>
+    <section class="pilar">
+      <div class="pilar-topo">
+        <div class="pilar-num">Identificação</div>
+        <div class="pilar-nome">Quem está na frente</div>
+      </div>
+      <div class="campo dupla">
+        <div><label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" autocomplete="name"></div>
+        <div><label for="registro">Registro profissional
+          <span class="dica">CRM, CRO, CRBM</span></label>
+          <input type="text" id="registro" name="registro"></div>
+      </div>
+      <div class="campo dupla">
+        <div><label for="clinica">Nome da clínica ou consultório</label>
+          <input type="text" id="clinica" name="clinica"></div>
+        <div><label for="contato">WhatsApp ou e-mail</label>
+          <input type="text" id="contato" name="contato"></div>
+      </div>
+      <div class="campo">
+        <label for="especialidade">Especialidade e principais procedimentos</label>
+        <input type="text" id="especialidade" name="especialidade">
+      </div>
+      <div class="campo dupla">
+        <div><label for="tempo">Tempo de consultório</label>
+          <input type="text" id="tempo" name="tempo"></div>
+        <div><label for="equipe">Pessoas na equipe</label>
+          <input type="text" id="equipe" name="equipe"></div>
+        <div><label for="regime">Regime tributário atual</label>
+          <input type="text" id="regime" name="regime"></div>
+      </div>
+      <div class="campo">
+        <label>Perfil</label>
+        <div class="escolhas" id="perfil">
+          <label class="escolha"><input type="radio" name="perfil" value="Médico">Médico</label>
+          <label class="escolha"><input type="radio" name="perfil" value="Dentista">Dentista</label>
+          <label class="escolha"><input type="radio" name="perfil" value="Biomédico">Biomédico</label>
+          <label class="escolha"><input type="radio" name="perfil" value="Esteticista">Esteticista</label>
+          <label class="escolha"><input type="radio" name="perfil" value="Outro profissional de saúde">Outro</label>
+        </div>
+      </div>
+      <div class="campo">
+        <label>Faz procedimento com finalidade estética?</label>
+        <div class="escolhas" id="faz-estetica">
+          <label class="escolha"><input type="radio" name="faz_estetica" value="Não">Não</label>
+          <label class="escolha"><input type="radio" name="faz_estetica" value="Sim, uma parte">Sim, uma parte</label>
+          <label class="escolha"><input type="radio" name="faz_estetica" value="Sim, é o principal">Sim, é o principal</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="pilar">
+      <div class="pilar-topo">
+        <div class="pilar-num">Pilar 01 de 04</div>
+        <div class="pilar-nome">Gestão</div>
+        <p class="pilar-tese">A base. O resto se apoia nela.</p>
+        <div class="pilar-conduz">Conduz <b>Sena</b> · gestão de negócios, contábil, tributária e pessoal</div>
+      </div>
+      <div class="campo"><label for="q1"><span class="num">01</span>A conta da clínica e a sua conta pessoal são a mesma conta?
+        <span class="dica">Com que frequência uma paga a despesa da outra?</span></label>
+        <textarea id="q1" name="q1"></textarea></div>
+      <div class="campo"><label for="q2"><span class="num">02</span>Sem abrir nada agora: quanto sobrou no mês passado, depois de imposto e da sua retirada?</label>
+        <textarea id="q2" name="q2"></textarea></div>
+      <div class="campo"><label for="q3"><span class="num">03</span>Qual é o seu regime tributário hoje, e quem decidiu por ele?</label>
+        <textarea id="q3" name="q3"></textarea></div>
+      <div class="campo"><label for="q4"><span class="num">04</span>Você tem pró-labore definido, ou tira conforme o caixa permite?</label>
+        <textarea id="q4" name="q4"></textarea></div>
+      <div class="campo"><label for="q5"><span class="num">05</span>Quanto do seu faturamento vem de convênio e quanto vem de particular?</label>
+        <textarea id="q5" name="q5"></textarea></div>
+      <div class="campo"><label for="q6"><span class="num">06</span>Quem fecha o mês, até que dia, e em que lugar esse número fica guardado?</label>
+        <textarea id="q6" name="q6"></textarea></div>
+    </section>
+
+    <section class="pilar">
+      <div class="pilar-topo">
+        <div class="pilar-num">Pilar 02 de 04</div>
+        <div class="pilar-nome">Marketing</div>
+        <p class="pilar-tese">O paciente certo precisa te encontrar.</p>
+        <div class="pilar-conduz">Conduz <b>Bittar</b> · médico estrategista, marketing e vendas</div>
+      </div>
+      <div class="campo"><label for="q7"><span class="num">07</span>Quando alguém te indica, o que a pessoa diz sobre você?
+        <span class="dica">Por qual procedimento você é lembrado?</span></label>
+        <textarea id="q7" name="q7"></textarea></div>
+      <div class="campo"><label for="q8"><span class="num">08</span>De onde veio cada paciente novo do mês passado? Você sabe ou chuta?</label>
+        <textarea id="q8" name="q8"></textarea></div>
+      <div class="campo"><label for="q9"><span class="num">09</span>Quem responde a primeira mensagem do paciente, e em quanto tempo?</label>
+        <textarea id="q9" name="q9"></textarea></div>
+      <div class="campo"><label for="q10"><span class="num">10</span>O que já existe hoje de presença: perfil, site, avaliação de paciente, colega que encaminha?</label>
+        <textarea id="q10" name="q10"></textarea></div>
+      <div class="campo"><label for="q11"><span class="num">11</span>Alguma vez você deixou de publicar alguma coisa por dúvida sobre a regra do conselho?</label>
+        <textarea id="q11" name="q11"></textarea></div>
+    </section>
+
+    <section class="pilar">
+      <div class="pilar-topo">
+        <div class="pilar-num">Pilar 03 de 04</div>
+        <div class="pilar-nome">Vendas</div>
+        <p class="pilar-tese">Consulta marcada ainda não é paciente tratado.</p>
+        <div class="pilar-conduz">Conduz <b>Bittar</b></div>
+      </div>
+      <div class="campo"><label for="q12"><span class="num">12</span>De cada dez orçamentos que você apresenta, quantos viram tratamento?</label>
+        <textarea id="q12" name="q12"></textarea></div>
+      <div class="campo"><label for="q13"><span class="num">13</span>Como o orçamento é apresentado hoje: por você, pela recepção, por mensagem?</label>
+        <textarea id="q13" name="q13"></textarea></div>
+      <div class="campo"><label for="q14"><span class="num">14</span>O que acontece com o paciente que ouviu o orçamento e não voltou?
+        <span class="dica">Alguém procura ele de novo, ou o orçamento morre sozinho?</span></label>
+        <textarea id="q14" name="q14"></textarea></div>
+      <div class="campo"><label for="q15"><span class="num">15</span>Quanto do seu faturamento vem de paciente que já era seu?</label>
+        <textarea id="q15" name="q15"></textarea></div>
+      <div class="campo"><label for="q16"><span class="num">16</span>Existe recall? Quem chama o paciente de volta, e de quanto em quanto tempo?</label>
+        <textarea id="q16" name="q16"></textarea></div>
+    </section>
+
+    <section class="pilar">
+      <div class="pilar-topo">
+        <div class="pilar-num">Pilar 04 de 04</div>
+        <div class="pilar-nome">Lucratividade</div>
+        <p class="pilar-tese">Faturar mais e lucrar mais são contas diferentes.</p>
+        <div class="pilar-conduz">Conduz <b>Simões</b> · finanças, e explicar o Smart Money</div>
+      </div>
+      <div class="campo"><label for="q17"><span class="num">17</span>Qual dos seus procedimentos dá mais margem? E qual você mais faz?
+        <span class="dica">Se as duas respostas forem diferentes, está achada a primeira correção.</span></label>
+        <textarea id="q17" name="q17"></textarea></div>
+      <div class="campo"><label for="q18"><span class="num">18</span>Há quanto tempo você não reajusta preço?</label>
+        <textarea id="q18" name="q18"></textarea></div>
+      <div class="campo"><label for="q19"><span class="num">19</span>Quanto vale uma hora sua, contando também a hora em que você não atende?</label>
+        <textarea id="q19" name="q19"></textarea></div>
+      <div class="campo"><label for="q20"><span class="num">20</span>Se a sua agenda dobrasse amanhã, o que quebraria primeiro?</label>
+        <textarea id="q20" name="q20"></textarea></div>
+
+      <div id="estetica" hidden>
+        <div class="selo">Só para quem faz estética</div>
+        <div class="campo" style="margin:0">
+          <label for="q21"><span class="num">21</span>Dos seus procedimentos, quais têm finalidade terapêutica e quais são de embelezamento?
+            <span class="dica">Como cada um aparece hoje na descrição da nota fiscal? A classificação decide a sua conta de imposto.</span></label>
+          <textarea id="q21" name="q21"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <div class="acoes">
+      <button type="submit" id="enviar">Enviar diagnóstico</button>
+      <button type="button" class="vazio" id="copiar">Copiar respostas</button>
+    </div>
+    <div class="recado" id="recado" role="status" aria-live="polite"></div>
+  </form>
+
+  <footer>Sena, Bittar e Simões · Consultoria e assessoria médica empresarial</footer>
+</div>
+
+<script>
+(function(){
+  const form = document.getElementById("formulario");
+  const recado = document.getElementById("recado");
+  const botao = document.getElementById("enviar");
+  const estetica = document.getElementById("estetica");
+  let banco = null;
+
+  // a pergunta 21 só existe pra quem faz estética
+  document.getElementById("faz-estetica").addEventListener("change", function(e){
+    estetica.hidden = (e.target.value === "Não");
+  });
+
+  function respostas(){
+    const d = new FormData(form), o = {};
+    for (const [k,v] of d.entries()) o[k] = String(v).trim();
+    if (estetica.hidden) delete o.q21;
+    return o;
+  }
+
+  function comoTexto(o){
+    const rot = {nome:"Nome", registro:"Registro", clinica:"Clínica",
+      contato:"Contato", especialidade:"Especialidade", tempo:"Tempo de consultório",
+      equipe:"Equipe", regime:"Regime tributário", perfil:"Perfil",
+      faz_estetica:"Faz estética"};
+    const linhas = ["DIAGNÓSTICO DO CONSULTÓRIO — SENA, BITTAR E SIMÕES",""];
+    for (const k in rot) if (o[k]) linhas.push(rot[k] + ": " + o[k]);
+    linhas.push("");
+    form.querySelectorAll("textarea").forEach(function(t){
+      if (!o[t.name]) return;
+      const l = t.closest(".campo").querySelector("label");
+      const p = l.cloneNode(true);
+      const dica = p.querySelector(".dica"); if (dica) dica.remove();
+      linhas.push(p.textContent.trim(), o[t.name], "");
+    });
+    return linhas.join("\n");
+  }
+
+  function mostrar(classe, html){
+    recado.className = "recado ver " + classe;
+    recado.innerHTML = html;
+  }
+
+  claude.use("db").then(function(d){ banco = d; }).catch(function(){ banco = null; });
+
+  form.addEventListener("submit", async function(ev){
+    ev.preventDefault();
+    const o = respostas();
+    if (!o.nome){
+      mostrar("ruim", "Escreva pelo menos o seu nome antes de enviar.");
+      document.getElementById("nome").focus();
+      return;
+    }
+    botao.disabled = true;
+    const registro = Object.assign({}, o, {
+      enviado_em: new Date().toISOString(),
+      versao: "ficha-sbs-1"
+    });
+    try{
+      if (!banco) throw new Error("sem banco");
+      const id = "r-" + Date.now().toString(36) + "-" +
+                 Math.random().toString(36).slice(2,7);
+      await banco.collection("respostas").doc(id).set(registro);
+      mostrar("bom", "<b>Recebemos.</b> A Sena, Bittar e Simões entra em " +
+        "contato para marcar o primeiro encontro. Pode fechar esta página.");
+      form.querySelectorAll("input,textarea,button").forEach(function(e){
+        e.disabled = true;
+      });
+    }catch(e){
+      botao.disabled = false;
+      mostrar("ruim", "<b>Não consegui gravar daqui.</b> Copie o texto abaixo " +
+        "e mande no WhatsApp da Sena, Bittar e Simões. Nada do que você " +
+        "escreveu se perdeu.<pre>" +
+        comoTexto(o).replace(/[&<>]/g, function(c){
+          return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]; }) + "</pre>");
+    }
+  });
+
+  document.getElementById("copiar").addEventListener("click", function(){
+    const texto = comoTexto(respostas());
+    navigator.clipboard.writeText(texto).then(function(){
+      mostrar("bom", "Respostas copiadas. Pode colar no WhatsApp.");
+    }).catch(function(){
+      mostrar("ruim", "Não consegui copiar. Selecione o texto abaixo à mão." +
+        "<pre>" + texto.replace(/[&<>]/g, function(c){
+          return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]; }) + "</pre>");
+    });
+  });
+})();
+</script>
