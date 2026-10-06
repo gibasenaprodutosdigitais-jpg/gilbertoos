@@ -21,31 +21,26 @@ a única zona cinzenta entre os quatro públicos. Ver a seção 8 do plano.
 
 ## A marca
 
-Dois arquivos, os dois tirados da foto da fachada que o Gilberto mandou em
-06/out/2026:
+Os arquivos da marca vivem em `../marca/` desde a troca de nome em
+06/out/2026. A ficha usa dois deles:
 
-- **`monograma-sb.png`** é a marca em si, recortada do arquivo que o Gilberto
-  mandou em 06/out/2026. O original vinha em fundo branco chapado, e o
-  prateado da letra também é claro, então cortar por limiar comeria o metal.
-  Recortar por limiar comeria o metal, e preencher só a partir das bordas
-  deixava o branco preso dentro dos vazados das letras. O que funcionou foi
-  marcar o branco neutro e chapado (mínimo acima de 238, variação entre
-  canais abaixo de 7) e apagar só as manchas ligadas maiores que 900 pixels.
-  Assim some o fundo de fora e o de dentro dos vazados, e o brilho pontual do
-  prateado fica. Entra à esquerda da faixa de abertura, nos dois documentos.
-- **`marca-dagua.png`** é o mesmo monograma virado em silhueta grafite, com a
-  opacidade de 8,5% **assada no arquivo**. Não use `opacity` no CSS junto com
-  `z-index` negativo: isso vira grupo de transparência no PDF e nem todo
-  leitor compõe igual.
-- **`logo-sena-bittar-simoes.jpg`** foi a capa até 06/out/2026, tirada da foto da
-  fachada. O Gilberto pediu pra tirar. Fica no arquivo caso volte a servir.
+- **`../marca/sbs-logo.png`** — o monograma SBS recortado do render 3D,
+  centralizado acima do título da faixa de abertura.
+- **`../marca/sbs-marca-dagua.png`** — o mesmo monograma em silhueta
+  azulada, com a opacidade de 9,5% gravada no arquivo, a 580px no meio de
+  cada folha.
 
-O recorte usa a própria luz da foto como máscara. O metal é claro, o mármore
-é escuro, então um corte duro de luminância separa os dois sem deixar resto
-de fundo.
+O SBS é largo (2,2:1). Como marca d'água numa folha retrato ele precisa de
+mais largura e um pouco mais de corpo que o monograma quadrado que havia
+antes, senão vira borrão em vez de marca.
 
-**Se aparecer o arquivo original** (vetor, ou PNG com fundo transparente),
-trocar. A capa fica mais limpa e a marca pode ir menor sem perder nitidez.
+**Não use `opacity` no CSS junto com `z-index` negativo:** isso vira grupo de
+transparência no PDF e nem todo leitor compõe igual. A opacidade vai assada
+no arquivo de imagem.
+
+Nesta pasta ainda estão `monograma-sb.png`, `marca-dagua.png` e
+`logo-sena-e-bittar.jpg`, da época em que a casa era Sena e Bittar. Nenhum é
+usado; ficam como histórico.
 
 ## Cor
 
