@@ -10,10 +10,9 @@ Versão 1 · 06/out/2026
 > **Público:** médico, dentista, biomédico e esteticista, todos donos da
 > própria estrutura.
 >
-> **Nome:** a casa passou a se chamar **Sena, Bittar e Simões** em
-> 06/out/2026, com a entrada de um terceiro sócio. O nome completo dele
-> ainda não está registrado aqui, e por isso a folha de rosto fala em
-> sócios em vez de nomear os três.
+> **Sócios:** Gilberto Sena, Stanley Bittar e Will Simões. A casa passou a
+> se chamar **Sena, Bittar e Simões** em 06/out/2026, com a entrada do
+> terceiro sócio.
 
 ---
 
@@ -445,11 +444,13 @@ abaixo.
      onde eu ponho?", e a resposta precisa estar combinada antes. Uma cláusula
      dizendo que a mentoria é educacional e não constitui recomendação de
      investimento resolve, e protege os três.
-7. **Nome completo do sócio Simões**, para a folha de rosto dos dois
-   documentos deixar de falar em "sócios" e passar a nomear os três.
-8. **Contrato de prestação de serviço** da mentoria, com sigilo, e o acordo
-   entre os três sócios sobre entrada e divisão de receita. Existe modelo em
-   `juridico/` para adaptar.
+7. ~~Nome completo do sócio Simões.~~ **Will Simões**, registrado em
+   06/out/2026.
+8. **Contrato de prestação de serviço** da mentoria, com o cliente. O acordo
+   entre os três sócios já existe em minuta:
+   `juridico/termo-de-compromisso-sbs.md`, que traz responsabilidades,
+   divisão de custos e lucro, a comissão de 15% e o NDA. Falta preencher os
+   prazos em branco e passar por advogado.
 
 ---
 
