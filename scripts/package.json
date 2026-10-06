@@ -4,7 +4,9 @@
   "description": "Utilitários que as skills chamam: extrair texto de PDF (fichar livros) e renderizar carrossel em PNG (Playwright).",
   "type": "commonjs",
   "dependencies": {
+    "docx": "^9.8.1",
     "pdf-parse": "^2.4.5",
-    "playwright": "^1.48.0"
+    "playwright": "^1.48.0",
+    "potrace": "^2.1.8"
   }
 }
