@@ -385,31 +385,22 @@ Decidido pelo Gilberto em 06/out/2026.
 
 | Forma | Valor |
 |---|---|
-| À vista, pix ou cartão | **R$ 45.000,00** |
+| À vista, pix ou cartão | **R$ 50.000,00** |
 | Parcelado | **12x de R$ 5.000,00**, total de R$ 60.000,00 |
 
-**Uma observação de quem faz a conta.** A diferença entre as duas formas é de
-R$ 15.000, o que embute uma taxa de **4,73% ao mês**, ou 74,1% ao ano. É uma escolha legítima: parcelamento no cartão tem custo de adquirente,
-e o risco de inadimplência ao longo de doze meses é real. Mas é um número
-alto o bastante para o médico fazer a conta sozinho, e vários deles fazem.
+**A conta embutida.** A diferença entre as duas formas é de R$ 10.000 em doze
+meses, o que dá **2,92% ao mês**, ou 41,3% ao ano.
 
-Duas formas de tratar isso, as duas defensáveis:
+Isso é defensável sem esforço. Cobre o custo de adquirente do cartão, cobre o
+risco de doze meses de inadimplência, e fica na faixa que o empresário vê
+todo dia em parcelamento. Se o médico fizer a conta de cabeça, o número não
+constrange ninguém.
 
-- **Deixar como está e saber defender.** Se alguém perguntar, a resposta é o
-  custo do parcelamento e o risco do prazo. Resposta honesta, dita sem rodeio.
-- **Baixar a taxa embutida sem mexer no caixa.** Algumas contas, todas com a
-  mesma entrada de R$ 45.000 à vista:
+Para registro: na versão anterior deste documento o valor à vista era
+R$ 45.000, e aí a taxa embutida subia para 4,73% ao mês, perto de 74% ao ano.
+Era alto o bastante para virar pergunta na reunião. Subir o à vista para
+R$ 50.000 resolveu isso sem mexer na parcela, que é o número que o médico
+olha primeiro.
 
-| Parcelamento | Total | Taxa embutida |
-|---|---|---|
-| 12x de R$ 5.000 | R$ 60.000 | 4,73% a.m. · 74,1% a.a. |
-| 6x de R$ 8.500 | R$ 51.000 | 3,70% a.m. · 54,6% a.a. |
-| 6x de R$ 8.200 | R$ 49.200 | 2,61% a.m. · 36,2% a.a. |
-| 12x de R$ 4.200 | R$ 50.400 | 1,79% a.m. · 23,7% a.a. |
-
-  A última linha é a que eu acharia mais fácil de defender: mantém os doze
-  meses, que é o que o médico quer, e a taxa embutida fica abaixo do que ele
-  paga no capital de giro dele.
-
-A decisão é sua. Só não quero que o número apareça numa reunião sem você ter
-visto ele antes.
+Se um dia quiser apertar mais, 12x de R$ 4.600 (R$ 55.200) derruba a taxa
+para 1,56% ao mês. Mas no patamar de hoje não há o que corrigir.
