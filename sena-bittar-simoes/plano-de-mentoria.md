@@ -3,7 +3,7 @@
 **Consultoria e assessoria médica empresarial** · Documento de trabalho dos sócios
 Versão 1 · 06/out/2026
 
-> Documento de trabalho dos dois sócios. É o desenho do programa: o que a
+> Documento de trabalho dos sócios. É o desenho do programa: o que a
 > mentoria entrega, em que ordem, quem conduz cada parte e o que é medido.
 > As peças comerciais saem deste documento, não o contrário.
 >

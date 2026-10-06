@@ -161,8 +161,13 @@
       <div class="campo dupla">
         <div><label for="clinica">Nome da clínica ou consultório</label>
           <input type="text" id="clinica" name="clinica"></div>
-        <div><label for="contato">WhatsApp ou e-mail</label>
-          <input type="text" id="contato" name="contato"></div>
+        <div><label for="cnpj">CNPJ da clínica</label>
+          <input type="text" id="cnpj" name="cnpj" inputmode="numeric"
+                 placeholder="00.000.000/0000-00"></div>
+      </div>
+      <div class="campo">
+        <label for="contato">WhatsApp ou e-mail</label>
+        <input type="text" id="contato" name="contato">
       </div>
       <div class="campo">
         <label for="especialidade">Especialidade e principais procedimentos</label>
@@ -316,7 +321,7 @@
   }
 
   function comoTexto(o){
-    const rot = {nome:"Nome", registro:"Registro", clinica:"Clínica",
+    const rot = {nome:"Nome", registro:"Registro", clinica:"Clínica", cnpj:"CNPJ",
       contato:"Contato", especialidade:"Especialidade", tempo:"Tempo de consultório",
       equipe:"Equipe", regime:"Regime tributário", perfil:"Perfil",
       faz_estetica:"Faz estética"};
