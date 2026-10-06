@@ -101,7 +101,7 @@ isso divide autoridade: quem fala de cada assunto é quem vive aquele assunto.
 |---|---|---|
 | **Sena** | Gestão de negócios · Contábil · Tributária · Pessoal | 01 Gestão |
 | **Bittar** | Médico estrategista · Marketing e Vendas | 02 Marketing e 03 Vendas |
-| **Simões** | Finanças e Smart Money | 04 Lucratividade |
+| **Simões** | Finanças · explicar Smart Money | 04 Lucratividade |
 
 **Por que essa divisão funciona na frente do cliente.** O médico sentado ali
 sabe diferenciar quem fala de dentro de quem fala de fora. Bittar é médico, e
@@ -124,7 +124,7 @@ dentro do mesmo contrato.
 | 1 a 15 | Abertura e diagnóstico | Todos | **Os três** | Linha de base dos indicadores, mapa de classificação dos serviços e as três decisões do trimestre |
 | 16 a 30 | 1 | 01 Gestão | **Sena** | Contas separadas, pró-labore definido, rotina de fechamento com dono e data |
 | 31 a 45 | 2 | 01 Gestão | **Sena** | Regime tributário decidido, reserva de caixa com meta, folha organizada |
-| 46 a 60 | 3 | 04 Lucratividade | **Simões** | Margem por procedimento, tabela de preço revista, decisão sobre mix e convênios |
+| 46 a 60 | 3 | 04 Lucratividade | **Simões** | Margem por procedimento, tabela de preço revista, decisão sobre mix e convênios, e o critério do Smart Money explicado |
 | 61 a 70 | 4 | 02 Marketing | **Bittar** | Posicionamento por procedimento, origem de paciente rastreada, presença mínima viável |
 | 71 a 80 | 5 | 03 Vendas | **Bittar** | Caminho da primeira mensagem à consulta, conversa de orçamento, recall e indicação |
 | 81 a 90 | 6 | Amarração | **Os três** | Indicadores contra a linha de base, agenda do dono revista, desenho do próximo ciclo |
@@ -135,10 +135,12 @@ sobrar o mesmo.* Preço corrige margem já no mês seguinte; marketing leva um
 trimestre pra aparecer. Encher a agenda antes de arrumar o preço é comprar
 trabalho.
 
-**Depois dos 90 dias.** O Smart Money do Simões só faz sentido quando a
-empresa já tem ponto de equilíbrio coberto e reserva formada. Antes disso,
-falar de investimento é conversa bonita em cima de caixa frágil. Esse é o
-gancho natural do segundo ciclo.
+**Depois dos 90 dias.** O critério do Smart Money só vira decisão real quando
+a empresa já tem ponto de equilíbrio coberto e reserva formada. Antes disso,
+falar de investimento é conversa bonita em cima de caixa frágil. O médico sai
+dos 90 dias sabendo **o que perguntar e como decidir**; onde ele vai pôr o
+dinheiro é escolha dele, com quem for habilitado. Esse é o gancho natural do
+segundo ciclo.
 
 ---
 
@@ -253,7 +255,7 @@ Ancora no **2G, Gestão Financeira** do livro: governança, orçamento, fluxo
 de caixa, investimentos, endividamento, nessa ordem de pirâmide.
 
 ### Encontro 3: Lucratividade, o preço
-**Conduz: Simões** · finanças e Smart Money
+**Conduz: Simões** · finanças, e explicar o Smart Money
 
 - Margem apurada por procedimento, não no agregado
 - Custo real da hora do médico, incluindo a hora que ele não atende
@@ -265,10 +267,24 @@ de caixa, investimentos, endividamento, nessa ordem de pirâmide.
 Esta é a sessão que costuma mudar o resultado mais rápido, porque preço
 corrige margem no mês seguinte, enquanto marketing leva um trimestre.
 
-**A camada do Simões.** Arrumada a margem, começa a aparecer sobra, e aí a
-pergunta deixa de ser quanto entra e passa a ser o que fazer com o que
-sobrou. É onde entra o Smart Money, e é o que liga este ciclo ao próximo.
-Ver a ressalva da seção 9 antes de vender esta parte.
+**A camada do Simões: explicar o Smart Money.** Arrumada a margem, começa a
+aparecer sobra, e aí a pergunta deixa de ser quanto entra e passa a ser o que
+fazer com o que sobrou.
+
+O papel dele aqui é **explicar a lógica**, para o médico passar a enxergar
+dinheiro parado como decisão e não como conforto. O que é dinheiro inteligente,
+por que sobra parada em conta perde valor, qual a diferença entre reserva,
+capital de giro e capital que pode trabalhar, e que perguntas fazer a quem for
+cuidar do investimento dele.
+
+**O que não acontece nesta sessão:** indicação de produto, de corretora ou de
+aplicação específica, e nenhuma promessa de retorno. Quem decide onde põe o
+dinheiro é o médico, com quem for habilitado para isso. A mentoria entrega o
+critério, não a aplicação.
+
+Essa delimitação é o que mantém o pilar vendável sem criar exposição. O OCEO
+chegou na mesma conclusão e registrou
+(`Projetos Gsena Tec/oceo/pilar-5-educacao-pre-investimento.md`).
 
 ### Encontro 4: Marketing, o paciente certo
 **Conduz: Bittar** · médico estrategista, marketing e vendas
@@ -414,21 +430,21 @@ abaixo.
 4. **O painel é parte da mentoria ou é a recorrência depois dela?**
 5. ~~A marca fala "para médicos".~~ **Resolvido em 06/out/2026:** a linha
    passou a ser "consultoria e assessoria médica empresarial".
-6. **Delimitar o Smart Money antes de vender.** Esta é a que mais preocupa.
-   Falar de investimento para cliente é terreno regulado, e a linha entre
-   **educar** e **recomendar produto** é fina. O OCEO já enfrentou isso e
-   registrou a decisão: o pilar equivalente lá foi renomeado para "educação
-   pré-investimento" justamente porque o sistema **prepara o empresário para
-   investir, sem prometer renda e sem recomendar produto individualizado**
-   (ver `Projetos Gsena Tec/oceo/pilar-5-educacao-pre-investimento.md`).
+6. ~~Delimitar o Smart Money.~~ **Decidido em 06/out/2026:** o papel do
+   Simões é **explicar** o Smart Money, não aplicar nem indicar. Está escrito
+   no encontro 3.
 
-   Duas coisas antes de o Smart Money entrar em peça comercial:
+   Duas coisas ainda pendentes, e as duas são do Simões:
 
-   - **O que ele é, nas palavras do Simões.** Smart money no mercado costuma
+   - **A definição, nas palavras dele.** Smart money no mercado costuma
      significar capital que vem com experiência e rede junto, não só dinheiro.
-     Assumi outro sentido aqui, e a definição tem que sair da boca dele.
-   - **Se ele tem registro** para falar de investimento com cliente, e de que
-     tipo. Isso muda o que pode ser dito, e deve estar escrito no contrato.
+     Escrevi o pilar no sentido de dinheiro que trabalha com critério. Se o
+     sentido dele for outro, o texto do encontro 3 muda.
+   - **Pôr a delimitação no contrato.** Explicar é posição muito mais segura
+     que indicar, mas conversa ao vivo escorrega: o médico vai perguntar "e
+     onde eu ponho?", e a resposta precisa estar combinada antes. Uma cláusula
+     dizendo que a mentoria é educacional e não constitui recomendação de
+     investimento resolve, e protege os três.
 7. **Nome completo do sócio Simões**, para a folha de rosto dos dois
    documentos deixar de falar em "sócios" e passar a nomear os três.
 8. **Contrato de prestação de serviço** da mentoria, com sigilo, e o acordo
