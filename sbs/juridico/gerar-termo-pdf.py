@@ -142,14 +142,14 @@ html,body{background:#FFFFFF}
 body{font-family:"Helvetica Neue",Arial,sans-serif;color:var(--tinta);
      font-size:11.5px;line-height:1.62}
 .pagina{max-width:760px;margin:0 auto;padding:26px 4px;position:relative;z-index:1}
-.capa{background:var(--grafite);color:var(--claro);padding:48px 44px 42px;
+.capa{background:var(--grafite);color:var(--claro);padding:30px 44px 26px;
       text-align:center;margin-bottom:26px;position:relative}
-.mono{display:block;height:58px;width:auto;margin:0 auto 18px}
-.capa .marca{font-family:Georgia,serif;font-size:20px;letter-spacing:.2em;
-             color:var(--ouro);margin-bottom:7px}
-.capa .sub{font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:#9FB0C4;
+.mono{display:block;height:46px;width:auto;margin:0 auto 13px}
+.capa .marca{font-family:Georgia,serif;font-size:17px;letter-spacing:.2em;
+             color:var(--ouro);margin-bottom:6px}
+.capa .sub{font-size:7.5px;letter-spacing:.3em;text-transform:uppercase;color:#9FB0C4;
            padding-top:8px;border-top:1px solid #2A4062;display:inline-block;padding-left:14px;padding-right:14px}
-.capa h1{font-family:Georgia,serif;font-size:30px;font-weight:400;margin:24px 0 6px}
+.capa h1{font-family:Georgia,serif;font-size:25px;font-weight:400;margin:14px 0 0}
 .capa .quem{font-size:11px;color:#9FB0C4}
 h1,h2,h3,h4{font-family:Georgia,serif;font-weight:400;line-height:1.25}
 h2{font-size:19px;margin:30px 0 12px;page-break-after:avoid}
@@ -195,7 +195,6 @@ pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8">
     <div class="marca">SENA, BITTAR E SIMÕES</div>
     <div class="sub">Consultoria e assessoria médica empresarial</div>
     <h1>Termo de compromisso</h1>
-    <div class="quem">Responsabilidades, parceria e confidencialidade &nbsp;·&nbsp; minuta 1, 06/out/2026</div>
   </div>
   {corpo}
   <div class="rodape">Sena, Bittar e Simões · Documento de trabalho dos sócios · Confidencial</div>
