@@ -27,9 +27,12 @@ Dois arquivos, os dois tirados da foto da fachada que o Gilberto mandou em
 - **`monograma-sb.png`** é a marca em si, recortada do arquivo que o Gilberto
   mandou em 06/out/2026. O original vinha em fundo branco chapado, e o
   prateado da letra também é claro, então cortar por limiar comeria o metal.
-  Recortei por preenchimento a partir das bordas: só o branco ligado à
-  moldura virou transparente. Entra pequena, à direita da faixa de abertura,
-  nos dois documentos.
+  Recortar por limiar comeria o metal, e preencher só a partir das bordas
+  deixava o branco preso dentro dos vazados das letras. O que funcionou foi
+  marcar o branco neutro e chapado (mínimo acima de 238, variação entre
+  canais abaixo de 7) e apagar só as manchas ligadas maiores que 900 pixels.
+  Assim some o fundo de fora e o de dentro dos vazados, e o brilho pontual do
+  prateado fica. Entra à esquerda da faixa de abertura, nos dois documentos.
 - **`marca-dagua.png`** é o mesmo monograma virado em silhueta grafite, com a
   opacidade de 8,5% **assada no arquivo**. Não use `opacity` no CSS junto com
   `z-index` negativo: isso vira grupo de transparência no PDF e nem todo
