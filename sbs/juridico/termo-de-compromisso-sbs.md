@@ -308,7 +308,7 @@ a qualquer outro.
 
 Por estarem de acordo, assinam este Termo em 3 (três) vias de igual teor.
 
-____________________, ____ de ______________ de 20____.
+São Paulo, 07 de outubro de 2026.
 
 
 | | |
