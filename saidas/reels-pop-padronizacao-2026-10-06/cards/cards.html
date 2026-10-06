@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<title>Cards — POP e padronização</title>
+<style>
+  /* ------------------------------------------------------------------
+     Direção: Blueprint.
+     O assunto é a planta de como o trabalho é feito, então a peça usa a
+     linguagem de quem projeta antes de construir: papel azul, grade fina,
+     linha de cota, carimbo de projeto no rodapé.
+     ------------------------------------------------------------------ */
+  :root{
+    --papel:#10314F;
+    --tinta:#DCE8F2;
+    --cota:#E09B55;
+    --grade:rgba(220,232,242,.085);
+    --fraco:#8FA8C0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{background:#06192B}
+  body{font-family:"Gill Sans","Gill Sans MT",Avenir,sans-serif}
+
+  .card{position:relative;width:1080px;height:1350px;background:var(--papel);
+        color:var(--tinta);overflow:hidden;margin-bottom:28px}
+
+  /* grade técnica */
+  .card::before{content:"";position:absolute;inset:0;pointer-events:none;
+    background-image:
+      linear-gradient(var(--grade) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grade) 1px, transparent 1px);
+    background-size:60px 60px}
+
+  /* moldura de prancha */
+  .moldura{position:absolute;inset:44px;border:1px solid rgba(220,232,242,.22)}
+
+  .conteudo{position:absolute;left:96px;right:96px;top:50%;
+            transform:translateY(-56%)}
+
+  .selo{display:flex;align-items:baseline;gap:18px;margin-bottom:46px}
+  .selo .num{font-family:Menlo,monospace;font-size:19px;letter-spacing:.2em;
+             color:var(--cota)}
+  .selo .assunto{font-family:Menlo,monospace;font-size:19px;letter-spacing:.2em;
+                 text-transform:uppercase;color:var(--fraco)}
+
+  h1{font-size:92px;line-height:1.02;font-weight:600;letter-spacing:-.015em;
+     text-transform:uppercase;margin-bottom:38px}
+  h1 .co{color:var(--cota)}
+
+  /* linha de cota: o traço com as setinhas, como em planta */
+  .cota{display:flex;align-items:center;gap:14px;margin:0 0 38px}
+  .cota .traco{flex:1;height:1px;background:var(--cota);position:relative}
+  .cota .traco::before,.cota .traco::after{content:"";position:absolute;top:-4px;
+    width:0;height:0;border-top:4.5px solid transparent;border-bottom:4.5px solid transparent}
+  .cota .traco::before{left:0;border-right:9px solid var(--cota)}
+  .cota .traco::after{right:0;border-left:9px solid var(--cota)}
+  .cota .medida{font-family:Menlo,monospace;font-size:17px;letter-spacing:.18em;
+                color:var(--cota);text-transform:uppercase}
+
+  .corpo{font-size:38px;line-height:1.46;color:var(--tinta);max-width:830px}
+  .corpo b{color:var(--cota);font-weight:600}
+
+  /* carimbo de projeto */
+  .carimbo{position:absolute;left:96px;right:96px;bottom:104px;
+           border-top:1px solid rgba(220,232,242,.22);padding-top:22px;
+           display:flex;justify-content:space-between;align-items:center;
+           font-family:Menlo,monospace;font-size:17px;letter-spacing:.14em;
+           color:var(--fraco);text-transform:uppercase}
+  .carimbo .arroba{color:var(--tinta)}
+
+  /* hachura no canto, só na capa */
+  .hachura{position:absolute;right:44px;top:44px;width:230px;height:230px;
+    background:repeating-linear-gradient(45deg,transparent 0 9px,
+      rgba(224,155,85,.28) 9px 10px)}
+</style>
+<body></body>
+<script>
+const CARDS = [
+ {n:"01", assunto:"O teste", capa:true,
+  titulo:'Tira você<br>da empresa<br><span class="co">por 30 dias</span>',
+  medida:"O que para primeiro",
+  corpo:'Se a resposta for “quase tudo”, olha com calma antes de culpar a equipe. O jeito certo de fazer as coisas mora na tua cabeça. E o que mora na cabeça de uma pessoa só tem nome: <b>dependência</b>.'},
+
+ {n:"02", assunto:"Onde nasce",
+  titulo:'No chão,<br><span class="co">não na mesa</span>',
+  medida:"Gemba",
+  corpo:'Processo escrito na sala de reunião ninguém segue. Vai onde o trabalho acontece, anota o que a pessoa faz <b>de verdade</b>, devolve pra ela e pergunta: é isso?'},
+
+ {n:"03", assunto:"O desvio",
+  titulo:'Empresa quebra<br>no dia <span class="co">atípico</span>',
+  medida:"Fora do padrão",
+  corpo:'O procedimento responde uma pergunta só: como fazer quando tudo está dentro do esperado. O prejuízo mora no dia em que o fornecedor falhou, o sistema caiu, alguém faltou. E aí <b>cada um resolve do seu jeito</b>.'},
+
+ {n:"04", assunto:"A trava",
+  titulo:'Melhoria<br>sem padrão<br>é <span class="co">ladeira</span>',
+  medida:"Sobe e escorrega",
+  corpo:'Você sobe com esforço, solta a mão, e ela desce sozinha. Padronizar é o calço atrás da roda. <b>Não faz subir. Impede de voltar.</b>'},
+
+ {n:"05", assunto:"A validade",
+  titulo:'De que ano<br>é o <span class="co">seu</span>?',
+  medida:"Versão vigente",
+  corpo:'Sem nada escrito, todo mundo sabe que precisa perguntar. Com um escrito e errado, a pessoa segue confiante. E erra <b>com a tua assinatura em cima</b>.'},
+
+ {n:"06", assunto:"O nível",
+  titulo:'Cem páginas,<br><span class="co">três donos</span>',
+  medida:"Hierarquia",
+  corpo:'Como a empresa pensa é do gestor. Como as áreas conversam é do coordenador. O passo a passo é de quem executa. Tudo no mesmo arquivo, <b>ninguém acha a parte que é sua</b>.'},
+
+ {n:"07", assunto:"A base",
+  titulo:'Ferramenta<br>não conserta<br><span class="co">caos</span>',
+  medida:"Estabilidade",
+  corpo:'Sistema novo em processo instável mostra o caos mais rápido, e com gráfico bonito. Primeiro o trabalho acontece do mesmo jeito, no mesmo tempo, com o mesmo resultado. <b>Isso é chão.</b>'},
+
+ {n:"08", assunto:"O valor",
+  titulo:'Quanto vale<br><span class="co">sem você</span>',
+  medida:"Avaliação",
+  corpo:'Na hora de vender, ninguém pergunta primeiro quanto você fatura. Perguntam o que acontece se você sair. <b>Empresa que depende do dono vale menos. Sempre.</b>'},
+];
+
+for (const c of CARDS) {
+  const d = document.createElement("div");
+  d.className = "card";
+  d.innerHTML = `
+    <div class="moldura"></div>
+    ${c.capa ? '<div class="hachura"></div>' : ''}
+    <div class="conteudo">
+      <div class="selo"><span class="num">${c.n} / 08</span>
+        <span class="assunto">${c.assunto}</span></div>
+      <h1>${c.titulo}</h1>
+      <div class="cota"><span class="traco"></span>
+        <span class="medida">${c.medida}</span></div>
+      <div class="corpo">${c.corpo}</div>
+    </div>
+    <div class="carimbo">
+      <span>Padronização · prancha ${c.n} de 08</span>
+      <span class="arroba">@gilbertosenaoficial</span>
+    </div>`;
+  document.body.appendChild(d);
+}
+</script>
+</html>
