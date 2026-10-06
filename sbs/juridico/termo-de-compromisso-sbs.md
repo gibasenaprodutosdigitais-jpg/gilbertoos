@@ -255,53 +255,104 @@ quebra de sigilo causaria, e não a um evento isolado.
 
 ---
 
-## 10. O Método e a marca
+## 10. Transparência entre os Parceiros
 
-**10.1.** O Método, o nome **SBS**, a marca e os materiais produzidos para o
-projeto são **do grupo**, e não de um Parceiro isoladamente.
+**10.1.** A transparência é **obrigação essencial** desta parceria. Deixar de
+informar é tratado como quebra de confiança, com o mesmo peso da quebra de
+sigilo da seção 9.
 
-**10.2.** O que cada Parceiro já trazia pronto antes desta parceria continua
-sendo dele. O que for criado dentro do projeto é do grupo.
+**10.2.** Cada Parceiro deve informar aos outros dois, por iniciativa própria
+e no momento em que o fato acontece:
 
-**10.3.** Saindo do grupo, o Parceiro deixa de usar a marca e o Método.
+- **a)** todo negócio feito com Cliente Vinculado, ainda que entenda não
+  gerar comissão;
+- **b)** toda receita e toda despesa do projeto, lançadas no controle único
+  da cláusula 5.4;
+- **c)** o demonstrativo e as notas da cláusula 7.6, sem esperar pedido;
+- **d)** qualquer conflito de interesse, **antes** de assumir o negócio;
+- **e)** proposta, negociação ou parceria com terceiro que possa afetar o
+  grupo ou disputar o mesmo cliente.
+
+**10.3.** O dever é de contar, não de responder. Omitir equivale a informar
+errado, e não cabe alegar que ninguém perguntou.
+
+**10.4. O que configura quebra de confiança.** Entre outras condutas:
+
+- **negociar um preço com o cliente e informar ao grupo preço menor**, de
+  modo que a comissão da seção 7 incida sobre base reduzida;
+- esconder ou atrasar a informação de negócio com Cliente Vinculado;
+- declarar receita menor que a efetivamente recebida, por qualquer meio,
+  inclusive dividindo a cobrança em contratos, empresas ou pessoas diferentes
+  para reduzir a base;
+- lançar despesa que não existiu, ou que é da estrutura própria do Parceiro;
+- recusar, atrasar além do prazo ou entregar incompleto o documento pedido
+  na forma da cláusula 7.6.
+
+**10.4.1.** Para afastar dúvida: a base da comissão é **o valor que o cliente
+paga**, qualquer que seja o nome dado à cobrança e qualquer que seja a pessoa
+ou empresa que a emite.
+
+**10.5. Consequências.** O Parceiro que quebrar o dever de transparência:
+
+- **a)** paga o valor que deixou de repassar, corrigido desde a data em que
+  era devido;
+- **b)** paga, a título de multa, **valor igual ao que deixou de repassar**; e
+- **c)** pode ser **excluído da parceria** por decisão dos outros dois, na
+  forma da cláusula 12.5, sem direito ao prazo de correção quando a conduta
+  se repetir ou quando o valor omitido for relevante.
+
+**10.6.** A multa da alínea "b" não impede a cobrança das perdas e danos que
+a excederem.
 
 ---
 
-## 11. Prazo e saída
+## 11. O Método e a marca
 
-**11.1.** Este Termo vigora por prazo indeterminado, a partir da assinatura.
+**11.1.** O Método, o nome **SBS**, a marca e os materiais produzidos para o
+projeto são **do grupo**, e não de um Parceiro isoladamente.
 
-**11.2.** Qualquer Parceiro pode sair, avisando os outros dois por escrito com
+**11.2.** O que cada Parceiro já trazia pronto antes desta parceria continua
+sendo dele. O que for criado dentro do projeto é do grupo.
+
+**11.3.** Saindo do grupo, o Parceiro deixa de usar a marca e o Método.
+
+---
+
+## 12. Prazo e saída
+
+**12.1.** Este Termo vigora por prazo indeterminado, a partir da assinatura.
+
+**12.2.** Qualquer Parceiro pode sair, avisando os outros dois por escrito com
 **60 (sessenta) dias** de antecedência.
 
-**11.3.** Quem sai continua obrigado a: concluir os clientes em andamento sob
+**12.3.** Quem sai continua obrigado a: concluir os clientes em andamento sob
 sua responsabilidade, ou providenciar substituição aceita pelos outros dois;
 receber o que lhe cabe dos resultados até a data da saída; e cumprir as
-seções 8 e 9 pelos prazos nelas previstos.
+seções 8, 9 e 10 pelos prazos nelas previstos.
 
-**11.4.** A saída de um Parceiro não dissolve a parceria entre os outros
+**12.4.** A saída de um Parceiro não dissolve a parceria entre os outros
 dois.
 
-**11.5.** O Parceiro que descumprir obrigação essencial e não corrigir em
+**12.5.** O Parceiro que descumprir obrigação essencial e não corrigir em
 **15 (quinze) dias** após ser avisado por escrito pode ser excluído por decisão dos
 outros dois, respondendo pelas perdas que causou.
 
 ---
 
-## 12. Como resolver desacordo
+## 13. Como resolver desacordo
 
-**12.1.** Divergência se resolve primeiro em conversa entre os três.
+**13.1.** Divergência se resolve primeiro em conversa entre os três.
 
-**12.2.** Não havendo acordo em **30 (trinta) dias**, as partes buscam mediação
+**13.2.** Não havendo acordo em **30 (trinta) dias**, as partes buscam mediação
 antes de qualquer medida judicial.
 
-**12.3.** Fica eleito o foro da comarca de **São Paulo, Estado de São
+**13.3.** Fica eleito o foro da comarca de **São Paulo, Estado de São
 Paulo**, com renúncia
 a qualquer outro.
 
 ---
 
-## 13. Assinaturas
+## 14. Assinaturas
 
 Por estarem de acordo, assinam este Termo em 3 (três) vias de igual teor.
 
