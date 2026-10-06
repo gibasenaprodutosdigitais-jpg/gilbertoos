@@ -11,11 +11,11 @@ Minuta 1 · 06/out/2026
 
 ## 1. As partes
 
-**GILBERTO SENA**, CPF nº ______________________
+**GILBERTO SENA**, CPF nº
 
-**STANLEY BITTAR**, CPF nº ______________________
+**STANLEY BITTAR**, CPF nº
 
-**WILL SIMÕES**, CPF nº ______________________
+**WILL SIMÕES**, CPF nº
 
 Adiante chamados, em conjunto, de **Parceiros**, e individualmente de
 **Parceiro**.
@@ -312,14 +312,14 @@ São Paulo, 07 de outubro de 2026.
 |---|---|
 | ______________________________ | ______________________________ |
 | **Gilberto Sena** | **Stanley Bittar** |
-| CPF | CPF |
+| CPF nº | CPF nº |
 
 
 | | |
 |---|---|
 | ______________________________ | ______________________________ |
 | **Will Simões** | **Testemunha**, nome e CPF |
-| CPF | |
+| CPF nº | |
 
 
 | |
