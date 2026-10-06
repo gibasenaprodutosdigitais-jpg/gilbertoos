@@ -182,10 +182,10 @@ da seção 6.
 
 ## 8. Não contornar o grupo
 
-**8.1.** Durante a vigência deste Termo e por **____ meses** após a saída de
-qualquer Parceiro, nenhum deles pode oferecer a Cliente Vinculado, por fora
-do grupo e sem a comissão da seção 7, serviço igual ou semelhante ao que o
-grupo oferece.
+**8.1.** Durante a vigência deste Termo e por **24 (vinte e quatro) meses**
+após a saída de qualquer Parceiro, nenhum deles pode oferecer a Cliente
+Vinculado, por fora do grupo e sem a comissão da seção 7, serviço igual ou
+semelhante ao que o grupo oferece.
 
 **8.2.** Nenhum Parceiro pode usar a marca SBS, o Método ou os materiais do
 grupo em negócio próprio sem o aceite dos outros dois.
@@ -335,9 +335,11 @@ em serviço profissional. **Se a margem típica dos negócios de vocês for mais
 baixa, 5% pesa mais do que a combinação original**, e o número deve descer.
 É uma troca de palavra no documento.
 
-**Segundo: o prazo de não contorno (8.1) continua em branco.** Ele é o que dá
-dente à cláusula: sem número, ela vira intenção. Os seis meses da comissão
-não servem aqui, porque protegem coisas diferentes.
+**Segundo: os dois prazos protegem coisas diferentes, e é por isso que são
+diferentes.** A comissão vale seis meses e limita até quando o grupo ganha
+de uma operação. O não contorno vale 24 meses e impede que um Parceiro leve
+o cliente por fora. Um é dinheiro, o outro é lealdade, e a lealdade dura
+mais.
 
 **Terceiro: isto é minuta, não contrato.** Eu não sou advogado. Antes de
 assinar, passe por um, principalmente pelas seções 7, 8 e 9, que são as que
