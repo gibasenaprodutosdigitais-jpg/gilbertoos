@@ -24,11 +24,18 @@ a única zona cinzenta entre os quatro públicos. Ver a seção 8 do plano.
 Dois arquivos, os dois tirados da foto da fachada que o Gilberto mandou em
 06/out/2026:
 
-- **`marca-dagua.png`** é o monograma recortado do mármore, em grafite e sem
-  cor. Entra a 8% de opacidade no meio de cada folha. Só o símbolo: o
-  conjunto inteiro atrás de texto manuscrito vira sujeira.
-- **`logo-sena-e-bittar.jpg`** foi a capa até 06/out/2026. O Gilberto pediu
-  pra tirar. Fica no arquivo caso volte a servir.
+- **`monograma-sb.png`** é a marca em si, recortada do arquivo que o Gilberto
+  mandou em 06/out/2026. O original vinha em fundo branco chapado, e o
+  prateado da letra também é claro, então cortar por limiar comeria o metal.
+  Recortei por preenchimento a partir das bordas: só o branco ligado à
+  moldura virou transparente. Entra pequena, à direita da faixa de abertura,
+  nos dois documentos.
+- **`marca-dagua.png`** é o mesmo monograma virado em silhueta grafite, com a
+  opacidade de 8,5% **assada no arquivo**. Não use `opacity` no CSS junto com
+  `z-index` negativo: isso vira grupo de transparência no PDF e nem todo
+  leitor compõe igual.
+- **`logo-sena-e-bittar.jpg`** foi a capa até 06/out/2026, tirada da foto da
+  fachada. O Gilberto pediu pra tirar. Fica no arquivo caso volte a servir.
 
 O recorte usa a própria luz da foto como máscara. O metal é claro, o mármore
 é escuro, então um corte duro de luminância separa os dois sem deixar resto
