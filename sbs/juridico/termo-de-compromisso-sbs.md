@@ -11,11 +11,11 @@ Minuta 1 · 06/out/2026
 
 ## 1. As partes
 
-**GILBERTO SENA**, CPF nº
+**GILBERTO SENA**
 
-**STANLEY BITTAR**, CPF nº
+**STANLEY BITTAR**
 
-**WILL SIMÕES**, CPF nº
+**WILL SIMÕES**
 
 Adiante chamados, em conjunto, de **Parceiros**, e individualmente de
 **Parceiro**.
