@@ -173,8 +173,7 @@ th{background:var(--grafite);color:var(--claro);padding:7px 9px;text-align:left;
    font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
 td{border:1px solid var(--linha);padding:7px 9px;vertical-align:top}
 tbody tr:nth-child(even) td{background:#FAF9F6}
-table.sem-cabecalho td{border:0;border-bottom:1px solid var(--linha);
-                       background:none!important;padding:9px 2px}
+table.sem-cabecalho td{border:0;background:none!important;padding:7px 2px}
 .dagua{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
        width:560px;z-index:0;pointer-events:none}
 /* position:fixed se repete em toda folha no PDF do Chromium. Conferi
