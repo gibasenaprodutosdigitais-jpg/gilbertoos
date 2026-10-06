@@ -40,7 +40,7 @@ está falando desse documento.
 
 **2.3.** Este Termo vale desde a assinatura e rege a parceria **enquanto a
 sociedade não for formalmente constituída**. Os Parceiros se comprometem a
-constituir a pessoa jurídica do grupo SBS em até ____ meses, e o contrato
+constituir a pessoa jurídica do grupo SBS em até **3 (três) meses**, e o contrato
 social, quando vier, substitui este Termo naquilo que for incompatível.
 
 **2.4.** Enquanto não houver pessoa jurídica, as combinações financeiras
@@ -97,9 +97,15 @@ inclusive mensagem, desde que fique registrado.
 **5.1.** As despesas do projeto são **divididas em partes iguais entre os
 três**, salvo combinação diferente e por escrito, caso a caso.
 
-**5.2.** Despesa acima de **R$ ____________** precisa do aceite prévio dos
-três. Abaixo disso, qualquer Parceiro pode comprometer e depois presta
-contas.
+**5.2.** Não há valor fixo de alçada. **Cada despesa é discriminada e
+aprovada pelos três à medida que o evento ou o custo aparece**, seja para
+entrega do programa, seja para captação de cliente. A aprovação pode ser por
+escrito em qualquer meio, desde que fique registrada no controle da
+cláusula 5.4.
+
+**5.2.1.** Despesa urgente, que não permita consulta prévia, pode ser
+assumida por qualquer Parceiro e é levada aos outros dois no primeiro dia
+útil seguinte, com a justificativa.
 
 **5.3.** Cada Parceiro arca sozinho com os custos da própria estrutura:
 deslocamento, equipe própria, impostos pessoais e as ferramentas do seu
@@ -117,7 +123,7 @@ despesas da seção 5 e os tributos incidentes.
 
 **6.2.** O lucro é **dividido em partes iguais entre os três Parceiros**.
 
-**6.3.** A distribuição é mensal, até o dia ____ do mês seguinte ao
+**6.3.** A distribuição é mensal, até o dia **10** do mês seguinte ao
 fechamento.
 
 **6.4.** Havendo prejuízo em um mês, ele é suportado em partes iguais e
@@ -172,7 +178,7 @@ relação das notas fiscais emitidas ao Cliente Vinculado no período e o
 cálculo da comissão. Qualquer Parceiro pode pedir cópia das notas, e elas são
 fornecidas em até **10 (dez) dias**.
 
-**7.7. Prazo de repasse.** A comissão é paga ao grupo até o dia **____** do
+**7.7. Prazo de repasse.** A comissão é paga ao grupo até o dia **10** do
 mês seguinte ao recebimento, e acompanha o recebimento: se o cliente paga
 parcelado, a comissão é repassada na mesma proporção, enquanto as parcelas
 corresponderem a faturamento dentro da janela de seis meses.
@@ -226,11 +232,13 @@ anos** após o seu fim, qualquer que seja o motivo. Para dado pessoal de
 cliente, o dever é permanente.
 
 **9.7. Devolução.** Encerrada a participação de um Parceiro, ele devolve ou
-elimina os materiais do grupo e as informações de cliente em até ____ dias, e
+elimina os materiais do grupo e as informações de cliente em até **10 (dez)
+dias**, e
 declara por escrito que o fez.
 
 **9.8. Quebra de sigilo.** Responde por perdas e danos, e por multa de
-**R$ ____________**, sem prejuízo da apuração criminal cabível.
+**R$ 1.000.000,00 (um milhão de reais)**, sem prejuízo das perdas e danos
+que excederem esse valor e da apuração criminal cabível.
 
 ---
 
@@ -251,7 +259,7 @@ sendo dele. O que for criado dentro do projeto é do grupo.
 **11.1.** Este Termo vigora por prazo indeterminado, a partir da assinatura.
 
 **11.2.** Qualquer Parceiro pode sair, avisando os outros dois por escrito com
-**____ dias** de antecedência.
+**60 (sessenta) dias** de antecedência.
 
 **11.3.** Quem sai continua obrigado a: concluir os clientes em andamento sob
 sua responsabilidade, ou providenciar substituição aceita pelos outros dois;
@@ -262,7 +270,7 @@ seções 8 e 9 pelos prazos nelas previstos.
 dois.
 
 **11.5.** O Parceiro que descumprir obrigação essencial e não corrigir em
-**____ dias** após ser avisado por escrito pode ser excluído por decisão dos
+**15 (quinze) dias** após ser avisado por escrito pode ser excluído por decisão dos
 outros dois, respondendo pelas perdas que causou.
 
 ---
@@ -271,10 +279,11 @@ outros dois, respondendo pelas perdas que causou.
 
 **12.1.** Divergência se resolve primeiro em conversa entre os três.
 
-**12.2.** Não havendo acordo em **____ dias**, as partes buscam mediação
+**12.2.** Não havendo acordo em **30 (trinta) dias**, as partes buscam mediação
 antes de qualquer medida judicial.
 
-**12.3.** Fica eleito o foro da comarca de ____________________, com renúncia
+**12.3.** Fica eleito o foro da comarca de **São Paulo, Estado de São
+Paulo**, com renúncia
 a qualquer outro.
 
 ---
@@ -310,10 +319,11 @@ ____________________, ____ de ______________ de 20____.
 
 ---
 
-## 14. Ressalva de quem escreveu, para vocês decidirem
+## 14. Ressalva de quem escreveu
 
-Este documento foi redigido para ficar simples, como pedido. Três pontos
-merecem a atenção de vocês antes de virar papel assinado.
+Este documento foi redigido para ficar simples, como pedido. O que falta
+preencher agora são só os dados pessoais dos três e a data, na hora de
+assinar. Três pontos ainda merecem a atenção de vocês.
 
 **Primeiro: de onde saiu o percentual de 5%.** A combinação anterior era 15%
 do lucro líquido. Lucro é número que se constrói, e fiscalizar o lucro da
@@ -335,11 +345,12 @@ em serviço profissional. **Se a margem típica dos negócios de vocês for mais
 baixa, 5% pesa mais do que a combinação original**, e o número deve descer.
 É uma troca de palavra no documento.
 
-**Segundo: os dois prazos protegem coisas diferentes, e é por isso que são
-diferentes.** A comissão vale seis meses e limita até quando o grupo ganha
-de uma operação. O não contorno vale 24 meses e impede que um Parceiro leve
-o cliente por fora. Um é dinheiro, o outro é lealdade, e a lealdade dura
-mais.
+**Segundo: a multa de R$ 1.000.000,00 pode ser discutida em juízo.** Multa
+muito acima do prejuízo real costuma ser contestada, e o juiz tem instrumento
+para reduzi-la. Isso não torna a cláusula inútil: ela funciona como freio, que
+é o papel dela num acordo entre sócios. Mas não conte com o número cheio como
+se fosse dinheiro garantido, e peça ao advogado para conferir se a redação
+está na forma que melhor se sustenta.
 
 **Terceiro: isto é minuta, não contrato.** Eu não sou advogado. Antes de
 assinar, passe por um, principalmente pelas seções 7, 8 e 9, que são as que
