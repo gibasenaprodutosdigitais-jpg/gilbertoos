@@ -11,14 +11,11 @@ Minuta 1 · 06/out/2026
 
 ## 1. As partes
 
-**GILBERTO SENA**, _(nacionalidade, estado civil, profissão)_, CPF nº
-______________, residente em ____________________________________.
+**GILBERTO SENA**, CPF nº ______________________
 
-**STANLEY BITTAR**, _(nacionalidade, estado civil, profissão)_, CPF nº
-______________, residente em ____________________________________.
+**STANLEY BITTAR**, CPF nº ______________________
 
-**WILL SIMÕES**, _(nacionalidade, estado civil, profissão)_, CPF nº
-______________, residente em ____________________________________.
+**WILL SIMÕES**, CPF nº ______________________
 
 Adiante chamados, em conjunto, de **Parceiros**, e individualmente de
 **Parceiro**.
