@@ -22,9 +22,19 @@ a única zona cinzenta entre os quatro públicos. Ver a seção 8 do plano.
 
 ## A marca
 
-`logo-sena-e-bittar.jpg` é o recorte da foto da fachada que o Gilberto
-mandou em 06/out/2026. Entra como imagem porque é foto, não arquivo de
-marca: tentei recortar do fundo e sobrava mármore nas bordas das letras.
+Dois arquivos, os dois tirados da foto da fachada que o Gilberto mandou em
+06/out/2026:
+
+- **`logo-sena-e-bittar.jpg`** é a capa. Entra como foto, com o azul da marca
+  em volta, porque é foto de fachada e não arquivo de marca.
+- **`marca-dagua.png`** é o monograma recortado do mármore, cinza-azulado e
+  sem cor. Entra a 8% de opacidade no meio de cada folha, menos a capa, que
+  já tem a marca grande. Só o símbolo: o conjunto inteiro atrás de texto
+  manuscrito vira sujeira.
+
+O recorte usa a própria luz da foto como máscara. O metal é claro, o mármore
+é escuro, então um corte duro de luminância separa os dois sem deixar resto
+de fundo.
 
 **Se aparecer o arquivo original** (vetor, ou PNG com fundo transparente),
 trocar. A capa fica mais limpa e a marca pode ir menor sem perder nitidez.

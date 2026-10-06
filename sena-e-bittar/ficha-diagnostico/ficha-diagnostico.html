@@ -100,6 +100,13 @@
   .fecho p{font-family:Georgia,serif;font-style:italic;font-size:13px;color:#C6D2E0}
   .fecho .assina{margin-top:13px;font-size:8.5px;letter-spacing:.26em;
                  text-transform:uppercase;color:var(--ouro)}
+  /* marca d'agua: uma por folha, atras do conteudo.
+     z-index -1 dentro de um contexto proprio, senao ela sobe por cima do
+     texto em vez de ficar atras. A capa nao leva: ja tem a marca grande. */
+  .folha{position:relative;z-index:0}
+  .dagua{position:absolute;top:56%;left:50%;transform:translate(-50%,-50%);
+         width:300px;opacity:.08;z-index:-1;pointer-events:none}
+
   .rodape{margin-top:12px;padding-top:8px;border-top:1px solid var(--linha);
           font-size:8.5px;color:#9A9A9A;text-align:center;letter-spacing:.04em}
 </style>
@@ -126,7 +133,8 @@
   profissional e a Sena e Bittar, e não sai desta sala sem autorização dele.
 </div>
 
-<div class="bloco" style="page-break-before:always;padding-top:6px">
+<div class="bloco folha" style="page-break-before:always;padding-top:6px">
+  <img class="dagua" src="marca-dagua.png" alt="">
   <div class="bloco-titulo">Quem está na frente</div>
   <div class="linha-campos">
     <div class="campo"><label>Nome</label><div class="risco"></div></div>
@@ -170,7 +178,8 @@
 </div>
 
 <!-- ================= PILAR 01 ================= -->
-<div class="pilar">
+<div class="pilar folha">
+  <img class="dagua" src="marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Pilar 01 de 04</div>
     <div class="pilar-nome">Gestão</div>
@@ -205,7 +214,8 @@
 </div>
 
 <!-- ================= PILAR 02 ================= -->
-<div class="pilar">
+<div class="pilar folha">
+  <img class="dagua" src="marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Pilar 02 de 04</div>
     <div class="pilar-nome">Marketing</div>
@@ -237,7 +247,8 @@
 </div>
 
 <!-- ================= PILAR 03 ================= -->
-<div class="pilar">
+<div class="pilar folha">
+  <img class="dagua" src="marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Pilar 03 de 04</div>
     <div class="pilar-nome">Vendas</div>
@@ -268,7 +279,8 @@
 </div>
 
 <!-- ================= PILAR 04 ================= -->
-<div class="pilar">
+<div class="pilar folha">
+  <img class="dagua" src="marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Pilar 04 de 04</div>
     <div class="pilar-nome">Lucratividade</div>
@@ -305,7 +317,8 @@
 </div>
 
 <!-- ================= NUMEROS E DOCUMENTOS ================= -->
-<div class="pilar">
+<div class="pilar folha">
+  <img class="dagua" src="marca-dagua.png" alt="">
   <div class="pilar-topo">
     <div class="pilar-num">Fecho do encontro</div>
     <div class="pilar-nome">Linha de partida</div>
