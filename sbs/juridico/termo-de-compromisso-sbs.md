@@ -125,15 +125,15 @@ compensado nos resultados dos meses seguintes antes de nova distribuição.
 
 ---
 
-## 7. A comissão de 15% para o grupo
+## 7. A comissão para o grupo
 
 Esta é a cláusula central da parceria. Ela existe para que o grupo SBS seja
 beneficiado por todo negócio que nascer dentro dele.
 
 **7.1. A regra.** Quando um Parceiro, por meio de empresa, produto ou serviço
 de sua propriedade individual, fizer negócio com um **Cliente Vinculado ao
-SBS**, ele repassa ao grupo SBS, a título de comissão, **15% (quinze por
-cento) do lucro líquido** daquela operação.
+SBS**, ele repassa ao grupo SBS, a título de comissão, **5% (cinco por cento)
+da receita líquida** daquela operação, pelo prazo da cláusula 7.5.
 
 **7.2. O que é Cliente Vinculado ao SBS.** É toda pessoa física ou jurídica
 que:
@@ -143,41 +143,42 @@ que:
   ou
 - **c)** tenha chegado por indicação, material, evento ou canal do grupo.
 
-A vinculação permanece **durante a vigência deste Termo e por ____ meses após
-o encerramento da relação daquele cliente com o grupo**.
+**7.3. O que é receita líquida da operação.** É o valor efetivamente recebido
+do cliente naquela operação, menos os tributos que incidem sobre a receita e
+menos devoluções ou cancelamentos. **Nenhum custo é deduzido**: a base é a
+nota, não o resultado.
 
-**7.3. Em que negócios a comissão incide.** Em todos, sem exceção quanto à
+**7.4. Em que negócios a comissão incide.** Em todos, sem exceção quanto à
 natureza. Exemplos, que não esgotam a regra:
 
 | Situação | Quem repassa | Quanto |
 |---|---|---|
-| Serviço contábil, tributário ou de gestão prestado por empresa de um Parceiro a Cliente Vinculado | o Parceiro dono da empresa | 15% do lucro líquido |
-| Produto criado por um Parceiro e vendido a Cliente Vinculado | o Parceiro criador | 15% do lucro líquido |
-| Serviço jurídico prestado a Cliente Vinculado | o Parceiro que intermediou ou prestou | 15% do lucro líquido |
-| Captação de recursos para Cliente Vinculado | o Parceiro que captou | 15% do lucro líquido |
-| Negócio feito por empresa coligada de um Parceiro com Cliente Vinculado | o Parceiro | 15% do lucro líquido |
+| Serviço contábil, tributário ou de gestão prestado por empresa de um Parceiro a Cliente Vinculado | o Parceiro dono da empresa | 5% da receita líquida |
+| Produto criado por um Parceiro e vendido a Cliente Vinculado | o Parceiro criador | 5% da receita líquida |
+| Serviço jurídico prestado a Cliente Vinculado | o Parceiro que intermediou ou prestou | 5% da receita líquida |
+| Captação de recursos para Cliente Vinculado | o Parceiro que captou | 5% da receita líquida |
+| Negócio feito por empresa coligada de um Parceiro com Cliente Vinculado | o Parceiro | 5% da receita líquida |
 
-**7.4. O que é lucro líquido da operação.** É a receita daquela operação,
-menos os custos diretos para executá-la e menos os tributos que incidem sobre
-ela. **Não** se deduzem custos de estrutura, despesas administrativas gerais,
-pró-labore ou retiradas.
+**7.5. Por quanto tempo.** A comissão é devida sobre tudo que for faturado
+nos **primeiros 6 (seis) meses** de cada operação, contados da data da
+primeira nota fiscal emitida àquele Cliente Vinculado naquela operação.
+Passados os seis meses, aquela operação deixa de gerar comissão.
 
-**7.5. Transparência.** O Parceiro que repassa apresenta aos outros dois o
-demonstrativo da operação: receita, custos deduzidos e o cálculo da comissão.
-Qualquer Parceiro pode pedir os documentos que sustentam o cálculo, e eles
-são fornecidos em até ____ dias.
+**7.5.1.** Operação nova com o mesmo Cliente Vinculado abre novo prazo de
+seis meses, contado da primeira nota daquela nova operação.
 
-**7.6. Prazo de repasse.** A comissão é paga ao grupo até o dia ____ do mês
-seguinte ao recebimento, e acompanha o recebimento: se o cliente paga
-parcelado, a comissão é repassada na mesma proporção.
+**7.6. Transparência.** O Parceiro que repassa apresenta aos outros dois a
+relação das notas fiscais emitidas ao Cliente Vinculado no período e o
+cálculo da comissão. Qualquer Parceiro pode pedir cópia das notas, e elas são
+fornecidas em até **10 (dez) dias**.
 
-**7.7. Destino.** A comissão entra como receita do projeto e segue a divisão
+**7.7. Prazo de repasse.** A comissão é paga ao grupo até o dia **____** do
+mês seguinte ao recebimento, e acompanha o recebimento: se o cliente paga
+parcelado, a comissão é repassada na mesma proporção, enquanto as parcelas
+corresponderem a faturamento dentro da janela de seis meses.
+
+**7.8. Destino.** A comissão entra como receita do projeto e segue a divisão
 da seção 6.
-
-**7.8. Duas decisões que ficaram em aberto.** Ver a ressalva no fim deste
-documento, seção 14.
-
----
 
 ## 8. Não contornar o grupo
 
@@ -314,22 +315,29 @@ ____________________, ____ de ______________ de 20____.
 Este documento foi redigido para ficar simples, como pedido. Três pontos
 merecem a atenção de vocês antes de virar papel assinado.
 
-**Primeiro: "lucro líquido" é a palavra mais perigosa deste contrato.**
-A comissão de 15% incide sobre o lucro líquido da operação do outro. Quem
-calcula o lucro é quem paga a comissão, e lucro é um número que se constrói:
-basta alocar um custo a mais e ele encolhe. A cláusula 7.4 tenta fechar isso
-dizendo o que não pode ser deduzido, mas fiscalizar o lucro da empresa de um
-sócio é trabalhoso e costuma azedar relação.
+**Primeiro: de onde saiu o percentual de 5%.** A combinação anterior era 15%
+do lucro líquido. Lucro é número que se constrói, e fiscalizar o lucro da
+empresa de um sócio azeda relação. Receita se confere em nota fiscal.
 
-**A alternativa mais simples é percentual sobre a receita líquida da
-operação**, com um número menor. Receita é verificável em nota fiscal; lucro
-depende de confiança na contabilidade alheia. Se vocês quiserem seguir por
-aí, me digam o percentual e eu troco a seção 7 inteira.
+Na troca, 15% do lucro equivale a este percentual da receita, conforme a
+margem da operação:
 
-**Segundo: os prazos em branco não são detalhe.** O prazo de vinculação do
-cliente (7.2) decide se um cliente continua "do grupo" seis meses ou cinco
-anos depois de sair. O prazo de não contorno (8.1) é o que dá dente à
-cláusula. Sem número, as duas viram intenção.
+| Margem líquida da operação | Equivale a |
+|---|---|
+| 20% | 3,0% da receita |
+| 25% | 3,75% da receita |
+| 30% | 4,5% da receita |
+| 35% | 5,25% da receita |
+| 40% | 6,0% da receita |
+
+Os 5% equivalem a 15% do lucro numa operação de margem 33%, que é faixa comum
+em serviço profissional. **Se a margem típica dos negócios de vocês for mais
+baixa, 5% pesa mais do que a combinação original**, e o número deve descer.
+É uma troca de palavra no documento.
+
+**Segundo: o prazo de não contorno (8.1) continua em branco.** Ele é o que dá
+dente à cláusula: sem número, ela vira intenção. Os seis meses da comissão
+não servem aqui, porque protegem coisas diferentes.
 
 **Terceiro: isto é minuta, não contrato.** Eu não sou advogado. Antes de
 assinar, passe por um, principalmente pelas seções 7, 8 e 9, que são as que
