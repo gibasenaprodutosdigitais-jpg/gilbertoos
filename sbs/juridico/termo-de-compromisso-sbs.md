@@ -236,9 +236,19 @@ elimina os materiais do grupo e as informações de cliente em até **10 (dez)
 dias**, e
 declara por escrito que o fez.
 
-**9.8. Quebra de sigilo.** Responde por perdas e danos, e por multa de
-**R$ 1.000.000,00 (um milhão de reais)**, sem prejuízo das perdas e danos
-que excederem esse valor e da apuração criminal cabível.
+**9.8. Quebra de sigilo.** O Parceiro que quebrar o sigilo responde por:
+
+- **a)** multa de **R$ 50.000,00 (cinquenta mil reais)** por infração,
+  equivalente ao valor de um programa de mentoria, aplicada por cada evento
+  de quebra;
+- **b)** as **perdas e danos que excederem** esse valor, apuradas na forma da
+  lei;
+- **c)** a **cessação imediata** do uso ou da divulgação, que pode ser exigida
+  judicialmente de forma específica, independentemente da multa; e
+- **d)** a apuração criminal cabível, quando for o caso.
+
+**9.8.1.** A multa da alínea "a" é piso, e não teto: recebê-la não impede a
+cobrança do prejuízo real quando ele for maior.
 
 ---
 
@@ -294,7 +304,6 @@ Por estarem de acordo, assinam este Termo em 3 (três) vias de igual teor.
 
 ____________________, ____ de ______________ de 20____.
 
-<br>
 
 | | |
 |---|---|
@@ -302,7 +311,6 @@ ____________________, ____ de ______________ de 20____.
 | **Gilberto Sena** | **Stanley Bittar** |
 | CPF | CPF |
 
-<br>
 
 | | |
 |---|---|
@@ -310,7 +318,6 @@ ____________________, ____ de ______________ de 20____.
 | **Will Simões** | **Testemunha**, nome e CPF |
 | CPF | |
 
-<br>
 
 | |
 |---|
@@ -345,12 +352,20 @@ em serviço profissional. **Se a margem típica dos negócios de vocês for mais
 baixa, 5% pesa mais do que a combinação original**, e o número deve descer.
 É uma troca de palavra no documento.
 
-**Segundo: a multa de R$ 1.000.000,00 pode ser discutida em juízo.** Multa
-muito acima do prejuízo real costuma ser contestada, e o juiz tem instrumento
-para reduzi-la. Isso não torna a cláusula inútil: ela funciona como freio, que
-é o papel dela num acordo entre sócios. Mas não conte com o número cheio como
-se fosse dinheiro garantido, e peça ao advogado para conferir se a redação
-está na forma que melhor se sustenta.
+**Segundo: por que a multa de sigilo mudou de forma.** Não existe número
+padrão em lei para multa de confidencialidade. O que existe é uma forma que
+se sustenta melhor que um valor redondo e alto: ancorar a multa num valor que
+o próprio contrato produz, declarar que ela é piso e não teto, e somar a ela
+o direito de exigir que a divulgação pare na hora.
+
+Foi o que a cláusula 9.8 passou a fazer. Os R$ 50.000 são o valor de um
+programa de mentoria, o que torna o número explicável em juízo, e ele se
+aplica **por evento de quebra**, não uma vez só. Se o prejuízo real for
+maior, cobra-se a diferença.
+
+Um valor redondo muito acima do prejuízo provável tende a ser contestado, e
+quando é reduzido o que sobra costuma ser menos do que uma multa
+proporcional teria garantido.
 
 **Terceiro: isto é minuta, não contrato.** Eu não sou advogado. Antes de
 assinar, passe por um, principalmente pelas seções 7, 8 e 9, que são as que
