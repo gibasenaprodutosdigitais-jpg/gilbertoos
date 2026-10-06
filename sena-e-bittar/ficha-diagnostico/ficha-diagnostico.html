@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Ficha de Diagnóstico do Consultório — Sena e Bittar</title>
+<style>
+  /* --------------------------------------------------------------
+     Identidade da Sena e Bittar, tirada do video de apresentacao:
+     azul-noite, ouro, serifa com italico no destaque.
+     A marca aqui e tipografica. Quando o arquivo original do
+     monograma aparecer, trocar no .marca.
+     -------------------------------------------------------------- */
+  :root{
+    --noite:#0C1A2E;
+    --noite-claro:#16294333;
+    --ouro:#C9A24B;
+    --ouro-claro:#E4CE97;
+    --tinta:#1A1A1A;
+    --papel:#FFFFFF;
+    --cinza:#6B6B6B;
+    --linha:#D8D3C6;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Helvetica Neue",Arial,sans-serif;color:var(--tinta);
+       background:var(--papel);font-size:12px;line-height:1.5}
+  .pagina{max-width:780px;margin:0 auto;padding:30px 4px}
+
+  /* ---------- capa ---------- */
+  .capa{background:var(--noite);color:#F2EFE8;margin-bottom:20px}
+  .capa-foto{display:block;width:100%;height:330px;object-fit:contain;
+             background:#0A1626;padding:14px 0}
+  .capa-texto{padding:26px 44px 32px;text-align:center}
+  .capa h1{font-family:Georgia,serif;font-size:28px;font-weight:400;
+           letter-spacing:-.005em;margin:0 0 8px;line-height:1.18}
+  .capa h1 em{color:var(--ouro);font-style:italic}
+  .capa .linha-fina{font-size:11.5px;color:#9FB0C4;max-width:430px;margin:0 auto}
+
+  /* ---------- avisos ---------- */
+  .aviso{border:1px solid var(--linha);border-left:3px solid var(--ouro);
+         padding:13px 17px;margin-bottom:22px;font-size:10.8px;line-height:1.6;
+         color:#3A3A3A}
+  .aviso b{color:var(--tinta)}
+
+  /* ---------- campos de identificacao ---------- */
+  .bloco{margin-bottom:22px}
+  .bloco-titulo{font-family:Georgia,serif;font-size:15px;margin-bottom:11px;
+                padding-bottom:5px;border-bottom:1px solid var(--linha)}
+  .linha-campos{display:flex;gap:18px;margin-bottom:13px}
+  .campo{flex:1}
+  .campo label{display:block;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;
+               color:#8C7A4A;font-weight:700;margin-bottom:2px}
+  .campo .risco{border-bottom:1px solid #8E8E8E;height:17px}
+
+  .marcadores{display:flex;gap:16px;flex-wrap:wrap;margin-top:4px}
+  .marcador{font-size:10.5px;display:flex;align-items:center;gap:6px}
+  .caixinha{width:11px;height:11px;border:1px solid #6B6B6B;display:inline-block}
+
+  /* ---------- pilares ---------- */
+  .pilar{page-break-before:always;margin-top:8px}
+  .pilar-topo{background:var(--noite);color:#F2EFE8;padding:17px 22px;margin-bottom:20px}
+  .pilar-num{font-size:8.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--ouro)}
+  .pilar-nome{font-family:Georgia,serif;font-size:22px;letter-spacing:.07em;
+              text-transform:uppercase;margin:3px 0 7px}
+  .pilar-tese{font-family:Georgia,serif;font-size:13px;font-style:italic;color:#C6D2E0}
+  .pilar-mede{margin-top:11px;padding-top:9px;border-top:1px solid #2A4062;
+              font-size:9.5px;letter-spacing:.06em;color:#9FB0C4}
+  .pilar-mede b{color:var(--ouro-claro);letter-spacing:.14em;text-transform:uppercase;
+                font-size:8.5px}
+
+  .pergunta{margin-bottom:19px;page-break-inside:avoid}
+  .num{display:inline-block;width:21px;height:21px;border:1px solid var(--ouro);
+       color:#8C7A4A;text-align:center;line-height:20px;font-size:10px;font-weight:700;
+       margin-right:8px;vertical-align:middle}
+  .texto{font-size:12px;font-weight:600;display:inline}
+  .obs{display:block;margin-left:29px;margin-top:2px;font-size:10px;color:var(--cinza);
+       font-style:italic}
+  .riscos{margin-left:29px;margin-top:7px}
+  .riscos div{border-bottom:1px solid #CFCFCF;height:20px}
+
+  .so-estetica{border:1px solid var(--ouro);padding:4px 9px;font-size:8.5px;
+               letter-spacing:.14em;text-transform:uppercase;color:#8C7A4A;
+               display:inline-block;margin-bottom:9px;font-weight:700}
+
+  /* ---------- numeros de partida ---------- */
+  table.partida{width:100%;border-collapse:collapse;margin:14px 0 6px;font-size:11px}
+  table.partida th{background:var(--noite);color:#F2EFE8;padding:8px 10px;text-align:left;
+                   font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;
+                   font-weight:700}
+  table.partida td{border:1px solid var(--linha);padding:11px 10px;height:34px;
+                   vertical-align:middle}
+  table.partida td:first-child{background:#FAF8F3;font-weight:700;width:34%}
+  table.partida td.como{font-size:9.5px;color:var(--cinza);width:33%}
+
+  .lista-docs{margin-left:16px;font-size:11px;line-height:1.6}
+  .lista-docs li{margin-bottom:1px}
+
+  /* ---------- fecho ---------- */
+  .fecho{background:var(--noite);color:#F2EFE8;padding:18px 28px;margin-top:18px;
+         text-align:center}
+  .fecho p{font-family:Georgia,serif;font-style:italic;font-size:13px;color:#C6D2E0}
+  .fecho .assina{margin-top:13px;font-size:8.5px;letter-spacing:.26em;
+                 text-transform:uppercase;color:var(--ouro)}
+  .rodape{margin-top:12px;padding-top:8px;border-top:1px solid var(--linha);
+          font-size:8.5px;color:#9A9A9A;text-align:center;letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="pagina">
+
+<div class="capa">
+  <img class="capa-foto" src="logo-sena-e-bittar.jpg" alt="Sena e Bittar">
+  <div class="capa-texto">
+    <h1>Onde o seu consultório<br><em>perde dinheiro</em></h1>
+    <div class="linha-fina">Ficha de diagnóstico dos quatro pilares. Aplicada no
+      primeiro encontro, antes de qualquer plano.</div>
+  </div>
+</div>
+
+<div class="aviso">
+  <b>Como usar.</b> Esta ficha é o primeiro encontro inteiro. Não é
+  questionário para o paciente responder sozinho em casa: metade do valor está
+  no que ele diz enquanto pensa na resposta. Preencher junto, à mão, com os
+  dois mentores presentes.
+  <br><br>
+  <b>Sigilo.</b> Tudo o que está escrito aqui é confidencial entre o
+  profissional e a Sena e Bittar, e não sai desta sala sem autorização dele.
+</div>
+
+<div class="bloco" style="page-break-before:always;padding-top:6px">
+  <div class="bloco-titulo">Quem está na frente</div>
+  <div class="linha-campos">
+    <div class="campo"><label>Nome</label><div class="risco"></div></div>
+    <div class="campo"><label>Registro profissional (CRM, CRO, CRBM)</label><div class="risco"></div></div>
+  </div>
+  <div class="linha-campos">
+    <div class="campo"><label>Nome da clínica ou consultório</label><div class="risco"></div></div>
+    <div class="campo"><label>CNPJ</label><div class="risco"></div></div>
+  </div>
+  <div class="linha-campos">
+    <div class="campo"><label>Especialidade e principais procedimentos</label><div class="risco"></div></div>
+  </div>
+  <div class="linha-campos">
+    <div class="campo"><label>Tempo de consultório</label><div class="risco"></div></div>
+    <div class="campo"><label>Pessoas na equipe</label><div class="risco"></div></div>
+    <div class="campo"><label>Regime tributário atual</label><div class="risco"></div></div>
+  </div>
+  <div class="linha-campos">
+    <div class="campo"><label>Faturamento médio mensal</label><div class="risco"></div></div>
+    <div class="campo"><label>Data do diagnóstico</label><div class="risco"></div></div>
+  </div>
+
+  <div style="margin-top:14px">
+    <label style="display:block;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:#8C7A4A;font-weight:700;margin-bottom:6px">Perfil</label>
+    <div class="marcadores">
+      <span class="marcador"><span class="caixinha"></span> Médico</span>
+      <span class="marcador"><span class="caixinha"></span> Dentista</span>
+      <span class="marcador"><span class="caixinha"></span> Biomédico</span>
+      <span class="marcador"><span class="caixinha"></span> Esteticista</span>
+      <span class="marcador"><span class="caixinha"></span> Outro profissional de saúde</span>
+    </div>
+  </div>
+  <div style="margin-top:12px">
+    <label style="display:block;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:#8C7A4A;font-weight:700;margin-bottom:6px">Faz procedimento com finalidade estética?</label>
+    <div class="marcadores">
+      <span class="marcador"><span class="caixinha"></span> Não</span>
+      <span class="marcador"><span class="caixinha"></span> Sim, uma parte</span>
+      <span class="marcador"><span class="caixinha"></span> Sim, é o principal</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PILAR 01 ================= -->
+<div class="pilar">
+  <div class="pilar-topo">
+    <div class="pilar-num">Pilar 01 de 04</div>
+    <div class="pilar-nome">Gestão</div>
+    <div class="pilar-tese">A base. O resto se apoia nela.</div>
+    <div class="pilar-mede"><b>O sistema mede</b> &nbsp;·&nbsp; Sobra do mês, depois de imposto e retirada</div>
+  </div>
+
+  <div class="pergunta"><span class="num">01</span><span class="texto">A conta da
+    clínica e a sua conta pessoal são a mesma conta?</span>
+    <span class="obs">Com que frequência uma paga a despesa da outra?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">02</span><span class="texto">Sem abrir
+    nada agora: quanto sobrou no mês passado, depois de imposto e da sua retirada?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">03</span><span class="texto">Qual é o seu
+    regime tributário hoje, e quem decidiu por ele?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">04</span><span class="texto">Você tem
+    pró-labore definido, ou tira conforme o caixa permite?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">05</span><span class="texto">Quanto do seu
+    faturamento vem de convênio e quanto vem de particular?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">06</span><span class="texto">Quem fecha o
+    mês, até que dia, e em que lugar esse número fica guardado?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+</div>
+
+<!-- ================= PILAR 02 ================= -->
+<div class="pilar">
+  <div class="pilar-topo">
+    <div class="pilar-num">Pilar 02 de 04</div>
+    <div class="pilar-nome">Marketing</div>
+    <div class="pilar-tese">O paciente certo precisa te encontrar.</div>
+    <div class="pilar-mede"><b>O sistema mede</b> &nbsp;·&nbsp; Pacientes novos no mês, e quantos chegaram por indicação</div>
+  </div>
+
+  <div class="pergunta"><span class="num">07</span><span class="texto">Quando alguém
+    te indica, o que a pessoa diz sobre você?</span>
+    <span class="obs">Por qual procedimento você é lembrado?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">08</span><span class="texto">De onde veio
+    cada paciente novo do mês passado? Você sabe ou chuta?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">09</span><span class="texto">Quem responde
+    a primeira mensagem do paciente, e em quanto tempo?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">10</span><span class="texto">O que já
+    existe hoje de presença: perfil, site, avaliação de paciente, colega que
+    encaminha?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">11</span><span class="texto">Alguma vez
+    você deixou de publicar alguma coisa por dúvida sobre a regra do conselho?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+</div>
+
+<!-- ================= PILAR 03 ================= -->
+<div class="pilar">
+  <div class="pilar-topo">
+    <div class="pilar-num">Pilar 03 de 04</div>
+    <div class="pilar-nome">Vendas</div>
+    <div class="pilar-tese">Consulta marcada ainda não é paciente tratado.</div>
+    <div class="pilar-mede"><b>O sistema mede</b> &nbsp;·&nbsp; Tratamentos fechados, sobre os orçamentos do mês</div>
+  </div>
+
+  <div class="pergunta"><span class="num">12</span><span class="texto">De cada dez
+    orçamentos que você apresenta, quantos viram tratamento?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">13</span><span class="texto">Como o
+    orçamento é apresentado hoje: por você, pela recepção, por mensagem?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">14</span><span class="texto">O que acontece
+    com o paciente que ouviu o orçamento e não voltou?</span>
+    <span class="obs">Alguém procura ele de novo, ou o orçamento morre sozinho?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">15</span><span class="texto">Quanto do seu
+    faturamento vem de paciente que já era seu?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">16</span><span class="texto">Existe recall?
+    Quem chama o paciente de volta, e de quanto em quanto tempo?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+</div>
+
+<!-- ================= PILAR 04 ================= -->
+<div class="pilar">
+  <div class="pilar-topo">
+    <div class="pilar-num">Pilar 04 de 04</div>
+    <div class="pilar-nome">Lucratividade</div>
+    <div class="pilar-tese">Faturar mais e lucrar mais são contas diferentes.</div>
+    <div class="pilar-mede"><b>O sistema mede</b> &nbsp;·&nbsp; Margem líquida do mês, contra a meta do trimestre</div>
+  </div>
+
+  <div class="pergunta"><span class="num">17</span><span class="texto">Qual dos seus
+    procedimentos dá mais margem? E qual você mais faz?</span>
+    <span class="obs">Se as duas respostas forem diferentes, está achada a primeira correção.</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">18</span><span class="texto">Há quanto tempo
+    você não reajusta preço?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">19</span><span class="texto">Quanto vale uma
+    hora sua, contando também a hora em que você não atende?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta"><span class="num">20</span><span class="texto">Se a sua agenda
+    dobrasse amanhã, o que quebraria primeiro?</span>
+    <div class="riscos"><div></div><div></div></div></div>
+
+  <div class="pergunta">
+    <div class="so-estetica">Só para quem faz estética</div>
+    <div style="font-size:10px;color:#6B6B6B;font-style:italic;margin:0 0 9px">
+      A classificação do procedimento decide a conta de imposto deste
+      consultório, e quase ninguém olhou isso ainda.</div>
+    <span class="num">21</span><span class="texto">Dos seus procedimentos, quais têm
+    finalidade terapêutica e quais são de embelezamento?</span>
+    <span class="obs">Como cada um aparece hoje na descrição da nota fiscal?</span>
+    <div class="riscos"><div></div><div></div><div></div></div></div>
+</div>
+
+<!-- ================= NUMEROS E DOCUMENTOS ================= -->
+<div class="pilar">
+  <div class="pilar-topo">
+    <div class="pilar-num">Fecho do encontro</div>
+    <div class="pilar-nome">Linha de partida</div>
+    <div class="pilar-tese">É contra estes quatro números que os 90 dias vão ser medidos.</div>
+  </div>
+
+  <table class="partida">
+    <tr><th>Indicador</th><th>Hoje</th><th>Como foi apurado</th></tr>
+    <tr><td>Sobra do mês<br><span style="font-weight:400;font-size:9.5px;color:#6B6B6B">depois de imposto e retirada</span></td><td></td><td class="como"></td></tr>
+    <tr><td>Pacientes novos<br><span style="font-weight:400;font-size:9.5px;color:#6B6B6B">e quantos por indicação</span></td><td></td><td class="como"></td></tr>
+    <tr><td>Tratamentos fechados<br><span style="font-weight:400;font-size:9.5px;color:#6B6B6B">sobre os orçamentos do mês</span></td><td></td><td class="como"></td></tr>
+    <tr><td>Margem líquida<br><span style="font-weight:400;font-size:9.5px;color:#6B6B6B">sobra dividida pela receita</span></td><td></td><td class="como"></td></tr>
+  </table>
+  <div style="font-size:9.5px;color:#6B6B6B;font-style:italic;margin-bottom:22px">
+    Se algum destes quatro não puder ser apurado hoje, escrever “não sei” em vez
+    de estimar. Saber que não se sabe já é diagnóstico.
+  </div>
+
+  <div class="bloco-titulo">O que o profissional entrega até o próximo encontro</div>
+  <ul class="lista-docs">
+    <li>Extrato bancário da clínica, últimos 6 meses</li>
+    <li>Faturamento mês a mês, últimos 12 meses, separando convênio e particular</li>
+    <li>Guias de imposto dos últimos 6 meses</li>
+    <li>Folha de pagamento, se houver equipe</li>
+    <li>Tabela de procedimentos com o preço praticado hoje</li>
+    <li>Número de atendimentos dos últimos 3 meses</li>
+    <li>Amostra de notas fiscais emitidas, para ver como o serviço está descrito</li>
+  </ul>
+
+  <div style="margin-top:16px">
+    <div class="bloco-titulo">As três decisões do trimestre</div>
+    <div style="font-size:10px;color:#6B6B6B;font-style:italic;margin-bottom:10px">
+      Três. Não dez. Escritas aqui, na frente dele, antes de todo mundo levantar.
+    </div>
+    <div style="margin-bottom:10px"><label style="display:block;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:#8C7A4A;font-weight:700;margin-bottom:3px">Decisão 1</label><div style="border-bottom:1px solid #8E8E8E;height:20px"></div></div>
+    <div style="margin-bottom:10px"><label style="display:block;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:#8C7A4A;font-weight:700;margin-bottom:3px">Decisão 2</label><div style="border-bottom:1px solid #8E8E8E;height:20px"></div></div>
+    <div style="margin-bottom:10px"><label style="display:block;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:#8C7A4A;font-weight:700;margin-bottom:3px">Decisão 3</label><div style="border-bottom:1px solid #8E8E8E;height:20px"></div></div>
+  </div>
+
+  <div class="linha-campos" style="margin-top:20px">
+    <div class="campo"><label>Assinatura do profissional</label><div class="risco"></div></div>
+    <div class="campo"><label>Pela Sena e Bittar</label><div class="risco"></div></div>
+  </div>
+
+  <div class="fecho">
+    <p>“A agenda lota. O caixa não acompanha.”</p>
+    <div class="assina">Stanley Bittar &nbsp;·&nbsp; Gilberto Sena</div>
+  </div>
+
+  <div class="rodape">
+    Sena e Bittar · Consultoria e assessoria para médicos · Documento confidencial
+  </div>
+</div>
+
+</div>
+</body>
+</html>

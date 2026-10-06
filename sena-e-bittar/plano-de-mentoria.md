@@ -21,8 +21,8 @@ que vocês já fecharam (`Video Sena e Bittar.mp4`). Nada aqui foi inventado:
 | Pilar | A tese, como está no vídeo | O que o sistema mede |
 |---|---|---|
 | 01 Gestão | "A base. O resto se apoia nela." | Sobra do mês, depois de imposto e retirada |
-| 02 Marketing | "O paciente certo precisa te encontrar." | Pacientes novos no mês |
-| 03 Vendas | "Consulta marcada ainda não é paciente tratado." | Conversão de orçamento em tratamento |
+| 02 Marketing | "O paciente certo precisa te encontrar." | Pacientes novos, e quantos vieram por indicação |
+| 03 Vendas | "Consulta marcada ainda não é paciente tratado." | Tratamentos fechados, sobre os orçamentos do mês |
 | 04 Lucratividade | "Faturar mais e lucrar mais são contas diferentes." | Margem líquida do mês |
 
 E o aviso que amarra tudo, também do vídeo: *"A agenda lota. O caixa não
@@ -272,12 +272,17 @@ se ele entra junto da mentoria ou é a camada de recorrência que vem depois.
 Os quatro indicadores precisam de fórmula escrita, senão cada mês é medido
 de um jeito e a comparação não vale.
 
-| Indicador | Como calcular |
-|---|---|
-| **Sobra do mês** | Receita recebida no mês, menos custo fixo, menos custo variável, menos imposto pago, menos pró-labore. É caixa, não competência. |
-| **Pacientes novos** | Primeira consulta no período, por origem registrada na recepção. Paciente que volta depois de anos conta como retorno, não como novo. |
-| **Conversão de orçamento** | Orçamentos que viraram tratamento iniciado, dividido pelos orçamentos apresentados no mesmo período. |
-| **Margem líquida** | Sobra do mês dividida pela receita do mês. É o número que mostra se faturar mais virou lucrar mais. |
+Os nomes abaixo são os do painel que aparece no vídeo, letra por letra.
+
+| Pilar | Indicador | Como calcular |
+|---|---|---|
+| Gestão | **Sobra do mês**, depois de imposto e retirada | Receita recebida no mês, menos custo fixo, menos custo variável, menos imposto pago, menos pró-labore. É caixa, não competência. |
+| Marketing | **Pacientes novos**, e quantos por indicação | Primeira consulta no período, por origem registrada na recepção. Paciente que volta depois de anos conta como retorno. A fatia que veio por indicação é o número que mostra reputação. |
+| Vendas | **Tratamentos fechados**, sobre os orçamentos do mês | Orçamentos que viraram tratamento iniciado, dividido pelos orçamentos apresentados no mesmo período. |
+| Lucro | **Margem líquida**, contra a meta do trimestre | Sobra do mês dividida pela receita do mês. É o número que mostra se faturar mais virou lucrar mais. |
+
+O painel do vídeo ainda traz faturamento e lucro dos últimos 12 meses lado a
+lado, que é o gráfico que o médico entende sem explicação.
 
 Medir a linha de base no diagnóstico e repetir todo mês, com a mesma conta.
 
@@ -351,8 +356,7 @@ abaixo.
 1. **Levantar as regras de publicidade dos conselhos** (CFM, CFO, CFBM e o
    que vale para esteticista sem conselho) e fichar, antes de vender o pilar
    de Marketing. Bloqueia a venda do pilar.
-2. **Preço do programa.** Não coloquei valor porque não existe decisão de
-   vocês registrada em lugar nenhum.
+2. ~~Preço do programa.~~ **Decidido em 06/out/2026.** Ver seção 11.
 3. **Divisão entre os sócios.** Como entra a receita e como se divide.
 4. **O painel é parte da mentoria ou é a recorrência depois dela?**
 5. **A marca fala "para médicos", mas o público agora é quatro.** Decidir se
@@ -370,3 +374,40 @@ abaixo.
 - O modelo do documento de diagnóstico que fecha a fase 1
 - A peça comercial de uma página para o médico
 - O roteiro do diagnóstico gratuito, que é o que o QR code do vídeo promete
+
+---
+
+## 11. Preço
+
+Decidido pelo Gilberto em 06/out/2026.
+
+| Forma | Valor |
+|---|---|
+| À vista, pix ou cartão | **R$ 45.000,00** |
+| Parcelado | **12x de R$ 5.000,00**, total de R$ 60.000,00 |
+
+**Uma observação de quem faz a conta.** A diferença entre as duas formas é de
+R$ 15.000, o que embute uma taxa de **4,73% ao mês**, ou 74,1% ao ano. É uma escolha legítima: parcelamento no cartão tem custo de adquirente,
+e o risco de inadimplência ao longo de doze meses é real. Mas é um número
+alto o bastante para o médico fazer a conta sozinho, e vários deles fazem.
+
+Duas formas de tratar isso, as duas defensáveis:
+
+- **Deixar como está e saber defender.** Se alguém perguntar, a resposta é o
+  custo do parcelamento e o risco do prazo. Resposta honesta, dita sem rodeio.
+- **Baixar a taxa embutida sem mexer no caixa.** Algumas contas, todas com a
+  mesma entrada de R$ 45.000 à vista:
+
+| Parcelamento | Total | Taxa embutida |
+|---|---|---|
+| 12x de R$ 5.000 | R$ 60.000 | 4,73% a.m. · 74,1% a.a. |
+| 6x de R$ 8.500 | R$ 51.000 | 3,70% a.m. · 54,6% a.a. |
+| 6x de R$ 8.200 | R$ 49.200 | 2,61% a.m. · 36,2% a.a. |
+| 12x de R$ 4.200 | R$ 50.400 | 1,79% a.m. · 23,7% a.a. |
+
+  A última linha é a que eu acharia mais fácil de defender: mantém os doze
+  meses, que é o que o médico quer, e a taxa embutida fica abaixo do que ele
+  paga no capital de giro dele.
+
+A decisão é sua. Só não quero que o número apareça numa reunião sem você ter
+visto ele antes.
