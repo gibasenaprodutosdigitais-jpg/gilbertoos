@@ -36,9 +36,14 @@ th{background:var(--grafite);color:var(--claro);padding:7px 9px;text-align:left;
    font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
 td{border:1px solid var(--linha);padding:7px 9px;vertical-align:top}
 tbody tr:nth-child(even) td{background:#FAF9F6}
+.dagua{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+       width:300px;opacity:.07;z-index:-1;pointer-events:none}
+/* position:fixed se repete em toda folha no PDF do Chromium. Conferi
+   descomprimindo os fluxos: as 7 paginas desenham a imagem. */
 .rodape{margin-top:26px;padding-top:9px;border-top:1px solid var(--linha);
         font-size:8.5px;color:#9A9A9A;text-align:center;letter-spacing:.04em}
 </style></head><body>
+<img class="dagua" src="ficha-diagnostico/marca-dagua.png" alt="">
 <div class="pagina">
   <div class="capa">
     <div class="marca">SENA E BITTAR</div>
