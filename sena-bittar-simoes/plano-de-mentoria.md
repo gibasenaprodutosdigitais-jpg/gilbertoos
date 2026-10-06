@@ -85,22 +85,60 @@ fiscal, o que facilita medir.
 
 | | |
 |---|---|
-| Encontro de abertura | 2h, presencial ou vídeo, os dois sócios presentes |
+| Encontro de abertura | 2h, presencial ou vídeo, os três sócios presentes |
 | Encontros quinzenais | 1h30, 6 encontros ao longo dos 90 dias |
 | Acompanhamento entre encontros | canal direto, resposta em até 1 dia útil |
-| Fechamento | 2h, leitura dos quatro indicadores e decisão sobre continuar |
+| Fechamento | 2h, leitura dos indicadores e decisão sobre continuar |
 
-**Quem conduz o quê.** É a frase do vídeo virada em operação: *"O médico e o
-gestor, do seu lado."*
+---
 
-- **Stanley** abre a porta e traduz. Ele fala a língua do consultório, sabe
-  o que é uma agenda real, um procedimento, um convênio, e por que o médico
-  resiste a certas mudanças. Conduz Marketing e Vendas, que é onde a rotina
-  clínica manda.
-- **Gilberto** fecha a conta. Conduz Gestão e Lucratividade: regime
-  tributário, separação de contas, margem por procedimento, precificação.
-- **Os dois juntos** na abertura e no fechamento. O resto se divide por
-  pilar, mas cada um acompanha o que o outro decidiu.
+## 3.1 Quem é dono de quê
+
+Cada sócio conduz o pilar que é território dele. Mais que dividir agenda,
+isso divide autoridade: quem fala de cada assunto é quem vive aquele assunto.
+
+| Sócio | Especialidade | Pilar que conduz |
+|---|---|---|
+| **Sena** | Gestão de negócios · Contábil · Tributária · Pessoal | 01 Gestão |
+| **Bittar** | Médico estrategista · Marketing e Vendas | 02 Marketing e 03 Vendas |
+| **Simões** | Finanças e Smart Money | 04 Lucratividade |
+
+**Por que essa divisão funciona na frente do cliente.** O médico sentado ali
+sabe diferenciar quem fala de dentro de quem fala de fora. Bittar é médico, e
+isso resolve a resistência que todo consultório tem a ouvir gestão de quem
+nunca atendeu. Sena traz a conta e a estrutura, que é onde mora o imposto e a
+folha. Simões entra depois que sobra dinheiro, que é quando a conversa deixa
+de ser sobrevivência e vira patrimônio.
+
+**Os três juntos** na abertura e no fechamento. No meio, cada um conduz o seu,
+mas todos leem o que os outros decidiram antes do encontro seguinte. Mentoria
+em que um sócio desconhece a decisão do outro vira três consultorias soltas
+dentro do mesmo contrato.
+
+---
+
+## 3.2 Cronograma dos 90 dias
+
+| Dias | Encontro | Pilar | Conduz | O que sai de lá |
+|---|---|---|---|---|
+| 1 a 15 | Abertura e diagnóstico | Todos | **Os três** | Linha de base dos indicadores, mapa de classificação dos serviços e as três decisões do trimestre |
+| 16 a 30 | 1 | 01 Gestão | **Sena** | Contas separadas, pró-labore definido, rotina de fechamento com dono e data |
+| 31 a 45 | 2 | 01 Gestão | **Sena** | Regime tributário decidido, reserva de caixa com meta, folha organizada |
+| 46 a 60 | 3 | 04 Lucratividade | **Simões** | Margem por procedimento, tabela de preço revista, decisão sobre mix e convênios |
+| 61 a 70 | 4 | 02 Marketing | **Bittar** | Posicionamento por procedimento, origem de paciente rastreada, presença mínima viável |
+| 71 a 80 | 5 | 03 Vendas | **Bittar** | Caminho da primeira mensagem à consulta, conversa de orçamento, recall e indicação |
+| 81 a 90 | 6 | Amarração | **Os três** | Indicadores contra a linha de base, agenda do dono revista, desenho do próximo ciclo |
+
+**Por que Lucratividade vem antes de Marketing.** É o aviso do próprio vídeo:
+*marketing e vendas em cima de uma base fraca só fazem você trabalhar mais pra
+sobrar o mesmo.* Preço corrige margem já no mês seguinte; marketing leva um
+trimestre pra aparecer. Encher a agenda antes de arrumar o preço é comprar
+trabalho.
+
+**Depois dos 90 dias.** O Smart Money do Simões só faz sentido quando a
+empresa já tem ponto de equilíbrio coberto e reserva formada. Antes disso,
+falar de investimento é conversa bonita em cima de caixa frágil. Esse é o
+gancho natural do segundo ciclo.
 
 ---
 
@@ -180,10 +218,10 @@ Um documento com:
 
 ---
 
-## 5. Fase 2: plano de ação nos quatro pilares (dias 16 a 75)
+## 5. Fase 2: plano de ação nos quatro pilares (dias 16 a 80)
 
-Seis encontros quinzenais. A ordem abaixo inverte a numeração do vídeo, de
-propósito.
+Seis encontros quinzenais, com o calendário e o condutor de cada um na seção
+3.2. A ordem abaixo inverte a numeração do vídeo, de propósito.
 
 ### Por que a ordem muda
 
@@ -199,6 +237,7 @@ decisão de vocês. Mas o médico que entra em marketing antes de arrumar preço
 costuma voltar em seis meses mais cansado e com a mesma sobra.
 
 ### Encontros 1 e 2: Gestão, a base
+**Conduz: Sena** · gestão de negócios, contábil, tributária e pessoal
 
 O que sai arrumado:
 
@@ -214,6 +253,7 @@ Ancora no **2G, Gestão Financeira** do livro: governança, orçamento, fluxo
 de caixa, investimentos, endividamento, nessa ordem de pirâmide.
 
 ### Encontro 3: Lucratividade, o preço
+**Conduz: Simões** · finanças e Smart Money
 
 - Margem apurada por procedimento, não no agregado
 - Custo real da hora do médico, incluindo a hora que ele não atende
@@ -225,7 +265,13 @@ de caixa, investimentos, endividamento, nessa ordem de pirâmide.
 Esta é a sessão que costuma mudar o resultado mais rápido, porque preço
 corrige margem no mês seguinte, enquanto marketing leva um trimestre.
 
+**A camada do Simões.** Arrumada a margem, começa a aparecer sobra, e aí a
+pergunta deixa de ser quanto entra e passa a ser o que fazer com o que
+sobrou. É onde entra o Smart Money, e é o que liga este ciclo ao próximo.
+Ver a ressalva da seção 9 antes de vender esta parte.
+
 ### Encontro 4: Marketing, o paciente certo
+**Conduz: Bittar** · médico estrategista, marketing e vendas
 
 - Posicionamento: por qual procedimento este médico quer ser lembrado
 - Presença mínima viável, sem virar produtora de conteúdo
@@ -236,6 +282,7 @@ corrige margem no mês seguinte, enquanto marketing leva um trimestre.
 **Trava obrigatória:** tudo dentro das regras do conselho. Ver a seção 8.
 
 ### Encontro 5: Vendas, o paciente tratado
+**Conduz: Bittar**
 
 - O caminho da primeira mensagem até a consulta, cronometrado
 - Quem responde, em quanto tempo, com que script
@@ -247,6 +294,7 @@ Ancora no **5G, Gestão de Clientes**: conhecimento, compra, retenção, defesa,
 recompra.
 
 ### Encontro 6: amarração
+**Conduzem: os três**
 
 - Revisão dos quatro indicadores contra a linha de base
 - O que ficou pela metade e por quê
@@ -361,13 +409,31 @@ abaixo.
    que vale para esteticista sem conselho) e fichar, antes de vender o pilar
    de Marketing. Bloqueia a venda do pilar.
 2. ~~Preço do programa.~~ **Decidido em 06/out/2026.** Ver seção 11.
-3. **Divisão entre os sócios.** Como entra a receita e como se divide.
+3. **Divisão de receita entre os três sócios.** A divisão de *trabalho* está
+   na seção 3.1; a de dinheiro, não.
 4. **O painel é parte da mentoria ou é a recorrência depois dela?**
-5. **A marca fala "para médicos", mas o público agora é quatro.** Decidir se
-   a assinatura muda, se cada público ganha uma peça própria, ou se médico
-   segue como porta de entrada e o resto entra por indicação.
-6. **Contrato de prestação de serviço** da mentoria, com sigilo. Existe
-   modelo em `juridico/` para adaptar.
+5. ~~A marca fala "para médicos".~~ **Resolvido em 06/out/2026:** a linha
+   passou a ser "consultoria e assessoria médica empresarial".
+6. **Delimitar o Smart Money antes de vender.** Esta é a que mais preocupa.
+   Falar de investimento para cliente é terreno regulado, e a linha entre
+   **educar** e **recomendar produto** é fina. O OCEO já enfrentou isso e
+   registrou a decisão: o pilar equivalente lá foi renomeado para "educação
+   pré-investimento" justamente porque o sistema **prepara o empresário para
+   investir, sem prometer renda e sem recomendar produto individualizado**
+   (ver `Projetos Gsena Tec/oceo/pilar-5-educacao-pre-investimento.md`).
+
+   Duas coisas antes de o Smart Money entrar em peça comercial:
+
+   - **O que ele é, nas palavras do Simões.** Smart money no mercado costuma
+     significar capital que vem com experiência e rede junto, não só dinheiro.
+     Assumi outro sentido aqui, e a definição tem que sair da boca dele.
+   - **Se ele tem registro** para falar de investimento com cliente, e de que
+     tipo. Isso muda o que pode ser dito, e deve estar escrito no contrato.
+7. **Nome completo do sócio Simões**, para a folha de rosto dos dois
+   documentos deixar de falar em "sócios" e passar a nomear os três.
+8. **Contrato de prestação de serviço** da mentoria, com sigilo, e o acordo
+   entre os três sócios sobre entrada e divisão de receita. Existe modelo em
+   `juridico/` para adaptar.
 
 ---
 
