@@ -369,8 +369,10 @@ abaixo.
 
 ## 10. Próximas peças que saem deste documento
 
-- A ficha de anamnese do consultório, em PDF, para aplicar no primeiro
-  encontro (as 14 perguntas da seção 4.1 mais as dos 5 G's que couberem)
+- ~~A ficha de diagnóstico do consultório, em PDF.~~ **Pronta em
+  06/out/2026**, em `ficha-diagnostico/`. São 6 páginas, 21 perguntas
+  divididas pelos quatro pilares, mais a folha de fecho com a linha de
+  partida. A pergunta 21 só vale para quem faz estética.
 - O modelo do documento de diagnóstico que fecha a fase 1
 - A peça comercial de uma página para o médico
 - O roteiro do diagnóstico gratuito, que é o que o QR code do vídeo promete
