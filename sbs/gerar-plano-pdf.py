@@ -47,7 +47,14 @@ def converter(md: str) -> str:
         if cru.startswith("|") and i + 1 < len(linhas) and re.match(r"^\|[\s:|-]+\|$", linhas[i + 1].strip()):
             fecha_lista()
             cab = [c.strip() for c in cru.strip("|").split("|")]
-            out.append("<table><thead><tr>" + "".join(f"<th>{inline(c)}</th>" for c in cab) + "</tr></thead><tbody>")
+            # tabela sem titulo nenhum nao leva faixa escura: cabecalho vazio
+            # virava uma barra preta sem motivo na pagina
+            if any(cab):
+                out.append("<table><thead><tr>" +
+                           "".join(f"<th>{inline(c)}</th>" for c in cab) +
+                           "</tr></thead><tbody>")
+            else:
+                out.append("<table class=\"sem-cabecalho\"><tbody>")
             i += 2
             while i < len(linhas) and linhas[i].strip().startswith("|"):
                 cel = [c.strip() for c in linhas[i].strip().strip("|").split("|")]
@@ -166,6 +173,9 @@ th{background:var(--grafite);color:var(--claro);padding:7px 9px;text-align:left;
    font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
 td{border:1px solid var(--linha);padding:7px 9px;vertical-align:top}
 tbody tr:nth-child(even) td{background:#FAF9F6}
+table.sem-cabecalho td{border:0;border-bottom:1px solid var(--linha);
+                       padding:9px 10px}
+table.sem-cabecalho td:first-child{width:34%;color:#5E5E5E}
 .dagua{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
        width:560px;z-index:0;pointer-events:none}
 /* position:fixed se repete em toda folha no PDF do Chromium. Conferi

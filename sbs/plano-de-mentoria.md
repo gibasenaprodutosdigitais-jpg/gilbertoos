@@ -346,16 +346,27 @@ no critério de capital.
 põe todo mundo olhando o mesmo número antes de discutir. Sem ele, reunião de
 conselho vira conversa de impressão.
 
-**Valores a combinar, com referência na média de mercado.**
+### As condições
 
-### O que falta definir antes de oferecer
+| | |
+|---|---|
+| Prazo | **12 meses** |
+| Formato | encontros **on-line e presenciais** |
+| Investimento | **R$ 120.000,00 por ano** |
 
-- **A referência de mercado.** Honorário de conselheiro varia muito por porte
-  da empresa e por frequência de reunião. Não há nada levantado aqui, e
-  número de conselho dito de improviso numa reunião é difícil de voltar
-  atrás. Vale pesquisar antes da primeira proposta.
-- **A cadência.** Mensal, bimestral ou trimestral muda o preço e muda o
-  compromisso de agenda dos três.
+São R$ 10.000 por mês de assessoria com os três sócios na mesa. Para
+comparação, o programa de 90 dias custa R$ 50.000, o que dá cerca de
+R$ 16.700 por mês: o conselho é mais leve na mensalidade porque é menos
+intensivo, e mais pesado no total porque dura quatro vezes mais.
+
+Dividido entre os três, cada sócio recebe R$ 40.000 ao ano por cliente de
+conselho. É esse número que diz quantos conselhos cabem na agenda de cada um.
+
+### O que ainda falta definir
+
+- **Quantos encontros no ano, e quantos deles presenciais.** O preço já está
+  fechado, então a cadência define quanto vale a hora de cada um e quanto de
+  agenda isso consome. Combinar antes da primeira proposta.
 - **O formato da mesa.** Quem convoca, o que entra em pauta, se há registro
   escrito do que foi decidido. Conselho sem ata vira reunião, e reunião o
   cliente já tem demais.
@@ -396,7 +407,15 @@ Medir a linha de base no diagnóstico e repetir todo mês, com a mesma conta.
 
 ## 9. Preço
 
+**Mentoria, 90 dias**
+
 | Forma | Valor |
 |---|---|
 | À vista, pix ou cartão | **R$ 50.000,00** |
 | Parcelado | **12x de R$ 5.000,00**, total de R$ 60.000,00 |
+
+**Conselho consultivo, 12 meses** (seção 6.1)
+
+| | |
+|---|---|
+| Investimento anual | **R$ 120.000,00** |
