@@ -331,93 +331,6 @@ O acompanhamento de perto, em operação:
 
 ---
 
-## 6.1 Depois dos 90 dias: o conselho consultivo
-
-Terminado o programa, o cliente pode contratar a assessoria da SBS **nos
-moldes de conselheiros corporativos**, com os três sócios na mesa do seu
-**conselho consultivo**.
-
-**Por que isso é a continuação natural, e não um produto solto.** Nos 90 dias
-os três já leram o negócio por dentro: a conta, a agenda, a margem, a
-equipe. Entrar no conselho depois disso não exige reaprender nada, e o
-cliente não recomeça do zero com estranhos. Para ele, o valor muda de
-natureza: sai de "me ensina a arrumar" e passa a "senta comigo quando eu for
-decidir".
-
-**O que a SBS leva para a mesa.** O mesmo que conduz no programa, agora em
-decisão e não em correção: Sena na gestão, no contábil e no tributário;
-Bittar na leitura médica, no mercado e no comercial; Simões em finanças e
-no critério de capital.
-
-**O painel dos quatro indicadores é o instrumento do conselho.** Ele é o que
-põe todo mundo olhando o mesmo número antes de discutir. Sem ele, reunião de
-conselho vira conversa de impressão.
-
-### As condições
-
-| | |
-|---|---|
-| Prazo | **12 meses** |
-| Formato | encontros **on-line e presenciais** |
-| Investimento | **R$ 360.000,00 por ano**, para os três |
-| Pagamento | **4 parcelas de R$ 90.000,00**, uma por trimestre |
-
-São R$ 30.000 por mês com os três sócios na mesa, e R$ 120.000 ao ano por
-sócio. O pagamento trimestral acompanha o ritmo do próprio conselho: cada
-parcela cobre o trimestre que vem, e o cliente renova a confiança quatro
-vezes ao ano em vez de uma. O programa de 90 dias sai por cerca de R$ 16.700 por mês, então **o
-conselho custa quase o dobro da mentoria por mês**, e por quatro vezes mais
-tempo.
-
-Isso coloca os dois produtos numa escada clara: a mentoria é a porta de
-entrada, o conselho é o nível sênior. E se vende pela diferença de
-natureza:
-
-| | O que a SBS faz |
-|---|---|
-| **Mentoria** | dá a **direção consultiva**. Aponta o caminho e a ordem. Não executa nada. |
-| **Conselho** | senta na **mesa de decisão** e aconselha o melhor caminho para a situação que está na mesa naquele momento. |
-
-A mentoria responde "o que eu faço com a minha empresa". O conselho responde
-"o que eu faço com **esta** decisão, agora". A primeira é um roteiro; a
-segunda é alguém do lado quando a conta é alta e não dá para errar.
-
-### Para quem esse preço fecha
-
-R$ 30.000 por mês não cabe em qualquer cliente, e isso define o público do
-conselho:
-
-| O cliente fatura | O conselho representa |
-|---|---|
-| R$ 100 mil por mês | 30% do faturamento |
-| R$ 200 mil por mês | 15% |
-| R$ 400 mil por mês | 7,5% |
-| R$ 800 mil por mês | 3,8% |
-| R$ 1,5 milhão por mês | 2% |
-
-O consultório de um médico só não sustenta isso. **O conselho é produto de
-clínica grande e de hospital**, que é exatamente o público que a marca já
-anuncia. A mentoria continua atendendo o consultório individual; o conselho
-atende quem já tem estrutura.
-
-Vale deixar isso combinado entre vocês antes da primeira oferta, para não
-levar o preço do conselho a uma mesa que não o comporta e queimar a mentoria
-junto.
-
-### O que ainda falta definir
-
-- **Quantos encontros no ano, e quantos deles presenciais.** O preço já está
-  fechado, então a cadência define quanto vale a hora de cada um e quanto de
-  agenda isso consome. Combinar antes da primeira proposta.
-- **O formato da mesa.** Quem convoca, o que entra em pauta, se há registro
-  escrito do que foi decidido. Conselho sem ata vira reunião, e reunião o
-  cliente já tem demais.
-- **O limite do papel.** Conselho consultivo **aconselha**; quem decide e
-  responde é o dono. Isso precisa estar escrito no contrato, pelo mesmo
-  motivo que o limite do Pilar 04 já está.
-
----
-
 ## 7. O que é medido, e como
 
 Os quatro indicadores precisam de fórmula escrita, senão cada mês é medido
@@ -449,16 +362,7 @@ Medir a linha de base no diagnóstico e repetir todo mês, com a mesma conta.
 
 ## 9. Preço
 
-**Mentoria, 90 dias**
-
 | Forma | Valor |
 |---|---|
 | À vista, pix ou cartão | **R$ 50.000,00** |
 | Parcelado | **12x de R$ 5.000,00**, total de R$ 60.000,00 |
-
-**Conselho consultivo, 12 meses** (seção 6.1)
-
-| | |
-|---|---|
-| Investimento anual | **R$ 360.000,00**, para os três |
-| Pagamento | 4 parcelas trimestrais de **R$ 90.000,00** |
