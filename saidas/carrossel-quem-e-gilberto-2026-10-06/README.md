@@ -29,6 +29,20 @@ aparece só como "plataforma digital do Grupo Sena", porque o próprio
 repositório traz o projeto como "a detalhar". **Se ele disser em uma frase o
 que o Hub faz, a linha fica específica.**
 
+## Números do card 08, e um conflito aberto
+
+Ele corrigiu em 06/out/2026 para **+ de 500 empresas e empresários** e
+**+500 mil reais economizados**.
+
+**Isso conflita com o que está registrado.** O
+`_memoria/posicionamento.md` traz, como prova mais forte dele, *"+R$ 500
+milhões economizados em impostos · +2.000 empresas recuperadas"*. Entre
+500 mil e 500 milhões há mil vezes de diferença.
+
+Apliquei o que ele mandou, porque o número é dele. Mas um dos dois
+documentos está errado, e enquanto isso não for decidido o
+`posicionamento.md` continua dizendo outra coisa.
+
 ## Uma coisa a conferir com ele
 
 O card 04 repete o que estava no carrossel original: *"Formado em Gestão

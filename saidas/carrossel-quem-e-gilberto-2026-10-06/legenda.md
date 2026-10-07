@@ -4,9 +4,9 @@
 
 Já fui motoboy. Já vendi cachorro-quente.
 
-Hoje eu ensino empresário a tirar a empresa do roxo, e já são mais de duas mil
-delas. Mas o caminho entre uma coisa e outra ninguém vê, e é dele que esse
-carrossel fala.
+Hoje eu ensino empresário a tirar a empresa do roxo, e já passaram mais de
+quinhentos por aqui. Mas o caminho entre uma coisa e outra ninguém vê, e é
+dele que esse carrossel fala.
 
 Tem quem ache que autoridade é postura. Eu acho que é lastro.
 
