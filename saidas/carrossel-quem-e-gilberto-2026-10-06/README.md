@@ -31,7 +31,7 @@ que o Hub faz, a linha fica específica.**
 
 ## Números do card 08
 
-**+ de 500 empresas e empresários** e **+R$ 500 milhões economizados em
+**+500 empresas e empresários** e **+R$ 500 milhões economizados em
 impostos.** Confirmado por ele em 06/out/2026.
 
 Ele chegou a pedir "500 mil" no valor economizado; levantei o conflito com o
