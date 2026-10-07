@@ -424,8 +424,9 @@ abaixo.
    que vale para esteticista sem conselho) e fichar, antes de vender o pilar
    de Marketing. Bloqueia a venda do pilar.
 2. ~~Preço do programa.~~ **Decidido em 06/out/2026.** Ver seção 11.
-3. **Divisão de receita entre os três sócios.** A divisão de *trabalho* está
-   na seção 3.1; a de dinheiro, não.
+3. ~~Divisão de receita entre os três sócios.~~ **Decidido em 07/out/2026:**
+   custos, despesas e lucro **em partes iguais entre os três**. Está nas
+   cláusulas 5.1, 6.2 e 6.4 do termo (`juridico/termo-de-compromisso-sbs.md`).
 4. **O painel é parte da mentoria ou é a recorrência depois dela?**
 5. ~~A marca fala "para médicos".~~ **Resolvido em 06/out/2026:** a linha
    passou a ser "consultoria e assessoria médica empresarial".
