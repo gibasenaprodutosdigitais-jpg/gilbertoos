@@ -401,28 +401,26 @@ ninguém está fazendo por esse público hoje.
   definido. A estimativa publicada para odontologia, cerca de 11,2% num
   padrão de 28%, é projeção e deve ser dita como projeção.
 
-### 8.2 As regras dos conselhos sobre publicidade: não tenho
+### 8.2 As regras dos conselhos sobre publicidade
 
-O pilar de Marketing promete "tudo dentro das regras do conselho", e agora
-são conselhos no plural: CFM para médico, CFO para dentista, CFBM para
-biomédico. Para o esteticista sem formação na saúde não há conselho
-equivalente, o que muda a régua de publicidade e precisa ser verificado.
+**Decisão do Gilberto, 07/out/2026: não bloqueia.** O que a mentoria
+compartilha sobre marketing é informação de domínio público, e conselho
+profissional regula a publicidade do próprio profissional, não o que uma
+consultoria ensina.
 
-**Não existe nada fichado aqui sobre publicidade** em nenhum dos quatro
-casos, e eu não vou citar número de resolução de cabeça. Até isso ser
-levantado, o pilar de Marketing não deveria ser vendido com promessa de
-conformidade.
-
-Dá para resolver rápido com uma pesquisa dedicada. É o item 1 da lista
-abaixo.
+Fica, porém, uma linha de responsabilidade que convém manter clara na
+conversa com o cliente: **a orientação é geral, e quem responde pela própria
+publicidade perante o conselho é o profissional.** É o mesmo princípio já
+escrito na cláusula 3.6 do termo, que diz que nenhum sócio assume obrigação
+de resultado em nome do cliente.
 
 ---
 
 ## 9. O que falta decidir
 
-1. **Levantar as regras de publicidade dos conselhos** (CFM, CFO, CFBM e o
-   que vale para esteticista sem conselho) e fichar, antes de vender o pilar
-   de Marketing. Bloqueia a venda do pilar.
+1. ~~Regras de publicidade dos conselhos.~~ **Retirado em 07/out/2026:** o
+   conteúdo compartilhado é de domínio público e o conselho regula a
+   publicidade do profissional, não o ensino. Ver seção 8.2.
 2. ~~Preço do programa.~~ **Decidido em 06/out/2026.** Ver seção 11.
 3. ~~Divisão de receita entre os três sócios.~~ **Decidido em 07/out/2026:**
    custos, despesas e lucro **em partes iguais entre os três**. Está nas
