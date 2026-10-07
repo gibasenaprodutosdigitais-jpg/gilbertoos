@@ -9,6 +9,19 @@ Refeito a partir dos 6 cards que ele mandou em 06/out/2026, agora com 9.
 | Formato | todos em 1080x1350. Os originais misturavam retrato e quadrado |
 | Execução | grade única, respiro igual, numeração 01/08 e assinatura no rodapé |
 
+## O retrato em marca d'água
+
+`retrato-dagua.png` é o retrato de estúdio dele, mãos entrelaçadas, tratado
+em tom de ouro e dissolvido nas laterais. Entra atrás do conteúdo dos cards
+02 a 09.
+
+**A capa não leva.** Ela já tem a foto de verdade, e repetir a imagem nas duas
+camadas embaralharia a leitura.
+
+A foto da marca d'água é outra, de propósito: a capa usa a do blazer claro e
+os cards de padronização usam a mesma. Repetir o mesmo retrato em tudo faria
+o feed inteiro parecer um post só.
+
 ## De onde saiu cada credencial
 
 Os cards 06 e 07 não têm uma linha inventada. Tudo sai de
