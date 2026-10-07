@@ -10,39 +10,31 @@ Versão 1 · 06/out/2026
 > **Público:** médico, dentista, biomédico e esteticista, todos donos da
 > própria estrutura.
 >
-> **Sócios:** Gilberto Sena, Stanley Bittar e Will Simões. A casa passou a
-> se chamar **Sena, Bittar e Simões** em 06/out/2026, com a entrada do
-> terceiro sócio.
+> **Sócios:** Gilberto Sena, Stanley Bittar e Will Simões.
 
 ---
 
-## 1. De onde este plano sai
+## 1. Os quatro pilares
 
-Os quatro pilares, as frases e os indicadores vêm do vídeo de apresentação
-que vocês já fecharam (`Video Sena e Bittar.mp4`). Nada aqui foi inventado:
-
-| Pilar | A tese, como está no vídeo | O que o sistema mede |
+| Pilar | A tese | O que o sistema mede |
 |---|---|---|
 | 01 Gestão | "A base. O resto se apoia nela." | Sobra do mês, depois de imposto e retirada |
 | 02 Marketing | "O paciente certo precisa te encontrar." | Pacientes novos, e quantos vieram por indicação |
 | 03 Vendas | "Consulta marcada ainda não é paciente tratado." | Tratamentos fechados, sobre os orçamentos do mês |
 | 04 Lucratividade | "Faturar mais e lucrar mais são contas diferentes." | Margem líquida do mês |
 
-E o aviso que amarra tudo, também do vídeo: *"A agenda lota. O caixa não
-acompanha. Marketing e vendas em cima de uma base fraca só fazem você
-trabalhar mais pra sobrar o mesmo."*
+E o aviso que amarra tudo: *"A agenda lota. O caixa não acompanha. Marketing
+e vendas em cima de uma base fraca só fazem você trabalhar mais pra sobrar o
+mesmo."*
 
-O método por baixo é o dos **5 G's da Gestão Empreendedora**, livro do
-Gilberto. A ficha de anamnese de 25 perguntas que já existe
-(`saidas/ficha-anamnese-mentoria-5gs-2026-08-23/`) é a base do diagnóstico,
-adaptada ao consultório na seção 4.
+O método por baixo é o dos **5 G's da Gestão Empreendedora**.
 
 ---
 
 ## 2. Para quem é, e para quem não é
 
-**Quatro públicos**, todos donos da própria estrutura. O vídeo já abre o
-leque: *"Vale pra toda a área da saúde."*
+**Quatro públicos**, todos donos da própria estrutura. *Vale pra toda a área
+da saúde.*
 
 | Público | Estrutura típica |
 |---|---|
@@ -128,8 +120,7 @@ dentro do mesmo contrato.
 | 71 a 80 | 5 | 03 Vendas | **Bittar** | Caminho da primeira mensagem à consulta, conversa de orçamento, recall e indicação |
 | 81 a 90 | 6 | Amarração | **Os três** | Indicadores contra a linha de base, agenda do dono revista, desenho do próximo ciclo |
 
-**Por que Lucratividade vem antes de Marketing.** É o aviso do próprio vídeo:
-*marketing e vendas em cima de uma base fraca só fazem você trabalhar mais pra
+**Por que Lucratividade vem antes de Marketing.** *Marketing e vendas em cima de uma base fraca só fazem você trabalhar mais pra
 sobrar o mesmo.* Preço corrige margem já no mês seguinte; marketing leva um
 trimestre pra aparecer. Encher a agenda antes de arrumar o preço é comprar
 trabalho.
@@ -145,8 +136,7 @@ segundo ciclo.
 
 ## 4. Fase 1: diagnóstico (dias 1 a 15)
 
-É o "Diagnóstico do seu consultório" que o vídeo promete. Sai um documento,
-não uma conversa.
+O diagnóstico do consultório. Sai um documento, não uma conversa.
 
 ### 4.1 A anamnese do consultório
 
@@ -226,9 +216,9 @@ Seis encontros quinzenais, com o calendário e o condutor de cada um na seção
 
 ### Por que a ordem muda
 
-O vídeo numera Gestão, Marketing, Vendas, Lucratividade, que é a ordem da
-jornada do paciente. Para **executar**, a ordem é outra, e quem diz isso é o
-próprio vídeo: *marketing e vendas em cima de uma base fraca só fazem você
+A numeração dos pilares segue a jornada do paciente: Gestão, Marketing,
+Vendas, Lucratividade. Para **executar**, a ordem é outra, e o motivo está na
+própria tese: *marketing e vendas em cima de uma base fraca só fazem você
 trabalhar mais pra sobrar o mesmo.*
 
 Então: primeiro a base, depois o preço, só então o volume.
@@ -355,9 +345,7 @@ Medir a linha de base no diagnóstico e repetir todo mês, com a mesma conta.
 
 ---
 
-## 8. Duas coisas que precisam ser fechadas antes de vender
-
-### 8.1 A conta da reforma tributária, público por público
+## 8. A conta tributária, público por público
 
 Isto está fichado e confere. **Os quatro públicos não estão na mesma
 situação**, e essa diferença é o coração do argumento de venda.
@@ -401,96 +389,35 @@ ninguém está fazendo por esse público hoje.
   definido. A estimativa publicada para odontologia, cerca de 11,2% num
   padrão de 28%, é projeção e deve ser dita como projeção.
 
-### 8.2 As regras dos conselhos sobre publicidade
+### A responsabilidade pela publicidade
 
-**Decisão do Gilberto, 07/out/2026: não bloqueia.** O que a mentoria
-compartilha sobre marketing é informação de domínio público, e conselho
-profissional regula a publicidade do próprio profissional, não o que uma
-consultoria ensina.
-
-Fica, porém, uma linha de responsabilidade que convém manter clara na
-conversa com o cliente: **a orientação é geral, e quem responde pela própria
-publicidade perante o conselho é o profissional.** É o mesmo princípio já
-escrito na cláusula 3.6 do termo, que diz que nenhum sócio assume obrigação
-de resultado em nome do cliente.
+A orientação de marketing é geral e o conteúdo é de domínio público. **Quem
+responde pela própria publicidade perante o conselho é o profissional.**
 
 ---
 
 ## 9. O que falta decidir
 
-1. ~~Regras de publicidade dos conselhos.~~ **Retirado em 07/out/2026:** o
-   conteúdo compartilhado é de domínio público e o conselho regula a
-   publicidade do profissional, não o ensino. Ver seção 8.2.
-2. ~~Preço do programa.~~ **Decidido em 06/out/2026.** Ver seção 11.
-3. ~~Divisão de receita entre os três sócios.~~ **Decidido em 07/out/2026:**
-   custos, despesas e lucro **em partes iguais entre os três**. Está nas
-   cláusulas 5.1, 6.2 e 6.4 do termo (`juridico/termo-de-compromisso-sbs.md`).
-4. **O painel é parte da mentoria ou é a recorrência depois dela?**
-5. ~~A marca fala "para médicos".~~ **Resolvido em 06/out/2026:** a linha
-   passou a ser "consultoria e assessoria médica empresarial".
-6. ~~Delimitar o Smart Money.~~ **Decidido em 06/out/2026:** o papel do
-   Simões é **explicar** o Smart Money, não aplicar nem indicar. Está escrito
-   no encontro 3.
-
-   **Fechado em 07/out/2026.** A entrega é **informação sobre esse tipo de
-   dinheiro inteligente**: o que é, como se comporta, que critério usar para
-   decidir. Informação, não indicação.
-
-   A delimitação já está em contrato, na cláusula 3.7 do termo: a atuação em
-   finanças é educacional, não indica produto, corretora ou aplicação
-   específica, nem promete retorno, e quem decide onde aplicar é o cliente,
-   com profissional habilitado.
-7. ~~Nome completo do sócio Simões.~~ **Will Simões**, registrado em
-   06/out/2026.
-8. **Contrato de prestação de serviço** da mentoria, com o cliente. Esse
-   ainda não existe.
-
-   O acordo **entre os três sócios** já está pronto em
-   `juridico/termo-de-compromisso-sbs.md`: responsabilidades por pilar,
-   custos, despesas e lucro em partes iguais, a comissão de 5% sobre a
-   receita líquida, o não contorno de 24 meses e o NDA. Todos os prazos
-   preenchidos. **Os dados pessoais dos três são preenchidos à mão na hora de
-   assinar** (decisão dele, 07/out/2026), então o documento já pode ser
-   impresso.
-
-   Falta só passar por advogado antes das assinaturas.
+1. **O painel dos quatro indicadores é parte da mentoria, ou é a camada de
+   recorrência que vem depois dos 90 dias?**
+2. **Contrato de prestação de serviço com o cliente.** Ainda não existe. O
+   acordo entre os três sócios está pronto em
+   `juridico/termo-de-compromisso-sbs.md` e falta passar por advogado antes
+   das assinaturas.
 
 ---
 
 ## 10. Próximas peças que saem deste documento
 
-- ~~A ficha de diagnóstico do consultório, em PDF.~~ **Pronta em
-  06/out/2026**, em `ficha-diagnostico/`. São 6 páginas, 21 perguntas
-  divididas pelos quatro pilares, mais a folha de fecho com a linha de
-  partida. A pergunta 21 só vale para quem faz estética.
 - O modelo do documento de diagnóstico que fecha a fase 1
 - A peça comercial de uma página para o médico
-- O roteiro do diagnóstico gratuito, que é o que o QR code do vídeo promete
+- O roteiro do diagnóstico gratuito
 
 ---
 
 ## 11. Preço
 
-Decidido pelo Gilberto em 06/out/2026.
-
 | Forma | Valor |
 |---|---|
 | À vista, pix ou cartão | **R$ 50.000,00** |
 | Parcelado | **12x de R$ 5.000,00**, total de R$ 60.000,00 |
-
-**A conta embutida.** A diferença entre as duas formas é de R$ 10.000 em doze
-meses, o que dá **2,92% ao mês**, ou 41,3% ao ano.
-
-Isso é defensável sem esforço. Cobre o custo de adquirente do cartão, cobre o
-risco de doze meses de inadimplência, e fica na faixa que o empresário vê
-todo dia em parcelamento. Se o médico fizer a conta de cabeça, o número não
-constrange ninguém.
-
-Para registro: na versão anterior deste documento o valor à vista era
-R$ 45.000, e aí a taxa embutida subia para 4,73% ao mês, perto de 74% ao ano.
-Era alto o bastante para virar pergunta na reunião. Subir o à vista para
-R$ 50.000 resolveu isso sem mexer na parcela, que é o número que o médico
-olha primeiro.
-
-Se um dia quiser apertar mais, 12x de R$ 4.600 (R$ 55.200) derruba a taxa
-para 1,56% ao mês. Mas no patamar de hoje não há o que corrigir.

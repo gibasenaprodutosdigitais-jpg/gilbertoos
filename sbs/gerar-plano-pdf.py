@@ -188,7 +188,7 @@ pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8">
     <div class="marca">SENA, BITTAR E SIMÕES</div>
     <div class="sub">Consultoria e assessoria médica empresarial</div>
     <h1>Plano de mentoria</h1>
-    <div class="quem">Documento de trabalho dos sócios &nbsp;·&nbsp; versão 2, 06/out/2026</div>
+    <div class="quem">Documento de trabalho dos sócios</div>
   </div>
   {corpo}
   <div class="rodape">Sena, Bittar e Simões · Documento de trabalho dos sócios · Confidencial</div>
