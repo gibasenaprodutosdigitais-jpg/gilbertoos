@@ -10,6 +10,10 @@ carrossel fala.
 
 Tem quem ache que autoridade é postura. Eu acho que é lastro.
 
+E lastro, pra mim, é também o que a gente constrói. Hoje são dois projetos
+meus de pé: o GSena Hub e o OCEO, a startup que junta contabilidade,
+financeiro, jurídico, marketing e educação num sistema só.
+
 Por isso resolvi mostrar os dois lados: o que eu construí na prática, e o que
 eu estudei pra sustentar a prática. Pós-graduação em Direito Tributário de
 720 horas. Bacharel em Teologia. Habilitação da ANCORD como agente autônomo
@@ -38,13 +42,13 @@ Arrasta e conhece a história inteira.
 
 ## Notas de publicação
 
-- **Primeiro comentário:** *"Qual desses oito cards te surpreendeu mais?"* —
+- **Primeiro comentário:** *"Qual desses nove cards te surpreendeu mais?"* —
   pergunta de reconhecimento rende mais que pedido de opinião.
-- **Os dois cards novos** (05 e 06) são o que esse carrossel tem que o
+- **Os três cards novos** (04, 06 e 07) são o que esse carrossel tem que o
   anterior não tinha. Se for recortar pra Stories, são esses dois que mais
   rendem: credencial com instituição e ano na frente é o que separa
   autoridade de discurso.
-- **O card 06 é o melhor gancho de Reels do conjunto.** "Em 2020 eu voltei a
+- **O card 07 é o melhor gancho de Reels do conjunto.** "Em 2020 eu voltei a
   estudar tudo de novo" é uma história, não uma lista. Vale um vídeo falado
   sozinho.
 - **O que não fazer:** não colocar oferta de mentoria na legenda. Este post
