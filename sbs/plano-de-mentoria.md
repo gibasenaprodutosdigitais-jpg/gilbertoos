@@ -319,8 +319,46 @@ O acompanhamento de perto, em operação:
 - **Uma pergunta por mês.** Qual é o ajuste deste mês. Um, não cinco.
 - **Revisão trimestral.** Replica o diagnóstico e compara com a linha de base.
 
-O painel é o produto que segura o cliente depois dos 90 dias. Vale discutir
-se ele entra junto da mentoria ou é a camada de recorrência que vem depois.
+---
+
+## 6.1 Depois dos 90 dias: o conselho consultivo
+
+Terminado o programa, o cliente pode contratar a assessoria da SBS **nos
+moldes de conselheiros corporativos**, com os três sócios na mesa do seu
+**conselho consultivo**.
+
+**Por que isso é a continuação natural, e não um produto solto.** Nos 90 dias
+os três já leram o negócio por dentro: a conta, a agenda, a margem, a
+equipe. Entrar no conselho depois disso não exige reaprender nada, e o
+cliente não recomeça do zero com estranhos. Para ele, o valor muda de
+natureza: sai de "me ensina a arrumar" e passa a "senta comigo quando eu for
+decidir".
+
+**O que a SBS leva para a mesa.** O mesmo que conduz no programa, agora em
+decisão e não em correção: Sena na gestão, no contábil e no tributário;
+Bittar na leitura médica, no mercado e no comercial; Simões em finanças e
+no critério de capital.
+
+**O painel dos quatro indicadores é o instrumento do conselho.** Ele é o que
+põe todo mundo olhando o mesmo número antes de discutir. Sem ele, reunião de
+conselho vira conversa de impressão.
+
+**Valores a combinar, com referência na média de mercado.**
+
+### O que falta definir antes de oferecer
+
+- **A referência de mercado.** Honorário de conselheiro varia muito por porte
+  da empresa e por frequência de reunião. Não há nada levantado aqui, e
+  número de conselho dito de improviso numa reunião é difícil de voltar
+  atrás. Vale pesquisar antes da primeira proposta.
+- **A cadência.** Mensal, bimestral ou trimestral muda o preço e muda o
+  compromisso de agenda dos três.
+- **O formato da mesa.** Quem convoca, o que entra em pauta, se há registro
+  escrito do que foi decidido. Conselho sem ata vira reunião, e reunião o
+  cliente já tem demais.
+- **O limite do papel.** Conselho consultivo **aconselha**; quem decide e
+  responde é o dono. Isso precisa estar escrito no contrato, pelo mesmo
+  motivo que o limite do Pilar 04 já está.
 
 ---
 
@@ -398,8 +436,8 @@ responde pela própria publicidade perante o conselho é o profissional.**
 
 ## 9. O que falta decidir
 
-1. **O painel dos quatro indicadores é parte da mentoria, ou é a camada de
-   recorrência que vem depois dos 90 dias?**
+1. **O conselho consultivo** (seção 6.1): referência de honorário, cadência,
+   formato da mesa e o limite do papel em contrato.
 2. **Contrato de prestação de serviço com o cliente.** Ainda não existe. O
    acordo entre os três sócios está pronto em
    `juridico/termo-de-compromisso-sbs.md` e falta passar por advogado antes
