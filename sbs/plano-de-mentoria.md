@@ -359,14 +359,19 @@ conselho vira conversa de impressão.
 |---|---|
 | Prazo | **12 meses** |
 | Formato | encontros **on-line e presenciais** |
-| Investimento | **R$ 180.000,00 por ano**, para os três |
+| Investimento | **R$ 360.000,00 por ano**, para os três |
+| Pagamento | **4 parcelas de R$ 90.000,00**, uma por trimestre |
 
-São R$ 15.000 por mês com os três sócios na mesa. O programa de 90 dias sai
-por cerca de R$ 16.700 por mês, então **a mensalidade do conselho é
-praticamente a mesma da mentoria**, por quatro vezes mais tempo.
+São R$ 30.000 por mês com os três sócios na mesa, e R$ 120.000 ao ano por
+sócio. O pagamento trimestral acompanha o ritmo do próprio conselho: cada
+parcela cobre o trimestre que vem, e o cliente renova a confiança quatro
+vezes ao ano em vez de uma. O programa de 90 dias sai por cerca de R$ 16.700 por mês, então **o
+conselho custa quase o dobro da mentoria por mês**, e por quatro vezes mais
+tempo.
 
-Por isso o conselho não se vende como a opção mais barata. Ele se vende pela
-diferença de natureza:
+Isso coloca os dois produtos numa escada clara: a mentoria é a porta de
+entrada, o conselho é o nível sênior. E se vende pela diferença de
+natureza:
 
 | | O que a SBS faz |
 |---|---|
@@ -377,9 +382,27 @@ A mentoria responde "o que eu faço com a minha empresa". O conselho responde
 "o que eu faço com **esta** decisão, agora". A primeira é um roteiro; a
 segunda é alguém do lado quando a conta é alta e não dá para errar.
 
-Dividido entre os três, cada sócio recebe R$ 60.000 ao ano por cliente de
-conselho, ou R$ 5.000 por mês. É esse número que diz quantos conselhos cabem
-na agenda de cada um.
+### Para quem esse preço fecha
+
+R$ 30.000 por mês não cabe em qualquer cliente, e isso define o público do
+conselho:
+
+| O cliente fatura | O conselho representa |
+|---|---|
+| R$ 100 mil por mês | 30% do faturamento |
+| R$ 200 mil por mês | 15% |
+| R$ 400 mil por mês | 7,5% |
+| R$ 800 mil por mês | 3,8% |
+| R$ 1,5 milhão por mês | 2% |
+
+O consultório de um médico só não sustenta isso. **O conselho é produto de
+clínica grande e de hospital**, que é exatamente o público que a marca já
+anuncia. A mentoria continua atendendo o consultório individual; o conselho
+atende quem já tem estrutura.
+
+Vale deixar isso combinado entre vocês antes da primeira oferta, para não
+levar o preço do conselho a uma mesa que não o comporta e queimar a mentoria
+junto.
 
 ### O que ainda falta definir
 
@@ -437,4 +460,5 @@ Medir a linha de base no diagnóstico e repetir todo mês, com a mesma conta.
 
 | | |
 |---|---|
-| Investimento anual | **R$ 180.000,00**, para os três |
+| Investimento anual | **R$ 360.000,00**, para os três |
+| Pagamento | 4 parcelas trimestrais de **R$ 90.000,00** |
