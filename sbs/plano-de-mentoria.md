@@ -432,24 +432,28 @@ de resultado em nome do cliente.
    Simões é **explicar** o Smart Money, não aplicar nem indicar. Está escrito
    no encontro 3.
 
-   Duas coisas ainda pendentes, e as duas são do Simões:
+   **Fechado em 07/out/2026.** A entrega é **informação sobre esse tipo de
+   dinheiro inteligente**: o que é, como se comporta, que critério usar para
+   decidir. Informação, não indicação.
 
-   - **A definição, nas palavras dele.** Smart money no mercado costuma
-     significar capital que vem com experiência e rede junto, não só dinheiro.
-     Escrevi o pilar no sentido de dinheiro que trabalha com critério. Se o
-     sentido dele for outro, o texto do encontro 3 muda.
-   - **Pôr a delimitação no contrato.** Explicar é posição muito mais segura
-     que indicar, mas conversa ao vivo escorrega: o médico vai perguntar "e
-     onde eu ponho?", e a resposta precisa estar combinada antes. Uma cláusula
-     dizendo que a mentoria é educacional e não constitui recomendação de
-     investimento resolve, e protege os três.
+   A delimitação já está em contrato, na cláusula 3.7 do termo: a atuação em
+   finanças é educacional, não indica produto, corretora ou aplicação
+   específica, nem promete retorno, e quem decide onde aplicar é o cliente,
+   com profissional habilitado.
 7. ~~Nome completo do sócio Simões.~~ **Will Simões**, registrado em
    06/out/2026.
-8. **Contrato de prestação de serviço** da mentoria, com o cliente. O acordo
-   entre os três sócios já existe em minuta:
-   `juridico/termo-de-compromisso-sbs.md`, que traz responsabilidades,
-   divisão de custos e lucro, a comissão de 15% e o NDA. Falta preencher os
-   prazos em branco e passar por advogado.
+8. **Contrato de prestação de serviço** da mentoria, com o cliente. Esse
+   ainda não existe.
+
+   O acordo **entre os três sócios** já está pronto em
+   `juridico/termo-de-compromisso-sbs.md`: responsabilidades por pilar,
+   custos, despesas e lucro em partes iguais, a comissão de 5% sobre a
+   receita líquida, o não contorno de 24 meses e o NDA. Todos os prazos
+   preenchidos. **Os dados pessoais dos três são preenchidos à mão na hora de
+   assinar** (decisão dele, 07/out/2026), então o documento já pode ser
+   impresso.
+
+   Falta só passar por advogado antes das assinaturas.
 
 ---
 
