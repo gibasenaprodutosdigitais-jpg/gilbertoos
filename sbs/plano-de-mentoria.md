@@ -63,6 +63,13 @@ Na estética a dor tem um acréscimo: além de não sobrar, o profissional
 quase sempre não sabe em que alíquota vai cair depois da reforma. Essa
 insegurança é, hoje, o melhor argumento de entrada desse público.
 
+**O que a mentoria é, e o que ela não é.** A mentoria dá a **direção
+consultiva**. Mostra onde o dinheiro está se perdendo, qual é o caminho e em
+que ordem andar. **A execução é do cliente**: ninguém daqui opera a clínica,
+emite nota, posta conteúdo ou atende paciente. Deixar isso claro na venda
+evita a expectativa errada, que é a causa mais comum de cliente insatisfeito
+com um trabalho bem feito.
+
 **O que não prometer:** faturamento garantido, número de pacientes novos,
 percentual de crescimento. Todo número de exemplo usado em peça fica marcado
 como exemplo. Manter essa disciplina na venda e na mentoria.
@@ -358,11 +365,17 @@ São R$ 15.000 por mês com os três sócios na mesa. O programa de 90 dias sai
 por cerca de R$ 16.700 por mês, então **a mensalidade do conselho é
 praticamente a mesma da mentoria**, por quatro vezes mais tempo.
 
-Isso tem uma consequência no discurso de venda: o conselho não se vende como
-a opção mais barata, porque não é. Vende-se pelo que ele é — a mentoria
-arruma a casa uma vez; o conselho senta na decisão o ano inteiro. São
-naturezas diferentes de valor, e o cliente que entende isso não compara
-preço por mês.
+Por isso o conselho não se vende como a opção mais barata. Ele se vende pela
+diferença de natureza:
+
+| | O que a SBS faz |
+|---|---|
+| **Mentoria** | dá a **direção consultiva**. Aponta o caminho e a ordem. Não executa nada. |
+| **Conselho** | senta na **mesa de decisão** e aconselha o melhor caminho para a situação que está na mesa naquele momento. |
+
+A mentoria responde "o que eu faço com a minha empresa". O conselho responde
+"o que eu faço com **esta** decisão, agora". A primeira é um roteiro; a
+segunda é alguém do lado quando a conta é alta e não dá para errar.
 
 Dividido entre os três, cada sócio recebe R$ 60.000 ao ano por cliente de
 conselho, ou R$ 5.000 por mês. É esse número que diz quantos conselhos cabem
