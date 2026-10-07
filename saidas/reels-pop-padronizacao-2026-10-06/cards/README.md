@@ -23,6 +23,16 @@ que o Gilberto está saturado de azul, e o aviso é justo. Neste caso a planta
 O laranja original da direção (`#F2A65A`) tinha 85% de saturação, que dá cara
 de cor de sistema. Baixei para 69%, dentro da faixa que o validador pede.
 
+## O retrato em marca d'água
+
+`retrato-dagua.png` é a foto dele tratada como desenho de planta: cinza
+convertido em azul da tinta, fundo recortado pela própria luz e as quatro
+bordas dissolvidas. Entra à direita de cada prancha, atrás do conteúdo.
+
+As bordas dissolvidas são o que separa marca d'água de foto colada. Sem elas
+a imagem lê como um retângulo por cima do desenho técnico, e a direção
+desmonta.
+
 ## O texto
 
 Sai dos roteiros em `../roteiro.md`, condensado. Os dois arquivos contam a
