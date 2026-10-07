@@ -3,10 +3,30 @@
 Os 9 slides de 17/jul/2026 refeitos com retrato em marca d'água, a pedido do
 Gilberto em 06/out/2026.
 
-**O conteúdo não mudou.** Parti do HTML original, em
-`../carrossel-5gs-fornecedores-clientes-2026-07-17 Postado/`, e acrescentei só
-a camada da foto. Texto, tipografia, cores e ordem dos slides continuam os
-mesmos.
+Parti do HTML original, em
+`../carrossel-5gs-fornecedores-clientes-2026-07-17 Postado/`. Tipografia,
+cores e ordem dos slides continuam os mesmos. Mudaram duas coisas: entrou a
+camada da foto e saíram os travessões.
+
+## Os travessões
+
+O texto de julho usava travessão como pausa de efeito em cinco lugares, que é
+o tique que o `motor/texto.py` marca e que denuncia texto gerado. Ficaram
+assim:
+
+| Antes | Agora |
+|---|---|
+| não nascem do nada — se cultivam | não nascem do nada. Elas se cultivam |
+| têm ciclo — identificação, integração | têm ciclo: identificação, integração |
+| não se evita — se mapeia, se responde | não se evita. Mapeia, responde |
+| A conta é simples — poucos fazem | A conta é simples. Poucos fazem |
+| Não é sorte — é o exemplo | Não foi sorte. É o exemplo |
+
+Nos títulos o travessão virou ponto médio, que separa sem fingir pausa:
+*Pilar 1 · Governança de Relacionamentos* e *Riscos · Método TRI*.
+
+O travessão antes de "Gilberto Sena", na citação do slide 06, fica: ali ele
+marca autoria, que é o uso certo.
 
 ## O retrato em marca d'água
 
@@ -16,12 +36,18 @@ Uma versão só sumiria em metade dele.
 
 | Arquivo | Onde entra | Força |
 |---|---|---|
-| `retrato-claro.png` | slides de fundo escuro e preto | 9,5% |
-| `retrato-escuro.png` | slides de fundo claro e o dourado | 6,5% |
+| `retrato-claro.png` | slides de fundo escuro e preto | 13% |
+| `retrato-escuro.png` | slides de fundo claro e o dourado | 10% |
 
-Na primeira tentativa eu usei 26% e 20%. Ficou foto com texto por cima, e
-essa peça é tipografia primeiro. Baixar para menos da metade devolveu a
-hierarquia: lê-se a frase, e o retrato aparece depois.
+**O que estava errado nas primeiras versões.** A foto tem uma janela de
+cidade atrás dele, bem clara. Como eu recortava a marca pela luz, era a
+janela que virava o desenho, não ele. O carrossel ficava com uma mancha
+luminosa no canto que não queria dizer nada.
+
+A correção foi cortar fechado no busto e na mão com o relatório, e trocar o
+recorte por luz por um duotone da foto inteira. Agora o que aparece é ele
+segurando o relatório, que é imagem com sentido num carrossel sobre
+fornecedor e cliente.
 
 As quatro bordas são dissolvidas, pelo mesmo motivo de sempre: sem isso a
 imagem lê como retângulo colado.
