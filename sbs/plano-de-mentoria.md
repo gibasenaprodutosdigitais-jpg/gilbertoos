@@ -64,8 +64,8 @@ quase sempre não sabe em que alíquota vai cair depois da reforma. Essa
 insegurança é, hoje, o melhor argumento de entrada desse público.
 
 **O que não prometer:** faturamento garantido, número de pacientes novos,
-percentual de crescimento. Os números do vídeo estão marcados "EXEMPLO" de
-propósito. Manter essa disciplina na venda e na mentoria.
+percentual de crescimento. Todo número de exemplo usado em peça fica marcado
+como exemplo. Manter essa disciplina na venda e na mentoria.
 
 ---
 
@@ -212,7 +212,7 @@ Um documento com:
 ## 5. Fase 2: plano de ação nos quatro pilares (dias 16 a 80)
 
 Seis encontros quinzenais, com o calendário e o condutor de cada um na seção
-3.2. A ordem abaixo inverte a numeração do vídeo, de propósito.
+3.2. A ordem de execução inverte a numeração dos pilares, de propósito.
 
 ### Por que a ordem muda
 
@@ -223,9 +223,9 @@ trabalhar mais pra sobrar o mesmo.*
 
 Então: primeiro a base, depois o preço, só então o volume.
 
-Se vocês preferirem manter a numeração do vídeo também na execução, é
-decisão de vocês. Mas o médico que entra em marketing antes de arrumar preço
-costuma voltar em seis meses mais cansado e com a mesma sobra.
+Se vocês preferirem executar na ordem numerada, é decisão de vocês. Mas o
+médico que entra em marketing antes de arrumar preço costuma voltar em seis
+meses mais cansado e com a mesma sobra.
 
 ### Encontros 1 e 2: Gestão, a base
 **Conduz: Sena** · gestão de negócios, contábil, tributária e pessoal
@@ -311,9 +311,9 @@ recompra.
 
 ## 6. Fase 3: acompanhamento de perto (dias 76 a 90 e adiante)
 
-O vídeo promete "acompanhamento de perto". Em operação:
+O acompanhamento de perto, em operação:
 
-- **Painel mensal.** Os quatro indicadores numa tela só, como o vídeo mostra.
+- **Painel mensal.** Os quatro indicadores numa tela só.
   Quanto entrou e quanto sobrou, de onde vem cada paciente, o que ajustar
   neste mês.
 - **Uma pergunta por mês.** Qual é o ajuste deste mês. Um, não cinco.
@@ -329,7 +329,7 @@ se ele entra junto da mentoria ou é a camada de recorrência que vem depois.
 Os quatro indicadores precisam de fórmula escrita, senão cada mês é medido
 de um jeito e a comparação não vale.
 
-Os nomes abaixo são os do painel que aparece no vídeo, letra por letra.
+Os nomes abaixo são os do painel, letra por letra.
 
 | Pilar | Indicador | Como calcular |
 |---|---|---|
@@ -338,8 +338,8 @@ Os nomes abaixo são os do painel que aparece no vídeo, letra por letra.
 | Vendas | **Tratamentos fechados**, sobre os orçamentos do mês | Orçamentos que viraram tratamento iniciado, dividido pelos orçamentos apresentados no mesmo período. |
 | Lucro | **Margem líquida**, contra a meta do trimestre | Sobra do mês dividida pela receita do mês. É o número que mostra se faturar mais virou lucrar mais. |
 
-O painel do vídeo ainda traz faturamento e lucro dos últimos 12 meses lado a
-lado, que é o gráfico que o médico entende sem explicação.
+O painel traz ainda faturamento e lucro dos últimos 12 meses lado a lado, que
+é o gráfico que o médico entende sem explicação.
 
 Medir a linha de base no diagnóstico e repetir todo mês, com a mesma conta.
 
