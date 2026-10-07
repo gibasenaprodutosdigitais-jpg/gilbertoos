@@ -30,27 +30,31 @@ marca autoria, que é o uso certo.
 
 ## O retrato em marca d'água
 
-A foto é a dele à mesa com o relatório. **Duas versões**, e isso não é
-capricho: o carrossel alterna fundo escuro, fundo claro e um slide dourado.
-Uma versão só sumiria em metade dele.
+**A foto é o retrato de estúdio**, mãos entrelaçadas, fundo quase preto. Ela
+sobe do canto inferior direito em todos os nove slides.
 
 | Arquivo | Onde entra | Força |
 |---|---|---|
-| `retrato-claro.png` | slides de fundo escuro e preto | 13% |
-| `retrato-escuro.png` | slides de fundo claro e o dourado | 10% |
+| `retrato-claro.png` | slides de fundo escuro e preto | 17% |
+| `retrato-escuro.png` | slides de fundo claro e o dourado | 14% |
 
-**O que estava errado nas primeiras versões.** A foto tem uma janela de
-cidade atrás dele, bem clara. Como eu recortava a marca pela luz, era a
-janela que virava o desenho, não ele. O carrossel ficava com uma mancha
-luminosa no canto que não queria dizer nada.
+### Por que as duas primeiras tentativas falharam
 
-A correção foi cortar fechado no busto e na mão com o relatório, e trocar o
-recorte por luz por um duotone da foto inteira. Agora o que aparece é ele
-segurando o relatório, que é imagem com sentido num carrossel sobre
-fornecedor e cliente.
+Comecei com a foto dele à mesa com o relatório, e o resultado foi ruim duas
+vezes seguidas. O problema nunca foi a opacidade, era a imagem.
 
-As quatro bordas são dissolvidas, pelo mesmo motivo de sempre: sem isso a
-imagem lê como retângulo colado.
+Aquela foto é uma **cena**: escritório, estante, mesa, monitor, e uma janela
+de cidade bem clara atrás dele. Como marca d'água, tudo isso vira borrão, e
+não se reconhece nada. Pior: a janela era a parte mais clara do quadro, então
+era ela que virava o desenho, não ele. E no slide 03 o parágrafo caía em cima
+do rosto e cortava a cara ao meio.
+
+**O que resolveu foi trocar a origem, não ajustar número.** Retrato de
+estúdio tem fundo quase preto, então o recorte por luz devolve só a silhueta
+dele, limpa. E ancorar no rodapé põe o rosto numa área onde não há texto,
+porque nesses slides o conteúdo é centralizado na vertical.
+
+A lição, para a próxima: marca d'água precisa de silhueta, não de cenário.
 
 ## Regerar
 
