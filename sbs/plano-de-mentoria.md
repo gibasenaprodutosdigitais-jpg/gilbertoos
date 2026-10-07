@@ -434,18 +434,7 @@ responde pela própria publicidade perante o conselho é o profissional.**
 
 ---
 
-## 9. O que falta decidir
-
-1. **O conselho consultivo** (seção 6.1): referência de honorário, cadência,
-   formato da mesa e o limite do papel em contrato.
-2. **Contrato de prestação de serviço com o cliente.** Ainda não existe. O
-   acordo entre os três sócios está pronto em
-   `juridico/termo-de-compromisso-sbs.md` e falta passar por advogado antes
-   das assinaturas.
-
----
-
-## 10. Próximas peças que saem deste documento
+## 9. Próximas peças que saem deste documento
 
 - O modelo do documento de diagnóstico que fecha a fase 1
 - A peça comercial de uma página para o médico
@@ -453,7 +442,7 @@ responde pela própria publicidade perante o conselho é o profissional.**
 
 ---
 
-## 11. Preço
+## 10. Preço
 
 | Forma | Valor |
 |---|---|
