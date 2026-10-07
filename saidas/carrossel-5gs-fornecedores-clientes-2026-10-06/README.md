@@ -4,9 +4,9 @@ Os 9 slides de 17/jul/2026 refeitos com retrato em marca d'água, a pedido do
 Gilberto em 06/out/2026.
 
 Parti do HTML original, em
-`../carrossel-5gs-fornecedores-clientes-2026-07-17 Postado/`. Tipografia,
-cores e ordem dos slides continuam os mesmos. Mudaram duas coisas: entrou a
-camada da foto e saíram os travessões.
+`../carrossel-5gs-fornecedores-clientes-2026-07-17 Postado/`. Tipografia e
+ordem dos slides continuam as mesmas. Mudaram duas coisas: saíram os
+travessões e a paleta passou a ser quente.
 
 ## Os travessões
 
@@ -54,16 +54,15 @@ Contraste medido: tinta clara sobre o marrom dá 13,63:1; o bronze dá 4,12:1
 sobre o escuro e 3,30:1 sobre o papel, que é o que permite usá-lo nos dois,
 já que o carrossel alterna fundo claro e escuro.
 
-## O retrato em marca d'água
+## A marca d'água saiu
 
-A foto dele à mesa com o relatório, subindo do canto inferior direito. As
-quatro bordas dissolvidas.
+Tentei quatro versões de retrato em marca d'água e nenhuma ficou boa. O
+Gilberto mandou tirar, e ele está certo: esta peça vive de tipografia num
+fundo liso, e qualquer imagem atrás do texto rouba sem devolver nada.
 
-**O ajuste que faltava: tirar o piso.** Eu somava um valor fixo em toda a
-imagem, então a parte escura da foto virava massa e a marca lia como mancha
-preta. Agora só o que tem luz deixa marca sobre o fundo escuro, e só o que
-tem sombra deixa marca sobre o papel. A marca ficou de luz, não de tinta, e é
-por isso que ela parou de pesar.
+Fica o registro para não repetir: foto em marca d'água funciona em documento,
+onde a página é branca e o texto é corrido. Em card de carrossel com
+tipografia grande, não.
 
 ## Regerar
 
