@@ -8,7 +8,9 @@ Hoje eu ensino empresário a tirar a empresa do roxo, e já passaram mais de
 quinhentos por aqui. Mas o caminho entre uma coisa e outra ninguém vê, e é
 dele que esse carrossel fala.
 
-Tem quem ache que autoridade é postura. Eu acho que é lastro.
+Tem quem ache que autoridade é postura. Eu acho que é lastro. São mais de
+quinhentos milhões de reais economizados em imposto para quem passou por
+aqui, e esse número não é retórica: é soma.
 
 E lastro, pra mim, é também o que a gente constrói. Hoje são dois projetos
 meus de pé: o GSena Hub e o OCEO, a startup que junta contabilidade,

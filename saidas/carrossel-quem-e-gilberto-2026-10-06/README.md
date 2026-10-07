@@ -29,19 +29,19 @@ aparece só como "plataforma digital do Grupo Sena", porque o próprio
 repositório traz o projeto como "a detalhar". **Se ele disser em uma frase o
 que o Hub faz, a linha fica específica.**
 
-## Números do card 08, e um conflito aberto
+## Números do card 08
 
-Ele corrigiu em 06/out/2026 para **+ de 500 empresas e empresários** e
-**+500 mil reais economizados**.
+**+ de 500 empresas e empresários** e **+R$ 500 milhões economizados em
+impostos.** Confirmado por ele em 06/out/2026.
 
-**Isso conflita com o que está registrado.** O
-`_memoria/posicionamento.md` traz, como prova mais forte dele, *"+R$ 500
-milhões economizados em impostos · +2.000 empresas recuperadas"*. Entre
-500 mil e 500 milhões há mil vezes de diferença.
+Ele chegou a pedir "500 mil" no valor economizado; levantei o conflito com o
+`posicionamento.md`, que traz 500 milhões, e ele confirmou que o certo são os
+milhões.
 
-Apliquei o que ele mandou, porque o número é dele. Mas um dos dois
-documentos está errado, e enquanto isso não for decidido o
-`posicionamento.md` continua dizendo outra coisa.
+Sobre a contagem de empresas, os dois números convivem porque medem coisas
+diferentes: o `posicionamento.md` fala em **2.000 empresas recuperadas** e
+este card fala em **500 empresas e empresários** atendidos, que é o número
+registrado na memória do sistema.
 
 ## Uma coisa a conferir com ele
 
