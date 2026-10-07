@@ -28,33 +28,37 @@ Nos títulos o travessão virou ponto médio, que separa sem fingir pausa:
 O travessão antes de "Gilberto Sena", na citação do slide 06, fica: ali ele
 marca autoria, que é o uso certo.
 
+## A cor saiu da foto
+
+A versão de julho era preto, creme e dourado. Aqui a paleta é tirada da
+própria fotografia que entra em marca d'água:
+
+| | | De onde veio |
+|---|---|---|
+| Fundo escuro | `#241C19` | o marrom profundo do terno e da sala |
+| Fundo preto | `#1A1411` | o mesmo, mais fechado |
+| Papel | `#EDE7E0` | o claro quente do ambiente |
+| Acento | `#A87339` | o bronze da madeira da mesa |
+| Bloco cheio (slide 07) | `#B98A48` | o mesmo bronze, mais claro |
+
+**Por que isso resolveu.** As duas primeiras tentativas falharam porque a
+foto brigava com a peça: imagem quente de escritório por trás de um design
+preto, creme e dourado. Baixar a opacidade só tornava a briga mais fraca,
+nunca a resolvia.
+
+Com a paleta vinda da foto, ela deixa de ser corpo estranho e passa a ler
+como textura do próprio material. É a mesma família de cor, então não há o
+que brigar.
+
+Contraste medido: tinta clara sobre o marrom dá 13,63:1; o bronze dá 4,12:1
+sobre o escuro e 3,30:1 sobre o papel, que é o que permite usá-lo nos dois,
+já que o carrossel alterna fundo claro e escuro.
+
 ## O retrato em marca d'água
 
-**A foto é o retrato de estúdio**, mãos entrelaçadas, fundo quase preto. Ela
-sobe do canto inferior direito em todos os nove slides.
-
-| Arquivo | Onde entra | Força |
-|---|---|---|
-| `retrato-claro.png` | slides de fundo escuro e preto | 17% |
-| `retrato-escuro.png` | slides de fundo claro e o dourado | 14% |
-
-### Por que as duas primeiras tentativas falharam
-
-Comecei com a foto dele à mesa com o relatório, e o resultado foi ruim duas
-vezes seguidas. O problema nunca foi a opacidade, era a imagem.
-
-Aquela foto é uma **cena**: escritório, estante, mesa, monitor, e uma janela
-de cidade bem clara atrás dele. Como marca d'água, tudo isso vira borrão, e
-não se reconhece nada. Pior: a janela era a parte mais clara do quadro, então
-era ela que virava o desenho, não ele. E no slide 03 o parágrafo caía em cima
-do rosto e cortava a cara ao meio.
-
-**O que resolveu foi trocar a origem, não ajustar número.** Retrato de
-estúdio tem fundo quase preto, então o recorte por luz devolve só a silhueta
-dele, limpa. E ancorar no rodapé põe o rosto numa área onde não há texto,
-porque nesses slides o conteúdo é centralizado na vertical.
-
-A lição, para a próxima: marca d'água precisa de silhueta, não de cenário.
+A foto dele à mesa com o relatório, em duotone, subindo do canto inferior
+direito. Clara a 15% sobre os fundos escuros, escura a 12% sobre o papel e o
+bronze. As quatro bordas dissolvidas.
 
 ## Regerar
 
