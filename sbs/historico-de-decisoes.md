@@ -90,3 +90,22 @@ olha primeiro.
 
 Se um dia quiser apertar mais, 12x de R$ 4.600 (R$ 55.200) derruba a taxa
 para 1,56% ao mês. Mas no patamar de hoje não há o que corrigir.
+
+---
+
+## O que ficou em aberto quando a lista saiu do plano
+
+Retirada do documento em 07/out/2026, a pedido dele. Os dois itens continuam
+valendo.
+
+## 9. O que falta decidir
+
+1. **O conselho consultivo** (seção 6.1): referência de honorário, cadência,
+   formato da mesa e o limite do papel em contrato.
+2. **Contrato de prestação de serviço com o cliente.** Ainda não existe. O
+   acordo entre os três sócios está pronto em
+   `juridico/termo-de-compromisso-sbs.md` e falta passar por advogado antes
+   das assinaturas.
+
+---
+
