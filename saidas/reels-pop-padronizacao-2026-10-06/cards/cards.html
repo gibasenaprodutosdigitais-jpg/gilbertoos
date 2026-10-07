@@ -67,6 +67,12 @@
            color:var(--fraco);text-transform:uppercase}
   .carimbo .arroba{color:var(--tinta)}
 
+  /* retrato em marca d'agua: tratado como desenho de planta, azul sobre
+     azul, dissolvido nas bordas pra nao virar retangulo de foto colado */
+  .retrato{position:absolute;right:-60px;bottom:0;height:1010px;width:auto;
+           opacity:.72;pointer-events:none;z-index:0}
+  .conteudo,.carimbo,.hachura{z-index:1}
+
   /* hachura no canto, só na capa */
   .hachura{position:absolute;right:44px;top:44px;width:230px;height:230px;
     background:repeating-linear-gradient(45deg,transparent 0 9px,
@@ -120,6 +126,7 @@ for (const c of CARDS) {
   const d = document.createElement("div");
   d.className = "card";
   d.innerHTML = `
+    <img class="retrato" src="retrato-dagua.png" alt="">
     <div class="moldura"></div>
     ${c.capa ? '<div class="hachura"></div>' : ''}
     <div class="conteudo">
