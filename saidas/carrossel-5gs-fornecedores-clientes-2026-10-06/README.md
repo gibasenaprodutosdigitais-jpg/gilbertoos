@@ -56,9 +56,14 @@ já que o carrossel alterna fundo claro e escuro.
 
 ## O retrato em marca d'água
 
-A foto dele à mesa com o relatório, em duotone, subindo do canto inferior
-direito. Clara a 15% sobre os fundos escuros, escura a 12% sobre o papel e o
-bronze. As quatro bordas dissolvidas.
+A foto dele à mesa com o relatório, subindo do canto inferior direito. As
+quatro bordas dissolvidas.
+
+**O ajuste que faltava: tirar o piso.** Eu somava um valor fixo em toda a
+imagem, então a parte escura da foto virava massa e a marca lia como mancha
+preta. Agora só o que tem luz deixa marca sobre o fundo escuro, e só o que
+tem sombra deixa marca sobre o papel. A marca ficou de luz, não de tinta, e é
+por isso que ela parou de pesar.
 
 ## Regerar
 
