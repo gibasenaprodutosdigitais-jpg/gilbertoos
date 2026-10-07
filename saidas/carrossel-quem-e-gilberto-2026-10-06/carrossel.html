@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<title>Quem é Gilberto Sena — 8 cards</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Archivo:wght@400;500;600;700&display=swap">
+<style>
+  /* O visual é o do carrossel que ele já tinha: azul-noite com dourado e
+     título em serifada de caixa alta. Manter foi decisão dele ("recrie
+     eles"), então aqui não cabe trocar o mundo da peça. O que muda é a
+     execução: grade, respiro e hierarquia. */
+  :root{
+    --noite:#0B2144;
+    --noite-claro:#15386E;
+    --ouro:#E0A82E;
+    --ouro-claro:#F2C96A;
+    --tinta:#FFFFFF;
+    --tinta-fraca:#C5D3E8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{background:#071428}
+  body{font-family:Archivo,"Helvetica Neue",Arial,sans-serif}
+
+  .card{position:relative;width:1080px;height:1350px;overflow:hidden;
+        margin-bottom:26px;color:var(--tinta);
+        background:radial-gradient(130% 100% at 50% 0%,
+                   var(--noite-claro) 0%, var(--noite) 48%, #071B38 100%)}
+
+  .moldura{position:absolute;inset:40px;border:1px solid rgba(224,168,46,.26);
+           pointer-events:none}
+  .corpo{position:absolute;left:104px;right:104px;top:50%;
+         transform:translateY(-52%);text-align:center}
+
+  h2{font-family:Cinzel,Georgia,serif;font-weight:700;line-height:1.14;
+     letter-spacing:.015em;margin-bottom:46px;text-wrap:balance}
+  h2 .ouro{color:var(--ouro);display:block}
+  .g1 h2{font-size:62px}
+  .g2 h2{font-size:54px}
+
+  p{font-size:33px;line-height:1.52;color:var(--tinta);margin-bottom:26px}
+  p:last-child{margin-bottom:0}
+  p b{color:var(--ouro-claro);font-weight:600}
+  .fraco{color:var(--tinta-fraca)}
+  .destaque{color:var(--ouro);font-weight:600}
+
+  ul{list-style:none;text-align:left;max-width:770px;margin:0 auto}
+  li{font-size:31px;line-height:1.42;margin-bottom:24px;padding-left:40px;
+     position:relative;color:var(--tinta)}
+  li::before{content:"";position:absolute;left:0;top:16px;width:18px;height:2px;
+             background:var(--ouro)}
+  li b{color:var(--ouro-claro);font-weight:600}
+  li span{display:block;font-size:25px;color:var(--tinta-fraca);margin-top:5px}
+
+  .selo{font-family:Archivo;font-size:21px;letter-spacing:.3em;
+        text-transform:uppercase;color:var(--ouro);margin-bottom:22px;
+        font-weight:600}
+  .rodape{position:absolute;left:104px;right:104px;bottom:72px;
+          display:flex;align-items:center;justify-content:center;gap:16px;
+          font-size:22px;letter-spacing:.12em;color:var(--tinta-fraca)}
+  .rodape img{height:46px;width:auto;opacity:.9}
+  .arraste{position:absolute;right:92px;bottom:70px;font-size:24px;
+           color:var(--ouro);letter-spacing:.06em}
+
+  /* ---------- capa ---------- */
+  .capa{display:flex;height:100%}
+  .capa .foto{width:49%;height:100%;object-fit:cover;object-position:52% 28%}
+  .capa .lado{width:51%;padding:0 72px;display:flex;flex-direction:column;
+              justify-content:center;text-align:left}
+  .capa h1{font-family:Cinzel,Georgia,serif;font-size:52px;font-weight:600;
+           line-height:1.12;margin-bottom:8px}
+  .capa h1 .nome{display:block;color:var(--ouro);font-size:70px;font-weight:700;
+                 margin-top:6px}
+  .capa .linha{width:92px;height:2px;background:var(--ouro);margin:30px 0}
+  .capa p{font-size:30px;line-height:1.5;color:var(--tinta-fraca);margin:0}
+  .capa p b{color:var(--tinta);font-weight:600}
+  .capa .cta{margin-top:38px;font-size:24px;letter-spacing:.1em;
+             text-transform:uppercase;color:var(--ouro);font-weight:600}
+
+  .numero{position:absolute;left:104px;bottom:74px;font-size:22px;
+          letter-spacing:.2em;color:rgba(197,211,232,.55)}
+</style>
+<body></body>
+<script>
+const CARDS = [
+
+ {tipo:"capa"},
+
+ {n:"02", classe:"g1",
+  titulo:'Transformando<span class="ouro">empresas e vidas</span>',
+  html:`<p><b>Gilberto Sena</b> é CEO e fundador do Grupo Sena, Soluções
+        Empresariais. Escritor, palestrante e mentor empresarial.</p>
+        <p class="fraco">A missão é uma só: ensinar empresário a sair do roxo
+        e ter resultado através da gestão inteligente.</p>`},
+
+ {n:"03", classe:"g2",
+  titulo:'Autor do livro que está<span class="ouro">transformando gestores</span>',
+  html:`<p>Escreveu <b>“Os 5 G’s da Gestão Empreendedora”</b>, um guia para
+        o empresário que quer transformar a gestão e acelerar resultado.</p>
+        <p class="fraco">Gestão de Si · Financeira · de Pessoas · Tributária ·
+        de Fornecedores e Clientes.</p>
+        <p class="destaque">Link na bio.</p>`},
+
+ {n:"04", classe:"g1",
+  titulo:'Conhecimento<span class="ouro">que gera impacto</span>',
+  html:`<ul>
+    <li><b>Formado em Gestão Financeira e Administração</b></li>
+    <li><b>Pós-graduado em Direito Tributário</b><span>720 horas</span></li>
+    <li><b>Jurista e perito financeiro contábil</b></li>
+    <li><b>Agente autônomo de investimentos</b></li>
+  </ul>
+  <p class="destaque" style="margin-top:38px">Mais de 30 formações e
+  especializações em gestão empresarial.</p>`},
+
+ {n:"05", classe:"g2",
+  selo:"A base formal",
+  titulo:'Título não se<span class="ouro">improvisa</span>',
+  html:`<ul>
+    <li><b>Pós-graduação em Direito Tributário, 720h</b>
+        <span>Faculdade Venda Nova do Imigrante · 2021</span></li>
+    <li><b>Bacharel em Teologia</b>
+        <span>SETEAD, Brasília · 2020</span></li>
+    <li><b>Agente Autônomo de Investimento</b>
+        <span>habilitado pela ANCORD · 2020</span></li>
+    <li><b>Perícia Judicial, duas formações</b>
+        <span>Escola de Perito e CONPEJ · 2020</span></li>
+  </ul>`},
+
+ {n:"06", classe:"g2",
+  selo:"2020",
+  titulo:'O ano em que ele<span class="ouro">voltou a estudar</span>',
+  html:`<ul>
+    <li><b>Tecnologia, Direito Digital e Propriedade Intelectual</b>
+        <span>trilha de 180 horas</span></li>
+    <li><b>Planejamento e Negócios Internacionais</b>
+        <span>trilha de 120 horas</span></li>
+    <li><b>Planejamento Estratégico e Processo da Criatividade</b></li>
+    <li><b>Expert XP</b><span>55,5 horas</span></li>
+  </ul>
+  <p class="fraco" style="margin-top:34px;font-size:28px">Tudo no mesmo
+  semestre. Quem já tinha chegado resolveu começar de novo.</p>`},
+
+ {n:"07", classe:"g1",
+  titulo:'Contra resultados<span class="ouro">não há falácias</span>',
+  html:`<p style="font-size:44px;line-height:1.35"><b>+2 mil</b> empresas
+        transformadas.</p>
+        <p style="font-size:44px;line-height:1.35"><b>+500 milhões</b> de reais
+        economizados.</p>
+        <p class="destaque" style="font-family:Cinzel,serif;font-size:38px;
+        margin-top:46px">“Coerdeiro de Cristo.”</p>`},
+
+ {n:"08", classe:"g1",
+  titulo:'Pronto para transformar<span class="ouro">o seu negócio?</span>',
+  html:`<p>Acompanhe os meus perfis e descubra como a minha experiência pode
+        ajudar a sua empresa a prosperar.</p>
+        <p class="destaque" style="font-size:38px;margin-top:34px">
+        @gilbertosenaoficial</p>`},
+];
+
+const el=(t,c,h)=>{const n=document.createElement(t);if(c)n.className=c;
+                   if(h!=null)n.innerHTML=h;return n;};
+
+CARDS.forEach((c,i)=>{
+  const d=el("div","card "+(c.classe||""));
+  if(c.tipo==="capa"){
+    d.innerHTML=`
+      <div class="capa">
+        <img class="foto" src="retrato.jpg" alt="Gilberto Sena">
+        <div class="lado">
+          <h1>Quem é<span class="nome">Gilberto Sena?</span></h1>
+          <div class="linha"></div>
+          <p>A história de um <b>motoboy</b> que virou empresário e já
+             transformou milhares de vidas e negócios.</p>
+          <div class="cta">Arraste para saber mais</div>
+        </div>
+      </div>`;
+  } else {
+    d.innerHTML=`
+      <div class="moldura"></div>
+      <div class="corpo">
+        ${c.selo?`<div class="selo">${c.selo}</div>`:""}
+        <h2>${c.titulo}</h2>
+        ${c.html}
+      </div>
+      <div class="numero">${c.n} / 08</div>
+      <div class="rodape"><img src="logo.png" alt=""> @gilbertosenaoficial</div>`;
+  }
+  document.body.appendChild(d);
+});
+</script>
+</html>
