@@ -109,3 +109,62 @@ valendo.
 
 ---
 
+---
+
+## A conta tributária por público
+
+Retirada do plano em 07/out/2026, a pedido dele. O conteúdo técnico continua
+valendo e tem fonte própria em `conhecimento/`: `reforma-tributaria-medicos.md`,
+`-odontologia.md`, `-biomedicina.md` e `-clinicas-esteticas.md`.
+
+## 8. A conta tributária, público por público
+
+Isto está fichado e confere. **Os quatro públicos não estão na mesma
+situação**, e essa diferença é o coração do argumento de venda.
+
+| Público | Situação na reforma | Fichamento |
+|---|---|---|
+| **Médico** | **60% de redução confirmada**, por prestar serviço de saúde (arts. 128-134 da LC 214/2025). O CFM articulou isso no Congresso. | `reforma-tributaria-medicos.md` |
+| **Dentista** | **60% confirmada**, mesma lógica. O CFO articulou. Ganho extra: a não-cumulatividade deixa a clínica creditar imposto pago em despesa e custo da atividade. | `reforma-tributaria-odontologia.md` |
+| **Biomédico** | **Incluído** entre os cerca de 30 serviços de saúde do Anexo VIII, laboratório de análises clínicas citado de forma explícita. | `reforma-tributaria-biomedicina.md` |
+| **Estética** | **Não tem inclusão confirmada.** É zona cinzenta, com risco real de disputa jurídica. | `reforma-tributaria-clinicas-esteticas.md` |
+
+**A regra que vale para os três primeiros:** a redução de 60% de saúde e a de
+30% de profissão regulamentada **não somam**. Quando o serviço é saúde,
+aplica-se a de 60%, que é a maior. A de 30% é alternativa, não acréscimo.
+
+**Por que estética é diferente, e por que isso é oportunidade:**
+
+O que decide não é quem faz, é **como o serviço é classificado** na NBS:
+
+- Procedimento com finalidade **terapêutica** (reconstrução, tratamento de
+  patologia), feito por médico: tende a entrar como saúde, 60%.
+- O **mesmo** profissional fazendo procedimento puramente de embelezamento,
+  sem finalidade terapêutica: pode não entrar como saúde. Cairia nos 30% de
+  profissão regulamentada, se ainda contar como atividade ligada à
+  qualificação, ou na alíquota cheia se nem isso.
+- **Esteticista sem formação na saúde:** risco real de não se enquadrar em
+  nenhuma redução.
+
+Ou seja: a clínica que mistura procedimento terapêutico com procedimento
+estético precisa saber separar as duas coisas na classificação. Esse é um
+trabalho de consultoria real, com valor em reais, e é exatamente o que
+ninguém está fazendo por esse público hoje.
+
+**O que não afirmar, em venda nem em mentoria:**
+
+- Que estética paga sempre alíquota cheia. Depende do procedimento.
+- Que estética tem direito aos 60%. A própria fonte diz que é controverso.
+- Que todo procedimento médico ou odontológico entra automaticamente nos 60%
+  sem checar a classificação.
+- Número fechado de alíquota. O padrão (26,5% a 28%) ainda não está
+  definido. A estimativa publicada para odontologia, cerca de 11,2% num
+  padrão de 28%, é projeção e deve ser dita como projeção.
+
+### A responsabilidade pela publicidade
+
+A orientação de marketing é geral e o conteúdo é de domínio público. **Quem
+responde pela própria publicidade perante o conselho é o profissional.**
+
+---
+
