@@ -352,15 +352,21 @@ conselho vira conversa de impressão.
 |---|---|
 | Prazo | **12 meses** |
 | Formato | encontros **on-line e presenciais** |
-| Investimento | **R$ 120.000,00 por ano** |
+| Investimento | **R$ 180.000,00 por ano**, para os três |
 
-São R$ 10.000 por mês de assessoria com os três sócios na mesa. Para
-comparação, o programa de 90 dias custa R$ 50.000, o que dá cerca de
-R$ 16.700 por mês: o conselho é mais leve na mensalidade porque é menos
-intensivo, e mais pesado no total porque dura quatro vezes mais.
+São R$ 15.000 por mês com os três sócios na mesa. O programa de 90 dias sai
+por cerca de R$ 16.700 por mês, então **a mensalidade do conselho é
+praticamente a mesma da mentoria**, por quatro vezes mais tempo.
 
-Dividido entre os três, cada sócio recebe R$ 40.000 ao ano por cliente de
-conselho. É esse número que diz quantos conselhos cabem na agenda de cada um.
+Isso tem uma consequência no discurso de venda: o conselho não se vende como
+a opção mais barata, porque não é. Vende-se pelo que ele é — a mentoria
+arruma a casa uma vez; o conselho senta na decisão o ano inteiro. São
+naturezas diferentes de valor, e o cliente que entende isso não compara
+preço por mês.
+
+Dividido entre os três, cada sócio recebe R$ 60.000 ao ano por cliente de
+conselho, ou R$ 5.000 por mês. É esse número que diz quantos conselhos cabem
+na agenda de cada um.
 
 ### O que ainda falta definir
 
@@ -418,4 +424,4 @@ Medir a linha de base no diagnóstico e repetir todo mês, com a mesma conta.
 
 | | |
 |---|---|
-| Investimento anual | **R$ 120.000,00** |
+| Investimento anual | **R$ 180.000,00**, para os três |
