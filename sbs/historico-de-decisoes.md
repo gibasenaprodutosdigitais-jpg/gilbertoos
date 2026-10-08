@@ -6,6 +6,11 @@
 
 ## Mudança de nome
 
+Em 07/out/2026 o produto ganhou nome próprio: **SBS Mentoria Business
+Medical**. Antes o documento se chamava "Plano de mentoria: Sena, Bittar e
+Simões", que é descrição, não marca.
+
+
 A casa se chamava Sena e Bittar até 06/out/2026, quando entrou o terceiro
 sócio, Will Simões, e passou a Sena, Bittar e Simões. A linha de serviço
 mudou junto, de "consultoria e assessoria para médicos" para "consultoria e
@@ -271,3 +276,31 @@ junto.
 |---|---|
 | Investimento anual | **R$ 360.000,00**, para os três |
 | Pagamento | 4 parcelas trimestrais de **R$ 90.000,00** |
+
+---
+
+## A versão de 6 meses (SBS PRO)
+
+Escrita e retirada em 07/out/2026, no mesmo dia. Ele pediu um método de 6
+meses a R$ 100.000, "o dobro dos meses", e em seguida mandou retirar tudo e
+manter somente a SBS Mentoria Business Medical.
+
+**O preço que vale é o da mentoria de 90 dias:** R$ 50.000 à vista no pix ou
+cartão, ou 12x de R$ 5.000, total de R$ 60.000.
+
+O que o SBS PRO tinha, caso um dia volte à mesa:
+
+- 6 meses em duas metades. Meses 1 a 3 iguais ao programa atual. Meses 4 a 6
+  de execução acompanhada, com 3 encontros mensais (encontros 7, 8 e 9),
+  conduzidos por Sena, Bittar e os três no fechamento.
+- O argumento que sustentava o prazo: preço corrige margem já no mês
+  seguinte, mas marketing e vendas levam um trimestre para aparecer. Um
+  programa que acaba no dia 90 sai da sala justamente quando a conta ia
+  virar.
+- O Smart Money caía melhor no segundo trimestre, porque o critério só vira
+  decisão real depois que a empresa tem ponto de equilíbrio coberto e reserva
+  formada.
+
+Esse argumento do segundo trimestre não morreu. Ele reaparece, com outro
+preço e sem prender o cliente a um programa mais longo, na proposta de
+acompanhamento que está em `continuidade.md`.
