@@ -15,7 +15,7 @@ from pathlib import Path
 AQUI = Path(__file__).parent
 ENTRADA = AQUI / "plano-de-mentoria.md"
 HTML_SAIDA = AQUI / "plano-de-mentoria.html"
-PDF_SAIDA = AQUI / "Sena, Bittar e Simões - Plano de Mentoria.pdf"
+PDF_SAIDA = AQUI / "SBS Mentoria Business Medical.pdf"
 
 
 def inline(t: str) -> str:
@@ -149,7 +149,9 @@ body{font-family:"Helvetica Neue",Arial,sans-serif;color:var(--tinta);
              color:var(--ouro);margin-bottom:7px}
 .capa .sub{font-size:8px;letter-spacing:.3em;text-transform:uppercase;color:#9FB0C4;
            padding-top:8px;border-top:1px solid #2A4062;display:inline-block;padding-left:14px;padding-right:14px}
-.capa h1{font-family:Georgia,serif;font-size:30px;font-weight:400;margin:24px 0 6px}
+.capa h1{font-family:Georgia,serif;font-size:30px;font-weight:400;margin:24px 0 6px;
+         line-height:1.14}
+.capa h1 .produto{color:var(--ouro);letter-spacing:.02em}
 .capa .quem{font-size:11px;color:#9FB0C4}
 h1,h2,h3,h4{font-family:Georgia,serif;font-weight:400;line-height:1.25}
 h2{font-size:19px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--linha);
@@ -190,14 +192,14 @@ corpo = md.split("---", 1)[1] if md.startswith("# ") else md
 corpo = converter(corpo.lstrip("\n-"))
 
 pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8">
-<title>Plano de Mentoria — Sena, Bittar e Simões</title><style>{ESTILO}</style></head><body>
+<title>SBS Mentoria Business Medical</title><style>{ESTILO}</style></head><body>
 <img class="dagua" src="marca/sbs-marca-dagua.png" alt="">
 <div class="pagina">
   <div class="capa">
     <img class="mono" src="marca/sbs-logo.png" alt="">
     <div class="marca">SENA, BITTAR E SIMÕES</div>
     <div class="sub">Consultoria e assessoria médica empresarial</div>
-    <h1>Plano de mentoria</h1>
+    <h1>Mentoria<br><span class="produto">Business Medical</span></h1>
     <div class="quem">Documento de trabalho dos sócios</div>
   </div>
   {corpo}

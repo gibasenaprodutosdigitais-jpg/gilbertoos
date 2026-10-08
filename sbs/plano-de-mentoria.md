@@ -1,4 +1,4 @@
-# Plano de mentoria: Sena, Bittar e Simões
+# SBS Mentoria Business Medical
 
 **Consultoria e assessoria médica empresarial** · Documento de trabalho dos sócios
 Versão 1 · 06/out/2026
