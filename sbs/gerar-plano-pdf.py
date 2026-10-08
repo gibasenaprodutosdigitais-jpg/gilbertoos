@@ -25,6 +25,13 @@ DOCUMENTOS = {
         "titulo": 'Mentoria<br><span class="produto">Business Medical</span>',
         "quem": "Documento de trabalho dos sócios",
     },
+    "cesta": {
+        "entrada": "cesta-de-produtos.md",
+        "html": "cesta-de-produtos.html",
+        "pdf": "SBS - Cesta de produtos.pdf",
+        "titulo": 'Cesta de produtos<br><span class="produto">o ano em três etapas</span>',
+        "quem": "Sugestão para análise dos sócios",
+    },
     "continuidade": {
         "entrada": "continuidade.md",
         "html": "continuidade.html",
