@@ -10,12 +10,38 @@ import html
 import io
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 AQUI = Path(__file__).parent
-ENTRADA = AQUI / "plano-de-mentoria.md"
-HTML_SAIDA = AQUI / "plano-de-mentoria.html"
-PDF_SAIDA = AQUI / "SBS Mentoria Business Medical.pdf"
+
+# Os documentos da pasta usam a mesma identidade e o mesmo conversor. O que
+# muda em cada um e o arquivo de origem e o titulo da capa.
+DOCUMENTOS = {
+    "plano": {
+        "entrada": "plano-de-mentoria.md",
+        "html": "plano-de-mentoria.html",
+        "pdf": "SBS Mentoria Business Medical.pdf",
+        "titulo": 'Mentoria<br><span class="produto">Business Medical</span>',
+        "quem": "Documento de trabalho dos sócios",
+    },
+    "continuidade": {
+        "entrada": "continuidade.md",
+        "html": "continuidade.html",
+        "pdf": "SBS - Proposta de continuidade.pdf",
+        "titulo": 'Continuidade<br><span class="produto">depois da mentoria</span>',
+        "quem": "Sugestão para análise dos sócios",
+    },
+}
+
+QUAL = sys.argv[1] if len(sys.argv) > 1 else "plano"
+if QUAL not in DOCUMENTOS:
+    raise SystemExit(f"documento desconhecido: {QUAL}. Use: {', '.join(DOCUMENTOS)}")
+DOC = DOCUMENTOS[QUAL]
+
+ENTRADA = AQUI / DOC["entrada"]
+HTML_SAIDA = AQUI / DOC["html"]
+PDF_SAIDA = AQUI / DOC["pdf"]
 
 
 def inline(t: str) -> str:
@@ -192,15 +218,15 @@ corpo = md.split("---", 1)[1] if md.startswith("# ") else md
 corpo = converter(corpo.lstrip("\n-"))
 
 pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8">
-<title>SBS Mentoria Business Medical</title><style>{ESTILO}</style></head><body>
+<title>{PDF_SAIDA.stem}</title><style>{ESTILO}</style></head><body>
 <img class="dagua" src="marca/sbs-marca-dagua.png" alt="">
 <div class="pagina">
   <div class="capa">
     <img class="mono" src="marca/sbs-logo.png" alt="">
     <div class="marca">SENA, BITTAR E SIMÕES</div>
     <div class="sub">Consultoria e assessoria médica empresarial</div>
-    <h1>Mentoria<br><span class="produto">Business Medical</span></h1>
-    <div class="quem">Documento de trabalho dos sócios</div>
+    <h1>{DOC["titulo"]}</h1>
+    <div class="quem">{DOC["quem"]}</div>
   </div>
   {corpo}
   <div class="rodape">Sena, Bittar e Simões · Documento de trabalho dos sócios · Confidencial</div>
@@ -208,14 +234,15 @@ pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8">
 
 io.open(HTML_SAIDA, "w", encoding="utf-8").write(pagina)
 
-io.open(AQUI / "_render_plano.js", "w", encoding="utf-8").write("""
-const path=require('path'); const {chromium}=require('playwright');
-(async()=>{const b=await chromium.launch();const p=await b.newPage();
-await p.goto('file://'+path.join(__dirname,'plano-de-mentoria.html'));
+RENDER = AQUI / "_render_plano.js"
+io.open(RENDER, "w", encoding="utf-8").write(f"""
+const path=require('path'); const {{chromium}}=require('playwright');
+(async()=>{{const b=await chromium.launch();const p=await b.newPage();
+await p.goto('file://'+path.join(__dirname,'{HTML_SAIDA.name}'));
 await p.evaluate(()=>document.fonts.ready);
-await p.pdf({path:path.join(__dirname,'Sena, Bittar e Simões - Plano de Mentoria.pdf'),
+await p.pdf({{path:path.join(__dirname,'{PDF_SAIDA.name}'),
   format:'A4',printBackground:true,
-  margin:{top:'14mm',bottom:'14mm',left:'15mm',right:'15mm'}});
-await b.close();console.log('PDF ok');})();
+  margin:{{top:'14mm',bottom:'14mm',left:'15mm',right:'15mm'}}}});
+await b.close();console.log('PDF ok');}})();
 """)
 print("HTML pronto:", HTML_SAIDA.name)
