@@ -144,9 +144,17 @@ nascendo. É o que transforma este trecho de currículo em capítulo.*
 
 ## A terceira queda: eu terceirizei a minha própria cara
 
-Em algum ponto desses anos de telefonia eu montei uma empresa de instalação
-de PABX. Comprei uma carteira de clientes, o que na época era o caminho mais
-rápido para ter operação rodando desde o primeiro mês.
+Entre 2003 e 2008, enquanto eu era executivo da Embratel, eu montei uma
+empresa de instalação de PABX. Em paralelo, com o crachá no bolso. A
+operadora não tinha problema nenhum com isso, e eu muito menos.
+
+Porque eu nunca deixei de ser as duas coisas. Desde o Super Boy eu sou um
+sujeito que constrói alguma coisa por dentro enquanto trabalha. O crachá
+pagava as contas e me ensinava a engrenagem. A empresa de PABX era onde eu
+testava se eu já tinha aprendido.
+
+Comprei uma carteira de clientes, o que na época era o caminho mais rápido
+para ter operação rodando desde o primeiro mês.
 
 E eu fiz uma economia que me pareceu inteligente: os técnicos não eram
 funcionários, eram terceirizados. Menos encargo, menos folha, mais
@@ -164,6 +172,14 @@ Não precisaram roubar nada. Bastou aparecer. A debandada foi em massa.
 
 Eu não perdi os clientes para um concorrente. Eu perdi para o meu próprio
 custo variável.
+
+Essa queda doeu menos que as outras duas, e é honesto dizer por quê: eu tinha
+salário. No fim daquele mês entrou dinheiro na minha casa do mesmo jeito. Foi
+a única das minhas quebras que não me levou ao chão, e **foi justamente a que
+me ensinou mais rápido**, porque eu pude olhar para ela sem o desespero de
+quem precisa comer amanhã.
+
+Quem puder, erre com uma rede embaixo. A lição é a mesma e o preço é menor.
 
 > **Sacada do Giba**
 > Terceirize o que o cliente não vê. O que o cliente vê é a sua empresa, e
@@ -354,9 +370,16 @@ o arco: ele perde tudo, vai ser funcionário por dez anos para aprender a
 estrutura que lhe faltava, e volta a empreender em terreno próprio. A seção
 "Por que eu fui ser funcionário" só existe por causa dessa correção.
 
-**A data do PABX é a única que falta.** Está escrito como "em algum ponto
-desses anos de telefonia", que é honesto e não crava nada. Se ele disser o
-ano, o trecho ganha precisão e talvez mude de lugar no capítulo.
+**A empresa de PABX, confirmada em 09/out/2026:** foi **no mesmo período da
+Embratel, de 2003 a 2008, em paralelo com o emprego**. A operadora não via
+problema em ele empreender sendo executivo. Com isso o capítulo não tem mais
+nenhuma data em aberto.
+
+Isso acrescentou duas coisas ao texto: a ideia de que ele sempre foi as duas
+coisas ao mesmo tempo, que já aparecia no Super Boy e agora fecha o arco; e o
+reconhecimento de que **essa foi a única quebra amortecida por um salário.**
+Essa segunda leitura é minha, construída sobre o fato que ele deu, e ele
+precisa aprovar. Ela deixa o capítulo mais honesto e tira o ar de epopeia.
 
 **O que está lastreado.** As três multinacionais com período, as três quebras
 com desfecho e a entrada como gerente nível três vieram dele, e estão em

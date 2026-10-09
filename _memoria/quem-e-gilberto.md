@@ -210,8 +210,9 @@ livro `O Médico e o Executivo`):
    passou a gestor, rodando só nas folgas dos motoqueiros que alugavam dele.
    **O expresso Super Boy quebrou e levou o negócio dele junto**, porque
    dependia do expresso para existir.
-2. **A empresa de instalação de PABX.** Já no ramo de telefonia, comprou uma
-   carteira de clientes. **Os técnicos eram terceirizados, não funcionários.
+2. **A empresa de instalação de PABX, de 2003 a 2008**, montada **em paralelo
+   com o emprego de executivo na Embratel** (a operadora não via problema em
+   ele empreender). Comprou uma carteira de clientes. **Os técnicos eram terceirizados, não funcionários.
    Assediaram os clientes com preço mais baixo e houve debandada em massa.**
 3. **A PrestConsult, de 1999 a 2000**, prestando serviço terceirizado para a
    Telefônica — **antes** de ele entrar na Telemar.
@@ -220,6 +221,10 @@ livro `O Médico e o Executivo`):
    meses depois **a Telefônica encerrou a operação fora de São Paulo**,
    deixando um passivo trabalhista grande. **Vendeu tudo o que tinha
    conquistado para pagar todos os funcionários** e voltou ao zero.
+
+**Ordem certa das três:** Super Boy nos anos 90, PrestConsult em 1999-2000,
+PABX em 2003-2008. A do PABX foi a única amortecida por um salário, porque
+ele era executivo da Embratel na mesma época.
 
 **O padrão que atravessa as três:** em todas, o negócio dependia de um
 terceiro que ele não controlava — o expresso, os técnicos que eram a cara da
