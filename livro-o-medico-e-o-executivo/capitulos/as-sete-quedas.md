@@ -133,6 +133,44 @@ Eu vi o meu mundo cair naquela tarde. Não era o carrinho. Era o noivado
 marcado, a casa que eu estava procurando, e a primeira vez em que eu tinha
 olhado para a minha própria vida e visto um caminho.
 
+### O que eu descobri depois, e que explica tudo
+
+Algum tempo depois, já na fase seguinte da minha vida, encontrei um rapaz do
+bairro, o mesmo que mais tarde me alugaria a minha primeira moto. Ele me
+olhou e perguntou:
+
+**Por que você largou o carrinho? O seu sanduíche era o melhor de todos.
+Agora o cara que está lá tem molho requentado, pão dormido. É uma porcaria o
+sanduíche dele.**
+
+Eu fiquei um tempo com aquilo na cabeça, e foi assim que eu entendi o que
+tinha acontecido de verdade.
+
+**O que ele queria não era o carrinho. Era o meu ponto.**
+
+Faz todo o sentido. O carrinho era velho, ele já tinha comprado um novo. O
+que tinha virado valioso naqueles três meses não era o equipamento, era a
+clientela formada em frente àqueles prédios, no horário certo, com fila nos
+fins de semana.
+
+Só que ele levou o carrinho e o lugar, e não conseguiu levar o negócio.
+
+Porque o que fazia aquele ponto valer não estava no carrinho. Estava no molho
+feito de manhã, no pão comprado naquele dia, na pessoa que lembrava como cada
+freguês gostava do dele. **Ponto sem qualidade e sem compromisso não se
+sustenta por muito tempo**, e em poucos meses o melhor sanduíche do bairro
+tinha virado uma porcaria.
+
+Eu perdi o negócio. Ele destruiu o negócio. São coisas diferentes, e a
+segunda é pior.
+
+> **Sacada do Giba**
+> O que você acha que é o seu ativo quase nunca é. Pergunte o que exatamente
+> faz o cliente voltar: se a resposta for alguma coisa que se carrega num
+> caminhão, qualquer um te copia amanhã. Se a resposta for o jeito como a
+> coisa é feita todo dia, você tem um negócio, e ele não cabe na mala de
+> ninguém.
+
 ### O que essa queda me ensinou, e levei vinte anos para aplicar
 
 **Combinado de boca vale enquanto for conveniente para os dois.** No dia em
@@ -143,7 +181,8 @@ problema é que, sem documento, a versão dele é a única que vale.
 **O momento do pedido não foi coincidência.** Três meses é exatamente o tempo
 que levou para ficar claro que o negócio dava certo. Pedir de volta no
 primeiro mês seria devolver um carrinho velho a um desempregado. Pedir no
-terceiro foi retomar um ponto consolidado.
+terceiro foi retomar um ponto consolidado. E repare na ironia: ele acertou a
+hora e errou o que estava comprando.
 
 **E a lição que me persegue:** a falta de conhecimento, de direção e,
 principalmente, de documento não me protegeu. Eu tinha capacidade de tocar o
@@ -525,9 +564,14 @@ mesma moral, separadas por vinte anos, e por isso ficaram nas duas pontas.
 A frase que amarra o capítulo saiu daí: combinado que não está escrito não
 existe, e contrato que você não leu é um combinado de boca com mais páginas.
 
-⚠ **Ordem a confirmar.** O carrinho é depois do desligamento da Fiat, e o
-expresso é a fase de motoboy. Os dois são dos anos noventa e **ele ainda não
-disse qual veio primeiro.** O capítulo está com o carrinho na frente.
+**Ordem resolvida em 09/out/2026.** O carrinho veio **antes** do expresso: o
+rapaz que o procurou depois para falar do sanduíche é o mesmo que mais tarde
+lhe alugaria a primeira moto. O capítulo já estava na ordem certa.
+
+**O epílogo do carrinho** foi contado por ele em 09/out/2026 e é o melhor
+fecho que a história podia ter: o comprador queria o ponto, levou o ponto, e
+não conseguiu levar o negócio. A leitura de que "eu perdi o negócio, ele
+destruiu o negócio" é minha.
 
 ⚠ **Nomes.** O dono do carrinho e o padeiro são reais e estão sem nome. A
 **Érica** ficou nomeada, por ser a esposa dele e a passagem ser afetuosa. A

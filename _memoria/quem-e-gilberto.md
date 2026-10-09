@@ -289,14 +289,23 @@ livro `O Médico e o Executivo`):
    documento não me protegeu"* e *"não era só um negócio, era todo o meu
    sonho de ser empresário e dar um futuro melhor para a minha família"*.
 
+   **O epílogo (09/out/2026):** tempos depois, o rapaz que mais tarde lhe
+   alugaria a primeira moto o procurou e perguntou por que ele tinha largado
+   o carrinho, dizendo que o sanduíche dele era o melhor de todos e que o
+   novo dono servia **molho requentado e pão dormido**. Foi assim que ele
+   entendeu que **o Geraldinho queria o ponto, não o carrinho** — e que
+   *"ponto sem a qualidade e o comprometimento que eu tinha com os produtos e
+   com os clientes não se sustenta por muito tempo"*.
+
    ⚠ **Nomes:** Geraldinho e Márcio são reais. No livro a história está sem
    nomes, exceto a Érica. Ver
    `livro-o-medico-e-o-executivo/capitulos/as-sete-quedas.md`.
 
 **Ordem das cinco conhecidas:** carrinho de cachorro-quente e Super Boy nos
 anos 90, PrestConsult em 1999-2000, PABX em 2003-2008, academia em 2012-2014.
-⚠ **Falta saber qual veio primeiro, o carrinho ou o Super Boy.** O carrinho é
-depois do desligamento da Fiat; o Super Boy é a fase de motoboy.
+**O carrinho veio antes do Super Boy**, confirmado em 09/out/2026: quem o
+procurou depois para falar do sanduíche é o mesmo rapaz que mais tarde lhe
+alugaria a primeira moto.
 
 **Emprego anterior novo:** ele trabalhou na **Fiat Automóveis** e foi
 desligado de lá nos anos 90. Não estava registrado em lugar nenhum antes de
