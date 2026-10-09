@@ -25,7 +25,139 @@ tudo não tem autoridade para explicar a perda de ninguém.**
 Então aqui estão as minhas. Vou contar quatro em detalhe. E já aviso que, em
 todas as quatro, o erro foi o mesmo.
 
-## A primeira: o chão que não era meu
+## O carrinho: a primeira, e a que mais doeu
+
+Eu começo por esta porque foi a primeira vez que eu perdi um negócio, e
+porque, de todas as sete, foi a que me machucou mais. As outras me custaram
+dinheiro. Esta me custou um projeto de vida.
+
+### Um ano sem conseguir emprego
+
+Nos anos noventa eu fui desligado da Fiat Automóveis, e aí descobri uma
+coisa sobre o mercado de trabalho brasileiro que ninguém conta.
+
+Eu não conseguia emprego. Não por falta de vaga, não por falta de
+qualificação. Em toda entrevista aparecia a mesma frase, dita quase como
+desculpa: **"vai sujar a sua carteira".**
+
+Era o termo que as empresas usavam na hora de registrar alguém. Levei anos
+para entender a lógica por trás daquele fantasma, e quando entendi vi que
+não era preconceito, era medo com endereço. Naquela época, sem a regulação
+clara que veio depois, a empresa que registrasse um funcionário por um
+salário menor do que o último anotado na carteira dele corria risco real de,
+numa ação trabalhista, ser obrigada a equiparar ao salário anterior. Isso
+quebrou muita empresa pequena.
+
+Resultado prático: **quem vinha de multinacional ficava inempregável para
+baixo.** Eu tinha carteira de multinacional e não tinha emprego.
+
+Passei um ano assim, fazendo bico de soldador e de serviços gerais. Quem
+nunca passou um ano procurando trabalho sem achar não sabe o que aquilo faz
+com a cabeça de um homem jovem.
+
+### A proposta que eu inventei sem saber o nome dela
+
+Um amigo do bairro tinha um carrinho de cachorro-quente e estava trocando o
+velho por um mais novo. Ele ia vender o antigo.
+
+Eu não tinha um real. E fiz a única proposta que me ocorreu:
+
+**Me vende o carrinho fiado, mas eu preciso de três meses de carência para
+começar a pagar.**
+
+O carrinho valia uns quatro mil reais. Eu ofereci **dez parcelas de
+quinhentos**, ou seja, cinco mil. Paguei mil reais a mais pelo prazo, de boa
+vontade, porque sem o prazo eu não tinha negócio nenhum.
+
+Hoje eu sei o nome do que eu fiz ali: eu comprei capital de giro. Paguei
+vinte e cinco por cento a mais por noventa dias de fôlego, que é mais ou
+menos o que custa dinheiro para quem não tem garantia nenhuma. Na época eu
+só achei que tinha sido esperto.
+
+**A gente fechou de boca.** Guarde essa frase.
+
+### Os três meses em que eu aprendi gestão
+
+Eu não tinha ponto. Então eu empurrava o carrinho até onde tivesse gente,
+inclusive até o campo de futebol do bairro.
+
+E aí veio a sacada que, olhando de hoje, foi a coisa mais importante que eu
+fiz naquele negócio. **Eu fazia o molho e a maionese novos todos os dias.** E
+o pão eu comprava na padaria toda manhã, acertando com o padeiro para pagar
+no dia seguinte.
+
+Parecia só caprichoso. Era três coisas ao mesmo tempo.
+
+Era **qualidade**: ninguém come maionese de ontem duas vezes no mesmo
+carrinho.
+
+Era **giro**: comprando todo dia, eu era obrigado a saber quanto eu vendia
+por dia. No fim da primeira semana eu já sabia dimensionar a compra, e a
+sobra que eu jogava fora virou quase zero.
+
+E era **capital de giro de novo**: pagando o pão no dia seguinte, eu vendia
+antes de pagar. O meu fornecedor financiava o meu dia sem cobrar nada por
+isso, porque eu nunca atrasei.
+
+Um rapaz de vinte e poucos anos, com um carrinho emprestado, estava rodando
+controle de estoque, gestão de qualidade e ciclo financeiro. Eu não sabia
+nenhum desses nomes.
+
+**Primeiro mês:** foi uma bênção. Pela primeira vez em um ano eu tinha
+previsão de quanto entraria.
+
+**Segundo mês:** consolidei o ponto perto de uns prediozinhos no bairro
+Floramar. O ponto era estratégico por um motivo que eu não vou esconder: a
+minha namorada, a Érica, morava ali. Os melhores dias eram os fins de semana,
+e ela me ajudava no carrinho. Juntei o útil ao agradável, e foi um tempo de
+muita alegria.
+
+**Terceiro mês:** o faturamento tinha dobrado, e a previsão era triplicar até
+o fim do semestre. Eu já estava programando o noivado e procurando uma casa
+geminada para financiar.
+
+Pela primeira vez na vida eu me vi empresário.
+
+### Cinco dias antes
+
+Faltando cinco dias para o vencimento da primeira parcela, com o dinheiro das
+duas primeiras já separado, o dono do carrinho me procurou.
+
+Ele precisava do carrinho de volta. A justificativa foi que o ponto dele
+tinha crescido e ele ia precisar ampliar o atendimento.
+
+Não havia nada escrito. Nem recibo, nem contrato, nem testemunha. **A gente
+tinha fechado de boca**, e de boca ele desfez.
+
+Eu vi o meu mundo cair naquela tarde. Não era o carrinho. Era o noivado
+marcado, a casa que eu estava procurando, e a primeira vez em que eu tinha
+olhado para a minha própria vida e visto um caminho.
+
+### O que essa queda me ensinou, e levei vinte anos para aplicar
+
+**Combinado de boca vale enquanto for conveniente para os dois.** No dia em
+que deixa de ser conveniente para um, ele não existe. E repare que não
+precisa nem haver má-fé: talvez o ponto dele tivesse crescido mesmo. O
+problema é que, sem documento, a versão dele é a única que vale.
+
+**O momento do pedido não foi coincidência.** Três meses é exatamente o tempo
+que levou para ficar claro que o negócio dava certo. Pedir de volta no
+primeiro mês seria devolver um carrinho velho a um desempregado. Pedir no
+terceiro foi retomar um ponto consolidado.
+
+**E a lição que me persegue:** a falta de conhecimento, de direção e,
+principalmente, de documento não me protegeu. Eu tinha capacidade de tocar o
+negócio, e capacidade não protege ninguém. **Protege papel.**
+
+> **Sacada do Giba**
+> Se você hoje tem um acordo importante que existe só na palavra, faça uma
+> coisa esta semana: mande uma mensagem ao outro escrevendo o que foi
+> combinado e peça que ele confirme. Chame de memória, não de desconfiança.
+> No dia
+> em que a conveniência mudar, essa mensagem vai ser a diferença entre a sua
+> versão e a dele.
+
+## A segunda: o chão que não era meu
 
 Anos noventa. Eu era motoboy num expresso em Belo Horizonte, aluguei a moto,
 comprei a minha, aluguei a alugada, comprei a terceira e virei gestor de três
@@ -40,7 +172,7 @@ Eu fiquei com três motos na garagem e nenhum lugar para mandá-las.
 
 **A lição:** eu tinha construído uma casa bem feita no terreno do vizinho.
 
-## A segunda: o cliente único
+## A terceira: o cliente único
 
 Entre 1999 e 2000 eu tinha uma empresa que prestava serviço terceirizado para
 uma operadora de telefonia. Vinte consultores na rua, sob a minha gestão.
@@ -55,7 +187,7 @@ para pagar todo mundo.
 **A lição:** eu cresci em cima da promessa de outra pessoa. A promessa era
 verdadeira. Mas ela não era minha.
 
-## A terceira: a minha cara, terceirizada
+## A quarta: a minha cara, terceirizada
 
 Entre 2003 e 2008, enquanto eu era executivo de uma operadora, montei em
 paralelo uma empresa de instalação de PABX. Comprei uma carteira de clientes
@@ -67,10 +199,11 @@ roubar nada. Bastou aparecer.
 
 **A lição:** eu terceirizei a única parte do negócio que o cliente enxergava.
 
-## A quarta: o contrato que eu não li
+## A quinta: o contrato que eu não li
 
-Essa é a mais longa, é a mais recente, e é a única cuja moral não é
-operacional. É jurídica. Por isso ela merece o espaço que as outras não
+Essa é a mais longa e a mais recente. A moral dela é a mesma da primeira,
+vinte anos depois, e é por isso que eu as coloquei nas duas pontas deste
+capítulo. Por isso ela merece o espaço que as outras não
 tiveram.
 
 ### Como eu entrei
@@ -283,24 +416,31 @@ para descobrir.
 **Se ela aguenta ouvir não.** É o critério do coração ensinável, e vale mais
 em sociedade do que em contratação, porque de sócio você não se demite.
 
-## O que as quatro têm em comum
+## O que as cinco têm em comum
 
 Olhe de novo, lado a lado.
 
 | | O negócio dependia de | Eu controlava? |
 |---|---|---|
-| Super Boy | do expresso onde eu rodava | não |
+| Carrinho | do dono do carrinho, sem nada escrito | não |
+| Expresso | do expresso onde eu rodava | não |
 | PrestConsult | de um cliente único | não |
 | PABX | dos técnicos que eram a minha cara | não |
 | Academia | do sócio, do comprador e do advogado do outro lado | não |
 
-Quatro negócios, quatro décadas diferentes da minha vida, quatro tamanhos
-diferentes. **O mesmo erro estrutural: eu construí em cima de alguém que eu
-não controlava.**
+Cinco negócios, décadas diferentes da minha vida, tamanhos diferentes. **O
+mesmo erro estrutural: eu construí em cima de alguém que eu não controlava.**
 
-E nas quatro o negócio estava indo bem no dia anterior.
+E nas cinco o negócio estava indo bem no dia anterior.
 
-Demorei três para enxergar o padrão e quatro para transformá-lo em regra. É
+Repare numa coisa que só ficou clara para mim escrevendo este capítulo. A
+primeira e a última têm a mesma moral: **combinado que não está escrito não
+existe, e contrato que você não leu é um combinado de boca com mais
+páginas.** Entre uma e outra passaram vinte anos, e eu paguei duas vezes pela
+mesma aula.
+
+Demorei três quedas para enxergar o padrão e cinco para transformá-lo em
+regra. É
 a regra que eu uso até hoje, e é a que explica, neste livro, por que eu não
 entrei na empresa do meu amigo: **não se entra numa casa para arrumá-la sem
 ter a chave dela.**
@@ -367,18 +507,37 @@ Eu não teria ouvido. Quase ninguém ouve. Por isso eu escrevo.
 
 ## As outras três
 
-Eu disse sete e contei quatro.
+Eu disse sete e contei cinco.
 
-`[FALTA]` — *As outras três quedas. O Gilberto ainda não as contou. Se
-alguma delas envolver pessoa viva e identificável, vale decidir junto se
-entra, como entrou esta, sem nome.*
+`[FALTA]` — *As outras duas quedas. O Gilberto ainda não as contou. Se
+envolverem pessoa viva e identificável, vale decidir junto se entram, como
+entraram estas, sem nome.*
 
 ---
 
 ## Notas de redação
 
-**A quarta queda foi contada por ele em 09/out/2026** e está registrada
+**A do carrinho e a da academia foram contadas por ele em 09/out/2026** e está registrada
 inteira, com nomes, em `_memoria/quem-e-gilberto.md`.
+
+⚠ **A do carrinho mudou a espinha do capítulo.** Ela e a da academia têm a
+mesma moral, separadas por vinte anos, e por isso ficaram nas duas pontas.
+A frase que amarra o capítulo saiu daí: combinado que não está escrito não
+existe, e contrato que você não leu é um combinado de boca com mais páginas.
+
+⚠ **Ordem a confirmar.** O carrinho é depois do desligamento da Fiat, e o
+expresso é a fase de motoboy. Os dois são dos anos noventa e **ele ainda não
+disse qual veio primeiro.** O capítulo está com o carrinho na frente.
+
+⚠ **Nomes.** O dono do carrinho e o padeiro são reais e estão sem nome. A
+**Érica** ficou nomeada, por ser a esposa dele e a passagem ser afetuosa. A
+**Fiat Automóveis** ficou nomeada porque é a história de emprego dele e não
+há nenhuma acusação à empresa. Se ele preferir tirar, é uma linha.
+
+⚠ **A explicação do "vai sujar a carteira"** está escrita como o que o
+mercado acreditava e por quê, nas palavras dele, e não como enunciado de
+direito do trabalho vigente. Num livro assinado por quem tem pós em Direito
+Tributário, afirmação trabalhista datada precisa desse cuidado.
 
 ⚠ **Escrita sem nenhum nome, de propósito.** A academia, a sociedade
 anterior, o sócio e o comprador são todos identificáveis. O comprador, em
