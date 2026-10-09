@@ -301,8 +301,47 @@ livro `O Médico e o Executivo`):
    nomes, exceto a Érica. Ver
    `livro-o-medico-e-o-executivo/capitulos/as-sete-quedas.md`.
 
-**Ordem das seis conhecidas:** **Fiat (nome emprestado)**, depois carrinho de
-cachorro-quente e Super Boy, todos nos anos 90, PrestConsult em 1999-2000, PABX em 2003-2008, academia em 2012-2014.
+7. **A Senas Car, distribuidora de autopeças, a partir do início de 2010**
+   (contada por ele em 09/out/2026). **A sétima e última queda.**
+
+   Ele tinha acabado de receber **R$ 300.000 de acerto trabalhista da
+   Embratel**. Por meio de um amigo de infância, conheceu um sujeito que
+   dizia que **a margem de autopeças era de 300%** e que tinha os
+   fornecedores e os clientes. Os principais fornecedores eram **tios da
+   esposa dele**, de peças para carros importados.
+
+   A conta que ele fez, nas palavras dele: *"se dá 300% de lucro, vou
+   investir 300.000 e em um ano tenho 1 milhão"*. Ele entrou com o dinheiro;
+   o outro, com a suposta experiência e carteira. O sujeito fez os pedidos
+   aos tios, Gilberto pagou, e entrou peça que ele avaliava em mais de
+   R$ 1 milhão. Gilberto ficou no financeiro; o sócio e o irmão, em vendas.
+
+   **O que de fato aconteceu:** o sócio comprou **à vista todo o estoque
+   encalhado dos tios**, peças sem giro, **foi bem comissionado por isso**, e
+   o prejuízo ficou inteiro com Gilberto. No primeiro mês não se vendeu
+   nenhuma daquelas peças; o que vendia era peça pega com distribuidores de
+   BH para pagar em 30 dias. E o sócio ainda exigia **R$ 5.000 de salário**.
+   Para sair da sociedade, quis **50% das peças**.
+
+   **Dois detalhes que valem o capítulo:** sem entender de peças, Gilberto
+   **pegou o motoboy da loja e passou a fazer as entregas ele mesmo**. As
+   oficinas o elogiavam e pediam que ele avisasse "o patrão" que só queriam
+   ele entregando; ele respondia que era o dono e riam. **E tempos depois
+   descobriu que o sócio nunca tinha sido vendedor nem gerente: era um
+   motoboy que cobria férias dos vendedores.**
+
+   **As peças se perderam.** Ele não conseguiu aproveitar nada, e **até hoje
+   tem algumas no quintal de casa.**
+
+   ⚠ **Nomes:** "Senas Car" é marca dele. O sócio, o irmão, o amigo de
+   infância e o motoboy ("Chock") não aparecem nomeados no livro.
+
+**As sete quedas, na ordem:** **Fiat (nome emprestado)**, carrinho de
+cachorro-quente e Super Boy, todos nos anos 90, PrestConsult em 1999-2000, PABX em 2003-2008, **Senas Car a partir de 2010** e academia em 2012-2014.
+**Com a Senas Car, as sete estão contadas.**
+
+**Fato novo:** ele recebeu **R$ 300.000 de acerto trabalhista da Embratel**,
+e foi esse dinheiro que entrou na Senas Car.
 **O carrinho veio antes do Super Boy**, confirmado em 09/out/2026: quem o
 procurou depois para falar do sanduíche é o mesmo rapaz que mais tarde lhe
 alugaria a primeira moto.

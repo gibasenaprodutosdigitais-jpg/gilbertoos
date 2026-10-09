@@ -256,6 +256,168 @@ roubar nada. Bastou aparecer.
 
 **A lição:** eu terceirizei a única parte do negócio que o cliente enxergava.
 
+## A Senas Car: os trezentos por cento
+
+Essa é a que mais me envergonha, e é a que eu mais uso quando converso com
+empresário. As duas coisas andam juntas.
+
+### O dinheiro que eu tinha para errar
+
+Em 2008 eu saí da Embratel e recebi um acerto trabalhista de **trezentos mil
+reais**. Era mais dinheiro junto do que eu já tinha visto na vida.
+
+Guarde isso, porque é o começo do erro. **Dinheiro que chega de uma vez só,
+sem que você tenha construído a estrutura para administrá-lo, é mais
+perigoso do que dívida.** A dívida você sabe que precisa cuidar. O dinheiro
+parado parece que está esperando uma ideia.
+
+### A frase que me fez perder o juízo
+
+Um amigo de infância me apresentou um sujeito. E esse sujeito me disse uma
+frase que eu repeti para mim mesmo por semanas:
+
+**"A margem de lucratividade de autopeças é de trezentos por cento."**
+
+Eu fiquei louco. Fiz a conta mais burra da minha vida, e fiz com a
+tranquilidade de quem está sendo racional: se dá trezentos por cento, eu
+invisto trezentos mil e em um ano eu tenho um milhão.
+
+Era início de 2010. Eu já estava pensando em sair da operadora, e, como
+sempre, não conseguia ficar sem empreender.
+
+O sujeito dizia ter a experiência e os clientes. Dizia ter os fornecedores
+também, e os principais eram **da família da esposa dele**: tios dela,
+distribuidores de peças para carros importados.
+
+A divisão era clara. **Eu entrava com o dinheiro. Ele entrava com a
+experiência e a carteira.**
+
+### O estoque que eu paguei sem ver
+
+Ele fez os pedidos junto aos tios. Eu fiz os pagamentos.
+
+Entrou muita peça. Na minha avaliação, mais de um milhão de reais em peça.
+Eu olhava aquele estoque e via o meu milhão materializado, exatamente como na
+conta que eu tinha feito.
+
+Montamos a loja. Eu fiquei no financeiro, que era o que eu sabia fazer. Ele e
+o irmão ficaram em vendas e na organização.
+
+**Primeiro mês: não vendeu uma peça daquelas.** Nenhuma.
+
+O que vendia era peça que a gente pegava com distribuidor aqui de Belo
+Horizonte para pagar em trinta dias. Ou seja: a loja operava com estoque de
+terceiro enquanto o meu estoque próprio ficava parado na prateleira.
+
+E o que entrava não pagava as contas, porque ele precisava de cinco mil reais
+de salário por mês, que era o que ele ganhava na loja onde trabalhava antes.
+
+### O que realmente tinha acontecido
+
+Levei meses para entender, e quando entendi foi simples demais.
+
+**Ele tinha comprado, à vista e com o meu dinheiro, todo o estoque encalhado
+dos tios da esposa.** Peça que não vendia. Peça sem giro. Peça que estava
+parada naquele depósito havia anos e que, para aqueles distribuidores, era
+prejuízo pendurado.
+
+Eles transformaram prejuízo em dinheiro vivo numa única operação. **E ele foi
+bem comissionado por isso.**
+
+Eu paguei caro por um estoque que já tinha sido descartado por quem entendia
+do ramo. A margem de trezentos por cento existia, e não era minha: foi
+realizada pelos tios, na venda para mim.
+
+### A saída dele
+
+Quando a coisa ficou evidente, ele quis sair da sociedade. E, para sair,
+exigiu **cinquenta por cento das peças**, alegando que tinha metade da
+sociedade.
+
+Metade de um estoque que tinha sido comprado inteiramente com o meu dinheiro.
+
+Consegui encerrar com ele. Fiquei com o prejuízo inteiro.
+
+### Eu voltei a ser motoboy, na minha própria loja
+
+Aqui a história fica engraçada, e eu rio dela hoje.
+
+Eu não entendia nada de autopeças. Não sabia o nome das coisas, não sabia o
+que servia em que carro. Mas eu sabia uma coisa muito bem: andar de moto e
+atender gente.
+
+Então eu peguei a moto do motoboy da loja e passei a fazer as entregas eu
+mesmo.
+
+As oficinas começaram a me elogiar. Mais de uma vez eu ouvi, de mecânico, a
+mesma frase:
+
+**"Avisa o seu patrão que eu só quero você fazendo as entregas. Você é
+rápido e atende bem."**
+
+E eu respondia: eu sou o dono.
+
+Eles riam. Achavam que era brincadeira de motoboy.
+
+Vinte anos depois de alugar a minha primeira moto num expresso, eu estava de
+novo em cima de uma, entregando peça, para salvar o que dava da empresa que
+eu tinha comprado com a indenização de uma década de trabalho.
+
+### A informação que faltava, e que custou tudo
+
+Tempos depois eu descobri a verdade sobre o meu sócio.
+
+Ele nunca tinha sido vendedor. Nunca tinha sido gerente de loja.
+
+**Ele era um motoboy que cobria as férias dos vendedores.**
+
+Eu invisto trezentos mil reais com um homem porque ele tinha experiência e
+carteira de clientes, e ele não tinha nem uma coisa nem outra. Essa
+informação estava disponível. Bastava uma ligação para a loja onde ele
+trabalhava, ou uma conversa com dois clientes dele.
+
+Eu não fiz nenhuma das duas.
+
+E repare na ironia, que eu só enxerguei escrevendo este capítulo: o motoboy
+de verdade da história era eu. Eu é que sabia fazer entrega. Ele tinha
+vendido um currículo que era o meu.
+
+### As quatro verificações que eu não fiz
+
+Essa queda tem um diagnóstico limpo, e ele cabe em quatro linhas.
+
+**Eu não verifiquei a pessoa.** Uma ligação. Dois clientes. Vinte minutos.
+
+**Eu não verifiquei o número.** Trezentos por cento de margem em distribuição
+de peça deveria ter me feito perguntar: se é tão bom assim, por que esse
+sujeito trabalha de assalariado e precisa do meu dinheiro? Margem muito acima
+do mercado é um sinal, e o sinal aponta para o que você não está vendo.
+
+**Eu não verifiquei o estoque.** Eu paguei peça sem conferir giro. Em
+distribuição, estoque sem giro tem cara de patrimônio e se comporta como
+custo.
+
+**E eu não verifiquei o conflito de interesse.** Os fornecedores eram
+parentes do meu sócio, e ele era comissionado pela compra. Essa frase, sozinha,
+já contava o final da história, e eu a ouvi sem escutar.
+
+### O que sobrou
+
+As peças se perderam ao longo do tempo. Eu não consegui aproveitar quase
+nada.
+
+Até hoje eu tenho algumas delas no quintal de casa.
+
+Eu podia ter jogado fora faz tempo. Não joguei, e acho que sei por quê.
+Enquanto estiverem lá, toda vez que eu falar de trezentos por cento de
+margem com um empresário animado, eu lembro.
+
+> **Sacada do Giba**
+> Quando alguém te apresentar um negócio com margem muito acima do que o
+> mercado pratica, faça uma pergunta só, e faça olhando no olho: se é tão
+> bom assim, por que você precisa do meu dinheiro? A resposta não vai estar
+> nas palavras. Vai estar nos três segundos antes delas.
+
 ## A academia: o contrato que eu não li
 
 Essa é a mais longa e a mais recente. A moral dela é a mesma da primeira,
@@ -484,9 +646,10 @@ Olhe de novo, lado a lado.
 | Expresso | do expresso onde eu rodava | não |
 | PrestConsult | de um cliente único | não |
 | PABX | dos técnicos que eram a minha cara | não |
+| Senas Car | da palavra de um sócio que eu nunca verifiquei | não |
 | Academia | do sócio, do comprador e do advogado do outro lado | não |
 
-Seis situações, décadas diferentes da minha vida, tamanhos diferentes. **O
+Sete situações, décadas diferentes da minha vida, tamanhos diferentes. **O
 mesmo erro estrutural: eu construí em cima de alguém que eu não controlava.**
 
 E em todas elas estava tudo bem no dia anterior.
@@ -497,7 +660,7 @@ existe, e contrato que você não leu é um combinado de boca com mais
 páginas.** Entre uma e outra passaram vinte anos, e eu paguei duas vezes pela
 mesma aula.
 
-Demorei três quedas para enxergar o padrão e seis para transformá-lo em
+Demorei três quedas para enxergar o padrão e sete para transformá-lo em
 regra. É
 a regra que eu uso até hoje, e é a que explica, neste livro, por que eu não
 entrei na empresa do meu amigo: **não se entra numa casa para arrumá-la sem
@@ -563,20 +726,42 @@ ajuda.
 
 Eu não teria ouvido. Quase ninguém ouve. Por isso eu escrevo.
 
-## As outras três
+## As sete, e nenhuma a mais
 
-Eu disse sete e contei seis.
+Eu disse sete e contei sete.
 
-`[FALTA]` — *A sétima queda. O Gilberto ainda não as contou. Se
-envolverem pessoa viva e identificável, vale decidir junto se entram, como
-entraram estas, sem nome.*
+Não guardei nenhuma para parecer melhor. Se eu tivesse quebrado oito vezes,
+estaria aqui a oitava, porque o valor deste capítulo está justamente em ele
+estar completo.
+
+E eu preciso dizer uma última coisa sobre contar isso.
+
+Durante muitos anos eu escondi essas histórias. Falava do Grupo Sena, dos
+cinco escritórios, da pós-graduação, e passava por cima do resto. Achava que
+a minha autoridade vinha do que tinha dado certo.
+
+Hoje eu penso o contrário. **A minha autoridade vem de ter pagado sete vezes
+pela mesma aula e de ter, na sétima, finalmente aprendido.** Qualquer um
+consegue construir uma empresa com sorte. Construir depois de sete quedas
+exige ter entendido o que derruba.
+
+É por isso que eu posso sentar com o dono de uma empresa que está indo ao
+chão e dizer, olhando no olho, que tem jeito. Eu não li isso. Eu levantei
+sete vezes.
 
 ---
 
 ## Notas de redação
 
-**A do carrinho e a da academia foram contadas por ele em 09/out/2026** e está registrada
+**As sete estão contadas.** A do carrinho, a da Senas Car e a da academia
+foram contadas por ele em 09/out/2026 e está registrada
 inteira, com nomes, em `_memoria/quem-e-gilberto.md`.
+
+⚠ **A Senas Car é a mais forte do conjunto** e a que eu mais recomendaria
+destacar em divulgação: tem número redondo, tem a frase dos trezentos por
+cento, tem a virada do sócio que era motoboy e tem a imagem final das peças
+no quintal. **"Senas Car" é marca dele e ficou nomeada**; o sócio, o irmão, o
+amigo de infância e o motoboy da loja ficaram sem nome.
 
 ⚠ **A do carrinho mudou a espinha do capítulo.** Ela e a da academia têm a
 mesma moral, separadas por vinte anos, e por isso ficaram nas duas pontas.
@@ -644,4 +829,12 @@ vez de ter criado o problema. A lista das cinco coisas que ele faz hoje antes
 de assinar, montada a partir do que existe nos contratos que ele usa, entre
 eles o termo da SBS com a cláusula de não contorno.
 
-**Tamanho.** Medir com `formatar-capitulo.py`. Alvo de 10 a 12 páginas.
+⚠ **O capítulo passou de 14 páginas**, contra a norma de 10 em média. Com as
+sete quedas contadas, ele é o mais longo da parte dele, e com razão: é a
+espinha. **Duas saídas possíveis**, e a escolha é dele: aceitar que este
+capítulo seja maior que os outros, ou partir em dois, com as quatro
+primeiras num e a Senas Car e a academia noutro, já que essas duas são as
+mais longas e têm moral própria. Eu aceitaria o tamanho: quebrar a série
+enfraquece a tabela do padrão, que é o que dá sentido a tudo.
+
+**Tamanho.** 14 páginas. Medir com `formatar-capitulo.py`.
