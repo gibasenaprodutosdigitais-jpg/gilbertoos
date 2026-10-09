@@ -2,7 +2,8 @@
 
 > **Primeira versão**, escrita em 09/out/2026 a partir do que o Gilberto
 > contou e do que já estava registrado em `_memoria/quem-e-gilberto.md`.
-> Os pontos marcados com `[FALTA]` são as partes que só ele pode preencher.
+> **Todas as lacunas foram preenchidas por ele em 09/out/2026.** Restou um
+> número para conferir, marcado nas notas do fim.
 
 ---
 
@@ -132,9 +133,78 @@ E foi ali que ficou claro o que eu diria anos depois: **eu já resolvia o
 problema das empresas sendo funcionário de multinacional. Em algum momento ia
 resolver esses mesmos problemas através da minha própria empresa.**
 
-`[FALTA]` — *Aqui entra um episódio concreto de dentro de uma das três: um
-cliente, uma negociação, um problema que ele resolveu e que mostra o método
-nascendo. É o que transforma este trecho de currículo em capítulo.*
+### Número um do Brasil, dois anos seguidos
+
+Na Embratel eu fui, por dois anos consecutivos, o número um do Brasil em
+resultado.
+
+Não vou dizer que foi talento. Foi que eu não parava nunca.
+
+A estratégia cabia numa linha: **quatro visitas por dia, todos os dias,
+durante o primeiro trimestre.** Sem exceção, sem semana fraca, sem
+justificativa.
+
+Nos primeiros três meses aquilo parece trabalho jogado fora. Você visita,
+visita, visita e não fecha nada. O colega do lado está fechando dois
+contratos e você está apertando mão. Dá vontade de mudar de método toda
+sexta-feira.
+
+Mas visita não é venda. Visita é plantio. Passado aquele trimestre, o negócio
+começou a acontecer com frequência, e nunca mais parou. Não porque eu tinha
+ficado melhor de conversa. Porque o volume que eu tinha plantado começou a
+vencer, todo mês, sozinho.
+
+Chegou um ponto em que os meus próprios superiores me procuravam para pedir
+ajuda a bater a meta da regional. O número um do Brasil virou o sujeito que
+empenhava contrato novo para fechar a conta dos outros.
+
+E foi ali, sem eu perceber, que eu comecei a fazer o que faço hoje: **resolver
+o problema da empresa dos outros.**
+
+> **Sacada do Giba**
+> Todo método de prospecção parece burrice no primeiro trimestre. É por isso
+> que quase ninguém chega no segundo. O que separa quem colhe de quem desiste
+> raramente é a qualidade do método. É a disposição de executar um método
+> mediano por noventa dias, em vez de trocar de método bom toda semana.
+
+### O detalhe que ninguém espera do número um
+
+O meu salário fixo na carteira era de **mil quatrocentos e vinte e oito reais
+e noventa e três centavos.** O resto era variável.
+
+E teve época de eu ter **cinquenta mil reais em comissão de contrato na mão,
+prontos para entrar.** Eu não entrava.
+
+Eu entrava com o que me gerasse **dez mil reais de receita no mês.** Para
+aquela época, um salário excelente. O resto ficava esperando a vez.
+
+Quem nunca perdeu tudo acha isso exagero. Quem já perdeu entende na hora:
+**pico de receita não é riqueza. Riqueza é receita que se repete.**
+
+Como eu mantinha o padrão de visitas e de captação, o meu portfólio de
+contratos fechados era quase infinito. Eu andava com **no mínimo quatro meses
+de receita já conquistada na frente.** Se eu parasse de vender naquele dia, eu
+tinha quatro meses garantidos.
+
+Isso não tem nome de vendedor. Isso é gestão de caixa aplicada ao próprio
+salário. Eu fiz comigo, dentro de uma multinacional, exatamente o que eu
+passaria a vida ensinando empresa a fazer: **tirar o solavanco da receita,
+formar reserva e nunca depender de um pico.**
+
+E a frase que eu repito até hoje nasceu ali: eu me acostumei a viver com
+**liberdade financeira, não com ganância financeira.** São duas coisas
+diferentes, e a maioria das pessoas que eu atendo hoje busca a segunda
+achando que está buscando a primeira.
+
+Anos depois eu escrevi um livro sobre gestão e o primeiro capítulo é sobre
+Gestão de Si, que trata de tempo, de energia e de recursos antes de tratar de
+dinheiro. Muita gente estranha que um livro de gestão empresarial comece
+olhando para dentro. Começa porque foi assim que eu aprendi, de crachá no
+peito, com mil e quatrocentos reais de fixo e cinquenta mil na gaveta
+esperando a vez de entrar.
+
+No começo é difícil. Mas quem não para nunca chega num ponto em que aquilo
+deixa de ser esforço e vira orgânico. O método passa a trabalhar por você.
 
 > **Sacada do Giba**
 > Voltar a ser empregado depois de ter sido dono é pesquisa de campo paga,
@@ -387,6 +457,19 @@ com desfecho e a entrada como gerente nível três vieram dele, e estão em
 Direito, a irmã contadora, os cinco escritórios e a leva de estudo de 2020 já
 estavam registrados antes.
 
+**O episódio da Embratel, contado por ele em 09/out/2026.** Número um do
+Brasil em resultado por dois anos seguidos, quatro visitas por dia no
+primeiro trimestre, fixo de R$ 1.428,93 na carteira, R$ 50.000 de comissão em
+contrato na mão e a disciplina de só entrar com o que gerasse R$ 10.000 de
+receita mensal, mantendo no mínimo quatro meses de receita já conquistada na
+frente. Mais a frase: liberdade financeira, não ganância financeira.
+
+⚠ **Um número para ele conferir.** Ele disse "4 visitas dia, 20 visitas mês".
+Quatro por dia dá vinte por **semana** e cerca de oitenta por mês. Escrevi só
+"quatro visitas por dia, todos os dias", que é a parte que não tem dúvida. Se
+o certo for vinte por semana, o trecho ganha o número; se for vinte por mês,
+a conta das quatro por dia muda.
+
 **O que eu acrescentei, e ele precisa aprovar.** A leitura de que as três
 quebras são o mesmo erro estrutural é minha, montada em cima dos fatos que
 ele contou. Se ele enxergar o padrão de outro jeito, o capítulo muda de
@@ -416,6 +499,12 @@ contra o logotipo da própria empresa antes de fechar capa.
 **O assalto quando ele era motoboy** continua de fora. Está marcado como
 sensível e ele ainda não se pronunciou.
 
-**Tamanho.** Cerca de 2.400 palavras de texto corrido. Um capítulo de livro
-de 200 páginas pede entre duas e três vezes isso. O que falta para chegar lá
-são as partes marcadas `[FALTA]`.
+**Tamanho.** Cerca de 3.200 palavras de texto corrido, perto de quatorze
+páginas. Um capítulo de livro de 200 páginas costuma pedir entre quinze e
+vinte e cinco, então este já está no tamanho de um capítulo de verdade.
+
+**Daqui para a frente o trabalho muda de natureza:** não falta mais matéria
+bruta, falta lapidação. Ler em voz alta, cortar o que repete, decidir se as
+quatro Sacadas do Giba ficam todas, e combinar com o Bittar onde este
+capítulo encosta no dele para as vozes não contarem a mesma coisa duas
+vezes.

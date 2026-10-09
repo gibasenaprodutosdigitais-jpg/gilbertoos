@@ -226,6 +226,26 @@ livro `O Médico e o Executivo`):
 PABX em 2003-2008. A do PABX foi a única amortecida por um salário, porque
 ele era executivo da Embratel na mesma época.
 
+**O episódio da Embratel (contado por ele em 09/out/2026) — material de
+primeira para conteúdo:** foi **número um do Brasil em resultado por dois
+anos consecutivos**. O método: **quatro visitas por dia durante o primeiro
+trimestre**, sem exceção, até o volume plantado começar a vencer sozinho. Os
+superiores passaram a pedir ajuda a ele para bater a meta da regional.
+
+O detalhe que vale mais que o prêmio: o **fixo na carteira era R$ 1.428,93**;
+ele chegava a ter **R$ 50.000 em comissão de contrato na mão e não entrava
+com tudo** — entrava só com o que gerasse **R$ 10.000 de receita no mês**,
+mantendo **no mínimo quatro meses de receita já conquistada na frente**. Nas
+palavras dele: *"me acostumei a viver com liberdade financeira, não com a
+ganância financeira"* e *"no início é difícil, mas se você não para nunca
+isso se torna natural, de forma orgânica"*.
+
+É a origem prática do **1G, Gestão de Si**: ele aplicou ao próprio salário o
+que depois passou a ensinar empresa a fazer com a receita.
+
+⚠ Ele disse "4 visitas dia, 20 visitas mês". Quatro por dia dá vinte por
+semana. Conferir com ele antes de usar o número 20 em peça.
+
 **O padrão que atravessa as três:** em todas, o negócio dependia de um
 terceiro que ele não controlava — o expresso, os técnicos que eram a cara da
 empresa diante do cliente, e o cliente único. **É a mesma regra que ele hoje
