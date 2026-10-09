@@ -29,7 +29,7 @@ DOCUMENTOS = {
         "entrada": "cesta-de-produtos.md",
         "html": "cesta-de-produtos.html",
         "pdf": "SBS - Cesta de produtos.pdf",
-        "titulo": 'Cesta de produtos<br><span class="produto">o ano em três etapas</span>',
+        "titulo": 'Cesta de produtos<br><span class="produto">três etapas, três faixas</span>',
         "quem": "Sugestão para análise dos sócios",
     },
     "continuidade": {
