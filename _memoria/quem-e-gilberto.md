@@ -222,8 +222,43 @@ livro `O Médico e o Executivo`):
    deixando um passivo trabalhista grande. **Vendeu tudo o que tinha
    conquistado para pagar todos os funcionários** e voltou ao zero.
 
-**Ordem certa das três:** Super Boy nos anos 90, PrestConsult em 1999-2000,
-PABX em 2003-2008. A do PABX foi a única amortecida por um salário, porque
+4. **A academia, de 2012 a 2014** (contada por ele em 09/out/2026). Entrou
+   como sócio na **Esporte Club**, com um conhecido do tempo da **Sumerr
+   Academia de Ginástica Aquática**. O sócio, **Fred**, estava com
+   dificuldade de gestão e financeira deixada pela antiga sócia; Gilberto
+   entrou com o suporte de gestão e financeiro. Fred cuidava do operacional,
+   Gilberto das contas e dos pagamentos.
+
+   Em 2014, por desespero e falta de paciência do sócio, puseram à venda.
+   Fred achou um interessado em **arrendar com proposta de compra**, e o
+   contrato foi redigido por **uma advogada amiga do Fred**. Gilberto, nas
+   palavras dele, "não tinha o conhecimento" e **simplesmente aceitou**. O
+   arrendamento correu bem por três meses e virou compra e venda, pela mesma
+   advogada.
+
+   Nesse meio-tempo Fred largou o empreendimento e foi prestar serviço em
+   outras empresas. **O comprador aproveitou a inércia e parou de pagar** as
+   despesas e as parcelas. A garantia era um apartamento **da mãe do
+   comprador, alienado à Caixa e financiado**, ou seja, não executável.
+   Partiram para a ação judicial e, **num fim de semana, o comprador
+   desmontou a academia inteira e sumiu com equipamento e mobiliário**,
+   deixando aluguel, condomínio e contratos bancários em aberto. Os contratos
+   do imóvel tinham sido substituídos por garantias e avalistas dele, e
+   **mesmo assim os dois foram acionados como devedores**.
+
+   **A lição, nas palavras dele:** *"confiar no contrato sem analisar é um dos
+   maiores riscos jurídicos hoje, e principalmente sobre acordo de sócios,
+   algo que na prática é um copia e cola"*. Foi quebra por **falta de direção
+   e de assessoria jurídica**.
+
+   ⚠ **Nomes:** Esporte Club, Sumerr e Fred são reais e identificáveis, e o
+   comprador seria acusado publicamente de esvaziar a academia. **Nunca usar
+   nome nenhum dessa história em livro, post ou peça comercial.** No livro ela
+   está escrita sem identificação, em
+   `livro-o-medico-e-o-executivo/capitulos/as-sete-quedas.md`.
+
+**Ordem certa das quatro conhecidas:** Super Boy nos anos 90, PrestConsult em
+1999-2000, PABX em 2003-2008, academia em 2012-2014. A do PABX foi a única amortecida por um salário, porque
 ele era executivo da Embratel na mesma época.
 
 **O episódio da Embratel (contado por ele em 09/out/2026) — material de
