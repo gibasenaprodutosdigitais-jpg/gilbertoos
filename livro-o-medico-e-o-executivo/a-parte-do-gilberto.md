@@ -39,7 +39,7 @@ outro jeito.
 Três consequências práticas:
 
 1. **O capítulo 6 não exige framework novo.** Ele já publicou o dele. O que
-   fará é aplicar os 5 G's à Staley's Hair, usando o vocabulário das três
+   fará é aplicar os 5 G's à Stanley's Hair, usando o vocabulário das três
    saúdes porque é o que o livro combinou.
 2. **A espinha analítica do livro é IP anterior dele.** Isso pesa na conversa
    de coautoria, e é bom que esteja escrito antes de qualquer contrato.
@@ -59,9 +59,13 @@ os 8 anos, a separação, a mãe faxineira, servente de pedreiro, camelô,
 motoboy, carrinho de cachorro-quente, telefonia. A frase dele: *"Fui forjado
 pelos momentos que passei."*
 
-**O que falta, e só ele responde:**
+**Respondido em 09/out/2026:** **Telemar/Oi, 2000 a 2003. Embratel, 2003 a
+2008. Telefônica, 2008 a 2010.** Dez anos seguidos dentro de três operadoras.
 
-- **Quais são as três multinacionais de telefonia?** Nome, cargo e período.
+**O que ainda falta:**
+
+- Um episódio concreto de dentro de uma das três. Um cliente, uma negociação,
+  um problema resolvido. É o que tira o capítulo do currículo.
 - O que ele fazia lá que virou o método do Grupo Sena. Na matéria da Empreenda
   ele diz: *"Como já resolvia os problemas das empresas sendo funcionário de
   multinacionais, passei a resolver esses problemas através da minha própria
@@ -91,7 +95,7 @@ caso real dele e descreve exatamente o que acontece antes de um colapso:
 E duas máximas dele que são capítulo inteiro sozinhas: **"dinheiro não é pó,
 é semente"** e **"ninguém cresce amputado"**.
 
-**O que falta:** quais desses sinais ele viu de fato na Staley's Hair, e
+**O que falta:** quais desses sinais ele viu de fato na Stanley's Hair, e
 quando. Essa lista é do caso dele com outra empresa. Aplicar à Staley's sem
 ele confirmar seria inventar.
 
@@ -101,7 +105,7 @@ ele confirmar seria inventar.
 
 **É o capítulo dele.** E é o mais delicado do livro inteiro.
 
-**O que precisa fazer:** aplicar as três saúdes à Staley's Hair, mostrar o que
+**O que precisa fazer:** aplicar as três saúdes à Stanley's Hair, mostrar o que
 cada dimensão exigia naquele momento, e explicar por que ele não pôde
 participar.
 
@@ -145,14 +149,21 @@ Do mesmo fichamento, o método, que é dele:
   para a entrada do passivo tributário. *"Hoje é contra isso que eu luto, não
   precisa ninguém fazer isso, tem jeito, tem solução."*
 
-**O que falta:**
+**Respondido em 09/out/2026, e o capítulo já está escrito** em
+`capitulos/07-do-zero-ao-grupo-sena.md`, primeira versão:
 
-- Autorização para usar o episódio do cliente. Está marcado como sensível em
-  `_memoria/quem-e-gilberto.md`. Num livro, o peso é diferente de um post.
-- **As sete falências.** Ele já quebrou sete vezes. O sistema tem o número,
-  não tem as histórias.
-- A sociedade com a academia que não deu certo, ligada à lição de parar de
-  terceirizar o próprio core. Essa história cabe aqui com precisão cirúrgica.
+- **Três das sete falências**, com desfecho: o Expresso Super Boy nos anos 90,
+  a empresa de instalação de PABX e a PrestConsult.
+- **O episódio do empresário**, com nome: Sr. Elmo, da Elmo Calçados, em
+  Minas Gerais. Escrito sem identificação no corpo do capítulo, pelos motivos
+  que estão nas notas de lá.
+
+**O que ainda falta:**
+
+- A decisão sobre identificar o Sr. Elmo no livro publicado.
+- O assalto de quando era motoboy, que continua marcado como sensível.
+- As outras quatro falências, entre elas a sociedade com a academia, ligada à
+  lição de parar de terceirizar o próprio core.
 
 ---
 
@@ -193,7 +204,7 @@ alguém de fora opinando sobre o que não viveu.
 Escrito de outro jeito, é a tese do livro: ele estava perto, tinha a
 competência, e ainda assim não entrou, porque **ninguém entra numa casa para
 arrumá-la sem controle real.** Essa é a regra número um do método dele. A
-Staley's Hair vira prova da regra, não alvo dela.
+Stanley's Hair vira prova da regra, não alvo dela.
 
 Minha sugestão: o capítulo 6 começa reconhecendo o limite, não a razão. *Eu
 vi, e não entrei. E vou te explicar por que não entrar era a decisão certa,
@@ -227,5 +238,5 @@ o que tem mais material pronto.
 1. As três multinacionais de telefonia: nomes, cargos, período.
 2. As sete falências entram no livro? Se sim, me conta duas ou três.
 3. O episódio do cliente que tirou a própria vida entra?
-4. O que ele viu de fato na Staley's Hair, e em que momento.
+4. O que ele viu de fato na Stanley's Hair, e em que momento.
 5. Staley ou Stanley.

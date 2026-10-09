@@ -1,6 +1,6 @@
 # O Médico e o Executivo
 
-**Livro em coautoria.** Dr. Staley Bittar e Gilberto Sena.
+**Livro em coautoria.** Dr. Stanley Bittar e Gilberto Sena.
 Escopo recebido e registrado em 09/out/2026.
 
 > **O nome do livro é ideia do Gilberto.** Registrado aqui na data em que ele
@@ -12,7 +12,7 @@ Escopo recebido e registrado em 09/out/2026.
 ## O que é
 
 O Dr. Bittar, cirurgião plástico, construiu o maior ecossistema de
-transplante capilar da América Latina. A Staley's Hair chegou a faturar mais
+transplante capilar da América Latina. A Stanley's Hair chegou a faturar mais
 de R$ 250 milhões em um ano, e quebrou. O Gilberto acompanhou de perto, como
 amigo, sem poder atuar como executivo na empresa.
 
@@ -44,7 +44,7 @@ empresa.
 | **Espiritual** | propósito, valores, sentido | identidade: missão, valores, propósito do negócio |
 
 Uma pessoa pode parecer forte por fora e estar adoecendo por dentro. Uma
-empresa pode faturar milhões e estar à beira do colapso. A Staley's Hair é o
+empresa pode faturar milhões e estar à beira do colapso. A Stanley's Hair é o
 estudo de caso.
 
 **Este eixo é território do Gilberto.** Ver `a-parte-do-gilberto.md`, onde ele
@@ -87,16 +87,21 @@ que é o formato do livro.
 
 ## Pendências que precisam da palavra dele
 
-1. **Staley ou Stanley?** O escopo escreve "Dr. Staley Bittar", e a empresa é
-   "Staley's Hair". Os documentos da SBS neste repositório dizem **Stanley
-   Bittar**. Um dos dois está errado, e isso aparece em capa de livro e em
-   contrato. Conferir e corrigir onde estiver errado.
-2. **As três multinacionais de telefonia.** O capítulo 1 é sobre isso e o
-   sistema não tem os nomes, os cargos nem o período. Só ele tem.
-3. **O que da história pessoal entra.** Três episódios fortes estão fichados
-   em `_memoria/quem-e-gilberto.md` com ressalva de confirmar antes de usar:
-   as sete falências, o assalto quando era motoboy e o cliente que tirou a
-   própria vida por dívida empresarial. Em livro, o peso é outro.
+1. ~~Staley ou Stanley?~~ **Resolvido em 09/out/2026: é Stanley.** O escopo
+   recebido escreve "Staley" do começo ao fim, então **o escopo está errado e
+   precisa ser corrigido na fonte** antes de ir para editora. Os documentos da
+   SBS deste repositório já estavam certos. Falta uma confirmação menor: a
+   marca da empresa se escreve "Stanley's Hair", ou a marca de fato dropava o
+   N? Em capa de livro isso aparece.
+2. ~~As três multinacionais de telefonia.~~ **Respondido em 09/out/2026:**
+   Telemar/Oi (2000-2003), Embratel (2003-2008) e Telefônica (2008-2010).
+   Falta um episódio concreto de dentro de uma delas para o capítulo 1.
+3. **O que da história pessoal entra.** Em 09/out/2026 ele liberou **três das
+   sete falências** (Super Boy, PABX e PrestConsult) e **o episódio do
+   empresário**, com nome: Sr. Elmo, da Elmo Calçados, em Minas Gerais.
+   Continua em aberto o assalto de quando era motoboy, e a decisão sobre
+   identificar ou não o Sr. Elmo no livro publicado. Ver as notas do
+   capítulo 7.
 4. **Acordo de coautoria.** Já existe precedente no repositório, em
    `saidas/contrato-livro-janguie-2026-09-16/`. O título ser ideia dele é
    argumento de mesa, e o registro está no topo deste arquivo.

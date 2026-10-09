@@ -159,16 +159,32 @@ antigo patrão daquela época.
 **O momento que definiu a missão dele:** um empresário, cliente dele
 (fazia cobrança pra ele), tirou a própria vida na própria sala, com um tiro
 na cabeça, por dívida empresarial — tinha R$1 milhão em espécie na mesa, que
-não dava nem pra entrada do passivo tributário. "hoje é contra isso que eu
+não dava nem pra entrada do passivo tributário.
+
+> **Quem era (confirmado por ele em 09/out/2026):** o **Sr. Elmo, dono da
+> Elmo Calçados**, rede conhecida em **Minas Gerais**. Nas palavras dele:
+> "por motivos financeiros e sem uma direção". ⚠ **É pessoa real,
+> identificável, e a marca existe.** Nunca usar o nome em conteúdo público,
+> em peça comercial nem em livro sem a palavra escrita da família. A história
+> funciona inteira sem identificar, e identificar não se desfaz depois de
+> publicado. Também não descrever o modo da morte: não acrescenta nada e
+> contraria toda diretriz séria sobre o assunto. Ele liberou a história para
+> o livro `O Médico e o Executivo`, onde está escrita sem o nome em
+> `livro-o-medico-e-o-executivo/capitulos/07-do-zero-ao-grupo-sena.md`. "hoje é contra isso que eu
 luto, não precisa ninguém fazer isso, tem jeito, tem solução! Eu aprendi
 muito com esse empresário, principalmente sobre como valorizar o ser
 humano." — **esse é o motor real por trás do trabalho tributário/gestão
 dele**, não é só técnica.
 
+**A carreira nas multinacionais de telefonia (confirmado por ele em
+09/out/2026):** **Telemar/Oi, 2000 a 2003** · **Embratel, 2003 a 2008** ·
+**Telefônica, 2008 a 2010**. Dez anos seguidos dentro de três operadoras. É o
+material do capítulo 1 do livro `O Médico e o Executivo`.
+
 **Fundação do Grupo Sena:** "Como já resolvia os problemas das empresas
 sendo funcionário de multinacionais, passei a resolver esses problemas
 através da minha própria empresa" — Grupo Sena Soluções Empresariais nasceu
-em 2010, quando ele saiu de uma **operadora de telefonia**. Foi então que
+em 2010, quando ele saiu da **Telefônica**. Foi então que
 decidiu voltar a estudar: **se formou em Direito**, e a **irmã dele se
 formou em Contabilidade** — juntos começaram a agregar mais valor ao que
 construíam. "O resultado desse investimento é que hoje temos o maior ciclo
@@ -179,6 +195,42 @@ de soluções empresariais do país." (Fonte: livro `5gs-gestao-empreendedora`.)
 aprendizado." Revelação forte, ainda não usada em conteúdo — ótimo gancho de
 vulnerabilidade real, mas confirmar com ele antes de expor números/detalhes
 específicos de qual negócio quebrou.
+
+**Três delas, contadas por ele em 09/out/2026** (nas palavras dele, para o
+livro `O Médico e o Executivo`):
+
+1. **O Expresso Super Boy, anos 90.** Intraempreendedorismo dentro do
+   expresso de motoboy onde trabalhava. Alugou a moto para rodar; depois
+   comprou uma e alugou a que estava alugada; comprou a terceira e ficou com
+   duas alugadas; como o trabalho era árduo, alugou também a terceira e
+   passou a gestor, rodando só nas folgas dos motoqueiros que alugavam dele.
+   **O expresso Super Boy quebrou e levou o negócio dele junto**, porque
+   dependia do expresso para existir.
+2. **A empresa de instalação de PABX.** Já no ramo de telefonia, comprou uma
+   carteira de clientes. **Os técnicos eram terceirizados, não funcionários.
+   Assediaram os clientes com preço mais baixo e houve debandada em massa.**
+3. **A PrestConsult**, no período em que era terceirizado da Telefônica.
+   Tinha 20 consultores no mercado sob a gestão dele. Depois de uma convenção
+   em que as premiações dobrariam, **contratou mais 20 consultores**. Três
+   meses depois **a Telefônica encerrou a operação fora de São Paulo**,
+   deixando um passivo trabalhista grande. **Vendeu tudo o que tinha
+   conquistado para pagar todos os funcionários** e voltou ao zero.
+
+**O padrão que atravessa as três:** em todas, o negócio dependia de um
+terceiro que ele não controlava — o expresso, os técnicos que eram a cara da
+empresa diante do cliente, e o cliente único. **É a mesma regra que ele hoje
+põe como condição de entrada em turnaround: não entrar sem controle real.**
+A regra não é teoria, foi paga três vezes.
+
+Dois desdobramentos diretos disso no trabalho de hoje:
+
+- A **cláusula de não contorno de 24 meses** do termo da SBS
+  (`sbs/juridico/termo-de-compromisso-sbs.md`) é a cicatriz do PABX.
+- A lição de **parar de terceirizar o próprio core** (que já aparecia ligada
+  à sociedade com a academia) tem no PABX o caso mais claro.
+
+A terceira quebra também diz quem ele é: podia ter deixado o passivo
+trabalhista para trás e **vendeu o que tinha para pagar todo mundo**.
 
 **Família:** casado com **Érica** — "nossa sintonia e sinergia é coisa de
 Deus". História do casamento: pintou um barracão no quintal da mãe pra
