@@ -59,9 +59,8 @@ Na fábrica, o gerente da linha de produção era chamado de REPO. Todo dia, no
 caminho do almoço, eu passava na frente da sala dele.
 
 Não era estratégia consciente no começo. Virou. Porque uma noite eu passei e
-vi, afixado ali, um aviso: **precisa-se de soldador MIG.**
-
-Eu não sabia nem o que era aquilo.
+vi, afixado ali, um aviso: **precisa-se de soldador MIG.** Eu não sabia nem o
+que era aquilo.
 
 Mas eu vi. E eu vi porque eu passava ali todo dia. **Oportunidade não aparece
 para quem está esperando. Aparece para quem está passando.** A maior parte
@@ -199,6 +198,113 @@ melhor do que eu jamais soldei. Era que ninguém tinha passado na frente
 daquela sala no dia do aviso, ou visto, ou se mexido. **Antiguidade não é
 projeto de carreira.** É só tempo.
 
+## E como eu saí de lá
+
+Essa é a parte da história que eu nunca contei em roda de amigo, porque não
+tem graça nenhuma.
+
+### O sonho seguinte
+
+Fazendo dois anos de casa, eu já estava de olho na promoção seguinte: **piloto
+de teste.**
+
+Para quem é de fora, isso soa como curiosidade. Para quem estava lá dentro,
+era o suprassumo. O piloto de teste trabalhava limpo, de segunda a sexta, em
+horário comercial. O salário era o dobro. E ele passava o dia pilotando
+Tempra Turbo e Uno 1.5R dentro da pista.
+
+Eu tinha vindo do terceiro turno fazia pouco mais de um ano. Imagine o que
+aquilo representava.
+
+### Como se entrava na Fiat naquela época
+
+Preciso explicar uma coisa sobre a contratação, porque sem ela o que vem
+depois não faz sentido.
+
+Naquela época a fábrica **só contratava por carta de recomendação.** E não
+parava aí: era feita uma **auditoria com a família e com a vizinhança** do
+candidato, para saber sobre a índole e o caráter dele.
+
+Não era burocracia. Era política. A conduta do funcionário tinha que ser
+ilibada **inclusive fora da fábrica.** Nome sujo, problema na praça, qualquer
+coisa assim, e a pessoa não ficava.
+
+Eu entrei por uma carta de recomendação de um amigo.
+
+### O carro que eu financiei no meu nome
+
+Em algum momento daqueles dois anos, eu financiei um carro para esse mesmo
+amigo. O carro era dele, o uso era dele, o compromisso de pagar era dele. **O
+nome no contrato era o meu.**
+
+Eu não pedi garantia, não pedi contrato particular entre nós, não pedi nada.
+Era amigo, e era o cara que tinha me colocado dentro da Fiat. A gratidão
+cobriu o lugar onde deveria estar o documento.
+
+Ele parou de pagar.
+
+### A conversa no escritório
+
+O RH me chamou. Eu, que nunca tinha sido chamado para nada que não fosse
+elogio, entrei achando que era sobre a promoção.
+
+Me disseram que eu estava sendo desligado, e foram claros sobre o motivo: a
+rescisão serviria **para o pagamento e a quitação da dívida junto ao banco
+da própria montadora.** Fizeram questão de dizer que não era por desempenho.
+Não era mau funcionário. Era nome sujo, e nome sujo não cabia ali.
+
+Eu expliquei. Disse que a dívida não era minha, que o carro não era meu, que
+eu só tinha emprestado o nome.
+
+**Não mudou nada.** E, pensando hoje com a cabeça que eu tenho, não tinha
+como mudar: para o banco, a dívida era minha. Para a fábrica, o problema era
+meu. A verdade sobre quem usava o carro não estava escrita em lugar nenhum.
+
+Saí da Fiat sem a promoção, sem o emprego e com o nome marcado.
+
+### A ironia que eu levei anos para enxergar
+
+A carta de recomendação que me colocou dentro da Fiat era do mesmo homem cuja
+dívida me tirou de lá.
+
+O documento que atestava o meu caráter e o fato que destruiu o meu caráter
+perante a empresa vieram da mesma pessoa.
+
+### O que isso me ensinou
+
+**Emprestar o nome é emprestar o seu futuro, não o seu crédito.** Eu achava
+que estava emprestando uma assinatura. Estava emprestando a minha
+empregabilidade, a promoção que eu queria, e o ano seguinte da minha vida.
+
+**Gratidão não substitui documento.** Eu não pedi nada escrito porque devia a
+ele a minha entrada na empresa. Esse é um mecanismo que eu vejo até hoje em
+sociedade de empresário: quem te ajudou no começo ganha um crédito moral que
+te impede de ser profissional com ele depois. E é justamente com essa pessoa
+que você mais precisa escrever as coisas.
+
+**Confiar sem desconfiar é confiança mal feita.** Eu confiei, e confiar não
+foi o erro. O erro foi confiar sem nenhum mecanismo caso desse errado. Hoje
+eu digo isso assim: confie na pessoa e proteja a operação. As duas coisas
+convivem, e quem acha que não convivem já está prestes a aprender do jeito
+caro.
+
+E tem uma simetria que eu só enxerguei escrevendo este capítulo. A minha
+promoção, seis meses antes, aconteceu por causa de uma reputação que eu
+tinha construído sem perceber, cobrindo os dois lados da linha. **A minha
+demissão aconteceu por causa de uma reputação que outra pessoa destruiu sem
+eu perceber.**
+
+É o mesmo mecanismo, nas duas direções. Reputação não é o que você diz sobre
+si. É o que está anotado a seu respeito nos lugares onde você não está.
+
+> **Sacada do Giba**
+> Faça hoje uma lista de todos os lugares onde o seu nome responde por
+> alguma coisa que não é sua: aval, fiança, financiamento em nome de
+> terceiro, sociedade adormecida, empresa que você abriu com alguém e nunca
+> fechou. Agora olhe essa lista e pergunte: se cada uma dessas pessoas parar
+> de pagar amanhã, o que acontece comigo? Essa é a sua exposição real, e ela
+> quase nunca está na sua planilha.
+
 ## O que cada formação ensina, e o que ela esconde
 
 Agora eu preciso dizer por que este capítulo abre o livro, e não é por ordem
@@ -324,7 +430,7 @@ sentar do lado e anotar.
 `[LIGAR]` — *Aqui o capítulo volta ao Stanley e à formação dele, para fechar
 o paralelo dos dois caminhos.*
 
-Eu saí da Fiat, passei um ano sem emprego, vendi cachorro-quente, rodei de
+Depois da Fiat eu passei um ano sem emprego, vendi cachorro-quente, rodei de
 moto, montei e perdi negócio, e aos trinta e poucos entrei numa operadora de
 telefonia como gerente.
 
@@ -382,6 +488,21 @@ desconforto disso. Deixei porque **a confissão espontânea diante do Salsicha
 defende integridade contando que exagerou e assumiu vale mais que um autor
 impecável. Mas é o tipo de coisa que pode ser usada contra ele, e ele precisa
 decidir conscientemente.
+
+**A demissão da Fiat foi contada por ele em 09/out/2026** e está registrada
+em `_memoria/quem-e-gilberto.md`. **Eu a coloquei aqui, e não no capítulo das
+quedas**, porque ela fecha o arco da Fiat e porque a simetria com a promoção,
+reputação construída de um lado e destruída do outro, só funciona se as duas
+estiverem no mesmo capítulo. No capítulo As sete quedas ela entra como
+referência curta.
+
+⚠ **A montadora aparece sem nome nesse trecho específico.** Na promoção a
+Fiat está nomeada, porque é elogioso e é a história de emprego dele. Na
+demissão eu escrevi "o banco da própria montadora", porque ali se descreve
+uma política de desligamento de uma empresa identificada por dívida de
+terceiro. É relato de experiência própria e é território normal de memória,
+mas é o tipo de passagem que vale passar por advogado antes da editora. Se
+ele preferir nomear nos dois lugares, ou em nenhum, é uma linha.
 
 **A sobreposição a resolver.** O trecho final retoma em três linhas o que os
 capítulos das quedas e do Grupo Sena contam em detalhe. Está curto de

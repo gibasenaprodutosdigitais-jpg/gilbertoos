@@ -25,9 +25,27 @@ tudo não tem autoridade para explicar a perda de ninguém.**
 Então aqui estão as minhas. Vou contar quatro em detalhe. E já aviso que, em
 todas as quatro, o erro foi o mesmo.
 
-## O carrinho: a primeira, e a que mais doeu
+## A que vem antes de todas: o nome emprestado
 
-Eu começo por esta porque foi a primeira vez que eu perdi um negócio, e
+A primeira vez que eu perdi tudo não foi num negócio meu. Foi num emprego, e
+por uma dívida que não era minha.
+
+Eu financiei um carro no meu nome para um amigo. Ele parou de pagar, e a
+montadora onde eu trabalhava, que exigia conduta ilibada inclusive fora da
+fábrica, me desligou para quitar a dívida com o banco do próprio grupo. Eu
+estava fazendo dois anos de casa e a caminho de uma promoção que era o sonho
+de todo mundo ali.
+
+Essa história está contada inteira no capítulo de abertura, porque ela fecha
+o arco daquela fábrica. Eu a trago aqui porque ela é a primeira da série, e
+porque a lição dela já é a lição de todas as outras: **o nome no papel é o
+que vale, não o combinado entre pessoas de bem.**
+
+Dela saiu o ano de desemprego que levou ao carrinho.
+
+## O carrinho: a primeira empresa, e a que mais doeu
+
+Eu começo esta porque foi a primeira vez que eu perdi um negócio **meu**, e
 porque, de todas as sete, foi a que me machucou mais. As outras me custaram
 dinheiro. Esta me custou um projeto de vida.
 
@@ -196,7 +214,7 @@ negócio, e capacidade não protege ninguém. **Protege papel.**
 > em que a conveniência mudar, essa mensagem vai ser a diferença entre a sua
 > versão e a dele.
 
-## A segunda: o chão que não era meu
+## O expresso: o chão que não era meu
 
 Anos noventa. Eu era motoboy num expresso em Belo Horizonte, aluguei a moto,
 comprei a minha, aluguei a alugada, comprei a terceira e virei gestor de três
@@ -211,7 +229,7 @@ Eu fiquei com três motos na garagem e nenhum lugar para mandá-las.
 
 **A lição:** eu tinha construído uma casa bem feita no terreno do vizinho.
 
-## A terceira: o cliente único
+## A PrestConsult: o cliente único
 
 Entre 1999 e 2000 eu tinha uma empresa que prestava serviço terceirizado para
 uma operadora de telefonia. Vinte consultores na rua, sob a minha gestão.
@@ -226,7 +244,7 @@ para pagar todo mundo.
 **A lição:** eu cresci em cima da promessa de outra pessoa. A promessa era
 verdadeira. Mas ela não era minha.
 
-## A quarta: a minha cara, terceirizada
+## O PABX: a minha cara, terceirizada
 
 Entre 2003 e 2008, enquanto eu era executivo de uma operadora, montei em
 paralelo uma empresa de instalação de PABX. Comprei uma carteira de clientes
@@ -238,7 +256,7 @@ roubar nada. Bastou aparecer.
 
 **A lição:** eu terceirizei a única parte do negócio que o cliente enxergava.
 
-## A quinta: o contrato que eu não li
+## A academia: o contrato que eu não li
 
 Essa é a mais longa e a mais recente. A moral dela é a mesma da primeira,
 vinte anos depois, e é por isso que eu as coloquei nas duas pontas deste
@@ -455,22 +473,23 @@ para descobrir.
 **Se ela aguenta ouvir não.** É o critério do coração ensinável, e vale mais
 em sociedade do que em contratação, porque de sócio você não se demite.
 
-## O que as cinco têm em comum
+## O que elas têm em comum
 
 Olhe de novo, lado a lado.
 
-| | O negócio dependia de | Eu controlava? |
+| | Dependia de | Eu controlava? |
 |---|---|---|
+| Fiat | de um amigo pagar o que estava no meu nome | não |
 | Carrinho | do dono do carrinho, sem nada escrito | não |
 | Expresso | do expresso onde eu rodava | não |
 | PrestConsult | de um cliente único | não |
 | PABX | dos técnicos que eram a minha cara | não |
 | Academia | do sócio, do comprador e do advogado do outro lado | não |
 
-Cinco negócios, décadas diferentes da minha vida, tamanhos diferentes. **O
+Seis situações, décadas diferentes da minha vida, tamanhos diferentes. **O
 mesmo erro estrutural: eu construí em cima de alguém que eu não controlava.**
 
-E nas cinco o negócio estava indo bem no dia anterior.
+E em todas elas estava tudo bem no dia anterior.
 
 Repare numa coisa que só ficou clara para mim escrevendo este capítulo. A
 primeira e a última têm a mesma moral: **combinado que não está escrito não
@@ -478,7 +497,7 @@ existe, e contrato que você não leu é um combinado de boca com mais
 páginas.** Entre uma e outra passaram vinte anos, e eu paguei duas vezes pela
 mesma aula.
 
-Demorei três quedas para enxergar o padrão e cinco para transformá-lo em
+Demorei três quedas para enxergar o padrão e seis para transformá-lo em
 regra. É
 a regra que eu uso até hoje, e é a que explica, neste livro, por que eu não
 entrei na empresa do meu amigo: **não se entra numa casa para arrumá-la sem
@@ -546,9 +565,9 @@ Eu não teria ouvido. Quase ninguém ouve. Por isso eu escrevo.
 
 ## As outras três
 
-Eu disse sete e contei cinco.
+Eu disse sete e contei seis.
 
-`[FALTA]` — *As outras duas quedas. O Gilberto ainda não as contou. Se
+`[FALTA]` — *A sétima queda. O Gilberto ainda não as contou. Se
 envolverem pessoa viva e identificável, vale decidir junto se entram, como
 entraram estas, sem nome.*
 
