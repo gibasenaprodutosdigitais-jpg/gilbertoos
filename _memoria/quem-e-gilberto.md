@@ -257,8 +257,50 @@ livro `O Médico e o Executivo`):
    está escrita sem identificação, em
    `livro-o-medico-e-o-executivo/capitulos/as-sete-quedas.md`.
 
-**Ordem certa das quatro conhecidas:** Super Boy nos anos 90, PrestConsult em
-1999-2000, PABX em 2003-2008, academia em 2012-2014. A do PABX foi a única amortecida por um salário, porque
+5. **O carrinho de cachorro-quente, anos 90** (contada por ele em
+   09/out/2026). **Depois do desligamento da Fiat Automóveis**, passou
+   **um ano desempregado**, fazendo bico de **soldador e serviços gerais**.
+   A dificuldade de recolocação tinha nome na época: **"vai sujar sua
+   carteira"**, termo que as empresas usavam na hora de registrar. A lógica
+   que ele só entendeu anos depois: sem regulação clara, empresa que
+   registrava alguém por salário menor que o último anotado temia ser
+   obrigada, numa ação trabalhista, a equiparar ao salário anterior. Por
+   isso quem vinha de multinacional não conseguia emprego.
+
+   **Geraldinho**, amigo do bairro, ia trocar o carrinho de cachorro-quente
+   por um mais novo. Gilberto propôs comprar o velho **fiado, com três meses
+   de carência**: o carrinho valia uns R$ 4.000 e ele ofereceu **10x de
+   R$ 500**, pagando mais pelo prazo. **Fecharam de boca, sem documento.**
+
+   Sem ponto fixo, levava o carrinho até o campo de futebol do bairro. **A
+   sacada:** molho e maionese feitos **novos todo dia**, e o pão comprado na
+   padaria do **Márcio** toda manhã para pagar no dia seguinte. Isso lhe
+   ensinou **giro de estoque, dimensionamento e qualidade**. No 2º mês
+   consolidou o ponto nos **prédinhos do Floramar**, onde morava a **Érica**,
+   namorada e hoje esposa, que o ajudava nos fins de semana. No 3º mês o
+   faturamento tinha **dobrado**, com previsão de triplicar no semestre. Ele
+   já tinha **noivado marcado** e procurava uma casa geminada para financiar.
+
+   **Faltando cinco dias para a primeira parcela**, com o dinheiro das duas
+   primeiras já separado, **o Geraldinho pediu o carrinho de volta**, com a
+   justificativa de que o ponto dele tinha crescido. Não havia documento.
+
+   Nas palavras dele: *"a falta de conhecimento, direção e principalmente de
+   documento não me protegeu"* e *"não era só um negócio, era todo o meu
+   sonho de ser empresário e dar um futuro melhor para a minha família"*.
+
+   ⚠ **Nomes:** Geraldinho e Márcio são reais. No livro a história está sem
+   nomes, exceto a Érica. Ver
+   `livro-o-medico-e-o-executivo/capitulos/as-sete-quedas.md`.
+
+**Ordem das cinco conhecidas:** carrinho de cachorro-quente e Super Boy nos
+anos 90, PrestConsult em 1999-2000, PABX em 2003-2008, academia em 2012-2014.
+⚠ **Falta saber qual veio primeiro, o carrinho ou o Super Boy.** O carrinho é
+depois do desligamento da Fiat; o Super Boy é a fase de motoboy.
+
+**Emprego anterior novo:** ele trabalhou na **Fiat Automóveis** e foi
+desligado de lá nos anos 90. Não estava registrado em lugar nenhum antes de
+09/out/2026. A do PABX foi a única amortecida por um salário, porque
 ele era executivo da Embratel na mesma época.
 
 **O episódio da Embratel (contado por ele em 09/out/2026) — material de
