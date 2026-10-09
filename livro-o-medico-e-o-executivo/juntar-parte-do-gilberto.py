@@ -15,16 +15,18 @@ ORDEM = [
     ("capitulos/dois-caminhos.md", "Dois caminhos"),
     ("capitulos/as-sete-quedas.md", "As sete quedas"),
     ("capitulos/07-do-zero-ao-grupo-sena.md", "Do zero ao Grupo Sena"),
+    ("capitulos/o-check-up-que-nao-foi-feito.md", "O check-up que não foi feito"),
     ("capitulos/06-o-diagnostico-do-executivo.md", "O diagnóstico do executivo"),
     ("capitulos/saude-fisica-da-empresa.md", "A saúde física da empresa"),
     ("capitulos/saude-mental-da-empresa.md", "A saúde mental da empresa"),
     ("capitulos/saude-espiritual-da-empresa.md", "A saúde espiritual da empresa"),
     ("capitulos/09-check-up-completo.md", "Check-up completo"),
+    ("capitulos/recomeco.md", "Recomeço"),
 ]
 
 FALTAM = [
-    "O check-up que não foi feito, a metade dele do capítulo 4",
-    "Recomeço, a metade dele do capítulo 8",
+    "A leitura do executivo dentro dos capítulos do Stanley (2, 3 e 5)",
+    "Os trechos marcados LIGAR, que dependem do que o Stanley escrever",
 ]
 
 
@@ -89,7 +91,7 @@ capa = f"""<section class="capa">
 espaçamento 1,5, margens 3/3/2/2, justificado, recuo de 1,25 cm.</p>
 <h2 class="s">Neste caderno</h2>
 <ol class="s">{''.join(f'<li>{n}</li>' for n in sumario)}</ol>
-<h2 class="s">Ainda por escrever</h2>
+<h2 class="s">O que ainda depende do Stanley</h2>
 <ul class="s">{''.join(f'<li>{n}</li>' for n in FALTAM)}</ul>
 <p class="linha nota">As notas de redação de cada capítulo ficam de fora
 deste caderno, nos arquivos de trabalho. Lá está o que é frase dele, o que
