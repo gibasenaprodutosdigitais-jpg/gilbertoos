@@ -48,7 +48,7 @@ Eu tinha construído uma casa bonita. Só que no terreno do vizinho.
 
 Jesus conta a história dos dois homens que construíram: um na rocha, outro na
 areia. A gente costuma ler essa parábola pensando na qualidade da construção,
-mas não é disso que ela fala. **As duas casas eram iguais.** A chuva foi a
+mas o assunto dela é outro. **As duas casas eram iguais.** A chuva foi a
 mesma, o vento foi o mesmo. O que mudou foi o chão.
 
 A minha casa estava em pé e bem feita. Só que o chão não era meu.
@@ -58,68 +58,11 @@ A minha casa estava em pé e bem feita. Só que o chão não era meu.
 > apoiado. Se a resposta for o nome de outra empresa, você não tem um
 > negócio. Você tem uma dependência com faturamento.
 
-## Dez anos dentro de três gigantes
+## A segunda queda: vinte viraram quarenta, e o cliente foi embora
 
-Depois disso eu fui para o outro lado do balcão. Entrei na telefonia e fiquei
-dez anos seguidos dentro de três multinacionais.
-
-**Telemar, que depois virou Oi, de 2000 a 2003. Embratel, de 2003 a 2008.
-Telefônica, de 2008 a 2010.**
-
-Muita gente trata esse tipo de período como uma pausa na vida de empresário.
-Para mim foi o contrário: foi a escola. Eu entrava em empresa de cliente todo
-dia, via a operação por dentro, entendia por que uma crescia e a outra não, e
-voltava para casa com o problema na cabeça.
-
-Foi ali que eu aprendi a classificar cliente, a contornar objeção, a montar
-força de vendas, a ler um contrato. E foi ali que eu percebi uma coisa que
-depois virou a frase que eu mais repito sobre aquela época: **eu já resolvia
-o problema das empresas sendo funcionário de multinacional. Em algum momento
-ia resolver esses mesmos problemas através da minha própria empresa.**
-
-`[FALTA]` — *Aqui entra um episódio concreto de dentro de uma das três: um
-cliente, uma negociação, um problema que ele resolveu e que mostra o método
-nascendo. É o que transforma este trecho de currículo em capítulo.*
-
-## A segunda queda: eu terceirizei a minha própria cara
-
-Já dentro do ramo de telefonia, montei uma empresa de instalação de PABX.
-Comprei uma carteira de clientes, o que na época era o caminho mais rápido
-para ter operação rodando desde o primeiro mês.
-
-E eu fiz uma economia que me pareceu inteligente: os técnicos não eram
-funcionários, eram terceirizados. Menos encargo, menos folha, mais
-flexibilidade. Todo mundo que está começando faz essa conta, e no papel ela
-fecha.
-
-Só que o técnico era a única pessoa da minha empresa que o cliente via.
-
-Eu vendia, assinava, faturava. Mas quem entrava na sala do cliente, subia na
-escada, abria o quadro e conversava era o técnico. Para aquele cliente, **o
-técnico era a empresa.** Eu era um nome na nota fiscal.
-
-Um dia eles começaram a oferecer o mesmo serviço direto, por um preço menor.
-Não precisaram roubar nada. Bastou aparecer. A debandada foi em massa.
-
-Eu não perdi os clientes para um concorrente. Eu perdi para o meu próprio
-custo variável.
-
-> **Sacada do Giba**
-> Terceirize o que o cliente não vê. O que o cliente vê é a sua empresa, e
-> empresa a gente não aluga. Se a pessoa que aperta a mão do seu cliente não
-> tem vínculo com você, o vínculo do cliente também não é com você.
-
-Hoje, quando eu monto um contrato de parceria, tem sempre uma cláusula de não
-contorno. O parceiro não pode pegar o cliente que conheceu pela porta e
-atender por fora. Já me chamaram de desconfiado por causa dessa cláusula.
-
-Eu não sou desconfiado. Eu sou um homem que já pagou essa conta.
-
-## A terceira queda: vinte viraram quarenta, e o cliente foi embora
-
-Depois veio a PrestConsult, no período em que eu era terceirizado da
-Telefônica. Era a minha estrutura, o meu CNPJ, a minha gestão. Eu tinha vinte
-consultores na rua.
+Entre 1999 e 2000 eu tinha a PrestConsult, prestando serviço terceirizado
+para a Telefônica. Era a minha estrutura, o meu CNPJ, a minha gestão. Eu
+tinha vinte consultores na rua.
 
 Teve uma convenção em que a operadora anunciou que as premiações iam dobrar
 de valor. Dobrar. Para quem vive de comissão e prêmio, aquilo é a notícia do
@@ -150,9 +93,88 @@ pessoas que trabalharam comigo.**
 
 Provérbios diz que a riqueza ganha às pressas diminui, e que a que vem do
 trabalho aumenta. Eu li esse versículo muitos anos depois e entendi que ele
-não estava falando de dinheiro rápido. Estava falando de estrutura
-construída rápido. Eu dobrei a minha equipe em cima da promessa de outra
-pessoa. A promessa era verdadeira. Mas ela não era minha.
+não estava falando de dinheiro rápido. Estava falando de estrutura construída
+rápido. Eu dobrei a minha equipe em cima da promessa de outra pessoa. A
+promessa era verdadeira. Mas ela não era minha.
+
+## Por que eu fui ser funcionário
+
+Aqui é onde a minha história costuma surpreender quem me ouve falar de
+empreendedorismo.
+
+Em 2000, recém-saído de vender tudo o que tinha para pagar quarenta pessoas,
+eu não abri outra empresa. **Eu fui procurar emprego.**
+
+E entrei na Telemar, que depois virou Oi, como **gerente nível três**. Não
+entrei pela porta de baixo. Eu chegava de uma empresa que tinha quarenta
+pessoas sob a minha gestão, e isso o mercado reconheceu na hora. O que o
+mercado não sabia é que eu estava indo lá aprender o que eu não tinha.
+
+Porque a pergunta que não me largava era essa: como é que a Telefônica
+consegue encerrar uma operação inteira num estado, com um despacho, e
+continua de pé? E eu, com quarenta pessoas, não aguento três meses de
+decisão errada?
+
+A resposta é estrutura. E estrutura você não aprende lendo. Você aprende
+morando dentro.
+
+**Telemar, que depois virou Oi, de 2000 a 2003. Embratel, de 2003 a 2008.
+Telefônica, de 2008 a 2010.** Dez anos seguidos dentro de três
+multinacionais.
+
+Foram dez anos entrando em empresa de cliente todo dia, vendo operação por
+dentro, entendendo por que uma crescia e a outra não, e voltando para casa
+com o problema na cabeça. Foi ali que eu aprendi a classificar cliente, a
+contornar objeção, a montar força de vendas de verdade e a ler um contrato
+antes de assinar.
+
+E foi ali que ficou claro o que eu diria anos depois: **eu já resolvia o
+problema das empresas sendo funcionário de multinacional. Em algum momento ia
+resolver esses mesmos problemas através da minha própria empresa.**
+
+`[FALTA]` — *Aqui entra um episódio concreto de dentro de uma das três: um
+cliente, uma negociação, um problema que ele resolveu e que mostra o método
+nascendo. É o que transforma este trecho de currículo em capítulo.*
+
+> **Sacada do Giba**
+> Voltar a ser empregado depois de ter sido dono é pesquisa de campo paga,
+> e quem chama isso de fracasso nunca precisou. O erro é voltar e ficar só
+> pelo salário, sem reparar na engrenagem que está girando de graça na sua
+> frente.
+
+## A terceira queda: eu terceirizei a minha própria cara
+
+Em algum ponto desses anos de telefonia eu montei uma empresa de instalação
+de PABX. Comprei uma carteira de clientes, o que na época era o caminho mais
+rápido para ter operação rodando desde o primeiro mês.
+
+E eu fiz uma economia que me pareceu inteligente: os técnicos não eram
+funcionários, eram terceirizados. Menos encargo, menos folha, mais
+flexibilidade. Todo mundo que está começando faz essa conta, e no papel ela
+fecha.
+
+Só que o técnico era a única pessoa da minha empresa que o cliente via.
+
+Eu vendia, assinava, faturava. Mas quem entrava na sala do cliente, subia na
+escada, abria o quadro e conversava era o técnico. Para aquele cliente, **o
+técnico era a empresa.** Eu era um nome na nota fiscal.
+
+Um dia eles começaram a oferecer o mesmo serviço direto, por um preço menor.
+Não precisaram roubar nada. Bastou aparecer. A debandada foi em massa.
+
+Eu não perdi os clientes para um concorrente. Eu perdi para o meu próprio
+custo variável.
+
+> **Sacada do Giba**
+> Terceirize o que o cliente não vê. O que o cliente vê é a sua empresa, e
+> empresa a gente não aluga. Se a pessoa que aperta a mão do seu cliente não
+> tem vínculo com você, o vínculo do cliente também não é com você.
+
+Hoje, quando eu monto um contrato de parceria, tem sempre uma cláusula de não
+contorno. O parceiro não pode pegar o cliente que conheceu pela porta e
+atender por fora. Já me chamaram de desconfiado por causa dessa cláusula.
+
+Eu não sou desconfiado. Eu sou um homem que já pagou essa conta.
 
 ## O padrão que eu só enxerguei depois de três vezes
 
@@ -168,13 +190,13 @@ Olhe de novo.
 No Super Boy, o meu negócio dependia do expresso. Eu não tinha controle sobre
 o expresso.
 
-No PABX, o meu negócio dependia dos técnicos terceirizados. Eu não tinha
-controle sobre os técnicos.
-
 Na PrestConsult, o meu negócio dependia de um cliente só. Eu não tinha
 controle sobre aquele cliente.
 
-Três negócios diferentes, três décadas diferentes, três tamanhos diferentes.
+No PABX, o meu negócio dependia dos técnicos terceirizados. Eu não tinha
+controle sobre os técnicos.
+
+Três negócios diferentes, três momentos diferentes, três tamanhos diferentes.
 **O mesmo erro estrutural: eu construí em cima de alguém que eu não
 controlava.**
 
@@ -183,8 +205,8 @@ faturamento estava lá. A operação rodava. Os números diziam que estava tudo
 certo.
 
 É por isso que eu não acredito em empresário que me mostra só o faturamento.
-Faturamento é sintoma de superfície, igual à cor do rosto. **Tem gente
-corada que está doente. Tem empresa faturando que está morrendo.**
+Faturamento é sintoma de superfície, igual à cor do rosto. **Tem gente corada
+que está doente. Tem empresa faturando que está morrendo.**
 
 Essa frase é o livro inteiro, e eu aprendi ela na pele antes de aprender na
 teoria.
@@ -195,7 +217,7 @@ teoria.
 > a resposta for "eu não me recupero", o problema do seu negócio não é
 > comercial. É estrutural, e ele não aparece no extrato.
 
-## 2010: a quarta tentativa foi a primeira em terreno meu
+## 2010: a vez seguinte foi a primeira em terreno meu
 
 Em 2010 eu saí da Telefônica e fundei o Grupo Sena Soluções Empresariais.
 
@@ -248,11 +270,11 @@ Um dia ele tirou a própria vida, na mesa do próprio escritório.
 Em cima daquela mesa havia cerca de um milhão de reais em espécie. Não dava
 nem para a entrada do passivo.
 
-Eu penso nessa cena até hoje, e o dinheiro é a parte que menos me pega. O
-que me pega é que **tinha jeito.** Passivo tributário se negocia. Dívida se reclassifica por
-urgência. Operação se reestrutura. Empresa com décadas de marca e com
-clientela não morre por causa de uma planilha; morre por falta de alguém que
-sente do lado e mostre o caminho.
+Eu penso nessa cena até hoje, e o dinheiro é a parte que menos me pega. O que
+me pega é que **tinha jeito.** Passivo tributário se negocia. Dívida se
+reclassifica por urgência. Operação se reestrutura. Empresa com décadas de
+marca e com clientela não morre por causa de uma planilha; morre por falta de
+alguém que sente do lado e mostre o caminho.
 
 Ele não morreu por falta de recurso. Ele morreu por falta de direção.
 
@@ -282,9 +304,9 @@ foi por educação.
 
 Foi porque quem lê este livro precisa saber de onde eu estou olhando. Eu não
 olho a Stanley's Hair da arquibancada de quem nunca perdeu. Eu olho do chão,
-de quem já ficou com três motos na garagem, já viu o cliente ir embora atrás
-do próprio técnico e já vendeu o que tinha para pagar quarenta carteiras
-assinadas.
+de quem já ficou com três motos na garagem, já vendeu o que tinha para pagar
+quarenta carteiras assinadas e já viu o cliente ir embora atrás do próprio
+técnico.
 
 E é exatamente por isso que eu reconheci o que vi.
 
@@ -296,83 +318,81 @@ O que eu vi em volta dele foi outra coisa. **Vi gente sem compromisso e, mais
 grave, sem a envergadura moral para sentar na diretoria de uma empresa
 daquele tamanho, que ainda por cima mirava uma abertura de capital.**
 
-Isso diz menos sobre o caráter de cada um deles e mais sobre a estrutura. É
-o defeito mais comum em empresa que cresce rápido: **a mesa de decisão
-continua sendo a mesa do começo.** As pessoas que estavam lá quando a empresa
-faturava um continuam lá quando ela fatura duzentos e cinquenta, e ninguém
-parou para perguntar se elas davam conta daquele novo tamanho.
+Isso diz menos sobre o caráter de cada um deles e mais sobre a estrutura. É o
+defeito mais comum em empresa que cresce rápido: **a mesa de decisão continua
+sendo a mesa do começo.** As pessoas que estavam lá quando a empresa faturava
+um continuam lá quando ela fatura duzentos e cinquenta, e ninguém parou para
+perguntar se elas davam conta daquele novo tamanho.
 
 Uma empresa que vai a mercado precisa de gente que aguente ser olhada por
 fora. Auditor, investidor, conselho, imprensa. Quem não tem compromisso com o
 resultado aguenta menos ainda ser olhado.
 
 Eu já tinha aprendido, três vezes, que negócio nenhum se sustenta apoiado em
-quem você não controla. A Stanley's Hair me mostrou a mesma lição por cima: **a
-pessoa de fora que te derruba é só a segunda mais perigosa. A primeira está
-sentada na sua mesa.**
+quem você não controla. A Stanley's Hair me mostrou a mesma lição por cima:
+**a pessoa de fora que te derruba é só a segunda mais perigosa. A primeira
+está sentada na sua mesa.**
 
 E a pergunta que todo leitor vai fazer neste ponto é a mesma que eu me fiz
 por anos: se você viu tudo isso, por que não entrou?
 
-É do que trata o capítulo anterior, e a resposta curta é a regra que me
-custou três empresas para aprender. Ninguém arruma uma casa sem ter a chave
-dela.
+É do que trata o capítulo anterior, e a resposta curta é a regra que me custou
+três empresas para aprender. Ninguém arruma uma casa sem ter a chave dela.
 
 ---
 
 ## Notas de redação
 
+**A cronologia, confirmada por ele em 09/out/2026.** Super Boy nos anos
+noventa. **PrestConsult de 1999 a 2000.** Depois da quebra da PrestConsult é
+que ele entra na **Telemar como gerente nível três**, em 2000. Telemar/Oi até
+2003, Embratel de 2003 a 2008, Telefônica de 2008 a 2010, e o Grupo Sena em
+2010.
+
+Essa ordem é melhor do que a primeira versão deste capítulo supunha, e muda
+o arco: ele perde tudo, vai ser funcionário por dez anos para aprender a
+estrutura que lhe faltava, e volta a empreender em terreno próprio. A seção
+"Por que eu fui ser funcionário" só existe por causa dessa correção.
+
+**A data do PABX é a única que falta.** Está escrito como "em algum ponto
+desses anos de telefonia", que é honesto e não crava nada. Se ele disser o
+ano, o trecho ganha precisão e talvez mude de lugar no capítulo.
+
 **O que está lastreado.** As três multinacionais com período, as três quebras
-e o desfecho de cada uma vieram do Gilberto em 09/out/2026, e estão
-registradas em `_memoria/quem-e-gilberto.md`. A fundação do Grupo Sena, a
-formação em Direito, a irmã contadora, os cinco escritórios e a leva de
-estudo de 2020 já estavam registrados.
+com desfecho e a entrada como gerente nível três vieram dele, e estão em
+`_memoria/quem-e-gilberto.md`. A fundação do Grupo Sena, a formação em
+Direito, a irmã contadora, os cinco escritórios e a leva de estudo de 2020 já
+estavam registrados antes.
 
 **O que eu acrescentei, e ele precisa aprovar.** A leitura de que as três
 quebras são o mesmo erro estrutural é minha, montada em cima dos fatos que
 ele contou. Se ele enxergar o padrão de outro jeito, o capítulo muda de
 espinha.
 
-**As analogias.** A casa na rocha e na areia (Mt 7) e Provérbios 13,11
-seguem o modo dele de explicar, e o versículo está conferido em
+**As analogias.** A casa na rocha e na areia (Mt 7) e Provérbios 13,11 seguem
+o modo dele de explicar, e o versículo está conferido em
 `conhecimento/proverbios.md`.
 
-**O episódio do empresário, e a decisão que falta.** Ele autorizou a entrada
-da história em 09/out/2026 e deu o nome: **Sr. Elmo, da Elmo Calçados, em
-Minas Gerais.**
+**O episódio do empresário.** Ele autorizou a história em 09/out/2026 e deu o
+nome: **Sr. Elmo, da Elmo Calçados, em Minas Gerais.** Em 09/out/2026 ele
+aprovou mantê-la **sem identificação**, que é como está escrita aqui.
+Qualquer mineiro da geração dele reconhece a rede, então a homenagem está
+preservada sem expor o nome de quem não pode mais consentir. O modo como ele
+morreu também fica de fora, por diretriz séria sobre o assunto e porque o
+texto não perde nada.
 
-**Escrevi sem o nome, de propósito.** Pôr o nome de uma pessoa real e da
-empresa dela num livro publicado, junto de um suicídio, é decisão que não se
-desfaz depois de impresso. A família e a marca existem. Acrescentar o nome
-depois é uma linha; tirar o nome de um livro que já está na rua é impossível.
+**A leitura sobre a diretoria da Stanley's Hair** veio dele em 09/out/2026 e
+está escrita em chave estrutural, também com a aprovação dele. As pessoas
+daquela diretoria são identificáveis, e o ponto fica mais forte sem acusar
+ninguém. Se um dia ele quiser nomear alguém, passa por advogado antes da
+editora e precisa de documento, não de impressão.
 
-Minha recomendação, e ela é firme: **ou a história vai sem identificação, do
-jeito que está aqui, ou vai com a palavra escrita da família.** Do jeito que
-está, qualquer mineiro da geração dele vai reconhecer a rede de calçados,
-então a homenagem está preservada sem expor o nome de quem não pode mais
-consentir.
-
-**Também deixei de fora o modo como ele morreu**, que está registrado na
-memória. Toda diretriz séria de imprensa sobre suicídio pede isso, e no texto
-não falta nada: o leitor entende o peso sem o detalhe.
-
-**A leitura sobre a diretoria da Stanley's Hair** veio dele em 09/out/2026:
-viu profissionais sem compromisso e sem a envergadura moral para compor a
-diretoria de uma empresa multimilionária que pretendia abrir capital.
-
-**Escrevi em chave estrutural, de propósito.** As pessoas daquela diretoria
-existem, têm nome e são identificáveis para quem é do ramo. Dizer num livro
-publicado que fulano não tinha compromisso nem moral é risco jurídico real, e
-pior: desloca o livro de tese para acerto de contas. Do jeito que está, o
-ponto é mais forte e não acusa ninguém: **a mesa de decisão continuou sendo a
-mesa do começo.**
-
-Se ele quiser nomear alguém, isso precisa passar por advogado antes de ir
-para a editora, e precisa estar amparado em documento, não em impressão.
+**A marca é Stanley's Hair**, com N, confirmado por ele. Conferir o apóstrofo
+contra o logotipo da própria empresa antes de fechar capa.
 
 **O assalto quando ele era motoboy** continua de fora. Está marcado como
 sensível e ele ainda não se pronunciou.
 
-**Tamanho.** Cerca de 1.700 palavras. Um capítulo de livro de 200 páginas
-pede entre duas e três vezes isso. O que falta para chegar lá são as partes
-marcadas `[FALTA]`, que são justamente as que só ele tem.
+**Tamanho.** Cerca de 2.400 palavras de texto corrido. Um capítulo de livro
+de 200 páginas pede entre duas e três vezes isso. O que falta para chegar lá
+são as partes marcadas `[FALTA]`.

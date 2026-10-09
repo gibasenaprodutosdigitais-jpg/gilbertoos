@@ -178,7 +178,11 @@ dele**, não é só técnica.
 
 **A carreira nas multinacionais de telefonia (confirmado por ele em
 09/out/2026):** **Telemar/Oi, 2000 a 2003** · **Embratel, 2003 a 2008** ·
-**Telefônica, 2008 a 2010**. Dez anos seguidos dentro de três operadoras. É o
+**Telefônica, 2008 a 2010**. Dez anos seguidos dentro de três operadoras.
+**Entrou na Telemar já como gerente nível III**, em 2000, logo depois da
+quebra da PrestConsult. Ou seja: ele perdeu tudo, foi ser funcionário por dez
+anos para aprender a estrutura que lhe faltava, e só então abriu o Grupo
+Sena. Essa ordem é o arco do capítulo 7 do livro. É o
 material do capítulo 1 do livro `O Médico e o Executivo`.
 
 **Fundação do Grupo Sena:** "Como já resolvia os problemas das empresas
@@ -209,7 +213,8 @@ livro `O Médico e o Executivo`):
 2. **A empresa de instalação de PABX.** Já no ramo de telefonia, comprou uma
    carteira de clientes. **Os técnicos eram terceirizados, não funcionários.
    Assediaram os clientes com preço mais baixo e houve debandada em massa.**
-3. **A PrestConsult**, no período em que era terceirizado da Telefônica.
+3. **A PrestConsult, de 1999 a 2000**, prestando serviço terceirizado para a
+   Telefônica — **antes** de ele entrar na Telemar.
    Tinha 20 consultores no mercado sob a gestão dele. Depois de uma convenção
    em que as premiações dobrariam, **contratou mais 20 consultores**. Três
    meses depois **a Telefônica encerrou a operação fora de São Paulo**,
