@@ -307,9 +307,56 @@ anos 90, PrestConsult em 1999-2000, PABX em 2003-2008, academia em 2012-2014.
 procurou depois para falar do sanduíche é o mesmo rapaz que mais tarde lhe
 alugaria a primeira moto.
 
-**Emprego anterior novo:** ele trabalhou na **Fiat Automóveis** e foi
-desligado de lá nos anos 90. Não estava registrado em lugar nenhum antes de
-09/out/2026. A do PABX foi a única amortecida por um salário, porque
+## A Fiat Automóveis (contado por ele em 09/out/2026)
+
+Não estava registrado em lugar nenhum antes disso. **O apelido dele na
+fábrica era "Brinquinho".**
+
+Entrou como **operador de produção** e foi **promovido a soldador MIG com
+seis meses de casa**, numa época em que havia operadores na função há mais de
+dez anos. Era o tempo do **Fiat Uno**: **1.500 carros por turno, três
+turnos**.
+
+**Como aconteceu, que é a lição inteira:**
+
+1. Todo dia, no caminho do almoço, passava pela sala do **REPO** (nome dado
+   ao gerente da linha). Numa noite viu afixado: *precisa-se de soldador
+   MIG*. Ele **não sabia nem o que era**.
+2. Em **30 dias** fez bico com o **sogro, que era serralheiro**, e aprendeu o
+   suficiente para soldar com sucesso algumas vezes.
+3. Foi ao REPO e disse que era soldador, que tinha trabalhado numa
+   serralheria **"mais de seis meses"**. Exagerou, e sabia disso.
+4. O REPO mandou marcar o teste na linha. O responsável por terminar as
+   soldas era o **"Salsicha"**.
+5. **A virada:** no terceiro turno faltava muita gente, e os carros não
+   finalizados sobravam para a manhã seguinte. Gilberto e o **"Pinguinha"**
+   cobriam os dois lados da linha quando alguém faltava. **O maior
+   prejudicado quando sobrava carro era justamente o Salsicha** — ele vinha
+   ajudando o homem que agora decidiria sobre ele, sem saber.
+6. O Salsicha riu ao vê-lo, perguntou "desde quando você é soldador,
+   Brinquinho?", e Gilberto **disse a verdade**. O risco era voltar a ser
+   operador de produção.
+7. O Salsicha respondeu que ia ensiná-lo para assumir o lugar dele. **Tirou
+   10 dos 30 minutos do almoço dos dois, por uma semana**, e chegou a dizer
+   que teve **mais refugo do que se não houvesse ninguém naquele lado da
+   linha**. Fez sem interesse nenhum.
+8. O REPO **passou a decisão da contratação para o Salsicha**. Promovido.
+
+Ganho imediato: saiu do **terceiro turno**, que ia da meia-noite de domingo
+às 6h de sábado.
+
+**O Pinguinha**, já falecido, é um personagem à parte: trabalhava só no
+terceiro turno e **soldava os dois lados da linha** — puxava a pinça dois
+metros antes do ponto, soldava a esquerda, pulava a linha e soldava a
+direita, por horas, para não pegar no sono na madrugada. Estava na mesma
+função havia mais de dez anos.
+
+⚠ **Três decisões editoriais que são dele:** se os apelidos Salsicha,
+Pinguinha e Brinquinho ficam no livro; se o detalhe de que o Pinguinha
+trabalhava alcoolizado entra (ele é falecido e tem família); e se o exagero
+no currículo entra, já que a redenção é ele ter confessado quando
+confrontado. Ver
+`livro-o-medico-e-o-executivo/capitulos/dois-caminhos.md`. A do PABX foi a única amortecida por um salário, porque
 ele era executivo da Embratel na mesma época.
 
 **O episódio da Embratel (contado por ele em 09/out/2026) — material de
