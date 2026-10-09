@@ -2,8 +2,7 @@
 
 > **Primeira versão**, escrita em 09/out/2026 a partir do que o Gilberto
 > contou e do que já estava registrado em `_memoria/quem-e-gilberto.md`.
-> **Todas as lacunas foram preenchidas por ele em 09/out/2026.** Restou um
-> número para conferir, marcado nas notas do fim.
+> **Todas as lacunas foram preenchidas por ele em 09/out/2026.**
 
 ---
 
@@ -140,9 +139,12 @@ resultado.
 
 Não vou dizer que foi talento. Foi que eu não parava nunca.
 
-A estratégia cabia numa linha: **quatro visitas por dia, todos os dias,
+A estratégia cabia numa linha: **quatro visitas por dia, vinte por semana,
 durante o primeiro trimestre.** Sem exceção, sem semana fraca, sem
 justificativa.
+
+Faça a conta: oitenta visitas por mês. Perto de duzentas e quarenta antes de
+o método começar a devolver qualquer coisa.
 
 Nos primeiros três meses aquilo parece trabalho jogado fora. Você visita,
 visita, visita e não fecha nada. O colega do lado está fechando dois
@@ -464,11 +466,10 @@ contrato na mão e a disciplina de só entrar com o que gerasse R$ 10.000 de
 receita mensal, mantendo no mínimo quatro meses de receita já conquistada na
 frente. Mais a frase: liberdade financeira, não ganância financeira.
 
-⚠ **Um número para ele conferir.** Ele disse "4 visitas dia, 20 visitas mês".
-Quatro por dia dá vinte por **semana** e cerca de oitenta por mês. Escrevi só
-"quatro visitas por dia, todos os dias", que é a parte que não tem dúvida. Se
-o certo for vinte por semana, o trecho ganha o número; se for vinte por mês,
-a conta das quatro por dia muda.
+**O número das visitas, fechado em 09/out/2026:** quatro por dia, **vinte por
+semana**, oitenta por mês, perto de duzentas e quarenta no primeiro
+trimestre. O texto traz a conta feita, porque é ela que faz o leitor entender
+o tamanho da disciplina.
 
 **O que eu acrescentei, e ele precisa aprovar.** A leitura de que as três
 quebras são o mesmo erro estrutural é minha, montada em cima dos fatos que
