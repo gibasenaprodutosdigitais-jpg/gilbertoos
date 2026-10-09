@@ -3,6 +3,11 @@
 Fichado em 09/out/2026, do PDF em `material/O_Medico_e_o_Executivo_Escopo.pdf`.
 O texto corrido extraído está em `material/escopo-extraido.txt`.
 
+> ⚠ **O escopo escreve "Staley" do começo ao fim. O nome correto é
+> STANLEY**, confirmado pelo Gilberto em 09/out/2026. As citações abaixo
+> ficam como vieram, por serem registro; no resto da pasta está corrigido.
+> **O escopo precisa ser corrigido na fonte antes de ir para editora.**
+
 Este arquivo é o registro do que **chegou**. O que o Gilberto decidir mudar
 entra no `README.md` e em `a-parte-do-gilberto.md`, não aqui.
 
