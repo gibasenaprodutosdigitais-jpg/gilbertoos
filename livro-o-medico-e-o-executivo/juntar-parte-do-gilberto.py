@@ -12,6 +12,7 @@ AQUI = Path(__file__).parent
 
 # ordem do plano em a-parte-do-gilberto.md
 ORDEM = [
+    ("capitulos/as-sete-quedas.md", "As sete quedas"),
     ("capitulos/07-do-zero-ao-grupo-sena.md", "Do zero ao Grupo Sena"),
     ("capitulos/06-o-diagnostico-do-executivo.md", "O diagnóstico do executivo"),
     ("capitulos/saude-fisica-da-empresa.md", "A saúde física da empresa"),
@@ -22,7 +23,6 @@ ORDEM = [
 
 FALTAM = [
     "Dois caminhos, a metade dele do capítulo 1",
-    "As sete quedas",
     "O check-up que não foi feito, a metade dele do capítulo 4",
     "Recomeço, a metade dele do capítulo 8",
 ]
