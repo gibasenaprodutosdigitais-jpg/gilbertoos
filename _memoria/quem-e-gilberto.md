@@ -229,7 +229,8 @@ ele era executivo da Embratel na mesma época.
 **O episódio da Embratel (contado por ele em 09/out/2026) — material de
 primeira para conteúdo:** foi **número um do Brasil em resultado por dois
 anos consecutivos**. O método: **quatro visitas por dia durante o primeiro
-trimestre**, sem exceção, até o volume plantado começar a vencer sozinho. Os
+trimestre**, ou seja **vinte por semana e oitenta por mês**, perto de 240 no
+trimestre, sem exceção, até o volume plantado começar a vencer sozinho. Os
 superiores passaram a pedir ajuda a ele para bater a meta da regional.
 
 O detalhe que vale mais que o prêmio: o **fixo na carteira era R$ 1.428,93**;
@@ -242,9 +243,6 @@ isso se torna natural, de forma orgânica"*.
 
 É a origem prática do **1G, Gestão de Si**: ele aplicou ao próprio salário o
 que depois passou a ensinar empresa a fazer com a receita.
-
-⚠ Ele disse "4 visitas dia, 20 visitas mês". Quatro por dia dá vinte por
-semana. Conferir com ele antes de usar o número 20 em peça.
 
 **O padrão que atravessa as três:** em todas, o negócio dependia de um
 terceiro que ele não controlava — o expresso, os técnicos que eram a cara da
