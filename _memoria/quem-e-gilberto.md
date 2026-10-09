@@ -301,8 +301,8 @@ livro `O Médico e o Executivo`):
    nomes, exceto a Érica. Ver
    `livro-o-medico-e-o-executivo/capitulos/as-sete-quedas.md`.
 
-**Ordem das cinco conhecidas:** carrinho de cachorro-quente e Super Boy nos
-anos 90, PrestConsult em 1999-2000, PABX em 2003-2008, academia em 2012-2014.
+**Ordem das seis conhecidas:** **Fiat (nome emprestado)**, depois carrinho de
+cachorro-quente e Super Boy, todos nos anos 90, PrestConsult em 1999-2000, PABX em 2003-2008, academia em 2012-2014.
 **O carrinho veio antes do Super Boy**, confirmado em 09/out/2026: quem o
 procurou depois para falar do sanduíche é o mesmo rapaz que mais tarde lhe
 alugaria a primeira moto.
@@ -350,6 +350,33 @@ terceiro turno e **soldava os dois lados da linha** — puxava a pinça dois
 metros antes do ponto, soldava a esquerda, pulava a linha e soldava a
 direita, por horas, para não pegar no sono na madrugada. Estava na mesma
 função havia mais de dez anos.
+
+### Como ele saiu da Fiat: a sexta queda conhecida
+
+**Fazendo dois anos de casa**, já almejava a promoção seguinte: **piloto de
+teste**, que ele descreve como o suprassumo da fábrica — trabalho limpo, de
+segunda a sexta em horário comercial, **salário o dobro**, e pilotar o
+**Tempra Turbo** e o **Uno 1.5R**.
+
+**O que acabou com isso:** ele havia **financiado um carro para um amigo**, e
+o amigo não pagou. **Era o mesmo amigo que lhe dera a carta de recomendação
+para entrar na Fiat.**
+
+Na época a Fiat **só contratava por carta de recomendação**, e fazia
+**auditoria com a família e com a vizinhança** para avaliar índole e caráter
+do candidato. A conduta tinha que ser ilibada **mesmo fora da fábrica**, e
+funcionário com nome sujo não ficava.
+
+O RH o chamou e disse que **a demissão era para pagar e quitar a dívida junto
+ao banco Fiat**, deixando claro que não era por mau desempenho. Ele explicou
+que a dívida não era dele. **Foi demitido assim mesmo.**
+
+Nas palavras dele: *"um sonho cortado por emprestar o nome para alguém e
+principalmente confiar sem desconfiar"*.
+
+**A ironia que amarra:** a carta que o fez entrar era do mesmo homem cuja
+dívida o fez sair. E foi essa demissão que levou ao ano de desemprego e ao
+carrinho de cachorro-quente.
 
 ⚠ **Três decisões editoriais que são dele:** se os apelidos Salsicha,
 Pinguinha e Brinquinho ficam no livro; se o detalhe de que o Pinguinha
