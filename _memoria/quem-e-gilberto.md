@@ -13,9 +13,14 @@
   tributária, assessoria jurídica, assessoria empresarial, gestão trabalhista, PF.
 - **Mentalidade:** empresário nato, pensa em escala, gosta de modelar negócios
   que já funcionam.
-- **Instagram pessoal ativo:** `@gilbertosenaoficial` (um L — confirmado em
-  17/jul/2026; o perfil `@gilbertosenaoficiall` com dois L está sendo
-  descontinuado, a própria bio dele redireciona pro de um L).
+- **Instagram pessoal ativo:** **`@gilbertosenaoficiall` — com DOIS L.**
+  Corrigido por ele em **09/out/2026**. Em 17/jul/2026 estava registrado o
+  contrário (um L, com o de dois L sendo descontinuado); **ele voltou para o
+  de dois L**. Usar dois L em toda peça nova.
+
+  ⚠ **Todo o conteúdo gerado antes de 09/out/2026 está com um L** (61
+  arquivos em `saidas/` e `identidade/design-guide.md`). O que já foi postado
+  fica como está; o que ainda não foi precisa ser corrigido antes de ir ao ar.
 
 ## Autoridade / bastidores (o que dá peso)
 
