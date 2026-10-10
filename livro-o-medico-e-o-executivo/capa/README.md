@@ -65,22 +65,22 @@ pronto na mesma hora.
 
 ---
 
-## Três coisas para ele decidir
+## O que já foi decidido
 
-**1. Stanley, e não Staley.** No pedido ele escreveu "Staley", mas o vídeo de
-apresentação da própria dupla assina **"Stanley Bittar e Gilberto Sena"**, e
-ele mesmo já tinha confirmado Stanley em 09/out/2026. **A capa está com
-Stanley.** Em capa de livro isso não pode ficar em dúvida.
+**1. ~~Stanley, e não Staley.~~ Confirmado por ele em 09/out/2026: é
+Stanley.** O escopo recebido escreve "Staley" do começo ao fim e **precisa
+ser corrigido na fonte**. A capa está com Stanley.
 
-**2. A tarja de cima.** *"A história real de um império que ruiu"* é forte e
-é verdadeira, mas é a história do outro autor exposta na capa. **Isso precisa
-do aval do Bittar antes de qualquer coisa.** Se ele não quiser, a tarja pode
-virar algo como "Dois caminhos, uma empresa, e o que ninguém examinou".
+**2. ~~A tarja de cima.~~ Decidida em 09/out/2026:** *"Dois caminhos, uma
+empresa, e o que ninguém examinou"*. Ele escolheu esta em vez de "A história
+real de um império que ruiu", que exporia a queda do coautor logo na capa.
+**Foi a escolha certa:** esta diz a mesma coisa sem acusar ninguém, e ainda
+amarra com o nome do primeiro capítulo.
 
-**3. O perfil do Instagram.** Ele pediu as fotos de `@gilbertosenaoficiall`,
-com dois L. O perfil oficial dele, confirmado em 17/jul/2026, é
-**`@gilbertosenaoficial`, com um L** — o de dois L está sendo descontinuado e
-a própria bio redireciona. Vale conferir qual está usando hoje.
+**3. ~~O perfil do Instagram.~~ Resolvido em 09/out/2026: é
+`@gilbertosenaoficiall`, com DOIS L.** O registro anterior, de julho, dizia o
+contrário. A memória foi corrigida. **Atenção:** os 61 arquivos de conteúdo
+já gerados em `saidas/` estão com um L.
 
 ---
 
