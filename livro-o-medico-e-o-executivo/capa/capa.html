@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>O Médico e o Executivo — capa</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Archivo:wght@400;500;600&display=swap">
+<style>
+  /* --------------------------------------------------------------
+     Capa 16 x 23 cm, a medida comercial de livro de negocios no
+     Brasil. O conceito e a divisao: dois mundos, uma linha no meio,
+     e o titulo atravessando ela. A linha e o livro.
+     Os dois retratos vao em duotone igual, porque foto de autores
+     diferentes nunca combina em cor e o duotone resolve isso.
+     -------------------------------------------------------------- */
+  :root{
+    --fundo:#0A1018;
+    --fundo-claro:#121B28;
+    --tinta:#ECE9E2;
+    --tinta-fraca:#8A97A8;
+    --ouro:#C9A24B;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{background:#000}
+  body{font-family:Archivo,Helvetica,Arial,sans-serif}
+
+  .capa{position:relative;width:945px;height:1358px;overflow:hidden;
+        background:
+          radial-gradient(120% 70% at 50% 0%, var(--fundo-claro) 0%, var(--fundo) 55%, #060A10 100%);
+        color:var(--tinta)}
+
+  /* ---------- topo ---------- */
+  .selo{position:absolute;top:74px;left:0;right:0;text-align:center;
+        font-size:12.5px;letter-spacing:.42em;text-transform:uppercase;
+        color:var(--ouro);font-weight:600}
+
+  .titulo{position:absolute;top:150px;left:64px;right:64px;text-align:center;
+          font-family:"Playfair Display",Georgia,serif;line-height:.98}
+  .titulo .l1{display:block;font-size:92px;font-weight:700;letter-spacing:-.012em}
+  .titulo .conj{display:block;font-size:34px;font-weight:500;font-style:italic;
+                color:var(--ouro);margin:14px 0 10px;letter-spacing:.06em}
+  .titulo .l2{display:block;font-size:92px;font-weight:700;letter-spacing:-.012em}
+
+  .sub{position:absolute;top:430px;left:104px;right:104px;text-align:center;
+       font-size:21px;line-height:1.6;color:var(--tinta-fraca);font-weight:400}
+  .sub b{color:var(--tinta);font-weight:500}
+
+  /* ---------- os dois retratos ---------- */
+  .duo{position:absolute;left:0;right:0;bottom:168px;height:620px;display:flex}
+  .duo .meio:first-child{margin-right:1px}
+  .meio{position:relative;flex:1;overflow:hidden}
+  .meio img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;
+            display:block}
+  /* a foto nasce do escuro: sem recorte, sem silhueta dura */
+  .meio::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background:
+      linear-gradient(to bottom, rgba(10,16,24,1) 0%, rgba(10,16,24,0) 26%,
+                      rgba(10,16,24,0) 58%, rgba(10,16,24,.96) 100%),
+      linear-gradient(to right, rgba(10,16,24,.9) 0%, rgba(10,16,24,0) 16%,
+                      rgba(10,16,24,0) 84%, rgba(10,16,24,.9) 100%)}
+
+  /* a linha que divide atravessa a capa inteira: e o conceito do livro.
+     Fica acima das fotos, senao o degrade das bordas a engole. */
+  .divisao{position:absolute;left:50%;top:392px;bottom:72px;width:1px;
+           transform:translateX(-.5px);z-index:5;pointer-events:none;
+           background:linear-gradient(to bottom,
+             rgba(201,162,75,0) 0%, rgba(201,162,75,.9) 10%,
+             rgba(201,162,75,.9) 90%, rgba(201,162,75,0) 100%)}
+  .divisao::before,.divisao::after{content:"";position:absolute;left:-2.5px;
+    width:6px;height:6px;background:var(--ouro);transform:rotate(45deg)}
+  .divisao::before{top:28%}
+  .divisao::after{bottom:28%}
+
+  .vago{position:absolute;inset:0;display:flex;align-items:center;
+        justify-content:center;flex-direction:column;gap:10px;
+        border:1px dashed rgba(201,162,75,.45);margin:26px;
+        color:var(--ouro);font-size:12px;letter-spacing:.28em;
+        text-transform:uppercase;text-align:center;line-height:2}
+
+  /* ---------- assinaturas ---------- */
+  .nomes{position:absolute;left:0;right:0;bottom:88px;display:flex;
+         align-items:flex-start;justify-content:center;gap:0;z-index:3}
+  .nome{flex:1;text-align:center;padding:0 40px}
+  .nome .n{font-family:"Playfair Display",Georgia,serif;font-size:29px;
+           font-weight:500;letter-spacing:.01em}
+  .nome .q{display:block;margin-top:7px;font-size:11.5px;letter-spacing:.24em;
+           text-transform:uppercase;color:var(--tinta-fraca)}
+
+  .rodape{position:absolute;left:0;right:0;bottom:44px;text-align:center;
+          font-size:11px;letter-spacing:.3em;text-transform:uppercase;
+          color:rgba(138,151,168,.55)}
+</style>
+</head>
+<body>
+<div class="capa">
+
+  <div class="divisao"></div>
+
+  <div class="selo">A história real de um império que ruiu</div>
+
+  <div class="titulo">
+    <span class="l1">O MÉDICO</span>
+    <span class="conj">e o</span>
+    <span class="l2">EXECUTIVO</span>
+  </div>
+
+  <div class="sub">
+    Excelência técnica não basta para manter uma empresa de pé.<br>
+    <b>O encontro entre quem domina o ofício e quem domina a gestão.</b>
+  </div>
+
+  <div class="duo">
+    <div class="meio">
+      <img src="fotos/bittar-placeholder.jpg" alt="">
+      <div class="vago">Foto do<br>Dr. Stanley Bittar<br>— a definir —</div>
+    </div>
+    <div class="meio">
+      <img src="fotos/gilberto.jpg" alt="Gilberto Sena">
+    </div>
+  </div>
+
+  <div class="nomes">
+    <div class="nome"><span class="n">Dr. Stanley Bittar</span>
+      <span class="q">Cirurgião</span></div>
+    <div class="nome"><span class="n">Gilberto Sena</span>
+      <span class="q">Executivo</span></div>
+  </div>
+
+  <div class="rodape">Gestão · Negócios · Memória</div>
+
+</div>
+</body>
+</html>
