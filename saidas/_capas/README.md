@@ -29,8 +29,15 @@ platforms: [{"platform": "instagram", "accountId": "<id>"}]
 Dá para aplicar depois de agendado: `posts_update_post` aceita post com
 status `scheduled` e não perde a hora nem a legenda.
 
-### O que considerar antes de usar de novo
+### ⚠ Isso vai mudar
 
-Capa preta deixa o grid uniforme e esconde do que o vídeo trata. Num perfil
-em que a imagem é o atrativo, isso custa clique. Vale quando a intenção é
-justamente o grid, ou quando o conteúdo se vende pela legenda.
+**Ele avisou em 10/out/2026 que a capa vai mudar num próximo momento.** Então
+**não tratar preto como padrão**: em publicação nova, perguntar ou esperar ele
+dizer qual capa usar.
+
+O que pesa na decisão: capa preta deixa o grid uniforme e esconde do que o
+vídeo trata. Num perfil em que a imagem é o atrativo, como orquestra e
+pianista, isso custa clique. Vale quando a intenção é justamente o grid.
+
+Uma terceira via, se ele quiser os dois: capa preta **com o nome da obra em
+branco**. Mantém a uniformidade e ainda diz o que é.
