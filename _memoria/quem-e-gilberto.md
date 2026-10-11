@@ -13,14 +13,18 @@
   tributária, assessoria jurídica, assessoria empresarial, gestão trabalhista, PF.
 - **Mentalidade:** empresário nato, pensa em escala, gosta de modelar negócios
   que já funcionam.
-- **Instagram pessoal ativo:** **`@gilbertosenaoficiall` — com DOIS L.**
-  Corrigido por ele em **09/out/2026**. Em 17/jul/2026 estava registrado o
-  contrário (um L, com o de dois L sendo descontinuado); **ele voltou para o
-  de dois L**. Usar dois L em toda peça nova.
+- **Instagram oficial: `@gilbertosenaoficial` — com UM L.**
+  **Decisão dele em 10/out/2026, e é definitiva:** essa é a conta oficial
+  daqui pra frente. É a que está conectada à Zernio e a que recebe as
+  publicações. **Usar um L em toda peça, sem exceção.**
 
-  ⚠ **Todo o conteúdo gerado antes de 09/out/2026 está com um L** (61
-  arquivos em `saidas/` e `identidade/design-guide.md`). O que já foi postado
-  fica como está; o que ainda não foi precisa ser corrigido antes de ir ao ar.
+  O perfil de dois L (`@gilbertosenaoficiall`) existe e não é mais o oficial.
+  Houve confusão entre os dois em 09/out/2026; está encerrada. Se ele citar o
+  de dois L em algum pedido, confirmar antes de aplicar.
+
+  O TikTok usa o mesmo nome, `gilbertosenaoficial`, e também está conectado à
+  Zernio. Ver [[zernio-instagram-conectado]] na memória do Claude para os IDs
+  e o fluxo de publicação.
 
 ## Autoridade / bastidores (o que dá peso)
 

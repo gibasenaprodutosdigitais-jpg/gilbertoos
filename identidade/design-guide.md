@@ -11,6 +11,9 @@
   livremente em qualquer fundo, claro ou escuro). Símbolo de força,
   liderança e autoridade.
 - **Instagram:** [@gilbertosenaoficial](https://www.instagram.com/gilbertosenaoficial/)
+  — **com UM L**, confirmado como o perfil oficial em 10/out/2026. É a conta
+  conectada à Zernio e a que recebe as publicações. Existe um perfil antigo
+  com dois L que **não** deve aparecer em peça nenhuma.
 - **Nome/wordmark:** GILBERTO SENA
 - A logo entra pequena, uma vez por peça (ex.: canto do slide de capa e do
   CTA final). Não precisa se repetir gritando em todo slide — marca boa não

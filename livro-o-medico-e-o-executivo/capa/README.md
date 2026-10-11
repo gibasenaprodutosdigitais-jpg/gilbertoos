@@ -108,10 +108,9 @@ real de um império que ruiu", que exporia a queda do coautor logo na capa.
 **Foi a escolha certa:** esta diz a mesma coisa sem acusar ninguém, e ainda
 amarra com o nome do primeiro capítulo.
 
-**3. ~~O perfil do Instagram.~~ Resolvido em 09/out/2026: é
-`@gilbertosenaoficiall`, com DOIS L.** O registro anterior, de julho, dizia o
-contrário. A memória foi corrigida. **Atenção:** os 61 arquivos de conteúdo
-já gerados em `saidas/` estão com um L.
+**3. ~~O perfil do Instagram.~~ Fechado em 10/out/2026: o oficial é
+`@gilbertosenaoficial`, com UM L**, que é o que está conectado à Zernio e o
+que recebe as publicações. O conteúdo já gerado em `saidas/` está certo.
 
 ---
 
