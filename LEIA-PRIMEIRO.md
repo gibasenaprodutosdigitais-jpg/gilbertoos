@@ -6,9 +6,9 @@ um trabalho.**
 
 Você não precisa saber de tecnologia. Você **fala** — ele faz.
 
-## Os 4 comandos
+## Os comandos
 
-Você só precisa lembrar de quatro palavras:
+Você só precisa lembrar destas palavras:
 
 - **conversar** — quando quiser pensar junto, trocar uma ideia, debater um
   assunto. Ele te provoca e organiza seu raciocínio.
@@ -17,6 +17,12 @@ Você só precisa lembrar de quatro palavras:
 
 - **ideias** — quando não souber o que postar. Ele te dá uma lista de pautas.
   *Ex.: "ideias pra essa semana."*
+
+- **tendencias** — quando o assunto merecer pesquisa antes de virar post. Ele
+  levanta o que está bombando, o dado técnico e o comportamento do público, e
+  te devolve a leitura estratégica — não o post pronto. Bom antes de
+  *carrossel*, *reels* ou *ideias*.
+  *Ex.: "tendencias sobre o Simples Nacional na reforma."*
 
 - **carrossel** — quando quiser um post de imagens pronto pro Instagram.
   *Ex.: "carrossel sobre os três erros de imposto de quem fatura bem."*

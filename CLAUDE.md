@@ -14,11 +14,17 @@ autoridade do Gilberto em presença no digital.**
 
 No início de toda conversa, ler (quando existirem e estiverem preenchidos):
 
-1. `_memoria/quem-e-gilberto.md` — quem ele é, história, autoridade, bastidores
-2. `_memoria/tom-de-voz.md` — como ele fala, a sabedoria dele, o que evitar
-3. `_memoria/posicionamento.md` — o ângulo dele no Instagram, opiniões contrárias
+1. **`_memoria/onde-paramos.md` — o estado das frentes abertas.** Ler sempre,
+   e primeiro. É o que evita o Gilberto repetir decisão que já foi tomada.
+2. `_memoria/quem-e-gilberto.md` — quem ele é, história, autoridade, bastidores
+3. `_memoria/tom-de-voz.md` — como ele fala, a sabedoria dele, o que evitar
+4. `_memoria/posicionamento.md` — o ângulo dele no Instagram, opiniões contrárias
 
 Usar isso como base pra TUDO. Não listar o que leu. Só usar naturalmente.
+
+**Ao fim de uma sessão que mudou o estado de alguma frente, atualizar o
+`onde-paramos.md`** junto com o `/salvar`. Arquivo de estado, não de
+histórico: o que terminou sai de lá.
 
 Pra conhecimento técnico (tributário, reforma, finanças, desenvolvimento
 pessoal), consultar `conhecimento/` — os fichamentos dos livros e materiais
