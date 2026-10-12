@@ -80,7 +80,35 @@ limites do YouTube.
 
 ---
 
-## Para publicar
+## O que foi publicado, e por quê
+
+**Decisão dele em 11/out/2026:** o objetivo é **construir o canal**, então
+publicar só o que serve a esse propósito.
+
+**Os quatro agendados**, um por dia ao meio-dia, horário de Brasília:
+
+| Dia | Título | Por que entrou |
+|---|---|---|
+| 12/out | 30% dos empresários vão quebrar em 2027 | ele falando, gancho forte, 64s |
+| 13/out | A empresa não quebra sozinha | o melhor do lote: tese e história dele |
+| 14/out | O empresário não paga imposto | ele falando, curto e direto |
+| 15/out | Simples Nacional: prazo do regime híbrido | utilidade e busca, sem risco autoral |
+
+**Os seis react ficaram de fora.** Mostram Harvey Specter e os 300, não ele.
+Não constroem autoridade nenhuma para o canal e trazem reivindicação de
+direito autoral junto. Para construção de canal, é passivo sem retorno.
+
+Eles continuam com legenda escrita em `legendas.json`, caso ele mude de
+ideia.
+
+⚠ **Um por dia ao meio-dia foi escolha minha**, não dele. O YouTube premia
+constância, e meio-dia é o intervalo de almoço de quem é o público dele. **É
+palpite informado, não dado.** Quando houver histórico no canal,
+`analytics_get_best_time_to_post` dá o horário real.
+
+## Para publicar o resto
+
+
 
 Conta do YouTube na Zernio: `6acc3f8b437b757617379afd`, canal
 `UC_St0YFz8RAcHJXlxQ6zcFw`.
