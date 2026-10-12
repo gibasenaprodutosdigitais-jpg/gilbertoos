@@ -134,7 +134,28 @@ cabe antes de mandar qualquer coisa para o YouTube.**
 
 ---
 
-## 5. Fora deste repositório
+## 5. Empreenda — encerrado e enxugado
+
+A sociedade com a Elaine (**Ecossistema Empreenda**) foi descontinuada em
+11/08/2026. Em **12/10/2026 ele mandou eliminar todo o material de plano de
+negócios e de projeto, deixando só o jurídico.**
+
+**Sobrou:** `negocios-declinados/juridico/`, 7 pastas. Ver o README de lá.
+**Saiu:** `comercial/`, `financeiro/` e o carrossel do Empreenda Business.
+Tudo recuperável no histórico do git — o comando está no mesmo README.
+
+⚠ **Há uma cobrança em aberto:** R$ 31.330,37, na proposta de dissolução de
+19/08, com **2 pontos pendentes de confirmação dele**. O demonstrativo
+financeiro que sustentava esse número foi removido junto; se a cobrança
+evoluir, recuperar do git.
+
+**Não retomar, atualizar nem expandir nada da Empreenda.** Se o nome
+aparecer num pedido novo, perguntar antes se é sobre o encerramento ou outra
+coisa.
+
+---
+
+## 6. Fora deste repositório
 
 O **OCEO** é projeto à parte, em `Projetos Gsena Tec/oceo/`, com CLAUDE.md
 próprio e código rodando. **Ler o CLAUDE.md de lá** antes de mexer, e não
