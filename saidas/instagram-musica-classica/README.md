@@ -66,7 +66,29 @@ obra nem pelo número da frente, que se repetem entre lotes.
 
 ---
 
-## Pendente: levar os 12 do lote 1 para o YouTube
+## ~~Levar os 12 do lote 1 para o YouTube~~ Cancelado
+
+**Ele decidiu em 11/out/2026 não subir esses vídeos para o YouTube.** Nada
+foi publicado lá: o trabalho parou nas legendas.
+
+**O que ficou pronto e continua valendo:**
+
+- **O canal está conectado** à Zernio, saudável, com permissão de publicar e
+  de ler métricas. ID `6acc3f8b437b757617379afd`, canal
+  `UC_St0YFz8RAcHJXlxQ6zcFw`. Ele pagou o plano para isso, então a conta
+  continua disponível para quando houver conteúdo que caiba lá.
+- **As 12 legendas no formato do YouTube** estão em
+  `youtube-legendas.json`, com título, descrição e tags. Servem de modelo
+  para qualquer vídeo que vá para lá depois.
+
+**O que pesou na decisão**, e vale lembrar numa próxima: o canal dele é de
+**gestão e tributário**, e no YouTube a recomendação é por tema. Misturar
+música clássica ali confunde o aprendizado do algoritmo nos dois sentidos.
+Isso foi dito a ele antes, e a decisão de não subir veio depois.
+
+### O histórico, que fica
+
+
 
 Ele pediu isso em **11/out/2026**, e parou num limite de plano. Retomar
 quando ele avisar.
