@@ -1,11 +1,27 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 12/out/2026, 21h.**
+> Estado das frentes abertas. **Atualizado em 12/out/2026, 22h.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
 > **atualizar sempre que uma frente andar ou fechar.** Arquivo de estado, não
 > de histórico: o que terminou sai daqui.
+
+---
+
+## O primeiro ato da próxima sessão
+
+**Conferir se os posts de 13/out publicaram.** Eram os três primeiros do lote
+novo no Instagram (09:00, 14:00, 20:00) e um no YouTube (12:00). É a primeira
+vez que a fila roda sozinha com esse ritmo, então vale confirmar antes de
+seguir para outra coisa.
+
+`posts_list` com status `published`, e `posts_list_failed` se faltar algum.
+**Avisar ele do resultado sem ele precisar perguntar.**
+
+Depois disso, não há nada esperando de mim. **As três frentes estão todas na
+mão dele ou de terceiros:** o SBS com os sócios, o livro com o Stanley, o
+conteúdo já agendado.
 
 ---
 
