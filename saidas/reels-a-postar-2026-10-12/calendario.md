@@ -75,10 +75,15 @@ ele trata antes de pedir vínculo.
 só". No Instagram isso publica `#grupo` sozinho e deixa "sena" como texto
 solto. Virou `#gruposena`.
 
-**2. "aos 20 anos"** no título de YouTube do expresso. Eu não sei a idade
-dele em 1997 e ele nunca disse — eu inventei. O título agora é *"Eu tinha
-três motos alugadas e não dirigia nenhuma"*, que está na fala dele e é gancho
-melhor.
+**2. "aos 20 anos"** no título de YouTube do expresso. Eu inventei a idade —
+e pior: **o dado estava no repositório**, em `_memoria/quem-e-gilberto.md`,
+desde julho. Em 1997 ele tinha **24 anos**, não 20. Movi o nascimento para "O
+básico" do arquivo, com tabela de idade por ano, para eu não repetir isso.
+
+O título ficou *"Eu tinha três motos alugadas e não dirigia nenhuma. Aí o
+expresso quebrou"*. **Deixei sem idade de propósito:** as três motos só
+existiram em 1999, quando ele tinha 26 — 1997 é o ano da primeira. Então
+"aos 24 anos" com "três motos" seria um erro novo.
 
 ---
 

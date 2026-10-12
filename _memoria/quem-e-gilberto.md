@@ -5,7 +5,18 @@
 
 ## O básico
 
-- **Nome:** Gilberto Sena
+- **Nome:** Gilberto Sena. Nos documentos, **Gilberto Luís de Sena**.
+- **Nascimento: 23/02/1973.** Confirmado por ele em 12/out/2026 e também nos
+  certificados em `dados/biblioteca/`. **Fazer a conta antes de citar idade em
+  qualquer ano**, em vez de estimar:
+  | Ano | Idade | O que acontecia |
+  |---|---|---|
+  | 1995 | 22 | entra como motoboy no expresso |
+  | 1997 | 24 | tira a primeira moto no nome do sogro |
+  | 1999 | 26 | três motos alugadas; o expresso quebra |
+  | 2000 | 27 | entra na Telemar como gerente nível III |
+  | 2010 | 37 | nasce o Grupo Sena |
+  | 2026 | 53 | hoje |
 - **É:** referência no mercado de contabilidade, advocacia e tributário no Brasil
 - **Grupo Sena:** consultoria empresarial, ~10 anos, 5 escritórios (BH — sede,
   Goiânia, São Paulo, Brasília, Rio de Janeiro — atualizado 23/ago/2026;
@@ -514,10 +525,10 @@ de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
 
 ## Formação e certificações (achados nos certificados anexados, 17/jul/2026)
 
-> Fonte: ~20 certificados pessoais dele em `dados/biblioteca/`. Nome completo
-> nos documentos: **Gilberto Luís de Sena**, nascido em **23/02/1973**. Isto
-> é prova concreta por trás da autoridade — pode citar essa formação com
-> segurança, não é ostentação vazia.
+> Fonte: ~20 certificados pessoais dele em `dados/biblioteca/`, no nome
+> **Gilberto Luís de Sena** (nascimento em "O básico", acima). Isto é prova
+> concreta por trás da autoridade — pode citar essa formação com segurança,
+> não é ostentação vazia.
 
 **Formação superior:**
 - **Bacharel em Teologia** — SETEAD (Seminário de Educação Teológica Kerigma

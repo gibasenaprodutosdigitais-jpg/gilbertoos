@@ -233,7 +233,7 @@ de trabalho.
 
 `[LIGAR]` — *Aqui as duas vozes se encontram para fechar o livro.*
 
-Eu termino a minha parte deste livro com cinquenta e tantos anos, cinco
+Eu termino a minha parte deste livro com cinquenta e três anos, cinco
 escritórios, uma pós-graduação em Direito Tributário, um bacharelado em
 Teologia e sete falências nas costas.
 
@@ -334,8 +334,11 @@ mais difícil que começar porque o conhecimento pesa. A lista do que se salva
 de uma queda. O uso das peças no quintal como metáfora de custo afundado, que
 amarra com o capítulo das quedas. E as quatro coisas que ele leva adiante.
 
-**A idade dele** aparece como "cinquenta e tantos anos". Nasceu em
-23/02/1973, então em 2026 tem 53. Trocar pelo número exato se ele preferir, ou
-tirar.
+**A idade dele: resolvido.** Ele confirmou em 12/out/2026 — nasceu em
+23/02/1973, tem 53. O texto agora diz "cinquenta e três anos" em vez de
+"cinquenta e tantos". O número exato vale mais num livro de memória, porque
+ancora o relato no tempo. A única coisa que ele perde é envelhecer junto com o
+leitor: quem ler em 2032 lê uma idade de 2026. Em livro de memória isso é
+normal e não atrapalha.
 
 **Tamanho.** Medir com `formatar-capitulo.py`. Alvo de 8 a 10 páginas.
