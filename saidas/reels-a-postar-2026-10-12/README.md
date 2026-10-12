@@ -1,20 +1,69 @@
-# Reels a postar: 16 vídeos, 12/out/2026
+# Reels a postar: 14 vídeos, 12/out/2026
 
 Baixados por ele na pasta `~/Downloads/Reels a Postar `. **Vieram sem
 legenda:** transcrevi os doze que eu ainda não conhecia e escrevi todos os
 textos.
 
-**Arquivo:** `textos.json`, com legenda de Instagram para os 16 e título,
-descrição e tags de YouTube para os 11 que ainda não estão lá.
+Chegaram dezesseis. **Catorze seguem.** As decisões dele estão registradas
+abaixo.
+
+**Arquivos:**
+- `textos.json` — os 14 que vão: legenda de Instagram para todos, e título,
+  descrição e tags de YouTube para os 9 que ainda não estão lá.
+- `fora-da-fila.json` — os 2 que saíram, com o texto já escrito, caso ele
+  queira resgatar depois.
 
 **Nada foi agendado ainda.**
 
 ---
 
-## O que já estava no ar
+## As três decisões dele
 
-Cinco dos dezesseis já tinham destino no YouTube. Confirmei por comparação
-byte a byte dos arquivos:
+### 1. Victoria's Secret: **fora, vai regravar**
+
+O vídeo dizia que o investidor pagou 4 milhões de dólares e que o suicídio
+foi dois anos depois. O documentado é outro: a venda a Les Wexner foi por
+**1 milhão**, em 1982, e Roy Raymond morreu em **agosto de 1993**, onze anos
+depois. Os 500 milhões em dois anos são o **faturamento** da empresa já sob o
+novo dono — é provavelmente daí que veio a confusão.
+Fontes: Wikipedia (Roy Raymond), Retail Gazette.
+
+Num perfil que se sustenta em autoridade, número errado em história conhecida
+é o tipo de coisa que alguém corrige nos comentários. Ele decidiu regravar.
+O texto está guardado em `fora-da-fila.json` e serve para a nova gravação.
+
+### 2. Rico x Pobre: **cortado**
+
+O trecho sobre Serasa e restrição de nome saiu do vídeo, não só do texto.
+Removi **13,7 segundos** — de 66,5s a 80,2s — com fade de 80ms na emenda.
+
+Era a parte em que ele diz que o rico "está cagando e andando" para
+restrição de nome e Serasa, e que pobre é que se preocupa com isso. Por
+escrito ou em vídeo, vira print fácil de tirar de contexto e soa como
+conselho para sujar o nome.
+
+A emenda ficou em *"O rico tem paciência. Então quando entra com uma revisão
+dessa aqui, é de 3 a 4 anos..."* — conferi por transcrição, está limpa. A
+tese da paciência, que é o ponto real, se sustenta inteira, e o fecho
+responsável ("revisão não é não pagar") continua lá.
+
+- Vai: `Rico X Pobre - sem o trecho do serasa.mp4` — **83s**, 43,6 MB
+- Original intacto na mesma pasta — **97s**, 15,7 MB
+
+O arquivo engordou porque foi reencodado em CRF 20. Longe do limite de
+300 MB do Reels, então não mexi.
+
+### 3. Vídeo do Ricardo: **fora**
+
+Quem fala não é ele, é outro empresário, e a fala termina em "manda um direct
+pra mim", que é o CTA do Ricardo. Publicado no perfil dele, manda o seguidor
+dele para outro perfil. Ele decidiu desconsiderar.
+
+---
+
+## Cinco já têm destino no YouTube
+
+Confirmei por comparação byte a byte dos arquivos:
 
 | Vídeo | Situação |
 |---|---|
@@ -24,49 +73,10 @@ byte a byte dos arquivos:
 | comitê de gestão da reforma | agendado, 15/out |
 | bitributação intercompany | publicado por ele, manualmente |
 
-**Esses cinco só precisam de Instagram**, onde nenhum dos dezesseis foi
-publicado ainda. No Instagram só saiu a série de música clássica.
+**Esses cinco só precisam de Instagram**, onde nenhum dos catorze foi
+publicado. No Instagram só saiu a série de música clássica.
 
----
-
-## ⚠ Três coisas que precisam da decisão dele
-
-### 1. A história da Victoria's Secret tem número errado
-
-O vídeo diz que o investidor pagou **4 milhões de dólares** e que o suicídio
-foi **dois anos depois**.
-
-O documentado é outro: a venda a Les Wexner foi por **1 milhão de dólares**,
-em 1982, e Roy Raymond morreu em **agosto de 1993**, onze anos depois. Os 500
-milhões em dois anos referem-se ao **faturamento** da empresa já sob o novo
-dono, e é provavelmente daí que veio a confusão.
-
-Fontes: Wikipedia (Roy Raymond) e Retail Gazette.
-
-**Escrevi os textos sem repetir número nem prazo.** A lição do vídeo, sobre
-propósito e sobre entregar cedo demais, continua de pé sem eles. Mas o áudio
-continua dizendo. **Ele decide se regrava ou se publica assim.**
-
-Num perfil que se sustenta em autoridade, número errado em história conhecida
-é o tipo de coisa que alguém corrige nos comentários.
-
-### 2. O "Rico x Pobre" tem um trecho que eu não escreveria
-
-No vídeo ele diz que o rico "está cagando e andando" para restrição de nome e
-Serasa, e que pobre é que se preocupa com isso.
-
-**Tirei isso dos textos.** Por escrito, vira print fácil de tirar de contexto
-e soa como conselho para sujar o nome. A tese da paciência, que é o ponto
-real do vídeo, se sustenta sem essa parte.
-
-### 3. O vídeo do Ricardo manda o seguidor para outra pessoa
-
-Quem fala não é ele, é outro empresário. E a fala termina com **"manda um
-direct pra mim"**, que é o CTA do Ricardo.
-
-Publicado no perfil dele, isso manda o seguidor dele para outro perfil. Tirei
-o CTA do texto, mas **o áudio continua no vídeo**. Vale cortar os últimos
-segundos antes de publicar.
+Então: **14 para o Instagram, 9 para o YouTube.**
 
 ---
 
