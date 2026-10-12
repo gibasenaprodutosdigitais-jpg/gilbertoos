@@ -6,9 +6,10 @@ Preto puro, 1080 × 1920, que é a medida da capa de Reels. O Instagram corta
 o centro para o quadradinho do feed, então preto funciona nos dois
 enquadramentos.
 
-**Criada em 10/out/2026**, a pedido dele, para os 11 Reels de música clássica
+**Criada em 10/out/2026**, a pedido dele, para os Reels de música clássica
 irem ao ar com o feed uniforme em vez de cada um mostrar um frame diferente
-do vídeo.
+do vídeo. **Aplicada em 11 dos 12 publicados naquela noite** — o primeiro, o
+do Bach, saiu antes, com o frame do próprio vídeo.
 
 ### Como aplicar num post pela Zernio
 
