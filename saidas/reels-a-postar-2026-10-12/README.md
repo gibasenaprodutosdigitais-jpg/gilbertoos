@@ -13,7 +13,7 @@ abaixo.
 - `fora-da-fila.json` — os 2 que saíram, com o texto já escrito, caso ele
   queira resgatar depois.
 
-**Nada foi agendado ainda.**
+**Tudo agendado.** Ver `calendario.md` com dia, hora e ID de cada post.
 
 ---
 
