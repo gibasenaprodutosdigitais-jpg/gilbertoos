@@ -66,6 +66,58 @@ obra nem pelo número da frente, que se repetem entre lotes.
 
 ---
 
+## Pendente: levar os 12 do lote 1 para o YouTube
+
+Ele pediu isso em **11/out/2026**, e parou num limite de plano. Retomar
+quando ele avisar.
+
+**O que trava:** a Zernio só conecta **2 contas no plano gratuito**, e as
+duas já estão ocupadas por Instagram e TikTok. Conectar o YouTube devolve
+`402 PAYMENT_REQUIRED`. **Ele vai adicionar forma de pagamento e chamar de
+volta.**
+
+**O que já está resolvido:** os 12 vídeos **continuam hospedados na Zernio** e
+respondem normalmente. Não precisa subir nada de novo. As URLs estão no
+histórico da conversa de 10/out/2026 e seguem o padrão
+`https://media.zernio.com/media/<id>_react-0NN.mp4`.
+
+**A ordem quando ele voltar:**
+
+1. `connect_get_connect_url` com `platform: youtube` e
+   `profile_id: 6a95ae7c19812bc89ff900d5`.
+2. ⚠ **Avisar para escolher a Conta de Marca** na tela do Google, não o Gmail
+   pessoal. Escolhendo errado, o erro é `no_youtube_channel`. E não desmarcar
+   nenhuma permissão, senão vem `missing_google_permissions`.
+3. Reescrever as 12 legendas no formato do YouTube (ver abaixo).
+4. Agendar com `posts_create_post`, reaproveitando as URLs já hospedadas.
+
+### ⚠ As legendas precisam ser reescritas
+
+As atuais fecham com "Siga @gilbertosenaoficial" e hashtags de Instagram, que
+no YouTube ficam deslocadas. **O YouTube distribui por busca**, então o que
+importa lá é outro:
+
+- **Título** por vídeo. É obrigatório; sem ele, a Zernio usa a primeira linha
+  da legenda, que não serve.
+- **Descrição** com o contexto da obra, do intérprete e do ano.
+- **Tags** no campo `tags`, não como hashtag no texto.
+
+Ele ainda não respondeu se quer isso; **eu recomendei que sim.**
+
+### ⚠ Content ID: avisar antes de qualquer expectativa de receita
+
+São gravações de orquestra. No Instagram passam; **no YouTube o Content ID
+identifica a gravação e o selo ou a emissora reivindica o vídeo.** Em geral o
+vídeo fica no ar, mas **a monetização vai para o reivindicante**, e há casos
+de bloqueio em alguns países.
+
+Isso foi dito a ele em 11/out/2026, antes de ele decidir pagar o plano. Não é
+impedimento: serve como vitrine. Só não serve como fonte de receita.
+
+**Os vídeos virarão Shorts**, por serem verticais e com menos de 3 minutos.
+
+---
+
 ## O que medir quando der
 
 Com 19 publicações em 48 horas, dá para comparar de verdade:
