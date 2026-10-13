@@ -161,6 +161,14 @@ Como medir, na ordem da hierarquia de métricas que virou regra:
 **O que decide:** encaminhamento (compartilhamento) por post, primeiro. Depois
 alcance. **Não decidir por curtida nem por seguidor novo.**
 
+**Caiu um segundo teste no colo, no TikTok.** Em 13/out ele mandou publicar
+lá **de 3 em 3 horas sem parar**, e **5 dos 14 caem entre meia-noite e 7h**.
+Avisei e ele manteve. Então dá para comparar, no mesmo lote e com o mesmo
+conteúdo, **os 5 da madrugada contra os 9 do horário comercial** — e
+responder se horário importa no TikTok dele, onde a entrega é por Para Você
+e não por seguidor. Calendário em
+`saidas/reels-a-postar-2026-10-12/calendario.md`.
+
 A pergunta a responder: **3 por dia rendeu mais encaminhamento TOTAL na
 semana, ou só diluiu o mesmo bolo em mais posts?** Se diluiu, voltar a
 frequência do feed e jogar o excedente pro Stories.

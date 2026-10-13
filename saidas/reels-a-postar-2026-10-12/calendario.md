@@ -55,28 +55,46 @@ Os três primeiros já estavam agendados desde 12/out. Os nove novos entram
 depois deles, sem buraco e sem sobreposição.
 
 
-## TikTok — `gilbertosenaoficial` (adicionado 13/out)
+## TikTok — `gilbertosenaoficial` (reagendado 13/out, 12h)
 
-Os **mesmos 14 vídeos**, nos mesmos horários do Instagram. Inclui o "A empresa
-não quebra por si só", que no Instagram já tinha saído às 09:00 de 13/out —
-no TikTok ele é inédito, então entrou no slot vago de sexta 14:00.
+Os **mesmos 14 vídeos**, mas **de 3 em 3 horas, sem parar**, a pedido dele.
+Começa hoje às 12:30 e fecha em 15/out às 03:30 — **39 horas corridas**.
 
-| Dia | Hora | Vídeo | ID |
-|---|---|---|---|
-| seg 13 | 14:00 | Operação x Operacional | `6ace48030c44eac5dd6e4691` |
-| seg 13 | 20:00 | Palestra Expresso 97 | `6ace483e3a1944c74c0e9e90` |
-| ter 14 | 09:00 | 2027 pode quebrar sua empresa | `6ace483f3a1944c74c0e9e94` |
-| ter 14 | 14:00 | Dinheiro é energia | `6ace48413a1944c74c0e9e98` |
-| ter 14 | 20:00 | Metáfora do Formigão | `6ace4842414bc3da83136471` |
-| qua 15 | 09:00 | O empresário não paga o imposto | `6ace4842414bc3da83136475` |
-| qua 15 | 14:00 | Caixinha define | `6ace4844414bc3da83136481` |
-| qua 15 | 20:00 | Áudio do filho | `6ace4844414bc3da83136489` |
-| qui 16 | 09:00 | Comitê Gestor / Simples | `6ace4846c4933a90d0668aca` |
-| qui 16 | 14:00 | Rico x Pobre (cortado) | `6ace48473a1944c74c0e9ebc` |
-| qui 16 | 20:00 | Quantos Gilbertos | `6ace48480c44eac5dd6e4781` |
-| sex 17 | 09:00 | Bitributação intercompany | `6ace48490c44eac5dd6e4785` |
-| sex 17 | 14:00 | **A empresa não quebra por si só** | `6ace484a3a1944c74c0e9ecd` |
-| sex 17 | 20:00 | Vídeo sobre evolução | `6ace484b3a1944c74c0e9ed5` |
+Isso é ritmo diferente do Instagram de propósito. Não há mais espelhamento
+de horário entre as duas plataformas.
+
+| # | Dia | Hora | Vídeo | ID |
+|---|---|---|---|---|
+| 1 | seg 13 | 12:30 | Operação x Operacional | `6ace48030c44eac5dd6e4691` |
+| 2 | seg 13 | 15:30 | Palestra Expresso 97 | `6ace483e3a1944c74c0e9e90` |
+| 3 | seg 13 | 18:30 | 2027 pode quebrar sua empresa | `6ace483f3a1944c74c0e9e94` |
+| 4 | seg 13 | 21:30 | Dinheiro é energia | `6ace48413a1944c74c0e9e98` |
+| 5 | ter 14 | **00:30** | Metáfora do Formigão | `6ace4842414bc3da83136471` |
+| 6 | ter 14 | **03:30** | O empresário não paga o imposto | `6ace4842414bc3da83136475` |
+| 7 | ter 14 | **06:30** | Caixinha define | `6ace4844414bc3da83136481` |
+| 8 | ter 14 | 09:30 | Áudio do filho | `6ace4844414bc3da83136489` |
+| 9 | ter 14 | 12:30 | Comitê Gestor / Simples | `6ace4846c4933a90d0668aca` |
+| 10 | ter 14 | 15:30 | Rico x Pobre (cortado) | `6ace48473a1944c74c0e9ebc` |
+| 11 | ter 14 | 18:30 | Quantos Gilbertos | `6ace48480c44eac5dd6e4781` |
+| 12 | ter 14 | 21:30 | Bitributação intercompany | `6ace48490c44eac5dd6e4785` |
+| 13 | qua 15 | **00:30** | A empresa não quebra por si só | `6ace484a3a1944c74c0e9ecd` |
+| 14 | qua 15 | **03:30** | Vídeo sobre evolução | `6ace484b3a1944c74c0e9ed5` |
+
+### ⚠ Cinco caem na madrugada
+
+Os marcados em negrito saem entre meia-noite e 7h. **Foi avisado a ele e ele
+manteve o ritmo de 3 em 3 horas.**
+
+O argumento a favor: no TikTok a entrega é por Para Você, não por seguidor,
+então o vídeo continua sendo distribuído depois da hora em que foi postado.
+Horário pesa bem menos ali do que no Instagram.
+
+O argumento contra: as primeiras horas ainda contam para o teste inicial do
+algoritmo, e às 3h da manhã há menos gente para testar.
+
+**Medir isso na análise de 18/out:** comparar o desempenho dos 5 da
+madrugada contra os 9 do horário comercial. É um teste natural que caiu no
+colo, e responde se horário importa no TikTok dele.
 
 ### ⚠ As legendas do TikTok são diferentes, de propósito
 
