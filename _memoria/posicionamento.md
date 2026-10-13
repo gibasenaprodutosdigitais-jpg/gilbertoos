@@ -60,11 +60,13 @@ estrutura de programação definidos.
 - Um inimigo claro (a prática, a crença, o tipo de profissional que ele combate):
   **a indústria de mastermind/mentoria que vende acesso e status (selfie com
   autoridade, hierarquia de proximidade, "bastidor") sem gerar reciprocidade
-  real — negócio de verdade fechado entre os membros.** Contraste: o modelo
-  que ele está construindo na Empreenda Business — conexão com critério,
-  confiança e vitrine pública (virar capa) como mecanismo de cobrança, em vez
-  de protocolo burocrático tipo BNI ou promessa vazia de rede. Ver
-  `quem-e-gilberto.md` (Revista Empreenda).
+  real — negócio de verdade fechado entre os membros.**
+
+  ⚠ **Atualizado em 13/out/2026:** o contraste registrado aqui era a Empreenda
+  Business. **Esse material foi eliminado a pedido dele em 12/out/2026** (ver
+  `onde-paramos.md`), então o contraste precisa de exemplo novo. **O inimigo
+  continua valendo** — e ele é a razão de a "escada do desejo" ter sido
+  recusada na regra de cadência, no fim deste arquivo.
 
 ## ★ O "cavalo" pra montar AGORA — a reforma tributária
 
@@ -103,3 +105,93 @@ O de quarta é recortado de dentro do vídeo de segunda (grava uma vez,
 corta duas). Nunca três dias seguidos do mesmo tipo. Detalhe completo —
 réguas de medição, "o que não fazer", motor de pauta com exemplos — no
 plano completo (link no topo deste arquivo).
+
+---
+
+# ★ Regra de cadência e métrica (13/out/2026)
+
+> Ele trouxe um método de terceiro (3 cards, marca "Advisor News", atribuído
+> a um tal **Nardon**) e pediu pra virar regra. **Não consegui confirmar quem
+> é o Nardon nem o posicionamento dele** — busca não achou fonte. Então o que
+> está abaixo é avaliação do método em si contra o posicionamento dele, não
+> comparação entre as duas pessoas.
+>
+> **Dos três cards: dois entram como regra, um foi recusado.**
+
+## ✅ ENTRA — A hierarquia das métricas
+
+**A ordem oficial pra olhar número, do que importa pro que não importa:**
+
+`Vendas → MQL → Lead → Encaminhamentos → Alcance → Engajamento → Seguidores`
+
+**Encaminhamento (compartilhamento) é a métrica operacional do dia a dia.** É
+o sinal mais forte que o Instagram lê hoje, e é o único da metade "de fora"
+que puxa a metade "de dentro".
+
+**Por que isso é o card mais valioso pra ele, e não só uma boa ideia:** em
+13/out/2026 ele tinha **105.455 seguidores no Instagram e 2 inscritos no
+YouTube**, com alcance de 3 a 6 mil por post — menos de 6% da base. Ou seja:
+a métrica de ego já está no talo e as métricas de negócio não existem. O card
+descreve exatamente o problema dele.
+
+**Como aplicar:** em todo relatório ou leitura de desempenho, reportar nessa
+ordem. Nunca abrir com número de seguidor.
+
+## ✅ ENTRA — Cada post com uma missão só (Topo / Meio / Fundo)
+
+- **Topo** — atrai gente nova, **não pede nada**
+- **Meio** — mostra o dia a dia, chama pra DM
+- **Fundo** — mostra o que vende, chama pro link
+
+Isso já existe na grade dele como Alcance / Ensino / Prova, e os dois são
+compatíveis. **A regra que fica: um post, uma missão, um CTA.** Post que
+tenta fazer as três coisas não faz nenhuma.
+
+**E a melhor sacada do card:** *"são 12 posts por dia, mas conteúdo novo eu
+produzo só três."* **Produzir pouco e distribuir muito** é o princípio certo,
+e é o que ele já faz quando recorta o vídeo de segunda pro card de quarta.
+
+## ⚠ ENTRA COM CORREÇÃO — a frequência
+
+**O número 12/dia não serve pra ele como está, e tem uma armadilha no card.**
+
+**O card não diz se é feed ou Stories. Essa distinção é tudo.**
+- **12 posts/dia no FEED destroem o alcance.** O Instagram reparte a audiência
+  entre eles; cada um pega uma fração.
+- **12 Stories/dia é normal** e não canibaliza nada.
+
+**A regra:** frequência alta vai pro **Stories**. O **feed continua escasso e
+pesado**. É lá que mora a autoridade que sustenta ticket de R$ 50.000.
+
+**A escala dele hoje:** a grade oficial (Cid, 13/08) é **3 por semana**. O
+lote de 13 a 17/out está rodando a **3 por dia**. **Medir esse lote antes de
+fixar qualquer número novo** — tem dado chegando esta semana, e decidir
+cadência sem ele é chute.
+
+## ❌ RECUSADO — A escada do desejo
+
+`Conhecido → Reconhecido → Respeitado → Admirado → Desejado → Idolatrado`
+
+**Isso contraria o inimigo que ele mesmo declarou neste arquivo:** "a
+indústria de mastermind/mentoria que vende acesso e status (selfie com
+autoridade, hierarquia de proximidade) sem gerar reciprocidade real".
+
+A escada do desejo **é** essa máquina. Subir até "Idolatrado" é adotar a
+lógica da coisa que ele diz combater. O próprio card admite o preço: *"herói
+por tanto tempo até virar vilão."*
+
+E contraria a personalidade definida aqui: **maturidade emocional, o cara que
+quebrou sete vezes.** Não dá pra ser ao mesmo tempo o homem que quebrou sete
+vezes e o ídolo. A primeira é a autoridade dele; a segunda destrói a primeira.
+
+### A escada dele, no lugar daquela
+
+`Conhecido → Reconhecido → Respeitado → Confiável → **Procurado**`
+
+Termina em **Procurado**, não em Idolatrado. O objetivo de negócio é **ser o
+cara pra quem o empresário liga quando a reforma bate na porta** — não ser
+idolatrado. Procurado vende mentoria de R$ 50.000. Idolatrado vende curso de
+R$ 97 e cria plateia, não cliente.
+
+⚠ **Esta troca é sugestão minha e precisa do aval dele.** A tese é dele; eu
+só apontei a contradição.
