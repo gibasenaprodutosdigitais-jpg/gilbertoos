@@ -361,6 +361,28 @@ fichamentos, 8 PDFs do SBS, os cards do carrossel — tudo no lugar.
 peso. Se precisar versionar um vídeo específico um dia, usar `git add -f` —
 mas pensar duas vezes.
 
+### 🔴 O Time Machine está ligado mas NÃO está fazendo backup
+
+**Descoberto em 13/out/2026.** O Time Machine está habilitado e tem destino
+configurado ("Backups de MacBook Pro"), **mas o disco não está conectado**.
+Ele tenta a cada hora e falha com *"Failed to mount destination"*.
+
+**Enquanto esse disco não for plugado, o Mac dele não tem backup nenhum
+além do que está no GitHub.** E o GitHub não guarda vídeo nem áudio.
+
+**Avisar ele quando o assunto backup aparecer.** É um clique: plugar o HD.
+
+⚠ **O disco interno também está apertado:** 45 GB livres de 460 GB.
+
+### A mídia foi para o Google Drive
+
+**13/out/2026:** 171 arquivos de vídeo e áudio, 5,07 GB, copiados para
+`Meu Drive/GilbertoOS - midia (backup)/`, com a estrutura de pastas do
+repositório preservada.
+
+É o backup da mídia que saiu do git. **Se arquivo novo de vídeo for gerado,
+copiar para lá também** — o git não pega mais.
+
 ### As cópias de segurança
 
 `~/Desktop/BACKUP-gilbertoos-antes-da-limpeza-2026-10-13` tem:
