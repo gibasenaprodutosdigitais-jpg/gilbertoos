@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 12/out/2026, 22h.**
+> Estado das frentes abertas. **Atualizado em 13/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -11,17 +11,19 @@
 
 ## O primeiro ato da próxima sessão
 
-**Conferir se os posts de 13/out publicaram.** Eram os três primeiros do lote
-novo no Instagram (09:00, 14:00, 20:00) e um no YouTube (12:00). É a primeira
-vez que a fila roda sozinha com esse ritmo, então vale confirmar antes de
-seguir para outra coisa.
+**Conferir se a fila publicou** — `posts_list` com status `published`, e
+`posts_list_failed` se faltar algum. **Avisar ele do resultado sem ele
+precisar perguntar.** O lote roda de 13 a 17/out no Instagram e até 24/out no
+YouTube. Em 13/out os posts de 09:00 e 14:00 saíram normalmente.
 
-`posts_list` com status `published`, e `posts_list_failed` se faltar algum.
-**Avisar ele do resultado sem ele precisar perguntar.**
+**A partir de 18/out, o primeiro ato é outro: fazer a análise de cadência.**
+Está especificada na seção 3, com as ferramentas, a ordem das métricas e a
+linha de base de 13/out para comparar. **É a única coisa com data marcada.**
 
-Depois disso, não há nada esperando de mim. **As três frentes estão todas na
-mão dele ou de terceiros:** o SBS com os sócios, o livro com o Stanley, o
-conteúdo já agendado.
+Fora isso, nada está esperando de mim. **As frentes estão na mão dele ou de
+terceiros:** o SBS com os sócios, o livro com o Stanley, o conteúdo agendado.
+Duas decisões são dele e não devem ser aplicadas sem aval: **a capa dos Reels**
+(preta "por enquanto") e **o topo da escada de posicionamento**.
 
 ---
 
@@ -132,6 +134,52 @@ vez com `posts_update_post` enquanto estiverem em `scheduled`.
 Ele cancelou subir os Reels de música clássica para lá, porque o algoritmo
 recomenda por tema e misturar confunde os dois lados. **Conferir se o assunto
 cabe antes de mandar qualquer coisa para o YouTube.**
+
+---
+
+### ★ Análise de cadência — agendada para 18/out/2026
+
+Em 13/out ele trouxe um método de terceiro (cards atribuídos a "Nardon",
+marca Advisor News) pedindo 12 posts por dia. **A regra e o que foi aceito e
+recusado estão em `_memoria/posicionamento.md`, no bloco do fim.** Duas
+coisas ficaram em aberto e são para analisar depois, não agora.
+
+**1. O número da cadência — depende de dado que chega sexta.**
+
+O lote de 13 a 17/out está rodando a **3 posts por dia**, contra a grade
+oficial de **3 por semana**. É a primeira vez que ele roda nesse ritmo. **A
+partir de 18/out os 14 posts já publicaram e dá para medir.**
+
+Como medir, na ordem da hierarquia de métricas que virou regra:
+
+| Passo | Ferramenta |
+|---|---|
+| Puxar os 14 posts do lote | `analytics_get_post_timeline` |
+| Comparar com a base anterior | `analytics_get_daily_metrics` |
+| Horário que performou | `analytics_get_best_time_to_post` |
+
+**O que decide:** encaminhamento (compartilhamento) por post, primeiro. Depois
+alcance. **Não decidir por curtida nem por seguidor novo.**
+
+A pergunta a responder: **3 por dia rendeu mais encaminhamento TOTAL na
+semana, ou só diluiu o mesmo bolo em mais posts?** Se diluiu, voltar a
+frequência do feed e jogar o excedente pro Stories.
+
+**Linha de base de 13/out/2026**, para comparar depois:
+- Instagram **105.455** seguidores · alcance de 3.000 a 6.267 por post
+  (menos de 6% da base) · impressões até 9.471
+- TikTok 3.195 · YouTube **2** · Twitter 0
+
+**2. A escada — decisão dele, não minha.**
+
+Eu recusei a "escada do desejo" que termina em **Idolatrado**, porque
+contraria o inimigo que ele mesmo declarou (a indústria que vende acesso e
+status) e a personalidade de maturidade emocional. Propus terminar em
+**Procurado**.
+
+⚠ **Ele ainda não deu o aval.** Em 13/out mandou registrar para análise
+futura. **Perguntar quando o assunto voltar; não aplicar a escada nova como
+se estivesse decidida, nem a antiga.**
 
 ---
 
