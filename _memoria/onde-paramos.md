@@ -219,7 +219,28 @@ coisa.
 
 ---
 
-## 6. Fora deste repositório
+## 6. ⚠ A pasta .git está com 1,2 GB — pendente
+
+Em 13/out/2026 apagamos 2.073 duplicatas e liberamos 279,3 MB **no disco**.
+Entraram no `.gitignore` as sobras de edição de vídeo e o padrão de duplicata
+do macOS, então o problema não volta sozinho.
+
+**Mas a sincronia com o celular continua lenta, e por outro motivo:** o
+histórico do git guarda um **brandbook de 235,5 MB**, commitado uma vez lá
+atrás e depois removido. O arquivo não está mais no repositório; o histórico
+não esquece.
+
+**O conserto existe** — reescrever o histórico com `git filter-repo` ou BFG.
+A pasta cairia de 1,2 GB para algo perto de 200 MB.
+
+⚠ **Não fazer de passagem.** Reescrever histórico obriga `--force` e **o
+celular dele para de sincronizar até alguém baixar o repositório do zero.**
+Ele pediu em 13/out para combinar isso em outro momento, provavelmente com o
+Cid junto. **Não executar por conta própria.**
+
+---
+
+## 7. Fora deste repositório
 
 O **OCEO** é projeto à parte, em `Projetos Gsena Tec/oceo/`, com CLAUDE.md
 próprio e código rodando. **Ler o CLAUDE.md de lá** antes de mexer, e não
