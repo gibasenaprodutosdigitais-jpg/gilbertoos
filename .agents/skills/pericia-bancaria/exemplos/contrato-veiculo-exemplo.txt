@@ -1,0 +1,80 @@
+
+========================================================================
+                  CÉDULA DE CRÉDITO BANCÁRIO
+                    (DOCUMENTO FICTÍCIO — EXEMPLO)
+========================================================================
+
+Nº do instrumento .......: 4471-0092281/22
+Data de emissão .........: 14/09/2022
+Praça de emissão ........: Belo Horizonte / MG
+
+EMITENTE (devedor)
+  Nome ..................: JOÃO DA SILVA SANTOS
+  CPF ...................: 000.000.000-00
+  Endereço ..............: Rua Exemplo, 100 — Belo Horizonte / MG
+
+CREDOR
+  Instituição financeira consignada no campo próprio deste instrumento.
+
+------------------------------------------------------------------------
+QUADRO I — CARACTERÍSTICAS DA OPERAÇÃO
+------------------------------------------------------------------------
+
+  Finalidade ..............: Aquisição de veículo automotor
+  Valor do bem ............: R$ 72.000,00
+  Recursos próprios .......: R$ 15.000,00
+  Valor liberado ao
+    vendedor do bem .......: R$ 57.000,00
+
+  VALOR TOTAL FINANCIADO ..: R$ 61.500,00
+
+  Prazo ...................: 48 (quarenta e oito) meses
+  Sistema de amortização ..: Tabela Price (prestações fixas)
+  Vencimento da 1ª parcela : 14/10/2022
+  Vencimento da última ....: 14/09/2026
+
+  VALOR DA PRESTAÇÃO ......: R$ 2.054,28
+
+------------------------------------------------------------------------
+QUADRO II — ENCARGOS
+------------------------------------------------------------------------
+
+  Taxa de juros mensal ....: 2,12% a.m.
+  Taxa de juros anual .....: 25,44% a.a.
+  Custo Efetivo Total .....: 28,60% a.a.
+
+------------------------------------------------------------------------
+QUADRO III — TARIFAS E DESPESAS FINANCIADAS
+------------------------------------------------------------------------
+
+  Tarifa de Abertura de Crédito (TAC) .........: R$ 1.450,00
+  Tarifa de avaliação do bem ..................: R$ 380,00
+  Ressarcimento de registro do contrato .......: R$ 295,00
+  Seguro prestamista ..........................: R$ 1.180,00
+  IOF .........................................: R$ 1.195,00
+                                                 ----------------
+  Total de despesas incorporadas ao principal .: R$ 4.500,00
+
+------------------------------------------------------------------------
+QUADRO IV — INADIMPLEMENTO
+------------------------------------------------------------------------
+
+  Multa moratória .........: 3% sobre o valor da prestação
+  Juros de mora ...........: 1% ao mês
+  Comissão de permanência .: incidente durante o período de inadimplência,
+                             cumulativamente aos encargos acima.
+
+------------------------------------------------------------------------
+DECLARAÇÃO
+------------------------------------------------------------------------
+
+  O EMITENTE declara ter recebido via deste instrumento e ter tomado
+  conhecimento prévio de todas as suas condições.
+
+  ____________________________________
+  JOÃO DA SILVA SANTOS
+
+========================================================================
+DOCUMENTO FICTÍCIO, GERADO PARA TESTE DE SOFTWARE PERICIAL.
+NÃO REPRESENTA OPERAÇÃO REAL NEM INSTITUIÇÃO FINANCEIRA EXISTENTE.
+========================================================================
