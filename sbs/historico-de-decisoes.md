@@ -386,7 +386,7 @@ modelos novos **substituem** a esteira antiga.
 |---|---|
 | Mentoria 90 dias — R$ 50.000 | 3 meses "Choque de Ordem e Caixa" — **R$ 35.000** |
 | Continuidade 6 meses — R$ 40.000 | 6 meses "Escala Blindada" — **R$ 60.000** |
-| Cesta por porte — R$ 105/200/400 mil | 12 meses "Advisory Board" — **R$ 160.000** |
+| Cesta por porte — R$ 105/200/400 mil | 12 meses **Club SBS** — **R$ 160.000** |
 | *(não existia)* | Imersão de 2 dias — **R$ 3.000 a R$ 5.000** por pessoa |
 
 **A lógica de preço mudou de porte do cliente para tempo de programa.** Vale
@@ -430,3 +430,32 @@ depois olhar o de 12 vai perguntar. A resposta está escrita em `esteira.md`:
 muda a natureza do trabalho — 4 presenciais em vez de 1, e os três deixam de
 ser mentores para sentar no conselho, entrando em decisão de abrir unidade,
 comprar concorrente e trazer sócio.
+
+
+## 15. O programa de 12 meses vira **Club SBS** — 13/out/2026
+
+Decisão dele: o de 12 meses deixa de ser conselho consultivo e vira **clube**,
+com **encontros trimestrais de conexão, principalmente com possíveis
+parceiros e fornecedores**.
+
+Isso resolve a pergunta que estava aberta sobre o que diferencia o de 12 do
+de 6: **o de 6 arruma a casa, o Club abre portas.** E justifica o preço por
+mês mais alto sem precisar falar de corresponsabilidade.
+
+### ⚠ Duas coisas que precisam de decisão antes de vender
+
+**1. O clube é a categoria que ele mesmo combate.** O `posicionamento.md`
+registra como inimigo declarado dele *"a indústria de mastermind que vende
+acesso e status sem gerar reciprocidade real"*. O Club só escapa disso se
+tiver **curadoria de quem entra, conexão feita pelos sócios e medição de
+quantos negócios fecharam entre membros no ano.** Sem a medição, em 12 meses
+ele vira o que o Gilberto critica — e ele vai ser cobrado por isso, com
+razão. A tabela comparativa está em `esteira.md`.
+
+**2. O SBS recebe alguma coisa dos fornecedores que apresenta?** Três
+caminhos: não receber (mais limpo), receber e declarar ao membro (funciona,
+com cláusula no contrato), ou receber sem declarar (não fazer).
+
+⚠ **A comissão de 5% do termo não cobre isso** — aquela é entre os sócios,
+sobre receita de cliente originado pelo SBS. **Se a escolha for receber de
+fornecedor, o termo precisa de cláusula nova.**

@@ -39,7 +39,7 @@ tempo de programa:
 | Imersão presencial | 2 dias | R$ 3.000 a R$ 5.000 por pessoa |
 | Choque de Ordem e Caixa | 3 meses | **R$ 35.000** |
 | Escala Blindada | 6 meses | **R$ 60.000** |
-| Advisory Board e Expansão | 12 meses | **R$ 160.000** |
+| **Club SBS** (conexão) | 12 meses | **R$ 160.000** |
 
 **Saíram:** a mentoria de 90 dias por R$ 50.000, a continuidade de 6 meses e
 a cesta por porte (R$ 105/200/400 mil). Os arquivos continuam na pasta com
@@ -63,9 +63,15 @@ mesa dele — gestão e imposto, médico e venda, margem e dinheiro.
 
 ⚠ **Duas coisas de preço com resposta já escrita em `esteira.md`:**
 1. **O de 12 meses custa mais por mês que o de 6** (R$ 13.333 contra
-   R$ 10.000). Quem subir do 6 para o 12 vai perguntar. A resposta é que
-   muda a natureza: 4 presenciais em vez de 1, e os três passam de mentores
-   a conselho, entrando em decisão de abrir unidade e comprar concorrente.
+   R$ 10.000). A resposta: muda o que se compra. **O de 6 arruma a casa, o
+   Club abre portas** — 4 encontros por ano com fornecedor e parceiro.
+
+**⚠ O Club SBS tem duas decisões pendentes, itens 14 e 15 do histórico.**
+Ele é a categoria que o próprio Gilberto combate no `posicionamento.md` (a
+indústria que vende acesso sem reciprocidade real), e **só escapa com
+curadoria e com medição de quantos negócios fecharam entre membros**. E falta
+decidir se o SBS **recebe dos fornecedores** que apresenta — se receber, o
+termo precisa de cláusula nova, porque os 5% de lá não cobrem isso.
 2. **O preço é por tempo, não por porte.** Uma clínica de uma sala paga o
    mesmo que uma rede.
 

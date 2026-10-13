@@ -20,7 +20,7 @@
 | **0** | Imersão presencial | 2 dias | **R$ 3.000 a R$ 5.000** por participante |
 | **1** | Choque de Ordem e Caixa | 3 meses | **R$ 35.000** |
 | **2** | Escala Blindada | 6 meses | **R$ 60.000** |
-| **3** | Advisory Board e Expansão | 12 meses | **R$ 160.000** |
+| **3** | **Club SBS** | 12 meses | **R$ 160.000** |
 
 A lógica é de degraus: a imersão gera caixa e qualifica, o programa de 3
 meses estanca o sangramento, o de 6 reestrutura, o de 12 expande.
@@ -100,28 +100,75 @@ crescer **sem depender da presença física do dono**.
 
 ---
 
-## 3. Advisory Board e Expansão — 12 meses
+## 3. Club SBS — 12 meses
 
 **R$ 160.000** · cerca de R$ 13.300 por mês
 
-O premium. Os três atuam como **conselho consultivo** do negócio. Para rede,
-hospital-dia consolidado ou clínica que já tem tração e quer dominar o
-mercado, abrir filial ou se preparar para uma venda.
+**Decidido em 13/out/2026:** o programa de 12 meses deixa de ser um conselho
+consultivo e vira **clube**. O que o cliente compra é **conexão** — e, em
+primeiro lugar, conexão com **possíveis parceiros e fornecedores**.
 
-| Trimestre | O que acontece |
+Para rede, hospital-dia consolidado ou clínica que já tem tração e gestão, e
+agora precisa de porta aberta: quem fornece, quem financia, quem vende junto,
+quem compra.
+
+### O que acontece nos quatro encontros
+
+| Trimestre | Eixo |
 |---|---|
 | **1** | Padronização multi-unidades: matriz e filiais operando com a mesma qualidade |
-| **2** | Engenharia financeira e M&A: estrutura para abrir unidade com caixa próprio ou de terceiros, e critério para avaliar concorrente à compra |
-| **3** | Posicionamento de autoridade: transformar o dono em figura pública do nicho, o que levanta o valuation da marca |
-| **4** | Perpetuidade: programa de partnership para reter médico e executivo, e planejamento do ano fiscal seguinte |
+| **2** | Engenharia financeira e expansão: estrutura para abrir unidade, e critério para avaliar concorrente à compra |
+| **3** | Posicionamento de autoridade: o dono como figura pública do nicho, o que levanta o valuation da marca |
+| **4** | Perpetuidade: partnership para reter médico e executivo, e planejamento do ano seguinte |
 
-- **Encontros:** 4 imersões presenciais trimestrais + 1 online mensal de
-  prestação de contas com a diretoria
-- **Entregável:** modelagem financeira de expansão, formatação de franquia ou
-  rede própria, e o desenho da blindagem patrimonial via holding — **para o
-  advogado e o contador do cliente executarem**
+**Cada encontro trimestral é presencial e tem duas metades:** conteúdo
+conduzido pelos três sócios, e a **rodada de conexão** — parceiros e
+fornecedores selecionados sentados com os membros.
 
----
+Entre os encontros: 1 online mensal de prestação de contas com a diretoria.
+
+### O que diferencia isto de um mastermind comum
+
+**Esta é a parte que não pode ser esquecida na hora de montar.** O
+`_memoria/posicionamento.md` registra como inimigo declarado do Gilberto
+exatamente *"a indústria de mastermind que vende acesso e status sem gerar
+reciprocidade real"*.
+
+**Um clube de conexão é a categoria que ele critica.** Só escapa se fizer o
+que ele diz que o mercado não faz:
+
+| O que o mercado faz | O que o Club SBS precisa fazer |
+|---|---|
+| Vende acesso e foto com autoridade | Vende **negócio fechado** |
+| Rede sem critério, quanto maior melhor | **Curadoria**: entra quem tem o que oferecer aos outros |
+| Protocolo burocrático de indicação (tipo BNI) | Conexão feita pelos sócios, que conhecem os dois lados |
+| Promessa vaga de networking | **Medir**: quantos negócios fecharam entre membros no ano |
+
+**A métrica que prova o clube é essa última.** Se no fim de 12 meses ninguém
+fechou negócio com ninguém, o clube virou o que o Gilberto combate — e ele
+vai ser cobrado por isso, com razão.
+
+### ⚠ A pergunta que precisa de decisão antes de vender
+
+**O SBS recebe alguma coisa dos fornecedores que apresenta?**
+
+São três caminhos, e eles mudam o que pode ser dito em sala:
+
+1. **Não recebe nada.** A conexão é parte do que o membro já pagou. É o mais
+   limpo e o mais fácil de defender.
+2. **Recebe, e declara ao membro.** Funciona, desde que esteja escrito no
+   contrato e dito na frente de todos.
+3. **Recebe e não declara.** Não fazer. Destrói a tese da reciprocidade real
+   no dia em que alguém descobrir, e alguém sempre descobre.
+
+⚠ **A comissão de 5% do termo não cobre isso.** Aquela é entre os sócios,
+sobre receita de cliente originado pelo SBS — não trata de dinheiro vindo de
+fornecedor. **Se a decisão for o caminho 2, o termo precisa de cláusula
+nova.**
+
+**Entregáveis do ano:** modelagem financeira de expansão, formatação de
+franquia ou rede própria, e o desenho da blindagem patrimonial — **para o
+advogado e o contador do cliente executarem**.
 
 ## O argumento de ancoragem: as três cabeças
 
@@ -157,14 +204,16 @@ funciona melhor que contagem regressiva.
 olhar o de 12 vai perguntar por que o mês ficou 33% mais caro. **Ter a
 resposta pronta:**
 
-> "Porque muda a natureza do trabalho. No de 6 meses nós vamos à sua clínica
-> uma vez. No de 12, quatro vezes, e deixamos de ser mentores para sentar no
-> conselho do seu negócio: entramos em decisão de abrir unidade, de comprar
-> concorrente e de trazer sócio. Isso não é acompanhamento, é
-> corresponsabilidade."
+> "Porque muda o que você está comprando. No de 6 meses você compra
+> reestruturação: nós arrumamos a sua casa. No Club você compra **porta
+> aberta** — quatro encontros por ano sentado com fornecedor, parceiro e
+> gente que já resolveu o problema que você tem agora. Reestruturação você
+> faz uma vez. Conexão é o que sustenta a expansão depois."
 
 **O degrau de 6 meses é o melhor negócio da esteira para o cliente**, e isso
 é intencional: é o programa central, onde a reestruturação de fato acontece.
+**O Club é para quem já passou por ela** — vender Club para quem ainda não
+arrumou a casa é vender networking para quem precisa de gestão.
 
 ## ⚠ O que ficou de fora, e por quê
 
