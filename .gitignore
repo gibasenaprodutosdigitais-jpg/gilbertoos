@@ -58,3 +58,23 @@ E-boocks prontos/cópia de Seja Rico ou Pobre - Gilberto Sena.pdf
 Projetos Gsena Tec/oceo/identidade-visual/_3d-render/
 __pycache__/
 *.pyc
+
+# Sobras de edição de vídeo (quadros soltos, caches de corte).
+# Material descartável, regerado pelo pipeline. Em 13/out/2026 somavam
+# milhares de PNGs no disco — se entrarem no git, o repositório incha e a
+# sincronia com o celular fica lenta.
+saidas/*/frames/
+saidas/*/edit/work/
+saidas/*/edit/clips_graded/
+saidas/*/edit/transcripts/
+
+# Duplicatas do macOS ("arquivo 2.pdf", "cópia de ...").
+# Nunca são conteúdo novo, só cópia byte a byte do original.
+* 2.pdf
+* 2.png
+* 2.jpg
+* 2.mp4
+* 2.txt
+* 2.md
+* 2.html
+cópia de *
