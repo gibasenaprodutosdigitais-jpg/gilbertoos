@@ -102,8 +102,28 @@ Os três PDFs em `sbs/` foram gerados da esteira antiga. **Regerar quando ele
 pedir**, com `gerar-plano-pdf.py`, que precisa ser ajustado para a esteira
 nova.
 
-**Próximo passo: é dos sócios.** A mudança para execução depende da estrutura
-dos três, não só da agenda.
+### O contrato com o cliente existe desde 13/out
+
+`sbs/juridico/contrato-cliente-sbs.md`, minuta 1. Serve para toda a esteira —
+o programa contratado vai no Anexo I. Enquadra tudo como **serviço
+educacional, obrigação de meio**, e traz as seções que protegem os dois
+lados: limite da orientação financeira (espelha a 3.7), declaração de
+interesse quando um sócio é fornecedor, obrigações do cliente, LGPD,
+propriedade do método, arrependimento do CDC e limite de responsabilidade.
+
+**Falta passar por advogado.** É minuta, não contrato pronto.
+
+⚠ **A seção 14 é um rascunho que NÃO pode ser usado como está.** Ele pediu em
+13/out para registrar o compromisso de **devolver o investimento se o cliente
+não tiver nenhum resultado em um ano**, com as regras depois. Escrevi o
+compromisso e **os sete pontos que precisam de resposta antes de virar
+cláusula** — o principal é que **sem linha de base medida no dia 1 não há
+como provar que não houve resultado**. Item 17 do histórico.
+
+**Recomendação registrada: não anunciar essa garantia** em palco nem em
+proposta antes de os sete pontos terem resposta por escrito.
+
+**Próximo passo: é dos sócios.**
 
 ## 2. Livro "O Médico e o Executivo"
 

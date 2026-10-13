@@ -52,8 +52,11 @@ adaptada ao consultório.
    com profissional habilitado.
 7. ~~Nome completo do sócio Simões.~~ **Will Simões**, registrado em
    06/out/2026.
-8. **Contrato de prestação de serviço** da mentoria, com o cliente. Esse
-   ainda não existe.
+8. ~~**Contrato de prestação de serviço** da mentoria, com o cliente. Esse
+   ainda não existe.~~ **Minuta 1 escrita em 13/out/2026**, em
+   `juridico/contrato-cliente-sbs.md`. Serve para toda a esteira — o programa
+   contratado vai no Anexo I. **Falta passar por advogado**, e falta decidir
+   a garantia da seção 14.
 
    O acordo **entre os três sócios** já está pronto em
    `juridico/termo-de-compromisso-sbs.md`: responsabilidades por pilar,
@@ -471,3 +474,37 @@ prestar captação, é contrato separado, com a habilitação dele, e gera os 5%
 habilitação para intermediar captação (é atividade regulada, e eu não sei
 qual é o registro dele), e **como o associado é avisado** de que um sócio do
 SBS é também fornecedor. Detalhado em `esteira.md`.
+
+
+## 16. ⚠ Sublinhado para análise — 13/out/2026
+
+A pedido dele, estes dois ficam **marcados para análise**, não resolvidos:
+
+**a) A habilitação do Simões para captação de recursos.** Intermediar
+captação é atividade regulada. **Não sei qual é o registro dele.** Tem que
+ser confirmado com ele e com o advogado antes da primeira venda que mencione
+isso. Enquanto não for, vale a 3.7: explica, não indica.
+
+**b) Como o associado é avisado** de que um sócio é também fornecedor. Já
+está redigido na **seção 4 do contrato do cliente**, com declaração prévia e
+por escrito. **Falta os três aprovarem o texto.**
+
+## 17. A garantia de devolução — pedida em 13/out/2026, a redigir
+
+Ele pediu o compromisso registrado: **se o cliente não obtiver nenhum
+resultado após um ano de processo, o SBS devolve o investimento**, com as
+regras descritas depois.
+
+**Está na seção 14 do contrato do cliente, como texto provisório e marcado
+para não usar como está.**
+
+⚠ **É a cláusula mais perigosa do contrato.** Mal escrita, transforma
+obrigação de meio em obrigação de resultado e derruba a proteção da seção
+2.2. Listei sete pontos que precisam de resposta antes de virar cláusula —
+o principal: **sem linha de base medida no dia 1, não há como provar que não
+houve resultado.**
+
+**Minha recomendação registrada:** não anunciar a garantia em palco nem em
+proposta enquanto os sete pontos não tiverem resposta por escrito. Prometer
+devolução e depois criar regra restritiva é pior, comercialmente, do que não
+prometer nada.
