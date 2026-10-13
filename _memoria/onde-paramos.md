@@ -69,9 +69,17 @@ mesa dele — gestão e imposto, médico e venda, margem e dinheiro.
 **⚠ O Club SBS tem duas decisões pendentes, itens 14 e 15 do histórico.**
 Ele é a categoria que o próprio Gilberto combate no `posicionamento.md` (a
 indústria que vende acesso sem reciprocidade real), e **só escapa com
-curadoria e com medição de quantos negócios fecharam entre membros**. E falta
-decidir se o SBS **recebe dos fornecedores** que apresenta — se receber, o
-termo precisa de cláusula nova, porque os 5% de lá não cobrem isso.
+curadoria e com medição de quantos negócios fecharam entre membros**. **Dinheiro de fornecedor: resolvido em 13/out.** O SBS **não recebe nada de
+fornecedor externo**. A exceção é sócio fornecendo — e aí a cláusula 7.4 do
+termo **já cobre**, sem aditivo: 5% ao grupo sobre qualquer serviço ou
+produto de qualquer sócio a Cliente Vinculado.
+
+⚠ **Sobrou uma tensão entre a 3.7 e a 7.4** (finanças é educacional × captação
+de recursos gera comissão). Convivem com a linha clara: **dentro do programa
+o Simões explica; fora, a empresa dele presta em contrato separado.** Falta
+confirmar **se o Simões tem habilitação** para intermediar captação — é
+atividade regulada e eu não sei o registro dele — e **como o associado é
+avisado** de que um sócio é também fornecedor.
 2. **O preço é por tempo, não por porte.** Uma clínica de uma sala paga o
    mesmo que uma rede.
 

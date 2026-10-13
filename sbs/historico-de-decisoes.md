@@ -452,10 +452,22 @@ quantos negócios fecharam entre membros no ano.** Sem a medição, em 12 meses
 ele vira o que o Gilberto critica — e ele vai ser cobrado por isso, com
 razão. A tabela comparativa está em `esteira.md`.
 
-**2. O SBS recebe alguma coisa dos fornecedores que apresenta?** Três
-caminhos: não receber (mais limpo), receber e declarar ao membro (funciona,
-com cláusula no contrato), ou receber sem declarar (não fazer).
+**2. ~~O SBS recebe alguma coisa dos fornecedores que apresenta?~~
+RESOLVIDO em 13/out/2026.**
 
-⚠ **A comissão de 5% do termo não cobre isso** — aquela é entre os sócios,
-sobre receita de cliente originado pelo SBS. **Se a escolha for receber de
-fornecedor, o termo precisa de cláusula nova.**
+**Não recebe nada de fornecedor externo.** A única exceção é quando o
+fornecedor é um dos sócios — e aí vale a regra que **já está no termo**: 5%
+ao grupo sobre **qualquer serviço ou produto** de qualquer sócio para um
+Cliente Vinculado (cláusula 7.4, que diz "em todos, sem exceção quanto à
+natureza"). **Nenhum aditivo é necessário.**
+
+⚠ **Mas abriu uma tensão entre a 3.7 e a 7.4, e essa precisa de resposta.**
+A 3.7 diz que a atuação em finanças é educacional. A 7.4 prevê captação de
+recursos por um Parceiro gerando comissão. **Convivem, desde que a linha seja
+respeitada:** dentro do programa o Simões explica; se a empresa dele depois
+prestar captação, é contrato separado, com a habilitação dele, e gera os 5%.
+
+**Duas coisas a confirmar antes da primeira venda:** se o Simões tem
+habilitação para intermediar captação (é atividade regulada, e eu não sei
+qual é o registro dele), e **como o associado é avisado** de que um sócio do
+SBS é também fornecedor. Detalhado em `esteira.md`.

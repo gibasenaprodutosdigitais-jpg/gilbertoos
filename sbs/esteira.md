@@ -148,23 +148,63 @@ que ele diz que o mercado não faz:
 fechou negócio com ninguém, o clube virou o que o Gilberto combate — e ele
 vai ser cobrado por isso, com razão.
 
-### ⚠ A pergunta que precisa de decisão antes de vender
+### Dinheiro de fornecedor: decidido em 13/out/2026
 
-**O SBS recebe alguma coisa dos fornecedores que apresenta?**
+**O SBS não recebe nada de fornecedor externo.** A conexão é parte do que o
+membro já pagou.
 
-São três caminhos, e eles mudam o que pode ser dito em sala:
+**A única exceção é quando o fornecedor é um dos sócios.** Aí não é "receber
+de fornecedor": é o sócio prestando serviço a um cliente do grupo, o que
+**já está no termo assinado, na cláusula 7.4**, com 5% de repasse.
 
-1. **Não recebe nada.** A conexão é parte do que o membro já pagou. É o mais
-   limpo e o mais fácil de defender.
-2. **Recebe, e declara ao membro.** Funciona, desde que esteja escrito no
-   contrato e dito na frente de todos.
-3. **Recebe e não declara.** Não fazer. Destrói a tese da reciprocidade real
-   no dia em que alguém descobrir, e alguém sempre descobre.
+**A regra vale para qualquer serviço ou produto fornecido por qualquer um dos
+três** — confirmado por ele em 13/out/2026, e é o que a própria 7.4 diz:
+*"em todos, sem exceção quanto à natureza"*. A tabela abaixo são **exemplos,
+não a lista fechada**:
 
-⚠ **A comissão de 5% do termo não cobre isso.** Aquela é entre os sócios,
-sobre receita de cliente originado pelo SBS — não trata de dinheiro vindo de
-fornecedor. **Se a decisão for o caminho 2, o termo precisa de cláusula
-nova.**
+| O caso | Como o termo chama | Quem repassa |
+|---|---|---|
+| Sena fornece **contabilidade** ao associado | serviço contábil, tributário ou de gestão prestado por empresa de um Parceiro | o Parceiro dono da empresa |
+| Sena fornece **assessoria jurídica** | serviço jurídico prestado a Cliente Vinculado | quem prestou ou intermediou |
+| Bittar vende **produto próprio** | produto criado por um Parceiro e vendido a Cliente Vinculado | o Parceiro criador |
+| Simões faz **captação de recursos** | captação de recursos para Cliente Vinculado | o Parceiro que captou |
+
+**Nada precisa ser inventado nem acrescentado ao termo.** A cláusula já é
+geral: qualquer serviço ou produto de qualquer sócio para um Cliente
+Vinculado gera **5% da receita líquida**, sobre o que for faturado nos
+**primeiros 6 meses** da operação (cláusulas 7.3 e 7.5). Serviço novo que
+ninguém imaginou ainda também entra, sem precisar de aditivo.
+
+### ⚠ A tensão entre a cláusula 3.7 e a 7.4 — resolver antes de vender
+
+As duas cláusulas são do mesmo termo e, lidas juntas, pedem uma linha clara:
+
+- **3.7** diz que a atuação em finanças é **educacional**: não indica produto,
+  corretora nem aplicação, não promete retorno, e quem decide é o cliente com
+  profissional habilitado.
+- **7.4** prevê **captação de recursos** por um Parceiro gerando comissão —
+  ou seja, o Simões de fato captando.
+
+**Elas não se contradizem, desde que a separação seja respeitada:**
+
+| Dentro do programa | Fora do programa |
+|---|---|
+| O Simões **explica** critério e prepara o cliente para decidir | A empresa do Simões **presta o serviço** de captação, em contrato próprio com o cliente |
+| É pilar 04 da mentoria, já pago no programa | É operação separada, gera os 5% da cláusula 7.4 |
+| Vale a 3.7: não indica, não promete | Vale a habilitação profissional dele para a atividade |
+
+**O risco de borrar essa linha:** se o Simões explica no encontro e sai
+vendendo captação para o mesmo cliente, a parte "educacional" vira funil do
+serviço dele. **Isso precisa ser dito ao cliente, não escondido.**
+
+**Duas coisas a confirmar antes da primeira venda:**
+
+1. **O Simões tem habilitação para captação de recursos?** Intermediar
+   captação é atividade regulada. **Não sei qual é o registro dele** — isso
+   tem que ser confirmado com ele e com o advogado, não presumido.
+2. **O associado é avisado?** Quando um sócio do SBS for também fornecedor,
+   o membro precisa saber que existe interesse comercial ali. É isso que
+   separa o Club da "indústria que vende acesso sem reciprocidade real".
 
 **Entregáveis do ano:** modelagem financeira de expansão, formatação de
 franquia ou rede própria, e o desenho da blindagem patrimonial — **para o
