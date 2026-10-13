@@ -112,6 +112,19 @@ Se falhar, `posts_list_failed` e `posts_retry`.
 O manual completo da Zernio (IDs, fluxo, limites, armadilhas) está na memória
 do Claude, não no repositório, porque envolve credencial e conta.
 
+### O Vivaldi que falhou: decidido, não republicar
+
+Um post da série de música clássica (**Vivaldi, "O Verão"**, ID
+`6acc2887071048c61ddac918`) falhou em 11/out — o Instagram não processou a
+mídia e pediu novo envio. **Nada chegou a ir ao ar.**
+
+**Ele decidiu em 13/out deixar de lado.** O perfil passou a receber conteúdo
+de gestão, e um Vivaldi no meio dos Reels de reforma tributária não cabe
+mais.
+
+⚠ **Ele continua aparecendo em `posts_list_failed`.** Não é problema novo e
+**não perguntar de novo** — a decisão está tomada.
+
 ### Capa dos Reels: preta, "por enquanto"
 
 Ele escolheu capa preta em 12/out/2026, depois de eu recomendar o frame do
