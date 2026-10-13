@@ -296,7 +296,7 @@ livro `O Médico e o Executivo`):
    sacada:** molho e maionese feitos **novos todo dia**, e o pão comprado na
    padaria do **Márcio** toda manhã para pagar no dia seguinte. Isso lhe
    ensinou **giro de estoque, dimensionamento e qualidade**. No 2º mês
-   consolidou o ponto nos **prédinhos do Floramar**, onde morava a **Érica**,
+   consolidou o ponto nos **prédinhos do Floramar**, onde morava a **Erica**,
    namorada e hoje esposa, que o ajudava nos fins de semana. No 3º mês o
    faturamento tinha **dobrado**, com previsão de triplicar no semestre. Ele
    já tinha **noivado marcado** e procurava uma casa geminada para financiar.
@@ -318,7 +318,7 @@ livro `O Médico e o Executivo`):
    com os clientes não se sustenta por muito tempo"*.
 
    ⚠ **Nomes:** Geraldinho e Márcio são reais. No livro a história está sem
-   nomes, exceto a Érica. Ver
+   nomes, exceto a Erica. Ver
    `livro-o-medico-e-o-executivo/capitulos/as-sete-quedas.md`.
 
 7. **A Senas Car, distribuidora de autopeças, a partir do início de 2010**
@@ -479,10 +479,19 @@ Dois desdobramentos diretos disso no trabalho de hoje:
 A terceira quebra também diz quem ele é: podia ter deixado o passivo
 trabalhista para trás e **vendeu o que tinha para pagar todo mundo**.
 
-**Família:** casado com **Érica** — "nossa sintonia e sinergia é coisa de
+> ⚠ **Os nomes da família se escrevem SEM acento: Erica, Jessyka, Victor.**
+> Confirmado por ele em 13/out/2026. Usar assim em carrossel, reels, livro e
+> qualquer peça pública.
+>
+> **Exceção: documento jurídico.** Nos distratos da Empreenda ela assina como
+> testemunha, com CPF, e lá consta **"Érica Fernanda Sena"**. Em contrato o
+> nome tem que bater com o documento dela, não com o uso informal. **Antes de
+> um contrato novo, confirmar com ele qual é a grafia do RG.**
+
+**Família:** casado com **Erica** — "nossa sintonia e sinergia é coisa de
 Deus". História do casamento: pintou um barracão no quintal da mãe pra
 ganhar uma lata de tinta, terminou 1h antes do próprio casamento, tomou
-banho e foi a pé pra igreja. Pai de **Jéssyka** e **Victor** — "tem na
+banho e foi a pé pra igreja. Pai de **Jessyka** e **Victor** — "tem na
 família seu bem mais precioso".
 
 **O que ele mais se orgulha de ter construído:** não é o dinheiro — é

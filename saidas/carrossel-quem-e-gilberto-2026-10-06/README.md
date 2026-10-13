@@ -91,8 +91,14 @@ dimensão humana sem perder nada de credencial.
 **Card 07 sem as cargas horárias.** Saíram "trilha de 180 horas", "trilha de
 120 horas" e "55,5 horas". Os cursos continuam listados.
 
-⚠ **As 720h do card 06 ficaram**, porque ele pediu só o card 07.
+**As 720h do card 06 também saíram**, na mesma rodada. Nenhuma carga horária
+restou no carrossel.
 
-**Grafia dos nomes:** usei **Érica**, **Jéssyka** e **Victor**, como estão
-registrados em `_memoria/quem-e-gilberto.md`. Ele escreveu sem acento no
-pedido, mas ele escreve sem acento em geral.
+**Grafia dos nomes: sem acento.** `Erica`, `Jessyka`, `Victor` — confirmado
+por ele em 13/out/2026. Eu tinha posto com acento, seguindo o que estava em
+`_memoria/quem-e-gilberto.md`, e ele corrigiu. **A memória foi corrigida
+junto**, e o livro também.
+
+⚠ **Nos documentos jurídicos o nome fica como está:** nos distratos da
+Empreenda ela assina como testemunha, com CPF, sob **"Érica Fernanda Sena"**.
+Em contrato a grafia tem que bater com o documento dela.

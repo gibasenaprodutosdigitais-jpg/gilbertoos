@@ -126,7 +126,7 @@ previsão de quanto entraria.
 
 **Segundo mês:** consolidei o ponto perto de uns prediozinhos no bairro
 Floramar. O ponto era estratégico por um motivo que eu não vou esconder: a
-minha namorada, a Érica, morava ali. Os melhores dias eram os fins de semana,
+minha namorada, a Erica, morava ali. Os melhores dias eram os fins de semana,
 e ela me ajudava no carrinho. Juntei o útil ao agradável, e foi um tempo de
 muita alegria.
 
@@ -778,7 +778,7 @@ não conseguiu levar o negócio. A leitura de que "eu perdi o negócio, ele
 destruiu o negócio" é minha.
 
 ⚠ **Nomes.** O dono do carrinho e o padeiro são reais e estão sem nome. A
-**Érica** ficou nomeada, por ser a esposa dele e a passagem ser afetuosa. A
+**Erica** ficou nomeada, por ser a esposa dele e a passagem ser afetuosa. A
 **Fiat Automóveis** ficou nomeada porque é a história de emprego dele e não
 há nenhuma acusação à empresa. Se ele preferir tirar, é uma linha.
 
