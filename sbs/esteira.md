@@ -66,12 +66,14 @@ investimento seguinte. O objetivo é **estancar o sangramento**.
 
 - **Encontros:** 6 online, quinzenais, de 2 horas
 - **Entregável:** playbook de vendas para a recepção e plano de campanhas
-  para 90 dias
-- **Inclui execução:** diagnóstico financeiro e tributário preliminar, e
-  setup da campanha de captação
+  para 90 dias, prontos para a equipe do cliente executar
+- **Diagnóstico tributário e financeiro:** o SBS aponta onde a clínica está
+  pagando imposto a mais e onde perde margem. **Quem executa a mudança é a
+  contabilidade do cliente.**
 
-**A promessa de venda:** a economia tributária e os pacientes novos da
-campanha pagam os R$ 35 mil antes do segundo mês.
+**A promessa de venda:** em 90 dias o dono sai com o diagnóstico feito, o
+preço corrigido e o caminho de venda desenhado. O que ele faz com isso
+depende dele.
 
 ---
 
@@ -92,12 +94,9 @@ crescer **sem depender da presença física do dono**.
   meio da jornada
 - **Entregável:** manual de governança e compliance da clínica, estrutura de
   metas e POPs mapeados
-- **Inclui execução:** assessoria contábil e tributária (adequação de regime,
-  equiparação hospitalar), BPO financeiro com DRE e fluxo de caixa, gestão de
-  marketing e auditoria de alvarás
-
-**A ancoragem:** custa menos que o salário de um bom diretor executivo, com a
-inteligência de três.
+- **O que é apontado, para o cliente executar:** adequação de regime
+  tributário, equiparação hospitalar, estrutura de DRE e fluxo de caixa, e o
+  mapa de licenças e alvarás a regularizar
 
 ---
 
@@ -119,25 +118,37 @@ mercado, abrir filial ou se preparar para uma venda.
 - **Encontros:** 4 imersões presenciais trimestrais + 1 online mensal de
   prestação de contas com a diretoria
 - **Entregável:** modelagem financeira de expansão, formatação de franquia ou
-  rede própria, e blindagem patrimonial via holding
-- **Inclui execução total:** a equipe atua como backoffice do cliente —
-  contabilidade, tributário, financeiro e marketing
+  rede própria, e o desenho da blindagem patrimonial via holding — **para o
+  advogado e o contador do cliente executarem**
 
 ---
 
 ## O argumento de ancoragem
 
-Vale para os três programas, e é o melhor que a esteira tem:
-
-> "Se você contratar um diretor de marketing, um diretor financeiro e uma
-> consultoria tributária de alto nível separadamente, sua folha sobe uns
-> R$ 40 mil por mês — com profissionais que não têm a nossa experiência. Nós
-> trazemos o ecossistema pronto, estratégia e execução. **Nós custamos menos
+> "Nós não vamos operar a sua clínica. Vamos fazer você enxergar o que você
+> não está enxergando, e decidir o que você vem adiando. **Nós custamos menos
 > que o seu erro.**"
 
-**A escassez aqui é real, não é gatilho inventado.** Como os programas
-incluem execução, existe limite físico de quantas empresas a equipe absorve
-por vez. Dizer isso é honesto, e funciona melhor do que contagem regressiva.
+**A escassez aqui é real, não é gatilho inventado.** Os três sócios conduzem
+os encontros pessoalmente, e agenda de três não se multiplica. Dizer isso é
+honesto, e funciona melhor do que contagem regressiva.
+
+### ⚠ O que mudou quando a execução saiu
+
+A ancoragem original comparava o ticket com o custo de contratar um CMO, um
+COO e um CFO. **Esse argumento não se sustenta mais**, porque ele só vale
+para quem faz o trabalho. O SBS aponta e acompanha; quem executa é a equipe
+do cliente.
+
+**O que sustenta o preço agora é outra coisa, e é mais difícil de vender:**
+a qualidade da decisão. Vale pela economia tributária que o diagnóstico
+encontra, pela margem que o preço corrigido devolve e pelo passivo que a
+regularização evita — não por hora de trabalho entregue.
+
+**Isso aperta mais no programa de 12 meses.** R$ 200.000 por conselho
+consultivo é defensável para uma rede; para uma clínica média é caro sem a
+execução junto. A cesta antiga resolvia isso cobrando por porte do cliente.
+**Essa objeção vai aparecer, e os sócios precisam ter resposta pronta.**
 
 ---
 

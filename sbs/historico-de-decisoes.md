@@ -344,7 +344,7 @@ presencial e qualificar quem compra o programa grande.
 **Decidido por ele em 13/out/2026: entra.** Está em `esteira.md` como
 produto 0, a R$ 3.000 a R$ 5.000 por participante.
 
-## 11. ~~O SBS vende direcionamento ou passa a vender execução?~~ **EXECUÇÃO**
+## 11. ~~O SBS vende direcionamento ou passa a vender execução?~~ **DIRECIONAMENTO**
 
 O material propõe BPO financeiro, assunção da contabilidade e gestão de
 tráfego pago — "nossa equipe operando o seu negócio".
@@ -352,15 +352,29 @@ tráfego pago — "nossa equipe operando o seu negócio".
 É outro negócio: outro custo, outro risco, outra responsabilidade. A esteira
 atual vende direcionamento e implantação acompanhada.
 
-**Decidido por ele em 13/out/2026: o SBS passa a vender execução.** Os três
-programas incluem assessoria contábil e tributária, BPO financeiro e gestão
-de marketing. Está em `esteira.md`.
+**Decidido por ele em 13/out/2026, em duas etapas.** Primeiro mandou incluir
+execução; horas depois, no mesmo dia, **mandou retirar**. Vale a segunda: o
+**SBS vende direcionamento e acompanhamento, não execução.**
 
-⚠ **Isso muda o negócio, não só o material.** Vender execução significa
-assumir prazo, equipe e responsabilidade sobre o resultado do cliente — e
-tem limite físico de quantas empresas a equipe absorve por vez. **Os outros
-dois sócios precisam concordar**, porque a entrega passa a depender da
-estrutura dos três, não só da agenda.
+Saíram dos três programas: BPO financeiro, assunção da contabilidade, gestão
+de tráfego pago e o papel de backoffice do cliente.
+
+**O que ficou no lugar:** o SBS aponta o que precisa mudar — regime
+tributário, equiparação hospitalar, estrutura de DRE, licenças a regularizar
+— e **quem executa é a equipe do cliente**, com o contador e o advogado dele.
+
+✅ **Isso resolve dois problemas de uma vez.** Primeiro, tira do SBS a
+responsabilidade sobre resultado operacional de terceiro, que é risco de
+outro tamanho. Segundo, afasta de vez o papel que o material propunha para o
+Simões: sem execução financeira, não há o que renegociar nem captar.
+
+⚠ **Mas cobra um preço, e os sócios precisam saber qual.** A ancoragem
+original comparava o ticket com o custo de contratar CMO, COO e CFO. **Esse
+argumento morreu junto com a execução** — ele só vale para quem faz o
+trabalho. O que sustenta o preço agora é a qualidade da decisão, que é mais
+difícil de vender. **Aperta especialmente no programa de 12 meses:**
+R$ 200.000 de conselho consultivo é defensável para uma rede, e caro para uma
+clínica média sem execução junto. Está anotado em `esteira.md`.
 
 ## 12. O preço: **a esteira foi substituída em 13/out/2026**
 

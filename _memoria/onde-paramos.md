@@ -52,11 +52,18 @@ depois que eu apontei que o programa de 3 meses a R$ 35.000 colidia com a
 mentoria de 90 dias a R$ 50.000. **A decisão nova é a que vale.** Não
 ressuscitar a antiga.
 
-**Duas mudanças de fundo que vieram junto:**
-1. **O SBS passa a vender execução**, não só direcionamento: assessoria
-   contábil e tributária, BPO financeiro e gestão de marketing.
-2. **O preço passou a ser por tempo**, não por porte do cliente. Se aparecer
-   objeção de clínica pequena, é por aí: ela paga o mesmo que uma rede.
+**O SBS vende direcionamento, não execução.** Ele mandou incluir execução em
+13/out e **mandou retirar no mesmo dia**. Vale a segunda. O SBS aponta o que
+mudar — regime, equiparação hospitalar, DRE, licenças — e **quem executa é a
+equipe do cliente**. Sem BPO, sem assumir contabilidade, sem gerir tráfego.
+
+⚠ **Duas consequências de preço que os sócios precisam ter resposta pronta:**
+1. **A ancoragem original morreu.** Comparar o ticket com o custo de
+   contratar CMO, COO e CFO só vale para quem faz o trabalho. Agora o que
+   sustenta o preço é a qualidade da decisão, que é mais difícil de vender.
+2. **O preço é por tempo, não por porte.** Uma clínica de uma sala paga o
+   mesmo que uma rede. Aperta mais no de 12 meses: R$ 200.000 de conselho
+   consultivo é defensável para rede, caro para clínica média.
 
 ### ⚠ O que não pode ser vendido, mesmo com a esteira nova
 
