@@ -55,46 +55,50 @@ Os três primeiros já estavam agendados desde 12/out. Os nove novos entram
 depois deles, sem buraco e sem sobreposição.
 
 
-## TikTok — `gilbertosenaoficial` (reagendado 13/out, 12h)
+## TikTok — `gilbertosenaoficial` (ritmo próprio, 4 em 4 horas)
 
-Os **mesmos 14 vídeos**, mas **de 3 em 3 horas, sem parar**, a pedido dele.
-Começa hoje às 12:30 e fecha em 15/out às 03:30 — **39 horas corridas**.
+Os **mesmos 14 vídeos** do Instagram, mas **um a cada 4 horas, sem parar**.
+Começa 13/out às 12:30 e fecha 15/out às 16:30 — **52 horas corridas**.
 
-Isso é ritmo diferente do Instagram de propósito. Não há mais espelhamento
-de horário entre as duas plataformas.
+**Sem espelhamento com o Instagram.** As duas plataformas andam em ritmos
+diferentes de propósito.
+
+A grade de 4 horas repete seis horários fixos por dia: **00:30, 04:30, 08:30,
+12:30, 16:30 e 20:30.**
 
 | # | Dia | Hora | Vídeo | ID |
 |---|---|---|---|---|
 | 1 | seg 13 | 12:30 | Operação x Operacional | `6ace48030c44eac5dd6e4691` |
-| 2 | seg 13 | 15:30 | Palestra Expresso 97 | `6ace483e3a1944c74c0e9e90` |
-| 3 | seg 13 | 18:30 | 2027 pode quebrar sua empresa | `6ace483f3a1944c74c0e9e94` |
-| 4 | seg 13 | 21:30 | Dinheiro é energia | `6ace48413a1944c74c0e9e98` |
-| 5 | ter 14 | **00:30** | Metáfora do Formigão | `6ace4842414bc3da83136471` |
-| 6 | ter 14 | **03:30** | O empresário não paga o imposto | `6ace4842414bc3da83136475` |
-| 7 | ter 14 | **06:30** | Caixinha define | `6ace4844414bc3da83136481` |
-| 8 | ter 14 | 09:30 | Áudio do filho | `6ace4844414bc3da83136489` |
-| 9 | ter 14 | 12:30 | Comitê Gestor / Simples | `6ace4846c4933a90d0668aca` |
-| 10 | ter 14 | 15:30 | Rico x Pobre (cortado) | `6ace48473a1944c74c0e9ebc` |
-| 11 | ter 14 | 18:30 | Quantos Gilbertos | `6ace48480c44eac5dd6e4781` |
-| 12 | ter 14 | 21:30 | Bitributação intercompany | `6ace48490c44eac5dd6e4785` |
-| 13 | qua 15 | **00:30** | A empresa não quebra por si só | `6ace484a3a1944c74c0e9ecd` |
-| 14 | qua 15 | **03:30** | Vídeo sobre evolução | `6ace484b3a1944c74c0e9ed5` |
+| 2 | seg 13 | 16:30 | Palestra Expresso 97 | `6ace483e3a1944c74c0e9e90` |
+| 3 | seg 13 | 20:30 | 2027 pode quebrar sua empresa | `6ace483f3a1944c74c0e9e94` |
+| 4 | ter 14 | **00:30** | Dinheiro é energia | `6ace48413a1944c74c0e9e98` |
+| 5 | ter 14 | **04:30** | Metáfora do Formigão | `6ace4842414bc3da83136471` |
+| 6 | ter 14 | 08:30 | O empresário não paga o imposto | `6ace4842414bc3da83136475` |
+| 7 | ter 14 | 12:30 | Caixinha define | `6ace4844414bc3da83136481` |
+| 8 | ter 14 | 16:30 | Áudio do filho | `6ace4844414bc3da83136489` |
+| 9 | ter 14 | 20:30 | Comitê Gestor / Simples | `6ace4846c4933a90d0668aca` |
+| 10 | qua 15 | **00:30** | Rico x Pobre (cortado) | `6ace48473a1944c74c0e9ebc` |
+| 11 | qua 15 | **04:30** | Quantos Gilbertos | `6ace48480c44eac5dd6e4781` |
+| 12 | qua 15 | 08:30 | Bitributação intercompany | `6ace48490c44eac5dd6e4785` |
+| 13 | qua 15 | 12:30 | A empresa não quebra por si só | `6ace484a3a1944c74c0e9ecd` |
+| 14 | qua 15 | 16:30 | Vídeo sobre evolução | `6ace484b3a1944c74c0e9ed5` |
 
-### ⚠ Cinco caem na madrugada
+### ⚠ Quatro caem na madrugada
 
-Os marcados em negrito saem entre meia-noite e 7h. **Foi avisado a ele e ele
-manteve o ritmo de 3 em 3 horas.**
+Os de 00:30 e 04:30, marcados em negrito. **Ele foi avisado e manteve.**
+Com 4 horas em vez de 3 caíram de cinco para quatro, e o lote passou a se
+espalhar por três dias em vez de dois.
 
-O argumento a favor: no TikTok a entrega é por Para Você, não por seguidor,
-então o vídeo continua sendo distribuído depois da hora em que foi postado.
-Horário pesa bem menos ali do que no Instagram.
+A favor: no TikTok a entrega é por Para Você, não por seguidor, então o vídeo
+segue sendo distribuído depois da hora em que saiu. Horário pesa menos ali
+que no Instagram.
 
-O argumento contra: as primeiras horas ainda contam para o teste inicial do
-algoritmo, e às 3h da manhã há menos gente para testar.
+Contra: as primeiras horas ainda contam para o teste inicial do algoritmo, e
+de madrugada há menos gente para testar.
 
-**Medir isso na análise de 18/out:** comparar o desempenho dos 5 da
-madrugada contra os 9 do horário comercial. É um teste natural que caiu no
-colo, e responde se horário importa no TikTok dele.
+**Medir na análise de 18/out:** os 4 da madrugada contra os 10 do horário
+normal. Mesmo lote, mesmo conteúdo — é um teste limpo e responde se horário
+importa no TikTok dele.
 
 ### ⚠ As legendas do TikTok são diferentes, de propósito
 
