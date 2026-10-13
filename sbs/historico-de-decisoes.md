@@ -489,22 +489,38 @@ isso. Enquanto não for, vale a 3.7: explica, não indica.
 está redigido na **seção 4 do contrato do cliente**, com declaração prévia e
 por escrito. **Falta os três aprovarem o texto.**
 
-## 17. A garantia de devolução — pedida em 13/out/2026, a redigir
+## 17. ~~A garantia de devolução~~ **RETIRADA em 13/out/2026**
 
-Ele pediu o compromisso registrado: **se o cliente não obtiver nenhum
-resultado após um ano de processo, o SBS devolve o investimento**, com as
-regras descritas depois.
+Ele pediu o compromisso de manhã e **mandou retirar no mesmo dia**, depois de
+eu listar o que ele exigiria. Vale a segunda: **não há garantia de devolução
+no contrato.**
 
-**Está na seção 14 do contrato do cliente, como texto provisório e marcado
-para não usar como está.**
+**O contrato ficou coerente com isso.** A seção 2.2 diz que a obrigação é de
+meio, não de resultado, e agora não há cláusula contradizendo.
 
-⚠ **É a cláusula mais perigosa do contrato.** Mal escrita, transforma
-obrigação de meio em obrigação de resultado e derruba a proteção da seção
-2.2. Listei sete pontos que precisam de resposta antes de virar cláusula —
-o principal: **sem linha de base medida no dia 1, não há como provar que não
-houve resultado.**
+### Por que ficou registrado em vez de apagado
 
-**Minha recomendação registrada:** não anunciar a garantia em palco nem em
-proposta enquanto os sete pontos não tiverem resposta por escrito. Prometer
-devolução e depois criar regra restritiva é pior, comercialmente, do que não
-prometer nada.
+Se a ideia voltar — e volta, porque é argumento de venda forte — **estes são
+os sete pontos que ela exige**, e é mais barato ler do que redescobrir:
+
+1. **O que é "nenhum resultado"?** Sem definição numérica, quem decide é o
+   juiz.
+2. **Sem linha de base medida no dia 1, não há como provar que não houve
+   resultado.** Este é o ponto que derruba a cláusula sozinho.
+3. **Quem mede, e com que documento?** Balanço, DRE, extrato, relatório.
+4. **O que acontece se o cliente não cumpriu a seção 6?** Quem faltou e não
+   entregou número não pode acionar — ou a garantia vira saída para quem não
+   participou.
+5. **Devolve quanto?** Integral ou descontado o custo real. Em quantas
+   parcelas.
+6. **Qual programa tem garantia?** Todos, só o de um ano, ou nenhum.
+7. **Há caixa para honrar** se cinco clientes acionarem no mesmo mês? Isso é
+   decisão financeira antes de ser cláusula.
+
+**E o ponto de fundo:** garantia mal escrita transforma obrigação de meio em
+obrigação de resultado, e derruba a proteção da seção 2.2 inteira.
+
+**Alternativa, se um dia quiserem o efeito comercial sem o risco:** garantir
+**entrega**, não resultado. "Se o programa não for entregue como está no
+Anexo I, devolvemos." Isso é verificável, está sob controle do SBS, e vende
+quase tão bem.

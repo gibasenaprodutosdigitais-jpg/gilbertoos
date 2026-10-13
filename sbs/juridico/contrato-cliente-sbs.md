@@ -6,7 +6,7 @@ Minuta 1 · 13/out/2026
 > **Leia antes de usar.** Esta é uma minuta, escrita para os três sócios
 > entenderem o que estão oferecendo e assinarem com segurança. **Não é
 > contrato pronto: passe por advogado antes da primeira assinatura**,
-> principalmente pelas seções 3, 4, 9, 11 e 14, que são as que geram disputa.
+> principalmente pelas seções 3, 4, 8, 9 e 13, que são as que geram disputa.
 >
 > **Serve para toda a esteira.** Qual programa foi contratado, com prazo,
 > preço e cronograma, vai no **Anexo I**, que é a única parte que muda de
@@ -40,10 +40,6 @@ programa com diligência, no prazo e no formato contratados. **Não se obriga a
 produzir faturamento, lucro, economia tributária ou qualquer outro resultado
 numérico**, porque esses dependem de execução, mercado e decisões que não
 estão sob o controle do SBS.
-
-> ⚠ **Ler junto com a seção 14.** Se a garantia de devolução entrar, esta
-> cláusula precisa ser reescrita em conjunto com ela, por um advogado. As
-> duas, como estão, se contradizem.
 
 **2.3. O que o SBS NÃO faz neste contrato:**
 
@@ -261,71 +257,24 @@ efetivamente pago** por este contrato.
 
 ---
 
-## 14. ⚠ Garantia de resultado — A SER REDIGIDA
+## 14. Disposições gerais
 
-> **O Gilberto pediu em 13/out/2026 que fique registrado o compromisso, com
-> as regras a definir depois.** Texto provisório abaixo. **Não usar como
-> está.**
+**14.1.** Alterações só valem por escrito, assinadas pelas duas partes.
 
-**14.1. O compromisso, como ele descreveu:** se o CLIENTE **não obtiver
-nenhum resultado após um ano de processo**, o SBS se compromete a **devolver
-o investimento**. As regras serão descritas em aditivo.
+**14.2.** A invalidade de uma cláusula não contamina as demais.
 
-### O que precisa ser decidido antes de isso virar cláusula
+**14.3.** Tolerância não significa renúncia nem altera o contrato.
 
-**Esta é a cláusula mais perigosa do contrato.** Mal escrita, ela transforma
-um contrato de obrigação de meio em obrigação de resultado — e aí tudo que a
-seção 2.2 protege cai.
+**14.4.** Este contrato e seus anexos substituem qualquer tratativa anterior.
 
-**1. O que é "nenhum resultado"?** Sem definição numérica, quem decide é o
-juiz. Precisa ser objetivo e medido no começo: faturamento, margem, custo por
-lead, economia tributária apurada. **Sem linha de base medida no dia 1, não
-há como provar que não houve resultado.**
-
-**2. Quem mede, e com que documento?** Balanço, DRE, extrato, relatório de
-plataforma. Definir a fonte evita discussão.
-
-**3. O que acontece se o CLIENTE não cumpriu a seção 6?** Quem faltou a
-encontro, não entregou número ou não executou **não pode acionar a garantia**.
-Isso precisa estar escrito, ou a garantia vira saída para quem não participou.
-
-**4. Devolve quanto?** Integral, ou descontado o que foi custo real? Em
-quantas parcelas? Em qual prazo?
-
-**5. Qual programa tem garantia?** O de 1 ano? Todos? A imersão de 2 dias?
-
-**6. Como isso conversa com a seção 2.2 e com a 8.2?** Hoje as três se
-contradizem. **Um advogado tem que harmonizar as três de uma vez.**
-
-**7. Capacidade de honrar.** Garantia só vale se houver caixa para pagar. Se
-cinco clientes acionarem no mesmo mês, o SBS devolve? **Isso é decisão
-financeira dos três, antes de ser cláusula.**
-
-> **Minha recomendação:** não anunciar a garantia em palco nem em proposta
-> enquanto esses sete pontos não tiverem resposta por escrito. Prometer
-> devolução e depois criar regra restritiva é pior, comercialmente, do que
-> não prometer nada.
-
----
-
-## 15. Disposições gerais
-
-**15.1.** Alterações só valem por escrito, assinadas pelas duas partes.
-
-**15.2.** A invalidade de uma cláusula não contamina as demais.
-
-**15.3.** Tolerância não significa renúncia nem altera o contrato.
-
-**15.4.** Este contrato e seus anexos substituem qualquer tratativa anterior.
-
-**15.5. Como resolver desacordo.** Primeiro conversa direta, em até [15]
+**14.5. Como resolver desacordo.** Primeiro conversa direta, em até [15]
 dias. Não resolvendo, **mediação**. Só depois, o Judiciário.
 
-**15.6. Foro:** comarca de [cidade/UF].
+**14.6. Foro:** comarca de [cidade/UF].
 
 ---
 
-## 16. Assinaturas
+## 15. Assinaturas
 
 Local e data: ____________________
 
@@ -353,7 +302,6 @@ Local e data: ____________________
 | **Forma de pagamento** | |
 | **Datas de vencimento** | |
 | **Contato para LGPD** | |
-| **Garantia da seção 14** | ( ) não se aplica · ( ) aplica, conforme aditivo nº ___ |
 
 > **Preços da esteira em 13/out/2026** — ver `../esteira.md`:
 > imersão R$ 3.000 a R$ 5.000 por pessoa · 3 meses R$ 35.000 ·

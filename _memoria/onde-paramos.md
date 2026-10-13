@@ -113,15 +113,15 @@ propriedade do método, arrependimento do CDC e limite de responsabilidade.
 
 **Falta passar por advogado.** É minuta, não contrato pronto.
 
-⚠ **A seção 14 é um rascunho que NÃO pode ser usado como está.** Ele pediu em
-13/out para registrar o compromisso de **devolver o investimento se o cliente
-não tiver nenhum resultado em um ano**, com as regras depois. Escrevi o
-compromisso e **os sete pontos que precisam de resposta antes de virar
-cláusula** — o principal é que **sem linha de base medida no dia 1 não há
-como provar que não houve resultado**. Item 17 do histórico.
+**Não há garantia de devolução.** Ele pediu de manhã em 13/out e **mandou
+retirar no mesmo dia**, depois de eu listar o que ela exigiria. O contrato
+ficou coerente: obrigação de meio, sem cláusula contradizendo.
 
-**Recomendação registrada: não anunciar essa garantia** em palco nem em
-proposta antes de os sete pontos terem resposta por escrito.
+Os sete pontos que a garantia exigiria ficaram registrados no item 17 do
+histórico, **caso a ideia volte** — e volta, porque é argumento de venda
+forte. Lá está também a alternativa: **garantir entrega, não resultado**
+("se o programa não for entregue como está no Anexo I, devolvemos"), que é
+verificável, está sob controle do SBS e vende quase tão bem.
 
 **Próximo passo: é dos sócios.**
 
