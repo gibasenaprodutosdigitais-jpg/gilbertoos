@@ -335,15 +335,16 @@ venda.
 duas vezes, em 06 e em 07/out, e está em contrato. Foi decidida por um bom
 motivo.
 
-## 10. Entra uma imersão presencial como porta de entrada?
+## 10. ~~Entra uma imersão presencial como porta de entrada?~~ **SIM**
 
 É a ideia mais aproveitável do material e **não existe na esteira**: 2 dias,
 R$ 3.000 a R$ 5.000 por participante, para gerar caixa, criar autoridade
 presencial e qualificar quem compra o programa grande.
 
-Hoje a esteira começa na mentoria de R$ 50.000. Não há degrau antes disso.
+**Decidido por ele em 13/out/2026: entra.** Está em `esteira.md` como
+produto 0, a R$ 3.000 a R$ 5.000 por participante.
 
-## 11. O SBS vende direcionamento ou passa a vender execução?
+## 11. ~~O SBS vende direcionamento ou passa a vender execução?~~ **EXECUÇÃO**
 
 O material propõe BPO financeiro, assunção da contabilidade e gestão de
 tráfego pago — "nossa equipe operando o seu negócio".
@@ -351,10 +352,44 @@ tráfego pago — "nossa equipe operando o seu negócio".
 É outro negócio: outro custo, outro risco, outra responsabilidade. A esteira
 atual vende direcionamento e implantação acompanhada.
 
-**Pergunta de fundo, e é dos três:** o SBS é mentoria ou é assessoria?
+**Decidido por ele em 13/out/2026: o SBS passa a vender execução.** Os três
+programas incluem assessoria contábil e tributária, BPO financeiro e gestão
+de marketing. Está em `esteira.md`.
 
-## O que NÃO entrou em discussão
+⚠ **Isso muda o negócio, não só o material.** Vender execução significa
+assumir prazo, equipe e responsabilidade sobre o resultado do cliente — e
+tem limite físico de quantas empresas a equipe absorve por vez. **Os outros
+dois sócios precisam concordar**, porque a entrega passa a depender da
+estrutura dos três, não só da agenda.
 
-**O preço.** O Gilberto reafirmou em 12/out que a mentoria é R$ 50.000 à
-vista ou 12x de R$ 5.000, e a esteira precifica por porte do cliente, não por
-tempo. O material propõe outros números; não mexi em nenhum.
+## 12. O preço: **a esteira foi substituída em 13/out/2026**
+
+Em 12/out ele reafirmou a mentoria a R$ 50.000 e a cesta por porte. **Em
+13/out ele decidiu o contrário**, depois de eu apontar a colisão: os três
+modelos novos **substituem** a esteira antiga.
+
+| Saiu | Entrou |
+|---|---|
+| Mentoria 90 dias — R$ 50.000 | 3 meses "Choque de Ordem e Caixa" — **R$ 35.000** |
+| Continuidade 6 meses — R$ 40.000 | 6 meses "Escala Blindada" — **R$ 85.000** |
+| Cesta por porte — R$ 105/200/400 mil | 12 meses "Advisory Board" — **R$ 200.000** |
+| *(não existia)* | Imersão de 2 dias — **R$ 3.000 a R$ 5.000** por pessoa |
+
+**A lógica de preço mudou de porte do cliente para tempo de programa.** Vale
+registrar o que se perde: a cesta antiga cobrava de uma rede mais do que de
+uma clínica de uma sala pelo mesmo trabalho, o que é defensável. A esteira
+nova cobra igual dos dois. **Se aparecer objeção de clínica pequena, é por
+aí.**
+
+Os arquivos antigos continuam na pasta com aviso de substituído, porque a
+**metodologia** deles segue valendo — pilares, encontros, anamnese.
+
+## 13. ⚠ O item 9 continua aberto e é o único que não pode esperar
+
+Os três programas novos nasceram de um material que punha o **Simões
+renegociando dívida e captando crédito**. **Escrevi a esteira sem isso**, e
+está explicado em `esteira.md`.
+
+**Enquanto o item 9 não for decidido, vale a cláusula 3.7:** o Simões
+explica, não indica. Se alguém vender diferente disso em palco ou proposta, o
+contrato entre os sócios está sendo rompido.

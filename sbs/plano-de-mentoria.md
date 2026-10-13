@@ -1,5 +1,15 @@
 # SBS Mentoria Business Medical
 
+> ⚠ **SUBSTITUÍDO EM 13/out/2026.** O preço e o empacotamento deste documento
+> **não valem mais.** A esteira em vigor está em `esteira.md`: imersão de
+> 2 dias (R$ 3.000 a R$ 5.000), 3 meses (R$ 35.000), 6 meses (R$ 85.000) e
+> 12 meses (R$ 200.000).
+>
+> **A metodologia continua válida** — os quatro pilares, a divisão de
+> autoridade entre os sócios, o roteiro dos encontros e a anamnese. É por
+> isso que este arquivo não foi apagado. **Usar para o método, nunca para
+> preço nem prazo.**
+
 **Consultoria e assessoria médica empresarial** · Documento de trabalho dos sócios
 Versão 1 · 06/out/2026
 

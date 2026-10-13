@@ -1,0 +1,178 @@
+# SBS · A esteira de produtos
+
+> **Sócios:** Gilberto Sena · Stanley Bittar · Will Simões
+>
+> **Decidido em 13/out/2026.** Esta esteira **substitui** a mentoria de 90
+> dias por R$ 50.000 e a cesta por porte de cliente. O que saiu está em
+> `historico-de-decisoes.md` e os arquivos antigos continuam na pasta, para
+> consulta da metodologia.
+>
+> **A metodologia não mudou.** Os quatro pilares e a divisão de autoridade
+> entre os sócios seguem como estão em `plano-de-mentoria.md`. O que mudou é
+> o empacotamento, o prazo e o preço.
+
+---
+
+## A régua
+
+| | Produto | Prazo | Preço |
+|---|---|---|---|
+| **0** | Imersão presencial | 2 dias | **R$ 3.000 a R$ 5.000** por participante |
+| **1** | Choque de Ordem e Caixa | 3 meses | **R$ 35.000** |
+| **2** | Escala Blindada | 6 meses | **R$ 85.000** |
+| **3** | Advisory Board e Expansão | 12 meses | **R$ 200.000** |
+
+A lógica é de degraus: a imersão gera caixa e qualifica, o programa de 3
+meses estanca o sangramento, o de 6 reestrutura, o de 12 expande.
+
+**Quem conduz o quê continua igual:** Sena em gestão, contábil e tributário;
+Bittar em marketing e vendas; Simões em lucratividade e no critério do
+dinheiro. Os três juntos na abertura e no fechamento de cada programa.
+
+---
+
+## 0. Imersão presencial de 2 dias
+
+**R$ 3.000 a R$ 5.000 por participante**
+
+A porta de entrada. Antes dela, a esteira começava direto num programa de
+dezenas de milhares — não havia degrau nenhum.
+
+- **Para quem:** dono de consultório ou clínica em expansão inicial
+- **Formato:** dois dias, com o choque de demanda conduzido pelo Bittar e a
+  estruturação comercial e de gestão pelo Sena, e a leitura de margem e
+  preço pelo Simões
+- **Para que serve, de verdade:** gerar caixa, criar autoridade presencial e
+  **qualificar quem compra o programa grande no fim do segundo dia**
+
+**Hot seat é o coração.** Dois ou três empresários da plateia apresentam o
+gargalo real e recebem rota de ação dos três na frente de todo mundo. É o que
+prova a entrega antes de pedir dinheiro.
+
+---
+
+## 1. Choque de Ordem e Caixa — 3 meses
+
+**R$ 35.000**
+
+Para a clínica que precisa de resultado rápido para justificar qualquer
+investimento seguinte. O objetivo é **estancar o sangramento**.
+
+| Mês | O que acontece |
+|---|---|
+| **1** | Diagnóstico: auditoria da recepção e do comercial (Sena) e desenho da campanha de aquisição (Bittar) |
+| **2** | Processos e conversão: roteiro de vendas, contorno de objeção em saúde, treino do atendimento para não perder o lead gerado no mês 1 |
+| **3** | Métricas e ajuste: custo por lead, taxa de conversão, ticket médio. Correção das falhas e preparação do degrau seguinte |
+
+- **Encontros:** 6 online, quinzenais, de 2 horas
+- **Entregável:** playbook de vendas para a recepção e plano de campanhas
+  para 90 dias
+- **Inclui execução:** diagnóstico financeiro e tributário preliminar, e
+  setup da campanha de captação
+
+**A promessa de venda:** a economia tributária e os pacientes novos da
+campanha pagam os R$ 35 mil antes do segundo mês.
+
+---
+
+## 2. Escala Blindada — 6 meses
+
+**R$ 85.000** · cerca de R$ 14.000 por mês
+
+O programa central. Aqui a empresa passa por reestruturação profunda, para
+crescer **sem depender da presença física do dono**.
+
+| Meses | O que acontece |
+|---|---|
+| **1–2** | Fundações e compliance: mapeamento de risco (licença, alvará, contrato de prestador) e organograma |
+| **3–4** | Máquina de vendas escalonável: contratação, remuneração e meta do time comercial. Jornada do paciente |
+| **5–6** | Desmame operacional: treino de gerentes e diretores clínicos, painéis para o dono gerir pelo número e não por microgerenciamento |
+
+- **Encontros:** 12 online quinzenais + **1 presencial** de alinhamento no
+  meio da jornada
+- **Entregável:** manual de governança e compliance da clínica, estrutura de
+  metas e POPs mapeados
+- **Inclui execução:** assessoria contábil e tributária (adequação de regime,
+  equiparação hospitalar), BPO financeiro com DRE e fluxo de caixa, gestão de
+  marketing e auditoria de alvarás
+
+**A ancoragem:** custa menos que o salário de um bom diretor executivo, com a
+inteligência de três.
+
+---
+
+## 3. Advisory Board e Expansão — 12 meses
+
+**R$ 200.000** · cerca de R$ 16.700 por mês
+
+O premium. Os três atuam como **conselho consultivo** do negócio. Para rede,
+hospital-dia consolidado ou clínica que já tem tração e quer dominar o
+mercado, abrir filial ou se preparar para uma venda.
+
+| Trimestre | O que acontece |
+|---|---|
+| **1** | Padronização multi-unidades: matriz e filiais operando com a mesma qualidade |
+| **2** | Engenharia financeira e M&A: estrutura para abrir unidade com caixa próprio ou de terceiros, e critério para avaliar concorrente à compra |
+| **3** | Posicionamento de autoridade: transformar o dono em figura pública do nicho, o que levanta o valuation da marca |
+| **4** | Perpetuidade: programa de partnership para reter médico e executivo, e planejamento do ano fiscal seguinte |
+
+- **Encontros:** 4 imersões presenciais trimestrais + 1 online mensal de
+  prestação de contas com a diretoria
+- **Entregável:** modelagem financeira de expansão, formatação de franquia ou
+  rede própria, e blindagem patrimonial via holding
+- **Inclui execução total:** a equipe atua como backoffice do cliente —
+  contabilidade, tributário, financeiro e marketing
+
+---
+
+## O argumento de ancoragem
+
+Vale para os três programas, e é o melhor que a esteira tem:
+
+> "Se você contratar um diretor de marketing, um diretor financeiro e uma
+> consultoria tributária de alto nível separadamente, sua folha sobe uns
+> R$ 40 mil por mês — com profissionais que não têm a nossa experiência. Nós
+> trazemos o ecossistema pronto, estratégia e execução. **Nós custamos menos
+> que o seu erro.**"
+
+**A escassez aqui é real, não é gatilho inventado.** Como os programas
+incluem execução, existe limite físico de quantas empresas a equipe absorve
+por vez. Dizer isso é honesto, e funciona melhor do que contagem regressiva.
+
+---
+
+## ⚠ O que ficou de fora, e por quê
+
+### O papel do Simões continua sendo explicar, não aplicar
+
+O material de origem propunha o Simões **renegociando dívida, captando
+crédito, conectando o cliente a fundo e banco**, e atuando em nível de
+investment banking.
+
+**Isso não entrou, e não é esquecimento.** Rompe a **cláusula 3.7 do termo
+assinado** pelos três, que limita a atuação em finanças a **educacional**:
+não indica produto, corretora nem aplicação, não promete retorno, e quem
+decide onde aplicar é o cliente, com profissional habilitado. A delimitação
+foi decidida duas vezes, em 06 e 07/out/2026.
+
+Onde o material falava em renegociar e captar, aqui está **engenharia
+financeira e critério** — o Simões explica como o dinheiro se comporta e qual
+régua usar. **A decisão é do cliente, com quem for habilitado.**
+
+**Para mudar isso, muda-se primeiro o termo, com o jurídico.** Ver item 9 do
+`historico-de-decisoes.md`.
+
+### O caso do Bittar entra sem afirmação
+
+**Decidido por ele em 13/out/2026:** a trajetória da Stanley's Hair entra
+como **estudo de caso estrutural** — hipercrescimento, terceirização do core
+business, a diferença entre delegar e largar, o custo de escalar sem
+compliance.
+
+**Sem nenhuma afirmação sobre conselho profissional, vigilância sanitária,
+processo ou litígio com terceiro.** Nada disso vai para material de venda,
+palco ou peça pública.
+
+A verificação do que é fato e do que é alegação está em
+`material/verificacao-stanley-bittar-2026-10-13.md`. **Serve para saber onde
+não pisar, não para citar.**

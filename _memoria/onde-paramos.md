@@ -29,67 +29,56 @@ Duas decisões são dele e não devem ser aplicadas sem aval: **a capa dos Reels
 
 ## 1. SBS — Sena, Bittar e Simões
 
-Os documentos comerciais estão **prontos e em PDF**, aguardando análise dos
-sócios. Nada pendente do meu lado.
+### ★ A esteira foi substituída em 13/out/2026
 
-| Documento | Arquivo |
-|---|---|
-| Mentoria (90 dias) | `sbs/SBS Mentoria Business Medical.pdf` |
-| Continuidade (6 meses e 1 ano) | `sbs/SBS - Proposta de continuidade.pdf` |
-| Cesta de produtos (ano fechado) | `sbs/SBS - Cesta de produtos.pdf` |
-| Fichas de diagnóstico (3 portes) | `sbs/ficha-diagnostico/*.pdf` |
+**O que vale agora está em `sbs/esteira.md`.** Quatro produtos, preço por
+tempo de programa:
 
-**O preço da mentoria é R$ 50.000 à vista ou 12x de R$ 5.000.** Isto é
-definitivo. Ele mandou reverter uma reestruturação de 6 meses / R$ 100.000
-que eu havia escrito ("SBS PRO") e **remover o PRO inteiro**. O que foi
-retirado está registrado em `sbs/historico-de-decisoes.md`. **Não ressuscitar
-o PRO nem alterar esse preço** sem ele pedir.
+| Produto | Prazo | Preço |
+|---|---|---|
+| Imersão presencial | 2 dias | R$ 3.000 a R$ 5.000 por pessoa |
+| Choque de Ordem e Caixa | 3 meses | **R$ 35.000** |
+| Escala Blindada | 6 meses | **R$ 85.000** |
+| Advisory Board e Expansão | 12 meses | **R$ 200.000** |
 
-**O nome do produto é "SBS Mentoria Business Medical".**
+**Saíram:** a mentoria de 90 dias por R$ 50.000, a continuidade de 6 meses e
+a cesta por porte (R$ 105/200/400 mil). Os arquivos continuam na pasta com
+aviso de substituído, porque **a metodologia deles segue valendo** — os
+quatro pilares, a divisão de autoridade entre os sócios, o roteiro dos
+encontros e a anamnese.
 
-A cesta tem 3 etapas × 3 portes (clínica, hospital dia, rede e grandes
-hospitais), com valor separado por etapa e pacote fechado de ano. Os números
-estão em `sbs/cesta-de-produtos.md`.
+⚠ **Ele reafirmou os R$ 50.000 em 12/out e decidiu o contrário em 13/out**,
+depois que eu apontei que o programa de 3 meses a R$ 35.000 colidia com a
+mentoria de 90 dias a R$ 50.000. **A decisão nova é a que vale.** Não
+ressuscitar a antiga.
 
-**Próximo passo: é dos sócios.** Eu entro de novo quando ele trouxer retorno
-da análise.
+**Duas mudanças de fundo que vieram junto:**
+1. **O SBS passa a vender execução**, não só direcionamento: assessoria
+   contábil e tributária, BPO financeiro e gestão de marketing.
+2. **O preço passou a ser por tempo**, não por porte do cliente. Se aparecer
+   objeção de clínica pequena, é por aí: ela paga o mesmo que uma rede.
 
-### Material novo de 13/out — 3 perguntas na mesa dos sócios
+### ⚠ O que não pode ser vendido, mesmo com a esteira nova
 
-Ele trouxe uma transcrição de conversa com IA (15 páginas) com levantamento
-sobre o **Dr. Stanley Bittar** e uma esteira de produtos diferente da nossa.
-Arquivada em `sbs/material/`, com a leitura e os conflitos em
-`sbs/material/LEIA-ESTE-MATERIAL.md`. As perguntas foram para
-`sbs/historico-de-decisoes.md`, itens 9, 10 e 11.
+**O Simões explica o Smart Money. Não aplica, não indica, não capta.**
+Cláusula 3.7 do termo assinado, decidida em 06 e 07/out. O material de origem
+propunha ele renegociando dívida e captando crédito; **escrevi a esteira sem
+isso de propósito**. Item 9 do `historico-de-decisoes.md`, ainda aberto.
 
-⚠ **A mais séria:** o material propõe o **Will Simões renegociando dívida e
-captando crédito**. Isso **rompe a cláusula 3.7 do termo assinado**, que
-limita a atuação dele a *explicar* o Smart Money. Decidido duas vezes, em 06
-e 07/out. **Não aplicar. Minha recomendação registrada é manter como está.**
+**O caso do Bittar entra como estudo de caso estrutural, sem afirmação
+nenhuma** sobre conselho profissional, vigilância sanitária, processo ou
+litígio. Decidido por ele em 13/out. A verificação em
+`sbs/material/verificacao-stanley-bittar-2026-10-13.md` **serve para saber
+onde não pisar, não para citar.**
 
-⚠ **O histórico do Bittar: conferido em 13/out contra a imprensa.** Resultado
-em `sbs/material/verificacao-stanley-bittar-2026-10-13.md`, com as fontes.
+### Os PDFs estão desatualizados
 
-**Os episódios existem, mas o material errou em três pontos:** a cassação do
-CRM **não é definitiva** (depende de homologação do CFM, pendente em
-mar/2026 — então **não chamar o Bittar de "ex-médico"**); a interdição de
-Cuiabá foi em **maio de 2024**, não set/2025; e o caso Elo Vitae é **disputa
-entre duas partes que se acusam**, não apuração oficial.
+Os três PDFs em `sbs/` foram gerados da esteira antiga. **Regerar quando ele
+pedir**, com `gerar-plano-pdf.py`, que precisa ser ajustado para a esteira
+nova.
 
-A imprensa traz ainda o que o material não tinha: rede encerrada por decisão
-judicial, dezenas de ações trabalhistas, pedido de interdição do MP no Pará e
-fiscalização do Coren em Vitória.
-
-**Isso pesa em duas frentes.** No **livro**, que é sobre a quebra da
-Stanley's Hair: coautoria com alguém que tem processo correndo **pede leitura
-jurídica antes da editora**. E no **SBS**, que vende compliance para clínicas:
-**não construir peça de venda sobre esse histórico** sem o Bittar concordando
-por escrito e o advogado lendo antes.
-
-**Nada foi alterado a partir desse material.** Preço, escopo e papéis seguem
-como estavam.
-
----
+**Próximo passo: é dos sócios.** A mudança para execução depende da estrutura
+dos três, não só da agenda.
 
 ## 2. Livro "O Médico e o Executivo"
 
