@@ -78,3 +78,16 @@ saidas/*/edit/transcripts/
 * 2.md
 * 2.html
 cópia de *
+
+# Vídeo e áudio — retirados do git em 13/out/2026.
+# Decisão dele: são SAÍDA. Depois de publicados no Instagram, YouTube e
+# TikTok, a cópia no git é só peso — e era o que deixava a sincronia com o
+# celular lenta. Os arquivos continuam no notebook, apenas fora do git.
+# Isso tirou 840 MB do histórico; o .git caiu de 1,2 GB para 504 MB.
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.wav
+*.avi
+*.mkv
