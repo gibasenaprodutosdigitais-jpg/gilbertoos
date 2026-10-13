@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 13/out/2026.**
+> Estado das frentes abertas. **Atualizado em 13/out/2026, fim do dia.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -12,18 +12,27 @@
 ## O primeiro ato da próxima sessão
 
 **Conferir se a fila publicou** — `posts_list` com status `published`, e
-`posts_list_failed` se faltar algum. **Avisar ele do resultado sem ele
-precisar perguntar.** O lote roda de 13 a 17/out no Instagram e até 24/out no
-YouTube. Em 13/out os posts de 09:00 e 14:00 saíram normalmente.
+`posts_list_failed` se faltar algum. **Avisar ele sem precisar perguntar.**
 
-**A partir de 18/out, o primeiro ato é outro: fazer a análise de cadência.**
-Está especificada na seção 3, com as ferramentas, a ordem das métricas e a
-linha de base de 13/out para comparar. **É a única coisa com data marcada.**
+⚠ **Conferir a hora antes de afirmar que algo saiu.** Em 13/out eu disse duas
+vezes que um post já tinha publicado quando ainda faltavam horas. Ele me
+corrigiu. Quando eu digo que publicou, ele tem que poder confiar sem ir ver.
 
-Fora isso, nada está esperando de mim. **As frentes estão na mão dele ou de
-terceiros:** o SBS com os sócios, o livro com o Stanley, o conteúdo agendado.
-Duas decisões são dele e não devem ser aplicadas sem aval: **a capa dos Reels**
-(preta "por enquanto") e **o topo da escada de posicionamento**.
+**A partir de 18/out o primeiro ato muda: fazer a análise de cadência.**
+Especificada na seção 3, com as ferramentas, a ordem das métricas e a linha
+de base de 13/out. **É a única coisa com data marcada.**
+
+### O que está esperando decisão dele
+
+| O quê | Onde |
+|---|---|
+| Habilitação do Simões para captação de recursos | `sbs/historico-de-decisoes.md`, item 16 |
+| Texto do aviso ao associado quando um sócio é fornecedor | idem, e seção 4 do contrato |
+| O topo da escada de posicionamento (Procurado × Idolatrado) | `_memoria/posicionamento.md`, fim |
+| Capa dos Reels — preta "por enquanto" | seção 3 |
+| As 4 decisões do livro | seção 2 |
+
+**Nada disso deve ser aplicado sem ele dizer.**
 
 ---
 
@@ -168,11 +177,22 @@ Stanley**, que ainda não chegaram. Não inventar essa parte.
 
 ## 3. Conteúdo e publicação (Zernio)
 
-**26 posts agendados** em 12/out/2026. Dia, hora e ID de cada um estão em
+**40 posts agendados.** Dia, hora e ID de cada um em
 `saidas/reels-a-postar-2026-10-12/calendario.md`.
 
-- **Instagram:** 14 Reels, 3 por dia (09:00 / 14:00 / 20:00), de 13 a 17/out.
-- **YouTube:** 12 vídeos, 1 por dia (12:00), de 13 a 24/out.
+| Rede | Quantos | Ritmo | Janela |
+|---|---|---|---|
+| **Instagram** | 14 Reels | 3 por dia — 09:00, 14:00, 20:00 | 13 a 17/out |
+| **YouTube** | 12 vídeos | 1 por dia — 12:00 | 13 a 24/out |
+| **TikTok** | 14 vídeos | **1 a cada 4 horas**, sem parar | 13/out 12:30 a 15/out 16:30 |
+
+**São os mesmos 14 vídeos no Instagram e no TikTok**, mas com **legenda
+própria em cada um** e ritmos diferentes de propósito. No TikTok a legenda
+tem metade do tamanho, 4 hashtags em vez de 7, e não leva "me segue" — lá o
+texto fica sobre o vídeo e só a primeira linha aparece.
+
+A grade do TikTok repete 6 horários fixos: 00:30, 04:30, 08:30, 12:30, 16:30
+e 20:30. **Quatro caem na madrugada**, ele foi avisado e manteve.
 
 **Conferir se publicaram** com `posts_list` status `published`. Vídeo fica
 alguns minutos em `publishing` porque o Instagram transcodifica — é normal.
@@ -285,6 +305,13 @@ se estivesse decidida, nem a antiga.**
 - **Escrevi a reestruturação do SBS inteira sem confirmar o preço.** Deu
   retrabalho e precisou de `git checkout`.
 - **Tratei ele por "tu".** Ele pediu "você" em 09/out/2026 e é definitivo.
+- **Disse duas vezes que um post já tinha publicado quando ainda não tinha**
+  (13/out, o das 14:00). Ele me corrigiu. **Conferir a hora e o status antes
+  de afirmar que algo saiu** — quando eu digo que publicou, ele tem que poder
+  confiar sem ir checar.
+- **Varri o repositório inteiro com um padrão largo demais** (`*copia*`) e
+  travei 146 KB de resultado inútil. **Medir o escopo antes de sair
+  varrendo.**
 
 ---
 
