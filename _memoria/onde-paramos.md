@@ -67,11 +67,24 @@ captando crédito**. Isso **rompe a cláusula 3.7 do termo assinado**, que
 limita a atuação dele a *explicar* o Smart Money. Decidido duas vezes, em 06
 e 07/out. **Não aplicar. Minha recomendação registrada é manter como está.**
 
-⚠ **O histórico do Bittar no material é grave e sem fonte nenhuma:** cassação
-do CRM-AC em ago/2025, interdição sanitária em set/2025, conflito com a Elo
-Vitae em mar/2026. **Conferir em fonte primária antes de qualquer uso**, e
-não repetir como fato estabelecido. **Isso também muda o enquadramento do
-livro**, que é sobre a quebra da Stanley's Hair.
+⚠ **O histórico do Bittar: conferido em 13/out contra a imprensa.** Resultado
+em `sbs/material/verificacao-stanley-bittar-2026-10-13.md`, com as fontes.
+
+**Os episódios existem, mas o material errou em três pontos:** a cassação do
+CRM **não é definitiva** (depende de homologação do CFM, pendente em
+mar/2026 — então **não chamar o Bittar de "ex-médico"**); a interdição de
+Cuiabá foi em **maio de 2024**, não set/2025; e o caso Elo Vitae é **disputa
+entre duas partes que se acusam**, não apuração oficial.
+
+A imprensa traz ainda o que o material não tinha: rede encerrada por decisão
+judicial, dezenas de ações trabalhistas, pedido de interdição do MP no Pará e
+fiscalização do Coren em Vitória.
+
+**Isso pesa em duas frentes.** No **livro**, que é sobre a quebra da
+Stanley's Hair: coautoria com alguém que tem processo correndo **pede leitura
+jurídica antes da editora**. E no **SBS**, que vende compliance para clínicas:
+**não construir peça de venda sobre esse histórico** sem o Bittar concordando
+por escrito e o advogado lendo antes.
 
 **Nada foi alterado a partir desse material.** Preço, escopo e papéis seguem
 como estavam.

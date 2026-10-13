@@ -28,11 +28,20 @@
 Também: Stanley's Holding avaliada em cerca de **meio bilhão de reais**, e a
 Stanley's Hair como maior rede de transplante capilar da América Latina.
 
-⚠ **O documento não cita uma fonte sequer.** São afirmações graves sobre uma
-pessoa real, que é sócio do Gilberto no SBS e coautor do livro.
-**Conferir em fonte primária antes de qualquer uso** — página do CRM-AC,
-decisão da Vigilância, cobertura de imprensa. **Não repetir como fato
-estabelecido só porque está escrito aqui.**
+⚠ **O documento não cita uma fonte sequer**, e **conferi em 13/out: três dos
+pontos estão imprecisos.** A verificação está em
+`verificacao-stanley-bittar-2026-10-13.md`, nesta mesma pasta.
+
+**Os três erros do documento, em resumo:**
+1. **A cassação não é definitiva** — depende de homologação do CFM, que em
+   março de 2026 ainda não tinha saído. Chamar o Bittar de "ex-médico" é
+   prematuro.
+2. **A interdição de Cuiabá foi em maio de 2024**, não em setembro de 2025 —
+   e foi mais grave: houve segunda interdição e multa de R$ 197 mil.
+3. **O caso Elo Vitae é disputa entre duas partes que se acusam**, não
+   apuração oficial. O documento trouxe só um lado.
+
+**Usar a verificação, não este documento.**
 
 ### Por que isso importa para o livro
 
