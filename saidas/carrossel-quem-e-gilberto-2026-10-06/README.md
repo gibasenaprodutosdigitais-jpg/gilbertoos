@@ -74,3 +74,25 @@ NODE_PATH="../../scripts/node_modules" node render.js
 ```
 
 Sai em `instagram/card-01.png` a `card-09.png`.
+
+---
+
+## Alterações de 13/out/2026
+
+**Card 05 trocado.** Era "Conhecimento que gera impacto", com a lista de
+formações. Virou **"Antes da empresa, a família"**: marido da Érica Sena, pai
+da Jéssyka Sena e do Victor Sena, construindo o legado através da família, o
+primeiro ministério.
+
+A troca também resolveu uma repetição: a lista de formações do card 05 era
+quase a mesma do card 06, que trata disso em detalhe. O carrossel ganhou a
+dimensão humana sem perder nada de credencial.
+
+**Card 07 sem as cargas horárias.** Saíram "trilha de 180 horas", "trilha de
+120 horas" e "55,5 horas". Os cursos continuam listados.
+
+⚠ **As 720h do card 06 ficaram**, porque ele pediu só o card 07.
+
+**Grafia dos nomes:** usei **Érica**, **Jéssyka** e **Victor**, como estão
+registrados em `_memoria/quem-e-gilberto.md`. Ele escreveu sem acento no
+pedido, mas ele escreve sem acento em geral.
