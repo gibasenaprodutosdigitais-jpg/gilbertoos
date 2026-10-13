@@ -304,3 +304,57 @@ O que o SBS PRO tinha, caso um dia volte à mesa:
 Esse argumento do segundo trimestre não morreu. Ele reaparece, com outro
 preço e sem prender o cliente a um programa mais longo, na proposta de
 acompanhamento que está em `continuidade.md`.
+
+---
+
+# Material de 13/out/2026 — três perguntas novas para os sócios
+
+O Gilberto trouxe uma transcrição de conversa com IA, de 15 páginas, com
+levantamento sobre o Dr. Stanley Bittar e uma proposta de esteira diferente
+da nossa. **Está arquivada em `material/`, com a leitura completa e os
+conflitos em `material/LEIA-ESTE-MATERIAL.md`.**
+
+**Nada foi alterado a partir dela.** Abaixo, só o que precisa de decisão dos
+três.
+
+## 9. ⚠ O papel do Simões muda, ou continua como está?
+
+O material propõe o Simões renegociando dívida, captando crédito, conectando
+cliente a fundo e banco, e preparando captação via Private Equity.
+
+**Isso rompe a cláusula 3.7 do termo assinado** e a decisão 6 acima, que
+limitam a atuação dele a **explicar** o Smart Money — informação, não
+indicação.
+
+**Não é ajuste de escopo, é exposição regulatória.** Intermediar crédito e
+captação sem habilitação tem consequência. Se os sócios quiserem mesmo essa
+mudança, **mexer primeiro no termo, com o jurídico**, e não no material de
+venda.
+
+**Minha recomendação: manter como está.** A delimitação atual foi decidida
+duas vezes, em 06 e em 07/out, e está em contrato. Foi decidida por um bom
+motivo.
+
+## 10. Entra uma imersão presencial como porta de entrada?
+
+É a ideia mais aproveitável do material e **não existe na esteira**: 2 dias,
+R$ 3.000 a R$ 5.000 por participante, para gerar caixa, criar autoridade
+presencial e qualificar quem compra o programa grande.
+
+Hoje a esteira começa na mentoria de R$ 50.000. Não há degrau antes disso.
+
+## 11. O SBS vende direcionamento ou passa a vender execução?
+
+O material propõe BPO financeiro, assunção da contabilidade e gestão de
+tráfego pago — "nossa equipe operando o seu negócio".
+
+É outro negócio: outro custo, outro risco, outra responsabilidade. A esteira
+atual vende direcionamento e implantação acompanhada.
+
+**Pergunta de fundo, e é dos três:** o SBS é mentoria ou é assessoria?
+
+## O que NÃO entrou em discussão
+
+**O preço.** O Gilberto reafirmou em 12/out que a mentoria é R$ 50.000 à
+vista ou 12x de R$ 5.000, e a esteira precifica por porte do cliente, não por
+tempo. O material propõe outros números; não mexi em nenhum.

@@ -54,6 +54,28 @@ estão em `sbs/cesta-de-produtos.md`.
 **Próximo passo: é dos sócios.** Eu entro de novo quando ele trouxer retorno
 da análise.
 
+### Material novo de 13/out — 3 perguntas na mesa dos sócios
+
+Ele trouxe uma transcrição de conversa com IA (15 páginas) com levantamento
+sobre o **Dr. Stanley Bittar** e uma esteira de produtos diferente da nossa.
+Arquivada em `sbs/material/`, com a leitura e os conflitos em
+`sbs/material/LEIA-ESTE-MATERIAL.md`. As perguntas foram para
+`sbs/historico-de-decisoes.md`, itens 9, 10 e 11.
+
+⚠ **A mais séria:** o material propõe o **Will Simões renegociando dívida e
+captando crédito**. Isso **rompe a cláusula 3.7 do termo assinado**, que
+limita a atuação dele a *explicar* o Smart Money. Decidido duas vezes, em 06
+e 07/out. **Não aplicar. Minha recomendação registrada é manter como está.**
+
+⚠ **O histórico do Bittar no material é grave e sem fonte nenhuma:** cassação
+do CRM-AC em ago/2025, interdição sanitária em set/2025, conflito com a Elo
+Vitae em mar/2026. **Conferir em fonte primária antes de qualquer uso**, e
+não repetir como fato estabelecido. **Isso também muda o enquadramento do
+livro**, que é sobre a quebra da Stanley's Hair.
+
+**Nada foi alterado a partir desse material.** Preço, escopo e papéis seguem
+como estavam.
+
 ---
 
 ## 2. Livro "O Médico e o Executivo"
