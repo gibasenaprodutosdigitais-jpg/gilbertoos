@@ -385,8 +385,8 @@ modelos novos **substituem** a esteira antiga.
 | Saiu | Entrou |
 |---|---|
 | Mentoria 90 dias — R$ 50.000 | 3 meses "Choque de Ordem e Caixa" — **R$ 35.000** |
-| Continuidade 6 meses — R$ 40.000 | 6 meses "Escala Blindada" — **R$ 85.000** |
-| Cesta por porte — R$ 105/200/400 mil | 12 meses "Advisory Board" — **R$ 200.000** |
+| Continuidade 6 meses — R$ 40.000 | 6 meses "Escala Blindada" — **R$ 60.000** |
+| Cesta por porte — R$ 105/200/400 mil | 12 meses "Advisory Board" — **R$ 160.000** |
 | *(não existia)* | Imersão de 2 dias — **R$ 3.000 a R$ 5.000** por pessoa |
 
 **A lógica de preço mudou de porte do cliente para tempo de programa.** Vale
@@ -407,3 +407,26 @@ está explicado em `esteira.md`.
 **Enquanto o item 9 não for decidido, vale a cláusula 3.7:** o Simões
 explica, não indica. Se alguém vender diferente disso em palco ou proposta, o
 contrato entre os sócios está sendo rompido.
+
+
+## 14. Os preços finais e a tese que os sustenta — 13/out/2026
+
+Depois de tirar a execução, ele ajustou: **R$ 35.000, R$ 60.000 e
+R$ 160.000**, mais a imersão de 2 dias.
+
+**A tese dele:** *"o preço se justifica pelas três cabeças no projeto"*. É
+melhor que a ancoragem anterior, porque descreve o que o cliente compra de
+verdade — três leituras cruzando antes de chegar na mesa dele, em vez de um
+consultor olhando de um ângulo só.
+
+**O que observar quando isso for a mercado:**
+
+O de **6 meses ficou o melhor negócio da esteira** para o cliente: R$ 10.000
+por mês, contra R$ 11.667 no de 3 e R$ 13.333 no de 12. Isso é coerente com
+ele ser o programa central, onde a reestruturação acontece.
+
+⚠ **O de 12 meses custa 33% mais por mês que o de 6.** Quem fizer o de 6 e
+depois olhar o de 12 vai perguntar. A resposta está escrita em `esteira.md`:
+muda a natureza do trabalho — 4 presenciais em vez de 1, e os três deixam de
+ser mentores para sentar no conselho, entrando em decisão de abrir unidade,
+comprar concorrente e trazer sócio.

@@ -19,8 +19,8 @@
 |---|---|---|---|
 | **0** | Imersão presencial | 2 dias | **R$ 3.000 a R$ 5.000** por participante |
 | **1** | Choque de Ordem e Caixa | 3 meses | **R$ 35.000** |
-| **2** | Escala Blindada | 6 meses | **R$ 85.000** |
-| **3** | Advisory Board e Expansão | 12 meses | **R$ 200.000** |
+| **2** | Escala Blindada | 6 meses | **R$ 60.000** |
+| **3** | Advisory Board e Expansão | 12 meses | **R$ 160.000** |
 
 A lógica é de degraus: a imersão gera caixa e qualifica, o programa de 3
 meses estanca o sangramento, o de 6 reestrutura, o de 12 expande.
@@ -79,7 +79,7 @@ depende dele.
 
 ## 2. Escala Blindada — 6 meses
 
-**R$ 85.000** · cerca de R$ 14.000 por mês
+**R$ 60.000** · R$ 10.000 por mês
 
 O programa central. Aqui a empresa passa por reestruturação profunda, para
 crescer **sem depender da presença física do dono**.
@@ -102,7 +102,7 @@ crescer **sem depender da presença física do dono**.
 
 ## 3. Advisory Board e Expansão — 12 meses
 
-**R$ 200.000** · cerca de R$ 16.700 por mês
+**R$ 160.000** · cerca de R$ 13.300 por mês
 
 O premium. Os três atuam como **conselho consultivo** do negócio. Para rede,
 hospital-dia consolidado ou clínica que já tem tração e quer dominar o
@@ -123,34 +123,48 @@ mercado, abrir filial ou se preparar para uma venda.
 
 ---
 
-## O argumento de ancoragem
+## O argumento de ancoragem: as três cabeças
 
-> "Nós não vamos operar a sua clínica. Vamos fazer você enxergar o que você
-> não está enxergando, e decidir o que você vem adiando. **Nós custamos menos
-> que o seu erro.**"
+**O preço se justifica pelos três sócios dentro do projeto.** Essa é a tese,
+e ela é mais honesta que a anterior, porque descreve o que o cliente de fato
+compra.
 
-**A escassez aqui é real, não é gatilho inventado.** Os três sócios conduzem
-os encontros pessoalmente, e agenda de três não se multiplica. Dizer isso é
-honesto, e funciona melhor do que contagem regressiva.
+> "Você não está contratando um consultor. Está contratando três cabeças
+> olhando a sua clínica ao mesmo tempo, cada uma de um lugar diferente: quem
+> entende de gestão e imposto, quem é médico e entende de paciente e de
+> venda, e quem entende de margem e de dinheiro. **Nós custamos menos que o
+> seu erro.**"
 
-### ⚠ O que mudou quando a execução saiu
+**Por que isso vende melhor do que hora de trabalho.** Um consultor olha de
+um ângulo só e o dono fica com o trabalho de cruzar as leituras. Aqui as três
+leituras se cruzam antes de chegar na mesa dele — e é no cruzamento que mora
+a decisão difícil: o preço que corrige margem mas assusta o paciente, o
+regime que economiza imposto mas muda a folha.
 
-A ancoragem original comparava o ticket com o custo de contratar um CMO, um
-COO e um CFO. **Esse argumento não se sustenta mais**, porque ele só vale
-para quem faz o trabalho. O SBS aponta e acompanha; quem executa é a equipe
-do cliente.
+**A escassez é real, não é gatilho inventado.** Os três conduzem os encontros
+pessoalmente, e agenda de três não se multiplica. Dizer isso é honesto e
+funciona melhor que contagem regressiva.
 
-**O que sustenta o preço agora é outra coisa, e é mais difícil de vender:**
-a qualidade da decisão. Vale pela economia tributária que o diagnóstico
-encontra, pela margem que o preço corrigido devolve e pelo passivo que a
-regularização evita — não por hora de trabalho entregue.
+### A conta por mês, e a pergunta que vem junto
 
-**Isso aperta mais no programa de 12 meses.** R$ 200.000 por conselho
-consultivo é defensável para uma rede; para uma clínica média é caro sem a
-execução junto. A cesta antiga resolvia isso cobrando por porte do cliente.
-**Essa objeção vai aparecer, e os sócios precisam ter resposta pronta.**
+| Programa | Total | Por mês |
+|---|---|---|
+| 3 meses | R$ 35.000 | R$ 11.667 |
+| 6 meses | R$ 60.000 | **R$ 10.000** |
+| 12 meses | R$ 160.000 | R$ 13.333 |
 
----
+⚠ **O de 12 meses custa mais por mês que o de 6.** Quem fizer o de 6 e depois
+olhar o de 12 vai perguntar por que o mês ficou 33% mais caro. **Ter a
+resposta pronta:**
+
+> "Porque muda a natureza do trabalho. No de 6 meses nós vamos à sua clínica
+> uma vez. No de 12, quatro vezes, e deixamos de ser mentores para sentar no
+> conselho do seu negócio: entramos em decisão de abrir unidade, de comprar
+> concorrente e de trazer sócio. Isso não é acompanhamento, é
+> corresponsabilidade."
+
+**O degrau de 6 meses é o melhor negócio da esteira para o cliente**, e isso
+é intencional: é o programa central, onde a reestruturação de fato acontece.
 
 ## ⚠ O que ficou de fora, e por quê
 

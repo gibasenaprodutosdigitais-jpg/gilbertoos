@@ -38,8 +38,8 @@ tempo de programa:
 |---|---|---|
 | Imersão presencial | 2 dias | R$ 3.000 a R$ 5.000 por pessoa |
 | Choque de Ordem e Caixa | 3 meses | **R$ 35.000** |
-| Escala Blindada | 6 meses | **R$ 85.000** |
-| Advisory Board e Expansão | 12 meses | **R$ 200.000** |
+| Escala Blindada | 6 meses | **R$ 60.000** |
+| Advisory Board e Expansão | 12 meses | **R$ 160.000** |
 
 **Saíram:** a mentoria de 90 dias por R$ 50.000, a continuidade de 6 meses e
 a cesta por porte (R$ 105/200/400 mil). Os arquivos continuam na pasta com
@@ -57,13 +57,17 @@ ressuscitar a antiga.
 mudar — regime, equiparação hospitalar, DRE, licenças — e **quem executa é a
 equipe do cliente**. Sem BPO, sem assumir contabilidade, sem gerir tráfego.
 
-⚠ **Duas consequências de preço que os sócios precisam ter resposta pronta:**
-1. **A ancoragem original morreu.** Comparar o ticket com o custo de
-   contratar CMO, COO e CFO só vale para quem faz o trabalho. Agora o que
-   sustenta o preço é a qualidade da decisão, que é mais difícil de vender.
+**A ancoragem é a das três cabeças**, tese dele de 13/out: o cliente não
+contrata um consultor, contrata três leituras cruzando antes de chegar na
+mesa dele — gestão e imposto, médico e venda, margem e dinheiro.
+
+⚠ **Duas coisas de preço com resposta já escrita em `esteira.md`:**
+1. **O de 12 meses custa mais por mês que o de 6** (R$ 13.333 contra
+   R$ 10.000). Quem subir do 6 para o 12 vai perguntar. A resposta é que
+   muda a natureza: 4 presenciais em vez de 1, e os três passam de mentores
+   a conselho, entrando em decisão de abrir unidade e comprar concorrente.
 2. **O preço é por tempo, não por porte.** Uma clínica de uma sala paga o
-   mesmo que uma rede. Aperta mais no de 12 meses: R$ 200.000 de conselho
-   consultivo é defensável para rede, caro para clínica média.
+   mesmo que uma rede.
 
 ### ⚠ O que não pode ser vendido, mesmo com a esteira nova
 
