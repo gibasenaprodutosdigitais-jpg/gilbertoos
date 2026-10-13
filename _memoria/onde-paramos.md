@@ -336,24 +336,47 @@ coisa.
 
 ---
 
-## 6. ⚠ A pasta .git está com 1,2 GB — pendente
+## 6. 🔴 PARE: o repositório está divergente do GitHub
 
-Em 13/out/2026 apagamos 2.073 duplicatas e liberamos 279,3 MB **no disco**.
-Entraram no `.gitignore` as sobras de edição de vídeo e o padrão de duplicata
-do macOS, então o problema não volta sozinho.
+**Em 13/out/2026 o histórico foi reescrito aqui, mas o envio ao GitHub foi
+bloqueado.** O notebook e o GitHub têm históricos incompatíveis neste
+momento.
 
-**Mas a sincronia com o celular continua lenta, e por outro motivo:** o
-histórico do git guarda um **brandbook de 235,5 MB**, commitado uma vez lá
-atrás e depois removido. O arquivo não está mais no repositório; o histórico
-não esquece.
+| | |
+|---|---|
+| **Local** | histórico limpo, `.git` com **504 MB**, 298 commits |
+| **GitHub** | histórico antigo, 1,2 GB, HEAD em `559f211` |
 
-**O conserto existe** — reescrever o histórico com `git filter-repo` ou BFG.
-A pasta cairia de 1,2 GB para algo perto de 200 MB.
+### ⚠ NÃO fazer `git pull --rebase`
 
-⚠ **Não fazer de passagem.** Reescrever histórico obriga `--force` e **o
-celular dele para de sincronizar até alguém baixar o repositório do zero.**
-Ele pediu em 13/out para combinar isso em outro momento, provavelmente com o
-Cid junto. **Não executar por conta própria.**
+Vai falhar ou embaralhar tudo, porque os commits mudaram de identidade. **O
+fluxo normal de `/salvar` está suspenso até isto se resolver.**
+
+### O que resolve, e é um comando só
+
+```
+git push --force -u origin main
+```
+
+Precisa de autorização dele — foi bloqueado pelo classificador em 13/out por
+ser ação destrutiva. **Ou ele libera a permissão para Bash, ou roda no
+terminal dele.**
+
+**Depois que passar:** ele precisa **baixar o repositório de novo no
+celular.** A cópia de lá ficou incompatível.
+
+### A cópia de segurança
+
+`~/Desktop/BACKUP-gilbertoos-antes-da-limpeza-2026-10-13` tem o histórico
+inteiro de antes e os 22 vídeos que eram versionados. **Enquanto ela existir,
+dá para voltar atrás.** Não apagar sem ele pedir, e só depois de confirmar
+que o celular voltou a funcionar.
+
+### O que a limpeza tirou
+
+840 MB: o brandbook de 235 MB, os vídeos e áudios, e os arquivos órfãos que
+já não estavam no repositório mas o git carregava. **Nenhum conteúdo se
+perdeu** — os 85 vídeos continuam no disco, agora no `.gitignore`.
 
 ---
 
