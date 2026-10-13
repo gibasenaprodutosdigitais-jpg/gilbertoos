@@ -336,47 +336,40 @@ coisa.
 
 ---
 
-## 6. 🔴 PARE: o repositório está divergente do GitHub
+## 6. ✅ Repositório limpo — resolvido em 13/out/2026
 
-**Em 13/out/2026 o histórico foi reescrito aqui, mas o envio ao GitHub foi
-bloqueado.** O notebook e o GitHub têm históricos incompatíveis neste
-momento.
+O histórico foi reescrito e **enviado ao GitHub**. Notebook e GitHub estão
+idênticos em `e637f45`. **A sincronia voltou ao normal** — `/salvar` funciona
+como sempre.
 
-| | |
-|---|---|
-| **Local** | histórico limpo, `.git` com **504 MB**, 298 commits |
-| **GitHub** | histórico antigo, 1,2 GB, HEAD em `559f211` |
+| | Antes | Depois |
+|---|---|---|
+| Baixar o repositório do zero | ~11 GB | **1,0 GB** |
+| Pasta `.git` | 1,2 GB | **496 MB** |
 
-### ⚠ NÃO fazer `git pull --rebase`
+**O que saiu:** 840 MB — o brandbook de 235 MB, vídeos e áudios, e arquivos
+órfãos que já não estavam no repositório mas o git carregava.
 
-Vai falhar ou embaralhar tudo, porque os commits mudaram de identidade. **O
-fluxo normal de `/salvar` está suspenso até isto se resolver.**
+**Nenhum conteúdo se perdeu.** Os vídeos continuam no notebook, agora no
+`.gitignore`. Conferido por clone novo: 10 capítulos do livro, 60
+fichamentos, 8 PDFs do SBS, os cards do carrossel — tudo no lugar.
 
-### O que resolve, e é um comando só
+### ⚠ Regra nova: vídeo e áudio não entram mais no git
 
-```
-git push --force -u origin main
-```
+`*.mp4`, `*.mov`, `*.m4a`, `*.mp3`, `*.wav`, `*.avi`, `*.mkv` estão no
+`.gitignore`. **São saída:** depois de publicados, a cópia versionada é só
+peso. Se precisar versionar um vídeo específico um dia, usar `git add -f` —
+mas pensar duas vezes.
 
-Precisa de autorização dele — foi bloqueado pelo classificador em 13/out por
-ser ação destrutiva. **Ou ele libera a permissão para Bash, ou roda no
-terminal dele.**
+### As cópias de segurança
 
-**Depois que passar:** ele precisa **baixar o repositório de novo no
-celular.** A cópia de lá ficou incompatível.
+`~/Desktop/BACKUP-gilbertoos-antes-da-limpeza-2026-10-13` tem:
+- `git-completo` — o `.git` do notebook antes da reescrita
+- `github-como-estava-hoje.git` — espelho do GitHub antes do envio
+- `videos-preservados` — os 22 vídeos que eram versionados
 
-### A cópia de segurança
-
-`~/Desktop/BACKUP-gilbertoos-antes-da-limpeza-2026-10-13` tem o histórico
-inteiro de antes e os 22 vídeos que eram versionados. **Enquanto ela existir,
-dá para voltar atrás.** Não apagar sem ele pedir, e só depois de confirmar
-que o celular voltou a funcionar.
-
-### O que a limpeza tirou
-
-840 MB: o brandbook de 235 MB, os vídeos e áudios, e os arquivos órfãos que
-já não estavam no repositório mas o git carregava. **Nenhum conteúdo se
-perdeu** — os 85 vídeos continuam no disco, agora no `.gitignore`.
+**Apagar só depois que ele confirmar que o celular voltou a funcionar**, e
+só a pedido dele.
 
 ---
 
