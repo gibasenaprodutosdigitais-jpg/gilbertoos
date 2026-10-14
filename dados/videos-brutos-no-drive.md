@@ -36,9 +36,19 @@ Sem marcação. Numerados de `IMG_3541` a `IMG_3640`, aproximadamente.
 
 **Google Drive, "Meu Drive", na raiz.** Não é pasta: estão soltos.
 
-⚠ **No Drive há também 34 cópias com "(1)" no nome** — conferidas em
-29/set/2026, mesmo tamanho do original e nenhuma existe sem o original.
-**São duplicatas e ocupam 34 GB da conta dele.** Vale limpar um dia, mas é
-decisão dele.
+## ✅ As 34 duplicatas do Drive foram apagadas em 13/out/2026
+
+Eram cópias `IMG_35xx (1).MOV` e `IMG_36xx (1).MOV`, conferidas por tamanho
+contra o original. **31,7 GB liberados na conta do Google dele.** Estão na
+lixeira do Drive por 30 dias.
+
+Os 49 originais continuam lá. Conferido depois de apagar.
+
+⚠ **Sete arquivos com "(n)" no nome NÃO eram duplicata e ficaram:**
+cinco imagens do WhatsApp com tamanho diferente do original, o PDF
+"evento Gilberto para validação dia 27-08 (1)" e
+"Grupo Sena - Assinatura Ícone - Fundo claro e escuro (2).png". **Os dois
+últimos não têm original nenhum** — apagar pelo padrão do nome teria
+destruído os dois. **Nunca apagar por nome: conferir tamanho e original.**
 
 A pasta `Pod GibaCast` (7 vídeos, 9,8 GB) é separada e não entra nisto.
