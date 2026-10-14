@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root{
-    --papel:#F4F1EA; --ink:#151515; --body:#454545;
+    --papel:#17120D; --ink:#F5F1E8; --body:#CFC7B8;
     --dark:#0F1419; --dark2:#0A0A0A; --paper-text:#F4F1EA;
     --gold:#C9A227;
   }
@@ -363,3 +363,11 @@
 
 </body>
 </html>
+
+<style>
+/* .card aninhado dentro de .slide e caixinha interna, nao e slide.
+   A pele nao deve dar a ela faixa, logo nem recuo de 116px. */
+.slide .card{ padding-left:22px !important; padding-right:22px !important;
+  background:rgba(244,241,234,.06) !important }
+.slide .card::before, .slide .card::after{ content:none !important; background:none !important }
+</style>

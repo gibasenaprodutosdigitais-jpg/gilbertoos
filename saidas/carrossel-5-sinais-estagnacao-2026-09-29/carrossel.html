@@ -19,7 +19,7 @@
 :root{
   --console:#14171C;
   --tinta:#E6E8EA;
-  --acento:#D2483F;
+  --acento:#E3C06E;
   --neutro:#8C9196;
   --fio:rgba(230,232,234,.16);
 }
@@ -351,3 +351,11 @@ h2 em{font-style:normal;color:var(--acento)}
 
 </body>
 </html>
+
+<style>
+/* .card aninhado dentro de .slide e caixinha interna, nao e slide.
+   A pele nao deve dar a ela faixa, logo nem recuo de 116px. */
+.slide .card{ padding-left:22px !important; padding-right:22px !important;
+  background:rgba(244,241,234,.06) !important }
+.slide .card::before, .slide .card::after{ content:none !important; background:none !important }
+</style>

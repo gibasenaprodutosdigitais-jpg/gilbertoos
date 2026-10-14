@@ -390,3 +390,11 @@
 
 </body>
 </html>
+
+<style>
+/* .card aninhado dentro de .slide e caixinha interna, nao e slide.
+   A pele nao deve dar a ela faixa, logo nem recuo de 116px. */
+.slide .card{ padding-left:22px !important; padding-right:22px !important;
+  background:rgba(244,241,234,.06) !important }
+.slide .card::before, .slide .card::after{ content:none !important; background:none !important }
+</style>

@@ -11,9 +11,9 @@
   :root{
     --noite:#0B2144;
     --noite-claro:#15386E;
-    --ouro:#E0A82E;
+    --ouro:#E3C06E;
     --ouro-claro:#F2C96A;
-    --tinta:#FFFFFF;
+    --tinta:#F5F1E8;
     --tinta-fraca:#C5D3E8;
   }
   *{margin:0;padding:0;box-sizing:border-box}
@@ -170,7 +170,7 @@ const CARDS = [
         o empresário que quer transformar a gestão e acelerar resultado.</p>
         <p class="fraco">Gestão de Si · Financeira · de Pessoas · Tributária ·
         de Fornecedores e Clientes.</p>
-        <p class="destaque">Link na bio.</p>`},
+        <p class="destaque">Me chama no direct.</p>`},
 
  {n:"04", classe:"g2",
   selo:"Criador",
@@ -270,3 +270,11 @@ CARDS.forEach((c,i)=>{
 });
 </script>
 </html>
+
+<style>
+/* .card aninhado dentro de .slide e caixinha interna, nao e slide.
+   A pele nao deve dar a ela faixa, logo nem recuo de 116px. */
+.slide .card{ padding-left:22px !important; padding-right:22px !important;
+  background:rgba(244,241,234,.06) !important }
+.slide .card::before, .slide .card::after{ content:none !important; background:none !important }
+</style>

@@ -430,3 +430,11 @@ h2{font-size:64px;font-weight:700;line-height:1.02;letter-spacing:-.02em;max-wid
 /* o slide de fecho ja traz a logo a direita: nao repetir no canto esquerdo */
 .slide.fim::after,.fim::after{content:none !important}
 </style>
+
+<style>
+/* .card aninhado dentro de .slide e caixinha interna, nao e slide.
+   A pele nao deve dar a ela faixa, logo nem recuo de 116px. */
+.slide .card{ padding-left:22px !important; padding-right:22px !important;
+  background:rgba(244,241,234,.06) !important }
+.slide .card::before, .slide .card::after{ content:none !important; background:none !important }
+</style>
