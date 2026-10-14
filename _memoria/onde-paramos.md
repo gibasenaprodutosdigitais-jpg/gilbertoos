@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 13/out/2026, fim do dia.**
+> Estado das frentes abertas. **Atualizado em 13/out/2026, 23h.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -26,9 +26,12 @@ de base de 13/out. **É a única coisa com data marcada.**
 
 | O quê | Onde |
 |---|---|
-| Habilitação do Simões para captação de recursos | `sbs/historico-de-decisoes.md`, item 16 |
+| **Qual capa do livro vai valer** (3 opções prontas) | seção 2 |
+| **Confirmar no ícone do Drive** se os vídeos subiram | seção 6 |
+| **Achar o HD do Time Machine** | seção 6 |
+| Habilitação do Simões para captação | `sbs/historico-de-decisoes.md`, item 16 |
 | Texto do aviso ao associado quando um sócio é fornecedor | idem, e seção 4 do contrato |
-| O topo da escada de posicionamento (Procurado × Idolatrado) | `_memoria/posicionamento.md`, fim |
+| Topo da escada de posicionamento (Procurado × Idolatrado) | `_memoria/posicionamento.md`, fim |
 | Capa dos Reels — preta "por enquanto" | seção 3 |
 | As 4 decisões do livro | seção 2 |
 
@@ -164,13 +167,41 @@ Stanley**, que ainda não chegaram. Não inventar essa parte.
    dele no escritório, por aperto financeiro e falta de direção.
 4. **"Stanley's Hair" leva apóstrofo** na capa?
 
+### ★ A capa tem 3 opções prontas, e falta ele escolher — 13/out/2026
+
+Tudo em `livro-o-medico-e-o-executivo/capa/`, com `capa-opcaoN.html` e
+`_render-capaN.js` próprios. A leitura completa está no README de lá.
+
+| Arquivo | A foto do Gilberto | Rostos | Origem |
+|---|---|---|---|
+| `...capa.png` | camisa preta, estúdio | 13 pts | 657 × 1280 |
+| `...capa OPCAO 2.png` | rua, blazer, óculos escuros | 22 pts | 719 × 1280 |
+| **`...capa OPCAO 3.png`** | **estúdio, mãos sob o queixo** | **9 pts** | **4480 × 6720** |
+
+**Minha recomendação registrada é a opção 3**, e o motivo principal não é
+estético: **é a única cuja foto sustenta impressão.** O recorte dela foi
+redução, não ampliação.
+
+**O Stanley mandou foto nova em 13/out**, de estúdio, **terno branco**. Isso
+mudou tudo: a roupa passou a nomear os dois mundos do título, e a linha
+dourada do meio virou a fronteira entre eles.
+
+⚠ **A foto da opção 3 tinha sido recusada em 09/out**, quando o Stanley
+estava de preto sorrindo. **Foto recusada não é foto ruim, é foto que não
+servia naquele par.**
+
+**Régua que ficou para qualquer capa futura:** as duas cabeças do mesmo
+tamanho, e **menos de 15 pontos de diferença entre o brilho das peles**. Com
+roupas de cores opostas, medir a média da metade não diz nada; medir o rosto.
+
 ### Pendências técnicas
 
 - **O PDF do escopo da editora escreve "Staley" em todo lugar.** Precisa ser
   corrigido na fonte antes de ir para a editora.
-- **A capa precisa de originais em resolução maior.** A foto do Stanley é um
-  print de story, 719×1280, com área útil de ~460×613. Serve para tela, não
-  para impressão. Arquivos em `capa/fotos/`.
+- **Falta só o original do Stanley.** Com a opção 3, a metade do Gilberto
+  está resolvida (4480 × 6720). A do Stanley tem 768 × 903, que depois do
+  recorte vira 534 × 712. **Pedir a ele o arquivo do fotógrafo** — o retrato
+  é de estúdio, então o original existe.
 - **Falta o acordo de coautoria** com o Stanley.
 
 ---
@@ -200,6 +231,25 @@ Se falhar, `posts_list_failed` e `posts_retry`.
 
 O manual completo da Zernio (IDs, fluxo, limites, armadilhas) está na memória
 do Claude, não no repositório, porque envolve credencial e conta.
+
+### Carrossel "Quem é Gilberto Sena": card 5 refeito — 13/out/2026
+
+`saidas/carrossel-quem-e-gilberto-2026-10-06/`, 9 cards regerados.
+
+**Card 5** era a lista de formações e virou **"Antes da empresa, a família"**:
+marido da Erica Sena, pai da Jessyka Sena e do Victor Sena, construindo o
+legado através da família, o primeiro ministério. A troca resolveu uma
+repetição de passagem, porque aquela lista era quase a mesma do card 6.
+
+**Cards 6 e 7 perderam todas as cargas horárias.** Nenhuma restou no
+carrossel.
+
+⚠ **Os nomes da família se escrevem SEM acento: Erica, Jessyka, Victor.**
+Confirmado por ele. Eu tinha posto com acento seguindo o `quem-e-gilberto.md`,
+que também foi corrigido, junto com o capítulo "As sete quedas" do livro.
+**Exceção: nos distratos da Empreenda ela assina como testemunha, com CPF,
+sob "Érica Fernanda Sena".** Em contrato a grafia tem que bater com o
+documento, e esses arquivos não foram tocados.
 
 ### O Vivaldi que falhou: decidido, não republicar
 
@@ -312,6 +362,14 @@ se estivesse decidida, nem a antiga.**
 - **Varri o repositório inteiro com um padrão largo demais** (`*copia*`) e
   travei 146 KB de resultado inútil. **Medir o escopo antes de sair
   varrendo.**
+- **Calculei um recorte de foto pelo tamanho errado da cabeça** e a primeira
+  tentativa da capa saiu com só a testa e os olhos. **Peguei olhando o
+  arquivo**, não pelo número. Em peça visual, abrir a imagem não é opcional.
+- **Prometi que o `.git` cairia para 200 MB** sem ter medido o que ocupava.
+  Era 20%. **Medir antes de prometer número.**
+- **Disse que a foto do Stanley "não existia"** quando ela estava no
+  Downloads com outro nome: meu `ls` com `awk` cortava nomes com espaço.
+  **Usar `ls -t` com nome inteiro, ou o `mdfind`.**
 
 ---
 
@@ -361,81 +419,61 @@ fichamentos, 8 PDFs do SBS, os cards do carrossel — tudo no lugar.
 peso. Se precisar versionar um vídeo específico um dia, usar `git add -f` —
 mas pensar duas vezes.
 
-### 🔴 O Time Machine está ligado mas NÃO está fazendo backup
+### 🔴 O Time Machine não faz backup desde 29/01/2024
 
-**Descoberto em 13/out/2026.** O Time Machine está habilitado e tem destino
-configurado ("Backups de MacBook Pro"), **mas o disco não está conectado**.
-Ele tenta a cada hora e falha com *"Failed to mount destination"*.
+**Diagnosticado em 13/out/2026.** Está ligado e tem destino configurado
+("Backups de MacBook Pro", externo e criptografado, 50 GB gravados), **mas o
+disco não é conectado desde janeiro de 2024.** Falha de hora em hora em
+silêncio, com *"Failed to mount destination"*.
 
-**Enquanto esse disco não for plugado, o Mac dele não tem backup nenhum
-além do que está no GitHub.** E o GitHub não guarda vídeo nem áudio.
+**Enquanto esse HD não for plugado, o Mac não tem backup** além do GitHub, e
+o GitHub não guarda vídeo nem áudio.
 
-**Avisar ele quando o assunto backup aparecer.** É um clique: plugar o HD.
+**Quando ele achar o HD:** plugar, avisar, e eu verifico se montou, confiro a
+senha e disparo o backup. **O Mac precisa estar na tomada** — nos registros
+aparece "Computer is on battery power" como motivo de pular.
 
-⚠ **O disco interno também está apertado:** 45 GB livres de 460 GB.
+⚠ **Sem o HD, há um efeito colateral que engana.** O macOS continua tirando
+snapshots locais de hora em hora, e **eles seguram o espaço de tudo que é
+apagado.** Em 13/out, apagar 37 GB não liberou nada até eu purgar 24
+snapshots, que devolveram **56 GB de uma vez**. Se o disco voltar a encher
+sem motivo, é isso. O comando é `tmutil listlocalsnapshots /` e
+`tmutil deletelocalsnapshots <data>`.
 
-### A mídia foi para o Google Drive
+### A limpeza de 13/out/2026, e o que sobrou
 
-**13/out/2026:** 171 arquivos de vídeo e áudio, 5,07 GB, copiados para
-`Meu Drive/GilbertoOS - midia (backup)/`, com a estrutura de pastas do
-repositório preservada.
+| Onde | Liberado |
+|---|---|
+| Snapshots locais do APFS | **56 GB** |
+| Pasta `Desktop/Videos do Drive` | 37 GB |
+| Duplicatas e ZIPs do Downloads | 4,35 GB |
+| Conta do Google Drive (34 duplicatas) | **31,7 GB** |
 
-É o backup da mídia que saiu do git. **Se arquivo novo de vídeo for gerado,
-copiar para lá também** — o git não pega mais.
+**Disco: de 45 para 66 GB livres.** Downloads: 28 → 23 GB, e voltou a 30 GB
+porque entrou a pasta `4K reduzido`.
 
-### Limpeza do Downloads — 13/out/2026
+⚠ **Nunca apagar por padrão de nome.** No Drive, sete arquivos tinham "(1)"
+ou "(2)" no nome e **não eram duplicata** — dois deles não tinham original
+nenhum. Conferir tamanho **e** se o original existe.
 
-De **28 GB para 23 GB**, apagando só o que era inquestionável e conferido:
-26 duplicatas idênticas (byte a byte), 5 ZIPs que já estavam extraídos ao
-lado, e 2 instaladores do WhatsApp com o app já instalado.
+**Os 49 vídeos da pasta `Videos do Drive` continuam no Google Drive.** O
+índice, com as **cinco pautas que ele tinha marcado nos nomes dos arquivos**,
+está em `dados/videos-brutos-no-drive.md`.
 
-**Os 4 vídeos brutos do iPhone** (IMG_3304, IMG_3256, IMG_3480, IMG_3271),
-16,5 GB somados, **não tinham cópia em lugar nenhum** do Mac. Foram para
-`Meu Drive/GilbertoOS - videos brutos (backup)/`. **Os originais ficam no
-Downloads até ele confirmar no app do Drive que subiram.**
+### Os vídeos 4K: reduzidos, e o envio ainda não confirmado
 
-⚠ **A conexão do Google Drive aqui não tem permissão de leitura** — dá erro
-de escopo. **Não dá para confirmar daqui que um arquivo chegou à nuvem.**
-Só pelo ícone do Drive na barra do Mac, ou pedindo a ele.
+Os 4 vídeos brutos do iPhone foram reencodados de **16,5 GB para 6,3 GB**,
+mantendo 4K, e estão em `~/Downloads/4K reduzido/`. **Os originais continuam
+no Downloads** e não devem ser apagados até ele confirmar.
 
-⚠ **Copiar para o Drive consome espaço local antes de liberar.** O app guarda
-cache enquanto envia: depois de copiar 5,1 GB de mídia, o cache do DriveFS
-foi a 4,3 GB e o disco caiu de 45 para 39 GB livres. **O espaço só volta
-quando o Drive termina de enviar e limpa o cache.**
+**Estado em 13/out às 23h:** a fila do Drive parou de dar erro depois que
+reiniciei o app, e o cache caiu de 6,6 para 5,6 GB. **Mas não dá para
+confirmar daqui que chegou à nuvem** — a conexão do Drive aqui não tem
+permissão de leitura. **Ele confere pelo ícone do Drive na barra do Mac.**
 
-### 🔴 O upload dele é de ~1 Mbps. Isso muda o planejamento.
+**Só depois disso apagar os originais**, o que devolve mais 16,5 GB.
 
-**Medido em 13/out/2026:** 20 MB levaram 120 segundos. **Subir 1 GB leva
-cerca de 2h20.**
-
-**Consequências práticas:**
-- **Nuvem não serve para vídeo bruto.** 16,5 GB levariam 38 horas, e arquivo
-  grande estoura o tempo limite e recomeça do zero. Foi exatamente o que
-  aconteceu: a fila do Drive travou com 61 erros `UNAVAILABLE_WHILE_OFFLINE`.
-- ⚠ **O Google Drive mente no erro.** Quando o envio falha por lentidão ou
-  por conta cheia, ele diz "Network error". **Não é rede.** Conferi: DNS
-  resolvia, TLS fechava, o Google respondia em menos de 1 segundo.
-- **Antes de mandar coisa grande para a nuvem, calcular o tempo.** E
-  perguntar se vale.
-
-### Vídeo 4K: reduzir o bitrate antes de qualquer envio
-
-Os vídeos do iPhone dele são **4K a 37–50 Mbps**. O Instagram entrega a ~5.
-**Reencodar em HEVC a 15 Mbps corta ~60% do tamanho sem diferença visível.**
-
-Comando que funcionou, com aceleração da Apple:
-```
-ffmpeg -i ENTRADA -c:v hevc_videotoolbox -b:v 15M -tag:v hvc1 -c:a copy SAIDA
-```
-Vídeo de 8 min converteu em 4m42s. **Mais rápido que tempo real.**
-
-⚠ **Os vídeos do iPhone têm `rotation=-90`.** Depois de converter, o ffprobe
-mostra as dimensões trocadas (2160×3840 em vez de 3840×2160). **Isso está
-certo** — a rotação foi aplicada de verdade e o resultado é 4K vertical
-nativo, mais limpo para editar. **Conferir sempre extraindo um quadro**, não
-confiar só no número.
-
-### As cópias de segurança
+### As cópias de segurança### As cópias de segurança
 
 `~/Desktop/BACKUP-gilbertoos-antes-da-limpeza-2026-10-13` tem:
 - `git-completo` — o `.git` do notebook antes da reescrita
