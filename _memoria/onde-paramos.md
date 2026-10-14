@@ -33,7 +33,6 @@ de base de 13/out. **É a única coisa com data marcada.**
 | Texto do aviso ao associado quando um sócio é fornecedor | idem, e seção 4 do contrato |
 | Topo da escada de posicionamento (Procurado × Idolatrado) | `_memoria/posicionamento.md`, fim |
 | Capa dos Reels — preta "por enquanto" | seção 3 |
-| **O "9,9%" da CBS: fonte dele ou engano de fala?** | seção 3 |
 | **O reel do "fundo do poço" é história dele ou do filme?** | seção 3 |
 | As 4 decisões do livro | seção 2 |
 
@@ -242,9 +241,13 @@ o recorte de **2026: 50 vídeos**. O resultado está em
 
 | | |
 |---|---|
-| Aprovados, cortados, com texto | **8** |
+| Aprovados, cortados, com texto | **7** |
 | Esperando confirmação dele | 1 |
-| Declinados | 41 |
+| Declinados | 42 |
+
+**14/out, decisões dele nesta rodada:** o 08 (reflexão de domingo) **saiu**,
+porque abre com "bom domingo a todos" e prende a peça a um dia. E **1, 5 e 6
+foram tratados de imagem e som** a pedido dele.
 
 **A descoberta que importa mais que os 8:** a maior parte do que ele produziu
 em 2026 é **react a material de terceiro** (16 de 50) — Wolf of Wall Street,
@@ -255,6 +258,19 @@ anti-genérico do posicionamento. Mais 13 eram card ou flyer sem áudio.
 Os 8 aprovados estão em `saidas/reels-antigos-amostra-2026-10-14/aprovados/`,
 **fora do git** (regra de vídeo da seção 6). Textos dos três canais em
 `aprovados/textos.json`. Vão direto daqui pra Zernio.
+
+**Tratamento de 1, 5 e 6 (14/out):** vinham em VP9 com taxa baixíssima (o 01
+em 702 kbps a 1080x1920) e áudio de 50 kbps. Imagem: remoção de ruído de
+compressão, deband, nitidez adaptativa (`cas`) e leve ganho de contraste. O 05
+era 576x1024 e subiu pra 1080. Som: `highpass`, `afftdn`, `deesser`,
+compressão leve e `loudnorm` em dois passos. Resultado: vídeo de 2.600 a 5.000
+kbps, áudio de 192 kbps, ruído de fundo 7 a 10 dB mais baixo, −14,0 LUFS
+exatos.
+
+⚠ **Como conferir que uma limpeza de áudio não comeu a fala:** transcreva de
+novo o arquivo tratado e compare com a transcrição do bruto. No 05 a
+semelhança caiu pra 87%, e ao olhar o texto a queda era **melhora**: o Whisper
+passou a acertar um trecho que errava antes. Medição sozinha não diz isso.
 
 **Cortes feitos:** tirei o convite de evento vencido de 4 deles, e no do IPI
 apaguei por filtro o botão "inscrição no link da bio" que estava queimado no
@@ -279,11 +295,15 @@ bom demais pra perder:
 
 ### ⚠ Duas coisas que dependem da palavra dele
 
-**1. O "9,9%" da CBS.** No reel de e-commerce ele fala que a CBS está
-"aproximadamente numa alíquota de 9,9%". O `conhecimento/reforma-tributaria.md`
-registra a referência oficial em **CBS ≈ 8,8%** (IBS ≈ 17,7%, total ≈ 26,5%).
-**Não coloquei percentual nenhum na legenda por causa disso.** O número segue
-no áudio do vídeo. Ele precisa dizer se veio de outra fonte ou se foi engano.
+**1. ✅ O "9,9%" da CBS: decidido em 14/out/2026.** Ele disse: *"o e-commerce
+continua e o 9,9 pode deixar a fala"*. **O reel vai inteiro, com o número no
+áudio.** A legenda continua **sem percentual nenhum**, porque ele autorizou a
+fala, não pediu o número escrito.
+
+⚠ Se alguém comentar o número, a referência do repositório é
+`conhecimento/reforma-tributaria.md`: **CBS ≈ 8,8%**, IBS ≈ 17,7%, total
+≈ 26,5%, e a alíquota final ainda não está fechada. **Não corrigir o vídeo
+nem reabrir o assunto com ele**, já foi decidido.
 
 **2. O reel do "fundo do poço" (14/set).** Ele conta ter dormido em abrigos e
 carregado o filho pela mão. É, palavra por palavra, a história do Chris

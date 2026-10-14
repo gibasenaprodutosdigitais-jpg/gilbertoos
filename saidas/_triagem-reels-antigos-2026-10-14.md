@@ -14,11 +14,12 @@
 | Já postados (detectados por tamanho do arquivo) | 23 |
 | Nunca postados | 175 |
 | Recorte que eu revisei (só 2026, sua escolha) | **50** |
-| **Aprovados, cortados e com texto pronto** | **8** |
+| **Aprovados, cortados e com texto pronto** | **7** |
 | Esperando uma confirmação sua | 1 |
-| Declinados | 41 |
+| Liberados por você em 14/out | e-commerce, com o 9,9% na fala |
+| Declinados | 42 |
 
-Dos 41 declinados, **1 tem roteiro bom demais pra jogar fora** e entra como
+Dos 42 declinados, **1 tem roteiro bom demais pra jogar fora** e entra como
 regravação.
 
 E os carrosséis, do levantamento de ontem: **38 existem, 31 estão prontos**
@@ -26,7 +27,7 @@ E os carrosséis, do levantamento de ontem: **38 existem, 31 estão prontos**
 
 ---
 
-## Por que 41 de 50 caíram
+## Por que 42 de 50 caíram
 
 Quando eu abri os vídeos um por um, apareceu um padrão que a transcrição
 sozinha não mostra. **A maior parte do seu 2026 não é você falando. São
@@ -54,7 +55,7 @@ frame. Anuncia um evento que já passou.
 
 ---
 
-## Os 8 aprovados
+## Os 7 aprovados
 
 Já cortados, com áudio normalizado em -14 LUFS, padronizados em 1080x1920 e
 com a taxa limitada pra subirem rápido na sua internet. Texto pronto pra
@@ -69,13 +70,43 @@ Instagram, YouTube e TikTok em `aprovados/textos.json`.
 | 05 | **Automanipulação: o empresário que acredita no próprio Instagram** | 66s | cortei o convite do evento de 27/ago |
 | 06 | **Em 2027 não cai um imposto novo, cai o sistema inteiro** | 35s | cortei o card do evento no fim |
 | 07 | **Nem toda queda é calvície: o diagnóstico errado** | 75s | cortei o convite da Regenera no fim |
-| 08 | **Coragem de voltar no bairro onde você cresceu** | 96s | cortei a gagueira do fecho |
 
 **O mais forte do grupo é o 03.** É o único em que você assume uma briga com
 nome e sobrenome, e é a sua tese de posicionamento inteira em 78 segundos.
 
 **O 04 é o mais curto e provavelmente o que mais roda.** 18 segundos, uma
 informação técnica fechada, sem CTA.
+
+### ✅ 14/out: o 08 saiu, a pedido dele
+
+*"o reels número 8 reflexão pode tirar pois o bom domingo a todos já passou o
+contexto"*. Ele tem razão: o vídeo abre com "pessoal, bom domingo a todos", o
+que prende a peça a um dia da semana e a uma data. Arquivo e texto removidos.
+
+### ✅ 14/out: 1, 5 e 6 foram tratados de imagem e som
+
+Ele pediu. Os três vinham em VP9 com taxa muito baixa, o 01 em **702 kbps a
+1080x1920**, e áudio de **50 kbps**.
+
+| | Vídeo antes | Vídeo depois | Áudio antes | Áudio depois | Ruído de fundo |
+|---|---|---|---|---|---|
+| 01 transportadora | 702 kbps | 2.624 kbps | 50 kbps | 192 kbps | −27 → −34 dB |
+| 05 automanipulação | 1.160 kbps | 5.048 kbps | 65 kbps | 194 kbps | −22 → −32 dB |
+| 06 cai o sistema | 1.434 kbps | 5.044 kbps | 47 kbps | 191 kbps | já era limpo |
+
+**Imagem:** remoção de ruído de compressão, correção de banding nos degradês,
+nitidez adaptativa e um leve ganho de contraste e cor. O 05 era **576x1024** e
+subiu pra 1080x1920.
+
+**Som:** corte de graves de sala, redução de ruído por FFT, controle de
+sibilância, compressão leve e nivelamento em dois passos, fechando em −14,0
+LUFS exatos nos três.
+
+**A prova de que a limpeza não comeu a fala:** transcrevi de novo o áudio
+tratado e comparei. No 05, o trecho que o Whisper errava antes ("tem empresa
+dela que está num patamar") agora sai certo: "acredita que ela está em um
+patamar de segurança". O som ficou mais limpo e mais inteligível, não mais
+abafado.
 
 ---
 
@@ -100,17 +131,19 @@ Reels.
 
 ---
 
-## Duas coisas que eu preciso que você confirme
+## ✅ Decidido em 14/out: o e-commerce vai inteiro
 
-**1. O número da CBS no vídeo de e-commerce.** Você fala "a CBS está
-aproximadamente numa alíquota de 9,9%". O `conhecimento/reforma-tributaria.md`
-registra a referência oficial em **CBS ≈ 8,8%**, com IBS ≈ 17,7% e carga total
-≈ 26,5%. **Eu não coloquei percentual nenhum na legenda**, justamente por
-causa disso. Se o 9,9% veio de outra fonte sua, me diz qual que eu fico e
-registro. Se foi engano na hora de falar, o vídeo sobe assim mesmo, mas você
-fica sabendo que o número está no áudio.
+Você disse: *"o e-commerce continua e o 9,9 pode deixar a fala"*. **O reel sobe
+com o número no áudio.** A legenda segue sem percentual, porque você autorizou
+a fala e não pediu o número escrito.
 
-**2. O reel do "fundo do poço".** Tem um de 14/set em que você conta ter
+Se alguém puxar o assunto nos comentários, a referência do repositório é CBS
+de 8,8%, IBS de 17,7% e total perto de 26,5%, com a alíquota final ainda em
+aberto.
+
+## Uma coisa ainda esperando você
+
+**O reel do "fundo do poço".** Tem um de 14/set em que você conta ter
 dormido em abrigos e carregado seu filho pela mão enquanto segurava a
 esperança. Essa é, palavra por palavra, a história do Chris Gardner, do filme
 À Procura da Felicidade. **Eu não aprovei esse.** Se for a sua história de
@@ -119,7 +152,7 @@ filme, publicar na sua voz te cria um problema que você não precisa.
 
 ---
 
-## Os 41 declinados, por motivo
+## Os 42 declinados, por motivo
 
 **Reacts a material de terceiro (16):** Wolf of Wall Street · Silvio Santos ·
 Elon Musk sobre dinheiro · Tony Robbins · Michael Caine · o filme do McDonald's ·
