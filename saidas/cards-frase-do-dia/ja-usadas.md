@@ -5,23 +5,30 @@ aqui. Se ele mandar uma repetida, avisar e pedir outra.
 
 Anotar **no dia em que agenda**, não depois.
 
-## Semana de 13 a 17/out/2026
+## Outubro de 2026
 
-| Dia | Frase | Situação |
-|---|---|---|
-| segunda | Comece com o que você tem. O próximo passo aparece quando você sai do lugar. | não usada, a segunda já tinha passado |
-| terça | Empreender também é continuar quando o resultado ainda não apareceu. | não usada, a terça já tinha passado |
-| quarta | Uma decisão bem pensada hoje pode poupar semanas de retrabalho amanhã. | ✅ 14/out, IG e TikTok |
-| quinta | Seu negócio cresce quando você aprende com o que não saiu como planejou. | ✅ 15/out, IG e TikTok |
-| sexta | Antes de encerrar a semana, reconheça o que você construiu. Amanhã tem mais. | ✅ 16/out, IG e TikTok |
+| Data | Dia | Frase | Situação |
+|---|---|---|---|
+| 14/out | quarta | Uma decisão bem pensada hoje pode poupar semanas de retrabalho amanhã. | ✅ IG e TikTok |
+| 15/out | quinta | Seu negócio cresce quando você aprende com o que não saiu como planejou. | ✅ IG e TikTok |
+| 16/out | sexta | Antes de encerrar a semana, reconheça o que você construiu. Amanhã tem mais. | ✅ IG e TikTok |
+| 19/out | segunda | Comece com o que você tem. O próximo passo aparece quando você sai do lugar. | ✅ IG · ⏳ TikTok |
+| 20/out | terça | Empreender também é continuar quando o resultado ainda não apareceu. | ✅ IG · ⏳ TikTok |
+| 21/out | quarta | Uma ideia só vira negócio quando você transforma intenção em entrega. | ✅ IG · ⏳ TikTok |
+| 22/out | quinta | Nem toda oportunidade merece um sim. Escolha as que aproximam sua empresa do que ela quer ser. | ✅ IG · ⏳ TikTok |
+| 23/out | sexta | Quando o plano muda, sua capacidade de se adaptar também faz parte do negócio. | ✅ IG · ⏳ TikTok |
+| 26/out | segunda | Seu próximo cliente pode chegar pela confiança que você construiu no atendimento de hoje. | ✅ IG · ⏳ TikTok |
+| 27/out | terça | Crescer com consistência pede decisões claras, mesmo quando elas são difíceis. | ✅ IG · ⏳ TikTok |
+| 28/out | quarta | Um problema bem resolvido pode ensinar mais sobre sua empresa do que uma semana tranquila. | ✅ IG · ⏳ TikTok |
+| 29/out | quinta | Cuide do caixa com a mesma atenção que dedica às vendas. Os dois mantêm o negócio de pé. | ✅ IG · ⏳ TikTok |
+| 30/out | sexta | Feche o mês com uma pergunta: o que você aprendeu que vai fazer diferente daqui para a frente? | ✅ IG · ⏳ TikTok |
 
-**As de segunda e terça ficaram sem uso.** Ele pode querer aproveitá-las na
-semana seguinte, mas isso é escolha dele: pra mim elas contam como disponíveis
-até saírem de verdade.
+**Outubro está fechado.** O dia 31 cai num sábado, e no fim de semana não tem
+frase do dia.
 
 ---
 
 ## ⏭ Próximo pedido
 
-**Pedir na quinta 16/out:** as 5 frases da semana de 19 a 23/out.
-Nenhuma pode estar nesta lista.
+**Pedir por volta de 28/out:** as frases dos dias úteis de **novembro**.
+São 20 dias úteis. Nenhuma pode estar nesta tabela.

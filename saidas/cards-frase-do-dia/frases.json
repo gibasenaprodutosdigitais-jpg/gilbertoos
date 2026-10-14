@@ -1,7 +1,72 @@
 [
-{"dia":"segunda","rotulo":"Segunda-feira","frase":"Comece com o que você tem. O próximo passo aparece quando você sai do lugar."},
-{"dia":"terca","rotulo":"Terça-feira","frase":"Empreender também é continuar quando o resultado ainda não apareceu."},
-{"dia":"quarta","rotulo":"Quarta-feira","frase":"Uma decisão bem pensada hoje pode poupar semanas de retrabalho amanhã."},
-{"dia":"quinta","rotulo":"Quinta-feira","frase":"Seu negócio cresce quando você aprende com o que não saiu como planejou."},
-{"dia":"sexta","rotulo":"Sexta-feira","frase":"Antes de encerrar a semana, reconheça o que você construiu. Amanhã tem mais."}
+ {
+  "dia": "dia-19",
+  "rotulo": "Segunda-feira",
+  "frase": "Comece com o que você tem. O próximo passo aparece quando você sai do lugar.",
+  "data": "2026-10-19",
+  "chars": 76
+ },
+ {
+  "dia": "dia-20",
+  "rotulo": "Terça-feira",
+  "frase": "Empreender também é continuar quando o resultado ainda não apareceu.",
+  "data": "2026-10-20",
+  "chars": 68
+ },
+ {
+  "dia": "dia-21",
+  "rotulo": "Quarta-feira",
+  "frase": "Uma ideia só vira negócio quando você transforma intenção em entrega.",
+  "data": "2026-10-21",
+  "chars": 69
+ },
+ {
+  "dia": "dia-22",
+  "rotulo": "Quinta-feira",
+  "frase": "Nem toda oportunidade merece um “sim”. Escolha as que aproximam sua empresa do que ela quer ser.",
+  "data": "2026-10-22",
+  "chars": 96
+ },
+ {
+  "dia": "dia-23",
+  "rotulo": "Sexta-feira",
+  "frase": "Quando o plano muda, sua capacidade de se adaptar também faz parte do negócio.",
+  "data": "2026-10-23",
+  "chars": 78
+ },
+ {
+  "dia": "dia-26",
+  "rotulo": "Segunda-feira",
+  "frase": "Seu próximo cliente pode chegar pela confiança que você construiu no atendimento de hoje.",
+  "data": "2026-10-26",
+  "chars": 89
+ },
+ {
+  "dia": "dia-27",
+  "rotulo": "Terça-feira",
+  "frase": "Crescer com consistência pede decisões claras, mesmo quando elas são difíceis.",
+  "data": "2026-10-27",
+  "chars": 78
+ },
+ {
+  "dia": "dia-28",
+  "rotulo": "Quarta-feira",
+  "frase": "Um problema bem resolvido pode ensinar mais sobre sua empresa do que uma semana tranquila.",
+  "data": "2026-10-28",
+  "chars": 90
+ },
+ {
+  "dia": "dia-29",
+  "rotulo": "Quinta-feira",
+  "frase": "Cuide do caixa com a mesma atenção que dedica às vendas. Os dois mantêm o negócio de pé.",
+  "data": "2026-10-29",
+  "chars": 88
+ },
+ {
+  "dia": "dia-30",
+  "rotulo": "Sexta-feira",
+  "frase": "Feche o mês com uma pergunta: o que você aprendeu que vai fazer diferente daqui para a frente?",
+  "data": "2026-10-30",
+  "chars": 94
+ }
 ]
