@@ -1,0 +1,1394 @@
+{
+  "language_code": "pt",
+  "language_probability": 0.9996,
+  "text": "Olá, sou Gilberto Serra e vou te contar três dúvidas sobre o imposto de renda. E a terceira pode te trazer um grande transtorno, hein? Muito cuidado. Primeiro, como evitar cair na malha fina? Muitos contribuintes temem ser selecionados para malha fina. Isso só acontece quando a Receita Federal encontra erros ou inconsistências em sua declaração. Caso tenha dúvidas, sugiro procurar um profissional especializado. Segundo, pagamento de impostos. Se o contribuinte tiver imposto a pagar, é importante entender como pagar corretamente e dentro do prazo estabelecido pela Receita Federal, evitando multas, juros, desnecessários, né? E o terceiro e o mais importante, o PIX. Para evitar problemas com a Receita Federal, é fundamental comprovar todas as transações realizadas por meio de PIX, evitando assim cair na malha fina ou ser atuado pelo órgão. Gostou dessas dicas? Então curte aí, compartilhe, para que mais pessoas possam ser ajudadas com essa mensagem. Um abraço!",
+  "words": [
+    {
+      "text": "Olá,",
+      "start": 0.098,
+      "end": 0.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9289
+    },
+    {
+      "text": " ",
+      "start": 0.56,
+      "end": 0.962,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "sou",
+      "start": 0.962,
+      "end": 1.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.649
+    },
+    {
+      "text": "Gilberto",
+      "start": 1.12,
+      "end": 1.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9459
+    },
+    {
+      "text": "Serra",
+      "start": 1.62,
+      "end": 1.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3723
+    },
+    {
+      "text": "e",
+      "start": 1.8,
+      "end": 1.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9191
+    },
+    {
+      "text": "vou",
+      "start": 1.9,
+      "end": 2.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9767
+    },
+    {
+      "text": "te",
+      "start": 2.08,
+      "end": 2.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9015
+    },
+    {
+      "text": "contar",
+      "start": 2.24,
+      "end": 2.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": "três",
+      "start": 2.54,
+      "end": 2.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4879
+    },
+    {
+      "text": "dúvidas",
+      "start": 2.96,
+      "end": 3.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9976
+    },
+    {
+      "text": "sobre",
+      "start": 3.42,
+      "end": 3.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9982
+    },
+    {
+      "text": "o",
+      "start": 3.7,
+      "end": 3.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4793
+    },
+    {
+      "text": "imposto",
+      "start": 3.84,
+      "end": 4.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8148
+    },
+    {
+      "text": "de",
+      "start": 4.04,
+      "end": 4.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9981
+    },
+    {
+      "text": "renda.",
+      "start": 4.24,
+      "end": 4.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9879
+    },
+    {
+      "text": " ",
+      "start": 4.72,
+      "end": 4.9,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "E",
+      "start": 4.9,
+      "end": 4.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5705
+    },
+    {
+      "text": "a",
+      "start": 4.96,
+      "end": 5.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9945
+    },
+    {
+      "text": "terceira",
+      "start": 5.04,
+      "end": 5.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9984
+    },
+    {
+      "text": "pode",
+      "start": 5.36,
+      "end": 5.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9795
+    },
+    {
+      "text": "te",
+      "start": 5.6,
+      "end": 5.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8142
+    },
+    {
+      "text": "trazer",
+      "start": 5.88,
+      "end": 6.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9783
+    },
+    {
+      "text": "um",
+      "start": 6.16,
+      "end": 6.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9114
+    },
+    {
+      "text": "grande",
+      "start": 6.42,
+      "end": 6.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9991
+    },
+    {
+      "text": "transtorno,",
+      "start": 6.76,
+      "end": 7.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9898
+    },
+    {
+      "text": " ",
+      "start": 7.3,
+      "end": 7.52,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "hein?",
+      "start": 7.52,
+      "end": 7.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6703
+    },
+    {
+      "text": "Muito",
+      "start": 7.64,
+      "end": 7.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.942
+    },
+    {
+      "text": "cuidado.",
+      "start": 7.8,
+      "end": 8.254,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9798
+    },
+    {
+      "text": " ",
+      "start": 8.254,
+      "end": 9.14,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Primeiro,",
+      "start": 9.14,
+      "end": 9.47,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9678
+    },
+    {
+      "text": " ",
+      "start": 9.47,
+      "end": 9.82,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "como",
+      "start": 9.82,
+      "end": 10.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8949
+    },
+    {
+      "text": "evitar",
+      "start": 10.14,
+      "end": 10.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": "cair",
+      "start": 10.76,
+      "end": 11.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.995
+    },
+    {
+      "text": "na",
+      "start": 11.04,
+      "end": 11.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9963
+    },
+    {
+      "text": "malha",
+      "start": 11.22,
+      "end": 11.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9409
+    },
+    {
+      "text": "fina?",
+      "start": 11.52,
+      "end": 11.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9901
+    },
+    {
+      "text": " ",
+      "start": 11.72,
+      "end": 12.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Muitos",
+      "start": 12.0,
+      "end": 12.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9949
+    },
+    {
+      "text": "contribuintes",
+      "start": 12.3,
+      "end": 12.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9903
+    },
+    {
+      "text": "temem",
+      "start": 12.9,
+      "end": 13.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9698
+    },
+    {
+      "text": "ser",
+      "start": 13.26,
+      "end": 13.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8736
+    },
+    {
+      "text": "selecionados",
+      "start": 13.5,
+      "end": 14.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9956
+    },
+    {
+      "text": "para",
+      "start": 14.1,
+      "end": 14.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9858
+    },
+    {
+      "text": "malha",
+      "start": 14.32,
+      "end": 14.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7899
+    },
+    {
+      "text": "fina.",
+      "start": 14.66,
+      "end": 14.91,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9991
+    },
+    {
+      "text": " ",
+      "start": 14.91,
+      "end": 15.12,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Isso",
+      "start": 15.12,
+      "end": 15.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9718
+    },
+    {
+      "text": "só",
+      "start": 15.36,
+      "end": 15.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9811
+    },
+    {
+      "text": "acontece",
+      "start": 15.62,
+      "end": 15.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": "quando",
+      "start": 15.98,
+      "end": 16.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9947
+    },
+    {
+      "text": "a",
+      "start": 16.2,
+      "end": 16.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9978
+    },
+    {
+      "text": "Receita",
+      "start": 16.38,
+      "end": 16.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9587
+    },
+    {
+      "text": "Federal",
+      "start": 16.66,
+      "end": 17.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9973
+    },
+    {
+      "text": "encontra",
+      "start": 17.06,
+      "end": 17.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9867
+    },
+    {
+      "text": "erros",
+      "start": 17.56,
+      "end": 18.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9924
+    },
+    {
+      "text": "ou",
+      "start": 18.02,
+      "end": 18.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9854
+    },
+    {
+      "text": "inconsistências",
+      "start": 18.44,
+      "end": 19.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.976
+    },
+    {
+      "text": "em",
+      "start": 19.1,
+      "end": 19.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9883
+    },
+    {
+      "text": "sua",
+      "start": 19.34,
+      "end": 19.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9672
+    },
+    {
+      "text": "declaração.",
+      "start": 19.46,
+      "end": 20.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9786
+    },
+    {
+      "text": " ",
+      "start": 20.1,
+      "end": 20.46,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Caso",
+      "start": 20.46,
+      "end": 20.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9984
+    },
+    {
+      "text": "tenha",
+      "start": 20.76,
+      "end": 20.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9629
+    },
+    {
+      "text": "dúvidas,",
+      "start": 20.94,
+      "end": 21.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9973
+    },
+    {
+      "text": " ",
+      "start": 21.56,
+      "end": 21.76,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "sugiro",
+      "start": 21.76,
+      "end": 22.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9916
+    },
+    {
+      "text": "procurar",
+      "start": 22.0,
+      "end": 22.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9982
+    },
+    {
+      "text": "um",
+      "start": 22.34,
+      "end": 22.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9903
+    },
+    {
+      "text": "profissional",
+      "start": 22.62,
+      "end": 22.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.964
+    },
+    {
+      "text": "especializado.",
+      "start": 22.96,
+      "end": 23.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9977
+    },
+    {
+      "text": " ",
+      "start": 23.78,
+      "end": 24.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Segundo,",
+      "start": 24.0,
+      "end": 24.51,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.993
+    },
+    {
+      "text": " ",
+      "start": 24.51,
+      "end": 24.78,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "pagamento",
+      "start": 24.78,
+      "end": 25.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.988
+    },
+    {
+      "text": "de",
+      "start": 25.24,
+      "end": 25.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": "impostos.",
+      "start": 25.5,
+      "end": 26.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9921
+    },
+    {
+      "text": "Se",
+      "start": 26.12,
+      "end": 26.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7048
+    },
+    {
+      "text": "o",
+      "start": 26.64,
+      "end": 26.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9571
+    },
+    {
+      "text": "contribuinte",
+      "start": 26.86,
+      "end": 27.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9909
+    },
+    {
+      "text": "tiver",
+      "start": 27.2,
+      "end": 27.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7741
+    },
+    {
+      "text": "imposto",
+      "start": 27.52,
+      "end": 27.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9629
+    },
+    {
+      "text": "a",
+      "start": 27.84,
+      "end": 28.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9712
+    },
+    {
+      "text": "pagar,",
+      "start": 28.04,
+      "end": 28.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9994
+    },
+    {
+      "text": " ",
+      "start": 28.24,
+      "end": 28.64,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "é",
+      "start": 28.64,
+      "end": 28.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9802
+    },
+    {
+      "text": "importante",
+      "start": 28.66,
+      "end": 29.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8565
+    },
+    {
+      "text": "entender",
+      "start": 29.76,
+      "end": 30.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9864
+    },
+    {
+      "text": "como",
+      "start": 30.42,
+      "end": 30.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9924
+    },
+    {
+      "text": "pagar",
+      "start": 30.76,
+      "end": 31.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9884
+    },
+    {
+      "text": "corretamente",
+      "start": 31.12,
+      "end": 31.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9901
+    },
+    {
+      "text": "e",
+      "start": 31.84,
+      "end": 32.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6927
+    },
+    {
+      "text": "dentro",
+      "start": 32.06,
+      "end": 32.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9758
+    },
+    {
+      "text": "do",
+      "start": 32.34,
+      "end": 32.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9794
+    },
+    {
+      "text": "prazo",
+      "start": 32.72,
+      "end": 33.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9933
+    },
+    {
+      "text": "estabelecido",
+      "start": 33.08,
+      "end": 33.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9945
+    },
+    {
+      "text": "pela",
+      "start": 33.56,
+      "end": 33.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.995
+    },
+    {
+      "text": "Receita",
+      "start": 33.76,
+      "end": 34.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9409
+    },
+    {
+      "text": "Federal,",
+      "start": 34.08,
+      "end": 34.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9978
+    },
+    {
+      "text": " ",
+      "start": 34.7,
+      "end": 35.02,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "evitando",
+      "start": 35.02,
+      "end": 35.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9895
+    },
+    {
+      "text": "multas,",
+      "start": 35.34,
+      "end": 35.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9726
+    },
+    {
+      "text": "juros,",
+      "start": 35.8,
+      "end": 36.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9967
+    },
+    {
+      "text": " ",
+      "start": 36.16,
+      "end": 36.2,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "desnecessários,",
+      "start": 36.2,
+      "end": 37.214,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9914
+    },
+    {
+      "text": " ",
+      "start": 37.214,
+      "end": 37.42,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "né?",
+      "start": 37.42,
+      "end": 37.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7825
+    },
+    {
+      "text": " ",
+      "start": 37.78,
+      "end": 38.58,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "E",
+      "start": 38.58,
+      "end": 38.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9028
+    },
+    {
+      "text": "o",
+      "start": 38.78,
+      "end": 38.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9536
+    },
+    {
+      "text": "terceiro",
+      "start": 38.86,
+      "end": 39.518,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9955
+    },
+    {
+      "text": " ",
+      "start": 39.518,
+      "end": 39.842,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "e",
+      "start": 39.842,
+      "end": 40.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7406
+    },
+    {
+      "text": "o",
+      "start": 40.04,
+      "end": 40.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7468
+    },
+    {
+      "text": "mais",
+      "start": 40.22,
+      "end": 40.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9983
+    },
+    {
+      "text": "importante,",
+      "start": 40.44,
+      "end": 41.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9986
+    },
+    {
+      "text": " ",
+      "start": 41.06,
+      "end": 41.54,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "o",
+      "start": 41.54,
+      "end": 41.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9899
+    },
+    {
+      "text": "PIX.",
+      "start": 41.76,
+      "end": 42.174,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8777
+    },
+    {
+      "text": " ",
+      "start": 42.174,
+      "end": 42.76,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Para",
+      "start": 42.76,
+      "end": 42.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.749
+    },
+    {
+      "text": "evitar",
+      "start": 42.88,
+      "end": 43.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9944
+    },
+    {
+      "text": "problemas",
+      "start": 43.18,
+      "end": 43.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9935
+    },
+    {
+      "text": "com",
+      "start": 43.68,
+      "end": 43.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9909
+    },
+    {
+      "text": "a",
+      "start": 43.9,
+      "end": 44.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9961
+    },
+    {
+      "text": "Receita",
+      "start": 44.02,
+      "end": 44.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9829
+    },
+    {
+      "text": "Federal,",
+      "start": 44.24,
+      "end": 44.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9972
+    },
+    {
+      "text": " ",
+      "start": 44.72,
+      "end": 44.98,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "é",
+      "start": 44.98,
+      "end": 45.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9923
+    },
+    {
+      "text": "fundamental",
+      "start": 45.02,
+      "end": 45.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": "comprovar",
+      "start": 45.66,
+      "end": 46.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9974
+    },
+    {
+      "text": "todas",
+      "start": 46.18,
+      "end": 46.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.995
+    },
+    {
+      "text": "as",
+      "start": 46.56,
+      "end": 46.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9964
+    },
+    {
+      "text": "transações",
+      "start": 46.8,
+      "end": 47.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.991
+    },
+    {
+      "text": "realizadas",
+      "start": 47.18,
+      "end": 47.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9923
+    },
+    {
+      "text": "por",
+      "start": 47.74,
+      "end": 47.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9761
+    },
+    {
+      "text": "meio",
+      "start": 47.96,
+      "end": 48.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9971
+    },
+    {
+      "text": "de",
+      "start": 48.08,
+      "end": 48.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9671
+    },
+    {
+      "text": "PIX,",
+      "start": 48.32,
+      "end": 48.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9939
+    },
+    {
+      "text": " ",
+      "start": 48.74,
+      "end": 49.04,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "evitando",
+      "start": 49.04,
+      "end": 49.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9986
+    },
+    {
+      "text": "assim",
+      "start": 49.3,
+      "end": 49.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5657
+    },
+    {
+      "text": "cair",
+      "start": 49.5,
+      "end": 49.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8348
+    },
+    {
+      "text": "na",
+      "start": 49.68,
+      "end": 49.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9914
+    },
+    {
+      "text": "malha",
+      "start": 49.84,
+      "end": 50.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9623
+    },
+    {
+      "text": "fina",
+      "start": 50.18,
+      "end": 50.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8245
+    },
+    {
+      "text": "ou",
+      "start": 50.34,
+      "end": 50.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7762
+    },
+    {
+      "text": "ser",
+      "start": 50.48,
+      "end": 50.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9916
+    },
+    {
+      "text": "atuado",
+      "start": 50.66,
+      "end": 51.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9883
+    },
+    {
+      "text": "pelo",
+      "start": 51.12,
+      "end": 51.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9924
+    },
+    {
+      "text": "órgão.",
+      "start": 51.36,
+      "end": 51.806,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.996
+    },
+    {
+      "text": " ",
+      "start": 51.806,
+      "end": 52.3,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Gostou",
+      "start": 52.3,
+      "end": 52.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9919
+    },
+    {
+      "text": "dessas",
+      "start": 52.44,
+      "end": 52.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9669
+    },
+    {
+      "text": "dicas?",
+      "start": 52.68,
+      "end": 53.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9981
+    },
+    {
+      "text": "Então",
+      "start": 53.16,
+      "end": 53.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8449
+    },
+    {
+      "text": "curte",
+      "start": 53.52,
+      "end": 53.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9233
+    },
+    {
+      "text": "aí,",
+      "start": 53.86,
+      "end": 53.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8177
+    },
+    {
+      "text": " ",
+      "start": 53.98,
+      "end": 54.4,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "compartilhe,",
+      "start": 54.4,
+      "end": 54.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9891
+    },
+    {
+      "text": " ",
+      "start": 54.88,
+      "end": 55.02,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "para",
+      "start": 55.02,
+      "end": 55.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8905
+    },
+    {
+      "text": "que",
+      "start": 55.2,
+      "end": 55.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9941
+    },
+    {
+      "text": "mais",
+      "start": 55.34,
+      "end": 55.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.994
+    },
+    {
+      "text": "pessoas",
+      "start": 55.48,
+      "end": 55.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9988
+    },
+    {
+      "text": "possam",
+      "start": 55.86,
+      "end": 56.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7696
+    },
+    {
+      "text": "ser",
+      "start": 56.24,
+      "end": 56.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9652
+    },
+    {
+      "text": "ajudadas",
+      "start": 56.52,
+      "end": 56.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9686
+    },
+    {
+      "text": "com",
+      "start": 56.98,
+      "end": 57.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9839
+    },
+    {
+      "text": "essa",
+      "start": 57.16,
+      "end": 57.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9698
+    },
+    {
+      "text": "mensagem.",
+      "start": 57.24,
+      "end": 57.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.981
+    },
+    {
+      "text": " ",
+      "start": 57.68,
+      "end": 57.88,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Um",
+      "start": 57.88,
+      "end": 57.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9604
+    },
+    {
+      "text": "abraço!",
+      "start": 57.88,
+      "end": 58.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7562
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}
