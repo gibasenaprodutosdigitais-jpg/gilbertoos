@@ -28,9 +28,9 @@
 :root{
   --papel:#F0EDE4;
   --tinta:#17171B;
-  --entra:#1B4CE0;
-  --sai:#E63329;
-  --sobra:#F2C200;
+  --entra:#2F4A44;
+  --sai:#7E3B2E;
+  --sobra:#E3C06E;
   --creme:#FFF8F0;
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -102,12 +102,12 @@ h2{font-size:64px;font-weight:700;line-height:1.02;letter-spacing:-.02em;max-wid
 .fim .lista div{display:flex;gap:20px;align-items:baseline;padding:21px 0;
   border-bottom:2px solid #DCD7C9;font-size:27px;line-height:1.32}
 .fim .lista div:last-child{border-bottom:0}
-.fim .lista i{font-style:normal;font-weight:700;color:var(--entra);flex:none;width:28px}
+.fim .lista i{font-style:normal;font-weight:700;color:#E3C06E;flex:none;width:28px}
 .fim .foto{position:absolute;right:84px;top:168px;width:206px;height:206px;
   border-radius:50%;overflow:hidden;background:var(--sobra)}
 .fim .foto img{width:100%;height:100%;object-fit:cover;object-position:center 14%;
   filter:grayscale(1) contrast(1.1);mix-blend-mode:luminosity}
-.fim .arroba{font-size:30px;font-weight:700;color:var(--entra);margin-top:auto;
+.fim .arroba{font-size:30px;font-weight:700;color:#E3C06E;margin-top:auto;
   padding-bottom:6px}
 .fim .logo{left:auto;right:84px;bottom:56px;width:80px}
 
@@ -426,3 +426,7 @@ h2{font-size:64px;font-weight:700;line-height:1.02;letter-spacing:-.02em;max-wid
 
 </body>
 </html>
+<style>
+/* o slide de fecho ja traz a logo a direita: nao repetir no canto esquerdo */
+.slide.fim::after,.fim::after{content:none !important}
+</style>
