@@ -403,6 +403,38 @@ cache enquanto envia: depois de copiar 5,1 GB de mídia, o cache do DriveFS
 foi a 4,3 GB e o disco caiu de 45 para 39 GB livres. **O espaço só volta
 quando o Drive termina de enviar e limpa o cache.**
 
+### 🔴 O upload dele é de ~1 Mbps. Isso muda o planejamento.
+
+**Medido em 13/out/2026:** 20 MB levaram 120 segundos. **Subir 1 GB leva
+cerca de 2h20.**
+
+**Consequências práticas:**
+- **Nuvem não serve para vídeo bruto.** 16,5 GB levariam 38 horas, e arquivo
+  grande estoura o tempo limite e recomeça do zero. Foi exatamente o que
+  aconteceu: a fila do Drive travou com 61 erros `UNAVAILABLE_WHILE_OFFLINE`.
+- ⚠ **O Google Drive mente no erro.** Quando o envio falha por lentidão ou
+  por conta cheia, ele diz "Network error". **Não é rede.** Conferi: DNS
+  resolvia, TLS fechava, o Google respondia em menos de 1 segundo.
+- **Antes de mandar coisa grande para a nuvem, calcular o tempo.** E
+  perguntar se vale.
+
+### Vídeo 4K: reduzir o bitrate antes de qualquer envio
+
+Os vídeos do iPhone dele são **4K a 37–50 Mbps**. O Instagram entrega a ~5.
+**Reencodar em HEVC a 15 Mbps corta ~60% do tamanho sem diferença visível.**
+
+Comando que funcionou, com aceleração da Apple:
+```
+ffmpeg -i ENTRADA -c:v hevc_videotoolbox -b:v 15M -tag:v hvc1 -c:a copy SAIDA
+```
+Vídeo de 8 min converteu em 4m42s. **Mais rápido que tempo real.**
+
+⚠ **Os vídeos do iPhone têm `rotation=-90`.** Depois de converter, o ffprobe
+mostra as dimensões trocadas (2160×3840 em vez de 3840×2160). **Isso está
+certo** — a rotação foi aplicada de verdade e o resultado é 4K vertical
+nativo, mais limpo para editar. **Conferir sempre extraindo um quadro**, não
+confiar só no número.
+
 ### As cópias de segurança
 
 `~/Desktop/BACKUP-gilbertoos-antes-da-limpeza-2026-10-13` tem:
