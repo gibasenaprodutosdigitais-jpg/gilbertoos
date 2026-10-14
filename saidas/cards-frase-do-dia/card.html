@@ -1,0 +1,44 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Frase do dia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Archivo:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Serie "frase do dia". Irma da serie de Proverbios: mesma paleta e mesma
+     faixa de ouro, composicao invertida. La ele pensa, de lado. Aqui ele
+     aponta pra quem le, e a frase vem por cima. */
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{ --fundo:#171210; --tinta:#F2EDE3; --ouro:#D9A94E; --fraco:#9A8F80; }
+  body{background:#0a0a0a;display:flex;flex-wrap:wrap;gap:30px;padding:30px;justify-content:center}
+  .card{position:relative;width:1080px;height:1350px;overflow:hidden;
+        background:var(--fundo);font-family:Archivo,system-ui,sans-serif;color:var(--tinta)}
+
+  .foto{position:absolute;inset:0;
+        background-size:cover;background-position:50% 50%;
+        filter:grayscale(.26) contrast(1.10) brightness(1.02) sepia(.12)}
+  .foto::after{content:"";position:absolute;inset:0;
+    background:
+      linear-gradient(180deg, rgba(23,18,16,.92) 0%, rgba(23,18,16,.80) 18%, rgba(23,18,16,.30) 34%, rgba(23,18,16,0) 46%),
+      radial-gradient(120% 55% at 50% 104%, rgba(23,18,16,.72) 0%, rgba(23,18,16,0) 62%)}
+
+  .faixa{position:absolute;left:0;top:0;bottom:0;width:18px;z-index:3;
+    background:linear-gradient(180deg,#8C6B2A 0%,#D9A94E 36%,#F0D28F 52%,#D9A94E 66%,#8C6B2A 100%)}
+
+  .topo{position:absolute;left:92px;right:92px;top:82px;z-index:4;
+        display:flex;align-items:center;justify-content:space-between}
+  .dia{font-size:17px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:var(--ouro)}
+  .arroba{font-size:20px;font-weight:700;color:var(--fraco)}
+
+  .regua{position:absolute;left:92px;top:152px;width:98px;height:3px;background:var(--ouro);z-index:4}
+
+  .frase{position:absolute;left:92px;right:92px;top:216px;z-index:4;
+         font-family:Fraunces,serif;font-weight:700;font-size:74px;line-height:1.12;
+         letter-spacing:-.02em;text-wrap:balance;
+         text-shadow:0 2px 34px rgba(23,18,16,.85)}
+  .frase.longa{font-size:66px;line-height:1.14}
+
+  .logo{position:absolute;left:92px;bottom:60px;z-index:4;height:66px;width:auto;
+        filter:drop-shadow(0 2px 14px rgba(0,0,0,.9))}
+</style>
+<div id="palco"></div>
