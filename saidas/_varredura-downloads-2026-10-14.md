@@ -48,56 +48,33 @@ que o trabalho anterior já colheu o que tinha de melhor ali.
 | `Video-Imersao -editado.mp4` | **é o mesmo áudio** do arquivo de cima, só outro nome |
 | `reflexao sobre as pessoas la em baixo` | *"Eu estava na janela olhando as pessoas no trânsito"*, no ar no Instagram e no YouTube |
 
-### ✅ Os que sobraram, e são inéditos
+### ❌ Os 3 inéditos também saíram, e o motivo importa
 
-**1. Os 4 H da liderança** (87s). *"Todo líder tem que ter quatro H. Humildade,
-humor, honestidade e habilidade. A maioria acha que o último é o mais
-importante."* **Esse é o melhor do lote.** Tem estrutura, é prático, tem a sua
-voz e termina batendo em quem se acha por diploma: *"não adianta dizer que fez
-mestrado em Harvard se o cara não cumprimenta os colaboradores"*.
+Eu apresentei **"Os 4 H da liderança"** como o melhor inédito do lote, na voz
+dele. Ele respondeu: *"o 4 H e o seja egoísta não sou eu falando"*.
 
-**2. Seja egoísta** (74s). *"Seja egoísta para o bem das pessoas que você ama,
-porque cuidar de todo mundo enquanto você se destrói não é amor."* Mensagem
-forte, e conecta com a Gestão de Si dos 5 G's.
-⚠️ **O texto não soa como você fala.** Parece roteiro escrito, não fala solta.
-**Preciso que você me confirme se o texto é seu** antes de publicar.
+**Os três estão fora.** Movidos pra
+`~/Downloads/_SEPARADO PELO GILBERTOOS/6 - nao e a voz dele/`.
 
-**3. Três dúvidas sobre imposto de renda** (58s, de 2023, já repaginado uma
-vez). Malha fina, prazo de pagamento e uma terceira. É correto e está no tema,
-mas é informação básica, do tipo que qualquer contador posta. **Eu publicaria
-só se faltar material.**
+## ⚠️ O erro que eu cometi aqui
 
-**4. `Manu Lid.MOV`** não tem conteúdo: a transcrição inteira é *"típico
-mosquitinho?"*. Descartado.
+O texto dos 4 H tinha os maneirismos dele: *"Você sabe quais?"*, *"Entendeu?"*.
+Por isso eu dei como certo. No "Seja egoísta" eu desconfiei e perguntei. No dos
+4 H não perguntei, e deveria.
 
-⚠️ **Um detalhe no de apropriação indébita:** você fala *"um monte de
-empresário falando um monte de merda aí"*. Se um dia reaproveitar esse trecho,
-o palavrão precisa sair ou ser cortado. No Instagram isso limita alcance.
+**Transcrição diz o que foi dito. Não diz quem disse.** Quadro congelado mostra
+quem aparece, não quem fala.
 
----
+**Regra nova:** arquivo achado solto numa pasta **não entra na fila sem a
+palavra dele**, por mais que soe como ele. O que vale é origem conhecida: ou
+ele gravou e mandou, ou veio do acervo publicado.
 
-## ❌ O que eu não usaria
-
-**Clipes de outras pessoas** (material de react): Flávio Augusto · Tiago
-Brunet · Zé Roberto Papito · Guilherme Bichemol · Rufino · Carnal · À Procura
-da Felicidade · dois do `ssstik` baixados do TikTok.
-
-Mesmo motivo dos 16 reacts que tirei do acervo antigo: o material central não é
-seu e o valor do post seria do clipe, não seu.
-
-**Viagem e estilo de vida:** Moto atolada na Austrália · Europa dia · Casa cara
-e motos · Andando com Janguié.
-
-**24 vídeos de WhatsApp de 24/set**, todos horizontais e de 4 a 37 segundos.
-Parecem registro de um evento, não conteúdo.
-
-**Vídeos do OCEO** (3 versões da apresentação). São do outro projeto, não
-entram aqui.
+Isso não vale pros 4 vídeos longos de 58 minutos: naqueles eu vi o quadro, é
+ele em close falando, e o áudio bate com o movimento da boca.
 
 ---
 
 ## ⚠ Um aviso sobre espaço
-
 Os quatro 4K originais somam **17 GB**, e existe uma cópia reduzida de cada um
 (`4K reduzido`, 6,4 GB). Depois que eu cortar os reels, **os originais podem
 sair** e você recupera os 17 GB.
