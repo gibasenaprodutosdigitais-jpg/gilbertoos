@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
-<title>Carrossel — 12 Pilares de um Business Plan</title>
+<title>Carrossel. 12 Pilares de um Business Plan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -165,6 +165,73 @@
     color: #C9A227;
     letter-spacing: 0.02em;
   }
+
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+/* a capa com foto fica: a imagem ajuda no feed. So escurece bem mais,
+   para a letra branca ganhar e para casar com os outros slides. */
+.slide.photo-bg, .slide.capa.photo-bg{
+  background-color:#0D0B0A !important;
+  background-image:
+    linear-gradient(180deg, rgba(13,11,10,.80) 0%, rgba(13,11,10,.62) 38%,
+                    rgba(13,11,10,.90) 78%, rgba(13,11,10,.97) 100%),
+    none !important;
+  background-size:cover !important;
+  background-position:center 58% !important }
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
 </style>
 </head>
 <body>
@@ -196,7 +263,7 @@
       <div class="duo-col">
         <div class="duo-num">PILAR 1</div>
         <div class="duo-h">Missão em uma frase</div>
-        <div class="duo-text">Se você não consegue explicar quem ajuda, com o quê e como ganha dinheiro numa frase só, o plano ainda não está claro pra você — nem vai estar pra quem financia.</div>
+        <div class="duo-text">Se você não consegue explicar quem ajuda, com o quê e como ganha dinheiro numa frase só, o plano ainda não está claro pra você, nem vai estar pra quem financia.</div>
       </div>
       <div class="duo-divider-v"></div>
       <div class="duo-col">
@@ -228,7 +295,7 @@
       <div class="duo-col">
         <div class="duo-num">PILAR 4</div>
         <div class="duo-h">Modelo de receita</div>
-        <div class="duo-text">Como o dinheiro entra, com que frequência e de quem. Um plano sem essa clareza é intenção — não é plano.</div>
+        <div class="duo-text">Como o dinheiro entra, com que frequência e de quem. Um plano sem essa clareza é intenção, não é plano.</div>
       </div>
     </div>
   </div>
@@ -280,7 +347,7 @@
       <div class="duo-col">
         <div class="duo-num">PILAR 8</div>
         <div class="duo-h">Projeção com histórico</div>
-        <div class="duo-text">Se o canal já existe, projete com base no que já aconteceu. Se é canal novo, marque como incerto e teste antes de prometer meta — eu uso 90 dias como padrão.</div>
+        <div class="duo-text">Se o canal já existe, projete com base no que já aconteceu. Se é canal novo, marque como incerto e teste antes de prometer meta. Eu uso 90 dias como padrão.</div>
       </div>
     </div>
   </div>
@@ -300,13 +367,13 @@
       <div class="duo-col">
         <div class="duo-num">PILAR 9</div>
         <div class="duo-h">Não concentre num canal só</div>
-        <div class="duo-text">Depender demais de um único canal — principalmente contrato público — te deixa refém de decisão que não é sua. Construa a base primeiro, diversifique depois.</div>
+        <div class="duo-text">Depender demais de um único canal, principalmente contrato público, te deixa refém de decisão que não é sua. Construa a base primeiro, diversifique depois.</div>
       </div>
       <div class="duo-divider-v"></div>
       <div class="duo-col">
         <div class="duo-num">PILAR 10</div>
         <div class="duo-h">Planejamento tributário</div>
-        <div class="duo-text">Regime tributário e estrutura societária não são detalhe de contador — são decisão estratégica que muda o resultado líquido do negócio inteiro.</div>
+        <div class="duo-text">Regime tributário e estrutura societária não são detalhe de contador. São decisão estratégica que muda o resultado líquido do negócio inteiro.</div>
       </div>
     </div>
   </div>
@@ -326,13 +393,13 @@
       <div class="duo-col">
         <div class="duo-num">PILAR 11</div>
         <div class="duo-h">Proteja o código-fonte</div>
-        <div class="duo-text">Tecnologia, processo, propriedade intelectual central — blinde isso antes de crescer. Sem proteção, um concorrente copia a superfície e queima seu mercado.</div>
+        <div class="duo-text">Tecnologia, processo, propriedade intelectual central: blinde isso antes de crescer. Sem proteção, um concorrente copia a superfície e queima seu mercado.</div>
       </div>
       <div class="duo-divider-v"></div>
       <div class="duo-col">
         <div class="duo-num">PILAR 12</div>
         <div class="duo-h">O papel do fundador</div>
-        <div class="duo-text">Quem tem a história tem que ser o rosto público — vender a visão. Operação, dinheiro e logística são função do time, não do fundador escondido na planilha.</div>
+        <div class="duo-text">Quem tem a história tem que ser o rosto público: vender a visão. Operação, dinheiro e logística são função do time, não do fundador escondido na planilha.</div>
       </div>
     </div>
   </div>
@@ -348,7 +415,7 @@
   <div class="cta-wrap">
     <div class="lion-seal"><img class="lion-seal-mark" src="grupo-sena-icone-gold.png"></div>
     <div class="cta-wordmark">GILBERTO SENA</div>
-    <div class="cta-body">Um business plan de verdade não é modelo de startup bonito — é passo a passo: primeira semana, primeiro trimestre, investimento, retorno esperado. Se não bateu, readequa a rota.</div>
+    <div class="cta-body">Um business plan de verdade não é modelo de startup bonito. É passo a passo: primeira semana, primeiro trimestre, investimento, retorno esperado. Se não bateu, readequa a rota.</div>
     <div class="cta-handle">@gilbertosenaoficial</div>
   </div>
   <div class="footer" style="border-top:none; text-align:center;">12 PILARES DE UM BUSINESS PLAN DE VERDADE</div>

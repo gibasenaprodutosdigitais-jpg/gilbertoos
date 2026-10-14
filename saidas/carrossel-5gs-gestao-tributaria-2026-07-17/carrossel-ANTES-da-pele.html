@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Carrossel — 5 G's da Gestão · 4: Gestão Tributária</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #333; }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #C9A227; color: #0F1419; }
+
+  .gold { color: #C9A227; }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 64px 0 64px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+  }
+  .bg-dark .topbar, .bg-black .topbar { color: #C9A227; }
+  .bg-light .topbar { color: #C9A227; }
+  .bg-gold .topbar { color: #0F1419; }
+
+  .rule {
+    width: 64px;
+    height: 4px;
+    background: #C9A227;
+    margin: 40px 64px 0 64px;
+  }
+  .bg-gold .rule { background: #0F1419; }
+
+  .content {
+    flex: 1;
+    padding: 40px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.24em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .bg-gold .kicker { color: #0F1419; opacity: 0.75; }
+
+  .title-cover {
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1.12;
+    max-width: 940px;
+  }
+
+  .h2 {
+    font-size: 58px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.16;
+    max-width: 900px;
+  }
+
+  .body-txt {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 860px;
+    margin-top: 32px;
+  }
+  .bg-light .body-txt { color: #454545; }
+
+  .footer {
+    padding: 32px 64px 56px 64px;
+    border-top: 1px solid rgba(244,241,234,0.14);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+  .bg-light .footer { border-top: 1px solid rgba(21,21,21,0.14); }
+  .bg-gold .footer { border-top: 1px solid rgba(15,20,25,0.22); }
+
+  /* DUO */
+  .duo-cols { display: flex; gap: 56px; margin-top: 8px; }
+  .duo-col { flex: 1; }
+  .duo-num {
+    font-size: 20px;
+    font-weight: 900;
+    color: #C9A227;
+    margin-bottom: 14px;
+  }
+  .duo-h { font-size: 40px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.1; }
+  .duo-text { font-size: 22px; font-weight: 500; line-height: 1.5; }
+  .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* CITACAO */
+  .quote-mark {
+    font-size: 140px;
+    font-weight: 900;
+    color: #C9A227;
+    line-height: 0.5;
+    margin-bottom: 24px;
+  }
+  .quote-text {
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.26;
+    max-width: 900px;
+  }
+  .quote-attr {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 36px;
+    opacity: 0.7;
+  }
+
+  /* TIMELINE (datas reforma) */
+  .timeline { margin-top: 8px; }
+  .tl-item { display: flex; gap: 28px; margin-bottom: 30px; align-items: flex-start; }
+  .tl-date {
+    font-size: 22px;
+    font-weight: 900;
+    color: #C9A227;
+    min-width: 190px;
+    letter-spacing: -0.01em;
+  }
+  .tl-text { font-size: 24px; font-weight: 600; line-height: 1.4; max-width: 620px; }
+
+  /* CTA */
+  .cta-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+  }
+  .lion-seal {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #C9A227;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+    font-size: 46px;
+    font-weight: 900;
+    color: #C9A227;
+  }
+  .cta-wordmark {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #C9A227;
+    margin-bottom: 28px;
+  }
+  .cta-body {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.45;
+    max-width: 760px;
+    margin-bottom: 40px;
+  }
+  .cta-handle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #C9A227;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>01/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Série 5 G's da Gestão · 4 de 5</div>
+    <div class="title-cover">A <span class="gold">reforma tributária</span> não vai esperar você se organizar.</div>
+  </div>
+  <div class="footer">GESTÃO TRIBUTÁRIA</div>
+</div>
+
+<!-- SLIDE 2 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>02/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Gestão tributária</div>
+    <div class="h2">No veneno está o antídoto.</div>
+    <div class="body-txt">Não aconselho em hipótese alguma contornar ou burlar a legislação tributária — o que parece economia hoje vira prejuízo grande amanhã. Mas o mesmo sistema complexo que assusta o empresário é a ferramenta que, bem usada, otimiza a carga tributária de verdade.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 3 — SOLO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>03/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilar 1 — Estrutura Tributária</div>
+    <div class="h2">Simples, Presumido ou Real — a escolha errada custa caro.</div>
+    <div class="body-txt">O enquadramento certo, sozinho, já muda o quanto sua empresa paga de imposto todo mês. É a decisão técnica mais subestimada por quem empreende.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 4 — DUO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>04/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 2 e 3</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 2</div>
+        <div class="duo-h">Processos</div>
+        <div class="duo-text" style="color:#454545;">Os melhores planos falham se não forem executados. Tecnologia sem gente que entende de tributário não resolve sozinha.</div>
+      </div>
+      <div class="duo-divider-v" style="background: rgba(21,21,21,0.14);"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 3</div>
+        <div class="duo-h">Conformidade</div>
+        <div class="duo-text" style="color:#454545;">Conformidade não é medo da Receita. É a espinha dorsal de qualquer operação que quer durar.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 5 — DUO -->
+<div class="slide bg-dark">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>05/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilares 4 e 5</div>
+    <div class="duo-cols">
+      <div class="duo-col">
+        <div class="duo-num">PILAR 4</div>
+        <div class="duo-h">Planejamento Financeiro</div>
+        <div class="duo-text">Gestão tributária e planejamento financeiro são dois lados da mesma moeda. Decisão de expansão sem olhar o lado tributário é decisão pela metade.</div>
+      </div>
+      <div class="duo-divider-v"></div>
+      <div class="duo-col">
+        <div class="duo-num">PILAR 5</div>
+        <div class="duo-h">Governança</div>
+        <div class="duo-text">Não é só pagar o que deve. É criar cultura onde ninguém decide no escuro.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 6 — CITACAO -->
+<div class="slide bg-gold">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>06/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="quote-mark" style="color:#0F1419;">"</div>
+    <div class="quote-text" style="color:#151515;">Não aconselho em hipótese alguma que um empresário tente contornar ou burlar a legislação tributária... Mas sabemos que no veneno está o antídoto. Aprenda a lidar, tenha uma gestão tributária robusta e transforme o problema em solução.</div>
+    <div class="quote-attr" style="color:#151515;">— Gilberto Sena</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 7 — SOLO (TIMELINE) -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>07/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Pilar bônus — Reforma Tributária</div>
+    <div class="h2" style="font-size:50px; margin-bottom:36px;">A reforma não espera você se organizar.</div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-date">31 DE JULHO</div>
+        <div class="tl-text">Acaba a tolerância dos campos de IBS/CBS na nota fiscal.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">3 DE AGOSTO</div>
+        <div class="tl-text">O destaque de IBS/CBS vira obrigatório.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">SETEMBRO</div>
+        <div class="tl-text">Abre a janela do Simples Nacional — decide o imposto que você paga em 2027.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 8 — SOLO -->
+<div class="slide bg-light">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>08/09</span>
+  </div>
+  <div class="rule"></div>
+  <div class="content">
+    <div class="kicker">Sacada do Giba</div>
+    <div class="h2">Faça um mapeamento anual da sua estrutura tributária.</div>
+    <div class="body-txt">Pequenas mudanças podem significar grandes economias. Se empresas parecidas com a sua estão aproveitando um benefício fiscal que você não usa, é hora de revisar.</div>
+  </div>
+  <div class="footer">GILBERTOSENAOFICIAL</div>
+</div>
+
+<!-- SLIDE 9 — CTA FINAL -->
+<div class="slide bg-black">
+  <div class="topbar">
+    <span>GILBERTO SENA</span>
+    <span>09/09</span>
+  </div>
+  <div class="cta-wrap">
+    <div class="lion-seal">S</div>
+    <div class="cta-wordmark">GILBERTO SENA</div>
+    <div class="cta-body">Esse é o 4º dos 5 G's da gestão. Falta só 1.</div>
+    <div class="cta-handle">@gilbertosenaoficial</div>
+  </div>
+  <div class="footer" style="border-top:none; text-align:center;">5 G'S DA GESTÃO EMPREENDEDORA</div>
+</div>
+
+</body>
+</html>

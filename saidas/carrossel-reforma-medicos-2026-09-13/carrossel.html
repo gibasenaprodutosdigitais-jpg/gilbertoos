@@ -134,6 +134,73 @@
   .s9 .q{font-size:38px;font-weight:800;line-height:1.3;color:var(--paper-text);max-width:840px}
   .s9 .handle{margin-top:30px;font-size:26px;font-weight:800;color:var(--gold);letter-spacing:.02em}
   .s9 .invite{margin-top:14px;font-size:18px;font-weight:500;color:#B8B2A2}
+
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+/* a capa com foto fica: a imagem ajuda no feed. So escurece bem mais,
+   para a letra branca ganhar e para casar com os outros slides. */
+.slide.photo-bg, .slide.capa.photo-bg{
+  background-color:#0D0B0A !important;
+  background-image:
+    linear-gradient(180deg, rgba(13,11,10,.80) 0%, rgba(13,11,10,.62) 38%,
+                    rgba(13,11,10,.90) 78%, rgba(13,11,10,.97) 100%),
+    url('assets/gilberto.jpg') !important;
+  background-size:cover !important;
+  background-position:center 58% !important }
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
 </style>
 </head>
 <body>
@@ -172,7 +239,7 @@
     <div class="kicker">01 · Benefício da saúde</div>
     <h1 class="tt">O médico tem<br>60%, não 30%</h1>
     <div class="rule"></div>
-    <p class="body">Serviço de saúde listado no Anexo III da LC 214/2025 tem redução de 60% no IBS e na CBS — a maior das duas, não a de 30% de profissão regulamentada. Na prática, você paga 40% da alíquota-padrão. E isso não caiu do céu: foi o CFM que articulou essa redução direto no Congresso.</p>
+    <p class="body">Serviço de saúde listado no Anexo III da LC 214/2025 tem redução de 60% no IBS e na CBS: a maior das duas, não a de 30% de profissão regulamentada. Na prática, você paga 40% da alíquota-padrão. E isso não caiu do céu: foi o CFM que articulou essa redução direto no Congresso.</p>
   </div>
 </section>
 
@@ -193,7 +260,7 @@
     <div class="kicker">02 · Classificação</div>
     <h1 class="tt on-light">Nem toda receita<br>entra no<br>benefício</h1>
     <div class="rule"></div>
-    <p class="body on-light">O desconto depende do enquadramento correto do serviço — pela NBS, não apenas pelo CNAE. Receita fora do campo da saúde pode ficar na alíquota cheia. E as duas reduções não se somam: ou os 60% de saúde, ou os 30% de profissão regulamentada — nunca as duas juntas.</p>
+    <p class="body on-light">O desconto depende do enquadramento correto do serviço: pela NBS, não apenas pelo CNAE. Receita fora do campo da saúde pode ficar na alíquota cheia. E as duas reduções não se somam: ou os 60% de saúde, ou os 30% de profissão regulamentada. Nunca as duas juntas.</p>
   </div>
 </section>
 
@@ -226,7 +293,7 @@
       </div>
       <div class="card">
         <div class="lbl">Retirada de sócio</div>
-        <div class="txt">Mesma lógica — dinheiro que sai sem crédito por trás.</div>
+        <div class="txt">Mesma lógica. Dinheiro que sai sem crédito por trás.</div>
       </div>
     </div>
   </div>
@@ -248,7 +315,7 @@
     <div class="kicker">04 · Crédito</div>
     <h1 class="tt on-light">Créditos<br>podem ajudar</h1>
     <div class="rule"></div>
-    <p class="body on-light">Equipamento, insumo, software e serviço contratado geram crédito de IBS e CBS. Clínica com estrutura maior — e nota fiscal organizada — consegue reduzir parte real da carga efetiva.</p>
+    <p class="body on-light">Equipamento, insumo, software e serviço contratado geram crédito de IBS e CBS. Clínica com estrutura maior, e nota fiscal organizada, consegue reduzir parte real da carga efetiva.</p>
   </div>
 </section>
 
@@ -267,7 +334,7 @@
   <div class="mid">
     <div>
       <div class="kicker">05 · Simples</div>
-      <h1 class="tt">Simples puro ou<br>híbrido — a decisão<br>de 2027</h1>
+      <h1 class="tt">Simples puro ou<br>híbrido. A decisão<br>de 2027</h1>
       <div class="rule"></div>
     </div>
     <div class="duo">
@@ -280,7 +347,7 @@
         <div class="txt">Apura IBS e CBS por fora do DAS, pelas regras dos demais regimes.</div>
       </div>
     </div>
-    <div class="foot-note">Não existe fórmula única — a escolha exige simulação com o número da própria clínica.</div>
+    <div class="foot-note">Não existe fórmula única. A escolha exige simulação com o número da própria clínica.</div>
   </div>
 </section>
 
@@ -300,15 +367,15 @@
     <div class="kicker">06 · Dividendos</div>
     <h1 class="tt">Sua distribuição<br>também entra<br>na conta</h1>
     <div class="rule"></div>
-    <p class="body">Desde janeiro de 2026, quando a mesma PJ distribui mais de R$ 50.000 no mês pra mesma PF, a retenção incide sobre o total distribuído — sem deduções na base.</p>
+    <p class="body">Desde janeiro de 2026, quando a mesma PJ distribui mais de R$ 50.000 no mês pra mesma PF, a retenção incide sobre o total distribuído, sem deduções na base.</p>
   </div>
   <div class="receipt">
-    <div class="tag">Exemplo — acima do limite de R$ 50 mil/mês</div>
+    <div class="tag">Exemplo. Acima do limite de R$ 50 mil/mês</div>
     <div class="row"><span class="lab">Distribuição do mês</span><span>R$ 80.000</span></div>
-    <div class="row"><span class="lab">IRRF retido (10% sobre o total)</span><span>– R$ 8.000</span></div>
+    <div class="row"><span class="lab">IRRF retido (10% sobre o total)</span><span>. R$ 8.000</span></div>
     <div class="row tot"><span class="lab">Você recebe</span><span>R$ 72.000</span></div>
   </div>
-  <div class="lesson">"Pró-labore baixo, dividendo alto isento" precisa de conta nova acima de R$ 50 mil por mês — e olho no mínimo anual, que começa em R$ 600 mil no ano.</div>
+  <div class="lesson">"Pró-labore baixo, dividendo alto isento" precisa de conta nova acima de R$ 50 mil por mês, e olho no mínimo anual, que começa em R$ 600 mil no ano.</div>
 </section>
 
 <!-- ============ SLIDE 8 — conclusao ============ -->
@@ -328,7 +395,7 @@
     <div class="kicker">Conclusão</div>
     <h1 class="tt on-light">Não existe<br>resposta única</h1>
     <div class="rule"></div>
-    <p class="body on-light">O melhor cenário depende do seu faturamento, da folha, do Fator R, do ISS atual, dos créditos disponíveis e da sua política de distribuição de lucro. Planejamento tributário aqui não é opcional — é o que decide se você paga o justo ou paga a mais.</p>
+    <p class="body on-light">O melhor cenário depende do seu faturamento, da folha, do Fator R, do ISS atual, dos créditos disponíveis e da sua política de distribuição de lucro. Planejamento tributário aqui não é opcional. É o que decide se você paga o justo ou paga a mais.</p>
     <div class="quote">“O diagnóstico errado trata o sintoma certo do jeito errado. Com imposto é igual: classificar mal o serviço custa caro, mesmo quando a lei já te dá o desconto.”</div>
   </div>
 </section>
@@ -343,7 +410,7 @@
   </div>
   <div class="content">
     <img class="leao" src="assets/leao.png" alt="">
-    <div class="q">Quer entender o que a reforma faz especificamente com a SUA clínica ou consultório — não com a categoria médica em geral?</div>
+    <div class="q">Quer entender o que a reforma faz especificamente com a SUA clínica ou consultório, não com a categoria médica em geral?</div>
     <div class="handle">@gilbertosenaoficial</div>
     <div class="invite">Segue e acompanha. A virada federal já começou.</div>
   </div>

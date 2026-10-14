@@ -68,6 +68,73 @@
     font-size: 24px; font-weight: 800; color: #C9A227; letter-spacing: 0.01em; text-transform: uppercase;
     border: 2px solid #C9A227; padding: 14px 32px; border-radius: 999px; display: inline-block;
   }
+
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+/* a capa com foto fica: a imagem ajuda no feed. So escurece bem mais,
+   para a letra branca ganhar e para casar com os outros slides. */
+.slide.photo-bg, .slide.capa.photo-bg{
+  background-color:#0D0B0A !important;
+  background-image:
+    linear-gradient(180deg, rgba(13,11,10,.80) 0%, rgba(13,11,10,.62) 38%,
+                    rgba(13,11,10,.90) 78%, rgba(13,11,10,.97) 100%),
+    url('entregadores-capa.jpg') !important;
+  background-size:cover !important;
+  background-position:center 58% !important }
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
 </style>
 
 <!-- SLIDE 1 — CAPA -->
@@ -88,7 +155,7 @@
     <div class="brand"><img class="logo-icon" src="../../identidade/logo-transparente-crop.png" alt="Grupo Sena"><span class="wordmark">GILBERTO SENA</span></div>
     <span class="counter">02 / 07</span>
   </div>
-  <div class="kicker">CARRO, VAN OU MOTO — MESMA REGRA</div>
+  <div class="kicker">CARRO, VAN OU MOTO. MESMA REGRA</div>
   <div class="rule"></div>
   <div class="solo-body">Motorista de entrega e moto expresso são tratados <b>do mesmo jeito</b> pela reforma, quando o vínculo é por aplicativo.</div>
   <div class="footer"><span>REFORMA TRIBUTÁRIA × ENTREGADORES</span><span>@GILBERTOSENAOFICIAL</span></div>
@@ -102,7 +169,7 @@
   </div>
   <div class="kicker">SÓ 25% CONTA COMO RECEITA</div>
   <div class="rule"></div>
-  <div class="solo-body">Do valor que você recebe todo mês, só <b>25%</b> é considerado receita pra imposto. Os outros 75% contam como custo — combustível, manutenção, celular.</div>
+  <div class="solo-body">Do valor que você recebe todo mês, só <b>25%</b> é considerado receita pra imposto. Os outros 75% contam como custo: combustível, manutenção, celular.</div>
   <div class="footer"><span>REFORMA TRIBUTÁRIA × ENTREGADORES</span><span>@GILBERTOSENAOFICIAL</span></div>
 </div>
 
@@ -114,7 +181,7 @@
   </div>
   <div class="kicker">QUEM RECOLHE NÃO É VOCÊ</div>
   <div class="rule"></div>
-  <div class="solo-body">A plataforma — iFood, Uber, Rappi e afins — é responsável por recolher o imposto. Você não precisa apurar isso sozinho.</div>
+  <div class="solo-body">A plataforma, iFood, Uber, Rappi e afins, é responsável por recolher o imposto. Você não precisa apurar isso sozinho.</div>
   <div class="footer"><span>REFORMA TRIBUTÁRIA × ENTREGADORES</span><span>@GILBERTOSENAOFICIAL</span></div>
 </div>
 
@@ -127,7 +194,7 @@
   <div class="kicker">QUEM SENTE O PREÇO</div>
   <div class="rule"></div>
   <div class="numero-big">O consumidor</div>
-  <div class="numero-sub">O aumento de carga tende a ser repassado no valor da corrida ou entrega — não descontado do que você recebe.</div>
+  <div class="numero-sub">O aumento de carga tende a ser repassado no valor da corrida ou entrega, não descontado do que você recebe.</div>
   <div class="footer"><span>REFORMA TRIBUTÁRIA × ENTREGADORES</span><span>@GILBERTOSENAOFICIAL</span></div>
 </div>
 

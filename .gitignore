@@ -91,3 +91,11 @@ cópia de *
 *.wav
 *.avi
 *.mkv
+
+# Material de trabalho dos reels antigos: 2,6 GB baixados do Drive so para
+# triagem. Os originais ficam no Drive; aqui e copia temporaria.
+saidas/reels-antigos-amostra-2026-10-14/todos/
+saidas/reels-antigos-amostra-2026-10-14/2026/
+saidas/reels-antigos-amostra-2026-10-14/videos/
+saidas/reels-antigos-amostra-2026-10-14/ja-postados/
+saidas/reels-antigos-amostra-2026-10-14/quadros/

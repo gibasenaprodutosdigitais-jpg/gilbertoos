@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
-<title>Carrossel — 10 e-books do Gilberto Sena</title>
+<title>Carrossel. 10 e-books do Gilberto Sena</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -182,6 +182,73 @@
   .cta-handle {
     font-size: 25px; font-weight: 800; color: #C9A227; letter-spacing: 0.02em;
   }
+
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+/* a capa com foto fica: a imagem ajuda no feed. So escurece bem mais,
+   para a letra branca ganhar e para casar com os outros slides. */
+.slide.photo-bg, .slide.capa.photo-bg{
+  background-color:#0D0B0A !important;
+  background-image:
+    linear-gradient(180deg, rgba(13,11,10,.80) 0%, rgba(13,11,10,.62) 38%,
+                    rgba(13,11,10,.90) 78%, rgba(13,11,10,.97) 100%),
+    url('assets/gilberto.jpg') !important;
+  background-size:cover !important;
+  background-position:center 58% !important }
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
 </style>
 </head>
 <body>
@@ -212,7 +279,7 @@
       <div class="info-kicker">E-book 01</div>
       <div class="info-title">A Startap Unicórnio</div>
       <div class="info-sep"></div>
-      <div class="info-body">Você não precisa de investidor, sócio nem galpão pra começar — precisa de um problema real e de alguém disposto a pagar pra resolver. Pego "A Startup de $100" e mostro o que a inteligência artificial faz com esse modelo agora: a era do unicórnio de uma pessoa só.</div>
+      <div class="info-body">Você não precisa de investidor, sócio nem galpão pra começar. Precisa de um problema real e de alguém disposto a pagar pra resolver. Pego "A Startup de $100" e mostro o que a inteligência artificial faz com esse modelo agora: a era do unicórnio de uma pessoa só.</div>
     </div>
   </div>
   <div class="footer">NEGÓCIO &amp; ESCALA</div>
@@ -228,7 +295,7 @@
       <div class="info-kicker">E-book 02</div>
       <div class="info-title">De Motoboy a Executivo</div>
       <div class="info-sep"></div>
-      <div class="info-body">Eu já fui o motoboy assaltado, afastado do emprego. Hoje comando o Grupo Sena. O que mudou foi entender que liderança não é cargo, é serviço — a ideia de "O Monge e o Executivo", que a Bíblia já dizia antes. Autoridade se conquista servindo.</div>
+      <div class="info-body">Eu já fui o motoboy assaltado, afastado do emprego. Hoje comando o Grupo Sena. O que mudou foi entender que liderança não é cargo, é serviço: a ideia de "O Monge e o Executivo", que a Bíblia já dizia antes. Autoridade se conquista servindo.</div>
     </div>
   </div>
   <div class="footer">LIDERANÇA</div>
@@ -260,7 +327,7 @@
       <div class="info-kicker">E-book 04</div>
       <div class="info-title">Estratégia da Gestão</div>
       <div class="info-sep"></div>
-      <div class="info-body">Sun Tzu entende mais de gestão que muito livro de MBA. Vencer a batalha antes de lutar é planejar antes de agir. "A Arte da Guerra" traduzida em decisão de negócio — e nos 5 G's que eu uso todo dia.</div>
+      <div class="info-body">Sun Tzu entende mais de gestão que muito livro de MBA. Vencer a batalha antes de lutar é planejar antes de agir. "A Arte da Guerra" traduzida em decisão de negócio, e nos 5 G's que eu uso todo dia.</div>
     </div>
   </div>
   <div class="footer">GESTÃO</div>
@@ -292,7 +359,7 @@
       <div class="info-kicker">E-book 06</div>
       <div class="info-title">O Segredo Das Finanças</div>
       <div class="info-sep"></div>
-      <div class="info-body">Juros não é opinião, é conta. Quem não sabe fazer essa conta paga por ela a vida inteira. Matemática financeira explicada por quem vive de número todo dia — com exercício e gabarito pra você conferir na ponta do lápis.</div>
+      <div class="info-body">Juros não é opinião, é conta. Quem não sabe fazer essa conta paga por ela a vida inteira. Matemática financeira explicada por quem vive de número todo dia, com exercício e gabarito pra você conferir na ponta do lápis.</div>
     </div>
   </div>
   <div class="footer">MATEMÁTICA FINANCEIRA</div>
@@ -324,7 +391,7 @@
       <div class="info-kicker">E-book 08</div>
       <div class="info-title">Posicione-se ou Morra</div>
       <div class="info-sep"></div>
-      <div class="info-body">Se o cliente não sabe dizer em uma frase o que você faz, você não existe pra ele. Releitura do clássico do posicionamento com casos reais — Cimed, Nubank, Magalu — e o ponto que quase todo empresário ignora: você é a marca antes da empresa.</div>
+      <div class="info-body">Se o cliente não sabe dizer em uma frase o que você faz, você não existe pra ele. Releitura do clássico do posicionamento com casos reais, Cimed, Nubank, Magalu, e o ponto que quase todo empresário ignora: você é a marca antes da empresa.</div>
     </div>
   </div>
   <div class="footer">POSICIONAMENTO</div>
@@ -356,7 +423,7 @@
       <div class="info-kicker">E-book 10</div>
       <div class="info-title">Seja Rico ou Pobre</div>
       <div class="info-sep"></div>
-      <div class="info-body">Ninguém nasce achando que dinheiro é sujo ou que emprego é segurança. Alguém te ensinou. Leitura aplicada de "Pai Rico, Pai Pobre" sobre as crenças que você herdou de graça e nunca auditou — e como trocar o roteiro antes que ele decida sua vida.</div>
+      <div class="info-body">Ninguém nasce achando que dinheiro é sujo ou que emprego é segurança. Alguém te ensinou. Leitura aplicada de "Pai Rico, Pai Pobre" sobre as crenças que você herdou de graça e nunca auditou, e como trocar o roteiro antes que ele decida sua vida.</div>
     </div>
   </div>
   <div class="footer">MENTALIDADE DE RIQUEZA</div>

@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
-<title>Carrossel — 5 G's da Gestão · 1: Gestão de Si</title>
+<title>Carrossel. 5 G's da Gestão · 1: Gestão de Si</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -178,6 +178,73 @@
     color: #C9A227;
     letter-spacing: 0.02em;
   }
+
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+/* a capa com foto fica: a imagem ajuda no feed. So escurece bem mais,
+   para a letra branca ganhar e para casar com os outros slides. */
+.slide.photo-bg, .slide.capa.photo-bg{
+  background-color:#0D0B0A !important;
+  background-image:
+    linear-gradient(180deg, rgba(13,11,10,.80) 0%, rgba(13,11,10,.62) 38%,
+                    rgba(13,11,10,.90) 78%, rgba(13,11,10,.97) 100%),
+    none !important;
+  background-size:cover !important;
+  background-position:center 58% !important }
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
 </style>
 </head>
 <body>
@@ -206,7 +273,7 @@
   <div class="content">
     <div class="kicker">Gestão de si</div>
     <div class="h2">O G que vem antes de todos os outros.</div>
-    <div class="body-txt">Antes de aprender a gerir empresa, dinheiro ou equipe, existe uma gestão que vem primeiro — e é a que menos empresário leva a sério. Sócrates já dizia: conhece-te a ti mesmo. É o ponto de partida de todo negócio que dura.</div>
+    <div class="body-txt">Antes de aprender a gerir empresa, dinheiro ou equipe, existe uma gestão que vem primeiro, e é a que menos empresário leva a sério. Sócrates já dizia: conhece-te a ti mesmo. É o ponto de partida de todo negócio que dura.</div>
   </div>
   <div class="footer">GILBERTOSENAOFICIAL</div>
 </div>
@@ -219,9 +286,9 @@
   </div>
   <div class="rule"></div>
   <div class="content">
-    <div class="kicker">Pilar 1 — Autoconhecimento</div>
+    <div class="kicker">Pilar 1. Autoconhecimento</div>
     <div class="h2">Sem bússola, todo barco está perdido.</div>
-    <div class="body-txt">Você pode ter o barco mais rápido do mercado. Se não sabe pra onde vai, está à deriva. Autoconhecimento não é luxo de terapia — é a bússola de quem empreende.</div>
+    <div class="body-txt">Você pode ter o barco mais rápido do mercado. Se não sabe pra onde vai, está à deriva. Autoconhecimento não é luxo de terapia. É a bússola de quem empreende.</div>
   </div>
   <div class="footer">GILBERTOSENAOFICIAL</div>
 </div>
@@ -239,13 +306,13 @@
       <div class="duo-col">
         <div class="duo-num">PILAR 2</div>
         <div class="duo-h">Tempo</div>
-        <div class="duo-text" style="color:#454545;">Empresário que não sabe a cor preferida do filho não está gerindo tempo — está sendo gerido por ele.</div>
+        <div class="duo-text" style="color:#454545;">Empresário que não sabe a cor preferida do filho não está gerindo tempo. Está sendo gerido por ele.</div>
       </div>
       <div class="duo-divider-v" style="background: rgba(21,21,21,0.14);"></div>
       <div class="duo-col">
         <div class="duo-num">PILAR 3</div>
         <div class="duo-h">Energia</div>
-        <div class="duo-text" style="color:#454545;">Energia é disposição pra vida — física, mental, espiritual. Cuide dela com o mesmo zelo que cuida do caixa.</div>
+        <div class="duo-text" style="color:#454545;">Energia é disposição pra vida: física, mental, espiritual. Cuide dela com o mesmo zelo que cuida do caixa.</div>
       </div>
     </div>
   </div>
@@ -260,9 +327,9 @@
   </div>
   <div class="rule"></div>
   <div class="content">
-    <div class="kicker">Pilar 4 — Recursos</div>
+    <div class="kicker">Pilar 4. Recursos</div>
     <div class="h2">Nem todo recurso pesa no bolso.</div>
-    <div class="body-txt" style="color:#151515; opacity:0.85;">"Você realmente precisa pagar um aluguel caro? Comprar todo o mobiliário novo? Um carro novo com seu primeiro grande contrato?" — Gilberto Sena</div>
+    <div class="body-txt" style="color:#151515; opacity:0.85;">"Você realmente precisa pagar um aluguel caro? Comprar todo o mobiliário novo? Um carro novo com seu primeiro grande contrato?". Gilberto Sena</div>
   </div>
   <div class="footer">GILBERTOSENAOFICIAL</div>
 </div>
@@ -275,7 +342,7 @@
   </div>
   <div class="rule"></div>
   <div class="content">
-    <div class="kicker">Pilar 5 — Desenvolvimento</div>
+    <div class="kicker">Pilar 5. Desenvolvimento</div>
     <div class="h2">Quem para de aprender, para de crescer.</div>
     <div class="body-txt">Não adianta querer levantar um castelo sem base forte. E a base é conhecimento. Continue estudante, mesmo depois de bem-sucedido.</div>
   </div>
@@ -291,8 +358,8 @@
   <div class="rule"></div>
   <div class="content">
     <div class="quote-mark">"</div>
-    <div class="quote-text">Ganhar dinheiro é muito difícil. Essa é a crença mais problemática — e mais difícil de contornar — na vida de quem empreende.</div>
-    <div class="quote-attr">— Gilberto Sena</div>
+    <div class="quote-text">Ganhar dinheiro é muito difícil. Essa é a crença mais problemática, e mais difícil de contornar, na vida de quem empreende.</div>
+    <div class="quote-attr">. Gilberto Sena</div>
   </div>
   <div class="footer">GILBERTOSENAOFICIAL</div>
 </div>

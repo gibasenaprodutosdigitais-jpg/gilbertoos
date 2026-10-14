@@ -138,6 +138,73 @@
   .s9 .q{font-size:38px;font-weight:800;line-height:1.3;color:var(--paper-text);max-width:820px}
   .s9 .handle{margin-top:30px;font-size:26px;font-weight:800;color:var(--gold);letter-spacing:.02em}
   .s9 .invite{margin-top:14px;font-size:18px;font-weight:500;color:#B8B2A2}
+
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+/* a capa com foto fica: a imagem ajuda no feed. So escurece bem mais,
+   para a letra branca ganhar e para casar com os outros slides. */
+.slide.photo-bg, .slide.capa.photo-bg{
+  background-color:#0D0B0A !important;
+  background-image:
+    linear-gradient(180deg, rgba(13,11,10,.80) 0%, rgba(13,11,10,.62) 38%,
+                    rgba(13,11,10,.90) 78%, rgba(13,11,10,.97) 100%),
+    url('assets/gilberto.jpg') !important;
+  background-size:cover !important;
+  background-position:center 58% !important }
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
 </style>
 </head>
 <body>
@@ -176,7 +243,7 @@
     <div class="kicker">01 · Crédito</div>
     <h1 class="tt">O crédito virou<br>mais amplo</h1>
     <div class="rule"></div>
-    <p class="body">Sai o modelo de crédito restrito, entra a não cumulatividade plena — acaba o efeito cascata. Frete, armazenagem, tecnologia e serviço contratado passam a pesar mais na conta real do seu negócio.</p>
+    <p class="body">Sai o modelo de crédito restrito, entra a não cumulatividade plena: acaba o efeito cascata. Frete, armazenagem, tecnologia e serviço contratado passam a pesar mais na conta real do seu negócio.</p>
   </div>
 </section>
 
@@ -197,7 +264,7 @@
     <div class="kicker">02 · Destino</div>
     <h1 class="tt on-light">O destino da<br>entrega vira<br>o centro</h1>
     <div class="rule"></div>
-    <p class="body on-light">A cobrança passa a acontecer onde o produto é consumido — não onde a empresa está sediada. Pra quem vende Brasil afora, o CEP de entrega pesa tanto quanto o preço do produto.</p>
+    <p class="body on-light">A cobrança passa a acontecer onde o produto é consumido, não onde a empresa está sediada. Pra quem vende Brasil afora, o CEP de entrega pesa tanto quanto o preço do produto.</p>
   </div>
 </section>
 
@@ -252,13 +319,13 @@
     <div class="kicker">04 · Caixa</div>
     <h1 class="tt">O imposto sai antes<br>de entrar no seu caixa</h1>
     <div class="rule"></div>
-    <p class="body">No split payment, o IBS e a CBS são retidos no instante do pagamento — antes de cair na sua conta. Você recebe só o líquido.</p>
+    <p class="body">No split payment, o IBS e a CBS são retidos no instante do pagamento. Antes de cair na sua conta. Você recebe só o líquido.</p>
   </div>
   <div class="receipt">
     <div class="tag">Estimativa oficial de referência</div>
     <div class="row"><span class="lab">Venda</span><span>R$ 1.000</span></div>
-    <div class="row"><span class="lab">CBS ≈ 8,8%</span><span>– R$ 88</span></div>
-    <div class="row"><span class="lab">IBS ≈ 17,7%</span><span>– R$ 177</span></div>
+    <div class="row"><span class="lab">CBS ≈ 8,8%</span><span>. R$ 88</span></div>
+    <div class="row"><span class="lab">IBS ≈ 17,7%</span><span>. R$ 177</span></div>
     <div class="row tot"><span class="lab">Você recebe</span><span>R$ 735</span></div>
   </div>
   <div class="lesson">"Quem vive girando o dinheiro do imposto pra fechar o mês vai quebrar sem entender por quê."</div>
@@ -301,10 +368,10 @@
   </div>
   <div class="mid">
     <div>
-      <div class="kicker">06–07 · Margem e operação</div>
+      <div class="kicker">06. 07 · Margem e operação</div>
       <h1 class="tt on-light">Não é a alíquota<br>que decide<br>sua margem</h1>
       <div class="rule"></div>
-      <p class="body on-light">O impacto real nasce da relação entre débito, crédito, mix de produto e logística — e exige ERP, marketplace, meio de pagamento e emissão fiscal conversando em tempo real.</p>
+      <p class="body on-light">O impacto real nasce da relação entre débito, crédito, mix de produto e logística, e exige ERP, marketplace, meio de pagamento e emissão fiscal conversando em tempo real.</p>
     </div>
     <div class="tags">
       <div class="tag">ERP</div>
@@ -336,7 +403,7 @@
       <div><div class="year">Virada federal</div><div class="desc">PIS e Cofins extintos, CBS em alíquota cheia, Imposto Seletivo começa, split payment passa a valer.</div></div>
     </div>
     <div class="tl-item">
-      <div class="tl-dot" style="font-size:12px">29–32</div>
+      <div class="tl-dot" style="font-size:12px">29. 32</div>
       <div><div class="year">Transição estadual</div><div class="desc">ICMS e ISS caem 10% ao ano; IBS sobe na mesma proporção.</div></div>
     </div>
     <div class="tl-item">
@@ -344,7 +411,7 @@
       <div><div class="year">Sistema definitivo</div><div class="desc">Só CBS + IBS (+ Imposto Seletivo).</div></div>
     </div>
   </div>
-  <div class="quote">"Salomão pediu sabedoria antes de pedir ouro. Não peça a alíquota antes de entender o crédito — é aí que o dinheiro vaza."</div>
+  <div class="quote">"Salomão pediu sabedoria antes de pedir ouro. Não peça a alíquota antes de entender o crédito. É aí que o dinheiro vaza."</div>
 </section>
 
 <!-- ============ SLIDE 9 — CTA FINAL ============ -->
@@ -357,7 +424,7 @@
   </div>
   <div class="content">
     <img class="leao" src="assets/leao.png" alt="">
-    <div class="q">Quer entender o que a reforma faz com o SEU negócio — não com o mercado em geral?</div>
+    <div class="q">Quer entender o que a reforma faz com o SEU negócio, não com o mercado em geral?</div>
     <div class="handle">@gilbertosenaoficial</div>
     <div class="invite">Segue e acompanha. A virada federal já começou.</div>
   </div>

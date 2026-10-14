@@ -126,6 +126,73 @@
   .s9 .q{font-size:38px;font-weight:800;line-height:1.3;color:var(--paper-text);max-width:840px}
   .s9 .handle{margin-top:30px;font-size:26px;font-weight:800;color:var(--gold);letter-spacing:.02em}
   .s9 .invite{margin-top:14px;font-size:18px;font-weight:500;color:#B8B2A2}
+
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+/* a capa com foto fica: a imagem ajuda no feed. So escurece bem mais,
+   para a letra branca ganhar e para casar com os outros slides. */
+.slide.photo-bg, .slide.capa.photo-bg{
+  background-color:#0D0B0A !important;
+  background-image:
+    linear-gradient(180deg, rgba(13,11,10,.80) 0%, rgba(13,11,10,.62) 38%,
+                    rgba(13,11,10,.90) 78%, rgba(13,11,10,.97) 100%),
+    url('assets/gilberto.jpg') !important;
+  background-size:cover !important;
+  background-position:center 58% !important }
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
 </style>
 </head>
 <body>
@@ -164,7 +231,7 @@
     <div class="kicker">01 · Fator R</div>
     <h1 class="tt">O Fator R<br>continua valendo</h1>
     <div class="rule"></div>
-    <p class="body">Segue o corte de 28%. Atingiu, a tributação pode ir pro Anexo III. Não atingiu, permanece no Anexo V — carga mais alta pro mesmo serviço.</p>
+    <p class="body">Segue o corte de 28%. Atingiu, a tributação pode ir pro Anexo III. Não atingiu, permanece no Anexo V. Carga mais alta pro mesmo serviço.</p>
   </div>
 </section>
 
@@ -188,7 +255,7 @@
     <div class="kicker">02 · Cálculo</div>
     <h1 class="tt on-light">O cálculo do<br>Fator R muda<br>em 2027</h1>
     <div class="rule"></div>
-    <p class="body on-light">A partir de 2027, o RBT12 e a folha usada no Fator R passam a considerar os 12 meses anteriores ao mês imediatamente anterior à apuração — uma defasagem de um mês. Variação forte de faturamento deixa de bater direto na alíquota do mês seguinte.</p>
+    <p class="body on-light">A partir de 2027, o RBT12 e a folha usada no Fator R passam a considerar os 12 meses anteriores ao mês imediatamente anterior à apuração. Uma defasagem de um mês. Variação forte de faturamento deixa de bater direto na alíquota do mês seguinte.</p>
   </div>
 </section>
 
@@ -211,7 +278,7 @@
     <div class="kicker">03 · Sem redução</div>
     <h1 class="tt">Representante<br>comercial não<br>tem os 30%</h1>
     <div class="rule"></div>
-    <p class="body">A Lei 4.886/1965 reconhece a profissão, mas a LC 214/2025 lista quem tem direito à redução de 30% de IBS e CBS — advocacia, contabilidade, administração, engenharia, medicina e outras profissões regulamentadas. Representante comercial não está na lista. No regime regular, a alíquota é cheia.</p>
+    <p class="body">A Lei 4.886/1965 reconhece a profissão, mas a LC 214/2025 lista quem tem direito à redução de 30% de IBS e CBS: advocacia, contabilidade, administração, engenharia, medicina e outras profissões regulamentadas. Representante comercial não está na lista. No regime regular, a alíquota é cheia.</p>
   </div>
 </section>
 
@@ -230,14 +297,14 @@
   </div>
   <div class="mid">
     <div>
-      <div class="kicker">04–05 · Simples e crédito</div>
+      <div class="kicker">04. 05 · Simples e crédito</div>
       <h1 class="tt on-light">Simples híbrido e<br>o crédito do<br>seu cliente</h1>
       <div class="rule"></div>
     </div>
     <div class="duo">
       <div class="card" style="background:rgba(21,21,21,.04);border-color:rgba(201,162,39,.5)">
         <div class="lbl">Nova escolha no Simples</div>
-        <div class="txt" style="color:var(--body)">Manter IBS/CBS dentro do DAS, ou apurar por fora — o Simples Híbrido.</div>
+        <div class="txt" style="color:var(--body)">Manter IBS/CBS dentro do DAS, ou apurar por fora. O Simples Híbrido.</div>
       </div>
       <div class="card" style="background:rgba(21,21,21,.04);border-color:rgba(201,162,39,.5)">
         <div class="lbl">Crédito do cliente importa</div>
@@ -264,7 +331,7 @@
     <div class="kicker">06 · Regime de caixa</div>
     <h1 class="tt on-light">O Simples deixa de<br>olhar pro<br>recebimento</h1>
     <div class="rule"></div>
-    <p class="body on-light">A partir de 2027, a apuração mensal do Simples passa do regime de caixa pro regime de competência. A receita é tributada no faturamento da operação — vinculada à emissão da nota — mesmo que a comissão caia na conta depois.</p>
+    <p class="body on-light">A partir de 2027, a apuração mensal do Simples passa do regime de caixa pro regime de competência. A receita é tributada no faturamento da operação, vinculada à emissão da nota, mesmo que a comissão caia na conta depois.</p>
     <div class="lesson">Quem vive do prazo entre vender e receber a comissão precisa reorganizar o fluxo de caixa antes de 2027.</div>
   </div>
 </section>
@@ -284,14 +351,14 @@
   </div>
   <div class="mid">
     <div>
-      <div class="kicker">07–08 · Crédito e nota fiscal</div>
+      <div class="kicker">07. 08 · Crédito e nota fiscal</div>
       <h1 class="tt">Poucos créditos,<br>mais nota fiscal</h1>
       <div class="rule"></div>
     </div>
     <div class="duo">
       <div class="card">
         <div class="lbl">Poucos créditos no regular</div>
-        <div class="txt">Atividade intensiva em trabalho tende a ter pouco IBS/CBS pra compensar — a estrutura de despesa decide a carga real.</div>
+        <div class="txt">Atividade intensiva em trabalho tende a ter pouco IBS/CBS pra compensar. A estrutura de despesa decide a carga real.</div>
       </div>
       <div class="card">
         <div class="lbl">Mais atenção à NFS-e</div>
@@ -322,7 +389,7 @@
   </div>
   <div class="datebox">
     <div class="tag">Janela de decisão</div>
-    <div class="d1">1 a 30/09/2026 — opção pelo Simples Híbrido pro 1º semestre de 2027</div>
+    <div class="d1">1 a 30/09/2026. Opção pelo Simples Híbrido pro 1º semestre de 2027</div>
     <div class="d2">Cancelamento irretratável até 30/11/2026.</div>
   </div>
   <div class="concl">
@@ -341,7 +408,7 @@
   </div>
   <div class="content">
     <img class="leao" src="assets/leao.png" alt="">
-    <div class="q">Quer entender o que a reforma faz especificamente com a SUA representação — não com a categoria em geral?</div>
+    <div class="q">Quer entender o que a reforma faz especificamente com a SUA representação, não com a categoria em geral?</div>
     <div class="handle">@gilbertosenaoficial</div>
     <div class="invite">Segue e acompanha. A virada federal já começou.</div>
   </div>
