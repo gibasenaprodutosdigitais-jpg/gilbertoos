@@ -48,32 +48,51 @@ lugar do ensaio do `@eubernardocoelho`, que é tecnicamente muito melhor
 (4480 × 6720) mas tem terno cinza-claro e expressão severa: do lado do Bittar
 sorrindo de preto, as duas metades não pareciam a mesma peça.
 
-**Stanley:** foto que ele mandou em 09/out/2026, original em
-`fotos/bittar-original.jpg`. Terno preto, gravata, fundo de evento.
+**Stanley:** ★ **trocada em 13/out/2026.** Retrato de estúdio, **terno
+branco**, braços cruzados, fundo cinza-azulado. Original em
+`fotos/bittar-original-2.png`, 768 × 903. A anterior era print de story e
+está em `fotos/bittar-original.jpg`.
 
-**O que as duas têm em comum é o que faz a capa funcionar:** terno escuro,
-olhando para a câmera, expressão aberta. Em capa de dupla isso importa mais
-que a qualidade de cada foto isolada.
+### ★ O terno branco virou o conceito
+
+A foto nova trouxe um problema aparente e uma solução melhor. **Ele de
+branco, o Gilberto de preto.** Em capa de dupla isso costuma quebrar a
+unidade.
+
+Aqui faz o contrário: o livro se chama *O Médico e o Executivo*, e **a roupa
+passou a nomear os dois mundos sem precisar de símbolo nenhum.** A linha
+dourada do meio deixou de ser enfeite e virou a fronteira entre eles.
+
+**A unidade da capa vem do rosto, e é por isso que ela aguenta a roupa
+divergir.** Os dois retratos foram equilibrados para o brilho da pele bater:
+**medido em 13 pontos de diferença**, dentro da margem em que o olho não
+percebe.
 
 ### O tratamento, passo a passo
 
-1. Recorte 3:4, cabeça e busto.
+1. **Recorte 3:4 fechado**, cabeça e busto. ⚠ O enquadramento tem que deixar
+   as duas cabeças do mesmo tamanho. Na primeira tentativa de 13/out o
+   Stanley saiu menor e parecia mais distante que o Gilberto.
 2. Nitidez antes e depois da ampliação.
-3. **No caso do Stanley**, desfoque pesado fora de uma elipse no rosto: o
-   fundo do evento tinha um cartaz com texto grande, que lia como erro de
-   arte. Blur de 48 px resolve.
-4. Duotone azul-noite idêntico nas duas.
-5. Vinheta radial mais rampa escura no topo, para as duas nascerem do mesmo
-   preto.
-6. **Conferência de densidade:** o brilho médio das duas é medido e
-   equilibrado. É o que impede uma metade de parecer colada na outra.
+3. **Curva de tom antes do duotone:** levanta os meios para o rosto subir,
+   afunda as sombras para o fundo de estúdio escurecer, e **comprime a luz
+   alta para o terno branco não estourar.**
+4. Duotone azul-noite idêntico nas duas: sombra `(9,16,26)`, luz
+   `(169,169,167)`.
+5. **Vinheta larga** mais rampa escura no topo. ⚠ Vinheta estreita cria um
+   halo oval visível em volta da pessoa, e foi o que aconteceu na primeira
+   tentativa de 13/out.
+6. **Conferência de densidade:** medir o brilho **dos rostos**, não da
+   metade inteira. Com roupas de cores opostas, a média da metade não diz
+   nada. **Alvo: menos de 15 pontos de diferença entre as duas peles.**
 
 ---
 
 ## O único problema que sobrou: resolução
 
-⚠ **A foto do Stanley é um print de story, de 719 × 1280.** Depois do recorte
-sobram cerca de 460 × 613 px de imagem útil, ampliados para 1200 × 1600.
+⚠ **A foto nova do Stanley tem 768 × 903.** Melhor que o print de story
+anterior, que rendia 460 × 613 úteis, mas depois do recorte fechado sobram
+cerca de **534 × 712**, ampliados para 1200 × 1600.
 
 **Para tela isso passa. Para gráfica, não.** Numa capa impressa de 16 × 23 cm
 a 300 dpi, aquela metade vai sair visivelmente mole ao lado da outra, e o
