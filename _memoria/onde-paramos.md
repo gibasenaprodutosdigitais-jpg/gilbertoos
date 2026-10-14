@@ -259,13 +259,17 @@ Os 8 aprovados estão em `saidas/reels-antigos-amostra-2026-10-14/aprovados/`,
 **fora do git** (regra de vídeo da seção 6). Textos dos três canais em
 `aprovados/textos.json`. Vão direto daqui pra Zernio.
 
-**Tratamento de 1, 5 e 6 (14/out):** vinham em VP9 com taxa baixíssima (o 01
+**Tratamento dos 7 (14/out):** vinham em VP9 com taxa baixíssima (o 01
 em 702 kbps a 1080x1920) e áudio de 50 kbps. Imagem: remoção de ruído de
 compressão, deband, nitidez adaptativa (`cas`) e leve ganho de contraste. O 05
 era 576x1024 e subiu pra 1080. Som: `highpass`, `afftdn`, `deesser`,
 compressão leve e `loudnorm` em dois passos. Resultado: vídeo de 2.600 a 5.000
-kbps, áudio de 192 kbps, ruído de fundo 7 a 10 dB mais baixo, −14,0 LUFS
-exatos.
+kbps, áudio de 192 kbps, ruído de fundo 7 a 10 dB mais baixo nos dois que
+precisavam, e **−14,0 LUFS exatos nos sete**.
+
+⚠ **Armadilha do `delogo`:** no 04 ele ficou ligado no vídeo inteiro e comeu a
+última linha de dois cards anteriores. Agora usa `enable='gte(t,15.85)'`.
+**Filtro que apaga região sempre precisa de janela de tempo.**
 
 ⚠ **Como conferir que uma limpeza de áudio não comeu a fala:** transcreva de
 novo o arquivo tratado e compare com a transcrição do bruto. No 05 a

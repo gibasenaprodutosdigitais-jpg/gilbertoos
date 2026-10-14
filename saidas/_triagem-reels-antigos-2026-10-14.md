@@ -83,24 +83,38 @@ informação técnica fechada, sem CTA.
 contexto"*. Ele tem razão: o vídeo abre com "pessoal, bom domingo a todos", o
 que prende a peça a um dia da semana e a uma data. Arquivo e texto removidos.
 
-### ✅ 14/out: 1, 5 e 6 foram tratados de imagem e som
+### ✅ 14/out: os 7 foram tratados de imagem e som
 
-Ele pediu. Os três vinham em VP9 com taxa muito baixa, o 01 em **702 kbps a
-1080x1920**, e áudio de **50 kbps**.
+Ele pediu primeiro para 1, 5 e 6, depois mandou rodar nos outros. Todos vinham
+em VP9 com taxa muito baixa, o 01 em **702 kbps a 1080x1920**, e áudio entre
+**47 e 77 kbps**.
 
-| | Vídeo antes | Vídeo depois | Áudio antes | Áudio depois | Ruído de fundo |
-|---|---|---|---|---|---|
-| 01 transportadora | 702 kbps | 2.624 kbps | 50 kbps | 192 kbps | −27 → −34 dB |
-| 05 automanipulação | 1.160 kbps | 5.048 kbps | 65 kbps | 194 kbps | −22 → −32 dB |
-| 06 cai o sistema | 1.434 kbps | 5.044 kbps | 47 kbps | 191 kbps | já era limpo |
+| | Vídeo antes | Vídeo depois | Áudio antes | Áudio depois |
+|---|---|---|---|---|
+| 01 transportadora | 702 kbps | 2.624 kbps | 50 kbps | 192 kbps |
+| 02 e-commerce | 849 kbps | 2.755 kbps | 56 kbps | 192 kbps |
+| 03 silêncio dos bons | 910 kbps | 3.480 kbps | 70 kbps | 193 kbps |
+| 04 fim do IPI | 790 kbps | 2.166 kbps | 77 kbps | 192 kbps |
+| 05 automanipulação | 1.160 kbps | 5.048 kbps | 65 kbps | 194 kbps |
+| 06 cai o sistema | 1.434 kbps | 5.044 kbps | 47 kbps | 191 kbps |
+| 07 diagnóstico errado | 1.304 kbps | 4.670 kbps | 53 kbps | 192 kbps |
+
+**Ruído de fundo:** o 01 caiu de −27 para −34 dB, e o 05 de −22 para −32 dB.
+Os outros já eram limpos.
 
 **Imagem:** remoção de ruído de compressão, correção de banding nos degradês,
 nitidez adaptativa e um leve ganho de contraste e cor. O 05 era **576x1024** e
 subiu pra 1080x1920.
 
 **Som:** corte de graves de sala, redução de ruído por FFT, controle de
-sibilância, compressão leve e nivelamento em dois passos, fechando em −14,0
-LUFS exatos nos três.
+sibilância, compressão leve e nivelamento em dois passos. **Os sete fecharam
+em −14,0 LUFS exatos**, que é o alvo do Instagram.
+
+⚠ **Um erro meu, pego e corrigido.** No 04 eu tinha apagado por filtro o botão
+"inscrição no link da bio", mas deixei o filtro ligado no vídeo inteiro. Ele
+estava comendo a última linha de texto de dois cards anteriores. O botão só
+entra aos 15,9s, então o filtro agora liga só a partir dali. **Só vi isso
+olhando o quadro.**
 
 **A prova de que a limpeza não comeu a fala:** transcrevi de novo o áudio
 tratado e comparei. No 05, o trecho que o Whisper errava antes ("tem empresa
