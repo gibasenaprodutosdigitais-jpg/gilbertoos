@@ -383,6 +383,26 @@ repositório preservada.
 É o backup da mídia que saiu do git. **Se arquivo novo de vídeo for gerado,
 copiar para lá também** — o git não pega mais.
 
+### Limpeza do Downloads — 13/out/2026
+
+De **28 GB para 23 GB**, apagando só o que era inquestionável e conferido:
+26 duplicatas idênticas (byte a byte), 5 ZIPs que já estavam extraídos ao
+lado, e 2 instaladores do WhatsApp com o app já instalado.
+
+**Os 4 vídeos brutos do iPhone** (IMG_3304, IMG_3256, IMG_3480, IMG_3271),
+16,5 GB somados, **não tinham cópia em lugar nenhum** do Mac. Foram para
+`Meu Drive/GilbertoOS - videos brutos (backup)/`. **Os originais ficam no
+Downloads até ele confirmar no app do Drive que subiram.**
+
+⚠ **A conexão do Google Drive aqui não tem permissão de leitura** — dá erro
+de escopo. **Não dá para confirmar daqui que um arquivo chegou à nuvem.**
+Só pelo ícone do Drive na barra do Mac, ou pedindo a ele.
+
+⚠ **Copiar para o Drive consome espaço local antes de liberar.** O app guarda
+cache enquanto envia: depois de copiar 5,1 GB de mídia, o cache do DriveFS
+foi a 4,3 GB e o disco caiu de 45 para 39 GB livres. **O espaço só volta
+quando o Drive termina de enviar e limpa o cache.**
+
 ### As cópias de segurança
 
 `~/Desktop/BACKUP-gilbertoos-antes-da-limpeza-2026-10-13` tem:
