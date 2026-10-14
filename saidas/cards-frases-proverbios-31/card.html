@@ -1,0 +1,65 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Cards diários — Provérbios 31 aplicado a negócio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Serie diaria: uma frase por dia do mes, inspirada em Proverbios 31.
+     Terra queimada + osso + folha de ouro. O numero do dia e a assinatura. */
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{
+    --fundo:#171210;      /* terra queimada, quase preto */
+    --fundo2:#201915;
+    --tinta:#F2EDE3;      /* osso */
+    --ouro:#D9A94E;
+    --fraco:#9A8F80;
+  }
+  body{background:#0a0a0a;display:flex;flex-wrap:wrap;gap:30px;padding:30px;justify-content:center}
+  .card{position:relative;width:1080px;height:1350px;overflow:hidden;
+        background:var(--fundo);font-family:Archivo,system-ui,sans-serif;color:var(--tinta)}
+
+  /* a foto entra pela direita e dissolve no fundo */
+  .foto{position:absolute;right:-60px;bottom:0;width:760px;height:1150px;
+        background-size:cover;background-position:50% 12%;
+        filter:grayscale(.30) contrast(1.08) brightness(.98) sepia(.12)}
+  .foto::after{content:"";position:absolute;inset:0;
+    background:
+      linear-gradient(95deg, var(--fundo) 0%, rgba(23,18,16,.96) 22%, rgba(23,18,16,.40) 50%, rgba(23,18,16,.06) 76%, rgba(23,18,16,.30) 100%),
+      linear-gradient(0deg, var(--fundo) 0%, rgba(23,18,16,.10) 34%)}
+
+  /* brilho quente alto a esquerda, pra sustentar o texto */
+  .halo{position:absolute;left:-180px;top:-140px;width:900px;height:900px;
+        background:radial-gradient(circle at 40% 40%, rgba(217,169,78,.10) 0%, rgba(217,169,78,0) 62%);
+        pointer-events:none}
+
+  /* faixa de ouro vertical, a mesma assinatura dos carrosseis */
+  .faixa{position:absolute;left:0;top:0;bottom:0;width:18px;
+    background:linear-gradient(180deg,#8C6B2A 0%,#D9A94E 36%,#F0D28F 52%,#D9A94E 66%,#8C6B2A 100%)}
+
+  .topo{position:absolute;left:92px;top:76px;right:92px;display:flex;align-items:baseline;gap:40px}
+  .num{font-family:Fraunces,serif;font-size:132px;font-weight:700;line-height:.82;
+       color:var(--ouro);letter-spacing:-.02em;flex:none}
+  .rotulo{font-size:15px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;
+          color:var(--fraco);padding-bottom:14px}
+
+  .regua{position:absolute;left:92px;top:252px;width:104px;height:3px;background:var(--ouro)}
+
+  .bloco{position:absolute;left:92px;top:318px;width:640px}
+  .frase{width:100%;
+         font-family:Fraunces,serif;font-weight:600;font-size:63px;line-height:1.17;
+         letter-spacing:-.018em;text-wrap:balance}
+  .frase.longa{font-size:55px;line-height:1.19}
+  .frase.curta{font-size:72px;line-height:1.14}
+
+  .fonte{margin-top:46px;padding-top:26px;width:520px;
+         border-top:1px solid rgba(217,169,78,.34);
+         font-size:21px;font-weight:500;color:var(--fraco);line-height:1.5}
+  .fonte b{color:var(--ouro);font-weight:600}
+
+  .rodape{position:absolute;left:92px;right:92px;bottom:74px;
+          display:flex;align-items:center;justify-content:space-between}
+  .rodape img{height:72px;width:auto;display:block}
+  .arroba{font-size:24px;font-weight:700;color:var(--ouro);letter-spacing:.01em}
+</style>
+<div id="palco"></div>
