@@ -42,11 +42,11 @@ Salve para consultar quando o contador te mandar o relatório.
 - **Formato do post:** carrossel de 9. O algoritmo favorece quem chega ao
   último slide, e a checagem final é o que segura até lá.
 - **Primeiro comentário:** *"Qual desses sete degraus você nunca tinha
-  olhado?"* — pergunta de autodiagnóstico rende mais comentário que pedido
+  olhado?"*. Pergunta de autodiagnóstico rende mais comentário que pedido
   de opinião.
 - **Reaproveitamento:** cada degrau vira um Reels curto. O passo 3 (margem
   caindo com faturamento subindo) é o mais forte para virar Reels sozinho,
   porque é contraintuitivo.
 - **Se alguém pedir exemplo com números:** responder no comentário que
   depende do setor, e oferecer olhar o caso. Não inventar percentual em
-  comentário — número citado vira número cobrado.
+  comentário. Número citado vira número cobrado.

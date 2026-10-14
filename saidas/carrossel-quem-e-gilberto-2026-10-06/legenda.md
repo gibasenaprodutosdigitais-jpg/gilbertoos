@@ -44,7 +44,7 @@ Arrasta e conhece a história inteira.
 
 ## Notas de publicação
 
-- **Primeiro comentário:** *"Qual desses nove cards te surpreendeu mais?"* —
+- **Primeiro comentário:** *"Qual desses nove cards te surpreendeu mais?"*
   pergunta de reconhecimento rende mais que pedido de opinião.
 - **Os três cards novos** (04, 06 e 07) são o que esse carrossel tem que o
   anterior não tinha. Se for recortar pra Stories, são esses dois que mais

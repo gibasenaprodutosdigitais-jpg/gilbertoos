@@ -1,92 +1,126 @@
-# O que está agendado nas suas redes
+# Cronograma das redes
 
-> Puxado direto da Zernio em **14/out/2026**. Horários no **seu fuso**, não em UTC.
-> **25 posts na fila.** 16 já foram ao ar nesta leva.
+> Refeito em **14/out/2026, à noite**, com as suas mudanças. Horários no **seu
+> fuso**. O que está marcado ✅ já está agendado na Zernio.
 
 ---
 
-## Resumo
+## O que mudou nesta rodada
 
-| Rede | Na fila | Ritmo | Vai até |
+| Pedido seu | Situação |
+|---|---|
+| Tirar o post de sexta sobre o prazo do híbrido no Instagram | ✅ apagado |
+| Acrescentar os 7 Reels novos | ✅ nos 3 canais, 21 posts |
+| TikTok a cada 6 horas | ✅ grade 02:00, 08:00, 14:00, 20:00 |
+| YouTube a cada 6 horas | ✅ grade 00:00, 06:00, 12:00, 18:00 |
+| 2 carrosséis por dia no Instagram, 06:00 e 17:00 | 🔄 subindo as imagens |
+| Os mesmos carrosséis no TikTok | 🔄 subindo as imagens |
+| Posts com suas fotos e frases de impacto | ⏳ é o próximo passo, ainda não existe |
+
+---
+
+## Instagram
+
+**Reels às 09:00, 14:00 e 20:00. Carrosséis às 06:00 e 17:00.**
+
+### ✅ Reels já agendados, 14 até 19/out
+
+| Dia | 09:00 | 14:00 | 20:00 |
 |---|---|---|---|
-| **Instagram** | 9 Reels | 3 por dia: 09:00, 14:00 e 20:00 | sábado 17/out |
-| **YouTube** | 10 vídeos | 1 por dia, meio-dia | sábado 24/out |
-| **TikTok** | 6 vídeos | 1 a cada 4 horas, sem parar | quinta 15/out, 16:30 |
+| **qua 14/out** | — | — | Demissão por performance |
+| qui 15/out | O empresário não paga imposto | Joia na caixinha | O áudio do seu filho |
+| sex 16/out | **Transportadora: CT-e e CBS/IBS** | Rico tem paciência | Quantos Gilbertos |
+| sáb 17/out | Dinheiro tributado 4 vezes | **E-commerce: split payment** | Mais evolui, mais sensível |
+| dom 18/out | **O silêncio dos bons** | **O fim do IPI e a Zona Franca** | **Automanipulação** |
+| seg 19/out | **2027 cai o sistema inteiro** | **Nem toda queda é calvície** | — |
 
-**O TikTok acaba primeiro, já na quinta.** O Instagram acaba no sábado. O
-YouTube segura sozinho até o dia 24.
+Em **negrito**, os 7 novos.
 
----
+### 🔄 Carrosséis, 30 peças, 15/out a 29/out
 
-## Instagram, 9 na fila
+Dois por dia, **06:00 e 17:00**, alternando reforma, gestão e autoridade pra o
+perfil não virar boletim fiscal.
 
-| Quando | Assunto |
-|---|---|
-| **hoje, quarta 14/out, 20:00** | Demissão por performance: a história do Formigão |
-| quinta 15/out, 09:00 | O empresário não paga imposto. Quem paga somos todos nós |
-| quinta 15/out, 14:00 | Joia na caixinha vira porta-joia. Casca de banana vira lixo |
-| quinta 15/out, 20:00 | Quando seu filho te manda um áudio pedindo conselho |
-| sexta 16/out, 09:00 | Simples Nacional: o prazo do híbrido está na lei e não muda |
-| sexta 16/out, 14:00 | Qual a diferença entre o rico e o pobre: paciência |
-| sexta 16/out, 20:00 | Quantos Gilbertos tem lá fora |
-| sábado 17/out, 09:00 | O mesmo dinheiro tributado quatro vezes, e é legal |
-| sábado 17/out, 20:00 | Quanto mais você evolui, mais sensível você fica |
-
-⚠ **Sábado tem só dois, não três.** Não é falha: é onde a leva de 14 Reels
-termina. A grade de 3 por dia acaba aí.
-
-## YouTube, 10 na fila, sempre meio-dia
-
-| Quando | Assunto |
-|---|---|
-| quinta 15/out | Comitê Gestor: o prazo que mais chega aos contadores |
-| sexta 16/out | Sair da operação ou do operacional |
-| sábado 17/out | Demissão por performance: o Formigão |
-| domingo 18/out | Rico tem paciência |
-| segunda 19/out | Dinheiro é energia, explicado com uma corrida |
-| terça 20/out | Joia na caixinha |
-| quarta 21/out | Em 1997 eu era motoboy e não tinha moto |
-| quinta 22/out | Quanto mais evolui, mais sensível |
-| sexta 23/out | Gente perdida que precisa ouvir uma história parecida |
-| sábado 24/out | O áudio do seu filho |
-
-## TikTok, 6 na fila, de 4 em 4 horas
-
-| Quando | Assunto |
-|---|---|
-| **hoje, quarta 14/out, 20:30** | Simples Nacional: o prazo não vai mudar |
-| quinta 15/out, 00:30 | Rico tem paciência |
-| quinta 15/out, 04:30 | Quantos Gilbertos tem lá fora |
-| quinta 15/out, 08:30 | O mesmo dinheiro tributado quatro vezes |
-| quinta 15/out, 12:30 | A empresa não quebra sozinha. Quem quebra é o empresário |
-| quinta 15/out, 16:30 | Quanto mais evolui, mais sensível |
-
-⚠ **Dois caem de madrugada** (00:30 e 04:30). Você foi avisado disso quando
-montamos e decidiu manter, porque o TikTok distribui por interesse e não por
-horário.
+| Dia | 06:00 | 17:00 |
+|---|---|---|
+| qui 15/out | 10 e-books | Agronegócio |
+| sex 16/out | 12 pilares do business plan | Biomedicina |
+| sáb 17/out | Clínicas estéticas | 10 pergaminhos |
+| dom 18/out | Comércio | Educação |
+| seg 19/out | 5 sinais de estagnação | Entregadores de app |
+| ter 20/out | Imobiliário e aluguel | IPI e imposto seletivo |
+| qua 21/out | 5 G's: Gestão de Si | Odontologia |
+| qui 22/out | PF autônomo e CBS | A DRE em 7 passos |
+| sex 23/out | Redutor de ajuste na construção | Reforma e e-books |
+| sáb 24/out | 5 G's: Gestão Financeira | Reforma no e-commerce |
+| dom 25/out | Infoprodutores | Médicos |
+| seg 26/out | Ponto de equilíbrio | Representante comercial |
+| ter 27/out | Saúde em geral | 5 G's: Gestão Tributária |
+| qua 28/out | Serviços | Tecnologia e SaaS |
+| qui 29/out | Forjado, a imersão | Transportes |
 
 ---
 
-## Um post falhou, e já foi decidido
+## TikTok
 
-O Vivaldi, das Quatro Estações, no Instagram. O Meta recusou o arquivo e pediu
-novo envio. **Decisão sua: não republicar.** Está registrado, não vou mexer.
+**Reels a cada 6 horas: 02:00, 08:00, 14:00 e 20:00.**
+**Carrosséis às 06:00 e 17:00**, os mesmos do Instagram.
+
+### ✅ Reels já agendados, 13 até 17/out
+
+| Dia | 02:00 | 08:00 | 14:00 | 20:00 |
+|---|---|---|---|---|
+| **qua 14/out** | — | — | — | 20:30, Simples Nacional |
+| qui 15/out | Rico tem paciência | Quantos Gilbertos | Dinheiro 4 vezes | A empresa não quebra sozinha |
+| sex 16/out | Mais evolui, mais sensível | **Transportadora** | **E-commerce** | **O silêncio dos bons** |
+| sáb 17/out | **O fim do IPI** | **Automanipulação** | **2027 cai o sistema** | **Nem toda queda é calvície** |
 
 ---
 
-## O buraco que isso abre
+## YouTube
 
-**A partir de domingo 18/out você só tem YouTube.** Instagram e TikTok ficam
-vazios por seis dias, até o YouTube acabar no dia 24.
+**A cada 6 horas: 00:00, 06:00, 12:00 e 18:00.** ✅ 17 vídeos até 19/out.
 
-Isso tem conserto pronto na mão:
+| Dia | 00:00 | 06:00 | 12:00 | 18:00 |
+|---|---|---|---|---|
+| qui 15/out | Comitê Gestor e o prazo | Operação x operacional | O Formigão | Rico tem paciência |
+| sex 16/out | Dinheiro é energia | Joia na caixinha | Em 1997 eu era motoboy | Mais evolui, mais sensível |
+| sáb 17/out | Gente perdida | O áudio do seu filho | **Transportadora** | **E-commerce** |
+| dom 18/out | **O silêncio dos bons** | **O fim do IPI** | **Automanipulação** | **2027 cai o sistema** |
+| seg 19/out | **Nem toda queda é calvície** | — | — | — |
 
-- **7 Reels antigos** revisados, cortados e com texto pros três canais, em
-  `saidas/reels-antigos-amostra-2026-10-14/aprovados/`
-- **30 carrosséis** com a pele nova, auditados slide a slide
+---
 
-O plano que faz sentido é começar os carrosséis na segunda 19/out, três por
-semana, e encaixar os 7 Reels um por semana entre eles. Com isso você fecha
-dez semanas de conteúdo sem gravar nada novo.
+## A conta dos 7 posts por dia
 
-**Nada disso está agendado ainda.** Preciso da sua ordem pra colocar na fila.
+Você pediu 7 por dia no Instagram. Com o que existe hoje eu chego a **5**:
+
+```
+06:00  carrossel
+09:00  reel
+14:00  reel
+17:00  carrossel
+20:00  reel
+```
+
+Os **outros 2 são exatamente os posts de foto com frase** que você disse ser o
+próximo passo. Quando eles existirem, a grade fecha em 7.
+
+### ⚠ Onde o material acaba
+
+| | Acaba em | O que sobra depois |
+|---|---|---|
+| Reels do Instagram | **19/out** | só os 2 carrosséis por dia |
+| Reels do TikTok | **17/out** | só os 2 carrosséis por dia |
+| YouTube | **19/out** | nada |
+| Carrosséis | **29/out** | — |
+
+**Isso é consequência do ritmo, não falha de agendamento.** 14 Reels a 3 por
+dia duram 5 dias. Os mesmos 14, a 1 por dia, durariam duas semanas.
+
+Minha recomendação, e a decisão é sua: **a partir de 20/out, baixar o Instagram
+para 1 reel por dia** e segurar o resto com carrossel e com os posts de foto.
+Volume sem material vira repetição, e repetição o algoritmo pune.
+
+O que destrava de verdade: **gravar.** Os [2 roteiros prontos](reels-antigos-amostra-2026-10-14/aprovados/regravar.md)
+são 2 minutos de gravação e rendem 6 posts nos três canais.

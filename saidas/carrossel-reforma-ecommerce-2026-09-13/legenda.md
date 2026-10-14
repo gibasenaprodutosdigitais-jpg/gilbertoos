@@ -7,7 +7,7 @@
 Quem vende online tá lendo sobre alíquota e esquecendo do que realmente vai
 mexer no caixa: crédito, destino da entrega, fornecedor e split payment.
 
-Separei o que muda de verdade pra loja virtual e marketplace — sem enrolação,
+Separei o que muda de verdade pra loja virtual e marketplace, sem enrolação,
 com o cronograma oficial. Se você vende pela internet, isso aqui é operação,
 não é imposto.
 

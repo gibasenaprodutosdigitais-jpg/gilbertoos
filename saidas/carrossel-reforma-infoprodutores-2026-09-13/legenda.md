@@ -5,7 +5,7 @@
 ---
 
 E-book tem imunidade constitucional. Curso, mentoria e comunidade não.
-Se você vende os três juntos, cada um joga um jogo diferente na reforma —
+Se você vende os três juntos, cada um joga um jogo diferente na reforma
 e é exatamente isso que a maioria dos infoprodutores não sabe.
 
 Separei o que muda de verdade: Simples híbrido, fim do regime de caixa,

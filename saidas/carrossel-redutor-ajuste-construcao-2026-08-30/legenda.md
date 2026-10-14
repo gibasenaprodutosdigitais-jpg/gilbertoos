@@ -1,4 +1,4 @@
-O relógio do seu patrimônio já começou a correr — e a maioria dos donos de imóvel e terreno nem sabe disso.
+O relógio do seu patrimônio já começou a correr, e a maioria dos donos de imóvel e terreno nem sabe disso.
 
 A reforma tributária criou o redutor de ajuste: na venda de um imóvel ou terreno que você já tem hoje, só é tributado o que ele valorizar depois da transição. O valor histórico de aquisição fica de fora da conta.
 
@@ -8,10 +8,8 @@ Mas isso não é automático. Até 31 de dezembro de 2026 você precisa document
 
 Quem documenta paga só sobre o novo. Quem não documenta corre o risco de pagar sobre uma valorização que já era sua.
 
-Reforma tributária não é só imposto que sobe ou desce — é prazo. Quem trata isso como notícia perde a janela. Quem trata como decisão de gestão chega em 2027 com o terreno em ordem.
+Reforma tributária não é só imposto que sobe ou desce. É prazo. Quem trata isso como notícia perde a janela. Quem trata como decisão de gestão chega em 2027 com o terreno em ordem.Me chama no direct.
 
-Inscrição no link da bio.
-
-Gilberto Sena — Grupo Sena Soluções Empresariais.
+Gilberto Sena. Grupo Sena Soluções Empresariais.
 
 #reformatributaria #construcaocivil #mercadoimobiliario #incorporadora #planejamentotributario #ibs #cbs #gestaoempresarial #direitotributario #imoveis #gilbertosena

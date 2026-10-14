@@ -4,7 +4,7 @@
 
 ---
 
-Médico tem 60% de desconto na reforma — não 30%. Mas isso só vale se o
+Médico tem 60% de desconto na reforma, não 30%. Mas isso só vale se o
 serviço for classificado certo, e não se soma com o benefício de profissão
 regulamentada.
 

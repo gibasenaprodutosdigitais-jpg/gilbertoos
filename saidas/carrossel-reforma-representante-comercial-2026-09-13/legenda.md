@@ -4,7 +4,7 @@
 
 ---
 
-Representante comercial tem uma profissão regulamentada desde 1965 — mas
+Representante comercial tem uma profissão regulamentada desde 1965. Mas
 não entrou na lista dos 30% de desconto da reforma. E o Fator R, que já
 usa, muda a forma de calcular a partir de 2027.
 
