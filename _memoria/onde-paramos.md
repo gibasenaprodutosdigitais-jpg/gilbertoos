@@ -33,6 +33,8 @@ de base de 13/out. **É a única coisa com data marcada.**
 | Texto do aviso ao associado quando um sócio é fornecedor | idem, e seção 4 do contrato |
 | Topo da escada de posicionamento (Procurado × Idolatrado) | `_memoria/posicionamento.md`, fim |
 | Capa dos Reels — preta "por enquanto" | seção 3 |
+| **O "9,9%" da CBS: fonte dele ou engano de fala?** | seção 3 |
+| **O reel do "fundo do poço" é história dele ou do filme?** | seção 3 |
 | As 4 decisões do livro | seção 2 |
 
 **Nada disso deve ser aplicado sem ele dizer.**
@@ -231,6 +233,63 @@ Se falhar, `posts_list_failed` e `posts_retry`.
 
 O manual completo da Zernio (IDs, fluxo, limites, armadilhas) está na memória
 do Claude, não no repositório, porque envolve credencial e conta.
+
+### ★ Acervo de reels antigos: triado em 14/out/2026
+
+**198 reels no Drive, 23 já postados, 175 inéditos.** Ele escolheu revisar só
+o recorte de **2026: 50 vídeos**. O resultado está em
+`saidas/_triagem-reels-antigos-2026-10-14.md`.
+
+| | |
+|---|---|
+| Aprovados, cortados, com texto | **8** |
+| Esperando confirmação dele | 1 |
+| Declinados | 41 |
+
+**A descoberta que importa mais que os 8:** a maior parte do que ele produziu
+em 2026 é **react a material de terceiro** (16 de 50) — Wolf of Wall Street,
+Silvio Santos, Elon Musk, Tony Robbins, Tom e Jerry. Não dá pra republicar:
+risco de direito autoral, o valor era do clipe e não dele, e contraria o
+anti-genérico do posicionamento. Mais 13 eram card ou flyer sem áudio.
+
+Os 8 aprovados estão em `saidas/reels-antigos-amostra-2026-10-14/aprovados/`,
+**fora do git** (regra de vídeo da seção 6). Textos dos três canais em
+`aprovados/textos.json`. Vão direto daqui pra Zernio.
+
+**Cortes feitos:** tirei o convite de evento vencido de 4 deles, e no do IPI
+apaguei por filtro o botão "inscrição no link da bio" que estava queimado no
+quadro. Todos padronizados em 1080x1920, áudio em -14 LUFS, taxa limitada a
+4 Mbps porque a internet dele sobe a ~1 Mbps.
+
+**Ainda não agendei nenhum.** A recomendação é encaixá-los um por semana
+entre os carrosséis, a partir de 21/out, pra não competirem com a fila atual.
+
+### 2 roteiros separados pra ele regravar
+
+Em `saidas/reels-antigos-amostra-2026-10-14/aprovados/regravar.md`. Os vídeos
+têm o banner "17/09 Alphaville" queimado em todos os quadros, mas o texto é
+bom demais pra perder:
+
+1. **Ônibus ou foguete** — por que ele não segura gente boa. O melhor roteiro
+   de gestão dos 50, e sem nenhuma referência de data.
+2. **"Teoria sem prática não vale nada, doutor Eurico"** — resposta ao
+   professor da FGV que disse ao Estadão que o empresário deveria economizar
+   acabando com os tributaristas. ⚠ **Conferir a declaração e o nome antes de
+   gravar**: é acusação nominal a pessoa real.
+
+### ⚠ Duas coisas que dependem da palavra dele
+
+**1. O "9,9%" da CBS.** No reel de e-commerce ele fala que a CBS está
+"aproximadamente numa alíquota de 9,9%". O `conhecimento/reforma-tributaria.md`
+registra a referência oficial em **CBS ≈ 8,8%** (IBS ≈ 17,7%, total ≈ 26,5%).
+**Não coloquei percentual nenhum na legenda por causa disso.** O número segue
+no áudio do vídeo. Ele precisa dizer se veio de outra fonte ou se foi engano.
+
+**2. O reel do "fundo do poço" (14/set).** Ele conta ter dormido em abrigos e
+carregado o filho pela mão. É, palavra por palavra, a história do Chris
+Gardner (À Procura da Felicidade). **Não aprovei.** Se for a história dele de
+verdade, aprova na hora. Se for narração do filme, publicar na voz dele cria
+problema.
 
 ### Carrossel "Quem é Gilberto Sena": card 5 refeito — 13/out/2026
 
