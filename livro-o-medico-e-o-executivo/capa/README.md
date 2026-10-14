@@ -139,3 +139,53 @@ Capa **sem foto nenhuma**, só tipografia, com a linha dourada dividindo o
 título. Muitos dos melhores livros de negócio fazem isso, e tem uma vantagem
 concreta: funciona em miniatura de loja virtual, onde dois rostos pequenos
 viram borrão. Se ele quiser comparar, eu monto.
+
+
+---
+
+# As três opções de 13/out/2026
+
+| Arquivo | A foto do Gilberto | Rostos | Resolução da origem |
+|---|---|---|---|
+| `O Medico e o Executivo - capa.png` | camisa preta, estúdio | 13 pts | 657 × 1280 |
+| `...capa OPCAO 2.png` | rua, blazer marinho, óculos escuros | 22 pts | 719 × 1280 |
+| **`...capa OPCAO 3.png`** | **estúdio, mãos sob o queixo** | **9 pts** | **4480 × 6720** |
+
+Cada uma tem seu `capa-opcaoN.html` e `_render-capaN.js`.
+
+## ★ A opção 3 é a recomendada, e o motivo principal não é estético
+
+**É a única que resolve o problema de resolução.** As outras duas nascem de
+fotos com cerca de 1280 px de altura, que depois do recorte não sustentam
+impressão. **Esta vem de 4480 × 6720: o recorte foi redução, não ampliação.**
+Metade da capa deixou de ser problema de gráfica.
+
+**E as duas metades combinam mais do que nunca:** os dois em estúdio, fundo
+escuro, olhando para a câmera. **9 pontos de diferença entre as peles**, o
+menor dos três.
+
+**A expressão passou a trabalhar a favor.** O Stanley sorri aberto, o
+Gilberto está sério, mãos sob o queixo. Num livro sobre uma empresa que
+quebrou, essa diferença conta a história: um vendeu o sonho, o outro conta o
+preço.
+
+⚠ **Esta é a foto que foi recusada em 09/out/2026**, quando o Stanley estava
+de terno preto sorrindo e as duas metades não casavam. **Com ele de branco, a
+conta mudou.** Vale a lição: foto recusada não é foto ruim, é foto que não
+servia naquele par.
+
+## Por que a opção 2 não entra
+
+A Lamborghini foi removida no recorte, a pedido dele, e não sobrou rastro.
+**O problema que ficou são os óculos escuros.** O Stanley olha para o leitor
+e o Gilberto não. Num livro chamado *"o que ninguém examinou"*, esconder o
+olhar na capa trabalha contra o texto. O número confirma: 22 pontos entre as
+peles, o pior dos três.
+
+**Aquela foto é boa, e o lugar dela é o Instagram.**
+
+## O que ainda falta para a gráfica
+
+Com a opção 3, **só a metade do Stanley continua curta**: 768 × 903, que
+depois do recorte vira 534 × 712. Pedir a ele o arquivo do fotógrafo. O
+retrato é de estúdio, então o original existe.
