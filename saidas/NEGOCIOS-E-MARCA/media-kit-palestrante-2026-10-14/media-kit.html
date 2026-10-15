@@ -156,11 +156,11 @@ em{font-style:italic}
   background-repeat:no-repeat;border-top:3px solid var(--acento)}
 .credito{font-family:'Barlow Condensed',sans-serif;font-size:9pt;letter-spacing:.1em;
   text-transform:uppercase;color:var(--tinta-fraca);margin-top:2.5mm}
-.palco-duo{display:grid;grid-template-columns:38mm 1fr;gap:8mm;align-items:start}
-.palco-mini{background-size:100% 100%;background-repeat:no-repeat;
+.evento{display:grid;grid-template-columns:40mm 1fr;gap:7mm;align-items:start;
+  margin-bottom:4mm}
+.evento .foto{background-size:100% 100%;background-repeat:no-repeat;
   border-top:3px solid var(--acento)}
-.palco-duo .corpo{font-size:10pt;line-height:1.55}
-.palco-duo .corpo + .corpo{margin-top:3.5mm}
+.evento .corpo{font-size:10pt;line-height:1.5;max-width:none;margin:0}
 
 
 /* a pagina do lastro cresceu com os eventos novos e estourou o rodape */
@@ -183,7 +183,7 @@ em{font-style:italic}
 .pagina.azul .tema .dor, .pagina.azul .tema .publico{color:rgba(242,239,233,.70)}
 .pagina.azul .titulo-serif, .pagina.azul .titulo{color:var(--papel)}
 
-.capa-revista{position:absolute;right:5mm;top:34mm;width:54mm;height:79.5mm;
+.capa-revista{position:absolute;right:5mm;top:34mm;width:54mm;height:75mm;
   background-size:100% 100%;background-repeat:no-repeat;
   border-top:3px solid var(--acento)}
 .credito-revista{position:absolute;right:5mm;top:116mm;width:54mm;
@@ -218,7 +218,7 @@ em{font-style:italic}
 <section class="pagina com-coluna">
   <div class="coluna-foto" style="background-image:url('assets/retrato-sorriso-recorte.png');height:111.3mm"></div>
   <div class="capa-revista" style="background-image:url('assets/revista-empreenda-75.jpg')"></div>
-  <p class="credito-revista">Revista Empreenda, edição 75</p>
+  <p class="credito-revista">Matéria de capa · Revista Empreenda, edição 75</p>
   <div class="etiqueta">Quem fala com a sua plateia</div>
   <div class="regua curta"></div>
   <h1 class="titulo-serif">Um gestor que esteve dos dois lados da mesa.</h1>
@@ -299,38 +299,33 @@ em{font-style:italic}
   <h1 class="titulo-serif">Onde ele já falou.</h1>
   <div style="height:3mm"></div>
 
-  <div class="palco-foto" style="background-image:url('assets/palco-summit-exito.jpg')"></div>
-  <p class="credito">Summit Êxito de Empreendedorismo · 2022</p>
-
-  <div style="height:4mm"></div>
-  <div class="palco-duo">
-    <div>
-      <div class="palco-mini" style="background-image:url('assets/mentoring-day-portugal-2022.jpg');height:23.7mm"></div>
-      <div class="palco-mini" style="background-image:url('assets/palco-gdf.jpg');height:23.8mm;margin-top:4mm"></div>
-      <div class="palco-mini" style="background-image:url('assets/dubai-experience-2023.jpg');height:34mm;margin-top:4mm"></div>
-      <div class="palco-mini" style="background-image:url('assets/palco-alphaville.jpg');height:21.4mm;margin-top:4mm"></div>
-      <div class="palco-mini" style="background-image:url('assets/imersao-reengenharia.jpg');height:16.5mm;margin-top:4mm"></div>
-    </div>
-    <div>
-      <p class="corpo" style="max-width:none"><b>Summit Êxito de Empreendedorismo, 2022.</b>
-      Palestrante no evento do Instituto Êxito, maior instituto de
-      empreendedorismo do Brasil, presidido por Janguiê Diniz.</p>
-      <p class="corpo" style="max-width:none"><b>Mentoring Day Experience, Portugal, 2022.</b>
-      Convidado pelo DTL Group para a edição portuguesa do encontro.</p>
-      <p class="corpo" style="max-width:none"><b>GoDigital Festival, janeiro de 2023.</b>
-      Palestrante na edição do Centro de Convenções de Pernambuco.</p>
-      <p class="corpo" style="max-width:none"><b>PBXP, Paraíba Business Experience, maio de 2023.</b>
-      Palestrante nos três dias do evento, no Centro de Convenções do Garden
-      Resort, em Campina Grande, ao lado de Roberto Shinyashiki e Janguiê Diniz.</p>
-      <p class="corpo" style="max-width:none"><b>Dubai Experience, novembro de 2023.</b>
-      Palestrante confirmado na edição de Dubai, com o tema <em>Os 5 G's do
-      Empreendedorismo</em>, metodologia autoral dele.</p>
-      <p class="corpo" style="max-width:none"><b>Empreenda Summit Alphaville, 2024.</b>
-      Palestrante no evento em Alphaville, São Paulo. A cobertura de imprensa do
-      encontro o identificou como palestrante.</p>
-      <p class="corpo" style="max-width:none"><b>Imersão Reengenharia Empresarial, 2026.</b>
-      Formato próprio, em grupo fechado, com diagnóstico de cada negócio na sala.</p>
-    </div>
+  <div class="evento">
+    <div class="foto" style="background-image:url('assets/palco-summit-exito.jpg');height:22.4mm"></div>
+    <p class="corpo"><b>Summit Êxito de Empreendedorismo, 2022.</b> Palestrante no evento do Instituto Êxito, maior instituto de empreendedorismo do Brasil, presidido por Janguiê Diniz.</p>
+  </div>
+  <div class="evento">
+    <div class="foto" style="background-image:url('assets/mentoring-day-portugal-2022.jpg');height:25.0mm"></div>
+    <p class="corpo"><b>Mentoring Day Experience, Portugal, 2022.</b> Convidado pelo DTL Group para a edição portuguesa do encontro.</p>
+  </div>
+  <div class="evento">
+    <div class="foto" style="background-image:url('assets/palco-gdf.jpg');height:25.0mm"></div>
+    <p class="corpo"><b>GoDigital Festival, janeiro de 2023.</b> Palestrante na edição do Centro de Convenções de Pernambuco.</p>
+  </div>
+  <div class="evento">
+    <div class="foto" style="background-image:url('assets/pbxp-2023.jpg');height:36.9mm"></div>
+    <p class="corpo"><b>PBXP, Paraíba Business Experience, maio de 2023.</b> Palestrante nos três dias do evento, no Centro de Convenções do Garden Resort, em Campina Grande, ao lado de Roberto Shinyashiki e Janguiê Diniz.</p>
+  </div>
+  <div class="evento">
+    <div class="foto" style="background-image:url('assets/dubai-experience-2023.jpg');height:35.8mm"></div>
+    <p class="corpo"><b>Dubai Experience, novembro de 2023.</b> Palestrante confirmado na edição de Dubai, com o tema <em>Os 5 G's do Empreendedorismo</em>, metodologia autoral dele.</p>
+  </div>
+  <div class="evento">
+    <div class="foto" style="background-image:url('assets/palco-alphaville.jpg');height:22.5mm"></div>
+    <p class="corpo"><b>Empreenda Summit Alphaville, 2024.</b> Palestrante no evento em Alphaville, São Paulo. A cobertura de imprensa do encontro o identificou como palestrante.</p>
+  </div>
+  <div class="evento">
+    <div class="foto" style="background-image:url('assets/imersao-reengenharia.jpg');height:17.4mm"></div>
+    <p class="corpo"><b>Imersão Reengenharia Empresarial, 2026.</b> Formato próprio, em grupo fechado, com diagnóstico de cada negócio na sala.</p>
   </div>
 
   <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>04</span></div>
