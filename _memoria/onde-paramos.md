@@ -819,7 +819,13 @@ o nome do evento e a plateia.
 
 ### Os eventos confirmados, e o que falta
 
-Cinco entraram como palestra: **Empreenda Summit Alphaville 2024** (vídeo do
+**Sete eventos entraram como palestra.** O mais raro é o **Dubai Experience,
+1 a 5 de novembro de 2023**: o cartaz oficial traz *"PALESTRANTE CONFIRMADO:
+GILBERTO SENA"* e o tema foi *Os 5 G's do Empreendedorismo*, metodologia dele.
+É a única credencial internacional fora Portugal. Cartaz em
+`entrada-videos/palco-e-eventos/cartaz-dubai-experience-2023.jpeg`.
+
+Os outros: **Empreenda Summit Alphaville 2024** (vídeo do
 CONECTV com o GC escrevendo "PALESTRANTE"), **PBXP Paraíba Business
 Experience, mai/2023** (cartaz com ele ao lado de Roberto Shinyashiki e
 Janguiê Diniz), **GoDigital Festival jan/2023** (palavra dele), **Summit Êxito

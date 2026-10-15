@@ -403,3 +403,37 @@ três vira sistema. O preto ficou só na capa, que é um evento único.
   quem quer variação discreta.
 
 Os dois estão medidos e aprovados. Trocar é questão de minutos.
+
+---
+
+# Dubai entrou, 15/out à tarde
+
+Ele mandou o cartaz do **Dubai Experience**, 1 a 5 de novembro de 2023. O
+cartaz traz, com todas as letras, **"PALESTRANTE CONFIRMADO: GILBERTO SENA"**,
+e o story dele acrescenta o tema: ***Os 5 G's do Empreendedorismo***, que é a
+metodologia autoral dele.
+
+**É a credencial mais rara do kit**, porque é a única internacional fora o
+Mentoring Day de Portugal, e a única com o nome dele impresso como palestrante
+confirmado num evento fora do Brasil.
+
+## Como entrou
+
+| Onde | O quê |
+|---|---|
+| Página do palco, miniaturas | a faixa do cartaz com o nome dele e "DUBAI EXPERIENCE 2023", **em primeiro** |
+| Página do palco, lista | primeiro evento, com o tema da palestra |
+| Página 7, reconhecimento | primeira linha dos eventos |
+
+**Recortei só a faixa que prova.** O cartaz inteiro é vertical e não cabe na
+coluna de miniaturas sem virar uma tira fina. A faixa de 2,12 para 1 contém o
+que interessa: o nome dele, o selo de palestrante confirmado, o "DUBAI
+EXPERIENCE 2023" e a silhueta do Burj Khalifa.
+
+Conferi ampliado no PDF: **lê-se "PALESTRANTE CONFIRMADO · GILBERTO SENA"** no
+tamanho de impressão.
+
+O cartaz original está em
+`entrada-videos/palco-e-eventos/cartaz-dubai-experience-2023.jpeg`.
+
+**São sete eventos agora**, e o kit passou a mostrar alcance internacional.
