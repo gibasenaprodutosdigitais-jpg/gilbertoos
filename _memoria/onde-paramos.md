@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 13/out/2026, 23h.**
+> Estado das frentes abertas. **Atualizado em 15/out/2026, 01h.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -11,8 +11,14 @@
 
 ## O primeiro ato da próxima sessão
 
-**Conferir se a fila publicou** — `posts_list` com status `published`, e
+**Conferir se a fila publicou:** `posts_list` com status `published`, e
 `posts_list_failed` se faltar algum. **Avisar ele sem precisar perguntar.**
+
+**E saber onde as coisas estão agora.** Em 14/out a pasta `saidas/` foi
+reorganizada: 103 itens saíram da raiz para pastas por tipo. O guia é
+`saidas/_CONTROLE/_ONDE-ESTA-CADA-COISA.md`. Os documentos de acompanhamento
+(programação, inventários, triagens, rotina dos cards) ficam em
+`saidas/_CONTROLE/`.
 
 ⚠ **Conferir a hora antes de afirmar que algo saiu.** Em 13/out eu disse duas
 vezes que um post já tinha publicado quando ainda faltavam horas. Ele me
@@ -35,6 +41,10 @@ de base de 13/out. **É a única coisa com data marcada.**
 | Capa dos Reels — preta "por enquanto" | seção 3 |
 | **O reel do "fundo do poço" é história dele ou do filme?** | seção 3 |
 | As 4 decisões do livro | seção 2 |
+| **Os 3 pecados segurados por erro técnico** (diarista, imóvel, teste do IBS) | seção 3 |
+| **Os depoimentos do Roberto, Tiago e Janguiê** — não existem no PC | seção 8 |
+| **A lista de cidades do site** ainda mostra Parauapebas e Vitória | seção 8 |
+| Pedir ao Instituto Êxito que a página `/membro/` reflita o cargo de diretoria | seção 8 |
 
 **Nada disso deve ser aplicado sem ele dizer.**
 
@@ -232,6 +242,93 @@ Se falhar, `posts_list_failed` e `posts_retry`.
 
 O manual completo da Zernio (IDs, fluxo, limites, armadilhas) está na memória
 do Claude, não no repositório, porque envolve credencial e conta.
+
+### ★ As 4 gravações longas: triadas em 14/out/2026
+
+**58 minutos de fala**, em `entrada-videos/longos/`, com origem verificada
+(eu abri os quadros: é ele em close, com o áudio batendo com a boca).
+Transcrição em `entrada-videos/longos/edit/takes_packed.md`. Relatório
+completo em `saidas/_CONTROLE/_triagem-gravacoes-longas-2026-10-14.md`.
+
+**Rendeu cerca de 40 cortes.** Para comparar: a varredura dos 213 arquivos da
+Downloads rendeu zero.
+
+**O achado estrutural: a série dos 7 pecados.** Em `IMG_3480`, gravado no
+escritório, ele enumera sete mudanças da reforma, uma por uma, sem citar
+data. Isso é série pronta, e vale até 2027.
+
+**11 peças cortadas** em `saidas/REELS/reels-gravacoes-longas-2026-10-14/`.
+Textos dos três canais em `textos.json`. **Sete liberadas**, quatro seguradas.
+
+### 🔴 Os quatro que eu segurei, e o motivo
+
+Conferi cada afirmação contra `conhecimento/reforma-tributaria.md` e os
+fichamentos por setor. **Três não batem.** O detalhe está em
+`saidas/REELS/reels-gravacoes-longas-2026-10-14/CONFERIR ANTES DE POSTAR/LEIA.md`.
+
+| Peça | O erro |
+|---|---|
+| **pecado 4, a diarista** | o nanoempreendedor tem teto de **R$ 40.500/ano**. A faxineira de duas diárias por semana faz R$ 15.600 e fica de fora da obrigação de nota |
+| **pecado 5, o imóvel** | só vira contribuinte quem tem **mais de 3 imóveis alugados** ou passa de **R$ 240 mil/ano** de aluguel |
+| **pecado 7, o teste do IBS** | o IBS foi testado em **2026**, junto com a CBS, não em 2027 |
+| **a âncora** | sem erro. Ela promete sete e só quatro iriam ao ar |
+
+**Os três se salvam com regravação curta.** O 4 troca o exemplo por psicólogo
+ou nutricionista, que entram mesmo. O 5 ganha o número. O 7 perde uma frase.
+
+⚠ **O próprio carrossel dele de agosto já traz os R$ 40.500**, no slide 6 do
+`carrossel-7-mudancas-2027`. Ele acertou em agosto e errou no vídeo novo.
+
+### Legenda queimada: como fazer, porque este ffmpeg não ajuda
+
+Ele pediu legenda nos vídeos em 14/out. **Este ffmpeg não tem libass, nem
+`subtitles`, nem `drawtext`.** O caminho que funciona: desenhar a legenda com
+PIL, montar uma faixa com alfa em `qtrle`, e compor com `overlay`.
+
+O cortador está em `/tmp/.../scratchpad/bin/cortar2.py` e o motor de legenda
+em `legenda.py` — **são de sessão, então se precisar de novo, reescrever.**
+O que importa guardar são as três lições:
+
+1. **O Whisper não conhece o vocabulário tributário.** Escreveu `SPIRIT PAIN
+   MAN` no lugar de **split payment**, `IES` por **IS**, `CBS E BS` por
+   **CBS e IBS**, `SIMPLES HÍBIDO`. Legenda errada na tela derruba autoridade
+   mais rápido que legenda nenhuma. **Precisa de dicionário de correção.**
+2. **A transcrição não prova que o bip funcionou.** O Whisper ouviu o tom de
+   1 kHz e preencheu a palavra pelo contexto, imprimindo `f***` como se
+   tivesse escutado. **Conferir no espectro:** a voz tem que cair uns 20 dB
+   na janela e o tom aparecer em 1 kHz.
+3. **Palavrão: ele decidiu bip.** *"da um bip nos palavroes"*, 14/out. Tom de
+   1 kHz sobre a palavra e `F***` escrito na legenda. **"Na raça, na porrada"
+   e "se lasque" não são palavrão e ficaram.**
+
+### ✅ Os carrosséis de `Postados/` voltaram para a fila — 14/out
+
+Ele mandou: *"INCLUA OS DA PASTA POSTADOS FACA AS CORRECOES PARA ENTRAREM NA
+FILA"*. Os 7 foram corrigidos e estão em `saidas/CARROSSEIS/`:
+
+- pele de 14/out portada, preservando a foto de capa de cada um (cada
+  carrossel chama a classe da capa de um jeito: `photo-bg`, `alert-bg`, `car-bg`)
+- "INSCRIÇÃO NO LINK DA BIO" virou "ME CHAMA NO DIRECT", no slide e na legenda
+- o slide da janela de 1 a 30/set virou o que ainda vale: cancelamento até
+  30/nov e nova janela em março/2027
+- saiu o convite para o evento de 17 de setembro
+
+**Os 2 vencidos também foram reescritos**, a pedido dele: `simples-hibrido` e
+`simples-nacional-prazo` passaram do gancho "decida" para **"perdeu a janela
+de setembro"**.
+
+### 🔴 Um bug meu da pele, que pegava 25 carrosséis
+
+Os slides `.light` ficaram com fundo escuro pela pele nova, mas a regra
+antiga mantinha o rodapé em cinza-escuro. **Texto escrito no HTML e invisível
+na imagem.** Não dava para ver olhando rápido: **só apareceu medindo o
+contraste pixel a pixel.** Corrigido nos 38 e os 25 afetados re-renderizados.
+
+### ✅ O domínio foi trocado — 14/out
+
+`gilbertosena.com.br` **não existe**, o DNS não resolve, e estava impresso no
+rodapé de **41 arquivos, 25 deles carrosséis já renderizados**. Ele decidiu:
+*"troca para gruposena.com.br"*. Feito e conferido no pixel do slide.
 
 ### ★ Acervo de reels antigos: triado em 14/out/2026
 
@@ -453,6 +550,26 @@ se estivesse decidida, nem a antiga.**
 - **Disse que a foto do Stanley "não existia"** quando ela estava no
   Downloads com outro nome: meu `ls` com `awk` cortava nomes com espaço.
   **Usar `ls -t` com nome inteiro, ou o `mdfind`.**
+- **Apresentei "Os 4 H da liderança" como a voz dele, e não era.** O
+  transcrito tinha os maneirismos dele e eu tratei estilo como prova.
+  **Transcrição diz o que foi dito, quadro congelado mostra quem aparece, e
+  nenhum dos dois diz quem é a voz.** Regra inteira em
+  `origem_do_video_antes_de_publicar` na memória do Claude.
+- **Conferi 280 slides pela miniatura e aprovei peça quebrada, duas vezes.**
+  Em 14/out o mesmo erro voltou de outro jeito: o rodapé dos slides claros
+  estava escrito no HTML e invisível na imagem, e **só apareceu medindo o
+  contraste pixel a pixel**. Miniatura não é conferência.
+- **Conferi os PNGs do render e nunca o PDF.** As fotos sumiram no leitor
+  dele por causa de `mask-image`, que PDF não tem. **Rasterizar o PDF e
+  olhar**, porque é o arquivo que ele abre.
+- **Insisti em ajustar o enquadramento quando o problema era de geometria.**
+  O rosto não cabia na coluna em posição nenhuma. **Quando nenhum ajuste
+  resolve, medir antes de tentar o próximo.**
+- **Disse "guardei e sincronizei" quando o push tinha sido recusado.** O
+  `| tail` escondeu o código de saída. O `.gitignore` excluía o brandbook de
+  235 MB **pelo caminho**, e eu tinha movido a pasta. **Conferir se o remoto
+  bateu com o local antes de dizer que guardou**, e ignorar por padrão e não
+  por caminho.
 
 ---
 
@@ -478,6 +595,34 @@ coisa.
 ---
 
 ## 6. ✅ Repositório limpo — resolvido em 13/out/2026
+
+### ★ A pasta `saidas/` foi reorganizada em 14/out/2026
+
+Ele pediu: *"crie pastas para melhorar minha busca"*. **103 itens saíram da
+raiz** para pastas por tipo. O guia está em
+`saidas/_CONTROLE/_ONDE-ESTA-CADA-COISA.md`.
+
+| Pasta | Quantos |
+|---|---|
+| `CARROSSEIS/` (+ `JA-FORAM-AO-AR/`) | 43 na fila + 2 |
+| `REELS/` (+ `JA-FORAM-AO-AR/`) | 23 + 4 |
+| `CARDS/` | 2 séries |
+| `VIDEOS/` · `LIVROS-E-EBOOKS/` · `EVENTOS-E-PALESTRAS/` | 7 · 8 · 7 |
+| `MATERIAL-TECNICO/` · `NEGOCIOS-E-MARCA/` · `POSTS-AVULSOS/` | 8 · 3 · 2 |
+| **`_CONTROLE/`** | os documentos que ele lê para acompanhar |
+
+⚠ **A pasta `Postados/` deixou de existir.** Os 7 carrosséis voltaram para
+`CARROSSEIS/` porque ele mandou enfileirá-los; os 4 reels foram para
+`REELS/JA-FORAM-AO-AR/`.
+
+⚠ **O risco era quebrar os 291 caminhos relativos que apontam para a logo.**
+Recalculei cada um pela profundidade da pasta e conferi se o arquivo existe
+no destino: zero referência quebrada. **Se mover pasta de novo, refazer essa
+conferência**, porque `../../identidade/` muda com o nível.
+
+⚠ **`.gitignore` por caminho não sobrevive a mudança de pasta.** O brandbook
+de 235 MB voltou a entrar e o GitHub recusou o push. Agora é `**/BRANDBOOK*.pdf`.
+**Ignorar por padrão, nunca por caminho.**
 
 O histórico foi reescrito e **enviado ao GitHub**. Notebook e GitHub estão
 idênticos em `e637f45`. **A sincronia voltou ao normal** — `/salvar` funciona
@@ -573,3 +718,133 @@ só a pedido dele.
 O **OCEO** é projeto à parte, em `Projetos Gsena Tec/oceo/`, com CLAUDE.md
 próprio e código rodando. **Ler o CLAUDE.md de lá** antes de mexer, e não
 tratar como parte do GilbertoOS.
+
+---
+
+## 8. Media kit de palestrante, entregue em 15/out/2026
+
+**`saidas/NEGOCIOS-E-MARCA/media-kit-palestrante-2026-10-14/`**
+O arquivo para mandar é **`Gilberto-Sena-Media-Kit.pdf`**, 8 páginas A4,
+2,5 MB. O `LEIA.md` da pasta conta cada decisão.
+
+| Página | |
+|---|---|
+| 1 | Capa, preta, com o retrato de estúdio |
+| 2 | Quem é, com GSena Hub e OCEO, mais os 4 números |
+| 3 | Não é palestra motivacional (azul) |
+| 4 | **No palco**: Summit Êxito grande, mais 4 miniaturas e 6 eventos |
+| 5 e 6 | Os 4 temas (6 é azul) |
+| 7 | Formação, obra e reconhecimento |
+| 8 | Contato (azul) |
+
+### A direção de arte, e as regras que ela segue
+
+**Editorial de revista**, Spectral + Barlow Condensed. Dois motivos: quem lê
+compara três ou quatro perfis num computador, e página de revista lê melhor
+que slide; e ele é CEO de uma revista de negócios.
+
+**Sem dourado, de propósito:** ele apareceu nas quatro peças anteriores dele.
+
+**Um acento só, em três claridades.** Papel `#F2EFE9` com `#8C2F27` (7,17:1);
+azul `#13283F` com `#D9988B` (6,28:1). Matiz 5° e 10°, ou seja a mesma cor.
+O vermelho puro sobre o azul dava 3,37:1 e não servia.
+
+**Três páginas azuis, não duas.** Com duas o azul parece acidente; com três
+vira sistema. Registrado no `historico.md` da skill `direcao-de-arte`.
+
+Alternativas medidas e aprovadas, caso ele queira trocar: verde-pinho
+`#15241F` (14:1) e grafite-azulado `#1A1B2E` (14,8:1).
+
+### Os retratos são recortados, sem fundo
+
+Feito com a **Vision da Apple**, o mesmo motor do Preview do macOS: local,
+sem subir foto para serviço nenhum. A ferramenta ficou em
+`scripts/recorta-fundo.swift`, com instruções em `scripts/LEIA-recorte.md`.
+
+⛔ **As fotos de palco NÃO se recorta.** Ali o fundo é a prova: é o telão com
+o nome do evento e a plateia.
+
+### 🔴 Três armadilhas que me custaram retrabalho aqui
+
+1. **Eu conferia os PNGs do render, nunca o PDF.** São caminhos diferentes no
+   Chromium. Usei `mask-image` em degradê para suavizar a borda das fotos, e
+   **no leitor dele as fotos sumiram**, porque PDF não tem máscara nativa.
+   **Rasterizar o PDF com PDFKit e olhar**, sempre.
+2. **Corte de rosto é geometria, não enquadramento.** A coluna tinha 76mm de
+   largura e a foto, esticada pela altura, ficava com 198mm. O rosto media uns
+   79mm e **não cabia em posição nenhuma**. A saída foi dar a cada bloco a
+   **altura exata da proporção do arquivo**. Mesma coisa na página do palco.
+3. **Faixa larga não cabe um rosto.** Tentei uma faixa 2,7:1 e ela comia o
+   topo da cabeça e o queixo. Virou coluna lateral.
+
+### Os eventos confirmados, e o que falta
+
+Cinco entraram como palestra: **Empreenda Summit Alphaville 2024** (vídeo do
+CONECTV com o GC escrevendo "PALESTRANTE"), **PBXP Paraíba Business
+Experience, mai/2023** (cartaz com ele ao lado de Roberto Shinyashiki e
+Janguiê Diniz), **GoDigital Festival jan/2023** (palavra dele), **Summit Êxito
+2022** (foto de palco com plateia) e **Mentoring Day Experience, Portugal**.
+
+**Cargo verificado:** ele é **Diretor de Compliance do Instituto Êxito de
+Empreendedorismo**, gestão 2025/2030. Confirmei lendo as 52 fotos da página
+oficial da diretoria, onde ele aparece entre Janguiê Diniz (Presidente) e
+Celso Niskier (Vice-Presidente). O repositório dizia "conselheiro" e **estava
+errado**. Print em `entrada-videos/palco-e-eventos/`.
+
+### ❗ Os depoimentos não existem no computador
+
+Ele pediu os do **Roberto, Tucco, Tiago e Janguiê**. Varri os 20 vídeos que
+ele baixou e o PC inteiro. **Achei um**, e os outros três não são depoimento:
+
+- **Tucco**, 15s, apresenta ele como *"um grande expert, o Giba, do Grupo
+  Sena"*. **Corta no meio da frase.** Se existir a entrevista inteira, vira o
+  melhor do acervo.
+- **Shinyashiki**: story de mesa de restaurante. Cita o nome dele numa lista
+  de quem estava presente, e o assunto é o pedido de casamento do Stanley
+  Bittar. ⛔ **Usar como endosso contraria o aviso do `quem-e-gilberto.md`
+  sobre não vender proximidade que não existe.**
+- **Tiago Brunet**: é conteúdo do próprio Tiago, não cita o Gilberto.
+- **Janguiê**: 11s de bastidor, a transcrição inteira é *"a gente é um beijo
+  aqui, ó"*.
+
+**O caminho que funciona é o Drive**, que entrega por link. ⛔ **O Instagram
+não:** tentei acesso direto, yt-dlp, a sessão do Chrome dele (travou pedindo
+a senha do chaveiro) e o endpoint de incorporação. Devolve casca vazia.
+
+### O que mais falta no kit
+
+| Item | Situação |
+|---|---|
+| Media kit | ✅ pronto |
+| Sinopse dos temas | ✅ páginas 5 e 6 |
+| **Showreel** | ⏳ já tem **mais de 5 minutos de palco** de dois eventos, em `entrada-videos/palco-e-eventos/`. Falta ele pedir |
+| **Proposta comercial** | ⏳ precisa de CNPJ, CNAE e a tabela de cachê dele |
+| **Depoimentos** | ❌ ver acima |
+
+---
+
+## Ferramentas que esta casa tem, e as que não tem
+
+**Tem:**
+
+| O quê | Como |
+|---|---|
+| Recortar fundo de foto | `swift scripts/recorta-fundo.swift entrada.jpg saida.png`, pela Vision da Apple. Local, sem conta |
+| Ler texto de PDF | script Swift com PDFKit. O `pdftotext` **não está instalado** |
+| Rasterizar PDF para conferir | script Swift com PDFKit. O `pdftoppm` **não está instalado** |
+| Transcrever vídeo | `~/.claude/skills/video-use/helpers/transcribe_batch.py <pasta>` |
+| Renderizar carrossel | `NODE_PATH=.../scripts/node_modules node render.js` dentro da pasta |
+| Medir contraste de paleta | `python3 ~/.claude/skills/direcao-de-arte/motor/paleta.py FUNDO TINTA ACENTO` |
+| Achar tique de escrita de IA | `python3 ~/.claude/skills/direcao-de-arte/motor/texto.py arquivo.md` |
+
+**Não tem, e isso muda o caminho:**
+
+- **ffmpeg sem libass, sem `subtitles`, sem `drawtext`.** Legenda queimada só
+  com PIL + `overlay`.
+- **Instagram não entrega nada sem login.** Tentei quatro caminhos. **Pedir
+  pelo Drive**, que entrega por link.
+- **PIL existe, mas não em `python3 -I`.** O modo isolado pula o site-packages
+  do usuário.
+- **O git precisa de `http.postBuffer=524288000`, `http.lowSpeedLimit=0` e
+  `http.lowSpeedTime=999999`** para empurrar lote grande na internet dele, que
+  sobe a ~1 Mbps.
