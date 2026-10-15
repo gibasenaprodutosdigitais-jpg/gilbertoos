@@ -348,3 +348,58 @@ como três decisões soltas.
 **O ritmo do documento ficou assim:** capa com foto, duas páginas com retrato,
 a página do palco com três fotos de evento, três páginas só de texto, e o
 fecho com retrato. Foto demais vira álbum; foto de menos vira relatório.
+
+---
+
+# A cor, em 15/out
+
+Ele pediu mais opções de cor, sugerindo azul. Entrou azul, e com um motivo
+que não é gosto meu.
+
+## Por que azul
+
+**Os palcos dele são azuis.** O fundo do Summit Êxito é azul-noite com uma
+malha de pontos, e o do GDF é azul também. A página azul conversa com as
+fotos em vez de brigar com elas.
+
+## O tom escolhido, e por que não o primeiro
+
+Testei três profundidades e olhei as três montadas:
+
+| | Contraste | Veredito |
+|---|---|---|
+| `#0E1C2B` | 15,0:1 | escuro demais, lia como preto |
+| **`#13283F`** | **13,0:1** | **inequivocamente azul, ainda sério** |
+| `#17344F` | 11,2:1 | azul claro demais, perde a gravidade |
+
+## O acento continua sendo um só
+
+A regra de direção de arte é clara: **um acento por peça**. Começar vermelho
+e virar outra coisa no meio quebra o documento.
+
+Então o vermelho não mudou de família, mudou de tom conforme o fundo:
+
+| Fundo | Acento | Contraste |
+|---|---|---|
+| Papel `#F2EFE9` | `#8C2F27` | 7,17:1 |
+| Azul `#13283F` | `#D9988B` | 6,28:1 |
+
+Os dois têm matiz 5° e 10°, ou seja, são **a mesma cor em claridades
+diferentes**, não duas cores. O vermelho puro sobre o azul dava só 3,37:1,
+que não serve para o texto pequeno das etiquetas.
+
+## O ritmo das páginas
+
+Capa preta · creme · **azul** · creme · creme · **azul** · creme · **azul**
+
+Três páginas azuis, não duas, porque com duas o azul pareceria acidente. Com
+três vira sistema. O preto ficou só na capa, que é um evento único.
+
+## O que eu ofereci e ele não escolheu
+
+- **Verde-pinho `#15241F`**, 14:1. Menos esperado que azul, puxa estabilidade
+  e dinheiro sem o clichê corporativo.
+- **Grafite-azulado `#1A1B2E`**, 14,8:1. Mais próximo do que já estava, para
+  quem quer variação discreta.
+
+Os dois estão medidos e aprovados. Trocar é questão de minutos.

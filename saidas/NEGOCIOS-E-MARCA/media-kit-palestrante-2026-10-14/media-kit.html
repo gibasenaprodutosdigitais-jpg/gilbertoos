@@ -22,6 +22,8 @@
   --acento:#8C2F27;
   --acento-claro:#A35952;   /* o acento some em fundo escuro; esta e a versao de la */
   --escuro:#171614;
+  --azul:#13283F;          /* azul-noite: ecoa o fundo dos palcos dele */
+  --acento-azul:#D9988B;   /* mesmo matiz do acento, clareado pra ler no azul */
   --regua:rgba(23,22,20,.16);
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -35,9 +37,13 @@ body{background:#8a8a8a;font-family:'Spectral',Georgia,serif;color:var(--tinta)}
   display:flex;flex-direction:column;
 }
 .pagina.escura{background:var(--escuro);color:var(--papel)}
+.pagina.azul{background:var(--azul);color:var(--papel)}
 .pagina.escura .etiqueta{color:var(--acento-claro)}
+.pagina.azul .etiqueta{color:var(--acento-azul)}
 .pagina.escura .regua{background:rgba(242,239,233,.22)}
+.pagina.azul .regua{background:rgba(242,239,233,.22)}
 .pagina.escura .fino{color:rgba(242,239,233,.68)}
+.pagina.azul .fino{color:rgba(242,239,233,.68)}
 
 /* --- tipografia --- */
 .etiqueta{
@@ -69,6 +75,7 @@ em{font-style:italic}
   padding-top:3mm;border-top:1px solid var(--regua);
 }
 .pagina.escura .rodape{color:rgba(242,239,233,.6);border-top-color:rgba(242,239,233,.2)}
+.pagina.azul .rodape{color:rgba(242,239,233,.6);border-top-color:rgba(242,239,233,.2)}
 
 /* ============ CAPA ============ */
 .capa{padding:0;display:block}
@@ -97,8 +104,10 @@ em{font-style:italic}
 .numeros{display:grid;grid-template-columns:repeat(2,1fr);gap:9mm 12mm;margin:7mm 0}
 .num .n{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34pt;line-height:1;color:var(--acento)}
 .pagina.escura .num .n{color:var(--acento-claro)}
+.pagina.azul .num .n{color:var(--acento-azul)}
 .num .t{font-size:9.5pt;line-height:1.42;color:var(--tinta-fraca);margin-top:1.5mm;max-width:70mm}
 .pagina.escura .num .t{color:rgba(242,239,233,.72)}
+.pagina.azul .num .t{color:rgba(242,239,233,.72)}
 
 /* ============ TEMAS ============ */
 .tema{margin-bottom:13mm;padding-bottom:13mm;border-bottom:1px solid var(--regua)}
@@ -116,6 +125,7 @@ em{font-style:italic}
 .cred li{padding-left:7mm;position:relative;margin-bottom:5mm}
 .cred li::before{content:"";position:absolute;left:0;top:1.9mm;width:3.6mm;height:1.6px;background:var(--acento)}
 .pagina.escura .cred li::before{background:var(--acento-claro)}
+.pagina.azul .cred li::before{background:var(--acento-azul)}
 
 /* ============ CITACAO ============ */
 .citacao{
@@ -124,14 +134,17 @@ em{font-style:italic}
   border-left:3px solid var(--acento);padding-left:7mm;margin:7mm 0;
 }
 .pagina.escura .citacao{border-left-color:var(--acento-claro)}
+.pagina.azul .citacao{border-left-color:var(--acento-azul)}
 
 /* ============ FORMATOS ============ */
 .formatos{display:grid;grid-template-columns:repeat(3,1fr);gap:7mm;margin:6mm 0}
 .fmt{border-top:3px solid var(--acento);padding-top:3.5mm}
 .pagina.escura .fmt{border-top-color:var(--acento-claro)}
+.pagina.azul .fmt{border-top-color:var(--acento-azul)}
 .fmt .h{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13pt;text-transform:uppercase;letter-spacing:.04em}
 .fmt .d{font-size:9pt;line-height:1.5;color:var(--tinta-fraca);margin-top:1.5mm}
 .pagina.escura .fmt .d{color:rgba(242,239,233,.72)}
+.pagina.azul .fmt .d{color:rgba(242,239,233,.72)}
 
 /* ============ CONTATO ============ */
 .contato{display:grid;grid-template-columns:1fr 1fr;gap:8mm;margin-top:7mm}
@@ -163,6 +176,14 @@ em{font-style:italic}
   border-top:3px solid var(--acento)}
 .pagina.com-coluna{padding-right:88mm}
 .pagina.com-coluna .rodape{right:88mm}
+
+.pagina.azul .regua.curta{background:var(--acento-azul)}
+.pagina.azul .coluna-foto{border-top-color:var(--acento-azul)}
+.pagina.azul .tema li::before, .pagina.azul .tema .ord{background:var(--acento-azul);color:var(--azul)}
+.pagina.azul .tema .ord{background:none;color:var(--acento-azul)}
+.pagina.azul .tema{border-bottom-color:rgba(242,239,233,.18)}
+.pagina.azul .tema .dor, .pagina.azul .tema .publico{color:rgba(242,239,233,.70)}
+.pagina.azul .titulo-serif, .pagina.azul .titulo{color:var(--papel)}
 
 @media print{
   body{background:none}
@@ -229,7 +250,7 @@ em{font-style:italic}
 </section>
 
 <!-- ============ 3 · A DIFERENÇA ============ -->
-<section class="pagina escura com-coluna">
+<section class="pagina azul com-coluna">
   <div class="coluna-foto" style="background-image:url('assets/retrato-firme.jpg')"></div>
   <div class="etiqueta">Por que ele, e não outro</div>
   <div class="regua curta"></div>
@@ -347,7 +368,7 @@ em{font-style:italic}
 </section>
 
 <!-- ============ 5 · TEMAS (continuação) ============ -->
-<section class="pagina">
+<section class="pagina azul">
   <div class="etiqueta">Os temas · continuação</div>
   <div class="regua curta"></div>
 
@@ -439,7 +460,7 @@ em{font-style:italic}
 </section>
 
 <!-- ============ 6 · CONTATO ============ -->
-<section class="pagina escura com-coluna">
+<section class="pagina azul com-coluna">
   <div class="coluna-foto" style="background-image:url('assets/retrato-corpo.jpg');background-position:center 30%"></div>
   <div class="etiqueta">Para contratar</div>
   <div class="regua curta"></div>
