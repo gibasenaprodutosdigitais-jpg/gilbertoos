@@ -306,3 +306,19 @@ Somando o que apareceu hoje:
 São mais de **5 minutos de palco**, de dois eventos. **Dá pra montar o
 showreel de 1 a 2 minutos** que estava marcado como faltando na lista dele.
 Falta ele dizer que quer.
+
+## A foto da sala, baixada em seguida
+
+`palco-alphaville-2024-plateia.mp4`, 13 segundos, gravado da plateia por
+alguém no evento. O quadro mostra ele no palco, o slide dele na tela, o telão
+escrito **ALPHAVILLE 2024** e **a sala cheia em primeiro plano**.
+
+Era a peça que faltava. Media kit de palestrante precisa responder "ele enche
+sala?", e nenhuma foto de perto responde isso.
+
+⚠ **É de celular, 848x480.** Em tamanho pequeno fica bem; ampliada, não. Por
+isso ela entrou como miniatura e não como a foto grande. Se o evento tiver
+registro profissional, troco.
+
+**A página do palco agora está completa:** ele de perto no Alphaville, a sala
+cheia, o palco do Summit Êxito e cinco eventos listados.
