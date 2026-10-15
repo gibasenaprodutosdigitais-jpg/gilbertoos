@@ -158,18 +158,11 @@ em{font-style:italic}
 
 
 /* retratos do ensaio, pra variar o visual entre paginas */
-.coluna-foto{position:absolute;right:0;top:0;bottom:0;width:76mm;
-  background-size:100% auto;background-repeat:no-repeat;
-  background-position:center 30%;
-  /* a borda dura virava adesivo colado na pagina. A mascara dissolve. */
-  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 16%,#000 80%,transparent 96%);
-  mask-image:linear-gradient(180deg,transparent 0%,#000 16%,#000 80%,transparent 96%)}
-.coluna-foto::after{content:"";position:absolute;inset:0;
-  background:linear-gradient(90deg,#171614 0%,rgba(23,22,20,.30) 26%,rgba(23,22,20,0) 58%)}
-.coluna-foto.clara::after{
-  background:linear-gradient(90deg,#F2EFE9 0%,rgba(242,239,233,.26) 28%,rgba(242,239,233,0) 60%)}
-.pagina.com-coluna{padding-right:86mm}
-.pagina.com-coluna .rodape{right:86mm}
+.coluna-foto{position:absolute;right:0;top:74mm;width:74mm;height:111mm;
+  background-size:100% 100%;background-repeat:no-repeat;
+  border-top:3px solid var(--acento)}
+.pagina.com-coluna{padding-right:88mm}
+.pagina.com-coluna .rodape{right:88mm}
 
 @media print{
   body{background:none}
@@ -197,7 +190,7 @@ em{font-style:italic}
 
 <!-- ============ 2 · QUEM É ============ -->
 <section class="pagina com-coluna">
-  <div class="coluna-foto clara" style="background-image:url('assets/retrato-sorriso.jpg')"></div>
+  <div class="coluna-foto" style="background-image:url('assets/retrato-sorriso.jpg')"></div>
   <div class="etiqueta">Quem fala com a sua plateia</div>
   <div class="regua curta"></div>
   <h1 class="titulo-serif">Um gestor que esteve dos dois lados da mesa.</h1>
