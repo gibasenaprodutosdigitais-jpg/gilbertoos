@@ -863,6 +863,49 @@ ele baixou e o PC inteiro. **Achei um**, e os outros três não são depoimento:
 não:** tentei acesso direto, yt-dlp, a sessão do Chrome dele (travou pedindo
 a senha do chaveiro) e o endpoint de incorporação. Devolve casca vazia.
 
+### ✅ O kit virou 9 páginas em 15/out/2026
+
+Três coisas mudaram nesse dia, todas por pedido dele:
+
+**1. Cada palestra tem a sua foto.** A página 4 era uma foto grande do Summit
+Êxito mais uma coluna de miniaturas, e a coluna não tinha todos os eventos —
+faltavam o Summit e o PBXP. Ele viu na hora: *"falta sumit exito"*, *"pbxp
+ache uma tambem"*. Refiz como **sete linhas, foto ao lado do texto**, uma por
+evento. Agora não dá pra faltar nenhum, porque a foto e o parágrafo nascem do
+mesmo bloco. O cartaz do PBXP virou `assets/pbxp-2023.jpg`, recortado de
+`post-pbxp-cartaz-palestrantes.jpeg`.
+
+**2. A capa da revista agora é a matéria, não a revistinha.** O que estava lá
+era um recorte de 360×530 da revista pequena **dentro** do post de divulgação
+— por isso ficava apagada por mais que eu clareasse, e ele reclamou duas
+vezes. A abertura da matéria está em alta em
+`dados/biblioteca/materia revista gilberto.pdf`, páginas 22-23, escura e
+forte. Recortei a página direita. A legenda virou *"Matéria de capa · Revista
+Empreenda, edição 75"*, que é o que a própria página diz.
+
+⚠ **Lição:** quando uma imagem não melhora com ajuste de brilho, o problema é
+a fonte, não o ajuste. Procurar o original antes de insistir no filtro.
+
+**3. Página 5 nova — "Com quem ele senta à mesa".** Pedido dele: *"seria
+interessante colocar uma página com fotos minha com os famosos tipo ricardo
+nunes joel jota padre patric janguie diniz"*. Entrou com o que tem prova:
+
+- **Clube Êxito de Negócios, abril/2026**, card oficial com ele e os
+  convidados **Paulo Tomazela** (Bossa Invest), **Janguiê Diniz** (Ser
+  Educacional) e **Sergio Moura** (Baterias Moura). Achado em
+  `ARQUIVO GERAL/Arquivos Soltos por Tipo/Imagens/Gilberto Luis de Sena story.jpg`
+- **A faixa da diretoria do Instituto Êxito**, onde ele aparece ao lado de
+  Janguiê Diniz e Celso Niskier
+- PBXP e A Casa do Zé, em texto
+
+❗ **Ricardo Nunes, Joel Jota e Padre Patrick não estão no computador.** Varri
+as 116 fotos do ensaio, as 68 do WhatsApp, as 190 do ARQUIVO GERAL e os
+Downloads. Tudo que achei é retrato sozinho ou gente que eu não sei nomear.
+**O terço de baixo da página 5 está vazio de propósito**, esperando as fotos.
+Ele larga em `entrada-videos/com-os-nomes-grandes/`, que já existe com o
+LEIA.md explicando a regra: cartaz de evento em que os dois estavam **não é**
+foto junto.
+
 ### O que mais falta no kit
 
 | Item | Situação |
