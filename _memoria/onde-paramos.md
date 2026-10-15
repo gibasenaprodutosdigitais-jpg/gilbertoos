@@ -41,9 +41,7 @@ de base de 13/out. **É a única coisa com data marcada.**
 | Capa dos Reels — preta "por enquanto" | seção 3 |
 | **O reel do "fundo do poço" é história dele ou do filme?** | seção 3 |
 | As 4 decisões do livro | seção 2 |
-| **Os 3 pecados segurados por erro técnico** (diarista, imóvel, teste do IBS) | seção 3 |
 | **Os depoimentos do Roberto, Tiago e Janguiê** — não existem no PC | seção 8 |
-| **A lista de cidades do site** ainda mostra Parauapebas e Vitória | seção 8 |
 | Pedir ao Instituto Êxito que a página `/membro/` reflita o cargo de diretoria | seção 8 |
 
 **Nada disso deve ser aplicado sem ele dizer.**
@@ -257,27 +255,42 @@ Downloads rendeu zero.
 escritório, ele enumera sete mudanças da reforma, uma por uma, sem citar
 data. Isso é série pronta, e vale até 2027.
 
-**11 peças cortadas** em `saidas/REELS/reels-gravacoes-longas-2026-10-14/`.
-Textos dos três canais em `textos.json`. **Sete liberadas**, quatro seguradas.
+**11 peças cortadas e liberadas** em
+`saidas/REELS/reels-gravacoes-longas-2026-10-14/`: a âncora, os 7 pecados e 3
+bônus. Textos dos três canais em `textos.json`. **Nenhuma agendada ainda.**
 
-### 🔴 Os quatro que eu segurei, e o motivo
+### ✅ Os quatro foram corrigidos no corte — 15/out/2026
 
-Conferi cada afirmação contra `conhecimento/reforma-tributaria.md` e os
-fichamentos por setor. **Três não batem.** O detalhe está em
-`saidas/REELS/reels-gravacoes-longas-2026-10-14/CONFERIR ANTES DE POSTAR/LEIA.md`.
+Ele mandou: *"os três pecados pode corrigir eles mesmo, altere o que for
+necessário"*. **Não precisou regravar nada.** Os três foram salvos cortando
+fora o trecho errado, com o `remendar.py`, que remonta um reel a partir de
+vários trechos da mesma gravação.
 
-| Peça | O erro |
-|---|---|
-| **pecado 4, a diarista** | o nanoempreendedor tem teto de **R$ 40.500/ano**. A faxineira de duas diárias por semana faz R$ 15.600 e fica de fora da obrigação de nota |
-| **pecado 5, o imóvel** | só vira contribuinte quem tem **mais de 3 imóveis alugados** ou passa de **R$ 240 mil/ano** de aluguel |
-| **pecado 7, o teste do IBS** | o IBS foi testado em **2026**, junto com a CBS, não em 2027 |
-| **a âncora** | sem erro. Ela promete sete e só quatro iriam ao ar |
+| Peça | O que saiu | Virou |
+|---|---|---|
+| **pecado 4** | os exemplos da diarista e do pedreiro, que ficam abaixo dos R$ 40.500 | 3 trechos, 30s |
+| **pecado 5** | o empréstimo ao parente, sem base, e o "paga pra ter/morar", que é IPTU | 3 trechos, 15s |
+| **pecado 7** | a frase do teste do IBS em 2027 | 1 trecho, 10s |
 
-**Os três se salvam com regravação curta.** O 4 troca o exemplo por psicólogo
-ou nutricionista, que entram mesmo. O 5 ganha o número. O 7 perde uma frase.
+**A âncora subiu junto**, porque a série ficou inteira.
 
-⚠ **O próprio carrossel dele de agosto já traz os R$ 40.500**, no slide 6 do
-`carrossel-7-mudancas-2027`. Ele acertou em agosto e errou no vídeo novo.
+### 🔴 O erro que eu quase cometi no pecado 5
+
+Eu tinha condenado a peça porque a transcrição dizia *"o SIB"*, que não é
+imposto nenhum. **Ele disse CIB**, o Cadastro Imobiliário Brasileiro, que é
+real, é da reforma e tem fichamento próprio em
+`conhecimento/reforma-tributaria-cib.md`.
+
+**O Whisper trocou uma letra e eu quase joguei fora uma peça correta.** No
+mesmo dia ele escreveu *"qual é a líquida"* onde era **alíquota**, e isso ia
+para a tela de um reel sobre alíquota.
+
+⛔ **Antes de reprovar uma peça por erro técnico, conferir se o erro é dele ou
+da transcrição.** O jeito: procurar o termo em `conhecimento/` e nos
+carrosséis que ele já publicou. O CIB estava nos dois.
+
+O registro completo está em
+`saidas/REELS/reels-gravacoes-longas-2026-10-14/COMO-OS-TRES-FORAM-CORRIGIDOS.md`.
 
 ### Legenda queimada: como fazer, porque este ffmpeg não ajuda
 
@@ -784,6 +797,12 @@ CONECTV com o GC escrevendo "PALESTRANTE"), **PBXP Paraíba Business
 Experience, mai/2023** (cartaz com ele ao lado de Roberto Shinyashiki e
 Janguiê Diniz), **GoDigital Festival jan/2023** (palavra dele), **Summit Êxito
 2022** (foto de palco com plateia) e **Mentoring Day Experience, Portugal**.
+
+✅ **As cidades estão resolvidas, 15/out.** O site `gruposena.com.br` ainda
+mostra Parauapebas e Vitória, e ele mandou **desconsiderar**. A lista que
+vale é a do kit: **sede em São Paulo, com escritórios no Rio de Janeiro, em
+Goiânia e em Belo Horizonte.** Se alguém apontar a diferença, o site é que
+está velho.
 
 **Cargo verificado:** ele é **Diretor de Compliance do Instituto Êxito de
 Empreendedorismo**, gestão 2025/2030. Confirmei lendo as 52 fotos da página

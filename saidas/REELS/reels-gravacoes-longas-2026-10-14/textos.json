@@ -74,6 +74,58 @@
     }
   },
   {
+    "arquivo": "pecado-4-pj-tecnico.mp4",
+    "seg": 30,
+    "status": "liberado",
+    "tema": "Reforma / PJ técnico",
+    "serie": "Os 7 pecados mortais da reforma — 4 de 7",
+    "obs": "Remendado em 15/out: saíram os exemplos da diarista e do pedreiro, que ficam abaixo do teto do nanoempreendedor.",
+    "instagram": {
+      "legenda": "Tem uma linha de R$ 40.500 por ano, e quase ninguém sabe de que lado dela está.\n\nA partir de 2027, pessoa física que trabalha por conta própria de forma habitual vira contribuinte de CBS. Pessoa física, que nunca pagou isso na vida.\n\nMas existe um teto. Quem fatura **até R$ 40.500 por ano**, uns R$ 3.375 por mês, é nanoempreendedor e fica de fora. A diarista que vai na sua casa duas vezes por semana está tranquila.\n\nAgora me diz: o psicólogo que atende dez pacientes por semana passa disso? A nutricionista passa? O designer, o professor particular, o advogado que trabalha sozinho?\n\nTodos passam.\n\nE quem passa precisa de CNPJ técnico, nota fiscal e apuração todo mês. Gente que nunca emitiu uma nota na vida.\n\nEntão pare de perguntar se a reforma pega empresa. Pergunte se ela pega você.\n\nComenta AUTÔNOMO aqui embaixo que eu te mostro de que lado da linha você está.\n\n👉 Me segue, @gilbertosenaoficial, que todo dia tem conteúdo de gestão por aqui.\n\n#autonomo #profissionalliberal #reformatributaria #cbs #nanoempreendedor #notafiscal #gilbertosena"
+    },
+    "tiktok": {
+      "legenda": "A linha é R$ 40.500 por ano. Abaixo disso você é nanoempreendedor e fica fora. Acima, vira CNPJ técnico e nota fiscal todo mês.\n\n#autonomo #reformatributaria #cbs #nanoempreendedor #gilbertosena"
+    },
+    "youtube": {
+      "title": "Autônomo e a reforma: a linha dos R$ 40.500",
+      "desc": "A partir de 2027, a pessoa física que exerce atividade habitual e profissional passa a ser contribuinte de CBS.\n\nO limite é o do nanoempreendedor: R$ 40.500 de receita bruta por ano, cerca de R$ 3.375 por mês. Abaixo disso, fica fora do sistema novo.\n\nQuem cruza a linha passa a precisar de CNPJ técnico e emissão de nota fiscal.\n\n---\nGilberto Sena\nCEO do Grupo Sena, Soluções Empresariais\nInstagram: @gilbertosenaoficial",
+      "tags": [
+        "autonomo",
+        "nanoempreendedor",
+        "reforma tributaria",
+        "cbs",
+        "nota fiscal",
+        "gilberto sena"
+      ]
+    }
+  },
+  {
+    "arquivo": "pecado-5-cib-imovel.mp4",
+    "seg": 15,
+    "status": "liberado",
+    "tema": "Reforma / Imóvel e CIB",
+    "serie": "Os 7 pecados mortais da reforma — 5 de 7",
+    "obs": "Remendado em 15/out. O Whisper tinha escrito SIB; ele diz CIB, o Cadastro Imobiliário Brasileiro. Saiu o trecho do empréstimo ao parente, que não tem base.",
+    "instagram": {
+      "legenda": "O seu imóvel ganhou CPF. Chama CIB, Cadastro Imobiliário Brasileiro, e é um código único nacional para cada imóvel, urbano ou rural.\n\nCom ele, o Fisco passa a ver o mercado imobiliário inteiro de um lugar só.\n\nMas calma, porque a parte que assusta tem número e ele importa.\n\n**Quem aluga** só vira contribuinte de IBS e CBS com **mais de 3 imóveis alugados** ou **mais de R$ 240 mil de aluguel por ano**. Abaixo disso, segue como está.\n\n**Quem vende de vez em quando** tem impacto mínimo. A regra busca habitualidade, e você só entra se vender mais de 3 imóveis no mesmo ano.\n\nExiste redutor social para aluguel residencial, e existe um regime simplificado de 3,65% sobre a receita. Só que esse é definitivo: escolheu, não volta, e perde crédito e redutor.\n\nEntão não é todo mundo. É quem vive de aluguel e ainda chama isso de renda passiva.\n\nComenta IMÓVEL que eu te ajudo a fazer essa conta.\n\n👉 Me segue, @gilbertosenaoficial, que todo dia tem conteúdo de gestão por aqui.\n\n#imovel #aluguel #cib #reformatributaria #ibs #cbs #mercadoimobiliario #gilbertosena"
+    },
+    "tiktok": {
+      "legenda": "Seu imóvel ganhou CPF: chama CIB. E você só vira contribuinte com mais de 3 imóveis alugados ou mais de R$ 240 mil de aluguel por ano.\n\n#imovel #aluguel #cib #reformatributaria #gilbertosena"
+    },
+    "youtube": {
+      "title": "CIB: o seu imóvel ganhou CPF, e o que isso muda",
+      "desc": "O Cadastro Imobiliário Brasileiro (CIB) cria um código único nacional para cada imóvel, urbano ou rural.\n\nNa locação, a pessoa física vira contribuinte de IBS e CBS com mais de 3 imóveis alugados ou renda de aluguel acima de R$ 240 mil por ano.\n\nNa venda ocasional o impacto é mínimo: a tributação busca habitualidade.\n\n---\nGilberto Sena\nCEO do Grupo Sena, Soluções Empresariais\nInstagram: @gilbertosenaoficial",
+      "tags": [
+        "cib",
+        "imovel",
+        "aluguel",
+        "reforma tributaria",
+        "ibs cbs",
+        "gilberto sena"
+      ]
+    }
+  },
+  {
     "arquivo": "pecado-6-split-payment.mp4",
     "seg": 17,
     "status": "liberado",
@@ -99,25 +151,27 @@
     }
   },
   {
-    "arquivo": "bonus-fluxo-de-caixa.mp4",
-    "seg": 34,
-    "status": "liberado com ressalva",
-    "ressalva": "Ele diz '90% dos pequenos e médios não sabem o que é fluxo de caixa'. É número de retórica, não tem fonte. A legenda não repete o percentual.",
-    "tema": "Gestão / Fluxo de caixa",
+    "arquivo": "pecado-7-aliquota-secreta.mp4",
+    "seg": 11,
+    "status": "liberado",
+    "tema": "Reforma / A alíquota",
+    "serie": "Os 7 pecados mortais da reforma — 7 de 7",
+    "obs": "Remendado em 15/out: saiu a frase sobre o teste do IBS em 2027. O IBS foi testado em 2026, junto com a CBS.",
     "instagram": {
-      "legenda": "Tem empresário que fatura bem e não sabe dizer o que é capital de giro.\n\nNão é burrice. É que ninguém ensinou. Educação financeira não entrou na escola, educação empreendedora também não, e a maior parte das pessoas que abriu negócio no Brasil abriu por necessidade, não por projeto.\n\nAí vem a reforma, vem o split payment, e começa a cobrar exatamente aquilo que nunca foi ensinado.\n\nFluxo de caixa é o retrato de quando o dinheiro entra e quando ele sai. Capital de giro é o quanto você precisa ter parado pra aguentar o intervalo entre as duas coisas.\n\nSe você não sabe esses dois números da sua empresa, você não está gerindo. Está torcendo.\n\nComenta CAIXA aqui embaixo que eu te mando por onde começar a montar o seu.\n\n👉 Me segue, @gilbertosenaoficial, que todo dia tem conteúdo de gestão por aqui.\n\n#fluxodecaixa #capitaldegiro #gestaofinanceira #pequenoempresario #educacaofinanceira #gilbertosena"
+      "legenda": "Você já sabe qual é a alíquota? Eu também não.\n\nÉ o sétimo pecado, e é o que mais me incomoda: a conta que vai mudar a sua empresa em 2027 ainda não tem número fechado em lei.\n\nA referência oficial fala em CBS perto de 8,8% e IBS perto de 17,7%, dando uns 26,5% somados. Já tem conta revisada beirando 28%.\n\nO teste já passou: foi este ano, 0,9% de CBS mais 0,1% de IBS, só destacado na nota, sem recolhimento. Em 2027 a CBS entra com alíquota cheia. O IBS sobe de 2029 a 2032, enquanto ICMS e ISS caem 10% ao ano.\n\nAgora me responde: como você faz orçamento para 2027? Como precifica? Como decide regime?\n\nNão decide. Monta cenário. E quem não monta vai descobrir a conta no dia 1º de janeiro.\n\nComenta CENÁRIO que eu te mostro como montar o seu.\n\n👉 Me segue, @gilbertosenaoficial, que todo dia tem conteúdo de gestão por aqui.\n\n#reformatributaria #cbs #ibs #aliquota #planejamentotributario #2027 #gilbertosena"
     },
     "tiktok": {
-      "legenda": "Fluxo de caixa é quando o dinheiro entra e sai. Capital de giro é quanto você precisa ter parado pra aguentar o intervalo. Sem esses dois números você não gere, você torce.\n\n#fluxodecaixa #capitaldegiro #gestaofinanceira #gilbertosena"
+      "legenda": "A alíquota que vai mudar a sua empresa em 2027 ainda não está fechada em lei. Referência de 26,5%, com conta revisada beirando 28%.\n\n#reformatributaria #cbs #ibs #aliquota #gilbertosena"
     },
     "youtube": {
-      "title": "Fluxo de caixa e capital de giro: os dois números que faltam",
-      "desc": "Muito empresário fatura bem e não sabe definir capital de giro. O motivo não é falta de capacidade, é falta de ensino: educação financeira e empreendedora nunca entraram na escola.\n\nFluxo de caixa é o retrato de quando o dinheiro entra e sai. Capital de giro é o quanto precisa ficar parado para cobrir o intervalo entre os dois.\n\nCom o split payment, esses dois números deixam de ser teoria.\n\n---\nGilberto Sena\nCEO do Grupo Sena, Soluções Empresariais\nInstagram: @gilbertosenaoficial",
+      "title": "A alíquota de 2027 ainda não foi publicada",
+      "desc": "A alíquota de referência da reforma é de cerca de 8,8% de CBS e 17,7% de IBS, perto de 26,5% somados, e o número final ainda não está fechado em lei.\n\nO ano de teste foi 2026, com 0,9% de CBS e 0,1% de IBS apenas destacados na nota. Em 2027 a CBS entra com alíquota cheia; o IBS sobe de 2029 a 2032.\n\n---\nGilberto Sena\nCEO do Grupo Sena, Soluções Empresariais\nInstagram: @gilbertosenaoficial",
       "tags": [
-        "fluxo de caixa",
-        "capital de giro",
-        "gestao financeira",
-        "educacao financeira",
+        "reforma tributaria",
+        "aliquota",
+        "cbs",
+        "ibs",
+        "2027",
         "gilberto sena"
       ]
     }
@@ -141,6 +195,30 @@
         "reforma tributaria",
         "pequeno empresario",
         "opiniao",
+        "gilberto sena"
+      ]
+    }
+  },
+  {
+    "arquivo": "bonus-fluxo-de-caixa.mp4",
+    "seg": 34,
+    "status": "liberado com ressalva",
+    "ressalva": "Ele diz '90% dos pequenos e médios não sabem o que é fluxo de caixa'. É número de retórica, não tem fonte. A legenda não repete o percentual.",
+    "tema": "Gestão / Fluxo de caixa",
+    "instagram": {
+      "legenda": "Tem empresário que fatura bem e não sabe dizer o que é capital de giro.\n\nNão é burrice. É que ninguém ensinou. Educação financeira não entrou na escola, educação empreendedora também não, e a maior parte das pessoas que abriu negócio no Brasil abriu por necessidade, não por projeto.\n\nAí vem a reforma, vem o split payment, e começa a cobrar exatamente aquilo que nunca foi ensinado.\n\nFluxo de caixa é o retrato de quando o dinheiro entra e quando ele sai. Capital de giro é o quanto você precisa ter parado pra aguentar o intervalo entre as duas coisas.\n\nSe você não sabe esses dois números da sua empresa, você não está gerindo. Está torcendo.\n\nComenta CAIXA aqui embaixo que eu te mando por onde começar a montar o seu.\n\n👉 Me segue, @gilbertosenaoficial, que todo dia tem conteúdo de gestão por aqui.\n\n#fluxodecaixa #capitaldegiro #gestaofinanceira #pequenoempresario #educacaofinanceira #gilbertosena"
+    },
+    "tiktok": {
+      "legenda": "Fluxo de caixa é quando o dinheiro entra e sai. Capital de giro é quanto você precisa ter parado pra aguentar o intervalo. Sem esses dois números você não gere, você torce.\n\n#fluxodecaixa #capitaldegiro #gestaofinanceira #gilbertosena"
+    },
+    "youtube": {
+      "title": "Fluxo de caixa e capital de giro: os dois números que faltam",
+      "desc": "Muito empresário fatura bem e não sabe definir capital de giro. O motivo não é falta de capacidade, é falta de ensino: educação financeira e empreendedora nunca entraram na escola.\n\nFluxo de caixa é o retrato de quando o dinheiro entra e sai. Capital de giro é o quanto precisa ficar parado para cobrir o intervalo entre os dois.\n\nCom o split payment, esses dois números deixam de ser teoria.\n\n---\nGilberto Sena\nCEO do Grupo Sena, Soluções Empresariais\nInstagram: @gilbertosenaoficial",
+      "tags": [
+        "fluxo de caixa",
+        "capital de giro",
+        "gestao financeira",
+        "educacao financeira",
         "gilberto sena"
       ]
     }
