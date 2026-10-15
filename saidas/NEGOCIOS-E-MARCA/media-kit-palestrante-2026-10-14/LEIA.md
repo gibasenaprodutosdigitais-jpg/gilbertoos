@@ -425,13 +425,32 @@ confirmado num evento fora do Brasil.
 | Página do palco, lista | primeiro evento, com o tema da palestra |
 | Página 7, reconhecimento | primeira linha dos eventos |
 
-**Recortei só a faixa que prova.** O cartaz inteiro é vertical e não cabe na
-coluna de miniaturas sem virar uma tira fina. A faixa de 2,12 para 1 contém o
-que interessa: o nome dele, o selo de palestrante confirmado, o "DUBAI
-EXPERIENCE 2023" e a silhueta do Burj Khalifa.
+### O corte que eu errei, e ele pegou
 
-Conferi ampliado no PDF: **lê-se "PALESTRANTE CONFIRMADO · GILBERTO SENA"** no
-tamanho de impressão.
+**Minha primeira faixa cortava a cabeça dele.** Eu tinha recortado de 46% a
+72% da altura do cartaz, para caber numa tira larga, e a cabeça está entre
+27% e 37%. Ficou o torso e o texto, sem o rosto.
+
+Refiz medindo o cartaz com uma grade de 10%. A faixa agora vai de 21% a 68%
+e traz **a data, o rosto inteiro, o selo de palestrante confirmado, o nome
+dele, o "DUBAI EXPERIENCE 2023" e o Burj Khalifa**.
+
+Para caber sem cortar nada, a coluna de miniaturas foi de 44mm para 38mm, e
+todas as cinco alturas foram recalculadas pela proporção de cada arquivo.
+
+### As palestras ficaram em ordem de data
+
+A pedido dele, em 15/out: da mais recente para a mais antiga, nas duas
+listas e também nas miniaturas.
+
+**Alphaville 2024 · Dubai nov/2023 · PBXP mai/2023 · GoDigital jan/2023 ·
+Summit Êxito 2022 · Mentoring Day Portugal · Imersão própria.**
+
+Os dois últimos ficam no fim porque não têm data registrada. **Se o Mentoring
+Day de Portugal tiver ano, ele entra no lugar certo.**
+
+⚠ Ao reordenar, eu dupliquei a linha do Summit Êxito na página 7. **Peguei
+olhando o PDF**, não pelo código.
 
 O cartaz original está em
 `entrada-videos/palco-e-eventos/cartaz-dubai-experience-2023.jpeg`.
