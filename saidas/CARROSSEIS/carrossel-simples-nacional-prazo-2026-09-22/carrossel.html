@@ -97,6 +97,75 @@
 
   .cta .handle{ font-size:34px; font-weight:600; }
   .cta .leao{ width:108px; height:auto; }
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
+
+/* 3) o rodape dos slides claros ficou escuro sobre escuro e sumiu.
+   So apareceu medindo o pixel: o texto estava no HTML e invisivel na imagem. */
+.slide .footer, .card .footer, .slide.light .footer, .card.light .footer{
+  color:rgba(245,241,232,.62) !important }
+.slide.light .footer span, .card.light .footer span{
+  color:rgba(245,241,232,.62) !important }
+
+/* 5) este carrossel tinha caneta azul. Com a pele dourada viram dois
+   acentos na mesma peca, e dois acentos nao sao acento nenhum. */
+:root{ --caneta:#E3C06E !important }
+.capa .assinatura, ul.datas .d{ color:#E3C06E !important }
 </style>
 </head>
 <body>
@@ -105,10 +174,9 @@
 <div class="slide capa">
   <div class="etiqueta">Simples Nacional · Reforma</div>
   <div class="conteudo">
-    <h1>Dia 30 de setembro,<br>uma porta<br>se fecha.</h1>
+    <h1>Dia 30 de setembro,<br>uma porta<br>se fechou.</h1>
     <div style="height:42px"></div>
-    <div class="corpo" style="max-width:20ch">E o que você decidir nela vale
-      o ano inteiro de 2027.</div>
+    <div class="corpo" style="max-width:22ch">Quem não decidiu já entrou no padrão, e isso vale o ano inteiro de 2027.</div>
   </div>
   <div class="rodape">
     <div class="assinatura">Gilberto Sena</div>
@@ -118,7 +186,7 @@
 
 <!-- 2 · NÚMERO -->
 <div class="slide">
-  <div class="etiqueta">Último dia pra escolher</div>
+  <div class="etiqueta">A porta que fechou</div>
   <div class="conteudo">
     <div style="position:relative; align-self:flex-start;">
       <div class="numero-gigante">30/09</div>
@@ -235,9 +303,9 @@
 <div class="slide">
   <div class="etiqueta"></div>
   <div class="conteudo">
-    <h2 style="max-width:16ch">Quem não escolher<br>fica no padrão.</h2>
+    <h2 style="max-width:16ch">Quem não escolheu<br>ficou no padrão.</h2>
     <div style="height:32px"></div>
-    <div class="corpo" style="max-width:22ch">A omissão decide junto com você.</div>
+    <div class="corpo" style="max-width:24ch">A omissão decidiu junto com você.</div>
     <div style="height:92px"></div>
     <div class="citacao">“O prudente prevê o mal<br>e se esconde; o ingênuo<br>passa
       e sofre a pena.”</div>
@@ -254,12 +322,14 @@
   <div class="etiqueta">As datas que importam</div>
   <div class="conteudo">
     <ul class="datas">
-      <li><span class="d">30/set/2026</span><span class="t">último dia pra optar,
+      <li><span class="d">30/set/2026</span><span class="t">fechou. Era o último dia pra optar,
         com efeito em 1º/jan/2027</span></li>
       <li><span class="d">30/nov/2026</span><span class="t">último dia pra cancelar,
         e o cancelamento é irretratável</span></li>
       <li><span class="d">março/2027</span><span class="t">nova janela pra ajustar
         o segundo semestre</span></li>
+      <li><span class="d">out a dez</span><span class="t">quem abrir empresa agora escolhe
+        no próprio registro</span></li>
       <li><span class="d">MEI</span><span class="t">fica de fora desta regra,
         mantém os prazos de janeiro</span></li>
     </ul>
@@ -276,8 +346,7 @@
   <div class="conteudo">
     <h1 style="font-size:80px">Isso se decide<br>com conta<br>na mesa.</h1>
     <div style="height:42px"></div>
-    <div class="corpo" style="max-width:24ch">Se você ainda não fez a sua,
-      o calendário está contando.</div>
+    <div class="corpo" style="max-width:26ch">A de setembro passou. A de novembro e a de março ainda dão pra fazer.</div>
   </div>
   <div class="rodape">
     <div>

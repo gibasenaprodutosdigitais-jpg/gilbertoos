@@ -1,13 +1,23 @@
-Setembro tem um prazo que a maioria dos empresários do Simples Nacional ainda nem sabe que existe.
+Perdeu a janela de setembro? Calma, você ainda tem duas datas.
 
-A partir de 2027, quem é do Simples vai ter que escolher COMO recolhe o IBS e a CBS: no modelo de sempre (dentro do DAS) ou por fora dele, apurando separado, sem sair do Simples.
+De 1 a 30 de setembro, quem é do Simples Nacional escolheu COMO vai recolher IBS e CBS a partir de 2027: dentro do DAS, como sempre foi, ou por fora dele, apurando separado sem sair do Simples.
 
-Não é detalhe de contador. É decisão de negócio: quem vende pra empresa (B2B) tende a se sair melhor apurando por fora; quem vende pro consumidor final (B2C) tende a continuar melhor do jeito que está.
+Quem não escolheu nada ficou no modelo unificado por omissão. E isso vale o ano inteiro de 2027.
 
-A janela pra decidir é de 1 a 30 de setembro de 2026. Depois disso, o cancelamento é irretratável até novembro.
+Mas ainda correm duas coisas.
 
-Arrasta pro lado e entende antes de decidir sozinho.
+**Até 30 de novembro** você cancela a opção, se fez e se arrependeu. O cancelamento é irretratável, então é uma via só.
 
-Gilberto Sena. Grupo Sena Soluções Empresariais.
+**Em março de 2027** abre nova janela, pra ajustar o segundo semestre. Quem perdeu setembro entra por aí.
 
-#simplesnacional #reformatributaria #ibs #cbs #gestaoempresarial #empresario #contabilidade #planejamentotributario #simpleshibrido #dasnacional #gestaofinanceira #impostos #pme #empreendedorismo #gilbertosena
+E tem uma terceira, que quase ninguém comenta: quem abrir empresa entre outubro e dezembro de 2026 escolhe no próprio registro, sem esperar janela nenhuma.
+
+Por que isso importa tanto? Porque acaba o crédito presumido de 9,25%. Quem compra de você passa a aproveitar só o que você efetivamente pagou no DAS. Se o seu cliente é empresa, você pode virar o fornecedor caro da cadeia sem ter mexido no seu preço.
+
+Vende pra empresa e tem muito insumo? Recolher por fora costuma favorecer. Vende pro consumidor final? O unificado costuma segurar melhor.
+
+É conta, não é palpite. Comenta SIMPLES aqui embaixo e me diz pra quem você vende. É por aí que a conta começa.
+
+👉 Me segue, @gilbertosenaoficial, que todo dia tem conteúdo de gestão por aqui.
+
+#simplesnacional #simpleshibrido #reformatributaria #ibs #cbs #planejamentotributario #gestaoempresarial #contabilidade #pme #gilbertosena
