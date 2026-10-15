@@ -119,3 +119,98 @@ publicar as credenciais em lugares que o Google lê.
 
 **O showreel e os depoimentos são os dois que mais pesam na decisão de quem
 contrata.** Os dois dependem de material que só você tem.
+
+---
+
+# Atualizado em 14/out, com o que ele mandou
+
+Ele mandou três links e disse que tinha material no computador. Isso resolveu
+a maior parte do que faltava.
+
+## O que entrou
+
+**Foto no palco, que era o furo maior.** Do vídeo do CONECTV no YouTube:
+*Entrevista com Gilberto Sena no Empreenda Summit 2024*, publicado em
+04/out/2024 pelo canal Rede ConecTV. Aos 58 segundos ele aparece no palco, de
+microfone, com o telão do evento atrás. Recortei fora as artes da emissora.
+
+**E tem mais do que a foto.** O gerador de caracteres do próprio CONECTV, na
+tela, escreve: **"Empreenda Summit Alphaville 2024 · Gilberto Sena ·
+PALESTRANTE"**. Isso é confirmação de terceiro, publicada, com link. Vale mais
+que qualquer frase que eu escrevesse.
+
+**Uma segunda foto de palco**, do arquivo dele: `2025-01-21 - Palestra
+Expresso 97.mp4`, com o backdrop próprio ao fundo.
+
+**Contato de verdade**, do site gruposena.com.br:
+
+| | |
+|---|---|
+| Site | gruposena.com.br |
+| E-mail | info@gruposena.com.br |
+| Telefone | (31) 2520-1152 |
+| WhatsApp | (31) 98285-2019 |
+
+**A página de membro no Instituto Êxito existe e é pública:**
+`institutoexito.com.br/membro/gilberto-luis-de-sena.html`. Ela confirma
+"CEO - Grupo Sena Soluções Empresariais" e a descrição "Escritor, Palestrante,
+Empresário, especialista em Gestão Financeira e Empresarial e tributária".
+
+---
+
+## Quatro coisas que eu achei conferindo, e três são problema
+
+### 1. O domínio gilbertosena.com.br não existe
+
+Testei: o DNS não resolve. **E ele está impresso no rodapé de 25 carrosséis**,
+inclusive dos que já foram publicados.
+
+Quem lê o carrossel e digita o endereço não chega a lugar nenhum.
+
+**Dois caminhos:** registrar o domínio, ou trocar os 25 para gruposena.com.br.
+Eu não mexi, porque pode ser que ele esteja prestes a lançar o site.
+
+### 2. O certificado do GoDigital diz "participou", não "palestrou"
+
+Ele falou em "palestra no GoDigital Recife". O arquivo que está no computador
+é `CERTIFICADO. GO DIGITALpdf.pdf`, e o texto é literal:
+
+> *"Certificamos que GILBERTO SENA participou do GoDigital Festival 2023,
+> realizado nos dias 26, 27 e 28 de janeiro de 2023, no Centro de Convenções
+> de Pernambuco, Olinda-PE, com carga horária de 36 horas."*
+
+Carga horária de 36 horas é certificado de quem **assistiu**. Se ele subiu no
+palco também, o certificado não prova, e **eu não ponho no kit como palestra
+sem outra prova**: é o tipo de credencial que organizador confere.
+
+Se existir foto, vídeo ou a programação do evento com o nome dele, entra na
+hora.
+
+### 3. O site mostra cidades diferentes das que o repositório registra
+
+| | |
+|---|---|
+| `_memoria/quem-e-gilberto.md` | BH, Goiânia, São Paulo, Brasília e **Rio de Janeiro** |
+| gruposena.com.br, hoje no ar | BH, Goiânia, São Paulo, Brasília, **Parauapebas** e **Vitória** |
+
+O repositório diz que Parauapebas e Vitória saíram da lista em agosto. O site
+nunca foi atualizado, ou o repositório está errado.
+
+**O kit está com a lista do repositório.** Se o organizador abrir o site, vê
+outra coisa. Precisa de uma decisão sobre qual é a verdadeira.
+
+### 4. "Conselheiro" ou "membro" do Instituto Êxito?
+
+O repositório diz **conselheiro**, com base no LinkedIn dele. A página do
+próprio instituto fica em `/membro/` e trata de "associado".
+
+São coisas diferentes, e conselheiro é mais forte. **O kit está com
+"conselheiro"**, mas vale ele conferir, porque é verificável em um clique.
+
+---
+
+## Ainda não consegui ver
+
+Os dois reels do Instagram que ele mandou. O Instagram exige login e eu não
+tenho acesso. **Se ele baixar os dois e deixar em `entrada-videos/`, eu leio.**
+Um deles ele disse ser da "Casa do Zé", um reality.
