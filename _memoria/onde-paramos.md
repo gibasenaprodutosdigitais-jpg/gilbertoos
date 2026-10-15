@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 15/out/2026, 01h.**
+> Estado das frentes abertas. **Atualizado em 15/out/2026, 15h30.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -13,6 +13,11 @@
 
 **Conferir se a fila publicou:** `posts_list` com status `published`, e
 `posts_list_failed` se faltar algum. **Avisar ele sem precisar perguntar.**
+
+🔴 **22/out é a data que importa.** É quando estreia a série dos 7 pecados,
+e é a primeira vez que ele publica em formato de série. Conferir logo depois
+das 12:00. A grade inteira está em
+`saidas/_CONTROLE/_serie-7-pecados-agendada.md`.
 
 **E saber onde as coisas estão agora.** Em 14/out a pasta `saidas/` foi
 reorganizada: 103 itens saíram da raiz para pastas por tipo. O guia é
@@ -41,10 +46,19 @@ de base de 13/out. **É a única coisa com data marcada.**
 | Capa dos Reels — preta "por enquanto" | seção 3 |
 | **O reel do "fundo do poço" é história dele ou do filme?** | seção 3 |
 | As 4 decisões do livro | seção 2 |
-| **Os depoimentos do Roberto, Tiago e Janguiê** — não existem no PC | seção 8 |
+| **Os depoimentos do Roberto, Tiago e Janguiê** — não existem no PC, pedir pelo Drive | seção 8 |
 | Pedir ao Instituto Êxito que a página `/membro/` reflita o cargo de diretoria | seção 8 |
 
 **Nada disso deve ser aplicado sem ele dizer.**
+
+### O que falta de trabalho meu, em ordem de urgência
+
+| O quê | Por quê |
+|---|---|
+| **Os 29 cortes das 3 gravações do carro** | depois de 29/out o Instagram fica sem reel |
+| **Os 30 carrosséis, 235 slides** | estão prontos e nunca foram agendados |
+| **Provérbios 17 a 31 e a frase da semana de 19 a 23/out** | as duas séries de card seguram o perfil sozinhas |
+| O showreel do media kit | já tem mais de 5 minutos de palco guardados |
 
 ---
 
@@ -748,7 +762,10 @@ tratar como parte do GilbertoOS.
 
 **`saidas/NEGOCIOS-E-MARCA/media-kit-palestrante-2026-10-14/`**
 O arquivo para mandar é **`Gilberto-Sena-Media-Kit.pdf`**, 8 páginas A4,
-2,5 MB. O `LEIA.md` da pasta conta cada decisão.
+2,5 MB. O `LEIA.md` da pasta conta cada decisão. **Está pronto para enviar.**
+
+Ele passou por quatro rodadas de correção com ele em 15/out: as cidades, o
+cargo, as cores, o recorte de fundo e o corte de rosto. Tudo aplicado.
 
 | Página | |
 |---|---|
