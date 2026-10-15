@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Gilberto Sena — Media Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;0,800;1,400&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   DIRECAO: Editorial de Revista
+   A forma combina com o homem: ele e CEO de uma revista de
+   negocios, e quem le isto esta comparando tres ou quatro perfis
+   num computador. Pagina de revista le melhor que slide.
+   Paleta medida: 15.76:1 e 7.17:1. Sem dourado, que apareceu
+   nas quatro ultimas pecas dele.
+   ============================================================ */
+:root{
+  --papel:#F2EFE9;
+  --tinta:#171614;
+  --tinta-fraca:#5A5550;
+  --acento:#8C2F27;
+  --acento-claro:#A35952;   /* o acento some em fundo escuro; esta e a versao de la */
+  --escuro:#171614;
+  --regua:rgba(23,22,20,.16);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#8a8a8a;font-family:'Spectral',Georgia,serif;color:var(--tinta)}
+
+.pagina{
+  width:210mm;height:297mm;background:var(--papel);
+  position:relative;overflow:hidden;
+  margin:0 auto 10mm auto;
+  padding:22mm 20mm 20mm 20mm;
+  display:flex;flex-direction:column;
+}
+.pagina.escura{background:var(--escuro);color:var(--papel)}
+.pagina.escura .etiqueta{color:var(--acento-claro)}
+.pagina.escura .regua{background:rgba(242,239,233,.22)}
+.pagina.escura .fino{color:rgba(242,239,233,.68)}
+
+/* --- tipografia --- */
+.etiqueta{
+  font-family:'Barlow Condensed',sans-serif;font-weight:600;
+  font-size:11pt;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--acento);
+}
+.titulo{
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;
+  font-size:40pt;line-height:1.02;letter-spacing:-.01em;text-transform:uppercase;
+}
+.titulo-serif{font-family:'Spectral',serif;font-weight:800;font-size:30pt;line-height:1.12;letter-spacing:-.015em}
+.sub{font-size:13pt;line-height:1.5;font-weight:300;color:var(--tinta-fraca);max-width:150mm}
+.corpo{font-size:10.5pt;line-height:1.62;font-weight:400;max-width:155mm}
+.corpo + .corpo{margin-top:3.4mm}
+.fino{font-size:9pt;line-height:1.5;color:var(--tinta-fraca)}
+b,strong{font-weight:600}
+em{font-style:italic}
+
+.regua{width:100%;height:1px;background:var(--regua);margin:6mm 0}
+.regua.curta{width:22mm;height:3px;background:var(--acento);margin:5mm 0}
+
+/* --- rodape de pagina --- */
+.rodape{
+  position:absolute;left:20mm;right:20mm;bottom:12mm;
+  display:flex;justify-content:space-between;align-items:baseline;
+  font-family:'Barlow Condensed',sans-serif;font-size:9pt;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--tinta-fraca);
+  padding-top:3mm;border-top:1px solid var(--regua);
+}
+.pagina.escura .rodape{color:rgba(242,239,233,.6);border-top-color:rgba(242,239,233,.2)}
+
+/* ============ CAPA ============ */
+.capa{padding:0;display:block}
+.capa .foto{
+  position:absolute;inset:0;
+  background:url('assets/retrato.jpg') center 18% / cover no-repeat;
+}
+.capa .veu{
+  position:absolute;inset:0;
+  background:linear-gradient(176deg,rgba(23,22,20,.30) 0%,rgba(23,22,20,.58) 44%,rgba(23,22,20,.94) 76%,rgba(23,22,20,.98) 100%);
+}
+.capa .conteudo{position:absolute;left:20mm;right:20mm;bottom:22mm;color:var(--papel)}
+.capa .etiqueta{color:var(--acento-claro)}
+.capa .nome{
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;
+  font-size:58pt;line-height:.94;text-transform:uppercase;letter-spacing:-.012em;
+  margin:4mm 0 5mm 0;
+}
+.capa .frase{font-size:15pt;line-height:1.42;font-weight:300;max-width:140mm;color:rgba(242,239,233,.93)}
+.capa .barra{width:28mm;height:4px;background:var(--acento-claro);margin-bottom:7mm}
+.capa .topo{position:absolute;top:18mm;left:20mm;right:20mm;display:flex;justify-content:space-between;align-items:center}
+.capa .topo img{height:16mm;opacity:.95}
+.capa .topo span{font-family:'Barlow Condensed',sans-serif;font-size:10pt;letter-spacing:.24em;text-transform:uppercase;color:rgba(242,239,233,.8)}
+
+/* ============ NUMEROS ============ */
+.numeros{display:grid;grid-template-columns:repeat(2,1fr);gap:9mm 12mm;margin:7mm 0}
+.num .n{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:34pt;line-height:1;color:var(--acento)}
+.pagina.escura .num .n{color:var(--acento-claro)}
+.num .t{font-size:9.5pt;line-height:1.42;color:var(--tinta-fraca);margin-top:1.5mm;max-width:70mm}
+.pagina.escura .num .t{color:rgba(242,239,233,.72)}
+
+/* ============ TEMAS ============ */
+.tema{margin-bottom:13mm;padding-bottom:13mm;border-bottom:1px solid var(--regua)}
+.tema:last-child{border-bottom:none}
+.tema .ord{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:10pt;letter-spacing:.2em;color:var(--acento)}
+.tema h3{font-family:'Spectral',serif;font-weight:800;font-size:20pt;line-height:1.2;margin:2.5mm 0 3.5mm 0;letter-spacing:-.01em}
+.tema .dor{font-size:11.5pt;line-height:1.55;font-style:italic;color:var(--tinta-fraca);margin-bottom:4.5mm}
+.tema ul{list-style:none;font-size:11pt;line-height:1.72;columns:2;column-gap:12mm}
+.tema li{padding-left:5mm;position:relative;margin-bottom:1.2mm;break-inside:avoid}
+.tema li::before{content:"";position:absolute;left:0;top:2.1mm;width:2.4mm;height:2.4mm;background:var(--acento)}
+.tema .publico{font-family:'Barlow Condensed',sans-serif;font-size:10.5pt;letter-spacing:.1em;text-transform:uppercase;color:var(--tinta-fraca);margin-top:3mm}
+
+/* ============ LISTA DE CREDENCIAIS ============ */
+.cred{list-style:none;font-size:11pt;line-height:1.55}
+.cred li{padding-left:7mm;position:relative;margin-bottom:5mm}
+.cred li::before{content:"";position:absolute;left:0;top:1.9mm;width:3.6mm;height:1.6px;background:var(--acento)}
+.pagina.escura .cred li::before{background:var(--acento-claro)}
+
+/* ============ CITACAO ============ */
+.citacao{
+  font-family:'Spectral',serif;font-style:italic;font-weight:300;
+  font-size:19pt;line-height:1.34;max-width:150mm;
+  border-left:3px solid var(--acento);padding-left:7mm;margin:7mm 0;
+}
+.pagina.escura .citacao{border-left-color:var(--acento-claro)}
+
+/* ============ FORMATOS ============ */
+.formatos{display:grid;grid-template-columns:repeat(3,1fr);gap:7mm;margin:6mm 0}
+.fmt{border-top:3px solid var(--acento);padding-top:3.5mm}
+.pagina.escura .fmt{border-top-color:var(--acento-claro)}
+.fmt .h{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13pt;text-transform:uppercase;letter-spacing:.04em}
+.fmt .d{font-size:9pt;line-height:1.5;color:var(--tinta-fraca);margin-top:1.5mm}
+.pagina.escura .fmt .d{color:rgba(242,239,233,.72)}
+
+/* ============ CONTATO ============ */
+.contato{display:grid;grid-template-columns:1fr 1fr;gap:8mm;margin-top:7mm}
+.contato .item .r{font-family:'Barlow Condensed',sans-serif;font-size:9.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--acento-claro);margin-bottom:1.5mm}
+.contato .item .v{font-size:13pt;font-weight:400}
+
+@media print{
+  body{background:none}
+  .pagina{margin:0;page-break-after:always;box-shadow:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ 1 · CAPA ============ -->
+<section class="pagina capa">
+  <div class="foto"></div>
+  <div class="veu"></div>
+  <div class="topo">
+    <img src="assets/logo.png" alt="Grupo Sena">
+    <span>Media Kit · Palestras e Treinamentos</span>
+  </div>
+  <div class="conteudo">
+    <div class="barra"></div>
+    <div class="etiqueta">Gestão · Reforma Tributária · Reestruturação de Negócios</div>
+    <div class="nome">Gilberto<br>Sena</div>
+    <p class="frase">O contador diz o que a lei manda.<br>Eu digo o que fazer com isso.</p>
+  </div>
+</section>
+
+<!-- ============ 2 · QUEM É ============ -->
+<section class="pagina">
+  <div class="etiqueta">Quem fala com a sua plateia</div>
+  <div class="regua curta"></div>
+  <h1 class="titulo-serif">Um gestor que esteve dos dois lados da mesa.</h1>
+
+  <div style="height:6mm"></div>
+
+  <p class="corpo">Gilberto Luís de Sena é fundador e CEO do <b>Grupo Sena Soluções
+  Empresariais</b>, que estrutura negócios com contabilidade, auditoria fiscal e
+  tributária, assessoria jurídica e gestão financeira. Sede em Belo Horizonte e
+  atuação em Goiânia, São Paulo, Brasília e Rio de Janeiro.</p>
+
+  <p class="corpo">É bacharel em Teologia pelo SETEAD, pós-graduado em Direito
+  Tributário (720 horas) pela FAVENI e Agente Autônomo de Investimento habilitado
+  pela ANCORD. Autor de <em>Os 5 G's da Gestão Empreendedora</em> e criador da
+  <b>Reengenharia Empresarial</b>, metodologia própria de reestruturação de negócios.</p>
+
+  <p class="corpo">Antes de abrir a própria empresa, passou dez anos como executivo
+  em três multinacionais de telecomunicações. Antes disso, foi servente de pedreiro,
+  camelô, motoboy e dono de carrinho de cachorro-quente. <b>Quebrou sete vezes</b>
+  ao longo do caminho, e é dessa conta que ele fala quando sobe no palco.</p>
+
+  <div class="regua"></div>
+
+  <div class="numeros">
+    <div class="num"><div class="n">+15 anos</div><div class="t">dentro de empresas, resolvendo o que trava o crescimento</div></div>
+    <div class="num"><div class="n">+500</div><div class="t">empresas e empresários orientados</div></div>
+    <div class="num"><div class="n">R$ 500 mi</div><div class="t">economizados em impostos pelos clientes que ele atendeu</div></div>
+    <div class="num"><div class="n">5</div><div class="t">escritórios do Grupo Sena em operação no Brasil</div></div>
+  </div>
+
+  <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>02</span></div>
+</section>
+
+<!-- ============ 3 · A DIFERENÇA ============ -->
+<section class="pagina escura">
+  <div class="etiqueta">Por que ele, e não outro</div>
+  <div class="regua curta"></div>
+  <h1 class="titulo">Não é palestra<br>motivacional.</h1>
+
+  <div style="height:5mm"></div>
+
+  <p class="corpo">A maior parte do que se ouve em evento de empresário cabe em
+  duas categorias: o técnico que explica a lei e não sabe o que fazer com ela, ou
+  o motivacional que levanta a plateia e não deixa nada no dia seguinte.</p>
+
+  <p class="corpo">O lugar do Gilberto é o terceiro. Ele fala de <b>decisão de
+  negócio</b>, com número na mesa, porque passou quinze anos tomando essas decisões
+  dentro de empresas que estavam quebrando. E fala de prejuízo próprio, não de
+  teoria, porque quebrou sete vezes antes de montar o que tem hoje.</p>
+
+  <div class="citacao">Nenhuma empresa quebra de morte súbita. Ela avisa durante
+  meses, e o dono é o último a querer escutar.</div>
+
+  <p class="corpo">Esse é o tom: direto, com história real e com conta feita. A
+  plateia sai sabendo o que fazer na segunda-feira de manhã, não sabendo que
+  precisa de mais garra.</p>
+
+  <div class="regua"></div>
+  <div class="formatos">
+    <div class="fmt"><div class="h">Palestra</div><div class="d">45 a 60 minutos, com 15 de perguntas. Para congresso, convenção e evento de associação.</div></div>
+    <div class="fmt"><div class="h">Treinamento</div><div class="d">3 a 8 horas, em bloco único ou dividido. Para equipe de gestão e time comercial.</div></div>
+    <div class="fmt"><div class="h">Imersão</div><div class="d">1 a 2 dias, grupo fechado, com diagnóstico de cada negócio presente.</div></div>
+  </div>
+
+  <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>03</span></div>
+</section>
+
+<!-- ============ 4 · TEMAS ============ -->
+<section class="pagina">
+  <div class="etiqueta">Os temas</div>
+  <div class="regua curta"></div>
+  <h1 class="titulo-serif">O que ele leva para o seu palco.</h1>
+  <div style="height:5mm"></div>
+
+  <div class="tema">
+    <div class="ord">TEMA 01</div>
+    <h3>A reforma tributária e o que ela faz com a sua empresa</h3>
+    <p class="dor">Resolve: o empresário que ouviu falar de CBS, IBS e split payment,
+    está com medo, e não sabe o que isso muda no caixa dele em 2027.</p>
+    <ul>
+      <li>O que muda, quando e quanto</li>
+      <li>CBS, IBS e Imposto Seletivo</li>
+      <li>Split payment e o fim do float</li>
+      <li>Simples Nacional: as janelas que restam</li>
+      <li>O que decidir agora e o que pode esperar</li>
+      <li>Os erros que já estão sendo cometidos</li>
+    </ul>
+    <div class="publico">Para: associação, sindicato, convenção setorial, grupo de empresários</div>
+  </div>
+
+  <div class="tema">
+    <div class="ord">TEMA 02</div>
+    <h3>Os 5 G's da Gestão Empreendedora</h3>
+    <p class="dor">Resolve: o dono que não consegue sair do operacional e confunde
+    movimento com gestão.</p>
+    <ul>
+      <li>Gestão de si</li>
+      <li>Gestão financeira</li>
+      <li>Gestão de pessoas</li>
+      <li>Gestão tributária</li>
+      <li>Gestão de fornecedores e clientes</li>
+      <li>Estar na operação x estar no operacional</li>
+    </ul>
+    <div class="publico">Para: convenção de franqueados, equipe de gestão, evento de empreendedorismo</div>
+  </div>
+
+  <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>04</span></div>
+</section>
+
+<!-- ============ 5 · TEMAS (continuação) ============ -->
+<section class="pagina">
+  <div class="etiqueta">Os temas · continuação</div>
+  <div class="regua curta"></div>
+
+  <div class="tema">
+    <div class="ord">TEMA 03</div>
+    <h3>Reengenharia Empresarial: reestruturar antes de quebrar</h3>
+    <p class="dor">Resolve: a empresa que fatura e não sobra, e o dono que já tentou
+    cortar custo sem entender onde o dinheiro some.</p>
+    <ul>
+      <li>O sofisma do faturamento</li>
+      <li>Ponto de equilíbrio de verdade</li>
+      <li>Ler o DRE como quem decide</li>
+      <li>Os cinco sinais de estagnação</li>
+      <li>Fluxo de caixa e capital de giro</li>
+      <li>Por onde começa a reestruturação</li>
+    </ul>
+    <div class="publico">Para: grupo de empresários, mentoria coletiva, treinamento in company</div>
+  </div>
+
+  <div class="tema">
+    <div class="ord">TEMA 04</div>
+    <h3>Sete quedas: o que o prejuízo ensinou</h3>
+    <p class="dor">Resolve: a plateia que precisa de exemplo real de recomeço, sem
+    discurso de superação fabricado.</p>
+    <ul>
+      <li>De motoboy a CEO, sem atalho</li>
+      <li>Cada quebra e o erro específico</li>
+      <li>Contrato assinado sem ler</li>
+      <li>Sociedade sem acordo</li>
+      <li>O que se faz no dia seguinte</li>
+      <li>Maturidade como decisão, não como fase</li>
+    </ul>
+    <div class="publico">Para: abertura ou encerramento de evento, convenção de vendas</div>
+  </div>
+
+  <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>05</span></div>
+</section>
+
+<!-- ============ 5 · CREDENCIAIS ============ -->
+<section class="pagina">
+  <div class="etiqueta">Formação, obra e reconhecimento</div>
+  <div class="regua curta"></div>
+  <h1 class="titulo-serif">O lastro.</h1>
+  <div style="height:6mm"></div>
+
+  <div class="etiqueta" style="color:var(--tinta-fraca)">Formação</div>
+  <div style="height:3mm"></div>
+  <ul class="cred">
+    <li>Bacharel em Teologia pelo Seminário de Educação Teológica Kerigma Didache (SETEAD)</li>
+    <li>Pós-graduado em Direito Tributário, 720 horas, pela FAVENI / Instituto de Educação Século XXI</li>
+    <li>Agente Autônomo de Investimento (AAI) habilitado pela ANCORD</li>
+  </ul>
+
+  <div class="regua"></div>
+
+  <div class="etiqueta" style="color:var(--tinta-fraca)">Obra</div>
+  <div style="height:3mm"></div>
+  <ul class="cred">
+    <li>Autor de <em>Os 5 G's da Gestão Empreendedora</em></li>
+    <li>Coautor de capítulo em obra organizada por <b>Janguiê Diniz</b>, fundador do Grupo Ser Educacional e presidente do Instituto Êxito de Empreendedorismo</li>
+    <li>Criador da metodologia <b>Reengenharia Empresarial e Negócio Exponencial</b></li>
+    <li>Idealizador do <b>Summit do Gestor</b>, evento anual para transformar gestores em CEOs</li>
+  </ul>
+
+  <div class="regua"></div>
+
+  <div class="etiqueta" style="color:var(--tinta-fraca)">Reconhecimento</div>
+  <div style="height:3mm"></div>
+  <ul class="cred">
+    <li>Conselheiro do <b>Instituto Êxito de Empreendedorismo</b></li>
+    <li>Palestrante no <b>Summit Êxito de Empreendedorismo</b>, 2022</li>
+    <li>Capa da <b>Revista Empreenda</b>, edição 75, com a reportagem sobre a trajetória de motoboy a empresário</li>
+  </ul>
+
+  <div class="regua"></div>
+  <p class="corpo"><b>O que isso quer dizer para o seu evento:</b> a plateia não vai
+  ouvir alguém repetindo o que leu. Vai ouvir quem assina a metodologia, escreveu o
+  livro e atende as empresas de que está falando.</p>
+
+  <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>06</span></div>
+</section>
+
+<!-- ============ 6 · CONTATO ============ -->
+<section class="pagina escura">
+  <div class="etiqueta">Para contratar</div>
+  <div class="regua curta"></div>
+  <h1 class="titulo">Vamos conversar<br>sobre o seu evento.</h1>
+
+  <div style="height:6mm"></div>
+  <p class="corpo">Cada palestra é ajustada ao público antes do palco. Mande o perfil
+  da plateia, o objetivo do encontro e a data, e eu devolvo a proposta com o tema
+  recomendado, a duração e as condições.</p>
+
+  <div class="regua"></div>
+
+  <div class="contato">
+    <div class="item"><div class="r">Instagram</div><div class="v">@gilbertosenaoficial</div></div>
+    <div class="item"><div class="r">Site</div><div class="v">gilbertosena.com.br</div></div>
+    <div class="item"><div class="r">E-mail</div><div class="v">[preencher]</div></div>
+    <div class="item"><div class="r">WhatsApp comercial</div><div class="v">[preencher]</div></div>
+  </div>
+
+  <div style="height:auto;flex:1"></div>
+
+  <p class="fino" style="max-width:150mm">Grupo Sena Soluções Empresariais ·
+  Belo Horizonte · Goiânia · São Paulo · Brasília · Rio de Janeiro</p>
+
+  <div class="rodape"><span>Gilberto Sena · Media Kit · 2026</span><span>07</span></div>
+</section>
+
+</body>
+</html>
