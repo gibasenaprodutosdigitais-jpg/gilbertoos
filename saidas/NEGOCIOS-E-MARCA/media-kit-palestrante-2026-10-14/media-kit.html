@@ -74,7 +74,7 @@ em{font-style:italic}
 .capa{padding:0;display:block}
 .capa .foto{
   position:absolute;inset:0;
-  background:url('assets/retrato.jpg') center 18% / cover no-repeat;
+  background:url('assets/retrato.jpg') center 7% / cover no-repeat;
 }
 .capa .veu{
   position:absolute;inset:0;
@@ -158,14 +158,18 @@ em{font-style:italic}
 
 
 /* retratos do ensaio, pra variar o visual entre paginas */
-.coluna-foto{position:absolute;right:0;top:0;bottom:0;width:72mm;
-  background-size:cover;background-position:center 22%}
+.coluna-foto{position:absolute;right:0;top:0;bottom:0;width:76mm;
+  background-size:100% auto;background-repeat:no-repeat;
+  background-position:center 30%;
+  /* a borda dura virava adesivo colado na pagina. A mascara dissolve. */
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 16%,#000 80%,transparent 96%);
+  mask-image:linear-gradient(180deg,transparent 0%,#000 16%,#000 80%,transparent 96%)}
 .coluna-foto::after{content:"";position:absolute;inset:0;
-  background:linear-gradient(90deg,#171614 0%,rgba(23,22,20,.35) 42%,rgba(23,22,20,0) 100%)}
+  background:linear-gradient(90deg,#171614 0%,rgba(23,22,20,.30) 26%,rgba(23,22,20,0) 58%)}
 .coluna-foto.clara::after{
-  background:linear-gradient(90deg,#F2EFE9 0%,rgba(242,239,233,.30) 44%,rgba(242,239,233,0) 100%)}
-.pagina.com-coluna{padding-right:84mm}
-.pagina.com-coluna .rodape{right:84mm}
+  background:linear-gradient(90deg,#F2EFE9 0%,rgba(242,239,233,.26) 28%,rgba(242,239,233,0) 60%)}
+.pagina.com-coluna{padding-right:86mm}
+.pagina.com-coluna .rodape{right:86mm}
 
 @media print{
   body{background:none}
