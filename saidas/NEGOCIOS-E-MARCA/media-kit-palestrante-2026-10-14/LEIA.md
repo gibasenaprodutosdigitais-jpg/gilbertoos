@@ -271,3 +271,38 @@ de empresas não.** São 500, 1.500 ou 2.000.
 **O kit está com +500**, que é o confirmado por ele. Mas três números diferentes
 circulando em material público é o tipo de coisa que alguém nota, e quem nota
 costuma ser justamente quem estava decidindo se contrata.
+
+---
+
+# Os dois vídeos do Drive, em 15/out
+
+Esses eu consegui baixar, porque o Drive entrega por link e o Instagram não.
+Guardados em `entrada-videos/palco-e-eventos/`.
+
+| Arquivo | O que é |
+|---|---|
+| `palco-alphaville-2024-historia.mp4` | 1080x1920, 70s. Ele no palco contando a própria história |
+| `palco-alphaville-2024-homem-resolve.mp4` | 720x1280, 38s. Mesmo palco, enquadramento fechado |
+
+**O primeiro deu a melhor foto do kit.** O vídeo é uma tarja de palco no meio
+de um quadro vertical, com legenda queimada embaixo. Recortei só a tarja, aos
+22 segundos, e saiu ele de corpo inteiro, de microfone, com o telão do
+Empreenda Summit Alphaville atrás. Sem legenda e sem arte de emissora.
+
+Essa substituiu o quadro do CONECTV como imagem principal da página do palco.
+A do Summit Êxito, com plateia no quadro, ficou como a segunda.
+
+## E já existe material de showreel
+
+Somando o que apareceu hoje:
+
+| Fonte | Tempo | Onde |
+|---|---|---|
+| Alphaville, a história | 70s | Drive |
+| Alphaville, o homem resolve | 38s | Drive |
+| Alphaville, entrevista CONECTV | 2m45 | YouTube |
+| Palestra Expresso 97 | 63s | computador dele |
+
+São mais de **5 minutos de palco**, de dois eventos. **Dá pra montar o
+showreel de 1 a 2 minutos** que estava marcado como faltando na lista dele.
+Falta ele dizer que quer.
