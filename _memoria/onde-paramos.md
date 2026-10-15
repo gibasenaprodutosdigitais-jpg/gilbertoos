@@ -257,7 +257,17 @@ data. Isso é série pronta, e vale até 2027.
 
 **11 peças cortadas e liberadas** em
 `saidas/REELS/reels-gravacoes-longas-2026-10-14/`: a âncora, os 7 pecados e 3
-bônus. Textos dos três canais em `textos.json`. **Nenhuma agendada ainda.**
+bônus. Textos dos três canais em `textos.json`.
+
+✅ **AGENDADAS em 15/out**, de 22 a 29/out. A grade está em
+`saidas/_CONTROLE/_serie-7-pecados-agendada.md`. A série sai **uma por dia às
+12:00** e os bônus às 20:00 nos três primeiros dias.
+
+⚡ **Cada peça é UM post com as 3 redes juntas**, não três posts. O
+`customContent` por entrada de `platforms[]` substitui o `content` do topo,
+então Instagram, TikTok e YouTube levam legenda própria na mesma chamada.
+Isso cortou 33 chamadas para 11. O YouTube leva o título em
+`platformSpecificData.title`.
 
 ### ✅ Os quatro foram corrigidos no corte — 15/out/2026
 
