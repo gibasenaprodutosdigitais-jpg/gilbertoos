@@ -1,0 +1,3 @@
+file '/Users/gilbertosena/Desktop/GilbertoOS/saidas/cortes-giba-luan-2026-09-06/edit/work/c6_seg0.mp4'
+file '/Users/gilbertosena/Desktop/GilbertoOS/saidas/cortes-giba-luan-2026-09-06/edit/work/c6_seg1.mp4'
+file '/Users/gilbertosena/Desktop/GilbertoOS/saidas/cortes-giba-luan-2026-09-06/edit/work/c6_seg2.mp4'

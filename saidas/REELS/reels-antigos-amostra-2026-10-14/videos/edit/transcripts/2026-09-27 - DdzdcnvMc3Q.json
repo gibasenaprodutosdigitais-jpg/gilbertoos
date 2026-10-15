@@ -1,0 +1,89 @@
+{
+  "language_code": "en",
+  "language_probability": 0.9241,
+  "text": "Don't tell your dream, wanna see you down",
+  "words": [
+    {
+      "text": "Don't",
+      "start": 0.0,
+      "end": 0.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7644
+    },
+    {
+      "text": "tell",
+      "start": 0.76,
+      "end": 0.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7001
+    },
+    {
+      "text": "your",
+      "start": 0.8,
+      "end": 0.83,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9243
+    },
+    {
+      "text": " ",
+      "start": 0.83,
+      "end": 1.04,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "dream,",
+      "start": 1.04,
+      "end": 1.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.1897
+    },
+    {
+      "text": " ",
+      "start": 1.2,
+      "end": 5.858,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "wanna",
+      "start": 5.858,
+      "end": 5.91,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6022
+    },
+    {
+      "text": "see",
+      "start": 5.91,
+      "end": 6.23,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9872
+    },
+    {
+      "text": "you",
+      "start": 6.23,
+      "end": 6.57,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9929
+    },
+    {
+      "text": "down",
+      "start": 6.57,
+      "end": 6.87,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9837
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

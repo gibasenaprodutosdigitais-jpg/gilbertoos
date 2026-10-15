@@ -1,0 +1,344 @@
+{
+  "language_code": "pt",
+  "language_probability": 1.0,
+  "text": "Eu particularmente gosto um pouco do marketing da moda antiga, agregado com a tecnologia. Eu gosto de uma venda mais humanizada, eu não sou full tecnologia não, porque eu acho que isso também estraga a conexão com o cliente.",
+  "words": [
+    {
+      "text": "Eu",
+      "start": 0.034,
+      "end": 0.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.149
+    },
+    {
+      "text": "particularmente",
+      "start": 0.24,
+      "end": 0.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9046
+    },
+    {
+      "text": "gosto",
+      "start": 0.76,
+      "end": 2.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9768
+    },
+    {
+      "text": "um",
+      "start": 2.0,
+      "end": 2.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.96
+    },
+    {
+      "text": "pouco",
+      "start": 2.24,
+      "end": 2.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9986
+    },
+    {
+      "text": "do",
+      "start": 2.46,
+      "end": 2.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9954
+    },
+    {
+      "text": "marketing",
+      "start": 2.6,
+      "end": 2.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9842
+    },
+    {
+      "text": "da",
+      "start": 2.96,
+      "end": 3.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9346
+    },
+    {
+      "text": "moda",
+      "start": 3.96,
+      "end": 4.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9993
+    },
+    {
+      "text": "antiga,",
+      "start": 4.32,
+      "end": 4.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9993
+    },
+    {
+      "text": "agregado",
+      "start": 4.8,
+      "end": 5.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.997
+    },
+    {
+      "text": "com",
+      "start": 5.94,
+      "end": 6.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9992
+    },
+    {
+      "text": "a",
+      "start": 6.04,
+      "end": 6.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9972
+    },
+    {
+      "text": "tecnologia.",
+      "start": 6.1,
+      "end": 6.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9998
+    },
+    {
+      "text": " ",
+      "start": 6.44,
+      "end": 6.74,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Eu",
+      "start": 6.74,
+      "end": 7.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9952
+    },
+    {
+      "text": "gosto",
+      "start": 7.06,
+      "end": 7.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9988
+    },
+    {
+      "text": "de",
+      "start": 7.26,
+      "end": 7.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9981
+    },
+    {
+      "text": "uma",
+      "start": 7.38,
+      "end": 7.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": "venda",
+      "start": 7.46,
+      "end": 7.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9998
+    },
+    {
+      "text": "mais",
+      "start": 7.76,
+      "end": 7.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "humanizada,",
+      "start": 7.9,
+      "end": 8.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9747
+    },
+    {
+      "text": " ",
+      "start": 8.5,
+      "end": 9.02,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "eu",
+      "start": 9.02,
+      "end": 9.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6088
+    },
+    {
+      "text": "não",
+      "start": 9.46,
+      "end": 9.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8412
+    },
+    {
+      "text": "sou",
+      "start": 9.86,
+      "end": 10.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9977
+    },
+    {
+      "text": "full",
+      "start": 10.56,
+      "end": 10.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8202
+    },
+    {
+      "text": "tecnologia",
+      "start": 10.9,
+      "end": 11.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.991
+    },
+    {
+      "text": "não,",
+      "start": 11.36,
+      "end": 11.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9569
+    },
+    {
+      "text": " ",
+      "start": 11.78,
+      "end": 11.82,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "porque",
+      "start": 11.82,
+      "end": 11.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9967
+    },
+    {
+      "text": "eu",
+      "start": 11.96,
+      "end": 12.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9911
+    },
+    {
+      "text": "acho",
+      "start": 12.1,
+      "end": 12.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "que",
+      "start": 12.3,
+      "end": 12.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "isso",
+      "start": 12.4,
+      "end": 12.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9993
+    },
+    {
+      "text": "também",
+      "start": 12.48,
+      "end": 12.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4201
+    },
+    {
+      "text": "estraga",
+      "start": 12.6,
+      "end": 13.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9998
+    },
+    {
+      "text": "a",
+      "start": 13.4,
+      "end": 13.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "conexão",
+      "start": 13.62,
+      "end": 14.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9998
+    },
+    {
+      "text": "com",
+      "start": 14.58,
+      "end": 14.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9964
+    },
+    {
+      "text": "o",
+      "start": 14.72,
+      "end": 14.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9787
+    },
+    {
+      "text": "cliente.",
+      "start": 14.76,
+      "end": 15.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "large-v3",
+  "diarization": false,
+  "audio_events": false
+}

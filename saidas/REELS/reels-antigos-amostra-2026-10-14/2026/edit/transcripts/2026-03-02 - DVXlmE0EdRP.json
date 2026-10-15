@@ -1,0 +1,876 @@
+{
+  "language_code": "pt",
+  "language_probability": 0.9973,
+  "text": "hoje foi nosso primeiro dia dos obstinados pela nova zelândia e a nossa primeira parada foi a encantada caverna de Waitomo um verdadeiro espetáculo da natureza descemos pelas cavernas e no silêncio absoluto navegamos sob um teto iluminado por milhares de glowworms depois da caverna de Waitomo, o próximo destino foi um dos lugares mais mágicos do cinema o vilarejo dos hobbits, o cenário oficial de o senhor dos anéis esse foi só o nosso primeiro dia na nova zelândia e já estamos vivendo algo que mistura a natureza surreal e fantasia cinematográfica Vem com a Tagino Adventure e viva momentos incríveis!",
+  "words": [
+    {
+      "text": "hoje",
+      "start": 5.186,
+      "end": 5.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6056
+    },
+    {
+      "text": "foi",
+      "start": 5.36,
+      "end": 5.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9948
+    },
+    {
+      "text": "nosso",
+      "start": 5.54,
+      "end": 5.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8558
+    },
+    {
+      "text": "primeiro",
+      "start": 5.74,
+      "end": 6.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9716
+    },
+    {
+      "text": "dia",
+      "start": 6.04,
+      "end": 6.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9933
+    },
+    {
+      "text": "dos",
+      "start": 6.22,
+      "end": 6.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9847
+    },
+    {
+      "text": "obstinados",
+      "start": 6.44,
+      "end": 7.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9523
+    },
+    {
+      "text": "pela",
+      "start": 7.0,
+      "end": 7.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9959
+    },
+    {
+      "text": "nova",
+      "start": 7.22,
+      "end": 7.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4432
+    },
+    {
+      "text": "zelândia",
+      "start": 7.5,
+      "end": 7.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8742
+    },
+    {
+      "text": "e",
+      "start": 7.96,
+      "end": 8.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8606
+    },
+    {
+      "text": "a",
+      "start": 8.18,
+      "end": 8.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9909
+    },
+    {
+      "text": "nossa",
+      "start": 8.3,
+      "end": 8.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9992
+    },
+    {
+      "text": "primeira",
+      "start": 8.54,
+      "end": 8.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9976
+    },
+    {
+      "text": "parada",
+      "start": 8.98,
+      "end": 9.534,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9979
+    },
+    {
+      "text": " ",
+      "start": 9.534,
+      "end": 9.666,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "foi",
+      "start": 9.666,
+      "end": 9.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.976
+    },
+    {
+      "text": "a",
+      "start": 9.84,
+      "end": 10.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9743
+    },
+    {
+      "text": "encantada",
+      "start": 10.0,
+      "end": 10.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9014
+    },
+    {
+      "text": "caverna",
+      "start": 10.52,
+      "end": 10.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9867
+    },
+    {
+      "text": "de",
+      "start": 10.92,
+      "end": 11.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9725
+    },
+    {
+      "text": "Waitomo",
+      "start": 11.1,
+      "end": 11.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7237
+    },
+    {
+      "text": "um",
+      "start": 11.54,
+      "end": 12.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8618
+    },
+    {
+      "text": "verdadeiro",
+      "start": 12.2,
+      "end": 12.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9965
+    },
+    {
+      "text": "espetáculo",
+      "start": 12.58,
+      "end": 13.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9955
+    },
+    {
+      "text": "da",
+      "start": 13.12,
+      "end": 13.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9956
+    },
+    {
+      "text": "natureza",
+      "start": 13.32,
+      "end": 13.886,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": " ",
+      "start": 13.886,
+      "end": 14.402,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "descemos",
+      "start": 14.402,
+      "end": 14.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9806
+    },
+    {
+      "text": "pelas",
+      "start": 14.82,
+      "end": 15.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9968
+    },
+    {
+      "text": "cavernas",
+      "start": 15.16,
+      "end": 15.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": "e",
+      "start": 15.7,
+      "end": 15.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9775
+    },
+    {
+      "text": "no",
+      "start": 15.86,
+      "end": 16.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9874
+    },
+    {
+      "text": "silêncio",
+      "start": 16.0,
+      "end": 16.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9943
+    },
+    {
+      "text": "absoluto",
+      "start": 16.44,
+      "end": 17.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9993
+    },
+    {
+      "text": "navegamos",
+      "start": 17.08,
+      "end": 17.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9856
+    },
+    {
+      "text": "sob",
+      "start": 17.66,
+      "end": 17.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9606
+    },
+    {
+      "text": "um",
+      "start": 17.86,
+      "end": 18.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9782
+    },
+    {
+      "text": "teto",
+      "start": 18.24,
+      "end": 18.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9958
+    },
+    {
+      "text": "iluminado",
+      "start": 18.46,
+      "end": 19.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9973
+    },
+    {
+      "text": "por",
+      "start": 19.02,
+      "end": 19.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9979
+    },
+    {
+      "text": "milhares",
+      "start": 19.28,
+      "end": 19.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": "de",
+      "start": 19.76,
+      "end": 19.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9985
+    },
+    {
+      "text": "glowworms",
+      "start": 19.96,
+      "end": 21.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7503
+    },
+    {
+      "text": "depois",
+      "start": 21.3,
+      "end": 21.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9395
+    },
+    {
+      "text": "da",
+      "start": 21.52,
+      "end": 21.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9977
+    },
+    {
+      "text": "caverna",
+      "start": 21.7,
+      "end": 22.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.995
+    },
+    {
+      "text": "de",
+      "start": 22.14,
+      "end": 22.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9945
+    },
+    {
+      "text": "Waitomo,",
+      "start": 22.38,
+      "end": 22.91,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9585
+    },
+    {
+      "text": " ",
+      "start": 22.91,
+      "end": 23.28,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "o",
+      "start": 23.28,
+      "end": 23.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9973
+    },
+    {
+      "text": "próximo",
+      "start": 23.4,
+      "end": 23.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": "destino",
+      "start": 23.7,
+      "end": 24.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": "foi",
+      "start": 24.12,
+      "end": 24.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": "um",
+      "start": 24.28,
+      "end": 24.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9984
+    },
+    {
+      "text": "dos",
+      "start": 24.44,
+      "end": 24.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": "lugares",
+      "start": 24.6,
+      "end": 24.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "mais",
+      "start": 24.96,
+      "end": 25.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": "mágicos",
+      "start": 25.44,
+      "end": 25.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.997
+    },
+    {
+      "text": "do",
+      "start": 25.92,
+      "end": 26.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.996
+    },
+    {
+      "text": "cinema",
+      "start": 26.16,
+      "end": 26.526,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9943
+    },
+    {
+      "text": " ",
+      "start": 26.526,
+      "end": 26.914,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "o",
+      "start": 26.914,
+      "end": 27.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8386
+    },
+    {
+      "text": "vilarejo",
+      "start": 27.12,
+      "end": 27.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9878
+    },
+    {
+      "text": "dos",
+      "start": 27.58,
+      "end": 27.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9938
+    },
+    {
+      "text": "hobbits,",
+      "start": 27.8,
+      "end": 28.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8219
+    },
+    {
+      "text": " ",
+      "start": 28.36,
+      "end": 28.54,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "o",
+      "start": 28.54,
+      "end": 28.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9755
+    },
+    {
+      "text": "cenário",
+      "start": 28.74,
+      "end": 29.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": "oficial",
+      "start": 29.0,
+      "end": 29.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9992
+    },
+    {
+      "text": "de",
+      "start": 29.46,
+      "end": 30.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9904
+    },
+    {
+      "text": "o",
+      "start": 30.0,
+      "end": 30.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4594
+    },
+    {
+      "text": "senhor",
+      "start": 30.08,
+      "end": 30.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8418
+    },
+    {
+      "text": "dos",
+      "start": 30.36,
+      "end": 30.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9986
+    },
+    {
+      "text": "anéis",
+      "start": 30.62,
+      "end": 31.038,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9974
+    },
+    {
+      "text": " ",
+      "start": 31.038,
+      "end": 44.546,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "esse",
+      "start": 44.546,
+      "end": 44.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9662
+    },
+    {
+      "text": "foi",
+      "start": 44.84,
+      "end": 45.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": "só",
+      "start": 45.02,
+      "end": 45.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9954
+    },
+    {
+      "text": "o",
+      "start": 45.3,
+      "end": 45.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9888
+    },
+    {
+      "text": "nosso",
+      "start": 45.46,
+      "end": 45.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9992
+    },
+    {
+      "text": "primeiro",
+      "start": 45.7,
+      "end": 46.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9908
+    },
+    {
+      "text": "dia",
+      "start": 46.02,
+      "end": 46.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": "na",
+      "start": 46.2,
+      "end": 46.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9912
+    },
+    {
+      "text": "nova",
+      "start": 46.4,
+      "end": 46.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8224
+    },
+    {
+      "text": "zelândia",
+      "start": 46.6,
+      "end": 47.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.984
+    },
+    {
+      "text": "e",
+      "start": 47.04,
+      "end": 47.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6912
+    },
+    {
+      "text": "já",
+      "start": 47.5,
+      "end": 47.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9953
+    },
+    {
+      "text": "estamos",
+      "start": 47.74,
+      "end": 48.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9964
+    },
+    {
+      "text": "vivendo",
+      "start": 48.02,
+      "end": 48.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9968
+    },
+    {
+      "text": "algo",
+      "start": 48.42,
+      "end": 48.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9986
+    },
+    {
+      "text": "que",
+      "start": 48.7,
+      "end": 49.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9957
+    },
+    {
+      "text": "mistura",
+      "start": 49.1,
+      "end": 49.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9977
+    },
+    {
+      "text": "a",
+      "start": 49.44,
+      "end": 49.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4116
+    },
+    {
+      "text": "natureza",
+      "start": 49.68,
+      "end": 50.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.998
+    },
+    {
+      "text": "surreal",
+      "start": 50.14,
+      "end": 50.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9345
+    },
+    {
+      "text": "e",
+      "start": 50.56,
+      "end": 51.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9965
+    },
+    {
+      "text": "fantasia",
+      "start": 51.0,
+      "end": 51.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9866
+    },
+    {
+      "text": "cinematográfica",
+      "start": 51.52,
+      "end": 52.286,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9946
+    },
+    {
+      "text": " ",
+      "start": 52.286,
+      "end": 53.026,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Vem",
+      "start": 53.026,
+      "end": 53.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6097
+    },
+    {
+      "text": "com",
+      "start": 53.3,
+      "end": 53.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9977
+    },
+    {
+      "text": "a",
+      "start": 53.52,
+      "end": 53.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9768
+    },
+    {
+      "text": "Tagino",
+      "start": 53.74,
+      "end": 54.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6887
+    },
+    {
+      "text": "Adventure",
+      "start": 54.14,
+      "end": 54.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9758
+    },
+    {
+      "text": "e",
+      "start": 54.66,
+      "end": 55.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9067
+    },
+    {
+      "text": "viva",
+      "start": 55.08,
+      "end": 55.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9493
+    },
+    {
+      "text": "momentos",
+      "start": 55.24,
+      "end": 55.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9919
+    },
+    {
+      "text": "incríveis!",
+      "start": 55.72,
+      "end": 56.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

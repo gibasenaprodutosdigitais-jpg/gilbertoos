@@ -25,7 +25,7 @@ deck, assinatura de e-mail).
 ## O que já existe
 
 - `business-plan-pitch-investimento.md` — resumo do business plan de 27
-  páginas (PDF + HTML em `saidas/oceo-business-plan-2026-08-03/` no
+  páginas (PDF + HTML em `saidas/NEGOCIOS-E-MARCA/oceo-business-plan-2026-08-03/` no
   GilbertoOS, cópia também no Desktop). **O PDF de 27 páginas em si ainda
   não foi regerado** com o preço/comparativos atuais — precisa nova
   geração se for usado externamente.

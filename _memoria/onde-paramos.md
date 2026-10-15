@@ -210,7 +210,7 @@ roupas de cores opostas, medir a média da metade não diz nada; medir o rosto.
 ## 3. Conteúdo e publicação (Zernio)
 
 **40 posts agendados.** Dia, hora e ID de cada um em
-`saidas/reels-a-postar-2026-10-12/calendario.md`.
+`saidas/REELS/reels-a-postar-2026-10-12/calendario.md`.
 
 | Rede | Quantos | Ritmo | Janela |
 |---|---|---|---|
@@ -237,7 +237,7 @@ do Claude, não no repositório, porque envolve credencial e conta.
 
 **198 reels no Drive, 23 já postados, 175 inéditos.** Ele escolheu revisar só
 o recorte de **2026: 50 vídeos**. O resultado está em
-`saidas/_triagem-reels-antigos-2026-10-14.md`.
+`saidas/_CONTROLE/_triagem-reels-antigos-2026-10-14.md`.
 
 | | |
 |---|---|
@@ -255,7 +255,7 @@ Silvio Santos, Elon Musk, Tony Robbins, Tom e Jerry. Não dá pra republicar:
 risco de direito autoral, o valor era do clipe e não dele, e contraria o
 anti-genérico do posicionamento. Mais 13 eram card ou flyer sem áudio.
 
-Os 8 aprovados estão em `saidas/reels-antigos-amostra-2026-10-14/aprovados/`,
+Os 8 aprovados estão em `saidas/REELS/reels-antigos-amostra-2026-10-14/aprovados/`,
 **fora do git** (regra de vídeo da seção 6). Textos dos três canais em
 `aprovados/textos.json`. Vão direto daqui pra Zernio.
 
@@ -286,7 +286,7 @@ entre os carrosséis, a partir de 21/out, pra não competirem com a fila atual.
 
 ### 2 roteiros separados pra ele regravar
 
-Em `saidas/reels-antigos-amostra-2026-10-14/aprovados/regravar.md`. Os vídeos
+Em `saidas/REELS/reels-antigos-amostra-2026-10-14/aprovados/regravar.md`. Os vídeos
 têm o banner "17/09 Alphaville" queimado em todos os quadros, mas o texto é
 bom demais pra perder:
 
@@ -317,7 +317,7 @@ problema.
 
 ### Carrossel "Quem é Gilberto Sena": card 5 refeito — 13/out/2026
 
-`saidas/carrossel-quem-e-gilberto-2026-10-06/`, 9 cards regerados.
+`saidas/CARROSSEIS/carrossel-quem-e-gilberto-2026-10-06/`, 9 cards regerados.
 
 **Card 5** era a lista de formações e virou **"Antes da empresa, a família"**:
 marido da Erica Sena, pai da Jessyka Sena e do Victor Sena, construindo o
@@ -359,7 +359,7 @@ vez com `posts_update_post` enquanto estiverem em `scheduled`.
 - **Victoria's Secret:** ele vai **regravar**. O vídeo diz que a venda foi de
   4 milhões de dólares e o suicídio dois anos depois; o documentado é
   1 milhão, em 1982, e a morte em agosto de 1993. O texto já escrito está em
-  `saidas/reels-a-postar-2026-10-12/fora-da-fila.json` e serve para a nova
+  `saidas/REELS/reels-a-postar-2026-10-12/fora-da-fila.json` e serve para a nova
   gravação.
 - **Vídeo do Ricardo:** descartado. Quem fala é outro empresário e o CTA
   manda o seguidor para o perfil dele.
@@ -402,7 +402,7 @@ Avisei e ele manteve. Então dá para comparar, no mesmo lote e com o mesmo
 conteúdo, **os 4 da madrugada contra os 10 do horário comercial** — e
 responder se horário importa no TikTok dele, onde a entrega é por Para Você
 e não por seguidor. Calendário em
-`saidas/reels-a-postar-2026-10-12/calendario.md`.
+`saidas/REELS/reels-a-postar-2026-10-12/calendario.md`.
 
 A pergunta a responder: **3 por dia rendeu mais encaminhamento TOTAL na
 semana, ou só diluiu o mesmo bolo em mais posts?** Se diluiu, voltar a

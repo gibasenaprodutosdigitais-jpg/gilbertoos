@@ -1,0 +1,396 @@
+{
+  "language_code": "pt",
+  "language_probability": 1.0,
+  "text": "E o brasileiro tem os melhores programadores do mundo, ou um dos melhores programadores do mundo, porque o brasileiro gosta de improvisar, ele é muito criativo. Mas daí o que acontece? As grandes empresas, principalmente americanas, sabendo disso, levam todos os professores.",
+  "words": [
+    {
+      "text": "E",
+      "start": 0.13,
+      "end": 0.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.778
+    },
+    {
+      "text": "o",
+      "start": 0.16,
+      "end": 0.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9837
+    },
+    {
+      "text": "brasileiro",
+      "start": 0.22,
+      "end": 0.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9924
+    },
+    {
+      "text": "tem",
+      "start": 0.56,
+      "end": 0.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9967
+    },
+    {
+      "text": "os",
+      "start": 0.66,
+      "end": 0.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9188
+    },
+    {
+      "text": "melhores",
+      "start": 0.8,
+      "end": 1.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9993
+    },
+    {
+      "text": "programadores",
+      "start": 1.02,
+      "end": 1.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": "do",
+      "start": 1.6,
+      "end": 1.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9931
+    },
+    {
+      "text": "mundo,",
+      "start": 1.76,
+      "end": 2.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": " ",
+      "start": 2.04,
+      "end": 2.16,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "ou",
+      "start": 2.16,
+      "end": 2.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9835
+    },
+    {
+      "text": "um",
+      "start": 2.4,
+      "end": 2.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9925
+    },
+    {
+      "text": "dos",
+      "start": 2.66,
+      "end": 2.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9992
+    },
+    {
+      "text": "melhores",
+      "start": 2.86,
+      "end": 3.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9988
+    },
+    {
+      "text": "programadores",
+      "start": 3.14,
+      "end": 3.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9981
+    },
+    {
+      "text": "do",
+      "start": 3.98,
+      "end": 4.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9933
+    },
+    {
+      "text": "mundo,",
+      "start": 4.12,
+      "end": 4.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9992
+    },
+    {
+      "text": " ",
+      "start": 4.22,
+      "end": 4.26,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "porque",
+      "start": 4.26,
+      "end": 4.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9869
+    },
+    {
+      "text": "o",
+      "start": 4.4,
+      "end": 4.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9943
+    },
+    {
+      "text": "brasileiro",
+      "start": 4.52,
+      "end": 5.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": "gosta",
+      "start": 5.02,
+      "end": 5.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4086
+    },
+    {
+      "text": "de",
+      "start": 5.28,
+      "end": 6.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "improvisar,",
+      "start": 6.4,
+      "end": 6.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9998
+    },
+    {
+      "text": "ele",
+      "start": 6.86,
+      "end": 6.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9852
+    },
+    {
+      "text": "é",
+      "start": 6.94,
+      "end": 7.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "muito",
+      "start": 7.0,
+      "end": 7.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "criativo.",
+      "start": 7.06,
+      "end": 7.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9998
+    },
+    {
+      "text": " ",
+      "start": 7.62,
+      "end": 8.26,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Mas",
+      "start": 8.26,
+      "end": 8.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9927
+    },
+    {
+      "text": "daí",
+      "start": 8.72,
+      "end": 8.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.948
+    },
+    {
+      "text": "o",
+      "start": 8.96,
+      "end": 9.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9857
+    },
+    {
+      "text": "que",
+      "start": 9.06,
+      "end": 9.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": "acontece?",
+      "start": 9.12,
+      "end": 9.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": " ",
+      "start": 9.44,
+      "end": 9.72,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "As",
+      "start": 9.72,
+      "end": 10.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "grandes",
+      "start": 10.02,
+      "end": 10.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": "empresas,",
+      "start": 10.3,
+      "end": 10.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 1.0
+    },
+    {
+      "text": " ",
+      "start": 10.64,
+      "end": 10.72,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "principalmente",
+      "start": 10.72,
+      "end": 11.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 1.0
+    },
+    {
+      "text": "americanas,",
+      "start": 11.0,
+      "end": 11.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9738
+    },
+    {
+      "text": " ",
+      "start": 11.94,
+      "end": 11.98,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "sabendo",
+      "start": 11.98,
+      "end": 12.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "disso,",
+      "start": 12.86,
+      "end": 13.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 1.0
+    },
+    {
+      "text": " ",
+      "start": 13.04,
+      "end": 13.28,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "levam",
+      "start": 13.28,
+      "end": 13.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "todos",
+      "start": 13.98,
+      "end": 14.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9917
+    },
+    {
+      "text": "os",
+      "start": 14.4,
+      "end": 14.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9971
+    },
+    {
+      "text": "professores.",
+      "start": 14.58,
+      "end": 14.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6903
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "large-v3",
+  "diarization": false,
+  "audio_events": false
+}

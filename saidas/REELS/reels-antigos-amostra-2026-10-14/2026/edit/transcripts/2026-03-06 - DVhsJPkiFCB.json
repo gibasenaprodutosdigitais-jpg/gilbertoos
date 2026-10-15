@@ -1,0 +1,10 @@
+{
+  "language_code": "en",
+  "language_probability": 0.5005,
+  "text": "",
+  "words": [],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

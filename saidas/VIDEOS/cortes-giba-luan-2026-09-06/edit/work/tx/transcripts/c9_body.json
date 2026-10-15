@@ -1,0 +1,306 @@
+{
+  "language_code": "pt",
+  "language_probability": 1.0,
+  "text": "Não é fácil não, irmão. Tem que apanhar muito, né? Chega uma hora, tem que parar de apanhar, né? Não precisa bater não, mas só de parar de apanhar.",
+  "words": [
+    {
+      "text": "Não",
+      "start": 0.0,
+      "end": 0.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5927
+    },
+    {
+      "text": "é",
+      "start": 0.1,
+      "end": 0.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9924
+    },
+    {
+      "text": " ",
+      "start": 0.1,
+      "end": 0.258,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "fácil",
+      "start": 0.258,
+      "end": 0.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9948
+    },
+    {
+      "text": "não,",
+      "start": 0.38,
+      "end": 0.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9439
+    },
+    {
+      "text": " ",
+      "start": 0.6,
+      "end": 0.62,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "irmão.",
+      "start": 0.62,
+      "end": 0.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9961
+    },
+    {
+      "text": " ",
+      "start": 0.88,
+      "end": 1.16,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Tem",
+      "start": 1.16,
+      "end": 1.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9528
+    },
+    {
+      "text": " ",
+      "start": 1.42,
+      "end": 1.506,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "que",
+      "start": 1.506,
+      "end": 1.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9986
+    },
+    {
+      "text": "apanhar",
+      "start": 1.54,
+      "end": 1.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9988
+    },
+    {
+      "text": "muito,",
+      "start": 1.8,
+      "end": 2.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9983
+    },
+    {
+      "text": " ",
+      "start": 2.08,
+      "end": 2.18,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "né?",
+      "start": 2.18,
+      "end": 2.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.996
+    },
+    {
+      "text": " ",
+      "start": 2.32,
+      "end": 2.68,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Chega",
+      "start": 2.68,
+      "end": 2.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9218
+    },
+    {
+      "text": "uma",
+      "start": 2.94,
+      "end": 3.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": "hora,",
+      "start": 3.06,
+      "end": 3.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "tem",
+      "start": 3.28,
+      "end": 3.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9988
+    },
+    {
+      "text": "que",
+      "start": 3.36,
+      "end": 3.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": "parar",
+      "start": 3.48,
+      "end": 3.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9988
+    },
+    {
+      "text": "de",
+      "start": 3.62,
+      "end": 3.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "apanhar,",
+      "start": 3.82,
+      "end": 4.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": " ",
+      "start": 4.2,
+      "end": 4.22,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "né?",
+      "start": 4.22,
+      "end": 4.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9894
+    },
+    {
+      "text": " ",
+      "start": 4.34,
+      "end": 4.44,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Não",
+      "start": 4.44,
+      "end": 4.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9952
+    },
+    {
+      "text": "precisa",
+      "start": 4.58,
+      "end": 4.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": "bater",
+      "start": 4.7,
+      "end": 5.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": "não,",
+      "start": 5.0,
+      "end": 5.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8801
+    },
+    {
+      "text": " ",
+      "start": 5.2,
+      "end": 5.26,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "mas",
+      "start": 5.26,
+      "end": 5.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.953
+    },
+    {
+      "text": "só",
+      "start": 5.32,
+      "end": 5.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9928
+    },
+    {
+      "text": "de",
+      "start": 5.44,
+      "end": 5.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9816
+    },
+    {
+      "text": "parar",
+      "start": 5.54,
+      "end": 5.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": "de",
+      "start": 5.7,
+      "end": 5.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9998
+    },
+    {
+      "text": "apanhar.",
+      "start": 5.86,
+      "end": 6.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "large-v3",
+  "diarization": false,
+  "audio_events": false
+}

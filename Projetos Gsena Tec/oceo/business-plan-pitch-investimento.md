@@ -6,7 +6,7 @@
 
 ## O que foi gerado
 
-Documento de 27 páginas (PDF + HTML) em `saidas/oceo-business-plan-2026-08-03/`,
+Documento de 27 páginas (PDF + HTML) em `saidas/NEGOCIOS-E-MARCA/oceo-business-plan-2026-08-03/`,
 cópia também em `~/Desktop/OCEO - Business Plan e Pitch de Investimento.pdf`.
 Cobre: sumário executivo, o problema, a solução, os 11 módulos, diferenciais
 de produto, análise de mercado (TAM/SAM/SOM), análise competitiva, modelo de

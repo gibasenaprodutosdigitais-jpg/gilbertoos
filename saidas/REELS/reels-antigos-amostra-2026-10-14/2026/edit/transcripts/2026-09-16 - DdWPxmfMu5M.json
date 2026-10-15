@@ -1,0 +1,613 @@
+{
+  "language_code": "pt",
+  "language_probability": 0.9922,
+  "text": "Mas cabeceou. Vai levar alguma coisa, senhor? Não. Só queria ver você trabalhando. Um dia eu ainda vou trabalhar no rádio. Não pare. Você ainda vai falar pra muito mais gente do que imagina. E aí? Deu certo? Deu mais certo do que a gente sonhou. E valeu a pena? Valeu. Mas passa rápido. Vai lá. Ainda tem muita gente esperando por você.",
+  "words": [
+    {
+      "text": "Mas",
+      "start": 1.12,
+      "end": 1.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.1684
+    },
+    {
+      "text": "cabeceou.",
+      "start": 1.52,
+      "end": 1.758,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3152
+    },
+    {
+      "text": " ",
+      "start": 1.758,
+      "end": 10.658,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Vai",
+      "start": 10.658,
+      "end": 10.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6746
+    },
+    {
+      "text": "levar",
+      "start": 10.7,
+      "end": 10.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9959
+    },
+    {
+      "text": "alguma",
+      "start": 10.86,
+      "end": 11.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9751
+    },
+    {
+      "text": "coisa,",
+      "start": 11.1,
+      "end": 11.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9982
+    },
+    {
+      "text": "senhor?",
+      "start": 11.3,
+      "end": 11.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9556
+    },
+    {
+      "text": " ",
+      "start": 11.6,
+      "end": 12.26,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Não.",
+      "start": 12.26,
+      "end": 12.574,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9695
+    },
+    {
+      "text": " ",
+      "start": 12.574,
+      "end": 13.538,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Só",
+      "start": 13.538,
+      "end": 13.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9027
+    },
+    {
+      "text": "queria",
+      "start": 13.68,
+      "end": 13.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9951
+    },
+    {
+      "text": "ver",
+      "start": 13.84,
+      "end": 13.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9841
+    },
+    {
+      "text": "você",
+      "start": 13.96,
+      "end": 14.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9981
+    },
+    {
+      "text": "trabalhando.",
+      "start": 14.22,
+      "end": 14.718,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9943
+    },
+    {
+      "text": " ",
+      "start": 14.718,
+      "end": 15.44,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Um",
+      "start": 15.44,
+      "end": 15.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9459
+    },
+    {
+      "text": "dia",
+      "start": 15.52,
+      "end": 15.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": "eu",
+      "start": 15.6,
+      "end": 15.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7373
+    },
+    {
+      "text": "ainda",
+      "start": 15.66,
+      "end": 15.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9235
+    },
+    {
+      "text": "vou",
+      "start": 15.74,
+      "end": 15.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9962
+    },
+    {
+      "text": "trabalhar",
+      "start": 15.88,
+      "end": 16.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9961
+    },
+    {
+      "text": "no",
+      "start": 16.12,
+      "end": 16.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9809
+    },
+    {
+      "text": "rádio.",
+      "start": 16.24,
+      "end": 16.574,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.998
+    },
+    {
+      "text": " ",
+      "start": 16.574,
+      "end": 17.73,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Não",
+      "start": 17.73,
+      "end": 17.91,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9942
+    },
+    {
+      "text": "pare.",
+      "start": 17.91,
+      "end": 18.11,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9836
+    },
+    {
+      "text": " ",
+      "start": 18.11,
+      "end": 18.978,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Você",
+      "start": 18.978,
+      "end": 19.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9952
+    },
+    {
+      "text": "ainda",
+      "start": 19.18,
+      "end": 19.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9749
+    },
+    {
+      "text": "vai",
+      "start": 19.3,
+      "end": 19.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9956
+    },
+    {
+      "text": "falar",
+      "start": 19.44,
+      "end": 19.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9979
+    },
+    {
+      "text": "pra",
+      "start": 19.64,
+      "end": 19.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8098
+    },
+    {
+      "text": "muito",
+      "start": 19.8,
+      "end": 19.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8755
+    },
+    {
+      "text": "mais",
+      "start": 19.94,
+      "end": 20.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9959
+    },
+    {
+      "text": "gente",
+      "start": 20.06,
+      "end": 20.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9952
+    },
+    {
+      "text": "do",
+      "start": 20.18,
+      "end": 20.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9611
+    },
+    {
+      "text": "que",
+      "start": 20.3,
+      "end": 20.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9991
+    },
+    {
+      "text": "imagina.",
+      "start": 20.44,
+      "end": 20.766,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9891
+    },
+    {
+      "text": " ",
+      "start": 20.766,
+      "end": 35.394,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "E",
+      "start": 35.394,
+      "end": 35.51,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9924
+    },
+    {
+      "text": "aí?",
+      "start": 35.51,
+      "end": 35.742,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9772
+    },
+    {
+      "text": " ",
+      "start": 35.742,
+      "end": 36.39,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Deu",
+      "start": 36.39,
+      "end": 36.57,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9916
+    },
+    {
+      "text": "certo?",
+      "start": 36.57,
+      "end": 36.85,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9994
+    },
+    {
+      "text": " ",
+      "start": 36.85,
+      "end": 37.85,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Deu",
+      "start": 37.85,
+      "end": 38.01,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9968
+    },
+    {
+      "text": "mais",
+      "start": 38.01,
+      "end": 38.27,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9959
+    },
+    {
+      "text": "certo",
+      "start": 38.27,
+      "end": 38.47,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9967
+    },
+    {
+      "text": "do",
+      "start": 38.47,
+      "end": 38.61,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9653
+    },
+    {
+      "text": "que",
+      "start": 38.61,
+      "end": 38.67,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": "a",
+      "start": 38.67,
+      "end": 38.77,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9904
+    },
+    {
+      "text": "gente",
+      "start": 38.77,
+      "end": 38.95,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "sonhou.",
+      "start": 38.95,
+      "end": 39.29,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9974
+    },
+    {
+      "text": " ",
+      "start": 39.29,
+      "end": 40.69,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "E",
+      "start": 40.69,
+      "end": 40.87,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9542
+    },
+    {
+      "text": "valeu",
+      "start": 40.87,
+      "end": 41.01,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9903
+    },
+    {
+      "text": "a",
+      "start": 41.01,
+      "end": 41.11,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9913
+    },
+    {
+      "text": "pena?",
+      "start": 41.11,
+      "end": 41.29,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": " ",
+      "start": 41.29,
+      "end": 42.84,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Valeu.",
+      "start": 42.84,
+      "end": 43.006,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9956
+    },
+    {
+      "text": " ",
+      "start": 43.006,
+      "end": 44.32,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Mas",
+      "start": 44.32,
+      "end": 44.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9853
+    },
+    {
+      "text": "passa",
+      "start": 44.5,
+      "end": 44.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9903
+    },
+    {
+      "text": "rápido.",
+      "start": 44.76,
+      "end": 45.214,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9975
+    },
+    {
+      "text": " ",
+      "start": 45.214,
+      "end": 46.79,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Vai",
+      "start": 46.79,
+      "end": 46.89,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9941
+    },
+    {
+      "text": "lá.",
+      "start": 46.89,
+      "end": 47.134,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9974
+    },
+    {
+      "text": " ",
+      "start": 47.134,
+      "end": 48.09,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Ainda",
+      "start": 48.09,
+      "end": 48.27,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9985
+    },
+    {
+      "text": "tem",
+      "start": 48.27,
+      "end": 48.39,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9964
+    },
+    {
+      "text": "muita",
+      "start": 48.39,
+      "end": 48.59,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9842
+    },
+    {
+      "text": "gente",
+      "start": 48.59,
+      "end": 48.83,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": "esperando",
+      "start": 48.83,
+      "end": 49.07,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9897
+    },
+    {
+      "text": "por",
+      "start": 49.07,
+      "end": 49.29,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9866
+    },
+    {
+      "text": "você.",
+      "start": 49.29,
+      "end": 49.51,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

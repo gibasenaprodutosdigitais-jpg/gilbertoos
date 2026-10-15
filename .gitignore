@@ -25,8 +25,10 @@ desktop.ini
 scripts/*.log
 
 # Arquivos grandes demais pro GitHub (>100MB) — mantidos localmente, não versionados
-saidas/brandbook-gilberto-sena-2026-07-30/BRANDBOOK GIL.pdf
-saidas/brandbook-gilberto-sena-2026-07-30/BRANDBOOK GIL 2.pdf
+# por caminho nao funciona: a pasta muda de lugar e o arquivo volta a entrar.
+# Foi o que aconteceu em 14/out, quando organizei saidas/ e o push de 235 MB
+# foi recusado pelo GitHub.
+**/BRANDBOOK*.pdf
 
 # Assets de render duplicados (as capas originais estão em leitura/)
 saidas/reels-10-ebooks-leitura-2026-09-06/assets/

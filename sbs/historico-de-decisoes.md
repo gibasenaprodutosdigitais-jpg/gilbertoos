@@ -21,7 +21,7 @@ assessoria médica empresarial".
 Os quatro pilares, as frases e os indicadores vêm do vídeo de apresentação
 (`Video Sena e Bittar.mp4`). O método por baixo é o dos 5 G's da Gestão
 Empreendedora, livro do Gilberto, e a ficha de anamnese de 25 perguntas em
-`saidas/ficha-anamnese-mentoria-5gs-2026-08-23/` foi a base do diagnóstico,
+`saidas/MATERIAL-TECNICO/ficha-anamnese-mentoria-5gs-2026-08-23/` foi a base do diagnóstico,
 adaptada ao consultório.
 
 ## As decisões que fecharam a lista

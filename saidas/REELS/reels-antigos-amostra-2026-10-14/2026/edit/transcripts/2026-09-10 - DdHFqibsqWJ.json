@@ -1,0 +1,1054 @@
+{
+  "language_code": "en",
+  "language_probability": 0.9966,
+  "text": "If you want to create something valuable financially, you don't pursue that. It's best to actually pursue providing useful products and services. If you do that, then money will come as a natural consequence of that, as opposed to pursuing money directly. It's kind of like the pursuit of happiness. You can't sort of pursue happiness directly. You pursue things that lead to happiness, but there's not like direct happiness pursuit. You do things like fulfilling work or study or friends, loved ones. As a result, make you happy. But just be focused on having the output be worth more than the input. That's what really matters, making more than you take.",
+  "words": [
+    {
+      "text": "If",
+      "start": 0.0,
+      "end": 0.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5722
+    },
+    {
+      "text": " ",
+      "start": 0.16,
+      "end": 0.162,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "you",
+      "start": 0.162,
+      "end": 0.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9971
+    },
+    {
+      "text": "want",
+      "start": 0.3,
+      "end": 0.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.806
+    },
+    {
+      "text": "to",
+      "start": 0.48,
+      "end": 0.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9952
+    },
+    {
+      "text": "create",
+      "start": 0.66,
+      "end": 0.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9913
+    },
+    {
+      "text": "something",
+      "start": 0.8,
+      "end": 1.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9982
+    },
+    {
+      "text": "valuable",
+      "start": 1.02,
+      "end": 1.662,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9955
+    },
+    {
+      "text": " ",
+      "start": 1.662,
+      "end": 1.794,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "financially,",
+      "start": 1.794,
+      "end": 2.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9374
+    },
+    {
+      "text": " ",
+      "start": 2.3,
+      "end": 2.82,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "you",
+      "start": 2.82,
+      "end": 2.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9533
+    },
+    {
+      "text": "don't",
+      "start": 2.82,
+      "end": 3.262,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9938
+    },
+    {
+      "text": " ",
+      "start": 3.262,
+      "end": 3.522,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "pursue",
+      "start": 3.522,
+      "end": 3.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9853
+    },
+    {
+      "text": "that.",
+      "start": 3.9,
+      "end": 4.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.997
+    },
+    {
+      "text": " ",
+      "start": 4.16,
+      "end": 4.62,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "It's",
+      "start": 4.62,
+      "end": 5.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9522
+    },
+    {
+      "text": "best",
+      "start": 5.0,
+      "end": 5.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9954
+    },
+    {
+      "text": "to",
+      "start": 5.2,
+      "end": 5.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9983
+    },
+    {
+      "text": "actually",
+      "start": 5.56,
+      "end": 5.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9839
+    },
+    {
+      "text": "pursue",
+      "start": 5.88,
+      "end": 6.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9986
+    },
+    {
+      "text": "providing",
+      "start": 6.4,
+      "end": 6.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9902
+    },
+    {
+      "text": "useful",
+      "start": 6.92,
+      "end": 7.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9949
+    },
+    {
+      "text": "products",
+      "start": 7.26,
+      "end": 7.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9959
+    },
+    {
+      "text": "and",
+      "start": 7.62,
+      "end": 7.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9949
+    },
+    {
+      "text": "services.",
+      "start": 7.84,
+      "end": 8.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": " ",
+      "start": 8.34,
+      "end": 8.642,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "If",
+      "start": 8.642,
+      "end": 8.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9883
+    },
+    {
+      "text": "you",
+      "start": 8.72,
+      "end": 8.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "do",
+      "start": 8.88,
+      "end": 9.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9988
+    },
+    {
+      "text": "that,",
+      "start": 9.1,
+      "end": 9.47,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": " ",
+      "start": 9.47,
+      "end": 10.7,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "then",
+      "start": 10.7,
+      "end": 10.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9351
+    },
+    {
+      "text": " ",
+      "start": 10.7,
+      "end": 10.786,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "money",
+      "start": 10.786,
+      "end": 11.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9787
+    },
+    {
+      "text": "will",
+      "start": 11.04,
+      "end": 11.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9986
+    },
+    {
+      "text": "come",
+      "start": 11.28,
+      "end": 11.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9978
+    },
+    {
+      "text": "as",
+      "start": 11.42,
+      "end": 11.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9961
+    },
+    {
+      "text": "a",
+      "start": 11.64,
+      "end": 11.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9406
+    },
+    {
+      "text": "natural",
+      "start": 11.74,
+      "end": 11.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9793
+    },
+    {
+      "text": "consequence",
+      "start": 11.98,
+      "end": 12.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9983
+    },
+    {
+      "text": "of",
+      "start": 12.5,
+      "end": 12.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9949
+    },
+    {
+      "text": "that,",
+      "start": 12.84,
+      "end": 13.022,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9983
+    },
+    {
+      "text": " ",
+      "start": 13.022,
+      "end": 13.72,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "as",
+      "start": 13.72,
+      "end": 13.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9953
+    },
+    {
+      "text": "opposed",
+      "start": 13.84,
+      "end": 14.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9975
+    },
+    {
+      "text": "to",
+      "start": 14.06,
+      "end": 14.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9934
+    },
+    {
+      "text": "pursuing",
+      "start": 14.28,
+      "end": 14.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.944
+    },
+    {
+      "text": "money",
+      "start": 14.7,
+      "end": 14.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.998
+    },
+    {
+      "text": "directly.",
+      "start": 14.94,
+      "end": 15.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9982
+    },
+    {
+      "text": " ",
+      "start": 15.36,
+      "end": 15.62,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "It's",
+      "start": 15.62,
+      "end": 15.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9885
+    },
+    {
+      "text": "kind",
+      "start": 15.9,
+      "end": 16.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8969
+    },
+    {
+      "text": "of",
+      "start": 16.02,
+      "end": 16.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9983
+    },
+    {
+      "text": "like",
+      "start": 16.1,
+      "end": 16.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9978
+    },
+    {
+      "text": "the",
+      "start": 16.26,
+      "end": 16.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9919
+    },
+    {
+      "text": "pursuit",
+      "start": 16.46,
+      "end": 16.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9965
+    },
+    {
+      "text": "of",
+      "start": 16.64,
+      "end": 16.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9993
+    },
+    {
+      "text": "happiness.",
+      "start": 16.86,
+      "end": 17.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9994
+    },
+    {
+      "text": " ",
+      "start": 17.26,
+      "end": 17.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "You",
+      "start": 17.5,
+      "end": 17.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9941
+    },
+    {
+      "text": "can't",
+      "start": 17.6,
+      "end": 17.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8941
+    },
+    {
+      "text": "sort",
+      "start": 17.84,
+      "end": 17.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8104
+    },
+    {
+      "text": "of",
+      "start": 17.96,
+      "end": 18.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.997
+    },
+    {
+      "text": "pursue",
+      "start": 18.08,
+      "end": 18.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9978
+    },
+    {
+      "text": "happiness",
+      "start": 18.28,
+      "end": 18.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9952
+    },
+    {
+      "text": "directly.",
+      "start": 18.64,
+      "end": 18.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9886
+    },
+    {
+      "text": " ",
+      "start": 18.94,
+      "end": 19.06,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "You",
+      "start": 19.06,
+      "end": 19.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9787
+    },
+    {
+      "text": "pursue",
+      "start": 19.2,
+      "end": 19.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9735
+    },
+    {
+      "text": "things",
+      "start": 19.36,
+      "end": 19.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9973
+    },
+    {
+      "text": "that",
+      "start": 19.74,
+      "end": 20.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9982
+    },
+    {
+      "text": "lead",
+      "start": 20.28,
+      "end": 20.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9964
+    },
+    {
+      "text": "to",
+      "start": 20.46,
+      "end": 20.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": "happiness,",
+      "start": 20.66,
+      "end": 21.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": " ",
+      "start": 21.1,
+      "end": 21.72,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "but",
+      "start": 21.72,
+      "end": 21.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9939
+    },
+    {
+      "text": "there's",
+      "start": 21.9,
+      "end": 22.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9599
+    },
+    {
+      "text": "not",
+      "start": 22.12,
+      "end": 22.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7803
+    },
+    {
+      "text": "like",
+      "start": 22.26,
+      "end": 22.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6705
+    },
+    {
+      "text": "direct",
+      "start": 22.56,
+      "end": 22.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8664
+    },
+    {
+      "text": "happiness",
+      "start": 22.86,
+      "end": 23.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9974
+    },
+    {
+      "text": "pursuit.",
+      "start": 23.28,
+      "end": 23.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3554
+    },
+    {
+      "text": " ",
+      "start": 23.52,
+      "end": 23.76,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "You",
+      "start": 23.76,
+      "end": 23.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9857
+    },
+    {
+      "text": "do",
+      "start": 23.94,
+      "end": 24.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9942
+    },
+    {
+      "text": "things",
+      "start": 24.16,
+      "end": 24.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9978
+    },
+    {
+      "text": "like",
+      "start": 24.5,
+      "end": 25.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9219
+    },
+    {
+      "text": "fulfilling",
+      "start": 25.0,
+      "end": 25.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9846
+    },
+    {
+      "text": "work",
+      "start": 25.36,
+      "end": 25.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9965
+    },
+    {
+      "text": "or",
+      "start": 25.74,
+      "end": 26.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8562
+    },
+    {
+      "text": "study",
+      "start": 26.04,
+      "end": 26.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9857
+    },
+    {
+      "text": "or",
+      "start": 26.38,
+      "end": 26.782,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9178
+    },
+    {
+      "text": " ",
+      "start": 26.782,
+      "end": 27.074,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "friends,",
+      "start": 27.074,
+      "end": 27.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9924
+    },
+    {
+      "text": " ",
+      "start": 27.64,
+      "end": 28.04,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "loved",
+      "start": 28.04,
+      "end": 28.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9956
+    },
+    {
+      "text": "ones.",
+      "start": 28.14,
+      "end": 28.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.997
+    },
+    {
+      "text": "As",
+      "start": 28.54,
+      "end": 28.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0287
+    },
+    {
+      "text": "a",
+      "start": 28.82,
+      "end": 29.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9824
+    },
+    {
+      "text": "result,",
+      "start": 29.06,
+      "end": 29.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9985
+    },
+    {
+      "text": " ",
+      "start": 29.48,
+      "end": 29.9,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "make",
+      "start": 29.9,
+      "end": 29.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7433
+    },
+    {
+      "text": "you",
+      "start": 29.98,
+      "end": 30.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9854
+    },
+    {
+      "text": "happy.",
+      "start": 30.12,
+      "end": 30.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9965
+    },
+    {
+      "text": " ",
+      "start": 30.46,
+      "end": 30.74,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "But",
+      "start": 30.74,
+      "end": 30.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8745
+    },
+    {
+      "text": "just",
+      "start": 30.84,
+      "end": 31.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9542
+    },
+    {
+      "text": "be",
+      "start": 31.02,
+      "end": 31.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9865
+    },
+    {
+      "text": "focused",
+      "start": 31.2,
+      "end": 31.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9785
+    },
+    {
+      "text": "on",
+      "start": 31.54,
+      "end": 32.03,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.995
+    },
+    {
+      "text": " ",
+      "start": 32.03,
+      "end": 32.258,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "having",
+      "start": 32.258,
+      "end": 32.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9716
+    },
+    {
+      "text": "the",
+      "start": 32.72,
+      "end": 33.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9973
+    },
+    {
+      "text": "output",
+      "start": 33.62,
+      "end": 34.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9652
+    },
+    {
+      "text": "be",
+      "start": 34.0,
+      "end": 34.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9861
+    },
+    {
+      "text": "worth",
+      "start": 34.34,
+      "end": 34.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9951
+    },
+    {
+      "text": "more",
+      "start": 34.52,
+      "end": 34.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9967
+    },
+    {
+      "text": "than",
+      "start": 34.82,
+      "end": 34.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9951
+    },
+    {
+      "text": "the",
+      "start": 34.94,
+      "end": 35.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9958
+    },
+    {
+      "text": "input.",
+      "start": 35.14,
+      "end": 35.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9752
+    },
+    {
+      "text": " ",
+      "start": 35.4,
+      "end": 36.18,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "That's",
+      "start": 36.18,
+      "end": 36.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9875
+    },
+    {
+      "text": "what",
+      "start": 36.36,
+      "end": 36.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9856
+    },
+    {
+      "text": "really",
+      "start": 36.42,
+      "end": 36.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9978
+    },
+    {
+      "text": "matters,",
+      "start": 36.6,
+      "end": 37.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9972
+    },
+    {
+      "text": " ",
+      "start": 37.16,
+      "end": 38.08,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "making",
+      "start": 38.08,
+      "end": 38.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8196
+    },
+    {
+      "text": "more",
+      "start": 38.2,
+      "end": 38.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9567
+    },
+    {
+      "text": "than",
+      "start": 38.38,
+      "end": 38.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9932
+    },
+    {
+      "text": "you",
+      "start": 38.48,
+      "end": 38.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9932
+    },
+    {
+      "text": "take.",
+      "start": 38.6,
+      "end": 38.75,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9861
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

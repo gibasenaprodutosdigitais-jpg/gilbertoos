@@ -1,0 +1,748 @@
+{
+  "language_code": "en",
+  "language_probability": 0.9352,
+  "text": "Let's see what you can do now. Don't smile, kid. How much you want? All day. Stay down. You got what? That's a youngster for you. That's when you thought it was safe to come outside. I won't score again. How you like that, Rainbow? We're not done. Excuse me. Had enough? We're looking. Sucker. You reach? I'll teach you. Lesson just started. That's ugly. Good or dumb? You should have done.",
+  "words": [
+    {
+      "text": "Let's",
+      "start": 2.306,
+      "end": 2.43,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.513
+    },
+    {
+      "text": "see",
+      "start": 2.43,
+      "end": 2.47,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8137
+    },
+    {
+      "text": "what",
+      "start": 2.47,
+      "end": 2.49,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8321
+    },
+    {
+      "text": "you",
+      "start": 2.49,
+      "end": 2.55,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9816
+    },
+    {
+      "text": "can",
+      "start": 2.55,
+      "end": 2.65,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9405
+    },
+    {
+      "text": "do",
+      "start": 2.65,
+      "end": 2.73,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9935
+    },
+    {
+      "text": "now.",
+      "start": 2.73,
+      "end": 2.87,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8946
+    },
+    {
+      "text": " ",
+      "start": 2.87,
+      "end": 3.83,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Don't",
+      "start": 3.83,
+      "end": 4.15,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.619
+    },
+    {
+      "text": "smile,",
+      "start": 4.15,
+      "end": 4.31,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9896
+    },
+    {
+      "text": " ",
+      "start": 4.31,
+      "end": 4.43,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "kid.",
+      "start": 4.43,
+      "end": 4.49,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9692
+    },
+    {
+      "text": " ",
+      "start": 4.49,
+      "end": 4.55,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "How",
+      "start": 4.55,
+      "end": 4.57,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4962
+    },
+    {
+      "text": "much",
+      "start": 4.57,
+      "end": 4.69,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9865
+    },
+    {
+      "text": "you",
+      "start": 4.69,
+      "end": 4.81,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7873
+    },
+    {
+      "text": "want?",
+      "start": 4.81,
+      "end": 4.87,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9785
+    },
+    {
+      "text": " ",
+      "start": 4.87,
+      "end": 6.01,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "All",
+      "start": 6.01,
+      "end": 6.33,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.568
+    },
+    {
+      "text": "day.",
+      "start": 6.33,
+      "end": 6.462,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9979
+    },
+    {
+      "text": " ",
+      "start": 6.462,
+      "end": 7.33,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Stay",
+      "start": 7.33,
+      "end": 7.49,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.2574
+    },
+    {
+      "text": "down.",
+      "start": 7.49,
+      "end": 7.71,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9715
+    },
+    {
+      "text": " ",
+      "start": 7.71,
+      "end": 8.29,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "You",
+      "start": 8.29,
+      "end": 8.61,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4526
+    },
+    {
+      "text": "got",
+      "start": 8.61,
+      "end": 8.73,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9126
+    },
+    {
+      "text": "what?",
+      "start": 8.73,
+      "end": 8.93,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.947
+    },
+    {
+      "text": " ",
+      "start": 8.93,
+      "end": 9.17,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "That's",
+      "start": 9.17,
+      "end": 9.35,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9429
+    },
+    {
+      "text": "a",
+      "start": 9.35,
+      "end": 9.37,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3016
+    },
+    {
+      "text": "youngster",
+      "start": 9.37,
+      "end": 9.55,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7395
+    },
+    {
+      "text": "for",
+      "start": 9.55,
+      "end": 9.69,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.971
+    },
+    {
+      "text": "you.",
+      "start": 9.69,
+      "end": 9.87,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9018
+    },
+    {
+      "text": " ",
+      "start": 9.87,
+      "end": 10.19,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "That's",
+      "start": 10.19,
+      "end": 10.29,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6915
+    },
+    {
+      "text": "when",
+      "start": 10.29,
+      "end": 10.37,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7127
+    },
+    {
+      "text": "you",
+      "start": 10.37,
+      "end": 10.55,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9954
+    },
+    {
+      "text": "thought",
+      "start": 10.55,
+      "end": 10.63,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9752
+    },
+    {
+      "text": "it",
+      "start": 10.63,
+      "end": 10.71,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5961
+    },
+    {
+      "text": "was",
+      "start": 10.71,
+      "end": 10.83,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9583
+    },
+    {
+      "text": "safe",
+      "start": 10.83,
+      "end": 10.91,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9363
+    },
+    {
+      "text": "to",
+      "start": 10.91,
+      "end": 11.03,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9776
+    },
+    {
+      "text": "come",
+      "start": 11.03,
+      "end": 11.13,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.979
+    },
+    {
+      "text": "outside.",
+      "start": 11.13,
+      "end": 11.49,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.944
+    },
+    {
+      "text": " ",
+      "start": 11.49,
+      "end": 12.73,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "I",
+      "start": 12.73,
+      "end": 13.05,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5682
+    },
+    {
+      "text": "won't",
+      "start": 13.05,
+      "end": 13.25,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8482
+    },
+    {
+      "text": "score",
+      "start": 13.25,
+      "end": 13.33,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4338
+    },
+    {
+      "text": "again.",
+      "start": 13.33,
+      "end": 13.55,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9066
+    },
+    {
+      "text": " ",
+      "start": 13.55,
+      "end": 13.99,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "How",
+      "start": 13.99,
+      "end": 14.07,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3932
+    },
+    {
+      "text": "you",
+      "start": 14.07,
+      "end": 14.09,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5456
+    },
+    {
+      "text": "like",
+      "start": 14.09,
+      "end": 14.17,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9876
+    },
+    {
+      "text": "that,",
+      "start": 14.17,
+      "end": 14.31,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9954
+    },
+    {
+      "text": " ",
+      "start": 14.31,
+      "end": 14.35,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Rainbow?",
+      "start": 14.35,
+      "end": 14.51,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.796
+    },
+    {
+      "text": " ",
+      "start": 14.51,
+      "end": 14.85,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "We're",
+      "start": 14.85,
+      "end": 14.93,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5555
+    },
+    {
+      "text": "not",
+      "start": 14.93,
+      "end": 15.01,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8983
+    },
+    {
+      "text": "done.",
+      "start": 15.01,
+      "end": 15.13,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9774
+    },
+    {
+      "text": " ",
+      "start": 15.13,
+      "end": 15.39,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Excuse",
+      "start": 15.39,
+      "end": 15.45,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5448
+    },
+    {
+      "text": "me.",
+      "start": 15.45,
+      "end": 15.614,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9968
+    },
+    {
+      "text": " ",
+      "start": 15.614,
+      "end": 17.24,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Had",
+      "start": 17.24,
+      "end": 17.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6759
+    },
+    {
+      "text": "enough?",
+      "start": 17.36,
+      "end": 17.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9824
+    },
+    {
+      "text": " ",
+      "start": 17.54,
+      "end": 18.28,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "We're",
+      "start": 18.28,
+      "end": 18.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6816
+    },
+    {
+      "text": "looking.",
+      "start": 18.44,
+      "end": 18.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7144
+    },
+    {
+      "text": " ",
+      "start": 18.58,
+      "end": 19.3,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Sucker.",
+      "start": 19.3,
+      "end": 19.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7484
+    },
+    {
+      "text": " ",
+      "start": 19.46,
+      "end": 20.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "You",
+      "start": 20.0,
+      "end": 20.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9088
+    },
+    {
+      "text": "reach?",
+      "start": 20.1,
+      "end": 20.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6498
+    },
+    {
+      "text": " ",
+      "start": 20.3,
+      "end": 20.58,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "I'll",
+      "start": 20.58,
+      "end": 20.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7668
+    },
+    {
+      "text": "teach",
+      "start": 20.7,
+      "end": 20.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9928
+    },
+    {
+      "text": "you.",
+      "start": 20.82,
+      "end": 21.63,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8446
+    },
+    {
+      "text": " ",
+      "start": 21.63,
+      "end": 21.98,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Lesson",
+      "start": 21.98,
+      "end": 22.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8041
+    },
+    {
+      "text": "just",
+      "start": 22.18,
+      "end": 22.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9923
+    },
+    {
+      "text": "started.",
+      "start": 22.3,
+      "end": 22.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9952
+    },
+    {
+      "text": " ",
+      "start": 22.62,
+      "end": 24.802,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "That's",
+      "start": 24.802,
+      "end": 25.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.789
+    },
+    {
+      "text": "ugly.",
+      "start": 25.0,
+      "end": 25.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9635
+    },
+    {
+      "text": " ",
+      "start": 25.14,
+      "end": 25.74,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Good",
+      "start": 25.74,
+      "end": 25.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7912
+    },
+    {
+      "text": "or",
+      "start": 25.86,
+      "end": 25.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8538
+    },
+    {
+      "text": "dumb?",
+      "start": 25.96,
+      "end": 26.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5967
+    },
+    {
+      "text": " ",
+      "start": 26.1,
+      "end": 26.71,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "You",
+      "start": 26.71,
+      "end": 26.89,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9123
+    },
+    {
+      "text": " ",
+      "start": 26.89,
+      "end": 26.946,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "should",
+      "start": 26.946,
+      "end": 27.03,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.998
+    },
+    {
+      "text": "have",
+      "start": 27.03,
+      "end": 27.15,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6499
+    },
+    {
+      "text": "done.",
+      "start": 27.15,
+      "end": 27.21,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7935
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

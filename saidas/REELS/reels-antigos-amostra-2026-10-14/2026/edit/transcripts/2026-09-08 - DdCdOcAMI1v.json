@@ -1,0 +1,82 @@
+{
+  "language_code": "en",
+  "language_probability": 0.8405,
+  "text": "Won't waste another minute. No, I'm a man",
+  "words": [
+    {
+      "text": "Won't",
+      "start": 0.674,
+      "end": 1.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8215
+    },
+    {
+      "text": "waste",
+      "start": 1.62,
+      "end": 1.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9887
+    },
+    {
+      "text": "another",
+      "start": 1.82,
+      "end": 2.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9972
+    },
+    {
+      "text": "minute.",
+      "start": 2.22,
+      "end": 2.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9902
+    },
+    {
+      "text": "No,",
+      "start": 2.62,
+      "end": 3.038,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9068
+    },
+    {
+      "text": " ",
+      "start": 3.038,
+      "end": 5.026,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "I'm",
+      "start": 5.026,
+      "end": 5.29,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.697
+    },
+    {
+      "text": "a",
+      "start": 5.29,
+      "end": 5.57,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9424
+    },
+    {
+      "text": "man",
+      "start": 5.57,
+      "end": 5.79,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9855
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

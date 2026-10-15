@@ -1,0 +1,27 @@
+{
+  "language_code": "en",
+  "language_probability": 0.7593,
+  "text": "You were",
+  "words": [
+    {
+      "text": "You",
+      "start": 0.066,
+      "end": 0.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.1967
+    },
+    {
+      "text": "were",
+      "start": 0.66,
+      "end": 0.798,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8015
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

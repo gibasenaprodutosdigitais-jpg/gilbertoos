@@ -103,7 +103,7 @@ que é o formato do livro.
    identificar ou não o Sr. Elmo no livro publicado. Ver as notas do
    capítulo 7.
 4. **Acordo de coautoria.** Já existe precedente no repositório, em
-   `saidas/contrato-livro-janguie-2026-09-16/`. O título ser ideia dele é
+   `saidas/LIVROS-E-EBOOKS/contrato-livro-janguie-2026-09-16/`. O título ser ideia dele é
    argumento de mesa, e o registro está no topo deste arquivo.
 
 ---

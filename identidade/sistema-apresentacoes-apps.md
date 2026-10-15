@@ -11,7 +11,7 @@
 >
 > O que segue abaixo fica só como **registro histórico** de uma direção
 > específica já usada (Bloco 1 de
-> `saidas/apresentacao-web-reengenharia-empresarial-2026-09-18/`) — não é
+> `saidas/EVENTOS-E-PALESTRAS/apresentacao-web-reengenharia-empresarial-2026-09-18/`) — não é
 > mais o padrão a seguir na próxima peça. O cromo de navegação (contador,
 > setas, tela cheia, stepper por etapa) continua sendo uma opção válida
 > *entre outras* que a skill `direcao-de-arte` pode propor quando o assunto

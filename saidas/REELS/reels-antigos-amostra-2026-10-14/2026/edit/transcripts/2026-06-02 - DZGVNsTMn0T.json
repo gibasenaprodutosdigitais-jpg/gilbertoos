@@ -1,0 +1,206 @@
+{
+  "language_code": "en",
+  "language_probability": 0.8286,
+  "text": "I'm in the gym, I'm in B -smoke No pain, no gain, that's the G -code Sweat on my skin",
+  "words": [
+    {
+      "text": "I'm",
+      "start": 2.626,
+      "end": 2.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7322
+    },
+    {
+      "text": "in",
+      "start": 2.88,
+      "end": 3.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9456
+    },
+    {
+      "text": "the",
+      "start": 3.04,
+      "end": 3.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8386
+    },
+    {
+      "text": "gym,",
+      "start": 3.2,
+      "end": 3.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9899
+    },
+    {
+      "text": " ",
+      "start": 3.4,
+      "end": 3.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "I'm",
+      "start": 3.48,
+      "end": 3.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9377
+    },
+    {
+      "text": "in",
+      "start": 3.66,
+      "end": 3.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9802
+    },
+    {
+      "text": "B",
+      "start": 3.82,
+      "end": 3.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3696
+    },
+    {
+      "text": "-smoke",
+      "start": 3.98,
+      "end": 4.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6308
+    },
+    {
+      "text": " ",
+      "start": 4.26,
+      "end": 4.9,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "No",
+      "start": 4.9,
+      "end": 5.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4767
+    },
+    {
+      "text": "pain,",
+      "start": 5.18,
+      "end": 5.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7899
+    },
+    {
+      "text": " ",
+      "start": 5.32,
+      "end": 5.42,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "no",
+      "start": 5.42,
+      "end": 5.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9845
+    },
+    {
+      "text": "gain,",
+      "start": 5.66,
+      "end": 5.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9967
+    },
+    {
+      "text": " ",
+      "start": 5.94,
+      "end": 6.02,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "that's",
+      "start": 6.02,
+      "end": 6.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9859
+    },
+    {
+      "text": "the",
+      "start": 6.18,
+      "end": 6.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9887
+    },
+    {
+      "text": "G",
+      "start": 6.38,
+      "end": 6.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9472
+    },
+    {
+      "text": "-code",
+      "start": 6.62,
+      "end": 7.07,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8622
+    },
+    {
+      "text": " ",
+      "start": 7.07,
+      "end": 7.554,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Sweat",
+      "start": 7.554,
+      "end": 7.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9116
+    },
+    {
+      "text": "on",
+      "start": 7.8,
+      "end": 7.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.992
+    },
+    {
+      "text": "my",
+      "start": 7.88,
+      "end": 8.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9985
+    },
+    {
+      "text": "skin",
+      "start": 8.24,
+      "end": 8.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9976
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

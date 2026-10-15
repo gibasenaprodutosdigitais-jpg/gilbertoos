@@ -1,0 +1,19 @@
+{
+  "language_code": "pt",
+  "language_probability": 0.9179,
+  "text": "Sinto",
+  "words": [
+    {
+      "text": "Sinto",
+      "start": 0.0,
+      "end": 1.502,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8851
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "medium",
+  "diarization": false,
+  "audio_events": false
+}

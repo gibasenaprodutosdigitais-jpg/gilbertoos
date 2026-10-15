@@ -1,0 +1,405 @@
+{
+  "language_code": "pt",
+  "language_probability": 1.0,
+  "text": "Não é a mesma pegada, e é o que eu falava com esses caras, os caras já pararam para pensar quantos Gilberto tem aí no mundo, porque eles já fizeram, eles já fizeram, eles não estão querendo fazer, eles já fizeram, fizeram no off.",
+  "words": [
+    {
+      "text": "Não",
+      "start": 0.066,
+      "end": 0.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3444
+    },
+    {
+      "text": "é",
+      "start": 0.32,
+      "end": 0.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9348
+    },
+    {
+      "text": "a",
+      "start": 0.62,
+      "end": 0.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9834
+    },
+    {
+      "text": "mesma",
+      "start": 0.62,
+      "end": 0.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "pegada,",
+      "start": 0.98,
+      "end": 1.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": " ",
+      "start": 1.6,
+      "end": 1.66,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "e",
+      "start": 1.66,
+      "end": 2.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9402
+    },
+    {
+      "text": "é",
+      "start": 2.16,
+      "end": 2.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9874
+    },
+    {
+      "text": "o",
+      "start": 2.32,
+      "end": 2.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9979
+    },
+    {
+      "text": "que",
+      "start": 2.44,
+      "end": 2.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.999
+    },
+    {
+      "text": "eu",
+      "start": 2.48,
+      "end": 2.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9954
+    },
+    {
+      "text": "falava",
+      "start": 2.54,
+      "end": 2.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "com",
+      "start": 2.94,
+      "end": 3.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8453
+    },
+    {
+      "text": "esses",
+      "start": 3.02,
+      "end": 3.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5379
+    },
+    {
+      "text": "caras,",
+      "start": 3.18,
+      "end": 3.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9983
+    },
+    {
+      "text": " ",
+      "start": 3.34,
+      "end": 3.38,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "os",
+      "start": 3.38,
+      "end": 3.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5583
+    },
+    {
+      "text": "caras",
+      "start": 3.46,
+      "end": 3.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9994
+    },
+    {
+      "text": "já",
+      "start": 3.56,
+      "end": 3.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8212
+    },
+    {
+      "text": "pararam",
+      "start": 3.66,
+      "end": 4.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9983
+    },
+    {
+      "text": "para",
+      "start": 4.08,
+      "end": 4.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5439
+    },
+    {
+      "text": "pensar",
+      "start": 4.2,
+      "end": 4.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "quantos",
+      "start": 4.6,
+      "end": 5.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9184
+    },
+    {
+      "text": "Gilberto",
+      "start": 5.44,
+      "end": 5.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9995
+    },
+    {
+      "text": "tem",
+      "start": 5.96,
+      "end": 6.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9994
+    },
+    {
+      "text": "aí",
+      "start": 6.24,
+      "end": 6.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7296
+    },
+    {
+      "text": "no",
+      "start": 6.4,
+      "end": 6.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9992
+    },
+    {
+      "text": "mundo,",
+      "start": 6.52,
+      "end": 6.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9994
+    },
+    {
+      "text": " ",
+      "start": 6.78,
+      "end": 7.24,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "porque",
+      "start": 7.24,
+      "end": 7.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9445
+    },
+    {
+      "text": " ",
+      "start": 7.9,
+      "end": 7.938,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "eles",
+      "start": 7.938,
+      "end": 8.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9946
+    },
+    {
+      "text": "já",
+      "start": 8.06,
+      "end": 8.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": "fizeram,",
+      "start": 8.18,
+      "end": 8.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": "eles",
+      "start": 8.84,
+      "end": 8.926,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9953
+    },
+    {
+      "text": " ",
+      "start": 8.926,
+      "end": 10.32,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "já",
+      "start": 10.32,
+      "end": 10.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9542
+    },
+    {
+      "text": "fizeram,",
+      "start": 10.46,
+      "end": 11.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": "eles",
+      "start": 11.12,
+      "end": 11.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9993
+    },
+    {
+      "text": "não",
+      "start": 11.22,
+      "end": 11.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9991
+    },
+    {
+      "text": "estão",
+      "start": 11.36,
+      "end": 11.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9794
+    },
+    {
+      "text": "querendo",
+      "start": 11.58,
+      "end": 12.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 1.0
+    },
+    {
+      "text": "fazer,",
+      "start": 12.1,
+      "end": 12.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": " ",
+      "start": 12.36,
+      "end": 12.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "eles",
+      "start": 12.48,
+      "end": 12.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9206
+    },
+    {
+      "text": "já",
+      "start": 12.54,
+      "end": 12.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9999
+    },
+    {
+      "text": "fizeram,",
+      "start": 12.62,
+      "end": 13.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 1.0
+    },
+    {
+      "text": "fizeram",
+      "start": 13.16,
+      "end": 13.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9947
+    },
+    {
+      "text": "no",
+      "start": 13.52,
+      "end": 13.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": "off.",
+      "start": 13.62,
+      "end": 13.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9175
+    }
+  ],
+  "engine": "faster-whisper",
+  "model": "large-v3",
+  "diarization": false,
+  "audio_events": false
+}
