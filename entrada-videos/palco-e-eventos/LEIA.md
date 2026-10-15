@@ -7,9 +7,17 @@ prove que você estava lá.
 O Instagram exige login e bloqueia leitura de fora. Tentei pela sessão do seu
 Chrome e travou pedindo a senha do chaveiro do Mac, então parei.
 
-**O jeito que funciona:** abre o post no celular ou no computador, salva o
-vídeo ou tira print, e larga o arquivo nesta pasta. Eu leio, tiro os melhores
-quadros e ponho no media kit.
+Tentei quatro caminhos: acesso direto, yt-dlp, a sessão do Chrome e o
+endpoint de incorporação. O Instagram devolve uma casca vazia e carrega o
+conteúdo só depois do login. Não tem volta por aqui.
+
+**O jeito mais curto, no celular:** abre o post, toca nos três pontinhos,
+**Copiar link** não resolve. O que resolve é **salvar o vídeo**. Se for post
+seu, aparece a opção. Se não aparecer, grava a tela por 30 segundos com o
+vídeo tocando, que serve igual pro que eu preciso.
+
+Depois manda o arquivo pra esta pasta. Eu leio, tiro os melhores quadros e
+ponho no media kit.
 
 Os quatro links eram:
 
@@ -19,6 +27,7 @@ Os quatro links eram:
 | `instagram.com/reel/C8ZdceKurqN` | — |
 | `instagram.com/p/C4gClgfOf9Y` | — |
 | `instagram.com/p/CwK2iebu4xZ` | — |
+| `instagram.com/reel/Cy1s0hGNk0F` | — |
 
 Um deles você falou que é da **Casa do Zé**, um reality.
 
