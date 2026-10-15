@@ -322,3 +322,29 @@ registro profissional, troco.
 
 **A página do palco agora está completa:** ele de perto no Alphaville, a sala
 cheia, o palco do Summit Êxito e cinco eventos listados.
+
+---
+
+# Os retratos, em 15/out
+
+Ele liberou variar as fotos. Entraram três do ensaio do Bernardo Coelho, uma
+por página, escolhidas por função e não por bonito:
+
+| Página | Foto | Por quê |
+|---|---|---|
+| 02, quem é | camisa branca, sorriso aberto | a página conta a história dura dele. O rosto aberto equilibra |
+| 03, não é motivacional | terno cinza, olhar firme | a página é a mais dura do kit, e a foto tem que sustentar o tom |
+| 08, contato | corpo inteiro, de pé | fecha o documento com ele inteiro, de frente |
+
+**Uma coisa que eu tentei e não funcionou:** pus a foto do sorriso como faixa
+larga no pé da página 2. Rosto não cabe em faixa de 2,7 para 1, e o recorte
+comia o topo da cabeça e o queixo. **Só vi olhando.** Virou coluna lateral,
+como nas outras duas, e aí coube.
+
+As três colunas usam o mesmo véu em degradê, que some para o papel na página
+clara e para a tinta nas escuras. Isso faz as três lerem como um sistema, não
+como três decisões soltas.
+
+**O ritmo do documento ficou assim:** capa com foto, duas páginas com retrato,
+a página do palco com três fotos de evento, três páginas só de texto, e o
+fecho com retrato. Foto demais vira álbum; foto de menos vira relatório.

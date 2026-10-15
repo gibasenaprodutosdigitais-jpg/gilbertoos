@@ -156,6 +156,17 @@ em{font-style:italic}
 .pagina.lastro .regua{margin:4mm 0}
 .pagina.lastro .corpo{font-size:10pt}
 
+
+/* retratos do ensaio, pra variar o visual entre paginas */
+.coluna-foto{position:absolute;right:0;top:0;bottom:0;width:72mm;
+  background-size:cover;background-position:center 22%}
+.coluna-foto::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,#171614 0%,rgba(23,22,20,.35) 42%,rgba(23,22,20,0) 100%)}
+.coluna-foto.clara::after{
+  background:linear-gradient(90deg,#F2EFE9 0%,rgba(242,239,233,.30) 44%,rgba(242,239,233,0) 100%)}
+.pagina.com-coluna{padding-right:84mm}
+.pagina.com-coluna .rodape{right:84mm}
+
 @media print{
   body{background:none}
   .pagina{margin:0;page-break-after:always;box-shadow:none}
@@ -181,7 +192,8 @@ em{font-style:italic}
 </section>
 
 <!-- ============ 2 · QUEM É ============ -->
-<section class="pagina">
+<section class="pagina com-coluna">
+  <div class="coluna-foto clara" style="background-image:url('assets/retrato-sorriso.jpg')"></div>
   <div class="etiqueta">Quem fala com a sua plateia</div>
   <div class="regua curta"></div>
   <h1 class="titulo-serif">Um gestor que esteve dos dois lados da mesa.</h1>
@@ -212,11 +224,14 @@ em{font-style:italic}
     <div class="num"><div class="n">5</div><div class="t">escritórios do Grupo Sena em operação no Brasil</div></div>
   </div>
 
+
+
   <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>02</span></div>
 </section>
 
 <!-- ============ 3 · A DIFERENÇA ============ -->
-<section class="pagina escura">
+<section class="pagina escura com-coluna">
+  <div class="coluna-foto" style="background-image:url('assets/retrato-firme.jpg')"></div>
   <div class="etiqueta">Por que ele, e não outro</div>
   <div class="regua curta"></div>
   <h1 class="titulo">Não é palestra<br>motivacional.</h1>
@@ -419,7 +434,8 @@ em{font-style:italic}
 </section>
 
 <!-- ============ 6 · CONTATO ============ -->
-<section class="pagina escura">
+<section class="pagina escura com-coluna">
+  <div class="coluna-foto" style="background-image:url('assets/retrato-corpo.jpg');background-position:center 30%"></div>
   <div class="etiqueta">Para contratar</div>
   <div class="regua curta"></div>
   <h1 class="titulo">Vamos conversar<br>sobre o seu evento.</h1>
