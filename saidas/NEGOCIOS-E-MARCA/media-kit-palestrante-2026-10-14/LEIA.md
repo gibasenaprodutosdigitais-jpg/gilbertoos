@@ -160,7 +160,7 @@ Empresário, especialista em Gestão Financeira e Empresarial e tributária".
 
 ## Quatro coisas que eu achei conferindo, e três são problema
 
-### 1. O domínio gilbertosena.com.br não existe
+### 1. O domínio gruposena.com.br não existe
 
 Testei: o DNS não resolve. **E ele está impresso no rodapé de 25 carrosséis**,
 inclusive dos que já foram publicados.
@@ -214,3 +214,60 @@ São coisas diferentes, e conselheiro é mais forte. **O kit está com
 Os dois reels do Instagram que ele mandou. O Instagram exige login e eu não
 tenho acesso. **Se ele baixar os dois e deixar em `entrada-videos/`, eu leio.**
 Um deles ele disse ser da "Casa do Zé", um reality.
+
+---
+
+# Os cinco banners que ele baixou, em 15/out
+
+Ele largou cinco prints na Downloads. Renderam muito mais que os links do
+Instagram, e estão guardados em `entrada-videos/palco-e-eventos/`.
+
+## Três credenciais novas, todas com prova
+
+**PBXP, Paraíba Business Experience, 17 a 19 de maio de 2023.** Centro de
+Convenções do Garden Resort, em Campina Grande. O cartaz de divulgação traz o
+rosto dele em destaque e, logo abaixo, **Roberto Shinyashiki, Janguiê Diniz,
+Stanley Bittar, Renner Silva, Bruno Andrade, Alex Monteiro, Moisés Ramos e
+Thaty Deandhela.** A legenda do post dele diz: *"fui convidado para ser
+palestrante"*.
+
+Essa é a credencial mais forte do lote. Dividir cartaz com o Shinyashiki diz
+mais que qualquer adjetivo que eu escrevesse.
+
+**Mentoring Day Experience, Portugal**, pelo DTL Group. Card de apresentação
+com a bio dele.
+
+**Summit Êxito 2022, com foto.** O post de 26/ago/2022 mostra ele **em pé no
+palco, de microfone, com o entrevistador sentado e a plateia no quadro**. Era
+exatamente a foto que faltava, e virou a imagem principal da página do palco.
+
+## Uma dúvida que eu não vou responder sozinho
+
+O banner da **Casa do Zé** anuncia *"7 dias de imersão vivenciando a
+metodologia, 7 chaves da prosperidade, mentoria premium"*, com a marca do José
+Roberto Marques e uma foto de grupo.
+
+Isso parece **imersão que ele cursou**, não palestra que ele deu. **Não pus no
+kit.** Se ele palestrou lá, me fala que entra.
+
+## ⚠ Um conflito de números que precisa ser resolvido
+
+O card de Portugal, que é material público dele, diz:
+
+> *"Mais de 1500 empresas transformadas e mais de 70 milhões de tributos
+> recuperados."*
+
+E o repositório tem outros dois conjuntos:
+
+| Onde | Empresas | Valor |
+|---|---|---|
+| Card do DTL Group, Portugal | **1.500** transformadas | **R$ 70 milhões** recuperados |
+| Memória, confirmado por ele em out/2026 | **+500** orientadas | **R$ 500 milhões** economizados |
+| `_memoria/posicionamento.md` | **+2.000** recuperadas | R$ 500 milhões economizados |
+
+"Economizado" e "recuperado" são coisas diferentes e podem conviver. **O número
+de empresas não.** São 500, 1.500 ou 2.000.
+
+**O kit está com +500**, que é o confirmado por ele. Mas três números diferentes
+circulando em material público é o tipo de coisa que alguém nota, e quem nota
+costuma ser justamente quem estava decidindo se contrata.
