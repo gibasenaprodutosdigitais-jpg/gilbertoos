@@ -1,6 +1,6 @@
 # Reestruturando com Êxito — proposta de diretoria ao Instituto Êxito
 
-> **Criado e fundado por Gilberto Luís de Sena.** O nome do projeto e a autoria são dele (registrado a pedido dele em 16/out/2026). Alisson de Oliveira Ramalho e Dr. Luciano Duarte Peres são **co-participantes**. Esta apresentação é uma **proposta à diretoria do Instituto Êxito**.
+> **Criado e fundado por Gilberto Luís de Sena.** O nome do projeto e a autoria são dele (registrado a pedido dele em 16/out/2026). Alisson de Oliveira Ramalho e Dr. Luciano Duarte Peres são **participantes**. Esta apresentação é uma **proposta à diretoria do Instituto Êxito**.
 
 **Apresentação:** https://claude.ai/artifact/9nTHSqSSF37QfBQJQ9uUec
 13 telas. Privada — só abre pra quem o Gilberto compartilhar pelo menu Share.
@@ -451,7 +451,7 @@ está dando a preferência.
 
 Ele pediu: *"deixe registrado que o nome do projeto e o criador e fundador sou
 eu, inclusive deixe minha foto acima dos outros diretores que serão
-co-participantes"*, e depois: *"é proposta para diretoria do Instituto"*.
+participantes"*, e depois: *"é proposta para diretoria do Instituto"*.
 
 **O que mudou na apresentação:**
 
@@ -460,15 +460,15 @@ co-participantes"*, e depois: *"é proposta para diretoria do Instituto"*.
   *"Proposta à diretoria do Instituto Êxito de Empreendedorismo"*.
 - **Slide dos diretores:** a foto e o card do Gilberto vêm **em cima, em
   destaque**, com o rótulo **"Criador e fundador do projeto"**. Abaixo, lado a
-  lado, os dois **co-participantes**. O título virou *"Um criador e dois
-  co-participantes"*.
+  lado, os dois **participantes**. O título virou *"Um criador e dois
+  participantes"*.
 - Na credencial dele entrou **"Criador do OCEO e da Reengenharia
   Empresarial"**, que já constava no media kit e agora é relevante, porque o
   OCEO mede os indicadores do projeto.
 
 **Regra para qualquer material futuro** (proposta comercial, bio, post,
 apresentação): **Gilberto sempre primeiro, como criador e fundador. Os outros
-dois como co-participantes.** Nunca apresentar os três como sócios fundadores
+dois como participantes.** Nunca apresentar os três como sócios fundadores
 em igualdade.
 
 🔴 **Escrever na apresentação não protege a autoria.** Hoje o que existe é o
@@ -476,7 +476,7 @@ registro dele nos slides. **Falta o papel:**
 
 1. **Entre os três.** Um termo curto, assinado, dizendo que o nome e o modelo
    são do Gilberto e quais são os direitos e deveres de cada
-   co-participante. É o mesmo problema do livro *O Médico e o Executivo*,
+   participante. É o mesmo problema do livro *O Médico e o Executivo*,
    onde também falta acordo de coautoria.
 2. **Com o Instituto.** O nome é o de uma **nova diretoria do Instituto**
    (palavras dele: *"o nome da nova diretoria será Reestruturando com
