@@ -1,4 +1,4 @@
-Em 2027 não cai um imposto novo em cima da tua empresa. Cai o sistema inteiro, trocando de lugar, em sete frentes ao mesmo tempo.
+Em 2027 não cai um imposto novo em cima da sua empresa. Cai o sistema inteiro, trocando de lugar, em sete frentes ao mesmo tempo.
 
 1. CBS substitui PIS e Cofins, 1º de janeiro de 2027. Alíquota de referência de 26,5%, mas já tem conta revisada beirando 28%.
 
