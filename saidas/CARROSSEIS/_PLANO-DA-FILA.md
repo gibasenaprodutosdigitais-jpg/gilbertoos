@@ -41,15 +41,22 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
 | 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
-| 19/10 em diante | ⏳ | ⏳ |
+| 19/10 | ✅ ipi-imposto-seletivo | ✅ 12-pilares-business-plan |
+| 20/10 em diante | ⏳ | ⏳ |
 
-**Próximo:** 19/10 às 15h, `carrossel-ipi-imposto-seletivo-2026-08-27`.
+**Próximo:** 20/10 às 15h, `carrossel-pf-autonomo-cbs-2026-08-27`.
 
 ⚠ **Troquei o Simples Híbrido do dia 18 com o Revenda de Carros do dia 23.**
 O Híbrido caía no dia seguinte ao Simples Nacional do dia 17, e os dois
 contam a mesma história (janela de setembro, 30 de novembro, março de 2027,
 fim do crédito presumido de 9,25%). Dois dias seguidos repetindo isso
 queima o assunto.
+
+⚠ **Peça de agosto pode ter data relativa.** O do IPI dizia "essa semana" e
+"semana que vem" em dois cards e na legenda. Em outubro isso vira informação
+errada. Troquei por "o que já foi editado", "a primeira" e "a segunda", e
+re-renderizei. **Rodar antes de cada peça:**
+`grep -niE "essa semana|semana que vem|hoje o governo" carrossel.html legenda.md`
 
 ⚠ **O nome dos arquivos muda de pasta pra pasta.** Uns usam
 `instagram/slide-01.png`, outros `instagram/card-01.png`. **Listar a pasta
