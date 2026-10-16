@@ -93,3 +93,29 @@ credenciais, mas **os três ainda não acordaram isso.** Está marcado como
 Prospecto de investimento: papel creme `#F4F1EA`, tinta petróleo `#15262B`,
 acento terracota `#C25A2B`. Libre Baskerville nos títulos, Public Sans no
 texto. **Nada de azul e dourado** — a regra dele continua valendo.
+
+## As fotos da tela dos diretores (16/out/2026)
+
+Pasta `fotos/`. Os três recortes têm a mesma proporção (700x511) e rosto inteiro.
+
+| Quem | De onde veio |
+|---|---|
+| **Gilberto** | `retrato-firme.jpg` do media kit (1200x1800), recorte de cabeça e ombros |
+| **Alisson** | foto de estúdio da página dele no site do Instituto Êxito (852x1280) |
+| **Dr. Luciano** | foto da página dele no site do Instituto Êxito (670x652) |
+
+As fotos do Alisson e do Dr. Luciano são **as que o próprio Instituto publica**
+nas páginas de membro, então servem numa apresentação da diretoria do
+Instituto. Os originais ficaram guardados ao lado, com o sufixo
+`original-...-site-instituto-exito`.
+
+⚠ **A foto do Dr. Luciano tem só 670 pixels de largura.** Funciona no card
+de 478px, mas não aguenta ampliação. Se ele tiver uma foto melhor, trocar.
+
+⚠ **Pro site do Instituto responder ao download foi preciso mandar
+cabeçalhos de navegador normais.** Sem eles o servidor devolve 406
+(Mod_Security). Fica o registro caso precise baixar de novo.
+
+O slide da diretoria perdeu o parágrafo de fechamento pra caber as fotos. A
+frase ("nome e responsabilidade na frente") virou o título e as notas do
+orador.
