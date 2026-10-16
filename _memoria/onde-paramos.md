@@ -11,48 +11,68 @@
 
 ## O primeiro ato da próxima sessão
 
-**Enfileirar os 42 carrosséis.** É isso. Ele cobrou, o plano está pronto, e o
-único motivo de não estar feito é que a conversa anterior acabou no meio.
+**Continuar enfileirando os carrosséis. Faltam 38, de 18/10 a 05/11.**
 
-Ler a **seção 0** inteira antes de começar: tem o horário, o caminho técnico,
-a armadilha do carrossel de 12 lâminas e a troca de horário dos reels que
-ficou pendente.
+Ele parou em 16/out de madrugada e pediu pra retomar **de manhã**. Quatro já
+estão na fila (16 e 17/out). O ponto exato de retomada está em
+`saidas/CARROSSEIS/_PLANO-DA-FILA.md`: **18/10 às 15h,
+`carrossel-simples-hibrido-2026-08-27`**.
 
-Logo depois, dois itens curtos da mesma seção:
-
-1. **Mover os reels das 20h para as 18h** (pedido literal dele)
-2. Perguntar se ele quer **espalhar os 14 posts do dia 16**
+Ler a **seção 0** antes de começar — tem o caminho técnico e as armadilhas.
 
 ## 0. ★ A noite de 15/out/2026 — o que ficou no meio do caminho
 
 Esta seção é a mais nova. **Ler antes de qualquer coisa**, porque tem trabalho
 parado numa linha só e ele vai cobrar.
 
-### ⛔ O QUE FALTA: 42 carrosséis pra enfileirar
+### ⏳ Os carrosséis: 4 na fila, 38 pra ir
 
-**É o item mais urgente do repositório.** Ele perguntou *"está faltando os
-carrosséis"* e tem razão: eles estavam prontos desde agosto e nunca foram
-agendados. Eu listei como pendência em vez de executar, três vezes.
+**Dois por dia, 15h e 20h, de 16/10 a 05/11.** O mapa completo está em
+`saidas/CARROSSEIS/_PLANO-DA-FILA.md`, com uma tabela "Onde eu parei" que
+é o que importa ler primeiro.
 
-**O plano já está decidido e salvo** em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`:
-**dois por dia**, de 16/10 a 05/11. ⚠ Aquele arquivo foi escrito quando o
-combinado eram **três** por dia; **a conta certa é dois**, e os horários
-mudaram (ver quadro abaixo). Refazer o arquivo antes de usar.
+| Dia | 15h | 20h |
+|---|---|---|
+| 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
+| 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
+| 18/10 em diante | ⏳ | ⏳ |
 
-**O caminho, por carrossel** (está em [[zernio-instagram-conectado]]):
+**O caminho, por carrossel:**
 
-1. uma chamada de `media_get_media_presigned_url` **por lâmina** (são 7 a 12)
-2. `curl -X PUT` com os arquivos de `<pasta>/instagram/slide-NN.png`
-3. `posts_create_post` via `call_tool`, com `media_items`, `platforms` e
-   `scheduled_for` **em UTC** (⚠ os nomes são snake_case; `mediaItems` e
-   `scheduledFor` são recusados)
-
-São cerca de **330 subidas**. É longo, não é difícil. Fazer por blocos e
-avisar a cada dia concluído.
+1. ⚠ **`ls` na pasta `instagram/` primeiro.** O nome do arquivo muda: uns são
+   `slide-01.png`, outros `card-01.png`. Errar isso faz o curl morrer com
+   *"error encountered when reading a file"*.
+2. uma chamada de `media_get_media_presigned_url` **por lâmina** (7 a 12)
+3. `curl -X PUT` com cada arquivo
+4. `posts_create_post` via `call_tool`, com `media_items`, `platforms` e
+   `scheduled_for` em **UTC** (15h BRT = 18:00Z, 20h BRT = 23:00Z).
+   ⚠ Os nomes são **snake_case**; `mediaItems` e `scheduledFor` são recusados
 
 ⚠ **`carrossel-10-ebooks-leitura-2026-09-06` tem 12 lâminas e o Instagram
-aceita 10.** Deixei por último. Perguntar a ele se corta duas ou vira dois
-posts.
+aceita 10.** Está por último de propósito. Perguntar a ele: corta duas ou
+vira dois posts?
+
+### 🔴 Conferir cada carrossel antes de agendar. Já peguei três.
+
+Não é zelo excessivo: **cada um desses teria ido ao ar errado.**
+
+1. **`7-mudancas-2027` dizia "tua empresa"** na capa e na legenda. A regra
+   dele é **você, nunca tu**. Corrigi e re-renderizei.
+2. **`quem-e-gilberto` dizia "720 horas"** na pós-graduação. Ele mandou tirar
+   a carga horária em 15/out. Nos cards já estava certo, só a legenda tinha
+   ficado pra trás.
+3. **Onze legendas tinham `**negrito**` em markdown.** O Instagram não lê, e
+   mostra o asterisco na tela. ✅ Limpei nas onze de uma vez.
+
+E antes disso, o **"2.000+ empresas"** do carrossel da estagnação, que eu
+peguei minutos antes de publicar. O número é **+500**.
+
+**A varredura que vale a pena rodar em lote**, do diretório `saidas/CARROSSEIS/`:
+
+```
+grep -rlwiE "tua|teu|720|2\.000|dois mil" --include=legenda.md --include=carrossel.html .
+grep -rl '\*\*' --include=legenda.md .
+```
 
 ### O dia dele no Instagram: seis posts
 
@@ -65,15 +85,16 @@ dia"*, *"frase proverbios 2 reels dois carrosseis"*.
 | **9h** | frase do dia | ✅ até 30/10 |
 | **12h** | reels | ✅ até 29/10 |
 | **15h** | **carrossel** | ❌ falta |
-| **18h** | reels | ⚠ os reels de 20h têm que ser movidos pra cá |
+| **18h** | reels | ✅ movidos de 20h pra cá em 16/out |
 | **20h** | **carrossel** | ❌ falta |
 
-⚠ **A última coisa que ele pediu e eu não fiz:** *"troca o carrossel das 18
-para as 20 e vise versa"*. Ou seja, **os reels que estão às 20h vão para as
-18h**, e o carrossel ocupa as 20h. Os reels de 20h já estão agendados em
-16, 17, 18, 19, 20, 21, 22, 23 e 24/10 — achar por `posts_list_posts` e
-mover com `posts_update` (a ferramenta curta, que devolve duas linhas em vez
-do post inteiro).
+✅ **A troca de horário foi feita.** Ele pediu *"troca o carrossel das 18
+para as 20 e vise versa"*, e os nove reels que estavam às 20h (16 a 24/10)
+foram movidos pras 18h.
+
+★ **Para mover post agendado, usar `posts_update`** (a ferramenta curta do
+MCP), que devolve duas linhas. O `posts_update_post` via `call_tool` devolve
+o post inteiro e enche a janela à toa.
 
 ### ✅ Provérbios 17 a 31: feito
 
