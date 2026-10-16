@@ -21,7 +21,7 @@ estejam prontas para o pitch.
 
 | | |
 |---|---|
-| Remuneração | mensal, **nos moldes do que o empresário já paga hoje** |
+| Remuneração | **R$ 5.500,00 por mês**, contrato **anual**, **mais a associação ao Instituto** (valor a definir). Antes era "nos moldes do que o empresário já paga hoje" |
 | Diferença | os diretores à frente, trabalhando junto com o empresário |
 | Instituto | **10% do honorário**, todo mês, por empresa atendida |
 | Entrada | o empresário **tem que se associar** ao Instituto |
@@ -159,3 +159,56 @@ oferecer essa taxa a qualquer empresário.
 
 Na lista final de decisões, a linha virou "Emissão, lastro e **taxa final** do
 fundo", ainda aberta.
+
+## O honorário e a associação (16/out/2026)
+
+Ele mandou: *"honorários 5.500,00 mais associação ao Instituto"*.
+
+| | |
+|---|---|
+| Honorário | **R$ 5.500,00 por mês**, por empresa |
+| Associação | **paga ao Instituto, além do honorário.** Valor **ainda não definido** |
+| Repasse ao Instituto | 10% do honorário = **R$ 550 por mês, por empresa** |
+| Contrato | **anual** (ele mesmo trocou "mensal" por "anual" no slide de regras), com pagamento mensal |
+
+**Contas de exemplo, que estão nas notas do slide:** 10 empresas dão R$ 5.500
+por mês ao Instituto; 50 empresas dão R$ 27.500. É só aritmética, **não é
+projeção** de quantas vão entrar. O valor das associações vem somado e ainda
+falta.
+
+⚠ **Assumi que os R$ 5.500 são por mês**, porque o modelo sempre foi mensal.
+Ele não escreveu "por mês" nessa mensagem.
+
+🔴 **Troquei uma frase minha que a conta desmentia.** O slide do modelo dizia
+*"O empresário não paga mais. Paga melhor"* e *"no mesmo patamar que ele já
+paga hoje"*. Com um valor fixo de R$ 5.500, isso não vale para uma empresa
+pequena que paga R$ 1.500 ao contador. Agora diz **"Mensal, como o empresário
+já paga hoje"**, que fala do **formato**, não do valor. Ele pediu "nos moldes
+do que o empresário paga hoje", e eu tinha lido como "o mesmo valor".
+
+⚠ **Pergunta que o empresário vai fazer:** R$ 5.500 mais a associação pelos
+mesmos serviços que hoje custam menos. A resposta é a diferença do modelo
+(três diretores com nome na frente, quatro frentes num contrato só, e o
+caminho até o pitch). **Vale ele ensaiar essa resposta.**
+
+## Carência: só juros (16/out/2026)
+
+Ele corrigiu: *"durante a carência paga-se somente os juros"*. Isso derruba
+a conta que eu tinha posto nas notas, que supunha os juros acumulando sem
+pagamento (4,4% em seis meses, uns R$ 22 mil). **Não acumulam.** O empresário
+paga os juros todo mês e o principal fica parado.
+
+A 9% ao ano efetivos são **0,72% ao mês**: **R$ 721 por mês a cada R$ 100 mil**
+emprestados, ou uns **R$ 3.600 por mês** com o fundo todo emprestado.
+
+⚠ **Se o contrato usar 9% nominais divididos por 12**, são 0,75% ao mês, R$ 750
+a cada R$ 100 mil. **Definir qual dos dois no contrato.**
+
+Como os juros entram todo mês, dá para usá-los para pagar o rendimento das
+debêntures durante a carência. Está nas notas do slide.
+
+## Os slides do deck foram editados à mão por ele
+
+Ele mexe no editor da página (capa e slide de regras, pelo menos). **Antes de
+alterar qualquer slide, ler a versão publicada**, porque a minha cópia local
+fica velha. A publicação recusa quando isso acontece e avisa qual arquivo.

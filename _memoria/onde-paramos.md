@@ -47,11 +47,11 @@ empresas pra escalar e, se cumprirem os requisitos, chegar ao pitch pra um
 
 | | |
 |---|---|
-| Remuneração | mensal, nos moldes do que o empresário já paga hoje |
+| Remuneração | **R$ 5.500,00/mês**, contrato **anual**, mais a associação ao Instituto (valor a definir) |
 | Instituto | **10% do honorário**, por empresa, todo mês |
 | Entrada | o empresário **tem que se associar** ao Instituto |
 | Fundo | **R$ 500.000** em debêntures, mútuo consignado |
-| Carência | até **6 meses** |
+| Carência | até **6 meses, só juros** |
 | Juros | nos moldes do **Pronamp** |
 
 **Credenciais confirmadas** nas páginas de membro do site do Instituto, que
@@ -79,8 +79,8 @@ do Instituto diz *"Conselheiro Estadual OAB/SC 2010"*. Pode ser inscrição ou
 ano de mandato. Só o cargo, que é verificável.
 ⚠ **Nunca usar CPF nem endereço do contrato** em material de apresentação.
 
-**Ainda falta ele definir:** faixa de honorário por porte, requisitos objetivos
-pro pitch, taxa do fundo, aprovação da diretoria do Instituto.
+**Ainda falta ele definir:** valor da associação ao Instituto, requisitos
+objetivos pro pitch, taxa final do fundo, aprovação da diretoria do Instituto.
 
 **Direção de arte:** papel creme, petróleo e terracota, Libre Baskerville +
 Public Sans. Sem azul e dourado.
