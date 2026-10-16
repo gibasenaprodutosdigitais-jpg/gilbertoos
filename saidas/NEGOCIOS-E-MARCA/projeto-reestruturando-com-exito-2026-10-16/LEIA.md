@@ -1,6 +1,6 @@
 # Reestruturando com Êxito — proposta de diretoria ao Instituto Êxito
 
-> **Criado e fundado por Gilberto Luís de Sena.** O nome do projeto e a autoria são dele (registrado a pedido dele em 16/out/2026). Alisson de Oliveira Ramalho e Dr. Luciano Duarte Peres são **participantes**. Esta apresentação é uma **proposta à diretoria do Instituto Êxito**.
+> **Criado e fundado por Gilberto Luís de Sena.** O nome do projeto e a autoria são dele (registrado a pedido dele em 16/out/2026). Alisson de Oliveira Ramalho e Dr. Luciano Duarte Peres são **diretores do projeto**. Esta apresentação é uma **proposta à diretoria do Instituto Êxito**.
 
 **Apresentação:** https://claude.ai/artifact/9nTHSqSSF37QfBQJQ9uUec
 13 telas. Privada — só abre pra quem o Gilberto compartilhar pelo menu Share.
@@ -451,7 +451,7 @@ está dando a preferência.
 
 Ele pediu: *"deixe registrado que o nome do projeto e o criador e fundador sou
 eu, inclusive deixe minha foto acima dos outros diretores que serão
-participantes"*, e depois: *"é proposta para diretoria do Instituto"*.
+co-co-participantes"*, e depois: *"é proposta para diretoria do Instituto"*.
 
 **O que mudou na apresentação:**
 
@@ -460,15 +460,15 @@ participantes"*, e depois: *"é proposta para diretoria do Instituto"*.
   *"Proposta à diretoria do Instituto Êxito de Empreendedorismo"*.
 - **Slide dos diretores:** a foto e o card do Gilberto vêm **em cima, em
   destaque**, com o rótulo **"Criador e fundador do projeto"**. Abaixo, lado a
-  lado, os dois **participantes**. O título virou *"Um criador e dois
-  participantes"*.
+  lado, os dois **diretores do projeto**. O título virou *"Um criador e dois
+  diretores"*.
 - Na credencial dele entrou **"Criador do OCEO e da Reengenharia
   Empresarial"**, que já constava no media kit e agora é relevante, porque o
   OCEO mede os indicadores do projeto.
 
 **Regra para qualquer material futuro** (proposta comercial, bio, post,
 apresentação): **Gilberto sempre primeiro, como criador e fundador. Os outros
-dois como participantes.** Nunca apresentar os três como sócios fundadores
+dois como diretores do projeto.** Nunca apresentar os três como sócios fundadores
 em igualdade.
 
 🔴 **Escrever na apresentação não protege a autoria.** Hoje o que existe é o
@@ -476,7 +476,7 @@ registro dele nos slides. **Falta o papel:**
 
 1. **Entre os três.** Um termo curto, assinado, dizendo que o nome e o modelo
    são do Gilberto e quais são os direitos e deveres de cada
-   participante. É o mesmo problema do livro *O Médico e o Executivo*,
+   diretor. É o mesmo problema do livro *O Médico e o Executivo*,
    onde também falta acordo de coautoria.
 2. **Com o Instituto.** O nome é o de uma **nova diretoria do Instituto**
    (palavras dele: *"o nome da nova diretoria será Reestruturando com
@@ -491,3 +491,17 @@ registro dele nos slides. **Falta o papel:**
 **Quem pode cuidar dos itens 1 e 2:** o Dr. Luciano, que é advogado. Mas ele é
 parte interessada no item 1, e **quando o assunto é a autoria dele mesmo e o
 que cabe a cada um, o ideal é um advogado de fora.**
+
+### Como os dois são chamados: "Diretor do projeto" (16/out/2026)
+
+O rótulo dos dois foi mudando a pedido dele, no mesmo dia:
+**"co-participantes"** (palavra dele na primeira mensagem), depois
+**"participantes"** (*"tire o co deixe só participantes"*) e, por fim,
+**"Diretor do projeto"** (*"melhor diretor projeto... não, do Alisson e do
+Luciano"*). **Vale o último.** Nos cards, o Alisson e o Dr. Luciano dizem
+**"Diretor do projeto"** e o título do slide é *"Um criador e dois
+diretores"*. O seu card segue com **"Criador e fundador do projeto"**.
+
+⚠ **Hierarquia que isso desenha:** você, criador e fundador, acima de dois
+diretores. **Ele não escreveu que são sócios e não escrevi.** Se eles forem
+sócios do negócio e não só diretores, isso é outro assunto e precisa de papel.
