@@ -906,6 +906,32 @@ Ele larga em `entrada-videos/com-os-nomes-grandes/`, que já existe com o
 LEIA.md explicando a regra: cartaz de evento em que os dois estavam **não é**
 foto junto.
 
+### O kit chegou a 10 páginas — 15/out/2026, fim da noite
+
+**Página 5, "Com quem ele senta à mesa".** O card do Clube Êxito agora é o de
+**outubro de 2026** (tema *Empreendedorismo com Propósito*, no MC Hall), com
+**Pr. Cláudio Duarte, Janguiê Diniz e Eduardo Shinyashiki**. O de abril, com
+Paulo Tomazela e Sergio Moura, saiu — ele pediu o mais recente.
+
+**A faixa da diretoria foi remontada, não trocada.** Ele pediu "troca as da
+diretoria também", mas aquela faixa é a prova do cargo dele no Instituto
+Êxito. Perguntei, e ele escolheu limpar em vez de substituir: recortei os
+cinco retratos um a um do print (`prova-diretoria-instituto-exito.jpg`,
+fileira de baixo, y 194–384; os cortes em x são 18-170, 207-367, 407-558,
+599-751, 791-946) e remontei numa grade de chips com espaçamento igual e
+régua de acento em cada um. Saiu a cara de print de site, ficou a prova.
+O PNG é `assets/diretoria-exito.png`, 814x200.
+
+**Página 6 nova, "Fora do palco".** Duas faixas de cinco fotos de bastidor
+mais a foto larga da reunião fechada. Sem nome de ninguém — foi decisão dele
+quando eu disse que não conseguia afirmar quem era quem.
+
+⚠ **Print de Instagram tem duas armadilhas:** a barra "Ver insights ·
+Turbinar post" embaixo e a barra de status em cima. Em foto de story a
+imagem é cheia e dá pra recortar 4:5 em qualquer altura; em print de **post**
+a imagem é uma faixa no meio, e um recorte 4:5 pega a interface. Conferir
+sempre a peça recortada antes de montar.
+
 ### ✅ Showreel montado — 15/out/2026
 
 `saidas/REELS/showreel-palestrante-2026-10-15/Gilberto-Sena-Showreel.mp4`,
