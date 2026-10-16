@@ -24,7 +24,7 @@ estejam prontas para o pitch.
 | Remuneração | **R$ 5.500,00 por mês**, contrato **anual**, **mais a associação ao Instituto** (valor a definir). Antes era "nos moldes do que o empresário já paga hoje" |
 | Diferença | os diretores à frente, trabalhando junto com o empresário |
 | Instituto | **15% do honorário**, todo mês, por empresa atendida (era 10%) |
-| Entrada | o empresário **tem que se associar** ao Instituto |
+| Entrada | o empresário **tem que se associar** ao Instituto, pagando **R$ 1.250,00 por mês** |
 | Fundo | **R$ 500.000** em debêntures, empréstimo consignado em **mútuo** |
 | Carência | até **6 meses** para começar a pagar |
 | Juros | **nos moldes do Pronamp**, referência de **9% ao ano** (ver abaixo) |
@@ -259,3 +259,43 @@ ao lado. As contas de 10 e 50 empresas estão nas notas do slide do Instituto.
 está definido é o que acontece se o empresário sair antes de 12 meses:
 multa, devolução, ou o contrato vale por inteiro. **É a primeira pergunta
 que um empresário vai fazer sobre um contrato anual.**
+
+## A associação ao Instituto: R$ 1.250,00 por mês (16/out/2026)
+
+Ele disse: *"a taxa do Instituto é de 1.250,00 mensais"*. É o valor da
+associação que estava em aberto. **Assumi que é a mensalidade da associação,
+paga além do honorário**, e não uma troca do repasse de 15%. Ele não escreveu
+"associação" nessa mensagem; se a leitura estiver errada, é só corrigir.
+
+| | Por mês | Por ano |
+|---|---|---|
+| **O empresário paga** (honorário + associação) | **R$ 6.750** | **R$ 81.000** |
+| Honorário, por empresa | R$ 5.500 | R$ 66.000 |
+| Associação ao Instituto | R$ 1.250 | R$ 15.000 |
+| **O Instituto recebe** (associação + 15% do honorário) | **R$ 2.075** | **R$ 24.900** |
+| ...sendo o repasse de 15% | R$ 825 | R$ 9.900 |
+| **A estrutura dos três diretores fica com** (85%) | R$ 4.675 | R$ 56.100 |
+
+| Empresas | Ao Instituto, por ano |
+|---|---|
+| 10 | **R$ 249.000** |
+| 50 | **R$ 1.245.000** |
+
+São contas de exemplo, **não projeção** de quantas empresas vão entrar.
+
+⚠ **O Instituto fica com R$ 24.900 por empresa por ano, e a estrutura com
+R$ 56.100.** Ou seja, o Instituto recebe 44% do que a estrutura recebe. Vale
+ele ter isso na cabeça quando a diretoria perguntar o que cada lado ganha.
+
+⚠ **Pergunta que o empresário vai fazer:** R$ 6.750 por mês, R$ 81.000 por
+ano, no total. Está bem acima do que uma empresa pequena paga hoje a um
+contador. A defesa é o que vem junto: três diretores com nome na frente,
+quatro frentes num contrato só e o caminho até o pitch. **Ensaiar essa
+resposta antes de apresentar.**
+
+⚠ **Segue sem resposta:** o que acontece se o empresário sair antes de 12
+meses. E agora são dois valores mensais, o honorário e a associação: a
+associação também é por 12 meses, ou só enquanto ele for associado?
+
+Nos slides: modelo, regras, retorno do Instituto e decisões. Na lista de
+decisões, a linha da associação passou de "Aberta" para "Definido".

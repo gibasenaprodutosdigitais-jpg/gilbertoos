@@ -47,8 +47,8 @@ empresas pra escalar e, se cumprirem os requisitos, chegar ao pitch pra um
 
 | | |
 |---|---|
-| Remuneração | **R$ 5.500,00/mês x 12 = R$ 66.000 por contrato anual**, mais a associação ao Instituto (valor a definir) |
-| Instituto | **15% do contrato** (R$ 9.900 por empresa por ano, R$ 825 por mês) |
+| Remuneração | **R$ 5.500,00/mês x 12 = R$ 66.000 por contrato anual**, mais a associação ao Instituto, **R$ 1.250/mês** (o empresário paga R$ 6.750/mês no total) |
+| Instituto | **associação R$ 1.250/mês + 15% do honorário (R$ 825)** = R$ 2.075/mês por empresa, R$ 24.900/ano |
 | Entrada | o empresário **tem que se associar** ao Instituto |
 | Fundo | **R$ 500.000** em debêntures, mútuo consignado |
 | Carência | até **6 meses, só juros** |
@@ -79,7 +79,7 @@ do Instituto diz *"Conselheiro Estadual OAB/SC 2010"*. Pode ser inscrição ou
 ano de mandato. Só o cargo, que é verificável.
 ⚠ **Nunca usar CPF nem endereço do contrato** em material de apresentação.
 
-**Ainda falta ele definir:** valor da associação ao Instituto, requisitos
+**Ainda falta ele definir:** multa se o empresário sair antes de 12 meses, requisitos
 objetivos pro pitch, taxa final do fundo, aprovação da diretoria do Instituto.
 
 **Direção de arte:** papel creme, petróleo e terracota, Libre Baskerville +
