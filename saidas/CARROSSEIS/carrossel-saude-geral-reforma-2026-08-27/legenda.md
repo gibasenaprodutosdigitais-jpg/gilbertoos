@@ -6,7 +6,7 @@ Se a alíquota padrão ficar perto de 28%, a carga efetiva estimada sobre o fatu
 
 Mas tem um alerta dentro dessa boa notícia: o benefício só vale se a atividade estiver corretamente classificada na NBS. Código errado, mesmo sendo saúde de verdade, perde o redutor.
 
-60% de redução não é automático. É o resultado de classificar cada serviço da sua clínica ou hospital do jeito certo.Me chama no direct.
+60% de redução não é automático. É o resultado de classificar cada serviço da sua clínica ou hospital do jeito certo.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

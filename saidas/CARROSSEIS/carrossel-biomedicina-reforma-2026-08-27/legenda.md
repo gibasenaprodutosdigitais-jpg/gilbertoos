@@ -6,7 +6,7 @@ A lógica é a mesma de médico e dentista: quando o serviço se enquadra como s
 
 A maior parte do conteúdo sobre reforma tributária fala só de médico e dentista. Biomédico ficou fora do holofote, mas não ficou fora da lei.
 
-Se você atua em laboratório ou clínica de biomedicina, vale confirmar como seus serviços estão classificados.Me chama no direct.
+Se você atua em laboratório ou clínica de biomedicina, vale confirmar como seus serviços estão classificados.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

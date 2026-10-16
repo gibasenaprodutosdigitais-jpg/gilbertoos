@@ -1,0 +1,213 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Direção: segue o banner do livro (noite e ouro), que é a capa.
+     Os cards precisam parecer a mesma peça. Quase-preto neutro, um ouro só. */
+  :root{ --f1:#0C0D10; --f2:#14161B; --tinta:#F1ECE0; --suave:rgba(241,236,224,.68);
+         --ouro:#D9B14E; --linha:rgba(217,177,78,.28); }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#444; }
+
+  .slide{ width:1080px; height:1350px; position:relative; overflow:hidden;
+          font-family:'Inter',sans-serif; color:var(--tinta);
+          padding:150px 90px 150px 126px; display:flex; flex-direction:column; }
+  .slide.f1{ background:var(--f1); }
+  .slide.f2{ background:var(--f2); }
+
+  /* faixa dourada lateral, costura os slides */
+  .slide::before{ content:""; position:absolute; left:0; top:0; bottom:0; width:20px; z-index:9;
+    background:linear-gradient(180deg,#A8832F 0%,#D9B14E 38%,#EAD08A 52%,#D9B14E 66%,#A8832F 100%); }
+  /* logo, uma vez por slide, pequena */
+  .slide::after{ content:""; position:absolute; left:58px; bottom:40px; width:86px; height:86px; z-index:9;
+    background:url('_logo-gsena.png') no-repeat center/contain; }
+
+  .counter{ position:absolute; top:56px; right:90px; font-size:19px; font-weight:700;
+            letter-spacing:.16em; color:var(--ouro); }
+  .footer{ position:absolute; bottom:56px; left:110px; right:90px; padding:24px 0 0 116px;
+           border-top:1px solid var(--linha); display:flex; justify-content:space-between;
+           font-size:14px; font-weight:600; letter-spacing:.04em; color:var(--suave); }
+
+  .kicker{ font-size:17px; font-weight:700; letter-spacing:.24em; text-transform:uppercase;
+           color:var(--ouro); margin-bottom:22px; }
+  .rule{ width:84px; height:5px; background:var(--ouro); margin-bottom:34px; }
+
+  /* ---------- CAPA (o banner dele) ---------- */
+  .capa{ padding:0; background:#070B14 url('banner-livro-5gs.jpeg') no-repeat 0 0 / 1080px 1350px; }
+  .capa .tarja{ position:absolute; left:0; right:0; top:1012px; bottom:0;
+    background:linear-gradient(180deg, rgba(7,11,20,0) 0, #070B14 30px, #070B14 100%);
+    padding:62px 90px 0 126px; }
+  .capa .tarja .fio{ height:2px; background:linear-gradient(90deg,transparent,var(--ouro) 12%,var(--ouro) 88%,transparent);
+    margin:0 0 26px -40px; opacity:.85; }
+  .capa .linha1{ display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
+  .capa .t{ font-family:'Oswald',sans-serif; font-weight:700; font-size:58px; letter-spacing:.03em;
+            color:var(--ouro); text-transform:uppercase; line-height:1; }
+  .capa .arraste{ font-size:20px; font-weight:800; letter-spacing:.14em; color:var(--ouro);
+            border:2px solid var(--ouro); border-radius:999px; padding:12px 26px; }
+  .capa .nomes{ font-size:23px; font-weight:600; line-height:1.45; color:rgba(241,236,224,.88); max-width:860px; }
+  .capa .nomes i{ font-style:normal; color:var(--ouro); padding:0 .35em; }
+  .capa .footer{ display:none; }
+
+  /* ---------- LAYOUT A: pilares primeiro ---------- */
+  .gnum{ font-family:'Oswald',sans-serif; font-weight:700; font-size:170px; line-height:.88;
+         color:var(--ouro); letter-spacing:.01em; }
+  .gtitle{ font-family:'Oswald',sans-serif; font-weight:700; font-size:88px; line-height:1.02;
+           text-transform:uppercase; letter-spacing:.012em; margin:6px 0 30px; max-width:900px; }
+  .gtitle.longo{ font-size:70px; }
+  ol.pil{ list-style:none; border-top:1px solid var(--linha); margin-bottom:34px; }
+  ol.pil li{ display:flex; align-items:baseline; gap:26px; padding:13px 0; border-bottom:1px solid var(--linha);
+             font-size:36px; font-weight:600; letter-spacing:-.005em; }
+  ol.pil li span{ font-family:'Oswald',sans-serif; font-weight:600; font-size:28px; color:var(--ouro);
+                  width:44px; letter-spacing:.06em; }
+  .qa{ border-left:5px solid var(--ouro); padding:2px 0 2px 28px; max-width:850px; }
+  .qa .lab{ font-size:15px; font-weight:800; letter-spacing:.22em; color:var(--ouro); text-transform:uppercase; margin-bottom:10px; }
+  .qa .txt{ font-size:29px; font-weight:500; line-height:1.4; color:var(--tinta); }
+  .qa .crenca{ font-size:29px; font-weight:800; color:var(--ouro); margin-bottom:8px; }
+  .tag{ display:inline-block; margin-top:26px; font-size:21px; font-weight:800; letter-spacing:.06em;
+        color:var(--ouro); border:2px solid var(--ouro); border-radius:999px; padding:12px 28px; align-self:flex-start; }
+
+  /* ---------- LAYOUT B: frase primeiro ---------- */
+  .bhead{ display:flex; align-items:baseline; gap:22px; margin-bottom:26px; }
+  .bhead .n{ font-family:'Oswald',sans-serif; font-weight:700; font-size:92px; color:var(--ouro); line-height:1; }
+  .bhead .tt{ font-family:'Oswald',sans-serif; font-weight:600; font-size:50px; letter-spacing:.04em;
+              text-transform:uppercase; line-height:1.05; }
+  .aspas{ font-family:'Oswald',sans-serif; font-weight:700; font-size:190px; line-height:.55; color:var(--ouro);
+          height:84px; margin:40px 0 10px; }
+  ol.pil.amplo li{ padding:18px 0; }
+  .bq.g{ font-size:64px; }
+  .bsub.g{ font-size:36px; }
+  .bq{ font-size:55px; font-weight:700; line-height:1.28; letter-spacing:-.015em; max-width:860px; }
+  .bq b{ color:var(--ouro); font-weight:800; }
+  .bsub{ font-size:32px; font-weight:600; line-height:1.4; color:var(--suave); margin-top:26px; max-width:820px; }
+  .bsub b{ color:var(--ouro); font-weight:800; }
+  .autor{ font-size:19px; font-weight:700; letter-spacing:.06em; color:var(--suave); margin-top:26px; }
+  .chips{ display:flex; flex-wrap:wrap; gap:12px 12px; margin-top:auto; padding-bottom:6px; max-width:880px; }
+  .chips span{ font-size:25px; font-weight:600; border:2px solid rgba(217,177,78,.55); border-radius:999px; padding:10px 22px; }
+  .chips span.bonus{ background:var(--ouro); color:#14110A; border-color:var(--ouro); font-weight:800; }
+  .chips-lab{ font-size:15px; font-weight:800; letter-spacing:.22em; color:var(--ouro); text-transform:uppercase; margin:auto 0 14px; }
+  .chips-lab + .chips{ margin-top:0; }
+
+  /* ---------- SLIDE FINAL: foto dele com véu, mensagem de fechamento do livro ---------- */
+  .fim{ background-color:#0C0D10;
+        background-image:linear-gradient(180deg, rgba(12,13,16,.80) 0%, rgba(12,13,16,.64) 36%, rgba(12,13,16,.90) 74%, rgba(12,13,16,.98) 100%),
+                         url('../../../identidade/@eubernardocoelho-Gilberto-Sena-104.jpg');
+        background-size:cover; background-position:center 20%; justify-content:flex-end; padding-bottom:190px; }
+  .fim .fq{ font-size:56px; font-weight:700; line-height:1.26; letter-spacing:-.015em; max-width:870px; margin-bottom:34px; }
+  .fim .fq b{ color:var(--ouro); font-weight:800; }
+  .fim .fs{ font-size:33px; font-weight:500; line-height:1.4; color:rgba(241,236,224,.86); max-width:840px;
+            border-left:5px solid var(--ouro); padding-left:28px; margin-bottom:30px; }
+  .fim .autor{ margin-top:0; }
+</style>
+
+<!-- SLIDE 1 — CAPA: o banner dele, com a faixa dos 5 Gs trocada pelos nomes do livro -->
+<div class="slide capa">
+  <div class="tarja">
+    <div class="fio"></div>
+    <div class="linha1"><div class="t">Os 5 G's, um por um</div><div class="arraste">ARRASTE →</div></div>
+    <div class="nomes">Gestão de Si<i>·</i>Gestão Financeira<i>·</i>Gestão de Pessoas<br>Gestão Tributária<i>·</i>Gestão de Fornecedores e Clientes</div>
+  </div>
+</div>
+
+<!-- SLIDE 2 — 1G · Gestão de Si (layout A) -->
+<div class="slide f1">
+  <span class="counter">02 / 07</span>
+  <div class="kicker">Os 5 G's da Gestão Empreendedora · 1 de 5</div>
+  <div class="rule"></div>
+  <div class="gnum">1G</div>
+  <div class="gtitle">Gestão de Si</div>
+  <ol class="pil amplo">
+    <li><span>01</span>Autoconhecimento</li>
+    <li><span>02</span>Tempo</li>
+    <li><span>03</span>Energia</li>
+    <li><span>04</span>Recursos</li>
+    <li><span>05</span>Desenvolvimento</li>
+  </ol>
+  <div class="qa">
+    <div class="lab">Sacada do Giba</div>
+    <div class="crenca">“Ganhar dinheiro é muito difícil.”</div>
+    <div class="txt">Essa talvez seja a crença mais problemática e mais difícil de se contornar na vida.</div>
+  </div>
+  <div class="footer"><span>OS 5 G'S DA GESTÃO EMPREENDEDORA</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 3 — 2G · Gestão Financeira (layout B) -->
+<div class="slide f2">
+  <span class="counter">03 / 07</span>
+  <div class="kicker">Os 5 G's da Gestão Empreendedora · 2 de 5</div>
+  <div class="rule"></div>
+  <div class="bhead"><div class="n">2G</div><div class="tt">Gestão Financeira</div></div>
+  <div class="aspas">“</div>
+  <div class="bq g">O dinheiro, para mim, nunca foi apenas uma ferramenta, mas um <b>professor</b>.</div>
+  <div class="bsub g">Enfrentei a falência não uma, mas <b>sete vezes</b>.</div>
+  <div class="autor">GILBERTO SENA · DO LIVRO</div>
+  <div class="chips-lab">Os cinco pilares</div>
+  <div class="chips"><span>Governança Financeira</span><span>Gestão Orçamentária</span><span>Fluxo de Caixa</span><span>Investimentos</span><span>Endividamento</span></div>
+  <div class="footer"><span>OS 5 G'S DA GESTÃO EMPREENDEDORA</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 4 — 3G · Gestão de Pessoas (layout A) -->
+<div class="slide f1">
+  <span class="counter">04 / 07</span>
+  <div class="kicker">Os 5 G's da Gestão Empreendedora · 3 de 5</div>
+  <div class="rule"></div>
+  <div class="gnum">3G</div>
+  <div class="gtitle">Gestão de Pessoas</div>
+  <ol class="pil amplo">
+    <li><span>01</span>Propósito</li>
+    <li><span>02</span>Desempenho</li>
+    <li><span>03</span>Comunicação</li>
+    <li><span>04</span>Engajamento</li>
+    <li><span>05</span>Desenvolvimento</li>
+  </ol>
+  <div class="qa">
+    <div class="lab">Do livro</div>
+    <div class="txt">“Crescimento não é propósito, é consequência do propósito.”</div>
+  </div>
+  <div class="footer"><span>OS 5 G'S DA GESTÃO EMPREENDEDORA</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 5 — 4G · Gestão Tributária (layout B) -->
+<div class="slide f2">
+  <span class="counter">05 / 07</span>
+  <div class="kicker">Os 5 G's da Gestão Empreendedora · 4 de 5</div>
+  <div class="rule"></div>
+  <div class="bhead"><div class="n">4G</div><div class="tt">Gestão Tributária</div></div>
+  <div class="aspas">“</div>
+  <div class="bq">No veneno está o <b>antídoto</b>. Aprenda a lidar, tenha uma gestão tributária robusta e transforme o problema em solução.</div>
+  <div class="autor">GILBERTO SENA · DO LIVRO</div>
+  <div class="chips-lab">Os cinco pilares, mais um bônus</div>
+  <div class="chips"><span>Estrutura Tributária</span><span>Processos</span><span>Conformidade</span><span>Planejamento Financeiro</span><span>Governança</span><span class="bonus">Bônus: Reforma Tributária</span></div>
+  <div class="footer"><span>OS 5 G'S DA GESTÃO EMPREENDEDORA</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 6 — 5G · Fornecedores e Clientes (layout A, com CTA) -->
+<div class="slide f1">
+  <span class="counter">06 / 07</span>
+  <div class="kicker">Os 5 G's da Gestão Empreendedora · 5 de 5</div>
+  <div class="rule"></div>
+  <div class="gnum">5G</div>
+  <div class="gtitle longo">Gestão de Fornecedores<br>e Clientes</div>
+  <ol class="pil">
+    <li><span>01</span>Governança de Relacionamentos</li>
+    <li><span>02</span>Ciclo de Vida</li>
+    <li><span>03</span>Comunicação</li>
+    <li><span>04</span>Riscos</li>
+    <li><span>05</span>Valor</li>
+  </ol>
+  <div class="qa">
+    <div class="lab">Do livro</div>
+    <div class="txt">“Comprar é uma expressão de confiança... Vender é sobre entender as necessidades do cliente, oferecer soluções e construir um relacionamento.”</div>
+  </div>
+  <div class="footer"><span>OS 5 G'S DA GESTÃO EMPREENDEDORA</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>
+
+<!-- SLIDE 7 — fechamento: a mensagem final do livro -->
+<div class="slide fim">
+  <span class="counter">07 / 07</span>
+  <div class="kicker">A mensagem final do livro</div>
+  <div class="rule"></div>
+  <div class="fq">“Eu me orgulho, eu sei que existem muitos <b>‘Gilbertos’</b> por aí, que precisam de conhecimento e apoio para crescerem.”</div>
+  <div class="fs">Vamos, juntos, transformar sonhos em realidades tangíveis e deixar um legado que transcenda gerações.</div>
+  <div class="autor">GILBERTO SENA · OS 5 G'S DA GESTÃO EMPREENDEDORA</div>
+  <div class="footer"><span>OS 5 G'S DA GESTÃO EMPREENDEDORA</span><span>@GILBERTOSENAOFICIAL</span></div>
+</div>

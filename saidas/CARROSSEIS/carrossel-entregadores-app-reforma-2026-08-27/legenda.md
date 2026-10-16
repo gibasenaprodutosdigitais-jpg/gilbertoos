@@ -6,7 +6,7 @@ Quem recolhe o imposto não é você. É a plataforma, iFood, Uber, Rappi e afin
 
 O aumento de carga tende a ser repassado no preço da corrida ou da entrega, não descontado do que você recebe.
 
-Diferente da maioria dos setores que venho pesquisando sobre a reforma, esse é um alívio real.Me chama no direct.
+Diferente da maioria dos setores que venho pesquisando sobre a reforma, esse é um alívio real.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

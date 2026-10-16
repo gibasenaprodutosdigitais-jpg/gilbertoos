@@ -10,8 +10,6 @@ E tem outro ponto que pesa na competitividade: indústria tem cadeia longa e com
 
 Regra geral e exceção quase nunca contam a mesma história. Quem só ouviu "o IPI acabou" vai tomar decisão de preço errada se concorrer com produto da Zona Franca.
 
-Me chama no direct.
-
 Gilberto Sena, Grupo Sena Soluções Empresariais.
 
 #reformatributaria #industria #ipi #zonafrancademanaus #planejamentotributario #ibs #cbs #gestaoempresarial #direitotributario #gilbertosena

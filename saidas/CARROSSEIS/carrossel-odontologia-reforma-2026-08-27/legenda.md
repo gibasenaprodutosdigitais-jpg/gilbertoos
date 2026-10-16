@@ -6,7 +6,7 @@ Se a alíquota padrão ficar perto de 28%, com os 60% de redução, a carga esti
 
 E tem mais: a não-cumulatividade deixa a clínica creditar o imposto pago em despesas e custos da atividade, sem o efeito de imposto sobre imposto.
 
-Você não precisa fazer nada pra ganhar o benefício, mas precisa classificar certo cada serviço pra não perder.Me chama no direct.
+Você não precisa fazer nada pra ganhar o benefício, mas precisa classificar certo cada serviço pra não perder.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

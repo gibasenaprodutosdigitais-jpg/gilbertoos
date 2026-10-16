@@ -8,8 +8,6 @@ Não é redução chegando. É prazo pra se adaptar à perda de um incentivo que
 
 Se seu negócio depende de incentivo de ICMS, esse é o momento de recalcular, não daqui a 3 anos.
 
-Me chama no direct.
-
 Gilberto Sena, Grupo Sena Soluções Empresariais.
 
 #reformatributaria #industriatextil #textil #confeccao #icms #direitotributario #planejamentotributario #ibs #cbs #gestaoempresarial #nordeste #ceara #contabilidade #gilbertosena

@@ -8,7 +8,7 @@ Folha de pagamento não gera crédito de IBS/CBS. Pra empresa de tecnologia, ond
 
 E o crédito trava de dois jeitos: se o fornecedor não recolher o imposto dele, você perde o crédito mesmo tendo pago certo. E pagamento a MEI, Simples ou pessoa física, comum em tech com freelancer e PJ individual, não gera crédito integral.
 
-Alíquota fixa no código de um sistema é coisa do passado. Quem não parametrizou o sistema fiscal em 2026 vai tentar consertar isso em produção, sob pressão, em 2027.Me chama no direct.
+Alíquota fixa no código de um sistema é coisa do passado. Quem não parametrizou o sistema fiscal em 2026 vai tentar consertar isso em produção, sob pressão, em 2027.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

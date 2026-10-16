@@ -8,8 +8,6 @@ O calendário: a extinção do IPI já está publicada e vale a partir de 1º de
 
 A lição: isso é substituição, não é alívio. O princípio é neutralidade. O que hoje paga IPI passa a pagar Imposto Seletivo. Ninguém ganha, ninguém perde. O IPI não acaba, ele se transforma.
 
-Me chama no direct.
-
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 
 #reformatributaria #ipi #impostoseletivo #direitotributario #planejamentotributario #medidaprovisoria #gestaoempresarial #industria #gilbertosena

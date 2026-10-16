@@ -10,8 +10,6 @@ Mas também vem obrigação nova: passa a ser obrigatório emitir nota fiscal pr
 
 Renda de aluguel sempre pareceu "dinheiro parado rendendo". A reforma tornou isso operação, e operação, pra Receita, é decisão que se declara e se documenta.
 
-Me chama no direct.
-
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 
 #reformatributaria #aluguel #mercadoimobiliario #locacao #planejamentotributario #ibs #cbs #gestaoempresarial #direitotributario #investimentoimobiliario #gilbertosena

@@ -19,7 +19,7 @@ Quando eu mexer na fila, atualizo este arquivo.
 | 17/10 sáb | 15h00 | Instagram | carrossel | Dia 30 de setembro uma porta se fechou, e muita gente não percebeu qu… |
 | 17/10 sáb | 18h00 | Instagram | reels | Quantos Gilbertos tem lá fora? Gente que está perdida e que precisa o… |
 | 17/10 sáb | 18h00 | YouTube | reels | Quem vende online tem dois prazos correndo, e os dois mexem no caixa.… |
-| 17/10 sáb | 20h00 | Instagram | carrossel | Todo mês a sua empresa te entrega um relatório contando exatamente o… |
+| 17/10 sáb | 20h00 | Instagram | carrossel | No meu livro, os 5 Gs da gestão não são meras teorias. Eu não sou um acadêmico… (5 G's, 7 cards) |
 | 17/10 sáb | 20h00 | TikTok | reels | Nem toda queda de cabelo é calvície. E nem todo problema da sua empre… |
 | 18/10 dom | 00h00 | YouTube | reels | O sucesso dos maus é o silêncio dos bons. Tem muita gente enganando e… |
 | 18/10 dom | 05h00 | Instagram | card | Entregue valor real. O cliente percebe quando há cuidado em cada etap… |
@@ -51,6 +51,7 @@ Quando eu mexer na fila, atualizo este arquivo.
 | 22/10 qui | 05h00 | Instagram | card | O reconhecimento mais sólido começa em casa: nas relações que seu tra… |
 | 22/10 qui | 09h00 | Instagram | card | Nem toda oportunidade merece um sim. Escolha as que aproximam sua emp… |
 | 22/10 qui | 12h00 | Instagram + TikTok + YouTube | reels | Foram confirmados sete pecados que vão destruir empresas, famílias e… |
+| 22/10 qui | 15h00 | Instagram | carrossel | Todo mês a sua empresa te entrega um relatório contando exatamente o… (DRE, veio do 17/10) |
 | 22/10 qui | 18h00 | Instagram + TikTok + YouTube | reels | Tem empresário que fatura bem e não sabe dizer o que é capital de gir… |
 | 23/10 sex | 05h00 | Instagram | card | Não copie o caminho de outros empreendedores. Trabalhe para construir… |
 | 23/10 sex | 09h00 | Instagram | card | Quando o plano muda, sua capacidade de se adaptar também faz parte do… |
@@ -86,12 +87,11 @@ agendado em lugar nenhum. Os posts de antes das 20h do dia 16 já foram ao ar.
 
 | Rede | Posts na fila | O quê | Até quando |
 |---|---|---|---|
-| Instagram | 56 | 25 cards, 21 reels, 10 carrosséis | 31/10 às 5h (Provérbios) |
+| Instagram | 57 | 25 cards, 21 reels, 11 carrosséis | 31/10 às 5h (Provérbios) |
 | YouTube | 20 | só reels | 29/10 |
 | TikTok | 16 | só reels | 29/10 |
 
-**Carrosséis: só 10 na fila, e o último é 21/10 às 15h.** Faltam 30, de 22/10 a
-05/11, no ritmo de 15h e 20h. O mapa e o ponto de retomada estão em
+**Carrosséis: 11 na fila, e o último é 22/10 às 15h.** Faltam 31 (20h de 21/10 a 05/11, 15h de 23/10 a 06/11).
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 
 **O horário de 19/10 às 15h foi preenchido** com o carrossel do imobiliário,

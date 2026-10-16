@@ -6,8 +6,6 @@ Só que o STJ decidiu diferente: revender carro não é prestar serviço, é com
 
 Na prática, isso é até 54% a menos de imposto federal. Quem pagava R$ 500 mil por ano passa a pagar R$ 220 mil. E ainda dá pra restituir o que foi pago a mais nos últimos 5 anos.
 
-Me chama no direct.
-
 Gilberto Sena, Grupo Sena Soluções Empresariais.
 
 #revendadeveiculos #revendadecarros #stj #direitotributario #planejamentotributario #impostoderenda #contabilidade #consignado #concessionaria #comerciodeveiculos #gestaoempresarial #economiadeimposto #restituicaodeimposto #gilbertosena

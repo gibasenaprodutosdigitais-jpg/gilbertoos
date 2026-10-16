@@ -6,7 +6,7 @@ A pegadinha: esse crédito é condicionado. Pelo art. 47 da LC 214/2025, você s
 
 Na prática: escolher fornecedor virou decisão tributária. Não é só preço e prazo. É também "esse fornecedor paga o imposto dele em dia?"
 
-Se seu comércio compra de muitos fornecedores pequenos, vale revisar essa exposição antes de 2027.Me chama no direct.
+Se seu comércio compra de muitos fornecedores pequenos, vale revisar essa exposição antes de 2027.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

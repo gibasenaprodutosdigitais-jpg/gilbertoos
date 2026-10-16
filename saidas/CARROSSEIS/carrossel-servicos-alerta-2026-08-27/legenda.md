@@ -6,7 +6,7 @@ Em 2027, PIS e Cofins são extintos. Entra a CBS cheia, estimada em cerca de 9,2
 
 Se você é advogado, contador, médico ou outra profissão regulamentada, você já tem uma redução de 30% garantida na reforma. Esse alerta não é pra você. Mas se você presta qualquer outro tipo de serviço, o PIS/Cofins baixo que você paga hoje não é vantagem permanente. É um regime com prazo pra acabar.
 
-Essa conta precisa ser feita agora, não em 2027.Me chama no direct.
+Essa conta precisa ser feita agora, não em 2027.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

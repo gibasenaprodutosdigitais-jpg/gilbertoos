@@ -10,8 +10,6 @@ Não tem redução de alíquota confirmada pro transporte de carga, mas a não-c
 
 Se sua transportadora ainda não atualizou o sistema de emissão de CT-e, o prazo já está correndo.
 
-Me chama no direct.
-
 Gilberto Sena, Grupo Sena Soluções Empresariais.
 
 #reformatributaria #transportadora #logistica #frete #cte #direitotributario #planejamentotributario #gestaoempresarial #transporterodoviario #gilbertosena

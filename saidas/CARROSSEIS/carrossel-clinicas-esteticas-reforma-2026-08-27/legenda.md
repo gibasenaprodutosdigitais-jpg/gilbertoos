@@ -6,7 +6,7 @@ O que decide não é quem faz o procedimento, é como ele é classificado (códi
 
 E quem não é médico? Esteticista sem formação médica corre o maior risco das categorias que já pesquisei: pode não se enquadrar em nenhuma redução.
 
-Se sua clínica está achando que vai ter o mesmo desconto do consultório médico ao lado, para e confere. Aqui não tem resposta fácil, e quem te disser que tem está chutando.Me chama no direct.
+Se sua clínica está achando que vai ter o mesmo desconto do consultório médico ao lado, para e confere. Aqui não tem resposta fácil, e quem te disser que tem está chutando.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

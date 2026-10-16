@@ -6,7 +6,7 @@ Mas a redução vale só pra mensalidade e pro serviço educacional em si. Alugu
 
 Pesquisa e desenvolvimento feito por instituto científico e tecnológico sem fins lucrativos tem alíquota zero. Outro detalhe que passa batido.
 
-Quem só olhar "educação tem 60% de desconto" vai precificar errado. A reforma pediu pra separar o contrato de mensalidade dos serviços correlatos. Quem não separa paga cheio numa parte que achava que tinha desconto.Me chama no direct.
+Quem só olhar "educação tem 60% de desconto" vai precificar errado. A reforma pediu pra separar o contrato de mensalidade dos serviços correlatos. Quem não separa paga cheio numa parte que achava que tinha desconto.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

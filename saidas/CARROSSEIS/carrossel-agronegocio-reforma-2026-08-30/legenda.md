@@ -8,7 +8,7 @@ Quem compra a sua produção ganha um crédito presumido pra manter a cadeia sem
 
 Cooperativa também tem escolha: regime geral tributa a receita bruta inteira; regime específico tributa só o valor agregado, com crédito presumido e estrutura mais simples.
 
-Ficar fora do imposto não é sorte, é regra desenhada pra não quebrar a cadeia do agro. Mas o teto de R$3,6 milhões é decisão de crescimento que precisa ser gerida, não descoberta depois que já estourou.Me chama no direct.
+Ficar fora do imposto não é sorte, é regra desenhada pra não quebrar a cadeia do agro. Mas o teto de R$3,6 milhões é decisão de crescimento que precisa ser gerida, não descoberta depois que já estourou.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

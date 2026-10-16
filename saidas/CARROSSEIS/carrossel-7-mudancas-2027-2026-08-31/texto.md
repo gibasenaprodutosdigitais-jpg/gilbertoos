@@ -47,7 +47,6 @@ Kicker: 7 — A SUA RETIRADA
 
 ## Slide 9 — CTA FINAL
 "O fio que liga as sete é o mesmo: informação incompleta e prazo correndo. A diferença entre o empresário que atravessa 2027 tranquilo e o que apanha na guia não é sorte — é gestão."
-Tag: Me chama no direct
 
 
 > **Reposto em 16/out/2026.** A versão de 16/out às 15h foi apagada e refeita: Imposto

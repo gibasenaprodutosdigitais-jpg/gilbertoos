@@ -11,17 +11,18 @@
 
 ## O primeiro ato da próxima sessão
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 30 pra ir,
-de 22/10 a 05/11. (2) O projeto Reestruturando com Êxito, que ele vai
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir
+(16 nas 20h de 21/10 a 05/11, 15 nas 15h de 23/10 a 06/11). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
-**Carrosséis: faltam 30, de 22/10 a 05/11.**
+**Carrosséis: faltam 31 (20h de 21/10 a 05/11, 15h de 23/10 a 06/11).**
 
 Dez já estão na fila ou no ar (16 a 20/out). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
-**22/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`**.
-O 21/10 às 15h já tem o reposte do `7-mudancas-2027`. A coluna das 15h andou
-dois dias (imobiliário no 19/10, reposte no 21/10) e não sobra horário vago.
+**21/10 às 20h, `carrossel-5gs-gestao-tributaria-2026-07-17`**, e **23/10 às 15h,
+`carrossel-redutor-ajuste-construcao-2026-08-30`**. O 21/10 às 15h tem o reposte do
+`7-mudancas-2027`, o 22/10 às 15h tem o `dre-7-passos`, e o 17/10 às 20h tem o
+`5gs-o-livro` (adiantado a pedido dele).
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
@@ -131,7 +132,7 @@ Public Sans. Sem azul e dourado.
 | Dia | 15h | 20h |
 |---|---|---|
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
-| 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
+| 17/10 | ✅ simples-nacional-prazo | ✅ 5gs-o-livro (era o dre-7-passos) |
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
 | 19/10 | ✅ imobiliario-aluguel (entrou no lugar do IPI) | ✅ 12-pilares-business-plan |
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
@@ -170,6 +171,19 @@ como a premissa era falsa, **mantive os vídeos e corrigi as legendas** (abertur
 22/10, pecado 2 em 24/10 às 12h e resposta ao professor em 24/10 às 20h), nas 3
 redes. Falar isso a ele de forma direta. Se ele ainda quiser trocar os reels,
 fazer.
+✅ **Carrossel novo: "Os 5 G's da Gestão Empreendedora" (o livro), 7 cards**, Zernio
+`6ad2b7a1478e6e0b54cdbe7d`, **17/10 às 20h**. Capa = o banner do livro que ele salvou
+(`saidas/CARROSSEIS/carrossel-5gs-o-livro-2026-10-16/`), com a faixa dos 5 Gs trocada por
+uma tarja com os nomes certos (o banner tinha outros nomes). Cards só com citações do livro.
+O segundo banner que ele salvou, o do significado do nome Gilberto, **não foi usado**: perguntar
+pra que peça era.
+
+✅ **"Me chama no direct" saiu de todos os carrosséis em 16/out** (pedido dele): 21 HTMLs, 19
+legendas, e as 4 peças já agendadas que tinham (revenda de carros, imobiliário, pf-autonomo e o
+reposte do 7-mudancas, com imagem e legenda trocadas na Zernio). Não tinha na legenda de reels
+nem de cards. Os já publicados ficam como estão. Um rastro: o último slide do `revenda-carros`
+termina com "me chama." no texto, que é outra frase, não mexi.
+
 🔴 **Ainda aberto, e é com ele:** o carrossel `7-mudancas-2027` **já está no ar** com
 erros (ver `_PLANO-DA-FILA.md`). Ele pediu "apague e reposte". **A Zernio não apaga
 post do Instagram** (a própria ferramenta diz "Not supported on Instagram"), então

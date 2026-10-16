@@ -30,4 +30,3 @@ Kicker: A LIÇÃO
 
 ## Slide 7 — CTA FINAL
 "Se você vive de aluguel, a pergunta não é mais quanto você recebe — é em qual regime você está."
-Tag: Me chama no direct

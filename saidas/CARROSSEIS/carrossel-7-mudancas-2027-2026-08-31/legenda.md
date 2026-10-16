@@ -16,8 +16,6 @@ Em 2027 não cai um imposto novo em cima da sua empresa. Cai o sistema inteiro, 
 
 O fio que liga as sete é o mesmo: informação incompleta e prazo correndo. A diferença entre o empresário que atravessa 2027 tranquilo e o que apanha na guia não é sorte, é gestão.
 
-Me chama no direct.
-
 Gilberto Sena, Grupo Sena Soluções Empresariais.
 
 #reformatributaria #cbs #ibs #impostoseletivo #splitpayment #simplesnacional #planejamentotributario #gestaoempresarial #direitotributario #2027 #gilbertosena

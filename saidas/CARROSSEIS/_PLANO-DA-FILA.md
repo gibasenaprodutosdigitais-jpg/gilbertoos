@@ -7,26 +7,27 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | Dia | 15h | 20h |
 |---|---|---|
 | 16/10 | 7-mudancas-2027-2026-08-31 | quem-e-gilberto-2026-10-06 |
-| 17/10 | simples-nacional-prazo-2026-09-22 | dre-7-passos-2026-09-29 |
+| 17/10 | simples-nacional-prazo-2026-09-22 | 5gs-o-livro-2026-10-16 (adiantado a pedido dele) |
 | 18/10 | revenda-carros-stj-2026-08-27 | ponto-de-equilibrio-2026-08-02 |
 | 19/10 | imobiliario-aluguel-2026-08-30 | 12-pilares-business-plan-2026-08-03 |
 | 20/10 | pf-autonomo-cbs-2026-08-27 | 5gs-gestao-financeira-2026-07-17 |
 | 21/10 | 7-mudancas-2027-2026-08-31 (REPOSTE corrigido) | 5gs-gestao-tributaria-2026-07-17 |
-| 22/10 | redutor-ajuste-construcao-2026-08-30 | 5gs-gestao-de-si-2026-07-17 extraido |
-| 23/10 | simples-hibrido-2026-08-27 | 5gs-fornecedores-clientes-2026-10-06 |
-| 24/10 | reforma-ebooks-2026-09-13 | 10-pergaminhos-maior-vendedor-2026-08-03 |
-| 25/10 | reforma-infoprodutores-2026-09-13 | rede-de-mastermind-2026-08-09 |
-| 26/10 | reforma-ecommerce-2026-09-13 | forjado-imersao-2026-08-07 |
-| 27/10 | reforma-representante-comercial-2026-09-13 | dissolucao-sociedade-2026-08-10 |
-| 28/10 | reforma-medicos-2026-09-13 | agronegocio-reforma-2026-08-30 |
-| 29/10 | medicos-reforma-2026-08-27 | educacao-reforma-2026-08-30 |
-| 30/10 | transportadoras-reforma-2026-08-27 | textil-alerta-2026-08-27 |
-| 31/10 | comercio-reforma-2026-08-27 | biomedicina-reforma-2026-08-27 |
-| 01/11 | servicos-alerta-2026-08-27 | entregadores-app-reforma-2026-08-27 |
-| 02/11 | odontologia-reforma-2026-08-27 | tecnologia-saas-reforma-2026-08-30 |
-| 03/11 | ecommerce-alerta-2026-08-27 | saude-geral-reforma-2026-08-27 |
-| 04/11 | clinicas-esteticas-2026-08-27 | transportes-reforma-2026-08-27 |
-| 05/11 | industria-reforma-2026-08-30 | 10-ebooks-leitura-2026-09-06 |
+| 22/10 | dre-7-passos-2026-09-29 (veio do 17/10 às 20h) | 5gs-gestao-de-si-2026-07-17 extraido |
+| 23/10 | redutor-ajuste-construcao-2026-08-30 | 5gs-fornecedores-clientes-2026-10-06 |
+| 24/10 | simples-hibrido-2026-08-27 | 10-pergaminhos-maior-vendedor-2026-08-03 |
+| 25/10 | reforma-ebooks-2026-09-13 | rede-de-mastermind-2026-08-09 |
+| 26/10 | reforma-infoprodutores-2026-09-13 | forjado-imersao-2026-08-07 |
+| 27/10 | reforma-ecommerce-2026-09-13 | dissolucao-sociedade-2026-08-10 |
+| 28/10 | reforma-representante-comercial-2026-09-13 | agronegocio-reforma-2026-08-30 |
+| 29/10 | reforma-medicos-2026-09-13 | educacao-reforma-2026-08-30 |
+| 30/10 | medicos-reforma-2026-08-27 | textil-alerta-2026-08-27 |
+| 31/10 | transportadoras-reforma-2026-08-27 | biomedicina-reforma-2026-08-27 |
+| 01/11 | comercio-reforma-2026-08-27 | entregadores-app-reforma-2026-08-27 |
+| 02/11 | servicos-alerta-2026-08-27 | tecnologia-saas-reforma-2026-08-30 |
+| 03/11 | odontologia-reforma-2026-08-27 | saude-geral-reforma-2026-08-27 |
+| 04/11 | ecommerce-alerta-2026-08-27 | transportes-reforma-2026-08-27 |
+| 05/11 | clinicas-esteticas-2026-08-27 | 10-ebooks-leitura-2026-09-06 |
+| 06/11 | industria-reforma-2026-08-30 | *(vago)* |
 
 ⚠ `10-ebooks-leitura` tem **12 lâminas** e o Instagram aceita 10. Está em
 último de propósito, esperando ele decidir se corta duas ou vira dois posts.
@@ -39,19 +40,19 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | Dia | 15h | 20h |
 |---|---|---|
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
-| 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
+| 17/10 | ✅ simples-nacional-prazo | ✅ 5gs-o-livro (entrou no lugar do dre-7-passos) |
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
 | 19/10 | ✅ imobiliario-aluguel (entrou no lugar do IPI) | ✅ 12-pilares-business-plan |
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
 | 21/10 em diante | ⏳ | ⏳ |
 
-**Próximo a enfileirar:** 22/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`. O 21/10 às 15h já está ocupado pelo reposte do `7-mudancas-2027`.
+**Próximo a enfileirar:** 21/10 às 20h, `carrossel-5gs-gestao-tributaria-2026-07-17`, e 23/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`. O 21/10 às 15h tem o reposte do `7-mudancas-2027`, e o 22/10 às 15h tem o `dre-7-passos`.
 
 ⚠ **A coluna das 15h mexeu duas vezes em 16/out.** O do IPI saiu e o imobiliário
 ocupou o 19/10; depois o `7-mudancas-2027` foi apagado e refeito, e o reposte
 ficou no 21/10, empurrando as 15h seguintes um dia pra baixo. A coluna das 20h
 não mexeu, e a série dos 5Gs continua nas 20h. **Não sobra horário vago.** São
-30 carrosséis por enfileirar, de 22/10 a 05/11.
+31 carrosséis por enfileirar (a conta anterior, de 30, estava errada em um): 16 no horário das 20h, de 21/10 a 05/11, e 15 no das 15h, de 23/10 a 06/11. O horário das 20h de 06/11 fica vago.
 
 ⚠ **Troquei o Simples Híbrido do dia 18 com o Revenda de Carros do dia 23.**
 O Híbrido caía no dia seguinte ao Simples Nacional do dia 17, e os dois
@@ -112,3 +113,15 @@ antes de montar o curl**, senão o upload falha com
   lê `**texto**`, mostra o asterisco na tela.
 - `quem-e-gilberto` dizia **"720 horas"** na pós-graduação. Ele mandou tirar
   a carga horária em 15/out. Corrigi na legenda (nos cards já estava certo).
+
+---
+
+## Regras novas de 16/out/2026 (pedido dele)
+
+- **Nunca "Me chama no direct"**, nem no último slide nem na legenda. Foi tirado de todos os carrosséis
+  (21 HTMLs, 19 legendas) e das 4 peças já agendadas que tinham. Os já publicados não dá pra mexer.
+- **O carrossel dos 5 Gs tem 7 cards** (capa com o banner do livro, 5 cards, um por G, e um de fechamento).
+  Ele pediu "mais um para o final, ficando sempre 7 cards". Entendi como valendo pra essa peça. Se for regra
+  pra todos os próximos, ele diz.
+- O banner do livro que ele salvou lista os 5 Gs com nomes que **não** são os do livro. A capa cobre a faixa e
+  põe os nomes certos (decisão dele: seguir o livro).

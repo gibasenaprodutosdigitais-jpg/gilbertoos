@@ -8,7 +8,7 @@ Mas isso não é automático. Até 31 de dezembro de 2026 você precisa document
 
 Quem documenta paga só sobre o novo. Quem não documenta corre o risco de pagar sobre uma valorização que já era sua.
 
-Reforma tributária não é só imposto que sobe ou desce. É prazo. Quem trata isso como notícia perde a janela. Quem trata como decisão de gestão chega em 2027 com o terreno em ordem.Me chama no direct.
+Reforma tributária não é só imposto que sobe ou desce. É prazo. Quem trata isso como notícia perde a janela. Quem trata como decisão de gestão chega em 2027 com o terreno em ordem.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 
