@@ -11,54 +11,118 @@
 
 ## O primeiro ato da próxima sessão
 
-**Conferir se a fila publicou:** `posts_list` com status `published`, e
-`posts_list_failed` se faltar algum. **Avisar ele sem precisar perguntar.**
+**Enfileirar os 42 carrosséis.** É isso. Ele cobrou, o plano está pronto, e o
+único motivo de não estar feito é que a conversa anterior acabou no meio.
 
-🔴 **22/out é a data que importa.** É quando estreia a série dos 7 pecados,
-e é a primeira vez que ele publica em formato de série. Conferir logo depois
-das 12:00. A grade inteira está em
-`saidas/_CONTROLE/_serie-7-pecados-agendada.md`.
+Ler a **seção 0** inteira antes de começar: tem o horário, o caminho técnico,
+a armadilha do carrossel de 12 lâminas e a troca de horário dos reels que
+ficou pendente.
 
-**E saber onde as coisas estão agora.** Em 14/out a pasta `saidas/` foi
-reorganizada: 103 itens saíram da raiz para pastas por tipo. O guia é
-`saidas/_CONTROLE/_ONDE-ESTA-CADA-COISA.md`. Os documentos de acompanhamento
-(programação, inventários, triagens, rotina dos cards) ficam em
-`saidas/_CONTROLE/`.
+Logo depois, dois itens curtos da mesma seção:
 
-⚠ **Conferir a hora antes de afirmar que algo saiu.** Em 13/out eu disse duas
-vezes que um post já tinha publicado quando ainda faltavam horas. Ele me
-corrigiu. Quando eu digo que publicou, ele tem que poder confiar sem ir ver.
+1. **Mover os reels das 20h para as 18h** (pedido literal dele)
+2. Perguntar se ele quer **espalhar os 14 posts do dia 16**
 
-**A partir de 18/out o primeiro ato muda: fazer a análise de cadência.**
-Especificada na seção 3, com as ferramentas, a ordem das métricas e a linha
-de base de 13/out. **É a única coisa com data marcada.**
+## 0. ★ A noite de 15/out/2026 — o que ficou no meio do caminho
 
-### O que está esperando decisão dele
+Esta seção é a mais nova. **Ler antes de qualquer coisa**, porque tem trabalho
+parado numa linha só e ele vai cobrar.
 
-| O quê | Onde |
-|---|---|
-| **Qual capa do livro vai valer** (3 opções prontas) | seção 2 |
-| **Confirmar no ícone do Drive** se os vídeos subiram | seção 6 |
-| **Achar o HD do Time Machine** | seção 6 |
-| Habilitação do Simões para captação | `sbs/historico-de-decisoes.md`, item 16 |
-| Texto do aviso ao associado quando um sócio é fornecedor | idem, e seção 4 do contrato |
-| Topo da escada de posicionamento (Procurado × Idolatrado) | `_memoria/posicionamento.md`, fim |
-| Capa dos Reels — preta "por enquanto" | seção 3 |
-| **O reel do "fundo do poço" é história dele ou do filme?** | seção 3 |
-| As 4 decisões do livro | seção 2 |
-| **Os depoimentos do Roberto, Tiago e Janguiê** — não existem no PC, pedir pelo Drive | seção 8 |
-| Pedir ao Instituto Êxito que a página `/membro/` reflita o cargo de diretoria | seção 8 |
+### ⛔ O QUE FALTA: 42 carrosséis pra enfileirar
 
-**Nada disso deve ser aplicado sem ele dizer.**
+**É o item mais urgente do repositório.** Ele perguntou *"está faltando os
+carrosséis"* e tem razão: eles estavam prontos desde agosto e nunca foram
+agendados. Eu listei como pendência em vez de executar, três vezes.
 
-### O que falta de trabalho meu, em ordem de urgência
+**O plano já está decidido e salvo** em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`:
+**dois por dia**, de 16/10 a 05/11. ⚠ Aquele arquivo foi escrito quando o
+combinado eram **três** por dia; **a conta certa é dois**, e os horários
+mudaram (ver quadro abaixo). Refazer o arquivo antes de usar.
 
-| O quê | Por quê |
-|---|---|
-| **Os 29 cortes das 3 gravações do carro** | depois de 29/out o Instagram fica sem reel |
-| **Os 30 carrosséis, 235 slides** | estão prontos e nunca foram agendados |
-| **Provérbios 17 a 31 e a frase da semana de 19 a 23/out** | as duas séries de card seguram o perfil sozinhas |
-| O showreel do media kit | já tem mais de 5 minutos de palco guardados |
+**O caminho, por carrossel** (está em [[zernio-instagram-conectado]]):
+
+1. uma chamada de `media_get_media_presigned_url` **por lâmina** (são 7 a 12)
+2. `curl -X PUT` com os arquivos de `<pasta>/instagram/slide-NN.png`
+3. `posts_create_post` via `call_tool`, com `media_items`, `platforms` e
+   `scheduled_for` **em UTC** (⚠ os nomes são snake_case; `mediaItems` e
+   `scheduledFor` são recusados)
+
+São cerca de **330 subidas**. É longo, não é difícil. Fazer por blocos e
+avisar a cada dia concluído.
+
+⚠ **`carrossel-10-ebooks-leitura-2026-09-06` tem 12 lâminas e o Instagram
+aceita 10.** Deixei por último. Perguntar a ele se corta duas ou vira dois
+posts.
+
+### O dia dele no Instagram: seis posts
+
+Ele definiu em 15/out, com estas palavras: *"são 6 no instagram"*, *"por
+dia"*, *"frase proverbios 2 reels dois carrosseis"*.
+
+| Hora (Brasília) | O quê | Situação |
+|---|---|---|
+| **5h** | Provérbios | ✅ dias 16 a 31 agendados |
+| **9h** | frase do dia | ✅ até 30/10 |
+| **12h** | reels | ✅ até 29/10 |
+| **15h** | **carrossel** | ❌ falta |
+| **18h** | reels | ⚠ os reels de 20h têm que ser movidos pra cá |
+| **20h** | **carrossel** | ❌ falta |
+
+⚠ **A última coisa que ele pediu e eu não fiz:** *"troca o carrossel das 18
+para as 20 e vise versa"*. Ou seja, **os reels que estão às 20h vão para as
+18h**, e o carrossel ocupa as 20h. Os reels de 20h já estão agendados em
+16, 17, 18, 19, 20, 21, 22, 23 e 24/10 — achar por `posts_list_posts` e
+mover com `posts_update` (a ferramenta curta, que devolve duas linhas em vez
+do post inteiro).
+
+### ✅ Provérbios 17 a 31: feito
+
+Agendados em 15/out, **todo dia às 5h** (8h UTC — ele corrigiu de 7h pra 5h).
+O dia 16 já estava na fila desde antes, às 5h.
+
+**As 16 legendas foram escritas e salvas** em
+`saidas/CARDS/cards-frases-proverbios-31/legendas.json`. ★ **A série reinicia
+todo mês**, então no mês que vem é só trocar a foto e reusar: o texto já
+existe. Faltam escrever as dos dias 1 a 15.
+
+⚠ A foto de outubro já está travada em `fotos-usadas.md`. **Novembro precisa
+de foto nova** — e a regra dele é dura: uma foto por mês, nenhuma repete.
+
+### Onde cada coisa pode ir
+
+| | Instagram | TikTok | YouTube |
+|---|---|---|---|
+| Reels | sim | sim | sim |
+| Card / Provérbios | sim | sim | ❌ |
+| **Carrossel de imagem** | sim | **sim** | ❌ |
+
+✅ **Testado em 15/out com `validate_post`:** o YouTube devolve *"YouTube
+posts require video content, not just images"*. O **TikTok aceita carrossel
+de imagem** sem reclamar. Ele perguntou e essa é a resposta.
+
+### 🔴 O carrossel que eu quase publiquei com número errado
+
+O "5 sinais de que sua empresa parou de crescer" foi publicado em 15/10 às
+21h52, mas **a última lâmina dizia "2.000+ empresas recuperadas"** e a
+legenda falava em "mais de dois mil casos". O número confirmado por ele,
+duas vezes, é **+500**. Corrigi nos dois lugares e re-renderizei antes de
+subir.
+
+Depois varri os 42 restantes com `grep` atrás do mesmo erro: **estão limpos**,
+era só aquele. Mas a lição fica: **conferir número de autoridade antes de
+agendar**, porque o carrossel contradizia o media kit dele.
+
+### A fila real, lida em 15/out às 21h55
+
+`_memoria/cronograma-de-postagens.md` tem o calendário completo, post a post.
+Resumo: **58 posts, de 16 a 30 de outubro**, 35 no Instagram, 21 no TikTok e
+24 no YouTube.
+
+⚠ **O dia 16 está entupido com 14 posts** (6 no TikTok, 4 no YouTube). Isso é
+despejo de acervo. Sugeri espalhar e ele ainda não respondeu.
+
+⚠ **Depois de 30/10 a fila morre** nos reels e na frase do dia. Os 29 cortes
+das gravações do carro resolveriam, e continuam sem montar.
 
 ---
 
