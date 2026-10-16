@@ -1,4 +1,4 @@
-Alugar 3 imóveis te transforma em contribuinte, e a maioria de quem vive de aluguel nem sabe disso.
+Alugar mais de 3 imóveis te transforma em contribuinte, e a maioria de quem vive de aluguel nem sabe disso.
 
 Você vira contribuinte obrigatório de IBS/CBS se tiver mais de 3 imóveis alugados, ou renda anual de aluguel acima de R$240 mil.
 
@@ -8,7 +8,9 @@ O redutor social ajuda: R$600 de desconto na base do aluguel residencial, e até
 
 Mas também vem obrigação nova: passa a ser obrigatório emitir nota fiscal pra receber aluguel. O que hoje é só um recibo vira documento fiscal.
 
-Renda de aluguel sempre pareceu "dinheiro parado rendendo". A reforma tornou isso operação, e operação, pra Receita, é decisão que se declara e se documenta.Me chama no direct.
+Renda de aluguel sempre pareceu "dinheiro parado rendendo". A reforma tornou isso operação, e operação, pra Receita, é decisão que se declara e se documenta.
+
+Me chama no direct.
 
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 

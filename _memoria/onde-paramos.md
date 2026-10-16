@@ -11,18 +11,20 @@
 
 ## O primeiro ato da próxima sessão
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 32 pra ir,
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir,
 de 21/10 a 05/11. (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
-**Carrosséis: faltam 32, de 21/10 a 05/11.**
+**Carrosséis: faltam 31, de 21/10 a 05/11.**
 
-Dez já estão na fila (16 a 20/out). O ponto de retomada está em
+Dez já estão na fila ou no ar (16 a 20/out). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
-**21/10 às 15h, `carrossel-imobiliario-aluguel-2026-08-30`**.
+**21/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`**.
+A coluna das 15h andou um dia pra cima (o imobiliário entrou no 19/10), e
+sobra um horário vago, 05/11 às 15h.
 
-⚠ **Ler a seção 0 antes de subir qualquer peça.** Em dez carrosséis a
-conferência pegou **seis tipos de erro**, e nenhum deles aparece numa olhada
+⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
+conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
 por cima. Um contradizia o media kit dele, outro contradizia outro carrossel
 da própria fila.
 
@@ -131,7 +133,7 @@ Public Sans. Sem azul e dourado.
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
 | 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
-| 19/10 | ⏸ **vazio**: o do IPI saiu da fila (ver abaixo) | ✅ 12-pilares-business-plan |
+| 19/10 | ✅ imobiliario-aluguel (entrou no lugar do IPI) | ✅ 12-pilares-business-plan |
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
 | 21/10 em diante | ⏳ | ⏳ |
 
@@ -149,20 +151,34 @@ Public Sans. Sem azul e dourado.
 ⏸ **O carrossel do IPI (19/10 às 15h) foi tirado da fila em 16/out.** Eu tinha
 reescrito o texto como se a mudança "já foi editada" e "já está publicada", e
 a pesquisa só achou previsão, nada confirmado. O post da Zernio foi apagado.
-A pasta tem um `_SEGURADO.md` com o motivo. **O horário das 15h do dia 19 está
-livre:** decidir com ele se entra outro carrossel ou se espera o IPI ser
-verificado. Nenhum número do IPI vai ao ar sem fonte.
-**Três reels sobre o fim do IPI seguem na fila** (TikTok 17/10, YouTube 18/10,
-Instagram 20/10 às 12h). São falas dele de 27/ago e eu não mexi. Perguntar se
-ele quer revisar antes.
+A pasta tem um `_SEGURADO.md` com o motivo. **O horário foi preenchido com o
+carrossel do imobiliário** (Zernio `6ad2aba3f8010887b20b1b9c`, 7 lâminas, capa
+corrigida para "mais de 3"). Nenhum número do IPI vai ao ar sem fonte.
+
+**Os três reels sobre o fim do IPI ficam na fila** (TikTok 17/10, YouTube
+18/10, Instagram 20/10 às 12h). Revisados em 16/out: dizem só que a regra geral
+vai a zero e que a exceção é a Zona Franca, que é a regra da Constituição e da
+LC 214, e não citam a MP. Nada a tirar.
+
+🔴 **Pendente com ele: Imposto Seletivo "em 1º de janeiro".** Notícia da
+Agência Brasil de 8/out/2026: a MP do IS só vai depois do 2º turno e a cobrança
+pode começar só no fim de janeiro ou início de fevereiro de 2027. Estas peças
+dizem que ele começa em 1º/jan/2027:
+- **já no ar:** carrossel `7-mudancas-2027` (16/10 às 15h), "estreia junto"
+- **na fila, fala dele gravada (não dá pra trocar só a legenda):** reels de
+  **22/10 às 12h** ("sete pecados", item 2) e de **24/10 às 12h** ("imposto do
+  pecado"), os dois em Instagram, TikTok e YouTube
+Perguntar a ele: tira os dois reels da fila e entra outro no lugar? E o
+carrossel já publicado, edita a legenda? Faltam reels prontos pra repor, ver o
+cronograma.
 
 ⚠ **`carrossel-10-ebooks-leitura-2026-09-06` tem 12 lâminas e o Instagram
 aceita 10.** Está por último de propósito. Perguntar: corta duas ou vira dois
 posts?
 
-### 🔴 Os seis erros que a conferência já pegou. Conferir SEMPRE.
+### 🔴 Os sete erros que a conferência já pegou. Conferir SEMPRE.
 
-**Em dez carrosséis, seis tipos de erro.** Cada um teria ido ao ar.
+**Em onze carrosséis, sete tipos de erro.** Cada um teria ido ao ar.
 
 | # | O quê | Onde apareceu |
 |---|---|---|
@@ -172,6 +188,7 @@ posts?
 | 4 | **`**negrito**` markdown**, que o Instagram mostra como asterisco | 11 legendas de uma vez |
 | 5 | **Data relativa de agosto** — "essa semana", "semana que vem" | ipi-imposto-seletivo, 2 cards + legenda |
 | 6 | 🔴 **O limiar de R$40.500 do nanoempreendedor** | pf-autonomo-cbs |
+| 7 | **Número de corte errado só na capa**: "Alugar 3 imóveis" quando a regra é **mais de 3** | imobiliario-aluguel, veio de um gancho do fichamento |
 
 **O erro 6 é o mais grave e o mais repetido.** O carrossel dizia que
 "praticamente todo autônomo" vira contribuinte de CBS, e dava **diarista**

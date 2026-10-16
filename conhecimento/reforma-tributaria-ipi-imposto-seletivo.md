@@ -14,6 +14,16 @@
 > semana" e "semana seguinte" se referem a fim de agosto e início de setembro.
 > A publicação das duas MPs **não foi confirmada** em pesquisa de 16/out.
 > Verificar em fonte oficial antes de afirmar em peça pública que elas saíram.
+>
+> **O que a imprensa diz em out/2026** (Agência Brasil, 8/out/2026, Wellton
+> Máximo, [link](https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/durigan-preve-envio-de-mp-do-imposto-seletivo-apos-eleicoes)):
+> o ministro Durigan disse que a MP com as alíquotas do Imposto Seletivo só
+> será enviada **depois do 2º turno**. Para valer em 1º/jan/2027 ela teria de
+> ter sido enviada até 2/out; a cobrança "poderá começar apenas no fim de
+> janeiro ou início de fevereiro de 2027". Pela proposta, a **carga do IPI é
+> mantida** nos setores que passam ao IS (veículos, embarcações, aeronaves,
+> cigarro, bebidas alcoólicas e açucaradas, minerais, apostas). Isso é o plano
+> do governo noticiado, não texto de lei.
 
 ## O que ele contou
 

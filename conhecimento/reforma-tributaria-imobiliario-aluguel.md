@@ -67,6 +67,9 @@
 
 - "Você tem 3 imóveis alugados? A partir de 2027 isso te transforma em
   contribuinte de um imposto que você nunca pagou."
+  ⚠ **Impreciso:** o gatilho é **mais de 3** imóveis (4 ou mais) ou renda de
+  aluguel acima de R$240 mil/ano. Quem tem exatamente 3 e fica abaixo dos
+  R$240 mil não vira contribuinte. Esse gancho gerou erro de capa em 16/out.
 - "Alugar imóvel virou emitir nota fiscal — e ninguém te avisou."
 - "Vender a casa própria não te torna contribuinte. Vender a quarta casa
   no mesmo ano, sim. A linha é a habitualidade, não o CPF."

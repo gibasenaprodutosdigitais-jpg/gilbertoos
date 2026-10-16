@@ -5,7 +5,7 @@ Base técnica: `conhecimento/reforma-tributaria-imobiliario-aluguel.md`.
 
 ## Slide 1 — CAPA
 Kicker: REFORMA TRIBUTÁRIA × ALUGUEL
-Título: Alugar 3 imóveis te transforma em contribuinte
+Título: Alugar mais de 3 imóveis te transforma em contribuinte
 
 ## Slide 2 — SOLO (light)
 Kicker: O GATILHO
@@ -30,4 +30,4 @@ Kicker: A LIÇÃO
 
 ## Slide 7 — CTA FINAL
 "Se você vive de aluguel, a pergunta não é mais quanto você recebe — é em qual regime você está."
-Tag: Inscrição no link da bio
+Tag: Me chama no direct

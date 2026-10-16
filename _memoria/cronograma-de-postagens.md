@@ -2,6 +2,7 @@
 
 Fila real da Zernio, lida em **16/out/2026, 19h49**. Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
+*Depois da leitura entrou o carrossel de 19/10 às 15h (imobiliário).*
 
 | Dia | Hora | Onde | O quê | Começo do texto |
 |---|---|---|---|---|
@@ -33,6 +34,7 @@ Quando eu mexer na fila, atualizo este arquivo.
 | 19/10 seg | 05h00 | Instagram | card | Vista-se de força e dignidade: enfrente os desafios sem abrir mão dos… |
 | 19/10 seg | 09h00 | Instagram | card | Comece com o que você tem. O próximo passo aparece quando você sai do… |
 | 19/10 seg | 12h00 | Instagram | reels | Quanto mais você evolui, mais sensível você fica. Parece contradição,… |
+| 19/10 seg | 15h00 | Instagram | carrossel | Alugar mais de 3 imóveis te transforma em contribuinte, e a maioria de quem vive de aluguel nem sabe… |
 | 19/10 seg | 18h00 | Instagram | reels | O sucesso dos maus é o silêncio dos bons. Tem muita gente boa de palc… |
 | 19/10 seg | 20h00 | Instagram | carrossel | Business plan bonito não paga conta. Isso paga. Eu já revisei muito p… |
 | 20/10 ter | 05h00 | Instagram | card | Fale com sabedoria. Uma conversa bem conduzida pode fortalecer uma pa… |
@@ -83,18 +85,19 @@ agendado em lugar nenhum. Os posts de antes das 20h do dia 16 já foram ao ar.
 
 | Rede | Posts na fila | O quê | Até quando |
 |---|---|---|---|
-| Instagram | 54 | 25 cards, 21 reels, 8 carrosséis | 31/10 às 5h (Provérbios) |
+| Instagram | 55 | 25 cards, 21 reels, 9 carrosséis | 31/10 às 5h (Provérbios) |
 | YouTube | 20 | só reels | 29/10 |
 | TikTok | 16 | só reels | 29/10 |
 
-**Carrosséis: só 8 na fila, e o último é 20/10 às 20h.** Faltam 32, de 21/10 a
-05/11, no ritmo de 15h e 20h. O mapa e o ponto de retomada estão em
+**Carrosséis: só 9 na fila, e o último é 20/10 às 20h.** Faltam 31, de 21/10 a
+05/11, no ritmo de 15h e 20h (sobra um horário vago, 05/11 às 15h). O mapa e o ponto de retomada estão em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 
-**O horário de 19/10 às 15h está vazio.** O carrossel do IPI saiu da fila
-(motivo em `saidas/CARROSSEIS/carrossel-ipi-imposto-seletivo-2026-08-27/_SEGURADO.md`).
+**O horário de 19/10 às 15h foi preenchido** com o carrossel do imobiliário,
+no lugar do IPI (motivo em
+`saidas/CARROSSEIS/carrossel-ipi-imposto-seletivo-2026-08-27/_SEGURADO.md`).
 
-**Só o dia 20/10 tem os 6 posts do Instagram** (5h, 9h, 12h, 15h, 18h, 20h).
+**Só os dias 19 e 20/10 têm os 6 posts do Instagram** (5h, 9h, 12h, 15h, 18h, 20h).
 O que falta nos outros dias:
 
 | Dias | O que falta |
@@ -118,3 +121,8 @@ e YouTube): às 12h e às 18h até 24/10, e só às 12h de 25 a 29/10.
 bondade com a indústria"): TikTok 17/10 às 2h, YouTube 18/10 às 6h e
 Instagram 20/10 às 12h. São falas dele de 27/ago, e eu não mexi. Como a
 publicação das medidas provisórias não foi confirmada, vale ele rever antes.
+
+⚠ **Dois reels dizem que o Imposto Seletivo começa em 1º de janeiro de 2027:**
+22/10 às 12h (série dos sete pecados) e 24/10 às 12h, nas três redes. A
+Agência Brasil de 8/out diz que a cobrança pode começar só no fim de janeiro
+ou em fevereiro. Aguardando decisão dele (ver `onde-paramos.md`).
