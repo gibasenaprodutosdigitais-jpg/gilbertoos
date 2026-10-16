@@ -100,7 +100,7 @@ Pasta `fotos/`. Os três recortes têm a mesma proporção (700x511) e rosto int
 
 | Quem | De onde veio |
 |---|---|
-| **Gilberto** | `retrato-firme.jpg` do media kit (1200x1800), recorte de cabeça e ombros |
+| **Gilberto** | foto sorrindo do ensaio com Bernardo Coelho, camisa branca (`...-Gilberto-Sena-43.jpg`, 4480x6720), recorte de cabeça e peito |
 | **Alisson** | foto de estúdio da página dele no site do Instituto Êxito (852x1280) |
 | **Dr. Luciano** | foto da página dele no site do Instituto Êxito (670x652) |
 
@@ -119,3 +119,12 @@ cabeçalhos de navegador normais.** Sem eles o servidor devolve 406
 O slide da diretoria perdeu o parágrafo de fechamento pra caber as fotos. A
 frase ("nome e responsabilidade na frente") virou o título e as notas do
 orador.
+
+⚠ **A primeira foto dele era o retrato de olhar firme, e ele achou séria
+demais** (16/out): *"a minha foto está muito séria, procure outra com
+sorriso"*. O retrato sorrindo do media kit (`retrato-sorriso.jpg`) ficou
+**perto demais** do lado do Alisson e do Dr. Luciano: a cabeça enchia o
+quadro. Procurei as 116 fotos do ensaio e a escolhida foi a **nº 43** do
+Bernardo, camisa branca e fundo escuro, que dá o mesmo tamanho de cabeça
+dos outros dois. Fica de reserva a nº 115, de blazer cinza sorrindo para o
+lado.
