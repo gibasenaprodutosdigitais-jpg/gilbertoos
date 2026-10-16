@@ -42,15 +42,29 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
 | 19/10 | ✅ ipi-imposto-seletivo | ✅ 12-pilares-business-plan |
-| 20/10 em diante | ⏳ | ⏳ |
+| 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
+| 21/10 em diante | ⏳ | ⏳ |
 
-**Próximo:** 20/10 às 15h, `carrossel-pf-autonomo-cbs-2026-08-27`.
+**Próximo:** 21/10 às 15h, `carrossel-imobiliario-aluguel-2026-08-30`.
 
 ⚠ **Troquei o Simples Híbrido do dia 18 com o Revenda de Carros do dia 23.**
 O Híbrido caía no dia seguinte ao Simples Nacional do dia 17, e os dois
 contam a mesma história (janela de setembro, 30 de novembro, março de 2027,
 fim do crédito presumido de 9,25%). Dois dias seguidos repetindo isso
 queima o assunto.
+
+🔴 **O limiar de R$40.500 do nanoempreendedor.** O carrossel do autônomo dizia
+que "praticamente todo autônomo" vira contribuinte de CBS, e dava **diarista**
+como exemplo. Errado, e contradizia o próprio carrossel das 7 mudanças, que
+sai quatro dias antes dizendo o número certo. Pela LC 214/2025, quem fatura
+até **R$40.500/ano** não é contribuinte de IBS nem CBS. Fichamento em
+`conhecimento/reforma-tributaria-nanoempreendedor.md`. **É o terceiro
+carrossel/reels em que esse mesmo erro aparece — conferir sempre que a peça
+falar de autônomo, PF ou profissional liberal.**
+
+⚠ **Envio de lâmina falha em silêncio.** O `slide-01` do 5Gs voltou `000` no
+curl, que é conexão caída, não erro HTTP. **Conferir o código de cada lâmina**
+e refazer a que não voltar 200, senão o post vai ao ar com imagem faltando.
 
 ⚠ **Peça de agosto pode ter data relativa.** O do IPI dizia "essa semana" e
 "semana que vem" em dois cards e na legenda. Em outubro isso vira informação
