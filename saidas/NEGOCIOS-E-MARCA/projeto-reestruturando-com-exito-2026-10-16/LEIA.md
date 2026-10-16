@@ -231,3 +231,31 @@ valor das associações vem somado e ainda falta definir.
 ⚠ **Sobra para a estrutura dos três diretores: 85%, ou R$ 4.675 por empresa
 por mês.** Com três diretores e as quatro frentes, vale ele conferir se essa
 margem sustenta o trabalho antes de levar o número a alguém.
+
+## O cálculo do contrato é vezes 12 (16/10/2026)
+
+Ele corrigiu: *"o cálculo do contrato é x 12"*. O contrato é **anual**, então o
+valor que vale é o do ano, e não o da mensalidade.
+
+| | Por mês | **Por contrato anual (x 12)** |
+|---|---|---|
+| Honorário, por empresa | R$ 5.500 | **R$ 66.000** |
+| Instituto, 15% | R$ 825 | **R$ 9.900** |
+| Sobra para a estrutura, 85% | R$ 4.675 | **R$ 56.100** |
+
+| Empresas | Contratos somados | Ao Instituto, por ano |
+|---|---|---|
+| 10 | R$ 660.000 | **R$ 99.000** |
+| 50 | R$ 3.300.000 | **R$ 495.000** |
+
+São contas de exemplo, **não projeção** de quantas empresas vão entrar.
+O valor das associações vem somado e ainda falta definir.
+
+Os slides de **modelo**, **regras** e **retorno do Instituto** mostram o total
+do contrato (R$ 66.000) e a parte do Instituto (R$ 9.900), com o valor mensal
+ao lado. As contas de 10 e 50 empresas estão nas notas do slide do Instituto.
+
+⚠ **O pagamento continua mensal.** Só o contrato é anual. O que ainda não
+está definido é o que acontece se o empresário sair antes de 12 meses:
+multa, devolução, ou o contrato vale por inteiro. **É a primeira pergunta
+que um empresário vai fazer sobre um contrato anual.**
