@@ -6,7 +6,7 @@
 >
 > **O ângulo que muda tudo:** o modelo de referência descreve a estagnação de
 > fora. O Gilberto fala de dentro — ele **quebrou sete vezes** e depois ajudou
-> a recuperar **mais de 2.000 empresas**. Ele não está listando sintomas de
+> a recuperar **mais de 500 empresas**. Ele não está listando sintomas de
 > manual; está reconhecendo os que já viu duas mil vezes.
 
 ---
@@ -25,7 +25,7 @@
 
 **C — o de quem já viveu**
 > **Já vi esses 5 sinais**
-> **em 2.000 empresas.**
+> **em 500 empresas.**
 > Antes de todas elas pararem de crescer.
 
 Subtítulo comum: *Identifique agora, enquanto ainda é barato.*
@@ -112,7 +112,7 @@ alguém acompanha de verdade.
 
 **Eu quebrei sete vezes antes de aprender a ler esses sinais.**
 
-Depois disso, ajudei a recuperar mais de 2.000 empresas — e sempre
+Depois disso, ajudei a recuperar mais de 500 empresas — e sempre
 começava do mesmo jeito: olhando para onde a empresa estava indo, não para
 o quanto ela estava correndo.
 
@@ -128,7 +128,7 @@ o quanto ela estava correndo.
   mesma (contagem 1→5, box de leitura, slide de direção, CTA); o texto é
   dele.
 - **Fatos usados, todos verificados na memória:** as sete falências
-  (`quem-e-gilberto.md`) e as +2.000 empresas recuperadas
+  (`quem-e-gilberto.md`) e as +500 empresas orientadas
   (`posicionamento.md`). Nenhum número inventado.
 - **A citação de Sêneca** é a atribuição corrente de *Epistulae Morales*.
   Se preferir não citar filósofo nesse post, o slide 7 funciona sem ela.

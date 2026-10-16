@@ -13,8 +13,8 @@ todo mundo reage. Estagnação é confortável, e por isso quase ninguém reage
 a tempo.
 
 Eu quebrei sete vezes antes de aprender a enxergar isso. Depois disso,
-passei a ajudar empresas a sair do mesmo lugar, e em mais de dois mil casos
-os sinais eram sempre os mesmos cinco.
+passei a ajudar empresa a sair do mesmo lugar. Em mais de quinhentas, os
+sinais eram sempre os mesmos cinco.
 
 Separei todos no carrossel. Arraste pro lado e seja honesto com você mesmo
 em cada um.
