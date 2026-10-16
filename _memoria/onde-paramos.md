@@ -48,7 +48,7 @@ empresas pra escalar e, se cumprirem os requisitos, chegar ao pitch pra um
 | | |
 |---|---|
 | Remuneração | **R$ 5.500,00/mês**, contrato **anual**, mais a associação ao Instituto (valor a definir) |
-| Instituto | **10% do honorário**, por empresa, todo mês |
+| Instituto | **15% do honorário** (R$ 825), por empresa, todo mês |
 | Entrada | o empresário **tem que se associar** ao Instituto |
 | Fundo | **R$ 500.000** em debêntures, mútuo consignado |
 | Carência | até **6 meses, só juros** |

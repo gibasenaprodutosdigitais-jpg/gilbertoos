@@ -23,7 +23,7 @@ estejam prontas para o pitch.
 |---|---|
 | Remuneração | **R$ 5.500,00 por mês**, contrato **anual**, **mais a associação ao Instituto** (valor a definir). Antes era "nos moldes do que o empresário já paga hoje" |
 | Diferença | os diretores à frente, trabalhando junto com o empresário |
-| Instituto | **10% do honorário**, todo mês, por empresa atendida |
+| Instituto | **15% do honorário**, todo mês, por empresa atendida (era 10%) |
 | Entrada | o empresário **tem que se associar** ao Instituto |
 | Fundo | **R$ 500.000** em debêntures, empréstimo consignado em **mútuo** |
 | Carência | até **6 meses** para começar a pagar |
@@ -212,3 +212,22 @@ debêntures durante a carência. Está nas notas do slide.
 Ele mexe no editor da página (capa e slide de regras, pelo menos). **Antes de
 alterar qualquer slide, ler a versão publicada**, porque a minha cópia local
 fica velha. A publicação recusa quando isso acontece e avisa qual arquivo.
+
+## A participação do Instituto subiu de 10% para 15% (16/out/2026)
+
+Pedido dele: *"altere para 15% a participação do Instituto"*. Foi trocado nos
+três slides que citam a conta (modelo, regras e retorno do Instituto).
+
+| | Com 10% | **Com 15%** |
+|---|---|---|
+| Por empresa, por mês | R$ 550 | **R$ 825** |
+| Por empresa, por ano | R$ 6.600 | **R$ 9.900** |
+| 10 empresas, por mês | R$ 5.500 | **R$ 8.250** |
+| 50 empresas, por mês | R$ 27.500 | **R$ 41.250** |
+
+São contas de exemplo, **não projeção** de quantas empresas vão entrar. O
+valor das associações vem somado e ainda falta definir.
+
+⚠ **Sobra para a estrutura dos três diretores: 85%, ou R$ 4.675 por empresa
+por mês.** Com três diretores e as quatro frentes, vale ele conferir se essa
+margem sustenta o trabalho antes de levar o número a alguém.
