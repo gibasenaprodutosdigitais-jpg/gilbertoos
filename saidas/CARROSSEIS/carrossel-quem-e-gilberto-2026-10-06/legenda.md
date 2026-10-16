@@ -17,8 +17,7 @@ meus de pé: o GSena Hub e o OCEO, a startup que junta contabilidade,
 financeiro, jurídico, marketing e educação num sistema só.
 
 Por isso resolvi mostrar os dois lados: o que eu construí na prática, e o que
-eu estudei pra sustentar a prática. Pós-graduação em Direito Tributário de
-720 horas. Bacharel em Teologia. Habilitação da ANCORD como agente autônomo
+eu estudei pra sustentar a prática. Pós-graduação em Direito Tributário. Bacharel em Teologia. Habilitação da ANCORD como agente autônomo
 de investimento. Duas formações em perícia judicial.
 
 E uma coisa que quase ninguém sabe: em 2020 eu voltei a estudar tudo de novo,
