@@ -906,6 +906,36 @@ Ele larga em `entrada-videos/com-os-nomes-grandes/`, que já existe com o
 LEIA.md explicando a regra: cartaz de evento em que os dois estavam **não é**
 foto junto.
 
+### ✅ Showreel montado — 15/out/2026
+
+`saidas/REELS/showreel-palestrante-2026-10-15/Gilberto-Sena-Showreel.mp4`,
+58s, 1080x1920, −14 LUFS. O MP4 não vai pro git (regra do repositório), só o
+`LEIA.md`, a `capa.png` e o `_pecas.py`.
+
+**O acervo de palco é de ~3 minutos, não de 5.** O que o arquivo dizia antes
+estava errado: as gravações longas de `entrada-videos/longos/` são ele no
+carro. De palco existem só os três clipes do Alphaville (120s) e um da
+Imersão (61s).
+
+⚠ **Três dos quatro clipes vêm com legenda queimada de outro editor.** Só o
+`palco-alphaville-2024-historia.mp4` tem a legenda **fora** da imagem, na
+tarja preta: a faixa limpa do palco é `crop=1080:558:0:860`. Os outros têm
+legenda em cima da imagem e só servem mudos, como passagem.
+
+**O método da montagem:** uma base única de 49,9s do clipe da história
+(18,3s a 68,2s da fonte), com os cartazes entrando por `overlay ...
+enable='between(t,a,b)'` **por cima** da base. Assim a fala corre inteira,
+sem buraco de áudio, e a imagem do palco volta já em sincronia com a voz —
+que é o que quebraria se eu tivesse cortado a base em pedaços. As pontas
+(abertura e fecho) entram por concat sem reencode, com áudio mudo a 48 kHz.
+
+⚠ **O Didot do macOS renderiza "e" como "c" no PIL.** Perdi um render nisso.
+As serifadas que funcionam: **Hoefler Text**, Baskerville, Charter, Iowan,
+Georgia. A condensada boa é **DIN Condensed Bold**.
+
+**Pra melhorar:** precisa de imagem bruta de palco sem legenda. Com 3 ou 4
+minutos limpos dá uma peça de 90s com variação de plano.
+
 ### O que mais falta no kit
 
 | Item | Situação |
