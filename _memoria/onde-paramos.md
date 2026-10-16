@@ -50,9 +50,6 @@ empresas pra escalar e, se cumprirem os requisitos, chegar ao pitch pra um
 | Remuneração | **R$ 5.500,00/mês x 12 = R$ 66.000 por contrato anual**, mais a associação ao Instituto, **R$ 1.250/mês** (o empresário paga R$ 6.750/mês no total) |
 | Instituto | **associação R$ 1.250/mês + 15% do honorário (R$ 825)** = R$ 2.075/mês por empresa, R$ 24.900/ano |
 | Entrada | o empresário **tem que se associar** ao Instituto |
-| Fundo | **R$ 500.000** em debêntures, mútuo consignado |
-| Carência | até **6 meses, só juros** |
-| Juros | nos moldes do **Pronamp** |
 
 **Credenciais confirmadas** nas páginas de membro do site do Instituto, que
 ele fotografou. Alisson: sócio fundador e VP do Grupo SD, CEO do Grupo VL,
@@ -65,13 +62,11 @@ estadual da OAB/SC, presidente da Comissão de Direito Financeiro do IASC. É o
 1. **O aporte do Grupo Janguiê é horizonte, não promessa.** Prometer dinheiro
    de terceiro sem autorização custa a relação e pode virar problema jurídico.
    **Alinhar com o Janguiê antes de mostrar a qualquer empresário.**
-2. **O Pronamp é crédito rural.** Serve como parâmetro de taxa e carência, não
-   como enquadramento. ✅ **Taxa de referência: 9% ao ano** (teto do Plano
-   Safra 2026/27, conferido em 16/out). Falta conferir no MAPA e ver se 9%
-   cobre o custo de captação das debêntures, que captam a mercado.
-3. **O fundo de debêntures precisa de desenho jurídico:** quem emite, sob qual
-   regime, com qual lastro, e se um instituto pode emitir.
-4. **A divisão de frentes é proposta minha:** Gilberto no número, Alisson na
+2. **O fundo de debêntures saiu deste projeto** em 16/out e virou projeto
+   próprio. Tudo o que foi definido e levantado (Pronamp, carência, as contas,
+   as perguntas jurídicas) está em
+   `saidas/NEGOCIOS-E-MARCA/projeto-fundo-debentures-2026-10-16/LEIA.md`.
+3. **A divisão de frentes é proposta minha:** Gilberto no número, Alisson na
    escala, Luciano no contrato. Os três ainda não acordaram.
 
 ⚠ **O número da OAB ficou fora.** O contrato diz *"OAB/SC nº 2010"* e a página
@@ -82,10 +77,27 @@ ano de mandato. Só o cargo, que é verificável.
 **Requisitos pro pitch (definidos em 16/out):** faturamento mínimo de R$ 1,2
 milhão por ano; reestruturação de no mínimo 6 meses, com extensão de mais 6
 ou 12; indicadores medidos pela equipe e pelo OCEO, instalado após o 3º mês.
+**Os demais requisitos saem da análise tecnológica do OCEO** e ainda não estão
+escritos.
 
-**Ainda falta ele definir:** multa se o empresário sair antes de 12 meses,
-governança exigida pro pitch, se o OCEO está incluído nos R$ 5.500, taxa final
-do fundo, aprovação da diretoria do Instituto.
+**Ainda falta ele definir:** multa se o empresário sair antes de 12 meses, se o
+OCEO está incluído nos R$ 5.500, os demais requisitos do pitch (que virão da
+análise do OCEO), aprovação da diretoria do Instituto.
+
+**A apresentação tem 12 telas** (eram 13; a do fundo saiu).
+
+## ★ Frente separada: Fundo de debêntures (nasceu em 16/out/2026)
+
+Era um slide do projeto acima e ele mandou tirar: *"vai ficar para outro
+projeto"*. **R$ 500 mil em debêntures, mútuo consignado, carência de até 6
+meses pagando só os juros, referência de 9% ao ano do Pronamp** (teto do Plano
+Safra 2026/27). Está tudo, com as contas e as perguntas em aberto, em
+`saidas/NEGOCIOS-E-MARCA/projeto-fundo-debentures-2026-10-16/LEIA.md`.
+
+🔴 **A pergunta que decide o projeto:** o Pronamp tem taxa baixa porque o
+governo subsidia, e o fundo capta a mercado. Se a captação passar de 9% ao ano,
+o fundo perde dinheiro em cada empréstimo. **Ainda não tem apresentação nem
+slide.**
 
 **Direção de arte:** papel creme, petróleo e terracota, Libre Baskerville +
 Public Sans. Sem azul e dourado.

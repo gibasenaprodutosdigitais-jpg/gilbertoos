@@ -25,9 +25,6 @@ estejam prontas para o pitch.
 | Diferença | os diretores à frente, trabalhando junto com o empresário |
 | Instituto | **15% do honorário**, todo mês, por empresa atendida (era 10%) |
 | Entrada | o empresário **tem que se associar** ao Instituto, pagando **R$ 1.250,00 por mês** |
-| Fundo | **R$ 500.000** em debêntures, empréstimo consignado em **mútuo** |
-| Carência | até **6 meses** para começar a pagar |
-| Juros | **nos moldes do Pronamp**, referência de **9% ao ano** (ver abaixo) |
 
 ## ✅ As credenciais, confirmadas na fonte certa
 
@@ -338,3 +335,37 @@ ainda está abaixo do piso.
 
 ⚠ O slide de regras agora tem 8 linhas e o texto da tabela caiu de 30px para
 28px pra caber. Se na tela ficar apertado, é por isso.
+
+## O fundo saiu deste projeto (16/out/2026)
+
+Ele mandou: *"retire deste projeto a parte do fundo, vai ficar para outro
+projeto"*. Saíram o slide do fundo e as menções na lista de decisões. A
+apresentação passou de 13 para **12 telas**. Todo o material do fundo (as
+contas, a taxa de referência, as perguntas jurídicas) foi para
+`../projeto-fundo-debentures-2026-10-16/LEIA.md`, **junto com o slide
+retirado**, para não se perder.
+
+As linhas **Fundo, Carência e Juros** saíram da tabela do modelo acima. As seções
+"A taxa de referência: 9% ao ano" e "Carência: só juros", mais abaixo neste
+arquivo, **ficam como registro histórico** de como o assunto apareceu aqui;
+**a versão viva está no projeto do fundo.**
+
+## Os demais requisitos do pitch saem da análise do OCEO (16/out/2026)
+
+Ele disse: *"requisitos para o pitch após análise tecnológica do OCEO"*. Li
+como: **além dos três que ele já definiu (faturamento, tempo, indicadores), os
+demais requisitos serão escritos depois da análise tecnológica que o OCEO faz
+da empresa.** A linha "Governança", que era um espaço em branco meu, virou
+**"Demais requisitos: definidos após a análise tecnológica do OCEO"**. No slide
+da jornada, o passo 4 agora diz "Após a análise tecnológica do OCEO, a empresa
+cumpre os requisitos do pitch". Na lista de decisões, a linha está como "Após
+o OCEO".
+
+⚠ **Se eu li errado** e ele queria dizer que o **pitch** só acontece depois
+dessa análise, a mudança é pequena: é só a ordem na jornada. Vale confirmar.
+
+⚠ **Isso cria uma dependência.** Os requisitos de entrada no pitch só existem
+depois que o OCEO analisar a empresa, e o OCEO só é instalado após o 3º mês.
+Ou seja, **a empresa só saberá o que precisa cumprir para ir ao pitch depois
+de três meses de contrato.** O empresário vai querer saber isso antes de
+assinar. Vale ele pensar em como responder.
