@@ -28,6 +28,13 @@ da própria fila.
 
 ## ★ Frente nova: Reestruturando com Êxito (16/out/2026)
 
+**Criado e fundado pelo Gilberto. O nome e a autoria são dele**, registrado a
+pedido dele. Alisson e Dr. Luciano são **co-participantes**. A apresentação é
+uma **proposta à diretoria do Instituto Êxito**. Em qualquer material, **ele
+primeiro, com a foto acima dos outros**. Falta o papel: termo entre os três e
+definição com o Instituto sobre quem é dono do nome (ver o `LEIA.md` do
+projeto).
+
 **Projeto de diretoria no Instituto Êxito de Empreendedorismo.** Ele pediu uma
 apresentação e disse *"comece por aqui, depois vou acrescentando maiores
 informações"* — a estrutura foi feita pra crescer.

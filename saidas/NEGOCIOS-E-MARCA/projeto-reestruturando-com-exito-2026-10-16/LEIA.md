@@ -1,4 +1,6 @@
-# Reestruturando com Êxito — projeto de diretoria no Instituto Êxito
+# Reestruturando com Êxito — proposta de diretoria ao Instituto Êxito
+
+> **Criado e fundado por Gilberto Luís de Sena.** O nome do projeto e a autoria são dele (registrado a pedido dele em 16/out/2026). Alisson de Oliveira Ramalho e Dr. Luciano Duarte Peres são **co-participantes**. Esta apresentação é uma **proposta à diretoria do Instituto Êxito**.
 
 **Apresentação:** https://claude.ai/artifact/9nTHSqSSF37QfBQJQ9uUec
 13 telas. Privada — só abre pra quem o Gilberto compartilhar pelo menu Share.
@@ -444,3 +446,48 @@ ganham algo por montar a Mesa da Rodada, o enquadramento jurídico muda.
 usava como atalho. A empresa de investimentos tem nome próprio, e usar o
 nome do grupo em vez do dela pode confundir a diretoria sobre quem exatamente
 está dando a preferência.
+
+## Autoria e destinatário (16/out/2026)
+
+Ele pediu: *"deixe registrado que o nome do projeto e o criador e fundador sou
+eu, inclusive deixe minha foto acima dos outros diretores que serão
+co-participantes"*, e depois: *"é proposta para diretoria do Instituto"*.
+
+**O que mudou na apresentação:**
+
+- **Capa:** o crédito diz *"Criado e fundado por Gilberto Luís de Sena, com
+  Alisson de Oliveira Ramalho e Dr. Luciano Duarte Peres"*, e o topo diz
+  *"Proposta à diretoria do Instituto Êxito de Empreendedorismo"*.
+- **Slide dos diretores:** a foto e o card do Gilberto vêm **em cima, em
+  destaque**, com o rótulo **"Criador e fundador do projeto"**. Abaixo, lado a
+  lado, os dois **co-participantes**. O título virou *"Um criador e dois
+  co-participantes"*.
+- Na credencial dele entrou **"Criador do OCEO e da Reengenharia
+  Empresarial"**, que já constava no media kit e agora é relevante, porque o
+  OCEO mede os indicadores do projeto.
+
+**Regra para qualquer material futuro** (proposta comercial, bio, post,
+apresentação): **Gilberto sempre primeiro, como criador e fundador. Os outros
+dois como co-participantes.** Nunca apresentar os três como sócios fundadores
+em igualdade.
+
+🔴 **Escrever na apresentação não protege a autoria.** Hoje o que existe é o
+registro dele nos slides. **Falta o papel:**
+
+1. **Entre os três.** Um termo curto, assinado, dizendo que o nome e o modelo
+   são do Gilberto e quais são os direitos e deveres de cada
+   co-participante. É o mesmo problema do livro *O Médico e o Executivo*,
+   onde também falta acordo de coautoria.
+2. **Com o Instituto.** O nome é o de uma **nova diretoria do Instituto**
+   (palavras dele: *"o nome da nova diretoria será Reestruturando com
+   Êxito"*). Quando a diretoria aprovar, **o Instituto pode entender que o
+   nome passa a ser dele**. Convém definir por escrito quem é dono do nome e
+   do método, e o que acontece se o Gilberto sair da diretoria ou o
+   Instituto encerrar o projeto.
+3. **A marca.** Registrar "Reestruturando com Êxito" no INPI é barato perto do
+   que vale. Ainda mais porque "Êxito" é o nome do Instituto: vale um
+   advogado de marcas olhar se há conflito.
+
+**Quem pode cuidar dos itens 1 e 2:** o Dr. Luciano, que é advogado. Mas ele é
+parte interessada no item 1, e **quando o assunto é a autoria dele mesmo e o
+que cabe a cada um, o ideal é um advogado de fora.**
