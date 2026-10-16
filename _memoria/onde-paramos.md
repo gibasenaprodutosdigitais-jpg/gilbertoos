@@ -66,7 +66,9 @@ estadual da OAB/SC, presidente da Comissão de Direito Financeiro do IASC. É o
    de terceiro sem autorização custa a relação e pode virar problema jurídico.
    **Alinhar com o Janguiê antes de mostrar a qualquer empresário.**
 2. **O Pronamp é crédito rural.** Serve como parâmetro de taxa e carência, não
-   como enquadramento. A taxa está como `[__% ao ano]` — não inventar número.
+   como enquadramento. ✅ **Taxa de referência: 9% ao ano** (teto do Plano
+   Safra 2026/27, conferido em 16/out). Falta conferir no MAPA e ver se 9%
+   cobre o custo de captação das debêntures, que captam a mercado.
 3. **O fundo de debêntures precisa de desenho jurídico:** quem emite, sob qual
    regime, com qual lastro, e se um instituto pode emitir.
 4. **A divisão de frentes é proposta minha:** Gilberto no número, Alisson na

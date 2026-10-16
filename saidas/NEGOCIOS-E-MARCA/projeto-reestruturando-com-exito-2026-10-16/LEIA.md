@@ -27,7 +27,7 @@ estejam prontas para o pitch.
 | Entrada | o empresário **tem que se associar** ao Instituto |
 | Fundo | **R$ 500.000** em debêntures, empréstimo consignado em **mútuo** |
 | Carência | até **6 meses** para começar a pagar |
-| Juros | **nos moldes do Pronamp** |
+| Juros | **nos moldes do Pronamp**, referência de **9% ao ano** (ver abaixo) |
 
 ## ✅ As credenciais, confirmadas na fonte certa
 
@@ -69,8 +69,7 @@ com o Janguiê antes de mostrar isso a qualquer empresário.
 **2. O Pronamp é crédito rural.** É o Programa Nacional de Apoio ao Médio
 Produtor Rural, com taxa definida por Plano Safra. Como **parâmetro** de taxa
 e carência funciona; como **enquadramento** não, porque o público aqui não é
-rural. A taxa ficou como `[__% ao ano, a confirmar]` — **não inventar
-número.**
+rural. A taxa está resolvida como referência (ver abaixo).
 
 **3. O fundo de debêntures precisa de desenho jurídico.** Quem emite, sob
 qual regime, com qual lastro, e se um instituto pode emitir. Está marcado
@@ -129,3 +128,34 @@ Bernardo, camisa branca e fundo escuro, que dá o mesmo tamanho de cabeça
 dos outros dois. **Ele viu as duas opções e escolheu a de terno cinza (nº
 115), sorrindo para o lado.** A de camisa branca (nº 43) fica de reserva.
 A cabeça fica um pouco maior que a dos outros dois, e ele aprovou assim.
+
+## A taxa de referência: 9% ao ano (16/out/2026)
+
+Ele colou uma resposta de outro assistente dizendo 9% ao ano e mandou
+*"adicione esta taxa"*. **Conferi antes de pôr no slide, porque o texto colado
+não trazia fonte.** Bate: **9% ao ano é o teto do Pronamp** no **Plano Safra
+2026/27**, lançado em 30/06/2026 e vigente até 30/06/2027. A menor taxa da
+linha é 8%, e era 10% na safra anterior (Poder360, Diário de Pernambuco e
+informe técnico da Faesp/Senar).
+
+⚠ **Não achei documento oficial do MAPA** que fixe o número exato do custeio.
+Os veículos concordam, mas **conferir no decreto ou na publicação do MAPA
+antes de levar a um contrato.** No slide, está como referência, não como
+taxa do fundo.
+
+⚠ **O texto colado tinha um erro de conta.** Dizia que seis meses de carência
+custam cerca de **4,42%** de juros. O certo é **4,40%** (taxa mensal
+equivalente de 0,7207%, capitalizada). Sobre R$ 500 mil, com o fundo todo
+emprestado, são uns **R$ 22 mil** em seis meses. Está nas notas do slide.
+
+⚠ **O desconto de 1 ponto por sustentabilidade não vale aqui.** Exige CAR
+regularizado e prática certificada, ou seja, é para produtor rural.
+
+🔴 **A pergunta que a diretoria vai fazer:** o Pronamp é crédito rural
+subsidiado pelo governo. **O fundo capta a mercado.** Se as debêntures
+tiverem que pagar a quem investe mais que 9% ao ano, o fundo perde dinheiro
+em cada empréstimo. **Conferir se 9% cobre o custo de captação** antes de
+oferecer essa taxa a qualquer empresário.
+
+Na lista final de decisões, a linha virou "Emissão, lastro e **taxa final** do
+fundo", ainda aberta.
