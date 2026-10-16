@@ -14,7 +14,7 @@ consultoria jurídica** para pequenos e médios empresários ligados ao
 Instituto Êxito.
 
 **Missão:** organizar e preparar essas empresas para escalabilidade e para um
-possível investimento do Grupo Janguiê, desde que cumpram os requisitos e
+possível investimento do Epitychia, desde que cumpram os requisitos e
 estejam prontas para o pitch.
 
 ## O modelo, como ele descreveu
@@ -57,7 +57,7 @@ apresentação** — só o cargo, que é verificável.
 
 ## 🔴 Quatro coisas que eu segurei, e por quê
 
-**1. O aporte do Grupo Janguiê é horizonte, não promessa.** A apresentação
+**1. O aporte do Epitychia é horizonte, não promessa.** A apresentação
 diz isso com todas as letras, e a tela do pitch separa o que a diretoria
 entrega do que fica com o investidor. **Prometer dinheiro de terceiro sem
 autorização dele custa a relação e pode virar problema jurídico.** Alinhar
@@ -370,7 +370,7 @@ Ou seja, **a empresa só saberá o que precisa cumprir para ir ao pitch depois
 de três meses de contrato.** O empresário vai querer saber isso antes de
 assinar. Vale ele pensar em como responder.
 
-## A ordem do pitch: Grupo Janguiê primeiro, depois a Mesa da Rodada (16/out/2026)
+## A ordem do pitch: Epitychia primeiro, depois a Mesa da Rodada (16/out/2026)
 
 Ele definiu: *"o pitch terá como preferência o grupo do Janguiê Diniz após o
 filtro; caso ele não tenha interesse pelo negócio ou modelo, será feita uma
@@ -380,7 +380,7 @@ prontas para o pitch."*
 
 | Ordem | Quem | Quando |
 |---|---|---|
-| **1º** | **Grupo Janguiê Diniz** | depois do filtro de requisitos |
+| **1º** | **Epitychia** | depois do filtro de requisitos |
 | **2º** | **Mesa da Rodada**, grupo **criado pelos diretores**, com **7 investidores** | se o grupo do Janguiê não tiver interesse pelo negócio ou pelo modelo |
 
 Entrou nos slides do **pitch** (duas caixas), da **jornada** (passo 5) e da
@@ -415,3 +415,32 @@ procurar quem quiser. Estão nas notas do slide do pitch.
 ⚠ **A frase "mais uma opção"** é importante e deve aparecer na fala: **a
 Mesa da Rodada é uma alternativa, não uma obrigação.** Se a empresa quiser
 procurar outro investidor por conta própria, o projeto não pode impedir.
+
+## O investidor com preferência é a Epitychia, não "Grupo Janguiê" (16/out/2026)
+
+Ele disse: *"Epitychia, empresa do Janguiê responsável por investimentos"* e
+corrigiu em seguida: *"não Grupo Janguiê"*. **Em tudo o que é investimento, o
+nome certo é Epitychia.** Troquei nos slides (pitch, jornada e decisões) e
+neste arquivo.
+
+**O que a imprensa diz dela** (não é fonte dele, confirmar como quer que seja
+apresentada): family office de Janguiê Diniz que virou gestora de venture
+capital, fundada em 2016 em São Paulo com o filho Thales Janguiê, para
+investir em empresas em crescimento e startups. Aparece comprando 20% da
+Pitang Agile IT (mar/2021), segundo o Baguete. Fontes: ABES e Baguete.
+
+⚠ **A matéria que achei é de 2021.** Não mostra a carteira atual nem a tese
+de hoje. **Antes de dizer à sala o que a Epitychia procura, perguntar a ele**
+ou ao próprio Janguiê, porque ela pode ter critérios de tamanho, setor e
+estágio que o filtro do projeto precisa respeitar. R$ 1,2 milhão de
+faturamento é compatível com a tese dela? Não sei.
+
+⚠ **Os três pontos para advogado seguem valendo**, agora com o nome certo:
+o presidente do Instituto é o fundador da empresa que tem a preferência; a
+preferência precisa de aceite por escrito dos dois lados; e se os diretores
+ganham algo por montar a Mesa da Rodada, o enquadramento jurídico muda.
+
+⚠ **"Grupo Janguiê" era meu termo, vindo da primeira mensagem dele.** Ele o
+usava como atalho. A empresa de investimentos tem nome próprio, e usar o
+nome do grupo em vez do dela pode confundir a diretoria sobre quem exatamente
+está dando a preferência.

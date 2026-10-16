@@ -43,7 +43,7 @@ com os três prints das credenciais.
 tributária, de gestão de pessoal e financeira e consultoria jurídica a
 pequenos e médios empresários ligados ao Instituto. Missão: preparar as
 empresas pra escalar e, se cumprirem os requisitos, chegar ao pitch pra um
-**possível** investimento do Grupo Janguiê.
+**possível** investimento do Epitychia.
 
 | | |
 |---|---|
@@ -59,7 +59,7 @@ estadual da OAB/SC, presidente da Comissão de Direito Financeiro do IASC. É o
 
 ### 🔴 O que eu segurei na apresentação, e ele aceitou
 
-1. **O aporte do Grupo Janguiê é horizonte, não promessa.** Prometer dinheiro
+1. **O aporte do Epitychia é horizonte, não promessa.** Prometer dinheiro
    de terceiro sem autorização custa a relação e pode virar problema jurídico.
    **Alinhar com o Janguiê antes de mostrar a qualquer empresário.**
 2. **O fundo de debêntures saiu deste projeto** em 16/out e virou projeto
@@ -84,7 +84,7 @@ escritos.
 OCEO está incluído nos R$ 5.500, os demais requisitos do pitch (que virão da
 análise do OCEO), a preferência do Janguiê (ele ainda não confirmou), quem escolhe os 7 da Mesa da Rodada, aprovação da diretoria do Instituto.
 
-**A ordem do pitch (16/out):** depois do filtro, **1º o Grupo Janguiê Diniz**
+**A ordem do pitch (16/out):** depois do filtro, **1º o Epitychia**
 (preferência). Se ele não tiver interesse pelo negócio ou pelo modelo, **2º a
 Mesa da Rodada**, grupo criado pelos diretores com **7 investidores**, que dá
 mais uma opção às empresas prontas. 🔴 Pontos pra advogado: se os diretores
