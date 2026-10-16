@@ -369,3 +369,49 @@ depois que o OCEO analisar a empresa, e o OCEO só é instalado após o 3º mês
 Ou seja, **a empresa só saberá o que precisa cumprir para ir ao pitch depois
 de três meses de contrato.** O empresário vai querer saber isso antes de
 assinar. Vale ele pensar em como responder.
+
+## A ordem do pitch: Grupo Janguiê primeiro, depois a Mesa da Rodada (16/out/2026)
+
+Ele definiu: *"o pitch terá como preferência o grupo do Janguiê Diniz após o
+filtro; caso ele não tenha interesse pelo negócio ou modelo, será feita uma
+rodada para um grupo criado pelos diretores chamado a Mesa da Rodada,
+contendo 7 investidores, gerando mais uma opção para as empresas que estiverem
+prontas para o pitch."*
+
+| Ordem | Quem | Quando |
+|---|---|---|
+| **1º** | **Grupo Janguiê Diniz** | depois do filtro de requisitos |
+| **2º** | **Mesa da Rodada**, grupo **criado pelos diretores**, com **7 investidores** | se o grupo do Janguiê não tiver interesse pelo negócio ou pelo modelo |
+
+Entrou nos slides do **pitch** (duas caixas), da **jornada** (passo 5) e da
+lista de **decisões** (duas linhas: a preferência do Janguiê e a escolha dos
+7 investidores).
+
+🔴 **Três pontos que merecem advogado, e o Dr. Luciano está na própria
+diretoria:**
+
+1. **Quem monta e quem ganha.** Os diretores recebem R$ 5.500 por mês de cada
+   empresa e também montam o grupo de investidores para quem elas apresentam.
+   Se os diretores receberem algo por reunir a rodada ou por apresentar
+   investidor, isso muda o enquadramento jurídico (intermediação de oferta de
+   valores mobiliários tem regra da CVM). **Se não receberem nada pela rodada,
+   a apresentação tem que dizer isso com todas as letras.**
+2. **O presidente do Instituto é o dono do grupo que tem a preferência.** O
+   Instituto recebe 15% do honorário e R$ 1.250 de associação por empresa, e o
+   grupo do seu presidente tem a primeira opção. **A diretoria do Instituto
+   vai querer isso declarado**, e é melhor ele mesmo levantar o assunto do que
+   alguém levantar por ele.
+3. **"Preferência" é obrigação.** Se a empresa tem que oferecer primeiro ao
+   Janguiê, isso é uma restrição que ela precisa **aceitar por escrito no
+   contrato**, e que o grupo do Janguiê precisa ter aceitado antes. Hoje os
+   dois lados estão em aberto: o Janguiê ainda não confirmou, e o contrato
+   com o empresário ainda não existe.
+
+⚠ **Perguntas que a sala vai fazer sobre a Mesa da Rodada:** quem escolhe os
+7 investidores e com que critério; se são investidores qualificados; se o
+número 7 é fixo; e se a empresa é obrigada a ir a essa rodada ou pode
+procurar quem quiser. Estão nas notas do slide do pitch.
+
+⚠ **A frase "mais uma opção"** é importante e deve aparecer na fala: **a
+Mesa da Rodada é uma alternativa, não uma obrigação.** Se a empresa quiser
+procurar outro investidor por conta própria, o projeto não pode impedir.

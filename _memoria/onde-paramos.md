@@ -82,7 +82,15 @@ escritos.
 
 **Ainda falta ele definir:** multa se o empresário sair antes de 12 meses, se o
 OCEO está incluído nos R$ 5.500, os demais requisitos do pitch (que virão da
-análise do OCEO), aprovação da diretoria do Instituto.
+análise do OCEO), a preferência do Janguiê (ele ainda não confirmou), quem escolhe os 7 da Mesa da Rodada, aprovação da diretoria do Instituto.
+
+**A ordem do pitch (16/out):** depois do filtro, **1º o Grupo Janguiê Diniz**
+(preferência). Se ele não tiver interesse pelo negócio ou pelo modelo, **2º a
+Mesa da Rodada**, grupo criado pelos diretores com **7 investidores**, que dá
+mais uma opção às empresas prontas. 🔴 Pontos pra advogado: se os diretores
+ganham algo por montar a rodada, que o presidente do Instituto é dono do grupo
+com preferência, e que "preferência" precisa de aceite por escrito dos dois
+lados.
 
 **A apresentação tem 12 telas** (eram 13; a do fundo saiu).
 
