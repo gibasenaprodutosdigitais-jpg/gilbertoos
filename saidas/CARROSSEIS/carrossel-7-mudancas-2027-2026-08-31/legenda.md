@@ -1,16 +1,16 @@
 Em 2027 não cai um imposto novo em cima da sua empresa. Cai o sistema inteiro, trocando de lugar, em sete frentes ao mesmo tempo.
 
-1. CBS substitui PIS e Cofins, 1º de janeiro de 2027. Alíquota de referência de 26,5%, mas já tem conta revisada beirando 28%.
+1. CBS substitui PIS e Cofins, 1º de janeiro de 2027. Alíquota estimada entre 26,5% e 28%, ainda sem número fechado.
 
-2. O Imposto Seletivo, "imposto do pecado", estreia junto. Alíquota pronta desde maio, ainda não divulgada.
+2. O Imposto Seletivo, "imposto do pecado", está previsto para 2027, e a alíquota ainda não foi definida.
 
 3. Split payment: o imposto vai sair antes de entrar no seu caixa, mas só a partir do 2º semestre de 2027, em etapas (não janeiro, como se falava).
 
 4. Simples Nacional: a janela de setembro fechou. Quem optou pode cancelar até 30 de novembro, e quem ficou de fora tem nova janela em março de 2027, valendo pro segundo semestre.
 
-5. Autônomo entra no sistema acima de R$40.500 por ano, uns R$3.300 por mês.
+5. Autônomo entra no sistema acima de R$40.500 por ano, uns R$3.375 por mês.
 
-6. O imóvel ganha CPF (CIB). Quem aluga só vira contribuinte com mais de 3 imóveis e mais de R$240 mil por ano.
+6. O imóvel ganha CPF (CIB). Quem aluga só vira contribuinte com mais de 3 imóveis ou mais de R$240 mil por ano.
 
 7. A sua própria retirada: dividendo acima de R$50 mil por mês já sai retido na fonte.
 

@@ -11,17 +11,17 @@
 
 ## O primeiro ato da próxima sessão
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir,
-de 21/10 a 05/11. (2) O projeto Reestruturando com Êxito, que ele vai
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 30 pra ir,
+de 22/10 a 05/11. (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
-**Carrosséis: faltam 31, de 21/10 a 05/11.**
+**Carrosséis: faltam 30, de 22/10 a 05/11.**
 
 Dez já estão na fila ou no ar (16 a 20/out). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
-**21/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`**.
-A coluna das 15h andou um dia pra cima (o imobiliário entrou no 19/10), e
-sobra um horário vago, 05/11 às 15h.
+**22/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`**.
+O 21/10 às 15h já tem o reposte do `7-mudancas-2027`. A coluna das 15h andou
+dois dias (imobiliário no 19/10, reposte no 21/10) e não sobra horário vago.
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
@@ -170,10 +170,13 @@ como a premissa era falsa, **mantive os vídeos e corrigi as legendas** (abertur
 22/10, pecado 2 em 24/10 às 12h e resposta ao professor em 24/10 às 20h), nas 3
 redes. Falar isso a ele de forma direta. Se ele ainda quiser trocar os reels,
 fazer.
-🔴 **Ainda aberto:** o carrossel `7-mudancas-2027`, **já publicado** em 16/10,
-diz que o IS "estreia junto" e que "a alíquota está pronta desde maio". Legenda
-de post publicado não se edita pela Zernio. Perguntar a ele se quer apagar e
-repostar corrigido.
+🔴 **Ainda aberto, e é com ele:** o carrossel `7-mudancas-2027` **já está no ar** com
+erros (ver `_PLANO-DA-FILA.md`). Ele pediu "apague e reposte". **A Zernio não apaga
+post do Instagram** (a própria ferramenta diz "Not supported on Instagram"), então
+**ele precisa apagar à mão no aplicativo**: o post de 16/10 às 15h, link
+`https://www.instagram.com/p/DekIjvqipiN/`. O reposte corrigido (9 lâminas) está
+**agendado para 21/10 às 15h** (Zernio `6ad2b44461dcb939e51d8234`). **Confirmar
+com ele que apagou antes do dia 21**, senão ficam os dois no ar.
 
 ⚠ **Lição: legenda escrita por mim carrega afirmação que ele não fez.** Conferir
 a legenda contra a **fala** (transcrição em `entrada-videos/longos/edit/`), e

@@ -203,6 +203,10 @@ estadual/municipal.
 ## 11. ⚠ O que ainda está EM ABERTO (não afirmar como certo)
 
 - **Alíquotas do Imposto Seletivo** — dependem de LC não aprovada (previsão: 2º sem/2026)
+  ⚠ **Atualização 16/out/2026:** a imprensa (Agência Brasil, 8/out) fala em **medida
+  provisória** com as alíquotas, a ser enviada depois do 2º turno, e cobrança só no fim de
+  janeiro ou fevereiro de 2027. Não escrever "depende de LC" nem "começa em 1º de janeiro".
+  Ver `reforma-tributaria-ipi-imposto-seletivo.md`.
 - **Alíquota final da CBS em 2027** — referência ≈8,8%; estimativas de mercado variam
 - **Regulamentações infralegais** ainda saindo (Receita + Comitê Gestor)
 - ⚠ **Sites do governo instáveis em 2026 por causa da legislação eleitoral** —

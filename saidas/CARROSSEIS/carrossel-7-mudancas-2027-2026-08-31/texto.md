@@ -15,15 +15,15 @@ semestre de 2027, em etapas. Slide abaixo já corrigido.
 
 ## Slide 1 — CAPA
 Kicker: REFORMA TRIBUTÁRIA 2027
-Título: 7 mudanças caem juntas na tua empresa
+Título: 7 mudanças caem juntas na sua empresa
 
 ## Slide 2 — SOLO (light)
 Kicker: 1 — CBS SUBSTITUI PIS E COFINS
-"1º de janeiro de 2027. Alíquota de referência: 26,5% — mas já tem conta revisada beirando 28%. Numa empresa de R$200 mil por mês, cada ponto de diferença são R$24 mil no ano."
+"1º de janeiro de 2027. Alíquota estimada entre 26,5% e 28%, ainda sem número fechado. Numa empresa de R$200 mil por mês, cada ponto de diferença são R$24 mil no ano."
 
 ## Slide 3 — SOLO (dark)
 Kicker: 2 — O IMPOSTO DO PECADO
-"Bebida, cigarro, refrigerante, veículo poluente: o Imposto Seletivo estreia junto. A alíquota está pronta desde maio e ainda não foi divulgada."
+"Bebida, cigarro, refrigerante, veículo poluente: o Imposto Seletivo está previsto para 2027. A alíquota ainda não foi definida."
 
 ## Slide 4 — SOLO (light)
 Kicker: 3 — SPLIT PAYMENT (ADIADO)
@@ -31,15 +31,15 @@ Kicker: 3 — SPLIT PAYMENT (ADIADO)
 
 ## Slide 5 — NÚMERO (dark)
 Kicker: 4 — SIMPLES NACIONAL
-"1 a 30/set" + "É a janela pra decidir como recolher CBS e IBS a partir de 2027. Vale pro 1º semestre — dá pra cancelar até 30 de novembro."
+"30/nov" + "A janela de setembro fechou. Quem optou ainda pode cancelar até 30 de novembro. E quem ficou de fora tem nova janela em março de 2027, pro segundo semestre."
 
 ## Slide 6 — SOLO (light)
 Kicker: 5 — O AUTÔNOMO ENTRA
-"Acima de R$40.500 por ano — uns R$3.300 por mês — psicólogo, designer, professor particular passam a apurar CBS e IBS a partir de 2027."
+"Acima de R$40.500 por ano — uns R$3.375 por mês — psicólogo, designer, professor particular passam a apurar CBS e IBS a partir de 2027."
 
 ## Slide 7 — SOLO (dark)
 Kicker: 6 — O IMÓVEL GANHA CPF
-"Cartório, prefeitura e Receita passam a ver o mesmo imóvel no mesmo cadastro. Quem aluga só vira contribuinte com mais de 3 imóveis e mais de R$240 mil por ano — com redução de 70% na base."
+"Cartório, prefeitura e Receita passam a ver o mesmo imóvel no mesmo cadastro. Quem aluga só vira contribuinte com mais de 3 imóveis ou mais de R$240 mil por ano — com redução de 70% na alíquota."
 
 ## Slide 8 — SOLO (light)
 Kicker: 7 — A SUA RETIRADA
@@ -47,4 +47,9 @@ Kicker: 7 — A SUA RETIRADA
 
 ## Slide 9 — CTA FINAL
 "O fio que liga as sete é o mesmo: informação incompleta e prazo correndo. A diferença entre o empresário que atravessa 2027 tranquilo e o que apanha na guia não é sorte — é gestão."
-Tag: Inscrição no link da bio
+Tag: Me chama no direct
+
+
+> **Reposto em 16/out/2026.** A versão de 16/out às 15h foi apagada e refeita: Imposto
+> Seletivo sem 'pronta desde maio', faixa de 26,5% a 28%, R$3.375/mês, 'ou' (não 'e')
+> no imóvel, 70% na alíquota.

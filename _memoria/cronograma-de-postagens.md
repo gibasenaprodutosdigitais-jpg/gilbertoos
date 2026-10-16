@@ -46,6 +46,7 @@ Quando eu mexer na fila, atualizo este arquivo.
 | 21/10 qua | 05h00 | Instagram | card | Acompanhe de perto o que você constrói. Atenção hoje evita surpresas… |
 | 21/10 qua | 09h00 | Instagram | card | Uma ideia só vira negócio quando você transforma intenção em entrega.… |
 | 21/10 qua | 12h00 | Instagram | reels | Em 2027 não cai um imposto novo em cima do seu negócio. Cai o sistema… |
+| 21/10 qua | 15h00 | Instagram | carrossel | Em 2027 não cai um imposto novo em cima da sua empresa. Cai o sistema inteiro… (REPOSTE corrigido) |
 | 21/10 qua | 18h00 | Instagram | reels | Esse médico está falando de cabelo. Eu vou falar da sua empresa, porq… |
 | 22/10 qui | 05h00 | Instagram | card | O reconhecimento mais sólido começa em casa: nas relações que seu tra… |
 | 22/10 qui | 09h00 | Instagram | card | Nem toda oportunidade merece um sim. Escolha as que aproximam sua emp… |
@@ -85,12 +86,12 @@ agendado em lugar nenhum. Os posts de antes das 20h do dia 16 já foram ao ar.
 
 | Rede | Posts na fila | O quê | Até quando |
 |---|---|---|---|
-| Instagram | 55 | 25 cards, 21 reels, 9 carrosséis | 31/10 às 5h (Provérbios) |
+| Instagram | 56 | 25 cards, 21 reels, 10 carrosséis | 31/10 às 5h (Provérbios) |
 | YouTube | 20 | só reels | 29/10 |
 | TikTok | 16 | só reels | 29/10 |
 
-**Carrosséis: só 9 na fila, e o último é 20/10 às 20h.** Faltam 31, de 21/10 a
-05/11, no ritmo de 15h e 20h (sobra um horário vago, 05/11 às 15h). O mapa e o ponto de retomada estão em
+**Carrosséis: só 10 na fila, e o último é 21/10 às 15h.** Faltam 30, de 22/10 a
+05/11, no ritmo de 15h e 20h. O mapa e o ponto de retomada estão em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 
 **O horário de 19/10 às 15h foi preenchido** com o carrossel do imobiliário,

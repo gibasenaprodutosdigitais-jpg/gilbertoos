@@ -11,22 +11,22 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | 18/10 | revenda-carros-stj-2026-08-27 | ponto-de-equilibrio-2026-08-02 |
 | 19/10 | imobiliario-aluguel-2026-08-30 | 12-pilares-business-plan-2026-08-03 |
 | 20/10 | pf-autonomo-cbs-2026-08-27 | 5gs-gestao-financeira-2026-07-17 |
-| 21/10 | redutor-ajuste-construcao-2026-08-30 | 5gs-gestao-tributaria-2026-07-17 |
-| 22/10 | simples-hibrido-2026-08-27 | 5gs-gestao-de-si-2026-07-17 extraido |
-| 23/10 | reforma-ebooks-2026-09-13 | 5gs-fornecedores-clientes-2026-10-06 |
-| 24/10 | reforma-infoprodutores-2026-09-13 | 10-pergaminhos-maior-vendedor-2026-08-03 |
-| 25/10 | reforma-ecommerce-2026-09-13 | rede-de-mastermind-2026-08-09 |
-| 26/10 | reforma-representante-comercial-2026-09-13 | forjado-imersao-2026-08-07 |
-| 27/10 | reforma-medicos-2026-09-13 | dissolucao-sociedade-2026-08-10 |
-| 28/10 | medicos-reforma-2026-08-27 | agronegocio-reforma-2026-08-30 |
-| 29/10 | transportadoras-reforma-2026-08-27 | educacao-reforma-2026-08-30 |
-| 30/10 | comercio-reforma-2026-08-27 | textil-alerta-2026-08-27 |
-| 31/10 | servicos-alerta-2026-08-27 | biomedicina-reforma-2026-08-27 |
-| 01/11 | odontologia-reforma-2026-08-27 | entregadores-app-reforma-2026-08-27 |
-| 02/11 | ecommerce-alerta-2026-08-27 | tecnologia-saas-reforma-2026-08-30 |
-| 03/11 | clinicas-esteticas-2026-08-27 | saude-geral-reforma-2026-08-27 |
-| 04/11 | industria-reforma-2026-08-30 | transportes-reforma-2026-08-27 |
-| 05/11 | *(vago)* | 10-ebooks-leitura-2026-09-06 |
+| 21/10 | 7-mudancas-2027-2026-08-31 (REPOSTE corrigido) | 5gs-gestao-tributaria-2026-07-17 |
+| 22/10 | redutor-ajuste-construcao-2026-08-30 | 5gs-gestao-de-si-2026-07-17 extraido |
+| 23/10 | simples-hibrido-2026-08-27 | 5gs-fornecedores-clientes-2026-10-06 |
+| 24/10 | reforma-ebooks-2026-09-13 | 10-pergaminhos-maior-vendedor-2026-08-03 |
+| 25/10 | reforma-infoprodutores-2026-09-13 | rede-de-mastermind-2026-08-09 |
+| 26/10 | reforma-ecommerce-2026-09-13 | forjado-imersao-2026-08-07 |
+| 27/10 | reforma-representante-comercial-2026-09-13 | dissolucao-sociedade-2026-08-10 |
+| 28/10 | reforma-medicos-2026-09-13 | agronegocio-reforma-2026-08-30 |
+| 29/10 | medicos-reforma-2026-08-27 | educacao-reforma-2026-08-30 |
+| 30/10 | transportadoras-reforma-2026-08-27 | textil-alerta-2026-08-27 |
+| 31/10 | comercio-reforma-2026-08-27 | biomedicina-reforma-2026-08-27 |
+| 01/11 | servicos-alerta-2026-08-27 | entregadores-app-reforma-2026-08-27 |
+| 02/11 | odontologia-reforma-2026-08-27 | tecnologia-saas-reforma-2026-08-30 |
+| 03/11 | ecommerce-alerta-2026-08-27 | saude-geral-reforma-2026-08-27 |
+| 04/11 | clinicas-esteticas-2026-08-27 | transportes-reforma-2026-08-27 |
+| 05/11 | industria-reforma-2026-08-30 | 10-ebooks-leitura-2026-09-06 |
 
 ⚠ `10-ebooks-leitura` tem **12 lâminas** e o Instagram aceita 10. Está em
 último de propósito, esperando ele decidir se corta duas ou vira dois posts.
@@ -45,18 +45,26 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
 | 21/10 em diante | ⏳ | ⏳ |
 
-**Próximo:** 21/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`.
+**Próximo a enfileirar:** 22/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`. O 21/10 às 15h já está ocupado pelo reposte do `7-mudancas-2027`.
 
-⚠ **A coluna das 15h andou um dia pra cima em 16/out** (o do IPI saiu e o
-imobiliário ocupou o 19/10). A coluna das 20h não mexeu, e a série dos 5Gs
-continua nas 20h. **Sobra um horário vago: 05/11 às 15h.** São 31 carrosséis
-por enfileirar, de 21/10 a 05/11.
+⚠ **A coluna das 15h mexeu duas vezes em 16/out.** O do IPI saiu e o imobiliário
+ocupou o 19/10; depois o `7-mudancas-2027` foi apagado e refeito, e o reposte
+ficou no 21/10, empurrando as 15h seguintes um dia pra baixo. A coluna das 20h
+não mexeu, e a série dos 5Gs continua nas 20h. **Não sobra horário vago.** São
+30 carrosséis por enfileirar, de 22/10 a 05/11.
 
 ⚠ **Troquei o Simples Híbrido do dia 18 com o Revenda de Carros do dia 23.**
 O Híbrido caía no dia seguinte ao Simples Nacional do dia 17, e os dois
 contam a mesma história (janela de setembro, 30 de novembro, março de 2027,
 fim do crédito presumido de 9,25%). Dois dias seguidos repetindo isso
 queima o assunto.
+
+🔴 **Reposte do `7-mudancas-2027` (16/out).** O original foi ao ar com 4 erros:
+"alíquota pronta desde maio" (veio de vídeo de terceiro, sem fonte), CBS "revisada
+perto de 28%" (o fichamento diz estimativa de 26,5% a 28%), "R$3.300 por mês" (R$40.500
+÷ 12 = R$3.375) e imóvel com "mais de 3 imóveis **e** R$240 mil" (é **ou**), mais
+"70% na base" (é na alíquota). **Conferir cada número da peça contra o fichamento,
+não contra o rascunho de texto** (o `texto.md` dessa peça estava defasado).
 
 🔴 **Capa com limite errado (16/out).** O imobiliário dizia na capa "Alugar 3
 imóveis te transforma em contribuinte". A regra é **mais de 3** imóveis (ou
