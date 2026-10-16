@@ -95,7 +95,7 @@ d.rectangle([(W/2-60, 680), (W/2+60, 684)], fill=ACENTO)
 num = f(DIN, 72); rot = f(DIN, 30)
 dados = [("+15 ANOS", "dentro de empresas"),
          ("+500", "empresas e empresários orientados"),
-         ("R$ 500 MI", "economizados em impostos")]
+         ("R$ 500 MILHÕES", "economizados em impostos")]
 y = 790
 for v, r_ in dados:
     lw = largura_espacada(d, v, num, 4)

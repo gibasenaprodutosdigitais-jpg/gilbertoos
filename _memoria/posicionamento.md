@@ -32,9 +32,15 @@ reforma tributária faz com a tua empresa?"*
 própria empresa — decisão de negócio, não dúvida de conformidade.
 
 **Prova/ativo mais forte (hoje enterrado na bio):** **+R$ 500 milhões
-economizados em impostos · +2.000 empresas recuperadas.** É a espinha do
-posicionamento, não um detalhe — nenhum concorrente de "mentor
+economizados em impostos · +500 empresas e empresários orientados.** É a
+espinha do posicionamento, não um detalhe: nenhum concorrente de "mentor
 empresarial" tem isso pra mostrar.
+
+⚠ **O número é 500, não 2.000.** Este arquivo dizia 2.000 até 16/out/2026.
+Ele confirmou **+500** duas vezes, em 15/out. Os estudos de agosto em
+`posicionamento-gilberto-sena/` ainda carregam o 2.000 e **não devem ser
+copiados sem corrigir**. ⚠ **Escrever "milhões" por extenso, nunca "mi"** —
+pedido dele em 16/out.
 
 ## Evento próprio — Summit do Gestor (decidido 20/08/2026)
 
