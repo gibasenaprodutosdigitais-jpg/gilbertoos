@@ -1,6 +1,6 @@
 # Legenda — Reforma Tributária para Médicos
 
-**Arquivos:** `instagram/slide-01.png` … `slide-09.png` · 1080x1350 (4:5) · 9 slides
+Arquivos: `instagram/slide-01.png` … `slide-09.png` · 1080x1350 (4:5) · 9 slides
 
 ---
 

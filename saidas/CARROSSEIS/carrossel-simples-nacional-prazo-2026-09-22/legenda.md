@@ -4,13 +4,13 @@ Era o prazo pra escolher como a sua empresa do Simples vai recolher IBS e CBS a 
 
 Agora, o que ainda está de pé:
 
-**30 de novembro de 2026** é o último dia pra cancelar a opção, e o cancelamento é irretratável.
+30 de novembro de 2026 é o último dia pra cancelar a opção, e o cancelamento é irretratável.
 
-**Março de 2027** abre nova janela, pra ajustar o segundo semestre.
+Março de 2027 abre nova janela, pra ajustar o segundo semestre.
 
-**De outubro a dezembro**, quem abrir empresa escolhe no próprio registro.
+De outubro a dezembro, quem abrir empresa escolhe no próprio registro.
 
-**MEI** fica de fora dessa regra e mantém os prazos de janeiro.
+MEI fica de fora dessa regra e mantém os prazos de janeiro.
 
 O que está em jogo é o crédito. Acaba o crédito presumido de 9,25%, e quem compra de você passa a creditar só o que foi pago no DAS, que é pouco. No B2B isso te encarece sem você mexer em preço nenhum.
 

@@ -39,9 +39,10 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | Dia | 15h | 20h |
 |---|---|---|
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
-| 17/10 em diante | ⏳ | ⏳ |
+| 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
+| 18/10 em diante | ⏳ | ⏳ |
 
-**Próximo:** 17/10 às 15h, `carrossel-simples-nacional-prazo-2026-09-22`.
+**Próximo:** 18/10 às 15h, `carrossel-simples-hibrido-2026-08-27`.
 
 ⚠ **O nome dos arquivos muda de pasta pra pasta.** Uns usam
 `instagram/slide-01.png`, outros `instagram/card-01.png`. **Listar a pasta
@@ -51,5 +52,7 @@ antes de montar o curl**, senão o upload falha com
 ⚠ **Conferir antes de agendar**, que já peguei dois:
 - `7-mudancas-2027` dizia **"tua empresa"** na capa e na legenda. A regra
   dele é **você**, nunca tu. Corrigi e re-renderizei.
+- ✅ **O negrito markdown saiu das 11 legendas que tinham.** O Instagram não
+  lê `**texto**`, mostra o asterisco na tela.
 - `quem-e-gilberto` dizia **"720 horas"** na pós-graduação. Ele mandou tirar
   a carga horária em 15/out. Corrigi na legenda (nos cards já estava certo).

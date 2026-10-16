@@ -29,7 +29,7 @@ repetir o que deu certo em 2015.
 
 Arrasta e conhece a história inteira.
 
-**Gilberto Sena**
+Gilberto Sena
 @gilbertosenaoficial
 
 ---
@@ -43,15 +43,15 @@ Arrasta e conhece a história inteira.
 
 ## Notas de publicação
 
-- **Primeiro comentário:** *"Qual desses nove cards te surpreendeu mais?"*
+- Primeiro comentário: *"Qual desses nove cards te surpreendeu mais?"*
   pergunta de reconhecimento rende mais que pedido de opinião.
-- **Os três cards novos** (04, 06 e 07) são o que esse carrossel tem que o
+- Os três cards novos (04, 06 e 07) são o que esse carrossel tem que o
   anterior não tinha. Se for recortar pra Stories, são esses dois que mais
   rendem: credencial com instituição e ano na frente é o que separa
   autoridade de discurso.
-- **O card 07 é o melhor gancho de Reels do conjunto.** "Em 2020 eu voltei a
+- O card 07 é o melhor gancho de Reels do conjunto. "Em 2020 eu voltei a
   estudar tudo de novo" é uma história, não uma lista. Vale um vídeo falado
   sozinho.
-- **O que não fazer:** não colocar oferta de mentoria na legenda. Este post
+- O que não fazer: não colocar oferta de mentoria na legenda. Este post
   constrói autoridade; oferta no mesmo post queima o que a credencial acabou
   de construir.

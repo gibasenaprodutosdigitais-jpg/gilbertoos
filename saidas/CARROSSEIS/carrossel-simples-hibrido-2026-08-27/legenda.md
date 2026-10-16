@@ -6,9 +6,9 @@ Quem não escolheu nada ficou no modelo unificado por omissão. E isso vale o an
 
 Mas ainda correm duas coisas.
 
-**Até 30 de novembro** você cancela a opção, se fez e se arrependeu. O cancelamento é irretratável, então é uma via só.
+Até 30 de novembro você cancela a opção, se fez e se arrependeu. O cancelamento é irretratável, então é uma via só.
 
-**Em março de 2027** abre nova janela, pra ajustar o segundo semestre. Quem perdeu setembro entra por aí.
+Em março de 2027 abre nova janela, pra ajustar o segundo semestre. Quem perdeu setembro entra por aí.
 
 E tem uma terceira, que quase ninguém comenta: quem abrir empresa entre outubro e dezembro de 2026 escolhe no próprio registro, sem esperar janela nenhuma.
 

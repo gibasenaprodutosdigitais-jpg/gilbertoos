@@ -24,7 +24,7 @@ tinha dado o nome.
 
 Salve o post. Você vai querer reler isso no fim do trimestre.
 
-**Gilberto Sena**
+Gilberto Sena
 @gilbertosenaoficial
 
 ---
@@ -38,14 +38,14 @@ Salve o post. Você vai querer reler isso no fim do trimestre.
 
 ## Notas de publicação
 
-- **Melhor dia/horário:** terça ou quarta, entre 7h e 9h, que é quando o
+- Melhor dia/horário: terça ou quarta, entre 7h e 9h, que é quando o
   empresário lê antes de começar o dia.
-- **Primeiro comentário:** fixar uma pergunta para puxar resposta. Sugestão:
+- Primeiro comentário: fixar uma pergunta para puxar resposta. Sugestão:
   *"Dos cinco, qual é o que mais pega na sua empresa hoje?"* Post de
   diagnóstico rende comentário quando a pessoa se identifica com um item
   específico.
-- **Reaproveitamento:** cada um dos 5 sinais vira um Reels de 30 segundos.
+- Reaproveitamento: cada um dos 5 sinais vira um Reels de 30 segundos.
   O slide 7 (direção) é o melhor gancho para um Reels sozinho.
-- **O que não fazer:** não colocar link de mentoria na legenda. Este post
+- O que não fazer: não colocar link de mentoria na legenda. Este post
   entrega diagnóstico; oferta no mesmo post derruba o alcance e queima a
   autoridade que os números de falência constroem.

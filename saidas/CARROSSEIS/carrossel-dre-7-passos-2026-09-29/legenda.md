@@ -25,7 +25,7 @@ boa.
 
 Salve para consultar quando o contador te mandar o relatório.
 
-**Gilberto Sena**
+Gilberto Sena
 @gilbertosenaoficial
 
 ---
@@ -39,14 +39,14 @@ Salve para consultar quando o contador te mandar o relatório.
 
 ## Notas de publicação
 
-- **Formato do post:** carrossel de 9. O algoritmo favorece quem chega ao
+- Formato do post: carrossel de 9. O algoritmo favorece quem chega ao
   último slide, e a checagem final é o que segura até lá.
-- **Primeiro comentário:** *"Qual desses sete degraus você nunca tinha
+- Primeiro comentário: *"Qual desses sete degraus você nunca tinha
   olhado?"*. Pergunta de autodiagnóstico rende mais comentário que pedido
   de opinião.
-- **Reaproveitamento:** cada degrau vira um Reels curto. O passo 3 (margem
+- Reaproveitamento: cada degrau vira um Reels curto. O passo 3 (margem
   caindo com faturamento subindo) é o mais forte para virar Reels sozinho,
   porque é contraintuitivo.
-- **Se alguém pedir exemplo com números:** responder no comentário que
+- Se alguém pedir exemplo com números: responder no comentário que
   depende do setor, e oferecer olhar o caso. Não inventar percentual em
   comentário. Número citado vira número cobrado.
