@@ -49,3 +49,11 @@ encaminhamento por post**, não curtida.
 Depois de 29/out, **o Instagram fica sem reel** até ele gravar de novo. Restam
 os 29 cortes das três gravações do carro, que ainda não foram cortados, e os
 2 roteiros de regravação dos reels antigos.
+
+## Legendas corrigidas em 16/out/2026
+
+Três legendas afirmavam o que ele **não disse** na gravação: "o Imposto Seletivo
+começa em 1º de janeiro de 2027" (ele disse "previsto para 2027") e "a alíquota
+depende de lei complementar" (a imprensa de 8/out fala em medida provisória).
+Corrigidas na Zernio e aqui: abertura (22/10), pecado 2 (24/10 às 12h) e resposta
+ao professor (24/10 às 20h). Os vídeos não mudaram.

@@ -160,17 +160,24 @@ corrigida para "mais de 3"). Nenhum número do IPI vai ao ar sem fonte.
 vai a zero e que a exceção é a Zona Franca, que é a regra da Constituição e da
 LC 214, e não citam a MP. Nada a tirar.
 
-🔴 **Pendente com ele: Imposto Seletivo "em 1º de janeiro".** Notícia da
-Agência Brasil de 8/out/2026: a MP do IS só vai depois do 2º turno e a cobrança
-pode começar só no fim de janeiro ou início de fevereiro de 2027. Estas peças
-dizem que ele começa em 1º/jan/2027:
-- **já no ar:** carrossel `7-mudancas-2027` (16/10 às 15h), "estreia junto"
-- **na fila, fala dele gravada (não dá pra trocar só a legenda):** reels de
-  **22/10 às 12h** ("sete pecados", item 2) e de **24/10 às 12h** ("imposto do
-  pecado"), os dois em Instagram, TikTok e YouTube
-Perguntar a ele: tira os dois reels da fila e entra outro no lugar? E o
-carrossel já publicado, edita a legenda? Faltam reels prontos pra repor, ver o
-cronograma.
+✅ **Imposto Seletivo "em 1º de janeiro": resolvido em 16/out, sem tirar vídeo.**
+Notícia da Agência Brasil de 8/out: a MP do IS só vai depois do 2º turno e a
+cobrança pode começar só no fim de janeiro ou em fevereiro de 2027. Eu tinha dito
+a ele que a data estava na fala gravada, e **estava errado**: na gravação ele diz
+só "previsto para 2027". A data "1º de janeiro" e o "depende de lei complementar"
+estavam nas **legendas que eu escrevi**. Ele autorizou tirar os dois reels, mas
+como a premissa era falsa, **mantive os vídeos e corrigi as legendas** (abertura
+22/10, pecado 2 em 24/10 às 12h e resposta ao professor em 24/10 às 20h), nas 3
+redes. Falar isso a ele de forma direta. Se ele ainda quiser trocar os reels,
+fazer.
+🔴 **Ainda aberto:** o carrossel `7-mudancas-2027`, **já publicado** em 16/10,
+diz que o IS "estreia junto" e que "a alíquota está pronta desde maio". Legenda
+de post publicado não se edita pela Zernio. Perguntar a ele se quer apagar e
+repostar corrigido.
+
+⚠ **Lição: legenda escrita por mim carrega afirmação que ele não fez.** Conferir
+a legenda contra a **fala** (transcrição em `entrada-videos/longos/edit/`), e
+não só contra o fichamento.
 
 ⚠ **`carrossel-10-ebooks-leitura-2026-09-06` tem 12 lâminas e o Instagram
 aceita 10.** Está por último de propósito. Perguntar: corta duas ou vira dois

@@ -24,6 +24,11 @@
 > mantida** nos setores que passam ao IS (veículos, embarcações, aeronaves,
 > cigarro, bebidas alcoólicas e açucaradas, minerais, apostas). Isso é o plano
 > do governo noticiado, não texto de lei.
+>
+> ⚠ **Sobre a alíquota do IS:** pela notícia, ela virá por **medida provisória**.
+> Não escrever em peça "depende de lei complementar" (a LC 214/2025 já existe).
+> O que falta é a alíquota estar definida. Também não escrever "estreia em 1º de
+> janeiro": usar "previsto para 2027".
 
 ## O que ele contou
 

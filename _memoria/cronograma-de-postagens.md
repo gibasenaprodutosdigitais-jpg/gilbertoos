@@ -122,7 +122,7 @@ bondade com a indústria"): TikTok 17/10 às 2h, YouTube 18/10 às 6h e
 Instagram 20/10 às 12h. São falas dele de 27/ago, e eu não mexi. Como a
 publicação das medidas provisórias não foi confirmada, vale ele rever antes.
 
-⚠ **Dois reels dizem que o Imposto Seletivo começa em 1º de janeiro de 2027:**
-22/10 às 12h (série dos sete pecados) e 24/10 às 12h, nas três redes. A
-Agência Brasil de 8/out diz que a cobrança pode começar só no fim de janeiro
-ou em fevereiro. Aguardando decisão dele (ver `onde-paramos.md`).
+✅ **Imposto Seletivo, corrigido em 16/out:** as legendas de 22/10 (abertura
+dos sete pecados) e de 24/10 às 12h e às 20h diziam "começa em 1º de janeiro" e
+"depende de lei complementar". Agora dizem "previsto para 2027" e "alíquota ainda
+não definida". Os vídeos ficaram, porque na fala ele só diz "previsto para 2027".
