@@ -9,7 +9,7 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | 16/10 | 7-mudancas-2027-2026-08-31 | quem-e-gilberto-2026-10-06 |
 | 17/10 | simples-nacional-prazo-2026-09-22 | dre-7-passos-2026-09-29 |
 | 18/10 | revenda-carros-stj-2026-08-27 | ponto-de-equilibrio-2026-08-02 |
-| 19/10 | ipi-imposto-seletivo-2026-08-27 | 12-pilares-business-plan-2026-08-03 |
+| 19/10 | ⏸ SEGURADO (ipi-imposto-seletivo, ver `_SEGURADO.md` na pasta dele) | 12-pilares-business-plan-2026-08-03 |
 | 20/10 | pf-autonomo-cbs-2026-08-27 | 5gs-gestao-financeira-2026-07-17 |
 | 21/10 | imobiliario-aluguel-2026-08-30 | 5gs-gestao-tributaria-2026-07-17 |
 | 22/10 | redutor-ajuste-construcao-2026-08-30 | 5gs-gestao-de-si-2026-07-17 extraido |
@@ -41,7 +41,7 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
 | 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
-| 19/10 | ✅ ipi-imposto-seletivo | ✅ 12-pilares-business-plan |
+| 19/10 | ⏸ vazio (IPI segurado, post apagado da Zernio em 16/out) | ✅ 12-pilares-business-plan |
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
 | 21/10 em diante | ⏳ | ⏳ |
 
@@ -69,7 +69,9 @@ e refazer a que não voltar 200, senão o post vai ao ar com imagem faltando.
 ⚠ **Peça de agosto pode ter data relativa.** O do IPI dizia "essa semana" e
 "semana que vem" em dois cards e na legenda. Em outubro isso vira informação
 errada. Troquei por "o que já foi editado", "a primeira" e "a segunda", e
-re-renderizei. **Rodar antes de cada peça:**
+re-renderizei. ⚠ **Essa troca afirmava um fato que eu não tinha verificado**
+(que as duas MPs já saíram). A pesquisa de 16/out só achou previsão, então o
+post foi apagado e a peça está segurada. **Rodar antes de cada peça:**
 `grep -niE "essa semana|semana que vem|hoje o governo" carrossel.html legenda.md`
 
 ⚠ **O nome dos arquivos muda de pasta pra pasta.** Uns usam

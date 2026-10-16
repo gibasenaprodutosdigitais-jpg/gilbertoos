@@ -1,7 +1,7 @@
 # Media Kit do palestrante Gilberto Sena
 
 > Montado em **14/out/2026**. Arquivo para mandar: `Gilberto-Sena-Media-Kit.pdf`,
-> 7 páginas A4, 1,1 MB. As páginas soltas em PNG estão em `paginas/`.
+> 11 páginas A4, 3,4 MB (eram 7 na primeira versão de 14/out; cresceu nas rodadas de 15 e 16/out). As páginas soltas em PNG estão em `paginas/`.
 
 ---
 

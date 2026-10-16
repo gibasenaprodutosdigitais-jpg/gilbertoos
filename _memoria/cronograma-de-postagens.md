@@ -1,93 +1,120 @@
 # Cronograma de postagens
 
-Fila real da Zernio, lida em **15/out/2026, 21h55**. Horário de Brasília.
+Fila real da Zernio, lida em **16/out/2026, 19h49**. Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
 
 | Dia | Hora | Onde | O quê | Começo do texto |
 |---|---|---|---|---|
-| 16/10 sex | 00h00 | YouTube | reels | Dinheiro é energia, e dá para explicar com uma corrida. Imagine que o … |
-| 16/10 sex | 02h00 | TikTok | reels | Quanto mais você evolui, mais sensível você fica. Parece contradição. … |
-| 16/10 sex | 05h00 | TikTok | card | Construa uma reputação que permaneça quando você não estiver na sala. |
-| 16/10 sex | 05h00 | Instagram | card | Construa uma reputação que permaneça quando você não estiver na sala. … |
-| 16/10 sex | 06h00 | YouTube | reels | Se você põe uma joia dentro de uma caixinha, ela vira um porta-joia. S… |
-| 16/10 sex | 08h00 | TikTok | reels | Transportadora: seu CT-e já tem que destacar CBS e IBS. Não é cobrança… |
-| 16/10 sex | 09h00 | TikTok | card | Antes de encerrar a semana, reconheça o que você construiu. |
-| 16/10 sex | 09h00 | Instagram | card | Antes de encerrar a semana, reconheça o que você construiu. Amanhã tem… |
-| 16/10 sex | 12h00 | YouTube | reels | Em 1997 eu já era motoboy havia dois anos e tinha entendido o processo… |
-| 16/10 sex | 12h00 | Instagram | reels | Sabe quando você tem certeza de que está no caminho certo? É quando o … |
-| 16/10 sex | 14h00 | TikTok | reels | Vende online? Split payment testa em 2027 e vale em 2028. E compra aci… |
-| 16/10 sex | 18h00 | YouTube | reels | Quanto mais você evolui, mais sensível você fica. Parece contradição, … |
-| 16/10 sex | 20h00 | TikTok | reels | Antes de ouvir qualquer guru de negócio, olha o histórico. Já quebrou?… |
-| 16/10 sex | 20h00 | Instagram | reels | Se você tem transportadora, o seu prazo da reforma não começa em 2027.… |
-| 17/10 sáb | 00h00 | YouTube | reels | Tem muita gente perdida que precisa ouvir uma história parecida com a … |
-| 17/10 sáb | 02h00 | TikTok | reels | Fim do IPI em 2027 não é bondade com a indústria. É escudo pra Zona Fr… |
-| 17/10 sáb | 06h00 | YouTube | reels | Sabe quando você tem certeza de que está no caminho certo? É quando o … |
-| 17/10 sáb | 08h00 | TikTok | reels | A manipulação mais perigosa é a que você faz com você mesmo. Rede soci… |
-| 17/10 sáb | 12h00 | YouTube | reels | Se você tem transportadora, o seu prazo da reforma não começa em 2027.… |
-| 17/10 sáb | 12h00 | Instagram | reels | Qual a diferença entre o rico e o pobre? O rico tem paciência. Eu sou … |
-| 17/10 sáb | 14h00 | TikTok | reels | Em 2027 não cai um imposto novo. Cai o sistema inteiro. E o que separa… |
-| 17/10 sáb | 18h00 | YouTube | reels | Quem vende online tem dois prazos correndo, e os dois mexem no caixa. … |
-| 17/10 sáb | 20h00 | TikTok | reels | Nem toda queda de cabelo é calvície. E nem todo problema da sua empres… |
-| 17/10 sáb | 20h00 | Instagram | reels | Quantos Gilbertos tem lá fora? Gente que está perdida e que precisa ou… |
-| 18/10 dom | 00h00 | YouTube | reels | O sucesso dos maus é o silêncio dos bons. Tem muita gente enganando em… |
-| 18/10 dom | 06h00 | YouTube | reels | O fim do IPI em 2027 não é bondade com a indústria. É escudo pra Zona … |
-| 18/10 dom | 12h00 | YouTube | reels | A manipulação mais perigosa não vem de fora. É a que você faz com você… |
-| 18/10 dom | 12h00 | Instagram | reels | O mesmo dinheiro tributado quatro vezes. E é legal. O imposto é recolh… |
-| 18/10 dom | 18h00 | YouTube | reels | Em 2027 não cai um imposto novo em cima do seu negócio. Cai o sistema … |
-| 18/10 dom | 20h00 | Instagram | reels | Quem vende online tem dois prazos correndo agora, e os dois mexem no c… |
-| 19/10 seg | 00h00 | YouTube | reels | Nem toda queda de cabelo é calvície. Se todo mundo recebe a mesma rece… |
-| 19/10 seg | 09h00 | Instagram | card | Comece com o que você tem. O próximo passo aparece quando você sai do … |
-| 19/10 seg | 12h00 | Instagram | reels | Quanto mais você evolui, mais sensível você fica. Parece contradição, … |
-| 19/10 seg | 20h00 | Instagram | reels | O sucesso dos maus é o silêncio dos bons. Tem muita gente boa de palco… |
-| 20/10 ter | 09h00 | Instagram | card | Empreender também é continuar quando o resultado ainda não apareceu. T… |
-| 20/10 ter | 12h00 | Instagram | reels | O fim do IPI em 2027 não é bondade com a indústria. É escudo pra Zona … |
-| 20/10 ter | 20h00 | Instagram | reels | A manipulação mais perigosa não vem de fora. É a que você faz com você… |
-| 21/10 qua | 09h00 | Instagram | card | Uma ideia só vira negócio quando você transforma intenção em entrega. … |
-| 21/10 qua | 12h00 | Instagram | reels | Em 2027 não cai um imposto novo em cima do seu negócio. Cai o sistema … |
-| 21/10 qua | 20h00 | Instagram | reels | Esse médico está falando de cabelo. Eu vou falar da sua empresa, porqu… |
-| 22/10 qui | 09h00 | Instagram | card | Nem toda oportunidade merece um sim. Escolha as que aproximam sua empr… |
-| 22/10 qui | 12h00 | Instagram + TikTok + YouTube | reels | Foram confirmados sete pecados que vão destruir empresas, famílias e n… |
-| 22/10 qui | 20h00 | Instagram + TikTok + YouTube | reels | Tem empresário que fatura bem e não sabe dizer o que é capital de giro… |
-| 23/10 sex | 09h00 | Instagram | card | Quando o plano muda, sua capacidade de se adaptar também faz parte do … |
-| 23/10 sex | 12h00 | Instagram + TikTok + YouTube | reels | A CBS não vai chegar em 2027. Ela já está na sua nota fiscal desde jan… |
-| 23/10 sex | 20h00 | Instagram + TikTok + YouTube | reels | Me responde uma coisa: o split payment vai facilitar o trabalho de que… |
-| 24/10 sáb | 12h00 | Instagram + TikTok + YouTube | reels | Deram a ele o apelido de imposto do pecado. Bonito. Mas repara no que … |
-| 24/10 sáb | 20h00 | Instagram + TikTok + YouTube | reels | Um professor universitário disse que a primeira economia que o empresá… |
-| 25/10 dom | 12h00 | Instagram + TikTok + YouTube | reels | Simples híbrido. O que que tem de simples nisso? A partir de 2027 quem… |
-| 26/10 seg | 09h00 | Instagram | card | Seu próximo cliente pode chegar pela confiança que você construiu no a… |
-| 26/10 seg | 12h00 | Instagram + TikTok + YouTube | reels | Tem uma linha de R$ 40.500 por ano, e quase ninguém sabe de que lado d… |
-| 27/10 ter | 09h00 | Instagram | card | Crescer com consistência pede decisões claras, mesmo quando elas são d… |
-| 27/10 ter | 12h00 | Instagram + TikTok + YouTube | reels | O seu imóvel ganhou CPF. Chama CIB, Cadastro Imobiliário Brasileiro, e… |
-| 28/10 qua | 09h00 | Instagram | card | Um problema bem resolvido pode ensinar mais sobre sua empresa do que u… |
-| 28/10 qua | 12h00 | Instagram + TikTok + YouTube | reels | Split payment. Traduzindo o nome bonito: o imposto sai antes de entrar… |
-| 29/10 qui | 09h00 | Instagram | card | Cuide do caixa com a mesma atenção que dedica às vendas. Os dois mantê… |
-| 29/10 qui | 12h00 | Instagram + TikTok + YouTube | reels | Você já sabe qual é a alíquota? Eu também não. É o sétimo pecado, e é … |
-| 30/10 sex | 09h00 | Instagram | card | Feche o mês com uma pergunta: o que você aprendeu que vai fazer difere… |
+| 16/10 sex | 20h00 | Instagram | carrossel | Já fui motoboy. Já vendi cachorro-quente. Hoje eu ensino empresário a… |
+| 16/10 sex | 20h00 | TikTok | reels | Antes de ouvir qualquer guru de negócio, olha o histórico. Já quebrou… |
+| 17/10 sáb | 00h00 | YouTube | reels | Tem muita gente perdida que precisa ouvir uma história parecida com a… |
+| 17/10 sáb | 02h00 | TikTok | reels | Fim do IPI em 2027 não é bondade com a indústria. É escudo pra Zona F… |
+| 17/10 sáb | 05h00 | Instagram | card | Por trás de uma boa liderança existe trabalho constante, mesmo quando… |
+| 17/10 sáb | 06h00 | YouTube | reels | Sabe quando você tem certeza de que está no caminho certo? É quando o… |
+| 17/10 sáb | 08h00 | TikTok | reels | A manipulação mais perigosa é a que você faz com você mesmo. Rede soc… |
+| 17/10 sáb | 12h00 | Instagram | reels | Qual a diferença entre o rico e o pobre? O rico tem paciência. Eu sou… |
+| 17/10 sáb | 12h00 | YouTube | reels | Se você tem transportadora, o seu prazo da reforma não começa em 2027… |
+| 17/10 sáb | 14h00 | TikTok | reels | Em 2027 não cai um imposto novo. Cai o sistema inteiro. E o que separ… |
+| 17/10 sáb | 15h00 | Instagram | carrossel | Dia 30 de setembro uma porta se fechou, e muita gente não percebeu qu… |
+| 17/10 sáb | 18h00 | Instagram | reels | Quantos Gilbertos tem lá fora? Gente que está perdida e que precisa o… |
+| 17/10 sáb | 18h00 | YouTube | reels | Quem vende online tem dois prazos correndo, e os dois mexem no caixa.… |
+| 17/10 sáb | 20h00 | Instagram | carrossel | Todo mês a sua empresa te entrega um relatório contando exatamente o… |
+| 17/10 sáb | 20h00 | TikTok | reels | Nem toda queda de cabelo é calvície. E nem todo problema da sua empre… |
+| 18/10 dom | 00h00 | YouTube | reels | O sucesso dos maus é o silêncio dos bons. Tem muita gente enganando e… |
+| 18/10 dom | 05h00 | Instagram | card | Entregue valor real. O cliente percebe quando há cuidado em cada etap… |
+| 18/10 dom | 06h00 | YouTube | reels | O fim do IPI em 2027 não é bondade com a indústria. É escudo pra Zona… |
+| 18/10 dom | 12h00 | Instagram | reels | O mesmo dinheiro tributado quatro vezes. E é legal. O imposto é recol… |
+| 18/10 dom | 12h00 | YouTube | reels | A manipulação mais perigosa não vem de fora. É a que você faz com voc… |
+| 18/10 dom | 15h00 | Instagram | carrossel | Se você é revendedor de carro, você pode estar pagando 32% de imposto… |
+| 18/10 dom | 18h00 | Instagram | reels | Quem vende online tem dois prazos correndo agora, e os dois mexem no… |
+| 18/10 dom | 18h00 | YouTube | reels | Em 2027 não cai um imposto novo em cima do seu negócio. Cai o sistema… |
+| 18/10 dom | 20h00 | Instagram | carrossel | Ponto de equilíbrio: o número que separa negócio de aposta. Jesus fal… |
+| 19/10 seg | 00h00 | YouTube | reels | Nem toda queda de cabelo é calvície. Se todo mundo recebe a mesma rec… |
+| 19/10 seg | 05h00 | Instagram | card | Vista-se de força e dignidade: enfrente os desafios sem abrir mão dos… |
+| 19/10 seg | 09h00 | Instagram | card | Comece com o que você tem. O próximo passo aparece quando você sai do… |
+| 19/10 seg | 12h00 | Instagram | reels | Quanto mais você evolui, mais sensível você fica. Parece contradição,… |
+| 19/10 seg | 18h00 | Instagram | reels | O sucesso dos maus é o silêncio dos bons. Tem muita gente boa de palc… |
+| 19/10 seg | 20h00 | Instagram | carrossel | Business plan bonito não paga conta. Isso paga. Eu já revisei muito p… |
+| 20/10 ter | 05h00 | Instagram | card | Fale com sabedoria. Uma conversa bem conduzida pode fortalecer uma pa… |
+| 20/10 ter | 09h00 | Instagram | card | Empreender também é continuar quando o resultado ainda não apareceu.… |
+| 20/10 ter | 12h00 | Instagram | reels | O fim do IPI em 2027 não é bondade com a indústria. É escudo pra Zona… |
+| 20/10 ter | 15h00 | Instagram | carrossel | A partir de 2027, o autônomo que fatura acima de R$40.500 por ano vir… |
+| 20/10 ter | 18h00 | Instagram | reels | A manipulação mais perigosa não vem de fora. É a que você faz com voc… |
+| 20/10 ter | 20h00 | Instagram | carrossel | Sete vezes eu quebrei. Nenhuma foi motivo pra parar. Não é o tipo de… |
+| 21/10 qua | 05h00 | Instagram | card | Acompanhe de perto o que você constrói. Atenção hoje evita surpresas… |
+| 21/10 qua | 09h00 | Instagram | card | Uma ideia só vira negócio quando você transforma intenção em entrega.… |
+| 21/10 qua | 12h00 | Instagram | reels | Em 2027 não cai um imposto novo em cima do seu negócio. Cai o sistema… |
+| 21/10 qua | 18h00 | Instagram | reels | Esse médico está falando de cabelo. Eu vou falar da sua empresa, porq… |
+| 22/10 qui | 05h00 | Instagram | card | O reconhecimento mais sólido começa em casa: nas relações que seu tra… |
+| 22/10 qui | 09h00 | Instagram | card | Nem toda oportunidade merece um sim. Escolha as que aproximam sua emp… |
+| 22/10 qui | 12h00 | Instagram + TikTok + YouTube | reels | Foram confirmados sete pecados que vão destruir empresas, famílias e… |
+| 22/10 qui | 18h00 | Instagram + TikTok + YouTube | reels | Tem empresário que fatura bem e não sabe dizer o que é capital de gir… |
+| 23/10 sex | 05h00 | Instagram | card | Não copie o caminho de outros empreendedores. Trabalhe para construir… |
+| 23/10 sex | 09h00 | Instagram | card | Quando o plano muda, sua capacidade de se adaptar também faz parte do… |
+| 23/10 sex | 12h00 | Instagram + TikTok + YouTube | reels | A CBS não vai chegar em 2027. Ela já está na sua nota fiscal desde ja… |
+| 23/10 sex | 18h00 | Instagram + TikTok + YouTube | reels | Me responde uma coisa: o split payment vai facilitar o trabalho de qu… |
+| 24/10 sáb | 05h00 | Instagram | card | Talento chama atenção. Caráter e reverência a Deus dão fundamento ao… |
+| 24/10 sáb | 12h00 | Instagram + TikTok + YouTube | reels | Deram a ele o apelido de imposto do pecado. Bonito. Mas repara no que… |
+| 24/10 sáb | 18h00 | Instagram + TikTok + YouTube | reels | Um professor universitário disse que a primeira economia que o empres… |
+| 25/10 dom | 05h00 | Instagram | card | Deixe que seu trabalho fale por você. Reputação se constrói com entre… |
+| 25/10 dom | 12h00 | Instagram + TikTok + YouTube | reels | Simples híbrido. O que que tem de simples nisso? A partir de 2027 que… |
+| 26/10 seg | 05h00 | Instagram | card | Seja confiável nos acordos pequenos. É assim que se prepara para resp… |
+| 26/10 seg | 09h00 | Instagram | card | Seu próximo cliente pode chegar pela confiança que você construiu no… |
+| 26/10 seg | 12h00 | Instagram + TikTok + YouTube | reels | Tem uma linha de R$ 40.500 por ano, e quase ninguém sabe de que lado… |
+| 27/10 ter | 05h00 | Instagram | card | Uma liderança sábia pensa no impacto das decisões sobre quem trabalha… |
+| 27/10 ter | 09h00 | Instagram | card | Crescer com consistência pede decisões claras, mesmo quando elas são… |
+| 27/10 ter | 12h00 | Instagram + TikTok + YouTube | reels | O seu imóvel ganhou CPF. Chama CIB, Cadastro Imobiliário Brasileiro,… |
+| 28/10 qua | 05h00 | Instagram | card | A disciplina de hoje pode se tornar a tranquilidade de amanhã. Tranqu… |
+| 28/10 qua | 09h00 | Instagram | card | Um problema bem resolvido pode ensinar mais sobre sua empresa do que… |
+| 28/10 qua | 12h00 | Instagram + TikTok + YouTube | reels | Split payment. Traduzindo o nome bonito: o imposto sai antes de entra… |
+| 29/10 qui | 05h00 | Instagram | card | Generosidade não enfraquece um negócio. Ela lembra por que vale a pen… |
+| 29/10 qui | 09h00 | Instagram | card | Cuide do caixa com a mesma atenção que dedica às vendas. Os dois mant… |
+| 29/10 qui | 12h00 | Instagram + TikTok + YouTube | reels | Você já sabe qual é a alíquota? Eu também não. É o sétimo pecado, e é… |
+| 30/10 sex | 05h00 | Instagram | card | O sucesso não precisa custar seus valores. Faça escolhas das quais vo… |
+| 30/10 sex | 09h00 | Instagram | card | Feche o mês com uma pergunta: o que você aprendeu que vai fazer difer… |
+| 31/10 sáb | 05h00 | Instagram | card | Feche o mês com gratidão pelo que avançou e humildade para aprender o… |
 
 ---
 
 ## O que esta fila diz
 
-**Começa 16/10 e acaba 30/10.** Depois disso não tem mais nada agendado em
-lugar nenhum.
+**Começa 16/10 às 20h e acaba 31/10 às 5h.** Depois disso não tem mais nada
+agendado em lugar nenhum. Os posts de antes das 20h do dia 16 já foram ao ar.
 
-| Rede | Posts na fila | Até quando |
-|---|---|---|
-| Instagram | 35 | 30/out, só o card das 9h |
-| YouTube | 24 | 19/out |
-| TikTok | 21 | 29/out |
+| Rede | Posts na fila | O quê | Até quando |
+|---|---|---|---|
+| Instagram | 54 | 25 cards, 21 reels, 8 carrosséis | 31/10 às 5h (Provérbios) |
+| YouTube | 20 | só reels | 29/10 |
+| TikTok | 16 | só reels | 29/10 |
 
-**O dia 16/10 está entupido: 14 posts.** Seis no TikTok e quatro no YouTube no
-mesmo dia. Isso é despejo de acervo, não cadência — a rede entende como spam e
-entrega menos. O certo é espalhar.
+**Carrosséis: só 8 na fila, e o último é 20/10 às 20h.** Faltam 32, de 21/10 a
+05/11, no ritmo de 15h e 20h. O mapa e o ponto de retomada estão em
+`saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 
-**Do dia 19 ao 21 o Instagram fica sozinho**, com três por dia: card de frase
-às 9h, reels ao meio-dia e reels às 20h. YouTube e TikTok ficam mudos nesses
-três dias.
+**O horário de 19/10 às 15h está vazio.** O carrossel do IPI saiu da fila
+(motivo em `saidas/CARROSSEIS/carrossel-ipi-imposto-seletivo-2026-08-27/_SEGURADO.md`).
 
-**De 22 a 29 roda a série dos sete pecados**, nas três redes ao mesmo tempo,
-ao meio-dia.
+**Só o dia 20/10 tem os 6 posts do Instagram** (5h, 9h, 12h, 15h, 18h, 20h).
+O que falta nos outros dias:
 
-⚠ **Não tem nenhum carrossel na fila.** O de 15/10, "5 sinais de que sua
-empresa parou de crescer", foi publicado às 21h52 e era o único. Os outros 42
-estão prontos em `saidas/CARROSSEIS/` e nunca foram agendados.
+| Dias | O que falta |
+|---|---|
+| 17 e 18/10 | a frase das 9h (fim de semana sem frase) |
+| 21, 22 e 23/10 | os carrosséis das 15h e das 20h (ainda por enfileirar) |
+| 24/10 | a frase das 9h e os dois carrosséis |
+| 25/10 | frase das 9h, reels das 18h e os dois carrosséis |
+| 26 a 29/10 | carrosséis das 15h e 20h e o reels das 18h |
+| 30/10 | reels das 12h e das 18h e os dois carrosséis |
+| 31/10 | tudo, menos o Provérbios das 5h |
+
+**Os reels do Instagram acabam em 29/10 ao meio-dia.** O reels das 18h já
+acaba em 24/10. Para encher até o fim do mês faltam cortes das gravações do
+carro, que ainda não foram feitos.
+
+**De 22/10 em diante os reels saem nas três redes juntos** (Instagram, TikTok
+e YouTube): às 12h e às 18h até 24/10, e só às 12h de 25 a 29/10.
+
+⚠ **Três posts na fila falam do fim do IPI** ("O fim do IPI em 2027 não é
+bondade com a indústria"): TikTok 17/10 às 2h, YouTube 18/10 às 6h e
+Instagram 20/10 às 12h. São falas dele de 27/ago, e eu não mexi. Como a
+publicação das medidas provisórias não foi confirmada, vale ele rever antes.

@@ -9,6 +9,11 @@
 > Seletivo (IS)**, já fichado como sigla oficial da reforma — tratando
 > como transcrição de voz confundindo IS/IE, não como imposto
 > diferente. Categoria: Técnico / tributário — atualização quente.
+>
+> ⚠ **Status em 16/out/2026: as datas abaixo são previsão de 27/ago.** "Essa
+> semana" e "semana seguinte" se referem a fim de agosto e início de setembro.
+> A publicação das duas MPs **não foi confirmada** em pesquisa de 16/out.
+> Verificar em fonte oficial antes de afirmar em peça pública que elas saíram.
 
 ## O que ele contou
 

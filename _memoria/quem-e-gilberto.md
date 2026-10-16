@@ -43,10 +43,29 @@
   brasileiro (o mundo do G4, Marçal, Flávio Augusto etc.). Atenção: NÃO é acesso
   direto nem que trabalha com eles — é que frequenta os mesmos círculos/eventos.
   Não vender proximidade que não existe (queima autoridade).
-- **Conselheiro do Instituto Êxito de Empreendedorismo** — maior instituto de
-  empreendedorismo do Brasil (fundado em 2019). Confirmado no LinkedIn dele.
+- **Diretor de Compliance do Instituto Êxito de Empreendedorismo**, gestão
+  2025/2030 — maior instituto de empreendedorismo do Brasil (fundado em 2019).
+  **Verificado em 15/out/2026** na página oficial da diretoria, onde ele
+  aparece entre Janguiê Diniz (Presidente) e Celso Niskier (Vice-Presidente).
+  O texto antigo dizia "conselheiro" e estava errado.
 - **Palestrante no Summit Êxito de Empreendedorismo 2022** — evento com ~150
   palestrantes sobre empreendedorismo, tecnologia e tendências.
+- **Outras palestras confirmadas por ele** (15/out/2026), da mais antiga à mais
+  nova:
+  - **Mentoring Day Experience, DTL Group, Portugal, 2022**
+  - **GoDigital Festival, jan/2023**, Centro de Convenções de Pernambuco. Só
+    existe certificado de *participação*; **ele confirmou na palavra que
+    palestrou. Não perguntar de novo.**
+  - **PBXP, Paraíba Business Experience, mai/2023**, Campina Grande. Cartaz
+    com ele ao lado de Roberto Shinyashiki e Janguiê Diniz.
+  - **Dubai Experience, nov/2023.** Cartaz oficial "Palestrante confirmado",
+    tema *Os 5 G's do Empreendedorismo*.
+  - **Empreenda Summit Alphaville, 2024.** Vídeo do CONECTV o identifica como
+    palestrante.
+  - **Imersão Reengenharia Empresarial, 2026**, formato próprio.
+  - ⚠ **A Casa do Zé não é palestra.** Foi um reality de imersão do José
+    Roberto Marques de que ele participou, com uma disputa de startups dentro.
+    Entra como aparição, nunca como palestra.
 - **Foi capa da Revista Empreenda, edição 75** — matéria "De motoboy a
   multimilionário" (edição já publicada, anterior à entrada dele como
   sócio-adm/CEO da revista — ver seção abaixo). Fichada em 17/jul/2026 a
@@ -544,7 +563,7 @@ de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
   Didache), Brasília/DF, concluído 05/04/2020. Explica a base bíblica sólida
   por trás da sabedoria dele — não é "citar versículo", é formação teológica
   formal. Ótimo pra reforçar autoridade no pilar espiritual.
-- **Pós-graduação em Direito Tributário, 720 horas** — Faculdade Venda Nova
+- **Pós-graduação em Direito Tributário** (⚠ **sem carga horária em peça pública**: ele pediu para tirar em 15/out/2026; são 720 horas, dado só interno) — Faculdade Venda Nova
   do Imigrante (FAVENI/Instituto de Educação Século XXI), concluída
   06/05/2021. Este é o diploma pesado que sustenta a autoridade tributária —
   vai além da prática, tem título acadêmico.
@@ -574,7 +593,7 @@ mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
 **Formação empreendedora/gestão (2017-2019, cursos livres):**
 - Curso Plano de Negócios — 60h, dez/2017.
 - Gestão Financeira para Pequenas e Médias Empresas — 35h, nov/2017.
-- Direito Tributário (curso livre, distinto da pós-graduação de 720h) — 45h,
+- Direito Tributário (curso livre, distinto da pós-graduação) — 45h,
   dez/2017.
 - Empreendedorismo — SENAI/SESI-ES, EAD, 14h, ago/2019.
 

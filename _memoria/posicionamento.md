@@ -26,7 +26,7 @@ Três camadas, não um nicho só:
   formato mais commoditizado que existe.
 
 **A frase de posicionamento:** *"Sabe aquele gestor que explica o que a
-reforma tributária faz com a tua empresa?"*
+reforma tributária faz com a sua empresa?"*
 
 **Público:** empresários que precisam entender o que a reforma faz na
 própria empresa — decisão de negócio, não dúvida de conformidade.

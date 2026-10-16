@@ -64,7 +64,7 @@ reels — sempre na voz dele e ancorado no conhecimento dele.
 
 ---
 
-## Os 5 comandos (é só isso que o Gilberto precisa saber)
+## Os 7 comandos (é só isso que o Gilberto precisa saber)
 
 O Gilberto fala por voz (Wispr Flow). Ele não precisa decorar nada além disto:
 
@@ -76,6 +76,7 @@ O Gilberto fala por voz (Wispr Flow). Ele não precisa decorar nada além disto:
 | **`/reels`** | Vira uma ideia em roteiro de Reels (gancho + fala + CTA) pra ele gravar. |
 | **`/ideias`** | Cospe pautas de conteúdo — o que postar essa semana, baseado no momento (ex.: reforma tributária) e na cabeça dele. |
 | **`/salvar`** | Guarda tudo no GitHub e sincroniza notebook ↔ celular. Ele fala "salvar" e pronto. |
+| **`/atualizar`** | Varre o repositório e confere se os arquivos de contexto ainda batem com a realidade. Propõe as correções e só aplica depois que ele aprova. Fica nas skills do usuário (`~/.claude/skills/`), não neste repositório. |
 
 Se o Gilberto pedir algo sem comando, entender a intenção e agir. Ele não é
 técnico — **nunca responder com jargão de programador nem pedir pra ele mexer
@@ -127,7 +128,7 @@ computador de manhã.
 Quando o Gilberto disser algo que revela como ele pensa, uma opinião forte,
 uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
 (sem reformatar o arquivo inteiro, só somar). Confirmar de forma simples:
-"Guardei isso, agora faz parte da tua voz aqui."
+"Guardei isso, agora faz parte da sua voz aqui."
 
 ---
 
@@ -139,6 +140,24 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
 - `identidade/` — a marca fixa do Gilberto (logo, nome). Cor/tipografia/
   composição não são mais fixas — saem do assunto de cada peça, decididas
   pela skill `direcao-de-arte` (`~/.claude/skills/direcao-de-arte/`)
-- `saidas/` — todo conteúdo gerado (carrossel, reels, ideias)
-- `.claude/skills/` — os 4 comandos
-- `scripts/` — utilitários (ex.: extrair texto de PDF)
+- `saidas/` — todo conteúdo gerado, em subpastas: `CARROSSEIS/`, `REELS/`,
+  `CARDS/`, `NEGOCIOS-E-MARCA/`, `EVENTOS-E-PALESTRAS/`, `LIVROS-E-EBOOKS/`,
+  `MATERIAL-TECNICO/`, `POSTS-AVULSOS/` e `VIDEOS/`
+- `.claude/skills/` — `carrossel`, `conversar`, `ideias`, `reels`, `salvar`, `tendencias` e a `pericia-bancaria`
+- `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto)
+- `entrada-videos/` — vídeos e gravações crus que ele manda (longos, triagem,
+  palco e eventos)
+- `posicionamento-gilberto-sena/` — estudos de posicionamento de agosto de 2026.
+  ⚠ Carregam números antigos (ex.: "2.000 empresas"): conferir antes de copiar
+- `livro-o-medico-e-o-executivo/` — o livro em coautoria com o Dr. Bittar
+- `sbs/` — Sena, Bittar e Simões; `respostas-anamnese/` — as fichas da SBS
+- `juridico/` — contratos e documentos jurídicos
+- `negocios-declinados/` — propostas e negociações encerradas
+- `grupo-sena-institucional/` e `grupo-sena-rh/` — documentos da empresa
+- `E-boocks prontos/` e `leitura/` — e-books dele e as leituras com certificado
+- `BEMHOMEM/` — a marca BEMHOMEM, com README próprio e o registro no INPI
+- `modelo-recuperacao-judicial/` — modelo de petição
+- `Projetos Gsena Tec/` e `outros-projetos/` — outros projetos dele (OCEO,
+  faculdade de empreendedorismo). **Fora desta ilha:** não misturar com o
+  conteúdo daqui
+- `saude-pessoal/` — dados de saúde dele. Nunca usar em conteúdo

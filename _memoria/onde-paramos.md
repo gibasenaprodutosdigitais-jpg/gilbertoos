@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 16/out/2026, 18h30.**
+> Estado das frentes abertas. **Atualizado em 16/out/2026, 20h.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -131,7 +131,7 @@ Public Sans. Sem azul e dourado.
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
 | 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
-| 19/10 | ✅ ipi-imposto-seletivo | ✅ 12-pilares-business-plan |
+| 19/10 | ⏸ **vazio**: o do IPI saiu da fila (ver abaixo) | ✅ 12-pilares-business-plan |
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
 | 21/10 em diante | ⏳ | ⏳ |
 
@@ -145,6 +145,16 @@ Public Sans. Sem azul e dourado.
 4. `posts_create_post` via `call_tool`, com `media_items`, `platforms` e
    `scheduled_for` em **UTC** (15h BRT = 18:00Z, 20h BRT = 23:00Z).
    ⚠ Os nomes são **snake_case**; `mediaItems` e `scheduledFor` são recusados
+
+⏸ **O carrossel do IPI (19/10 às 15h) foi tirado da fila em 16/out.** Eu tinha
+reescrito o texto como se a mudança "já foi editada" e "já está publicada", e
+a pesquisa só achou previsão, nada confirmado. O post da Zernio foi apagado.
+A pasta tem um `_SEGURADO.md` com o motivo. **O horário das 15h do dia 19 está
+livre:** decidir com ele se entra outro carrossel ou se espera o IPI ser
+verificado. Nenhum número do IPI vai ao ar sem fonte.
+**Três reels sobre o fim do IPI seguem na fila** (TikTok 17/10, YouTube 18/10,
+Instagram 20/10 às 12h). São falas dele de 27/ago e eu não mexi. Perguntar se
+ele quer revisar antes.
 
 ⚠ **`carrossel-10-ebooks-leitura-2026-09-06` tem 12 lâminas e o Instagram
 aceita 10.** Está por último de propósito. Perguntar: corta duas ou vira dois
@@ -984,8 +994,8 @@ tratar como parte do GilbertoOS.
 ## 8. Media kit de palestrante, entregue em 15/out/2026
 
 **`saidas/NEGOCIOS-E-MARCA/media-kit-palestrante-2026-10-14/`**
-O arquivo para mandar é **`Gilberto-Sena-Media-Kit.pdf`**, 8 páginas A4,
-2,5 MB. O `LEIA.md` da pasta conta cada decisão. **Está pronto para enviar.**
+O arquivo para mandar é **`Gilberto-Sena-Media-Kit.pdf`**, 11 páginas A4,
+3,4 MB. O `LEIA.md` da pasta conta cada decisão. **Está pronto para enviar.**
 
 Ele passou por quatro rodadas de correção com ele em 15/out: as cidades, o
 cargo, as cores, o recorte de fundo e o corte de rosto. Tudo aplicado.
@@ -996,9 +1006,12 @@ cargo, as cores, o recorte de fundo e o corte de rosto. Tudo aplicado.
 | 2 | Quem é, com GSena Hub e OCEO, mais os 4 números |
 | 3 | Não é palestra motivacional (azul) |
 | 4 | **No palco**: Summit Êxito grande, mais 4 miniaturas e 6 eventos |
-| 5 e 6 | Os 4 temas (6 é azul) |
-| 7 | Formação, obra e reconhecimento |
-| 8 | Contato (azul) |
+| 5 | Com quem ele senta à mesa |
+| 6 | Fora do palco |
+| 7 e 8 | Os 4 temas (8 é azul) |
+| 9 | A reação de quem ouve (comentários públicos) |
+| 10 | O lastro: formação, obra e reconhecimento |
+| 11 | Contato (azul) |
 
 ### A direção de arte, e as regras que ela segue
 
@@ -1190,10 +1203,10 @@ minutos limpos dá uma peça de 90s com variação de plano.
 | Item | Situação |
 |---|---|
 | Media kit | ✅ pronto |
-| Sinopse dos temas | ✅ páginas 5 e 6 |
-| **Showreel** | ⏳ já tem **mais de 5 minutos de palco** de dois eventos, em `entrada-videos/palco-e-eventos/`. Falta ele pedir |
+| Sinopse dos temas | ✅ páginas 7 e 8 |
+| **Showreel** | ✅ montado, 58s (seção acima). Para chegar a 90s precisa de imagem bruta de palco sem legenda |
 | **Proposta comercial** | ⏳ precisa de CNPJ, CNAE e a tabela de cachê dele |
-| **Depoimentos** | ❌ ver acima |
+| **Depoimentos** | ⏳ a página 9 do kit tem 4 comentários públicos. Faltam os de contratantes, com nome e frase |
 
 ---
 
