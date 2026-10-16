@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 16/out/2026, 15h20.**
+> Estado das frentes abertas. **Atualizado em 16/out/2026, 18h30.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -11,7 +11,11 @@
 
 ## O primeiro ato da próxima sessão
 
-**Continuar enfileirando os carrosséis. Faltam 32, de 21/10 a 05/11.**
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 32 pra ir,
+de 21/10 a 05/11. (2) O projeto Reestruturando com Êxito, que ele vai
+alimentando aos poucos — ver a seção logo abaixo.
+
+**Carrosséis: faltam 32, de 21/10 a 05/11.**
 
 Dez já estão na fila (16 a 20/out). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
@@ -21,6 +25,65 @@ Dez já estão na fila (16 a 20/out). O ponto de retomada está em
 conferência pegou **seis tipos de erro**, e nenhum deles aparece numa olhada
 por cima. Um contradizia o media kit dele, outro contradizia outro carrossel
 da própria fila.
+
+## ★ Frente nova: Reestruturando com Êxito (16/out/2026)
+
+**Projeto de diretoria no Instituto Êxito de Empreendedorismo.** Ele pediu uma
+apresentação e disse *"comece por aqui, depois vou acrescentando maiores
+informações"* — a estrutura foi feita pra crescer.
+
+**Apresentação (13 telas):** https://claude.ai/artifact/9nTHSqSSF37QfBQJQ9uUec
+Privada. Pra mandar aos outros dois, ele usa o menu Share da própria página.
+Tudo documentado em
+`saidas/NEGOCIOS-E-MARCA/projeto-reestruturando-com-exito-2026-10-16/LEIA.md`,
+com os três prints das credenciais.
+
+**O projeto, nas palavras dele:** Gilberto + **Alisson de Oliveira Ramalho** +
+**Dr. Luciano Duarte Peres** encabeçam a diretoria. Levam assessoria contábil,
+tributária, de gestão de pessoal e financeira e consultoria jurídica a
+pequenos e médios empresários ligados ao Instituto. Missão: preparar as
+empresas pra escalar e, se cumprirem os requisitos, chegar ao pitch pra um
+**possível** investimento do Grupo Janguiê.
+
+| | |
+|---|---|
+| Remuneração | mensal, nos moldes do que o empresário já paga hoje |
+| Instituto | **10% do honorário**, por empresa, todo mês |
+| Entrada | o empresário **tem que se associar** ao Instituto |
+| Fundo | **R$ 500.000** em debêntures, mútuo consignado |
+| Carência | até **6 meses** |
+| Juros | nos moldes do **Pronamp** |
+
+**Credenciais confirmadas** nas páginas de membro do site do Instituto, que
+ele fotografou. Alisson: sócio fundador e VP do Grupo SD, CEO do Grupo VL,
+30+ anos em varejo e franchising. Luciano: CEO da Rede Vivax, conselheiro
+estadual da OAB/SC, presidente da Comissão de Direito Financeiro do IASC. É o
+**mesmo** Luciano do contrato de 23/set (ele confirmou).
+
+### 🔴 O que eu segurei na apresentação, e ele aceitou
+
+1. **O aporte do Grupo Janguiê é horizonte, não promessa.** Prometer dinheiro
+   de terceiro sem autorização custa a relação e pode virar problema jurídico.
+   **Alinhar com o Janguiê antes de mostrar a qualquer empresário.**
+2. **O Pronamp é crédito rural.** Serve como parâmetro de taxa e carência, não
+   como enquadramento. A taxa está como `[__% ao ano]` — não inventar número.
+3. **O fundo de debêntures precisa de desenho jurídico:** quem emite, sob qual
+   regime, com qual lastro, e se um instituto pode emitir.
+4. **A divisão de frentes é proposta minha:** Gilberto no número, Alisson na
+   escala, Luciano no contrato. Os três ainda não acordaram.
+
+⚠ **O número da OAB ficou fora.** O contrato diz *"OAB/SC nº 2010"* e a página
+do Instituto diz *"Conselheiro Estadual OAB/SC 2010"*. Pode ser inscrição ou
+ano de mandato. Só o cargo, que é verificável.
+⚠ **Nunca usar CPF nem endereço do contrato** em material de apresentação.
+
+**Ainda falta ele definir:** faixa de honorário por porte, requisitos objetivos
+pro pitch, taxa do fundo, aprovação da diretoria do Instituto.
+
+**Direção de arte:** papel creme, petróleo e terracota, Libre Baskerville +
+Public Sans. Sem azul e dourado.
+
+---
 
 ## 0. ★ A fila de conteúdo — o trabalho em curso
 
