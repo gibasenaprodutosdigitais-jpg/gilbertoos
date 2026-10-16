@@ -11,68 +11,109 @@
 
 ## O primeiro ato da próxima sessão
 
-**Continuar enfileirando os carrosséis. Faltam 38, de 18/10 a 05/11.**
+**Continuar enfileirando os carrosséis. Faltam 32, de 21/10 a 05/11.**
 
-Ele parou em 16/out de madrugada e pediu pra retomar **de manhã**. Quatro já
-estão na fila (16 e 17/out). O ponto exato de retomada está em
-`saidas/CARROSSEIS/_PLANO-DA-FILA.md`: **18/10 às 15h,
-`carrossel-simples-hibrido-2026-08-27`**.
+Dez já estão na fila (16 a 20/out). O ponto de retomada está em
+`saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
+**21/10 às 15h, `carrossel-imobiliario-aluguel-2026-08-30`**.
 
-Ler a **seção 0** antes de começar — tem o caminho técnico e as armadilhas.
+⚠ **Ler a seção 0 antes de subir qualquer peça.** Em dez carrosséis a
+conferência pegou **seis tipos de erro**, e nenhum deles aparece numa olhada
+por cima. Um contradizia o media kit dele, outro contradizia outro carrossel
+da própria fila.
 
-## 0. ★ A noite de 15/out/2026 — o que ficou no meio do caminho
+## 0. ★ A fila de conteúdo — o trabalho em curso
 
-Esta seção é a mais nova. **Ler antes de qualquer coisa**, porque tem trabalho
-parado numa linha só e ele vai cobrar.
+### ⏳ Os carrosséis: 10 na fila, 32 pra ir
 
-### ⏳ Os carrosséis: 4 na fila, 38 pra ir
-
-**Dois por dia, 15h e 20h, de 16/10 a 05/11.** O mapa completo está em
-`saidas/CARROSSEIS/_PLANO-DA-FILA.md`, com uma tabela "Onde eu parei" que
-é o que importa ler primeiro.
+**Dois por dia, 15h e 20h, de 16/10 a 05/11.** O mapa completo e a tabela
+"Onde eu parei" estão em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 
 | Dia | 15h | 20h |
 |---|---|---|
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
 | 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
-| 18/10 em diante | ⏳ | ⏳ |
+| 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
+| 19/10 | ✅ ipi-imposto-seletivo | ✅ 12-pilares-business-plan |
+| 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
+| 21/10 em diante | ⏳ | ⏳ |
 
 **O caminho, por carrossel:**
 
 1. ⚠ **`ls` na pasta `instagram/` primeiro.** O nome do arquivo muda: uns são
-   `slide-01.png`, outros `card-01.png`. Errar isso faz o curl morrer com
+   `slide-01.png`, outros `card-01.png`. Errar faz o curl morrer com
    *"error encountered when reading a file"*.
 2. uma chamada de `media_get_media_presigned_url` **por lâmina** (7 a 12)
-3. `curl -X PUT` com cada arquivo
+3. `curl -X PUT` com cada arquivo, **conferindo o código de cada uma**
 4. `posts_create_post` via `call_tool`, com `media_items`, `platforms` e
    `scheduled_for` em **UTC** (15h BRT = 18:00Z, 20h BRT = 23:00Z).
    ⚠ Os nomes são **snake_case**; `mediaItems` e `scheduledFor` são recusados
 
 ⚠ **`carrossel-10-ebooks-leitura-2026-09-06` tem 12 lâminas e o Instagram
-aceita 10.** Está por último de propósito. Perguntar a ele: corta duas ou
-vira dois posts?
+aceita 10.** Está por último de propósito. Perguntar: corta duas ou vira dois
+posts?
 
-### 🔴 Conferir cada carrossel antes de agendar. Já peguei três.
+### 🔴 Os seis erros que a conferência já pegou. Conferir SEMPRE.
 
-Não é zelo excessivo: **cada um desses teria ido ao ar errado.**
+**Em dez carrosséis, seis tipos de erro.** Cada um teria ido ao ar.
 
-1. **`7-mudancas-2027` dizia "tua empresa"** na capa e na legenda. A regra
-   dele é **você, nunca tu**. Corrigi e re-renderizei.
-2. **`quem-e-gilberto` dizia "720 horas"** na pós-graduação. Ele mandou tirar
-   a carga horária em 15/out. Nos cards já estava certo, só a legenda tinha
-   ficado pra trás.
-3. **Onze legendas tinham `**negrito**` em markdown.** O Instagram não lê, e
-   mostra o asterisco na tela. ✅ Limpei nas onze de uma vez.
+| # | O quê | Onde apareceu |
+|---|---|---|
+| 1 | **"2.000+ empresas"** quando o número é **+500** | 5-sinais-estagnacao, peguei minutos antes de publicar |
+| 2 | **"tua empresa"**, e a regra dele é **você** | 7-mudancas-2027, capa e legenda |
+| 3 | **"720 horas"** na pós, que ele mandou tirar | quem-e-gilberto, só na legenda |
+| 4 | **`**negrito**` markdown**, que o Instagram mostra como asterisco | 11 legendas de uma vez |
+| 5 | **Data relativa de agosto** — "essa semana", "semana que vem" | ipi-imposto-seletivo, 2 cards + legenda |
+| 6 | 🔴 **O limiar de R$40.500 do nanoempreendedor** | pf-autonomo-cbs |
 
-E antes disso, o **"2.000+ empresas"** do carrossel da estagnação, que eu
-peguei minutos antes de publicar. O número é **+500**.
+**O erro 6 é o mais grave e o mais repetido.** O carrossel dizia que
+"praticamente todo autônomo" vira contribuinte de CBS, e dava **diarista**
+como primeiro exemplo. Pela **LC 214/2025**, quem fatura até **R$40.500 por
+ano** (~R$3.375/mês) é **nanoempreendedor** e **não é contribuinte** de IBS
+nem de CBS. Fichamento completo em
+`conhecimento/reforma-tributaria-nanoempreendedor.md`, inclusive a exceção
+de motorista e entregador de app, que só passam acima de **R$162 mil/ano**
+porque só 25% da corrida conta como receita.
 
-**A varredura que vale a pena rodar em lote**, do diretório `saidas/CARROSSEIS/`:
+Pior: o carrossel das 7 mudanças, que saiu dia 16, **diz o número certo**.
+Os dois teriam se contradizido no mesmo perfil com quatro dias de diferença.
+
+⛔ **Este mesmo erro já apareceu três vezes** (nos reels dos sete pecados e
+agora no carrossel). **Sempre que a peça falar de autônomo, pessoa física ou
+profissional liberal, conferir o limiar antes de agendar.**
+
+**A varredura em lote**, do diretório `saidas/CARROSSEIS/`:
 
 ```
 grep -rlwiE "tua|teu|720|2\.000|dois mil" --include=legenda.md --include=carrossel.html .
 grep -rl '\*\*' --include=legenda.md .
+grep -rniE "essa semana|semana que vem|hoje o governo" --include=legenda.md --include=carrossel.html .
+grep -rliE "autônomo|pessoa física|profissional liberal" --include=legenda.md .
 ```
+
+✅ Os quatro primeiros voltaram **limpos** nos 32 restantes em 16/out. O
+quarto é a lista de peças pra ler com atenção.
+
+### ⚠ Duas armadilhas técnicas
+
+**O envio de lâmina falha em silêncio.** O `slide-01` do 5Gs Gestão
+Financeira voltou **`000`** no curl, que é conexão caída, não erro HTTP. Se
+eu não conferisse, o post ia ao ar **sem a capa**. Conferir o código de cada
+lâmina e refazer a que não voltar 200.
+
+**Nove lâminas podem estourar o timeout de 120s** do Bash quando a internet
+dele está lenta. Rodar em segundo plano ou em dois blocos.
+
+### ✍️ Decisões de edição que eu tomei, e ele pode reverter
+
+**Afastei peças repetidas.** O Simples Híbrido estava no dia 18, logo depois
+do Simples Nacional do dia 17, contando a mesma história. Troquei com o
+Revenda de Carros: Híbrido foi pro dia 23.
+
+**Padronizei hashtag.** Três carrosséis vinham com acento e maiúscula
+(`#PontoDeEquilíbrio`, `#GestãoFinanceira`). Hashtag com acento divide o
+alcance com a versão sem. Todos agora são minúscula sem acento, como o
+resto do perfil.
 
 ### O dia dele no Instagram: seis posts
 
