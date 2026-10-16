@@ -159,6 +159,9 @@ em{font-style:italic}
 .mesa{display:grid;grid-template-columns:68mm 1fr;gap:9mm;align-items:start}
 .mesa .cartao{background-size:100% 100%;background-repeat:no-repeat;height:102mm;
   border-top:3px solid var(--acento)}
+.tira-bastidor{display:grid;grid-template-columns:repeat(5,1fr);gap:3mm}
+.tira-bastidor div{height:39.5mm;background-size:100% 100%;
+  background-repeat:no-repeat;border-top:3px solid var(--acento)}
 .faixa-diretoria{width:100%;height:33.4mm;background-size:100% 100%;
   background-repeat:no-repeat;border-top:3px solid var(--acento)}
 .evento{display:grid;grid-template-columns:40mm 1fr;gap:7mm;align-items:start;
@@ -369,6 +372,16 @@ em{font-style:italic}
   Brasil, Gilberto é <b>Diretor de Compliance</b> da gestão 2025/2030. O cargo
   fica na mesma linha da presidência de Janguiê Diniz e da vice-presidência de
   Celso Niskier.</p>
+
+  <div style="height:5mm"></div>
+  <div class="tira-bastidor">
+    <div style="background-image:url('assets/bastidor-1.jpg')"></div>
+    <div style="background-image:url('assets/bastidor-2.jpg')"></div>
+    <div style="background-image:url('assets/bastidor-3.jpg')"></div>
+    <div style="background-image:url('assets/bastidor-4.jpg')"></div>
+    <div style="background-image:url('assets/bastidor-5.jpg')"></div>
+  </div>
+  <p class="credito">Nos bastidores dos eventos</p>
 
   <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>05</span></div>
 </section>
