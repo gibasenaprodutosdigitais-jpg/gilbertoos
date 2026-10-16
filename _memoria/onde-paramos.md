@@ -79,8 +79,13 @@ do Instituto diz *"Conselheiro Estadual OAB/SC 2010"*. Pode ser inscrição ou
 ano de mandato. Só o cargo, que é verificável.
 ⚠ **Nunca usar CPF nem endereço do contrato** em material de apresentação.
 
-**Ainda falta ele definir:** multa se o empresário sair antes de 12 meses, requisitos
-objetivos pro pitch, taxa final do fundo, aprovação da diretoria do Instituto.
+**Requisitos pro pitch (definidos em 16/out):** faturamento mínimo de R$ 1,2
+milhão por ano; reestruturação de no mínimo 6 meses, com extensão de mais 6
+ou 12; indicadores medidos pela equipe e pelo OCEO, instalado após o 3º mês.
+
+**Ainda falta ele definir:** multa se o empresário sair antes de 12 meses,
+governança exigida pro pitch, se o OCEO está incluído nos R$ 5.500, taxa final
+do fundo, aprovação da diretoria do Instituto.
 
 **Direção de arte:** papel creme, petróleo e terracota, Libre Baskerville +
 Public Sans. Sem azul e dourado.

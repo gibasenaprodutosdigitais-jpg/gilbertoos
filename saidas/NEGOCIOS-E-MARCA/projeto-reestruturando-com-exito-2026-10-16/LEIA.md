@@ -299,3 +299,42 @@ associação também é por 12 meses, ou só enquanto ele for associado?
 
 Nos slides: modelo, regras, retorno do Instituto e decisões. Na lista de
 decisões, a linha da associação passou de "Aberta" para "Definido".
+
+## Os requisitos para o pitch (16/out/2026)
+
+Ele definiu, e entraram no slide de regras como linhas separadas:
+
+| Requisito | O que ele disse |
+|---|---|
+| **Faturamento** | no mínimo **R$ 1.200.000 por ano** |
+| **Tempo de reestruturação** | no mínimo **6 meses**, podendo se estender por **mais 6 ou mais 12** |
+| **Indicadores** | medidos **pela equipe e pelo sistema OCEO**, implantado na empresa **após 3 meses** da reestruturação |
+| **Governança** | **ficou em aberto.** Era um item que eu tinha posto, ele não respondeu |
+
+Isso fecha 3 dos 4 pontos que eu tinha deixado como "a definir". No slide de
+decisões, a linha virou **"Governança exigida para ir ao pitch"**, ainda
+aberta.
+
+**A reestruturação dura 12 ou 18 meses no total** (6 + 6, ou 6 + 12). O slide
+da jornada passou a dizer "No mínimo seis meses" no passo 3.
+
+🔴 **Três perguntas que a sala vai fazer, e que eu deixei nas notas do slide:**
+
+1. **O OCEO está incluído nos R$ 5.500?** Ele entra na empresa após o 3º mês
+   para medir os indicadores. Se tem custo à parte, tem que aparecer.
+2. **O contrato é anual, mas a extensão pode ser de 12 meses.** Uma extensão
+   de 12 meses vira **renovação** de contrato? Em que condições?
+3. **O peso do honorário no piso.** Para uma empresa no mínimo de
+   R$ 1,2 milhão por ano, honorário mais associação (R$ 81.000) são
+   **6,75% do faturamento**. Só o honorário (R$ 66.000) são 5,5%. É alto, e
+   o empresário vai sentir.
+
+⚠ **Quem fatura menos de R$ 1,2 milhão pode contratar o serviço, mas não
+chega ao pitch.** O público-alvo era "pequenos e médios empresários". Uma
+empresa de R$ 500 mil por ano pagaria R$ 81.000, ou **16% do faturamento**,
+por um serviço que não a leva ao pitch. **Vale ele decidir se isso é
+intencional** ou se deveria haver uma faixa de entrada mais barata para quem
+ainda está abaixo do piso.
+
+⚠ O slide de regras agora tem 8 linhas e o texto da tabela caiu de 30px para
+28px pra caber. Se na tela ficar apertado, é por isso.
