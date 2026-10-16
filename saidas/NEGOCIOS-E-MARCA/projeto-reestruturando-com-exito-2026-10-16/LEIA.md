@@ -100,7 +100,7 @@ Pasta `fotos/`. Os três recortes têm a mesma proporção (700x511) e rosto int
 
 | Quem | De onde veio |
 |---|---|
-| **Gilberto** | foto sorrindo do ensaio com Bernardo Coelho, camisa branca (`...-Gilberto-Sena-43.jpg`, 4480x6720), recorte de cabeça e peito |
+| **Gilberto** | foto do ensaio com Bernardo Coelho, **de terno cinza, sorrindo** (`...-Gilberto-Sena-115.jpg`, 4480x6720), recorte de cabeça e ombros |
 | **Alisson** | foto de estúdio da página dele no site do Instituto Êxito (852x1280) |
 | **Dr. Luciano** | foto da página dele no site do Instituto Êxito (670x652) |
 
@@ -126,5 +126,6 @@ sorriso"*. O retrato sorrindo do media kit (`retrato-sorriso.jpg`) ficou
 **perto demais** do lado do Alisson e do Dr. Luciano: a cabeça enchia o
 quadro. Procurei as 116 fotos do ensaio e a escolhida foi a **nº 43** do
 Bernardo, camisa branca e fundo escuro, que dá o mesmo tamanho de cabeça
-dos outros dois. Fica de reserva a nº 115, de blazer cinza sorrindo para o
-lado.
+dos outros dois. **Ele viu as duas opções e escolheu a de terno cinza (nº
+115), sorrindo para o lado.** A de camisa branca (nº 43) fica de reserva.
+A cabeça fica um pouco maior que a dos outros dois, e ele aprovou assim.
