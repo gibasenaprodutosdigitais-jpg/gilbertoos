@@ -164,8 +164,10 @@ em{font-style:italic}
 .fala .quem{font-family:'Barlow Condensed',sans-serif;font-size:10.5pt;
   letter-spacing:.14em;text-transform:uppercase;color:var(--acento);margin-top:3.5mm}
 .fala .quem span{color:var(--tinta-fraca);letter-spacing:.06em;text-transform:none}
-.mesa-larga{width:100%;height:104.3mm;background-size:100% 100%;
+.duas-largas{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.duas-largas div{height:46.1mm;background-size:100% 100%;
   background-repeat:no-repeat;border-top:3px solid var(--acento)}
+.duas-largas .rot{height:auto;background:none;border:0}
 .tira-bastidor{display:grid;grid-template-columns:repeat(5,1fr);gap:3mm}
 .tira-bastidor div{height:39.5mm;background-size:100% 100%;
   background-repeat:no-repeat;border-top:3px solid var(--acento)}
@@ -396,7 +398,7 @@ em{font-style:italic}
   sala fechada, onde empresário fala de verdade sobre o que está travando o
   negócio.</p>
 
-  <div style="height:6mm"></div>
+  <div style="height:9mm"></div>
   <div class="tira-bastidor">
     <div style="background-image:url('assets/bastidor-1.jpg')"></div>
     <div style="background-image:url('assets/bastidor-2.jpg')"></div>
@@ -414,9 +416,12 @@ em{font-style:italic}
   </div>
   <p class="credito">Eventos, jantares de negócios e encontros fechados</p>
 
-  <div style="height:5mm"></div>
-  <div class="mesa-larga" style="background-image:url('assets/mesa-larga.jpg')"></div>
-  <p class="credito">Reunião fechada de empresários</p>
+  <div style="height:11mm"></div>
+  <div class="duas-largas">
+    <div style="background-image:url('assets/mesa-larga.jpg')"></div>
+    <div style="background-image:url('assets/encontro-casa.jpg')"></div>
+  </div>
+  <p class="credito">Reunião fechada de empresários · encontro na casa de Janguiê Diniz</p>
 
   <div class="rodape"><span>Gilberto Sena · Media Kit</span><span>06</span></div>
 </section>
