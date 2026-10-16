@@ -8,12 +8,12 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 |---|---|---|
 | 16/10 | 7-mudancas-2027-2026-08-31 | quem-e-gilberto-2026-10-06 |
 | 17/10 | simples-nacional-prazo-2026-09-22 | dre-7-passos-2026-09-29 |
-| 18/10 | simples-hibrido-2026-08-27 | ponto-de-equilibrio-2026-08-02 |
+| 18/10 | revenda-carros-stj-2026-08-27 | ponto-de-equilibrio-2026-08-02 |
 | 19/10 | ipi-imposto-seletivo-2026-08-27 | 12-pilares-business-plan-2026-08-03 |
 | 20/10 | pf-autonomo-cbs-2026-08-27 | 5gs-gestao-financeira-2026-07-17 |
 | 21/10 | imobiliario-aluguel-2026-08-30 | 5gs-gestao-tributaria-2026-07-17 |
 | 22/10 | redutor-ajuste-construcao-2026-08-30 | 5gs-gestao-de-si-2026-07-17 extraido |
-| 23/10 | revenda-carros-stj-2026-08-27 | 5gs-fornecedores-clientes-2026-10-06 |
+| 23/10 | simples-hibrido-2026-08-27 | 5gs-fornecedores-clientes-2026-10-06 |
 | 24/10 | reforma-ebooks-2026-09-13 | 10-pergaminhos-maior-vendedor-2026-08-03 |
 | 25/10 | reforma-infoprodutores-2026-09-13 | rede-de-mastermind-2026-08-09 |
 | 26/10 | reforma-ecommerce-2026-09-13 | forjado-imersao-2026-08-07 |
@@ -40,9 +40,16 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 |---|---|---|
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
 | 17/10 | ✅ simples-nacional-prazo | ✅ dre-7-passos |
-| 18/10 em diante | ⏳ | ⏳ |
+| 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
+| 19/10 em diante | ⏳ | ⏳ |
 
-**Próximo:** 18/10 às 15h, `carrossel-simples-hibrido-2026-08-27`.
+**Próximo:** 19/10 às 15h, `carrossel-ipi-imposto-seletivo-2026-08-27`.
+
+⚠ **Troquei o Simples Híbrido do dia 18 com o Revenda de Carros do dia 23.**
+O Híbrido caía no dia seguinte ao Simples Nacional do dia 17, e os dois
+contam a mesma história (janela de setembro, 30 de novembro, março de 2027,
+fim do crédito presumido de 9,25%). Dois dias seguidos repetindo isso
+queima o assunto.
 
 ⚠ **O nome dos arquivos muda de pasta pra pasta.** Uns usam
 `instagram/slide-01.png`, outros `instagram/card-01.png`. **Listar a pasta
