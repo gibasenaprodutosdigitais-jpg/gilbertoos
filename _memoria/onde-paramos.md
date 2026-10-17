@@ -198,7 +198,8 @@ do banner, `6ad2bba1172f53e890005299`, porque o YouTube não aceita imagem). Pas
 ✅ **Banner refeito às 21h15 (pedido dele): "promessa brilhante" ou "garantia ilustre".** Só as linhas 3 e 4 do
 texto mudaram (fonte IBM Plex Sans, igual à do banner); o resto da arte é a original. As duas leituras saem dos
 mesmos elementos germânicos (gisel = promessa, penhor, garantia; beraht = brilho, ilustre). Posts e vídeo trocados
-na Zernio, legendas atualizadas. O original com "reflexo brilhante / ilustre pela espada" ficou em
+na Zernio, legendas atualizadas. **Depois (21h25) ele pediu para tirar os números da numerologia do banner:** saíram o (4), o (5) e o (9),
+ficando "Motivação:", "IMPRESSÃO:" e "EXPRESSÃO:" (v3, vídeo e posts trocados). O original com "reflexo brilhante / ilustre pela espada" ficou em
 `banner-original.jpeg` e **não vai ao ar**.
 ⚠ **O "Sena":** ele colou um texto dizendo que Sena/Senna significa "brilho" ou "luz". Pesquisei: **isso não
 aparece em fonte confiável para o sobrenome português** (vem de nomes próprios de outras culturas, de fontes
