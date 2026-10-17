@@ -15,7 +15,7 @@ semestre de 2027, em etapas. Slide abaixo já corrigido.
 
 ## Slide 1 — CAPA
 Kicker: REFORMA TRIBUTÁRIA 2027
-Título: 7 mudanças caem juntas na sua empresa
+Título: Sete mudanças caem sobre a sua empresa em 2027
 
 ## Slide 2 — SOLO (light)
 Kicker: 1 — CBS SUBSTITUI PIS E COFINS
@@ -46,9 +46,12 @@ Kicker: 7 — A SUA RETIRADA
 "Dividendo acima de R$50 mil por mês já sai retido na fonte. Quem soma mais de R$1,2 milhão por ano entra num mínimo de 10%. A era do 'salário baixo, dividendo isento' acabou."
 
 ## Slide 9 — CTA FINAL
-"O fio que liga as sete é o mesmo: informação incompleta e prazo correndo. A diferença entre o empresário que atravessa 2027 tranquilo e o que apanha na guia não é sorte — é gestão."
+"O fio que liga as sete é o mesmo: informação incompleta e prazo correndo. Quem chega a 2027 com a gestão em dia atravessa tranquilo."
 
 
 > **Reposto em 16/out/2026.** A versão de 16/out às 15h foi apagada e refeita: Imposto
 > Seletivo sem 'pronta desde maio', faixa de 26,5% a 28%, R$3.375/mês, 'ou' (não 'e')
 > no imóvel, 70% na alíquota.
+
+> Reposto em 16/out/2026 às ~21h, depois de ele apagar o original no Instagram. Capa e primeira frase da legenda
+> reescritas a pedido dele ("texto impactante"). Esta peça mantém os 9 slides; a regra dos 7 cards vale para os próximos.

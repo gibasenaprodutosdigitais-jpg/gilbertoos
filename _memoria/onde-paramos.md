@@ -12,17 +12,17 @@
 ## O primeiro ato da próxima sessão
 
 **Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir
-(16 nas 20h de 21/10 a 05/11, 15 nas 15h de 23/10 a 06/11). (2) O projeto Reestruturando com Êxito, que ele vai
+(16 nas 20h de 21/10 a 05/11, 15 nas 15h: 21/10 e de 23/10 a 05/11). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
-**Carrosséis: faltam 31 (20h de 21/10 a 05/11, 15h de 23/10 a 06/11).**
+**Carrosséis: faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).**
+⚠ **Regra nova (16/out): todo carrossel novo tem 7 cards.** 9 dos 31 pendentes têm 9 ou 12 slides e precisam ser enxugados antes de subir (lista no `_PLANO-DA-FILA.md`).
 
 Dez já estão na fila ou no ar (16 a 20/out). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
-**21/10 às 20h, `carrossel-5gs-gestao-tributaria-2026-07-17`**, e **23/10 às 15h,
-`carrossel-redutor-ajuste-construcao-2026-08-30`**. O 21/10 às 15h tem o reposte do
-`7-mudancas-2027`, o 22/10 às 15h tem o `dre-7-passos`, e o 17/10 às 20h tem o
-`5gs-o-livro` (adiantado a pedido dele).
+**21/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`**, e **21/10 às 20h,
+`carrossel-5gs-gestao-tributaria-2026-07-17`**. O 22/10 às 15h tem o `dre-7-passos`, o
+17/10 às 20h tem o `5gs-o-livro`, e o reposte do `7-mudancas-2027` já está no ar.
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
@@ -184,13 +184,23 @@ reposte do 7-mudancas, com imagem e legenda trocadas na Zernio). Não tinha na l
 nem de cards. Os já publicados ficam como estão. Um rastro: o último slide do `revenda-carros`
 termina com "me chama." no texto, que é outra frase, não mexi.
 
-🔴 **Ainda aberto, e é com ele:** o carrossel `7-mudancas-2027` **já está no ar** com
-erros (ver `_PLANO-DA-FILA.md`). Ele pediu "apague e reposte". **A Zernio não apaga
-post do Instagram** (a própria ferramenta diz "Not supported on Instagram"), então
-**ele precisa apagar à mão no aplicativo**: o post de 16/10 às 15h, link
-`https://www.instagram.com/p/DekIjvqipiN/`. O reposte corrigido (9 lâminas) está
-**agendado para 21/10 às 15h** (Zernio `6ad2b44461dcb939e51d8234`). **Confirmar
-com ele que apagou antes do dia 21**, senão ficam os dois no ar.
+✅ **O `7-mudancas-2027` foi apagado por ele no Instagram e reposto em 16/out às 21h02**, já corrigido
+(Imposto Seletivo "previsto para 2027", faixa de 26,5% a 28%, R$3.375, "ou" no imóvel, 70% na alíquota) e com
+texto mais forte: capa "Sete mudanças caem sobre a sua empresa em 2027" e primeira frase da legenda nova.
+Link: `https://www.instagram.com/p/DekxfVgCoMg/` (Zernio `6ad2b44461dcb939e51d8234`). **Ele disse que vai fixar na grade.**
+Mantém os 9 slides; a regra dos 7 cards vale para os próximos.
+
+✅ **Banner "significado do nome Gilberto"** (o segundo banner que ele salvou): agendado para **17/10 às 9h** em
+**Instagram, TikTok e X** (imagem cortada em 4:5, Zernio `6ad2bba0172f53e890005293`) e **YouTube** (vídeo de 14s feito
+do banner, `6ad2bba1172f53e890005299`, porque o YouTube não aceita imagem). Pasta:
+`saidas/CARDS/banner-significado-do-nome-2026-10-16/`. Ele pediu "todas as redes possíveis"; hoje a Zernio tem
+4 contas: Instagram, TikTok, YouTube e **X (@gilbertosenaofc, conectado, antes não constava)**.
+⚠ **O banner diz "reflexo brilhante ou ilustre pela espada".** Pesquisa de 16/out: a leitura mais aceita de Gilberto
+é **"promessa brilhante"** (gisel + beraht), e as outras vêm de fontes fracas. A legenda usa "promessa brilhante" e
+cita as outras como "também aparece como". A numerologia vai atribuída à numerologia, não afirmada. O texto da
+legenda sobre o sobrenome só usa fato conhecido (Grupo Sena, GSena Hub); **não inventei origem do "Sena"**.
+Provérbios 22:1 aparece como paráfrase ("mais vale o bom nome do que as muitas riquezas"). Se ele quiser trocar o
+banner pela leitura "promessa brilhante", é refazer a imagem.
 
 ⚠ **Lição: legenda escrita por mim carrega afirmação que ele não fez.** Conferir
 a legenda contra a **fala** (transcrição em `entrada-videos/longos/edit/`), e

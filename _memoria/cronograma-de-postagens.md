@@ -14,6 +14,8 @@ Quando eu mexer na fila, atualizo este arquivo.
 | 17/10 sáb | 06h00 | YouTube | reels | Sabe quando você tem certeza de que está no caminho certo? É quando o… |
 | 17/10 sáb | 08h00 | TikTok | reels | A manipulação mais perigosa é a que você faz com você mesmo. Rede soc… |
 | 17/10 sáb | 12h00 | Instagram | reels | Qual a diferença entre o rico e o pobre? O rico tem paciência. Eu sou… |
+| 17/10 sáb | 09h00 | Instagram + TikTok + X | card | Todo nome carrega uma promessa. Gilberto vem do germânico… (banner do significado do nome) |
+| 17/10 sáb | 09h00 | YouTube | vídeo | Todo nome carrega uma promessa. Gilberto vem do germânico… (o mesmo banner, em vídeo de 14s) |
 | 17/10 sáb | 12h00 | YouTube | reels | Se você tem transportadora, o seu prazo da reforma não começa em 2027… |
 | 17/10 sáb | 14h00 | TikTok | reels | Em 2027 não cai um imposto novo. Cai o sistema inteiro. E o que separ… |
 | 17/10 sáb | 15h00 | Instagram | carrossel | Dia 30 de setembro uma porta se fechou, e muita gente não percebeu qu… |
@@ -46,7 +48,6 @@ Quando eu mexer na fila, atualizo este arquivo.
 | 21/10 qua | 05h00 | Instagram | card | Acompanhe de perto o que você constrói. Atenção hoje evita surpresas… |
 | 21/10 qua | 09h00 | Instagram | card | Uma ideia só vira negócio quando você transforma intenção em entrega.… |
 | 21/10 qua | 12h00 | Instagram | reels | Em 2027 não cai um imposto novo em cima do seu negócio. Cai o sistema… |
-| 21/10 qua | 15h00 | Instagram | carrossel | Em 2027 não cai um imposto novo em cima da sua empresa. Cai o sistema inteiro… (REPOSTE corrigido) |
 | 21/10 qua | 18h00 | Instagram | reels | Esse médico está falando de cabelo. Eu vou falar da sua empresa, porq… |
 | 22/10 qui | 05h00 | Instagram | card | O reconhecimento mais sólido começa em casa: nas relações que seu tra… |
 | 22/10 qui | 09h00 | Instagram | card | Nem toda oportunidade merece um sim. Escolha as que aproximam sua emp… |
@@ -87,11 +88,12 @@ agendado em lugar nenhum. Os posts de antes das 20h do dia 16 já foram ao ar.
 
 | Rede | Posts na fila | O quê | Até quando |
 |---|---|---|---|
-| Instagram | 57 | 25 cards, 21 reels, 11 carrosséis | 31/10 às 5h (Provérbios) |
-| YouTube | 20 | só reels | 29/10 |
-| TikTok | 16 | só reels | 29/10 |
+| Instagram | 56 | 26 cards, 21 reels, 9 carrosséis | 31/10 às 5h (Provérbios) |
+| YouTube | 21 | 20 reels e 1 vídeo do banner do nome | 29/10 |
+| TikTok | 17 | 16 reels e 1 foto (banner do nome) | 29/10 |
+| X (@gilbertosenaofc) | 1 | banner do nome | 17/10 |
 
-**Carrosséis: 11 na fila, e o último é 22/10 às 15h.** Faltam 31 (20h de 21/10 a 05/11, 15h de 23/10 a 06/11).
+**Carrosséis: 9 na fila, e o último é 22/10 às 15h (DRE).** O 7-mudancas já foi ao ar em 16/10 às 21h. Faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 
 **O horário de 19/10 às 15h foi preenchido** com o carrossel do imobiliário,
