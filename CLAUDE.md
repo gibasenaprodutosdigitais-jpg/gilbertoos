@@ -145,7 +145,7 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
   `MATERIAL-TECNICO/`, `POSTS-AVULSOS/` e `VIDEOS/`. Duas com sublinhado são de controle:
   `_CONTROLE/` (triagens, inventários e a grade de séries) e `_capas/` (capas prontas)
 - `.claude/skills/` — `carrossel`, `conversar`, `ideias`, `reels`, `salvar`, `tendencias` e a `pericia-bancaria`
-- `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto)
+- `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto, trocar travessão de efeito por pontuação)
 - `entrada-videos/` — vídeos e gravações crus que ele manda (longos, triagem,
   palco e eventos)
 - `posicionamento-gilberto-sena/` — estudos de posicionamento de agosto de 2026.
