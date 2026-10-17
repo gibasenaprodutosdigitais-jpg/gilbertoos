@@ -26,9 +26,9 @@
   Varri os reels: só os do Simples tinham data; os dois do lote 2 sobre o tema ficaram em 23 e 26/10.
 - **Lote 2 (10 vídeos) agendado** de 23 a 31/10, com as legendas que vieram conferidas contra a fala (5 corrigidas).
   Ver `saidas/REELS/reels-lote-2-2026-10-17/LEIA.md`. Agora só faltam reels no 12h e 18h de 31/10.
-- **Na Downloads ainda estão os lotes 3 (12 vídeos, 23 a 34) e 4 (16 vídeos, 35 a 50)**, cada vídeo com o `.txt`
-  da legenda, e um zip "Gilberto Reels antigos". Ele não pediu ainda. O lote 4 tem um "brasileiro raiz não vai pro
-  Paraguai" que repete o tema do lote 1.
+- **Lotes 3 e 4 (28 vídeos) agendados** de 31/10 a 9/11, 3 por dia, com as legendas conferidas contra a fala.
+  Ver `saidas/REELS/reels-lote-3-2026-10-17/LEIA.md`. **Reels cobertos até 9/11 às 12h.** Ainda na Downloads: o zip
+  "Gilberto Reels antigos" (posts antigos do perfil, com código do Instagram no nome), não pedido.
 - **O salvamento no GitHub foi bloqueado pela permissão** na primeira tentativa; ver se subiu.
 
 **★ Novo em 17/out (2h): Reels em 3 por dia, e 12 vídeos novos na fila.** Ele pediu o terceiro horário às **6h**

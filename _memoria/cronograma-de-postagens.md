@@ -119,9 +119,9 @@ Pedido dele: *"dois destes novos no dia e um dos que já estavam programados"* n
 | 28/10 qua | Provérbios | reels (antigo) | frase do dia | reels | **vazio** | **lote 2:** contador só manda guia | **vazio** | 5 |
 | 29/10 qui | Provérbios | **lote 2:** respeita a sua história | frase do dia | reels | **vazio** | **lote 2:** cliente grande | **vazio** | 5 |
 | 30/10 sex | Provérbios | **lote 2:** vendedores de ilusão | frase do dia | **lote 2:** dividir pra multiplicar | **vazio** | **lote 2:** quanto maior | **vazio** | 5 |
-| 31/10 sáb | Provérbios | **lote 2:** apostaram 6 meses | — | **vazio** | **vazio** | **vazio** | **vazio** | 2 |
+| 31/10 sáb | Provérbios | **lote 2:** apostaram 6 meses | — | **lote 3:** muita empresa vai quebrar | **vazio** | **lote 4:** canhoto ou destro | **vazio** | 4 |
 
-- **Faltam 23 horários até 31/10: 21 carrosséis (15h e 20h) e 2 reels** (12h e 18h de 31/10). O lote 2 (10 vídeos) entrou em 17/out; ver `saidas/REELS/reels-lote-2-2026-10-17/LEIA.md`.
+- **Reels cobertos até 9/11 às 12h** (lotes 3 e 4: 28 vídeos de 31/10 a 9/11, 3 por dia; ver `saidas/REELS/reels-lote-3-2026-10-17/LEIA.md`). **Faltam 21 carrosséis até 31/10** (15h e 20h). O lote 2 (10 vídeos) entrou em 17/out; ver `saidas/REELS/reels-lote-2-2026-10-17/LEIA.md`.
 - **17/out: o prazo do Simples foi prorrogado para 30/10 (CGSN 194/2026).** O carrossel das 15h de 17/10 foi refeito e as legendas dos reels do Simples híbrido (25/10) e do 7º pecado (29/10) corrigidas. Regra dele: **nada com data vai ao ar depois da data.**
 - **Provérbios (5h) está coberto até 31/10 e a frase do dia até 30/10.**
 - **Reels**: com o lote 2, o 6h vai até 31/10, o 18h até 30/10 e o 12h até 30/10. Pra repor, os cortes das gravações do carro
