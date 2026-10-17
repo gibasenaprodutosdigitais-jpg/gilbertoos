@@ -106,7 +106,7 @@ Quando eu mexer na fila, atualizo este arquivo.
 | 30/10 sex | Provérbios | frase do dia | **vazio** | **vazio** | **vazio** | **vazio** | 2 |
 | 31/10 sáb | Provérbios | — | **vazio** | **vazio** | **vazio** | **vazio** | 1 |
 
-- **17 e 18/10 têm 6 e não 5**: os banners do nome e do Sena ocuparam o 9h do fim de semana, que seria vazio.
+- **17 e 18/10 têm 6 e não 5**: os banners do nome e do Sena ocuparam o 9h do fim de semana, que seria vazio. **Ele aprovou deixar assim** (16/out).
 - **Faltam 30 horários até 31/10: 21 carrosséis (15h e 20h) e 9 reels** (o das 18h de 25 a 31/10, e o das 12h de 30 e 31/10).
 - **Provérbios (5h) está coberto até 31/10 e a frase do dia até 30/10.** Depois disso nada está agendado.
 - **Reels**: o das 18h acaba em 24/10 e o das 12h em 29/10. Pra repor, os cortes das gravações do carro
