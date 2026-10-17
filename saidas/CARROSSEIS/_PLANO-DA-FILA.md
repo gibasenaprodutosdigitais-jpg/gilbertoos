@@ -115,10 +115,7 @@ antes de montar o curl**, senão o upload falha com
 
 - **Nunca "Me chama no direct"**, nem no último slide nem na legenda. Foi tirado de todos os carrosséis
   (21 HTMLs, 19 legendas) e das 4 peças já agendadas que tinham. Os já publicados não dá pra mexer.
-- **Todo carrossel novo tem 7 cards** (regra dele, confirmada em 16/out: "regra para todos os próximos"). O dos 5 Gs
-  foi o primeiro: capa com o banner, 5 cards e 1 de fechamento. **9 dos 31 pendentes não têm 7 slides** e precisam
-  ser enxugados na hora de enfileirar: `5gs-fornecedores-clientes`, `5gs-gestao-de-si`, `5gs-gestao-tributaria`,
-  `reforma-ebooks`, `reforma-ecommerce`, `reforma-infoprodutores`, `reforma-medicos`,
-  `reforma-representante-comercial` (9 slides cada) e `10-ebooks-leitura` (12). Os já agendados ficam como estão.
+- **Regra dos 7 cards: revogada por ele no mesmo dia** ("sobre os slides, esqueça esta regra"). O número de slides volta a
+  depender da peça, de 5 a 10. Nenhum carrossel pendente precisa ser enxugado por causa disso.
 - O banner do livro que ele salvou lista os 5 Gs com nomes que **não** são os do livro. A capa cobre a faixa e
   põe os nomes certos (decisão dele: seguir o livro).

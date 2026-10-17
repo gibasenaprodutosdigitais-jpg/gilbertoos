@@ -16,7 +16,7 @@
 alimentando aos poucos — ver a seção logo abaixo.
 
 **Carrosséis: faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).**
-⚠ **Regra nova (16/out): todo carrossel novo tem 7 cards.** 9 dos 31 pendentes têm 9 ou 12 slides e precisam ser enxugados antes de subir (lista no `_PLANO-DA-FILA.md`).
+(A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
 
 Dez já estão na fila ou no ar (16 a 20/out). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
@@ -188,19 +188,24 @@ termina com "me chama." no texto, que é outra frase, não mexi.
 (Imposto Seletivo "previsto para 2027", faixa de 26,5% a 28%, R$3.375, "ou" no imóvel, 70% na alíquota) e com
 texto mais forte: capa "Sete mudanças caem sobre a sua empresa em 2027" e primeira frase da legenda nova.
 Link: `https://www.instagram.com/p/DekxfVgCoMg/` (Zernio `6ad2b44461dcb939e51d8234`). **Ele disse que vai fixar na grade.**
-Mantém os 9 slides; a regra dos 7 cards vale para os próximos.
+Mantém os 9 slides.
 
 ✅ **Banner "significado do nome Gilberto"** (o segundo banner que ele salvou): agendado para **17/10 às 9h** em
 **Instagram, TikTok e X** (imagem cortada em 4:5, Zernio `6ad2bba0172f53e890005293`) e **YouTube** (vídeo de 14s feito
 do banner, `6ad2bba1172f53e890005299`, porque o YouTube não aceita imagem). Pasta:
 `saidas/CARDS/banner-significado-do-nome-2026-10-16/`. Ele pediu "todas as redes possíveis"; hoje a Zernio tem
 4 contas: Instagram, TikTok, YouTube e **X (@gilbertosenaofc, conectado, antes não constava)**.
-⚠ **O banner diz "reflexo brilhante ou ilustre pela espada".** Pesquisa de 16/out: a leitura mais aceita de Gilberto
-é **"promessa brilhante"** (gisel + beraht), e as outras vêm de fontes fracas. A legenda usa "promessa brilhante" e
-cita as outras como "também aparece como". A numerologia vai atribuída à numerologia, não afirmada. O texto da
-legenda sobre o sobrenome só usa fato conhecido (Grupo Sena, GSena Hub); **não inventei origem do "Sena"**.
-Provérbios 22:1 aparece como paráfrase ("mais vale o bom nome do que as muitas riquezas"). Se ele quiser trocar o
-banner pela leitura "promessa brilhante", é refazer a imagem.
+✅ **Banner refeito às 21h15 (pedido dele): "promessa brilhante" ou "garantia ilustre".** Só as linhas 3 e 4 do
+texto mudaram (fonte IBM Plex Sans, igual à do banner); o resto da arte é a original. As duas leituras saem dos
+mesmos elementos germânicos (gisel = promessa, penhor, garantia; beraht = brilho, ilustre). Posts e vídeo trocados
+na Zernio, legendas atualizadas. O original com "reflexo brilhante / ilustre pela espada" ficou em
+`banner-original.jpeg` e **não vai ao ar**.
+⚠ **O "Sena":** ele colou um texto dizendo que Sena/Senna significa "brilho" ou "luz". Pesquisei: **isso não
+aparece em fonte confiável para o sobrenome português** (vem de nomes próprios de outras culturas, de fontes
+fracas). O que está documentado: o Sena português vem de nome religioso cristão, em homenagem a **Santa Catarina
+de Sena**, e pode vir da cidade italiana de **Siena** (Dictionary of American Family Names, via Ancestry; site
+Italianismo). A legenda diz isso e cita "brilho e luz" só como "como nome próprio, em algumas culturas". Ele pode
+querer um segundo banner só do Sena, no mesmo estilo; não foi feito.
 
 ⚠ **Lição: legenda escrita por mim carrega afirmação que ele não fez.** Conferir
 a legenda contra a **fala** (transcrição em `entrada-videos/longos/edit/`), e

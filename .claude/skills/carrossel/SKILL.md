@@ -53,7 +53,7 @@ legível. A cor do véu sai da direção escolhida, não é mais fixa em grafite
 Direção de papel, cartaz ou caderno geralmente não comporta foto: nesse caso
 não force.
 
-## Estrutura (sempre 7 cards)
+## Estrutura (5 a 10 slides)
 
 - Slide 1: `CAPA` — título impactante (máx 8 palavras)
 - Internos: um insight por slide, 2-3 layouts diferentes, frases naturais
@@ -92,8 +92,6 @@ saidas/carrossel-<tema>-<AAAA-MM-DD>/
 
 - **Nunca "Me chama no direct"**, nem no slide final nem na legenda (pedido dele, 16/out/2026).
   O último slide fecha com a ideia da peça, sem botão de chamada.
-- **Todo carrossel novo tem 7 cards**: capa, 5 internos e 1 de fechamento (regra dele, 16/out/2026,
-  "para todos os próximos"). Sem botão de chamada no fechamento.
 
 - 1080x1350 (4:5) sempre
 - Autoridade > enfeite. Se ficou com cara de coach, refazer.
