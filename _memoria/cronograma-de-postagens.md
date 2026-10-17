@@ -21,7 +21,7 @@ Os IDs, os horários e as legendas estão em `saidas/REELS/reels-novos-2026-10-1
 | 17/10 sáb | 12h00 | Instagram | reels | Qual a diferença entre o rico e o pobre? O rico tem paciência. Eu sou… |
 | 17/10 sáb | 12h00 | YouTube | reels | Se você tem transportadora, o seu prazo da reforma não começa em 2027… |
 | 17/10 sáb | 14h00 | TikTok | reels | Em 2027 não cai um imposto novo. Cai o sistema inteiro. E o que separ… |
-| 17/10 sáb | 15h00 | Instagram | carrossel | Dia 30 de setembro uma porta se fechou, e muita gente não percebeu qu… |
+| 17/10 sáb | 15h00 | Instagram | carrossel | Dia 30 de outubro uma porta se fecha, e muita gente acha que ela já fechou… (refeito 17/out, prazo prorrogado) |
 | 17/10 sáb | 18h00 | YouTube | reels | Quem vende online tem dois prazos correndo, e os dois mexem no caixa.… |
 | 17/10 sáb | 18h00 | Instagram + TikTok + YouTube | reels | Todo mundo falando em 9%, 27%, 300%, 400%… (A alíquota ainda não existe) **(NOVO, 17/out)** |
 | 17/10 sáb | 20h00 | Instagram | carrossel | No meu livro, os 5 Gs da gestão não são meras teorias. Eu não sou um acadêmico… (5 G's, 7 cards) |
@@ -66,6 +66,7 @@ Os IDs, os horários e as legendas estão em `saidas/REELS/reels-novos-2026-10-1
 | 22/10 qui | 18h00 | Instagram + TikTok + YouTube | reels | Você acha que é espertão, que vai dar o pulo do gato?… (Patrimônio no nome do genro) **(NOVO, 17/out)** |
 | 23/10 sex | 05h00 | Instagram | card | Não copie o caminho de outros empreendedores. Trabalhe para construir… |
 | 23/10 sex | 06h00 | Instagram | reels | Quantos Gilbertos tem lá fora? Gente que está perdida e que precisa o… (movido de 17/10 sáb 18h, 17/out) |
+| 23/10 sex | 06h00 | Instagram + TikTok + YouTube | reels | Simples Nacional em 2027: antes de optar pelo híbrido, faça a conta.… **(lote 2)** |
 | 23/10 sex | 09h00 | Instagram | card | Quando o plano muda, sua capacidade de se adaptar também faz parte do… |
 | 23/10 sex | 12h00 | Instagram + TikTok + YouTube | reels | A CBS não vai chegar em 2027. Ela já está na sua nota fiscal desde ja… |
 | 23/10 sex | 18h00 | Instagram + TikTok + YouTube | reels | Me responde uma coisa: o split payment vai facilitar o trabalho de qu… |
@@ -80,20 +81,57 @@ Os IDs, os horários e as legendas estão em `saidas/REELS/reels-novos-2026-10-1
 | 26/10 seg | 06h00 | Instagram | reels | A manipulação mais perigosa não vem de fora. É a que você faz com voc… (movido de 20/10 ter 18h, 17/out) |
 | 26/10 seg | 09h00 | Instagram | card | Seu próximo cliente pode chegar pela confiança que você construiu no… |
 | 26/10 seg | 12h00 | Instagram + TikTok + YouTube | reels | Tem uma linha de R$ 40.500 por ano, e quase ninguém sabe de que lado… |
+| 26/10 seg | 18h00 | Instagram + TikTok + YouTube | reels | Academia no Simples híbrido: a conta não fecha.… **(lote 2)** |
 | 27/10 ter | 05h00 | Instagram | card | Uma liderança sábia pensa no impacto das decisões sobre quem trabalha… |
 | 27/10 ter | 06h00 | Instagram | reels | Esse médico está falando de cabelo. Eu vou falar da sua empresa, porq… (movido de 21/10 qua 18h, 17/out) |
 | 27/10 ter | 09h00 | Instagram | card | Crescer com consistência pede decisões claras, mesmo quando elas são… |
 | 27/10 ter | 12h00 | Instagram + TikTok + YouTube | reels | O seu imóvel ganhou CPF. Chama CIB, Cadastro Imobiliário Brasileiro,… |
+| 27/10 ter | 18h00 | Instagram + TikTok + YouTube | reels | Faturamento é ego. Margem é o que paga a conta.… **(lote 2)** |
 | 28/10 qua | 05h00 | Instagram | card | A disciplina de hoje pode se tornar a tranquilidade de amanhã. Tranqu… |
 | 28/10 qua | 06h00 | Instagram + TikTok + YouTube | reels | Tem empresário que fatura bem e não sabe dizer o que é capital de gir… (movido de 22/10 qui 18h, 17/out) |
 | 28/10 qua | 09h00 | Instagram | card | Um problema bem resolvido pode ensinar mais sobre sua empresa do que… |
 | 28/10 qua | 12h00 | Instagram + TikTok + YouTube | reels | Split payment. Traduzindo o nome bonito: o imposto sai antes de entra… |
+| 28/10 qua | 18h00 | Instagram + TikTok + YouTube | reels | Seu contador só manda guia?… **(lote 2)** |
 | 29/10 qui | 05h00 | Instagram | card | Generosidade não enfraquece um negócio. Ela lembra por que vale a pen… |
+| 29/10 qui | 06h00 | Instagram + TikTok + YouTube | reels | Imagina a Coca-Cola vendendo direto pra você. Qual a chance de dar cer… **(lote 2)** |
 | 29/10 qui | 09h00 | Instagram | card | Cuide do caixa com a mesma atenção que dedica às vendas. Os dois mant… |
 | 29/10 qui | 12h00 | Instagram + TikTok + YouTube | reels | Você já sabe qual é a alíquota? Eu também não. É o sétimo pecado, e é… |
+| 29/10 qui | 18h00 | Instagram + TikTok + YouTube | reels | Um cliente só respondia por quase R$ 1 milhão de faturamento por mês. … **(lote 2)** |
 | 30/10 sex | 05h00 | Instagram | card | O sucesso não precisa custar seus valores. Faça escolhas das quais vo… |
+| 30/10 sex | 06h00 | Instagram + TikTok + YouTube | reels | Quantas pessoas venderam que você ia ganhar milhões trabalhando duas h… **(lote 2)** |
 | 30/10 sex | 09h00 | Instagram | card | Feche o mês com uma pergunta: o que você aprendeu que vai fazer difer… |
+| 30/10 sex | 12h00 | Instagram + TikTok + YouTube | reels | O empresário que não divide, não multiplica.… **(lote 2)** |
+| 30/10 sex | 18h00 | Instagram + TikTok + YouTube | reels | Quanto maior você é, maior o estrago de um passo errado.… **(lote 2)** |
 | 31/10 sáb | 05h00 | Instagram | card | Feche o mês com gratidão pelo que avançou e humildade para aprender o… |
+| 31/10 sáb | 06h00 | Instagram + TikTok + YouTube | reels | Apostaram que eu não ia durar seis meses em Alphaville.… **(lote 2)** |
+| 31/10 sáb | 12h00 | Instagram + TikTok + YouTube | reels | Muita empresa vai quebrar em 2027. E eu já vi como isso começa.… **(lote 3)** |
+| 31/10 sáb | 18h00 | Instagram + TikTok + YouTube | reels | Por que você não me perguntou se eu sou canhoto ou destro?… **(lote 4)** |
+| 01/11 dom | 06h00 | Instagram + TikTok + YouTube | reels | O que falta na humanidade hoje é paternidade. Não de ser pai, de ser p… **(lote 4)** |
+| 01/11 dom | 12h00 | Instagram + TikTok + YouTube | reels | Quem não sabe precificar, quebra.… **(lote 3)** |
+| 01/11 dom | 18h00 | Instagram + TikTok + YouTube | reels | Eu aluguei um Tiguan por dois dias. Foi caro, mas foi investimento.… **(lote 4)** |
+| 02/11 seg | 06h00 | Instagram + TikTok + YouTube | reels | Um dos maiores erros do empresário: misturar o dinheiro da empresa com… **(lote 4)** |
+| 02/11 seg | 12h00 | Instagram + TikTok + YouTube | reels | Em 2024 eu atendi vários empresários nessa mesa. Hoje, 90% quebraram.… **(lote 3)** |
+| 02/11 seg | 18h00 | Instagram + TikTok + YouTube | reels | Traz um contrato com R$ 10 milhões de multa. Eu assino.… **(lote 4)** |
+| 03/11 ter | 06h00 | Instagram + TikTok + YouTube | reels | Você acha que o dinheiro é seu. E o dinheiro não é seu.… **(lote 4)** |
+| 03/11 ter | 12h00 | Instagram + TikTok + YouTube | reels | De R$ 300 mil por mês, numa mesa de café, a R$ 5,5 milhões em três ano… **(lote 3)** |
+| 03/11 ter | 18h00 | Instagram + TikTok + YouTube | reels | De que vale uma Ferrari nas ruas de pedra de Ouro Preto? Você vai acel… **(lote 4)** |
+| 04/11 qua | 06h00 | Instagram + TikTok + YouTube | reels | "Eu fiz, eu faço de novo. É do meu jeito." O pior pilar de um negócio … **(lote 3)** |
+| 04/11 qua | 12h00 | Instagram + TikTok + YouTube | reels | Pejotização: o empresário é o espertão e, lá na frente, a conta vem tr… **(lote 3)** |
+| 04/11 qua | 18h00 | Instagram + TikTok + YouTube | reels | O vizinho montou uma empresa de crepe e está vendendo muito. Aí o cara… **(lote 4)** |
+| 05/11 qui | 06h00 | Instagram + TikTok + YouTube | reels | Foi assim que eu comecei: achando um bug da Matrix na conta de telefon… **(lote 4)** |
+| 05/11 qui | 12h00 | Instagram + TikTok + YouTube | reels | Se você fez R$ 3.000 uma vez, esquece: esse cliente nunca mais vai pag… **(lote 3)** |
+| 05/11 qui | 18h00 | Instagram + TikTok + YouTube | reels | Ele salvou a empresa. E no final ouviu que não fez nada.… **(lote 4)** |
+| 06/11 sex | 06h00 | Instagram + TikTok + YouTube | reels | Não saia da operação. Saia do operacional.… **(lote 4)** |
+| 06/11 sex | 12h00 | Instagram + TikTok + YouTube | reels | O imposto tem que ser pago. Isso é bíblico.… **(lote 3)** |
+| 06/11 sex | 18h00 | Instagram + TikTok + YouTube | reels | Se eu tivesse a lâmpada do Aladim, eu ia pedir pra voltar três anos at… **(lote 4)** |
+| 07/11 sáb | 06h00 | Instagram + TikTok + YouTube | reels | O processo de contratação não começa na entrevista. Começa meses antes… **(lote 4)** |
+| 07/11 sáb | 12h00 | Instagram + TikTok + YouTube | reels | É claro que muita empresa vai quebrar. E vai ser por culpa do empresár… **(lote 3)** |
+| 07/11 sáb | 18h00 | Instagram + TikTok + YouTube | reels | Não quer pagar treinamento pro seu funcionário? Acostume-se a pagar 2 … **(lote 4)** |
+| 08/11 dom | 06h00 | Instagram + TikTok + YouTube | reels | Vender a qualquer custo começa a pecar na qualidade. E o que manda de … **(lote 3)** |
+| 08/11 dom | 12h00 | Instagram + TikTok + YouTube | reels | Eu desconheço outra forma de prosperar a não ser empreendendo.… **(lote 4)** |
+| 08/11 dom | 18h00 | Instagram + TikTok + YouTube | reels | Honra a sua responsabilidade. Paga seu prestador de serviço. Paga seus… **(lote 3)** |
+| 09/11 seg | 06h00 | Instagram + TikTok + YouTube | reels | "O sucesso dos maus é o silêncio dos bons." Hoje isso é a regra.… **(lote 3)** |
+| 09/11 seg | 12h00 | Instagram + TikTok + YouTube | reels | O que faltou? Contrato.… **(lote 4)** |
 
 ---
 
@@ -133,14 +171,14 @@ Pedido dele: *"dois destes novos no dia e um dos que já estavam programados"* n
 
 ## O que esta fila diz
 
-**Começa 17/10 à 0h e acaba 31/10 às 5h.** Depois disso não tem mais nada
+**Lida em 17/out de madrugada: 116 posts na Zernio, os Reels vão até 9/11 às 12h.** Os números da tabela abaixo são de 16/out; depois disso não tem mais nada
 agendado em lugar nenhum. Os posts de 16/10 já foram ao ar.
 
 | Rede | Posts na fila | O quê | Até quando |
 |---|---|---|---|
-| Instagram | 69 | 27 cards, 33 reels, 9 carrosséis | 31/10 às 5h (Provérbios) |
-| YouTube | 34 | 32 reels e 2 vídeos dos banners do nome | 29/10 |
-| TikTok | 30 | 28 reels e 2 fotos (banners do nome) | 29/10 |
+| Instagram | 107 | 27 cards, 71 reels, 9 carrosséis | 9/11 (reels) |
+| YouTube | 72 | 70 reels e 2 vídeos dos banners do nome | 9/11 |
+| TikTok | 68 | 66 reels e 2 fotos (banners do nome) | 9/11 |
 | X (@gilbertosenaofc) | 2 | banners do nome e do Sena | 18/10 |
 
 **Carrosséis: 9 na fila, e o último é 22/10 às 15h (DRE).** O 7-mudancas já foi ao ar em 16/10 às 21h. Faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).

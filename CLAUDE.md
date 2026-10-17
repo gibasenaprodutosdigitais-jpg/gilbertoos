@@ -162,3 +162,6 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
   faculdade de empreendedorismo). **Fora desta ilha:** não misturar com o
   conteúdo daqui
 - `saude-pessoal/` — dados de saúde dele. Nunca usar em conteúdo
+- Na raiz: `MAPA-OPB.md` (com `.html` e `.pdf`) — o mapa do One Person Business dele, referência
+  estratégica do posicionamento; `LEIA-PRIMEIRO.md` e `INSTALACAO.md` — como começar e instalar;
+  `AGENTS.md` — instruções pra outros agentes

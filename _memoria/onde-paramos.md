@@ -38,8 +38,7 @@ e-mail. Regra dele: *"dois destes novos no dia e um dos que já estavam programa
 perdeu). Saem nas três redes juntas. Tudo em `saidas/REELS/reels-novos-2026-10-17/LEIA.md`, com os IDs da Zernio e
 **sete avisos pra ele** (conta bloqueada sem base no repositório, a frase dos herdeiros, a sociedade recente no
 "errei no contrato", o tom do Paraguai). Pendente: **capa**. Pus o quadro com o título; a decisão dele de 12/out era
-capa preta "por enquanto" e eu não perguntei de novo. Faltam reels pro 6h de 29 a 31/10, pro 12h de 30 e 31/10 e pro 18h
-de 25 a 31/10 (12 horários).
+capa preta "por enquanto" e eu não perguntei de novo. Com os lotes 2, 3 e 4, **os Reels estão cobertos até 9/11 às 12h**.
 
 
 **Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir
@@ -167,7 +166,7 @@ Public Sans. Sem azul e dourado.
 | Dia | 15h | 20h |
 |---|---|---|
 | 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
-| 17/10 | ✅ simples-nacional-prazo | ✅ 5gs-o-livro (era o dre-7-passos) |
+| 17/10 | ✅ simples-nacional-prazo (refeito 17/out: prazo 30/10) | ✅ 5gs-o-livro (era o dre-7-passos) |
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
 | 19/10 | ✅ imobiliario-aluguel (entrou no lugar do IPI) | ✅ 12-pilares-business-plan |
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
@@ -387,14 +386,11 @@ Depois varri os 42 restantes com `grep` atrás do mesmo erro: **estão limpos**,
 era só aquele. Mas a lição fica: **conferir número de autoridade antes de
 agendar**, porque o carrossel contradizia o media kit dele.
 
-### A fila real, lida em 16/out às 21h40
+### A fila real, lida em 17/out de madrugada
 
-`_memoria/cronograma-de-postagens.md` tem o calendário completo, post a post, e a grade por horário.
-Resumo: **72 posts agendados, de 17/10 a 31/10** (alguns vão em mais de uma rede): Instagram 57, YouTube 22,
-TikTok 17 e X 2.
-
-⚠ **Depois de 30/10 a fila morre** nos reels e na frase do dia. Os 29 cortes
-das gravações do carro resolveriam, e continuam sem montar.
+**116 posts agendados na Zernio** (alguns em mais de uma rede). `_memoria/cronograma-de-postagens.md` tem o
+calendário post a post e a grade por horário. **Os Reels vão até 9/11 às 12h**; Provérbios até 31/10 e frase do dia
+até 30/10. Faltam 21 carrosséis até 31/10. Os 29 cortes das gravações do carro continuam sem montar.
 
 ---
 
@@ -567,26 +563,9 @@ roupas de cores opostas, medir a média da metade não diz nada; medir o rosto.
 
 ## 3. Conteúdo e publicação (Zernio)
 
-**40 posts agendados.** Dia, hora e ID de cada um em
-`saidas/REELS/reels-a-postar-2026-10-12/calendario.md`.
-
-| Rede | Quantos | Ritmo | Janela |
-|---|---|---|---|
-| **Instagram** | 14 Reels | 3 por dia — 09:00, 14:00, 20:00 | 13 a 17/out |
-| **YouTube** | 12 vídeos | 1 por dia — 12:00 | 13 a 24/out |
-| **TikTok** | 14 vídeos | **1 a cada 4 horas**, sem parar | 13/out 12:30 a 15/out 16:30 |
-
-**São os mesmos 14 vídeos no Instagram e no TikTok**, mas com **legenda
-própria em cada um** e ritmos diferentes de propósito. No TikTok a legenda
-tem metade do tamanho, 4 hashtags em vez de 7, e não leva "me segue" — lá o
-texto fica sobre o vídeo e só a primeira linha aparece.
-
-A grade do TikTok repete 6 horários fixos: 00:30, 04:30, 08:30, 12:30, 16:30
-e 20:30. **Quatro caem na madrugada**, ele foi avisado e manteve.
-
-**Conferir se publicaram** com `posts_list` status `published`. Vídeo fica
-alguns minutos em `publishing` porque o Instagram transcodifica — é normal.
-Se falhar, `posts_list_failed` e `posts_retry`.
+✅ **O lote de 12/out (14 Reels no Instagram, 12 no YouTube, 14 no TikTok, de 13 a 24/out) já foi ao ar.** O registro
+fica em `saidas/REELS/reels-a-postar-2026-10-12/calendario.md`. Conferir publicação com `posts_list` status `published`;
+falha com `posts_list_failed` e `posts_retry`.
 
 O manual completo da Zernio (IDs, fluxo, limites, armadilhas) está na memória
 do Claude, não no repositório, porque envolve credencial e conta.
@@ -818,6 +797,9 @@ mais.
 **não perguntar de novo** — a decisão está tomada.
 
 ### Capa dos Reels: preta, "por enquanto"
+
+⚠ **17/out: os 50 Reels novos (lotes 1 a 4) saíram com a capa do quadro do título**, porque o primeiro quadro desses
+vídeos é preto. A decisão segue aberta: se ele preferir a preta, troca-se enquanto estiverem agendados.
 
 Ele escolheu capa preta em 12/out/2026, depois de eu recomendar o frame do
 próprio vídeo. Disse **"por enquanto"**, então a decisão segue aberta.
@@ -1074,7 +1056,7 @@ permissão de leitura. **Ele confere pelo ícone do Drive na barra do Mac.**
 
 **Só depois disso apagar os originais**, o que devolve mais 16,5 GB.
 
-### As cópias de segurança### As cópias de segurança
+### As cópias de segurança
 
 `~/Desktop/BACKUP-gilbertoos-antes-da-limpeza-2026-10-13` tem:
 - `git-completo` — o `.git` do notebook antes da reescrita
