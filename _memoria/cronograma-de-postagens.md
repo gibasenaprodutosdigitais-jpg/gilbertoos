@@ -83,6 +83,37 @@ Quando eu mexer na fila, atualizo este arquivo.
 
 ---
 
+## Grade do Instagram por horário (lida na Zernio em 16/out às 21h30)
+
+**A regra dele:** 6 posts por dia (5h Provérbios, 9h frase do dia, 12h reels, 15h carrossel, 18h reels, 20h carrossel),
+**menos sábado e domingo, que não têm a frase do dia (5 posts).**
+
+| Dia | 5h | 9h | 12h | 15h | 18h | 20h | Total |
+|---|---|---|---|---|---|---|---|
+| 17/10 sáb | Provérbios | Banner: nome | reels | Simples Nacional | reels | Livro 5 G's | 6 |
+| 18/10 dom | Provérbios | Banner: Sena | reels | Revenda de carros | reels | Ponto de equilíbrio | 6 |
+| 19/10 seg | Provérbios | frase do dia | reels | Imobiliário | reels | 12 pilares | 6 |
+| 20/10 ter | Provérbios | frase do dia | reels | Autônomo e CBS | reels | 5Gs: financeira | 6 |
+| 21/10 qua | Provérbios | frase do dia | reels | **vazio** | reels | **vazio** | 4 |
+| 22/10 qui | Provérbios | frase do dia | reels | DRE em 7 passos | reels | **vazio** | 5 |
+| 23/10 sex | Provérbios | frase do dia | reels | **vazio** | reels | **vazio** | 4 |
+| 24/10 sáb | Provérbios | — | reels | **vazio** | reels | **vazio** | 3 |
+| 25/10 dom | Provérbios | — | reels | **vazio** | **vazio** | **vazio** | 2 |
+| 26/10 seg | Provérbios | frase do dia | reels | **vazio** | **vazio** | **vazio** | 3 |
+| 27/10 ter | Provérbios | frase do dia | reels | **vazio** | **vazio** | **vazio** | 3 |
+| 28/10 qua | Provérbios | frase do dia | reels | **vazio** | **vazio** | **vazio** | 3 |
+| 29/10 qui | Provérbios | frase do dia | reels | **vazio** | **vazio** | **vazio** | 3 |
+| 30/10 sex | Provérbios | frase do dia | **vazio** | **vazio** | **vazio** | **vazio** | 2 |
+| 31/10 sáb | Provérbios | — | **vazio** | **vazio** | **vazio** | **vazio** | 1 |
+
+- **17 e 18/10 têm 6 e não 5**: os banners do nome e do Sena ocuparam o 9h do fim de semana, que seria vazio.
+- **Faltam 30 horários até 31/10: 21 carrosséis (15h e 20h) e 9 reels** (o das 18h de 25 a 31/10, e o das 12h de 30 e 31/10).
+- **Provérbios (5h) está coberto até 31/10 e a frase do dia até 30/10.** Depois disso nada está agendado.
+- **Reels**: o das 18h acaba em 24/10 e o das 12h em 29/10. Pra repor, os cortes das gravações do carro
+  (`entrada-videos/longos/`) ainda não foram feitos.
+
+---
+
 ## O que esta fila diz
 
 **Começa 16/10 às 20h e acaba 31/10 às 5h.** Depois disso não tem mais nada
