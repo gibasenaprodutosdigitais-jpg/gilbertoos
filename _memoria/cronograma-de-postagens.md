@@ -1,13 +1,10 @@
 # Cronograma de postagens
 
-Fila real da Zernio, lida em **16/out/2026, 19h49**. Horário de Brasília.
+Fila real da Zernio, lida em **16/out/2026, 21h40**. Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
-*Depois da leitura entrou o carrossel de 19/10 às 15h (imobiliário).*
 
 | Dia | Hora | Onde | O quê | Começo do texto |
 |---|---|---|---|---|
-| 16/10 sex | 20h00 | Instagram | carrossel | Já fui motoboy. Já vendi cachorro-quente. Hoje eu ensino empresário a… |
-| 16/10 sex | 20h00 | TikTok | reels | Antes de ouvir qualquer guru de negócio, olha o histórico. Já quebrou… |
 | 17/10 sáb | 00h00 | YouTube | reels | Tem muita gente perdida que precisa ouvir uma história parecida com a… |
 | 17/10 sáb | 02h00 | TikTok | reels | Fim do IPI em 2027 não é bondade com a indústria. É escudo pra Zona F… |
 | 17/10 sáb | 05h00 | Instagram | card | Por trás de uma boa liderança existe trabalho constante, mesmo quando… |
@@ -116,8 +113,8 @@ Quando eu mexer na fila, atualizo este arquivo.
 
 ## O que esta fila diz
 
-**Começa 16/10 às 20h e acaba 31/10 às 5h.** Depois disso não tem mais nada
-agendado em lugar nenhum. Os posts de antes das 20h do dia 16 já foram ao ar.
+**Começa 17/10 à 0h e acaba 31/10 às 5h.** Depois disso não tem mais nada
+agendado em lugar nenhum. Os posts de 16/10 já foram ao ar.
 
 | Rede | Posts na fila | O quê | Até quando |
 |---|---|---|---|

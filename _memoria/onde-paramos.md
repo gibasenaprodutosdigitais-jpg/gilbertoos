@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 16/out/2026, 20h.**
+> Estado das frentes abertas. **Atualizado em 16/out/2026, 21h40.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -17,6 +17,10 @@ alimentando aos poucos — ver a seção logo abaixo.
 
 **Carrosséis: faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).**
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
+
+**Instagram, fim de semana: 5 posts, sem a frase das 9h.** Em 17 e 18/10 os banners do nome e do Sena ocupam o 9h
+e ele aprovou ("pode deixar assim, está perfeito"), então esses dois dias têm 6. A grade por horário está no
+`cronograma-de-postagens.md`: faltam 30 horários até 31/10, 21 carrosséis e 9 reels.
 
 Dez já estão na fila ou no ar (16 a 20/out). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
@@ -124,7 +128,7 @@ Public Sans. Sem azul e dourado.
 
 ## 0. ★ A fila de conteúdo — o trabalho em curso
 
-### ⏳ Os carrosséis: 10 na fila, 32 pra ir
+### ⏳ Os carrosséis: 9 na fila, 31 pra ir
 
 **Dois por dia, 15h e 20h, de 16/10 a 05/11.** O mapa completo e a tabela
 "Onde eu parei" estão em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
@@ -136,7 +140,9 @@ Public Sans. Sem azul e dourado.
 | 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
 | 19/10 | ✅ imobiliario-aluguel (entrou no lugar do IPI) | ✅ 12-pilares-business-plan |
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
-| 21/10 em diante | ⏳ | ⏳ |
+| 21/10 | ⏳ | ⏳ |
+| 22/10 | ✅ dre-7-passos (veio do 17/10 às 20h) | ⏳ |
+| 23/10 em diante | ⏳ | ⏳ |
 
 **O caminho, por carrossel:**
 
@@ -293,11 +299,11 @@ dia"*, *"frase proverbios 2 reels dois carrosseis"*.
 | Hora (Brasília) | O quê | Situação |
 |---|---|---|
 | **5h** | Provérbios | ✅ dias 16 a 31 agendados |
-| **9h** | frase do dia | ✅ até 30/10 |
+| **9h** | frase do dia (só em dia útil; sábado e domingo não têm) | ✅ até 30/10 |
 | **12h** | reels | ✅ até 29/10 |
-| **15h** | **carrossel** | ❌ falta |
-| **18h** | reels | ✅ movidos de 20h pra cá em 16/out |
-| **20h** | **carrossel** | ❌ falta |
+| **15h** | **carrossel** | ⏳ agendado até 20/10 e em 22/10; faltam 21/10 e de 23/10 em diante |
+| **18h** | reels | ✅ só até 24/10 (movidos de 20h pra cá em 16/out) |
+| **20h** | **carrossel** | ⏳ agendado até 20/10; faltam de 21/10 em diante |
 
 ✅ **A troca de horário foi feita.** Ele pediu *"troca o carrossel das 18
 para as 20 e vise versa"*, e os nove reels que estavam às 20h (16 a 24/10)
@@ -322,11 +328,15 @@ de foto nova** — e a regra dele é dura: uma foto por mês, nenhuma repete.
 
 ### Onde cada coisa pode ir
 
-| | Instagram | TikTok | YouTube |
-|---|---|---|---|
-| Reels | sim | sim | sim |
-| Card / Provérbios | sim | sim | ❌ |
-| **Carrossel de imagem** | sim | **sim** | ❌ |
+| | Instagram | TikTok | YouTube | X |
+|---|---|---|---|---|
+| Reels | sim | sim | sim | não usado |
+| Card / Provérbios | sim | sim | ❌ | sim, com texto curto |
+| **Carrossel de imagem** | sim | **sim** | ❌ | não usado |
+| **Imagem única (os banners)** | sim | sim, como foto | ❌, só vídeo | sim |
+
+O **YouTube só aceita vídeo**: os banners do nome e do Sena foram lá em vídeo de 14s (zoom leve no banner).
+O **X** (@gilbertosenaofc) está conectado à Zernio e aceita imagem, mas o texto tem no máximo 280 caracteres.
 
 ✅ **Testado em 15/out com `validate_post`:** o YouTube devolve *"YouTube
 posts require video content, not just images"*. O **TikTok aceita carrossel
@@ -344,14 +354,11 @@ Depois varri os 42 restantes com `grep` atrás do mesmo erro: **estão limpos**,
 era só aquele. Mas a lição fica: **conferir número de autoridade antes de
 agendar**, porque o carrossel contradizia o media kit dele.
 
-### A fila real, lida em 15/out às 21h55
+### A fila real, lida em 16/out às 21h40
 
-`_memoria/cronograma-de-postagens.md` tem o calendário completo, post a post.
-Resumo: **58 posts, de 16 a 30 de outubro**, 35 no Instagram, 21 no TikTok e
-24 no YouTube.
-
-⚠ **O dia 16 está entupido com 14 posts** (6 no TikTok, 4 no YouTube). Isso é
-despejo de acervo. Sugeri espalhar e ele ainda não respondeu.
+`_memoria/cronograma-de-postagens.md` tem o calendário completo, post a post, e a grade por horário.
+Resumo: **72 posts agendados, de 17/10 a 31/10** (alguns vão em mais de uma rede): Instagram 57, YouTube 22,
+TikTok 17 e X 2.
 
 ⚠ **Depois de 30/10 a fila morre** nos reels e na frase do dia. Os 29 cortes
 das gravações do carro resolveriam, e continuam sem montar.

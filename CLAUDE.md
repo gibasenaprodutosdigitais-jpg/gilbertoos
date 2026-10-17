@@ -142,7 +142,8 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
   pela skill `direcao-de-arte` (`~/.claude/skills/direcao-de-arte/`)
 - `saidas/` — todo conteúdo gerado, em subpastas: `CARROSSEIS/`, `REELS/`,
   `CARDS/`, `NEGOCIOS-E-MARCA/`, `EVENTOS-E-PALESTRAS/`, `LIVROS-E-EBOOKS/`,
-  `MATERIAL-TECNICO/`, `POSTS-AVULSOS/` e `VIDEOS/`
+  `MATERIAL-TECNICO/`, `POSTS-AVULSOS/` e `VIDEOS/`. Duas com sublinhado são de controle:
+  `_CONTROLE/` (triagens, inventários e a grade de séries) e `_capas/` (capas prontas)
 - `.claude/skills/` — `carrossel`, `conversar`, `ideias`, `reels`, `salvar`, `tendencias` e a `pericia-bancaria`
 - `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto)
 - `entrada-videos/` — vídeos e gravações crus que ele manda (longos, triagem,

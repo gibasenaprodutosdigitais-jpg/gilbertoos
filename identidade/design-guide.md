@@ -53,3 +53,18 @@ reflexo que a decisão de 22/set elimina.
 - Contador de slide / wordmark no rodapé ou topo são opcionais agora — a
   skill `direcao-de-arte` decide isso como parte da composição de cada
   direção, não como regra fixa de todo carrossel.
+
+## Decisão consciente de 16/out/2026: a pele dos carrosséis e dos banners
+
+A regra acima manda escolher a direção por peça, e **isso continua valendo**. Mas as peças feitas entre 14 e 16/out
+repetem a mesma pele, e não é reflexo:
+
+- **Carrosséis do Instagram:** quase-preto (`#0D0B0A`) com ouro (`#E3C06E`) e Inter, a "pele de 14/out". Foi escolhida
+  para **retenção** (contraste alto na miniatura do feed, dois tons de escuro para dar ritmo, contador em ouro) e porque
+  segura os 30 e poucos carrosséis da fila como uma série só.
+- **Banners do livro, do nome e do Sena:** azul-noite e ouro, porque **a capa é arte que ele mesmo mandou** nesse estilo
+  (banner do livro dos 5 Gs) e o resto precisa parecer a mesma peça. O validador `paleta.py` recusa azul-marinho com
+  dourado; o banner do Sena usa a foto real dele sobre fundo azul-noite, na linha do banner que ele trouxe.
+- **O que continua proibido:** voltar a esta combinação por padrão numa peça nova que não tenha esse motivo.
+  Apresentação, media kit, ebook e site seguem escolhendo a direção pelo assunto (ex.: papel creme, petróleo e
+  terracota na apresentação Reestruturando com Êxito).
