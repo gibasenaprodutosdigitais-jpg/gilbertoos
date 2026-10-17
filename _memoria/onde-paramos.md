@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 16/out/2026, 21h40.**
+> Estado das frentes abertas. **Atualizado em 17/out/2026, 2h.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -11,6 +11,37 @@
 
 ## O primeiro ato da próxima sessão
 
+**★ 17/out (madrugada), depois do lote 1: lote 2 na fila e o prazo do Simples corrigido.**
+- **O prazo do Simples mudou e o repositório estava errado.** A Resolução CGSN 194/2026 (DOU 28/set) prorrogou a opção
+  pelo regime regular de IBS/CBS **até 30/10/2026**, cancelamento **de 3/11 a 20/12**, depois janelas em **março e
+  setembro**. Conferido no Serpro e no Comitê Gestor do IBS; `conhecimento/reforma-tributaria.md` atualizado.
+- **Corrigido na fila:** o carrossel das 15h de 17/10 ("Dia 30 de setembro uma porta se fechou") foi refeito como
+  "Dia 30 de outubro, uma porta se fecha" (novo ID `6ad303cf37050508ec5044e3`, o antigo apagado); legendas do reel do
+  Simples híbrido (25/10) e do 7º pecado (29/10, "o teste já passou") corrigidas nas três redes.
+- **🔴 Já publicado e errado, só ele resolve no app:** o `7-mudancas-2027` (reposto 16/10, ele ia fixar) diz no item 4
+  "a janela de setembro fechou, cancela até 30/11". E o reel "Comitê Gestor / Simples" (publicado 14 a 16/10) diz que
+  o prazo "está na lei e não vai mudar". **Perguntar se ele quer apagar e repostar corrigido.**
+- **O carrossel `simples-hibrido` (ainda não agendado) tem o mesmo erro:** reescrever antes de entrar na fila.
+- **Regra dele (17/out):** *"se tiver algum que a data seja depois da informação, troca ele para datas anteriores"*.
+  Varri os reels: só os do Simples tinham data; os dois do lote 2 sobre o tema ficaram em 23 e 26/10.
+- **Lote 2 (10 vídeos) agendado** de 23 a 31/10, com as legendas que vieram conferidas contra a fala (5 corrigidas).
+  Ver `saidas/REELS/reels-lote-2-2026-10-17/LEIA.md`. Agora só faltam reels no 12h e 18h de 31/10.
+- **Na Downloads ainda estão os lotes 3 (12 vídeos, 23 a 34) e 4 (16 vídeos, 35 a 50)**, cada vídeo com o `.txt`
+  da legenda, e um zip "Gilberto Reels antigos". Ele não pediu ainda. O lote 4 tem um "brasileiro raiz não vai pro
+  Paraguai" que repete o tema do lote 1.
+- **O salvamento no GitHub foi bloqueado pela permissão** na primeira tentativa; ver se subiu.
+
+**★ Novo em 17/out (2h): Reels em 3 por dia, e 12 vídeos novos na fila.** Ele pediu o terceiro horário às **6h**
+(grade do Instagram: **5h, 6h, 9h, 12h, 15h, 18h, 20h**) e mandou 12 vídeos já editados, que baixou do Drive e do
+e-mail. Regra dele: *"dois destes novos no dia e um dos que já estavam programados"*. Feito: **6h e 18h são novos de
+17 a 22/10, o 12h segue antigo.** Os 6 antigos do 18h de 17 a 22/10 foram para o **6h de 23 a 28/10** (nenhum se
+perdeu). Saem nas três redes juntas. Tudo em `saidas/REELS/reels-novos-2026-10-17/LEIA.md`, com os IDs da Zernio e
+**sete avisos pra ele** (conta bloqueada sem base no repositório, a frase dos herdeiros, a sociedade recente no
+"errei no contrato", o tom do Paraguai). Pendente: **capa**. Pus o quadro com o título; a decisão dele de 12/out era
+capa preta "por enquanto" e eu não perguntei de novo. Faltam reels pro 6h de 29 a 31/10, pro 12h de 30 e 31/10 e pro 18h
+de 25 a 31/10 (12 horários).
+
+
 **Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir
 (16 nas 20h de 21/10 a 05/11, 15 nas 15h: 21/10 e de 23/10 a 05/11). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
@@ -18,9 +49,9 @@ alimentando aos poucos — ver a seção logo abaixo.
 **Carrosséis: faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).**
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
 
-**Instagram, fim de semana: 5 posts, sem a frase das 9h.** Em 17 e 18/10 os banners do nome e do Sena ocupam o 9h
-e ele aprovou ("pode deixar assim, está perfeito"), então esses dois dias têm 6. A grade por horário está no
-`cronograma-de-postagens.md`: faltam 30 horários até 31/10, 21 carrosséis e 9 reels.
+**Instagram, fim de semana: 6 posts (era 5), sem a frase das 9h.** Em 17 e 18/10 os banners do nome e do Sena ocupam o 9h
+e ele aprovou ("pode deixar assim, está perfeito"), então esses dois dias têm 7 (com o 6h novo). A grade por horário está no
+`cronograma-de-postagens.md`: faltam 33 horários até 31/10, 21 carrosséis e 12 reels.
 
 Onze já estão na fila ou no ar (16 a 20/out, mais o DRE em 22/10). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
@@ -291,18 +322,20 @@ Revenda de Carros: Híbrido foi pro dia 23.
 alcance com a versão sem. Todos agora são minúscula sem acento, como o
 resto do perfil.
 
-### O dia dele no Instagram: seis posts
+### O dia dele no Instagram: sete posts (desde 17/out; eram seis)
 
 Ele definiu em 15/out, com estas palavras: *"são 6 no instagram"*, *"por
 dia"*, *"frase proverbios 2 reels dois carrosseis"*.
+Em **17/out ele somou o 6h (reels)**, ficando 3 reels e 2 carrosséis por dia.
 
 | Hora (Brasília) | O quê | Situação |
 |---|---|---|
 | **5h** | Provérbios | ✅ dias 16 a 31 agendados |
+| **6h** | **reels** (novo, 17/out) | ✅ até 28/10 (17 a 22 novos, 23 a 28 antigos) |
 | **9h** | frase do dia (só em dia útil; sábado e domingo não têm) | ✅ até 30/10 |
 | **12h** | reels | ✅ até 29/10 |
 | **15h** | **carrossel** | ⏳ agendado até 20/10 e em 22/10; faltam 21/10 e de 23/10 em diante |
-| **18h** | reels | ✅ só até 24/10 (movidos de 20h pra cá em 16/out) |
+| **18h** | reels | ✅ só até 24/10 (17 a 22 são novos; movidos de 20h pra cá em 16/out) |
 | **20h** | **carrossel** | ⏳ agendado até 20/10; faltam de 21/10 em diante |
 
 ✅ **A troca de horário foi feita.** Ele pediu *"troca o carrossel das 18

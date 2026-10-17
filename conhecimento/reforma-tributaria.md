@@ -77,8 +77,8 @@ compartilhável — e quase ninguém está explicando direito:
 | **31/jul/2026** | **ACABA a tolerância** do preenchimento **facultativo** dos campos de IBS/CBS nos documentos fiscais |
 | **03/ago/2026** | **Preenchimento de IBS/CBS vira OBRIGATÓRIO** para o regime regular (com a alíquota-teste de 1%) |
 | **jul/2026** | Contribuintes pessoa física de CBS/IBS devem se **inscrever no CNPJ** (não vira PJ por isso) |
-| **1 a 30/set/2026** | **JANELA DO SIMPLES NACIONAL** (ver seção 7) — decisão que vale de 1º/jan/2027 |
-| **até 30/nov/2026** | Prazo pra **cancelar** (irretratável) a opção pelo regime regular de IBS/CBS |
+| **1/set a 30/out/2026** | **JANELA DO SIMPLES NACIONAL** (prorrogada pela CGSN 194; era 30/set; ver seção 7) — decisão que vale de 1º/jan/2027 |
+| **3/nov a 20/dez/2026** | Prazo pra **cancelar** (irretratável) a opção pelo regime regular de IBS/CBS (era até 30/nov) |
 
 ---
 
@@ -119,9 +119,20 @@ salário mínimo por pessoa**. Automático nos casos previstos.
 
 ---
 
-## 7. ★ SIMPLES NACIONAL — a decisão de setembro (o conteúdo mais urgente)
+## 7. ★ SIMPLES NACIONAL — a decisão do regime de IBS/CBS (prazo prorrogado até 30/out/2026)
 
-**Fonte oficial: Receita Federal / Resolução CGSN nº 186/2026.**
+> ⚠ **ATUALIZAÇÃO 17/out/2026 — os prazos de setembro MUDARAM.** A **Resolução CGSN nº 194/2026** (publicada no DOU
+> em 28/set/2026) alterou a 186/2026. Conferido em duas fontes oficiais em 17/out:
+> [Serpro](https://www.serpro.gov.br/menu/noticias/noticias-2026/opcao-simples-hibrido) e
+> [Comitê Gestor do IBS](https://www.cgibs.gov.br/embora-os-periodos-sejam-parecidos-tratam-de-escolhas-diferentes-por-isso-e-importante-entender-cada-situacao).
+> - **Opção pelo regime regular de IBS e CBS: de 1º/set a 30/out/2026** (era 30/set), vale de jan a jun/2027, efeito em 1º/jan/2027.
+> - **Cancelamento: de 3/nov a 20/dez/2026** (era "até 30/nov"). Dá pra desistir depois de conhecer a alíquota.
+> - **A partir de 2027, opção ou renúncia em março e setembro de cada ano** (março vale pro 2º semestre).
+> - **Ingresso ou retorno ao Simples para 2027: até 15/out/2026** (regularizar pendência até 30/out). É outra escolha, não confundir.
+> - Empresas novas e MEI: as duas fontes não tratam. **Não afirmar** as regras antigas sobre elas sem conferir.
+> **Tudo abaixo com data de setembro ou 30/nov está superado.** Peças que diziam "a janela fechou em 30/set" ficaram erradas.
+
+**Fonte original: Receita Federal / Resolução CGSN nº 186/2026 (superada nos prazos pela 194/2026).**
 
 A partir de 2027, a empresa do Simples escolhe **como recolhe IBS e CBS**:
 
@@ -131,8 +142,8 @@ A partir de 2027, a empresa do Simples escolhe **como recolhe IBS e CBS**:
   exclui a empresa do Simples.**
 
 **Prazos (oficiais):**
-- **Opção: 1 a 30 de setembro de 2026** → efeitos a partir de **1º/jan/2027**
-- Cancelamento irretratável: até **30 de novembro de 2026**
+- ~~Opção: 1 a 30 de setembro de 2026~~ → **prorrogada até 30/out/2026** (CGSN 194), efeitos a partir de **1º/jan/2027**
+- Cancelamento irretratável: ~~até 30 de novembro~~ → **de 3/nov a 20/dez/2026**
 - A opção pelo regime regular vale para **jan–jun/2027**, com nova janela em
   **março/2027** para ajustar o 2º semestre
 - Empresas abertas entre **1º/out e 31/dez/2026** escolhem no próprio registro
