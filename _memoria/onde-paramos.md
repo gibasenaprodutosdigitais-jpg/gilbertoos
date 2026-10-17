@@ -37,8 +37,7 @@ e-mail. Regra dele: *"dois destes novos no dia e um dos que já estavam programa
 17 a 22/10, o 12h segue antigo.** Os 6 antigos do 18h de 17 a 22/10 foram para o **6h de 23 a 28/10** (nenhum se
 perdeu). Saem nas três redes juntas. Tudo em `saidas/REELS/reels-novos-2026-10-17/LEIA.md`, com os IDs da Zernio e
 **sete avisos pra ele** (conta bloqueada sem base no repositório, a frase dos herdeiros, a sociedade recente no
-"errei no contrato", o tom do Paraguai). Pendente: **capa**. Pus o quadro com o título; a decisão dele de 12/out era
-capa preta "por enquanto" e eu não perguntei de novo. Com os lotes 2, 3 e 4, **os Reels estão cobertos até 9/11 às 12h**.
+"errei no contrato", o tom do Paraguai). **Capa: o quadro do título, decidido por ele em 17/out.** Com os lotes 2, 3 e 4, **os Reels estão cobertos até 9/11 às 12h**.
 
 
 **Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir
@@ -796,10 +795,11 @@ mais.
 ⚠ **Ele continua aparecendo em `posts_list_failed`.** Não é problema novo e
 **não perguntar de novo** — a decisão está tomada.
 
-### Capa dos Reels: preta, "por enquanto"
+### Capa dos Reels: o quadro do título (decidido em 17/out)
 
-⚠ **17/out: os 50 Reels novos (lotes 1 a 4) saíram com a capa do quadro do título**, porque o primeiro quadro desses
-vídeos é preto. A decisão segue aberta: se ele preferir a preta, troca-se enquanto estiverem agendados.
+✅ **17/out: os 50 Reels novos (lotes 1 a 4) saíram com a capa do quadro do título** (o primeiro quadro desses vídeos
+é preto). Perguntei e ele respondeu: *"não, pode deixar assim"*. **Vale para os próximos lotes editados; não perguntar
+de novo.** O histórico abaixo (capa preta de 12/out) fica só como registro.
 
 Ele escolheu capa preta em 12/out/2026, depois de eu recomendar o frame do
 próprio vídeo. Disse **"por enquanto"**, então a decisão segue aberta.
