@@ -29,7 +29,6 @@
 - **Lotes 3 e 4 (28 vídeos) agendados** de 31/10 a 9/11, 3 por dia, com as legendas conferidas contra a fala.
   Ver `saidas/REELS/reels-lote-3-2026-10-17/LEIA.md`. **Reels cobertos até 9/11 às 12h.** Ainda na Downloads: o zip
   "Gilberto Reels antigos" (posts antigos do perfil, com código do Instagram no nome), não pedido.
-- **O salvamento no GitHub foi bloqueado pela permissão** na primeira tentativa; ver se subiu.
 
 **★ Novo em 17/out (2h): Reels em 3 por dia, e 12 vídeos novos na fila.** Ele pediu o terceiro horário às **6h**
 (grade do Instagram: **5h, 6h, 9h, 12h, 15h, 18h, 20h**) e mandou 12 vídeos já editados, que baixou do Drive e do
