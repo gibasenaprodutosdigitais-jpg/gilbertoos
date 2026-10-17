@@ -22,7 +22,7 @@ alimentando aos poucos — ver a seção logo abaixo.
 e ele aprovou ("pode deixar assim, está perfeito"), então esses dois dias têm 6. A grade por horário está no
 `cronograma-de-postagens.md`: faltam 30 horários até 31/10, 21 carrosséis e 9 reels.
 
-Dez já estão na fila ou no ar (16 a 20/out). O ponto de retomada está em
+Onze já estão na fila ou no ar (16 a 20/out, mais o DRE em 22/10). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
 **21/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`**, e **21/10 às 20h,
 `carrossel-5gs-gestao-tributaria-2026-07-17`**. O 22/10 às 15h tem o `dre-7-passos`, o
