@@ -204,8 +204,14 @@ na Zernio, legendas atualizadas. O original com "reflexo brilhante / ilustre pel
 aparece em fonte confiável para o sobrenome português** (vem de nomes próprios de outras culturas, de fontes
 fracas). O que está documentado: o Sena português vem de nome religioso cristão, em homenagem a **Santa Catarina
 de Sena**, e pode vir da cidade italiana de **Siena** (Dictionary of American Family Names, via Ancestry; site
-Italianismo). A legenda diz isso e cita "brilho e luz" só como "como nome próprio, em algumas culturas". Ele pode
-querer um segundo banner só do Sena, no mesmo estilo; não foi feito.
+Italianismo). A legenda diz isso e cita "brilho e luz" só como "como nome próprio, em algumas culturas". Ele pediu o banner do Sena e **foi feito**: ver abaixo.
+
+✅ **Banner do sobrenome Sena (16/out, a pedido dele):** `saidas/CARDS/banner-significado-sobrenome-sena-2026-10-16/`.
+Mesmo estilo (azul-noite e dourado, título dourado, três blocos com ícone), com **a foto real dele** à direita, não
+arte de IA. Só fatos documentados: origem religiosa (Santa Catarina de Sena, século XIV), a cidade de Siena
+(Toscana) e o Grupo Sena/GSena Hub; "brilho e luz" em nota, como nome próprio em algumas culturas. **Sem numerologia
+do Sena** (não tem fonte e não inventei). Agendado para **18/10 às 9h** em Instagram, TikTok, X
+(`6ad2bf2146f105e2c58792bc`) e YouTube, em vídeo de 14s (`6ad2bf228b4182d57320cf72`).
 
 ⚠ **Lição: legenda escrita por mim carrega afirmação que ele não fez.** Conferir
 a legenda contra a **fala** (transcrição em `entrada-videos/longos/edit/`), e

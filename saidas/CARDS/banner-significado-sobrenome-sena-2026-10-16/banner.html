@@ -1,0 +1,65 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#222}
+  .banner{width:1080px;height:1350px;position:relative;overflow:hidden;color:#F4F6FB;
+    font-family:'IBM Plex Sans',sans-serif;
+    background:linear-gradient(150deg,#0C2A4B 0%,#08162B 38%,#050A14 70%,#040509 100%)}
+  /* a foto dele à direita, fundo escuro que se funde no azul-noite */
+  .foto{position:absolute;right:-130px;top:120px;width:780px;height:1170px;
+    background:url('foto-gilberto.jpg') center top/cover no-repeat;
+    filter:saturate(.92) brightness(.92) contrast(1.05);
+    -webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.55) 24%,rgba(0,0,0,1) 46%),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 20%);
+    -webkit-mask-composite:source-in;
+    mask-image:linear-gradient(90deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.55) 24%,rgba(0,0,0,1) 46%),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 20%);
+    mask-composite:intersect}
+  .foto::after{content:"";position:absolute;inset:0;background:rgba(8,22,43,.22)}
+  .veu-esq{position:absolute;inset:0;
+    background:linear-gradient(90deg,rgba(8,22,43,.92) 0%,rgba(8,22,43,.82) 30%,rgba(8,22,43,.35) 50%,rgba(8,22,43,0) 66%)}
+  .veu-base{position:absolute;left:0;right:0;bottom:0;height:420px;
+    background:linear-gradient(0deg,#040509 0%,rgba(4,5,9,.92) 30%,rgba(4,5,9,0) 100%)}
+  .veu-topo{position:absolute;left:0;right:0;top:0;height:300px;
+    background:linear-gradient(180deg,rgba(8,22,43,.9) 0%,rgba(8,22,43,0) 100%)}
+  .titulo{position:absolute;left:76px;top:88px;font-family:'Oswald',sans-serif;font-weight:700;
+    font-size:236px;line-height:1;letter-spacing:.01em;text-transform:uppercase;
+    background:linear-gradient(180deg,#F6E3A1 0%,#E3BE5C 38%,#C79A32 62%,#EFD27E 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 6px 14px rgba(0,0,0,.45))}
+  .orn{position:absolute;left:76px;top:362px;width:600px;height:20px}
+  .intro{position:absolute;left:78px;top:410px;width:560px;font-size:30px;line-height:1.5;color:#EEF1F7}
+  .intro b{font-weight:500}
+  .bloco{position:absolute;left:0;width:760px;height:200px}
+  .bloco .ic{position:absolute;left:70px;top:30px;width:96px;height:96px;display:flex;align-items:center;justify-content:center}
+  .bloco .ic svg{width:78px;height:78px;stroke:#D9B14E;fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+  .bloco .ic img{width:92px;height:92px;object-fit:contain}
+  .bloco .lin{position:absolute;left:196px;top:12px;width:2px;height:150px;background:rgba(217,177,78,.75)}
+  .bloco .tx{position:absolute;left:226px;top:8px;width:440px}
+  .bloco h3{font-weight:600;font-size:34px;letter-spacing:.01em;text-transform:uppercase;color:#E0B955;line-height:1.15;margin-bottom:10px}
+  .bloco p{font-size:29px;line-height:1.42;color:#EEF1F7}
+  .nota{position:absolute;left:78px;top:1196px;width:560px;font-size:23px;line-height:1.45;font-style:italic;color:rgba(238,241,247,.78)}
+  .nota b{font-weight:500;font-style:normal;color:#E0B955}
+  .rodape{position:absolute;left:70px;right:70px;bottom:44px;height:20px}
+</style>
+<div class="banner">
+  <div class="foto"></div>
+  <div class="veu-esq"></div><div class="veu-base"></div><div class="veu-topo"></div>
+  <div class="titulo">Sena</div>
+  <svg class="orn" viewBox="0 0 600 20"><defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0"><stop offset="0" stop-color="#D9B14E" stop-opacity="0"/><stop offset=".12" stop-color="#D9B14E"/><stop offset=".88" stop-color="#D9B14E"/><stop offset="1" stop-color="#D9B14E" stop-opacity="0"/></linearGradient></defs>
+    <line x1="0" y1="10" x2="268" y2="10" stroke="url(#g)" stroke-width="1.6"/><line x1="332" y1="10" x2="600" y2="10" stroke="url(#g)" stroke-width="1.6"/>
+    <path d="M300 2 L312 10 L300 18 L288 10 Z" fill="none" stroke="#D9B14E" stroke-width="1.8"/><circle cx="276" cy="10" r="3" fill="none" stroke="#D9B14E" stroke-width="1.5"/><circle cx="324" cy="10" r="3" fill="none" stroke="#D9B14E" stroke-width="1.5"/></svg>
+  <div class="intro">Significado do Sobrenome Sena:<br>Nos registros de sobrenomes portugueses, Sena vem de um nome religioso cristão.</div>
+
+  <div class="bloco" style="top:622px"><div class="ic"><svg viewBox="0 0 64 64"><path d="M32 5 V59 M13 23 H51"/></svg></div><div class="lin"></div>
+    <div class="tx"><h3>A origem</h3><p>Adotado em homenagem a Santa Catarina de Sena, do século XIV.</p></div></div>
+
+  <div class="bloco" style="top:808px"><div class="ic"><svg viewBox="0 0 64 64"><path d="M32 60 C32 60 11 39 11 26 a21 21 0 0 1 42 0 C53 39 32 60 32 60 Z"/><circle cx="32" cy="26" r="7.5"/></svg></div><div class="lin"></div>
+    <div class="tx"><h3>O lugar</h3><p>Pode ter vindo da cidade italiana de Siena, na Toscana.</p></div></div>
+
+  <div class="bloco" style="top:994px"><div class="ic"><img src="_logo-gsena.png"></div><div class="lin"></div>
+    <div class="tx"><h3>Hoje</h3><p>Está na frente do Grupo Sena e do GSena Hub.</p></div></div>
+
+  <div class="nota">Como nome próprio, em algumas culturas, aparece ligado a <b>“brilho”</b> e <b>“luz”</b>.</div>
+  <svg class="rodape" viewBox="0 0 940 20"><line x1="0" y1="10" x2="430" y2="10" stroke="#D9B14E" stroke-opacity=".6" stroke-width="1.4"/><line x1="510" y1="10" x2="940" y2="10" stroke="#D9B14E" stroke-opacity=".6" stroke-width="1.4"/><path d="M470 2 L482 10 L470 18 L458 10 Z" fill="none" stroke="#D9B14E" stroke-width="1.6"/></svg>
+</div>

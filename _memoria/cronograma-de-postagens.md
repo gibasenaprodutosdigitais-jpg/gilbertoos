@@ -27,6 +27,8 @@ Quando eu mexer na fila, atualizo este arquivo.
 | 18/10 dom | 05h00 | Instagram | card | Entregue valor real. O cliente percebe quando há cuidado em cada etap… |
 | 18/10 dom | 06h00 | YouTube | reels | O fim do IPI em 2027 não é bondade com a indústria. É escudo pra Zona… |
 | 18/10 dom | 12h00 | Instagram | reels | O mesmo dinheiro tributado quatro vezes. E é legal. O imposto é recol… |
+| 18/10 dom | 09h00 | Instagram + TikTok + X | card | Todo sobrenome tem uma história que começa antes da gente… (banner do Sena) |
+| 18/10 dom | 09h00 | YouTube | vídeo | Todo sobrenome tem uma história que começa antes da gente… (o mesmo banner, em vídeo de 14s) |
 | 18/10 dom | 12h00 | YouTube | reels | A manipulação mais perigosa não vem de fora. É a que você faz com voc… |
 | 18/10 dom | 15h00 | Instagram | carrossel | Se você é revendedor de carro, você pode estar pagando 32% de imposto… |
 | 18/10 dom | 18h00 | Instagram | reels | Quem vende online tem dois prazos correndo agora, e os dois mexem no… |
@@ -88,10 +90,10 @@ agendado em lugar nenhum. Os posts de antes das 20h do dia 16 já foram ao ar.
 
 | Rede | Posts na fila | O quê | Até quando |
 |---|---|---|---|
-| Instagram | 56 | 26 cards, 21 reels, 9 carrosséis | 31/10 às 5h (Provérbios) |
-| YouTube | 21 | 20 reels e 1 vídeo do banner do nome | 29/10 |
-| TikTok | 17 | 16 reels e 1 foto (banner do nome) | 29/10 |
-| X (@gilbertosenaofc) | 1 | banner do nome | 17/10 |
+| Instagram | 57 | 27 cards, 21 reels, 9 carrosséis | 31/10 às 5h (Provérbios) |
+| YouTube | 22 | 20 reels e 2 vídeos dos banners do nome | 29/10 |
+| TikTok | 18 | 16 reels e 2 fotos (banners do nome) | 29/10 |
+| X (@gilbertosenaofc) | 2 | banners do nome e do Sena | 18/10 |
 
 **Carrosséis: 9 na fila, e o último é 22/10 às 15h (DRE).** O 7-mudancas já foi ao ar em 16/10 às 21h. Faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
