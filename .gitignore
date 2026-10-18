@@ -104,3 +104,6 @@ saidas/reels-antigos-amostra-2026-10-14/quadros/
 
 # cards diarios: versiona so o JPEG, o PNG e intermediario
 saidas/cards-frases-proverbios-31/instagram/
+
+# Série A Base da Gestão (18/out): os .mp4 passam de 100MB; ficam só no computador
+**/serie-a-base-da-gestao*/*.mp4
