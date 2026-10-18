@@ -65,7 +65,6 @@ Os IDs, os horários e as legendas estão em `saidas/REELS/reels-novos-2026-10-1
 | 22/10 qui | 15h00 | Instagram | carrossel | Todo mês a sua empresa te entrega um relatório contando exatamente o… (DRE, veio do 17/10) |
 | 22/10 qui | 18h00 | Instagram + TikTok + YouTube | reels | Você acha que é espertão, que vai dar o pulo do gato?… (Patrimônio no nome do genro) **(NOVO, 17/out)** |
 | 23/10 sex | 05h00 | Instagram | card | Não copie o caminho de outros empreendedores. Trabalhe para construir… |
-| 23/10 sex | 06h00 | Instagram | reels | Quantos Gilbertos tem lá fora? Gente que está perdida e que precisa o… (movido de 17/10 sáb 18h, 17/out) |
 | 23/10 sex | 06h00 | Instagram + TikTok + YouTube | reels | Simples Nacional em 2027: antes de optar pelo híbrido, faça a conta.… **(lote 2)** |
 | 23/10 sex | 09h00 | Instagram | card | Quando o plano muda, sua capacidade de se adaptar também faz parte do… |
 | 23/10 sex | 12h00 | Instagram + TikTok + YouTube | reels | A CBS não vai chegar em 2027. Ela já está na sua nota fiscal desde ja… |
@@ -77,6 +76,7 @@ Os IDs, os horários e as legendas estão em `saidas/REELS/reels-novos-2026-10-1
 | 25/10 dom | 05h00 | Instagram | card | Deixe que seu trabalho fale por você. Reputação se constrói com entre… |
 | 25/10 dom | 06h00 | Instagram | reels | O sucesso dos maus é o silêncio dos bons. Tem muita gente boa de palc… (movido de 19/10 seg 18h, 17/out) |
 | 25/10 dom | 12h00 | Instagram + TikTok + YouTube | reels | Simples híbrido. O que que tem de simples nisso? A partir de 2027 que… |
+| 25/10 dom | 18h00 | Instagram | reels | Quantos Gilbertos tem lá fora? Gente que está perdida e que precisa o… (movido de 23/10 6h pelo lote 2, 17/out) |
 | 26/10 seg | 05h00 | Instagram | card | Seja confiável nos acordos pequenos. É assim que se prepara para resp… |
 | 26/10 seg | 06h00 | Instagram | reels | A manipulação mais perigosa não vem de fora. É a que você faz com voc… (movido de 20/10 ter 18h, 17/out) |
 | 26/10 seg | 09h00 | Instagram | card | Seu próximo cliente pode chegar pela confiança que você construiu no… |
