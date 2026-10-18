@@ -788,7 +788,22 @@ cabe antes de mandar qualquer coisa para o YouTube.**
 
 ---
 
-### ★ Análise de cadência — agendada para 18/out/2026
+### ★ Análise de cadência — feita em 18/out/2026, falta a decisão dele
+
+**Resultado (Instagram, Zernio, lido em 18/out às 18h; posts de 18/10 fora da média, ainda acumulando):**
+
+| Média por post | Alcance | Curtidas | Compartilhamentos |
+|---|---|---|---|
+| Música clássica, 10 a 12/10 (18 reels) | 3.287 | 298 | 86 |
+| Gestão, reels, 13 a 17/10 (13) | 593 | 11 | 0 |
+| Gestão, cards e carrosséis, 13 a 17/10 (16) | 1.301 | 12 | 2 |
+
+- **Mais post não somou alcance:** o alcance do dia ficou parado em 6 a 7 mil com 6, 7 ou 8 posts. Diluiu o mesmo bolo.
+- **Seguidores desacelerando:** +562 e +504 por dia em 11 e 12/10 (música), depois +212, +110, +69, +85 e +50.
+- **Única melhora:** compartilhamentos por dia subiram de 1 (13 e 14/10) para 12 a 21 (16 a 18/10).
+- **Minha leitura, entregue a ele:** o problema não é o horário, é a audiência de 105 mil ter vindo pela música e
+  ainda não responder ao conteúdo de gestão. Recomendei cortar de 7 para 2 ou 3 posts por dia. **Nada foi mudado na
+  fila.** Perguntei como os 105 mil seguidores foram construídos.
 
 Em 13/out ele trouxe um método de terceiro (cards atribuídos a "Nardon",
 marca Advisor News) pedindo 12 posts por dia. **A regra e o que foi aceito e
