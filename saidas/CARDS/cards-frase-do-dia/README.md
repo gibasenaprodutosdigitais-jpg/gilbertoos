@@ -1,6 +1,7 @@
 # Série semanal: frase do dia
 
-**5 frases, de segunda a sexta.** Repete toda semana. Sem card no fim de semana.
+**Uma frase por dia, todos os dias, inclusive fim de semana** (desde 18/out/2026; antes era só segunda a sexta).
+Nenhuma frase repete: conferir `ja-usadas.md` antes de montar.
 
 Irmã da série de Provérbios: mesma paleta e a mesma faixa de ouro na lateral.
 A composição é invertida de propósito, pra o seguidor reconhecer qual é qual

@@ -1,6 +1,6 @@
 # Cronograma de postagens
 
-Fila real da Zernio, **lida e conferida em 18/out/2026, 19h**, depois da reorganização. Horário de Brasília.
+Fila real da Zernio, **lida e conferida em 18/out/2026, 19h**, depois da reorganização; **atualizada às 19h10** com as frases e os carrosséis novos. Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
 
 ## A grade desde 19/out (decisão dele em 18/out)
@@ -11,11 +11,11 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
-| **Instagram** | **5h** Provérbios · **9h** frase do dia (só dia útil) · **12h** um reel novo · **20h** carrossel | reels até **3/12**; Provérbios até 31/10; frase até 30/10; carrossel até **23/10** |
+| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **20h** carrossel | reels até **3/12**; Provérbios até 31/10; frase até **7/11** (e 30/11); carrossel até **30/10** |
 | **YouTube** | **5 reels por dia: 7h, 10h, 13h, 16h, 19h** (antigos e novos) | até **30/10 às 10h**; depois, nada |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até 9/11 |
 
-- **Fim de semana no Instagram: 3 posts** (sem a frase do dia, regra dele de 16/out).
+- **A frase do dia passou a sair todo dia, inclusive fim de semana** (pedido dele em 18/out). Então são 4 posts todo dia.
 - **Reels novos** = os lotes de 17/out (lote 1, 2, 3 e 4). Os dois do prazo do Simples foram adiantados pro Instagram
   de 20 e 22/10, pela regra *nada com data depois da data* (prazo 30/10).
 - **Reels antigos saíram do Instagram.** Os 8 que eram só do Instagram estão como **rascunho na Zernio** (nada apagado):
@@ -28,12 +28,12 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | O quê | A partir de | Quanto |
 |---|---|---|
-| Carrossel das 20h | **24/10** | 1 por dia (os 31 que faltam cobrem até 23/11) |
-| Frase do dia das 9h | **2/11** (segunda) | 1 por dia útil |
+| Carrossel das 20h | **31/10** | 1 por dia. Ver os segurados em `saidas/CARROSSEIS/_PLANO-DA-FILA.md` |
 | Provérbios das 5h | **1/11** | legendas dos dias 1 a 15 e a foto de novembro |
+| Frase do dia das 9h | **8/11** (e de 8 a 29/11) | 22 frases novas (o 30/11 já está agendado) |
 | YouTube | **30/10 às 13h** | 5 reels por dia: precisa de vídeo novo (cortes das gravações do carro) |
 
-## Post a post (gerado da fila em 18/out)
+## Post a post (gerado da fila em 18/out, 19h10)
 
 | Dia | Hora | Onde | O quê | Começo do texto |
 |---|---|---|---|---|
@@ -83,7 +83,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 22/10 qui | 16h00 | YouTube | reels | Faturamento é ego. Margem é o que paga a conta. |
 | 22/10 qui | 18h00 | TikTok | reels | Você acha que é espertão, que vai dar o pulo do gato? Você vai se ferr… |
 | 22/10 qui | 19h00 | YouTube | reels | Tem empresário que fatura bem e não sabe dizer o que é capital de giro… |
-| 22/10 qui | 20h00 | Instagram | carrossel | Sete vezes eu quebrei. Nenhuma foi motivo pra parar. |
+| 22/10 qui | 20h00 | Instagram | carrossel | Seu problema não é gestão. É autoconhecimento. |
 | 23/10 sex | 05h00 | Instagram | card | Não copie o caminho de outros empreendedores. Trabalhe para construir … |
 | 23/10 sex | 06h00 | TikTok | reels | Simples Nacional em 2027: antes de optar pelo híbrido, faça a conta. |
 | 23/10 sex | 07h00 | YouTube | reels | Split payment. Traduzindo o nome bonito: o imposto sai antes de entrar… |
@@ -98,6 +98,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 23/10 sex | 20h00 | Instagram | carrossel | Todo mês a sua empresa te entrega um relatório contando exatamente o q… |
 | 24/10 sáb | 05h00 | Instagram | card | Talento chama atenção. Caráter e reverência a Deus dão fundamento ao q… |
 | 24/10 sáb | 07h00 | YouTube | reels | Quantas pessoas venderam que você ia ganhar milhões trabalhando duas h… |
+| 24/10 sáb | 09h00 | Instagram | card | Uma empresa forte não depende de urgência para entregar qualidade. |
 | 24/10 sáb | 10h00 | YouTube | reels | O empresário que não divide, não multiplica. |
 | 24/10 sáb | 12h00 | TikTok | reels | Deram a ele o apelido de imposto do pecado. Bonito. Mas repara no que … |
 | 24/10 sáb | 12h00 | Instagram | reels | Quebrar o negócio não é só fechar as portas e ir pra sarjeta. |
@@ -105,14 +106,17 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 24/10 sáb | 16h00 | YouTube | reels | Apostaram que eu não ia durar seis meses em Alphaville. |
 | 24/10 sáb | 18h00 | TikTok | reels | Um professor universitário disse que a primeira economia que o empresá… |
 | 24/10 sáb | 19h00 | YouTube | reels | Muita empresa vai quebrar em 2027. E eu já vi como isso começa. |
+| 24/10 sáb | 20h00 | Instagram | carrossel | O relógio do seu patrimônio já começou a correr, e a maioria dos donos… |
 | 25/10 dom | 05h00 | Instagram | card | Deixe que seu trabalho fale por você. Reputação se constrói com entreg… |
 | 25/10 dom | 07h00 | YouTube | reels | Por que você não me perguntou se eu sou canhoto ou destro? |
+| 25/10 dom | 09h00 | Instagram | card | O cliente pode esquecer o discurso. Ele lembra de como foi tratado. |
 | 25/10 dom | 10h00 | YouTube | reels | O que falta na humanidade hoje é paternidade. Não de ser pai, de ser p… |
 | 25/10 dom | 12h00 | Instagram | reels | Quer ir pro Paraguai? Então pega suas coisas, seus negócios e vai vive… |
 | 25/10 dom | 12h00 | TikTok | reels | Simples híbrido. O que que tem de simples nisso? |
 | 25/10 dom | 13h00 | YouTube | reels | Quem não sabe precificar, quebra. |
 | 25/10 dom | 16h00 | YouTube | reels | Eu aluguei um Tiguan por dois dias. Foi caro, mas foi investimento. |
 | 25/10 dom | 19h00 | YouTube | reels | Um dos maiores erros do empresário: misturar o dinheiro da empresa com… |
+| 25/10 dom | 20h00 | Instagram | carrossel | Sete vezes eu quebrei. Nenhuma foi motivo pra parar. |
 | 26/10 seg | 05h00 | Instagram | card | Seja confiável nos acordos pequenos. É assim que se prepara para respo… |
 | 26/10 seg | 07h00 | YouTube | reels | Em 2024 eu atendi vários empresários nessa mesa. Hoje, 90% quebraram. |
 | 26/10 seg | 09h00 | Instagram | card | Seu próximo cliente pode chegar pela confiança que você construiu no a… |
@@ -123,6 +127,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 26/10 seg | 16h00 | YouTube | reels | De R$ 300 mil por mês, numa mesa de café, a R$ 5,5 milhões em três ano… |
 | 26/10 seg | 18h00 | TikTok | reels | Academia no Simples híbrido: a conta não fecha. |
 | 26/10 seg | 19h00 | YouTube | reels | De que vale uma Ferrari nas ruas de pedra de Ouro Preto? Você vai acel… |
+| 26/10 seg | 20h00 | Instagram | carrossel | E-book continua imune ao IBS e à CBS. Mas a maioria não sabe de onde v… |
 | 27/10 ter | 05h00 | Instagram | card | Uma liderança sábia pensa no impacto das decisões sobre quem trabalha … |
 | 27/10 ter | 07h00 | YouTube | reels | "Eu fiz, eu faço de novo. É do meu jeito." O pior pilar de um negócio … |
 | 27/10 ter | 09h00 | Instagram | card | Crescer com consistência pede decisões claras, mesmo quando elas são d… |
@@ -133,6 +138,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 27/10 ter | 16h00 | YouTube | reels | Foi assim que eu comecei: achando um bug da Matrix na conta de telefon… |
 | 27/10 ter | 18h00 | TikTok | reels | Faturamento é ego. Margem é o que paga a conta. |
 | 27/10 ter | 19h00 | YouTube | reels | Se você fez R$ 3.000 uma vez, esquece: esse cliente nunca mais vai pag… |
+| 27/10 ter | 20h00 | Instagram | carrossel | Um vendedor morto há décadas ainda ensina mais que a maioria dos curso… |
 | 28/10 qua | 05h00 | Instagram | card | A disciplina de hoje pode se tornar a tranquilidade de amanhã. |
 | 28/10 qua | 06h00 | TikTok | reels | Tem empresário que fatura bem e não sabe dizer o que é capital de giro… |
 | 28/10 qua | 07h00 | YouTube | reels | Ele salvou a empresa. E no final ouviu que não fez nada. |
@@ -144,6 +150,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 28/10 qua | 16h00 | YouTube | reels | Se eu tivesse a lâmpada do Aladim, eu ia pedir pra voltar três anos at… |
 | 28/10 qua | 18h00 | TikTok | reels | Seu contador só manda guia? |
 | 28/10 qua | 19h00 | YouTube | reels | O processo de contratação não começa na entrevista. Começa meses antes… |
+| 28/10 qua | 20h00 | Instagram | carrossel | Toda sociedade que desmancha vira guerra. |
 | 29/10 qui | 05h00 | Instagram | card | Generosidade não enfraquece um negócio. Ela lembra por que vale a pena… |
 | 29/10 qui | 06h00 | TikTok | reels | Imagina a Coca-Cola vendendo direto pra você. Qual a chance de dar cer… |
 | 29/10 qui | 07h00 | YouTube | reels | É claro que muita empresa vai quebrar. E vai ser por culpa do empresár… |
@@ -155,6 +162,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 29/10 qui | 16h00 | YouTube | reels | Eu desconheço outra forma de prosperar a não ser empreendendo. |
 | 29/10 qui | 18h00 | TikTok | reels | Um cliente só respondia por quase R$ 1 milhão de faturamento por mês. … |
 | 29/10 qui | 19h00 | YouTube | reels | Honra a sua responsabilidade. Paga seu prestador de serviço. Paga seus… |
+| 29/10 qui | 20h00 | Instagram | carrossel | E-book tem imunidade constitucional. Curso, mentoria e comunidade não.… |
 | 30/10 sex | 05h00 | Instagram | card | O sucesso não precisa custar seus valores. Faça escolhas das quais voc… |
 | 30/10 sex | 06h00 | TikTok | reels | Quantas pessoas venderam que você ia ganhar milhões trabalhando duas h… |
 | 30/10 sex | 07h00 | YouTube | reels | "O sucesso dos maus é o silêncio dos bons." Hoje isso é a regra. |
@@ -163,36 +171,45 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 30/10 sex | 12h00 | TikTok | reels | O empresário que não divide, não multiplica. |
 | 30/10 sex | 12h00 | Instagram | reels | Seu contador só manda guia? |
 | 30/10 sex | 18h00 | TikTok | reels | Quanto maior você é, maior o estrago de um passo errado. |
+| 30/10 sex | 20h00 | Instagram | carrossel | Médico tem 60% de desconto na reforma, não 30%. Mas isso só vale se o … |
 | 31/10 sáb | 05h00 | Instagram | card | Feche o mês com gratidão pelo que avançou e humildade para aprender o … |
 | 31/10 sáb | 06h00 | TikTok | reels | Apostaram que eu não ia durar seis meses em Alphaville. |
+| 31/10 sáb | 09h00 | Instagram | card | Seu preço comunica valor. Saiba explicar o que existe por trás dele. |
 | 31/10 sáb | 12h00 | Instagram | reels | Imagina a Coca-Cola vendendo direto pra você. Qual a chance de dar cer… |
 | 31/10 sáb | 12h00 | TikTok | reels | Muita empresa vai quebrar em 2027. E eu já vi como isso começa. |
 | 31/10 sáb | 18h00 | TikTok | reels | Por que você não me perguntou se eu sou canhoto ou destro? |
 | 01/11 dom | 06h00 | TikTok | reels | O que falta na humanidade hoje é paternidade. Não de ser pai, de ser p… |
+| 01/11 dom | 09h00 | Instagram | card | Seu negócio muda quando você para de esperar o momento perfeito e come… |
 | 01/11 dom | 12h00 | TikTok | reels | Quem não sabe precificar, quebra. |
 | 01/11 dom | 12h00 | Instagram | reels | Um cliente só respondia por quase R$ 1 milhão de faturamento por mês. … |
 | 01/11 dom | 18h00 | TikTok | reels | Eu aluguei um Tiguan por dois dias. Foi caro, mas foi investimento. |
 | 02/11 seg | 06h00 | TikTok | reels | Um dos maiores erros do empresário: misturar o dinheiro da empresa com… |
+| 02/11 seg | 09h00 | Instagram | card | Toda venda começa muito antes do “sim”: começa em como você escuta. |
 | 02/11 seg | 12h00 | TikTok | reels | Em 2024 eu atendi vários empresários nessa mesa. Hoje, 90% quebraram. |
 | 02/11 seg | 12h00 | Instagram | reels | Quantas pessoas venderam que você ia ganhar milhões trabalhando duas h… |
 | 02/11 seg | 18h00 | TikTok | reels | Traz um contrato com R$ 10 milhões de multa. Eu assino. |
 | 03/11 ter | 06h00 | TikTok | reels | Você acha que o dinheiro é seu. E o dinheiro não é seu. |
+| 03/11 ter | 09h00 | Instagram | card | Quem conhece os próprios custos negocia com mais segurança. |
 | 03/11 ter | 12h00 | TikTok | reels | De R$ 300 mil por mês, numa mesa de café, a R$ 5,5 milhões em três ano… |
 | 03/11 ter | 12h00 | Instagram | reels | O empresário que não divide, não multiplica. |
 | 03/11 ter | 18h00 | TikTok | reels | De que vale uma Ferrari nas ruas de pedra de Ouro Preto? Você vai acel… |
 | 04/11 qua | 06h00 | TikTok | reels | "Eu fiz, eu faço de novo. É do meu jeito." O pior pilar de um negócio … |
+| 04/11 qua | 09h00 | Instagram | card | Delegar bem também é trabalho de liderança. |
 | 04/11 qua | 12h00 | TikTok | reels | Pejotização: o empresário é o espertão e, lá na frente, a conta vem tr… |
 | 04/11 qua | 12h00 | Instagram | reels | Quanto maior você é, maior o estrago de um passo errado. |
 | 04/11 qua | 18h00 | TikTok | reels | O vizinho montou uma empresa de crepe e está vendendo muito. Aí o cara… |
 | 05/11 qui | 06h00 | TikTok | reels | Foi assim que eu comecei: achando um bug da Matrix na conta de telefon… |
+| 05/11 qui | 09h00 | Instagram | card | Nem todo crescimento é saudável. Expanda no ritmo que sua estrutura co… |
 | 05/11 qui | 12h00 | Instagram | reels | Apostaram que eu não ia durar seis meses em Alphaville. |
 | 05/11 qui | 12h00 | TikTok | reels | Se você fez R$ 3.000 uma vez, esquece: esse cliente nunca mais vai pag… |
 | 05/11 qui | 18h00 | TikTok | reels | Ele salvou a empresa. E no final ouviu que não fez nada. |
 | 06/11 sex | 06h00 | TikTok | reels | Não saia da operação. Saia do operacional. |
+| 06/11 sex | 09h00 | Instagram | card | A coragem de rever uma decisão pode valer mais do que insistir nela. |
 | 06/11 sex | 12h00 | Instagram | reels | Muita empresa vai quebrar em 2027. E eu já vi como isso começa. |
 | 06/11 sex | 12h00 | TikTok | reels | O imposto tem que ser pago. Isso é bíblico. |
 | 06/11 sex | 18h00 | TikTok | reels | Se eu tivesse a lâmpada do Aladim, eu ia pedir pra voltar três anos at… |
 | 07/11 sáb | 06h00 | TikTok | reels | O processo de contratação não começa na entrevista. Começa meses antes… |
+| 07/11 sáb | 09h00 | Instagram | card | Cada processo que você organiza devolve tempo para pensar no futuro. |
 | 07/11 sáb | 12h00 | Instagram | reels | Por que você não me perguntou se eu sou canhoto ou destro? |
 | 07/11 sáb | 12h00 | TikTok | reels | É claro que muita empresa vai quebrar. E vai ser por culpa do empresár… |
 | 07/11 sáb | 18h00 | TikTok | reels | Não quer pagar treinamento pro seu funcionário? Acostume-se a pagar 2 … |
@@ -223,6 +240,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 27/11 sex | 12h00 | Instagram | reels | É claro que muita empresa vai quebrar. E vai ser por culpa do empresár… |
 | 28/11 sáb | 12h00 | Instagram | reels | Não quer pagar treinamento pro seu funcionário? Acostume-se a pagar 2 … |
 | 29/11 dom | 12h00 | Instagram | reels | Vender a qualquer custo começa a pecar na qualidade. E o que manda de … |
+| 30/11 seg | 09h00 | Instagram | card | Termine o mês com uma conquista para celebrar e uma lição para levar a… |
 | 30/11 seg | 12h00 | Instagram | reels | Eu desconheço outra forma de prosperar a não ser empreendendo. |
 | 01/12 ter | 12h00 | Instagram | reels | Honra a sua responsabilidade. Paga seu prestador de serviço. Paga seus… |
 | 02/12 qua | 12h00 | Instagram | reels | "O sucesso dos maus é o silêncio dos bons." Hoje isso é a regra. |

@@ -68,5 +68,82 @@
   "frase": "Feche o mês com uma pergunta: o que você aprendeu que vai fazer diferente daqui para a frente?",
   "data": "2026-10-30",
   "chars": 94
+ },
+ {
+  "dia": "dia-24",
+  "rotulo": "Sábado",
+  "frase": "Uma empresa forte não depende de urgência para entregar qualidade.",
+  "data": "2026-10-24",
+  "chars": 66
+ },
+ {
+  "dia": "dia-25",
+  "rotulo": "Domingo",
+  "frase": "O cliente pode esquecer o discurso. Ele lembra de como foi tratado.",
+  "data": "2026-10-25",
+  "chars": 67
+ },
+ {
+  "dia": "dia-31",
+  "rotulo": "Sábado",
+  "frase": "Seu preço comunica valor. Saiba explicar o que existe por trás dele.",
+  "data": "2026-10-31",
+  "chars": 68
+ },
+ {
+  "dia": "nov-01",
+  "rotulo": "Domingo",
+  "frase": "Seu negócio muda quando você para de esperar o momento perfeito e começa a testar ideias.",
+  "data": "2026-11-01",
+  "chars": 89
+ },
+ {
+  "dia": "nov-02",
+  "rotulo": "Segunda-feira",
+  "frase": "Toda venda começa muito antes do “sim”: começa em como você escuta.",
+  "data": "2026-11-02",
+  "chars": 67
+ },
+ {
+  "dia": "nov-03",
+  "rotulo": "Terça-feira",
+  "frase": "Quem conhece os próprios custos negocia com mais segurança.",
+  "data": "2026-11-03",
+  "chars": 59
+ },
+ {
+  "dia": "nov-04",
+  "rotulo": "Quarta-feira",
+  "frase": "Delegar bem também é trabalho de liderança.",
+  "data": "2026-11-04",
+  "chars": 43
+ },
+ {
+  "dia": "nov-05",
+  "rotulo": "Quinta-feira",
+  "frase": "Nem todo crescimento é saudável. Expanda no ritmo que sua estrutura consegue sustentar.",
+  "data": "2026-11-05",
+  "chars": 87
+ },
+ {
+  "dia": "nov-06",
+  "rotulo": "Sexta-feira",
+  "frase": "A coragem de rever uma decisão pode valer mais do que insistir nela.",
+  "data": "2026-11-06",
+  "chars": 68
+ },
+ {
+  "dia": "nov-07",
+  "rotulo": "Sábado",
+  "frase": "Cada processo que você organiza devolve tempo para pensar no futuro.",
+  "data": "2026-11-07",
+  "chars": 68
+ },
+ {
+  "dia": "nov-30",
+  "rotulo": "Segunda-feira",
+  "frase": "Termine o mês com uma conquista para celebrar e uma lição para levar adiante.",
+  "data": "2026-11-30",
+  "chars": 77
  }
 ]

@@ -50,8 +50,37 @@ que estavam na fila agora saem às 20h: 19/10 `imobiliario-aluguel`, 20/10 `12-p
 `pf-autonomo-cbs`, 22/10 `5gs-gestao-financeira` ("Sete vezes eu quebrei"), 23/10 `dre-7-passos`. **Não existe mais
 horário das 15h.** A tabela acima é histórico da grade antiga.
 
-**Próximo a enfileirar:** **24/10 às 20h, `carrossel-redutor-ajuste-construcao-2026-08-30`**, depois
-`carrossel-5gs-gestao-tributaria-2026-07-17` em 25/10, e assim por diante, um por dia.
+**18/out, 19h: a semana de 22 a 30/10 está fechada, um por dia às 20h:**
+
+| Dia | Carrossel |
+|---|---|
+| 22/10 | `5gs-gestao-de-si` (1 de 5), no lugar do Financeira |
+| 23/10 | `dre-7-passos` |
+| 24/10 | `redutor-ajuste-construcao` |
+| 25/10 | `5gs-gestao-financeira` (2 de 5), veio do 22/10 |
+| 26/10 | `reforma-ebooks` |
+| 27/10 | `10-pergaminhos-maior-vendedor` |
+| 28/10 | `dissolucao-sociedade` |
+| 29/10 | `reforma-infoprodutores` |
+| 30/10 | `reforma-medicos` |
+
+**Próximo a enfileirar: 31/10 às 20h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
+`biomedicina-reforma`, `comercio-reforma`, `ecommerce-alerta`, `educacao-reforma`, `entregadores-app-reforma`,
+`medicos-reforma-08-27` (tema repetido com o de 30/10: espaçar), `odontologia-reforma`, `reforma-ecommerce` e
+`industria-reforma` (os dois últimos: ler contra a notícia do IS de 8/out), `saude-geral-reforma`,
+`servicos-alerta`, `10-ebooks-leitura` (12 lâminas, ele decide).
+
+### ⛔ Segurados em 18/out (não subir sem resolver)
+
+| Carrossel | Por quê |
+|---|---|
+| `5gs-gestao-tributaria` (4 de 5) | lâmina 7 e legenda com prazos vencidos ("31 de julho", "em setembro abre a janela do Simples") |
+| `5gs-fornecedores-clientes` (5 de 5, "série completa") | **o 3 de 5 (Gestão de Pessoas) não existe.** Sair sem ele quebra a série |
+| `simples-hibrido` | gancho "perdeu a janela de setembro"; o prazo agora é 30/10 |
+| `reforma-representante-comercial` | lâmina 8: "janela 1 a 30/09" e "cancelamento até 30/11" |
+| `forjado-imersao` | anuncia uma imersão ("comenta FORJADO que eu te aviso"); confirmar com ele se existe |
+| `rede-de-mastermind` | critica grupo pago de acesso; com ele diretor do Instituto Êxito e a proposta do Reestruturando em curso, pode soar como recado. **Decisão dele** |
+| `agronegocio-reforma`, `textil-alerta`, `transportadoras-reforma`, `transportes-reforma`, `tecnologia-saas-reforma` | a varredura achou "setembro", "30/11" ou "autônomo": ler antes |
 
 ⚠ **A coluna das 15h mexeu três vezes em 16/out** (IPI saiu, o imobiliário entrou no 19/10, o DRE foi pro 22/10 e o reposte do 7-mudancas já saiu do 21/10). Hoje ela termina em 05/11, sem horário vago. **31 carrosséis por enfileirar**: 16 nas 20h (21/10 a 05/11) e 15 nas 15h (21/10 e de 23/10 a 05/11).
 

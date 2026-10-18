@@ -23,12 +23,31 @@ Anotar **no dia em que agenda**, não depois.
 | 29/out | quinta | Cuide do caixa com a mesma atenção que dedica às vendas. Os dois mantêm o negócio de pé. | ✅ IG · ⏳ TikTok |
 | 30/out | sexta | Feche o mês com uma pergunta: o que você aprendeu que vai fazer diferente daqui para a frente? | ✅ IG · ⏳ TikTok |
 
-**Outubro está fechado.** O dia 31 cai num sábado, e no fim de semana não tem
-frase do dia.
+| 24/out | sábado | Uma empresa forte não depende de urgência para entregar qualidade. | ⏳ IG (`6ad5404b…`) |
+| 25/out | domingo | O cliente pode esquecer o discurso. Ele lembra de como foi tratado. | ⏳ IG (`6ad5406f…`) |
+| 31/out | sábado | Seu preço comunica valor. Saiba explicar o que existe por trás dele. | ⏳ IG (`6ad54071…`) |
+
+## Novembro de 2026
+
+| Data | Dia | Frase | Situação |
+|---|---|---|---|
+| 01/nov | domingo | Seu negócio muda quando você para de esperar o momento perfeito e começa a testar ideias. | ⏳ IG (`6ad54073…`) |
+| 02/nov | segunda | Toda venda começa muito antes do “sim”: começa em como você escuta. | ⏳ IG (`6ad54074…`) |
+| 03/nov | terça | Quem conhece os próprios custos negocia com mais segurança. | ⏳ IG (`6ad54075…`) |
+| 04/nov | quarta | Delegar bem também é trabalho de liderança. | ⏳ IG (`6ad54077…`) |
+| 05/nov | quinta | Nem todo crescimento é saudável. Expanda no ritmo que sua estrutura consegue sustentar. | ⏳ IG (`6ad54078…`) |
+| 06/nov | sexta | A coragem de rever uma decisão pode valer mais do que insistir nela. | ⏳ IG (`6ad54079…`) |
+| 07/nov | sábado | Cada processo que você organiza devolve tempo para pensar no futuro. | ⏳ IG (`6ad5407f…`) |
+| 30/nov | segunda | Termine o mês com uma conquista para celebrar e uma lição para levar adiante. | ⏳ IG (`6ad54080…`) |
+
+**18/out: a frase do dia passou a sair todos os dias, inclusive sábado e domingo** (pedido dele: *"altere a frase do
+dia para todos os dias assim como proverbios"*). As 11 frases que ele mandou em 18/out ("Dia 21" a "Dia 31") foram
+usadas nos dias que estavam vazios, sem trocar as que já estavam agendadas. A do "Dia 31" (fechamento de mês) foi
+pro **30/11**, porque em 31/10 ela repetiria a ideia do Provérbios do mesmo dia e da frase de 30/10. Legendas em
+`legendas-novas-2026-10-18.json`.
 
 ---
 
 ## ⏭ Próximo pedido
 
-**Pedir por volta de 28/out:** as frases dos dias úteis de **novembro**.
-São 20 dias úteis. Nenhuma pode estar nesta tabela.
+**Faltam as frases de 8 a 29 de novembro: 22 dias** (agora todo dia, não só dia útil). Nenhuma pode estar nesta tabela.
