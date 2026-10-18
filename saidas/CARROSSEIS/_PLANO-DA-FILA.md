@@ -50,7 +50,7 @@ que estavam na fila agora saem às 20h: 19/10 `imobiliario-aluguel`, 20/10 `12-p
 `pf-autonomo-cbs`, 22/10 `5gs-gestao-financeira` ("Sete vezes eu quebrei"), 23/10 `dre-7-passos`. **Não existe mais
 horário das 15h.** A tabela acima é histórico da grade antiga.
 
-**18/out, 19h20: um carrossel por dia às 20h até 31/10** (ordem final, a pedido dele: médicos nesta semana):
+**18/out, 19h20: um carrossel por dia às 20h até 2/11** (ordem final, a pedido dele: médicos nesta semana):
 
 | Dia | Carrossel |
 |---|---|
@@ -64,6 +64,8 @@ horário das 15h.** A tabela acima é histórico da grade antiga.
 | 29/10 | `reforma-infoprodutores` |
 | 30/10 | `dre-7-passos` |
 | 31/10 | `reforma-ebooks` |
+| 01/11 | `5gs-gestao-tributaria` (4 de 5, **prazos refeitos em 18/out**: IBS/CBS na nota desde 3/8, cancelamento do híbrido de 3/11 a 20/12, nova janela em março/2027) |
+| 02/11 | `5gs-fornecedores-clientes` (5 de 5, fecha a série; visual creme, diferente dos outros quatro) |
 
 🔴 **Defeito de contraste corrigido em 18/out (é o erro 8).** Nas peças do modelo "5 Gs/pilares" (`bg-light`, `bg-gold`),
 a pele deixa o fundo escuro mas o texto continuava escuro: o corpo das lâminas 2, 4, 6 e 7 quase não aparecia. Pegou
@@ -72,7 +74,7 @@ antes de sair). A correção (bloco CSS "18/out: contraste" no fim do `carrossel
 pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, as imagens foram trocadas.
 **Antes de subir qualquer carrossel, montar a folha de contato das lâminas e olhar.**
 
-**Próximo a enfileirar: 1/11 às 20h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
+**Próximo a enfileirar: 3/11 às 20h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
 `biomedicina-reforma`, `comercio-reforma`, `ecommerce-alerta`, `educacao-reforma`, `entregadores-app-reforma`,
 `medicos-reforma-08-27` (tema repetido com o de 30/10: espaçar), `odontologia-reforma`, `reforma-ecommerce` e
 `industria-reforma` (os dois últimos: ler contra a notícia do IS de 8/out), `saude-geral-reforma`,
@@ -82,8 +84,6 @@ pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, 
 
 | Carrossel | Por quê |
 |---|---|
-| `5gs-gestao-tributaria` (4 de 5) | lâmina 7 e legenda com prazos vencidos ("31 de julho", "em setembro abre a janela do Simples") |
-| `5gs-fornecedores-clientes` (5 de 5, "série completa") | o 3 de 5 já existe (26/10); falta corrigir o 4 de 5 pra a série sair em ordem |
 | `simples-hibrido` | gancho "perdeu a janela de setembro"; o prazo agora é 30/10 |
 | `reforma-representante-comercial` | lâmina 8: "janela 1 a 30/09" e "cancelamento até 30/11" |
 | `forjado-imersao` | anuncia uma imersão ("comenta FORJADO que eu te aviso"); confirmar com ele se existe |

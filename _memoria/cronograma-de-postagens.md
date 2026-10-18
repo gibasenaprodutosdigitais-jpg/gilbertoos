@@ -28,7 +28,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | O quê | A partir de | Quanto |
 |---|---|---|
-| Carrossel das 20h | **1/11** | 1 por dia. Ver os segurados em `saidas/CARROSSEIS/_PLANO-DA-FILA.md` |
+| Carrossel das 20h | **3/11** | 1 por dia. Ver os segurados em `saidas/CARROSSEIS/_PLANO-DA-FILA.md` |
 | Provérbios das 5h | **1/11** | legendas dos dias 1 a 15 e a foto de novembro |
 | Frase do dia das 9h | **8/11** (e de 8 a 29/11) | 22 frases novas (o 30/11 já está agendado) |
 | YouTube | **30/10 às 13h** | 5 reels por dia: precisa de vídeo novo (cortes das gravações do carro) |
@@ -184,11 +184,13 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 01/11 dom | 12h00 | TikTok | reels | Quem não sabe precificar, quebra. |
 | 01/11 dom | 12h00 | Instagram | reels | Um cliente só respondia por quase R$ 1 milhão de faturamento por mês. … |
 | 01/11 dom | 18h00 | TikTok | reels | Eu aluguei um Tiguan por dois dias. Foi caro, mas foi investimento. |
+| 01/11 dom | 20h00 | Instagram | carrossel | 5Gs Gestão Tributária (4 de 5): A reforma tributária não vai esperar você se organizar. |
 | 02/11 seg | 06h00 | TikTok | reels | Um dos maiores erros do empresário: misturar o dinheiro da empresa com… |
 | 02/11 seg | 09h00 | Instagram | card | Toda venda começa muito antes do “sim”: começa em como você escuta. |
 | 02/11 seg | 12h00 | TikTok | reels | Em 2024 eu atendi vários empresários nessa mesa. Hoje, 90% quebraram. |
 | 02/11 seg | 12h00 | Instagram | reels | Quantas pessoas venderam que você ia ganhar milhões trabalhando duas h… |
 | 02/11 seg | 18h00 | TikTok | reels | Traz um contrato com R$ 10 milhões de multa. Eu assino. |
+| 02/11 seg | 20h00 | Instagram | carrossel | 5Gs Fornecedores e Clientes (5 de 5): Comprar é confiança. Vender é relacionamento. |
 | 03/11 ter | 06h00 | TikTok | reels | Você acha que o dinheiro é seu. E o dinheiro não é seu. |
 | 03/11 ter | 09h00 | Instagram | card | Quem conhece os próprios custos negocia com mais segurança. |
 | 03/11 ter | 12h00 | TikTok | reels | De R$ 300 mil por mês, numa mesa de café, a R$ 5,5 milhões em três ano… |
