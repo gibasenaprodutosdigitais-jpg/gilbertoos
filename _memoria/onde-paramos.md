@@ -39,8 +39,8 @@ perdeu). Saem nas três redes juntas. Tudo em `saidas/REELS/reels-novos-2026-10-
 "errei no contrato", o tom do Paraguai). **Capa: o quadro do título, decidido por ele em 17/out.** Com os lotes 2, 3 e 4, **os Reels estão cobertos até 9/11 às 12h**.
 
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir
-(16 nas 20h de 21/10 a 05/11, 15 nas 15h: 21/10 e de 23/10 a 05/11). (2) O projeto Reestruturando com Êxito, que ele vai
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, 31 pra ir, **1 por dia às 20h a partir
+de 24/10** (grade de 4 posts por dia, decidida em 18/out). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
 **Instituto Êxito: ele avalia sair (18/out).** Ele é Diretor de Compliance (eleito na AGE de 08/08/2025, mandato de 5 anos).
@@ -48,17 +48,15 @@ Em `juridico/exito/` estão o estatuto e duas cartas prontas pra ele assinar, **
 (art. 23, já pedindo a suspensão da taxa, que o estatuto não prevê) e renúncia ao cargo + desligamento (art. 21; sem multa,
 só exige estar em dia com a taxa). ⚠ Se ele sair, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
-**Carrosséis: faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).**
+**Carrosséis: faltam 31, agora 1 por dia às 20h, de 24/10 a 23/11** (grade nova de 18/out).
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
 
-**Instagram, fim de semana: 6 posts (era 5), sem a frase das 9h.** Em 17 e 18/10 os banners do nome e do Sena ocupam o 9h
-e ele aprovou ("pode deixar assim, está perfeito"), então esses dois dias têm 7 (com o 6h novo). A grade por horário está no
-`cronograma-de-postagens.md`: faltam 33 horários até 31/10, 21 carrosséis e 12 reels.
+**Instagram: 4 posts por dia desde 19/out (5h Provérbios, 9h frase, 12h reel novo, 20h carrossel); fim de semana 3,
+sem a frase.** YouTube: 5 reels por dia até 30/10. Tudo em `cronograma-de-postagens.md`.
 
-Sete estão na fila (18 a 20/out, mais o DRE em 22/10 às 15h). O ponto de retomada está em
-`saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
-**21/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`**, e **21/10 às 20h,
-`carrossel-5gs-gestao-tributaria-2026-07-17`**.
+Cinco estão na fila, um por dia às 20h de 19 a 23/10. O ponto de retomada está em
+`saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei": **24/10 às 20h,
+`carrossel-redutor-ajuste-construcao-2026-08-30`**.
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
@@ -323,25 +321,21 @@ Revenda de Carros: Híbrido foi pro dia 23.
 alcance com a versão sem. Todos agora são minúscula sem acento, como o
 resto do perfil.
 
-### O dia dele no Instagram: sete posts (desde 17/out; eram seis)
+### O dia dele no Instagram: 4 posts (desde 19/out; eram 7)
 
-Ele definiu em 15/out, com estas palavras: *"são 6 no instagram"*, *"por
-dia"*, *"frase proverbios 2 reels dois carrosseis"*.
-Em **17/out ele somou o 6h (reels)**, ficando 3 reels e 2 carrosséis por dia.
+Decisão dele em 18/out, depois da análise de cadência: *"vamos reduzir para quatro posts por dia: frase do dia,
+proverbios, carrocel e um reels dos novos"*. E no YouTube, *"5 reels por dia"* com *"os reels antigos e novos"*,
+pra movimentar o canal. O TikTok ficou como estava.
 
 | Hora (Brasília) | O quê | Situação |
 |---|---|---|
-| **5h** | Provérbios | ✅ dias 16 a 31 agendados |
-| **6h** | **reels** (novo, 17/out) | ✅ até 28/10 (17 a 22 novos, 23 a 28 antigos) |
-| **9h** | frase do dia (só em dia útil; sábado e domingo não têm) | ✅ até 30/10 |
-| **12h** | reels | ✅ até 29/10 |
-| **15h** | **carrossel** | ⏳ agendado até 20/10 e em 22/10; faltam 21/10 e de 23/10 em diante |
-| **18h** | reels | ✅ só até 24/10 (17 a 22 são novos; movidos de 20h pra cá em 16/out) |
-| **20h** | **carrossel** | ⏳ agendado até 20/10; faltam de 21/10 em diante |
+| **5h** | Provérbios | ✅ até 31/10; novembro precisa de legendas 1 a 15 e foto |
+| **9h** | frase do dia (só dia útil) | ✅ até 30/10 |
+| **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
+| **20h** | carrossel | ⏳ agendado até 23/10; **de 24/10 em diante, 1 por dia** |
 
-✅ **A troca de horário foi feita.** Ele pediu *"troca o carrossel das 18
-para as 20 e vise versa"*, e os nove reels que estavam às 20h (16 a 24/10)
-foram movidos pras 18h.
+**YouTube: 5 por dia (7h, 10h, 13h, 16h, 19h), coberto só até 30/10 às 10h.** Os 8 reels antigos que eram só do
+Instagram estão como rascunho na Zernio. Detalhe e IDs em `_memoria/cronograma-de-postagens.md`.
 
 ★ **Para mover post agendado, usar `posts_update`** (a ferramenta curta do
 MCP), que devolve duas linhas. O `posts_update_post` via `call_tool` devolve
@@ -383,9 +377,10 @@ agendar**, porque o carrossel contradizia o media kit dele.
 
 ### A fila real, lida em 18/out
 
-**105 posts agendados na Zernio** (alguns em mais de uma rede). `_memoria/cronograma-de-postagens.md` tem o
-calendário post a post e a grade por horário. **Os Reels vão até 9/11 às 12h**; Provérbios até 31/10 e frase do dia
-até 30/10. Faltam 21 carrosséis até 31/10. Os 29 cortes das gravações do carro continuam sem montar.
+**87 posts agendados e 8 rascunhos na Zernio, depois da grade nova de 18/out.** `_memoria/cronograma-de-postagens.md`
+tem o calendário post a post. Instagram com reels até 3/12; **YouTube só até 30/10**; TikTok até 9/11. Provérbios até
+31/10 e frase do dia até 30/10. Os 29 cortes das gravações do carro continuam sem montar, e agora são eles que
+alimentam o YouTube a partir de 30/10.
 
 ---
 
@@ -802,8 +797,10 @@ cabe antes de mandar qualquer coisa para o YouTube.**
 - **Seguidores desacelerando:** +562 e +504 por dia em 11 e 12/10 (música), depois +212, +110, +69, +85 e +50.
 - **Única melhora:** compartilhamentos por dia subiram de 1 (13 e 14/10) para 12 a 21 (16 a 18/10).
 - **Minha leitura, entregue a ele:** o problema não é o horário, é a audiência de 105 mil ter vindo pela música e
-  ainda não responder ao conteúdo de gestão. Recomendei cortar de 7 para 2 ou 3 posts por dia. **Nada foi mudado na
-  fila.** Perguntei como os 105 mil seguidores foram construídos.
+  ainda não responder ao conteúdo de gestão. Recomendei cortar de 7 para 2 ou 3 posts por dia.
+- **Ele respondeu: os 105 mil vieram só da música clássica.** E decidiu **4 posts por dia no Instagram** e **5 reels por
+  dia no YouTube** (aplicado em 18/out; ver a seção da grade). **Medir de novo em 25/out:** a pergunta é se 4 por dia
+  sobe o alcance e o compartilhamento por post.
 
 Em 13/out ele trouxe um método de terceiro (cards atribuídos a "Nardon",
 marca Advisor News) pedindo 12 posts por dia. **A regra e o que foi aceito e

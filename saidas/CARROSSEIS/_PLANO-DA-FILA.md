@@ -45,7 +45,13 @@ Completa o dia de seis: 5h Provérbios, 9h frase, 12h reels, 15h carrossel,
 | 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
 | 21/10 em diante | ⏳ | ⏳ |
 
-**Próximo a enfileirar:** 21/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`, e 21/10 às 20h, `carrossel-5gs-gestao-tributaria-2026-07-17`. O 22/10 às 15h já tem o `dre-7-passos`, e o 17/10 às 20h tem o `5gs-o-livro`.
+**★ 18/out: a grade mudou pra 1 carrossel por dia, só às 20h** (decisão dele, 4 posts por dia no Instagram). Os cinco
+que estavam na fila agora saem às 20h: 19/10 `imobiliario-aluguel`, 20/10 `12-pilares-business-plan`, 21/10
+`pf-autonomo-cbs`, 22/10 `5gs-gestao-financeira` ("Sete vezes eu quebrei"), 23/10 `dre-7-passos`. **Não existe mais
+horário das 15h.** A tabela acima é histórico da grade antiga.
+
+**Próximo a enfileirar:** **24/10 às 20h, `carrossel-redutor-ajuste-construcao-2026-08-30`**, depois
+`carrossel-5gs-gestao-tributaria-2026-07-17` em 25/10, e assim por diante, um por dia.
 
 ⚠ **A coluna das 15h mexeu três vezes em 16/out** (IPI saiu, o imobiliário entrou no 19/10, o DRE foi pro 22/10 e o reposte do 7-mudancas já saiu do 21/10). Hoje ela termina em 05/11, sem horário vago. **31 carrosséis por enfileirar**: 16 nas 20h (21/10 a 05/11) e 15 nas 15h (21/10 e de 23/10 a 05/11).
 
