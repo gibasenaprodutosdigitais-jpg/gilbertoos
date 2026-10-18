@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 17/out/2026, 2h.**
+> Estado das frentes abertas. **Atualizado em 18/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -43,6 +43,11 @@ perdeu). Saem nas três redes juntas. Tudo em `saidas/REELS/reels-novos-2026-10-
 (16 nas 20h de 21/10 a 05/11, 15 nas 15h: 21/10 e de 23/10 a 05/11). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
+**Instituto Êxito: ele avalia sair (18/out).** Ele é Diretor de Compliance (eleito na AGE de 08/08/2025, mandato de 5 anos).
+Em `juridico/exito/` estão o estatuto e duas cartas prontas pra ele assinar, **sem decisão tomada**: afastamento temporário
+(art. 23, já pedindo a suspensão da taxa, que o estatuto não prevê) e renúncia ao cargo + desligamento (art. 21; sem multa,
+só exige estar em dia com a taxa). ⚠ Se ele sair, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
+
 **Carrosséis: faltam 31 (20h de 21/10 a 05/11; 15h em 21/10 e de 23/10 a 05/11).**
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
 
@@ -50,11 +55,10 @@ alimentando aos poucos — ver a seção logo abaixo.
 e ele aprovou ("pode deixar assim, está perfeito"), então esses dois dias têm 7 (com o 6h novo). A grade por horário está no
 `cronograma-de-postagens.md`: faltam 33 horários até 31/10, 21 carrosséis e 12 reels.
 
-Onze já estão na fila ou no ar (16 a 20/out, mais o DRE em 22/10). O ponto de retomada está em
+Sete estão na fila (18 a 20/out, mais o DRE em 22/10 às 15h). O ponto de retomada está em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`, na tabela "Onde eu parei":
 **21/10 às 15h, `carrossel-redutor-ajuste-construcao-2026-08-30`**, e **21/10 às 20h,
-`carrossel-5gs-gestao-tributaria-2026-07-17`**. O 22/10 às 15h tem o `dre-7-passos`, o
-17/10 às 20h tem o `5gs-o-livro`, e o reposte do `7-mudancas-2027` já está no ar.
+`carrossel-5gs-gestao-tributaria-2026-07-17`**.
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
@@ -156,7 +160,7 @@ Public Sans. Sem azul e dourado.
 
 ## 0. ★ A fila de conteúdo — o trabalho em curso
 
-### ⏳ Os carrosséis: 9 na fila, 31 pra ir
+### ⏳ Os carrosséis: 7 na fila (18 a 22/10), 31 pra ir
 
 **Dois por dia, 15h e 20h, de 16/10 a 05/11.** O mapa completo e a tabela
 "Onde eu parei" estão em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
@@ -343,18 +347,11 @@ foram movidos pras 18h.
 MCP), que devolve duas linhas. O `posts_update_post` via `call_tool` devolve
 o post inteiro e enche a janela à toa.
 
-### ✅ Provérbios 17 a 31: feito
+### Provérbios: o que falta pra novembro
 
-Agendados em 15/out, **todo dia às 5h** (8h UTC — ele corrigiu de 7h pra 5h).
-O dia 16 já estava na fila desde antes, às 5h.
-
-**As 16 legendas foram escritas e salvas** em
-`saidas/CARDS/cards-frases-proverbios-31/legendas.json`. ★ **A série reinicia
-todo mês**, então no mês que vem é só trocar a foto e reusar: o texto já
-existe. Faltam escrever as dos dias 1 a 15.
-
-⚠ A foto de outubro já está travada em `fotos-usadas.md`. **Novembro precisa
-de foto nova** — e a regra dele é dura: uma foto por mês, nenhuma repete.
+Saem **todo dia às 5h** e estão na fila até 31/10. As legendas dos dias 16 a 31 estão em
+`saidas/CARDS/cards-frases-proverbios-31/legendas.json` e se reusam todo mês. **Faltam as legendas dos dias 1 a 15**
+e **a foto de novembro**: uma por mês, nenhuma repete (a de outubro está em `fotos-usadas.md`).
 
 ### Onde cada coisa pode ir
 
@@ -384,9 +381,9 @@ Depois varri os 42 restantes com `grep` atrás do mesmo erro: **estão limpos**,
 era só aquele. Mas a lição fica: **conferir número de autoridade antes de
 agendar**, porque o carrossel contradizia o media kit dele.
 
-### A fila real, lida em 17/out de madrugada
+### A fila real, lida em 18/out
 
-**116 posts agendados na Zernio** (alguns em mais de uma rede). `_memoria/cronograma-de-postagens.md` tem o
+**105 posts agendados na Zernio** (alguns em mais de uma rede). `_memoria/cronograma-de-postagens.md` tem o
 calendário post a post e a grade por horário. **Os Reels vão até 9/11 às 12h**; Provérbios até 31/10 e frase do dia
 até 30/10. Faltam 21 carrosséis até 31/10. Os 29 cortes das gravações do carro continuam sem montar.
 
@@ -596,20 +593,8 @@ então Instagram, TikTok e YouTube levam legenda própria na mesma chamada.
 Isso cortou 33 chamadas para 11. O YouTube leva o título em
 `platformSpecificData.title`.
 
-### ✅ Os quatro foram corrigidos no corte — 15/out/2026
-
-Ele mandou: *"os três pecados pode corrigir eles mesmo, altere o que for
-necessário"*. **Não precisou regravar nada.** Os três foram salvos cortando
-fora o trecho errado, com o `remendar.py`, que remonta um reel a partir de
-vários trechos da mesma gravação.
-
-| Peça | O que saiu | Virou |
-|---|---|---|
-| **pecado 4** | os exemplos da diarista e do pedreiro, que ficam abaixo dos R$ 40.500 | 3 trechos, 30s |
-| **pecado 5** | o empréstimo ao parente, sem base, e o "paga pra ter/morar", que é IPTU | 3 trechos, 15s |
-| **pecado 7** | a frase do teste do IBS em 2027 | 1 trecho, 10s |
-
-**A âncora subiu junto**, porque a série ficou inteira.
+**Reel com trecho errado se conserta no corte, sem regravar:** o `remendar.py` remonta o reel a partir de vários
+trechos da mesma gravação (assim foram salvos os pecados 4, 5 e 7 em 15/out).
 
 ### 🔴 O erro que eu quase cometi no pecado 5
 
@@ -651,22 +636,6 @@ O que importa guardar são as três lições:
    1 kHz sobre a palavra e `F***` escrito na legenda. **"Na raça, na porrada"
    e "se lasque" não são palavrão e ficaram.**
 
-### ✅ Os carrosséis de `Postados/` voltaram para a fila — 14/out
-
-Ele mandou: *"INCLUA OS DA PASTA POSTADOS FACA AS CORRECOES PARA ENTRAREM NA
-FILA"*. Os 7 foram corrigidos e estão em `saidas/CARROSSEIS/`:
-
-- pele de 14/out portada, preservando a foto de capa de cada um (cada
-  carrossel chama a classe da capa de um jeito: `photo-bg`, `alert-bg`, `car-bg`)
-- "INSCRIÇÃO NO LINK DA BIO" virou "ME CHAMA NO DIRECT", no slide e na legenda
-- o slide da janela de 1 a 30/set virou o que ainda vale: cancelamento até
-  30/nov e nova janela em março/2027
-- saiu o convite para o evento de 17 de setembro
-
-**Os 2 vencidos também foram reescritos**, a pedido dele: `simples-hibrido` e
-`simples-nacional-prazo` passaram do gancho "decida" para **"perdeu a janela
-de setembro"**.
-
 ### 🔴 Um bug meu da pele, que pegava 25 carrosséis
 
 Os slides `.light` ficaram com fundo escuro pela pele nova, mas a regra
@@ -674,11 +643,7 @@ antiga mantinha o rodapé em cinza-escuro. **Texto escrito no HTML e invisível
 na imagem.** Não dava para ver olhando rápido: **só apareceu medindo o
 contraste pixel a pixel.** Corrigido nos 38 e os 25 afetados re-renderizados.
 
-### ✅ O domínio foi trocado — 14/out
-
-`gilbertosena.com.br` **não existe**, o DNS não resolve, e estava impresso no
-rodapé de **41 arquivos, 25 deles carrosséis já renderizados**. Ele decidiu:
-*"troca para gruposena.com.br"*. Feito e conferido no pixel do slide.
+**Site no rodapé: `gruposena.com.br`**, decidido por ele em 14/out. `gilbertosena.com.br` não existe.
 
 ### ★ Acervo de reels antigos: triado em 14/out/2026
 

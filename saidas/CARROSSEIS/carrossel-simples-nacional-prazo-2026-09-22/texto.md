@@ -1,5 +1,9 @@
 # Carrossel — o prazo de 30/set do Simples Nacional
 
+> ⚠ **Roteiro antigo.** O carrossel foi refeito e publicado em 17/out/2026 com o prazo prorrogado (opção até 30/10,
+> cancelamento de 3/11 a 20/12, Resolução CGSN nº 194/2026). A versão que vale é a do `carrossel.html` e do
+> `legenda.md`. Só o slide 8 abaixo foi atualizado.
+
 **Direção de arte:** Caderno de Campo (papel milimetrado, azul de caneta,
 marca-texto). Escolhida porque o assunto se resolve com conta na mesa, e essa
 direção parece a folha de quem sentou e fez a conta.
@@ -65,11 +69,11 @@ pena." Provérbios 22,3
 ## Slide 8 — LISTA (datas)
 
 **Etiqueta:** AS DATAS QUE IMPORTAM
-- 30/set/2026 — último dia pra optar, com efeito em 1º/jan/2027
-- 30/nov/2026 — último dia pra cancelar, e o cancelamento é irretratável
-- março/2027 — nova janela pra ajustar o segundo semestre
-- MEI fica de fora desta regra
-**Fonte:** Resolução CGSN 186/2026
+- 30/out/2026 — último dia pra optar (era 30/set), com efeito em 1º/jan/2027
+- 3/nov a 20/dez — janela pra cancelar, e o cancelamento é irretratável
+- março/2027 — nova janela, valendo pro segundo semestre
+- depois, a cada ano, março e setembro
+**Fonte:** Receita Federal · Resolução CGSN nº 194/2026
 
 ## Slide 9 — CTA FINAL
 
