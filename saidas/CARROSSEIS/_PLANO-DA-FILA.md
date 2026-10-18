@@ -65,7 +65,7 @@ horário das 15h.** A tabela acima é histórico da grade antiga.
 | 30/10 | `dre-7-passos` |
 | 31/10 | `reforma-ebooks` |
 | 01/11 | `5gs-gestao-tributaria` (4 de 5, **prazos refeitos em 18/out**: IBS/CBS na nota desde 3/8, cancelamento do híbrido de 3/11 a 20/12, nova janela em março/2027) |
-| 02/11 | `5gs-fornecedores-clientes` (5 de 5, fecha a série; visual creme, diferente dos outros quatro) |
+| 02/11 | `5gs-fornecedores-clientes` (5 de 5, fecha a série; **refeito em 18/out no padrão escuro dos outros quatro**) |
 
 🔴 **Defeito de contraste corrigido em 18/out (é o erro 8).** Nas peças do modelo "5 Gs/pilares" (`bg-light`, `bg-gold`),
 a pele deixa o fundo escuro mas o texto continuava escuro: o corpo das lâminas 2, 4, 6 e 7 quase não aparecia. Pegou

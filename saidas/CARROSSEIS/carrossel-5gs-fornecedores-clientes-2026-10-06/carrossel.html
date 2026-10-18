@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
-<title>Carrossel — 5 G's da Gestão · 5: Fornecedores e Clientes</title>
+<title>Carrossel. 5 G's da Gestão · 5: Fornecedores e Clientes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -18,14 +18,12 @@
     display: flex;
     flex-direction: column;
   }
-  .bg-dark   { background: #241C19; color: #EDE7E0; }
-  .bg-black  { background: #1A1411; color: #EDE7E0; }
-  .bg-light  { background: #EDE7E0; color: #241C19; }
-  .bg-gold   { background: #B98A48; color: #241C19; }
+  .bg-dark   { background: #0F1419; color: #F4F1EA; }
+  .bg-black  { background: #0A0A0A; color: #F4F1EA; }
+  .bg-light  { background: #F4F1EA; color: #151515; }
+  .bg-gold   { background: #C9A227; color: #0F1419; }
 
-  .gold { color: #A87339; }
-
-
+  .gold { color: #C9A227; }
 
   .topbar {
     display: flex;
@@ -36,17 +34,17 @@
     font-weight: 700;
     letter-spacing: 0.18em;
   }
-  .bg-dark .topbar, .bg-black .topbar { color: #A87339; }
-  .bg-light .topbar { color: #A87339; }
-  .bg-gold .topbar { color: #241C19; }
+  .bg-dark .topbar, .bg-black .topbar { color: #C9A227; }
+  .bg-light .topbar { color: #C9A227; }
+  .bg-gold .topbar { color: #0F1419; }
 
   .rule {
     width: 64px;
     height: 4px;
-    background: #A87339;
+    background: #C9A227;
     margin: 40px 64px 0 64px;
   }
-  .bg-gold .rule { background: #241C19; }
+  .bg-gold .rule { background: #0F1419; }
 
   .content {
     flex: 1;
@@ -61,13 +59,13 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.24em;
-    color: #A87339;
+    color: #C9A227;
     margin-bottom: 28px;
   }
-  .bg-gold .kicker { color: #241C19; opacity: 0.75; }
+  .bg-gold .kicker { color: #0F1419; opacity: 0.75; }
 
   .title-cover {
-    font-size: 84px;
+    font-size: 80px;
     font-weight: 900;
     letter-spacing: -0.035em;
     line-height: 1.1;
@@ -75,7 +73,7 @@
   }
 
   .h2 {
-    font-size: 60px;
+    font-size: 62px;
     font-weight: 800;
     letter-spacing: -0.02em;
     line-height: 1.14;
@@ -108,26 +106,35 @@
   .duo-num {
     font-size: 20px;
     font-weight: 900;
-    color: #A87339;
+    color: #C9A227;
     margin-bottom: 14px;
   }
-  .duo-h { font-size: 38px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.1; }
+  .bg-light .duo-num { color: #C9A227; }
+  .duo-h { font-size: 40px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 18px; line-height: 1.1; }
   .duo-text { font-size: 22px; font-weight: 500; line-height: 1.5; }
   .duo-divider-v { width: 1px; background: rgba(244,241,234,0.18); }
+
+  /* NUMERO */
+  .big-number {
+    font-size: 340px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
 
   /* CITACAO */
   .quote-mark {
     font-size: 140px;
     font-weight: 900;
-    color: #A87339;
+    color: #C9A227;
     line-height: 0.5;
     margin-bottom: 24px;
   }
   .quote-text {
-    font-size: 52px;
+    font-size: 48px;
     font-weight: 800;
     letter-spacing: -0.02em;
-    line-height: 1.22;
+    line-height: 1.24;
     max-width: 880px;
   }
   .quote-attr {
@@ -150,7 +157,7 @@
   .lion-seal {
     width: 120px;
     height: 120px;
-    border: 3px solid #A87339;
+    border: 3px solid #C9A227;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -158,43 +165,108 @@
     margin-bottom: 44px;
     font-size: 46px;
     font-weight: 900;
-    color: #A87339;
-  }
-  .cta-kicker {
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.22em;
-    color: #A87339;
-    margin-bottom: 24px;
+    color: #C9A227;
   }
   .cta-wordmark {
     font-size: 36px;
     font-weight: 900;
     letter-spacing: 0.04em;
-    color: #A87339;
+    color: #C9A227;
     margin-bottom: 28px;
   }
   .cta-body {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
-    line-height: 1.48;
-    max-width: 780px;
-    margin-bottom: 24px;
-  }
-  .cta-list {
-    font-size: 20px;
-    font-weight: 600;
-    color: #A87339;
-    letter-spacing: 0.01em;
+    line-height: 1.45;
+    max-width: 760px;
     margin-bottom: 40px;
   }
   .cta-handle {
     font-size: 24px;
     font-weight: 800;
-    color: #A87339;
+    color: #C9A227;
     letter-spacing: 0.02em;
   }
+
+/* ===== PELE 14/out/2026 =====
+   Escolhida para RETENCAO, nao por gosto:
+   - contraste alto le na miniatura do feed, que e onde o swipe comeca
+   - dois tons de escuro mantem RITMO entre slides; tudo igual cansa e o
+     dedo para
+   - o contador em ouro diz quanto falta, e saber que falta pouco segura
+   - a faixa lateral costura os slides como se fossem um so objeto */
+:root{ --p-fundo:#0D0B0A; --p-fundo2:#17120D; --p-tinta:#F5F1E8; --p-ouro:#E3C06E; }
+
+.slide, .card{ background:#0D0B0A !important; background-image:none !important;
+               color:#F5F1E8 !important }
+/* a capa com foto fica: a imagem ajuda no feed. So escurece bem mais,
+   para a letra branca ganhar e para casar com os outros slides. */
+.slide.photo-bg, .slide.capa.photo-bg{
+  background-color:#0D0B0A !important;
+  background-image:
+    linear-gradient(180deg, rgba(13,11,10,.80) 0%, rgba(13,11,10,.62) 38%,
+                    rgba(13,11,10,.90) 78%, rgba(13,11,10,.97) 100%),
+    none !important;
+  background-size:cover !important;
+  background-position:center 58% !important }
+/* o ritmo: os que eram claros ficam um tom acima */
+.slide.light, .card.light, .slide.s2, .slide:nth-child(even){
+  background:#17120D !important }
+.slide *, .card *{ color:inherit }
+.slide .gold, .card .gold, .slide .kicker, .card .kicker{ color:#E3C06E !important }
+.slide .rule, .card .rule{ background:#E3C06E !important; width:84px !important;
+                           height:5px !important }
+
+/* faixa dourada lateral, mais presente */
+.slide::before, .card::before{
+  content:""; position:absolute; left:0; top:0; bottom:0; width:20px;
+  background:linear-gradient(180deg,#A8832F 0%,#E3C06E 38%,#F0D693 52%,#E3C06E 66%,#A8832F 100%);
+  z-index:9 }
+
+/* logo no canto inferior esquerdo */
+.slide::after, .card::after{
+  content:""; position:absolute; left:58px; bottom:40px;
+  width:86px; height:86px; z-index:9;
+  background:url('_logo-gsena.png') no-repeat center/contain }
+
+/* o topo: so o contador, sem a marca repetida */
+.topbar .brand, .topbar .wordmark, .logo-icon{ display:none !important }
+.topbar{ justify-content:flex-end !important; left:110px !important }
+.counter{ color:#E3C06E !important; opacity:1 !important; font-size:19px !important;
+          font-weight:700 !important; letter-spacing:.16em !important }
+.footer{ border-color:rgba(227,192,110,.32) !important; padding-left:116px !important;
+         left:110px !important }
+
+/* ---- correcoes 14/out, depois de olhar o resultado ----
+   1) a faixa estava comendo a letra na esquerda */
+.slide, .card{ padding-left:116px !important }
+.slide .topbar, .card .topbar{ left:116px !important }
+
+/* 2) carrosseis com paleta propria brigavam com o ouro.
+   Vermelho, amarelo e azul viram ouro ou cinza-escuro. */
+[style*="#E63329"],[style*="#D2483F"],[style*="#1B4CE0"],[style*="#F2C200"],
+.num,.badge,.tag,.chip,.pill,.destaque-bloco,.caixa,.box{
+  background-color:#2A2119 !important; color:#E3C06E !important;
+  border-color:rgba(227,192,110,.4) !important }
+.sai,.entra,.sobra,.alerta,.custo,.lucro{ color:#E3C06E !important }
+/* barras de grafico ficam em escala de ouro */
+.bar,.barra,.chart span,.grafico span{
+  background:linear-gradient(90deg,#8C6F2E,#E3C06E) !important }
+/* foto redonda tingida de azul volta ao neutro quente */
+.avatar,.retrato,.foto-circ,img.circ{ filter:sepia(.35) saturate(.7) brightness(.95) !important }
+
+/* 3) o rodape dos slides claros ficou escuro sobre escuro e sumiu.
+   So apareceu medindo o pixel: o texto estava no HTML e invisivel na imagem. */
+.slide .footer, .card .footer, .slide.light .footer, .card.light .footer{
+  color:rgba(245,241,232,.62) !important }
+.slide.light .footer span, .card.light .footer span{
+  color:rgba(245,241,232,.62) !important }
+
+/* so neste: o fecho da serie usa kicker e lista no CTA */
+.cta-kicker{ font-size:15px; font-weight:700; text-transform:uppercase; letter-spacing:.22em;
+  color:#E3C06E !important; margin-bottom:24px }
+.cta-list{ font-size:20px; font-weight:600; color:#E3C06E !important; letter-spacing:.01em; margin-bottom:40px }
+.cta-body{ margin-bottom:24px }
 </style>
 </head>
 <body>
@@ -305,7 +377,7 @@
   <div class="content">
     <div class="quote-mark">"</div>
     <div class="quote-text">Comprar é uma expressão de confiança... Vender é sobre entender as necessidades do cliente, oferecer soluções e construir um relacionamento.</div>
-    <div class="quote-attr">— Gilberto Sena</div>
+    <div class="quote-attr">. Gilberto Sena</div>
   </div>
   <div class="footer">GILBERTOSENAOFICIAL</div>
 </div>
@@ -358,3 +430,23 @@
 
 </body>
 </html>
+
+<style>
+/* .card aninhado dentro de .slide e caixinha interna, nao e slide.
+   A pele nao deve dar a ela faixa, logo nem recuo de 116px. */
+.slide .card{ padding-left:22px !important; padding-right:22px !important;
+  background:rgba(244,241,234,.06) !important }
+.slide .card::before, .slide .card::after{ content:none !important; background:none !important }
+</style>
+<style>
+/* 18/out: contraste. A pele deixa .bg-light e .bg-gold escuros; o texto escuro sumia. */
+.slide.bg-light .body-txt,.slide.bg-light .duo-text,.slide.bg-gold .body-txt,.slide.bg-gold .duo-text{color:rgba(244,241,234,.86)!important;opacity:1!important}
+.slide.bg-gold .topbar,.slide.bg-gold .kicker{color:#C9A227!important;opacity:1!important}
+.slide.bg-gold .rule{background:#C9A227!important}
+.slide.bg-gold .quote-text,.slide.bg-gold .quote-attr,.slide.bg-light .quote-text,.slide.bg-light .quote-attr{color:#F4F1EA!important;opacity:1!important}
+.slide.bg-gold .quote-mark,.slide.bg-light .quote-mark{color:#C9A227!important}
+</style>
+<style>
+/* 18/out: a linha entre as colunas vinha escura no fundo escuro */
+.slide.bg-light .duo-divider-v{background:rgba(244,241,234,.18)!important}
+</style>
