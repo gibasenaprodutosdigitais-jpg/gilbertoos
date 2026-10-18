@@ -11,6 +11,26 @@ para deixar pronto para o YouTube"*. Foi gravado como o módulo de introdução 
 ⚠ Os `.mp4` ficam **só neste computador** (passam do limite do GitHub). Se o arquivo sumir, refazer a partir da
 pasta original.
 
+## ✅ Agendado em 18/out (a pedido dele: "sim pode agendar")
+
+YouTube, uma aula por dia às 20h (23:00Z), **19 a 26/10**, públicas, categoria Educação, com capa e na playlist
+**"A Base da Gestão"** (`PLWne2P_X0VwI`, pública, criada em 18/out). As `.srt` **não** subiram: saíram do transcritor
+com erros ("patamado", "desoperante"); o YouTube gera a legenda automática dele.
+
+| Dia | Aula | Post Zernio |
+|---|---|---|
+| 19/10 | 1 | `6ad559f267f1ca71fc6bb9ae` |
+| 20/10 | 2 | `6ad55a20281913dd143d9c23` |
+| 21/10 | 3 | `6ad55a231dd518323d9c072f` |
+| 22/10 | 4 | `6ad55a2837c67176c88d3b38` |
+| 23/10 | 5 | `6ad55a2e0a99f3c0896e5c86` |
+| 24/10 | 6 | `6ad55a33281913dd143d9c3e` |
+| 25/10 | 7 | `6ad55a38281913dd143d9c46` |
+| 26/10 | 8 | `6ad55a3c992be2a740ca9c98` |
+
+⚠ A capa personalizada só entra se o canal for verificado por telefone (youtube.com/verify). Sem isso o vídeo sai
+com a capa automática. Conferir no dia 19 se a aula 1 saiu com a capa.
+
 ## O que foi cortado e por quê
 
 | Corte | Por quê |

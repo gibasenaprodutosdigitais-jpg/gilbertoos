@@ -24,6 +24,8 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 - **Cada post de reel tem um horário por rede** (Instagram, TikTok e YouTube em dias diferentes). Ver a armadilha
   em [[zernio-instagram-conectado]]: mandar a lista de redes incompleta apaga a legenda própria e o título.
 
+**YouTube, vídeo longo (18/out):** série "A Base da Gestão", 1 aula por dia às **20h**, de 19 a 26/10 (8 aulas), playlist própria. Detalhes em `saidas/VIDEOS/serie-a-base-da-gestao-2026-10-18/README.md`.
+
 ## O que falta pra grade não ter buraco
 
 | O quê | A partir de | Quanto |

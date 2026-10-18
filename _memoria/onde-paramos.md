@@ -39,10 +39,9 @@ perdeu). Saem nas três redes juntas. Tudo em `saidas/REELS/reels-novos-2026-10-
 "errei no contrato", o tom do Paraguai). **Capa: o quadro do título, decidido por ele em 17/out.** Com os lotes 2, 3 e 4, **os Reels estão cobertos até 9/11 às 12h**.
 
 
-**Série "A Base da Gestão" pro YouTube (18/out): editada, falta agendar.** 8 aulas horizontais (22 min no total), feitas do
+**Série "A Base da Gestão" pro YouTube (18/out): agendada, 1 aula por dia às 20h de 19 a 26/10, na playlist própria.** Conferir no dia 19 se a capa entrou (exige canal verificado). 8 aulas horizontais (22 min no total), feitas do
 `~/Downloads/mini curso/` (o módulo de introdução do curso pago). Vídeos, capas, legendas `.srt`, títulos e descrições em
-`saidas/VIDEOS/serie-a-base-da-gestao-2026-10-18/` (os `.mp4` só no computador). Falta ele aprovar e dizer quando sai.
-Ficaram de fora 7 gravações (lista no README de lá); os dois vídeos dos 5 G's são **decisão dele**.
+`saidas/VIDEOS/serie-a-base-da-gestao-2026-10-18/` (os `.mp4` só no computador). Ficaram de fora 7 gravações (lista no README de lá); os dois vídeos dos 5 G's são **decisão dele**.
 
 **Vídeo na casa do Janguiê (Muro Alto), 18/out:** imagem tratada em `~/Downloads/... - tratado.mp4`. O som do celular
 não tem conserto aqui: nem o transcritor mais forte entende a fala. Pedir o arquivo do cinegrafista que aparece filmando.
