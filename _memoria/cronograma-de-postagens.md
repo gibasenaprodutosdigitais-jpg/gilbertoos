@@ -11,7 +11,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
-| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **20h** carrossel | reels até **3/12**; Provérbios até 31/10; frase até **7/11** (e 30/11); carrossel até **30/10** |
+| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **20h** carrossel | reels até **3/12**; Provérbios até 31/10; frase até **7/11** (e 30/11); carrossel até **31/10** |
 | **YouTube** | **5 reels por dia: 7h, 10h, 13h, 16h, 19h** (antigos e novos) | até **30/10 às 10h**; depois, nada |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até 9/11 |
 
@@ -28,12 +28,12 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | O quê | A partir de | Quanto |
 |---|---|---|
-| Carrossel das 20h | **31/10** | 1 por dia. Ver os segurados em `saidas/CARROSSEIS/_PLANO-DA-FILA.md` |
+| Carrossel das 20h | **1/11** | 1 por dia. Ver os segurados em `saidas/CARROSSEIS/_PLANO-DA-FILA.md` |
 | Provérbios das 5h | **1/11** | legendas dos dias 1 a 15 e a foto de novembro |
 | Frase do dia das 9h | **8/11** (e de 8 a 29/11) | 22 frases novas (o 30/11 já está agendado) |
 | YouTube | **30/10 às 13h** | 5 reels por dia: precisa de vídeo novo (cortes das gravações do carro) |
 
-## Post a post (gerado da fila em 18/out, 19h10)
+## Post a post (gerado da fila em 18/out, 19h20)
 
 | Dia | Hora | Onde | O quê | Começo do texto |
 |---|---|---|---|---|
@@ -95,7 +95,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 23/10 sex | 16h00 | YouTube | reels | Você já sabe qual é a alíquota? Eu também não. |
 | 23/10 sex | 18h00 | TikTok | reels | Me responde uma coisa: o split payment vai facilitar o trabalho de que… |
 | 23/10 sex | 19h00 | YouTube | reels | Um cliente só respondia por quase R$ 1 milhão de faturamento por mês. … |
-| 23/10 sex | 20h00 | Instagram | carrossel | Todo mês a sua empresa te entrega um relatório contando exatamente o q… |
+| 23/10 sex | 20h00 | Instagram | carrossel | Médico tem 60% de desconto na reforma, não 30%. Mas isso só vale se o … |
 | 24/10 sáb | 05h00 | Instagram | card | Talento chama atenção. Caráter e reverência a Deus dão fundamento ao q… |
 | 24/10 sáb | 07h00 | YouTube | reels | Quantas pessoas venderam que você ia ganhar milhões trabalhando duas h… |
 | 24/10 sáb | 09h00 | Instagram | card | Uma empresa forte não depende de urgência para entregar qualidade. |
@@ -127,7 +127,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 26/10 seg | 16h00 | YouTube | reels | De R$ 300 mil por mês, numa mesa de café, a R$ 5,5 milhões em três ano… |
 | 26/10 seg | 18h00 | TikTok | reels | Academia no Simples híbrido: a conta não fecha. |
 | 26/10 seg | 19h00 | YouTube | reels | De que vale uma Ferrari nas ruas de pedra de Ouro Preto? Você vai acel… |
-| 26/10 seg | 20h00 | Instagram | carrossel | E-book continua imune ao IBS e à CBS. Mas a maioria não sabe de onde v… |
+| 26/10 seg | 20h00 | Instagram | carrossel | Se o propósito da sua empresa é só crescer, ela não é diferente de um … |
 | 27/10 ter | 05h00 | Instagram | card | Uma liderança sábia pensa no impacto das decisões sobre quem trabalha … |
 | 27/10 ter | 07h00 | YouTube | reels | "Eu fiz, eu faço de novo. É do meu jeito." O pior pilar de um negócio … |
 | 27/10 ter | 09h00 | Instagram | card | Crescer com consistência pede decisões claras, mesmo quando elas são d… |
@@ -171,13 +171,14 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 30/10 sex | 12h00 | TikTok | reels | O empresário que não divide, não multiplica. |
 | 30/10 sex | 12h00 | Instagram | reels | Seu contador só manda guia? |
 | 30/10 sex | 18h00 | TikTok | reels | Quanto maior você é, maior o estrago de um passo errado. |
-| 30/10 sex | 20h00 | Instagram | carrossel | Médico tem 60% de desconto na reforma, não 30%. Mas isso só vale se o … |
+| 30/10 sex | 20h00 | Instagram | carrossel | Todo mês a sua empresa te entrega um relatório contando exatamente o q… |
 | 31/10 sáb | 05h00 | Instagram | card | Feche o mês com gratidão pelo que avançou e humildade para aprender o … |
 | 31/10 sáb | 06h00 | TikTok | reels | Apostaram que eu não ia durar seis meses em Alphaville. |
 | 31/10 sáb | 09h00 | Instagram | card | Seu preço comunica valor. Saiba explicar o que existe por trás dele. |
 | 31/10 sáb | 12h00 | Instagram | reels | Imagina a Coca-Cola vendendo direto pra você. Qual a chance de dar cer… |
 | 31/10 sáb | 12h00 | TikTok | reels | Muita empresa vai quebrar em 2027. E eu já vi como isso começa. |
 | 31/10 sáb | 18h00 | TikTok | reels | Por que você não me perguntou se eu sou canhoto ou destro? |
+| 31/10 sáb | 20h00 | Instagram | carrossel | E-book continua imune ao IBS e à CBS. Mas a maioria não sabe de onde v… |
 | 01/11 dom | 06h00 | TikTok | reels | O que falta na humanidade hoje é paternidade. Não de ser pai, de ser p… |
 | 01/11 dom | 09h00 | Instagram | card | Seu negócio muda quando você para de esperar o momento perfeito e come… |
 | 01/11 dom | 12h00 | TikTok | reels | Quem não sabe precificar, quebra. |

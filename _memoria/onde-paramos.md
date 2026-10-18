@@ -39,7 +39,7 @@ perdeu). Saem nas três redes juntas. Tudo em `saidas/REELS/reels-novos-2026-10-
 "errei no contrato", o tom do Paraguai). **Capa: o quadro do título, decidido por ele em 17/out.** Com os lotes 2, 3 e 4, **os Reels estão cobertos até 9/11 às 12h**.
 
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 20h a partir de 31/10**
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 20h a partir de 1/11**
 (grade de 4 posts por dia, decidida em 18/out). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
@@ -48,18 +48,18 @@ Em `juridico/exito/` estão o estatuto e duas cartas prontas pra ele assinar, **
 (art. 23, já pedindo a suspensão da taxa, que o estatuto não prevê) e renúncia ao cargo + desligamento (art. 21; sem multa,
 só exige estar em dia com a taxa). ⚠ Se ele sair, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
-**Carrosséis: fila fechada até 30/10, 1 por dia às 20h** (subidos em 18/out). Próximo: **31/10**. Ficaram **segurados**
-o 5Gs Tributária (prazos vencidos), o 5Gs Fornecedores ("série completa", mas **o 3 de 5, Gestão de Pessoas, não
-existe**), o Simples Híbrido e o Representante Comercial (prazo de setembro), o Forjado (anuncia imersão: confirmar)
-e o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito, **decisão dele**). Lista e motivos em
-`saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
+**Carrosséis: fila fechada até 31/10, 1 por dia às 20h.** Próximo: **1/11**. A série dos 5 Gs: 1 (22/10), 2 (25/10)
+e **3, Gestão de Pessoas, criado em 18/out a partir do livro** (26/10). Segurados: o **4 (Tributária)**, com prazos
+vencidos, e o **5 (Fornecedores)**, que espera o 4; o Simples Híbrido e o Representante Comercial (prazo de setembro);
+o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito,
+**decisão dele**). Lista em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
 
 **Instagram: 4 posts por dia desde 19/out (5h Provérbios, 9h frase, 12h reel novo, 20h carrossel), todos os dias:
 a frase do dia passou a sair também no fim de semana (pedido dele, 18/out).** Frase agendada até 7/11 e em 30/11;
 faltam 22 (8 a 29/11). YouTube: 5 reels por dia até 30/10. Tudo em `cronograma-de-postagens.md`.
 
-De 19 a 30/10 tem um por dia às 20h. O ponto de retomada e os segurados estão em
+De 18 a 31/10 tem um por dia às 20h. O ponto de retomada e os segurados estão em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
@@ -262,7 +262,7 @@ não só contra o fichamento.
 aceita 10.** Está por último de propósito. Perguntar: corta duas ou vira dois
 posts?
 
-### 🔴 Os sete erros que a conferência já pegou. Conferir SEMPRE.
+### 🔴 Os oito erros que a conferência já pegou. Conferir SEMPRE.
 
 **Em onze carrosséis, sete tipos de erro.** Cada um teria ido ao ar.
 
@@ -275,6 +275,7 @@ posts?
 | 5 | **Data relativa de agosto** — "essa semana", "semana que vem" | ipi-imposto-seletivo, 2 cards + legenda |
 | 6 | 🔴 **O limiar de R$40.500 do nanoempreendedor** | pf-autonomo-cbs |
 | 7 | **Número de corte errado só na capa**: "Alugar 3 imóveis" quando a regra é **mais de 3** | imobiliario-aluguel, veio de um gancho do fichamento |
+| 8 | 🔴 **Texto escuro em fundo escuro** nas lâminas `bg-light`/`bg-gold` do modelo 5 Gs/pilares (achado em 18/out) | 6 carrosséis já agendados; corrigido em todos. **Sempre olhar a folha de contato antes de subir** |
 
 **O erro 6 é o mais grave e o mais repetido.** O carrossel dizia que
 "praticamente todo autônomo" vira contribuinte de CBS, e dava **diarista**
@@ -336,7 +337,7 @@ pra movimentar o canal. O TikTok ficou como estava.
 | **5h** | Provérbios | ✅ até 31/10; novembro precisa de legendas 1 a 15 e foto |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 7/11 e em 30/11; faltam 8 a 29/11 |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
-| **20h** | carrossel | ✅ até 30/10; **de 31/10 em diante, 1 por dia** |
+| **20h** | carrossel | ✅ até 31/10; **de 1/11 em diante, 1 por dia** |
 
 **YouTube: 5 por dia (7h, 10h, 13h, 16h, 19h), coberto só até 30/10 às 10h.** Os 8 reels antigos que eram só do
 Instagram estão como rascunho na Zernio. Detalhe e IDs em `_memoria/cronograma-de-postagens.md`.

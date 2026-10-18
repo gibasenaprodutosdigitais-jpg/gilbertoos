@@ -50,21 +50,29 @@ que estavam na fila agora saem às 20h: 19/10 `imobiliario-aluguel`, 20/10 `12-p
 `pf-autonomo-cbs`, 22/10 `5gs-gestao-financeira` ("Sete vezes eu quebrei"), 23/10 `dre-7-passos`. **Não existe mais
 horário das 15h.** A tabela acima é histórico da grade antiga.
 
-**18/out, 19h: a semana de 22 a 30/10 está fechada, um por dia às 20h:**
+**18/out, 19h20: um carrossel por dia às 20h até 31/10** (ordem final, a pedido dele: médicos nesta semana):
 
 | Dia | Carrossel |
 |---|---|
-| 22/10 | `5gs-gestao-de-si` (1 de 5), no lugar do Financeira |
-| 23/10 | `dre-7-passos` |
+| 22/10 | `5gs-gestao-de-si` (1 de 5) |
+| 23/10 | `reforma-medicos` (traz a lâmina dos dividendos acima de R$ 50 mil; pedido dele) |
 | 24/10 | `redutor-ajuste-construcao` |
-| 25/10 | `5gs-gestao-financeira` (2 de 5), veio do 22/10 |
-| 26/10 | `reforma-ebooks` |
+| 25/10 | `5gs-gestao-financeira` (2 de 5, termina com "amanhã tem mais") |
+| 26/10 | `5gs-gestao-de-pessoas` (3 de 5, **criado em 18/out** a partir do capítulo 3 do livro dele) |
 | 27/10 | `10-pergaminhos-maior-vendedor` |
 | 28/10 | `dissolucao-sociedade` |
 | 29/10 | `reforma-infoprodutores` |
-| 30/10 | `reforma-medicos` |
+| 30/10 | `dre-7-passos` |
+| 31/10 | `reforma-ebooks` |
 
-**Próximo a enfileirar: 31/10 às 20h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
+🔴 **Defeito de contraste corrigido em 18/out (é o erro 8).** Nas peças do modelo "5 Gs/pilares" (`bg-light`, `bg-gold`),
+a pele deixa o fundo escuro mas o texto continuava escuro: o corpo das lâminas 2, 4, 6 e 7 quase não aparecia. Pegou
+o 5Gs Si, Financeira, Pessoas, 10 Pergaminhos, 12 Pilares (20/10) e Ponto de Equilíbrio (18/10, corrigido 40 minutos
+antes de sair). A correção (bloco CSS "18/out: contraste" no fim do `carrossel.html`) foi aplicada em **todas** as
+pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, as imagens foram trocadas.
+**Antes de subir qualquer carrossel, montar a folha de contato das lâminas e olhar.**
+
+**Próximo a enfileirar: 1/11 às 20h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
 `biomedicina-reforma`, `comercio-reforma`, `ecommerce-alerta`, `educacao-reforma`, `entregadores-app-reforma`,
 `medicos-reforma-08-27` (tema repetido com o de 30/10: espaçar), `odontologia-reforma`, `reforma-ecommerce` e
 `industria-reforma` (os dois últimos: ler contra a notícia do IS de 8/out), `saude-geral-reforma`,
@@ -75,7 +83,7 @@ horário das 15h.** A tabela acima é histórico da grade antiga.
 | Carrossel | Por quê |
 |---|---|
 | `5gs-gestao-tributaria` (4 de 5) | lâmina 7 e legenda com prazos vencidos ("31 de julho", "em setembro abre a janela do Simples") |
-| `5gs-fornecedores-clientes` (5 de 5, "série completa") | **o 3 de 5 (Gestão de Pessoas) não existe.** Sair sem ele quebra a série |
+| `5gs-fornecedores-clientes` (5 de 5, "série completa") | o 3 de 5 já existe (26/10); falta corrigir o 4 de 5 pra a série sair em ordem |
 | `simples-hibrido` | gancho "perdeu a janela de setembro"; o prazo agora é 30/10 |
 | `reforma-representante-comercial` | lâmina 8: "janela 1 a 30/09" e "cancelamento até 30/11" |
 | `forjado-imersao` | anuncia uma imersão ("comenta FORJADO que eu te aviso"); confirmar com ele se existe |
