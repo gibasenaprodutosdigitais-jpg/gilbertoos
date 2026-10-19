@@ -178,63 +178,8 @@ A pasta tem um `_SEGURADO.md` com o motivo. **O horário foi preenchido com o
 carrossel do imobiliário** (Zernio `6ad2aba3f8010887b20b1b9c`, 7 lâminas, capa
 corrigida para "mais de 3"). Nenhum número do IPI vai ao ar sem fonte.
 
-**Os três reels sobre o fim do IPI ficam na fila** (TikTok 17/10, YouTube
-18/10, Instagram 20/10 às 12h). Revisados em 16/out: dizem só que a regra geral
-vai a zero e que a exceção é a Zona Franca, que é a regra da Constituição e da
-LC 214, e não citam a MP. Nada a tirar.
-
-✅ **Imposto Seletivo "em 1º de janeiro": resolvido em 16/out, sem tirar vídeo.**
-Notícia da Agência Brasil de 8/out: a MP do IS só vai depois do 2º turno e a
-cobrança pode começar só no fim de janeiro ou em fevereiro de 2027. Eu tinha dito
-a ele que a data estava na fala gravada, e **estava errado**: na gravação ele diz
-só "previsto para 2027". A data "1º de janeiro" e o "depende de lei complementar"
-estavam nas **legendas que eu escrevi**. Ele autorizou tirar os dois reels, mas
-como a premissa era falsa, **mantive os vídeos e corrigi as legendas** (abertura
-22/10, pecado 2 em 24/10 às 12h e resposta ao professor em 24/10 às 20h), nas 3
-redes. Falar isso a ele de forma direta. Se ele ainda quiser trocar os reels,
-fazer.
-✅ **Carrossel novo: "Os 5 G's da Gestão Empreendedora" (o livro), 7 cards**, Zernio
-`6ad2b7a1478e6e0b54cdbe7d`, **17/10 às 20h**. Capa = o banner do livro que ele salvou
-(`saidas/CARROSSEIS/carrossel-5gs-o-livro-2026-10-16/`), com a faixa dos 5 Gs trocada por
-uma tarja com os nomes certos (o banner tinha outros nomes). Cards só com citações do livro.
-O segundo banner que ele salvou, o do significado do nome Gilberto, **não foi usado**: perguntar
-pra que peça era.
-
-✅ **"Me chama no direct" saiu de todos os carrosséis em 16/out** (pedido dele): 21 HTMLs, 19
-legendas, e as 4 peças já agendadas que tinham (revenda de carros, imobiliário, pf-autonomo e o
-reposte do 7-mudancas, com imagem e legenda trocadas na Zernio). Não tinha na legenda de reels
-nem de cards. Os já publicados ficam como estão. Um rastro: o último slide do `revenda-carros`
-termina com "me chama." no texto, que é outra frase, não mexi.
-
-✅ **O `7-mudancas-2027` foi apagado por ele no Instagram e reposto em 16/out às 21h02**, já corrigido
-(Imposto Seletivo "previsto para 2027", faixa de 26,5% a 28%, R$3.375, "ou" no imóvel, 70% na alíquota) e com
-texto mais forte: capa "Sete mudanças caem sobre a sua empresa em 2027" e primeira frase da legenda nova.
-Link: `https://www.instagram.com/p/DekxfVgCoMg/` (Zernio `6ad2b44461dcb939e51d8234`). **Ele disse que vai fixar na grade.**
-Mantém os 9 slides.
-
-✅ **Banner "significado do nome Gilberto"** (o segundo banner que ele salvou): agendado para **17/10 às 9h** em
-**Instagram, TikTok e X** (imagem cortada em 4:5, Zernio `6ad2bba0172f53e890005293`) e **YouTube** (vídeo de 14s feito
-do banner, `6ad2bba1172f53e890005299`, porque o YouTube não aceita imagem). Pasta:
-`saidas/CARDS/banner-significado-do-nome-2026-10-16/`. Ele pediu "todas as redes possíveis"; hoje a Zernio tem
-4 contas: Instagram, TikTok, YouTube e **X (@gilbertosenaofc, conectado, antes não constava)**.
-✅ **Banner refeito às 21h15 (pedido dele): "promessa brilhante" ou "garantia ilustre".** Só as linhas 3 e 4 do
-texto mudaram (fonte IBM Plex Sans, igual à do banner); o resto da arte é a original. As duas leituras saem dos
-mesmos elementos germânicos (gisel = promessa, penhor, garantia; beraht = brilho, ilustre). Posts e vídeo trocados
-na Zernio, legendas atualizadas. **Depois (21h25) ele pediu para tirar os números da numerologia do banner:** saíram o (4), o (5) e o (9),
-ficando "Motivação:", "IMPRESSÃO:" e "EXPRESSÃO:" (v3, vídeo e posts trocados). O original com "reflexo brilhante / ilustre pela espada" ficou em
-`banner-original.jpeg` e **não vai ao ar**.
-⚠ **O "Sena":** ele colou um texto dizendo que Sena/Senna significa "brilho" ou "luz". Pesquisei: **isso não
-aparece em fonte confiável para o sobrenome português** (vem de nomes próprios de outras culturas, de fontes
-fracas). O que está documentado: o Sena português vem de nome religioso cristão, em homenagem a **Santa Catarina
-de Sena**, e pode vir da cidade italiana de **Siena** (Dictionary of American Family Names, via Ancestry; site
-Italianismo). A legenda diz isso e cita "brilho e luz" só como "como nome próprio, em algumas culturas". Ele pediu o banner do Sena e **foi feito**: ver abaixo.
-
-✅ **Banner do sobrenome Sena (16/out, a pedido dele):** `saidas/CARDS/banner-significado-sobrenome-sena-2026-10-16/`.
-Mesmo estilo (azul-noite e dourado, título dourado, três blocos com ícone), com **a foto real dele** à direita, não
-arte de IA. Só fatos documentados: origem religiosa (Santa Catarina de Sena, século XIV), a cidade de Siena
-(Toscana) e o Grupo Sena/GSena Hub; "brilho e luz" em nota, como nome próprio em algumas culturas. **Sem numerologia
-do Sena** (não tem fonte e não inventei). Agendado para **18/10 às 9h** em Instagram, TikTok, X
-(`6ad2bf2146f105e2c58792bc`) e YouTube, em vídeo de 14s (`6ad2bf228b4182d57320cf72`).
+**Os reels do fim do IPI já saíram no TikTok e no YouTube.** No Instagram não
+estão mais na grade (o 20/10 às 12h ficou com o reel do Simples).
 
 ⚠ **Lição: legenda escrita por mim carrega afirmação que ele não fez.** Conferir
 a legenda contra a **fala** (transcrição em `entrada-videos/longos/edit/`), e
@@ -561,9 +506,8 @@ roupas de cores opostas, medir a média da metade não diz nada; medir o rosto.
 
 ## 3. Conteúdo e publicação (Zernio)
 
-✅ **O lote de 12/out (14 Reels no Instagram, 12 no YouTube, 14 no TikTok, de 13 a 24/out) já foi ao ar.** O registro
-fica em `saidas/REELS/reels-a-postar-2026-10-12/calendario.md`. Conferir publicação com `posts_list` status `published`;
-falha com `posts_list_failed` e `posts_retry`.
+Conferir publicação com `posts_list` status `published`; falha com
+`posts_list_failed` e `posts_retry`.
 
 O manual completo da Zernio (IDs, fluxo, limites, armadilhas) está na memória
 do Claude, não no repositório, porque envolve credencial e conta.
@@ -766,12 +710,7 @@ mais.
 
 ✅ **17/out: os 50 Reels novos (lotes 1 a 4) saíram com a capa do quadro do título** (o primeiro quadro desses vídeos
 é preto). Perguntei e ele respondeu: *"não, pode deixar assim"*. **Vale para os próximos lotes editados; não perguntar
-de novo.** O histórico abaixo (capa preta de 12/out) fica só como registro.
-
-Ele escolheu capa preta em 12/out/2026, depois de eu recomendar o frame do
-próprio vídeo. Disse **"por enquanto"**, então a decisão segue aberta.
-**Perguntar no próximo lote em vez de assumir.** Dá para trocar nos 14 de uma
-vez com `posts_update_post` enquanto estiverem em `scheduled`.
+de novo.**
 
 ### Dois vídeos fora da fila
 
@@ -815,39 +754,11 @@ marca Advisor News) pedindo 12 posts por dia. **A regra e o que foi aceito e
 recusado estão em `_memoria/posicionamento.md`, no bloco do fim.** Duas
 coisas ficaram em aberto e são para analisar depois, não agora.
 
-**1. O número da cadência — depende de dado que chega sexta.**
-
-O lote de 13 a 17/out está rodando a **3 posts por dia**, contra a grade
-oficial de **3 por semana**. É a primeira vez que ele roda nesse ritmo. **A
-partir de 18/out os 14 posts já publicaram e dá para medir.**
-
-Como medir, na ordem da hierarquia de métricas que virou regra:
-
-| Passo | Ferramenta |
-|---|---|
-| Puxar os 14 posts do lote | `analytics_get_post_timeline` |
-| Comparar com a base anterior | `analytics_get_daily_metrics` |
-| Horário que performou | `analytics_get_best_time_to_post` |
-
-**O que decide:** encaminhamento (compartilhamento) por post, primeiro. Depois
-alcance. **Não decidir por curtida nem por seguidor novo.**
-
-**Caiu um segundo teste no colo, no TikTok.** Em 13/out ele mandou publicar
-lá **de 4 em 4 horas sem parar**, e **4 dos 14 caem entre meia-noite e 7h**.
-Avisei e ele manteve. Então dá para comparar, no mesmo lote e com o mesmo
-conteúdo, **os 4 da madrugada contra os 10 do horário comercial** — e
-responder se horário importa no TikTok dele, onde a entrega é por Para Você
-e não por seguidor. Calendário em
-`saidas/REELS/reels-a-postar-2026-10-12/calendario.md`.
-
-A pergunta a responder: **3 por dia rendeu mais encaminhamento TOTAL na
-semana, ou só diluiu o mesmo bolo em mais posts?** Se diluiu, voltar a
-frequência do feed e jogar o excedente pro Stories.
-
-**Linha de base de 13/out/2026**, para comparar depois:
-- Instagram **105.455** seguidores · alcance de 3.000 a 6.267 por post
-  (menos de 6% da base) · impressões até 9.471
-- TikTok 3.195 · YouTube **2** · Twitter 0
+**1. A medição de 25/out** segue a hierarquia que virou regra:
+**encaminhamento (compartilhamento) por post primeiro, depois alcance.** Não
+decidir por curtida nem por seguidor novo. Ferramentas:
+`analytics_get_post_timeline` e `analytics_get_daily_metrics`. Linha de base de
+13/out: Instagram **105.455** seguidores, alcance de 3.000 a 6.267 por post.
 
 **2. A escada — decisão dele, não minha.**
 
@@ -933,51 +844,13 @@ coisa.
 
 ---
 
-## 6. ✅ Repositório limpo — resolvido em 13/out/2026
+## 6. Computador e repositório: o que segue aberto
 
-### ★ A pasta `saidas/` foi reorganizada em 14/out/2026
-
-Ele pediu: *"crie pastas para melhorar minha busca"*. **103 itens saíram da
-raiz** para pastas por tipo. O guia está em
-`saidas/_CONTROLE/_ONDE-ESTA-CADA-COISA.md`.
-
-| Pasta | Quantos |
-|---|---|
-| `CARROSSEIS/` (+ `JA-FORAM-AO-AR/`) | 43 na fila + 2 |
-| `REELS/` (+ `JA-FORAM-AO-AR/`) | 23 + 4 |
-| `CARDS/` | 2 séries |
-| `VIDEOS/` · `LIVROS-E-EBOOKS/` · `EVENTOS-E-PALESTRAS/` | 7 · 8 · 7 |
-| `MATERIAL-TECNICO/` · `NEGOCIOS-E-MARCA/` · `POSTS-AVULSOS/` | 8 · 3 · 2 |
-| **`_CONTROLE/`** | os documentos que ele lê para acompanhar |
-
-⚠ **A pasta `Postados/` deixou de existir.** Os 7 carrosséis voltaram para
-`CARROSSEIS/` porque ele mandou enfileirá-los; os 4 reels foram para
-`REELS/JA-FORAM-AO-AR/`.
-
-⚠ **O risco era quebrar os 291 caminhos relativos que apontam para a logo.**
-Recalculei cada um pela profundidade da pasta e conferi se o arquivo existe
-no destino: zero referência quebrada. **Se mover pasta de novo, refazer essa
-conferência**, porque `../../identidade/` muda com o nível.
-
-⚠ **`.gitignore` por caminho não sobrevive a mudança de pasta.** O brandbook
-de 235 MB voltou a entrar e o GitHub recusou o push. Agora é `**/BRANDBOOK*.pdf`.
-**Ignorar por padrão, nunca por caminho.**
-
-O histórico foi reescrito e **enviado ao GitHub**. Notebook e GitHub estão
-idênticos em `e637f45`. **A sincronia voltou ao normal** — `/salvar` funciona
-como sempre.
-
-| | Antes | Depois |
-|---|---|---|
-| Baixar o repositório do zero | ~11 GB | **1,0 GB** |
-| Pasta `.git` | 1,2 GB | **496 MB** |
-
-**O que saiu:** 840 MB — o brandbook de 235 MB, vídeos e áudios, e arquivos
-órfãos que já não estavam no repositório mas o git carregava.
-
-**Nenhum conteúdo se perdeu.** Os vídeos continuam no notebook, agora no
-`.gitignore`. Conferido por clone novo: 10 capítulos do livro, 60
-fichamentos, 8 PDFs do SB, os cards do carrossel — tudo no lugar.
+**Onde está cada coisa em `saidas/`:** `saidas/_CONTROLE/_ONDE-ESTA-CADA-COISA.md`
+(reorganizada em 14/out). ⚠ **Se mover pasta de novo, conferir os caminhos
+relativos da logo** (`../../identidade/` muda com o nível). ⚠ **`.gitignore`
+por padrão, nunca por caminho** (`**/BRANDBOOK*.pdf`): por caminho, o brandbook
+de 235 MB voltou a entrar e o GitHub recusou o envio.
 
 ### ⚠ Regra nova: vídeo e áudio não entram mais no git
 
@@ -1007,25 +880,15 @@ snapshots, que devolveram **56 GB de uma vez**. Se o disco voltar a encher
 sem motivo, é isso. O comando é `tmutil listlocalsnapshots /` e
 `tmutil deletelocalsnapshots <data>`.
 
-### A limpeza de 13/out/2026, e o que sobrou
-
-| Onde | Liberado |
-|---|---|
-| Snapshots locais do APFS | **56 GB** |
-| Pasta `Desktop/Videos do Drive` | 37 GB |
-| Duplicatas e ZIPs do Downloads | 4,35 GB |
-| Conta do Google Drive (34 duplicatas) | **31,7 GB** |
-
-**Disco: de 45 para 66 GB livres.** Downloads: 28 → 23 GB, e voltou a 30 GB
-porque entrou a pasta `4K reduzido`.
+### Duas regras da limpeza de 13/out
 
 ⚠ **Nunca apagar por padrão de nome.** No Drive, sete arquivos tinham "(1)"
-ou "(2)" no nome e **não eram duplicata** — dois deles não tinham original
-nenhum. Conferir tamanho **e** se o original existe.
+ou "(2)" no nome e **não eram duplicata**. Conferir tamanho **e** se o
+original existe.
 
-**Os 49 vídeos da pasta `Videos do Drive` continuam no Google Drive.** O
-índice, com as **cinco pautas que ele tinha marcado nos nomes dos arquivos**,
-está em `dados/videos-brutos-no-drive.md`.
+**Os 49 vídeos da antiga pasta `Videos do Drive` estão no Google Drive.** O
+índice, com as cinco pautas que ele marcou nos nomes, está em
+`dados/videos-brutos-no-drive.md`.
 
 ### Os vídeos 4K: reduzidos, e o envio ainda não confirmado
 
@@ -1168,75 +1031,6 @@ ele baixou e o PC inteiro. **Achei um**, e os outros três não são depoimento:
 não:** tentei acesso direto, yt-dlp, a sessão do Chrome dele (travou pedindo
 a senha do chaveiro) e o endpoint de incorporação. Devolve casca vazia.
 
-### ✅ O kit virou 9 páginas em 15/out/2026
-
-Três coisas mudaram nesse dia, todas por pedido dele:
-
-**1. Cada palestra tem a sua foto.** A página 4 era uma foto grande do Summit
-Êxito mais uma coluna de miniaturas, e a coluna não tinha todos os eventos —
-faltavam o Summit e o PBXP. Ele viu na hora: *"falta sumit exito"*, *"pbxp
-ache uma tambem"*. Refiz como **sete linhas, foto ao lado do texto**, uma por
-evento. Agora não dá pra faltar nenhum, porque a foto e o parágrafo nascem do
-mesmo bloco. O cartaz do PBXP virou `assets/pbxp-2023.jpg`, recortado de
-`post-pbxp-cartaz-palestrantes.jpeg`.
-
-**2. A capa da revista agora é a matéria, não a revistinha.** O que estava lá
-era um recorte de 360×530 da revista pequena **dentro** do post de divulgação
-— por isso ficava apagada por mais que eu clareasse, e ele reclamou duas
-vezes. A abertura da matéria está em alta em
-`dados/biblioteca/materia revista gilberto.pdf`, páginas 22-23, escura e
-forte. Recortei a página direita. A legenda virou *"Matéria de capa · Revista
-Empreenda, edição 75"*, que é o que a própria página diz.
-
-⚠ **Lição:** quando uma imagem não melhora com ajuste de brilho, o problema é
-a fonte, não o ajuste. Procurar o original antes de insistir no filtro.
-
-**3. Página 5 nova — "Com quem ele senta à mesa".** Pedido dele: *"seria
-interessante colocar uma página com fotos minha com os famosos tipo ricardo
-nunes joel jota padre patric janguie diniz"*. Entrou com o que tem prova:
-
-- **Clube Êxito de Negócios, abril/2026**, card oficial com ele e os
-  convidados **Paulo Tomazela** (Bossa Invest), **Janguiê Diniz** (Ser
-  Educacional) e **Sergio Moura** (Baterias Moura). Achado em
-  `ARQUIVO GERAL/Arquivos Soltos por Tipo/Imagens/Gilberto Luis de Sena story.jpg`
-- **A faixa da diretoria do Instituto Êxito**, onde ele aparece ao lado de
-  Janguiê Diniz e Celso Niskier
-- PBXP e A Casa do Zé, em texto
-
-❗ **Ricardo Nunes, Joel Jota e Padre Patrick não estão no computador.** Varri
-as 116 fotos do ensaio, as 68 do WhatsApp, as 190 do ARQUIVO GERAL e os
-Downloads. Tudo que achei é retrato sozinho ou gente que eu não sei nomear.
-**O terço de baixo da página 5 está vazio de propósito**, esperando as fotos.
-Ele larga em `entrada-videos/com-os-nomes-grandes/`, que já existe com o
-LEIA.md explicando a regra: cartaz de evento em que os dois estavam **não é**
-foto junto.
-
-### O kit chegou a 10 páginas — 15/out/2026, fim da noite
-
-**Página 5, "Com quem ele senta à mesa".** O card do Clube Êxito agora é o de
-**outubro de 2026** (tema *Empreendedorismo com Propósito*, no MC Hall), com
-**Pr. Cláudio Duarte, Janguiê Diniz e Eduardo Shinyashiki**. O de abril, com
-Paulo Tomazela e Sergio Moura, saiu — ele pediu o mais recente.
-
-**A faixa da diretoria foi remontada, não trocada.** Ele pediu "troca as da
-diretoria também", mas aquela faixa é a prova do cargo dele no Instituto
-Êxito. Perguntei, e ele escolheu limpar em vez de substituir: recortei os
-cinco retratos um a um do print (`prova-diretoria-instituto-exito.jpg`,
-fileira de baixo, y 194–384; os cortes em x são 18-170, 207-367, 407-558,
-599-751, 791-946) e remontei numa grade de chips com espaçamento igual e
-régua de acento em cada um. Saiu a cara de print de site, ficou a prova.
-O PNG é `assets/diretoria-exito.png`, 814x200.
-
-**Página 6 nova, "Fora do palco".** Duas faixas de cinco fotos de bastidor
-mais a foto larga da reunião fechada. Sem nome de ninguém — foi decisão dele
-quando eu disse que não conseguia afirmar quem era quem.
-
-⚠ **Print de Instagram tem duas armadilhas:** a barra "Ver insights ·
-Turbinar post" embaixo e a barra de status em cima. Em foto de story a
-imagem é cheia e dá pra recortar 4:5 em qualquer altura; em print de **post**
-a imagem é uma faixa no meio, e um recorte 4:5 pega a interface. Conferir
-sempre a peça recortada antes de montar.
-
 ### ✅ Showreel montado — 15/out/2026
 
 `saidas/REELS/showreel-palestrante-2026-10-15/Gilberto-Sena-Showreel.mp4`,
@@ -1276,6 +1070,7 @@ minutos limpos dá uma peça de 90s com variação de plano.
 | **Showreel** | ✅ montado, 58s (seção acima). Para chegar a 90s precisa de imagem bruta de palco sem legenda |
 | **Proposta comercial** | ⏳ precisa de CNPJ, CNAE e a tabela de cachê dele |
 | **Depoimentos** | ⏳ a página 9 do kit tem 4 comentários públicos. Faltam os de contratantes, com nome e frase |
+| **Fotos com nomes grandes** | ⏳ o terço de baixo da página 5 está vazio de propósito, esperando fotos dele com Ricardo Nunes, Joel Jota e Padre Patrick. Ele larga em `entrada-videos/com-os-nomes-grandes/` (cartaz de evento em que os dois estavam **não é** foto junto) |
 
 ---
 
