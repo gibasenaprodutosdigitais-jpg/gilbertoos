@@ -6,7 +6,7 @@ Em 2027 o sistema tributário inteiro troca de lugar, em sete frentes ao mesmo t
 
 3. Split payment: o imposto vai sair antes de entrar no seu caixa, mas só a partir do 2º semestre de 2027, em etapas (não janeiro, como se falava).
 
-4. Simples Nacional: a janela de setembro fechou. Quem optou pode cancelar até 30 de novembro, e quem ficou de fora tem nova janela em março de 2027, valendo pro segundo semestre.
+4. Simples Nacional híbrido: a opção para 2027 vai de 1º de setembro a 30 de outubro de 2026, e o cancelamento, de 3 de novembro a 20 de dezembro (Resolução CGSN 194/2026). Vale para o primeiro semestre de 2027.
 
 5. Autônomo entra no sistema acima de R$40.500 por ano, uns R$3.375 por mês.
 

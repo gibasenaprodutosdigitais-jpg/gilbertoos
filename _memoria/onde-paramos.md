@@ -21,11 +21,16 @@ estúdio de vídeo (`~/Ferramentas/editor-video-gilberto/remotion/src/`).
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
-**Duas pendências do prazo do Simples (17/out), ainda abertas:**
-- **🔴 Já publicado e errado, só ele resolve no app:** o `7-mudancas-2027` (reposto 16/10) diz no item 4 "a janela de
-  setembro fechou, cancela até 30/11". E o reel "Comitê Gestor / Simples" (publicado 14 a 16/10) diz que o prazo "está
-  na lei e não vai mudar". O prazo certo (CGSN 194/2026): opção até 30/10, cancelamento de 3/11 a 20/12.
-  **Perguntar se ele quer apagar e repostar corrigido.**
+**Prazo do Simples (19/out): ele decidiu apagar os dois posts errados.**
+- ✅ O reel "Comitê Gestor / Simples" **saiu do YouTube** (apagado pela Zernio).
+  No Instagram ele nunca chegou a sair.
+- ✅ **O `7-mudancas-2027` foi corrigido** (item 4: opção até 30/10, cancelamento
+  de 3/11 a 20/12, CGSN 194/2026, conferido no CFC em 19/out) e **agendado para
+  19/10 às 21h** no Instagram (Zernio `6ad6947c756c974ea893f060`). É esse que ele
+  vai fixar na grade.
+- ⏳ **Só ele apaga, no app:** o carrossel antigo (`instagram.com/p/DekxfVgCoMg/`)
+  e o reel no TikTok (`tiktok.com/@gilbertosenaoficial/video/7696670028137041173`).
+  Conferir se apagou.
 - **O carrossel `simples-hibrido` tem o mesmo erro** e segue segurado: reescrever antes de entrar na fila.
 
 **Série "A Base da Gestão" pro YouTube (18/out): agendada, 1 aula por dia às 20h de 19 a 26/10, na playlist própria.** Conferir no dia 19 se a capa entrou (exige canal verificado). 8 aulas horizontais (22 min no total), feitas do

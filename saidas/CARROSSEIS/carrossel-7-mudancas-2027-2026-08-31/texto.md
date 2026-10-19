@@ -31,7 +31,7 @@ Kicker: 3 — SPLIT PAYMENT (ADIADO)
 
 ## Slide 5 — NÚMERO (dark)
 Kicker: 4 — SIMPLES NACIONAL
-"30/nov" + "A janela de setembro fechou. Quem optou ainda pode cancelar até 30 de novembro. E quem ficou de fora tem nova janela em março de 2027, pro segundo semestre."
+"30/out" + "Opção pelo Simples híbrido de 2027: de 1º de setembro a 30 de outubro de 2026. Quem optar e mudar de ideia cancela de 3 de novembro a 20 de dezembro. Vale para o 1º semestre de 2027." (corrigido em 19/out/2026, Resolução CGSN 194/2026)
 
 ## Slide 6 — SOLO (light)
 Kicker: 5 — O AUTÔNOMO ENTRA

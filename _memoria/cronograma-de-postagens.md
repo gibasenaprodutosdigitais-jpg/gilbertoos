@@ -53,6 +53,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 19/10 seg | 19h00 | YouTube | reels | Dobrar a equipe não dobra o lucro. |
 | 19/10 seg | 20h00 | Instagram | carrossel | Alugar mais de 3 imóveis te transforma em contribuinte, e a maioria de… |
 | 19/10 seg | 20h00 | YouTube | vídeo longo | A Base da Gestão, Aula 1: Você é um empresário chupengole? |
+| 19/10 seg | 21h00 | Instagram | carrossel | **Repost corrigido** das 7 mudanças (prazo do Simples), Zernio `6ad6947c…` |
 | 20/10 ter | 05h00 | Instagram | card | Fale com sabedoria. Uma conversa bem conduzida pode fortalecer uma par… |
 | 20/10 ter | 06h00 | TikTok | reels | Dobrar a equipe não dobra o lucro. |
 | 20/10 ter | 07h00 | YouTube | reels | Quebrar o negócio não é só fechar as portas e ir pra sarjeta. |
