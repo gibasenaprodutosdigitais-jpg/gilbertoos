@@ -193,10 +193,9 @@ advogado e o contador do cliente executarem**.
 
 ## O argumento de ancoragem: duas cabeças, três leituras
 
-> ⚠ **Ajustado em 19/out/2026, com a saída do Simões.** A tese do Gilberto,
-> de 13/out, era de **três cabeças**. As três leituras continuam; quem lê
-> margem e dinheiro agora é o próprio Gilberto. **A frase abaixo é adaptação
-> minha: confirmar com ele antes de usar em venda.**
+> **Ajustado em 19/out/2026, com a saída do Simões, e aprovado por ele no
+> mesmo dia.** A tese de 13/out era de três cabeças. As três leituras
+> continuam; quem lê margem e dinheiro agora é o próprio Gilberto.
 
 **O preço se justifica pelos dois sócios dentro do projeto.** Essa é a tese,
 e ela é mais honesta que a anterior, porque descreve o que o cliente de fato

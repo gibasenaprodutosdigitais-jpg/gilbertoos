@@ -382,9 +382,10 @@ contrato, plano, esteira e PDFs foram refeitos; a marca voltou ao monograma
 SB original (S e B com o bastão de Asclépio); a arte institucional é de dois.
 O que era dos três está em `sb/_arquivo-sbs/`, só como registro.
 
-**Pendente, dele:**
-- **A frase de ancoragem "duas cabeças"** em `sb/esteira.md` é adaptação
-  minha da tese dele de três cabeças. Confirmar antes de usar em venda.
+**Aprovado por ele em 19/out:** a frase "duas cabeças, três leituras" e a
+troca do "Smart Money" por "o critério do dinheiro que sobra".
+
+**Pendente, dele (ele está ciente):**
 - **A saída do Simões no papel.** O termo de três foi registrado como
   assinado; se foi, a saída se formaliza pela cláusula 12 de lá (aviso por
   escrito ou distrato), e sigilo e não contorno continuam valendo para ele.
@@ -393,8 +394,7 @@ O que era dos três está em `sb/_arquivo-sbs/`, só como registro.
   para o advogado.
 - **O monograma SB só existe em 600 px.** Pedir o original em alta a quem
   desenhou, antes de qualquer placa ou impressão grande.
-- **"Smart Money" saiu do método** (era a bandeira do Simões). No lugar:
-  "o critério do dinheiro que sobra". Se o termo for dele, perguntar.
+
 
 ### ★ A esteira foi substituída em 13/out/2026
 
@@ -427,7 +427,7 @@ equipe do cliente**. Sem BPO, sem assumir contabilidade, sem gerir tráfego.
 **A ancoragem era a das três cabeças**, tese dele de 13/out: o cliente não
 contrata um consultor, contrata três leituras cruzando antes de chegar na
 mesa dele — gestão e imposto, médico e venda, margem e dinheiro. **Com a saída
-do Simões virou "duas cabeças, três leituras"** (adaptação minha, a confirmar).
+do Simões virou "duas cabeças, três leituras"**, aprovada por ele em 19/out.
 
 ⚠ **Duas coisas de preço com resposta já escrita em `esteira.md`:**
 1. **O de 12 meses custa mais por mês que o de 6** (R$ 13.333 contra

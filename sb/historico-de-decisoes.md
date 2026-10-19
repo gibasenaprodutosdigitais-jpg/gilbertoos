@@ -15,13 +15,12 @@ O que mudou em todo o material:
 
 - **Quem conduz:** Sena em 01 Gestão e 04 Lucratividade; Bittar em 02
   Marketing e 03 Vendas. Os dois juntos na abertura e no fechamento.
-- **"Smart Money" saiu**, por ser a bandeira do Simões. O conteúdo ficou, com
+- **"Smart Money" saiu** (aprovado por ele), por ser a bandeira do Simões. O conteúdo ficou, com
   o nome "o critério do dinheiro que sobra", e continua **educacional**
   (cláusula 3.7).
 - **A tensão entre 3.7 e 7.4 e o item 9 abaixo perderam o objeto**: eram sobre
   o Simões captar recursos. Ficam aqui como registro.
-- **A ancoragem virou "duas cabeças, três leituras"** (adaptação, a
-  confirmar com ele).
+- **A ancoragem virou "duas cabeças, três leituras"**, aprovada por ele.
 - **O termo entre os sócios virou minuta nova, de dois.** O de três ficou
   intacto em `_arquivo-sbs/juridico/`, porque pode ter sido assinado.
 
