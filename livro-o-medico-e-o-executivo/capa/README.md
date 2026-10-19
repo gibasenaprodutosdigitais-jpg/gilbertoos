@@ -33,7 +33,7 @@ mais estraga capa de livro com foto de autor.
 
 **Paleta:** fundo `#0A1018`, tinta `#ECE9E2`, ouro `#C9A24B`. O ouro é o
 único acento e aparece só na linha, no "e o" do título e na tarja de cima. É
-o mesmo ouro da identidade da Sena, Bittar e Simões, o que amarra o livro à
+o mesmo ouro da identidade da Sena e Bittar, o que amarra o livro à
 casa sem transformar a capa em peça institucional.
 
 **Tipografia:** Playfair Display no título e nos nomes, Archivo no resto.

@@ -813,7 +813,7 @@ Embratel. Mas isso é decisão dele, e eu não mexi no capítulo 7 sem a palavra
 dele.
 
 **As onze perguntas do acordo de sócios** foram montadas a partir do termo
-que ele já usa na prática, em `sbs/juridico/termo-de-compromisso-sbs.md`:
+que ele já usa na prática, em `sb/juridico/termo-de-compromisso-sb.md`:
 responsabilidades por área, divisão de custo e lucro, não contorno com
 prazo, confidencialidade com penalidade e a cláusula de transparência. Ou
 seja, não é lista de manual: é o que ele faz hoje, generalizado.
@@ -827,7 +827,7 @@ o tom de sermão de tudo o que veio antes.
 quatro quedas. A leitura de que a má-fé do comprador encontrou uma fresta em
 vez de ter criado o problema. A lista das cinco coisas que ele faz hoje antes
 de assinar, montada a partir do que existe nos contratos que ele usa, entre
-eles o termo da SBS com a cláusula de não contorno.
+eles o termo da SB com a cláusula de não contorno.
 
 ⚠ **O capítulo passou de 14 páginas**, contra a norma de 10 em média. Com as
 sete quedas contadas, ele é o mais longo da parte dele, e com razão: é a

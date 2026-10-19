@@ -58,6 +58,12 @@ um aprendizado real.
   acadêmico, não sou um homem de teorias... são, de fato, a essência da
   minha prática."** — usar quando precisar justificar por que ele fala com
   autoridade mesmo sem citar estudo acadêmico.
+- **"Alphanilhas"** (com PH): termo criado por ele para os **coaches de
+  mentira de Alphaville**, os que vendem imersão e "segundo nível" sem
+  transformação nenhuma (19/out/2026). Primeira vez no Stories sobre quem está
+  caçando médico: *"não caiam nas armadilhas dos Alphanilhas"*. Grafia fixa:
+  Alphanilhas. O transcritor escreve "alfanilhas" ou "Alfamilhas"; corrigir
+  sempre.
 
 ## Visão sobre empreendedorismo e escala
 

@@ -1,0 +1,120 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SB — arte institucional</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Arte institucional do SB com as DUAS FOTOS REAIS dos socios.
+     19/out/2026: o Will Simoes saiu, a arte voltou a ser de dois. */
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{
+    --fundo:#0B0A09;        /* quase-preto quente */
+    --tinta:#F2EDE4;
+    --ouro:#C9A24B;
+    --ouro-claro:#E8CE8F;
+    --fraco:#8E8880;
+  }
+  body{background:#111;display:flex;align-items:center;justify-content:center}
+  .arte{position:relative;width:1536px;height:1024px;overflow:hidden;
+    background:
+      radial-gradient(120% 90% at 50% 8%, #1A1713 0%, #0E0C0A 48%, #070605 100%);
+    font-family:Archivo,system-ui,sans-serif;color:var(--tinta)}
+
+  /* brilho quente que nasce atras dos retratos */
+  .halo{position:absolute;left:0;right:0;top:-60px;height:620px;
+    background:radial-gradient(60% 100% at 50% 40%, rgba(201,162,75,.16) 0%, rgba(201,162,75,0) 70%);
+    pointer-events:none}
+
+  /* ---------- os dois retratos ---------- */
+  .trio{position:absolute;left:0;right:0;top:4px;height:600px;
+        display:flex;justify-content:center;align-items:flex-start;gap:0}
+  .p{position:relative;width:470px;height:600px}
+  .p img{width:100%;height:100%;object-fit:cover;object-position:50% 14%;display:block}
+  .p + .p{margin-left:-20px}
+
+  /* os nomes ficam ABAIXO das fotos, no escuro, onde da pra ler */
+  .nomes{position:absolute;left:0;right:0;top:598px;height:58px;
+         display:flex;justify-content:center;align-items:flex-start}
+  .quem{width:470px;text-align:center}
+  .quem + .quem{margin-left:-20px}
+  .quem b{display:block;font-family:Cinzel,serif;font-size:21px;font-weight:600;
+          letter-spacing:.045em;color:var(--tinta)}
+  .quem span{display:block;font-size:11px;letter-spacing:.22em;
+             color:var(--ouro);margin-top:6px;text-transform:uppercase}
+
+  /* ---------- o bloco da marca ---------- */
+  .marca{position:absolute;left:0;right:0;top:672px;height:186px;
+         display:flex;align-items:center;justify-content:center;gap:42px}
+  .marca img{height:158px;width:auto;display:block}
+  .barra{width:1px;height:132px;background:linear-gradient(to bottom,
+         rgba(201,162,75,0) 0%, rgba(201,162,75,.85) 18%,
+         rgba(201,162,75,.85) 82%, rgba(201,162,75,0) 100%)}
+  .nome{padding-top:4px}
+  .nome .l1{font-family:Cinzel,serif;font-size:54px;font-weight:700;
+            letter-spacing:.012em;line-height:1.20;color:var(--tinta)}
+  .nome .l2{font-family:Cinzel,serif;font-size:54px;font-weight:700;
+            letter-spacing:.012em;line-height:1.20;
+            background:linear-gradient(100deg,var(--ouro) 0%,var(--ouro-claro) 46%,var(--ouro) 100%);
+            -webkit-background-clip:text;background-clip:text;color:transparent}
+  .nome .reg{margin-top:12px;padding-top:11px;font-size:14px;letter-spacing:.26em;
+             color:#B9B1A4;border-top:1px solid rgba(201,162,75,.42)}
+
+  /* ---------- os seis pilares ---------- */
+  .pilares{position:absolute;left:96px;right:96px;top:880px;height:46px;
+           display:flex;align-items:center;justify-content:space-between}
+  .pil{display:flex;align-items:center;gap:11px;font-size:14px;
+       letter-spacing:.14em;color:#CFC7B8;text-transform:uppercase}
+  .pil svg{width:25px;height:25px;flex:none;stroke:var(--ouro);
+           fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+  .sep{width:1px;height:26px;background:rgba(201,162,75,.30)}
+
+  /* ---------- a assinatura ---------- */
+  .fecho{position:absolute;left:0;right:0;bottom:36px;text-align:center;
+         font-size:15px;letter-spacing:.34em;color:var(--ouro-claro);
+         text-transform:uppercase}
+  .fecho::before,.fecho::after{content:"";position:absolute;top:50%;width:216px;
+    height:1px;background:linear-gradient(to right,rgba(201,162,75,0),rgba(201,162,75,.6))}
+  .fecho::before{left:258px}
+  .fecho::after{right:258px;transform:scaleX(-1)}
+</style>
+
+<div class="arte">
+  <div class="halo"></div>
+
+  <div class="trio">
+    <div class="p"><img src="fotos/sena.png" alt="Gilberto Sena"></div>
+    <div class="p"><img src="fotos/bittar.png" alt="Dr. Stanley Bittar"></div>
+  </div>
+
+  <div class="nomes">
+    <div class="quem"><b>Gilberto Sena</b><span>Gestão, Tributário e Finanças</span></div>
+    <div class="quem"><b>Dr. Stanley Bittar</b><span>Médico Estrategista</span></div>
+  </div>
+
+  <div class="marca">
+    <img src="sb-logo.png" alt="SB">
+    <div class="barra"></div>
+    <div class="nome">
+      <div class="l1">SENA</div>
+      <div class="l2">E BITTAR</div>
+      <div class="reg">CONSULTORIA E ASSESSORIA MÉDICA EMPRESARIAL</div>
+    </div>
+  </div>
+
+  <div class="pilares">
+    <div class="pil"><svg viewBox="0 0 24 24"><path d="M3 20h18M6 20V11M11 20V5M16 20v-6M21 20V8"/></svg>Estratégia</div>
+    <div class="sep"></div>
+    <div class="pil"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M21.5 12h-3M5.5 12h-3M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1M18.7 18.7l-2.1-2.1M7.4 7.4L5.3 5.3"/></svg>Gestão</div>
+    <div class="sep"></div>
+    <div class="pil"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="1"/></svg>Marketing</div>
+    <div class="sep"></div>
+    <div class="pil"><svg viewBox="0 0 24 24"><path d="M16 20v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="3.4"/><path d="M22 20v-2a4 4 0 0 0-3-3.8"/><path d="M16.5 3.8a4 4 0 0 1 0 6.4"/></svg>Vendas</div>
+    <div class="sep"></div>
+    <div class="pil"><svg viewBox="0 0 24 24"><path d="M11 17l-3 3-5-5 3.5-3.5M13 7l3-3 5 5-3.5 3.5"/><path d="M8.5 11.5l4 4M11.5 8.5l4 4"/></svg>Negócios</div>
+    <div class="sep"></div>
+    <div class="pil"><svg viewBox="0 0 24 24"><path d="M3 17l5.5-5.5 3.5 3.5L21 6"/><path d="M15.5 6H21v5.5"/></svg>Performance</div>
+  </div>
+
+  <div class="fecho">Saúde que gera resultados</div>
+</div>

@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 18/out/2026.**
+> Estado das frentes abertas. **Atualizado em 19/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -10,6 +10,16 @@
 ---
 
 ## O primeiro ato da próxima sessão
+
+**Stories dos Alphanilhas (19/out): prontos para ele conferir**, na Downloads:
+`Stories Alphanilhas - parte 1 de 2.mp4` (56s, termina em "continua") e
+`parte 2 de 2.mp4` (59,7s, termina na chamada "manda esse story pra um médico").
+Legenda acima da cabeça e enquadramento fechado, a pedido dele (pra aparecer
+menos que estava sem camisa). A composição com os efeitos é `Stories.tsx`, no
+estúdio de vídeo (`~/Ferramentas/editor-video-gilberto/remotion/src/`).
+**Alphanilhas é termo dele** (ver `tom-de-voz.md`).
+
+**SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
 **Duas pendências do prazo do Simples (17/out), ainda abertas:**
 - **🔴 Já publicado e errado, só ele resolve no app:** o `7-mudancas-2027` (reposto 16/10) diz no item 4 "a janela de
@@ -361,11 +371,34 @@ alimentam o YouTube a partir de 30/10.
 
 ---
 
-## 1. SBS — Sena, Bittar e Simões
+## 1. SB — Sena e Bittar
+
+### ★ 19/out/2026: o Simões saiu, a casa voltou a ser SB
+
+Pedido dele: *"refaça todo projeto sbs pra SB sena e Bittar"*. **O Will Simões
+saiu e o pilar 04 (Lucratividade: margem, preço e ticket) passou para o
+Gilberto** (ele escolheu). A pasta virou `sb/`; textos, fichas, termo,
+contrato, plano, esteira e PDFs foram refeitos; a marca voltou ao monograma
+SB original (S e B com o bastão de Asclépio); a arte institucional é de dois.
+O que era dos três está em `sb/_arquivo-sbs/`, só como registro.
+
+**Pendente, dele:**
+- **A frase de ancoragem "duas cabeças"** em `sb/esteira.md` é adaptação
+  minha da tese dele de três cabeças. Confirmar antes de usar em venda.
+- **A saída do Simões no papel.** O termo de três foi registrado como
+  assinado; se foi, a saída se formaliza pela cláusula 12 de lá (aviso por
+  escrito ou distrato), e sigilo e não contorno continuam valendo para ele.
+  Detalhe em `sb/juridico/notas-sobre-o-termo.md`.
+- **Cláusula 12.4 do termo novo** (com quem fica a marca se um dos dois sair):
+  para o advogado.
+- **O monograma SB só existe em 600 px.** Pedir o original em alta a quem
+  desenhou, antes de qualquer placa ou impressão grande.
+- **"Smart Money" saiu do método** (era a bandeira do Simões). No lugar:
+  "o critério do dinheiro que sobra". Se o termo for dele, perguntar.
 
 ### ★ A esteira foi substituída em 13/out/2026
 
-**O que vale agora está em `sbs/esteira.md`.** Quatro produtos, preço por
+**O que vale agora está em `sb/esteira.md`.** Quatro produtos, preço por
 tempo de programa:
 
 | Produto | Prazo | Preço |
@@ -373,7 +406,7 @@ tempo de programa:
 | Imersão presencial | 2 dias | R$ 3.000 a R$ 5.000 por pessoa |
 | Choque de Ordem e Caixa | 3 meses | **R$ 35.000** |
 | Escala Blindada | 6 meses | **R$ 60.000** |
-| **Club SBS** (conexão) | 12 meses | **R$ 160.000** |
+| **Club SB** (conexão) | 12 meses | **R$ 160.000** |
 
 **Saíram:** a mentoria de 90 dias por R$ 50.000, a continuidade de 6 meses e
 a cesta por porte (R$ 105/200/400 mil). Os arquivos continuam na pasta com
@@ -386,59 +419,57 @@ depois que eu apontei que o programa de 3 meses a R$ 35.000 colidia com a
 mentoria de 90 dias a R$ 50.000. **A decisão nova é a que vale.** Não
 ressuscitar a antiga.
 
-**O SBS vende direcionamento, não execução.** Ele mandou incluir execução em
-13/out e **mandou retirar no mesmo dia**. Vale a segunda. O SBS aponta o que
+**O SB vende direcionamento, não execução.** Ele mandou incluir execução em
+13/out e **mandou retirar no mesmo dia**. Vale a segunda. O SB aponta o que
 mudar — regime, equiparação hospitalar, DRE, licenças — e **quem executa é a
 equipe do cliente**. Sem BPO, sem assumir contabilidade, sem gerir tráfego.
 
-**A ancoragem é a das três cabeças**, tese dele de 13/out: o cliente não
+**A ancoragem era a das três cabeças**, tese dele de 13/out: o cliente não
 contrata um consultor, contrata três leituras cruzando antes de chegar na
-mesa dele — gestão e imposto, médico e venda, margem e dinheiro.
+mesa dele — gestão e imposto, médico e venda, margem e dinheiro. **Com a saída
+do Simões virou "duas cabeças, três leituras"** (adaptação minha, a confirmar).
 
 ⚠ **Duas coisas de preço com resposta já escrita em `esteira.md`:**
 1. **O de 12 meses custa mais por mês que o de 6** (R$ 13.333 contra
    R$ 10.000). A resposta: muda o que se compra. **O de 6 arruma a casa, o
    Club abre portas** — 4 encontros por ano com fornecedor e parceiro.
 
-**⚠ O Club SBS tem duas decisões pendentes, itens 14 e 15 do histórico.**
+**⚠ O Club SB tem duas decisões pendentes, itens 14 e 15 do histórico.**
 Ele é a categoria que o próprio Gilberto combate no `posicionamento.md` (a
 indústria que vende acesso sem reciprocidade real), e **só escapa com
-curadoria e com medição de quantos negócios fecharam entre membros**. **Dinheiro de fornecedor: resolvido em 13/out.** O SBS **não recebe nada de
+curadoria e com medição de quantos negócios fecharam entre membros**. **Dinheiro de fornecedor: resolvido em 13/out.** O SB **não recebe nada de
 fornecedor externo**. A exceção é sócio fornecendo — e aí a cláusula 7.4 do
 termo **já cobre**, sem aditivo: 5% ao grupo sobre qualquer serviço ou
 produto de qualquer sócio a Cliente Vinculado.
 
-⚠ **Sobrou uma tensão entre a 3.7 e a 7.4** (finanças é educacional × captação
-de recursos gera comissão). Convivem com a linha clara: **dentro do programa
-o Simões explica; fora, a empresa dele presta em contrato separado.** Falta
-confirmar **se o Simões tem habilitação** para intermediar captação — é
-atividade regulada e eu não sei o registro dele — e **como o associado é
-avisado** de que um sócio é também fornecedor.
+A tensão entre a 3.7 e a 7.4 (captação de recursos pelo Simões) **acabou com
+a saída dele**. Fica só: **como o associado é avisado** de que um sócio é
+também fornecedor.
 2. **O preço é por tempo, não por porte.** Uma clínica de uma sala paga o
    mesmo que uma rede.
 
 ### ⚠ O que não pode ser vendido, mesmo com a esteira nova
 
-**O Simões explica o Smart Money. Não aplica, não indica, não capta.**
-Cláusula 3.7 do termo assinado, decidida em 06 e 07/out. O material de origem
-propunha ele renegociando dívida e captando crédito; **escrevi a esteira sem
-isso de propósito**. Item 9 do `historico-de-decisoes.md`, ainda aberto.
+**Finanças é educacional: explica, não aplica, não indica, não capta.**
+Cláusula 3.7, decidida em 06 e 07/out e mantida no termo novo, agora com o
+pilar nas mãos do Gilberto. O material de origem propunha renegociar dívida e
+captar crédito; **a esteira ficou sem isso de propósito**.
 
 **O caso do Bittar entra como estudo de caso estrutural, sem afirmação
 nenhuma** sobre conselho profissional, vigilância sanitária, processo ou
 litígio. Decidido por ele em 13/out. A verificação em
-`sbs/material/verificacao-stanley-bittar-2026-10-13.md` **serve para saber
+`sb/material/verificacao-stanley-bittar-2026-10-13.md` **serve para saber
 onde não pisar, não para citar.**
 
-### Os PDFs estão desatualizados
+### Os PDFs da raiz de `sb/` são da esteira antiga
 
-Os três PDFs em `sbs/` foram gerados da esteira antiga. **Regerar quando ele
-pedir**, com `gerar-plano-pdf.py`, que precisa ser ajustado para a esteira
-nova.
+Regerados em 19/out só para trocar marca e sócios; **o conteúdo continua o da
+mentoria de 90 dias**. Refazer com a esteira nova quando ele pedir
+(`gerar-plano-pdf.py`).
 
 ### O contrato com o cliente existe desde 13/out
 
-`sbs/juridico/contrato-cliente-sbs.md`, minuta 1. Serve para toda a esteira —
+`sb/juridico/contrato-cliente-sb.md`, minuta 1. Serve para toda a esteira —
 o programa contratado vai no Anexo I. Enquadra tudo como **serviço
 educacional, obrigação de meio**, e traz as seções que protegem os dois
 lados: limite da orientação financeira (espelha a 3.7), declaração de
@@ -455,7 +486,7 @@ Os sete pontos que a garantia exigiria ficaram registrados no item 17 do
 histórico, **caso a ideia volte** — e volta, porque é argumento de venda
 forte. Lá está também a alternativa: **garantir entrega, não resultado**
 ("se o programa não for entregue como está no Anexo I, devolvemos"), que é
-verificável, está sob controle do SBS e vende quase tão bem.
+verificável, está sob controle do SB e vende quase tão bem.
 
 **Próximo passo: é dos sócios.**
 
@@ -840,7 +871,7 @@ se estivesse decidida, nem a antiga.**
   1997 (24). Conferir a data do fato, não só a idade.
 - **Escrevi `#grupo sena`, com espaço.** No Instagram publica `#grupo` e deixa
   "sena" solto. Hashtag nunca tem espaço.
-- **Escrevi a reestruturação do SBS inteira sem confirmar o preço.** Deu
+- **Escrevi a reestruturação do SB (então SBS) inteira sem confirmar o preço.** Deu
   retrabalho e precisou de `git checkout`.
 - **Tratei ele por "tu".** Ele pediu "você" em 09/out/2026 e é definitivo.
 - **Disse duas vezes que um post já tinha publicado quando ainda não tinha**
@@ -946,7 +977,7 @@ como sempre.
 
 **Nenhum conteúdo se perdeu.** Os vídeos continuam no notebook, agora no
 `.gitignore`. Conferido por clone novo: 10 capítulos do livro, 60
-fichamentos, 8 PDFs do SBS, os cards do carrossel — tudo no lugar.
+fichamentos, 8 PDFs do SB, os cards do carrossel — tudo no lugar.
 
 ### ⚠ Regra nova: vídeo e áudio não entram mais no git
 

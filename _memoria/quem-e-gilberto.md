@@ -490,8 +490,8 @@ A regra não é teoria, foi paga três vezes.
 
 Dois desdobramentos diretos disso no trabalho de hoje:
 
-- A **cláusula de não contorno de 24 meses** do termo da SBS
-  (`sbs/juridico/termo-de-compromisso-sbs.md`) é a cicatriz do PABX.
+- A **cláusula de não contorno de 24 meses** do termo da SB
+  (`sb/juridico/termo-de-compromisso-sb.md`) é a cicatriz do PABX.
 - A lição de **parar de terceirizar o próprio core** (que já aparecia ligada
   à sociedade com a academia) tem no PABX o caso mais claro.
 

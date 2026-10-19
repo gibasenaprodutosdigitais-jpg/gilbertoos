@@ -173,13 +173,13 @@ Do mesmo fichamento, o método, que é dele:
 
 O escopo pede um guia prático para o leitor avaliar a saúde da própria
 empresa nas três dimensões, com perguntas e sinais de alerta. É exatamente o
-que ele acabou de montar para a SBS:
+que ele acabou de montar para a SB:
 
-- `sbs/ficha-diagnostico/ficha-diagnostico.html` — 21 perguntas nos quatro
+- `sb/ficha-diagnostico/ficha-diagnostico.html` — 21 perguntas nos quatro
   pilares, para clínica.
-- `sbs/ficha-diagnostico/ficha-hospital-dia.html` — 32 perguntas, com sala,
+- `sb/ficha-diagnostico/ficha-hospital-dia.html` — 32 perguntas, com sala,
   convênio, glosa e corpo clínico.
-- `sbs/ficha-diagnostico/ficha-rede.html` — 25 perguntas, com mapa de
+- `sb/ficha-diagnostico/ficha-rede.html` — 25 perguntas, com mapa de
   unidades, dívida por urgência e a lista de sinais de alerta.
 
 **O trabalho aqui é de tradução, não de criação:** pegar as perguntas que

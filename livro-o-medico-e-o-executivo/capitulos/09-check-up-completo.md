@@ -301,7 +301,7 @@ próxima revisão, não "corrigir" essa.
 As perguntas foram construídas a partir de três fontes próprias dele: os
 **5 G's** (`conhecimento/livro-5gs-gestao-empreendedora.md`), a arquitetura
 das fichas de diagnóstico que ele usa em campo
-(`sbs/ficha-diagnostico/`, desnichadas aqui), e as listas de sinais de
+(`sb/ficha-diagnostico/`, desnichadas aqui), e as listas de sinais de
 alerta do **caso real de turnaround de rede multiunidade**
 (`conhecimento/turnaround-rede-multiunidades-diagnostico-gargalos.md`, cujo
 fichamento autoriza uso generalizado).

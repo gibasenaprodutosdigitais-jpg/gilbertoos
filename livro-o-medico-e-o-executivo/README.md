@@ -25,7 +25,7 @@ gestão que poderia tê-lo sustentado.
 Gilberto sobre aquele momento e a lição prática.
 
 **Público:** médicos, dentistas e profissionais liberais que viraram
-empresários. É o mesmo público da SBS, o que faz do livro uma peça de
+empresários. É o mesmo público da SB, o que faz do livro uma peça de
 autoridade e não só um projeto editorial.
 
 **Extensão:** 180 a 220 páginas, 9 capítulos.
@@ -90,7 +90,7 @@ que é o formato do livro.
 1. ~~Staley ou Stanley?~~ **Resolvido em 09/out/2026: é Stanley.** O escopo
    recebido escreve "Staley" do começo ao fim, então **o escopo está errado e
    precisa ser corrigido na fonte** antes de ir para editora. Os documentos da
-   SBS deste repositório já estavam certos. Falta uma confirmação menor: a
+   SB deste repositório já estavam certos. Falta uma confirmação menor: a
    marca da empresa se escreve "Stanley's Hair", ou a marca de fato dropava o
    N? Em capa de livro isso aparece.
 2. ~~As três multinacionais de telefonia.~~ **Respondido em 09/out/2026:**
@@ -120,5 +120,5 @@ que é o formato do livro.
   e 9.
 - `conhecimento/turnaround-rede-multiunidades-diagnostico-gargalos.md` — o
   método de entrada em turnaround, de caso real. Serve direto ao capítulo 6.
-- `sbs/` — a mentoria com o mesmo Bittar, para o mesmo público. O livro e a
-  SBS se alimentam.
+- `sb/` — a mentoria com o mesmo Bittar, para o mesmo público. O livro e a
+  SB se alimentam.
