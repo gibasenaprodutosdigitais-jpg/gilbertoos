@@ -47,8 +47,8 @@ quem senta na mesa e quantas unidades entram na conta.
 
 | Faixa | Perfil | Faturamento típico | Quem senta na mesa |
 |---|---|---|---|
-| **A** Clínica | 1 unidade, 1 CNPJ, de 1 a 4 salas ou cadeiras. O dono é o profissional | R$ 100 mil a R$ 250 mil por mês | O dono, e às vezes a sócia ou a gerente |
-| **B** Hospital dia | Centro cirúrgico ambulatorial, internação de curta permanência, corpo clínico próprio, convênios | R$ 300 mil a R$ 1 milhão por mês | Dono, administrador e coordenação de enfermagem |
+| **A** Clínica | 1 unidade, 1 CNPJ, de 1 a 4 salas ou cadeiras. O dono é o profissional | R$ 150 mil a R$ 300 mil por mês | O dono, e às vezes a sócia ou a gerente |
+| **B** Hospital dia | Centro cirúrgico ambulatorial, internação de curta permanência, corpo clínico próprio, convênios | acima de R$ 300 mil até R$ 1 milhão por mês | Dono, administrador e coordenação de enfermagem |
 | **C** Rede e grandes hospitais | Várias unidades, vários CNPJs, diretoria formada | acima de R$ 1 milhão por mês | Sócios, diretoria e o financeiro |
 
 ### O que muda em cada faixa
@@ -227,7 +227,7 @@ Quanto maior o cliente, maior o valor absoluto e menor o percentual. É assim
 que funciona em honorário de gestão, e é o argumento que desarma a objeção de
 preço no cliente grande: proporcionalmente, ele paga menos que a clínica.
 
-Abaixo de R$ 100 mil por mês, a esteira inteira não cabe. Nesse caso vendam
+Abaixo de R$ 150 mil por mês, a esteira inteira não cabe. Nesse caso vendam
 só a mentoria, e não empurrem etapa que o cliente não sustenta.
 
 ---
