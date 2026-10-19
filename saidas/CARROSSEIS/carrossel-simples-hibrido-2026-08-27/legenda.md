@@ -1,16 +1,14 @@
-Perdeu a janela de setembro? Calma, você ainda tem duas datas.
+Optou pelo Simples híbrido? Ainda dá pra voltar atrás.
 
-De 1 a 30 de setembro, quem é do Simples Nacional escolheu COMO vai recolher IBS e CBS a partir de 2027: dentro do DAS, como sempre foi, ou por fora dele, apurando separado sem sair do Simples.
+Até 30 de outubro de 2026, quem é do Simples Nacional escolheu COMO vai recolher IBS e CBS no primeiro semestre de 2027: dentro do DAS, como sempre foi, ou por fora dele, apurando separado sem sair do Simples.
 
-Quem não escolheu nada ficou no modelo unificado por omissão. E isso vale o ano inteiro de 2027.
+Quem não escolheu nada ficou no modelo unificado.
 
-Mas ainda correm duas coisas.
+Agora correm duas datas.
 
-Até 30 de novembro você cancela a opção, se fez e se arrependeu. O cancelamento é irretratável, então é uma via só.
+De 3 de novembro a 20 de dezembro de 2026 você cancela a opção, se fez e se arrependeu. O cancelamento é irretratável, então é uma via só.
 
-Em março de 2027 abre nova janela, pra ajustar o segundo semestre. Quem perdeu setembro entra por aí.
-
-E tem uma terceira, que quase ninguém comenta: quem abrir empresa entre outubro e dezembro de 2026 escolhe no próprio registro, sem esperar janela nenhuma.
+De 1 a 31 de março de 2027 abre nova janela, valendo pro segundo semestre. Quem não optou entra por aí.
 
 Por que isso importa tanto? Porque acaba o crédito presumido de 9,25%. Quem compra de você passa a aproveitar só o que você efetivamente pagou no DAS. Se o seu cliente é empresa, você pode virar o fornecedor caro da cadeia sem ter mexido no seu preço.
 

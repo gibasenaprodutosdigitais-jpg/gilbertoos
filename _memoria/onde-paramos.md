@@ -28,10 +28,9 @@ estúdio de vídeo (`~/Ferramentas/editor-video-gilberto/remotion/src/`).
   de 3/11 a 20/12, CGSN 194/2026, conferido no CFC em 19/out) e **agendado para
   19/10 às 21h** no Instagram (Zernio `6ad6947c756c974ea893f060`). É esse que ele
   vai fixar na grade.
-- ⏳ **Só ele apaga, no app:** o carrossel antigo (`instagram.com/p/DekxfVgCoMg/`)
-  e o reel no TikTok (`tiktok.com/@gilbertosenaoficial/video/7696670028137041173`).
-  Conferir se apagou.
-- **O carrossel `simples-hibrido` tem o mesmo erro** e segue segurado: reescrever antes de entrar na fila.
+- ✅ **Ele apagou no app** (19/out) o carrossel antigo e o reel do TikTok.
+- ✅ **O `simples-hibrido` foi reescrito** para quem chega depois de 30/10 ("Optou pelo híbrido? Ainda dá pra voltar
+  atrás") e **agendado para 3/11 às 20h**, o dia em que abre o cancelamento. A janela de março/2027 está confirmada pela Receita.
 
 **Série "A Base da Gestão" pro YouTube (18/out): agendada, 1 aula por dia às 20h de 19 a 26/10, na playlist própria.** Conferir no dia 19 se a capa entrou (exige canal verificado). 8 aulas horizontais (22 min no total), feitas do
 `~/Downloads/mini curso/` (o módulo de introdução do curso pago). Vídeos, capas, legendas `.srt`, títulos e descrições em
@@ -40,7 +39,7 @@ estúdio de vídeo (`~/Ferramentas/editor-video-gilberto/remotion/src/`).
 **Vídeo na casa do Janguiê (Muro Alto), 18/out:** imagem tratada em `~/Downloads/... - tratado.mp4`. O som do celular
 não tem conserto aqui: nem o transcritor mais forte entende a fala. Pedir o arquivo do cinegrafista que aparece filmando.
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 20h a partir de 3/11**
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 20h a partir de 4/11**
 (grade de 4 posts por dia, decidida em 18/out). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
@@ -49,7 +48,7 @@ Em `juridico/exito/` estão o estatuto e duas cartas prontas pra ele assinar, **
 (art. 23, já pedindo a suspensão da taxa, que o estatuto não prevê) e renúncia ao cargo + desligamento (art. 21; sem multa,
 só exige estar em dia com a taxa). ⚠ Se ele sair, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
-**Carrosséis: fila fechada até 2/11, 1 por dia às 20h.** Próximo: **3/11**. A série dos 5 Gs está toda agendada:
+**Carrosséis: fila fechada até 3/11, 1 por dia às 20h.** Próximo: **4/11**. A série dos 5 Gs está toda agendada:
 1 (22/10), 2 (25/10), 3 Pessoas (26/10, criado em 18/out do livro), **4 Tributária (1/11, prazos refeitos em 18/out)**
 e 5 Fornecedores (2/11). Segurados: o Simples Híbrido e o Representante Comercial (prazo de setembro);
 o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito,
@@ -160,9 +159,9 @@ Public Sans. Sem azul e dourado.
 
 ## 0. ★ A fila de conteúdo — o trabalho em curso
 
-### ⏳ Os carrosséis: 1 por dia às 20h, fila fechada até 2/11
+### ⏳ Os carrosséis: 1 por dia às 20h, fila fechada até 3/11
 
-**Próximo a enfileirar: 3/11.** A ordem, os segurados e o ponto de retomada estão em
+**Próximo a enfileirar: 4/11.** A ordem, os segurados e o ponto de retomada estão em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md` (a grade de 15h e 20h acabou em 18/out).
 
 **O caminho, por carrossel:**
@@ -269,7 +268,7 @@ pra movimentar o canal. O TikTok ficou como estava.
 | **5h** | Provérbios | ✅ até 31/10; novembro precisa de legendas 1 a 15 e foto |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 7/11 e em 30/11; faltam 8 a 29/11 |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
-| **20h** | carrossel | ✅ até 2/11; **de 3/11 em diante, 1 por dia** |
+| **20h** | carrossel | ✅ até 3/11; **de 4/11 em diante, 1 por dia** |
 
 **YouTube: 5 por dia (7h, 10h, 13h, 16h, 19h), coberto só até 30/10 às 10h.** Os 8 reels antigos que eram só do
 Instagram estão como rascunho na Zernio. Detalhe e IDs em `_memoria/cronograma-de-postagens.md`.

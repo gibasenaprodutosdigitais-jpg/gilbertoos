@@ -1,4 +1,9 @@
-# Carrossel — Simples Nacional × Simples Híbrido (a decisão de setembro)
+# Carrossel — Simples Nacional × Simples Híbrido (o cancelamento)
+
+> **Reescrito em 19/out/2026** para sair a partir de 3/11, quando a opção (até 30/10) já fechou e abre o
+> cancelamento (3/11 a 20/12). Prazos da Resolução CGSN 194/2026, conferidos no CFC e no fichamento. Saiu a frase
+> das empresas novas, que o fichamento manda não afirmar. **O que vale é o `carrossel.html` e a `legenda.md`;
+> o texto abaixo é o rascunho original de agosto.**
 
 Fonte técnica: `conhecimento/reforma-tributaria.md`, seção 7 (Simples Nacional — a decisão de setembro).
 

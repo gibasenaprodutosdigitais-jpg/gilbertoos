@@ -66,6 +66,7 @@ horário das 15h.** A tabela acima é histórico da grade antiga.
 | 31/10 | `reforma-ebooks` |
 | 01/11 | `5gs-gestao-tributaria` (4 de 5, **prazos refeitos em 18/out**: IBS/CBS na nota desde 3/8, cancelamento do híbrido de 3/11 a 20/12, nova janela em março/2027) |
 | 02/11 | `5gs-fornecedores-clientes` (5 de 5, fecha a série; **refeito em 18/out no padrão escuro dos outros quatro**) |
+| 03/11 | `simples-hibrido` (**reescrito em 19/out** para o dia em que abre o cancelamento: "Optou pelo híbrido? Ainda dá pra voltar atrás", 3/11 a 20/12 e março/2027; Zernio `6ad696eecdc655262c318ea5`) |
 
 🔴 **Defeito de contraste corrigido em 18/out (é o erro 8).** Nas peças do modelo "5 Gs/pilares" (`bg-light`, `bg-gold`),
 a pele deixa o fundo escuro mas o texto continuava escuro: o corpo das lâminas 2, 4, 6 e 7 quase não aparecia. Pegou
@@ -74,7 +75,7 @@ antes de sair). A correção (bloco CSS "18/out: contraste" no fim do `carrossel
 pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, as imagens foram trocadas.
 **Antes de subir qualquer carrossel, montar a folha de contato das lâminas e olhar.**
 
-**Próximo a enfileirar: 3/11 às 20h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
+**Próximo a enfileirar: 4/11 às 20h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
 `biomedicina-reforma`, `comercio-reforma`, `ecommerce-alerta`, `educacao-reforma`, `entregadores-app-reforma`,
 `medicos-reforma-08-27` (tema repetido com o de 30/10: espaçar), `odontologia-reforma`, `reforma-ecommerce` e
 `industria-reforma` (os dois últimos: ler contra a notícia do IS de 8/out), `saude-geral-reforma`,
@@ -84,7 +85,6 @@ pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, 
 
 | Carrossel | Por quê |
 |---|---|
-| `simples-hibrido` | gancho "perdeu a janela de setembro"; o prazo agora é 30/10 |
 | `reforma-representante-comercial` | lâmina 8: "janela 1 a 30/09" e "cancelamento até 30/11" |
 | `forjado-imersao` | anuncia uma imersão ("comenta FORJADO que eu te aviso"); confirmar com ele se existe |
 | `rede-de-mastermind` | critica grupo pago de acesso; com ele diretor do Instituto Êxito e a proposta do Reestruturando em curso, pode soar como recado. **Decisão dele** |
