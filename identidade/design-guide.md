@@ -35,6 +35,10 @@ diferentes (nunca repete uma direção usada nas últimas três peças, ver o
 reflexo pra grafite+dourado "porque foi assim antes" — é exatamente esse
 reflexo que a decisão de 22/set elimina.
 
+**Exceção: série.** Peças de uma mesma série (ex.: os 5 G's, as aulas de "A Base da Gestão") saem **todas com o
+mesmo visual**, escolhido uma vez no começo da série. Pedido dele em 18/out/2026, quando o 5 de 5 dos 5 G's estava
+com fundo creme e os outros quatro escuros: *"refaça no mesmo padrão"*.
+
 ## O que continua valendo, porque não é sobre cor
 
 - **Autoridade > enfeite.** Sério, premium, editorial — um homem de

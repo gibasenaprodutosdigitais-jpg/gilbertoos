@@ -11,33 +11,12 @@
 
 ## O primeiro ato da próxima sessão
 
-**★ 17/out (madrugada), depois do lote 1: lote 2 na fila e o prazo do Simples corrigido.**
-- **O prazo do Simples mudou e o repositório estava errado.** A Resolução CGSN 194/2026 (DOU 28/set) prorrogou a opção
-  pelo regime regular de IBS/CBS **até 30/10/2026**, cancelamento **de 3/11 a 20/12**, depois janelas em **março e
-  setembro**. Conferido no Serpro e no Comitê Gestor do IBS; `conhecimento/reforma-tributaria.md` atualizado.
-- **Corrigido na fila:** o carrossel das 15h de 17/10 ("Dia 30 de setembro uma porta se fechou") foi refeito como
-  "Dia 30 de outubro, uma porta se fecha" (novo ID `6ad303cf37050508ec5044e3`, o antigo apagado); legendas do reel do
-  Simples híbrido (25/10) e do 7º pecado (29/10, "o teste já passou") corrigidas nas três redes.
-- **🔴 Já publicado e errado, só ele resolve no app:** o `7-mudancas-2027` (reposto 16/10, ele ia fixar) diz no item 4
-  "a janela de setembro fechou, cancela até 30/11". E o reel "Comitê Gestor / Simples" (publicado 14 a 16/10) diz que
-  o prazo "está na lei e não vai mudar". **Perguntar se ele quer apagar e repostar corrigido.**
-- **O carrossel `simples-hibrido` (ainda não agendado) tem o mesmo erro:** reescrever antes de entrar na fila.
-- **Regra dele (17/out):** *"se tiver algum que a data seja depois da informação, troca ele para datas anteriores"*.
-  Varri os reels: só os do Simples tinham data; os dois do lote 2 sobre o tema ficaram em 23 e 26/10.
-- **Lote 2 (10 vídeos) agendado** de 23 a 31/10, com as legendas que vieram conferidas contra a fala (5 corrigidas).
-  Ver `saidas/REELS/reels-lote-2-2026-10-17/LEIA.md`. Agora só faltam reels no 12h e 18h de 31/10.
-- **Lotes 3 e 4 (28 vídeos) agendados** de 31/10 a 9/11, 3 por dia, com as legendas conferidas contra a fala.
-  Ver `saidas/REELS/reels-lote-3-2026-10-17/LEIA.md`. **Reels cobertos até 9/11 às 12h.** Ainda na Downloads: o zip
-  "Gilberto Reels antigos" (posts antigos do perfil, com código do Instagram no nome), não pedido.
-
-**★ Novo em 17/out (2h): Reels em 3 por dia, e 12 vídeos novos na fila.** Ele pediu o terceiro horário às **6h**
-(grade do Instagram: **5h, 6h, 9h, 12h, 15h, 18h, 20h**) e mandou 12 vídeos já editados, que baixou do Drive e do
-e-mail. Regra dele: *"dois destes novos no dia e um dos que já estavam programados"*. Feito: **6h e 18h são novos de
-17 a 22/10, o 12h segue antigo.** Os 6 antigos do 18h de 17 a 22/10 foram para o **6h de 23 a 28/10** (nenhum se
-perdeu). Saem nas três redes juntas. Tudo em `saidas/REELS/reels-novos-2026-10-17/LEIA.md`, com os IDs da Zernio e
-**sete avisos pra ele** (conta bloqueada sem base no repositório, a frase dos herdeiros, a sociedade recente no
-"errei no contrato", o tom do Paraguai). **Capa: o quadro do título, decidido por ele em 17/out.** Com os lotes 2, 3 e 4, **os Reels estão cobertos até 9/11 às 12h**.
-
+**Duas pendências do prazo do Simples (17/out), ainda abertas:**
+- **🔴 Já publicado e errado, só ele resolve no app:** o `7-mudancas-2027` (reposto 16/10) diz no item 4 "a janela de
+  setembro fechou, cancela até 30/11". E o reel "Comitê Gestor / Simples" (publicado 14 a 16/10) diz que o prazo "está
+  na lei e não vai mudar". O prazo certo (CGSN 194/2026): opção até 30/10, cancelamento de 3/11 a 20/12.
+  **Perguntar se ele quer apagar e repostar corrigido.**
+- **O carrossel `simples-hibrido` tem o mesmo erro** e segue segurado: reescrever antes de entrar na fila.
 
 **Série "A Base da Gestão" pro YouTube (18/out): agendada, 1 aula por dia às 20h de 19 a 26/10, na playlist própria.** Conferir no dia 19 se a capa entrou (exige canal verificado). 8 aulas horizontais (22 min no total), feitas do
 `~/Downloads/mini curso/` (o módulo de introdução do curso pago). Vídeos, capas, legendas `.srt`, títulos e descrições em
@@ -66,9 +45,6 @@ o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pag
 a frase do dia passou a sair também no fim de semana (pedido dele, 18/out).** Frase agendada até 7/11 e em 30/11;
 faltam 22 (8 a 29/11). YouTube: 5 reels por dia até 30/10. Tudo em `cronograma-de-postagens.md`.
 
-De 18 a 31/10 tem um por dia às 20h. O ponto de retomada e os segurados estão em
-`saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
-
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
 por cima. Um contradizia o media kit dele, outro contradizia outro carrossel
@@ -87,7 +63,7 @@ projeto).
 apresentação e disse *"comece por aqui, depois vou acrescentando maiores
 informações"* — a estrutura foi feita pra crescer.
 
-**Apresentação (13 telas):** https://claude.ai/artifact/9nTHSqSSF37QfBQJQ9uUec
+**Apresentação (12 telas; a do fundo saiu):** https://claude.ai/artifact/9nTHSqSSF37QfBQJQ9uUec
 Privada. Pra mandar aos outros dois, ele usa o menu Share da própria página.
 Tudo documentado em
 `saidas/NEGOCIOS-E-MARCA/projeto-reestruturando-com-exito-2026-10-16/LEIA.md`,
@@ -169,21 +145,10 @@ Public Sans. Sem azul e dourado.
 
 ## 0. ★ A fila de conteúdo — o trabalho em curso
 
-### ⏳ Os carrosséis: 7 na fila (18 a 22/10), 31 pra ir
+### ⏳ Os carrosséis: 1 por dia às 20h, fila fechada até 2/11
 
-**Dois por dia, 15h e 20h, de 16/10 a 05/11.** O mapa completo e a tabela
-"Onde eu parei" estão em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
-
-| Dia | 15h | 20h |
-|---|---|---|
-| 16/10 | ✅ 7-mudancas-2027 | ✅ quem-e-gilberto |
-| 17/10 | ✅ simples-nacional-prazo (refeito 17/out: prazo 30/10) | ✅ 5gs-o-livro (era o dre-7-passos) |
-| 18/10 | ✅ revenda-carros-stj | ✅ ponto-de-equilibrio |
-| 19/10 | ✅ imobiliario-aluguel (entrou no lugar do IPI) | ✅ 12-pilares-business-plan |
-| 20/10 | ✅ pf-autonomo-cbs | ✅ 5gs-gestao-financeira |
-| 21/10 | ⏳ | ⏳ |
-| 22/10 | ✅ dre-7-passos (veio do 17/10 às 20h) | ⏳ |
-| 23/10 em diante | ⏳ | ⏳ |
+**Próximo a enfileirar: 3/11.** A ordem, os segurados e o ponto de retomada estão em
+`saidas/CARROSSEIS/_PLANO-DA-FILA.md` (a grade de 15h e 20h acabou em 18/out).
 
 **O caminho, por carrossel:**
 
@@ -391,7 +356,7 @@ agendar**, porque o carrossel contradizia o media kit dele.
 
 **87 posts agendados e 8 rascunhos na Zernio, depois da grade nova de 18/out.** `_memoria/cronograma-de-postagens.md`
 tem o calendário post a post. Instagram com reels até 3/12; **YouTube só até 30/10**; TikTok até 9/11. Provérbios até
-31/10 e frase do dia até 30/10. Os 29 cortes das gravações do carro continuam sem montar, e agora são eles que
+31/10 e frase do dia até 7/11 (e 30/11). Mais a série "A Base da Gestão" no YouTube, 1 aula por dia às 20h de 19 a 26/10. Os 29 cortes das gravações do carro continuam sem montar, e agora são eles que
 alimentam o YouTube a partir de 30/10.
 
 ---
@@ -795,7 +760,7 @@ cabe antes de mandar qualquer coisa para o YouTube.**
 
 ---
 
-### ★ Análise de cadência — feita em 18/out/2026, falta a decisão dele
+### ★ Análise de cadência — feita em 18/out/2026; ele decidiu 4 posts por dia
 
 **Resultado (Instagram, Zernio, lido em 18/out às 18h; posts de 18/10 fora da média, ainda acumulando):**
 
