@@ -47,9 +47,9 @@ quem senta na mesa e quantas unidades entram na conta.
 
 | Faixa | Perfil | Faturamento típico | Quem senta na mesa |
 |---|---|---|---|
-| **A** Clínica | 1 unidade, 1 CNPJ, de 1 a 4 salas ou cadeiras. O dono é o profissional | R$ 200 a 600 mil por mês | O dono, e às vezes a sócia ou a gerente |
-| **B** Hospital dia | Centro cirúrgico ambulatorial, internação de curta permanência, corpo clínico próprio, convênios | R$ 600 mil a R$ 2,5 milhões por mês | Dono, administrador e coordenação de enfermagem |
-| **C** Rede e grandes hospitais | Várias unidades, vários CNPJs, diretoria formada | acima de R$ 2,5 milhões por mês | Sócios, diretoria e o financeiro |
+| **A** Clínica | 1 unidade, 1 CNPJ, de 1 a 4 salas ou cadeiras. O dono é o profissional | R$ 100 mil a R$ 250 mil por mês | O dono, e às vezes a sócia ou a gerente |
+| **B** Hospital dia | Centro cirúrgico ambulatorial, internação de curta permanência, corpo clínico próprio, convênios | R$ 300 mil a R$ 1 milhão por mês | Dono, administrador e coordenação de enfermagem |
+| **C** Rede e grandes hospitais | Várias unidades, vários CNPJs, diretoria formada | acima de R$ 1 milhão por mês | Sócios, diretoria e o financeiro |
 
 ### O que muda em cada faixa
 
@@ -219,15 +219,15 @@ etapa à vista, uma de cada vez.** O parcelamento do ano sai de graça.
 
 | Faixa | Custo no ano | Sobre o faturamento anual |
 |---|---|---|
-| **A** Clínica de R$ 400 mil por mês | R$ 120.000 | 2,5% |
-| **B** Hospital dia de R$ 1,2 milhão por mês | R$ 230.000 | 1,6% |
-| **C** Rede de R$ 4 milhões por mês | R$ 460.000 | 1,0% |
+| **A** Clínica de R$ 200 mil por mês | R$ 120.000 | 5,0% |
+| **B** Hospital dia de R$ 600 mil por mês | R$ 230.000 | 3,2% |
+| **C** Rede de R$ 2 milhões por mês | R$ 460.000 | 1,9% |
 
 Quanto maior o cliente, maior o valor absoluto e menor o percentual. É assim
 que funciona em honorário de gestão, e é o argumento que desarma a objeção de
 preço no cliente grande: proporcionalmente, ele paga menos que a clínica.
 
-Abaixo de R$ 200 mil por mês, a esteira inteira não cabe. Nesse caso vendam
+Abaixo de R$ 100 mil por mês, a esteira inteira não cabe. Nesse caso vendam
 só a mentoria, e não empurrem etapa que o cliente não sustenta.
 
 ---
