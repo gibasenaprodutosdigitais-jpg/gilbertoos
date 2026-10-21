@@ -25,6 +25,10 @@
 | **2** | Escala Blindada | 6 meses | **R$ 60.000** |
 | **3** | **Club SB** | 12 meses | **R$ 160.000** |
 
+**Pagamento, definido por ele em 21/out/2026** (na oferta da Imersão SB de 14 e 15/nov): Choque de Ordem e Caixa em
+**6x no cartão ou R$ 30.000 à vista no pix**; Escala Blindada em **12x no cartão ou R$ 50.000 à vista no pix**. Na
+imersão, no máximo 20 vagas: 12 e 8.
+
 A lógica é de degraus: a imersão gera caixa e qualifica, o programa de 3
 meses estanca o sangramento, o de 6 reestrutura, o de 12 expande.
 
