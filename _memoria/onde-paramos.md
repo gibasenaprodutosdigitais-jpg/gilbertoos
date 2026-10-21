@@ -29,7 +29,7 @@ Televisão**, **"de R$ 3.000 por R$ 599" pelos dois dias** (era 499; ele mudou n
 15/11 (feriado) confirmado. **A oferta do fim do dia 2 está no doc** (Choque de Ordem e Caixa e Escala Blindada; o
 Club SB fica fora). **Ele definiu (21/out):** Choque de Ordem e Caixa R$ 35.000 em 6x no cartão ou R$ 30.000 à vista
 no pix, **12 vagas**; Escala Blindada R$ 60.000 em 12x no cartão ou R$ 50.000 à vista no pix, **8 vagas** (20 no máximo).
-**Falta:** decidir se abate os R$ 599 e até quando a condição vale (proposta: 23h59 de 15/11), contrato do cliente pelo advogado antes do evento, o "de R$ 3.000"
+**Abatimento dos R$ 599 para quem fechar até as 23h de 15/11** (decidido por ele em 21/out). **Falta:** contrato do cliente pelo advogado antes do evento, o "de R$ 3.000"
 pelo jurídico, regras de publicidade do CFM/CFO, slides. ⚠ **Não chamar o Stanley de
 "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos motivos do processo no CRM-AC
 (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico estrategista", como na marca.
