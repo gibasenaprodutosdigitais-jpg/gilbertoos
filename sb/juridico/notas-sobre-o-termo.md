@@ -19,9 +19,14 @@ próprio termo dele diz como:
 3. **Acerto do que cabe a ele** dos resultados até a data da saída, se houve
    resultado.
 
-**Uma cláusula ficou em aberto no termo novo, e é para o advogado:** a 12.4.
-Com três sócios, a saída de um não dissolvia a parceria. Com dois, dissolve,
-e falta dizer com quem ficam a marca SB, o Método e os clientes em andamento.
+**21/out/2026: versão para assinatura.** A 12.4 foi decidida por ele: com dois
+sócios, a saída ou a exclusão de um encerra a parceria, **ninguém usa a marca SB
+nem o Método sozinho** (só com acordo escrito dos dois) e os clientes em
+andamento são concluídos pelos dois. Também mudaram: a multa de sigilo passou a
+ser justificada pelo programa Escala Blindada (R$ 500 mil = mais de 8 programas
+de R$ 60 mil), a meta virou "100 clientes da área da saúde" (eram "100 médicos"),
+saiu a linha de comissão por captação de recursos (era do Simões) e o anexo passou
+a se chamar "SB Mentoria Business Medical", o nome do PDF do método.
 
 ---
 

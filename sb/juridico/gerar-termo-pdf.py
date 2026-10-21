@@ -172,12 +172,13 @@ th{background:var(--grafite);color:var(--claro);padding:7px 9px;text-align:left;
    font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
 td{border:1px solid var(--linha);padding:7px 9px;vertical-align:top}
 tbody tr:nth-child(even) td{background:#FAF9F6}
-table.sem-cabecalho td{border:0;background:none!important;padding:7px 2px}
+table.sem-cabecalho{margin:8px 0 0}
+table.sem-cabecalho td{border:0;background:none!important;padding:5px 2px}
 .dagua{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
        width:420px;opacity:.6;z-index:0;pointer-events:none}
 /* position:fixed se repete em toda folha no PDF do Chromium. Conferi
    descomprimindo os fluxos: as 7 paginas desenham a imagem. */
-.rodape{margin-top:30px;padding-top:9px;
+.rodape{margin-top:6px;padding-top:4px;
         font-size:8.5px;color:#9A9A9A;text-align:center;letter-spacing:.04em}
 """
 
@@ -187,7 +188,7 @@ corpo = md.split("---", 1)[1] if md.startswith("# ") else md
 corpo = converter(corpo.lstrip("\n-"))
 
 pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8">
-<title>Plano de Mentoria — Sena e Bittar</title><style>{ESTILO}</style></head><body>
+<title>Termo de Compromisso — Sena e Bittar</title><style>{ESTILO}</style></head><body>
 <img class="dagua" src="../marca/sb-marca-dagua.png" alt="">
 <div class="pagina">
   <div class="capa">
@@ -197,7 +198,7 @@ pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8">
     <h1>Termo de compromisso</h1>
   </div>
   {corpo}
-  <div class="rodape">Sena e Bittar · Documento de trabalho dos sócios · Confidencial</div>
+  <!-- sem rodapé: no termo ele empurrava uma página em branco depois das assinaturas -->
 </div></body></html>"""
 
 io.open(HTML_SAIDA, "w", encoding="utf-8").write(pagina)

@@ -352,8 +352,9 @@ troca do "Smart Money" por "o critério do dinheiro que sobra".
   assinado; se foi, a saída se formaliza pela cláusula 12 de lá (aviso por
   escrito ou distrato), e sigilo e não contorno continuam valendo para ele.
   Detalhe em `sb/juridico/notas-sobre-o-termo.md`.
-- **Cláusula 12.4 do termo novo** (com quem fica a marca se um dos dois sair):
-  para o advogado.
+- **Termo de compromisso Gilberto e Stanley: versão para assinatura pronta em 21/out**
+  (`sb/juridico/SB - Termo de Compromisso e NDA.pdf`, cópia na Downloads). A 12.4 foi decidida por ele: se um sair,
+  ninguém usa a marca SB nem o Método sozinho. Falta assinar (com 2 testemunhas) e, de preferência, o advogado ler antes.
 - **O monograma SB só existe em 600 px.** Pedir o original em alta a quem
   desenhou, antes de qualquer placa ou impressão grande.
 

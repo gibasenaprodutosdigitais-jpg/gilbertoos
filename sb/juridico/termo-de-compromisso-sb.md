@@ -1,12 +1,7 @@
 # Termo de Compromisso, Responsabilidades e Confidencialidade
 
 **Projeto SB** · Mentoria e Método para médicos, clínicas e hospitais
-Minuta 2 · 19/out/2026 · entre os dois sócios. Substitui a minuta de três
-sócios de 06/out/2026, que fica em `_arquivo-sbs/juridico/`.
-
-> **Leia antes de assinar.** Esta é uma minuta, escrita para os dois
-> entenderem o que estão combinando. Antes de assinar, passe por um advogado,
-> principalmente pelas seções 7, 8 e 9, que são as que geram disputa.
+Versão para assinatura · 21/out/2026
 
 ---
 
@@ -29,7 +24,7 @@ hospitais**, e aos demais profissionais da área da saúde que o grupo venha a
 atender.
 
 **2.2.** O conteúdo e a estrutura do programa estão descritos no documento
-**"Plano de Mentoria: Sena e Bittar"**, que fica anexo a este Termo
+**"SB Mentoria Business Medical"**, que fica anexo a este Termo
 e dele faz parte. Sempre que este Termo falar em "o Método" ou "o manual",
 está falando desse documento.
 
@@ -157,7 +152,6 @@ natureza. Exemplos, que não esgotam a regra:
 | Serviço contábil, tributário ou de gestão prestado por empresa de um Parceiro a Cliente Vinculado | o Parceiro dono da empresa | 5% da receita líquida |
 | Produto criado por um Parceiro e vendido a Cliente Vinculado | o Parceiro criador | 5% da receita líquida |
 | Serviço jurídico prestado a Cliente Vinculado | o Parceiro que intermediou ou prestou | 5% da receita líquida |
-| Captação de recursos para Cliente Vinculado | o Parceiro que captou | 5% da receita líquida |
 | Negócio feito por empresa coligada de um Parceiro com Cliente Vinculado | o Parceiro | 5% da receita líquida |
 
 **7.5. Por quanto tempo.** A comissão é devida sobre tudo que for faturado
@@ -234,7 +228,7 @@ declara por escrito que o fez.
 **9.8. Quebra de sigilo.** O Parceiro que quebrar o sigilo responde por:
 
 - **a)** multa de **R$ 500.000,00 (quinhentos mil reais)** por infração,
-  equivalente a **10 (dez) vezes o valor de um programa de mentoria**,
+  equivalente a mais de **8 (oito) vezes o valor do programa Escala Blindada**,
   aplicada por cada evento de quebra;
 - **b)** as **perdas e danos que excederem** esse valor, apuradas na forma da
   lei;
@@ -246,10 +240,11 @@ declara por escrito que o fez.
 cobrança do prejuízo real quando ele for maior.
 
 **9.8.2. Por que este valor.** O projeto tem por objetivo declarado a
-captação e o atendimento de **100 (cem) médicos**. A carteira que esta
+captação e o atendimento de **100 (cem) clientes** da área da saúde, entre
+médicos, dentistas e clínicas de estética. A carteira que esta
 parceria constrói vale, portanto, múltiplas vezes o preço de um único
 programa, e a informação sobre ela é o ativo mais sensível do grupo. A multa
-corresponde a dez programas, o que a mantém proporcional ao dano que uma
+corresponde a mais de oito programas, o que a mantém proporcional ao dano que uma
 quebra de sigilo causaria, e não a um evento isolado.
 
 ---
@@ -329,9 +324,11 @@ sua responsabilidade, ou providenciar substituição aceita pelo outro Parceiro;
 receber o que lhe cabe dos resultados até a data da saída; e cumprir as
 seções 8, 9 e 10 pelos prazos nelas previstos.
 
-**12.4.** [A DEFINIR COM O ADVOGADO] Com dois Parceiros, a saída de um
-encerra a parceria. Falta definir com quem ficam a marca SB, o Método e os
-clientes em andamento.
+**12.4.** Com dois Parceiros, a saída ou a exclusão de um encerra a parceria.
+A partir daí, a marca SB e o Método **não são usados por nenhum dos dois
+isoladamente**, e só voltam a ser usados com acordo escrito de ambos. Os
+clientes em andamento são concluídos pelos dois, cada um no seu pilar, e o
+resultado deles é dividido na forma da seção 6 até a conclusão.
 
 **12.5.** O Parceiro que descumprir obrigação essencial e não corrigir em
 **15 (quinze) dias** após ser avisado por escrito pode ser excluído por decisão do
