@@ -50,7 +50,7 @@ só exige estar em dia com a taxa). ⚠ Se ele sair, o Reestruturando com Êxito
 
 **Carrosséis: fila fechada até 3/11, 1 por dia às 20h.** Próximo: **4/11**. A série dos 5 Gs está toda agendada:
 1 (22/10), 2 (25/10), 3 Pessoas (26/10, criado em 18/out do livro), **4 Tributária (1/11, prazos refeitos em 18/out)**
-e 5 Fornecedores (2/11). Segurados: o Simples Híbrido e o Representante Comercial (prazo de setembro);
+e 5 Fornecedores (2/11). Segurados: o Representante Comercial (prazo de setembro);
 o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito,
 **decisão dele**). Lista em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
