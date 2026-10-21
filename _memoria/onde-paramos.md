@@ -25,8 +25,11 @@ estúdio de vídeo (`~/Ferramentas/editor-video-gilberto/remotion/src/`).
 clínicas e consultórios médicos, odontológicos e de estética. Cronograma hora a hora (dia 1: Gestão e Lucratividade
 com o Gilberto; dia 2: Marketing e Vendas com o Stanley, hot seats e oferta dos programas) no doc
 https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado). **Decidido por ele em 21/out:** espaço da **Rede Vivax de
-Televisão**, **"de R$ 3.000 por R$ 499"**, **50 vagas**, domingo 15/11 (feriado) confirmado. **Falta:** condição de
-fechamento dos programas, regras de publicidade do CFM/CFO, slides. ⚠ **Não chamar o Stanley de
+Televisão**, **"de R$ 3.000 por R$ 599" pelos dois dias** (era 499; ele mudou no mesmo dia), **50 vagas**, domingo
+15/11 (feriado) confirmado. **A oferta do fim do dia 2 está no doc** (Choque de Ordem e Caixa e Escala Blindada; o
+Club SB fica fora): a condição (abater os R$ 599, valer até 23h59 de 15/11) é **proposta minha, decisão dele**.
+**Falta:** decidir a condição e as vagas de programa, contrato do cliente pelo advogado antes do evento, o "de R$ 3.000"
+pelo jurídico, regras de publicidade do CFM/CFO, slides. ⚠ **Não chamar o Stanley de
 "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos motivos do processo no CRM-AC
 (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico estrategista", como na marca.
 
