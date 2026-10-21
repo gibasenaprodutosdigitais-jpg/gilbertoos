@@ -21,6 +21,14 @@ estúdio de vídeo (`~/Ferramentas/editor-video-gilberto/remotion/src/`).
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
+**Imersão SB, 14 e 15/nov/2026, São Paulo (pedido dele em 21/out).** Gilberto e Dr. Stanley, os quatro pilares para
+clínicas e consultórios médicos, odontológicos e de estética. Cronograma hora a hora (dia 1: Gestão e Lucratividade
+com o Gilberto; dia 2: Marketing e Vendas com o Stanley, hot seats e oferta dos programas) no doc
+https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado). **Falta:** local, preço (faixa R$ 3–5 mil), vagas,
+condição de fechamento, regras de publicidade do CFM/CFO. ⚠ **15/11 é domingo e feriado.** ⚠ **Não chamar o Stanley de
+"cirurgião plástico" no material:** a falta de registro na especialidade foi um dos motivos do processo no CRM-AC
+(ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico estrategista", como na marca.
+
 **Prazo do Simples (19/out): ele decidiu apagar os dois posts errados.**
 - ✅ O reel "Comitê Gestor / Simples" **saiu do YouTube** (apagado pela Zernio).
   No Instagram ele nunca chegou a sair.
