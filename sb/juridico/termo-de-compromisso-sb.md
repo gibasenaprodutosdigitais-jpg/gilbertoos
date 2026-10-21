@@ -353,7 +353,7 @@ a qualquer outro.
 
 Por estarem de acordo, assinam este Termo em 2 (duas) vias de igual teor.
 
-São Paulo, ____ de ______________ de 2026.
+São Paulo, 21 de outubro de 2026.
 
 
 | | |
