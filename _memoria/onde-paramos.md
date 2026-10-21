@@ -24,8 +24,9 @@ estúdio de vídeo (`~/Ferramentas/editor-video-gilberto/remotion/src/`).
 **Imersão SB, 14 e 15/nov/2026, São Paulo (pedido dele em 21/out).** Gilberto e Dr. Stanley, os quatro pilares para
 clínicas e consultórios médicos, odontológicos e de estética. Cronograma hora a hora (dia 1: Gestão e Lucratividade
 com o Gilberto; dia 2: Marketing e Vendas com o Stanley, hot seats e oferta dos programas) no doc
-https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado). **Falta:** local, preço (faixa R$ 3–5 mil), vagas,
-condição de fechamento, regras de publicidade do CFM/CFO. ⚠ **15/11 é domingo e feriado.** ⚠ **Não chamar o Stanley de
+https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado). **Decidido por ele em 21/out:** espaço da **Rede Vivax de
+Televisão**, **"de R$ 3.000 por R$ 499"**, **50 vagas**, domingo 15/11 (feriado) confirmado. **Falta:** condição de
+fechamento dos programas, regras de publicidade do CFM/CFO, slides. ⚠ **Não chamar o Stanley de
 "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos motivos do processo no CRM-AC
 (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico estrategista", como na marca.
 
