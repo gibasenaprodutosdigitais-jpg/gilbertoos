@@ -1,6 +1,6 @@
 # Cronograma de postagens
 
-Fila real da Zernio, **lida e conferida em 18/out/2026, 19h**, depois da reorganização; **atualizada às 19h10** com as frases e os carrosséis novos. Horário de Brasília.
+Fila real da Zernio, **lida em 18/out/2026 e conferida de novo em 21/out** (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
 
 ## A grade desde 19/out (decisão dele em 18/out)
@@ -76,7 +76,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 21/10 qua | 16h00 | YouTube | reels | Deram a ele o apelido de imposto do pecado. Bonito. Mas repara no que … |
 | 21/10 qua | 18h00 | TikTok | reels | Em duas horas as contas da sua empresa podem estar bloqueadas. |
 | 21/10 qua | 19h00 | YouTube | reels | Um professor universitário disse que a primeira economia que o empresá… |
-| 21/10 qua | 18h00 | Instagram | carrossel | A partir de 2027, o autônomo que fatura acima de R$40.500 por ano vira… |
+| 21/10 qua | 20h00 | Instagram | carrossel (publicado 20h05, antes da mudança para 18h) | A partir de 2027, o autônomo que fatura acima de R$40.500 por ano vira… |
 | 21/10 qua | 20h00 | YouTube | vídeo longo | A Base da Gestão, Aula 3: O que é gestão |
 | 22/10 qui | 05h00 | Instagram | card | O reconhecimento mais sólido começa em casa: nas relações que seu trab… |
 | 22/10 qui | 06h00 | TikTok | reels | E se você morrer, como fica a sua sociedade? |

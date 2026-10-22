@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 19/out/2026.**
+> Estado das frentes abertas. **Atualizado em 21/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -10,14 +10,6 @@
 ---
 
 ## O primeiro ato da próxima sessão
-
-**Stories dos Alphanilhas (19/out): prontos para ele conferir**, na Downloads:
-`Stories Alphanilhas - parte 1 de 2.mp4` (56s, termina em "continua") e
-`parte 2 de 2.mp4` (59,7s, termina na chamada "manda esse story pra um médico").
-Legenda acima da cabeça e enquadramento fechado, a pedido dele (pra aparecer
-menos que estava sem camisa). A composição com os efeitos é `Stories.tsx`, no
-estúdio de vídeo (`~/Ferramentas/editor-video-gilberto/remotion/src/`).
-**Alphanilhas é termo dele** (ver `tom-de-voz.md`).
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
@@ -34,18 +26,7 @@ pelo jurídico, regras de publicidade do CFM/CFO, slides. ⚠ **Não chamar o St
 "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos motivos do processo no CRM-AC
 (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico estrategista", como na marca.
 
-**Prazo do Simples (19/out): ele decidiu apagar os dois posts errados.**
-- ✅ O reel "Comitê Gestor / Simples" **saiu do YouTube** (apagado pela Zernio).
-  No Instagram ele nunca chegou a sair.
-- ✅ **O `7-mudancas-2027` foi corrigido** (item 4: opção até 30/10, cancelamento
-  de 3/11 a 20/12, CGSN 194/2026, conferido no CFC em 19/out) e **agendado para
-  19/10 às 21h** no Instagram (Zernio `6ad6947c756c974ea893f060`). É esse que ele
-  vai fixar na grade.
-- ✅ **Ele apagou no app** (19/out) o carrossel antigo e o reel do TikTok.
-- ✅ **O `simples-hibrido` foi reescrito** para quem chega depois de 30/10 ("Optou pelo híbrido? Ainda dá pra voltar
-  atrás") e **agendado para 3/11 às 20h**, o dia em que abre o cancelamento. A janela de março/2027 está confirmada pela Receita.
-
-**Série "A Base da Gestão" pro YouTube (18/out): agendada, 1 aula por dia às 20h de 19 a 26/10, na playlist própria.** Conferir no dia 19 se a capa entrou (exige canal verificado). 8 aulas horizontais (22 min no total), feitas do
+**Série "A Base da Gestão" pro YouTube (18/out): agendada, 1 aula por dia às 20h de 19 a 26/10, na playlist própria.** Aulas 1, 2 e 3 no ar (19 a 21/10). A capa só se confere olhando o canal (exige canal verificado). 8 aulas horizontais (22 min no total), feitas do
 `~/Downloads/mini curso/` (o módulo de introdução do curso pago). Vídeos, capas, legendas `.srt`, títulos e descrições em
 `saidas/VIDEOS/serie-a-base-da-gestao-2026-10-18/` (os `.mp4` só no computador). Ficaram de fora 7 gravações (lista no README de lá); os dois vídeos dos 5 G's são **decisão dele**.
 
