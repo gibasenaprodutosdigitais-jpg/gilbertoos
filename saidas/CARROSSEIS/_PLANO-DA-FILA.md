@@ -75,7 +75,9 @@ antes de sair). A correção (bloco CSS "18/out: contraste" no fim do `carrossel
 pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, as imagens foram trocadas.
 **Antes de subir qualquer carrossel, montar a folha de contato das lâminas e olhar.**
 
-**Próximo a enfileirar: 4/11 às 20h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
+**★ 21/out: o carrossel passou para as 18h** (pedido dele, para fechar o dia); os 13 da fila, de 22/10 a 3/11, foram movidos na Zernio.
+
+**Próximo a enfileirar: 4/11 às 18h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
 `biomedicina-reforma`, `comercio-reforma`, `ecommerce-alerta`, `educacao-reforma`, `entregadores-app-reforma`,
 `medicos-reforma-08-27` (tema repetido com o de 30/10: espaçar), `odontologia-reforma`, `reforma-ecommerce` e
 `industria-reforma` (os dois últimos: ler contra a notícia do IS de 8/out), `saude-geral-reforma`,
