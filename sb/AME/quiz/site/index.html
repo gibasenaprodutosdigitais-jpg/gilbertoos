@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Quiz Imersão AME</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Montserrat:wght@400;500;600&display=swap">
+<style>
+  /* Quiz de interesse da Imersão AME: uma pergunta por tela, pensado pro
+     celular. Cores da logo: azul-noite, dourado e prata. A página é escura
+     nos dois temas, de propósito: é peça do evento. */
+  :root{
+    --fundo:#081421; --noite:#0C1A2E; --carta:#112741; --borda:#23405F;
+    --tinta:#F2EFE8; --fraca:#9FB0C4; --ouro:#C9A24B; --ouro-claro:#E2C489;
+    --erro:#E8927C; --ok:#7FC8A0;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --fundo:#081421 } }
+  :root[data-theme="dark"]{ --fundo:#081421 }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--fundo);color:var(--tinta)}
+  body{font-family:Montserrat,"Helvetica Neue",Arial,sans-serif;min-height:100vh;
+       display:flex;justify-content:center;padding:24px 16px 40px}
+  .quiz{width:100%;max-width:560px;display:flex;flex-direction:column}
+  .topo{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px;min-height:32px}
+  .topo[hidden]{display:none}
+  .topo img{height:30px;width:auto}
+  .barra{flex:1;height:4px;background:var(--borda);border-radius:2px;overflow:hidden;max-width:220px}
+  .barra i{display:block;height:100%;width:0;background:var(--ouro);transition:width .3s ease}
+  .passo{font-size:12px;letter-spacing:.2em;color:var(--fraca);white-space:nowrap}
+  .tela{display:none;flex-direction:column;gap:18px;animation:entra .25s ease}
+  .tela.ativa{display:flex}
+  @keyframes entra{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){.tela{animation:none}.barra i{transition:none}}
+  .logo-grande{width:min(320px,85%);height:auto;margin:8px auto 4px;display:block}
+  .eyebrow{font-size:12px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--ouro)}
+  h1,h2{font-family:"Libre Baskerville",Georgia,serif;font-weight:400;margin:0;line-height:1.25;text-wrap:balance}
+  h1{font-size:clamp(26px,7vw,34px);text-align:center}
+  h1 em,h2 em{color:var(--ouro-claro)}
+  h2{font-size:clamp(23px,6vw,30px)}
+  p.sub{margin:0;color:var(--fraca);font-size:15px;line-height:1.55}
+  .centro{text-align:center}
+  input[type=text],input[type=tel],textarea{width:100%;background:var(--carta);color:var(--tinta);
+    border:1px solid var(--borda);border-radius:0;padding:16px;font:inherit;font-size:18px}
+  textarea{min-height:110px;resize:vertical;font-size:16px;line-height:1.5}
+  input:focus,textarea:focus{outline:2px solid var(--ouro);outline-offset:0;border-color:var(--ouro)}
+  .arroba{position:relative}
+  .arroba span{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--ouro);font-size:18px}
+  .arroba input{padding-left:36px}
+  .opcoes{display:flex;flex-direction:column;gap:10px}
+  .opcao{display:flex;align-items:center;gap:14px;text-align:left;width:100%;background:var(--carta);
+    color:var(--tinta);border:1px solid var(--borda);padding:16px 18px;font:inherit;font-size:16px;cursor:pointer}
+  .opcao b{font-weight:600;color:var(--ouro);min-width:18px}
+  .opcao:hover{border-color:var(--ouro)}
+  .opcao[aria-pressed="true"]{border-color:var(--ouro);background:#1A2F4C}
+  .opcao:focus-visible{outline:2px solid var(--ouro);outline-offset:2px}
+  .acoes{display:flex;gap:12px;margin-top:6px}
+  button.ir{flex:1;background:var(--ouro);color:#0C1A2E;border:1px solid var(--ouro);padding:16px 22px;
+    font:inherit;font-size:15px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
+  button.ir:hover{background:var(--ouro-claro);border-color:var(--ouro-claro)}
+  button.ir:disabled{opacity:.6;cursor:default}
+  button.volta{background:transparent;color:var(--fraca);border:1px solid var(--borda);padding:16px 18px;
+    font:inherit;font-size:14px;cursor:pointer}
+  button:focus-visible{outline:2px solid var(--ouro);outline-offset:2px}
+  .aviso{min-height:20px;color:var(--erro);font-size:14px}
+  .resumo{border:1px solid var(--borda);padding:16px 18px;font-size:15px;line-height:1.7;color:var(--fraca)}
+  .resumo b{color:var(--tinta);font-weight:500}
+  .recado{border:1px solid var(--ok);color:var(--tinta);padding:16px 18px;font-size:15px;line-height:1.6}
+  .recado pre{white-space:pre-wrap;font:inherit;font-size:14px;color:var(--fraca);margin:12px 0 0}
+  a.zap{display:block;text-align:center;text-decoration:none;background:var(--ouro);color:#0C1A2E;padding:16px;
+    font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:15px}
+  .rodape{margin-top:auto;padding-top:36px;text-align:center;font-size:11px;letter-spacing:.2em;
+    text-transform:uppercase;color:#5D6F86}
+</style>
+</head>
+<body>
+
+<div class="quiz">
+  <div class="topo" id="topo" hidden>
+    <img src="ame-logo.png" alt="AME">
+    <div class="barra" aria-hidden="true"><i id="progresso"></i></div>
+    <span class="passo" id="passo"></span>
+  </div>
+
+  <!-- 0. abertura -->
+  <section class="tela ativa" data-tela="0">
+    <img class="logo-grande" src="ame-logo.png" alt="AME: Administração, Marketing e Escala · Medicina, Odontologia, Estética">
+    <p class="eyebrow centro">Imersão presencial · 14 e 15 de novembro · São Paulo</p>
+    <h1>A agenda lota.<br><em>O caixa não acompanha.</em></h1>
+    <p class="sub centro">Seis perguntas rápidas sobre você e o seu negócio. Leva um minuto.</p>
+    <div class="acoes"><button class="ir" type="button" data-ir>Começar</button></div>
+  </section>
+
+  <!-- 1. nome -->
+  <section class="tela" data-tela="1">
+    <p class="eyebrow">Pergunta 1 de 6</p>
+    <h2>Qual é o seu nome?</h2>
+    <input type="text" id="nome" autocomplete="name" placeholder="Seu nome completo">
+    <div class="aviso" role="alert"></div>
+    <div class="acoes"><button class="volta" type="button" data-volta>Voltar</button><button class="ir" type="button" data-ir>Continuar</button></div>
+  </section>
+
+  <!-- 2. whatsapp -->
+  <section class="tela" data-tela="2">
+    <p class="eyebrow">Pergunta 2 de 6</p>
+    <h2>Qual é o seu <em>WhatsApp</em>?</h2>
+    <input type="tel" id="whatsapp" autocomplete="tel" inputmode="tel" placeholder="(11) 99999-9999">
+    <div class="aviso" role="alert"></div>
+    <div class="acoes"><button class="volta" type="button" data-volta>Voltar</button><button class="ir" type="button" data-ir>Continuar</button></div>
+  </section>
+
+  <!-- 3. instagram -->
+  <section class="tela" data-tela="3">
+    <p class="eyebrow">Pergunta 3 de 6</p>
+    <h2>Qual é o seu <em>Instagram</em>?</h2>
+    <p class="sub">O seu ou o do seu negócio.</p>
+    <div class="arroba"><span>@</span><input type="text" id="instagram" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="seuperfil"></div>
+    <div class="aviso" role="alert"></div>
+    <div class="acoes"><button class="volta" type="button" data-volta>Voltar</button><button class="ir" type="button" data-ir>Continuar</button></div>
+  </section>
+
+  <!-- 4. nicho -->
+  <section class="tela" data-tela="4">
+    <p class="eyebrow">Pergunta 4 de 6</p>
+    <h2>Qual é o seu <em>nicho</em>?</h2>
+    <div class="opcoes" data-campo="nicho">
+      <button class="opcao" type="button" aria-pressed="false"><b>A</b>Medicina</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>B</b>Odontologia</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>C</b>Estética</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>D</b>Biomedicina</button>
+      <button class="opcao" type="button" aria-pressed="false" data-outro><b>E</b>Outro</button>
+    </div>
+    <input type="text" id="nicho_outro" placeholder="Qual?" hidden>
+    <div class="aviso" role="alert"></div>
+    <div class="acoes"><button class="volta" type="button" data-volta>Voltar</button><button class="ir" type="button" data-ir>Continuar</button></div>
+  </section>
+
+  <!-- 5. faturamento -->
+  <section class="tela" data-tela="5">
+    <p class="eyebrow">Pergunta 5 de 6</p>
+    <h2>Quanto o seu negócio <em>fatura por mês</em>, em média?</h2>
+    <div class="opcoes" data-campo="faturamento">
+      <button class="opcao" type="button" aria-pressed="false"><b>A</b>Até R$ 30 mil</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>B</b>De R$ 30 mil a R$ 100 mil</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>C</b>De R$ 100 mil a R$ 300 mil</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>D</b>De R$ 300 mil a R$ 1 milhão</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>E</b>Acima de R$ 1 milhão</button>
+    </div>
+    <div class="aviso" role="alert"></div>
+    <div class="acoes"><button class="volta" type="button" data-volta>Voltar</button><button class="ir" type="button" data-ir>Continuar</button></div>
+  </section>
+
+  <!-- 6. dificuldade -->
+  <section class="tela" data-tela="6">
+    <p class="eyebrow">Pergunta 6 de 6</p>
+    <h2>Qual é a <em>maior dificuldade</em> do seu negócio hoje?</h2>
+    <div class="opcoes" data-campo="dificuldade">
+      <button class="opcao" type="button" aria-pressed="false"><b>A</b>Fatura bem, mas sobra pouco no fim do mês</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>B</b>Não sei quanto lucro em cada procedimento</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>C</b>Imposto: não sei se estou no regime certo</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>D</b>Faltam pacientes novos</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>E</b>O paciente não fecha o orçamento</button>
+      <button class="opcao" type="button" aria-pressed="false" data-outro><b>F</b>Outra</button>
+    </div>
+    <textarea id="dificuldade_texto" placeholder="Se quiser, conte com as suas palavras"></textarea>
+    <div class="aviso" role="alert"></div>
+    <div class="acoes"><button class="volta" type="button" data-volta>Voltar</button><button class="ir" type="button" data-ir id="enviar">Enviar</button></div>
+  </section>
+
+  <!-- 7. fim -->
+  <section class="tela" data-tela="7">
+    <p class="eyebrow">Imersão AME</p>
+    <h2>Obrigado, <em id="primeiro-nome"></em>.</h2>
+    <div id="fim"></div>
+  </section>
+
+  <div class="rodape">Imersão AME · Realização SB, Sena e Bittar</div>
+</div>
+
+<script>
+(function(){
+  // Número do WhatsApp que recebe as respostas de quem não grava no banco.
+  // Só dígitos, com DDI e DDD (ex.: 5511999999999). Vazio = sem botão de WhatsApp.
+  const WHATSAPP_DESTINO = "";
+
+  const telas = Array.from(document.querySelectorAll(".tela"));
+  const topo = document.getElementById("topo");
+  const progresso = document.getElementById("progresso");
+  const passo = document.getElementById("passo");
+  const r = {nome:"", whatsapp:"", instagram:"", nicho:"", faturamento:"", dificuldade:"", dificuldade_texto:""};
+  let atual = 0, enviado = false;
+
+
+  function mostra(n){
+    telas.forEach(function(t){ t.classList.toggle("ativa", +t.dataset.tela === n); });
+    atual = n;
+    topo.hidden = n === 0 || n === 7;
+    progresso.style.width = Math.round((Math.min(n, 6) / 6) * 100) + "%";
+    passo.textContent = n >= 1 && n <= 6 ? n + " / 6" : "";
+    const campo = telas[n].querySelector("input:not([hidden]),textarea");
+    if (campo && n !== 6) setTimeout(function(){ campo.focus(); }, 60);
+    window.scrollTo(0, 0);
+  }
+
+  function aviso(n, txt){ const a = telas[n].querySelector(".aviso"); if (a) a.textContent = txt || ""; }
+
+  // máscara simples de telefone brasileiro
+  const zap = document.getElementById("whatsapp");
+  zap.addEventListener("input", function(){
+    let d = zap.value.replace(/\D/g, "").slice(0, 11);
+    let s = d;
+    if (d.length > 2) s = "(" + d.slice(0,2) + ") " + d.slice(2);
+    if (d.length > 7) s = "(" + d.slice(0,2) + ") " + d.slice(2, d.length - 4) + "-" + d.slice(-4);
+    zap.value = s;
+  });
+
+  // escolhas
+  document.querySelectorAll(".opcoes").forEach(function(grupo){
+    grupo.addEventListener("click", function(ev){
+      const b = ev.target.closest(".opcao"); if (!b) return;
+      grupo.querySelectorAll(".opcao").forEach(function(o){ o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
+      const campo = grupo.dataset.campo;
+      r[campo] = b.textContent.replace(/^[A-F]/, "").trim();
+      const tela = +grupo.closest(".tela").dataset.tela;
+      aviso(tela);
+      if (campo === "nicho"){
+        const outro = document.getElementById("nicho_outro");
+        outro.hidden = !b.hasAttribute("data-outro");
+        if (!outro.hidden){ outro.focus(); return; }
+        setTimeout(function(){ avancar(); }, 220);
+      } else if (campo === "faturamento"){
+        setTimeout(function(){ avancar(); }, 220);
+      }
+    });
+  });
+
+  function valida(n){
+    if (n === 1){ r.nome = document.getElementById("nome").value.trim();
+      if (r.nome.length < 2) return "Escreva o seu nome."; }
+    if (n === 2){ r.whatsapp = zap.value.trim();
+      if (zap.value.replace(/\D/g, "").length < 10) return "Confira o número, com DDD."; }
+    if (n === 3){ r.instagram = document.getElementById("instagram").value.trim().replace(/^@+/, "");
+      if (!r.instagram) return "Escreva o @ do seu perfil ou do negócio."; }
+    if (n === 4){ if (!r.nicho) return "Escolha uma opção.";
+      if (r.nicho === "Outro"){ const o = document.getElementById("nicho_outro").value.trim();
+        if (!o) return "Escreva qual é o seu nicho."; r.nicho = "Outro: " + o; } }
+    if (n === 5){ if (!r.faturamento) return "Escolha uma faixa."; }
+    if (n === 6){ r.dificuldade_texto = document.getElementById("dificuldade_texto").value.trim();
+      if (!r.dificuldade) return "Escolha uma opção.";
+      if (r.dificuldade === "Outra" && !r.dificuldade_texto) return "Conte qual é a dificuldade."; }
+    return "";
+  }
+
+  function avancar(){
+    const erro = valida(atual);
+    if (erro){ aviso(atual, erro); return; }
+    aviso(atual);
+    if (atual === 6){ enviar(); return; }
+    mostra(atual + 1);
+  }
+
+  document.querySelectorAll("[data-ir]").forEach(function(b){ b.addEventListener("click", avancar); });
+  document.querySelectorAll("[data-volta]").forEach(function(b){ b.addEventListener("click", function(){
+    if (atual === 4 && r.nicho.indexOf("Outro: ") === 0) r.nicho = "Outro";
+    mostra(atual - 1); }); });
+  document.addEventListener("keydown", function(ev){
+    if (ev.key === "Enter" && !ev.shiftKey && ev.target.tagName !== "TEXTAREA" && atual >= 1 && atual <= 6){
+      ev.preventDefault(); avancar(); }
+  });
+
+  function texto(){
+    return [
+      "IMERSÃO AME · QUIZ",
+      "Nome: " + r.nome,
+      "WhatsApp: " + r.whatsapp,
+      "Instagram: @" + r.instagram,
+      "Nicho: " + r.nicho,
+      "Faturamento por mês: " + r.faturamento,
+      "Maior dificuldade: " + r.dificuldade + (r.dificuldade_texto ? " · " + r.dificuldade_texto : "")
+    ].join("\n");
+  }
+  function esc(s){ return s.replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+
+  async function enviar(){
+    if (enviado) return;
+    const botao = document.getElementById("enviar"); botao.disabled = true;
+    let gravou = false;
+    try{
+      // grava no servidor local, que anota a resposta na planilha respostas.csv
+      const resp = await fetch("/api/inscricao", {method:"POST", headers:{"Content-Type":"application/json"},
+        body: JSON.stringify(Object.assign({}, r, {versao:"quiz-ame-site-1"}))});
+      gravou = resp.ok;
+    }catch(e){ gravou = false; }
+    enviado = true;
+    document.getElementById("primeiro-nome").textContent = r.nome.split(" ")[0];
+    const fim = document.getElementById("fim");
+    const link = WHATSAPP_DESTINO ? "https://wa.me/" + WHATSAPP_DESTINO + "?text=" + encodeURIComponent(texto()) : "";
+    if (gravou){
+      fim.innerHTML = '<div class="recado">Recebemos as suas respostas. A equipe da Imersão AME fala com você pelo WhatsApp.</div>';
+    } else if (link){
+      fim.innerHTML = '<p class="sub">Falta um toque: mande as suas respostas pro nosso WhatsApp, e a equipe da Imersão AME fala com você.</p>' +
+        '<a class="zap" href="' + esc(link) + '" target="_blank" rel="noopener">Enviar pelo WhatsApp</a>';
+    } else {
+      fim.innerHTML = '<div class="recado">Copie o texto abaixo e mande pra quem te passou este link.<pre>' + esc(texto()) + '</pre></div>' +
+        '<div class="acoes"><button class="ir" type="button" id="copiar">Copiar respostas</button></div>';
+      document.getElementById("copiar").addEventListener("click", function(){
+        navigator.clipboard.writeText(texto()).then(function(){ document.getElementById("copiar").textContent = "Copiado"; }).catch(function(){});
+      });
+    }
+    mostra(7);
+  }
+})();
+</script>
+</body>
+</html>

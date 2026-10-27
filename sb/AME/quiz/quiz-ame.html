@@ -17,6 +17,7 @@
        display:flex;justify-content:center;padding:24px 16px 40px}
   .quiz{width:100%;max-width:560px;display:flex;flex-direction:column}
   .topo{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px;min-height:32px}
+  .topo[hidden]{display:none}
   .topo img{height:30px;width:auto}
   .barra{flex:1;height:4px;background:var(--borda);border-radius:2px;overflow:hidden;max-width:220px}
   .barra i{display:block;height:100%;width:0;background:var(--ouro);transition:width .3s ease}
@@ -196,7 +197,7 @@
     window.scrollTo(0, 0);
   }
 
-  function aviso(n, txt){ telas[n].querySelector(".aviso").textContent = txt || ""; }
+  function aviso(n, txt){ const a = telas[n].querySelector(".aviso"); if (a) a.textContent = txt || ""; }
 
   // máscara simples de telefone brasileiro
   const zap = document.getElementById("whatsapp");

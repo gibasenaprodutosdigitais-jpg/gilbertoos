@@ -107,3 +107,6 @@ saidas/cards-frases-proverbios-31/instagram/
 
 # Série A Base da Gestão (18/out): os .mp4 passam de 100MB; ficam só no computador
 **/serie-a-base-da-gestao*/*.mp4
+
+# respostas do quiz da Imersão AME: dados pessoais de terceiros, ficam só no computador
+sb/AME/quiz/respostas.csv
