@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 26/out/2026.**
+> Estado das frentes abertas. **Atualizado em 27/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -13,17 +13,50 @@
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
-**Imersão AME, 14 e 15/nov/2026, São Paulo (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).** **Tudo da imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out): logo, programação, crachás, certificado, artes de divulgação (feed e story), a **ficha online AME** (https://claude.ai/artifact/3XuZKa9LcsmVYGx6SYhpdd, privada, com a pergunta do hot seat; banco próprio, separado da ficha da SB) e o **kit do participante** (8 folhas A4: ficha de diagnóstico adaptada pra sala, exercício da margem, decisões dos dois dias e os quatro números). **Slides prontos em 26/out** (56, https://claude.ai/artifact/8XLbWYXgZm7w2LLGc6KTbi, privada), feitos só com o método, a ficha, o cronograma e o fichamento da reforma. **Falta dele:** a meta de reserva em meses, a conta do custo da hora, os casos dele nos blocos, e o Dr. Stanley revisar os blocos de Marketing e Vendas. ⚠ As linhas do exercício da margem (imposto, cartão, material, repasse, tempo × hora) são proposta minha: ele confere. Ele sabe que AME em SP é o Ambulatório Médico de Especialidades do estado e manteve. Linha de baixo trocada a pedido dele (26/out): **"Administração, Marketing e Escala"** em dourado e **"Medicina · Odontologia · Estética"** em prata (saiu o "Assessoria Médica Empresarial"). Pra impressão e palco falta o arquivo original de quem fez a logo.  Gilberto e Dr. Stanley, os quatro pilares para
-clínicas e consultórios médicos, odontológicos e de estética. Cronograma hora a hora (dia 1: Gestão e Lucratividade
-com o Gilberto; dia 2: Marketing e Vendas com o Stanley, hot seats e oferta dos programas) no doc
-https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado). **Decidido por ele em 21/out:** espaço da **Rede Vivax de
-Televisão**, **"de R$ 3.999 por R$ 499" pelos dois dias** (decidido por ele em 26/out; antes era "de R$ 3.000 por R$ 599"; o jurídico liberou o "de"), **50 vagas**, domingo
-15/11 (feriado) confirmado. **A oferta do fim do dia 2 está no doc** (Choque de Ordem e Caixa e Escala Blindada; o
-Club SB fica fora). **Ele definiu (21/out):** Choque de Ordem e Caixa R$ 35.000 em 6x no cartão ou R$ 30.000 à vista
-no pix, **12 vagas**; Escala Blindada R$ 60.000 em 12x no cartão ou R$ 50.000 à vista no pix, **8 vagas** (20 no máximo).
-**Abatimento dos R$ 499 para quem fechar até as 23h de 15/11** (decidido por ele em 21/out). **Falta:** contrato do cliente pelo advogado antes do evento, regras de publicidade do CFM/CFO, e pôr o **link de pagamento** dos R$ 499 (https://mpago.la/11BizwZ, Mercado Pago, mandado por ele em 27/out; já está no botão da página de vendas do quiz) na bio, no story e no WhatsApp (a arte já diz "inscrições pelo link da bio"; **quiz de interesse no ar em https://imersao-ame.vercel.app** (27/out, Vercel, conta apliquepoupe; com a página de vendas e a de obrigado), versão online no Claude em https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn e também como site no computador (`sb/AME/quiz/`, http://localhost:5180, respostas em `respostas.csv` fora do GitHub) (27/out; faixas de faturamento e destino decididos por ele em 27/out: até R$ 30 mil e de R$ 30 a 70 mil vão pra página de obrigado; de R$ 70 a 120 mil e acima de R$ 120 mil vão pra página de vendas; integração com o Google Sheets **ativa desde 27/out** (`sb/AME/quiz/google/`; duas planilhas no Drive dele, "Acima de R$ 70 mil" e "Até R$ 70 mil"; o link do App da Web está no `site/index.html`); falta o número do WhatsApp que recebe as respostas de quem é de fora); **preço fora dos posts**, decisão dele em 27/out: a arte mostra só data, vagas e o link, falta o link em si pra bio, o story e o WhatsApp). ⚠ **Não chamar o Stanley de
-"cirurgião plástico" no material:** a falta de registro na especialidade foi um dos motivos do processo no CRM-AC
-(ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico estrategista", como na marca.
+**Imersão AME, 14 e 15/nov/2026, São Paulo** (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).
+Gilberto e Dr. Stanley, os quatro pilares para clínicas e consultórios médicos, odontológicos e de estética. **Tudo da
+imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
+
+- **Decidido por ele:**
+  - Espaço da **Rede Vivax de Televisão**, **50 vagas**, domingo 15/11 (feriado) confirmado (21/out).
+  - **"De R$ 3.999 por R$ 499"** pelos dois dias (26/out; antes era "de R$ 3.000 por R$ 599"; o jurídico liberou o "de").
+    **Preço fora dos posts** (27/out): a arte mostra só data, vagas e o link.
+  - Oferta do fim do dia 2 (21/out): Choque de Ordem e Caixa R$ 35.000 em 6x no cartão ou R$ 30.000 à vista no pix,
+    **12 vagas**; Escala Blindada R$ 60.000 em 12x no cartão ou R$ 50.000 à vista no pix, **8 vagas** (20 no máximo);
+    o Club SB fica fora. **Abatimento dos R$ 499 para quem fechar até as 23h de 15/11.**
+  - Logo (26/out): embaixo do AME, **"Administração, Marketing e Escala"** em dourado e **"Medicina · Odontologia ·
+    Estética"** em prata (saiu o "Assessoria Médica Empresarial"). Ele sabe que AME em SP é o Ambulatório Médico de
+    Especialidades do estado e manteve.
+  - Inscrição por **link de pagamento**: https://mpago.la/11BizwZ (Mercado Pago, 27/out).
+  - Quiz (27/out): até R$ 30 mil e de R$ 30 a 70 mil vão pra página de obrigado; de R$ 70 a 120 mil e acima de
+    R$ 120 mil vão pra página de vendas.
+- **Pronto:**
+  - Cronograma hora a hora no doc https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado): dia 1, Gestão e
+    Lucratividade com o Gilberto; dia 2, Marketing e Vendas com o Stanley, hot seats e oferta dos programas.
+  - Logo, programação, crachás, certificado e artes de divulgação (feed e story; fotos em cor desde 27/out).
+  - **Kit do participante** (8 folhas A4: ficha de diagnóstico adaptada pra sala, exercício da margem, decisões dos
+    dois dias e os quatro números).
+  - **Ficha online AME** (https://claude.ai/artifact/3XuZKa9LcsmVYGx6SYhpdd, privada, com a pergunta do hot seat; banco
+    próprio, separado da ficha da SB).
+  - **Slides** (26/out, 56, https://claude.ai/artifact/8XLbWYXgZm7w2LLGc6KTbi, privada; também em PowerPoint na pasta),
+    feitos só com o método, a ficha, o cronograma e o fichamento da reforma.
+  - **Quiz de interesse no ar em https://imersao-ame.vercel.app** (27/out, Vercel, conta apliquepoupe), com
+    `/venda.html` (botão do Mercado Pago) e `/obrigado.html`. As respostas vão pro **Google Sheets** (ativo desde 27/out,
+    `sb/AME/quiz/google/`; duas planilhas no Drive dele, "Acima de R$ 70 mil" e "Até R$ 70 mil"). Também roda no
+    computador (`sb/AME/quiz/`, http://localhost:5180, cópia em `respostas.csv`, fora do GitHub). A versão dentro do
+    Claude (https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn) não tem as páginas nem o Google Sheets.
+- **Falta:**
+  - Pôr o link na bio, no story e no WhatsApp (a arte já diz "inscrições pelo link da bio").
+  - Contrato do cliente pelo advogado antes do evento.
+  - Regras de publicidade do CFM/CFO.
+  - Dele, pros slides: a meta de reserva em meses, a conta do custo da hora e os casos dele nos blocos; o Dr. Stanley
+    revisar os blocos de Marketing e Vendas.
+  - ⚠ As linhas do exercício da margem (imposto, cartão, material, repasse, tempo × hora) são proposta minha: ele confere.
+  - O arquivo original da logo, pra impressão e palco.
+  - Opcional: o número de WhatsApp pra versão do quiz dentro do Claude.
+- ⚠ **Não chamar o Stanley de "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos
+  motivos do processo no CRM-AC (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico
+  estrategista", como na marca.
 
 **Série "A Base da Gestão" no YouTube: as 8 aulas saíram de 19 a 26/10, sem falha na Zernio.** Segue aberto só o que
 ficou de fora: 7 gravações (lista no README de `saidas/VIDEOS/serie-a-base-da-gestao-2026-10-18/`); os dois vídeos dos
