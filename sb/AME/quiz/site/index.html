@@ -307,12 +307,15 @@
           planilha = true;
         }catch(e){ planilha = false; }
       }
-      // 2. Cópia no computador (respostas.csv), quando o quiz roda pelo servidor local.
-      try{
-        const resp = await fetch("/api/inscricao", {method:"POST",
-          headers:{"Content-Type":"application/json"}, body: corpo});
-        local = resp.ok;
-      }catch(e){ local = false; }
+      // 2. Cópia no computador (respostas.csv), só quando o quiz roda pelo servidor local.
+      //    Na Vercel não existe esse servidor: lá vale só o Google Sheets.
+      if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)){
+        try{
+          const resp = await fetch("/api/inscricao", {method:"POST",
+            headers:{"Content-Type":"application/json"}, body: corpo});
+          local = resp.ok;
+        }catch(e){ local = false; }
+      }
       gravou = planilha || local;
     }catch(e){ gravou = false; }
     enviado = true;

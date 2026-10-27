@@ -38,6 +38,22 @@ e "Até R$ 70 mil" (faixas A e B). O código do Apps Script e o passo a passo es
 `google/`. Ativado por ele em 27/out: o link do App da Web está em `PLANILHA_URL`, no `site/index.html`.
 A versão online no Claude não manda pro Google.
 
+## No ar na Vercel (27/out)
+
+**https://imersao-ame.vercel.app** (o quiz), com `/venda.html` e `/obrigado.html`.
+Projeto `imersao-ame` na conta Vercel `apliquepoupe`. Sobe só a pasta `site/`:
+`servidor.py`, `respostas.csv` e o código do Google ficam de fora.
+
+Na Vercel as respostas vão só pro Google Sheets (lá não existe o servidor local).
+No computador, vão pro Google Sheets e pro `respostas.csv`.
+
+Publicar de novo depois de mudar alguma coisa:
+
+```
+cd sb/AME/quiz/site
+vercel deploy --prod --yes
+```
+
 ## Ligar o site no computador
 
 ```
