@@ -17,12 +17,11 @@ Depois de enviar, o quiz leva a pessoa pra uma página conforme o faturamento qu
 | Faixa | Vai para |
 |---|---|
 | Até R$ 30 mil | `obrigado.html`: agradece e indica o @gilbertosenaoficial |
-| De R$ 30 mil a R$ 100 mil | `obrigado.html`, **provisório: falta o Gilberto decidir** |
-| De R$ 100 mil a R$ 300 mil, de R$ 300 mil a R$ 1 milhão e acima de R$ 1 milhão | `venda.html`: a página de vendas do ingresso, de R$ 3.999 por R$ 499 |
+| De R$ 30 mil pra cima (30 a 100 mil decidido por ele em 27/out) | `venda.html`: a página de vendas do ingresso, de R$ 3.999 por R$ 499 |
 
 A regra fica em `DESTINO_POR_FAIXA`, no `site/index.html`. O botão de comprar da página
 de vendas usa o link em `LINK_PAGAMENTO`, no `site/venda.html`; enquanto estiver vazio,
-o botão avisa que o link está sendo preparado. A versão online no Claude ainda não
+o botão avisa que o link está sendo preparado. Desde 27/out está com o link do Mercado Pago que ele mandou. A versão online no Claude ainda não
 tem essa mecânica.
 
 ⚠ Nos testes, nunca apagar o `respostas.csv` inteiro: já tem resposta de verdade nele.

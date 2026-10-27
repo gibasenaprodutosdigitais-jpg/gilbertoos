@@ -180,7 +180,7 @@
 <script>
 (function(){
   // Link de pagamento do ingresso. Vazio = o botão avisa que o link está sendo preparado.
-  const LINK_PAGAMENTO = "";
+  const LINK_PAGAMENTO = "https://mpago.la/11BizwZ";   // Mercado Pago, mandado por ele em 27/out
 
   const nome = new URLSearchParams(location.search).get("nome");
   if (nome){ const o = document.getElementById("ola"); o.textContent = "Olá, " + nome.split(" ")[0] + "."; o.hidden = false; }
