@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Obrigado · Imersão AME</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Montserrat:wght@400;500;600&display=swap">
+<style>
+  /* Página de obrigado do quiz da Imersão AME. */
+  :root{ --fundo:#081421; --tinta:#F2EFE8; --fraca:#9FB0C4; --ouro:#C9A24B; --ouro-claro:#E2C489; --borda:#23405F }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --fundo:#081421 } }
+  :root[data-theme="dark"]{ --fundo:#081421 }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--fundo);color:var(--tinta)}
+  body{font-family:Montserrat,"Helvetica Neue",Arial,sans-serif;min-height:100vh;display:flex;align-items:center;
+       justify-content:center;padding:40px 16px;text-align:center;line-height:1.6;
+       background:radial-gradient(ellipse 90% 60% at 50% 25%,#1C2A3C 0%,#0C1A2E 55%,#081421 100%)}
+  main{max-width:520px}
+  img{width:min(300px,80%);height:auto;margin:0 auto 30px;display:block}
+  h1{font-family:"Libre Baskerville",Georgia,serif;font-weight:400;font-size:clamp(28px,7vw,38px);margin:0 0 18px;line-height:1.25}
+  h1 em{color:var(--ouro-claro)}
+  p{color:var(--fraca);margin:0 0 16px}
+  a.insta{display:inline-block;margin-top:14px;border:1px solid var(--ouro);color:var(--ouro-claro);text-decoration:none;
+          padding:14px 26px;font-weight:600;letter-spacing:.12em;font-size:14px}
+  a.insta:hover{background:var(--ouro);color:#0C1A2E}
+  footer{margin-top:44px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#5D6F86}
+</style>
+</head>
+<body>
+<main>
+  <img src="ame-logo.png" alt="AME">
+  <h1>Obrigado<span id="nome"></span>.<br><em>Recebemos as suas respostas.</em></h1>
+  <p>Enquanto isso, acompanhe o conteúdo do Gilberto Sena sobre gestão de clínicas e consultórios no Instagram.</p>
+  <a class="insta" href="https://www.instagram.com/gilbertosenaoficial/" target="_blank" rel="noopener">@gilbertosenaoficial</a>
+  <footer>Imersão AME · Realização SB, Sena e Bittar</footer>
+</main>
+<script>
+  const n = new URLSearchParams(location.search).get("nome");
+  if (n) document.getElementById("nome").textContent = ", " + n.split(" ")[0];
+</script>
+</body>
+</html>

@@ -10,6 +10,24 @@ Existe em duas versões, com as mesmas perguntas e o mesmo visual:
 | **Site no computador** | `site/index.html` + `servidor.py` | `respostas.csv`, nesta pasta. Abre no Excel ou no Numbers. Fica fora do GitHub, porque são dados pessoais de terceiros |
 | **Online no Claude** | `quiz-ame.html`, publicado em https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn (privado) | quem é da conta dele grava na coleção `inscricoes`; quem é de fora manda pelo WhatsApp, e pra isso falta pôr o número em `WHATSAPP_DESTINO` |
 
+## A mecânica do site (27/out)
+
+Depois de enviar, o quiz leva a pessoa pra uma página conforme o faturamento que ela marcou:
+
+| Faixa | Vai para |
+|---|---|
+| Até R$ 30 mil | `obrigado.html`: agradece e indica o @gilbertosenaoficial |
+| De R$ 30 mil a R$ 100 mil | `obrigado.html`, **provisório: falta o Gilberto decidir** |
+| De R$ 100 mil a R$ 300 mil, de R$ 300 mil a R$ 1 milhão e acima de R$ 1 milhão | `venda.html`: a página de vendas do ingresso, de R$ 3.999 por R$ 499 |
+
+A regra fica em `DESTINO_POR_FAIXA`, no `site/index.html`. O botão de comprar da página
+de vendas usa o link em `LINK_PAGAMENTO`, no `site/venda.html`; enquanto estiver vazio,
+o botão avisa que o link está sendo preparado. A versão online no Claude ainda não
+tem essa mecânica.
+
+⚠ Nos testes, nunca apagar o `respostas.csv` inteiro: já tem resposta de verdade nele.
+Tirar só as linhas de teste.
+
 ## Ligar o site no computador
 
 ```

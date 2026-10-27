@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Imersão AME</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Montserrat:wght@400;500;600&display=swap">
+<style>
+  /* Página de vendas da Imersão AME. Quem chega aqui veio do quiz e marcou
+     faturamento acima de R$ 100 mil. Conteúdo tirado do cronograma. */
+  :root{
+    --fundo:#081421; --noite:#0C1A2E; --carta:#112741; --borda:#23405F;
+    --tinta:#F2EFE8; --fraca:#9FB0C4; --ouro:#C9A24B; --ouro-claro:#E2C489;
+    --creme:#F4F1EA; --tinta-escura:#14202F; --cinza:#4A5568;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --fundo:#081421 } }
+  :root[data-theme="dark"]{ --fundo:#081421 }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--fundo);color:var(--tinta)}
+  body{font-family:Montserrat,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
+  .faixa{padding:56px 16px}
+  .miolo{max-width:760px;margin:0 auto}
+  .claro{background:var(--creme);color:var(--tinta-escura)}
+  .eyebrow{font-size:12px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--ouro);margin:0 0 14px}
+  .claro .eyebrow{color:#8A6A24}
+  h1,h2,h3{font-family:"Libre Baskerville",Georgia,serif;font-weight:400;margin:0;line-height:1.25;text-wrap:balance}
+  h1{font-size:clamp(30px,7vw,46px)}
+  h2{font-size:clamp(25px,5.5vw,36px);margin-bottom:22px}
+  h1 em,h2 em{color:var(--ouro-claro)}
+  .claro h2 em{color:#8A6A24}
+  p{margin:0 0 14px}
+  .fraco{color:var(--fraca)}
+  .claro .fraco{color:var(--cinza)}
+
+  .hero{text-align:center;padding-top:40px;background:radial-gradient(ellipse 90% 60% at 50% 20%,#1C2A3C 0%,#0C1A2E 55%,#081421 100%)}
+  .hero img.logo{width:min(420px,88%);height:auto;margin:0 auto 26px;display:block}
+  .hero h1{margin:18px 0 18px}
+  .ola{color:var(--ouro-claro);font-size:15px;margin-bottom:6px}
+  .fatos{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 28px;margin:24px 0 30px;font-size:14px;
+         letter-spacing:.14em;text-transform:uppercase;color:var(--fraca)}
+  .fatos b{color:var(--tinta);font-weight:500}
+
+  .cta{display:inline-block;background:var(--ouro);color:#0C1A2E;text-decoration:none;font-weight:600;
+       letter-spacing:.16em;text-transform:uppercase;font-size:15px;padding:18px 34px;border:0;cursor:pointer;font-family:inherit}
+  .cta:hover{background:var(--ouro-claro)}
+  .cta:focus-visible{outline:2px solid var(--ouro-claro);outline-offset:3px}
+  .aviso-link{display:none;margin-top:12px;font-size:14px;color:var(--ouro-claro)}
+
+  .lista{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+  .lista li{background:#FBFAF6;border-left:4px solid var(--ouro);padding:14px 18px}
+  .faixa:not(.claro) .lista li{background:var(--carta)}
+
+  .dupla{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .pessoa img{width:100%;aspect-ratio:3/4;object-fit:cover;border:2px solid var(--ouro);display:block}
+  .pessoa h3{font-size:22px;margin:14px 0 4px}
+  .pessoa .papel{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--ouro)}
+  .pessoa p{font-size:14px;margin-top:6px}
+
+  .dias{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .dia{border:1px solid #CFC7B4;padding:22px}
+  .dia h3{font-size:21px;margin:6px 0 12px}
+  .dia ul{margin:0;padding-left:18px}
+  .dia li{margin-bottom:6px}
+
+  .preco{border:1px solid var(--borda);background:var(--noite);padding:34px 24px;text-align:center}
+  .preco .de{font-family:"Libre Baskerville",Georgia,serif;font-size:22px;color:var(--fraca);text-decoration:line-through;text-decoration-color:var(--ouro)}
+  .preco .por{font-family:"Libre Baskerville",Georgia,serif;font-size:clamp(52px,14vw,76px);color:var(--ouro-claro);line-height:1.1;margin:6px 0 4px}
+  .preco .obs{font-size:14px;color:var(--fraca);margin-bottom:26px}
+
+  .nao{border-left:4px solid #8E8E8E;padding:12px 18px;background:#ECE7DB;margin-top:20px}
+  footer{padding:30px 16px 40px;text-align:center;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#5D6F86}
+
+  @media (max-width:620px){ .dupla,.dias{grid-template-columns:1fr} .faixa{padding:44px 16px} }
+</style>
+</head>
+<body>
+
+<section class="faixa hero">
+  <div class="miolo">
+    <img class="logo" src="ame-logo.png" alt="AME: Administração, Marketing e Escala · Medicina, Odontologia, Estética">
+    <p class="ola" id="ola" hidden></p>
+    <p class="eyebrow">Imersão presencial para donos de clínica e consultório</p>
+    <h1>A agenda lota.<br><em>O caixa não acompanha.</em></h1>
+    <p class="fraco">Dois dias em São Paulo com Gilberto Sena e o Dr. Stanley Bittar, levando os quatro pilares do método para donos de clínicas e consultórios médicos, odontológicos e de estética.</p>
+    <div class="fatos"><span><b>14 e 15 de novembro</b></span><span>8h às 18h</span><span>São Paulo</span><span><b>50 vagas</b></span></div>
+    <a class="cta" href="#ingresso">Quero o meu ingresso</a>
+  </div>
+</section>
+
+<section class="faixa claro">
+  <div class="miolo">
+    <p class="eyebrow">O método</p>
+    <h2>Base, depois preço, <em>só então volume</em></h2>
+    <p>O primeiro dia arruma a casa: gestão e preço. O segundo enche a agenda do jeito certo: marketing e vendas.</p>
+    <p class="fraco">Marketing e vendas em cima de uma base fraca só fazem você trabalhar mais pra sobrar o mesmo.</p>
+  </div>
+</section>
+
+<section class="faixa">
+  <div class="miolo">
+    <p class="eyebrow">O que você leva para casa</p>
+    <h2>Você sai com o seu negócio <em>no papel</em></h2>
+    <ul class="lista">
+      <li>A ficha de diagnóstico do seu consultório preenchida, nos quatro pilares</li>
+      <li>A margem de três procedimentos do seu negócio, calculada no dia 1</li>
+      <li>As decisões de cada dia, escritas</li>
+      <li>Os quatro números para acompanhar: sobra do mês, pacientes novos (e quantos vieram por indicação), tratamentos fechados sobre orçamentos e margem líquida</li>
+    </ul>
+  </div>
+</section>
+
+<section class="faixa claro">
+  <div class="miolo">
+    <p class="eyebrow">A programação</p>
+    <h2>Dois dias, <em>quatro pilares</em></h2>
+    <div class="dias">
+      <div class="dia">
+        <p class="eyebrow">Sábado, 14/11 · Gilberto Sena</p>
+        <h3>A casa em ordem</h3>
+        <ul>
+          <li>Diagnóstico ao vivo do seu consultório</li>
+          <li>Gestão: conta separada, pró-labore, fechamento do mês, reserva de caixa</li>
+          <li>O imposto da saúde em 2027</li>
+          <li>Lucratividade: a margem e o preço</li>
+          <li>Hot seat ao vivo</li>
+        </ul>
+      </div>
+      <div class="dia">
+        <p class="eyebrow">Domingo, 15/11 · Dr. Stanley Bittar</p>
+        <h3>O paciente certo e o paciente tratado</h3>
+        <ul>
+          <li>Marketing: posicionamento e presença, dentro das regras do conselho</li>
+          <li>Vendas: da primeira mensagem até a consulta</li>
+          <li>A conversa do orçamento, o retorno e a indicação</li>
+          <li>Mais dois hot seats ao vivo</li>
+        </ul>
+      </div>
+    </div>
+    <div class="nao"><b>Para quem não é:</b> profissional só CLT ou plantonista, sem estrutura própria.</div>
+  </div>
+</section>
+
+<section class="faixa">
+  <div class="miolo">
+    <p class="eyebrow">Quem conduz</p>
+    <h2>Duas cabeças, <em>três leituras</em></h2>
+    <div class="dupla">
+      <div class="pessoa">
+        <img src="sena-ame.jpg" alt="Gilberto Sena">
+        <h3>Gilberto Sena</h3>
+        <div class="papel">Gestão e Lucratividade</div>
+        <p class="fraco">+15 anos · +500 empresas e empresários · +R$ 500 milhões economizados</p>
+      </div>
+      <div class="pessoa">
+        <img src="bittar-ame.jpg" alt="Dr. Stanley Bittar">
+        <h3>Dr. Stanley Bittar</h3>
+        <div class="papel">Marketing e Vendas</div>
+        <p class="fraco">Médico estrategista</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faixa claro" id="ingresso">
+  <div class="miolo">
+    <p class="eyebrow">O ingresso</p>
+    <h2>Os dois dias, <em>presencial</em></h2>
+    <div class="preco">
+      <div class="de">de R$ 3.999</div>
+      <div class="por">R$ 499</div>
+      <p class="obs">por participante · 14 e 15 de novembro · Rede Vivax de Televisão, São Paulo · 50 vagas</p>
+      <a class="cta" id="comprar" href="#">Garantir meu ingresso</a>
+      <p class="aviso-link" id="aviso-link">O link de pagamento está sendo preparado.</p>
+    </div>
+  </div>
+</section>
+
+<footer>Imersão AME · Administração, Marketing e Escala · Realização SB, Sena e Bittar</footer>
+
+<script>
+(function(){
+  // Link de pagamento do ingresso. Vazio = o botão avisa que o link está sendo preparado.
+  const LINK_PAGAMENTO = "";
+
+  const nome = new URLSearchParams(location.search).get("nome");
+  if (nome){ const o = document.getElementById("ola"); o.textContent = "Olá, " + nome.split(" ")[0] + "."; o.hidden = false; }
+
+  const b = document.getElementById("comprar");
+  if (LINK_PAGAMENTO){ b.href = LINK_PAGAMENTO; b.target = "_blank"; b.rel = "noopener"; }
+  else b.addEventListener("click", function(ev){ ev.preventDefault(); document.getElementById("aviso-link").style.display = "block"; });
+})();
+</script>
+</body>
+</html>

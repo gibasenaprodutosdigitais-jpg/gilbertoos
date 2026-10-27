@@ -182,6 +182,16 @@
   // Só dígitos, com DDI e DDD (ex.: 5511999999999). Vazio = sem botão de WhatsApp.
   const WHATSAPP_DESTINO = "";
 
+  // Pra onde cada faixa de faturamento vai depois de enviar.
+  // venda = página de vendas do ingresso; obrigado = página de obrigado.
+  const DESTINO_POR_FAIXA = {
+    "Até R$ 30 mil": "obrigado",
+    "De R$ 30 mil a R$ 100 mil": "obrigado",   // a decidir pelo Gilberto
+    "De R$ 100 mil a R$ 300 mil": "venda",
+    "De R$ 300 mil a R$ 1 milhão": "venda",
+    "Acima de R$ 1 milhão": "venda"
+  };
+
   const telas = Array.from(document.querySelectorAll(".tela"));
   const topo = document.getElementById("topo");
   const progresso = document.getElementById("progresso");
@@ -291,6 +301,11 @@
       gravou = resp.ok;
     }catch(e){ gravou = false; }
     enviado = true;
+    if (gravou){
+      const destino = DESTINO_POR_FAIXA[r.faturamento] || "obrigado";
+      location.href = destino + ".html?nome=" + encodeURIComponent(r.nome);
+      return;
+    }
     document.getElementById("primeiro-nome").textContent = r.nome.split(" ")[0];
     const fim = document.getElementById("fim");
     const link = WHATSAPP_DESTINO ? "https://wa.me/" + WHATSAPP_DESTINO + "?text=" + encodeURIComponent(texto()) : "";
