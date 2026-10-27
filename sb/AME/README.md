@@ -17,6 +17,7 @@ se chamava Imersão SB. A SB continua sendo quem realiza.
 | `certificado/` | certificado de participação, A4 deitado, com o nome em branco e carga horária de 20 horas |
 | `divulgacao/` | a arte de divulgação: `imersao-ame-feed.png` (Instagram, 1080 x 1350) e `imersao-ame-story.png` (story e status, 1080 x 1920). A inscrição é por link de pagamento: "link da bio" no feed, "pelo link" no story |
 | `ficha-online/` | a ficha de diagnóstico pelo celular, com a logo da AME e a pergunta do hot seat. Link e regras no README de lá |
+| `slides/` | os slides dos dois dias, 56, na ordem do cronograma. O que vale é a apresentação https://claude.ai/artifact/8XLbWYXgZm7w2LLGc6KTbi (privada; baixa em PowerPoint ou PDF pelo menu de lá). Aqui fica só a cópia dos arquivos |
 | `fontes/` | a Montserrat, a fonte da logo, usada em todas as peças |
 
 ## A logo

@@ -1,0 +1,33 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-26T23:45:00Z"},
+  "lists": "css",
+  "title": "Imersão AME · Slides",
+  "cover": "cover",
+  "order": [
+    "cover", "agenda-lota", "base-fraca", "pilares", "ordem", "quem", "numeros", "ficha",
+    "p01", "p01-sobra", "p01-contas", "p01-prolabore", "p01-fechamento", "p01-reserva", "p01-piramide",
+    "imp", "imp-reducao", "imp-classificacao", "imp-publicos", "imp-estetica", "imp-aliquota", "imp-regime",
+    "p04", "p04-margem", "p04-agregado", "p04-hora", "p04-exercicio", "p04-velocidade",
+    "p04-reajuste", "p04-mix", "p04-convenio", "p04-sobra", "hot1", "d1-fim",
+    "d2-capa", "d2-retomada",
+    "p02", "p02-lembrado", "p02-indica", "p02-presenca", "p02-origem", "p02-reputacao", "p02-conselho",
+    "p03", "p03-dez", "p03-caminho", "p03-orcamento", "p03-morre", "p03-5g", "p03-publicos",
+    "hot23", "amarracao", "proximo", "programas", "condicao", "fim"
+  ],
+  "sections": {
+    "abertura": {"description": "Dia 1, 8h30: a abertura, os quatro pilares, a ordem do método e o diagnóstico ao vivo.", "start": "cover"},
+    "gestao": {"description": "Dia 1, 10h: Pilar 01, Gestão, a base. Com o Gilberto.", "start": "p01"},
+    "imposto": {"description": "Dia 1, 11h15: o imposto da saúde em 2027. Com o Gilberto.", "start": "imp"},
+    "lucro": {"description": "Dia 1, 13h45 e 15h30: Pilar 04, Lucratividade, a margem e o preço. Hot seat 1 e fechamento.", "start": "p04"},
+    "dia2": {"description": "Dia 2, 8h30: a retomada.", "start": "d2-capa"},
+    "marketing": {"description": "Dia 2, 9h: Pilar 02, Marketing. Com o Dr. Stanley.", "start": "p02"},
+    "vendas": {"description": "Dia 2, 11h30 e 13h45: Pilar 03, Vendas. Com o Dr. Stanley.", "start": "p03"},
+    "fecho": {"description": "Dia 2, 15h15: hot seats 2 e 3, a amarração e o próximo passo.", "start": "hot23"}
+  },
+  "faces": {
+    "libre-baskerville": {"family": "Libre Baskerville", "href": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"},
+    "montserrat": {"family": "Montserrat", "href": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"}
+  },
+  "designSystems": []
+}
