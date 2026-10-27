@@ -16,6 +16,9 @@
   @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --fundo:#081421 } }
   :root[data-theme="dark"]{ --fundo:#081421 }
   *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} }
+  #ingresso{scroll-margin-top:12px}
   html,body{margin:0;background:var(--fundo);color:var(--tinta)}
   body{font-family:Montserrat,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
   .faixa{padding:56px 16px}
@@ -83,7 +86,7 @@
     <h1>A agenda lota.<br><em>O caixa não acompanha.</em></h1>
     <p class="fraco">Dois dias em São Paulo com Gilberto Sena e o Dr. Stanley Bittar, levando os quatro pilares do método para donos de clínicas e consultórios médicos, odontológicos e de estética.</p>
     <div class="fatos"><span><b>14 e 15 de novembro</b></span><span>8h às 18h</span><span>São Paulo</span><span><b>50 vagas</b></span></div>
-    <a class="cta" href="#ingresso">Quero o meu ingresso</a>
+    <a class="cta" href="#ingresso">Garantir meu ingresso</a>
   </div>
 </section>
 
