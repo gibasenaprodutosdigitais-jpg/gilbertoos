@@ -35,8 +35,8 @@ Tirar só as linhas de teste.
 
 As respostas também vão pra duas planilhas no Google: "Acima de R$ 70 mil" (faixas C e D)
 e "Até R$ 70 mil" (faixas A e B). O código do Apps Script e o passo a passo estão em
-`google/`. Falta o Gilberto ativar e mandar o link do App da Web, que entra em
-`PLANILHA_URL` no `site/index.html`.
+`google/`. Ativado por ele em 27/out: o link do App da Web está em `PLANILHA_URL`, no `site/index.html`.
+A versão online no Claude não manda pro Google.
 
 ## Ligar o site no computador
 
