@@ -15,14 +15,14 @@
   html{background:#050A14}
   body{background:radial-gradient(ellipse 90% 60% at 50% 30%,#1C2A3C 0%,#0C1A2E 55%,#050A14 100%);
        color:var(--creme);font-family:"Montserrat",sans-serif;display:flex;flex-direction:column;
-       align-items:center;padding:70px 80px 64px}
+       align-items:center;padding:56px 80px 50px}
   .tipo{font-size:20px;font-weight:500;letter-spacing:.42em;text-transform:uppercase;color:var(--ouro)}
   .logo{width:600px;margin:34px 0 0}
-  h1{font-family:Georgia,serif;font-weight:400;font-size:58px;line-height:1.14;text-align:center;margin-top:44px}
+  h1{font-family:Georgia,serif;font-weight:400;font-size:56px;line-height:1.14;text-align:center;margin-top:34px}
   h1 em{color:var(--ouro-claro)}
-  .dupla{display:flex;gap:40px;margin-top:40px}
+  .dupla{display:flex;gap:40px;margin-top:30px}
   .p{display:flex;flex-direction:column;align-items:center}
-  .p img{width:300px;height:418px;object-fit:cover;
+  .p img{width:280px;height:390px;object-fit:cover;
          -webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 45%,#000 62%,transparent 100%)}
   .p b{font-family:Georgia,serif;font-weight:400;font-size:30px;margin-top:-26px}
   .p span{margin-top:8px;font-size:15px;letter-spacing:.24em;text-transform:uppercase;color:var(--prata)}
@@ -34,16 +34,22 @@
   .val{font-family:Georgia,serif;font-size:34px}
   .de{font-size:22px;color:#9FB0C4;text-decoration:line-through;text-decoration-color:var(--ouro);margin-right:8px;font-family:Georgia,serif}
   .preco{font-family:Georgia,serif;font-size:56px;color:var(--ouro-claro);line-height:1}
-  .local{margin-top:24px;font-size:16px;letter-spacing:.3em;text-transform:uppercase;color:#9FB0C4}
+  .cta{margin-top:30px;background:var(--ouro);color:#0C1A2E;font-size:21px;font-weight:600;
+       letter-spacing:.26em;text-transform:uppercase;padding:18px 40px}
+  .cta .s{display:none}
+  body.story .cta{font-size:26px;padding:24px 50px;margin-top:36px}
+  body.story .cta .f{display:none}
+  body.story .cta .s{display:inline}
+  .local{margin-top:22px;font-size:16px;letter-spacing:.3em;text-transform:uppercase;color:#9FB0C4}
 
   /* story: mais altura, tudo maior e com respiro */
-  body.story{padding:150px 80px 170px}
+  body.story{padding:130px 80px 150px}
   body.story .logo{width:720px;margin-top:46px}
-  body.story h1{font-size:68px;margin-top:70px}
-  body.story .dupla{margin-top:70px}
+  body.story h1{font-size:68px;margin-top:56px}
+  body.story .dupla{margin-top:50px}
   body.story .p img{width:330px;height:460px}
   body.story .info{grid-template-columns:1fr;padding:0;border:0;gap:0}
-  body.story .info>div{padding:30px 0;border-top:1px solid #34465E}
+  body.story .info>div{padding:22px 0;border-top:1px solid #34465E}
   body.story .info>div+div{border-left:0}
   body.story .info>div:last-child{border-bottom:1px solid #34465E}
   body.story .preco{font-size:80px}
@@ -64,6 +70,7 @@
     <div><span class="rot">Os dois dias</span><span class="de">de R$ 3.999</span><span class="preco">R$ 499</span></div>
     <div><span class="rot">Vagas</span><span class="val">50</span></div>
   </div>
+  <div class="cta"><span class="f">Inscrições pelo link da bio</span><span class="s">Inscrições pelo link</span></div>
   <div class="local">São Paulo &nbsp;·&nbsp; Rede Vivax de Televisão</div>
 </body>
 </html>
