@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 21/out/2026.**
+> Estado das frentes abertas. **Atualizado em 26/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -13,7 +13,7 @@
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
-**Imersão SB, 14 e 15/nov/2026, São Paulo (pedido dele em 21/out).** Gilberto e Dr. Stanley, os quatro pilares para
+**Imersão AME, 14 e 15/nov/2026, São Paulo (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).** Logo em `sb/marca/imersao/` (original do WhatsApp, baixa resolução; versões sem fundo pra fundo escuro e claro). Ele sabe que AME em SP é o Ambulatório Médico de Especialidades do estado e manteve. **Em aberto:** a linha de baixo ("Assessoria Médica Empresarial") deixa de fora dentista e estética; sugestão na mesa: "Administração, Marketing e Escala".  Gilberto e Dr. Stanley, os quatro pilares para
 clínicas e consultórios médicos, odontológicos e de estética. Cronograma hora a hora (dia 1: Gestão e Lucratividade
 com o Gilberto; dia 2: Marketing e Vendas com o Stanley, hot seats e oferta dos programas) no doc
 https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado). **Decidido por ele em 21/out:** espaço da **Rede Vivax de
