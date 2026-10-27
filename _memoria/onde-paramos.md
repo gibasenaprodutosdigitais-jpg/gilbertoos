@@ -25,9 +25,9 @@ no pix, **12 vagas**; Escala Blindada R$ 60.000 em 12x no cartão ou R$ 50.000 �
 "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos motivos do processo no CRM-AC
 (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico estrategista", como na marca.
 
-**Série "A Base da Gestão" pro YouTube (18/out): agendada, 1 aula por dia às 20h de 19 a 26/10, na playlist própria.** Aulas 1, 2 e 3 no ar (19 a 21/10). A capa só se confere olhando o canal (exige canal verificado). 8 aulas horizontais (22 min no total), feitas do
-`~/Downloads/mini curso/` (o módulo de introdução do curso pago). Vídeos, capas, legendas `.srt`, títulos e descrições em
-`saidas/VIDEOS/serie-a-base-da-gestao-2026-10-18/` (os `.mp4` só no computador). Ficaram de fora 7 gravações (lista no README de lá); os dois vídeos dos 5 G's são **decisão dele**.
+**Série "A Base da Gestão" no YouTube: as 8 aulas saíram de 19 a 26/10, sem falha na Zernio.** Segue aberto só o que
+ficou de fora: 7 gravações (lista no README de `saidas/VIDEOS/serie-a-base-da-gestao-2026-10-18/`); os dois vídeos dos
+5 G's são **decisão dele**.
 
 **Vídeo na casa do Janguiê (Muro Alto), 18/out:** imagem tratada em `~/Downloads/... - tratado.mp4`. O som do celular
 não tem conserto aqui: nem o transcritor mais forte entende a fala. Pedir o arquivo do cinegrafista que aparece filmando.
@@ -41,9 +41,8 @@ alimentando aos poucos — ver a seção logo abaixo.
 assinada está na Downloads. Em `juridico/exito/` estão o estatuto e as duas cartas (a de afastamento temporário, art. 23, não
 foi usada). ⚠ Se a saída se confirmar, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
-**Carrosséis: fila fechada até 3/11, 1 por dia às 18h** (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **4/11**. A série dos 5 Gs está toda agendada:
-1 (22/10), 2 (25/10), 3 Pessoas (26/10, criado em 18/out do livro), **4 Tributária (1/11, prazos refeitos em 18/out)**
-e 5 Fornecedores (2/11). Segurados: o Representante Comercial (prazo de setembro);
+**Carrosséis: fila fechada até 3/11, 1 por dia às 18h** (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **4/11**. Da série dos 5 Gs, o 1, o 2 e o 3 já saíram (22, 25 e 26/10); faltam
+**4 Tributária (1/11, prazos refeitos em 18/out)** e 5 Fornecedores (2/11). Segurados: o Representante Comercial (prazo de setembro);
 o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito,
 **decisão dele**). Lista em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
@@ -308,7 +307,7 @@ agendar**, porque o carrossel contradizia o media kit dele.
 
 **87 posts agendados e 8 rascunhos na Zernio, depois da grade nova de 18/out.** `_memoria/cronograma-de-postagens.md`
 tem o calendário post a post. Instagram com reels até 3/12; **YouTube só até 30/10**; TikTok até 9/11. Provérbios até
-31/10 e frase do dia até 7/11 (e 30/11). Mais a série "A Base da Gestão" no YouTube, 1 aula por dia às 20h de 19 a 26/10. Os 29 cortes das gravações do carro continuam sem montar, e agora são eles que
+31/10 e frase do dia até 7/11 (e 30/11). A série "A Base da Gestão" já saiu inteira (19 a 26/10). Os 29 cortes das gravações do carro continuam sem montar, e agora são eles que
 alimentam o YouTube a partir de 30/10.
 
 ---
