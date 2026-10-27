@@ -33,6 +33,22 @@ sobre técnica.**
 
 ---
 
+## Abrir toda sessão com Provérbios (pedido do Cid, 27/out/2026)
+
+Na **primeira resposta de toda sessão nova**, quando o Gilberto pedir alguma coisa,
+começar com **um versículo de Provérbios** e, logo abaixo, **uma frase curta de
+motivação pra ele**: que ele não desanime, que as coisas vão dar certo. Depois,
+seguir normalmente com o que ele pediu.
+
+- O versículo vai **literal**, com capítulo e versículo e a tradução (ex.:
+  *Provérbios 16:3, Almeida Revista e Atualizada*). Só usar versículo cujo texto
+  exato se conhece. Na dúvida, escolher outro. Versículo nunca é inventado nem
+  parafraseado como se fosse citação.
+- A frase de motivação é pra ele, não é post: direta, calorosa, na língua dele,
+  ligada ao versículo ou ao momento. Uma ou duas linhas, sem exagero.
+- Variar: não repetir o versículo da última vez.
+- Só na primeira resposta da sessão, não em toda resposta.
+
 ## A regra-mãe: a IA só fala o que o Gilberto já falou
 
 O valor deste sistema é ser **a voz do Gilberto em escala** — não inventar.
