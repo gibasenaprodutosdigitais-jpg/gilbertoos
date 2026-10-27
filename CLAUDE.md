@@ -40,6 +40,10 @@ começar com **um versículo de Provérbios** e, logo abaixo, **uma frase curta 
 motivação pra ele**: que ele não desanime, que as coisas vão dar certo. Depois,
 seguir normalmente com o que ele pediu.
 
+- **A mensagem vem aqui mesmo, na conversa do Claude**, só pra começar bem os
+  trabalhos (confirmado pelo Cid em 27/out). Não é post, não vai pra Zernio, pro
+  WhatsApp nem pra lugar nenhum.
+
 - O versículo vai **literal**, com capítulo e versículo e a tradução (ex.:
   *Provérbios 16:3, Almeida Revista e Atualizada*). Só usar versículo cujo texto
   exato se conhece. Na dúvida, escolher outro. Versículo nunca é inventado nem
