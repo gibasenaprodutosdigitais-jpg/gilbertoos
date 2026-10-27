@@ -48,6 +48,8 @@
   **Verificado em 15/out/2026** na página oficial da diretoria, onde ele
   aparece entre Janguiê Diniz (Presidente) e Celso Niskier (Vice-Presidente).
   O texto antigo dizia "conselheiro" e estava errado.
+  **26/out/2026: carta de renúncia ao cargo entregue (assinada em 21/out), aguardando
+  resposta da diretoria.**
 - **Palestrante no Summit Êxito de Empreendedorismo 2022** — evento com ~150
   palestrantes sobre empreendedorismo, tecnologia e tendências.
 - **Outras palestras confirmadas por ele** (15/out/2026), da mais antiga à mais

@@ -36,10 +36,10 @@ não tem conserto aqui: nem o transcritor mais forte entende a fala. Pedir o arq
 (grade de 4 posts por dia, decidida em 18/out). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
-**Instituto Êxito: ele avalia sair (18/out).** Ele é Diretor de Compliance (eleito na AGE de 08/08/2025, mandato de 5 anos).
-Em `juridico/exito/` estão o estatuto e duas cartas prontas pra ele assinar, **sem decisão tomada**: afastamento temporário
-(art. 23, já pedindo a suspensão da taxa, que o estatuto não prevê) e renúncia ao cargo + desligamento (art. 21; sem multa,
-só exige estar em dia com a taxa). ⚠ Se ele sair, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
+**Instituto Êxito: carta de renúncia entregue, aguardando resposta da diretoria (ele confirmou em 26/out).** Ele assinou em
+21/out a renúncia ao cargo de Diretor de Compliance + desligamento (art. 21; sem multa, só exige estar em dia com a taxa); a
+assinada está na Downloads. Em `juridico/exito/` estão o estatuto e as duas cartas (a de afastamento temporário, art. 23, não
+foi usada). ⚠ Se a saída se confirmar, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
 **Carrosséis: fila fechada até 3/11, 1 por dia às 18h** (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **4/11**. A série dos 5 Gs está toda agendada:
 1 (22/10), 2 (25/10), 3 Pessoas (26/10, criado em 18/out do livro), **4 Tributária (1/11, prazos refeitos em 18/out)**
@@ -332,9 +332,9 @@ troca do "Smart Money" por "o critério do dinheiro que sobra".
   assinado; se foi, a saída se formaliza pela cláusula 12 de lá (aviso por
   escrito ou distrato), e sigilo e não contorno continuam valendo para ele.
   Detalhe em `sb/juridico/notas-sobre-o-termo.md`.
-- **Termo de compromisso Gilberto e Stanley: versão para assinatura pronta em 21/out**
-  (`sb/juridico/SB - Termo de Compromisso e NDA.pdf`, cópia na Downloads). A 12.4 foi decidida por ele: se um sair,
-  ninguém usa a marca SB nem o Método sozinho. Falta assinar (com 2 testemunhas) e, de preferência, o advogado ler antes.
+- **Termo de compromisso Gilberto e Stanley: assinado em 21/out** (ele confirmou em 26/out). A assinada está na Downloads
+  (`SB_-_Termo_de_Compromisso_-_Gilberto_e_Stanley_assinado.pdf`), fora do GitHub. A 12.4 foi decidida por ele: se um sair,
+  ninguém usa a marca SB nem o Método sozinho.
 - **O monograma SB só existe em 600 px.** Pedir o original em alta a quem
   desenhou, antes de qualquer placa ou impressão grande.
 

@@ -151,7 +151,8 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
 - `posicionamento-gilberto-sena/` — estudos de posicionamento de agosto de 2026.
   ⚠ Carregam números antigos (ex.: "2.000 empresas"): conferir antes de copiar
 - `livro-o-medico-e-o-executivo/` — o livro em coautoria com o Dr. Bittar
-- `sb/` — SB, Sena e Bittar (até 19/out/2026 era SBS, com o Simões); `respostas-anamnese/` — as fichas da anamnese
+- `sb/` — SB, Sena e Bittar (até 19/out/2026 era SBS, com o Simões). Dentro dela, `sb/AME/` é a Imersão AME
+  (14 e 15/nov/2026): logo, kit, programação, crachás, certificado, divulgação, ficha online e slides; `respostas-anamnese/` — as fichas da anamnese
 - `juridico/` — contratos e documentos jurídicos
 - `negocios-declinados/` — propostas e negociações encerradas
 - `grupo-sena-institucional/` e `grupo-sena-rh/` — documentos da empresa
