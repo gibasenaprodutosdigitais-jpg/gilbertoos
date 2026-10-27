@@ -16,8 +16,12 @@ Depois de enviar, o quiz leva a pessoa pra uma página conforme o faturamento qu
 
 | Faixa | Vai para |
 |---|---|
-| Até R$ 30 mil | `obrigado.html`: agradece e indica o @gilbertosenaoficial |
-| De R$ 30 mil pra cima (30 a 100 mil decidido por ele em 27/out) | `venda.html`: a página de vendas do ingresso, de R$ 3.999 por R$ 499 |
+| A · Até R$ 30 mil | `obrigado.html`: agradece e indica o @gilbertosenaoficial |
+| B · De R$ 30 mil a R$ 70 mil | `obrigado.html` |
+| C · De R$ 70 mil a R$ 120 mil | `venda.html`: a página de vendas do ingresso, de R$ 3.999 por R$ 499 |
+| D · Acima de R$ 120 mil | `venda.html` |
+
+Faixas e destinos decididos por ele em 27/out (trocou as faixas antigas, que iam até "acima de R$ 1 milhão").
 
 A regra fica em `DESTINO_POR_FAIXA`, no `site/index.html`. O botão de comprar da página
 de vendas usa o link em `LINK_PAGAMENTO`, no `site/venda.html`; enquanto estiver vazio,

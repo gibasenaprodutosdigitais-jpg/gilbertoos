@@ -140,10 +140,9 @@
     <h2>Quanto o seu negócio <em>fatura por mês</em>, em média?</h2>
     <div class="opcoes" data-campo="faturamento">
       <button class="opcao" type="button" aria-pressed="false"><b>A</b>Até R$ 30 mil</button>
-      <button class="opcao" type="button" aria-pressed="false"><b>B</b>De R$ 30 mil a R$ 100 mil</button>
-      <button class="opcao" type="button" aria-pressed="false"><b>C</b>De R$ 100 mil a R$ 300 mil</button>
-      <button class="opcao" type="button" aria-pressed="false"><b>D</b>De R$ 300 mil a R$ 1 milhão</button>
-      <button class="opcao" type="button" aria-pressed="false"><b>E</b>Acima de R$ 1 milhão</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>B</b>De R$ 30 mil a R$ 70 mil</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>C</b>De R$ 70 mil a R$ 120 mil</button>
+      <button class="opcao" type="button" aria-pressed="false"><b>D</b>Acima de R$ 120 mil</button>
     </div>
     <div class="aviso" role="alert"></div>
     <div class="acoes"><button class="volta" type="button" data-volta>Voltar</button><button class="ir" type="button" data-ir>Continuar</button></div>
@@ -184,12 +183,11 @@
 
   // Pra onde cada faixa de faturamento vai depois de enviar.
   // venda = página de vendas do ingresso; obrigado = página de obrigado.
-  const DESTINO_POR_FAIXA = {
+  const DESTINO_POR_FAIXA = {     // decidido por ele em 27/out: A e B obrigado, C e D vendas
     "Até R$ 30 mil": "obrigado",
-    "De R$ 30 mil a R$ 100 mil": "venda",     // decidido por ele em 27/out
-    "De R$ 100 mil a R$ 300 mil": "venda",
-    "De R$ 300 mil a R$ 1 milhão": "venda",
-    "Acima de R$ 1 milhão": "venda"
+    "De R$ 30 mil a R$ 70 mil": "obrigado",
+    "De R$ 70 mil a R$ 120 mil": "venda",
+    "Acima de R$ 120 mil": "venda"
   };
 
   const telas = Array.from(document.querySelectorAll(".tela"));
