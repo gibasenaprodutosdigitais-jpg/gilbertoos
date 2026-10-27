@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Certificado · Imersão AME</title>
+<style>
+  /* Certificado de participação, A4 deitado. O nome fica em branco:
+     escreve à mão ou imprime por cima, na linha. */
+  @font-face{font-family:"Montserrat";src:url("../fontes/Montserrat-VF.ttf") format("truetype");font-weight:100 900}
+  @page{size:A4 landscape;margin:0}
+  :root{--noite:#0C1A2E;--ouro:#C9A24B;--ouro-tinta:#8C7A4A;--prata:#C9CBCE}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .folha{width:297mm;height:210mm;display:grid;grid-template-columns:92mm 1fr;background:#FBFAF7}
+  .lado{background:var(--noite);display:flex;flex-direction:column;align-items:center;justify-content:center;
+        padding:0 9mm;position:relative}
+  .lado img{width:72mm}
+  .lado .datas{margin-top:8mm;font-family:"Montserrat";font-size:7pt;letter-spacing:.3em;text-transform:uppercase;
+               color:var(--prata);text-align:center;line-height:2}
+  .lado::after{content:"";position:absolute;top:0;right:0;width:2.2mm;height:100%;background:var(--ouro)}
+  .corpo{padding:26mm 24mm 18mm 24mm;display:flex;flex-direction:column}
+  .tipo{font-family:"Montserrat";font-size:8pt;font-weight:600;letter-spacing:.42em;text-transform:uppercase;color:var(--ouro-tinta)}
+  h1{font-family:Georgia,serif;font-weight:400;font-size:34pt;color:#141414;margin:5mm 0 12mm;line-height:1.1}
+  .txt{font-family:Georgia,serif;font-size:13pt;line-height:1.7;color:#2A2A2A}
+  .nome{border-bottom:.35mm solid #8E8E8E;height:15mm;margin:4mm 0 7mm}
+  .assinaturas{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:16mm}
+  .ass{border-top:.3mm solid #6B6B6B;padding-top:3mm}
+  .ass b{display:block;font-family:Georgia,serif;font-weight:400;font-size:12pt;color:#141414}
+  .ass span{font-family:"Montserrat";font-size:6.8pt;letter-spacing:.16em;text-transform:uppercase;color:#6B6B6B}
+  .rodape{margin-top:8mm;font-family:"Montserrat";font-size:6.3pt;letter-spacing:.22em;text-transform:uppercase;color:#9A9A9A}
+</style>
+</head>
+<body>
+<div class="folha">
+  <div class="lado">
+    <img src="../logo/ame-logo-transparente.png" alt="AME">
+    <div class="datas">14 e 15 de novembro de 2026<br>São Paulo</div>
+  </div>
+  <div class="corpo">
+    <div class="tipo">Certificado de participação</div>
+    <h1>Imersão AME</h1>
+    <div class="txt">Certificamos que</div>
+    <div class="nome"></div>
+    <div class="txt">participou da Imersão AME, Administração, Marketing e Escala, para
+      donos de clínica e consultório médico, odontológico e de estética,
+      realizada em São Paulo nos dias 14 e 15 de novembro de 2026, com carga
+      horária de 20 horas.</div>
+    <div class="assinaturas">
+      <div class="ass"><b>Gilberto Sena</b><span>Gestão e Lucratividade</span></div>
+      <div class="ass"><b>Dr. Stanley Bittar</b><span>Médico estrategista · Marketing e Vendas</span></div>
+    </div>
+    <div class="rodape">Realização SB, Sena e Bittar</div>
+  </div>
+</div>
+</body>
+</html>

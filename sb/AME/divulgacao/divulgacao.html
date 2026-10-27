@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Divulgação · Imersão AME</title>
+<style>
+  /* Arte de divulgação em dois formatos: feed do Instagram (1080 x 1350)
+     e story/status do WhatsApp (1080 x 1920). O formato vem do endereço:
+     divulgacao.html?story troca pro vertical. */
+  @font-face{font-family:"Montserrat";src:url("../fontes/Montserrat-VF.ttf") format("truetype");font-weight:100 900}
+  :root{--noite:#0C1A2E;--ouro:#C9A24B;--ouro-claro:#E2C489;--prata:#C9CBCE;--creme:#F2EFE8}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px;overflow:hidden}
+  html.story,html.story body{height:1920px}
+  html{background:#050A14}
+  body{background:radial-gradient(ellipse 90% 60% at 50% 30%,#1C2A3C 0%,#0C1A2E 55%,#050A14 100%);
+       color:var(--creme);font-family:"Montserrat",sans-serif;display:flex;flex-direction:column;
+       align-items:center;padding:70px 80px 64px}
+  .tipo{font-size:20px;font-weight:500;letter-spacing:.42em;text-transform:uppercase;color:var(--ouro)}
+  .logo{width:600px;margin:34px 0 0}
+  h1{font-family:Georgia,serif;font-weight:400;font-size:58px;line-height:1.14;text-align:center;margin-top:44px}
+  h1 em{color:var(--ouro-claro)}
+  .dupla{display:flex;gap:40px;margin-top:40px}
+  .p{display:flex;flex-direction:column;align-items:center}
+  .p img{width:300px;height:418px;object-fit:cover;
+         -webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 45%,#000 62%,transparent 100%)}
+  .p b{font-family:Georgia,serif;font-weight:400;font-size:30px;margin-top:-26px}
+  .p span{margin-top:8px;font-size:15px;letter-spacing:.24em;text-transform:uppercase;color:var(--prata)}
+  .info{margin-top:auto;width:100%;display:grid;grid-template-columns:1fr 1.25fr 1fr;align-items:center;
+        border-top:1px solid #34465E;border-bottom:1px solid #34465E;padding:26px 0}
+  .info>div{text-align:center}
+  .info>div+div{border-left:1px solid #34465E}
+  .rot{display:block;font-size:14px;letter-spacing:.3em;text-transform:uppercase;color:var(--prata);margin-bottom:8px}
+  .val{font-family:Georgia,serif;font-size:34px}
+  .de{font-size:22px;color:#9FB0C4;text-decoration:line-through;text-decoration-color:var(--ouro);margin-right:8px;font-family:Georgia,serif}
+  .preco{font-family:Georgia,serif;font-size:56px;color:var(--ouro-claro);line-height:1}
+  .local{margin-top:24px;font-size:16px;letter-spacing:.3em;text-transform:uppercase;color:#9FB0C4}
+
+  /* story: mais altura, tudo maior e com respiro */
+  body.story{padding:150px 80px 170px}
+  body.story .logo{width:720px;margin-top:46px}
+  body.story h1{font-size:68px;margin-top:70px}
+  body.story .dupla{margin-top:70px}
+  body.story .p img{width:330px;height:460px}
+  body.story .info{grid-template-columns:1fr;padding:0;border:0;gap:0}
+  body.story .info>div{padding:30px 0;border-top:1px solid #34465E}
+  body.story .info>div+div{border-left:0}
+  body.story .info>div:last-child{border-bottom:1px solid #34465E}
+  body.story .preco{font-size:80px}
+  body.story .de{font-size:30px}
+</style>
+</head>
+<body>
+<script>if(location.search.indexOf('story')>-1){document.documentElement.className='story';document.body.className='story'}</script>
+  <div class="tipo">Imersão presencial</div>
+  <img class="logo" src="../logo/ame-logo-transparente.png" alt="AME">
+  <h1>A agenda lota.<br><em>O caixa não acompanha.</em></h1>
+  <div class="dupla">
+    <div class="p"><img src="../../marca/fotos/sena.png" alt=""><b>Gilberto Sena</b><span>Gestão e Lucratividade</span></div>
+    <div class="p"><img src="../../marca/fotos/bittar.png" alt=""><b>Dr. Stanley Bittar</b><span>Marketing e Vendas</span></div>
+  </div>
+  <div class="info">
+    <div><span class="rot">Quando</span><span class="val">14 e 15 de nov</span></div>
+    <div><span class="rot">Os dois dias</span><span class="de">de R$ 3.999</span><span class="preco">R$ 499</span></div>
+    <div><span class="rot">Vagas</span><span class="val">50</span></div>
+  </div>
+  <div class="local">São Paulo &nbsp;·&nbsp; Rede Vivax de Televisão</div>
+</body>
+</html>

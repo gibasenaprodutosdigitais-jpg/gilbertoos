@@ -13,16 +13,15 @@
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
-**Imersão AME, 14 e 15/nov/2026, São Paulo (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).** **Tudo da imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out): logo, cronograma e o **kit do participante** (8 folhas A4: ficha de diagnóstico adaptada pra sala, exercício da margem, decisões dos dois dias e os quatro números). ⚠ As linhas do exercício da margem (imposto, cartão, material, repasse, tempo × hora) são proposta minha: ele confere. Ele sabe que AME em SP é o Ambulatório Médico de Especialidades do estado e manteve. Linha de baixo trocada a pedido dele (26/out): **"Administração, Marketing e Escala"** em dourado e **"Medicina · Odontologia · Estética"** em prata (saiu o "Assessoria Médica Empresarial"). Pra impressão e palco falta o arquivo original de quem fez a logo.  Gilberto e Dr. Stanley, os quatro pilares para
+**Imersão AME, 14 e 15/nov/2026, São Paulo (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).** **Tudo da imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out): logo, programação, crachás, certificado, artes de divulgação (feed e story), a **ficha online AME** (https://claude.ai/artifact/3XuZKa9LcsmVYGx6SYhpdd, privada, com a pergunta do hot seat; banco próprio, separado da ficha da SB) e o **kit do participante** (8 folhas A4: ficha de diagnóstico adaptada pra sala, exercício da margem, decisões dos dois dias e os quatro números). ⚠ As linhas do exercício da margem (imposto, cartão, material, repasse, tempo × hora) são proposta minha: ele confere. Ele sabe que AME em SP é o Ambulatório Médico de Especialidades do estado e manteve. Linha de baixo trocada a pedido dele (26/out): **"Administração, Marketing e Escala"** em dourado e **"Medicina · Odontologia · Estética"** em prata (saiu o "Assessoria Médica Empresarial"). Pra impressão e palco falta o arquivo original de quem fez a logo.  Gilberto e Dr. Stanley, os quatro pilares para
 clínicas e consultórios médicos, odontológicos e de estética. Cronograma hora a hora (dia 1: Gestão e Lucratividade
 com o Gilberto; dia 2: Marketing e Vendas com o Stanley, hot seats e oferta dos programas) no doc
 https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado). **Decidido por ele em 21/out:** espaço da **Rede Vivax de
-Televisão**, **"de R$ 3.000 por R$ 599" pelos dois dias** (era 499; ele mudou no mesmo dia), **50 vagas**, domingo
+Televisão**, **"de R$ 3.999 por R$ 499" pelos dois dias** (decidido por ele em 26/out; antes era "de R$ 3.000 por R$ 599"; o jurídico liberou o "de"), **50 vagas**, domingo
 15/11 (feriado) confirmado. **A oferta do fim do dia 2 está no doc** (Choque de Ordem e Caixa e Escala Blindada; o
 Club SB fica fora). **Ele definiu (21/out):** Choque de Ordem e Caixa R$ 35.000 em 6x no cartão ou R$ 30.000 à vista
 no pix, **12 vagas**; Escala Blindada R$ 60.000 em 12x no cartão ou R$ 50.000 à vista no pix, **8 vagas** (20 no máximo).
-**Abatimento dos R$ 599 para quem fechar até as 23h de 15/11** (decidido por ele em 21/out). **Falta:** contrato do cliente pelo advogado antes do evento, o "de R$ 3.000"
-pelo jurídico, regras de publicidade do CFM/CFO, slides. ⚠ **Não chamar o Stanley de
+**Abatimento dos R$ 499 para quem fechar até as 23h de 15/11** (decidido por ele em 21/out). **Falta:** contrato do cliente pelo advogado antes do evento, regras de publicidade do CFM/CFO, slides, e como a pessoa se inscreve (a arte de divulgação saiu sem link nem contato). ⚠ **Não chamar o Stanley de
 "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos motivos do processo no CRM-AC
 (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico estrategista", como na marca.
 

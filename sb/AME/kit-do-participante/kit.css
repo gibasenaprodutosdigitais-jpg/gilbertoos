@@ -4,7 +4,7 @@
      linha de baixo da logo; Georgia em itálico no destaque, como
      nas fichas da SB.
      -------------------------------------------------------------- */
-  @font-face{font-family:"Montserrat";src:url("fontes/Montserrat-VF.ttf") format("truetype");
+  @font-face{font-family:"Montserrat";src:url("../fontes/Montserrat-VF.ttf") format("truetype");
              font-weight:100 900}
   :root{
     --noite:#0C1A2E;

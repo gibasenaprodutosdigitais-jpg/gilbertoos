@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Crachás · Imersão AME</title>
+<style>
+  /* Crachá de 10 x 14 cm, quatro por folha A4, com linha de corte.
+     Folha 1: os dois que conduzem e a equipe. Folha 2: participante com
+     o nome em branco, pra escrever ou imprimir por cima. */
+  @font-face{font-family:"Montserrat";src:url("../fontes/Montserrat-VF.ttf") format("truetype");font-weight:100 900}
+  @page{size:A4;margin:0}
+  :root{--noite:#0C1A2E;--ouro:#C9A24B;--ouro-tinta:#8C7A4A;--prata:#C9CBCE}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Montserrat",sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .folha{width:210mm;height:297mm;padding:6.5mm 5mm;display:grid;
+         grid-template-columns:100mm 100mm;grid-template-rows:140mm 140mm;gap:4mm 0;
+         justify-content:center;align-content:center;page-break-after:always}
+  .c{width:100mm;height:140mm;outline:.2mm dashed #B8B8B8;display:flex;flex-direction:column;background:#FBFAF7}
+  .topo{background:var(--noite);height:68mm;display:flex;flex-direction:column;align-items:center;
+        justify-content:center;position:relative}
+  .furo{position:absolute;top:5mm;left:50%;width:14mm;height:3.2mm;margin-left:-7mm;border-radius:2mm;
+        background:#FBFAF7;opacity:.9}
+  .topo img{width:74mm}
+  .topo .datas{margin-top:4.5mm;font-size:6.2pt;letter-spacing:.3em;text-transform:uppercase;color:var(--prata)}
+  .base{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 7mm}
+  .papel{font-size:7pt;font-weight:600;letter-spacing:.36em;text-transform:uppercase;color:var(--ouro-tinta);margin-bottom:5mm}
+  .nome{font-family:Georgia,serif;font-size:21pt;line-height:1.12;color:#141414}
+  .funcao{margin-top:3mm;font-size:7.2pt;letter-spacing:.16em;text-transform:uppercase;color:#5E5E5E}
+  .risco{width:78mm;border-bottom:.3mm solid #8E8E8E;height:12mm}
+  .risco.fino{height:9mm;width:60mm}
+  .faixa{height:6mm;background:var(--ouro)}
+  .c.equipe .faixa{background:var(--prata)}
+</style>
+</head>
+<body>
+
+<div class="folha">
+  <div class="c"><div class="topo"><span class="furo"></span><img src="../logo/ame-logo-transparente.png" alt="AME"><div class="datas">14 e 15 de novembro de 2026</div></div>
+    <div class="base"><div class="papel">Conduz</div><div class="nome">Gilberto Sena</div><div class="funcao">Gestão e Lucratividade</div></div><div class="faixa"></div></div>
+  <div class="c"><div class="topo"><span class="furo"></span><img src="../logo/ame-logo-transparente.png" alt="AME"><div class="datas">14 e 15 de novembro de 2026</div></div>
+    <div class="base"><div class="papel">Conduz</div><div class="nome">Dr. Stanley Bittar</div><div class="funcao">Médico estrategista<br>Marketing e Vendas</div></div><div class="faixa"></div></div>
+  <div class="c equipe"><div class="topo"><span class="furo"></span><img src="../logo/ame-logo-transparente.png" alt="AME"><div class="datas">14 e 15 de novembro de 2026</div></div>
+    <div class="base"><div class="papel">Equipe</div><div class="risco"></div></div><div class="faixa"></div></div>
+  <div class="c equipe"><div class="topo"><span class="furo"></span><img src="../logo/ame-logo-transparente.png" alt="AME"><div class="datas">14 e 15 de novembro de 2026</div></div>
+    <div class="base"><div class="papel">Equipe</div><div class="risco"></div></div><div class="faixa"></div></div>
+</div>
+
+<div class="folha">
+  <div class="c"><div class="topo"><span class="furo"></span><img src="../logo/ame-logo-transparente.png" alt="AME"><div class="datas">14 e 15 de novembro de 2026</div></div>
+    <div class="base"><div class="papel">Participante</div><div class="risco"></div><div class="risco fino"></div></div><div class="faixa"></div></div>
+  <div class="c"><div class="topo"><span class="furo"></span><img src="../logo/ame-logo-transparente.png" alt="AME"><div class="datas">14 e 15 de novembro de 2026</div></div>
+    <div class="base"><div class="papel">Participante</div><div class="risco"></div><div class="risco fino"></div></div><div class="faixa"></div></div>
+  <div class="c"><div class="topo"><span class="furo"></span><img src="../logo/ame-logo-transparente.png" alt="AME"><div class="datas">14 e 15 de novembro de 2026</div></div>
+    <div class="base"><div class="papel">Participante</div><div class="risco"></div><div class="risco fino"></div></div><div class="faixa"></div></div>
+  <div class="c"><div class="topo"><span class="furo"></span><img src="../logo/ame-logo-transparente.png" alt="AME"><div class="datas">14 e 15 de novembro de 2026</div></div>
+    <div class="base"><div class="papel">Participante</div><div class="risco"></div><div class="risco fino"></div></div><div class="faixa"></div></div>
+</div>
+
+</body>
+</html>
