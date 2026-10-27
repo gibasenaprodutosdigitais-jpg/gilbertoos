@@ -31,6 +31,13 @@ tem essa mecânica.
 ⚠ Nos testes, nunca apagar o `respostas.csv` inteiro: já tem resposta de verdade nele.
 Tirar só as linhas de teste.
 
+## Google Sheets (27/out)
+
+As respostas também vão pra duas planilhas no Google: "Acima de R$ 70 mil" (faixas C e D)
+e "Até R$ 70 mil" (faixas A e B). O código do Apps Script e o passo a passo estão em
+`google/`. Falta o Gilberto ativar e mandar o link do App da Web, que entra em
+`PLANILHA_URL` no `site/index.html`.
+
 ## Ligar o site no computador
 
 ```

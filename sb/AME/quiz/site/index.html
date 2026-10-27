@@ -181,6 +181,9 @@
   // Só dígitos, com DDI e DDD (ex.: 5511999999999). Vazio = sem botão de WhatsApp.
   const WHATSAPP_DESTINO = "";
 
+  // Link do App da Web do Google Apps Script (google/Codigo.gs). Vazio = não manda pro Google Sheets.
+  const PLANILHA_URL = "";
+
   // Pra onde cada faixa de faturamento vai depois de enviar.
   // venda = página de vendas do ingresso; obrigado = página de obrigado.
   const DESTINO_POR_FAIXA = {     // decidido por ele em 27/out: A e B obrigado, C e D vendas
@@ -293,10 +296,24 @@
     const botao = document.getElementById("enviar"); botao.disabled = true;
     let gravou = false;
     try{
-      // grava no servidor local, que anota a resposta na planilha respostas.csv
-      const resp = await fetch("/api/inscricao", {method:"POST", headers:{"Content-Type":"application/json"},
-        body: JSON.stringify(Object.assign({}, r, {versao:"quiz-ame-site-1"}))});
-      gravou = resp.ok;
+      const corpo = JSON.stringify(Object.assign({}, r, {versao:"quiz-ame-site-1"}));
+      let planilha = false, local = false;
+      // 1. Google Sheets: o Apps Script separa em "Acima de R$ 70 mil" e "Até R$ 70 mil".
+      //    no-cors + text/plain: o Google não deixa ler a resposta, só confirmar que saiu.
+      if (PLANILHA_URL){
+        try{
+          await fetch(PLANILHA_URL, {method:"POST", mode:"no-cors",
+            headers:{"Content-Type":"text/plain;charset=utf-8"}, body: corpo});
+          planilha = true;
+        }catch(e){ planilha = false; }
+      }
+      // 2. Cópia no computador (respostas.csv), quando o quiz roda pelo servidor local.
+      try{
+        const resp = await fetch("/api/inscricao", {method:"POST",
+          headers:{"Content-Type":"application/json"}, body: corpo});
+        local = resp.ok;
+      }catch(e){ local = false; }
+      gravou = planilha || local;
     }catch(e){ gravou = false; }
     enviado = true;
     if (gravou){
