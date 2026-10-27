@@ -38,7 +38,7 @@ alimentando aos poucos — ver a seção logo abaixo.
 
 **Instituto Êxito: carta de renúncia entregue, aguardando resposta da diretoria (ele confirmou em 26/out).** Ele assinou em
 21/out a renúncia ao cargo de Diretor de Compliance + desligamento (art. 21; sem multa, só exige estar em dia com a taxa); a
-assinada está na Downloads. Em `juridico/exito/` estão o estatuto e as duas cartas (a de afastamento temporário, art. 23, não
+assinada está na Downloads. Em `juridico/exito/` (só no notebook, fora do GitHub: decisão dele em 27/out) estão o estatuto e as duas cartas (a de afastamento temporário, art. 23, não
 foi usada). ⚠ Se a saída se confirmar, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
 **Carrosséis: fila fechada até 3/11, 1 por dia às 18h** (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **4/11**. Da série dos 5 Gs, o 1, o 2 e o 3 já saíram (22, 25 e 26/10); faltam
