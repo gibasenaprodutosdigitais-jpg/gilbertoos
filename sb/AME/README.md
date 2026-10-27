@@ -18,6 +18,7 @@ se chamava Imersão SB. A SB continua sendo quem realiza.
 | `divulgacao/` | a arte de divulgação: `imersao-ame-feed.png` (Instagram, 1080 x 1350) e `imersao-ame-story.png` (story e status, 1080 x 1920). A inscrição é por link de pagamento: "link da bio" no feed, "pelo link" no story |
 | `ficha-online/` | a ficha de diagnóstico pelo celular, com a logo da AME e a pergunta do hot seat. Link e regras no README de lá |
 | `slides/` | os slides dos dois dias, 56, na ordem do cronograma. O que vale é a apresentação https://claude.ai/artifact/8XLbWYXgZm7w2LLGc6KTbi (privada; baixa em PowerPoint ou PDF pelo menu de lá). Aqui ficam a cópia dos arquivos e o `Imersao AME - Slides.pptx`: cada slide entra como imagem, igual à apresentação, com as notas do apresentador. Texto não editável no PowerPoint; pra mudar texto, mudar na apresentação e gerar de novo |
+| `quiz/` | o quiz de interesse, uma pergunta por tela: nome, WhatsApp, Instagram, nicho, faturamento e maior dificuldade. Link: https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn (privado). Quem é da conta dele grava direto na coleção `inscricoes` (só ele lê); quem é de fora manda pelo WhatsApp, e pra isso falta pôr o número em `WHATSAPP_DESTINO` |
 | `fotos/` | as fotos do Gilberto e do Dr. Stanley em cor, abertas e no mesmo enquadramento, tiradas dos originais (27/out: as de fundo apagado em sépia pareciam foto de funeral, ele pediu pra trocar) |
 | `fontes/` | a Montserrat, a fonte da logo, usada em todas as peças |
 
