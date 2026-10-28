@@ -290,7 +290,7 @@ pra movimentar o canal. O TikTok ficou como estava.
 
 | Hora (Brasília) | O quê | Situação |
 |---|---|---|
-| **5h** | Provérbios | ✅ até 31/10; novembro com frases e foto prontas (28/out); faltam as legendas, gerar e agendar |
+| **5h** | Provérbios | ✅ até 31/10; novembro com cards e legendas prontos (28/out); falta aprovar e agendar |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 7/11 e em 30/11; faltam 8 a 29/11 |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
 | **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 3/11; **de 4/11 em diante, 1 por dia** |
@@ -314,7 +314,10 @@ oportunidade…") e dia 22 ("Construa uma reputação…").
 - **Foto de novembro escolhida (28/out):** a preto e branco olhando pra cima, de gola alta, **sem espelhar**. Já está em
   `assets/foto-01.jpg`. A frase mais longa (dia 29) coube com folga. O `card.html` ganhou um ajuste que tira a emenda no
   alto da foto.
-- **Falta:** as 31 legendas novas (as de `legendas.json` são do conjunto antigo), gerar os 31 cards e agendar às 5h.
+- **Legendas e cards prontos (28/out):** as 31 legendas novas estão em `legendas.json` (as de outubro foram pra
+  `legendas-2026-10.json`), e os 31 cards em `instagram/` e `jpg/`. Hashtag agora é `#proverbios`, não
+  `#proverbios31`. Novembro tem 30 dias, então o dia 31 fica guardado.
+- **Falta:** ele aprovar as legendas e agendar de 1 a 30/11 às 5h. Anotar em `fotos-usadas.md` no dia de agendar.
 
 ### Onde cada coisa pode ir
 
