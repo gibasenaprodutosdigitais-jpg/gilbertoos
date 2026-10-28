@@ -16,7 +16,8 @@ outra.** Não publicar e corrigir depois.
 
 ## Frase do dia: troca as frases **toda semana**
 
-5 frases, de segunda a sexta. **Ele manda um conjunto novo por semana**, e
+Uma frase **por dia, todos os dias, inclusive sábado e domingo** (desde 18/out/2026; antes era de segunda a sexta).
+**Ele manda as frases em lote**, e
 nenhuma delas pode ter saído antes.
 
 A foto continua a mesma: ele de suéter preto, apontando. Só o texto muda.
@@ -28,8 +29,9 @@ ainda não chegaram, a grade para na sexta e eu peço o conjunto novo.
 
 ## Provérbios 31: troca a **foto todo mês**
 
-As 31 frases são fixas e giram pro resto da vida: o card do dia 7 sai todo dia
-7, de todo mês. **O que muda é a foto, uma nova a cada mês.**
+O card do dia 7 sai todo dia 7. **A foto muda todo mês.** As frases eram fixas, mas
+em novembro de 2026 ele mandou um conjunto novo ("31 Dias de Sabedoria", o dia N é o
+capítulo N de Provérbios). Na virada de mês, perguntar se vêm frases novas.
 
 Então, virada de mês:
 1. Ele manda a foto nova
@@ -45,15 +47,12 @@ rodízio e aí nem dentro do mês repete.
 
 ## A grade no Instagram e no TikTok
 
-Os dois cards vão **nas duas redes**, todo dia.
+**Desde 19/out/2026 são 4 posts por dia no Instagram, todo dia** (decisão dele em 18/out). Os dois cards estão
+agendados só no Instagram. O detalhe de cada rede fica em `_memoria/cronograma-de-postagens.md`.
 
 | Hora | O quê |
 |---|---|
 | 05:00 | Provérbios do dia |
-| 06:00 | carrossel |
-| 09:00 | frase do dia *(só de segunda a sexta)* |
-| 12:00 | reel |
-| 17:00 | carrossel |
-| 20:00 | reel |
-
-No sábado e no domingo não tem frase do dia, então o dia fecha em 5 posts.
+| 09:00 | frase do dia |
+| 12:00 | reel novo |
+| 18:00 | carrossel (era 20h até 21/out) |

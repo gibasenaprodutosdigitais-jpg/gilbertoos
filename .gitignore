@@ -110,3 +110,9 @@ saidas/cards-frases-proverbios-31/instagram/
 
 # respostas do quiz da Imersão AME: dados pessoais de terceiros, ficam só no computador
 sb/AME/quiz/respostas.csv
+
+# Documentos do Instituto Êxito: ficam só no notebook (decisão dele em 27/out/2026)
+juridico/exito/
+
+# Cópias de versões antigas, sobra de edição
+*.bak

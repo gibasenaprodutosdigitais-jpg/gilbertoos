@@ -341,12 +341,14 @@ Depois varri os 42 restantes com `grep` atrás do mesmo erro: **estão limpos**,
 era só aquele. Mas a lição fica: **conferir número de autoridade antes de
 agendar**, porque o carrossel contradizia o media kit dele.
 
-### A fila real, lida em 18/out
+### A fila real, lida em 28/out
 
-**87 posts agendados e 8 rascunhos na Zernio, depois da grade nova de 18/out.** `_memoria/cronograma-de-postagens.md`
-tem o calendário post a post. Instagram com reels até 3/12; **YouTube só até 30/10**; TikTok até 9/11. Provérbios até
-30/11 e frase do dia até 7/11 (e 30/11). A série "A Base da Gestão" já saiu inteira (19 a 26/10). Os 29 cortes das gravações do carro continuam sem montar, e agora são eles que
-alimentam o YouTube a partir de 30/10.
+**60 posts agendados só no Instagram** (Provérbios até 30/11, frase do dia até 7/11 e em 30/11, carrosséis até 3/11),
+**8 rascunhos** e **1 falha**, o Vivaldi, que ele decidiu não republicar. **Os reels de três redes também estão na
+fila, mas aparecem como "publicando"**, porque o YouTube já soltou a parte dele (o de 3/11, `6ad305bae4a46782f0b469e9`,
+está assim). `_memoria/cronograma-de-postagens.md` tem o calendário post a post. Instagram com reels até 3/12; **YouTube
+sem vídeo novo desde 30/10**; TikTok até 9/11. Os 29 cortes das gravações do carro continuam sem montar, e são eles que
+alimentariam o YouTube.
 
 ---
 
