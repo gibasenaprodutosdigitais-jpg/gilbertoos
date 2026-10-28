@@ -290,7 +290,7 @@ pra movimentar o canal. O TikTok ficou como estava.
 
 | Hora (Brasília) | O quê | Situação |
 |---|---|---|
-| **5h** | Provérbios | ✅ até 31/10; novembro com cards e legendas prontos (28/out); falta aprovar e agendar |
+| **5h** | Provérbios | ✅ até **30/11** (novembro agendado em 28/out) |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 7/11 e em 30/11; faltam 8 a 29/11 |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
 | **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 3/11; **de 4/11 em diante, 1 por dia** |
@@ -302,22 +302,16 @@ Instagram estão como rascunho na Zernio. Detalhe e IDs em `_memoria/cronograma-
 MCP), que devolve duas linhas. O `posts_update_post` via `call_tool` devolve
 o post inteiro e enche a janela à toa.
 
-### Provérbios: o que falta pra novembro
+### Provérbios
 
-Saem **todo dia às 5h** e estão na fila até 31/10.
+Saem **todo dia às 5h**.
 
-**28/out: ele mandou as frases de novembro, um conjunto novo.** São os "31 Dias de Sabedoria": o dia 1 é o capítulo 1
-de Provérbios, o dia 31 é o capítulo 31 (antes eram 31 versículos de Provérbios 31). Já estão no `frases.json`, e o
-conjunto de outubro foi pra `frases-2026-10.json`. O PDF está em `fontes/`. Conferidas: nenhuma bate com a frase do dia
-de 1 a 7/11. Três lembram o que saiu em outubro, e ele aceitou: dia 6 ("a disciplina de hoje…"), dia 7 ("Nem toda
-oportunidade…") e dia 22 ("Construa uma reputação…").
-- **Foto de novembro escolhida (28/out):** a preto e branco olhando pra cima, de gola alta, **sem espelhar**. Já está em
-  `assets/foto-01.jpg`. A frase mais longa (dia 29) coube com folga. O `card.html` ganhou um ajuste que tira a emenda no
-  alto da foto.
-- **Legendas e cards prontos (28/out):** as 31 legendas novas estão em `legendas.json` (as de outubro foram pra
-  `legendas-2026-10.json`), e os 31 cards em `instagram/` e `jpg/`. Hashtag agora é `#proverbios`, não
-  `#proverbios31`. Novembro tem 30 dias, então o dia 31 fica guardado.
-- **Falta:** ele aprovar as legendas e agendar de 1 a 30/11 às 5h. Anotar em `fotos-usadas.md` no dia de agendar.
+**Novembro agendado inteiro (28/out):** 1 a 30/11 às 5h, só Instagram, com as frases novas ("31 Dias de Sabedoria",
+o dia N é o capítulo N de Provérbios), a foto de gola alta e as 31 legendas novas, aprovadas por ele. IDs em
+`saidas/CARDS/cards-frases-proverbios-31/agendados-2026-11.md`. O conjunto de outubro ficou em `frases-2026-10.json`
+e `legendas-2026-10.json`. A foto de outubro e a de novembro já não podem voltar.
+- **Pra dezembro:** pedir a foto nova por volta do dia 25/11 (as fotos do leão e do xadrez estão guardadas, mas a do
+  xadrez repete a pose de outubro) e perguntar se ele manda frases novas ou se repete o conjunto de novembro.
 
 ### Onde cada coisa pode ir
 
@@ -351,7 +345,7 @@ agendar**, porque o carrossel contradizia o media kit dele.
 
 **87 posts agendados e 8 rascunhos na Zernio, depois da grade nova de 18/out.** `_memoria/cronograma-de-postagens.md`
 tem o calendário post a post. Instagram com reels até 3/12; **YouTube só até 30/10**; TikTok até 9/11. Provérbios até
-31/10 e frase do dia até 7/11 (e 30/11). A série "A Base da Gestão" já saiu inteira (19 a 26/10). Os 29 cortes das gravações do carro continuam sem montar, e agora são eles que
+30/11 e frase do dia até 7/11 (e 30/11). A série "A Base da Gestão" já saiu inteira (19 a 26/10). Os 29 cortes das gravações do carro continuam sem montar, e agora são eles que
 alimentam o YouTube a partir de 30/10.
 
 ---

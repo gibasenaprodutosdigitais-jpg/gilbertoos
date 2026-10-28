@@ -11,7 +11,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
-| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 31/10; frase até **7/11** (e 30/11); carrossel até **3/11** |
+| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **3/11** |
 | **YouTube** | **5 reels por dia: 7h, 10h, 13h, 16h, 19h** (antigos e novos) | até **30/10 às 10h**; depois, nada |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até 9/11 |
 
@@ -31,7 +31,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | O quê | A partir de | Quanto |
 |---|---|---|
 | Carrossel das 18h | **4/11** | 1 por dia. Ver os segurados em `saidas/CARROSSEIS/_PLANO-DA-FILA.md` |
-| Provérbios das 5h | **1/11** | legendas dos dias 1 a 15 e a foto de novembro |
+| Provérbios das 5h | **1/12** | foto de dezembro (e saber se vêm frases novas) |
 | Frase do dia das 9h | **8/11** (e de 8 a 29/11) | 22 frases novas (o 30/11 já está agendado) |
 | YouTube | **30/10 às 13h** | 5 reels por dia: precisa de vídeo novo (cortes das gravações do carro) |
 

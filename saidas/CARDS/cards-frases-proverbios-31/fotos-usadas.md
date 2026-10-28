@@ -6,7 +6,7 @@ conferir aqui.
 | Mês | Foto | Como é |
 |---|---|---|
 | **out/2026** | `Boa para Proverbios .jpeg` (hoje `assets/usada-2026-10.jpg`) | preto e branco, camisa preta, óculos, mãos sob o queixo, olhar de lado |
-| **nov/2026** | `fotos-recebidas/2026-10-28-pb-olhando-pra-cima-gola-alta.jpg` (hoje `assets/foto-01.jpg`) | preto e branco, gola alta e paletó, olhando pra cima e pra direita, sorriso leve. Escolhida por ele em 28/out; vai **sem espelhar** (espelhada, o rosto escurece embaixo do texto) |
+| **nov/2026** | `fotos-recebidas/2026-10-28-pb-olhando-pra-cima-gola-alta.jpg` (hoje `assets/foto-01.jpg`) | preto e branco, gola alta e paletó, olhando pra cima e pra direita, sorriso leve. Escolhida por ele e **agendada de 1 a 30/11** em 28/out; vai **sem espelhar** (espelhada, o rosto escurece embaixo do texto) |
 
 ## Fotos recebidas, ainda não usadas
 
