@@ -5,8 +5,10 @@ inspiradas nos princípios de Provérbios 31, aplicadas à rotina de quem
 empreende. **Não são citações literais da Bíblia**, e o card diz isso em
 letras pequenas: *"Reflexão autoral inspirada em Provérbios 31:20"*.
 
-A série **reinicia todo mês**: o card do dia 14 sai todo dia 14. Uma vez
-pronta, roda sozinha o ano inteiro.
+A série **reinicia todo mês**: o card do dia 14 sai todo dia 14. Desde
+novembro de 2026 ele também pode mandar um conjunto novo de frases pro mês
+(o de novembro é o "31 Dias de Sabedoria": o dia N é o capítulo N de
+Provérbios).
 
 ## Como gerar
 
@@ -36,7 +38,7 @@ no terço de cima.** A arte reserva a metade esquerda pro texto.
 
 | | |
 |---|---|
-| `frases.json` | as 31 frases com a referência de cada uma |
+| `frases.json` | as 31 frases **do mês corrente**, com a referência de cada uma. Os conjuntos de meses passados ficam em `frases-AAAA-MM.json` |
 | `card.html` | o desenho |
 | `render.js` | gera os PNG |
 | `instagram/` | os cards prontos, `dia-01.png` a `dia-31.png` |

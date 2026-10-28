@@ -21,11 +21,14 @@
 
   /* a foto entra pela direita e dissolve no fundo */
   .foto{position:absolute;right:-60px;bottom:0;width:760px;height:1150px;
-        background-size:cover;background-position:62% 6%;
+        background-size:cover;background-position:62% 6%}
+  /* o tratamento fica so na foto, pra o degrade casar com o fundo sem deixar emenda */
+  .foto::before{content:"";position:absolute;inset:0;background:inherit;
         filter:grayscale(.30) contrast(1.08) brightness(.98) sepia(.12)}
   .foto::after{content:"";position:absolute;inset:0;
     background:
       linear-gradient(95deg, var(--fundo) 0%, rgba(23,18,16,.96) 22%, rgba(23,18,16,.40) 50%, rgba(23,18,16,.06) 76%, rgba(23,18,16,.30) 100%),
+      linear-gradient(180deg, var(--fundo) 0%, rgba(23,18,16,0) 16%),
       linear-gradient(0deg, var(--fundo) 0%, rgba(23,18,16,.10) 34%)}
 
   /* brilho quente alto a esquerda, pra sustentar o texto */

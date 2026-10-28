@@ -290,7 +290,7 @@ pra movimentar o canal. O TikTok ficou como estava.
 
 | Hora (Brasília) | O quê | Situação |
 |---|---|---|
-| **5h** | Provérbios | ✅ até 31/10; frases de novembro chegaram (28/out); faltam foto escolhida e legendas |
+| **5h** | Provérbios | ✅ até 31/10; novembro com frases e foto prontas (28/out); faltam as legendas, gerar e agendar |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 7/11 e em 30/11; faltam 8 a 29/11 |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
 | **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 3/11; **de 4/11 em diante, 1 por dia** |
@@ -307,15 +307,14 @@ o post inteiro e enche a janela à toa.
 Saem **todo dia às 5h** e estão na fila até 31/10.
 
 **28/out: ele mandou as frases de novembro, um conjunto novo.** São os "31 Dias de Sabedoria": o dia 1 é o capítulo 1
-de Provérbios, o dia 31 é o capítulo 31 (antes eram 31 versículos de Provérbios 31). Estão em
-`saidas/CARDS/cards-frases-proverbios-31/frases-2026-11.json`, com o PDF em `fontes/`. O `frases.json` antigo ficou
-intocado. Conferidas: nenhuma bate com a frase do dia de 1 a 7/11. Três lembram o que saiu em outubro: dia 6
-("a disciplina de hoje…", parecida com o Provérbios de 28/10), dia 7 ("Nem toda oportunidade…", parecida com a frase de
-22/10) e dia 22 ("Construa uma reputação…", parecida com o Provérbios de 16/10).
-- **Faltam:** ele escolher a foto de novembro, as 31 legendas novas (as de `legendas.json` são do conjunto antigo) e
-  conferir o tamanho: as frases novas têm de 103 a 154 letras, e as antigas iam até uns 105.
-- **Fotos:** chegaram 4 em 28/out, registradas em `fotos-usadas.md` (seção "recebidas"). Recomendação pra novembro: a
-  preto e branco olhando pra cima, de gola alta.
+de Provérbios, o dia 31 é o capítulo 31 (antes eram 31 versículos de Provérbios 31). Já estão no `frases.json`, e o
+conjunto de outubro foi pra `frases-2026-10.json`. O PDF está em `fontes/`. Conferidas: nenhuma bate com a frase do dia
+de 1 a 7/11. Três lembram o que saiu em outubro, e ele aceitou: dia 6 ("a disciplina de hoje…"), dia 7 ("Nem toda
+oportunidade…") e dia 22 ("Construa uma reputação…").
+- **Foto de novembro escolhida (28/out):** a preto e branco olhando pra cima, de gola alta, **sem espelhar**. Já está em
+  `assets/foto-01.jpg`. A frase mais longa (dia 29) coube com folga. O `card.html` ganhou um ajuste que tira a emenda no
+  alto da foto.
+- **Falta:** as 31 legendas novas (as de `legendas.json` são do conjunto antigo), gerar os 31 cards e agendar às 5h.
 
 ### Onde cada coisa pode ir
 

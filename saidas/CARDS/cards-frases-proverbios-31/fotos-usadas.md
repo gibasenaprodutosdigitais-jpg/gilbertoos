@@ -5,7 +5,8 @@ conferir aqui.
 
 | Mês | Foto | Como é |
 |---|---|---|
-| **out/2026** | `Boa para Proverbios .jpeg` | preto e branco, camisa preta, óculos, mãos sob o queixo, olhar de lado |
+| **out/2026** | `Boa para Proverbios .jpeg` (hoje `assets/usada-2026-10.jpg`) | preto e branco, camisa preta, óculos, mãos sob o queixo, olhar de lado |
+| **nov/2026** | `fotos-recebidas/2026-10-28-pb-olhando-pra-cima-gola-alta.jpg` (hoje `assets/foto-01.jpg`) | preto e branco, gola alta e paletó, olhando pra cima e pra direita, sorriso leve. Escolhida por ele em 28/out; vai **sem espelhar** (espelhada, o rosto escurece embaixo do texto) |
 
 ## Fotos recebidas, ainda não usadas
 
@@ -14,8 +15,7 @@ de cima no dia em que entram na fila.**
 
 | Arquivo | Como é | Leitura |
 |---|---|---|
-| `2026-10-28-pb-olhando-pra-cima-gola-alta.jpg` | preto e branco, gola alta e paletó, olhando pra cima e pra direita, sorriso leve | **a melhor pra novembro.** Fundo escuro, rosto no alto. O olhar vai pra direita, pra fora do texto: testar espelhada |
-| `2026-10-28-pb-olhando-pra-cima-recorte-fechado.jpg` | a mesma foto, recorte mais fechado e faixa preta embaixo | duplicata da de cima; não conta como foto nova |
+| `2026-10-28-pb-olhando-pra-cima-recorte-fechado.jpg` | a mesma foto, recorte mais fechado e faixa preta embaixo | duplicata da foto de novembro; **já conta como usada** |
 | `2026-10-28-cor-leao-jaqueta-couro.jpg` | colorida, vermelha, corpo inteiro, jaqueta de couro, leão rugindo atrás | montagem feita com IA. O rosto fica pequeno na arte; rende mais em capa ou banner |
 | `2026-10-28-pb-xadrez-maos-no-queixo.jpg` | preto e branco, mãos juntas no queixo, peças de xadrez | **mesma pose da foto de outubro** e tem marca d'água "Ai" no canto de cima |
 
