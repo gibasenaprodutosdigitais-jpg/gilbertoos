@@ -290,7 +290,7 @@ pra movimentar o canal. O TikTok ficou como estava.
 
 | Hora (Brasília) | O quê | Situação |
 |---|---|---|
-| **5h** | Provérbios | ✅ até 31/10; novembro precisa de legendas 1 a 15 e foto |
+| **5h** | Provérbios | ✅ até 31/10; frases de novembro chegaram (28/out); faltam foto escolhida e legendas |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 7/11 e em 30/11; faltam 8 a 29/11 |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
 | **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 3/11; **de 4/11 em diante, 1 por dia** |
@@ -304,9 +304,18 @@ o post inteiro e enche a janela à toa.
 
 ### Provérbios: o que falta pra novembro
 
-Saem **todo dia às 5h** e estão na fila até 31/10. As legendas dos dias 16 a 31 estão em
-`saidas/CARDS/cards-frases-proverbios-31/legendas.json` e se reusam todo mês. **Faltam as legendas dos dias 1 a 15**
-e **a foto de novembro**: uma por mês, nenhuma repete (a de outubro está em `fotos-usadas.md`).
+Saem **todo dia às 5h** e estão na fila até 31/10.
+
+**28/out: ele mandou as frases de novembro, um conjunto novo.** São os "31 Dias de Sabedoria": o dia 1 é o capítulo 1
+de Provérbios, o dia 31 é o capítulo 31 (antes eram 31 versículos de Provérbios 31). Estão em
+`saidas/CARDS/cards-frases-proverbios-31/frases-2026-11.json`, com o PDF em `fontes/`. O `frases.json` antigo ficou
+intocado. Conferidas: nenhuma bate com a frase do dia de 1 a 7/11. Três lembram o que saiu em outubro: dia 6
+("a disciplina de hoje…", parecida com o Provérbios de 28/10), dia 7 ("Nem toda oportunidade…", parecida com a frase de
+22/10) e dia 22 ("Construa uma reputação…", parecida com o Provérbios de 16/10).
+- **Faltam:** ele escolher a foto de novembro, as 31 legendas novas (as de `legendas.json` são do conjunto antigo) e
+  conferir o tamanho: as frases novas têm de 103 a 154 letras, e as antigas iam até uns 105.
+- **Fotos:** chegaram 4 em 28/out, registradas em `fotos-usadas.md` (seção "recebidas"). Recomendação pra novembro: a
+  preto e branco olhando pra cima, de gola alta.
 
 ### Onde cada coisa pode ir
 

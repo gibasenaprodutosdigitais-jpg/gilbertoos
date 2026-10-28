@@ -7,6 +7,18 @@ conferir aqui.
 |---|---|---|
 | **out/2026** | `Boa para Proverbios .jpeg` | preto e branco, camisa preta, óculos, mãos sob o queixo, olhar de lado |
 
+## Fotos recebidas, ainda não usadas
+
+Chegaram em 28/out/2026 e estão em `fotos-recebidas/`. **Só passam pra tabela
+de cima no dia em que entram na fila.**
+
+| Arquivo | Como é | Leitura |
+|---|---|---|
+| `2026-10-28-pb-olhando-pra-cima-gola-alta.jpg` | preto e branco, gola alta e paletó, olhando pra cima e pra direita, sorriso leve | **a melhor pra novembro.** Fundo escuro, rosto no alto. O olhar vai pra direita, pra fora do texto: testar espelhada |
+| `2026-10-28-pb-olhando-pra-cima-recorte-fechado.jpg` | a mesma foto, recorte mais fechado e faixa preta embaixo | duplicata da de cima; não conta como foto nova |
+| `2026-10-28-cor-leao-jaqueta-couro.jpg` | colorida, vermelha, corpo inteiro, jaqueta de couro, leão rugindo atrás | montagem feita com IA. O rosto fica pequeno na arte; rende mais em capa ou banner |
+| `2026-10-28-pb-xadrez-maos-no-queixo.jpg` | preto e branco, mãos juntas no queixo, peças de xadrez | **mesma pose da foto de outubro** e tem marca d'água "Ai" no canto de cima |
+
 ## O que funciona nessa arte
 
 A arte reserva a **metade esquerda pro texto** e dissolve a foto no fundo pela
