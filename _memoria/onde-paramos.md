@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 27/out/2026.**
+> Estado das frentes abertas. **Atualizado em 29/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -45,6 +45,10 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
     `sb/AME/quiz/google/`; duas planilhas no Drive dele, "Acima de R$ 70 mil" e "Até R$ 70 mil"). Também roda no
     computador (`sb/AME/quiz/`, http://localhost:5180, cópia em `respostas.csv`, fora do GitHub). A versão dentro do
     Claude (https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn) não tem as páginas nem o Google Sheets.
+  - **4 reels de teste da imersão agendados pra 29/10 às 15h** (Instagram, só pra quem não segue, passam pro perfil se
+    forem bem). Ver `sb/AME/divulgacao/reels-de-teste-2026-10-29/LEIA.md`. Dos 6 "Criativos SB", **"Ataque mentoria 2"
+    e "Lição política" ficaram de fora** por decisão dele (passam de 3 min; o primeiro diz "20 anos" e cita lei do
+    Botox sem base; o segundo é eleição). No vídeo CRTV AME 3 ele fala em **cinco pilares**, mas o método é quatro.
 - **Falta:**
   - Pôr o link na bio, no story e no WhatsApp (a arte já diz "inscrições pelo link da bio").
   - Contrato do cliente pelo advogado antes do evento.
