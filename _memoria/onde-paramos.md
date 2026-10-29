@@ -902,6 +902,12 @@ mas pensar duas vezes.
 
 ### 🔴 O Time Machine não faz backup desde 29/01/2024
 
+**29/out/2026, 19h20: o HD voltou e o backup completo começou** (~423 GB, previsão de ~4 h). Antes de firmar, o HD
+caiu três vezes, sempre quando começava a gravar (o kernel dizia "media is not present"). Firmou depois que ele
+replugou o cabo. **Na próxima sessão, conferir com `tmutil latestbackup` se terminou**; se não, ver se o HD caiu de
+novo. Se cair de novo, a suspeita é o cabo ou o próprio HD (sem uso desde 2024). A senha do HD não é necessária: os
+dois volumes abrem sozinhos.
+
 **Diagnosticado em 13/out/2026.** Está ligado e tem destino configurado
 ("Backups de MacBook Pro", externo e criptografado, 50 GB gravados), **mas o
 disco não é conectado desde janeiro de 2024.** Falha de hora em hora em
