@@ -1,6 +1,6 @@
 O IPI não morreu, virou escudo pra Zona Franca de Manaus. E quase ninguém na indústria está lendo a letra miúda disso.
 
-A partir de 2027, o IPI vai a zero pra quase todo produto industrializado do Brasil. Até aí, a notícia que todo mundo repete.
+A partir de 2027, o IPI vai a zero pra boa parte dos produtos. Até aí, a notícia que todo mundo repete. Só que, nos setores que passam pro Imposto Seletivo (veículos, cigarro, bebidas, entre outros), o plano do governo é manter a carga: muda o nome, não o peso.
 
 Mas ele continua existindo pra proteger a Zona Franca de Manaus: produto concorrente fabricado em outra região, ou importado, paga IPI se o produto da ZFM tiver alíquota acima de 6,5%.
 

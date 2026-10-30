@@ -90,8 +90,12 @@ pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, 
 | 10/11 | `biomedicina-reforma` | `6ae432984a34f3146da366b3` |
 | 11/11 | `ecommerce-alerta` (saiu o "Inscrição no link da bio" da lâmina 7 e da legenda: o link da bio hoje é o da Imersão AME) | `6ae4329d922df48cacc41c4f` |
 
+| 12/11 | `servicos-alerta` (refeito: capa "mais que dobrar", "duas vezes e meia", médico saiu da lista dos 30%) | `6ae4347cbea8633049ec7585` |
+| 13/11 | `industria-reforma` (refeito: o IPI vai a zero "pra boa parte"; nos setores do IS a carga fica) | `6ae43481e250bab3226c792b` |
+| 14/11 | `reforma-ecommerce` (refeito: IS "previsto", split no 2º semestre de 2027 em etapas; selo do leão tirado de cima do texto nas lâminas 1, 5 e 8) | `6ae43487e250bab3226c7956` |
+
 Conferidos em 30/out contra os fichamentos (60% saúde, art. 47, 25% do entregador, Anexo II, US$ 50 e 9,43%). As
-quatro de saúde caem na semana antes da Imersão AME (14 e 15/11). **Próximo a enfileirar: 12/11 às 18h.**
+quatro de saúde caem na semana antes da Imersão AME (14 e 15/11). **Próximo a enfileirar: 15/11 às 18h.**
 
 **Ficaram de fora em 30/out, e por quê:**
 - `medicos-reforma-2026-08-27`: repete o `reforma-medicos` que saiu em 23/10 ("Médico tem 60%, não 30%").
@@ -103,7 +107,7 @@ quatro de saúde caem na semana antes da Imersão AME (14 e 15/11). **Próximo a
   valer". O split só começa no 2º semestre de 2027, em etapas, e o IS pode ficar pra fevereiro. Precisa de ajuste.
 - `10-ebooks-leitura`: 12 lâminas, o Instagram aceita 10. Decisão dele.
 
-**O que sobrou de bom pra 12/11 em diante: nada pronto.** Os que restam estão segurados (tabela abaixo) ou na lista acima.
+**O que sobrou de bom pra 15/11 em diante: nada pronto** (os 3 com ajuste foram refeitos e entraram de 12 a 14/11). Os que restam estão segurados (tabela abaixo) ou na lista acima.
 Caminho: refazer os 3 com ajuste (serviços, indústria, reforma-ecommerce) ou fazer carrossel novo.
 
 (Histórico) Próximo a enfileirar era 4/11 às 18h. Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):

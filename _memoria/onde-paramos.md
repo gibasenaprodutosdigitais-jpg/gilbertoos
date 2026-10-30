@@ -19,8 +19,8 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 
 | Frente | Onde está | O que falta |
 |---|---|---|
-| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados | link na bio, contrato do cliente, regras CFM/CFO, dados dele pros slides, logo original |
-| **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 11/11, reels até 3/12 | carrossel a partir de 12/11 (não tem nenhum pronto); 22 frases (8 a 29/11); foto de dezembro do Provérbios |
+| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados, regras CFM/CFO levantadas | link na bio, contrato do cliente, advogado conferir as regras, dados dele pros slides, logo original |
+| **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); 22 frases (8 a 29/11); foto de dezembro do Provérbios |
 | **YouTube** | 26 cortes do carro agendados até 4/11 às 13h | vídeo novo depois de 4/11 (o acervo das gravações longas acabou) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
@@ -72,7 +72,9 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
 - **Falta:**
   - Pôr o link na bio, no story e no WhatsApp (a arte já diz "inscrições pelo link da bio").
   - Contrato do cliente pelo advogado antes do evento.
-  - Regras de publicidade do CFM/CFO.
+  - Regras de publicidade do CFM/CFO: **levantadas em 30/out** em `sb/AME/regras-publicidade-cfm-cfo.md`. Falta o advogado
+    conferir (principalmente o CFO) e o Stanley ajustar os slides de Marketing e Vendas. Dentista não pode anunciar preço;
+    médico pode.
   - Dele, pros slides: a meta de reserva em meses, a conta do custo da hora e os casos dele nos blocos; o Dr. Stanley
     revisar os blocos de Marketing e Vendas.
   - ⚠ As linhas do exercício da margem (imposto, cartão, material, repasse, tempo × hora) são proposta minha: ele confere.
@@ -93,7 +95,7 @@ não tem conserto aqui: nem o transcritor mais forte entende a fala. Pedir o arq
 importantes, falta empatia e amor, longe do que Jesus ensina; Mateus 22:39). **Falta ele gravar.** Sem cena do filme.
 A frase final ("o seu tempo vale muito, mas a pessoa do seu lado vale mais") é sugestão minha: ele aprova ou troca.
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 18h a partir de 12/11** (de 4 a 11/11 agendados em 30/out; **não sobrou nenhum pronto**, ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`)
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 18h a partir de 15/11** (de 4 a 14/11 agendados em 30/out; **não sobrou nenhum pronto**, ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`)
 (grade de 4 posts por dia, decidida em 18/out). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
@@ -102,7 +104,7 @@ alimentando aos poucos — ver a seção logo abaixo.
 assinada está na Downloads. Em `juridico/exito/` (só no notebook, fora do GitHub: decisão dele em 27/out) estão o estatuto e as duas cartas (a de afastamento temporário, art. 23, não
 foi usada). ⚠ Se a saída se confirmar, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
-**Carrosséis: fila fechada até 11/11, 1 por dia às 18h** (4 a 11/11 entraram em 30/out) (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **4/11**. Da série dos 5 Gs, o 1, o 2 e o 3 já saíram (22, 25 e 26/10); faltam
+**Carrosséis: fila fechada até 14/11, 1 por dia às 18h** (4 a 14/11 entraram em 30/out) (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **4/11**. Da série dos 5 Gs, o 1, o 2 e o 3 já saíram (22, 25 e 26/10); faltam
 **4 Tributária (1/11, prazos refeitos em 18/out)** e 5 Fornecedores (2/11). Segurados: o Representante Comercial (prazo de setembro);
 o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito,
 **decisão dele**). Lista em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
