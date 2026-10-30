@@ -767,7 +767,8 @@ cabe antes de mandar qualquer coisa para o YouTube.**
 - **De 25 a 28/out o compartilhamento caiu pra menos de 1 por post**; 29/out voltou a 5 ou 6 nos três posts do dia. Os
   posts de 26 a 30/out ainda estavam acumulando quando medi.
 - **Seguidores: +968 de 13 a 25/out (105.455 → 106.423), e −249 de 26 a 30/out (→ 106.174).** É a primeira queda desde que
-  a medição começou. Os números não dizem o motivo.
+  a medição começou. **Motivo provável, na palavra dele (30/out): a mudança no perfil por volta de 26/out** (foto, nome,
+  bio, link e destaques; ele confirmou a lista: *"sim estas mudancas foram feitas"*). Em 6/nov, ver se a perda parou.
 - **Por tipo, 19 a 28/out:** frase do dia 1.494 de alcance e 3,2 compartilhamentos; Provérbios 1.426 e 3,3; carrossel
   1.331 e 2,7; **reel 879 e 1,9, o mais fraco**. Os reels que mais compartilharam são história ou opinião forte dele
   ("Eu errei no contrato", "Acabou o jeitinho", "Quebrar o negócio", "Faturamento é ego"); os de técnica pura (Simples,
