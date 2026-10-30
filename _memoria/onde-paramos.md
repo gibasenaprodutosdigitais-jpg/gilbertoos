@@ -19,7 +19,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 
 | Frente | Onde está | O que falta |
 |---|---|---|
-| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados, regras CFM/CFO levantadas | link na bio, contrato do cliente, advogado conferir as regras, dados dele pros slides, logo original |
+| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados, regras CFM/CFO levantadas | contrato do cliente, advogado conferir as regras, custo da hora e casos dele pros slides, logo original (link na bio ✅, reserva ✅) |
 | **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); 22 frases (8 a 29/11); foto de dezembro do Provérbios |
 | **YouTube** | 26 cortes do carro agendados até 4/11 às 13h | vídeo novo depois de 4/11 (o acervo das gravações longas acabou) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
@@ -70,12 +70,13 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
     e "Lição política" ficaram de fora** por decisão dele (passam de 3 min; o primeiro diz "20 anos" e cita lei do
     Botox sem base; o segundo é eleição). No vídeo CRTV AME 3 ele fala em **cinco pilares**, mas o método é quatro.
 - **Falta:**
-  - Pôr o link na bio, no story e no WhatsApp (a arte já diz "inscrições pelo link da bio").
+  - ✅ Link de inscrição na bio do Instagram (ele confirmou em 30/out). Falta só o story e o WhatsApp, se ele quiser.
   - Contrato do cliente pelo advogado antes do evento.
   - Regras de publicidade do CFM/CFO: **levantadas em 30/out** em `sb/AME/regras-publicidade-cfm-cfo.md`. Falta o advogado
     conferir (principalmente o CFO) e o Stanley ajustar os slides de Marketing e Vendas. Dentista não pode anunciar preço;
     médico pode.
-  - Dele, pros slides: a meta de reserva em meses, a conta do custo da hora e os casos dele nos blocos; o Dr. Stanley
+  - Dele, pros slides: ✅ meta de reserva = **no mínimo 3 meses de custo fixo** (30/out, já no slide `p01-reserva`);
+    falta a conta do custo da hora e os casos dele nos blocos; o Dr. Stanley
     revisar os blocos de Marketing e Vendas.
   - ⚠ As linhas do exercício da margem (imposto, cartão, material, repasse, tempo × hora) são proposta minha: ele confere.
   - O arquivo original da logo, pra impressão e palco.

@@ -47,8 +47,8 @@ Links (todos privados; pra mandar a alguém, usar o Share da própria página):
 
 ## 4. O que ainda depende do Gilberto
 
-1. O link de pagamento dos R$ 499, pra bio, story e WhatsApp
-2. A meta de reserva em meses de custo fixo (slide da reserva)
+1. ✅ O link de inscrição está na bio (30/out). Story e WhatsApp, se ele quiser
+2. ✅ Meta de reserva: no mínimo 3 meses de custo fixo (30/out, já no slide)
 3. A conta do custo da hora, do jeito dele (slide da pergunta 19 e folha do exercício)
 4. Conferir as linhas do exercício da margem: imposto, cartão, material, repasse, tempo × hora
 5. Os casos dele nos blocos, principalmente no do regime tributário
