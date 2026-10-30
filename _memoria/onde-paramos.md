@@ -19,7 +19,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 
 | Frente | Onde está | O que falta |
 |---|---|---|
-| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados, regras CFM/CFO levantadas | contrato do cliente, advogado conferir as regras, custo da hora e casos dele pros slides, logo original (link na bio ✅, reserva ✅) |
+| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados, regras CFM/CFO levantadas | advogado conferir os 3 contratos e as regras CFM/CFO, custo da hora e casos dele pros slides, logo original (link na bio ✅, reserva ✅) |
 | **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); 22 frases (8 a 29/11); foto de dezembro do Provérbios |
 | **YouTube** | 26 cortes do carro agendados até 4/11 às 13h | vídeo novo depois de 4/11 (o acervo das gravações longas acabou) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
@@ -71,7 +71,9 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
     Botox sem base; o segundo é eleição). No vídeo CRTV AME 3 ele fala em **cinco pilares**, mas o método é quatro.
 - **Falta:**
   - ✅ Link de inscrição na bio do Instagram (ele confirmou em 30/out). Falta só o story e o WhatsApp, se ele quiser.
-  - Contrato do cliente pelo advogado antes do evento.
+  - **Contratos: 3 modelos prontos em 30/out** em `sb/AME/contratos/` (termo de inscrição da imersão, Choque de Ordem e
+    Caixa, Escala Blindada), com cláusula de imagem e vídeo (pedido dele). Falta o advogado conferir e preencher razão
+    social, CNPJ e o que está entre colchetes (lista no `LEIA.md` de lá).
   - Regras de publicidade do CFM/CFO: **levantadas em 30/out** em `sb/AME/regras-publicidade-cfm-cfo.md`. Falta o advogado
     conferir (principalmente o CFO) e o Stanley ajustar os slides de Marketing e Vendas. Dentista não pode anunciar preço;
     médico pode.
