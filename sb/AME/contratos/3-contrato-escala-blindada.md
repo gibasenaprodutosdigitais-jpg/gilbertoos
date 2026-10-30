@@ -1,6 +1,7 @@
 # Contrato de Assessoria e Orientação Empresarial
 
 **Programa Escala Blindada** · 6 meses
+
 SB · Sena e Bittar
 
 Modelo 3 de 3 · 30/out/2026 · **minuta: passa pelo advogado antes da primeira assinatura**

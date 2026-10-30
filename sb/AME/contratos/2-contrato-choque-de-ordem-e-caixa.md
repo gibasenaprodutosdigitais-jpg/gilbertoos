@@ -1,11 +1,12 @@
 # Contrato de Assessoria e Orientação Empresarial
 
 **Programa Choque de Ordem e Caixa** · 3 meses
+
 SB · Sena e Bittar
 
 Modelo 2 de 3 · 30/out/2026 · **minuta: passa pelo advogado antes da primeira assinatura**
 
-> Feito a partir da minuta geral do SB (`sb/juridico/contrato-cliente-sb.md`, de 13/out), já com o programa, o preço e
+> Feito a partir da minuta geral do SB, de 13/out, já com o programa, o preço e
 > a condição da imersão preenchidos. É o contrato que fica pronto na mesa no fim do dia 15/11.
 
 ---

@@ -1,7 +1,9 @@
 # Termo de Inscrição e Participação
 
 **Imersão AME · Administração, Marketing e Escala**
+
 Medicina · Odontologia · Estética
+
 14 e 15 de novembro de 2026 · São Paulo
 
 Modelo 1 de 3 · 30/out/2026 · **minuta: passa pelo advogado antes de valer**
