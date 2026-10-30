@@ -29,7 +29,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 | **Livro "O Médico e o Executivo"** | 88 de 100 páginas | capítulos do Stanley, 4 decisões dele, escolha da capa, acordo de coautoria |
 | **Fundo de debêntures** | ideia registrada | a conta do custo de captação contra os 9% do Pronamp |
 | **Media kit de palestrante** | kit e showreel prontos | proposta comercial, depoimentos de contratantes, fotos com nomes grandes |
-| **Backup do Mac** | Time Machine rodando, 18% em 30/10 à 1h30 | terminar; conferir se o HD aguentou |
+| **Backup do Mac** | Time Machine rodando, 64% em 30/10 às 3h20, sem parada desde a 1h | terminar (previsão perto das 5h); conferir |
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
@@ -376,7 +376,8 @@ agendar**, porque o carrossel contradizia o media kit dele.
 
 ### A fila real, lida em 28/out e conferida em 30/out
 
-**Em 30/out bate com o cronograma: 49 posts agendados, nenhuma falha nova.** Em 28/out eram **60 posts agendados só no Instagram** (Provérbios até 30/11, frase do dia até 7/11 e em 30/11, carrosséis até 3/11),
+**Em 30/out bate com o cronograma: 49 posts agendados, nenhuma falha nova.** No mesmo dia entraram **26 Shorts no YouTube**
+(30/10 a 4/11) e **11 carrosséis** (4 a 14/11), além dos que já estavam. Em 28/out eram **60 posts agendados só no Instagram** (Provérbios até 30/11, frase do dia até 7/11 e em 30/11, carrosséis até 3/11),
 **8 rascunhos** e **1 falha**, o Vivaldi, que ele decidiu não republicar. **Os reels de três redes também estão na
 fila, mas aparecem como "publicando"**, porque o YouTube já soltou a parte dele (o de 3/11, `6ad305bae4a46782f0b469e9`,
 está assim). `_memoria/cronograma-de-postagens.md` tem o calendário post a post. Instagram com reels até 3/12; **YouTube
@@ -933,7 +934,7 @@ mas pensar duas vezes.
 
 **29/out/2026, 19h20: o HD voltou e o backup completo começou** (~423 GB). **Ainda não terminou:** às 22h44 e à
 1h01 de 30/out parou com "device locked", porque a tela apaga em 15 min e o Mac tranca na hora. Deixei a tela acordada
-(`caffeinate`) enquanto o backup roda, sem mudar configuração. **Em 30/out à 1h30 estava em 18% da cópia.** Antes de firmar, o HD
+(`caffeinate`) enquanto o backup roda, sem mudar configuração. **Em 30/out à 1h30 estava em 18% da cópia; às 3h20, em 64%, sem nova parada (previsão de terminar perto das 5h).** Antes de firmar, o HD
 caiu três vezes, sempre quando começava a gravar (o kernel dizia "media is not present"). Firmou depois que ele
 replugou o cabo. **Na próxima sessão, conferir com `tmutil latestbackup` se terminou**; se não, ver se o HD caiu de
 novo. Se cair de novo, a suspeita é o cabo ou o próprio HD (sem uso desde 2024). A senha do HD não é necessária: os

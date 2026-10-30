@@ -17,10 +17,13 @@ se chamava Imersão SB. A SB continua sendo quem realiza.
 | `certificado/` | certificado de participação, A4 deitado, com o nome em branco e carga horária de 20 horas |
 | `divulgacao/` | a arte de divulgação: `imersao-ame-feed.png` (Instagram, 1080 x 1350) e `imersao-ame-story.png` (story e status, 1080 x 1920). A inscrição é por link de pagamento: "link da bio" no feed, "pelo link" no story |
 | `ficha-online/` | a ficha de diagnóstico pelo celular, com a logo da AME e a pergunta do hot seat. Link e regras no README de lá |
-| `slides/` | os slides dos dois dias, 56, na ordem do cronograma. O que vale é a apresentação https://claude.ai/artifact/8XLbWYXgZm7w2LLGc6KTbi (privada; baixa em PowerPoint ou PDF pelo menu de lá). Aqui ficam a cópia dos arquivos e o `Imersao AME - Slides.pptx`: cada slide entra como imagem, igual à apresentação, com as notas do apresentador. Texto não editável no PowerPoint; pra mudar texto, mudar na apresentação e gerar de novo |
+| `slides/` | os slides dos dois dias, 56, na ordem do cronograma. O que vale é a apresentação https://claude.ai/artifact/8XLbWYXgZm7w2LLGc6KTbi (privada; baixa em PowerPoint ou PDF pelo menu de lá). Aqui ficam a cópia dos arquivos e o `Imersao AME - Slides.pptx`: cada slide entra como imagem, igual à apresentação, com as notas do apresentador. Texto não editável no PowerPoint; pra mudar texto, mudar na apresentação e gerar de novo. ⚠ **Desde 30/out o `.pptx` daqui está desatualizado** (a apresentação ganhou a meta de reserva de 3 meses): baixar um novo pelo menu da apresentação |
 | `quiz/` | o quiz de interesse, uma pergunta por tela: nome, WhatsApp, Instagram, nicho, faturamento e maior dificuldade. Link: https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn (privado). Quem é da conta dele grava direto na coleção `inscricoes` (só ele lê); quem é de fora manda pelo WhatsApp, e pra isso falta pôr o número em `WHATSAPP_DESTINO` |
 | `fotos/` | as fotos do Gilberto e do Dr. Stanley em cor, abertas e no mesmo enquadramento, tiradas dos originais (27/out: as de fundo apagado em sépia pareciam foto de funeral, ele pediu pra trocar) |
 | `fontes/` | a Montserrat, a fonte da logo, usada em todas as peças |
+| `contratos/` | os 3 modelos de 30/out: termo de inscrição da imersão (R$ 499), contrato do Choque de Ordem e Caixa e da Escala Blindada, com cláusula de imagem e vídeo. Em `.md` e em Word (`word/`). Minuta: o advogado confere antes de valer. O que ele deve olhar está no `LEIA.md` de lá |
+| `regras-publicidade-cfm-cfo.md` | o que médico e dentista podem e não podem na publicidade (CFM 2.336/2023, CFO). Levantado em 30/out pela internet; o advogado confere |
+| `divulgacao/reels-de-teste-2026-10-29/` | os 4 reels de teste da imersão, publicados em 29/out às 15h no Instagram, só pra quem não segue |
 
 ## A logo
 
