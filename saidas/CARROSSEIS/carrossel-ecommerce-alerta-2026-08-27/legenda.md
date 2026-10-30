@@ -8,8 +8,6 @@ Se você vende em marketplace ou loja online, a reforma tributária vai mexer di
 
 Quem vende online precisa planejar o caixa agora, não quando o split payment já estiver valendo.
 
-Inscrição no link da bio.
-
 Gilberto Sena. Grupo Sena Soluções Empresariais.
 
 #reformatributaria #ecommerce #marketplace #splitpayment #dropshipping #importados #direitotributario #planejamentotributario #ibs #cbs #gestaoempresarial #vendaonline #gilbertosena

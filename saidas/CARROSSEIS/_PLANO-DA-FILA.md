@@ -77,7 +77,36 @@ pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, 
 
 **★ 21/out: o carrossel passou para as 18h** (pedido dele, para fechar o dia); os 13 da fila, de 22/10 a 3/11, foram movidos na Zernio.
 
-**Próximo a enfileirar: 4/11 às 18h.** Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
+**★ 30/out: fila fechada até 11/11, 1 por dia às 18h** (Instagram):
+
+| Dia | Carrossel | ID Zernio |
+|---|---|---|
+| 04/11 | `saude-geral-reforma` | `6ae43257a8088c0c5c193752` |
+| 05/11 | `comercio-reforma` | `6ae4325ca8088c0c5c193778` |
+| 06/11 | `odontologia-reforma` | `6ae4325fa8088c0c5c193794` |
+| 07/11 | `entregadores-app-reforma` | `6ae43265a8088c0c5c1937dc` |
+| 08/11 | `clinicas-esteticas-reforma` | `6ae4328e5c5ef142e826fce2` |
+| 09/11 | `educacao-reforma` | `6ae432934f71ac3322b98b0c` |
+| 10/11 | `biomedicina-reforma` | `6ae432984a34f3146da366b3` |
+| 11/11 | `ecommerce-alerta` (saiu o "Inscrição no link da bio" da lâmina 7 e da legenda: o link da bio hoje é o da Imersão AME) | `6ae4329d922df48cacc41c4f` |
+
+Conferidos em 30/out contra os fichamentos (60% saúde, art. 47, 25% do entregador, Anexo II, US$ 50 e 9,43%). As
+quatro de saúde caem na semana antes da Imersão AME (14 e 15/11). **Próximo a enfileirar: 12/11 às 18h.**
+
+**Ficaram de fora em 30/out, e por quê:**
+- `medicos-reforma-2026-08-27`: repete o `reforma-medicos` que saiu em 23/10 ("Médico tem 60%, não 30%").
+- `servicos-alerta`: a CBS de "9,24%" não bate com o fichamento (≈ 8,8%); a capa diz "quase dobrar" e a lâmina 4 "quase o
+  triplo"; e põe médico entre os de 30%, quando médico tem 60%. Precisa ser refeito.
+- `industria-reforma`: diz que o IPI vai a zero em 2027 pra quase tudo, e a notícia de 8/out diz que a carga do IPI fica
+  nos setores do Imposto Seletivo; o "prazo técnico até o fim de 2026" também precisa ser reconferido.
+- `reforma-ecommerce-2026-09-13`: a linha do tempo diz que em 2027 "o Imposto Seletivo começa" e "o split payment passa a
+  valer". O split só começa no 2º semestre de 2027, em etapas, e o IS pode ficar pra fevereiro. Precisa de ajuste.
+- `10-ebooks-leitura`: 12 lâminas, o Instagram aceita 10. Decisão dele.
+
+**O que sobrou de bom pra 12/11 em diante: nada pronto.** Os que restam estão segurados (tabela abaixo) ou na lista acima.
+Caminho: refazer os 3 com ajuste (serviços, indústria, reforma-ecommerce) ou fazer carrossel novo.
+
+(Histórico) Próximo a enfileirar era 4/11 às 18h. Os que passaram na varredura de prazo (sem "setembro", "30/11", autônomo):
 `biomedicina-reforma`, `comercio-reforma`, `ecommerce-alerta`, `educacao-reforma`, `entregadores-app-reforma`,
 `medicos-reforma-08-27` (tema repetido com o de 30/10: espaçar), `odontologia-reforma`, `reforma-ecommerce` e
 `industria-reforma` (os dois últimos: ler contra a notícia do IS de 8/out), `saude-geral-reforma`,
