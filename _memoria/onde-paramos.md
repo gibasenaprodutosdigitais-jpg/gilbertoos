@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 29/out/2026.**
+> Estado das frentes abertas. **Atualizado em 30/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -10,6 +10,25 @@
 ---
 
 ## O primeiro ato da próxima sessão
+
+🔴 **YouTube parado a partir de 30/out às 13h.** O último vídeo agendado é o das 10h de 30/10. Pra voltar aos 5 por dia
+precisa de vídeo novo (os 29 cortes das gravações do carro, ainda sem montar).
+
+### Resumo das frentes abertas (30/out/2026)
+
+| Frente | Onde está | O que falta |
+|---|---|---|
+| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados | link na bio, contrato do cliente, regras CFM/CFO, dados dele pros slides, logo original |
+| **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 3/11, reels até 3/12 | carrossel a partir de 4/11; 22 frases (8 a 29/11); foto de dezembro do Provérbios |
+| **YouTube** | parado a partir de 30/10 às 13h | vídeo novo (cortes do carro) |
+| **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
+| **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
+| **Instituto Êxito** | renúncia entregue | resposta da diretoria; se sair, o Reestruturando com Êxito cai junto |
+| **SB** | termo Gilberto e Stanley assinado | saída do Simões no papel; monograma SB em alta |
+| **Livro "O Médico e o Executivo"** | 88 de 100 páginas | capítulos do Stanley, 4 decisões dele, escolha da capa, acordo de coautoria |
+| **Fundo de debêntures** | ideia registrada | a conta do custo de captação contra os 9% do Pronamp |
+| **Media kit de palestrante** | kit e showreel prontos | proposta comercial, depoimentos de contratantes, fotos com nomes grandes |
+| **Backup do Mac** | Time Machine rodando, 18% em 30/10 à 1h30 | terminar; conferir se o HD aguentou |
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
@@ -45,8 +64,8 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
     `sb/AME/quiz/google/`; duas planilhas no Drive dele, "Acima de R$ 70 mil" e "Até R$ 70 mil"). Também roda no
     computador (`sb/AME/quiz/`, http://localhost:5180, cópia em `respostas.csv`, fora do GitHub). A versão dentro do
     Claude (https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn) não tem as páginas nem o Google Sheets.
-  - **4 reels de teste da imersão agendados pra 29/10 às 15h** (Instagram, só pra quem não segue, passam pro perfil se
-    forem bem). Ver `sb/AME/divulgacao/reels-de-teste-2026-10-29/LEIA.md`. Dos 6 "Criativos SB", **"Ataque mentoria 2"
+  - **4 reels de teste da imersão publicados em 29/10 às 15h**, os quatro sem falha (Instagram, só pra quem não
+    segue, passam pro perfil se forem bem). Ver `sb/AME/divulgacao/reels-de-teste-2026-10-29/LEIA.md`. Dos 6 "Criativos SB", **"Ataque mentoria 2"
     e "Lição política" ficaram de fora** por decisão dele (passam de 3 min; o primeiro diz "20 anos" e cita lei do
     Botox sem base; o segundo é eleição). No vídeo CRTV AME 3 ele fala em **cinco pilares**, mas o método é quatro.
 - **Falta:**
@@ -68,6 +87,10 @@ ficou de fora: 7 gravações (lista no README de `saidas/VIDEOS/serie-a-base-da-
 
 **Vídeo na casa do Janguiê (Muro Alto), 18/out:** imagem tratada em `~/Downloads/... - tratado.mp4`. O som do celular
 não tem conserto aqui: nem o transcritor mais forte entende a fala. Pedir o arquivo do cinegrafista que aparece filmando.
+
+**Reels "O Preço do Amanhã" (30/out):** roteiro de 1 minuto pronto, com a lição dele (as pessoas deixaram de ser
+importantes, falta empatia e amor, longe do que Jesus ensina; Mateus 22:39). **Falta ele gravar.** Sem cena do filme.
+A frase final ("o seu tempo vale muito, mas a pessoa do seu lado vale mais") é sugestão minha: ele aprova ou troca.
 
 **Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 18h a partir de 4/11**
 (grade de 4 posts por dia, decidida em 18/out). (2) O projeto Reestruturando com Êxito, que ele vai
@@ -345,9 +368,9 @@ Depois varri os 42 restantes com `grep` atrás do mesmo erro: **estão limpos**,
 era só aquele. Mas a lição fica: **conferir número de autoridade antes de
 agendar**, porque o carrossel contradizia o media kit dele.
 
-### A fila real, lida em 28/out
+### A fila real, lida em 28/out e conferida em 30/out
 
-**60 posts agendados só no Instagram** (Provérbios até 30/11, frase do dia até 7/11 e em 30/11, carrosséis até 3/11),
+**Em 30/out bate com o cronograma: 49 posts agendados, nenhuma falha nova.** Em 28/out eram **60 posts agendados só no Instagram** (Provérbios até 30/11, frase do dia até 7/11 e em 30/11, carrosséis até 3/11),
 **8 rascunhos** e **1 falha**, o Vivaldi, que ele decidiu não republicar. **Os reels de três redes também estão na
 fila, mas aparecem como "publicando"**, porque o YouTube já soltou a parte dele (o de 3/11, `6ad305bae4a46782f0b469e9`,
 está assim). `_memoria/cronograma-de-postagens.md` tem o calendário post a post. Instagram com reels até 3/12; **YouTube
@@ -902,7 +925,9 @@ mas pensar duas vezes.
 
 ### 🔴 O Time Machine não faz backup desde 29/01/2024
 
-**29/out/2026, 19h20: o HD voltou e o backup completo começou** (~423 GB, previsão de ~4 h). Antes de firmar, o HD
+**29/out/2026, 19h20: o HD voltou e o backup completo começou** (~423 GB). **Ainda não terminou:** às 22h44 e à
+1h01 de 30/out parou com "device locked", porque a tela apaga em 15 min e o Mac tranca na hora. Deixei a tela acordada
+(`caffeinate`) enquanto o backup roda, sem mudar configuração. **Em 30/out à 1h30 estava em 18% da cópia.** Antes de firmar, o HD
 caiu três vezes, sempre quando começava a gravar (o kernel dizia "media is not present"). Firmou depois que ele
 replugou o cabo. **Na próxima sessão, conferir com `tmutil latestbackup` se terminou**; se não, ver se o HD caiu de
 novo. Se cair de novo, a suspeita é o cabo ou o próprio HD (sem uso desde 2024). A senha do HD não é necessária: os
