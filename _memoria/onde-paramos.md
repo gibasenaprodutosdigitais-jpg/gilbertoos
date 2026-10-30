@@ -11,8 +11,9 @@
 
 ## O primeiro ato da próxima sessão
 
-🔴 **YouTube parado a partir de 30/out às 13h.** O último vídeo agendado é o das 10h de 30/10. Pra voltar aos 5 por dia
-precisa de vídeo novo (os 29 cortes das gravações do carro, ainda sem montar).
+**YouTube coberto até 4/11 às 13h** (30/out): 26 cortes das gravações do carro agendados, 5 por dia, com legenda,
+bip e a cor corrigida. Ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`. **Depois de 4/11 às 13h, parado de
+novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de propósito (motivo no LEIA).
 
 ### Resumo das frentes abertas (30/out/2026)
 
@@ -20,7 +21,7 @@ precisa de vídeo novo (os 29 cortes das gravações do carro, ainda sem montar)
 |---|---|---|
 | **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados | link na bio, contrato do cliente, regras CFM/CFO, dados dele pros slides, logo original |
 | **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 3/11, reels até 3/12 | carrossel a partir de 4/11; 22 frases (8 a 29/11); foto de dezembro do Provérbios |
-| **YouTube** | parado a partir de 30/10 às 13h | vídeo novo (cortes do carro) |
+| **YouTube** | 26 cortes do carro agendados até 4/11 às 13h | vídeo novo depois de 4/11 (o acervo das gravações longas acabou) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
 | **Instituto Êxito** | renúncia entregue | resposta da diretoria; se sair, o Reestruturando com Êxito cai junto |

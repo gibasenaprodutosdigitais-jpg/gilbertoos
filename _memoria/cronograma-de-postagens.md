@@ -1,6 +1,6 @@
 # Cronograma de postagens
 
-Fila real da Zernio, **lida em 18/out/2026 e conferida de novo em 21/out e em 30/out** (em 30/out bate: YouTube parado a partir de 30/10 às 13h) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
+Fila real da Zernio, **lida em 18/out/2026 e conferida de novo em 21/out e em 30/out** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
 
 ## A grade desde 19/out (decisão dele em 18/out)
@@ -12,7 +12,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
 | **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **3/11** |
-| **YouTube** | **5 reels por dia: 7h, 10h, 13h, 16h, 19h** (antigos e novos) | até **30/10 às 10h**; depois, nada |
+| **YouTube** | **5 reels por dia: 7h, 10h, 13h, 16h, 19h** (antigos e novos) | até **4/11 às 13h** (cortes do carro, agendados em 30/out) |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até 9/11 |
 
 - **A frase do dia passou a sair todo dia, inclusive fim de semana** (pedido dele em 18/out). Então são 4 posts todo dia.
@@ -33,7 +33,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | Carrossel das 18h | **4/11** | 1 por dia. Ver os segurados em `saidas/CARROSSEIS/_PLANO-DA-FILA.md` |
 | Provérbios das 5h | **1/12** | foto de dezembro (e saber se vêm frases novas) |
 | Frase do dia das 9h | **8/11** (e de 8 a 29/11) | 22 frases novas (o 30/11 já está agendado) |
-| YouTube | **30/10 às 13h** | 5 reels por dia: precisa de vídeo novo (cortes das gravações do carro) |
+| YouTube | **4/11 às 16h** | 5 por dia: os cortes das gravações do carro cobrem até 4/11 às 13h; depois precisa de vídeo novo |
 
 ## Post a post (gerado da fila em 18/out, 19h20)
 
