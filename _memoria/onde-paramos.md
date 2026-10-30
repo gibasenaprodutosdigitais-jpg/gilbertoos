@@ -30,7 +30,6 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 | **Livro "O Médico e o Executivo"** | 88 de 100 páginas | capítulos do Stanley, 4 decisões dele, escolha da capa, acordo de coautoria |
 | **Fundo de debêntures** | ideia registrada | a conta do custo de captação contra os 9% do Pronamp |
 | **Media kit de palestrante** | kit e showreel prontos | proposta comercial, depoimentos de contratantes, fotos com nomes grandes |
-| **Medição da cadência** | marcada pra 25/out, **não foi feita** (conferido em 30/out) | medir compartilhamento e alcance por post desde 19/out (seção 3) |
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
@@ -754,15 +753,33 @@ cabe antes de mandar qualquer coisa para o YouTube.**
 - **Minha leitura, entregue a ele:** o problema não é o horário, é a audiência de 105 mil ter vindo pela música e
   ainda não responder ao conteúdo de gestão. Recomendei cortar de 7 para 2 ou 3 posts por dia.
 - **Ele respondeu: os 105 mil vieram só da música clássica.** E decidiu **4 posts por dia no Instagram** e **5 reels por
-  dia no YouTube** (aplicado em 18/out; ver a seção da grade). **Medir de novo em 25/out** (⚠ **não foi feita**, conferido em 30/out)**:** a pergunta é se 4 por dia
+  dia no YouTube** (aplicado em 18/out; ver a seção da grade). **Medir de novo em 25/out** (feita só em 30/out, resultado logo abaixo)**:** a pergunta é se 4 por dia
   sobe o alcance e o compartilhamento por post.
+
+### Medição de 30/out: o que os 4 posts por dia fizeram (Instagram, Zernio)
+
+| Média | 13 a 17/out (6 a 8 por dia) | 19 a 25/out (4 por dia) |
+|---|---|---|
+| Alcance por post | 1.213 | **1.375** (+13%) |
+| Compartilhamentos por post | 1,2 | **3,7** (3 vezes mais) |
+| Alcance somado por dia | 7,3 mil | 5,7 mil (−22%) |
+
+- **De 25 a 28/out o compartilhamento caiu pra menos de 1 por post**; 29/out voltou a 5 ou 6 nos três posts do dia. Os
+  posts de 26 a 30/out ainda estavam acumulando quando medi.
+- **Seguidores: +968 de 13 a 25/out (105.455 → 106.423), e −249 de 26 a 30/out (→ 106.174).** É a primeira queda desde que
+  a medição começou. Os números não dizem o motivo.
+- **Por tipo, 19 a 28/out:** frase do dia 1.494 de alcance e 3,2 compartilhamentos; Provérbios 1.426 e 3,3; carrossel
+  1.331 e 2,7; **reel 879 e 1,9, o mais fraco**. Os reels que mais compartilharam são história ou opinião forte dele
+  ("Eu errei no contrato", "Acabou o jeitinho", "Quebrar o negócio", "Faturamento é ego"); os de técnica pura (Simples,
+  academia no híbrido, dobrar a equipe) ficaram em 1.
+- **Sugestão minha:** manter os 4 por dia e medir de novo em **6/nov**, de olho na perda de seguidores.
 
 Em 13/out ele trouxe um método de terceiro (cards atribuídos a "Nardon",
 marca Advisor News) pedindo 12 posts por dia. **A regra e o que foi aceito e
 recusado estão em `_memoria/posicionamento.md`, no bloco do fim.** Duas
 coisas ficaram em aberto e são para analisar depois, não agora.
 
-**1. A medição de 25/out (atrasada)** segue a hierarquia que virou regra:
+**1. A medição de 25/out (feita em 30/out, resultado acima)** segue a hierarquia que virou regra:
 **encaminhamento (compartilhamento) por post primeiro, depois alcance.** Não
 decidir por curtida nem por seguidor novo. Ferramentas:
 `analytics_get_post_timeline` e `analytics_get_daily_metrics`. Linha de base de
