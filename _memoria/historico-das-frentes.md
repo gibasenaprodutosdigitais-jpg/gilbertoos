@@ -213,3 +213,15 @@ Georgia. A condensada boa é **DIN Condensed Bold**.
 
 **Pra melhorar:** precisa de imagem bruta de palco sem legenda. Com 3 ou 4
 minutos limpos dá uma peça de 90s com variação de plano.
+
+---
+
+### 🔴 O Time Machine não faz backup desde 29/01/2024
+
+**29/out/2026, 19h20: o HD voltou e o backup completo começou** (~423 GB). **Ainda não terminou:** às 22h44 e à
+1h01 de 30/out parou com "device locked", porque a tela apaga em 15 min e o Mac tranca na hora. Deixei a tela acordada
+(`caffeinate`) enquanto o backup roda, sem mudar configuração. **Em 30/out à 1h30 estava em 18% da cópia; às 3h20, em 64%, sem nova parada (previsão de terminar perto das 5h).** Antes de firmar, o HD
+caiu três vezes, sempre quando começava a gravar (o kernel dizia "media is not present"). Firmou depois que ele
+replugou o cabo. **Às 11h30 de 30/out já não estava rodando. Falta ele confirmar pelo ícone do Time Machine se terminou** (o `tmutil latestbackup` pede Acesso Total ao Disco); se não, ver se o HD caiu de
+novo. Se cair de novo, a suspeita é o cabo ou o próprio HD (sem uso desde 2024). A senha do HD não é necessária: os
+dois volumes abrem sozinhos.

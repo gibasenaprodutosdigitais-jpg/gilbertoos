@@ -31,7 +31,6 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 | **Fundo de debêntures** | ideia registrada | a conta do custo de captação contra os 9% do Pronamp |
 | **Media kit de palestrante** | kit e showreel prontos | proposta comercial, depoimentos de contratantes, fotos com nomes grandes |
 | **Medição da cadência** | marcada pra 25/out, **não foi feita** (conferido em 30/out) | medir compartilhamento e alcance por post desde 19/out (seção 3) |
-| **Backup do Mac** | 64% em 30/10 às 3h20; às 11h30 já não estava rodando | ele confirmar no ícone do Time Machine se terminou (aqui o Mac não deixa ler a data do último backup) |
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
@@ -868,15 +867,15 @@ de 235 MB voltou a entrar e o GitHub recusou o envio.
 peso. Se precisar versionar um vídeo específico um dia, usar `git add -f` —
 mas pensar duas vezes.
 
-### 🔴 O Time Machine não faz backup desde 29/01/2024
+### ✅ Backup do Mac em dia desde 30/out/2026
 
-**29/out/2026, 19h20: o HD voltou e o backup completo começou** (~423 GB). **Ainda não terminou:** às 22h44 e à
-1h01 de 30/out parou com "device locked", porque a tela apaga em 15 min e o Mac tranca na hora. Deixei a tela acordada
-(`caffeinate`) enquanto o backup roda, sem mudar configuração. **Em 30/out à 1h30 estava em 18% da cópia; às 3h20, em 64%, sem nova parada (previsão de terminar perto das 5h).** Antes de firmar, o HD
-caiu três vezes, sempre quando começava a gravar (o kernel dizia "media is not present"). Firmou depois que ele
-replugou o cabo. **Às 11h30 de 30/out já não estava rodando. Falta ele confirmar pelo ícone do Time Machine se terminou** (o `tmutil latestbackup` pede Acesso Total ao Disco); se não, ver se o HD caiu de
-novo. Se cair de novo, a suspeita é o cabo ou o próprio HD (sem uso desde 2024). A senha do HD não é necessária: os
-dois volumes abrem sozinhos.
+**O primeiro backup completo terminou em 30/out às 3h55** (~423 GB, no HD externo "Backups de MacBook Pro (2)"), e
+desde então o Time Machine grava de hora em hora (conferido em 30/out às 11h45: a última cópia era das 11h17). O HD
+está com 297 GB usados de 931 GB. **Pra conferir sem pedir Acesso Total ao Disco:**
+`diskutil apfs listSnapshots "/Volumes/Backups de MacBook Pro (2)"` lista cada backup terminado (o `tmutil latestbackup`
+pede o acesso). ⚠ O HD caiu três vezes antes de firmar ("media is not present"); se voltar a cair, a suspeita é o cabo
+ou o próprio HD. ⚠ Com a tela apagando em 15 min o Mac tranca e o backup para com "device locked": num backup grande,
+deixar a tela acordada.
 
 (Registro antigo sobre o diagnóstico do Time Machine de 13/out: em `_memoria/historico-das-frentes.md`.)
 
