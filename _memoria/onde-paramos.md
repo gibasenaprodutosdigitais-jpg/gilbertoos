@@ -20,7 +20,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 
 | Frente | Onde está | O que falta |
 |---|---|---|
-| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 4 reels de teste publicados, regras CFM/CFO levantadas | advogado conferir os 3 contratos e as regras CFM/CFO, custo da hora e casos dele pros slides, logo original (link na bio ✅, reserva ✅) |
+| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 16 reels de teste publicados (4 em 29/out, 12 em 31/out), regras CFM/CFO levantadas | advogado conferir os 3 contratos e as regras CFM/CFO, custo da hora e casos dele pros slides, logo original (link na bio ✅, reserva ✅) |
 | **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); 22 frases (8 a 29/11); foto de dezembro do Provérbios |
 | **YouTube** | 26 cortes do carro agendados até 4/11 às 13h | vídeo novo depois de 4/11 (o acervo das gravações longas acabou) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
