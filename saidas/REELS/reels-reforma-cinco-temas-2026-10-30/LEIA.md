@@ -34,7 +34,7 @@ Conta: 11,3 × 0,7 = 7,9 (desconto de 30%); 11,3 × 0,4 = 4,5 (desconto de 60%);
 ## Animação do reel 1 (`animacao-reel1/`)
 
 Feita aqui, do zero: nada da animação do @reforma_simplific. Direção "Cartaz de Rua" (papel claro, Impact
-gigante, laranja de alerta). 1080x1920, 24s, 30 quadros por segundo.
+gigante, laranja de alerta). 1080x1920, 30s (eram 24s; ele pediu mais lento em 30/out), 30 quadros por segundo.
 
 - `reel1-animacao-completa.mp4`: as 5 cenas em sequência, pra ver o conjunto.
 - `cena-1.mp4` a `cena-5.mp4`: cada cena solta, pra entrar por cima da gravação na fala certa.
@@ -44,21 +44,21 @@ gigante, laranja de alerta). 1080x1920, 24s, 30 quadros por segundo.
   4. Cobertor curto ("cada setor que ganhou desconto puxou um pedaço")
   5. "Reveja o seu preço" com a logo (só se ele mantiver a frase final, que é sugestão)
 - A barra da cena 4 é um desenho do mecanismo, não um gráfico: as larguras não são dado.
-- Pra mudar texto ou tempo: editar `anim.html` e rodar `node render.js` nesta pasta (uns 5 min).
+- Pra mudar texto ou tempo: editar `anim.html` e rodar `node render.js` nesta pasta (uns 5 min). Pra sair com 30s: `ALVO=30 node animacao-comum/render.js animacao-reel1`.
 
 ## Animações dos reels 2 a 5 (`animacao-reel2/` a `animacao-reel5/`)
 
 Mesma direção do reel 1. O motor comum fica em `animacao-comum/` (estilo, ajudantes e `render.js`).
-Pra refazer uma: `node animacao-comum/render.js animacao-reelN` (uns 5 min cada; **um de cada vez**: os quatro
+Pra refazer uma: `node animacao-comum/render.js animacao-reelN` (com `ALVO=30` na frente pra sair com 30s; uns 6 min cada; **um de cada vez**: os quatro
 juntos travaram o Mac em 30/out).
 
-- **Reel 2** (24,5s): por fora (a nota fiscal) · empresa: a CBS volta como crédito · pessoa física: paga a nota
+- **Reel 2** (30s): por fora (a nota fiscal) · empresa: a CBS volta como crédito · pessoa física: paga a nota
   inteira · batata quente (indústria → distribuidor → loja → consumidor) · "Quem é o seu cliente?"
-- **Reel 3** (26s): −30% · as 18 profissões da lei · barras 11,3% → 7,9% → 4,5% · o diploma não basta (holding
+- **Reel 3** (30s): −30% · as 18 profissões da lei · barras 11,3% → 7,9% → 4,5% · o diploma não basta (holding
   sócia derruba o desconto) · "Antes de mexer no contrato social, faça a conta" (sugestão)
-- **Reel 4** (25s): IPI riscado vira Seletivo · a lista da lei · a alíquota ainda não saiu · a tabela hoje × 2027,
+- **Reel 4** (30s): IPI riscado vira Seletivo · a lista da lei · a alíquota ainda não saiu · a tabela hoje × 2027,
   com a aposta como imposto novo · "O IPI não acaba. Troca de nome."
-- **Reel 5** (22,5s): 2033 · o calendário ano a ano (100, 100, 90, 80, 70, 60%, acabou) · 18% vira 16,2%, não 8% ·
+- **Reel 5** (30s): 2033 · o calendário ano a ano (100, 100, 90, 80, 70, 60%, acabou) · 18% vira 16,2%, não 8% ·
   Eclesiastes 3:1
 
 **Os vídeos prontos estão juntos em `VIDEOS-PRONTOS/`** (fora do GitHub, como todo mp4 deste projeto).
