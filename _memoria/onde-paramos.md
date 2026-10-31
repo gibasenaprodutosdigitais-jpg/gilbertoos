@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 30/out/2026.**
+> Estado das frentes abertas. **Atualizado em 31/out/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -16,7 +16,7 @@
 bip e a cor corrigida. Ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`. **Depois de 4/11 às 13h, parado de
 novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de propósito (motivo no LEIA).
 
-### Resumo das frentes abertas (30/out/2026)
+### Resumo das frentes abertas (31/out/2026)
 
 | Frente | Onde está | O que falta |
 |---|---|---|
@@ -24,6 +24,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 | **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); 22 frases (8 a 29/11); foto de dezembro do Provérbios |
 | **YouTube** | 26 cortes do carro agendados até 4/11 às 13h | vídeo novo depois de 4/11 (o acervo das gravações longas acabou) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
+| **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
 | **5 Reels da reforma** (CBS 11,3%, crédito, 30%, Seletivo, ICMS/ISS) | roteiros e legendas prontos (`saidas/REELS/reels-reforma-cinco-temas-2026-10-30/`), números conferidos | ele confirmar os requisitos do reel 3 e gravar **antes de 15/12**; animações dos 5 prontas e aprovadas no estilo (30/out), com 30s cada (pedido dele), vídeos em `VIDEOS-PRONTOS/` (só no notebook); falta gravar e editar com as cenas por cima |
 | **Instituto Êxito** | renúncia entregue | resposta da diretoria; se sair, o Reestruturando com Êxito cai junto |
@@ -70,6 +71,8 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
     segue, passam pro perfil se forem bem). Ver `sb/AME/divulgacao/reels-de-teste-2026-10-29/LEIA.md`. Dos 6 "Criativos SB", **"Ataque mentoria 2"
     e "Lição política" ficaram de fora** por decisão dele (passam de 3 min; o primeiro diz "20 anos" e cita lei do
     Botox sem base; o segundo é eleição). No vídeo CRTV AME 3 ele fala em **cinco pilares**, mas o método é quatro.
+  - **2º lote: 12 reels de teste publicados em 31/10 (~19h45)**, CRTV AME 5 a 16, os doze conferidos (é ele, sem preço,
+    "+15 anos"). Na legenda, "teu/tua/contigo" virou "seu/sua/com você". Ver `sb/AME/divulgacao/reels-de-teste-2026-10-31/LEIA.md`.
 - **Falta:**
   - ✅ Link de inscrição na bio do Instagram (ele confirmou em 30/out). Falta só o story e o WhatsApp, se ele quiser.
   - **Contratos: 3 modelos prontos em 30/out** em `sb/AME/contratos/` (termo de inscrição da imersão, Choque de Ordem e
