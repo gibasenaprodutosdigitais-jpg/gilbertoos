@@ -15,3 +15,13 @@ título inteiro na tela. Vídeos fora do git.
 
 **Fora:** os 5 "WhatsApp Video 2026-10-30" da mesma pasta são do perfil @reforma_simplific do TikTok (marca d'água
 na tela). Não são dele; não publicar.
+
+## YouTube (pedido dele, 31/out ~19h50)
+
+Os dois foram também pro YouTube como Shorts, publicados na hora, fora da grade das 5 por dia. Descrição com as
+palavras dele e a assinatura padrão do canal.
+
+| Parte | Título | ID Zernio | Link |
+|---|---|---|---|
+| 1 | O Brasil está erguendo um muro, igual ao de Berlim | `6ae67163045ca24e65053422` | https://www.youtube.com/watch?v=-yI-LQ6yRTo |
+| 2 | Esquerda, direita ou centro? Olhe para o céu | `6ae67169045ca24e65053440` | https://www.youtube.com/watch?v=CuSLvqrd_hw |
