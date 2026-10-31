@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../animacao-comum/comum.css">
 <style>
   #lista { position: absolute; left: 70px; top: 450px; width: 940px; display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
-  #lista div { font-size: 40px; font-weight: 700; line-height: 1; padding: 16px 0; border-bottom: 3px solid var(--tinta); white-space: nowrap; }
+  #lista div { font-size: 36px; font-weight: 700; line-height: 1; padding: 16px 0; border-bottom: 3px solid var(--tinta); white-space: nowrap; }
   .faixa { position: absolute; left: 70px; width: 940px; }
   .faixa .nome { font-size: 36px; letter-spacing: 4px; text-transform: uppercase; font-weight: 600; margin-bottom: 14px; }
   .faixa .trilho { position: relative; height: 120px; }
@@ -23,7 +23,7 @@
   <!-- cena 1: −30% -->
   <div class="cena" id="c1">
     <div class="abs rotulo" style="left:70px; top:330px;">Desconto na CBS e no IBS</div>
-    <div class="abs grito" id="c1n" style="left:40px; top:470px; font-size:470px;">−30%</div>
+    <div class="abs grito" id="c1n" style="left:60px; top:490px; font-size:410px;">−30%</div>
     <div class="abs sussurro" id="c1s" style="left:70px; top:1000px; width:900px;">pra 18 profissões fiscalizadas por conselho.</div>
   </div>
 
@@ -91,7 +91,7 @@
 <script>
 window.CENAS = { c1: [0, 3.5], c2: [3.5, 9.0], c3: [9.0, 15.0], c4: [15.0, 22.0], c5: [22.0, 26.0] };
 window.DURACAO = 26.0;
-const ESCALA = 760 / 11.3;  // 11,3% ocupa 760px
+const ESCALA = 640 / 11.3;  // 11,3% ocupa 640px
 
 window.desenhar = function (t) {
   let l = cena('c1', t);
