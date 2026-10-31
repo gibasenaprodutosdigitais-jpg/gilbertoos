@@ -83,11 +83,11 @@ pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, 
 |---|---|---|
 | 04/11 | `saude-geral-reforma` | `6ae43257a8088c0c5c193752` |
 | 05/11 | `comercio-reforma` | `6ae4325ca8088c0c5c193778` |
-| 06/11 | `odontologia-reforma` | `6ae4325fa8088c0c5c193794` |
+| 06/11 | `odontologia-reforma` (corrigido em 31/out: capa, lâmina 2 e legenda sem os "30% de profissão regulamentada", que a saúde não tem) | `6ae4325fa8088c0c5c193794` |
 | 07/11 | `entregadores-app-reforma` | `6ae43265a8088c0c5c1937dc` |
-| 08/11 | `clinicas-esteticas-reforma` | `6ae4328e5c5ef142e826fce2` |
+| 08/11 | `clinicas-esteticas-reforma` (corrigido em 31/out: lâmina 4 e legenda; fora da saúde é alíquota cheia, não 30%) | `6ae4328e5c5ef142e826fce2` |
 | 09/11 | `educacao-reforma` | `6ae432934f71ac3322b98b0c` |
-| 10/11 | `biomedicina-reforma` | `6ae432984a34f3146da366b3` |
+| 10/11 | `biomedicina-reforma` (corrigido em 31/out: lâmina 4 e legenda; saiu o "maior que os 30%") | `6ae432984a34f3146da366b3` |
 | 11/11 | `ecommerce-alerta` (saiu o "Inscrição no link da bio" da lâmina 7 e da legenda: o link da bio hoje é o da Imersão AME) | `6ae4329d922df48cacc41c4f` |
 
 | 12/11 | `servicos-alerta` (refeito: capa "mais que dobrar", "duas vezes e meia", médico saiu da lista dos 30%) | `6ae4347cbea8633049ec7585` |

@@ -25,7 +25,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 | **YouTube** | 26 cortes do carro agendados até 4/11 às 13h | vídeo novo depois de 4/11 (o acervo das gravações longas acabou) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
-| **5 Reels da reforma** (CBS 11,3%, crédito, 30%, Seletivo, ICMS/ISS) | roteiros e legendas prontos (`saidas/REELS/reels-reforma-cinco-temas-2026-10-30/`), números conferidos | ele confirmar os requisitos do reel 3 e gravar **antes de 15/12**; animações dos 5 prontas e aprovadas no estilo (30/out), vídeos em `VIDEOS-PRONTOS/` (só no notebook); falta gravar e editar com as cenas por cima |
+| **5 Reels da reforma** (CBS 11,3%, crédito, 30%, Seletivo, ICMS/ISS) | roteiros e legendas prontos (`saidas/REELS/reels-reforma-cinco-temas-2026-10-30/`), números conferidos | ele confirmar os requisitos do reel 3 e gravar **antes de 15/12**; animações dos 5 prontas e aprovadas no estilo (30/out), com 30s cada (pedido dele), vídeos em `VIDEOS-PRONTOS/` (só no notebook); falta gravar e editar com as cenas por cima |
 | **Instituto Êxito** | renúncia entregue | resposta da diretoria; se sair, o Reestruturando com Êxito cai junto |
 | **SB** | termo Gilberto e Stanley assinado | saída do Simões no papel; monograma SB em alta |
 | **Livro "O Médico e o Executivo"** | 88 de 100 páginas | capítulos do Stanley, 4 decisões dele, escolha da capa, acordo de coautoria |
@@ -219,6 +219,11 @@ Public Sans. Sem azul e dourado.
 ## 0. ★ A fila de conteúdo — o trabalho em curso
 
 ### ⏳ Os carrosséis: 1 por dia às 18h, fila fechada até 14/11
+
+⚠ **31/out: saúde NÃO tem os 30% de profissão regulamentada** (a lista final do art. 127 tem 18 profissões, nenhuma da
+saúde). Os carrosséis de 6, 8 e 10/11 foram corrigidos na Zernio. O dos médicos que saiu em 23/10 tem "ou os 60% de
+saúde, ou os 30%" numa lâmina; a legenda está certa, e lâmina publicada não dá pra trocar. **Conferir isso em toda peça
+de saúde.**
 
 **Próximo a enfileirar: 15/11.** A ordem, os segurados e o ponto de retomada estão em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md` (a grade de 15h e 20h acabou em 18/out).

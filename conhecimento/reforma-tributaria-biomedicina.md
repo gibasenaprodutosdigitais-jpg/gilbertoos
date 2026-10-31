@@ -1,5 +1,7 @@
 # Reforma Tributária e Biomedicina — incluída entre os ~30 serviços de saúde
 
+> ⚠ **CORREÇÃO DE 30/out/2026:** a lista final dos 30% (art. 127 da LC 214/2025) tem 18 profissões e **nenhuma da saúde** (medicina, odontologia, biomedicina, psicologia etc. ficaram de fora). Onde este fichamento fala em "30% de profissão regulamentada" como alternativa pra saúde, **não vale**: é 60% quando o serviço é de saúde, e fora disso a alíquota cheia. Lista e fonte em `reforma-tributaria.md`, seção 6.
+
 > Fichamento pra uso do Gilberto: pesquisa real via `/tendencias`,
 > 27/ago/2026. Ver também `reforma-tributaria.md` (seção 5-6) e
 > `reforma-tributaria-saude-geral.md`. Categoria: Técnico / tributário /

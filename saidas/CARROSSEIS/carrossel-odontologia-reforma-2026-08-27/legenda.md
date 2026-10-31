@@ -1,4 +1,4 @@
-Dentista também tem 60% de redução na reforma tributária, não fica só nos 30% de profissão regulamentada.
+Dentista tem 60% de redução na reforma tributária.
 
 Odontologia entrou como serviço de saúde na LC 214/2025, com o CFO articulando ativamente com deputados e senadores pra garantir isso pra categoria.
 
