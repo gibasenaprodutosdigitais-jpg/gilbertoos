@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>CBS 11,3%</title>
+<style>
+  :root {
+    --papel: #E8E4DC;
+    --tinta: #141414;
+    --sinal: #D2491C;
+    --apagado: #B9B3A8;
+  }
+  html, body { margin: 0; padding: 0; background: var(--papel); }
+  #tela {
+    position: relative; width: 1080px; height: 1920px; overflow: hidden;
+    background: var(--papel); color: var(--tinta);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  #grao { position: absolute; inset: 0; opacity: .22; mix-blend-mode: multiply; pointer-events: none; }
+  .cena { position: absolute; inset: 0; opacity: 0; }
+  .grito { font-family: Impact, "Haettenschweiler", sans-serif; line-height: .86; letter-spacing: -2px; white-space: nowrap; }
+  .rotulo { font-size: 38px; letter-spacing: 6px; text-transform: uppercase; font-weight: 500; }
+  .sussurro { font-size: 44px; line-height: 1.3; font-weight: 400; }
+  .abs { position: absolute; }
+
+  /* cena 4: a barra da conta */
+  #barra { position: absolute; left: 70px; top: 720px; width: 940px; height: 240px; display: flex; }
+  #barra .fatia { height: 100%; box-sizing: border-box; border-right: 6px solid var(--papel); position: relative; overflow: hidden; }
+  #barra .fatia.desc { background: repeating-linear-gradient(135deg, var(--apagado) 0 10px, var(--papel) 10px 20px); }
+  #barra .fatia.cheio { background: var(--tinta); border-right: 0; }
+  .etq {
+    position: absolute; font-family: Impact, sans-serif; font-size: 50px; letter-spacing: 1px;
+    background: var(--tinta); color: var(--papel); padding: 10px 18px 6px; white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+<div id="tela">
+
+  <!-- cena 1: a estimativa do governo -->
+  <div class="cena" id="c1">
+    <div class="abs rotulo" style="left:70px; top:330px;">CBS 2027 · estimativa do governo</div>
+    <div class="abs grito" id="c1num" style="left:50px; top:470px; font-size:560px;">9,2%</div>
+    <div class="abs sussurro" style="left:70px; top:1020px; width:900px;">O imposto que substitui o PIS e a Cofins.</div>
+  </div>
+
+  <!-- cena 2: a conta do TCU -->
+  <div class="cena" id="c2">
+    <div class="abs rotulo" style="left:70px; top:330px;">Conta do TCU · 28 de outubro</div>
+    <div class="abs grito" id="c2velho" style="left:70px; top:420px; font-size:150px; color:var(--apagado);">9,2%</div>
+    <div class="abs" id="c2risco" style="left:62px; top:478px; height:14px; background:var(--sinal); width:0;"></div>
+    <div class="abs grito" id="c2num" style="left:40px; top:640px; font-size:530px;">9,2%</div>
+    <div class="abs etq" id="c2etq" style="left:70px; top:1180px; font-size:72px; background:var(--sinal); color:var(--papel);">+2,1 PONTOS</div>
+  </div>
+
+  <!-- cena 3: o prazo do Senado -->
+  <div class="cena" id="c3">
+    <div class="abs rotulo" style="left:70px; top:330px;">O Senado fixa a alíquota até</div>
+    <div class="abs grito" id="c3data" style="left:50px; top:480px; font-size:470px;">15/12</div>
+    <div class="abs" id="c3trilho" style="left:70px; top:1010px; width:940px; height:18px; background:var(--apagado);"></div>
+    <div class="abs" id="c3fio" style="left:70px; top:1010px; width:940px; height:18px; background:var(--tinta);"></div>
+    <div class="abs" id="c3virada" style="left:70px; top:1110px; width:940px;">
+      <div class="grito" style="font-size:150px;">SEM VOTO,</div>
+      <div class="grito" style="font-size:150px; margin-top:14px;">VALE <span style="color:var(--sinal);">11,3%</span></div>
+    </div>
+  </div>
+
+  <!-- cena 4: cobertor curto -->
+  <div class="cena" id="c4">
+    <div class="abs grito" style="left:70px; top:330px; font-size:170px;">COBERTOR</div>
+    <div class="abs grito" style="left:70px; top:480px; font-size:170px;">CURTO</div>
+    <div id="barra">
+      <div class="fatia" id="f1"></div>
+      <div class="fatia" id="f2"></div>
+      <div class="fatia" id="f3"></div>
+      <div class="fatia" id="f4"></div>
+      <div class="fatia cheio" id="f5"></div>
+    </div>
+    <div class="etq" id="e1">SAÚDE −60%</div>
+    <div class="etq" id="e2">EDUCAÇÃO −60%</div>
+    <div class="etq" id="e3">18 PROFISSÕES −30%</div>
+    <div class="etq" id="e4">CESTA BÁSICA 0%</div>
+    <div class="abs" id="c4fim" style="left:70px; top:1250px; width:940px;">
+      <div class="rotulo" style="color:var(--sinal); font-weight:700;">↑ Quem paga cheio</div>
+      <div class="grito" style="font-size:132px; margin-top:20px;">FECHA A CONTA</div>
+    </div>
+  </div>
+
+  <!-- cena 5: fechamento -->
+  <div class="cena" id="c5" style="background:var(--tinta); color:var(--papel);">
+    <div class="abs grito" id="c5a" style="left:70px; top:520px; font-size:190px;">REVEJA</div>
+    <div class="abs grito" id="c5b" style="left:70px; top:690px; font-size:190px;">O SEU</div>
+    <div class="abs grito" id="c5c" style="left:70px; top:860px; font-size:190px; color:var(--sinal);">PREÇO.</div>
+    <div class="abs sussurro" id="c5d" style="left:70px; top:1080px; color:var(--apagado);">Você tem até 15 de dezembro.</div>
+    <img class="abs" id="c5logo" src="../../../../identidade/logo-transparente-crop.png" style="left:70px; top:1340px; width:120px;">
+    <div class="abs" id="c5arroba" style="left:210px; top:1385px; font-size:34px; letter-spacing:2px; color:var(--apagado);">@gilbertosenaoficial</div>
+  </div>
+
+  <svg id="grao" width="1080" height="1920">
+    <filter id="ruido"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .4  0 0 0 0 .38  0 0 0 0 .34  0 0 0 .9 0"/></filter>
+    <rect width="100%" height="100%" filter="url(#ruido)"/>
+  </svg>
+</div>
+
+<script>
+// Linha do tempo em segundos. render(t) e pura: o mesmo t sempre da o mesmo quadro.
+const CENAS = { c1: [0, 3.2], c2: [3.2, 7.6], c3: [7.6, 13.0], c4: [13.0, 20.0], c5: [20.0, 24.0] };
+const DURACAO = 24.0;
+
+const lim = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const prog = (t, a, b) => lim((t - a) / (b - a));
+const saida = x => 1 - Math.pow(1 - x, 3);
+const mola = x => x === 0 ? 0 : x === 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - .75) * (2 * Math.PI) / 3) + 1;
+const $ = id => document.getElementById(id);
+const virgula = n => n.toFixed(1).replace('.', ',');
+
+function cenaVisivel(id, t) {
+  const [a, b] = CENAS[id];
+  $(id).style.opacity = (t >= a && t < b) ? 1 : 0;
+  return t - a;
+}
+
+function render(t) {
+  // cena 1: o 9,2 entra batendo da esquerda
+  let l = cenaVisivel('c1', t);
+  const e1 = saida(prog(l, 0, .5));
+  $('c1num').style.transform = `translateX(${(1 - e1) * -700}px)`;
+
+  // cena 2: o 9,2 sobe e e riscado, o numero grande corre ate 11,3
+  l = cenaVisivel('c2', t);
+  $('c2risco').style.width = `${saida(prog(l, .3, .8)) * 290}px`;
+  const corre = saida(prog(l, .6, 2.0));
+  const n = 9.2 + (11.3 - 9.2) * corre;
+  $('c2num').textContent = virgula(n) + '%';
+  $('c2num').style.color = corre >= 1 ? 'var(--sinal)' : 'var(--tinta)';
+  const s = .9 + .1 * mola(prog(l, 1.95, 2.6));
+  $('c2num').style.transform = `scale(${l < 1.95 ? .9 : s})`;
+  $('c2num').style.transformOrigin = 'left center';
+  const et = prog(l, 2.4, 2.7);
+  $('c2etq').style.opacity = et > 0 ? 1 : 0;
+  $('c2etq').style.transform = `rotate(-4deg) scale(${1.6 - .6 * saida(et)})`;
+
+  // cena 3: o prazo, o fio do tempo encurtando, e a virada
+  l = cenaVisivel('c3', t);
+  $('c3data').style.transform = `translateY(${(1 - saida(prog(l, 0, .45))) * 260}px)`;
+  $('c3data').style.opacity = prog(l, 0, .2);
+  $('c3fio').style.width = `${940 * (1 - .75 * prog(l, .5, 2.6))}px`;
+  const v = prog(l, 2.9, 3.3);
+  $('c3virada').style.opacity = v;
+  $('c3virada').style.transform = `translateX(${(1 - saida(v)) * 120}px)`;
+
+  // cena 4: cada desconto cai na barra, a fatia dele afina e a de quem paga cheio engorda
+  l = cenaVisivel('c4', t);
+  const base = [150, 150, 150, 150, 340];
+  const fim = [80, 80, 110, 60, 610];
+  const etqX = [70, 400, 70, 545];
+  const etqY = [1010, 1010, 1100, 1100];
+  const total = base.reduce((a, b) => a + b, 0);
+  let larg = base.slice();
+  for (let i = 0; i < 4; i++) {
+    const ini = .5 + i * .9;
+    const queda = prog(l, ini, ini + .35);
+    const ajuste = saida(prog(l, ini + .3, ini + .8));
+    const e = $('e' + (i + 1));
+    e.style.opacity = queda > 0 ? 1 : 0;
+    e.style.left = etqX[i] + 'px';
+    e.style.top = (etqY[i] - (1 - saida(queda)) * 220) + 'px';
+    larg[i] = base[i] + (fim[i] - base[i]) * ajuste;
+    $('f' + (i + 1)).className = 'fatia' + (ajuste > 0 ? ' desc' : '');
+    if (ajuste === 0) $('f' + (i + 1)).style.background = 'var(--apagado)';
+    else $('f' + (i + 1)).style.background = '';
+  }
+  larg[4] = total - larg.slice(0, 4).reduce((a, b) => a + b, 0);
+  larg.forEach((w, i) => $('f' + (i + 1)).style.width = (w / total * 940) + 'px');
+  const ff = prog(l, 4.6, 5.0);
+  $('c4fim').style.opacity = ff;
+  $('c4fim').style.transform = `translateY(${(1 - saida(ff)) * 60}px)`;
+
+  // cena 5: fechamento, palavra por palavra
+  l = cenaVisivel('c5', t);
+  ['c5a', 'c5b', 'c5c'].forEach((id, i) => {
+    const p = saida(prog(l, .15 + i * .3, .45 + i * .3));
+    $(id).style.opacity = p;
+    $(id).style.transform = `translateY(${(1 - p) * 80}px)`;
+  });
+  $('c5d').style.opacity = prog(l, 1.3, 1.7);
+  $('c5logo').style.opacity = prog(l, 1.8, 2.2);
+  $('c5arroba').style.opacity = prog(l, 1.8, 2.2);
+}
+
+window.render = render;
+window.DURACAO = DURACAO;
+window.CENAS = CENAS;
+const q = new URLSearchParams(location.search);
+if (q.has('t')) render(parseFloat(q.get('t')));
+else { const t0 = performance.now(); (function loop() { render(((performance.now() - t0) / 1000) % DURACAO); requestAnimationFrame(loop); })(); }
+</script>
+</body>
+</html>

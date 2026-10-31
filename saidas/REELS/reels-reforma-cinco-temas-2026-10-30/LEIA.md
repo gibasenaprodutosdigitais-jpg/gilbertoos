@@ -30,3 +30,18 @@ Conta: 11,3 × 0,7 = 7,9 (desconto de 30%); 11,3 × 0,4 = 4,5 (desconto de 60%);
   profissões diferentes da lista não tira o desconto: por isso o roteiro fala em "sócio sem registro no conselho", e
   não em "sócio de outra profissão".
 - O vídeo original dizia que basta um sócio de fora da área pra perder o desconto. Isso está simplificado demais.
+
+## Animação do reel 1 (`animacao-reel1/`)
+
+Feita aqui, do zero: nada da animação do @reforma_simplific. Direção "Cartaz de Rua" (papel claro, Impact
+gigante, laranja de alerta). 1080x1920, 24s, 30 quadros por segundo.
+
+- `reel1-animacao-completa.mp4`: as 5 cenas em sequência, pra ver o conjunto.
+- `cena-1.mp4` a `cena-5.mp4`: cada cena solta, pra entrar por cima da gravação na fala certa.
+  1. 9,2% ("o governo vinha falando em uns 9,2%")
+  2. 9,2 correndo até 11,3% ("o TCU fez a conta")
+  3. 15/12 e "sem voto, vale 11,3%" ("o Senado tem até 15 de dezembro")
+  4. Cobertor curto ("cada setor que ganhou desconto puxou um pedaço")
+  5. "Reveja o seu preço" com a logo (só se ele mantiver a frase final, que é sugestão)
+- A barra da cena 4 é um desenho do mecanismo, não um gráfico: as larguras não são dado.
+- Pra mudar texto ou tempo: editar `anim.html` e rodar `node render.js` nesta pasta (uns 5 min).
