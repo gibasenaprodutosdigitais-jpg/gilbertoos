@@ -43,6 +43,12 @@ O Brasil sai de 5 tributos sobre consumo e vai para **2 + 1 seletivo**:
 
 ## 3. As alíquotas (⚠ atenção ao que é oficial vs. estimativa)
 
+- ★ **ATUALIZAÇÃO 30/out/2026: o TCU calculou a CBS de 2027 em 11,3%** (aprovado em 28/out; conta exata
+  11,3468%, pra manter a arrecadação federal em 4,9861% do PIB). O governo estimava 9,21%. **O Senado tem até
+  15/12/2026 pra fixar por resolução; se não votar, vale o número do TCU.** Fontes:
+  [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/reforma-tributaria-tcu-propoe-aliquota-de-113-para-cbs-em-2027/),
+  [Poder360](https://www.poder360.com.br/poder-economia/tcu-fixa-aliquota-da-cbs-em-113-para-2027/),
+  [InvestNews](https://investnews.com.br/economia/aliquota-cbs-tcu-2027/amp/). Os números abaixo são de antes disso.
 - **Alíquota de referência (estimativa oficial):** **CBS ≈ 8,8%** + **IBS ≈ 17,7%** →
   **carga total ≈ 26,5%**. *(A EC prevê trava/teto pela alíquota de referência; o
   Senado fixa as alíquotas de referência.)*
@@ -88,10 +94,19 @@ compartilhável — e quase ninguém está explicando direito:
 **Art. 127 da LC 214/2025.** Reduz **30%** das alíquotas de IBS e CBS para serviços
 de profissões regulamentadas de natureza científica, literária ou artística:
 
-> advocacia · **contabilidade** · administração · economia · arquitetura e urbanismo ·
-> arquivologia · enfermagem · engenharia · estatística · farmácia · fisioterapia ·
-> fonoaudiologia · jornalismo · medicina · medicina veterinária · museologia ·
-> nutrição · odontologia · psicologia · química · serviço social · terapia ocupacional
+> ⚠ **CORRIGIDO EM 30/out/2026.** A lista que estava aqui (com medicina, odontologia, psicologia, jornalismo,
+> enfermagem etc.) era de versão antiga. A lei final tem **18 profissões** (art. 127, I a XVIII):
+>
+> administradores · advogados · arquitetos e urbanistas · assistentes sociais · bibliotecários · biólogos ·
+> **contabilistas** · economistas · economistas domésticos · profissionais de educação física · engenheiros e
+> agrônomos · estatísticos · médicos veterinários e zootecnistas · museólogos · químicos · profissionais de
+> relações públicas · técnicos industriais · técnicos agrícolas
+>
+> Saúde (médico, dentista, psicólogo, fisioterapeuta, nutricionista) fica nos **60%**, não nos 30%.
+> § 2º: juntar profissões diferentes da lista na mesma sociedade **não** tira o desconto. § 3º: educação física
+> prestada por pessoa jurídica fica fora. Fonte do resumo:
+> [modeloinicial.com.br, art. 127](https://modeloinicial.com.br/lei/LCP-214-2025/lei-complementar-214/art-127)
+> (o site do Planalto bloqueou a leitura; conferir as alíneas do § 1º no texto oficial).
 
 - **Conta prática:** se a alíquota padrão for 27%, a profissão regulamentada paga
   **70% disso ≈ 18,9%** de carga efetiva.
