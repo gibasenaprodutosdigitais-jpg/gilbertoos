@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Quem paga a conta</title>
+<link rel="stylesheet" href="../animacao-comum/comum.css">
+<style>
+  #nota { position: absolute; left: 70px; top: 760px; width: 940px; box-sizing: border-box; border: 6px solid var(--tinta); padding: 40px 44px; }
+  .linha { display: flex; justify-content: space-between; font-size: 56px; font-weight: 700; padding: 14px 0; }
+  .elo { position: absolute; left: 70px; width: 700px; height: 110px; box-sizing: border-box; border: 6px solid var(--tinta);
+         font-family: Impact, sans-serif; font-size: 64px; display: flex; align-items: center; padding: 0 30px; }
+  .repassa { position: absolute; left: 800px; font-size: 34px; letter-spacing: 3px; text-transform: uppercase; color: var(--tinta); }
+</style>
+</head>
+<body>
+<div id="tela">
+
+  <!-- cena 1: a CBS vem por fora -->
+  <div class="cena" id="c1">
+    <div class="abs rotulo" style="left:70px; top:330px;">Em 2027, a CBS vem</div>
+    <div class="abs grito" id="c1t" style="left:60px; top:420px; font-size:250px;">POR FORA</div>
+    <div id="nota">
+      <div class="rotulo" style="margin-bottom:20px;">Nota fiscal</div>
+      <div class="linha"><span>Serviço</span><span>preço</span></div>
+      <div class="linha" id="c1cbs" style="color:var(--sinal);"><span>+ CBS</span><span>destacada</span></div>
+      <div id="c1fio" style="height:6px; background:var(--tinta); margin:14px 0;"></div>
+      <div class="linha" id="c1tot"><span>Total</span><span>preço + CBS</span></div>
+    </div>
+  </div>
+
+  <!-- cena 2: cliente empresa -->
+  <div class="cena" id="c2">
+    <div class="abs rotulo" style="left:70px; top:330px;">Se o seu cliente é</div>
+    <div class="abs grito" id="c2t" style="left:60px; top:420px; font-size:250px;">EMPRESA</div>
+    <div class="abs sussurro" id="c2s" style="left:70px; top:660px;">do regime regular</div>
+    <div class="abs" id="c2volta" style="left:70px; top:820px;">
+      <div class="grito" style="font-size:150px; color:var(--sinal);">↩ A CBS VOLTA</div>
+      <div class="grito" style="font-size:150px; margin-top:16px;">COMO CRÉDITO</div>
+    </div>
+    <div class="etq" id="c2etq" style="left:70px; top:1200px; font-size:72px;">CUSTO DELE: NÃO MUDA</div>
+  </div>
+
+  <!-- cena 3: cliente pessoa física -->
+  <div class="cena" id="c3">
+    <div class="abs rotulo" style="left:70px; top:330px;">Se o seu cliente é</div>
+    <div class="abs grito" id="c3t" style="left:60px; top:420px; font-size:250px;">PESSOA</div>
+    <div class="abs grito" id="c3t2" style="left:60px; top:640px; font-size:250px;">FÍSICA</div>
+    <div class="etq sinal" id="c3etq" style="left:70px; top:930px; font-size:80px;">SEM CRÉDITO</div>
+    <div class="abs" id="c3paga" style="left:70px; top:1110px;">
+      <div class="grito" style="font-size:150px;">PAGA A NOTA</div>
+      <div class="grito" style="font-size:150px; margin-top:16px;">INTEIRA</div>
+    </div>
+  </div>
+
+  <!-- cena 4: batata quente -->
+  <div class="cena" id="c4">
+    <div class="abs grito" style="left:70px; top:330px; font-size:170px;">BATATA</div>
+    <div class="abs grito" style="left:70px; top:480px; font-size:170px;">QUENTE</div>
+    <div class="elo" id="el0" style="top:720px;">INDÚSTRIA</div>
+    <div class="elo" id="el1" style="top:880px;">DISTRIBUIDOR</div>
+    <div class="elo" id="el2" style="top:1040px;">LOJA</div>
+    <div class="elo" id="el3" style="top:1200px;">CONSUMIDOR FINAL</div>
+    <div class="repassa" id="rp0" style="top:756px;">repassa ↓</div>
+    <div class="repassa" id="rp1" style="top:916px;">repassa ↓</div>
+    <div class="repassa" id="rp2" style="top:1076px;">repassa ↓</div>
+    <div class="abs" id="batata" style="width:80px; height:80px; border-radius:50%; background:var(--sinal);"></div>
+    <div class="abs grito" id="c4fim" style="left:70px; top:1360px; font-size:110px; color:var(--sinal);">O IMPOSTO PARA AQUI</div>
+  </div>
+
+  <!-- cena 5: a pergunta certa -->
+  <div class="cena escura" id="c5">
+    <div class="abs rotulo" id="c5r" style="left:70px; top:420px; color:var(--apagado);">A pergunta certa</div>
+    <div class="abs grito" id="c5a" style="left:70px; top:520px; font-size:190px;">QUEM É O</div>
+    <div class="abs grito" id="c5b" style="left:70px; top:690px; font-size:190px;">SEU</div>
+    <div class="abs grito" id="c5c" style="left:70px; top:860px; font-size:190px; color:var(--sinal);">CLIENTE?</div>
+    <div class="assina" id="c5ass"><img src="../../../../identidade/logo-transparente-crop.png"><span>@gilbertosenaoficial</span></div>
+  </div>
+
+  <svg id="grao" width="1080" height="1920">
+    <filter id="ruido"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .4  0 0 0 0 .38  0 0 0 0 .34  0 0 0 .9 0"/></filter>
+    <rect width="100%" height="100%" filter="url(#ruido)"/>
+  </svg>
+</div>
+
+<script src="../animacao-comum/comum.js"></script>
+<script>
+window.CENAS = { c1: [0, 4.5], c2: [4.5, 9.5], c3: [9.5, 13.5], c4: [13.5, 20.5], c5: [20.5, 24.5] };
+window.DURACAO = 24.5;
+
+window.desenhar = function (t) {
+  let l = cena('c1', t);
+  sobe('c1t', l, 0, .45, 160);
+  sobe('nota', l, .5, .9);
+  sobe('c1cbs', l, 1.4, 1.8, 40);
+  $('c1fio').style.width = `${saida(prog(l, 2.0, 2.4)) * 100}%`;
+  sobe('c1tot', l, 2.4, 2.8, 40);
+
+  l = cena('c2', t);
+  sobe('c2t', l, 0, .45, 160);
+  sobe('c2s', l, .3, .7, 40);
+  const v = saida(prog(l, 1.2, 1.7));
+  $('c2volta').style.opacity = v;
+  $('c2volta').style.transform = `translateX(${(1 - v) * 200}px)`;
+  carimbo('c2etq', l, 2.6);
+
+  l = cena('c3', t);
+  sobe('c3t', l, 0, .45, 160);
+  sobe('c3t2', l, .15, .6, 160);
+  carimbo('c3etq', l, 1.1);
+  sobe('c3paga', l, 1.9, 2.4);
+
+  // a batata pula de elo em elo e para no consumidor
+  l = cena('c4', t);
+  for (let i = 0; i < 4; i++) {
+    sobe('el' + i, l, .2 + i * .15, .6 + i * .15, 40);
+    $('el' + i).style.background = '';
+    $('el' + i).style.color = '';
+  }
+  const pulos = [1.3, 2.4, 3.5];
+  let y = 735 + 0;
+  let pos = 0;
+  pulos.forEach((p, i) => {
+    const k = saida(prog(l, p, p + .45));
+    if (k > 0) pos = i + k;
+    $('rp' + i).style.opacity = prog(l, p, p + .3);
+  });
+  const arco = Math.sin((pos % 1) * Math.PI) * 60;
+  $('batata').style.left = (880 - arco) + 'px';
+  $('batata').style.top = (735 + pos * 160) + 'px';
+  $('batata').style.opacity = prog(l, .8, 1.1);
+  if (l > 4.0) {
+    $('el3').style.background = 'var(--sinal)';
+    $('el3').style.color = 'var(--papel)';
+    $('el3').style.borderColor = 'var(--sinal)';
+  } else $('el3').style.borderColor = '';
+  sobe('c4fim', l, 4.2, 4.6, 40);
+
+  l = cena('c5', t);
+  sobe('c5r', l, 0, .3, 30);
+  ['c5a', 'c5b', 'c5c'].forEach((id, i) => sobe(id, l, .15 + i * .3, .45 + i * .3));
+  $('c5ass').style.opacity = prog(l, 1.6, 2.0);
+};
+iniciar();
+</script>
+</body>
+</html>

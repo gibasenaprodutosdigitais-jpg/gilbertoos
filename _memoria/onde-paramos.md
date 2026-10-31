@@ -25,7 +25,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 | **YouTube** | 26 cortes do carro agendados até 4/11 às 13h | vídeo novo depois de 4/11 (o acervo das gravações longas acabou) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
-| **5 Reels da reforma** (CBS 11,3%, crédito, 30%, Seletivo, ICMS/ISS) | roteiros e legendas prontos (`saidas/REELS/reels-reforma-cinco-temas-2026-10-30/`), números conferidos | ele confirmar os requisitos do reel 3 e gravar **antes de 15/12**; animação do reel 1 pronta (`animacao-reel1/`), falta ele aprovar; depois, as dos reels 2 a 5 |
+| **5 Reels da reforma** (CBS 11,3%, crédito, 30%, Seletivo, ICMS/ISS) | roteiros e legendas prontos (`saidas/REELS/reels-reforma-cinco-temas-2026-10-30/`), números conferidos | ele confirmar os requisitos do reel 3 e gravar **antes de 15/12**; animações dos 5 prontas e aprovadas no estilo (30/out), vídeos em `VIDEOS-PRONTOS/` (só no notebook); falta gravar e editar com as cenas por cima |
 | **Instituto Êxito** | renúncia entregue | resposta da diretoria; se sair, o Reestruturando com Êxito cai junto |
 | **SB** | termo Gilberto e Stanley assinado | saída do Simões no papel; monograma SB em alta |
 | **Livro "O Médico e o Executivo"** | 88 de 100 páginas | capítulos do Stanley, 4 decisões dele, escolha da capa, acordo de coautoria |

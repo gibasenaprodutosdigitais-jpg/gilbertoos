@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>O IPI troca de nome</title>
+<link rel="stylesheet" href="../animacao-comum/comum.css">
+<style>
+  .tab { position: absolute; left: 70px; width: 940px; display: grid; grid-template-columns: 1.5fr 1fr 1.3fr; align-items: center;
+         font-family: Impact, sans-serif; font-size: 62px; padding: 18px 0; border-bottom: 4px solid var(--tinta); }
+  .tab.cab { font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 34px; letter-spacing: 5px; font-weight: 600; border-bottom-width: 8px; }
+</style>
+</head>
+<body>
+<div id="tela">
+
+  <!-- cena 1: IPI vira Seletivo -->
+  <div class="cena" id="c1">
+    <div class="abs rotulo" style="left:70px; top:330px;">Em 2027, o IPI</div>
+    <div class="abs grito" id="c1ipi" style="left:50px; top:420px; font-size:520px;">IPI</div>
+    <div class="abs" id="c1risco" style="left:50px; top:600px; height:30px; background:var(--sinal); width:0;"></div>
+    <div class="abs grito" id="c1sel" style="left:60px; top:900px; font-size:230px; color:var(--sinal);">SELETIVO</div>
+    <div class="abs sussurro" id="c1s" style="left:70px; top:1130px;">Mesmo produto. Nome novo.</div>
+  </div>
+
+  <!-- cena 2: a lista da lei -->
+  <div class="cena" id="c2">
+    <div class="abs rotulo" style="left:70px; top:330px;">A lista já está na lei</div>
+    <div class="etq" id="p0" style="left:70px;  top:440px;">CARRO</div>
+    <div class="etq" id="p1" style="left:330px; top:440px;">BARCO</div>
+    <div class="etq" id="p2" style="left:590px; top:440px;">AVIÃO</div>
+    <div class="etq" id="p3" style="left:70px;  top:560px;">CIGARRO</div>
+    <div class="etq" id="p4" style="left:400px; top:560px;">BEBIDA ALCOÓLICA</div>
+    <div class="etq" id="p5" style="left:70px;  top:680px;">BEBIDA AÇUCARADA</div>
+    <div class="etq" id="p6" style="left:620px; top:680px;">MINÉRIO</div>
+    <div class="etq sinal" id="p7" style="left:70px; top:800px;">APOSTA</div>
+    <div class="abs sussurro" id="c2s" style="left:70px; top:960px; width:900px;">O que faz mal à saúde ou ao meio ambiente.</div>
+  </div>
+
+  <!-- cena 3: a alíquota ainda não saiu -->
+  <div class="cena" id="c3">
+    <div class="abs rotulo" style="left:70px; top:330px;">A alíquota</div>
+    <div class="abs grito" id="c3q" style="left:40px; top:380px; font-size:760px; color:var(--sinal);">?</div>
+    <div class="abs grito" id="c3n" style="left:500px; top:560px; font-size:130px;">AINDA</div>
+    <div class="abs grito" id="c3n2" style="left:500px; top:690px; font-size:130px;">NÃO SAIU</div>
+    <div class="abs sussurro" id="c3s" style="left:70px; top:1110px; width:900px;">A cobrança pode começar só no fim de janeiro ou começo de fevereiro de 2027.</div>
+  </div>
+
+  <!-- cena 4: troca de nome, menos na aposta -->
+  <div class="cena" id="c4">
+    <div class="abs rotulo" style="left:70px; top:330px;">A promessa</div>
+    <div class="abs grito" id="c4a" style="left:70px; top:400px; font-size:130px;">NINGUÉM GANHA,</div>
+    <div class="abs grito" id="c4b" style="left:70px; top:520px; font-size:130px;">NINGUÉM PERDE.</div>
+    <div class="tab cab" id="t0" style="top:720px;"><span>PRODUTO</span><span>HOJE</span><span>2027</span></div>
+    <div class="tab" id="t1" style="top:800px;"><span>CERVEJA</span><span>IPI</span><span>SELETIVO</span></div>
+    <div class="tab" id="t2" style="top:900px;"><span>CIGARRO</span><span>IPI</span><span>SELETIVO</span></div>
+    <div class="tab" id="t3" style="top:1000px;"><span>CARRO</span><span>IPI</span><span>SELETIVO</span></div>
+    <div class="tab" id="t4" style="top:1100px; color:var(--sinal);"><span>APOSTA</span><span>—</span><span>SELETIVO</span></div>
+    <div class="etq sinal" id="c4etq" style="left:500px; top:1240px; font-size:72px;">IMPOSTO NOVO</div>
+  </div>
+
+  <!-- cena 5: fechamento -->
+  <div class="cena escura" id="c5">
+    <div class="abs grito" id="c5a" style="left:70px; top:580px; font-size:140px;">O IPI NÃO ACABA.</div>
+    <div class="abs grito" id="c5b" style="left:70px; top:740px; font-size:140px; color:var(--sinal);">TROCA DE NOME.</div>
+    <div class="assina" id="c5ass"><img src="../../../../identidade/logo-transparente-crop.png"><span>@gilbertosenaoficial</span></div>
+  </div>
+
+  <svg id="grao" width="1080" height="1920">
+    <filter id="ruido"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .4  0 0 0 0 .38  0 0 0 0 .34  0 0 0 .9 0"/></filter>
+    <rect width="100%" height="100%" filter="url(#ruido)"/>
+  </svg>
+</div>
+
+<script src="../animacao-comum/comum.js"></script>
+<script>
+window.CENAS = { c1: [0, 4.5], c2: [4.5, 10.0], c3: [10.0, 15.0], c4: [15.0, 21.5], c5: [21.5, 25.0] };
+window.DURACAO = 25.0;
+
+window.desenhar = function (t) {
+  let l = cena('c1', t);
+  const e = saida(prog(l, 0, .45));
+  $('c1ipi').style.transform = `translateY(${(1 - e) * 300}px)`;
+  $('c1ipi').style.opacity = prog(l, 0, .2);
+  $('c1risco').style.width = `${saida(prog(l, 1.1, 1.5)) * 760}px`;
+  $('c1ipi').style.color = l > 1.5 ? 'var(--apagado)' : 'var(--tinta)';
+  sobe('c1sel', l, 1.8, 2.2, 120);
+  sobe('c1s', l, 2.6, 3.0, 30);
+
+  l = cena('c2', t);
+  for (let i = 0; i < 8; i++) cai('p' + i, l, .3 + i * .35, .65 + i * .35);
+  sobe('c2s', l, 3.6, 4.0, 30);
+
+  l = cena('c3', t);
+  const q = prog(l, 0, .35);
+  $('c3q').style.opacity = q > 0 ? 1 : 0;
+  $('c3q').style.transform = `scale(${.9 + .1 * mola(q)})`;
+  sobe('c3n', l, .5, .9, 50);
+  sobe('c3n2', l, .7, 1.1, 50);
+  sobe('c3s', l, 1.8, 2.2, 30);
+
+  l = cena('c4', t);
+  sobe('c4a', l, 0, .4, 50);
+  sobe('c4b', l, .3, .7, 50);
+  for (let i = 0; i < 5; i++) sobe('t' + i, l, 1.0 + i * .35, 1.4 + i * .35, 30);
+  carimbo('c4etq', l, 3.4);
+
+  l = cena('c5', t);
+  sobe('c5a', l, .15, .5);
+  sobe('c5b', l, .6, .95);
+  $('c5ass').style.opacity = prog(l, 1.4, 1.8);
+};
+iniciar();
+</script>
+</body>
+</html>

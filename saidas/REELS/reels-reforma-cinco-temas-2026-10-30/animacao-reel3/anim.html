@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>O desconto de 30%</title>
+<link rel="stylesheet" href="../animacao-comum/comum.css">
+<style>
+  #lista { position: absolute; left: 70px; top: 450px; width: 940px; display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+  #lista div { font-size: 40px; font-weight: 700; line-height: 1; padding: 16px 0; border-bottom: 3px solid var(--tinta); white-space: nowrap; }
+  .faixa { position: absolute; left: 70px; width: 940px; }
+  .faixa .nome { font-size: 36px; letter-spacing: 4px; text-transform: uppercase; font-weight: 600; margin-bottom: 14px; }
+  .faixa .trilho { position: relative; height: 120px; }
+  .faixa .barra { position: absolute; left: 0; top: 0; height: 120px; background: var(--tinta); }
+  .faixa .valor { position: absolute; top: 4px; font-family: Impact, sans-serif; font-size: 112px; line-height: 1; }
+  .req { position: absolute; left: 70px; display: flex; align-items: center; gap: 30px; font-size: 48px; font-weight: 700; }
+  .caixa { width: 74px; height: 74px; box-sizing: border-box; border: 6px solid var(--tinta); flex: none;
+           font-family: Impact, sans-serif; font-size: 64px; line-height: 64px; text-align: center; }
+</style>
+</head>
+<body>
+<div id="tela">
+
+  <!-- cena 1: −30% -->
+  <div class="cena" id="c1">
+    <div class="abs rotulo" style="left:70px; top:330px;">Desconto na CBS e no IBS</div>
+    <div class="abs grito" id="c1n" style="left:40px; top:470px; font-size:470px;">−30%</div>
+    <div class="abs sussurro" id="c1s" style="left:70px; top:1000px; width:900px;">pra 18 profissões fiscalizadas por conselho.</div>
+  </div>
+
+  <!-- cena 2: as 18 da lei -->
+  <div class="cena" id="c2">
+    <div class="abs rotulo" style="left:70px; top:330px;">As 18 da lei · art. 127</div>
+    <div id="lista">
+      <div>Administrador</div><div>Contador</div>
+      <div>Advogado</div><div>Economista</div>
+      <div>Arquiteto e urbanista</div><div>Economista doméstico</div>
+      <div>Assistente social</div><div>Educação física</div>
+      <div>Bibliotecário</div><div>Engenheiro e agrônomo</div>
+      <div>Biólogo</div><div>Estatístico</div>
+      <div>Veterinário e zootecnista</div><div>Museólogo</div>
+      <div>Químico</div><div>Relações públicas</div>
+      <div>Técnico industrial</div><div>Técnico agrícola</div>
+    </div>
+  </div>
+
+  <!-- cena 3: quanto fica -->
+  <div class="cena" id="c3">
+    <div class="abs rotulo" style="left:70px; top:330px;">Com a CBS de 11,3%</div>
+    <div class="faixa" id="fx0" style="top:460px;">
+      <div class="nome">Quem paga cheio</div>
+      <div class="trilho"><div class="barra listrado" id="b0"></div><div class="valor" id="v0">11,3%</div></div>
+    </div>
+    <div class="faixa" id="fx1" style="top:720px;">
+      <div class="nome">As 18 profissões · −30%</div>
+      <div class="trilho"><div class="barra" id="b1"></div><div class="valor" id="v1"></div></div>
+    </div>
+    <div class="faixa" id="fx2" style="top:980px;">
+      <div class="nome" style="color:var(--sinal);">Saúde · −60%</div>
+      <div class="trilho"><div class="barra" id="b2" style="background:var(--sinal);"></div><div class="valor" id="v2" style="color:var(--sinal);"></div></div>
+    </div>
+    <div class="abs sussurro" id="c3s" style="left:70px; top:1260px; width:940px;">Médico, dentista, psicólogo e fisioterapeuta ficam nos 60%.</div>
+  </div>
+
+  <!-- cena 4: o diploma não basta -->
+  <div class="cena" id="c4">
+    <div class="abs grito" style="left:70px; top:330px; font-size:170px;">O DIPLOMA</div>
+    <div class="abs grito" style="left:70px; top:480px; font-size:170px;">NÃO BASTA</div>
+    <div class="req" id="r0" style="top:720px;"><div class="caixa" id="k0"></div><span>Sócios habilitados na área</span></div>
+    <div class="req" id="r1" style="top:840px;"><div class="caixa" id="k1"></div><span id="r1t">Nenhum sócio pessoa jurídica</span></div>
+    <div class="req" id="r2" style="top:960px;"><div class="caixa" id="k2"></div><span>Serviço feito pelos sócios</span></div>
+    <div class="etq sinal" id="c4hold" style="left:540px; top:1090px; font-size:64px;">+ HOLDING SÓCIA</div>
+    <div class="abs grito" id="c4fim" style="left:70px; top:1250px; font-size:118px; color:var(--sinal);">DESCONTO PERDIDO</div>
+  </div>
+
+  <!-- cena 5: fechamento -->
+  <div class="cena escura" id="c5">
+    <div class="abs grito" id="c5a" style="left:70px; top:470px; font-size:150px;">ANTES DE MEXER</div>
+    <div class="abs grito" id="c5b" style="left:70px; top:610px; font-size:150px;">NO CONTRATO</div>
+    <div class="abs grito" id="c5c" style="left:70px; top:750px; font-size:150px;">SOCIAL,</div>
+    <div class="abs grito" id="c5d" style="left:70px; top:930px; font-size:160px; color:var(--sinal);">FAÇA A CONTA.</div>
+    <div class="assina" id="c5ass"><img src="../../../../identidade/logo-transparente-crop.png"><span>@gilbertosenaoficial</span></div>
+  </div>
+
+  <svg id="grao" width="1080" height="1920">
+    <filter id="ruido"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .4  0 0 0 0 .38  0 0 0 0 .34  0 0 0 .9 0"/></filter>
+    <rect width="100%" height="100%" filter="url(#ruido)"/>
+  </svg>
+</div>
+
+<script src="../animacao-comum/comum.js"></script>
+<script>
+window.CENAS = { c1: [0, 3.5], c2: [3.5, 9.0], c3: [9.0, 15.0], c4: [15.0, 22.0], c5: [22.0, 26.0] };
+window.DURACAO = 26.0;
+const ESCALA = 760 / 11.3;  // 11,3% ocupa 760px
+
+window.desenhar = function (t) {
+  let l = cena('c1', t);
+  const e = saida(prog(l, 0, .5));
+  $('c1n').style.transform = `translateX(${(1 - e) * -700}px)`;
+  sobe('c1s', l, .7, 1.1, 40);
+
+  l = cena('c2', t);
+  [...$('lista').children].forEach((el, i) => {
+    const p = saida(prog(l, .2 + i * .14, .5 + i * .14));
+    el.style.opacity = p;
+    el.style.transform = `translateX(${(1 - p) * 60}px)`;
+  });
+
+  // as barras encolhem de 11,3 até o valor com desconto
+  l = cena('c3', t);
+  const alvos = [11.3, 11.3 * .7, 11.3 * .4];
+  for (let i = 0; i < 3; i++) {
+    sobe('fx' + i, l, .1 + i * .25, .5 + i * .25, 40);
+    const enc = i === 0 ? 0 : saida(prog(l, 1.2 + (i - 1) * 1.2, 2.0 + (i - 1) * 1.2));
+    const val = 11.3 + (alvos[i] - 11.3) * enc;
+    $('b' + i).style.width = (val * ESCALA) + 'px';
+    $('v' + i).style.left = (val * ESCALA + 24) + 'px';
+    $('v' + i).textContent = virgula(val) + '%';
+  }
+  sobe('c3s', l, 3.8, 4.2, 30);
+
+  // os requisitos são marcados; a holding entra e derruba o do meio
+  l = cena('c4', t);
+  for (let i = 0; i < 3; i++) {
+    sobe('r' + i, l, .3 + i * .2, .7 + i * .2, 30);
+    $('k' + i).textContent = l > 1.4 + i * .5 ? '✓' : '';
+    $('k' + i).style.color = '';
+    $('k' + i).style.borderColor = '';
+  }
+  const h = prog(l, 3.4, 3.8);
+  $('c4hold').style.opacity = h > 0 ? 1 : 0;
+  $('c4hold').style.transform = `translateX(${(1 - saida(h)) * 600}px) rotate(-3deg)`;
+  if (l > 4.1) {
+    $('k1').textContent = '✗';
+    $('k1').style.color = 'var(--sinal)';
+    $('k1').style.borderColor = 'var(--sinal)';
+    $('r1t').style.textDecoration = 'line-through';
+    $('r1t').style.textDecorationColor = 'var(--sinal)';
+    $('r1t').style.textDecorationThickness = '6px';
+  } else $('r1t').style.textDecoration = 'none';
+  sobe('c4fim', l, 4.5, 4.9, 40);
+
+  l = cena('c5', t);
+  ['c5a', 'c5b', 'c5c', 'c5d'].forEach((id, i) => sobe(id, l, .15 + i * .3, .45 + i * .3));
+  $('c5ass').style.opacity = prog(l, 1.8, 2.2);
+};
+iniciar();
+</script>
+</body>
+</html>
