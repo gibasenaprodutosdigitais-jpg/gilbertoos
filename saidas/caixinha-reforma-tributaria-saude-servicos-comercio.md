@@ -40,7 +40,7 @@
 ## Comerciantes
 
 10. **O comércio terá alíquota reduzida?**  
-    O fichamento consultado não aponta redução geral específica para o comércio. O efeito precisa ser calculado conforme produtos, regime e cadeia de compras.
+    Hoje não há uma redução geral para o comércio. O efeito precisa ser calculado conforme produtos, regime e cadeia de compras.
 
 11. **O que muda nos créditos das compras?**  
     IBS e CBS trazem uma lógica ampla de créditos, mas as condições da operação importam. Acompanhe documentos e recolhimentos dos fornecedores.
