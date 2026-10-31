@@ -51,3 +51,8 @@
 ---
 
 Base técnica: `conhecimento/reforma-tributaria-medicos.md`, `conhecimento/reforma-tributaria-saude-geral.md`, `conhecimento/reforma-tributaria-clinicas-esteticas.md`, `conhecimento/reforma-tributaria-servicos.md`, `conhecimento/reforma-tributaria-pessoa-fisica-autonomo.md`, `conhecimento/reforma-tributaria-comercio.md` e `conhecimento/reforma-tributaria.md`.
+
+## Chamada da caixinha
+
+- **Texto no Story:** A reforma tributária muda a conta de médico, de clínica, de prestador de serviço e de comércio. Cada atividade tem uma regra diferente. Me pergunte da sua.
+- **Título da figurinha:** Qual é a sua atividade e a sua dúvida?

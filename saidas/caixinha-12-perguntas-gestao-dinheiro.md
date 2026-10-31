@@ -41,3 +41,8 @@ Perguntas curtas com respostas para Stories. Respostas em linguagem direta, com 
 ---
 
 Base de gestão financeira: `conhecimento/financas-empresariais.md`. Base de conteúdo e marketing: `conhecimento/estrategia-conteudo-marketing-monetizacao.md` (usada como referência de estrutura, sem reaproveitar casos ou números de terceiros).
+
+## Chamada da caixinha
+
+- **Texto no Story:** Vender bem e não ver o dinheiro sobrar é mais comum do que parece. Hoje eu respondo suas dúvidas de caixa, preço, vendas e marketing.
+- **Título da figurinha:** O que está travando o dinheiro da sua empresa?
