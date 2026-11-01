@@ -477,9 +477,11 @@ de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
 
 **Educação física: registro no CREF6/MG nº MG-007170**, categoria
 **Provisionado – Musculação**, situação **ATIVO** (consulta cadastral no site
-do CREF6/MG, foto da tela mandada por ele em 01/nov/2026). Provisionado é o
-registro por atuação comprovada na modalidade, não por graduação: em conteúdo,
-dizer "registrado no CREF na musculação", nunca "formado em Educação Física".
+do CREF6/MG, foto da tela mandada por ele em 01/nov/2026).
+**Ele é formado em Educação Física** (palavra dele, 01/nov/2026: *"mas sou
+formado"*); instituição e ano ainda não registrados. Pode dizer "formado em
+Educação Física" em conteúdo. O registro no CREF continua na categoria
+provisionado, como mostra o site.
 
 **Trilha "Tecnologia, Direito Digital e Propriedade Intelectual" (180h, 1º
 semestre/2020, rede Uniderp/Pitágoras/Anhanguera):** Direito, Ética e
