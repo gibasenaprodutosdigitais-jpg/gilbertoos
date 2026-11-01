@@ -478,9 +478,9 @@ de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
 **Educação física: registro no CREF6/MG nº MG-007170**, categoria
 **Provisionado – Musculação**, situação **ATIVO** (consulta cadastral no site
 do CREF6/MG, foto da tela mandada por ele em 01/nov/2026).
-**Ele é formado em Educação Física** (palavra dele, 01/nov/2026: *"mas sou
-formado"*); instituição e ano ainda não registrados. Pode dizer "formado em
-Educação Física" em conteúdo. O registro no CREF continua na categoria
+**Ele é formado em Educação Física: bacharel pela UFMG, formado em 2004**
+(palavra dele, 01/nov/2026). Pode dizer "formado em Educação Física pela UFMG"
+em conteúdo. O registro no CREF continua na categoria
 provisionado, como mostra o site.
 
 **Trilha "Tecnologia, Direito Digital e Propriedade Intelectual" (180h, 1º
