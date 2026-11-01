@@ -68,117 +68,10 @@
   - ⚠ **A Casa do Zé não é palestra.** Foi um reality de imersão do José
     Roberto Marques de que ele participou, com uma disputa de startups dentro.
     Entra como aparição, nunca como palestra.
-- **Foi capa da Revista Empreenda, edição 75** — matéria "De motoboy a
-  multimilionário" (edição já publicada, anterior à entrada dele como
-  sócio-adm/CEO da revista — ver seção abaixo). Fichada em 17/jul/2026 a
-  partir do PDF que ele mandou — ver `História pessoal` e `Frases reais
-  (verificadas)` abaixo.
 - *(Cid: detalhar aqui os cases e bastidores que ele PODE contar publicamente —
   isso vira prova de autoridade em conteúdo. Cuidado com o que é confidencial.)*
 
-## Revista Empreenda — novo projeto (assumido em 2026)
-
-Gilberto assumiu como **sócio-administrador e CEO da Revista Empreenda**. Foco:
-posicionamento de empresários, contar a história de empresários locais e
-regionais.
-
-> ⚠ **Entrada como sócio-adm/CEO ainda NÃO foi divulgada publicamente** —
-> anúncio **previsto pra setembro/2026** (confirmado por ele em 18/jul/2026,
-> antes dizia só "aguardando publicação"). **Não usar esse fato em
-> `/carrossel`, `/reels` ou `/ideias` até ele avisar que já foi anunciado.**
-> Primeira medida como CEO, já em andamento: organização da estrutura
-> financeira do grupo + implementação de uma cultura forte com base em
-> princípios e caráter (antes de qualquer expansão nova).
-
-- **Equipe:** **Elaine** é a chefe editorial. Mais uma pequena equipe de
-  apoio (sem outros nomes registrados ainda).
-- Já lançada a edição **Empreenda ABC** — capa foi um empresário (academia
-  inaugurada no ABC Paulista); virou repost dele nas redes, prova de que o
-  formato gera desejo de ser capa. Faturamento **começando agora** (18/jul/2026),
-  ainda não maduro como Revista Empreenda / Empreenda Portugal.
-- Expansão internacional em andamento: **Angola, Portugal, Panamá**, além do
-  ABC — diferencial que nenhum concorrente contador/tributarista tem.
-  **Confirmado 18/jul/2026: nada nessas edições internacionais está ligado ao
-  Grupo Sena — são projetos distintos**, apesar de Portugal aparecer também
-  nos planos pessoais dele (ver seção de projetos internacionais mais abaixo,
-  não confundir as duas coisas).
-- **Empreenda Esportes** — nova marca dentro do grupo. Próxima capa: o
-  ex-jogador **Cafu**.
-- **Empreenda Space** — negócio híbrido novo, incorporado à Empreenda com a
-  entrada do Gilberto como sócio-adm/CEO: juntou o **centro de convenções**
-  dele com o **podcast Kairos**, virando uma frente própria dentro do grupo.
-  **Confirmado 18/jul/2026: já está funcionando e vai começar a faturar no
-  mês que vem (ago/2026)** — não é mais só incorporação no papel.
-- Agosto/2026: capa da **Empreenda Brasil / Empreenda Global** é **Flávio
-  Augusto**, com projeto ao lado de **Joel Jota** e **Caio Carneiro** (evento
-  com Alan Spark) — mentoria estruturada tipo "IPO", com grupos classificados
-  por faturamento/engajamento/garra (bastidor, coxia, "andam com eles").
-  Gilberto circula nesse ambiente através da revista — ver regra de não vender
-  proximidade que não existe.
-- **Empreenda Business** — a modalidade que o Gilberto está criando dentro da
-  revista: rede fechada de empresários inspirada em conceito de irmandade
-  (analogia com maçonaria — fortalecer uns aos outros), mas **sem
-  obrigatoriedade** de negócio entre membros. Gilberto é o **conector/curador**,
-  não fornecedor dentro do próprio grupo — conecta profissionais certos
-  (ex.: vários advogados no grupo, ele indica o mais adequado pra cada caso).
-  Base parecida com BNI, mas sem o protocolo rígido — a reciprocidade nasce da
-  cultura e da vitrine pública (virar capa da revista), não de regra escrita.
-
-### Sociedade formal assinada — Contrato do Ecossistema Empreenda
-
-> ⚠ **Documento particular, com cláusula de sigilo — não usar em conteúdo
-> público.** Fichado a partir do contrato assinado via ZapSign (4/4
-> assinaturas), Barueri, 10/jul/2026. Reforça — não substitui — o aviso já
-> registrado acima de que a entrada dele como sócio-adm/CEO da Empreenda
-> ainda não foi divulgada publicamente.
-
-- Sociedade formalizada entre **Gilberto** e **Elaine Cristina Julião
-  Araujo**, 50%/50% das quotas e dos lucros. Gilberto é **Presidente do
-  Ecossistema Empreenda** (representa a sociedade, coordena estratégia,
-  supervisiona todas as empresas do grupo) e tem o **voto de Minerva**
-  (desempate em qualquer deliberação). Elaine é **Vice-Presidente**.
-- Objeto social é **toda a marca Empreenda**: Revista, Editora, Tecnologia,
-  Business, Edu, Cursos, Instituto, Eventos, Palestras, Livros, plataformas
-  digitais, licenciamento de marca, franquias, mentorias, consultorias,
-  treinamentos, softwares e apps — qualquer negócio novo com a marca
-  Empreenda entra automaticamente no patrimônio da sociedade.
-- **Novidade que não aparecia em nenhum outro material:** Gilberto
-  integralizou na sociedade o negócio **"Espaço Kairós"**, com ativos
-  avaliados em **R$ 1.000.000,00** (carteira de clientes, marca, know-how).
-  Não sei do que se trata — perguntar a ele antes de usar/mencionar em
-  qualquer lugar.
-- Cláusulas do contrato: confidencialidade por prazo indeterminado
-  (mesmo após saída de sócio), não-concorrência e não-aliciamento por 5 anos
-  após desligamento, multa de 30% do valor econômico estimado da sociedade
-  em caso de violação relevante.
-- Testemunhas: **Fábio Nicolini Ferreira** (e-mail
-  fabio@empreendarevista.com.br — provável executivo/parceiro da revista) e
-  **Érica Fernanda Sena** (esposa dele).
-  **Modelo de receita confirmado 18/jul/2026:** é deliberadamente **na
-  contramão do mercado** de mastermind/grupo fechado — a colaboração cobrada
-  dos membros é **simbólica**, só pra cobrir a manutenção das reuniões, não
-  uma mensalidade de acesso. O valor real do grupo é gerar conexão e negócio
-  de verdade, não a taxa em si.
-
-### Modelo de receita da Revista Empreenda (confirmado 18/jul/2026)
-
-- Fonte principal hoje: **venda de editorial de capa**.
-- Faixa de receita por tiragem: **R$ 40.000 a R$ 70.000**, nas frentes
-  **Revista Empreenda** e **Empreenda Portugal** (as duas mais maduras).
-- **Empreenda ABC** está no início do próprio faturamento agora — ainda não
-  no mesmo patamar das outras duas.
-- Empreenda Esportes ainda é frente muito nova, sem faturamento reportado.
-  **Empreenda Space já está funcionando e começa a faturar em ago/2026**
-  (confirmado 18/jul/2026).
-
 ## História pessoal
-
-> Fonte: matéria de capa da **Revista Empreenda, edição 75** — "De motoboy a
-> multimilionário, a trajetória inspiradora de um dos maiores empresários de
-> gestão de negócios do Brasil". Já publicada, então é material público — mas
-> a história do quase-suicídio é muito exposta; **confirmar com o Gilberto se
-> ele quer repetir essa parte específica em `/reels` ou `/carrossel`, mesmo
-> já estando impressa**, antes de reusar em conteúdo novo.
 
 **De onde veio:** até os 8 anos teve vida confortável (pai engenheiro). Com a
 separação dos pais, a mãe virou faxineira — início de uma vida de privações.
@@ -504,10 +397,6 @@ trabalhista para trás e **vendeu o que tinha para pagar todo mundo**.
 > Confirmado por ele em 13/out/2026. Usar assim em carrossel, reels, livro e
 > qualquer peça pública.
 >
-> **Exceção: documento jurídico.** Nos distratos da Empreenda ela assina como
-> testemunha, com CPF, e lá consta **"Érica Fernanda Sena"**. Em contrato o
-> nome tem que bater com o documento dela, não com o uso informal. **Antes de
-> um contrato novo, confirmar com ele qual é a grafia do RG.**
 
 **Família:** casado com **Erica** — "nossa sintonia e sinergia é coisa de
 Deus". História do casamento: pintou um barracão no quintal da mãe pra
@@ -623,9 +512,7 @@ mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
 - **Meio milhão de seguidores no TikTok**, reaproveitando o conteúdo do
   Instagram.
 - Roda um **podcast semanal às quartas de manhã**, citado como "Spacecast"
-  num material de ago/2025 — **checar se é o mesmo podcast Kairos** que
-  hoje faz parte do Empreenda Space (ver seção Revista Empreenda acima) ou
-  se são projetos diferentes/o nome mudou.
+  num material de ago/2025 — checar se continua ativo e se o nome mudou.
 - Cobra **R$50–80 mil por palestra** — o objetivo declarado não é só o
   cachê, é gerar conteúdo longo com autoridade pra usar depois.
 - Já teve vídeo com **4 milhões de visualizações em 24h** (270 mil
@@ -640,7 +527,7 @@ mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
   diretamente antes de tratar como negócio ativo dele (ver
   `conhecimento/produto-sportlife-metodologia-produto.md`).
 
-## Negócios e projetos (fonte: Revista Empreenda ed. 75, 17/jul/2026)
+## Negócios e projetos
 
 - **OCEO — Sistema de Gestão Empresarial** (achado em material de
   identidade/capa, 18/jul/2026, `identidade/Capa atualizada do Sistema
@@ -673,35 +560,8 @@ mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
   Fornecedores.
 - Pilares declarados: **Deus, Família e Trabalho**. Coach de formação, atua
   com palestras e mentorias pelo Brasil.
-- Projetos internacionais citados na matéria (2026): **Portugal e Dubai**
-  para os negócios dele — atenção, é **distinto** da expansão internacional
-  da Revista Empreenda (Angola, Portugal, Panamá) citada em outra seção
-  deste arquivo; não confundir os dois planos.
 - Inspirações que ele cita: **Silvio Santos** (modelo de vida) e
   **Marcus Lemonis** (modelo de gestão de resultados).
 - Critério de quem ele aproxima/ajuda: **"pessoas de coração ensinável"** —
   quando percebe que o dono da empresa "não está pronto pra se
   profissionalizar" ou "não quer pagar impostos", ele devolve o projeto.
-
-## Frases reais dele (verificadas, Revista Empreenda ed. 75)
-
-Já publicadas, então são seguras de citar como dele — mas confirmar antes de
-reusar a mais sensível (marcada abaixo):
-
-- "Fui forjado pelos momentos que passei, fui me capacitando ao longo do
-  processo, até que em 2010 nascia o Grupo Sena Soluções Empresariais."
-- "Hoje pra mim, se for da vontade de Deus eu perder tudo, eu volto a ser
-  motoboy e vou fazer meus proventos mensais. Eu entendo que não ser
-  soberbo e não perder as origens é essencial. (...) Não adianta você ter
-  dinheiro se não sabe fazer GESTÃO."
-- "Eu não tenho funcionários e colaboradores, eu tenho uma família (...)
-  amor é mandamento e não sentimento."
-- "Quando eu assessoro uma empresa, eu trato como se fosse minha, e muitas
-  vezes eu devolvo o projeto (...) quando eu vejo que a pessoa não quer
-  pagar impostos, entendo que não está pronto para crescer."
-- "Se você vender bem a história do seu propósito, o como fazer é fácil (...)
-  O milagre ele vem, o que faz a diferença é o acesso que você vai
-  adquirindo no caminhar da jornada."
-- ⚠ **Sensível — confirmar antes de reusar:** "hoje é contra isso que eu
-  luto, não precisa ninguém fazer isso, tem jeito, tem solução!" (sobre o
-  cliente que tirou a própria vida por dívida empresarial).

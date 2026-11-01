@@ -49,9 +49,8 @@ material — se o Gilberto tiver o documento completo, vale re-fichar.
   valha registrar em `_memoria/quem-e-gilberto.md` como negócio ativo — mas
   só depois de confirmação direta, não a partir de um documento solto.
 - A metodologia "Unpack" serve de framework pra qualquer novo produto
-  dentro da Empreenda ou do Grupo Sena — antes de lançar (ex.: uma nova
-  modalidade da Empreenda Business, um novo curso), validar que resolve
-  dor real, não só "parece uma boa ideia".
+  dentro do Grupo Sena — antes de lançar um novo produto ou curso, validar
+  que resolve dor real, não só "parece uma boa ideia".
 
 ## Ganchos de conteúdo
 

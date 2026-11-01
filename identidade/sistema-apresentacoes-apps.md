@@ -5,7 +5,7 @@
 > Gilberto decidiu não fixar mais paleta em nenhuma peça — quer mais
 > originalidade, com cor, tipografia e composição saindo do **assunto** de
 > cada peça, não de um padrão herdado. Quem decide isso agora, peça por
-> peça, é a skill `direcao-de-arte` (`~/.claude/skills/direcao-de-arte/`).
+> peça, é a skill `direcao-de-arte` (`~/.agents/skills/direcao-de-arte/`).
 > Ver `identidade/design-guide.md` pra decisão completa e o que continua
 > fixo (só a marca: logo + nome).
 >

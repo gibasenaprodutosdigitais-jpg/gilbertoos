@@ -58,7 +58,7 @@ reels — sempre na voz dele e ancorado no conhecimento dele.
 
 ---
 
-## Os 5 comandos (é só isso que o Gilberto precisa saber)
+## Os comandos principais
 
 O Gilberto fala por voz (Wispr Flow). Ele não precisa decorar nada além disto:
 
@@ -132,7 +132,7 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
 - `dados/biblioteca/` — PDFs e materiais crus pra fichar
 - `identidade/` — a marca fixa do Gilberto (logo, nome). Cor/tipografia/
   composição não são mais fixas — saem do assunto de cada peça, decididas
-  pela skill `direcao-de-arte` (`~/.Codex/skills/direcao-de-arte/`)
+  pela skill `direcao-de-arte` (`~/.agents/skills/direcao-de-arte/`)
 - `saidas/` — todo conteúdo gerado (carrossel, reels, ideias)
-- `.Codex/skills/` — os 4 comandos
+- `.agents/skills/` — skills e comandos disponíveis
 - `scripts/` — utilitários (ex.: extrair texto de PDF)

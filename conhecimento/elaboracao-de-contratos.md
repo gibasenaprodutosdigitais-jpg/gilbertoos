@@ -1,8 +1,7 @@
 # Elaboração de Contratos (CursosOnlineSP.com.br, 60h)
 
 > Fichamento pra uso do Gilberto: REFERÊNCIA TÉCNICA de direito contratual —
-> base pra estruturar acordo com clientes, sócios, fornecedores e os membros
-> da Empreenda Business. Fonte: `dados/biblioteca/curso_elabora_o_de_contratos_sp__80316.pdf`
+> base pra estruturar acordo com clientes, sócios e fornecedores. Fonte: `dados/biblioteca/curso_elabora_o_de_contratos_sp__80316.pdf`
 > · Categoria: Técnico / jurídico.
 
 ## Para que serve aqui
@@ -11,8 +10,7 @@ Curso de introdução ao direito contratual brasileiro (Código Civil) — conce
 formação, interpretação, inadimplemento e os principais tipos de contrato do
 dia a dia de negócio (compra e venda, locação, comodato, mútuo, prestação de
 serviço). Não é conteúdo tributário, mas é a base jurídica que sustenta
-qualquer negócio que o Gilberto estrutura ou aconselha — inclusive a lógica de
-"fazer negócio de verdade" da Empreenda Business (ver `_memoria/quem-e-gilberto.md`).
+qualquer negócio que o Gilberto estrutura ou aconselha.
 
 ---
 
@@ -107,10 +105,6 @@ perigo, lesão. **Vícios sociais:** simulação, fraude contra credores.
 - Base pra **revisar e estruturar contratos** de clientes do Grupo Sena antes
   de assinar — não é a área técnica principal dele (tributário é), mas contrato
   malfeito é a origem de metade dos problemas de empresário.
-- Serve de lastro pra **Empreenda Business**: se a cultura ali é "fazer negócio
-  de verdade entre os membros" (ver `_memoria/quem-e-gilberto.md`), o próprio
-  Gilberto pode orientar que esses negócios sejam **formalizados direito** —
-  autoridade dupla: quem conecta E quem sabe blindar o acordo.
 - Ponto de atenção pra reforma tributária: **contratos de execução continuada
   precisam de cláusula de repasse tributário** (quem absorve a diferença de
   carga com a virada de 2027) — conectar com `reforma-tributaria.md`, seção 10.

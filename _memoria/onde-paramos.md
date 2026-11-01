@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 31/out/2026.**
+> Estado das frentes abertas. **Atualizado em 01/nov/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -858,28 +858,7 @@ se estivesse decidida, nem a antiga.**
 
 ---
 
-## 5. Empreenda — encerrado e enxugado
-
-A sociedade com a Elaine (**Ecossistema Empreenda**) foi descontinuada em
-11/08/2026. Em **12/10/2026 ele mandou eliminar todo o material de plano de
-negócios e de projeto, deixando só o jurídico.**
-
-**Sobrou:** `negocios-declinados/juridico/`, 7 pastas. Ver o README de lá.
-**Saiu:** `comercial/`, `financeiro/` e o carrossel do Empreenda Business.
-Tudo recuperável no histórico do git — o comando está no mesmo README.
-
-⚠ **Há uma cobrança em aberto:** R$ 31.330,37, na proposta de dissolução de
-19/08, com **2 pontos pendentes de confirmação dele**. O demonstrativo
-financeiro que sustentava esse número foi removido junto; se a cobrança
-evoluir, recuperar do git.
-
-**Não retomar, atualizar nem expandir nada da Empreenda.** Se o nome
-aparecer num pedido novo, perguntar antes se é sobre o encerramento ou outra
-coisa.
-
----
-
-## 6. Computador e repositório: o que segue aberto
+## 5. Computador e repositório: o que segue aberto
 
 **Onde está cada coisa em `saidas/`:** `saidas/_CONTROLE/_ONDE-ESTA-CADA-COISA.md`
 (reorganizada em 14/out). ⚠ **Se mover pasta de novo, conferir os caminhos
@@ -948,7 +927,7 @@ só a pedido dele.
 
 ---
 
-## 7. Fora deste repositório
+## 6. Fora deste repositório
 
 O **OCEO** é projeto à parte, em `Projetos Gsena Tec/oceo/`, com CLAUDE.md
 próprio e código rodando. **Ler o CLAUDE.md de lá** antes de mexer, e não
@@ -956,7 +935,7 @@ tratar como parte do GilbertoOS.
 
 ---
 
-## 8. Media kit de palestrante, entregue em 15/out/2026
+## 7. Media kit de palestrante, entregue em 15/out/2026
 
 **`saidas/NEGOCIOS-E-MARCA/media-kit-palestrante-2026-10-14/`**
 O arquivo para mandar é **`Gilberto-Sena-Media-Kit.pdf`**, 11 páginas A4,
@@ -1002,10 +981,10 @@ cargo, as cores, o recorte de fundo e o corte de rosto. Tudo aplicado.
 | Recortar fundo de foto | `swift scripts/recorta-fundo.swift entrada.jpg saida.png`, pela Vision da Apple. Local, sem conta |
 | Ler texto de PDF | script Swift com PDFKit. O `pdftotext` **não está instalado** |
 | Rasterizar PDF para conferir | script Swift com PDFKit. O `pdftoppm` **não está instalado** |
-| Transcrever vídeo | `~/.claude/skills/video-use/helpers/transcribe_batch.py <pasta>` |
+| Transcrever vídeo | `~/.agents/skills/video-use/helpers/transcribe_batch.py <pasta>` |
 | Renderizar carrossel | `NODE_PATH=.../scripts/node_modules node render.js` dentro da pasta |
-| Medir contraste de paleta | `python3 ~/.claude/skills/direcao-de-arte/motor/paleta.py FUNDO TINTA ACENTO` |
-| Achar tique de escrita de IA | `python3 ~/.claude/skills/direcao-de-arte/motor/texto.py arquivo.md` |
+| Medir contraste de paleta | `python3 ~/.agents/skills/direcao-de-arte/motor/paleta.py FUNDO TINTA ACENTO` |
+| Achar tique de escrita de IA | `python3 ~/.agents/skills/direcao-de-arte/motor/texto.py arquivo.md` |
 
 **Não tem, e isso muda o caminho:**
 

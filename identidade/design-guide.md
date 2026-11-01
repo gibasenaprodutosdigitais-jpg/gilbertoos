@@ -28,7 +28,7 @@ de cor associado a ele** — quer mais originalidade. A logo já basta pra
 peça ser dele; a identidade de cada peça vem do **assunto**, não da pessoa.
 
 **Quem decide isso agora:** a skill `direcao-de-arte`
-(`~/.claude/skills/direcao-de-arte/`). Antes de desenhar um carrossel/reels
+(`~/.agents/skills/direcao-de-arte/`). Antes de desenhar um carrossel/reels
 novo, invocar essa skill — ela lê o assunto, propõe três direções visuais
 diferentes (nunca repete uma direção usada nas últimas três peças, ver o
 `historico.md` dela) e só monta depois de escolhida. Não voltar por

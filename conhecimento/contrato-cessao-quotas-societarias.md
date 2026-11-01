@@ -55,10 +55,6 @@ arquivamento pra valer perante terceiros.
   qualquer empresa do Grupo Sena ou da carteira de clientes — a cláusula de
   passivo social é o ponto que ele deve sempre reforçar (é onde mora o
   risco de o comprador "herdar" dívida escondida).
-- Reforça o discurso da **Empreenda Business**: a cultura ali é "fazer
-  negócio de verdade entre os membros" (ver `_memoria/quem-e-gilberto.md`)
-  — esse é exatamente o tipo de contrato que formaliza um negócio real
-  fechado dentro do grupo, em vez de ficar só no aperto de mão.
 - Ponto de atenção pra reforma tributária: qualquer cessão de quota tem
   efeito no ganho de capital do vendedor — cruzar com
   `reforma-tributaria.md` antes de estruturar uma operação assim.

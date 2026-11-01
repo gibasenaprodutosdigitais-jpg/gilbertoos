@@ -68,11 +68,8 @@ estrutura de programação definidos.
   autoridade, hierarquia de proximidade, "bastidor") sem gerar reciprocidade
   real — negócio de verdade fechado entre os membros.**
 
-  ⚠ **Atualizado em 13/out/2026:** o contraste registrado aqui era a Empreenda
-  Business. **Esse material foi eliminado a pedido dele em 12/out/2026** (ver
-  `onde-paramos.md`), então o contraste precisa de exemplo novo. **O inimigo
-  continua valendo** — e ele é a razão de a "escada do desejo" ter sido
-  recusada na regra de cadência, no fim deste arquivo.
+  **O inimigo continua valendo** — e ele é a razão de a "escada do desejo"
+  ter sido recusada na regra de cadência, no fim deste arquivo.
 
 ## ★ O "cavalo" pra montar AGORA — a reforma tributária
 

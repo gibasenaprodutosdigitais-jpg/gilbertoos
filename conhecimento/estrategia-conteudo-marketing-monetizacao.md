@@ -40,8 +40,8 @@ não para reuso:
 - Publica conteúdo no Instagram desde 2013, meio milhão de seguidores no
   TikTok, podcast semanal ("Spacecast"), cobra R$50–80 mil por palestra,
   vídeo com 4 milhões de visualizações em 24h, atuação citada em 94 países
-  e R$4,5 bi gerados para empresas. **Não confundir com o Kairos/Empreenda
-  Space do Gilberto Sena** — são pessoas e projetos diferentes.
+  e R$4,5 bi gerados para empresas. **Não atribuir esses dados do instrutor
+  ao Gilberto Sena.**
 
 ---
 
@@ -149,12 +149,11 @@ bônus, garantia 7 dias, FAQ) → checkout.
   mídia, palestra) — desde que preenchidos com prova/números reais do
   Gilberto Sena, não com os do instrutor do evento.
 - "Spacecast" é o podcast do *outro* Gilberto — não confundir nem cruzar
-  com o Kairos/Empreenda Space do Gilberto Sena.
+  com um podcast do Gilberto Sena.
 
 ## Ganchos de conteúdo (já saem prontos do próprio documento)
 
 - "A sua ausência abre preferência pra concorrência."
-- "Fé sem obra é fé morta. Rede sem negócio é rede morta." (ecoa o
-  posicionamento da Empreenda Business, ver `_memoria/posicionamento.md`)
+- "Fé sem obra é fé morta. Rede sem negócio é rede morta."
 - "Conteúdo é a amostra grátis. Se ninguém gosta da amostra, ninguém compra
   o produto completo."

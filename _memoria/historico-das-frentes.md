@@ -78,9 +78,6 @@ carrossel.
 ⚠ **Os nomes da família se escrevem SEM acento: Erica, Jessyka, Victor.**
 Confirmado por ele. Eu tinha posto com acento seguindo o `quem-e-gilberto.md`,
 que também foi corrigido, junto com o capítulo "As sete quedas" do livro.
-**Exceção: nos distratos da Empreenda ela assina como testemunha, com CPF,
-sob "Érica Fernanda Sena".** Em contrato a grafia tem que bater com o
-documento, e esses arquivos não foram tocados.
 
 ---
 
@@ -100,9 +97,8 @@ aparece "Computer is on battery power" como motivo de pular.
 
 ### A direção de arte, e as regras que ela segue
 
-**Editorial de revista**, Spectral + Barlow Condensed. Dois motivos: quem lê
-compara três ou quatro perfis num computador, e página de revista lê melhor
-que slide; e ele é CEO de uma revista de negócios.
+**Editorial**, Spectral + Barlow Condensed. A escolha priorizou a leitura de
+perfis em tela e uma composição mais confortável que a de slides.
 
 **Sem dourado, de propósito:** ele apareceu nas quatro peças anteriores dele.
 
