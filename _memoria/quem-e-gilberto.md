@@ -469,6 +469,11 @@ de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
 - Curso de Perícia Judicial — Escola de Perito, 30h, 20/07/2020.
 - Curso de Perícia Judicial — CONPEJ (Conselho Nacional dos Peritos
   Judiciais), 21h/aula, Rio de Janeiro, 13-16/07/2020.
+- **Registro de perito no CONPEJ: 01.00.3597**, especialidade Finanças/
+  Grafotecnia, filiado em 26/10/2020 (carteira funcional, frente e verso).
+  ⚠ **A validade impressa na carteira venceu em outubro/2021**; não há
+  carteira renovada no computador (conferido em 01/nov/2026). Não apresentar
+  como registro em dia sem ele confirmar a renovação.
 
 **Trilha "Tecnologia, Direito Digital e Propriedade Intelectual" (180h, 1º
 semestre/2020, rede Uniderp/Pitágoras/Anhanguera):** Direito, Ética e
