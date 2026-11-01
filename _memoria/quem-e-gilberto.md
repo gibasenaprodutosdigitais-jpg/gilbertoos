@@ -475,6 +475,12 @@ de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
   carteira renovada no computador (conferido em 01/nov/2026). Não apresentar
   como registro em dia sem ele confirmar a renovação.
 
+**Educação física: registro no CREF6/MG nº MG-007170**, categoria
+**Provisionado – Musculação**, situação **ATIVO** (consulta cadastral no site
+do CREF6/MG, foto da tela mandada por ele em 01/nov/2026). Provisionado é o
+registro por atuação comprovada na modalidade, não por graduação: em conteúdo,
+dizer "registrado no CREF na musculação", nunca "formado em Educação Física".
+
 **Trilha "Tecnologia, Direito Digital e Propriedade Intelectual" (180h, 1º
 semestre/2020, rede Uniderp/Pitágoras/Anhanguera):** Direito, Ética e
 Propriedade Intelectual (60h) + Direito Eletrônico (60h) + Tecnologias de
