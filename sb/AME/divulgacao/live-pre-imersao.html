@@ -26,6 +26,7 @@
   .p{display:flex;flex-direction:column;align-items:center}
   .p img{width:236px;height:300px;object-fit:cover;border:2px solid var(--ouro);box-shadow:0 18px 40px rgba(0,0,0,.45)}
   .p b{font-family:Georgia,serif;font-weight:400;font-size:27px;margin-top:16px}
+  .p span{margin-top:6px;font-size:19px;font-weight:500;letter-spacing:.04em;color:var(--ouro-claro)}
   .quando{margin-top:auto;width:100%;display:flex;align-items:center;justify-content:center;gap:44px;
           border-top:1px solid var(--linha);border-bottom:1px solid var(--linha);padding:24px 0}
   .data{font-family:Georgia,serif;font-size:104px;line-height:1;color:var(--ouro-claro)}
@@ -40,7 +41,8 @@
   .rodape{margin-top:20px;font-size:15px;letter-spacing:.28em;text-transform:uppercase;color:#9FB0C4}
 
   /* story: mais altura, tudo maior e com respiro */
-  body.story{padding:150px 80px 170px}
+  body.story{padding:130px 80px 150px}
+  body.story .dupla{margin-bottom:36px}
   body.story .vivo{font-size:22px;padding:14px 32px}
   body.story .logo{width:560px;margin-top:50px}
   body.story h1{font-size:84px;margin-top:44px}
@@ -48,6 +50,7 @@
   body.story .dupla{margin-top:56px;gap:40px}
   body.story .p img{width:300px;height:384px}
   body.story .p b{font-size:31px}
+  body.story .p span{font-size:23px;margin-top:8px}
   body.story .quando{padding:34px 0}
   body.story .data{font-size:140px}
   body.story .hora b{font-size:76px}
@@ -64,8 +67,8 @@
   <h1>Live de<br><em>pré-imersão</em></h1>
   <div class="sub">A agenda lota. O caixa não acompanha.</div>
   <div class="dupla">
-    <div class="p"><img src="../fotos/sena-ame.jpg" alt=""><b>Gilberto Sena</b></div>
-    <div class="p"><img src="../fotos/bittar-ame.jpg" alt=""><b>Dr. Stanley Bittar</b></div>
+    <div class="p"><img src="../fotos/sena-ame.jpg" alt=""><b>Gilberto Sena</b><span>@gilbertosenaoficial</span></div>
+    <div class="p"><img src="../fotos/bittar-ame.jpg" alt=""><b>Dr. Stanley Bittar</b><span>@stanleybittar</span></div>
   </div>
   <div class="quando">
     <div class="data">03/11</div>
