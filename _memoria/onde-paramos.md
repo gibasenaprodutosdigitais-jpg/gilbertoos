@@ -75,7 +75,8 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
     "+15 anos"). Na legenda, "teu/tua/contigo" virou "seu/sua/com você". Ver `sb/AME/divulgacao/reels-de-teste-2026-10-31/LEIA.md`.
   - **Banner da live de pré-imersão, 03/11 (terça) às 21h** (01/nov): feed e story em `sb/AME/divulgacao/live-pre-imersao-*.png`,
     com os dois. A live é **no Instagram do Dr. Stanley, @stanleybittar** (decisão e @ dele, 01/nov), com o @ de cada um embaixo da foto; botão
-    "Ative o lembrete". Pronto pra postar.
+    "Ative o lembrete". Pronto pra postar. As 12 perguntas do Stanley pra live estão em
+    `sb/AME/divulgacao/live-pre-imersao-perguntas.md`.
 - **Falta:**
   - ✅ Link de inscrição na bio do Instagram (ele confirmou em 30/out). Falta só o story e o WhatsApp, se ele quiser.
   - **Contratos: 3 modelos prontos em 30/out** em `sb/AME/contratos/` (termo de inscrição da imersão, Choque de Ordem e
