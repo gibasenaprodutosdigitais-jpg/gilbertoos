@@ -9,6 +9,7 @@ const PDFS = [
    { format: 'A4', margin: { top: '12mm', bottom: '12mm', left: '14mm', right: '14mm' } }],
   ['cracha/cracha.html', 'cracha/Imersao AME - Crachas.pdf', { format: 'A4', preferCSSPageSize: true }],
   ['certificado/certificado.html', 'certificado/Imersao AME - Certificado.pdf', { preferCSSPageSize: true }],
+  ['divulgacao/live-pre-imersao-perguntas.html', 'divulgacao/Live pre-imersao AME - Perguntas.pdf', { preferCSSPageSize: true }],
 ];
 const ARTES = [
   ['divulgacao/divulgacao.html', '', 1080, 1350, 'divulgacao/imersao-ame-feed.png'],
