@@ -13,6 +13,8 @@ const PDFS = [
 const ARTES = [
   ['divulgacao/divulgacao.html', '', 1080, 1350, 'divulgacao/imersao-ame-feed.png'],
   ['divulgacao/divulgacao.html', '?story', 1080, 1920, 'divulgacao/imersao-ame-story.png'],
+  ['divulgacao/live-pre-imersao.html', '', 1080, 1350, 'divulgacao/live-pre-imersao-feed.png'],
+  ['divulgacao/live-pre-imersao.html', '?story', 1080, 1920, 'divulgacao/live-pre-imersao-story.png'],
 ];
 
 (async () => {

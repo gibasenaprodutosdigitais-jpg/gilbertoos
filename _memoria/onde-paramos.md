@@ -73,6 +73,8 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
     Botox sem base; o segundo é eleição). No vídeo CRTV AME 3 ele fala em **cinco pilares**, mas o método é quatro.
   - **2º lote: 12 reels de teste publicados em 31/10 (~19h45)**, CRTV AME 5 a 16, os doze conferidos (é ele, sem preço,
     "+15 anos"). Na legenda, "teu/tua/contigo" virou "seu/sua/com você". Ver `sb/AME/divulgacao/reels-de-teste-2026-10-31/LEIA.md`.
+  - **Banner da live de pré-imersão, 03/11 (terça) às 21h** (01/nov): feed e story em `sb/AME/divulgacao/live-pre-imersao-*.png`,
+    com os dois e "Salve a data". Não diz a plataforma (Instagram? perfil de quem?) nem o link: perguntar se ele quiser pôr.
 - **Falta:**
   - ✅ Link de inscrição na bio do Instagram (ele confirmou em 30/out). Falta só o story e o WhatsApp, se ele quiser.
   - **Contratos: 3 modelos prontos em 30/out** em `sb/AME/contratos/` (termo de inscrição da imersão, Choque de Ordem e
