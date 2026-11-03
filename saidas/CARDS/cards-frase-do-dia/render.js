@@ -1,7 +1,9 @@
 const fs=require('fs'), path=require('path'), {chromium}=require('playwright');
 (async()=>{
   const dir=__dirname;
-  const frases=JSON.parse(fs.readFileSync(path.join(dir,'frases.json'),'utf8'));
+  // node render.js [arquivo.json] [dia...]: sem argumento usa frases.json; com dias, gera só esses
+  const arquivo=process.argv[2]||'frases.json', so=process.argv.slice(3);
+  const frases=JSON.parse(fs.readFileSync(path.join(dir,arquivo),'utf8')).filter(f=>!so.length||so.includes(f.dia));
   const base=fs.readFileSync(path.join(dir,'card.html'),'utf8');
   const browser=await chromium.launch();
   const page=await browser.newPage({viewport:{width:1160,height:1430}});
@@ -9,7 +11,7 @@ const fs=require('fs'), path=require('path'), {chromium}=require('playwright');
     const cls = f.frase.length>72 ? 'longa' : '';
     const html=base.replace('<div id="palco"></div>',`
       <div class="card">
-        <div class="foto" style="background-image:url('assets/foto.jpg')"></div>
+        <div class="foto" style="background-image:url('${f.foto||'assets/foto.jpg'}')"></div>
         <div class="faixa"></div>
         <div class="topo"><div class="dia">${f.rotulo}</div><div class="arroba">@gilbertosenaoficial</div></div>
         <div class="regua"></div>

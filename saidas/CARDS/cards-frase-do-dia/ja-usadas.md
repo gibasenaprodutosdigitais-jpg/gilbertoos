@@ -38,7 +38,28 @@ Anotar **no dia em que agenda**, não depois.
 | 05/nov | quinta | Nem todo crescimento é saudável. Expanda no ritmo que sua estrutura consegue sustentar. | ⏳ IG (`6ad54078…`) |
 | 06/nov | sexta | A coragem de rever uma decisão pode valer mais do que insistir nela. | ⏳ IG (`6ad54079…`) |
 | 07/nov | sábado | Cada processo que você organiza devolve tempo para pensar no futuro. | ⏳ IG (`6ad5407f…`) |
-| 30/nov | segunda | Termine o mês com uma conquista para celebrar e uma lição para levar adiante. | ⏳ IG (`6ad54080…`) |
+| 08/nov | domingo | O caixa sente primeiro o desconto que a venda comemora. | ⏳ IG (`6ae930d8…`), foto de terno |
+| 09/nov | segunda | Prazo dado ao cliente também é dinheiro da empresa que ficou esperando. | ⏳ IG (`6ae930fe…`), foto de terno |
+| 10/nov | terça | Sociedade boa não evita divergência; deixa claro como decidir quando ela aparecer. | ⏳ IG (`6ae930ff…`), foto de terno |
+| 11/nov | quarta | Faturamento inicia a conversa. A margem mostra se o serviço valeu o esforço. | ⏳ IG (`6ae93100…`), foto de terno |
+| 12/nov | quinta | A equipe não lê a mente do dono. O combinado precisa caber numa instrução concreta. | ⏳ IG (`6ae93101…`), foto de terno |
+| 13/nov | sexta | Se todo caminho de decisão passa pelo dono, o próximo gargalo já tem nome. | ⏳ IG (`6ae93102…`), foto de terno |
+| 14/nov | sábado | Fornecedor pago no prazo também faz parte da reputação de uma empresa. | ⏳ IG (`6ae93103…`), foto de terno |
+| 15/nov | domingo | O cliente percebe quando a empresa promete antes de saber se consegue cumprir. | ⏳ IG (`6ae93104…`), foto de terno |
+| 16/nov | segunda | Uma planilha correta também pode chegar tarde demais para ajudar. | ⏳ IG (`6ae93105…`), foto de terno |
+| 17/nov | terça | Alíquota menor não corrige uma operação mal precificada. | ⏳ IG (`6ae93107…`), foto de terno |
+| 18/nov | quarta | Serviço vendido e serviço entregue são duas etapas. O caixa precisa atravessar as duas. | ⏳ IG (`6ae93108…`), foto de terno |
+| 19/nov | quinta | Retrabalho, desconto e atraso parecem pequenos até aparecerem juntos no resultado. | ⏳ IG (`6ae93130…`), foto de terno |
+| 20/nov | sexta | O contrato importante é aquele que também explica o que fazer quando algo sai errado. | ⏳ IG (`6ae93131…`), foto de terno |
+| 21/nov | sábado | A empresa mostra seu padrão quando precisa corrigir uma falha diante do cliente. | ⏳ IG (`6ae93132…`), foto de terno |
+| 22/nov | domingo | Ocupação não prova avanço. Às vezes, a decisão mais importante continua esperando. | ⏳ IG (`6ae93133…`), foto de terno |
+| 23/nov | segunda | Reunião longa é fácil. Difícil é sair com responsável e prazo definidos. | ⏳ IG (`6ae93135…`), foto de terno |
+| 24/nov | terça | Saldo positivo não é sinal verde para retirada. Parte desse dinheiro já pode ter destino. | ⏳ IG (`6ae93136…`), foto de terno |
+| 25/nov | quarta | O melhor vendedor da empresa também pode virar o limite da entrega. | ⏳ IG (`6ae93137…`), foto de terno |
+| 26/nov | quinta | Lucro que não vira reserva deixa a empresa exposta ao primeiro mês ruim. | ⏳ IG (`6ae93138…`), foto de terno |
+| 27/nov | sexta | A reforma chega à empresa pelo preço, pelo crédito e pelo caixa. | ⏳ IG (`6ae93139…`), foto de terno |
+| 28/nov | sábado | Todo número pede uma pergunta. Sem ela, relatório é só papel preenchido. | ⏳ IG (`6ae9313b…`), foto de terno |
+| 30/nov | segunda | Termine o mês com uma conquista para celebrar e uma lição para levar adiante. | ⏳ IG (`6ad54080…`), card refeito com a foto de terno em 2/nov |
 
 **18/out: a frase do dia passou a sair todos os dias, inclusive sábado e domingo** (pedido dele: *"altere a frase do
 dia para todos os dias assim como proverbios"*). As 11 frases que ele mandou em 18/out ("Dia 21" a "Dia 31") foram
@@ -50,4 +71,5 @@ pro **30/11**, porque em 31/10 ela repetiria a ideia do Provérbios do mesmo dia
 
 ## ⏭ Próximo pedido
 
-**Faltam as frases de 8 a 29 de novembro: 22 dias** (agora todo dia, não só dia útil). Nenhuma pode estar nesta tabela.
+**29/nov está vazio.** A frase que veio pra ele ("O cliente talvez esqueça o discurso. Ele lembra do problema que você
+resolveu.") quase repete a de 25/out e foi segurada em 2/nov. Falta ele mandar outra. Depois, **dezembro inteiro**.

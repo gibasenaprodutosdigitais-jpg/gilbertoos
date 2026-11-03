@@ -18,6 +18,14 @@ Precisa de `NODE_PATH` apontando pra `scripts/node_modules`.
 
 ## A foto
 
+**Desde 8/nov/2026: a foto de terno azul, de braços cruzados** (pedido dele em 2/nov, também no card de 30/11).
+Original em `assets/foto-novembro-original.jpg` (chegou comprimida pelo chat, 726 px; se ele mandar o arquivo
+original, refazer), assentada por `assets/assentar-foto-novembro.html` em `assets/foto-novembro.jpg`. As frases de
+8 a 30/11 estão em `frases-novembro.json` (com legenda e ID da Zernio) e geram com
+`node render.js frases-novembro.json`; os cards prontos estão em `jpg-novembro/`.
+
+A foto de outubro, descrita abaixo, é a de quem aponta:
+
 `assets/foto.jpg`, já tratada: a figura foi recortada do topo da cabeça até
 abaixo das mãos e assentada numa tela 4:5 com folga preta em cima, que é onde
 o texto entra. **As duas mãos apontando precisam aparecer inteiras**, é o

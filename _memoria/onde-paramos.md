@@ -23,7 +23,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 | Frente | Onde está | O que falta |
 |---|---|---|
 | **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 16 reels de teste publicados (4 em 29/out, 12 em 31/out), regras CFM/CFO levantadas | advogado conferir os 3 contratos e as regras CFM/CFO, custo da hora e casos dele pros slides, logo original (link na bio ✅, reserva ✅) |
-| **Fila do Instagram** | Provérbios até 30/11, frase até 7/11 e 30/11, carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); 22 frases (8 a 29/11); foto de dezembro do Provérbios |
+| **Fila do Instagram** | Provérbios até 30/11, frase do dia até 28/11 e em 30/11 (foto nova de terno desde 8/11), carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); frase de 29/11 (a dele quase repetia a de 25/out); foto de dezembro do Provérbios |
 | **YouTube** | 3 por dia (10h, 16h, 19h) desde 3/11: 16 reels da AME até 8/11 10h + 8 cortes do carro até **10/11 19h** | vídeo novo depois de 10/11 (o acervo das gravações longas e os reels da AME acabaram) |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
@@ -124,8 +124,8 @@ o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pag
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
 
 **Instagram: 4 posts por dia desde 19/out (5h Provérbios, 9h frase, 12h reel novo, 18h carrossel; o carrossel era às 20h até 21/out), todos os dias:
-a frase do dia passou a sair também no fim de semana (pedido dele, 18/out).** Frase agendada até 7/11 e em 30/11;
-faltam 22 (8 a 29/11). YouTube: 3 reels por dia (10h, 16h, 19h, desde 3/11), coberto até 10/11 às 19h. Tudo em `cronograma-de-postagens.md`.
+a frase do dia passou a sair também no fim de semana (pedido dele, 18/out).** Frase agendada até 28/11 e em 30/11
+(as de 8 a 28/11 entraram em 2/nov, com a foto nova de terno); falta só 29/11. YouTube: 3 reels por dia (10h, 16h, 19h, desde 3/11), coberto até 10/11 às 19h. Tudo em `cronograma-de-postagens.md`.
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
@@ -330,7 +330,7 @@ pra movimentar o canal. O TikTok ficou como estava.
 | Hora (Brasília) | O quê | Situação |
 |---|---|---|
 | **5h** | Provérbios | ✅ até **30/11** (novembro agendado em 28/out) |
-| **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 7/11 e em 30/11; faltam 8 a 29/11 |
+| **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 28/11 e em 30/11 (foto de terno desde 8/11); falta 29/11 |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
 | **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 14/11; **de 15/11 em diante, 1 por dia** |
 
