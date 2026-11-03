@@ -20,7 +20,8 @@ Uma frase **por dia, todos os dias, inclusive sábado e domingo** (desde 18/out/
 **Ele manda as frases em lote**, e
 nenhuma delas pode ter saído antes.
 
-A foto continua a mesma: ele de suéter preto, apontando. Só o texto muda.
+A foto é fixa e só o texto muda. **Desde 8/nov/2026 é ele de terno azul, de braços cruzados** (escolha dele em 2/nov,
+vale também pro card de 30/11); até 7/11 era ele de suéter preto, apontando. Detalhe no `README.md` da série.
 
 **Nunca agendar mais de uma semana à frente.** Se as frases da semana seguinte
 ainda não chegaram, a grade para na sexta e eu peço o conjunto novo.

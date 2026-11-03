@@ -35,9 +35,9 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | Frase do dia das 9h | **1/12** | frases de dezembro; novembro fechado em 2/nov, com a foto de terno desde 8/11 |
 | YouTube | **11/11 às 10h** | 3 por dia (10h, 16h, 19h): os 16 reels da AME até 8/11 10h e os cortes do carro até 10/11 19h (`sb/AME/divulgacao/reels-no-youtube-2026-11-02/`); depois precisa de vídeo novo |
 
-## Post a post (lido da fila da Zernio em 02/nov, 21h40)
+## Post a post (lido da fila da Zernio em 02/nov, 22h10)
 
-121 publicações de 3/11 a 3/12. O registro post a post de 18/out (o que já saiu) está no histórico do git.
+143 publicações de 3/11 a 3/12, já com as frases do dia de 8 a 29/11 (foto de terno). O registro post a post de 18/out (o que já saiu) está no histórico do git.
 
 | Dia | Hora | Onde | O quê | Começo do texto |
 |---|---|---|---|---|
@@ -93,6 +93,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 07/11 sáb | 19h00 | YouTube | reels | A teoria não fecha o caixa |
 | 08/11 dom | 05h00 | Instagram | Provérbios | O conhecimento pode abrir portas, mas a sabedoria ensina quais portas … |
 | 08/11 dom | 06h00 | TikTok | reels | Vender a qualquer custo começa a pecar na qualidade. E o que manda de … |
+| 08/11 dom | 09h00 | Instagram | frase do dia | O caixa sente primeiro o desconto que a venda comemora. |
 | 08/11 dom | 10h00 | YouTube | reels | Chega de conversinha de mentoria |
 | 08/11 dom | 12h00 | Instagram | reels | O que falta na humanidade hoje é paternidade. Não de ser pai, de ser p… |
 | 08/11 dom | 12h00 | TikTok | reels | Eu desconheço outra forma de prosperar a não ser empreendendo. Quem mo… |
@@ -102,6 +103,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 08/11 dom | 19h00 | YouTube | reels | O profissional que só quer o honorário |
 | 09/11 seg | 05h00 | Instagram | Provérbios | A vida oferece caminhos diferentes todos os dias; amadurecer é reconhe… |
 | 09/11 seg | 06h00 | TikTok | reels | "O sucesso dos maus é o silêncio dos bons." Hoje isso é a regra. |
+| 09/11 seg | 09h00 | Instagram | frase do dia | Prazo dado ao cliente também é dinheiro da empresa que ficou esperando… |
 | 09/11 seg | 10h00 | YouTube | reels | Network de verdade não é troca de cartão |
 | 09/11 seg | 12h00 | Instagram | reels | Quem não sabe precificar, quebra. |
 | 09/11 seg | 12h00 | TikTok | reels | O que faltou? Contrato. |
@@ -109,52 +111,72 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 09/11 seg | 18h00 | Instagram | carrossel | 60% de redução, só que não. O desconto da reforma tributária na educaç… |
 | 09/11 seg | 19h00 | YouTube | reels | O medo está paralisando o empresário |
 | 10/11 ter | 05h00 | Instagram | Provérbios | O caráter aparece naquilo que fazemos quando ninguém está olhando, e o… |
+| 10/11 ter | 09h00 | Instagram | frase do dia | Sociedade boa não evita divergência; deixa claro como decidir quando e… |
 | 10/11 ter | 10h00 | YouTube | reels | Você fatura 300 mil e paga 600 reais de contador |
 | 10/11 ter | 12h00 | Instagram | reels | Eu aluguei um Tiguan por dois dias. Foi caro, mas foi investimento. |
 | 10/11 ter | 16h00 | YouTube | reels | Antes de se chamar empresário, comece como afiliado |
 | 10/11 ter | 18h00 | Instagram | carrossel | Quase ninguém fala de biomedicina quando o assunto é reforma tributári… |
 | 10/11 ter | 19h00 | YouTube | reels | A culpa não é do governo |
 | 11/11 qua | 05h00 | Instagram | Provérbios | Ganhar às custas da própria consciência é perder aquilo que nenhum din… |
+| 11/11 qua | 09h00 | Instagram | frase do dia | Faturamento inicia a conversa. A margem mostra se o serviço valeu o es… |
 | 11/11 qua | 12h00 | Instagram | reels | Um dos maiores erros do empresário: misturar o dinheiro da empresa com… |
 | 11/11 qua | 18h00 | Instagram | carrossel | Se você vende em marketplace ou loja online, a reforma tributária vai … |
 | 12/11 qui | 05h00 | Instagram | Provérbios | Quem aceita ser corrigido transforma seus erros em professores; quem r… |
+| 12/11 qui | 09h00 | Instagram | frase do dia | A equipe não lê a mente do dono. O combinado precisa caber numa instru… |
 | 12/11 qui | 12h00 | Instagram | reels | Em 2024 eu atendi vários empresários nessa mesa. Hoje, 90% quebraram. |
 | 12/11 qui | 18h00 | Instagram | carrossel | Se você presta serviço e não é profissão regulamentada (sem conselho d… |
 | 13/11 sex | 05h00 | Instagram | Provérbios | Resultados duradouros exigem constância: não abandone um projeto bem d… |
+| 13/11 sex | 09h00 | Instagram | frase do dia | Se todo caminho de decisão passa pelo dono, o próximo gargalo já tem n… |
 | 13/11 sex | 12h00 | Instagram | reels | Traz um contrato com R$ 10 milhões de multa. Eu assino. |
 | 13/11 sex | 18h00 | Instagram | carrossel | O IPI não morreu, virou escudo pra Zona Franca de Manaus. E quase ning… |
 | 14/11 sáb | 05h00 | Instagram | Provérbios | Cada atitude dentro de casa e cada decisão fora dela ajudam a construi… |
+| 14/11 sáb | 09h00 | Instagram | frase do dia | Fornecedor pago no prazo também faz parte da reputação de uma empresa. |
 | 14/11 sáb | 12h00 | Instagram | reels | Você acha que o dinheiro é seu. E o dinheiro não é seu. |
 | 14/11 sáb | 18h00 | Instagram | carrossel | Quem vende online tá lendo sobre alíquota e esquecendo do que realment… |
 | 15/11 dom | 05h00 | Instagram | Provérbios | Uma resposta serena pode impedir uma guerra desnecessária; controlar a… |
+| 15/11 dom | 09h00 | Instagram | frase do dia | O cliente percebe quando a empresa promete antes de saber se consegue … |
 | 15/11 dom | 12h00 | Instagram | reels | De R$ 300 mil por mês, numa mesa de café, a R$ 5,5 milhões em três ano… |
 | 16/11 seg | 05h00 | Instagram | Provérbios | Planeje com responsabilidade, execute com coragem e mantenha o coração… |
+| 16/11 seg | 09h00 | Instagram | frase do dia | Uma planilha correta também pode chegar tarde demais para ajudar. |
 | 16/11 seg | 12h00 | Instagram | reels | De que vale uma Ferrari nas ruas de pedra de Ouro Preto? Você vai acel… |
 | 17/11 ter | 05h00 | Instagram | Provérbios | A riqueza de uma relação não está na ausência de conflitos, mas na dis… |
+| 17/11 ter | 09h00 | Instagram | frase do dia | Alíquota menor não corrige uma operação mal precificada. |
 | 17/11 ter | 12h00 | Instagram | reels | "Eu fiz, eu faço de novo. É do meu jeito." O pior pilar de um negócio … |
 | 18/11 qua | 05h00 | Instagram | Provérbios | Antes de falar, considere o peso das suas palavras: elas podem restaur… |
+| 18/11 qua | 09h00 | Instagram | frase do dia | Serviço vendido e serviço entregue são duas etapas. O caixa precisa at… |
 | 18/11 qua | 12h00 | Instagram | reels | Pejotização: o empresário é o espertão e, lá na frente, a conta vem tr… |
 | 19/11 qui | 05h00 | Instagram | Provérbios | Não permita que a pressa escolha por você; decisões importantes merece… |
+| 19/11 qui | 09h00 | Instagram | frase do dia | Retrabalho, desconto e atraso parecem pequenos até aparecerem juntos n… |
 | 19/11 qui | 12h00 | Instagram | reels | O vizinho montou uma empresa de crepe e está vendendo muito. Aí o cara… |
 | 20/11 sex | 05h00 | Instagram | Provérbios | Seu verdadeiro caráter não é medido pelo que promete em dias fáceis, m… |
+| 20/11 sex | 09h00 | Instagram | frase do dia | O contrato importante é aquele que também explica o que fazer quando a… |
 | 20/11 sex | 12h00 | Instagram | reels | Foi assim que eu comecei: achando um bug da Matrix na conta de telefon… |
 | 21/11 sáb | 05h00 | Instagram | Provérbios | Deus não se impressiona apenas com aquilo que mostramos ao mundo; a ju… |
+| 21/11 sáb | 09h00 | Instagram | frase do dia | A empresa mostra seu padrão quando precisa corrigir uma falha diante d… |
 | 21/11 sáb | 12h00 | Instagram | reels | Se você fez R$ 3.000 uma vez, esquece: esse cliente nunca mais vai pag… |
 | 22/11 dom | 05h00 | Instagram | Provérbios | Construa uma reputação que não dependa de aparência ou ostentação, mas… |
+| 22/11 dom | 09h00 | Instagram | frase do dia | Ocupação não prova avanço. Às vezes, a decisão mais importante continu… |
 | 22/11 dom | 12h00 | Instagram | reels | Ele salvou a empresa. E no final ouviu que não fez nada. |
 | 23/11 seg | 05h00 | Instagram | Provérbios | Nem tudo o que você pode conquistar merece sua dedicação; aprenda a di… |
+| 23/11 seg | 09h00 | Instagram | frase do dia | Reunião longa é fácil. Difícil é sair com responsável e prazo definido… |
 | 23/11 seg | 12h00 | Instagram | reels | Não saia da operação. Saia do operacional. |
 | 24/11 ter | 05h00 | Instagram | Provérbios | Cair não define sua história; levantar com aprendizado, corrigir a rot… |
+| 24/11 ter | 09h00 | Instagram | frase do dia | Saldo positivo não é sinal verde para retirada. Parte desse dinheiro j… |
 | 24/11 ter | 12h00 | Instagram | reels | O imposto tem que ser pago. Isso é bíblico. |
 | 25/11 qua | 05h00 | Instagram | Provérbios | Nem toda conquista precisa ser anunciada, nem toda verdade precisa ser… |
+| 25/11 qua | 09h00 | Instagram | frase do dia | O melhor vendedor da empresa também pode virar o limite da entrega. |
 | 25/11 qua | 12h00 | Instagram | reels | Se eu tivesse a lâmpada do Aladim, eu ia pedir pra voltar três anos at… |
 | 26/11 qui | 05h00 | Instagram | Provérbios | Nem toda provocação merece resposta e nem toda discussão merece sua en… |
+| 26/11 qui | 09h00 | Instagram | frase do dia | Lucro que não vira reserva deixa a empresa exposta ao primeiro mês rui… |
 | 26/11 qui | 12h00 | Instagram | reels | O processo de contratação não começa na entrevista. Começa meses antes… |
 | 27/11 sex | 05h00 | Instagram | Provérbios | Cerque-se de pessoas que tenham coragem de apontar seus erros com sinc… |
+| 27/11 sex | 09h00 | Instagram | frase do dia | A reforma chega à empresa pelo preço, pelo crédito e pelo caixa. |
 | 27/11 sex | 12h00 | Instagram | reels | É claro que muita empresa vai quebrar. E vai ser por culpa do empresár… |
 | 28/11 sáb | 05h00 | Instagram | Provérbios | A consciência tranquila nasce da coragem de agir corretamente, mesmo q… |
+| 28/11 sáb | 09h00 | Instagram | frase do dia | Todo número pede uma pergunta. Sem ela, relatório é só papel preenchid… |
 | 28/11 sáb | 12h00 | Instagram | reels | Não quer pagar treinamento pro seu funcionário? Acostume-se a pagar 2 … |
 | 29/11 dom | 05h00 | Instagram | Provérbios | Liderar não é exigir obediência pelo medo; é exercer autoridade com ju… |
+| 29/11 dom | 09h00 | Instagram | frase do dia | Resultado financeiro importa. O modo como a empresa trata as pessoas m… |
 | 29/11 dom | 12h00 | Instagram | reels | Vender a qualquer custo começa a pecar na qualidade. E o que manda de … |
 | 30/11 seg | 05h00 | Instagram | Provérbios | Quanto mais compreendemos a grandeza da vida, mais percebemos os limit… |
 | 30/11 seg | 09h00 | Instagram | frase do dia | Termine o mês com uma conquista para celebrar e uma lição para levar a… |
