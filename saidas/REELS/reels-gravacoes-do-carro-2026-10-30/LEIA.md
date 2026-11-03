@@ -2,7 +2,7 @@
 
 Vieram das 3 gravações longas no carro (`entrada-videos/longos/`: IMG_3256, IMG_3271, IMG_3304_2), triadas em 14/out
 (`saidas/_CONTROLE/_triagem-gravacoes-longas-2026-10-14.md`). Ele mandou montar e agendar em 30/out.
-**Só YouTube**, 5 por dia (7h, 10h, 13h, 16h, 19h), de 30/10 às 13h a 2/11; **desde 3/11, 3 por dia (10h, 16h, 19h)**, pedido dele em 2/nov, e os 8 últimos foram até 5/11 às 16h. Vídeos em `videos/`, fora do git.
+**Só YouTube**, 5 por dia (7h, 10h, 13h, 16h, 19h), de 30/10 às 13h a 2/11; **desde 3/11, 3 por dia (10h, 16h, 19h)**, pedido dele em 2/nov, e os 8 últimos foram pra **8/11 16h a 10/11 19h**, depois dos 16 reels da AME, que ele mandou adiantar. Vídeos em `videos/`, fora do git.
 
 ## Agendados
 
@@ -26,14 +26,14 @@ Vieram das 3 gravações longas no carro (`entrada-videos/longos/`: IMG_3256, IM
 | 02/11 13h | O que é recuperação judicial de verdade | 79 s | `6ae42f5d59f5e19f1c6a1c7b` |
 | 02/11 16h | O contador que cobra 300 reais | 75 s | `6ae42f5f59f5e19f1c6a1c9d` |
 | 02/11 19h | Eu vivi a era Collor | 71 s | `6ae42899dd0dac70d03332c7` |
-| 03/11 10h | 100 clientes, 100 segmentos diferentes | 32 s | `6ae4289bdd0dac70d03332cf` |
-| 03/11 16h | O profissional que só quer o honorário | 44 s | `6ae42f6159f5e19f1c6a1cc1` |
-| 03/11 19h | Network de verdade não é troca de cartão | 68 s | `6ae42f7959f5e19f1c6a1cfc` |
-| 04/11 10h | Sem conhecimento você não entende Provérbios | 49 s | `6ae42f7cdf9cad670bba7ccd` |
-| 04/11 16h | O medo está paralisando o empresário | 26 s | `6ae42f7edf9cad670bba7cd9` |
-| 04/11 19h | Você fatura 300 mil e paga 600 reais de contador | 38 s | `6ae42f80df9cad670bba7cf9` |
-| 05/11 10h | Antes de se chamar empresário, comece como afiliado | 68 s | `6ae42f82df9cad670bba7d1b` |
-| 05/11 16h | A culpa não é do governo | 58 s | `6ae42f84df9cad670bba7d29` |
+| 08/11 16h | 100 clientes, 100 segmentos diferentes | 32 s | `6ae4289bdd0dac70d03332cf` |
+| 08/11 19h | O profissional que só quer o honorário | 44 s | `6ae42f6159f5e19f1c6a1cc1` |
+| 09/11 10h | Network de verdade não é troca de cartão | 68 s | `6ae42f7959f5e19f1c6a1cfc` |
+| 09/11 16h | Sem conhecimento você não entende Provérbios | 49 s | `6ae42f7cdf9cad670bba7ccd` |
+| 09/11 19h | O medo está paralisando o empresário | 26 s | `6ae42f7edf9cad670bba7cd9` |
+| 10/11 10h | Você fatura 300 mil e paga 600 reais de contador | 38 s | `6ae42f80df9cad670bba7cf9` |
+| 10/11 16h | Antes de se chamar empresário, comece como afiliado | 68 s | `6ae42f82df9cad670bba7d1b` |
+| 10/11 19h | A culpa não é do governo | 58 s | `6ae42f84df9cad670bba7d29` |
 
 ## Como foram feitos
 
