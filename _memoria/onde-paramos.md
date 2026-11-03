@@ -115,8 +115,8 @@ alimentando aos poucos — ver a seção logo abaixo.
 assinada está na Downloads. Em `juridico/exito/` (só no notebook, fora do GitHub: decisão dele em 27/out) estão o estatuto e as duas cartas (a de afastamento temporário, art. 23, não
 foi usada). ⚠ Se a saída se confirmar, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
-**Carrosséis: fila fechada até 14/11, 1 por dia às 18h** (4 a 14/11 entraram em 30/out) (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **15/11**. Da série dos 5 Gs, o 1, o 2 e o 3 já saíram (22, 25 e 26/10); faltam
-**4 Tributária (1/11, prazos refeitos em 18/out)** e 5 Fornecedores (2/11). Segurados: o Representante Comercial (prazo de setembro);
+**Carrosséis: fila fechada até 14/11, 1 por dia às 18h** (4 a 14/11 entraram em 30/out) (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **15/11**. **A série dos 5 Gs está completa:** saíram 22, 25 e 26/10, a 4 Tributária em 1/11 e a 5 Fornecedores em 2/11
+(conferido na Zernio). Segurados: o Representante Comercial (prazo de setembro);
 o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito,
 **decisão dele**). Lista em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
 (A regra dos 7 cards foi pedida e **revogada por ele em 16/out**; o número de slides volta a depender da peça, de 5 a 10.)
