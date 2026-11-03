@@ -24,7 +24,7 @@ citações literais do Gilberto.
 | 23/11 | segunda-feira | Reunião longa é fácil. Difícil é sair com responsável e prazo definidos. |
 | 24/11 | terça-feira | Saldo positivo não é sinal verde para retirada. Parte desse dinheiro já pode ter destino. |
 | 25/11 | quarta-feira | O melhor vendedor da empresa também pode virar o limite da entrega. |
-| 26/11 | quinta-feira | Lucro que não vira reserva deixa a empresa exposta ao primeiro mês ruim. |
+| 26/11 | quinta-feira | Resultado financeiro importa. O modo como a empresa trata as pessoas mostra o que esse resultado está custando. |
 | 27/11 | sexta-feira | A reforma chega à empresa pelo preço, pelo crédito e pelo caixa. |
 | 28/11 | sábado | Todo número pede uma pergunta. Sem ela, relatório é só papel preenchido. |
 | 29/11 | domingo | O cliente talvez esqueça o discurso. Ele lembra do problema que você resolveu. |
