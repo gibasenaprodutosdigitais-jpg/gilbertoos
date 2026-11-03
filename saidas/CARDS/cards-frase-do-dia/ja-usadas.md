@@ -59,6 +59,7 @@ Anotar **no dia em que agenda**, não depois.
 | 26/nov | quinta | Lucro que não vira reserva deixa a empresa exposta ao primeiro mês ruim. | ⏳ IG (`6ae93138…`), foto de terno |
 | 27/nov | sexta | A reforma chega à empresa pelo preço, pelo crédito e pelo caixa. | ⏳ IG (`6ae93139…`), foto de terno |
 | 28/nov | sábado | Todo número pede uma pergunta. Sem ela, relatório é só papel preenchido. | ⏳ IG (`6ae9313b…`), foto de terno |
+| 29/nov | domingo | Resultado financeiro importa. O modo como a empresa trata as pessoas mostra o que esse resultado está custando. | ⏳ IG (`6ae931f4…`), foto de terno |
 | 30/nov | segunda | Termine o mês com uma conquista para celebrar e uma lição para levar adiante. | ⏳ IG (`6ad54080…`), card refeito com a foto de terno em 2/nov |
 
 **18/out: a frase do dia passou a sair todos os dias, inclusive sábado e domingo** (pedido dele: *"altere a frase do
@@ -71,5 +72,4 @@ pro **30/11**, porque em 31/10 ela repetiria a ideia do Provérbios do mesmo dia
 
 ## ⏭ Próximo pedido
 
-**29/nov está vazio.** A frase que veio pra ele ("O cliente talvez esqueça o discurso. Ele lembra do problema que você
-resolveu.") quase repete a de 25/out e foi segurada em 2/nov. Falta ele mandar outra. Depois, **dezembro inteiro**.
+**Novembro fechado (2/nov).** Próximas: as frases de dezembro, e decidir se a foto de terno continua.

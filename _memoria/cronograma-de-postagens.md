@@ -32,7 +32,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 |---|---|---|
 | Carrossel das 18h | **15/11** | 1 por dia. Os de 4 a 14/11 entraram em 30/out; não sobrou nenhum pronto (ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`) |
 | Provérbios das 5h | **1/12** | foto de dezembro (e saber se vêm frases novas) |
-| Frase do dia das 9h | **29/11** | 1 frase (a que veio quase repetia a de 25/out); de 8 a 28/11 entraram em 2/nov, com a foto de terno |
+| Frase do dia das 9h | **1/12** | frases de dezembro; novembro fechado em 2/nov, com a foto de terno desde 8/11 |
 | YouTube | **11/11 às 10h** | 3 por dia (10h, 16h, 19h): os 16 reels da AME até 8/11 10h e os cortes do carro até 10/11 19h (`sb/AME/divulgacao/reels-no-youtube-2026-11-02/`); depois precisa de vídeo novo |
 
 ## Post a post (lido da fila da Zernio em 02/nov, 21h40)
