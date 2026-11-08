@@ -37,6 +37,12 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 
 **SB (19/out): o projeto SBS virou SB, Sena e Bittar.** Ver a seção 1.
 
+**★ 8/nov: a AME muda de plano (palavra dele).** Deixa de ser "imersão e consultorias" e vira **um negócio de
+assessoria completa** para a saúde em geral: médicos, dentistas, clínicas de estética, hospitais-dia e qualquer
+consultório. Entrega gestão financeira, contabilidade, jurídico e, principalmente, a **estrutura tributária** ("um dos
+pilares que mais impactam no caixa"), mais gestão, marketing, vendas e escala. Quem entrega: **ele, o Stanley e o Grupo
+Sena**, pra toda a base de clientes. **Em aberto:** se a imersão de 14 e 15/nov continua (como porta de entrada) ou cai.
+
 **Imersão AME, 14 e 15/nov/2026, São Paulo** (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).
 Gilberto e Dr. Stanley, os quatro pilares para clínicas e consultórios médicos, odontológicos e de estética. **Tudo da
 imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
