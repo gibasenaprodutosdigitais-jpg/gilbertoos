@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Quiz Imersão AME</title>
+<title>Assessoria AME · Ficha de interesse</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Montserrat:wght@400;500;600&display=swap">
 <style>
-  /* Quiz de interesse da Imersão AME: uma pergunta por tela, pensado pro
-     celular. Cores da logo: azul-noite, dourado e prata. A página é escura
-     nos dois temas, de propósito: é peça do evento. */
+  /* Ficha de interesse da assessoria AME (até 8/nov/2026 era o quiz da Imersão AME, que foi
+     cancelada). Uma pergunta por tela, pensado pro celular. Cores da logo: azul-noite, dourado
+     e prata. A página é escura nos dois temas, de propósito: é peça da marca. */
   :root{
     --fundo:#081421; --noite:#0C1A2E; --carta:#112741; --borda:#23405F;
     --tinta:#F2EFE8; --fraca:#9FB0C4; --ouro:#C9A24B; --ouro-claro:#E2C489;
@@ -84,9 +84,10 @@
   <!-- 0. abertura -->
   <section class="tela ativa" data-tela="0">
     <img class="logo-grande" src="ame-logo.png" alt="AME: Administração, Marketing e Escala · Medicina, Odontologia, Estética">
-    <p class="eyebrow centro">Imersão presencial · 14 e 15 de novembro · São Paulo</p>
+    <p class="eyebrow centro">Assessoria AME · Medicina, Odontologia e Estética</p>
     <h1>A agenda lota.<br><em>O caixa não acompanha.</em></h1>
-    <p class="sub centro">Seis perguntas rápidas sobre você e o seu negócio. Leva um minuto.</p>
+    <p class="sub centro">Gestão financeira, contabilidade, jurídico e a estrutura tributária da sua clínica ou consultório, com Gilberto Sena, o Dr. Stanley Bittar e o Grupo Sena.</p>
+    <p class="sub centro">Seis perguntas rápidas pra gente entender o seu momento. Leva um minuto.</p>
     <div class="acoes"><button class="ir" type="button" data-ir>Começar</button></div>
   </section>
 
@@ -167,12 +168,12 @@
 
   <!-- 7. fim -->
   <section class="tela" data-tela="7">
-    <p class="eyebrow">Imersão AME</p>
+    <p class="eyebrow">Assessoria AME</p>
     <h2>Obrigado, <em id="primeiro-nome"></em>.</h2>
     <div id="fim"></div>
   </section>
 
-  <div class="rodape">Imersão AME · Realização SB, Sena e Bittar</div>
+  <div class="rodape">Assessoria AME · Gilberto Sena, Dr. Stanley Bittar e Grupo Sena</div>
 </div>
 
 <script>
@@ -184,13 +185,14 @@
   // Link do App da Web do Google Apps Script (google/Codigo.gs). Vazio = não manda pro Google Sheets.
   const PLANILHA_URL = "https://script.google.com/macros/s/AKfycbzi2_w3ChTVhBwVVp5Qjz2li97NuKrw7F-8eeU1oEAFhM0gLd4rZtVecHGqvBfiOt02iA/exec";
 
-  // Pra onde cada faixa de faturamento vai depois de enviar.
-  // venda = página de vendas do ingresso; obrigado = página de obrigado.
-  const DESTINO_POR_FAIXA = {     // decidido por ele em 27/out: A e B obrigado, C e D vendas
+  // Pra onde cada faixa de faturamento vai depois de enviar. Desde 8/nov todas vão pro obrigado:
+  // a página de vendas era do ingresso da imersão, que foi cancelada. A separação por faixa
+  // continua nas duas planilhas do Google.
+  const DESTINO_POR_FAIXA = {
     "Até R$ 30 mil": "obrigado",
     "De R$ 30 mil a R$ 70 mil": "obrigado",
-    "De R$ 70 mil a R$ 120 mil": "venda",
-    "Acima de R$ 120 mil": "venda"
+    "De R$ 70 mil a R$ 120 mil": "obrigado",
+    "Acima de R$ 120 mil": "obrigado"
   };
 
   const telas = Array.from(document.querySelectorAll(".tela"));
@@ -280,7 +282,7 @@
 
   function texto(){
     return [
-      "IMERSÃO AME · QUIZ",
+      "ASSESSORIA AME · FICHA DE INTERESSE",
       "Nome: " + r.nome,
       "WhatsApp: " + r.whatsapp,
       "Instagram: @" + r.instagram,
@@ -296,7 +298,7 @@
     const botao = document.getElementById("enviar"); botao.disabled = true;
     let gravou = false;
     try{
-      const corpo = JSON.stringify(Object.assign({}, r, {versao:"quiz-ame-site-1"}));
+      const corpo = JSON.stringify(Object.assign({}, r, {versao:"ficha-assessoria-ame-1"}));
       let planilha = false, local = false;
       // 1. Google Sheets: o Apps Script separa em "Acima de R$ 70 mil" e "Até R$ 70 mil".
       //    no-cors + text/plain: o Google não deixa ler a resposta, só confirmar que saiu.
@@ -328,9 +330,9 @@
     const fim = document.getElementById("fim");
     const link = WHATSAPP_DESTINO ? "https://wa.me/" + WHATSAPP_DESTINO + "?text=" + encodeURIComponent(texto()) : "";
     if (gravou){
-      fim.innerHTML = '<div class="recado">Recebemos as suas respostas. A equipe da Imersão AME fala com você pelo WhatsApp.</div>';
+      fim.innerHTML = '<div class="recado">Recebemos as suas respostas. A equipe da assessoria AME fala com você pelo WhatsApp.</div>';
     } else if (link){
-      fim.innerHTML = '<p class="sub">Falta um toque: mande as suas respostas pro nosso WhatsApp, e a equipe da Imersão AME fala com você.</p>' +
+      fim.innerHTML = '<p class="sub">Falta um toque: mande as suas respostas pro nosso WhatsApp, e a equipe da assessoria AME fala com você.</p>' +
         '<a class="zap" href="' + esc(link) + '" target="_blank" rel="noopener">Enviar pelo WhatsApp</a>';
     } else {
       fim.innerHTML = '<div class="recado">Copie o texto abaixo e mande pra quem te passou este link.<pre>' + esc(texto()) + '</pre></div>' +

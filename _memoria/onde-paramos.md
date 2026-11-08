@@ -44,9 +44,9 @@ pilares que mais impactam no caixa"), mais gestão, marketing, vendas e escala. 
 Sena**, pra toda a base de clientes. **A imersão de 14 e 15/nov está CANCELADA** (ele, 8/nov). No lugar: **live toda quarta-feira, ele e o Stanley**, pra
 captar e criar o desejo de contratar a assessoria AME.
 **Feito em 8/nov:** a página de vendas (imersao-ame.vercel.app/venda.html) virou aviso de cancelamento, sem botão de
-pagamento. **Falta:** ele desativar o link no Mercado Pago (e devolver a quem pagou, se houver), trocar o link da bio,
-decidir o que fazer com o quiz (ainda chama pra imersão), e apagar pelo app, se quiser, os 16 reels de teste antigos do
-Instagram (citam 14 e 15/11). **Feito em 8/nov:** os 16 reels da AME foram cortados sem o convite da imersão; no YouTube
+pagamento. **Ele fez (8/nov):** desativou o link do Mercado Pago, vai trocar o link da bio e tirou os 16 reels de teste antigos do
+Instagram. **O quiz virou ficha de interesse da assessoria AME** (imersao-ame.vercel.app, 8/nov): mesmas 6 perguntas,
+mesmas planilhas do Google, todo mundo cai no obrigado, que chama pras lives de quarta no @stanleybittar. **Feito em 8/nov:** os 16 reels da AME foram cortados sem o convite da imersão; no YouTube
 os antigos foram apagados e os cortados entram de 11 a 16/11; no Instagram, reel de teste 2 por dia de 9 a 16/11
 (`sb/AME/divulgacao/reels-sem-imersao-2026-11-08/LEIA.md`).
 

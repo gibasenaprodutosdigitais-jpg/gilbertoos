@@ -1,3 +1,7 @@
+> **8/nov/2026: a Imersão AME foi cancelada.** O quiz virou **ficha de interesse da assessoria AME** (mesmas perguntas,
+> mesmas planilhas, todas as faixas vão pro `obrigado.html`, que chama pras lives de quarta no @stanleybittar) e o
+> `venda.html` virou aviso de cancelamento, sem botão de pagamento. O que está abaixo descreve o quiz da imersão.
+
 # Quiz da Imersão AME
 
 Seis perguntas, uma por tela: nome, WhatsApp, Instagram (dele ou do negócio),
