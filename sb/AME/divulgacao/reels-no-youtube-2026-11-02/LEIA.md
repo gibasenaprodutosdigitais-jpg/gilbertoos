@@ -1,5 +1,8 @@
 # Os 16 reels da AME no YouTube (agendados em 02/nov/2026)
 
+⚠ **Apagados do canal em 8/nov/2026**: a imersão foi cancelada e eles citavam 14 e 15/11 e o link de pagamento. A versão
+cortada, sem o convite, está em `../reels-sem-imersao-2026-11-08/`.
+
 Pedido dele em 2/nov: repostar no YouTube os reels que só tinham saído no Instagram, pra o canal não parar quando
 acabassem os cortes do carro. São os **16 reels de teste da AME** (CRTV AME 1 a 16, de 29 e 31/out), que no
 Instagram saíram só pra quem não segue. Ele falando de gestão, menos de 1 minuto cada, vertical: viram Shorts.

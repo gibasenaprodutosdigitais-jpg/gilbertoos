@@ -24,7 +24,7 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 |---|---|---|
 | **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 16 reels de teste publicados (4 em 29/out, 12 em 31/out), regras CFM/CFO levantadas | advogado conferir os 3 contratos e as regras CFM/CFO, custo da hora e casos dele pros slides, logo original (link na bio ✅, reserva ✅) |
 | **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); foto de dezembro do Provérbios |
-| **YouTube** | 3 por dia (10h, 16h, 19h) desde 3/11: 16 reels da AME até 8/11 10h + 8 cortes do carro até **10/11 19h** | vídeo novo depois de 10/11 (o acervo das gravações longas e os reels da AME acabaram) |
+| **YouTube** | 3 por dia (10h, 16h, 19h): cortes do carro até 10/11 + os 16 reels da AME sem a imersão de 11/11 a **16/11 10h** (os antigos foram apagados em 8/nov) | vídeo novo depois de 16/11 10h |
 | **TikTok** | agendado até 9/11 | vídeo novo depois de 9/11 |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
@@ -45,8 +45,10 @@ Sena**, pra toda a base de clientes. **A imersão de 14 e 15/nov está CANCELADA
 captar e criar o desejo de contratar a assessoria AME.
 **Feito em 8/nov:** a página de vendas (imersao-ame.vercel.app/venda.html) virou aviso de cancelamento, sem botão de
 pagamento. **Falta:** ele desativar o link no Mercado Pago (e devolver a quem pagou, se houver), trocar o link da bio,
-decidir o que fazer com o quiz (ainda chama pra imersão) e com os 16 reels da AME publicados (citam 14 e 15/11; no
-YouTube a descrição tem o link de pagamento).
+decidir o que fazer com o quiz (ainda chama pra imersão), e apagar pelo app, se quiser, os 16 reels de teste antigos do
+Instagram (citam 14 e 15/11). **Feito em 8/nov:** os 16 reels da AME foram cortados sem o convite da imersão; no YouTube
+os antigos foram apagados e os cortados entram de 11 a 16/11; no Instagram, reel de teste 2 por dia de 9 a 16/11
+(`sb/AME/divulgacao/reels-sem-imersao-2026-11-08/LEIA.md`).
 
 **Imersão AME, 14 e 15/nov/2026, São Paulo** (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).
 Gilberto e Dr. Stanley, os quatro pilares para clínicas e consultórios médicos, odontológicos e de estética. **Tudo da

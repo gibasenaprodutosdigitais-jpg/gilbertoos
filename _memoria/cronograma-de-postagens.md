@@ -12,7 +12,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
 | **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **14/11** |
-| **YouTube** | **3 reels por dia: 10h, 16h, 19h** desde 3/11 (pedido dele em 2/nov; eram 5, às 7h, 10h, 13h, 16h, 19h) | até **10/11 às 19h** (os 16 reels da AME de 3/11 10h a 8/11 10h; os 8 últimos cortes do carro de 8/11 16h a 10/11 19h) |
+| **YouTube** | **3 reels por dia: 10h, 16h, 19h** desde 3/11 (pedido dele em 2/nov; eram 5, às 7h, 10h, 13h, 16h, 19h) | até **16/11 às 10h** (cortes do carro até 10/11 19h; os 16 reels da AME sem a imersão de 11/11 10h a 16/11 10h; os 16 antigos foram apagados do canal em 8/nov) |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até 9/11 |
 
 - **A frase do dia passou a sair todo dia, inclusive fim de semana** (pedido dele em 18/out). Então são 4 posts todo dia.
@@ -33,7 +33,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | Carrossel das 18h | **15/11** | 1 por dia. Os de 4 a 14/11 entraram em 30/out; não sobrou nenhum pronto (ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`) |
 | Provérbios das 5h | **1/12** | foto de dezembro (e saber se vêm frases novas) |
 | Frase do dia das 9h | **1/12** | frases de dezembro; novembro fechado em 2/nov, com a foto de terno desde 8/11 |
-| YouTube | **11/11 às 10h** | 3 por dia (10h, 16h, 19h): os 16 reels da AME até 8/11 10h e os cortes do carro até 10/11 19h (`sb/AME/divulgacao/reels-no-youtube-2026-11-02/`); depois precisa de vídeo novo |
+| YouTube | **16/11 às 16h** | 3 por dia (10h, 16h, 19h): os 16 reels da AME até 8/11 10h e os cortes do carro até 10/11 19h (`sb/AME/divulgacao/reels-no-youtube-2026-11-02/`); depois precisa de vídeo novo |
 
 ## Post a post (lido da fila da Zernio em 02/nov, 22h10)
 
