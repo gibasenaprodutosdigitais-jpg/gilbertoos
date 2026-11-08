@@ -6,8 +6,8 @@
 <title>Imersão AME</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Montserrat:wght@400;500;600&display=swap">
 <style>
-  /* Página de vendas da Imersão AME. Quem chega aqui veio do quiz e marcou
-     faturamento acima de R$ 100 mil. Conteúdo tirado do cronograma. */
+  /* Desde 8/nov/2026 esta página só avisa que a Imersão AME foi cancelada (decisão dele):
+     o botão de pagamento saiu. A página de vendas antiga está no histórico do git. */
   :root{
     --fundo:#081421; --noite:#0C1A2E; --carta:#112741; --borda:#23405F;
     --tinta:#F2EFE8; --fraca:#9FB0C4; --ouro:#C9A24B; --ouro-claro:#E2C489;
@@ -78,120 +78,17 @@
 </head>
 <body>
 
-<section class="faixa hero">
+<section class="faixa hero" style="min-height:100vh">
   <div class="miolo">
     <img class="logo" src="ame-logo.png" alt="AME: Administração, Marketing e Escala · Medicina, Odontologia, Estética">
-    <p class="ola" id="ola" hidden></p>
-    <p class="eyebrow">Imersão presencial para donos de clínica e consultório</p>
-    <h1>A agenda lota.<br><em>O caixa não acompanha.</em></h1>
-    <p class="fraco">Dois dias em São Paulo com Gilberto Sena e o Dr. Stanley Bittar, levando os quatro pilares do método para donos de clínicas e consultórios médicos, odontológicos e de estética.</p>
-    <div class="fatos"><span><b>14 e 15 de novembro</b></span><span>8h às 18h</span><span>São Paulo</span><span><b>50 vagas</b></span></div>
-    <a class="cta" href="#ingresso">Garantir meu ingresso</a>
+    <p class="eyebrow">Aviso</p>
+    <h1>A Imersão AME de 14 e 15 de novembro <em>foi cancelada.</em></h1>
+    <p class="fraco">No lugar dela, Gilberto Sena e o Dr. Stanley Bittar fazem uma live toda quarta-feira, no Instagram.</p>
+    <p class="fatos"><span>Acompanhe em <b style="text-transform:none;letter-spacing:.04em">@stanleybittar</b></span></p>
   </div>
 </section>
 
-<section class="faixa claro">
-  <div class="miolo">
-    <p class="eyebrow">O método</p>
-    <h2>Base, depois preço, <em>só então volume</em></h2>
-    <p>O primeiro dia arruma a casa: gestão e preço. O segundo enche a agenda do jeito certo: marketing e vendas.</p>
-    <p class="fraco">Marketing e vendas em cima de uma base fraca só fazem você trabalhar mais pra sobrar o mesmo.</p>
-  </div>
-</section>
+<footer>AME · Administração, Marketing e Escala · Realização SB, Sena e Bittar</footer>
 
-<section class="faixa">
-  <div class="miolo">
-    <p class="eyebrow">O que você leva para casa</p>
-    <h2>Você sai com o seu negócio <em>no papel</em></h2>
-    <ul class="lista">
-      <li>A ficha de diagnóstico do seu consultório preenchida, nos quatro pilares</li>
-      <li>A margem de três procedimentos do seu negócio, calculada no dia 1</li>
-      <li>As decisões de cada dia, escritas</li>
-      <li>Os quatro números para acompanhar: sobra do mês, pacientes novos (e quantos vieram por indicação), tratamentos fechados sobre orçamentos e margem líquida</li>
-    </ul>
-  </div>
-</section>
-
-<section class="faixa claro">
-  <div class="miolo">
-    <p class="eyebrow">A programação</p>
-    <h2>Dois dias, <em>quatro pilares</em></h2>
-    <div class="dias">
-      <div class="dia">
-        <p class="eyebrow">Sábado, 14/11 · Gilberto Sena</p>
-        <h3>A casa em ordem</h3>
-        <ul>
-          <li>Diagnóstico ao vivo do seu consultório</li>
-          <li>Gestão: conta separada, pró-labore, fechamento do mês, reserva de caixa</li>
-          <li>O imposto da saúde em 2027</li>
-          <li>Lucratividade: a margem e o preço</li>
-          <li>Hot seat ao vivo</li>
-        </ul>
-      </div>
-      <div class="dia">
-        <p class="eyebrow">Domingo, 15/11 · Dr. Stanley Bittar</p>
-        <h3>O paciente certo e o paciente tratado</h3>
-        <ul>
-          <li>Marketing: posicionamento e presença, dentro das regras do conselho</li>
-          <li>Vendas: da primeira mensagem até a consulta</li>
-          <li>A conversa do orçamento, o retorno e a indicação</li>
-          <li>Mais dois hot seats ao vivo</li>
-        </ul>
-      </div>
-    </div>
-    <div class="nao"><b>Para quem não é:</b> profissional só CLT ou plantonista, sem estrutura própria.</div>
-  </div>
-</section>
-
-<section class="faixa">
-  <div class="miolo">
-    <p class="eyebrow">Quem conduz</p>
-    <h2>Duas cabeças, <em>três leituras</em></h2>
-    <div class="dupla">
-      <div class="pessoa">
-        <img src="sena-ame.jpg" alt="Gilberto Sena">
-        <h3>Gilberto Sena</h3>
-        <div class="papel">Gestão e Lucratividade</div>
-        <p class="fraco">+15 anos · +500 empresas e empresários · +R$ 500 milhões economizados</p>
-      </div>
-      <div class="pessoa">
-        <img src="bittar-ame.jpg" alt="Dr. Stanley Bittar">
-        <h3>Dr. Stanley Bittar</h3>
-        <div class="papel">Marketing e Vendas</div>
-        <p class="fraco">Médico estrategista</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="faixa claro" id="ingresso">
-  <div class="miolo">
-    <p class="eyebrow">O ingresso</p>
-    <h2>Os dois dias, <em>presencial</em></h2>
-    <div class="preco">
-      <div class="de">de R$ 3.999</div>
-      <div class="por">R$ 499</div>
-      <p class="obs">por participante · 14 e 15 de novembro · Rede Vivax de Televisão, São Paulo · 50 vagas</p>
-      <a class="cta" id="comprar" href="#">Garantir meu ingresso</a>
-      <p class="aviso-link" id="aviso-link">O link de pagamento está sendo preparado.</p>
-    </div>
-  </div>
-</section>
-
-<footer>Imersão AME · Administração, Marketing e Escala · Realização SB, Sena e Bittar</footer>
-
-<script>
-(function(){
-  // Link de pagamento do ingresso. Vazio = o botão avisa que o link está sendo preparado.
-  const LINK_PAGAMENTO = "https://mpago.la/11BizwZ";   // Mercado Pago, mandado por ele em 27/out
-
-  const nome = new URLSearchParams(location.search).get("nome");
-  if (nome){ const o = document.getElementById("ola"); o.textContent = "Olá, " + nome.split(" ")[0] + "."; o.hidden = false; }
-
-  const b = document.getElementById("comprar");
-  if (LINK_PAGAMENTO){ b.href = LINK_PAGAMENTO; b.target = "_blank"; b.rel = "noopener"; }
-  else b.addEventListener("click", function(ev){ ev.preventDefault(); document.getElementById("aviso-link").style.display = "block"; });
-})();
-</script>
 </body>
 </html>

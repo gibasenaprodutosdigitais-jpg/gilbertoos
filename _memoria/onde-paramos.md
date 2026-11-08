@@ -43,6 +43,10 @@ consultório. Entrega gestão financeira, contabilidade, jurídico e, principalm
 pilares que mais impactam no caixa"), mais gestão, marketing, vendas e escala. Quem entrega: **ele, o Stanley e o Grupo
 Sena**, pra toda a base de clientes. **A imersão de 14 e 15/nov está CANCELADA** (ele, 8/nov). No lugar: **live toda quarta-feira, ele e o Stanley**, pra
 captar e criar o desejo de contratar a assessoria AME.
+**Feito em 8/nov:** a página de vendas (imersao-ame.vercel.app/venda.html) virou aviso de cancelamento, sem botão de
+pagamento. **Falta:** ele desativar o link no Mercado Pago (e devolver a quem pagou, se houver), trocar o link da bio,
+decidir o que fazer com o quiz (ainda chama pra imersão) e com os 16 reels da AME publicados (citam 14 e 15/11; no
+YouTube a descrição tem o link de pagamento).
 
 **Imersão AME, 14 e 15/nov/2026, São Paulo** (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).
 Gilberto e Dr. Stanley, os quatro pilares para clínicas e consultórios médicos, odontológicos e de estética. **Tudo da
