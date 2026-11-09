@@ -34,7 +34,7 @@ Baixa em PowerPoint e PDF pelo menu da própria página. Pra mandar a alguém, u
 ## Falta dele
 
 1. ~~Contato~~ Recebido em 8/nov: (31) 97353-5587, gilbertosena@gruposena.com.br, www.gruposena.com.br. Já no slide 9.
-2. Confirmar o cargo: "Fundador" ou "Fundador e CEO".
+2. ~~Cargo~~ Confirmado por ele em 8/nov: **Fundador e CEO do Grupo Sena**. Já no slide 8.
 3. Confirmar que o "diagnóstico" é a porta de entrada que ele quer oferecer.
 4. Os arquivos institucionais citados no `grupo-sena-institucional/README.md` não estão nessa pasta, só a ficha cadastral; os originais
    estão na pasta da Kelly Fernandes no `ARQUIVO GERAL`.

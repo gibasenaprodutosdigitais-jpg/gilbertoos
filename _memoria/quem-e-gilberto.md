@@ -22,6 +22,9 @@
   Goiânia, São Paulo, Brasília, Rio de Janeiro — atualizado 23/ago/2026;
   Parauapebas e Vitória saíram da lista atual). Contabilidade, auditoria fiscal e
   tributária, assessoria jurídica, assessoria empresarial, gestão trabalhista, PF.
+  **Cargo dele: Fundador e CEO do Grupo Sena** (palavra dele, 8/nov/2026).
+  Contato institucional (8/nov/2026): (31) 97353-5587 ·
+  gilbertosena@gruposena.com.br · www.gruposena.com.br
 - **Mentalidade:** empresário nato, pensa em escala, gosta de modelar negócios
   que já funcionam.
 - **Instagram oficial: `@gilbertosenaoficial` — com UM L.**
