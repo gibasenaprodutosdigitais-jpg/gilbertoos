@@ -33,7 +33,7 @@ Baixa em PowerPoint e PDF pelo menu da própria página. Pra mandar a alguém, u
 
 ## Falta dele
 
-1. Telefone, e-mail e site do Grupo Sena (o slide 9 está com `[telefone] · [e-mail] · [site]`).
+1. ~~Contato~~ Recebido em 8/nov: (31) 97353-5587, gilbertosena@gruposena.com.br, www.gruposena.com.br. Já no slide 9.
 2. Confirmar o cargo: "Fundador" ou "Fundador e CEO".
 3. Confirmar que o "diagnóstico" é a porta de entrada que ele quer oferecer.
 4. Os arquivos institucionais citados no `grupo-sena-institucional/README.md` não estão nessa pasta, só a ficha cadastral; os originais
