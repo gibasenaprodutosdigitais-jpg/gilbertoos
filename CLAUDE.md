@@ -84,7 +84,7 @@ reels — sempre na voz dele e ancorado no conhecimento dele.
 
 ---
 
-## Os 7 comandos (é só isso que o Gilberto precisa saber)
+## Os 9 comandos (é só isso que o Gilberto precisa saber)
 
 O Gilberto fala por voz (Wispr Flow). Ele não precisa decorar nada além disto:
 
@@ -97,6 +97,8 @@ O Gilberto fala por voz (Wispr Flow). Ele não precisa decorar nada além disto:
 | **`/ideias`** | Cospe pautas de conteúdo — o que postar essa semana, baseado no momento (ex.: reforma tributária) e na cabeça dele. |
 | **`/salvar`** | Guarda tudo no GitHub e sincroniza notebook ↔ celular. Ele fala "salvar" e pronto. |
 | **`/atualizar`** | Varre o repositório e confere se os arquivos de contexto ainda batem com a realidade. Propõe as correções e só aplica depois que ele aprova. Fica nas skills do usuário (`~/.claude/skills/`), não neste repositório. |
+| **`/slide-interativo`** | Monta um slide de uma página só, em formato de painel (números, gráficos, cartões clicáveis), a partir do que ele escrever ou de uma planilha do Excel. Sai em duas versões: página interativa e PowerPoint com gráfico editável. Planilha nova, slide atualizado no mesmo desenho. Pedido dele em 9/nov/2026, inspirado no "Slide Interativo" do PowerPoint. |
+| **`/apresentacao-ecossistema`** | Apresentações empresariais do ecossistema dele: Grupo Sena, OCEO, GSena Hub, assessoria AME, SB, holding, Summit do Gestor. Institucional, proposta comercial, pitch, produto. Só fato com fonte e a titularidade dele respeitada. Pedido dele em 9/nov/2026. **É apresentação de empresa, não conteúdo de Instagram:** a única porta desta ilha pros outros projetos, e só pra apresentar. |
 
 Se o Gilberto pedir algo sem comando, entender a intenção e agir. Ele não é
 técnico — **nunca responder com jargão de programador nem pedir pra ele mexer
@@ -164,7 +166,8 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
   `CARDS/`, `NEGOCIOS-E-MARCA/`, `EVENTOS-E-PALESTRAS/`, `LIVROS-E-EBOOKS/`,
   `MATERIAL-TECNICO/`, `POSTS-AVULSOS/` e `VIDEOS/`. Duas com sublinhado são de controle:
   `_CONTROLE/` (triagens, inventários e a grade de séries) e `_capas/` (capas prontas)
-- `.claude/skills/` — `carrossel`, `conversar`, `ideias`, `reels`, `salvar`, `tendencias` e a `pericia-bancaria`
+- `.claude/skills/` — `carrossel`, `conversar`, `ideias`, `reels`, `salvar`, `tendencias`, a `pericia-bancaria`,
+  o `slide-interativo` e a `apresentacao-ecossistema`
 - `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto, trocar travessão de efeito por pontuação)
 - `entrada-videos/` — vídeos e gravações crus que ele manda (longos, triagem,
   palco e eventos)
