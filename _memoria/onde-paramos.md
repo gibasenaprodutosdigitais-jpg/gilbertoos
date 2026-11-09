@@ -12,20 +12,20 @@
 
 ## O primeiro ato da próxima sessão
 
-**YouTube: 3 por dia desde 3/11 (10h, 16h, 19h; pedido dele em 2/nov, eram 5), coberto até 10/11 às 19h** (os 16
-reels da AME de 3/11 a 8/11 10h, adiantados a pedido dele, e depois os 8 últimos cortes do carro até 10/11, ver
-`sb/AME/divulgacao/reels-no-youtube-2026-11-02/LEIA.md`). Antes, 26 cortes das gravações do carro, 5 por dia, com legenda,
-bip e a cor corrigida. Ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`. **Depois de 4/11 às 13h, parado de
-novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de propósito (motivo no LEIA).
+**A fila em 8/nov:** YouTube 3 por dia (10h, 16h, 19h) até **16/11 às 10h** (cortes do carro até 10/11; depois os 16
+reels da AME, já sem o convite da imersão e com cor e zoom, de 11 a 16/11). TikTok **1 por dia às 18h até 24/11** (os
+mesmos 16). Instagram: os 16 como reel de teste, 15h e 20h, de 9 a 16/11, além da grade normal (tabela abaixo). Tudo
+em `sb/AME/divulgacao/reels-sem-imersao-2026-11-08/LEIA.md`. **O primeiro buraco é o carrossel das 18h, a partir de
+15/11.** O acervo das gravações longas acabou: pro YouTube e o TikTok continuarem, precisa de vídeo novo dele.
 
-### Resumo das frentes abertas (31/out/2026)
+### Resumo das frentes abertas (8/nov/2026)
 
 | Frente | Onde está | O que falta |
 |---|---|---|
-| **Imersão AME** (14 e 15/nov) | quiz e página de vendas no ar, slides, kit, 16 reels de teste publicados (4 em 29/out, 12 em 31/out), regras CFM/CFO levantadas | advogado conferir os 3 contratos e as regras CFM/CFO, custo da hora e casos dele pros slides, logo original (link na bio ✅, reserva ✅) |
+| **Assessoria AME** (desde 8/nov; a imersão de 14 e 15/nov foi **cancelada**) | ficha de interesse em assessoria-ame.vercel.app; os 16 reels sem a imersão agendados nas três redes; lives toda quarta no @stanleybittar | ele trocar o link da bio; rever pra assessoria os contratos do Choque de Ordem e da Escala Blindada; advogado conferir as regras CFM/CFO; logo original |
 | **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 14/11, reels até 3/12 | carrossel a partir de 15/11 (não tem nenhum pronto); foto de dezembro do Provérbios |
 | **YouTube** | 3 por dia (10h, 16h, 19h): cortes do carro até 10/11 + os 16 reels da AME sem a imersão de 11/11 a **16/11 10h** (os antigos foram apagados em 8/nov) | vídeo novo depois de 16/11 10h |
-| **TikTok** | até 9/11 12h + os 16 reels da AME com efeitos (cor e zoom), **1 por dia às 18h, até 24/11** (9/nov) | vídeo novo depois de 24/11 |
+| **TikTok** | até 9/11 12h + os 16 reels da AME com efeitos (cor e zoom), **1 por dia às 18h, até 24/11** (8/nov) | vídeo novo depois de 24/11 |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
 | **5 Reels da reforma** (CBS 11,3%, crédito, 30%, Seletivo, ICMS/ISS) | roteiros e legendas prontos (`saidas/REELS/reels-reforma-cinco-temas-2026-10-30/`), números conferidos | ele confirmar os requisitos do reel 3 e gravar **antes de 15/12**; animações dos 5 prontas e aprovadas no estilo (30/out), com 30s cada (pedido dele), vídeos em `VIDEOS-PRONTOS/` (só no notebook); falta gravar e editar com as cenas por cima |
@@ -41,75 +41,26 @@ novo.** O acervo das gravações longas acabou: 4 trechos ficaram de fora de pro
 assessoria completa** para a saúde em geral: médicos, dentistas, clínicas de estética, hospitais-dia e qualquer
 consultório. Entrega gestão financeira, contabilidade, jurídico e, principalmente, a **estrutura tributária** ("um dos
 pilares que mais impactam no caixa"), mais gestão, marketing, vendas e escala. Quem entrega: **ele, o Stanley e o Grupo
-Sena**, pra toda a base de clientes. **A imersão de 14 e 15/nov está CANCELADA** (ele, 8/nov). No lugar: **live toda quarta-feira, ele e o Stanley**, pra
-captar e criar o desejo de contratar a assessoria AME.
-**Feito em 8/nov:** a página de vendas (imersao-ame.vercel.app/venda.html) virou aviso de cancelamento, sem botão de
-pagamento. **Ele fez (8/nov):** desativou o link do Mercado Pago, vai trocar o link da bio e tirou os 16 reels de teste antigos do
-Instagram. **O quiz virou ficha de interesse da assessoria AME** (link novo, pra bio: **assessoria-ame.vercel.app**; o antigo
-imersao-ame.vercel.app segue no ar igual, 8/nov): mesmas 6 perguntas,
-mesmas planilhas do Google, todo mundo cai no obrigado, que chama pras lives de quarta no @stanleybittar. **Feito em 8/nov:** os 16 reels da AME foram cortados sem o convite da imersão; no YouTube
-os antigos foram apagados e os cortados entram de 11 a 16/11; no Instagram, reel de teste 2 por dia de 9 a 16/11
-(`sb/AME/divulgacao/reels-sem-imersao-2026-11-08/LEIA.md`).
+Sena**, pra toda a base de clientes. **A imersão de 14 e 15/nov foi CANCELADA** (ele, 8/nov). No lugar: **live toda
+quarta-feira, ele e o Stanley, no @stanleybittar**, pra captar e criar o desejo de contratar a assessoria AME.
 
-**Imersão AME, 14 e 15/nov/2026, São Paulo** (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).
-Gilberto e Dr. Stanley, os quatro pilares para clínicas e consultórios médicos, odontológicos e de estética. **Tudo da
-imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
-
-- **Decidido por ele:**
-  - Espaço da **Rede Vivax de Televisão**, **50 vagas**, domingo 15/11 (feriado) confirmado (21/out).
-  - **"De R$ 3.999 por R$ 499"** pelos dois dias (26/out; antes era "de R$ 3.000 por R$ 599"; o jurídico liberou o "de").
-    **Preço fora dos posts** (27/out): a arte mostra só data, vagas e o link.
-  - Oferta do fim do dia 2 (21/out): Choque de Ordem e Caixa R$ 35.000 em 6x no cartão ou R$ 30.000 à vista no pix,
-    **12 vagas**; Escala Blindada R$ 60.000 em 12x no cartão ou R$ 50.000 à vista no pix, **8 vagas** (20 no máximo);
-    o Club SB fica fora. **Abatimento dos R$ 499 para quem fechar até as 23h de 15/11.**
-  - Logo (26/out): embaixo do AME, **"Administração, Marketing e Escala"** em dourado e **"Medicina · Odontologia ·
-    Estética"** em prata (saiu o "Assessoria Médica Empresarial"). Ele sabe que AME em SP é o Ambulatório Médico de
-    Especialidades do estado e manteve.
-  - Inscrição por **link de pagamento**: https://mpago.la/11BizwZ (Mercado Pago, 27/out).
-  - Quiz (27/out): até R$ 30 mil e de R$ 30 a 70 mil vão pra página de obrigado; de R$ 70 a 120 mil e acima de
-    R$ 120 mil vão pra página de vendas.
-- **Pronto:**
-  - Cronograma hora a hora no doc https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado): dia 1, Gestão e
-    Lucratividade com o Gilberto; dia 2, Marketing e Vendas com o Stanley, hot seats e oferta dos programas.
-  - Logo, programação, crachás, certificado e artes de divulgação (feed e story; fotos em cor desde 27/out).
-  - **Kit do participante** (8 folhas A4: ficha de diagnóstico adaptada pra sala, exercício da margem, decisões dos
-    dois dias e os quatro números).
-  - **Ficha online AME** (https://claude.ai/artifact/3XuZKa9LcsmVYGx6SYhpdd, privada, com a pergunta do hot seat; banco
-    próprio, separado da ficha da SB).
-  - **Slides** (26/out, 56, https://claude.ai/artifact/8XLbWYXgZm7w2LLGc6KTbi, privada; também em PowerPoint na pasta),
-    feitos só com o método, a ficha, o cronograma e o fichamento da reforma.
-  - **Quiz de interesse no ar em https://imersao-ame.vercel.app** (27/out, Vercel, conta apliquepoupe), com
-    `/venda.html` (botão do Mercado Pago) e `/obrigado.html`. As respostas vão pro **Google Sheets** (ativo desde 27/out,
-    `sb/AME/quiz/google/`; duas planilhas no Drive dele, "Acima de R$ 70 mil" e "Até R$ 70 mil"). Também roda no
-    computador (`sb/AME/quiz/`, http://localhost:5180, cópia em `respostas.csv`, fora do GitHub). A versão dentro do
-    Claude (https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn) não tem as páginas nem o Google Sheets.
-  - **4 reels de teste da imersão publicados em 29/10 às 15h**, os quatro sem falha (Instagram, só pra quem não
-    segue, passam pro perfil se forem bem). Ver `sb/AME/divulgacao/reels-de-teste-2026-10-29/LEIA.md`. Dos 6 "Criativos SB", **"Ataque mentoria 2"
-    e "Lição política" ficaram de fora** por decisão dele (passam de 3 min; o primeiro diz "20 anos" e cita lei do
-    Botox sem base; o segundo é eleição). No vídeo CRTV AME 3 ele fala em **cinco pilares**, mas o método é quatro.
-  - **2º lote: 12 reels de teste publicados em 31/10 (~19h45)**, CRTV AME 5 a 16, os doze conferidos (é ele, sem preço,
-    "+15 anos"). Na legenda, "teu/tua/contigo" virou "seu/sua/com você". Ver `sb/AME/divulgacao/reels-de-teste-2026-10-31/LEIA.md`.
-  - **Banner da live de pré-imersão, 03/11 (terça) às 21h** (01/nov): feed e story em `sb/AME/divulgacao/live-pre-imersao-*.png`,
-    com os dois. A live é **no Instagram do Dr. Stanley, @stanleybittar** (decisão e @ dele, 01/nov), com o @ de cada um embaixo da foto; botão
-    "Ative o lembrete". Pronto pra postar. As 12 perguntas do Stanley pra live estão em
-    `sb/AME/divulgacao/live-pre-imersao-perguntas.md` (e em PDF, uma folha A4).
-- **Falta:**
-  - ✅ Link de inscrição na bio do Instagram (ele confirmou em 30/out). Falta só o story e o WhatsApp, se ele quiser.
-  - **Contratos: 3 modelos prontos em 30/out** em `sb/AME/contratos/` (termo de inscrição da imersão, Choque de Ordem e
-    Caixa, Escala Blindada), com cláusula de imagem e vídeo (pedido dele). Falta o advogado conferir e preencher razão
-    social, CNPJ e o que está entre colchetes (lista no `LEIA.md` de lá).
-  - Regras de publicidade do CFM/CFO: **levantadas em 30/out** em `sb/AME/regras-publicidade-cfm-cfo.md`. Falta o advogado
-    conferir (principalmente o CFO) e o Stanley ajustar os slides de Marketing e Vendas. Dentista não pode anunciar preço;
-    médico pode.
-  - Dele, pros slides: ✅ meta de reserva = **no mínimo 3 meses de custo fixo** (30/out, já no slide `p01-reserva`);
-    falta a conta do custo da hora e os casos dele nos blocos; o Dr. Stanley
-    revisar os blocos de Marketing e Vendas.
-  - ⚠ As linhas do exercício da margem (imposto, cartão, material, repasse, tempo × hora) são proposta minha: ele confere.
-  - O arquivo original da logo, pra impressão e palco.
-  - Opcional: o número de WhatsApp pra versão do quiz dentro do Claude.
+- **Feito em 8/nov:** página de vendas virou aviso de cancelamento, sem botão de pagamento; ele desativou o link do
+  Mercado Pago e tirou os 16 reels de teste antigos do Instagram; o quiz virou **ficha de interesse da assessoria AME**
+  (link pra bio: **assessoria-ame.vercel.app**; o antigo imersao-ame.vercel.app segue igual; mesmas 6 perguntas, mesmas
+  planilhas do Google, o obrigado chama pras lives); os 16 reels foram cortados sem o convite, ganharam cor e zoom e
+  foram agendados nas três redes (ver o primeiro ato).
+- **O que sobrou da imersão e ainda serve:** a logo AME ("Administração, Marketing e Escala" / "Medicina · Odontologia ·
+  Estética"), as fotos dos dois, a ficha de diagnóstico nos quatro pilares (kit e ficha online), os 56 slides (base pras
+  lives), as regras de publicidade do CFM e do CFO (`sb/AME/regras-publicidade-cfm-cfo.md`: dentista não pode anunciar
+  preço, médico pode; falta o advogado conferir) e os contratos do **Choque de Ordem e Caixa** e da **Escala Blindada**
+  (`sb/AME/contratos/`), que eram a oferta do fim da imersão: **rever com ele se viram parte da assessoria**. O termo
+  de inscrição da imersão não vale mais.
+- **Falta:** ele trocar o link da bio; o arquivo original da logo, pra impressão e palco.
 - ⚠ **Não chamar o Stanley de "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos
   motivos do processo no CRM-AC (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico
   estrategista", como na marca.
+- O registro completo da imersão (preço, vagas, oferta, quiz, kit, slides, reels de teste, live de 3/11) foi pro
+  `historico-das-frentes.md` em 8/nov.
 
 **Série "A Base da Gestão" no YouTube: as 8 aulas saíram de 19 a 26/10, sem falha na Zernio.** Segue aberto só o que
 ficou de fora: 7 gravações (lista no README de `saidas/VIDEOS/serie-a-base-da-gestao-2026-10-18/`); os dois vídeos dos

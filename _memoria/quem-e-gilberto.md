@@ -553,7 +553,7 @@ mesma rede, 1º semestre/2020)** — inclui módulo de Negócios Internacionais.
   gestão inteligente." Distinto do GilbertoOS (que é o sistema pessoal
   dele de conteúdo/posicionamento) — o OCEO é produto de software vendido
   a clientes do Grupo Sena.
-- **GSena Hub** — a plataforma de serviços digitais e sistemas de tecnologia criada por Gilberto Sena (palavras dele, 9/nov/2026). Ele é o idealizador e
+- **GSena Hub** — a plataforma de serviços digitais e sistemas de tecnologia criada por Gilberto Sena (palavras dele, 8/nov/2026). Ele é o idealizador e
   único titular, como do OCEO (`Projetos Gsena Tec/README.md`).
 - **Reengenharia Empresarial e Negócio Exponencial** — metodologia própria
   dele pra reestruturação de negócios (atualizado 23/ago/2026 — nome que

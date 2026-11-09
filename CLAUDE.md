@@ -97,8 +97,8 @@ O Gilberto fala por voz (Wispr Flow). Ele não precisa decorar nada além disto:
 | **`/ideias`** | Cospe pautas de conteúdo — o que postar essa semana, baseado no momento (ex.: reforma tributária) e na cabeça dele. |
 | **`/salvar`** | Guarda tudo no GitHub e sincroniza notebook ↔ celular. Ele fala "salvar" e pronto. |
 | **`/atualizar`** | Varre o repositório e confere se os arquivos de contexto ainda batem com a realidade. Propõe as correções e só aplica depois que ele aprova. Fica nas skills do usuário (`~/.claude/skills/`), não neste repositório. |
-| **`/slide-interativo`** | Monta um slide de uma página só, em formato de painel (números, gráficos, cartões clicáveis), a partir do que ele escrever ou de uma planilha do Excel. Sai em duas versões: página interativa e PowerPoint com gráfico editável. Planilha nova, slide atualizado no mesmo desenho. Pedido dele em 9/nov/2026, inspirado no "Slide Interativo" do PowerPoint. |
-| **`/apresentacao-ecossistema`** | Apresentações empresariais do ecossistema dele: Grupo Sena, OCEO, GSena Hub, assessoria AME, SB, holding, Summit do Gestor. Institucional, proposta comercial, pitch, produto. Só fato com fonte e a titularidade dele respeitada. Pedido dele em 9/nov/2026. **É apresentação de empresa, não conteúdo de Instagram:** a única porta desta ilha pros outros projetos, e só pra apresentar. |
+| **`/slide-interativo`** | Monta um slide de uma página só, em formato de painel (números, gráficos, cartões clicáveis), a partir do que ele escrever ou de uma planilha do Excel. Sai em duas versões: página interativa e PowerPoint com gráfico editável. Planilha nova, slide atualizado no mesmo desenho. Pedido dele em 8/nov/2026, inspirado no "Slide Interativo" do PowerPoint. |
+| **`/apresentacao-ecossistema`** | Apresentações empresariais do ecossistema dele: Grupo Sena, OCEO, GSena Hub, assessoria AME, SB, holding, Summit do Gestor. Institucional, proposta comercial, pitch, produto. Só fato com fonte e a titularidade dele respeitada. Pedido dele em 8/nov/2026. **É apresentação de empresa, não conteúdo de Instagram:** a única porta desta ilha pros outros projetos, e só pra apresentar. |
 
 Se o Gilberto pedir algo sem comando, entender a intenção e agir. Ele não é
 técnico — **nunca responder com jargão de programador nem pedir pra ele mexer
@@ -174,10 +174,12 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
 - `posicionamento-gilberto-sena/` — estudos de posicionamento de agosto de 2026.
   ⚠ Carregam números antigos (ex.: "2.000 empresas"): conferir antes de copiar
 - `livro-o-medico-e-o-executivo/` — o livro em coautoria com o Dr. Bittar
-- `sb/` — SB, Sena e Bittar (até 19/out/2026 era SBS, com o Simões). Dentro dela, `sb/AME/` é a Imersão AME
-  (14 e 15/nov/2026): logo, kit, programação, crachás, certificado, divulgação, ficha online, slides, contratos
-  (inscrição e os dois programas), as regras de publicidade do CFM e do CFO, e o quiz com a página de vendas, no ar
-  em imersao-ame.vercel.app e ligado ao Google Sheets
+- `sb/` — SB, Sena e Bittar (até 19/out/2026 era SBS, com o Simões). Dentro dela, `sb/AME/` é a **AME**: até
+  8/nov/2026 era a Imersão AME de 14 e 15/nov (cancelada); desde então é a **assessoria AME**, completa pra saúde, com
+  lives toda quarta no @stanleybittar. Lá ficam a logo, as fotos, o kit e a ficha de diagnóstico, os slides, os
+  contratos dos dois programas, as regras de publicidade do CFM e do CFO, os reels e a **ficha de interesse da
+  assessoria**, no ar em assessoria-ame.vercel.app (o antigo imersao-ame.vercel.app segue igual) e ligada ao Google
+  Sheets
 - `respostas-anamnese/` (na raiz, fora da `sb/`) — as fichas da anamnese
 - `juridico/` — contratos e documentos jurídicos
 - `negocios-declinados/` — propostas e negociações encerradas

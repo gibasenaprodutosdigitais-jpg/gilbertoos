@@ -40,7 +40,7 @@ AME para médicos, dentistas e clínicas." e `#assessoriaame`. Textos completos 
 | 15 | A teoria não fecha o caixa | 17.8 s | 16/11 15h · `6af10942…` | 15/11 19h · `6af109aa…` |
 | 16 | Chega de conversinha de mentoria | 15.74 s | 16/11 20h · `6af10945…` | 16/11 10h · `6af109ab…` |
 
-## Versão com efeitos, no TikTok (9/nov)
+## Versão com efeitos, no TikTok (8/nov)
 
 Ele pediu pra mexer em fonte, filtro e efeito antes de ir pro TikTok. **Fonte não dá nestes**: legenda e título vêm
 gravados na imagem pelo editor (os crus, sem legenda, não estão no Drive dele que eu enxergo; pedi pra ele baixar).
@@ -53,9 +53,9 @@ O que foi feito, aprovado por ele num teste no vídeo 7 e depois pedido "um pouc
   `videos-efeitos/` (fora do git), teste em `teste-efeitos/`.
 - O som não mudou.
 
-**TikTok, 1 por dia às 18h, de 9 a 24/11** (pedido dele em 9/nov; no primeiro agendamento eram 3 por dia), legenda
+**TikTok, 1 por dia às 18h, de 9 a 24/11** (pedido dele em 8/nov; no primeiro agendamento eram 3 por dia), legenda
 igual à do Instagram, com 5 hashtags. **No Instagram e no YouTube o vídeo também foi trocado pela versão com efeitos**
-(9/nov, pedido dele): mesmos posts, mesmos horários, mesma capa e legenda.
+(8/nov, pedido dele): mesmos posts, mesmos horários, mesma capa e legenda.
 
 | # | Título | TikTok |
 |---|---|---|

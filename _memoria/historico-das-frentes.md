@@ -221,3 +221,70 @@ caiu três vezes, sempre quando começava a gravar (o kernel dizia "media is not
 replugou o cabo. **Às 11h30 de 30/out já não estava rodando. Falta ele confirmar pelo ícone do Time Machine se terminou** (o `tmutil latestbackup` pede Acesso Total ao Disco); se não, ver se o HD caiu de
 novo. Se cair de novo, a suspeita é o cabo ou o próprio HD (sem uso desde 2024). A senha do HD não é necessária: os
 dois volumes abrem sozinhos.
+
+---
+
+## Imersão AME, 14 e 15/nov/2026 (cancelada em 8/nov/2026)
+
+Saiu do `onde-paramos.md` em 8/nov, quando a AME virou assessoria completa e a imersão foi cancelada. Registro como
+estava no último dia:
+
+**Imersão AME, 14 e 15/nov/2026, São Paulo** (pedido dele em 21/out; o nome "Imersão AME" é decisão dele de 26/out).
+Gilberto e Dr. Stanley, os quatro pilares para clínicas e consultórios médicos, odontológicos e de estética. **Tudo da
+imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
+
+- **Decidido por ele:**
+  - Espaço da **Rede Vivax de Televisão**, **50 vagas**, domingo 15/11 (feriado) confirmado (21/out).
+  - **"De R$ 3.999 por R$ 499"** pelos dois dias (26/out; antes era "de R$ 3.000 por R$ 599"; o jurídico liberou o "de").
+    **Preço fora dos posts** (27/out): a arte mostra só data, vagas e o link.
+  - Oferta do fim do dia 2 (21/out): Choque de Ordem e Caixa R$ 35.000 em 6x no cartão ou R$ 30.000 à vista no pix,
+    **12 vagas**; Escala Blindada R$ 60.000 em 12x no cartão ou R$ 50.000 à vista no pix, **8 vagas** (20 no máximo);
+    o Club SB fica fora. **Abatimento dos R$ 499 para quem fechar até as 23h de 15/11.**
+  - Logo (26/out): embaixo do AME, **"Administração, Marketing e Escala"** em dourado e **"Medicina · Odontologia ·
+    Estética"** em prata (saiu o "Assessoria Médica Empresarial"). Ele sabe que AME em SP é o Ambulatório Médico de
+    Especialidades do estado e manteve.
+  - Inscrição por **link de pagamento**: https://mpago.la/11BizwZ (Mercado Pago, 27/out).
+  - Quiz (27/out): até R$ 30 mil e de R$ 30 a 70 mil vão pra página de obrigado; de R$ 70 a 120 mil e acima de
+    R$ 120 mil vão pra página de vendas.
+- **Pronto:**
+  - Cronograma hora a hora no doc https://claude.ai/artifact/5i1kFD51t9amxdeZfpmjmH (privado): dia 1, Gestão e
+    Lucratividade com o Gilberto; dia 2, Marketing e Vendas com o Stanley, hot seats e oferta dos programas.
+  - Logo, programação, crachás, certificado e artes de divulgação (feed e story; fotos em cor desde 27/out).
+  - **Kit do participante** (8 folhas A4: ficha de diagnóstico adaptada pra sala, exercício da margem, decisões dos
+    dois dias e os quatro números).
+  - **Ficha online AME** (https://claude.ai/artifact/3XuZKa9LcsmVYGx6SYhpdd, privada, com a pergunta do hot seat; banco
+    próprio, separado da ficha da SB).
+  - **Slides** (26/out, 56, https://claude.ai/artifact/8XLbWYXgZm7w2LLGc6KTbi, privada; também em PowerPoint na pasta),
+    feitos só com o método, a ficha, o cronograma e o fichamento da reforma.
+  - **Quiz de interesse no ar em https://imersao-ame.vercel.app** (27/out, Vercel, conta apliquepoupe), com
+    `/venda.html` (botão do Mercado Pago) e `/obrigado.html`. As respostas vão pro **Google Sheets** (ativo desde 27/out,
+    `sb/AME/quiz/google/`; duas planilhas no Drive dele, "Acima de R$ 70 mil" e "Até R$ 70 mil"). Também roda no
+    computador (`sb/AME/quiz/`, http://localhost:5180, cópia em `respostas.csv`, fora do GitHub). A versão dentro do
+    Claude (https://claude.ai/artifact/8Rmtdk5U8HtJmkmzASEryn) não tem as páginas nem o Google Sheets.
+  - **4 reels de teste da imersão publicados em 29/10 às 15h**, os quatro sem falha (Instagram, só pra quem não
+    segue, passam pro perfil se forem bem). Ver `sb/AME/divulgacao/reels-de-teste-2026-10-29/LEIA.md`. Dos 6 "Criativos SB", **"Ataque mentoria 2"
+    e "Lição política" ficaram de fora** por decisão dele (passam de 3 min; o primeiro diz "20 anos" e cita lei do
+    Botox sem base; o segundo é eleição). No vídeo CRTV AME 3 ele fala em **cinco pilares**, mas o método é quatro.
+  - **2º lote: 12 reels de teste publicados em 31/10 (~19h45)**, CRTV AME 5 a 16, os doze conferidos (é ele, sem preço,
+    "+15 anos"). Na legenda, "teu/tua/contigo" virou "seu/sua/com você". Ver `sb/AME/divulgacao/reels-de-teste-2026-10-31/LEIA.md`.
+  - **Banner da live de pré-imersão, 03/11 (terça) às 21h** (01/nov): feed e story em `sb/AME/divulgacao/live-pre-imersao-*.png`,
+    com os dois. A live é **no Instagram do Dr. Stanley, @stanleybittar** (decisão e @ dele, 01/nov), com o @ de cada um embaixo da foto; botão
+    "Ative o lembrete". Pronto pra postar. As 12 perguntas do Stanley pra live estão em
+    `sb/AME/divulgacao/live-pre-imersao-perguntas.md` (e em PDF, uma folha A4).
+- **Falta:**
+  - ✅ Link de inscrição na bio do Instagram (ele confirmou em 30/out). Falta só o story e o WhatsApp, se ele quiser.
+  - **Contratos: 3 modelos prontos em 30/out** em `sb/AME/contratos/` (termo de inscrição da imersão, Choque de Ordem e
+    Caixa, Escala Blindada), com cláusula de imagem e vídeo (pedido dele). Falta o advogado conferir e preencher razão
+    social, CNPJ e o que está entre colchetes (lista no `LEIA.md` de lá).
+  - Regras de publicidade do CFM/CFO: **levantadas em 30/out** em `sb/AME/regras-publicidade-cfm-cfo.md`. Falta o advogado
+    conferir (principalmente o CFO) e o Stanley ajustar os slides de Marketing e Vendas. Dentista não pode anunciar preço;
+    médico pode.
+  - Dele, pros slides: ✅ meta de reserva = **no mínimo 3 meses de custo fixo** (30/out, já no slide `p01-reserva`);
+    falta a conta do custo da hora e os casos dele nos blocos; o Dr. Stanley
+    revisar os blocos de Marketing e Vendas.
+  - ⚠ As linhas do exercício da margem (imposto, cartão, material, repasse, tempo × hora) são proposta minha: ele confere.
+  - O arquivo original da logo, pra impressão e palco.
+  - Opcional: o número de WhatsApp pra versão do quiz dentro do Claude.
+- ⚠ **Não chamar o Stanley de "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos
+  motivos do processo no CRM-AC (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico
+  estrategista", como na marca.
