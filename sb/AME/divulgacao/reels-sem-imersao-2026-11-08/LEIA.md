@@ -39,3 +39,38 @@ AME para médicos, dentistas e clínicas." e `#assessoriaame`. Textos completos 
 | 14 | A frase que fecha toda mentoria | 15.62 s | 15/11 20h · `6af10941…` | 15/11 16h · `6af109a8…` |
 | 15 | A teoria não fecha o caixa | 17.8 s | 16/11 15h · `6af10942…` | 15/11 19h · `6af109aa…` |
 | 16 | Chega de conversinha de mentoria | 15.74 s | 16/11 20h · `6af10945…` | 16/11 10h · `6af109ab…` |
+
+## Versão com efeitos, no TikTok (9/nov)
+
+Ele pediu pra mexer em fonte, filtro e efeito antes de ir pro TikTok. **Fonte não dá nestes**: legenda e título vêm
+gravados na imagem pelo editor (os crus, sem legenda, não estão no Drive dele que eu enxergo; pedi pra ele baixar).
+O que foi feito, aprovado por ele num teste no vídeo 7 e depois pedido "um pouco mais leve":
+- **Cor:** contraste +6%, saturação +12%, tom levemente quente, vinheta suave e um pouco de nitidez.
+- **Câmera:** zoom de 7% nas frases alternadas (no 7, a câmera fecha nas frases da assessoria e abre nas da mentoria),
+  e aproximação lenta de 2% ao longo do vídeo. **Sem zoom na abertura nem na frase final**, onde os títulos ocupam a
+  tela inteira. No 9, o 3º trecho ficou sem zoom (cortava o "NINGUÉM ACOMPANHOU VOCÊ"); no 15, os trechos foram
+  marcados à mão. Conferido um quadro por segundo em todos os trechos com zoom. Plano em `efeitos.json`, vídeos em
+  `videos-efeitos/` (fora do git), teste em `teste-efeitos/`.
+- O som não mudou.
+
+**TikTok, 3 por dia (6h, 12h, 18h), de 9/11 18h a 14/11 18h**, legenda igual à do Instagram, com 5 hashtags.
+O Instagram e o YouTube continuam com a versão sem efeito, agendada antes.
+
+| # | Título | TikTok |
+|---|---|---|
+| 1 | Três perguntas pra você que é dono de consultório | 09/11 18h · `6af113f9…` |
+| 2 | Quanto custa a sua hora? | 10/11 6h · `6af1141d…` |
+| 3 | Consultório é empresa | 10/11 12h · `6af11420…` |
+| 4 | Empresa ou emprego? | 10/11 18h · `6af11422…` |
+| 5 | Quantos mentores já viram o seu balanço? | 11/11 6h · `6af11424…` |
+| 6 | O que o perito nunca achou num extrato | 11/11 12h · `6af11426…` |
+| 7 | Mentoria ou assessoria: a diferença | 11/11 18h · `6af11427…` |
+| 8 | Não é falta de conhecimento | 12/11 6h · `6af11429…` |
+| 9 | O plano que foi pra gaveta | 12/11 12h · `6af1142b…` |
+| 10 | Se informação resolvesse | 12/11 18h · `6af1144c…` |
+| 11 | Por que eu sou advisor e não mentor | 13/11 6h · `6af1144e…` |
+| 12 | Se der errado, a culpa é de quem? | 13/11 12h · `6af11450…` |
+| 13 | Mentoria é roupa de prateleira | 13/11 18h · `6af11452…` |
+| 14 | A frase que fecha toda mentoria | 14/11 6h · `6af11453…` |
+| 15 | A teoria não fecha o caixa | 14/11 12h · `6af11455…` |
+| 16 | Chega de conversinha de mentoria | 14/11 18h · `6af11457…` |

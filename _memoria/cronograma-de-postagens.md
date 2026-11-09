@@ -13,7 +13,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 |---|---|---|
 | **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **14/11** |
 | **YouTube** | **3 reels por dia: 10h, 16h, 19h** desde 3/11 (pedido dele em 2/nov; eram 5, às 7h, 10h, 13h, 16h, 19h) | até **16/11 às 10h** (cortes do carro até 10/11 19h; os 16 reels da AME sem a imersão de 11/11 10h a 16/11 10h; os 16 antigos foram apagados do canal em 8/nov) |
-| **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até 9/11 |
+| **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até **14/11 18h** (os 16 reels da AME com efeitos entraram de 9/11 18h a 14/11 18h, em 9/nov) |
 
 - **A frase do dia passou a sair todo dia, inclusive fim de semana** (pedido dele em 18/out). Então são 4 posts todo dia.
 - **Reels novos** = os lotes de 17/out (lote 1, 2, 3 e 4). Os dois do prazo do Simples foram adiantados pro Instagram
