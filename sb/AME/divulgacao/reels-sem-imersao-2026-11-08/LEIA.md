@@ -53,24 +53,25 @@ O que foi feito, aprovado por ele num teste no vídeo 7 e depois pedido "um pouc
   `videos-efeitos/` (fora do git), teste em `teste-efeitos/`.
 - O som não mudou.
 
-**TikTok, 3 por dia (6h, 12h, 18h), de 9/11 18h a 14/11 18h**, legenda igual à do Instagram, com 5 hashtags.
-O Instagram e o YouTube continuam com a versão sem efeito, agendada antes.
+**TikTok, 1 por dia às 18h, de 9 a 24/11** (pedido dele em 9/nov; no primeiro agendamento eram 3 por dia), legenda
+igual à do Instagram, com 5 hashtags. **No Instagram e no YouTube o vídeo também foi trocado pela versão com efeitos**
+(9/nov, pedido dele): mesmos posts, mesmos horários, mesma capa e legenda.
 
 | # | Título | TikTok |
 |---|---|---|
 | 1 | Três perguntas pra você que é dono de consultório | 09/11 18h · `6af113f9…` |
-| 2 | Quanto custa a sua hora? | 10/11 6h · `6af1141d…` |
-| 3 | Consultório é empresa | 10/11 12h · `6af11420…` |
-| 4 | Empresa ou emprego? | 10/11 18h · `6af11422…` |
-| 5 | Quantos mentores já viram o seu balanço? | 11/11 6h · `6af11424…` |
-| 6 | O que o perito nunca achou num extrato | 11/11 12h · `6af11426…` |
-| 7 | Mentoria ou assessoria: a diferença | 11/11 18h · `6af11427…` |
-| 8 | Não é falta de conhecimento | 12/11 6h · `6af11429…` |
-| 9 | O plano que foi pra gaveta | 12/11 12h · `6af1142b…` |
-| 10 | Se informação resolvesse | 12/11 18h · `6af1144c…` |
-| 11 | Por que eu sou advisor e não mentor | 13/11 6h · `6af1144e…` |
-| 12 | Se der errado, a culpa é de quem? | 13/11 12h · `6af11450…` |
-| 13 | Mentoria é roupa de prateleira | 13/11 18h · `6af11452…` |
-| 14 | A frase que fecha toda mentoria | 14/11 6h · `6af11453…` |
-| 15 | A teoria não fecha o caixa | 14/11 12h · `6af11455…` |
-| 16 | Chega de conversinha de mentoria | 14/11 18h · `6af11457…` |
+| 2 | Quanto custa a sua hora? | 10/11 18h · `6af1141d…` |
+| 3 | Consultório é empresa | 11/11 18h · `6af11420…` |
+| 4 | Empresa ou emprego? | 12/11 18h · `6af11422…` |
+| 5 | Quantos mentores já viram o seu balanço? | 13/11 18h · `6af11424…` |
+| 6 | O que o perito nunca achou num extrato | 14/11 18h · `6af11426…` |
+| 7 | Mentoria ou assessoria: a diferença | 15/11 18h · `6af11427…` |
+| 8 | Não é falta de conhecimento | 16/11 18h · `6af11429…` |
+| 9 | O plano que foi pra gaveta | 17/11 18h · `6af1142b…` |
+| 10 | Se informação resolvesse | 18/11 18h · `6af1144c…` |
+| 11 | Por que eu sou advisor e não mentor | 19/11 18h · `6af1144e…` |
+| 12 | Se der errado, a culpa é de quem? | 20/11 18h · `6af11450…` |
+| 13 | Mentoria é roupa de prateleira | 21/11 18h · `6af11452…` |
+| 14 | A frase que fecha toda mentoria | 22/11 18h · `6af11453…` |
+| 15 | A teoria não fecha o caixa | 23/11 18h · `6af11455…` |
+| 16 | Chega de conversinha de mentoria | 24/11 18h · `6af11457…` |
