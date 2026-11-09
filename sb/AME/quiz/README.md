@@ -1,6 +1,12 @@
 > **8/nov/2026: a Imersão AME foi cancelada.** O quiz virou **ficha de interesse da assessoria AME** (mesmas perguntas,
 > mesmas planilhas, todas as faixas vão pro `obrigado.html`, que chama pras lives de quarta no @stanleybittar) e o
 > `venda.html` virou aviso de cancelamento, sem botão de pagamento. O que está abaixo descreve o quiz da imersão.
+>
+> **Endereço novo (8/nov, pedido dele): https://assessoria-ame.vercel.app**, projeto `assessoria-ame` na mesma conta
+> Vercel. O antigo (imersao-ame.vercel.app) continua no ar com a mesma ficha. **Mudou alguma coisa em `site/`?
+> Publicar nos dois:** `vercel deploy --prod --yes` (vai pro antigo, que é o projeto ligado à pasta) e
+> `VERCEL_ORG_ID=team_8SRS8ecuqT5AMYRgj5kdPLp4 VERCEL_PROJECT_ID=prj_nQJUaDIlxAC5DgGx0m5I54nbO1yL vercel deploy --prod --yes`
+> (vai pro novo), os dois de dentro de `site/`.
 
 # Quiz da Imersão AME
 
