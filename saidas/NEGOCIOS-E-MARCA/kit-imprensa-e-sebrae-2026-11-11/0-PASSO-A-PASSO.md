@@ -31,18 +31,15 @@
 
 ## Frente 3. Sebrae (resultado em semanas a meses; começar já)
 
-⚠ **Antes de tudo:** o CNPJ 22.513.762/0001-24 é da **J&V Sena Holding Participações S.A.** e, no cartão da Receita, só tem a
-atividade de holding (CNAE 64.62-0-00). O Sebrae credencia empresa com atividade compatível com consultoria e
-instrutoria, e os atestados precisam estar no nome da empresa que prestou o serviço. **Confirmar com o contador qual CNPJ
-vai se credenciar** (incluir CNAEs de serviço na holding, ou usar a empresa que já fatura esses serviços). Em 12/nov ele passou as duas empresas
-que prestam os serviços: **GS Consultoria Empresarial Ltda – ME** (CNPJ 21.509.187/0001-23), a candidata natural para
-consultoria e instrutoria, e **Sena Contabilidade** (CNPJ 25.338.012/0001-51).
+✅ **Empresa que se credencia (decisão dele, 12/nov): GS CONSULTORIA EMPRESARIAL LTDA – ME**, CNPJ 21.509.187/0001-23, Av. Arthur
+Guimarães, 260, sala 301, Santa Cruz, BH. O atestado já está no nome dela. Antes de inscrever, conferir no cartão do CNPJ se as
+atividades dela (CNAE) cobrem consultoria e treinamento; a holding J&V ficou de fora porque só tem CNAE de holding.
 
-**O caminho:** credenciar o **Grupo Sena** no cadastro de fornecedores do Sebrae (SGF), pelo edital de cada estado. Começar por **Goiás**, que tem inscrição permanente e onde o Grupo Sena tem escritório.
+**O caminho:** credenciar a **GS Consultoria Empresarial** no cadastro de fornecedores do Sebrae (SGF), pelo edital de cada estado. Começar por **Goiás**, que tem inscrição permanente e onde o Grupo Sena tem escritório.
 
 | # | Passo | Quem |
 |---|---|---|
-| 1 | Preencher **uma vez** no atestado o seu CPF (o CNPJ do Grupo Sena, 22.513.762/0001-24, já está preenchido) | você |
+| 1 | Preencher **uma vez** no atestado o seu CPF (os dados da GS Consultoria Empresarial, CNPJ 21.509.187/0001-23, já estão preenchidos) | você |
 | 2 | Escolher os clientes (empresas, não pessoas físicas) que vão assinar. Meta: somar **200 horas por subárea** em cada natureza (consultoria ou instrutoria) | você |
 | 3 | Mandar o atestado para cada cliente, que preenche **no papel timbrado dele**, assina e devolve | você |
 | 4 | Separar os documentos do Grupo Sena: CNPJ, contrato social e certidões negativas (federal, estadual, municipal, FGTS e trabalhista) | você ou o financeiro |
