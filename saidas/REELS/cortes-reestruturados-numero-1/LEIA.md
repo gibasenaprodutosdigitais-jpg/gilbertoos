@@ -18,7 +18,7 @@ metadados do arquivo, para agendar de novo no futuro.
 
 ## O visual nº 1 (testado no c02)
 
-- Velocidade **1,08x**, com a voz no mesmo tom.
+- Velocidade **1,15x**, com a voz no mesmo tom (era 1,08x; ele pediu mais rápido em 12/nov).
 - Cor mais quente e com mais contraste, vinheta leve, enquadramento mais fechado.
 - Legenda em **Futura**, maiúsculas e minúsculas, numa faixa escura, com a palavra falada em **dourado** (antes: DIN
   Condensed, tudo em caixa alta, branca com contorno preto).

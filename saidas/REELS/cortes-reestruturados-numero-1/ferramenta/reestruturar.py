@@ -2,7 +2,7 @@
 
 Parte da gravação original (a mesma receita de corte por palavra de cortes.py) e muda tudo o que se vê, se ouve
 e o que vai dentro do arquivo:
-- velocidade 1,08x (voz no mesmo tom, sem efeito de esquilo);
+- velocidade 1,15x (voz no mesmo tom, sem efeito de esquilo);
 - cor nova: mais quente, mais contraste e uma vinheta leve; enquadramento mais fechado (zoom de base 1,06);
 - legenda nova: Futura, maiúsculas e minúsculas, numa faixa escura, com a palavra falada em dourado;
 - título fixo no topo (a chamada nova do vídeo);
@@ -30,7 +30,7 @@ SPEC = {c["id"]: c for c in json.load(open(
     REPO + "/saidas/REELS/reels-gravacoes-do-carro-2026-10-30/ferramenta/spec.json", encoding="utf-8"))}
 
 W, H = 1080, 1920
-VEL = 1.08
+VEL = 1.15  # era 1,08; ele pediu mais rápido em 12/nov
 FUTURA = "/System/Library/Fonts/Supplemental/Futura.ttc"
 F_LEG = ImageFont.truetype(FUTURA, 66, index=2)      # Futura Bold
 F_TIT = ImageFont.truetype(FUTURA, 70, index=4)      # Futura Condensed ExtraBold
