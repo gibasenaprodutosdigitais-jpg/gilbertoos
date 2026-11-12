@@ -10,7 +10,7 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 ## 1. As partes
 
-**CONTRATADAS:** **GS CONSULTORIA EMPRESARIAL LTDA – ME**, inscrita no CNPJ sob o nº **21.509.187/0001-23**, e **SENA CONTABILIDADE**, inscrita no CNPJ sob o nº **25.338.012/0001-51**, ambas com sede na Av. Arthur Guimarães, nº 260, sala 301, bairro Santa Cruz, Belo Horizonte/MG, CEP 31.150-690, e-mail financeiro@gruposena.com.br, empresas que atuam sob a marca **GRUPO SENA**, neste ato representadas por seus representantes legais, [nome e qualificação do representante de cada empresa], adiante chamadas, em conjunto, **GRUPO SENA**.
+**CONTRATADAS:** **GS CONSULTORIA EMPRESARIAL LTDA – ME**, inscrita no CNPJ sob o nº **21.509.187/0001-23**, e **SENA CONTABILIDADE**, inscrita no CNPJ sob o nº **25.338.012/0001-51**, ambas com sede na Av. Arthur Guimarães, nº 260, sala 301, bairro Santa Cruz, Belo Horizonte/MG, CEP 31.150-690, e-mail financeiro@gruposena.com.br, empresas que atuam sob a marca **GRUPO SENA**, neste ato representadas, as duas, por **Gilberto Luís de Sena**, qualificado no item 1.2, adiante chamadas, em conjunto, **GRUPO SENA**.
 
 **1.1. Quem faz o quê.** A **SENA CONTABILIDADE** presta a frente de **contabilidade** do item 3, sob responsabilidade técnica de contador com registro ativo no CRC (**CRC-MG nº 110075/OI**). A **GS CONSULTORIA EMPRESARIAL** presta as frentes de **assessoria tributária, gestão financeira, consultoria de marketing e advisor**. Cada uma responde pela sua frente e emite a sua nota fiscal, e não responde pela frente da outra.
 
@@ -201,12 +201,12 @@ Mudança só vale por escrito, assinada pelas duas partes. Uma cláusula inváli
 _____________________________________
 **GS CONSULTORIA EMPRESARIAL LTDA – ME**
 CNPJ 21.509.187/0001-23
-[representante legal]
+Gilberto Luís de Sena
 
 _____________________________________
 **SENA CONTABILIDADE**
 CNPJ 25.338.012/0001-51
-[representante legal]
+Gilberto Luís de Sena
 
 _____________________________________
 **[RAZÃO SOCIAL DO CLIENTE]**
@@ -255,4 +255,4 @@ Belo Horizonte, [data].
 | SIGNATÁRIO | CLIENTE (responsável solidário) | GRUPO SENA (GS CONSULTORIA EMPRESARIAL E SENA CONTABILIDADE) |
 |---|---|---|
 | Assinatura: | Assinatura: | Assinatura: |
-| [nome], CPF/CNPJ [nº] | [razão social], [representante legal] | [representante legal das contratadas] |
+| [nome], CPF/CNPJ [nº] | [razão social], [representante legal] | Gilberto Luís de Sena, pelas duas contratadas |

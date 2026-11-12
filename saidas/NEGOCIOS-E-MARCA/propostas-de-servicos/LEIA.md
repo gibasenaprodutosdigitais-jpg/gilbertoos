@@ -30,8 +30,8 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
   chamadas juntas de "GRUPO SENA". Substituíram a J&V Sena Holding, que só tem CNAE de holding. A Sena Contabilidade faz a
   contabilidade; a GS Consultoria faz tributário, financeiro, marketing e advisor, e fatura a parte variável. Cada uma
   responde pela sua frente. E-mail: financeiro@gruposena.com.br.
-- **Falta dele:** o nome e a qualificação do **representante legal de cada empresa** (a mensagem dele parou em "por seus");
-  e o **nome do contador responsável técnico**. O CRC ele passou em 12/nov: **CRC-MG 110075/OI** (escrito como ele mandou,
+- ✅ **Representante das duas empresas: Gilberto Luís de Sena** (palavra dele, 12/nov). Assina pelas duas no contrato e no NDA.
+- **Falta dele:** o **nome do contador responsável técnico**. O CRC ele passou em 12/nov: **CRC-MG 110075/OI** (escrito como ele mandou,
   "crcmg-110075/OI"; confirmar se é do contador ou da própria Sena Contabilidade).
 - ✅ **Divisão das notas (12/nov):** 35% Sena Contabilidade (R$ 1.750,00) e 65% GS Consultoria (R$ 3.250,00), mesma proporção
   depois dos reajustes; a parte variável sai toda pela GS Consultoria.
