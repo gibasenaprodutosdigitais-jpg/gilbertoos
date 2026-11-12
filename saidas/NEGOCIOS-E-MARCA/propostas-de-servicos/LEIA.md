@@ -102,8 +102,8 @@ Grupo Sena** no papel timbrado (a assinatura horizontal, `timbrado/logo-cabecalh
    **economia tributária** saem pela **GS Consultoria** (item 5.6).
 6. ✅ **15% sobre o proveito econômico tributário (palavra dele, 12/nov),** faturado pela GS Consultoria. Minha proposta, igual
    ao 01: conta redução de tributo contra a linha de base do Anexo I e crédito efetivamente aproveitado; apuração trimestral;
-   cauda de 12 meses depois do fim. Entre colchetes, para ele confirmar: contar também a redução de multas e juros em
-   parcelamento ou transação de débito tributário.
+   cauda de 12 meses depois do fim. ✅ Também conta a redução de multas, juros e encargos em parcelamento, transação ou
+   regularização de débito tributário (confirmado por ele em 12/nov).
 4. **O que ficou mais enxuto que o 01:** sem consultoria de marketing e sem advisor mensal; atendimento com 1 reunião
    trimestral. Recuperação de crédito, reorganização societária e renegociação de dívidas ficaram **fora do escopo**
    (sem a parte variável, seriam entregues de graça). **Mudou em 12/nov:** com os 15%, a recuperação de crédito e o planejamento

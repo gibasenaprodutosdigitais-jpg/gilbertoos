@@ -82,7 +82,7 @@ a) **redução de tributos:** a diferença entre o que o CLIENTE pagaria pela li
 
 b) **créditos tributários recuperados:** valores efetivamente restituídos, ressarcidos ou compensados;
 
-c) [**redução de multas, juros e encargos** de débitos tributários, obtida em parcelamento, transação ou regularização com a Receita Federal, a PGFN, o Estado ou o Município, comprovada por documento].
+c) **redução de multas, juros e encargos** de débitos tributários, obtida em parcelamento, transação ou regularização com a Receita Federal, a PGFN, o Estado ou o Município, comprovada por documento.
 
 **5.6.3.** Não entra na conta o proveito que viria de qualquer jeito, por mudança de lei que alcance todos, sem medida específica do GRUPO SENA, nem os créditos já conhecidos antes do contrato e registrados no Anexo I.
 
