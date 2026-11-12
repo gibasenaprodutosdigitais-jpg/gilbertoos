@@ -12,6 +12,10 @@ no mesmo dia, trocou pela 3. Arquivos da escolhida:
 
 Os arquivos da opção 1, incluindo a versão pra fundo escuro feita quando ela era a escolhida, ficaram na pasta.
 
+**12/nov, mais tarde:** pra o papel timbrado do contrato Business Advisor and Consultant, ele pediu **a logo número 1**
+(aço escovado). Está em `../propostas-de-servicos/timbrado/`. Se a marca oficial do serviço for a 3, conferir com ele
+qual vai nos documentos.
+
 ## O que tem aqui
 
 Três opções, cada uma em dois arquivos: um com fundo transparente (pra pôr em cima de qualquer coisa) e um com

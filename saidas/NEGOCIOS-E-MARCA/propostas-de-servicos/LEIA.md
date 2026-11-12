@@ -4,7 +4,7 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
 
 | # | Arquivo | O que é |
 |---|---|---|
-| 01 | `01-contrato-business-advisor-and-consultant.md` e `.docx` | Business Advisor and Consultant: contabilidade, assessoria tributária, gestão financeira e consultoria de marketing. R$ 5.000,00 por mês, 24 meses, mais 10% sobre a economia financeira e 5% sobre o aumento de faturamento acima de 10% |
+| 01 | `01-contrato-business-advisor-and-consultant.md` e `.docx`; **em papel timbrado:** `-TIMBRADO.docx` (editável) e `-TIMBRADO.pdf` (para enviar) | Business Advisor and Consultant: contabilidade, assessoria tributária, gestão financeira e consultoria de marketing. R$ 5.000,00 por mês, 24 meses, mais 10% sobre a economia financeira e 5% sobre o aumento de faturamento acima de 10% |
 
 ## O que veio dele (12/nov) e o que é proposta minha
 
@@ -27,3 +27,16 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
 - **Passar pelo advogado**, como os contratos da AME.
 - Preencher o CNPJ e o endereço do Grupo Sena e o **nome e o CRC do contador responsável técnico** (a contabilidade exige um).
 - Prazo de 24 meses está dentro do limite de 4 anos para prestação de serviços, conforme o mesmo fichamento.
+
+## Papel timbrado (12/nov/2026)
+
+Pedido dele: a minuta em papel timbrado, com marca d'água, usando **a logo número 1** (aço escovado,
+`../logo-3d-business-advisor-2026-11-12/opcao-1-aco-escovado-transparente.png`).
+
+- No topo de cada página: a logo 1 pequena e um fio. No centro: o leão da logo 1 em marca d'água, bem claro.
+- No rodapé: "Gilberto Sena · Business Advisor & Consultant | Grupo Sena · Belo Horizonte/MG · (31) 97353-5587 ·
+  gruposena.com.br" e o número da página.
+- Imagens prontas em `timbrado/` (`logo-cabecalho.png` e `marca-dagua-leao.png`).
+- Para refazer depois de mudar o texto do .md:
+  - Word: `node scripts/contrato-timbrado.js <md> <saida.docx> timbrado/logo-cabecalho.png timbrado/marca-dagua-leao.png "<rodapé>"`
+  - PDF: `python3 scripts/contrato-timbrado-pdf.py <md> <saida.pdf> timbrado/logo-cabecalho.png timbrado/marca-dagua-leao.png "<rodapé>"`
