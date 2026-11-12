@@ -10,7 +10,11 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 ## 1. As partes
 
-**CONTRATADA:** **J&V SENA HOLDING PARTICIPAÇÕES S.A.**, sociedade anônima fechada que atua sob a marca **GRUPO SENA**, inscrita no CNPJ sob o nº **22.513.762/0001-24**, com sede na Av. Antônio Abrahão Caram, nº 664, sala 204 B, bairro São José, Belo Horizonte/MG, CEP 31.275-000, e-mail financeiro@gruposena.com.br, representada por seu presidente, **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**, adiante **GRUPO SENA**.
+**CONTRATADAS:** **GS CONSULTORIA EMPRESARIAL LTDA – ME**, inscrita no CNPJ sob o nº **21.509.187/0001-23**, e **SENA CONTABILIDADE**, inscrita no CNPJ sob o nº **25.338.012/0001-51**, ambas com sede na Av. Arthur Guimarães, nº 260, sala 301, bairro Santa Cruz, Belo Horizonte/MG, CEP 31.150-690, e-mail financeiro@gruposena.com.br, empresas que atuam sob a marca **GRUPO SENA**, neste ato representadas por seus representantes legais, [nome e qualificação do representante de cada empresa], adiante chamadas, em conjunto, **GRUPO SENA**.
+
+**1.1. Quem faz o quê.** A **SENA CONTABILIDADE** presta a frente de **contabilidade** do item 3, sob responsabilidade técnica de contador com registro ativo no CRC. A **GS CONSULTORIA EMPRESARIAL** presta as frentes de **assessoria tributária, gestão financeira, consultoria de marketing e advisor**. Cada uma responde pela sua frente e emite a sua nota fiscal, e não responde pela frente da outra.
+
+**1.2. O advisor.** As frentes da GS CONSULTORIA EMPRESARIAL são conduzidas por **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**.
 
 **CONTRATANTE:** [razão social], CNPJ [nº], com sede em [endereço], representada por [nome do representante legal], CPF [nº], adiante **CLIENTE**.
 
@@ -47,6 +51,8 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 ## 5. Remuneração fixa
 
 **5.1.** O CLIENTE paga ao GRUPO SENA **R$ 5.000,00 (cinco mil reais) por mês**, durante os 24 meses, com vencimento todo dia **[10]**, por boleto ou pix, contra nota fiscal.
+
+**5.1.1. Divisão do faturamento.** Do valor mensal, **R$ [____]** são faturados pela SENA CONTABILIDADE, pela contabilidade, e **R$ [____]** pela GS CONSULTORIA EMPRESARIAL, pelas demais frentes, cada uma com a sua nota fiscal. A remuneração variável do item 6 é faturada pela GS CONSULTORIA EMPRESARIAL.
 
 **5.2. Reajuste.** A cada 12 meses, o valor fixo é corrigido pela variação do **[IPCA]** do período.
 
@@ -188,12 +194,19 @@ Mudança só vale por escrito, assinada pelas duas partes. Uma cláusula inváli
 
 **Assinatura eletrônica** (por exemplo, Clicksign ou gov.br) vale como assinatura de próprio punho.
 
+[[quebra]]
+
 [Cidade], [data].
 
 _____________________________________
-**J&V SENA HOLDING PARTICIPAÇÕES S.A. (GRUPO SENA)**
-CNPJ 22.513.762/0001-24
-Gilberto Luís de Sena, presidente · CRA nº 06-003960/D · Perito CONPEJ nº 01.00.3597
+**GS CONSULTORIA EMPRESARIAL LTDA – ME**
+CNPJ 21.509.187/0001-23
+[representante legal]
+
+_____________________________________
+**SENA CONTABILIDADE**
+CNPJ 25.338.012/0001-51
+[representante legal]
 
 _____________________________________
 **[RAZÃO SOCIAL DO CLIENTE]**
@@ -239,7 +252,7 @@ Rubrica GRUPO SENA: ________ Rubrica CLIENTE: ________
 
 Belo Horizonte, [data].
 
-| SIGNATÁRIO | CLIENTE (responsável solidário) | J&V SENA HOLDING PARTICIPAÇÕES S.A. (GRUPO SENA) |
+| SIGNATÁRIO | CLIENTE (responsável solidário) | GRUPO SENA (GS CONSULTORIA EMPRESARIAL E SENA CONTABILIDADE) |
 |---|---|---|
 | Assinatura: | Assinatura: | Assinatura: |
-| [nome], CPF/CNPJ [nº] | [razão social], [representante legal] | Gilberto Luís de Sena, presidente, CRA nº 06-003960/D |
+| [nome], CPF/CNPJ [nº] | [razão social], [representante legal] | [representante legal das contratadas] |

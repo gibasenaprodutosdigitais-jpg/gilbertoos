@@ -71,6 +71,7 @@ function corpo(md) {
     if (s.startsWith('|')) { tab.push(s); continue; }
     if (tab.length) { out.push(tabela(tab)); out.push(new Paragraph({ text: '' })); tab = []; }
     if (!s || s === '---') continue;
+    if (s === '[[quebra]]') { out.push(new Paragraph({ children: [], pageBreakBefore: true })); continue; }
     const p = (filhos, extra = {}) => out.push(new Paragraph({ children: filhos, spacing: { after: 120, line: 290 }, ...extra }));
     if (s.startsWith('# ')) p(runs(s.slice(2), { size: 30, bold: true, font: FONTE, color: TINTA }), { alignment: AlignmentType.CENTER, spacing: { after: 80 } });
     else if (s.startsWith('### ')) p(runs(s.slice(4), { size: 22, bold: true, font: FONTE, color: TINTA }), { spacing: { before: 160, after: 80 } });

@@ -34,7 +34,9 @@
 ⚠ **Antes de tudo:** o CNPJ 22.513.762/0001-24 é da **J&V Sena Holding Participações S.A.** e, no cartão da Receita, só tem a
 atividade de holding (CNAE 64.62-0-00). O Sebrae credencia empresa com atividade compatível com consultoria e
 instrutoria, e os atestados precisam estar no nome da empresa que prestou o serviço. **Confirmar com o contador qual CNPJ
-vai se credenciar** (incluir CNAEs de serviço na holding, ou usar a empresa que já fatura esses serviços).
+vai se credenciar** (incluir CNAEs de serviço na holding, ou usar a empresa que já fatura esses serviços). Em 12/nov ele passou as duas empresas
+que prestam os serviços: **GS Consultoria Empresarial Ltda – ME** (CNPJ 21.509.187/0001-23), a candidata natural para
+consultoria e instrutoria, e **Sena Contabilidade** (CNPJ 25.338.012/0001-51).
 
 **O caminho:** credenciar o **Grupo Sena** no cadastro de fornecedores do Sebrae (SGF), pelo edital de cada estado. Começar por **Goiás**, que tem inscrição permanente e onde o Grupo Sena tem escritório.
 

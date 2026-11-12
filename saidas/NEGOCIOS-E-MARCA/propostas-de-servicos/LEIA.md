@@ -25,13 +25,13 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
 ## Antes da primeira assinatura
 
 - **Passar pelo advogado**, como os contratos da AME.
-- **Contratada preenchida com os dados do cartão do CNPJ** que ele mandou em 12/nov: J&V SENA HOLDING PARTICIPAÇÕES S.A.,
-  CNPJ 22.513.762/0001-24, Av. Antônio Abrahão Caram, 664, sala 204 B, São José, BH, CEP 31.275-000, "que atua sob a marca
-  Grupo Sena", representada pelo presidente. **E-mail no contrato: financeiro@gruposena.com.br** (pedido dele, 12/nov; o do
-  cartão do CNPJ é legalizacao@), também como canal oficial de comunicação no item 16. Falta o **nome e o CRC do contador responsável técnico**.
-- ⚠ **CNAE:** o cartão mostra só 64.62-0-00 (holding), sem atividade secundária. Para emitir nota de contabilidade e
-  consultoria por esse CNPJ, e para o credenciamento no Sebrae, é provável que precise incluir CNAEs de serviço (ou
-  usar o CNPJ da empresa que já presta esses serviços). Conferir com o contador antes de assinar.
+- **Contratadas (dados dele, 12/nov):** **GS CONSULTORIA EMPRESARIAL LTDA – ME**, CNPJ 21.509.187/0001-23, e **SENA
+  CONTABILIDADE**, CNPJ 25.338.012/0001-51, as duas na Av. Arthur Guimarães, 260, sala 301, Santa Cruz, BH, CEP 31.150-690,
+  chamadas juntas de "GRUPO SENA". Substituíram a J&V Sena Holding, que só tem CNAE de holding. A Sena Contabilidade faz a
+  contabilidade; a GS Consultoria faz tributário, financeiro, marketing e advisor, e fatura a parte variável. Cada uma
+  responde pela sua frente. E-mail: financeiro@gruposena.com.br.
+- **Falta dele:** o nome e a qualificação do **representante legal de cada empresa** (a mensagem dele parou em "por seus");
+  a **divisão dos R$ 5.000,00** entre as duas notas (item 5.1.1); e o **nome e o CRC do contador responsável técnico**.
 - Prazo de 24 meses está dentro do limite de 4 anos para prestação de serviços, conforme o mesmo fichamento.
 
 ## Papel timbrado (12/nov/2026)

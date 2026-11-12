@@ -44,6 +44,9 @@ def converter(md):
             lista = None
         if not s:
             continue
+        if s == "[[quebra]]":
+            out.append('<div style="page-break-before:always"></div>')
+            continue
         if s == "---":
             out.append("<hr>")
         elif s.startswith("# "):
