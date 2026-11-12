@@ -45,7 +45,7 @@ def monta(cp):
     ev = R.eventos(toks, bls, total)
     efx = R.filtro_efeitos(ev, [], total)
     cp["efeitos"] = [f"{a:.1f}s {f}" for a, f in ev]
-    capa = f"{wd}/capa.png"; R.png_capa(cp["capa"], capa, topo=0, base=int(R.H * 0.80), opac=255)  # cobre também o título antigo do topo
+    capa = f"{wd}/capa.png"; R.png_capa(cp["capa"], capa, topo=0, base=int(R.H * 0.90), opac=255)  # cobre também o título antigo do topo
     climas = {
         "neutro": "eq=contrast=1.10:saturation=1.05:gamma=0.97,colorbalance=rs=0.03:bs=-0.04:rh=0.02:bh=-0.02,vignette=angle=PI/5",
         "tenso": "eq=contrast=1.15:saturation=0.90:gamma=0.94,colorbalance=rs=-0.02:bs=0.05:rm=0.02:bh=0.02,vignette=angle=PI/4",

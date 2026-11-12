@@ -87,7 +87,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 13/11 sex | 09h00 | Instagram | frase do dia | Se todo caminho de decisão passa pelo dono, o próximo gargalo já tem n… |
 | 13/11 sex | 10h00 | YouTube | reels | Mentoria ou assessoria: a diferença |
 | 13/11 sex | 12h00 | Instagram | reels | Traz um contrato com R$ 10 milhões de multa. Eu assino. |
-| 13/11 sex | 15h00 | Instagram | reel de teste | O plano que foi pra gaveta |
+| 13/11 sex | 15h00 | Instagram | reel normal (era de teste; trocado em 12/nov), ainda com o vídeo antigo | O plano que foi pra gaveta |
 | 13/11 sex | 16h00 | YouTube | reels | Não é falta de conhecimento |
 | 13/11 sex | 18h00 | Instagram | carrossel | O IPI não morreu, virou escudo pra Zona Franca de Manaus. E quase ning… |
 | 13/11 sex | 18h00 | TikTok | reels | Quantos mentores já viram o seu balanço? |
@@ -97,7 +97,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 14/11 sáb | 09h00 | Instagram | frase do dia | Fornecedor pago no prazo também faz parte da reputação de uma empresa. |
 | 14/11 sáb | 10h00 | YouTube | reels | Se informação resolvesse |
 | 14/11 sáb | 12h00 | Instagram | reels | Você acha que o dinheiro é seu. E o dinheiro não é seu. |
-| 14/11 sáb | 15h00 | Instagram | reel de teste | Por que eu sou advisor e não mentor |
+| 14/11 sáb | 15h00 | Instagram | reel normal (era de teste), vídeo refeito com a headline cobrindo o rosto | Por que eu sou advisor e não mentor |
 | 14/11 sáb | 16h00 | YouTube | reels | Por que eu sou advisor e não mentor |
 | 14/11 sáb | 18h00 | Instagram | carrossel | Quem vende online tá lendo sobre alíquota e esquecendo do que realment… |
 | 14/11 sáb | 18h00 | TikTok | reels | O que o perito nunca achou num extrato |
@@ -107,7 +107,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 15/11 dom | 09h00 | Instagram | frase do dia | O cliente percebe quando a empresa promete antes de saber se consegue … |
 | 15/11 dom | 10h00 | YouTube | reels | Mentoria é roupa de prateleira |
 | 15/11 dom | 12h00 | Instagram | reels | De R$ 300 mil por mês, numa mesa de café, a R$ 5,5 milhões em três ano… |
-| 15/11 dom | 15h00 | Instagram | reel de teste | Mentoria é roupa de prateleira |
+| 15/11 dom | 15h00 | Instagram | reel normal (era de teste), vídeo refeito com a headline cobrindo o rosto | Mentoria é roupa de prateleira |
 | 15/11 dom | 16h00 | YouTube | reels | A frase que fecha toda mentoria |
 | 15/11 dom | 18h00 | TikTok | reels | Mentoria ou assessoria: a diferença |
 | 15/11 dom | 18h00 | Instagram | carrossel | Se você vende em marketplace ou loja online, a reforma tributária vai … (remarcado de 11/11) |
@@ -117,7 +117,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 16/11 seg | 09h00 | Instagram | frase do dia | Uma planilha correta também pode chegar tarde demais para ajudar. |
 | 16/11 seg | 10h00 | YouTube | reels | Chega de conversinha de mentoria |
 | 16/11 seg | 12h00 | Instagram | reels | De que vale uma Ferrari nas ruas de pedra de Ouro Preto? Você vai acel… |
-| 16/11 seg | 15h00 | Instagram | reel de teste | A teoria não fecha o caixa |
+| 16/11 seg | 15h00 | Instagram | reel normal (era de teste), vídeo refeito com a headline cobrindo o rosto | A teoria não fecha o caixa |
 | 16/11 seg | 18h00 | TikTok | reels | Não é falta de conhecimento |
 | 16/11 seg | 18h00 | Instagram | carrossel | Se você presta serviço e não é profissão regulamentada (sem conselho d… (remarcado de 12/11) |
 | 16/11 seg | 20h00 | Instagram | reel de teste | Chega de conversinha de mentoria |
