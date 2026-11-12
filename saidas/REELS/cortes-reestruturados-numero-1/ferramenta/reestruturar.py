@@ -2,7 +2,7 @@
 
 Parte da gravação original (a mesma receita de corte por palavra de cortes.py) e muda tudo o que se vê, se ouve
 e o que vai dentro do arquivo:
-- velocidade 1,15x (voz no mesmo tom, sem efeito de esquilo);
+- velocidade 1,22x (voz no mesmo tom, sem efeito de esquilo);
 - cor nova: mais quente, mais contraste e uma vinheta leve; enquadramento mais fechado (zoom de base 1,06);
 - legenda nova: Futura, maiúsculas e minúsculas, numa faixa escura, com a palavra falada em dourado;
 - título fixo no topo (a chamada nova do vídeo);
@@ -30,7 +30,8 @@ SPEC = {c["id"]: c for c in json.load(open(
     REPO + "/saidas/REELS/reels-gravacoes-do-carro-2026-10-30/ferramenta/spec.json", encoding="utf-8"))}
 
 W, H = 1080, 1920
-VEL = 1.15  # era 1,08; ele pediu mais rápido em 12/nov
+VEL = 1.22  # era 1,08, depois 1,15; ele pediu mais rápido duas vezes em 12/nov
+ZOOM_FATOR = 1.0  # nos vídeos que já têm legenda e título na imagem, o zoom é mais leve (0,5)
 FUTURA = "/System/Library/Fonts/Supplemental/Futura.ttc"
 F_LEG = ImageFont.truetype(FUTURA, 66, index=2)      # Futura Bold
 F_TIT = ImageFont.truetype(FUTURA, 70, index=4)      # Futura Condensed ExtraBold
@@ -121,15 +122,17 @@ CAPA_H = int(H * 0.60)
 CAPA_DUR = 1.4  # segundos com a capa na tela; depois ela some e fica o título pequeno
 
 
-def png_capa(texto, path):
+def png_capa(texto, path, topo=None, base=None, opac=240):
     """Faixa de 60% da tela no meio, cobrindo o rosto, com a headline grande. *palavra* sai em dourado."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     # faixa de 60% da tela no MEIO do vídeo, em cima do rosto (pedido dele), com as bordas esfumadas
-    topo, base, borda = (H - CAPA_H) // 2, (H + CAPA_H) // 2, 150
+    borda = 150
+    topo = (H - CAPA_H) // 2 if topo is None else topo
+    base = (H + CAPA_H) // 2 if base is None else base
     for y in range(topo - borda, base + borda):
         dist = max(topo - y, y - base, 0)
-        a = int(240 * (1 - dist / borda))
+        a = int(opac * (1 - dist / borda))
         d.line([(0, y), (W, y)], fill=rgba(PAL['fundo'], a))
     marca, partes = False, []
     for parte in texto.split("|"):  # '|' força quebra de linha
@@ -167,7 +170,7 @@ def png_capa(texto, path):
             d.text((x, y), p, font=f, fill=rgba(PAL['destaque'] if dourado else PAL['texto']))
             x += d.textlength(p, font=f) + esp
         y += alt
-    d.rectangle([W / 2 - 80, y + int(tam * 0.32), W / 2 + 80, y + int(tam * 0.32) + 8], fill=rgba(PAL['destaque']))
+    d.rectangle([W / 2 - 80, y + int(tam * 0.42), W / 2 + 80, y + int(tam * 0.42) + 8], fill=rgba(PAL['destaque']))
     img.save(path)
 
 
@@ -274,7 +277,7 @@ def eventos(toks, bls, total):
 
 
 def filtro_efeitos(ev, juntas, total):
-    amp = {"medo": 0.17, "alerta": 0.13, "dinheiro": 0.10, "enfase": 0.12, "ritmo": 0.09, "luz": 0.06, "fe": 0.05}
+    amp = {k: v * ZOOM_FATOR for k, v in {"medo": 0.17, "alerta": 0.13, "dinheiro": 0.10, "enfase": 0.12, "ritmo": 0.09, "luz": 0.06, "fe": 0.05}.items()}
     bumps = [f"{amp[f]}*if(between(it,{a:.2f},{a+0.18:.2f}),(it-{a:.2f})/0.18,"
              f"if(between(it,{a+0.18:.2f},{a+1.5:.2f}),1-(it-{a+0.18:.2f})/1.32,0))" for a, f in ev]
     z = f"1+0.04*it/{total:.2f}" + "".join("+" + b for b in bumps)
