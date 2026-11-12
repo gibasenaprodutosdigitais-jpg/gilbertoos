@@ -170,7 +170,8 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
   o `slide-interativo` e a `apresentacao-ecossistema`
 - `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto, trocar travessão de efeito por pontuação, e
   gerar contrato ou proposta em papel timbrado, em Word e PDF: `contrato-timbrado.js` e `contrato-timbrado-pdf.py`, com
-  o modelo em `saidas/NEGOCIOS-E-MARCA/propostas-de-servicos/`)
+  o modelo em `saidas/NEGOCIOS-E-MARCA/propostas-de-servicos/`; a versão simples em Word, sem timbrado, sai do
+  `md-para-docx.py`)
 - `entrada-videos/` — vídeos e gravações crus que ele manda (longos, triagem,
   palco e eventos)
 - `posicionamento-gilberto-sena/` — estudos de posicionamento de agosto de 2026.

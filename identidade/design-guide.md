@@ -28,6 +28,9 @@
   pequena no topo de cada página, com um fio fino embaixo; o **leão da opção 1 (aço), bem claro, como marca d'água** no
   centro; rodapé com nome, serviço, Grupo Sena, telefone, site e número da página. Arquivos prontos em
   `saidas/NEGOCIOS-E-MARCA/propostas-de-servicos/timbrado/` (`logo-cabecalho-dourada.png` e `marca-dagua-leao.png`).
+  **No contrato 02 (Assessoria Contábil, Tributária e Financeira), ele pediu a logo do Grupo Sena** (12/nov/2026): a
+  assinatura horizontal (`identidade/Grupo Sena - Assinatura Horizontal - Preta.png`), recortada em
+  `timbrado/logo-cabecalho-grupo-sena.png`, com a mesma marca d'água do leão. O contrato 01 segue com a logo dourada.
 
 ## Direção visual — decidida peça por peça (desde 22/set/2026)
 
