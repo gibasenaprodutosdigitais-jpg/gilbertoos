@@ -27,16 +27,31 @@ metadados do arquivo, para agendar de novo no futuro.
 - Título, legenda e tags novos, tirados do que ele falou no vídeo (`copys.json`; o campo `era` guarda o título antigo e
   o ID do post que saiu).
 
-## Efeitos (pedido dele em 12/nov, depois de ver o teste: "acrescentar efeitos como zoom, um efeito de medo, entre outros")
+## Ajustes pedidos por ele em 12/nov (depois dos testes)
 
-- **Zoom:** aproximação lenta do começo ao fim e um zoom rápido (entra e volta) nas palavras fortes; onde passar de 4 s
-  sem nada, um zoom de ritmo no começo da frase.
-- **Medo** (medo, paralisar, quebrar, falência, risco, crise, prejuízo...): tremor de câmera, imagem dessaturada e
-  avermelhada, vinheta escura e um "glitch" de cor no começo; a palavra acende em **vermelho** na legenda. No máximo
-  3 por vídeo, com 3 s de folga; as outras vezes viram zoom simples.
-- **Dinheiro** (dinheiro, lucro, caixa, imposto, faturamento, milhões...): brilho dourado rápido.
-- **Flash branco** nas emendas, quando o corte junta dois trechos.
-- O título do topo quebra em duas linhas equilibradas, de preferência depois de ponto ou vírgula.
+- **Capa** no começo do vídeo (1,4 s): faixa de **60% da tela no meio, cobrindo o rosto**, com a headline grande e
+  "GILBERTO SENA" em cima; depois ela some e fica o título pequeno no topo. A mesma imagem sai em `capas/` (jpg) pra
+  ir como capa do post. No `copys.json`, o campo `capa` aceita `*palavra*` (cor de destaque) e `|` (quebra de linha).
+- **Legenda abaixo do rosto** (a 77% da altura), escondida enquanto a capa está na tela.
+- **Cada corte com uma combinação própria de fundo e letra**, em rodízio de 8: grafite e dourado, marinho e amarelo,
+  vinho e champanhe, verde-escuro e limão, creme e preto, roxo e laranja, amarelo e preto, petróleo e coral. Vale pra
+  capa, faixa da legenda e destaque.
+- **Efeitos pelo sentido da fala** e **cor de base pelo assunto** (campo `clima`: tenso, dinheiro, inspirador ou neutro).
+
+## Efeitos
+
+| Quando ele fala | O efeito |
+|---|---|
+| medo, quebrar, falência, crise, risco, prejuízo | tremor de câmera, imagem sem cor e avermelhada, bordas escuras, falha de imagem; palavra em vermelho (no máximo 3 por vídeo) |
+| erro, problema, culpa, golpe | pulso vermelho curto nas bordas; palavra em vermelho |
+| dinheiro, lucro, caixa, imposto, faturamento | brilho dourado rápido |
+| ajuda, solução, caminho, crescer, resultado | a imagem abre e clareia |
+| Deus, Provérbios, sabedoria, Jesus | luz quente e suave, mais longa |
+| nunca, ninguém, tudo, verdade, cuidado | zoom rápido |
+| um número ("20, 30, 40 mil", "600 reais") | o número aparece grande, num selo acima da legenda |
+| emenda de dois trechos | flash branco |
+
+Além disso: aproximação lenta do começo ao fim, e um zoom de ritmo onde passar de 4 s sem efeito.
 
 Motor: `ferramenta/reestruturar.py` (usa a receita de corte de `reels-gravacoes-do-carro-2026-10-30/ferramenta/`).
 Os vídeos ficam em `videos/`, fora do GitHub (só no notebook). A conversão de cor das gravações do iPhone fica no
@@ -46,6 +61,7 @@ scratchpad da sessão; se sumir, refazer com `avconvert` (ver a memória do víd
 
 - ✅ Testes com efeitos: `videos/r1-01-medo-ate-de-pedir-ajuda.mp4` (era "O medo está paralisando o empresário") e
   `videos/r1-02-o-dinheiro-na-conta-nao-e-seu.mp4` (era "Pagar imposto não é ruim. É bom"). Ele aprovou o visual sem
-  efeitos em 12/nov ("ficou bom") e pediu os efeitos.
+  efeitos em 12/nov ("ficou bom") e pediu os efeitos, a capa no meio cobrindo o rosto, a legenda abaixo do rosto
+  e cores diferentes por corte.
 - ⏳ Falta ele aprovar os efeitos; depois, os outros 24 do carro e a decisão sobre os cortes sem gravação original.
 - Nada agendado ainda.
