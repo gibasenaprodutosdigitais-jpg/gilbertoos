@@ -24,7 +24,7 @@ th{background:#F1F2F3} th,td{border:0.6pt solid #B9BDC2;padding:1.5mm 2mm;vertic
 hr{border:0;border-top:0.6pt solid #B9BDC2;margin:5mm 0} p{margin:0 0 2.5mm} li{margin-bottom:1mm}"""
 d = tempfile.mkdtemp()
 open(f"{d}/c.html", "w").write(f'<html><head><meta charset="utf-8"><style>{css}</style></head><body><img class="wm" src="data:image/png;base64,{b64(marca)}">{corpo}</body></html>')
-open(f"{d}/h.html", "w").write(f'<div style="width:100%;text-align:center;padding-top:6mm"><img src="data:image/png;base64,{b64(logo)}" style="height:22mm"><div style="margin:2mm 22mm 0;border-bottom:0.6pt solid #B9BDC2"></div></div>')
+open(f"{d}/h.html", "w").write(f'<div style="width:100%;text-align:center;padding-top:4mm"><img src="data:image/png;base64,{b64(logo)}" style="height:28mm"><div style="margin:2mm 22mm 0;border-bottom:0.6pt solid #B9BDC2"></div></div>')
 open(f"{d}/f.html", "w").write(f'<div style="width:100%;font-family:Georgia,serif;font-size:7.5pt;color:#6B7078;text-align:center;margin:0 22mm;border-top:0.6pt solid #B9BDC2;padding-top:1.5mm">{html.escape(rodape)}<br>Página <span class="pageNumber"></span> de <span class="totalPages"></span></div>')
 env = dict(os.environ, NODE_PATH=os.path.join(aqui, "node_modules"))
 subprocess.run(["node", os.path.join(aqui, "html-para-pdf-timbrado.js"), f"{d}/c.html", f"{d}/h.html", f"{d}/f.html", os.path.abspath(saida)], check=True, env=env)

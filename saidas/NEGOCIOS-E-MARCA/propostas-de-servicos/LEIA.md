@@ -31,7 +31,9 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
   contabilidade; a GS Consultoria faz tributário, financeiro, marketing e advisor, e fatura a parte variável. Cada uma
   responde pela sua frente. E-mail: financeiro@gruposena.com.br.
 - **Falta dele:** o nome e a qualificação do **representante legal de cada empresa** (a mensagem dele parou em "por seus");
-  a **divisão dos R$ 5.000,00** entre as duas notas (item 5.1.1); e o **nome e o CRC do contador responsável técnico**.
+  e o **nome e o CRC do contador responsável técnico**.
+- ✅ **Divisão das notas (12/nov):** 35% Sena Contabilidade (R$ 1.750,00) e 65% GS Consultoria (R$ 3.250,00), mesma proporção
+  depois dos reajustes; a parte variável sai toda pela GS Consultoria.
 - Prazo de 24 meses está dentro do limite de 4 anos para prestação de serviços, conforme o mesmo fichamento.
 
 ## Papel timbrado (12/nov/2026)
@@ -77,3 +79,7 @@ indenização do prejuízo que passar disso. **Logo depois, ele pediu mais R$ 30
 
 Na qualificação do Grupo Sena e nas assinaturas: **CRA nº 06-003960/D** e **perito financeiro CONPEJ nº 01.00.3597**, os dois
 passados e confirmados por ele em 12/nov (o CONPEJ foi renovado, na palavra dele).
+
+**Atualização de 12/nov, mais tarde:** ele definiu **a logo dourada no topo** (a opção 3, medalha de cobre, que o guia da marca já
+registra como a oficial do Business Advisor), arquivo `timbrado/logo-cabecalho-dourada.png`, e **manteve a marca d'água** do leão
+como estava. Nos comandos acima, trocar `logo-cabecalho.png` por `logo-cabecalho-dourada.png`.

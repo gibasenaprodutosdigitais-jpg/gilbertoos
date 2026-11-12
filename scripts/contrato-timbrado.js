@@ -88,7 +88,7 @@ function corpo(md) {
 
 const logo = tamanho(logoPath);
 const marca = tamanho(marcaPath);
-const logoW = 34 * EMU_MM, logoH = logoW * logo.h / logo.w;
+const logoH = 27 * EMU_MM, logoW = logoH * logo.w / logo.h; // altura fixa: serve para logo larga e para a medalha
 const marcaW = 125 * EMU_MM, marcaH = marcaW * marca.h / marca.w;
 
 const cabecalho = new Header({

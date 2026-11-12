@@ -52,7 +52,7 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **5.1.** O CLIENTE paga ao GRUPO SENA **R$ 5.000,00 (cinco mil reais) por mês**, durante os 24 meses, com vencimento todo dia **[10]**, por boleto ou pix, contra nota fiscal.
 
-**5.1.1. Divisão do faturamento.** Do valor mensal, **R$ [____]** são faturados pela SENA CONTABILIDADE, pela contabilidade, e **R$ [____]** pela GS CONSULTORIA EMPRESARIAL, pelas demais frentes, cada uma com a sua nota fiscal. A remuneração variável do item 6 é faturada pela GS CONSULTORIA EMPRESARIAL.
+**5.1.1. Divisão do faturamento.** Do valor mensal, **35% (R$ 1.750,00)** são faturados pela SENA CONTABILIDADE, pela contabilidade, e **65% (R$ 3.250,00)** pela GS CONSULTORIA EMPRESARIAL, pelas demais frentes, cada uma com a sua nota fiscal. A mesma proporção vale depois dos reajustes. A remuneração variável do item 6 é faturada pela GS CONSULTORIA EMPRESARIAL.
 
 **5.2. Reajuste.** A cada 12 meses, o valor fixo é corrigido pela variação do **[IPCA]** do período.
 

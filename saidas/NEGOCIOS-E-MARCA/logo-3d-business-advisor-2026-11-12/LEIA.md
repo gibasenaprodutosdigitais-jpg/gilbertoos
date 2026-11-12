@@ -13,8 +13,8 @@ no mesmo dia, trocou pela 3. Arquivos da escolhida:
 Os arquivos da opção 1, incluindo a versão pra fundo escuro feita quando ela era a escolhida, ficaram na pasta.
 
 **12/nov, mais tarde:** pra o papel timbrado do contrato Business Advisor and Consultant, ele pediu **a logo número 1**
-(aço escovado). Está em `../propostas-de-servicos/timbrado/`. Se a marca oficial do serviço for a 3, conferir com ele
-qual vai nos documentos.
+(aço escovado). Está em `../propostas-de-servicos/timbrado/`. Mais tarde, no mesmo dia, ele resolveu: **a oficial é a dourada (opção 3)**, que passou a ir no topo do
+papel timbrado; a marca d'água continuou sendo o leão da opção 1, bem claro.
 
 ## O que tem aqui
 
