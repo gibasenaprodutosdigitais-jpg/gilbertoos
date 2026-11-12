@@ -3,11 +3,14 @@
 Pedido dele: a logo em 3D do serviço de "business advisor and consultant", sem mais detalhe.
 Tratado como **marca pessoal** (o serviço é dele, com o nome dele), não como Grupo Sena, OCEO ou GSena Hub.
 
-**★ Escolhida por ele em 12/nov: a opção 1, aço escovado.** Arquivos da escolhida:
+**★ Escolhida por ele em 12/nov: a opção 3, a medalha de cobre.** Primeiro ele escolheu a 1 (aço escovado) e,
+no mesmo dia, trocou pela 3. Arquivos da escolhida:
 
-- `opcao-1-aco-escovado-transparente.png`: fundo transparente, pra usar sobre fundo claro (o serviço sai em grafite)
-- `opcao-1-aco-escovado-transparente-para-fundo-escuro.png`: fundo transparente, pra usar sobre fundo escuro (o serviço sai em prata clara)
-- `opcao-1-aco-escovado-fundo-claro.png` e `opcao-1-aco-escovado-fundo-escuro.png`: com o fundo já pronto
+- `opcao-3-medalha-cobre-transparente.png`: fundo transparente, serve em fundo claro e escuro
+- `opcao-3-medalha-cobre-fundo-claro.png`: com fundo claro pronto, pra documento e proposta
+- `opcao-3-medalha-cobre-fundo-vinho.png`: com fundo vinho pronto
+
+Os arquivos da opção 1, incluindo a versão pra fundo escuro feita quando ela era a escolhida, ficaram na pasta.
 
 ## O que tem aqui
 

@@ -19,9 +19,10 @@
   CTA final). Não precisa se repetir gritando em todo slide — marca boa não
   grita o tempo todo.
 
-- **Logo do serviço Business Advisor & Consultant** (escolhida por ele em 12/nov/2026): o leão em aço escovado, em
-  3D, com "GILBERTO SENA" em Didot e o nome do serviço embaixo. Arquivos (fundo claro, fundo escuro e transparentes)
-  em `saidas/NEGOCIOS-E-MARCA/logo-3d-business-advisor-2026-11-12/`, começando por `opcao-1-`.
+- **Logo do serviço Business Advisor & Consultant** (escolhida por ele em 12/nov/2026, a opção 3): medalha de cobre
+  em 3D, com o leão polido no centro e "GILBERTO SENA" e "BUSINESS ADVISOR & CONSULTANT" gravados em volta, em
+  Copperplate. Arquivos (transparente, fundo claro e fundo vinho) em
+  `saidas/NEGOCIOS-E-MARCA/logo-3d-business-advisor-2026-11-12/`, começando por `opcao-3-`.
 
 ## Direção visual — decidida peça por peça (desde 22/set/2026)
 

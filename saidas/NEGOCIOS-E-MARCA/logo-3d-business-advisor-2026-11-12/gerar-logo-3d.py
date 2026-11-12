@@ -426,6 +426,13 @@ def opcao3():
     out = over(out, rgb, al)
     save_rgb(out, f'{OUT}/opcao-3-medalha-cobre-fundo-vinho.png')
 
+    # versão em fundo claro, pra documento, proposta e papel timbrado
+    bg2 = np.ones((S, S, 3), np.float32) * hexrgb('#F2EFEA')
+    sh2 = shadow(al, 30, 90, 60, 0.32)
+    out2 = over(bg2, np.zeros_like(bg2) + hexrgb('#4A3A33'), sh2)
+    out2 = over(out2, rgb, al)
+    save_rgb(out2, f'{OUT}/opcao-3-medalha-cobre-fundo-claro.png')
+
 
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
