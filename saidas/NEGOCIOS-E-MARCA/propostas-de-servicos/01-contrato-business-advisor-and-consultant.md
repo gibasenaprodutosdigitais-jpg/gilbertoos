@@ -10,7 +10,7 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 ## 1. As partes
 
-**CONTRATADA:** **J&V SENA HOLDING PARTICIPAÇÕES S.A.**, sociedade anônima fechada que atua sob a marca **GRUPO SENA**, inscrita no CNPJ sob o nº **22.513.762/0001-24**, com sede na Av. Antônio Abrahão Caram, nº 664, sala 204 B, bairro São José, Belo Horizonte/MG, CEP 31.275-000, e-mail legalizacao@gruposena.com.br, representada por seu presidente, **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**, adiante **GRUPO SENA**.
+**CONTRATADA:** **J&V SENA HOLDING PARTICIPAÇÕES S.A.**, sociedade anônima fechada que atua sob a marca **GRUPO SENA**, inscrita no CNPJ sob o nº **22.513.762/0001-24**, com sede na Av. Antônio Abrahão Caram, nº 664, sala 204 B, bairro São José, Belo Horizonte/MG, CEP 31.275-000, e-mail financeiro@gruposena.com.br, representada por seu presidente, **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**, adiante **GRUPO SENA**.
 
 **CONTRATANTE:** [razão social], CNPJ [nº], com sede em [endereço], representada por [nome do representante legal], CPF [nº], adiante **CLIENTE**.
 
@@ -184,7 +184,7 @@ Durante o contrato e por [12] meses depois, nenhuma parte contrata funcionário 
 
 ## 16. Disposições gerais
 
-Mudança só vale por escrito, assinada pelas duas partes. Uma cláusula inválida não invalida as demais. Tolerância não é renúncia. Comunicações válidas: [e-mails das partes]. Desacordo: primeiro conversa direta em até [15] dias, depois mediação, e só então a Justiça. Foro: comarca de **Belo Horizonte/MG**.
+Mudança só vale por escrito, assinada pelas duas partes. Uma cláusula inválida não invalida as demais. Tolerância não é renúncia. Comunicações válidas: financeiro@gruposena.com.br, pelo GRUPO SENA, e [e-mail do CLIENTE], pelo CLIENTE. Desacordo: primeiro conversa direta em até [15] dias, depois mediação, e só então a Justiça. Foro: comarca de **Belo Horizonte/MG**.
 
 **Assinatura eletrônica** (por exemplo, Clicksign ou gov.br) vale como assinatura de próprio punho.
 
