@@ -51,20 +51,20 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 ## 5. Remuneração
 
-**5.1. Tabela de valores.** O CLIENTE paga ao GRUPO SENA a mensalidade da faixa em que se enquadra, conforme a tabela abaixo:
+**5.1. Tabela de valores.** O CLIENTE paga ao GRUPO SENA a mensalidade da faixa em que se enquadra, **marcada com um X** na tabela abaixo:
 
-| Faixa | Faturamento médio mensal do CLIENTE [critério a confirmar] | Mensalidade |
-|---|---|---|
-| Faixa 1 | [até R$ 30.000,00] | **R$ 850,00** |
-| Faixa 2 | [de R$ 30.000,01 a R$ 60.000,00] | **R$ 1.000,00** |
-| Faixa 3 | [de R$ 60.000,01 a R$ 100.000,00] | **R$ 1.250,00** |
-| Faixa 4 | [de R$ 100.000,01 a R$ 200.000,00] | **R$ 1.850,00** |
-| Faixa 5 | [de R$ 200.000,01 a R$ 350.000,00] | **R$ 2.350,00** |
-| Faixa 6 | [de R$ 350.000,01 a R$ 500.000,00] | **R$ 3.000,00** |
-| Faixa 7 | [de R$ 500.000,01 a R$ 800.000,00] | **R$ 3.500,00** |
-| Acima da Faixa 7 | [acima de R$ 800.000,00] | proposta sob medida |
+| Escolha | Faixa | Faturamento médio mensal do CLIENTE [critério a confirmar] | Mensalidade |
+|---|---|---|---|
+| **(     )** | Faixa 1 | [até R$ 30.000,00] | **R$ 850,00** |
+| **(     )** | Faixa 2 | [de R$ 30.000,01 a R$ 60.000,00] | **R$ 1.000,00** |
+| **(     )** | Faixa 3 | [de R$ 60.000,01 a R$ 100.000,00] | **R$ 1.250,00** |
+| **(     )** | Faixa 4 | [de R$ 100.000,01 a R$ 200.000,00] | **R$ 1.850,00** |
+| **(     )** | Faixa 5 | [de R$ 200.000,01 a R$ 350.000,00] | **R$ 2.350,00** |
+| **(     )** | Faixa 6 | [de R$ 350.000,01 a R$ 500.000,00] | **R$ 3.000,00** |
+| **(     )** | Faixa 7 | [de R$ 500.000,01 a R$ 800.000,00] | **R$ 3.500,00** |
+| **(     )** | Acima da Faixa 7 | [acima de R$ 800.000,00] | proposta sob medida |
 
-**5.2. Faixa contratada.** O CLIENTE se enquadra na **Faixa [__]**, com mensalidade de **R$ [__] ([valor por extenso])**, registrada no Anexo I. O vencimento é todo dia **[10]**, por boleto ou pix, contra nota fiscal.
+**5.2. Faixa contratada.** A faixa contratada é a **marcada na tabela do item 5.1**: Faixa **[__]**, com mensalidade de **R$ [__] ([valor por extenso])**, registrada também no Anexo I. Se nenhuma faixa for marcada, ou se mais de uma for marcada, vale a do Anexo I. O vencimento é todo dia **[10]**, por boleto ou pix, contra nota fiscal.
 
 **5.3. Mudança de faixa.** A cada [12] meses, ou antes se o faturamento médio dos últimos [3] meses mudar de faixa, o GRUPO SENA confere o enquadramento e, se for o caso, ajusta a mensalidade para a nova faixa a partir do mês seguinte, com aviso por escrito de [30] dias.
 
