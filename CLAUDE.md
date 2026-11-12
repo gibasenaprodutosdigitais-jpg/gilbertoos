@@ -168,7 +168,9 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
   `_CONTROLE/` (triagens, inventários e a grade de séries) e `_capas/` (capas prontas)
 - `.claude/skills/` — `carrossel`, `conversar`, `ideias`, `reels`, `salvar`, `tendencias`, a `pericia-bancaria`,
   o `slide-interativo` e a `apresentacao-ecossistema`
-- `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto, trocar travessão de efeito por pontuação)
+- `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto, trocar travessão de efeito por pontuação, e
+  gerar contrato ou proposta em papel timbrado, em Word e PDF: `contrato-timbrado.js` e `contrato-timbrado-pdf.py`, com
+  o modelo em `saidas/NEGOCIOS-E-MARCA/propostas-de-servicos/`)
 - `entrada-videos/` — vídeos e gravações crus que ele manda (longos, triagem,
   palco e eventos)
 - `posicionamento-gilberto-sena/` — estudos de posicionamento de agosto de 2026.

@@ -24,6 +24,11 @@
   Copperplate. Arquivos (transparente, fundo claro e fundo vinho) em
   `saidas/NEGOCIOS-E-MARCA/logo-3d-business-advisor-2026-11-12/`, começando por `opcao-3-`.
 
+- **Papel timbrado de contrato e proposta** (decidido por ele em 12/nov/2026): a **logo dourada** (a medalha, opção 3)
+  pequena no topo de cada página, com um fio fino embaixo; o **leão da opção 1 (aço), bem claro, como marca d'água** no
+  centro; rodapé com nome, serviço, Grupo Sena, telefone, site e número da página. Arquivos prontos em
+  `saidas/NEGOCIOS-E-MARCA/propostas-de-servicos/timbrado/` (`logo-cabecalho-dourada.png` e `marca-dagua-leao.png`).
+
 ## Direção visual — decidida peça por peça (desde 22/set/2026)
 
 **Revogado:** a regra antiga deste guia, que fixava fundo grafite

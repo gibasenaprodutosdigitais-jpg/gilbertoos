@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 11/nov/2026.**
+> Estado das frentes abertas. **Atualizado em 12/nov/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -23,14 +23,14 @@ em `sb/AME/divulgacao/reels-sem-imersao-2026-11-08/LEIA.md`. **O primeiro buraco
 volta das 21h; o carrossel do marketplace foi pra 15/11 18h; os outros 4 (YouTube 16h e 19h, TikTok 18h, reel de teste
 AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já se repetem em outros dias da fila.
 
-### Resumo das frentes abertas (11/nov/2026)
+### Resumo das frentes abertas (12/nov/2026)
 
 | Frente | Onde está | O que falta |
 |---|---|---|
 | **Assessoria AME** (desde 8/nov; a imersão de 14 e 15/nov foi **cancelada**) | ficha de interesse em assessoria-ame.vercel.app; os 16 reels sem a imersão agendados nas três redes; lives toda quarta no @stanleybittar | ele trocar o link da bio; rever pra assessoria os contratos do Choque de Ordem e da Escala Blindada; advogado conferir as regras CFM/CFO; logo original |
 | **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 16/11, reels até 3/12 | carrossel a partir de 17/11 (não tem nenhum pronto); foto de dezembro do Provérbios |
-| **YouTube** | 3 por dia (10h, 16h, 19h): cortes do carro até 10/11 + os 16 reels da AME sem a imersão de 11/11 a **16/11 10h** (os antigos foram apagados em 8/nov) | vídeo novo depois de 16/11 10h |
-| **TikTok** | até 9/11 12h + os 16 reels da AME com efeitos (cor e zoom), **1 por dia às 18h, até 24/11** (8/nov) | vídeo novo depois de 24/11 |
+| **YouTube** | 3 por dia (10h, 16h, 19h): os 16 reels da AME sem a imersão até **16/11 10h** (os dois de 11/11 não saíram por causa da pausa) | vídeo novo depois de 16/11 10h |
+| **TikTok** | os 16 reels da AME com efeitos (cor e zoom), **1 por dia às 18h, até 24/11** (o de 11/11 não saiu por causa da pausa) | vídeo novo depois de 24/11 |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
 | **5 Reels da reforma** (CBS 11,3%, crédito, 30%, Seletivo, ICMS/ISS) | roteiros e legendas prontos (`saidas/REELS/reels-reforma-cinco-temas-2026-10-30/`), números conferidos | ele confirmar os requisitos do reel 3 e gravar **antes de 15/12**; animações dos 5 prontas e aprovadas no estilo (30/out), com 30s cada (pedido dele), vídeos em `VIDEOS-PRONTOS/` (só no notebook); falta gravar e editar com as cenas por cima |
@@ -38,7 +38,8 @@ AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já
 | **SB** | termo Gilberto e Stanley assinado | saída do Simões no papel; monograma SB em alta |
 | **Livro "O Médico e o Executivo"** | 88 de 100 páginas | capítulos do Stanley, 4 decisões dele, escolha da capa, acordo de coautoria |
 | **Apresentação do Grupo Sena** (teste da skill `apresentacao-ecossistema`, 8/nov) | 9 slides em https://claude.ai/artifact/5xfL6EnVvQ2YCB74HbFcbg, já com contato e cargo (Fundador e CEO); fontes em `saidas/NEGOCIOS-E-MARCA/apresentacao-grupo-sena-institucional-2026-11-08/LEIA.md` | ele confirmar se a "conversa de diagnóstico" é a porta de entrada que quer oferecer |
-| **Imprensa e Sebrae** (11/nov) | perfil de fonte, 3 artigos (saúde, serviços, venda online), 10 e-mails prontos e o caminho do Sebrae em `saidas/NEGOCIOS-E-MARCA/kit-imprensa-e-sebrae-2026-11-11/`; envio pela conta gibasena.produtosdigitais@gmail.com, decisão dele | ele liberar no Claude a permissão de **enviar** do Gmail (o teste falhou) e dar o último ok; pedir 4 atestados de capacidade técnica a clientes, em nome do Grupo Sena, pro credenciamento no Sebrae Goiás (inscrição permanente) |
+| **Imprensa e Sebrae** (11/nov) | perfil de fonte, 3 artigos (saúde, serviços, venda online), 10 e-mails prontos e o caminho do Sebrae em `saidas/NEGOCIOS-E-MARCA/kit-imprensa-e-sebrae-2026-11-11/`; envio pela conta gibasena.produtosdigitais@gmail.com, decisão dele | ele liberar no Claude a permissão de **enviar** do Gmail (o teste falhou) e dar o último ok; pedir aos clientes o atestado de capacidade técnica (modelo do Sebrae pronto em `anexos/`), somando 200 horas por área; a candidata natural ao credenciamento é a **GS Consultoria Empresarial** (o atestado ainda está no nome da holding J&V: trocar quando ele decidir); começar pelo Sebrae Goiás (inscrição permanente) |
+| **Contrato Business Advisor and Consultant** (12/nov) | minuta pronta em `saidas/NEGOCIOS-E-MARCA/propostas-de-servicos/`, em Word e PDF no papel timbrado: GS Consultoria Empresarial (65%) e Sena Contabilidade (35%, CRC-MG 110075/OI), as duas representadas por ele; R$ 5.000/mês por 24 meses, 10% sobre a economia, 5% sobre o faturamento acima de 10%, multa de saída gradativa e NDA de 24 mensalidades + R$ 30 mil | revisão do advogado; os dados de cada cliente na hora de fechar |
 | **Fundo de debêntures** | ideia registrada | a conta do custo de captação contra os 9% do Pronamp |
 | **Media kit de palestrante** | kit e showreel prontos | proposta comercial, depoimentos de contratantes, fotos com nomes grandes |
 
