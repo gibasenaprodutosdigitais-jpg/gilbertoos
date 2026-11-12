@@ -18,7 +18,10 @@
   | 2010 | 37 | nasce o Grupo Sena |
   | 2026 | 53 | hoje |
 - **É:** referência no mercado de contabilidade, advocacia e tributário no Brasil
-- **Grupo Sena:** Grupo Sena Soluções Empresariais, **CNPJ 22.513.762/0001-24** (passado por ele em 12/nov/2026). Consultoria empresarial, desde 2010, 5 escritórios (BH — sede,
+- **Grupo Sena:** a marca. O CNPJ que ele usa como "do grupo" (passado por ele em 12/nov/2026) é **22.513.762/0001-24**, que
+  pelo cartão da Receita é da **J&V SENA HOLDING PARTICIPAÇÕES S.A.** (S.A. fechada, aberta em 25/05/2015, CNAE principal
+  64.62-0-00, Holdings de instituições não-financeiras, sem CNAE secundário; sede na Av. Antônio Abrahão Caram, 664,
+  sala 204 B, São José, BH, CEP 31.275-000; e-mail legalizacao@gruposena.com.br). Consultoria empresarial, desde 2010, 5 escritórios (BH — sede,
   Goiânia, São Paulo, Brasília, Rio de Janeiro — atualizado 23/ago/2026;
   Parauapebas e Vitória saíram da lista atual). Contabilidade, auditoria fiscal e
   tributária, assessoria jurídica, assessoria empresarial, gestão trabalhista, PF.

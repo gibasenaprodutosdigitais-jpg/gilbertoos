@@ -10,7 +10,7 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 ## 1. As partes
 
-**CONTRATADA:** GRUPO SENA SOLUÇÕES EMPRESARIAIS, CNPJ **22.513.762/0001-24**, com sede em [endereço], Belo Horizonte/MG, representada por seu fundador e CEO, **Gilberto Luís de Sena**, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**, adiante **GRUPO SENA**.
+**CONTRATADA:** **J&V SENA HOLDING PARTICIPAÇÕES S.A.**, sociedade anônima fechada que atua sob a marca **GRUPO SENA**, inscrita no CNPJ sob o nº **22.513.762/0001-24**, com sede na Av. Antônio Abrahão Caram, nº 664, sala 204 B, bairro São José, Belo Horizonte/MG, CEP 31.275-000, e-mail legalizacao@gruposena.com.br, representada por seu presidente, **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**, adiante **GRUPO SENA**.
 
 **CONTRATANTE:** [razão social], CNPJ [nº], com sede em [endereço], representada por [nome do representante legal], CPF [nº], adiante **CLIENTE**.
 
@@ -191,8 +191,9 @@ Mudança só vale por escrito, assinada pelas duas partes. Uma cláusula inváli
 [Cidade], [data].
 
 _____________________________________
-**GRUPO SENA SOLUÇÕES EMPRESARIAIS**
-Gilberto Luís de Sena, fundador e CEO · CRA nº 06-003960/D · Perito CONPEJ nº 01.00.3597
+**J&V SENA HOLDING PARTICIPAÇÕES S.A. (GRUPO SENA)**
+CNPJ 22.513.762/0001-24
+Gilberto Luís de Sena, presidente · CRA nº 06-003960/D · Perito CONPEJ nº 01.00.3597
 
 _____________________________________
 **[RAZÃO SOCIAL DO CLIENTE]**
@@ -238,7 +239,7 @@ Rubrica GRUPO SENA: ________ Rubrica CLIENTE: ________
 
 Belo Horizonte, [data].
 
-| SIGNATÁRIO | CLIENTE (responsável solidário) | GRUPO SENA SOLUÇÕES EMPRESARIAIS |
+| SIGNATÁRIO | CLIENTE (responsável solidário) | J&V SENA HOLDING PARTICIPAÇÕES S.A. (GRUPO SENA) |
 |---|---|---|
 | Assinatura: | Assinatura: | Assinatura: |
-| [nome], CPF/CNPJ [nº] | [razão social], [representante legal] | Gilberto Luís de Sena, fundador e CEO, CRA nº 06-003960/D |
+| [nome], CPF/CNPJ [nº] | [razão social], [representante legal] | Gilberto Luís de Sena, presidente, CRA nº 06-003960/D |

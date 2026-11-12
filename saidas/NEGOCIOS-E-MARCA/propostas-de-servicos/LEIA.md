@@ -25,7 +25,12 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
 ## Antes da primeira assinatura
 
 - **Passar pelo advogado**, como os contratos da AME.
-- CNPJ do Grupo Sena já preenchido (22.513.762/0001-24, passado por ele em 12/nov). Falta o **endereço** da sede e o **nome e o CRC do contador responsável técnico** (a contabilidade exige um).
+- **Contratada preenchida com os dados do cartão do CNPJ** que ele mandou em 12/nov: J&V SENA HOLDING PARTICIPAÇÕES S.A.,
+  CNPJ 22.513.762/0001-24, Av. Antônio Abrahão Caram, 664, sala 204 B, São José, BH, CEP 31.275-000, "que atua sob a marca
+  Grupo Sena", representada pelo presidente. Falta o **nome e o CRC do contador responsável técnico**.
+- ⚠ **CNAE:** o cartão mostra só 64.62-0-00 (holding), sem atividade secundária. Para emitir nota de contabilidade e
+  consultoria por esse CNPJ, e para o credenciamento no Sebrae, é provável que precise incluir CNAEs de serviço (ou
+  usar o CNPJ da empresa que já presta esses serviços). Conferir com o contador antes de assinar.
 - Prazo de 24 meses está dentro do limite de 4 anos para prestação de serviços, conforme o mesmo fichamento.
 
 ## Papel timbrado (12/nov/2026)
