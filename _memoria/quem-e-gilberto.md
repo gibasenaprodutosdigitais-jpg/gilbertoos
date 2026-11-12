@@ -23,7 +23,7 @@
   64.62-0-00, Holdings de instituições não-financeiras, sem CNAE secundário; sede na Av. Antônio Abrahão Caram, 664,
   sala 204 B, São José, BH, CEP 31.275-000; e-mail legalizacao@gruposena.com.br). **As empresas que prestam os serviços
   (dados dele, 12/nov/2026):** **GS CONSULTORIA EMPRESARIAL LTDA – ME**, CNPJ 21.509.187/0001-23, e **SENA
-  CONTABILIDADE**, CNPJ 25.338.012/0001-51, as duas na Av. Arthur Guimarães, 260, sala 301, Santa Cruz, BH, CEP
+  CONTABILIDADE**, CNPJ 25.338.012/0001-51, registrada no **CRC-MG 110075/OI** (da empresa, palavra dele), as duas na Av. Arthur Guimarães, 260, sala 301, Santa Cruz, BH, CEP
   31.150-690. São elas que entram em contrato de serviço. Consultoria empresarial, desde 2010, 5 escritórios (BH — sede,
   Goiânia, São Paulo, Brasília, Rio de Janeiro — atualizado 23/ago/2026;
   Parauapebas e Vitória saíram da lista atual). Contabilidade, auditoria fiscal e
