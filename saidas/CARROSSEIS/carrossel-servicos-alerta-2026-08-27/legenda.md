@@ -2,7 +2,7 @@ Se você presta serviço e não é profissão regulamentada (sem conselho de cla
 
 Hoje, muita empresa de serviço está no regime cumulativo de PIS/Cofins: paga uma alíquota federal baixa, cerca de 3,65%, e nenhum ICMS.
 
-Em 2027, PIS e Cofins são extintos. Entra a CBS cheia, estimada pelo mercado em cerca de 9,24%. O mercado projeta um aumento nominal de até 150% na carga federal pra quem está nesse regime.
+Em 2027, PIS e Cofins são extintos. Entra a CBS cheia. Em outubro, o TCU calculou a CBS de 2027 em 11,3%, três vezes o que muita empresa de serviço paga hoje. O Senado ainda pode ajustar esse número até 15 de dezembro.
 
 Se você é advogado, contador, engenheiro ou outra profissão regulamentada, você já tem uma redução de 30% garantida na reforma. Esse alerta não é pra você. Mas se você presta qualquer outro tipo de serviço, o PIS/Cofins baixo que você paga hoje não é vantagem permanente. É um regime com prazo pra acabar.
 
