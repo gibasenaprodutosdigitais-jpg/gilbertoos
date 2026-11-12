@@ -12,13 +12,13 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
 
 **Minha proposta, entre colchetes no contrato, para ele confirmar:**
 
-1. **Como se calculam os 5%.** Redigi como 5% **só sobre a parte do aumento que passar de 10%**. Exemplo: base de R$ 1 milhão, faturamento de R$ 1,25 milhão, a cobrança é sobre R$ 150 mil (5% = R$ 7.500). A outra leitura possível é 5% sobre **todo** o aumento quando ele passar de 10% (no mesmo exemplo, 5% de R$ 250 mil = R$ 12.500).
+1. ✅ **Os 5%, confirmado por ele em 12/nov:** só sobre a parte do aumento que passar de 10%. Exemplo: base de R$ 1 milhão, faturamento de R$ 1,25 milhão, a cobrança é sobre R$ 150 mil (5% = R$ 7.500).
 2. **O que conta como economia financeira:** redução de tributo contra a linha de base, crédito tributário efetivamente recuperado e redução de juros, multas e tarifas renegociados. Crédito só é cobrado quando aproveitado.
 3. **Base do faturamento:** o mesmo trimestre do ano anterior, para a sazonalidade não distorcer.
 4. **Apuração trimestral** da parte variável.
 5. **Uma reunião mensal de 2 horas** com ele e atendimento por WhatsApp em horário comercial.
 6. **Reajuste anual pelo IPCA.**
-7. **Rescisão antecipada sem justa causa:** aviso de 60 dias e multa de 20% sobre as mensalidades que faltariam.
+7. ✅ **Multa por saída antecipada, pedido dele em 12/nov:** correspondente às prestações de serviços e **gradativa**. Do 1º ao 12º mês, fixa em 12 mensalidades (R$ 60.000,00). A partir do 13º mês, cai uma mensalidade por mês (13º mês: 11; 14º: 10; até o 23º: 1), e no 24º mês não há multa. **O prazo de 24 meses não muda**; a redução vale só para a multa. A forma da tabela (12 mensalidades no primeiro ano, caindo uma por mês) é proposta minha a partir do que ele pediu. O aviso prévio de 60 dias continua entre colchetes.
 8. **Fora do escopo:** departamento pessoal e folha, processo administrativo ou judicial, abertura e baixa de empresa, e a execução de marketing (anúncios, conteúdo, mídia).
 9. **Cláusula da reforma tributária:** se a carga sobre o serviço do Grupo Sena mudar por lei a partir de 2027, o valor acompanha a diferença, para mais ou para menos. Veio do fichamento `conhecimento/elaboracao-de-contratos.md`, que recomenda essa cláusula em contrato de execução continuada.
 

@@ -120,7 +120,29 @@ c) **redução de custos financeiros e despesas:** juros, multas, tarifas bancá
 
 ## 10. Rescisão
 
-**10.1. Sem justa causa.** Qualquer parte pode encerrar o contrato antes do prazo com **aviso prévio de [60] dias**, durante os quais os serviços e os pagamentos continuam. Quem encerrar sem justa causa paga à outra multa de **[20%] sobre a soma das mensalidades fixas que faltariam** até o fim dos 24 meses.
+**10.1. Sem justa causa.** Qualquer parte pode encerrar o contrato antes do prazo com **aviso prévio de [60] dias**, durante os quais os serviços e os pagamentos continuam. Quem encerrar sem justa causa paga à outra a multa da tabela abaixo, correspondente às prestações de serviços, conforme o mês em que o contrato terminar.
+
+**10.1.1. Multa gradativa.** Nos primeiros 12 meses, a multa é fixa. **A partir do 13º mês, ela é reduzida mês a mês**, na proporção do tempo de contrato já cumprido:
+
+| Mês em que o contrato termina | Multa | Valor (sobre a mensalidade de R$ 5.000,00) |
+|---|---|---|
+| do 1º ao 12º mês | 12 mensalidades fixas | R$ 60.000,00 |
+| 13º mês | 11 mensalidades fixas | R$ 55.000,00 |
+| 14º mês | 10 mensalidades fixas | R$ 50.000,00 |
+| 15º mês | 9 mensalidades fixas | R$ 45.000,00 |
+| 16º mês | 8 mensalidades fixas | R$ 40.000,00 |
+| 17º mês | 7 mensalidades fixas | R$ 35.000,00 |
+| 18º mês | 6 mensalidades fixas | R$ 30.000,00 |
+| 19º mês | 5 mensalidades fixas | R$ 25.000,00 |
+| 20º mês | 4 mensalidades fixas | R$ 20.000,00 |
+| 21º mês | 3 mensalidades fixas | R$ 15.000,00 |
+| 22º mês | 2 mensalidades fixas | R$ 10.000,00 |
+| 23º mês | 1 mensalidade fixa | R$ 5.000,00 |
+| 24º mês (fim do prazo) | sem multa | R$ 0,00 |
+
+**10.1.2.** A multa usa o valor da mensalidade fixa vigente na data do encerramento, já com o reajuste do item 5.2. Ela vence junto com a última mensalidade.
+
+**10.1.3. O prazo não muda.** O contrato continua sendo de **24 meses**. A redução gradativa vale apenas para o valor da multa, e não encurta nem altera o prazo contratado.
 
 **10.2. Com justa causa.** A parte prejudicada pode encerrar de imediato, sem multa a seu favor, se a outra descumprir obrigação deste contrato e não corrigir em [15] dias depois de notificada por escrito; ou em caso de atraso de pagamento por mais de [60] dias.
 
