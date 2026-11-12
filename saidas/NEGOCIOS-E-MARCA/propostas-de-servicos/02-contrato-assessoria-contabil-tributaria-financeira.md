@@ -12,7 +12,7 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **CONTRATADAS:** **GS CONSULTORIA EMPRESARIAL LTDA – ME**, inscrita no CNPJ sob o nº **21.509.187/0001-23**, e **SENA CONTABILIDADE**, inscrita no CNPJ sob o nº **25.338.012/0001-51** e registrada no **CRC-MG sob o nº 110075/OI**, ambas com sede na Av. Arthur Guimarães, nº 260, sala 301, bairro Santa Cruz, Belo Horizonte/MG, CEP 31.150-690, e-mail financeiro@gruposena.com.br, empresas que atuam sob a marca **GRUPO SENA**, neste ato representadas, as duas, por **Gilberto Luís de Sena**, qualificado no item 1.2, adiante chamadas, em conjunto, **GRUPO SENA**.
 
-**1.1. Quem faz o quê.** A **SENA CONTABILIDADE** presta as três frentes do item 3 (**contabilidade, assessoria tributária e assessoria financeira**), como organização contábil registrada no **CRC-MG sob o nº 110075/OI**, por meio de profissional da contabilidade com registro ativo no CRC, e fatura toda a mensalidade. A **GS CONSULTORIA EMPRESARIAL** presta os **serviços de economia tributária** do item 5.6 e fatura os valores referentes a eles. Cada uma responde pelo que presta e emite a sua nota fiscal, e não responde pelo serviço da outra.
+**1.1. Quem faz o quê.** A **SENA CONTABILIDADE** presta as três frentes do item 3 (**contabilidade, assessoria tributária e assessoria financeira**), como organização contábil registrada no **CRC-MG sob o nº 110075/OI**, por meio de profissional da contabilidade com registro ativo no CRC, e fatura toda a mensalidade. A **GS CONSULTORIA EMPRESARIAL** presta os **serviços de economia tributária** (revisão e recuperação de créditos e planejamento tributário) e fatura a remuneração de **15% sobre o proveito econômico tributário** do item 5.6. Cada uma responde pelo que presta e emite a sua nota fiscal, e não responde pelo serviço da outra.
 
 **1.2. O responsável.** A assessoria tributária, a assessoria financeira e os serviços de economia tributária são conduzidos por **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**.
 
@@ -28,20 +28,20 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **2.4.** Toda decisão sobre o negócio é **do CLIENTE**.
 
-**2.5. Só valor fixo.** Este contrato é remunerado **apenas pela mensalidade fixa do item 5**. Não há remuneração variável sobre economia, créditos ou faturamento, salvo os serviços de economia tributária contratados na forma do item 5.6.
+**2.5. Como é remunerado.** Este contrato é remunerado pela **mensalidade fixa** da tabela do item 5.1 e por **15% sobre o proveito econômico tributário** do item 5.6. Não há remuneração sobre o faturamento do CLIENTE.
 
 ## 3. As entregas
 
 | Frente | O que o GRUPO SENA entrega |
 |---|---|
 | **Contabilidade** | Escrituração contábil e fiscal; apuração dos tributos e emissão das guias; entrega das obrigações acessórias exigidas por lei; balancete mensal; balanço patrimonial e demonstração do resultado (DRE) anuais. Executada pela SENA CONTABILIDADE, **CRC-MG nº 110075/OI** |
-| **Assessoria tributária** | Revisão anual do regime tributário, com a escolha do mais adequado; orientação sobre a tributação das operações do CLIENTE; aviso de débitos com a Receita Federal, a PGFN, o Estado e o Município; acompanhamento da reforma tributária e do impacto da CBS e do IBS no preço, no regime e no caixa do CLIENTE |
+| **Assessoria tributária** | Revisão anual do regime tributário, com a escolha do mais adequado; revisão de créditos e oportunidades de recuperação, redução ou compensação de tributos, sempre dentro da lei, remunerada pelo item 5.6; orientação sobre a tributação das operações do CLIENTE; aviso de débitos com a Receita Federal, a PGFN, o Estado e o Município; acompanhamento da reforma tributária e do impacto da CBS e do IBS no preço, no regime e no caixa do CLIENTE |
 | **Assessoria financeira** | Organização e acompanhamento do fluxo de caixa; DRE gerencial mensal; indicadores de margem, capital de giro e endividamento; separação entre as finanças da empresa e as dos sócios |
 | **Atendimento** | [1] reunião [trimestral] de [1] hora, presencial ou online, para leitura dos números; atendimento por WhatsApp e e-mail em dias úteis, das [9h] às [18h], com resposta em até [1] dia útil |
 
-**3.1. Diagnóstico inicial.** Nos primeiros **[30] dias**, o GRUPO SENA recebe a contabilidade, confere a situação fiscal e registra, no Anexo I, a faixa de enquadramento do CLIENTE.
+**3.1. Diagnóstico inicial.** Nos primeiros **[30] dias**, o GRUPO SENA recebe a contabilidade, confere a situação fiscal e registra, no Anexo I, a faixa de enquadramento e a **linha de base** dos tributos, a partir da qual se mede o proveito do item 5.6.
 
-**3.2. Fora do escopo** (só com aditivo ou contrato à parte): departamento pessoal e folha de pagamento; serviços de economia tributária (item 5.6); renegociação de dívidas com bancos e fornecedores; defesa em processo administrativo ou judicial; auditoria independente; abertura, alteração ou baixa de empresa; consultoria de marketing.
+**3.2. Fora do escopo** (só com aditivo ou contrato à parte): departamento pessoal e folha de pagamento; execução de reorganização societária; renegociação de dívidas com bancos e fornecedores; defesa em processo administrativo ou judicial; auditoria independente; abertura, alteração ou baixa de empresa; consultoria de marketing.
 
 ## 4. Prazo
 
@@ -72,7 +72,25 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **5.5. Reajuste.** A cada 12 meses, os valores da tabela são corrigidos pela variação do **[IPCA]** do período.
 
-**5.6. Economia tributária.** Recuperação de créditos tributários, planejamento tributário com reorganização societária e outras medidas de economia tributária não estão incluídos na mensalidade. Quando o CLIENTE quiser, são contratados por aditivo, com valor próprio, e **os valores referentes à economia tributária são faturados pela GS CONSULTORIA EMPRESARIAL**.
+**5.6. Remuneração sobre o proveito econômico tributário.**
+
+**5.6.1.** Além da mensalidade, o CLIENTE paga **15% (quinze por cento) do proveito econômico tributário** obtido a partir de medida proposta ou implantada pelo GRUPO SENA. Esse valor é **faturado pela GS CONSULTORIA EMPRESARIAL**.
+
+**5.6.2. O que conta como proveito econômico tributário:**
+
+a) **redução de tributos:** a diferença entre o que o CLIENTE pagaria pela linha de base do Anexo I e o que efetivamente pagou, mantidas as demais condições;
+
+b) **créditos tributários recuperados:** valores efetivamente restituídos, ressarcidos ou compensados;
+
+c) [**redução de multas, juros e encargos** de débitos tributários, obtida em parcelamento, transação ou regularização com a Receita Federal, a PGFN, o Estado ou o Município, comprovada por documento].
+
+**5.6.3.** Não entra na conta o proveito que viria de qualquer jeito, por mudança de lei que alcance todos, sem medida específica do GRUPO SENA, nem os créditos já conhecidos antes do contrato e registrados no Anexo I.
+
+**5.6.4. Apuração e pagamento.** O proveito é apurado **a cada trimestre**, em relatório do GRUPO SENA com os documentos que o comprovam. O CLIENTE tem **[10] dias** para conferir o relatório; sem manifestação no prazo, ele é considerado aceito. O pagamento vence em até **[10] dias** depois do aceite. Crédito tributário só gera cobrança **quando for efetivamente aproveitado** (recebido ou compensado), e não quando for apenas identificado.
+
+**5.6.5.** A remuneração sobre proveito gerado durante a vigência continua devida se o aproveitamento acontecer em até **[12] meses** depois do fim do contrato.
+
+**5.6.6.** A revisão e a recuperação de créditos e o planejamento tributário fazem parte deste serviço e são remunerados só por estes 15%. A execução de reorganização societária (abertura, alteração ou baixa de empresa) e a defesa em processo seguem fora do escopo (item 3.2).
 
 ## 6. Atraso, impostos e reforma tributária
 
@@ -133,6 +151,8 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 **9.2. Com justa causa.** A parte prejudicada pode encerrar de imediato, sem multa a seu favor, se a outra descumprir obrigação deste contrato e não corrigir em [15] dias depois de notificada por escrito; em caso de atraso de pagamento por mais de [60] dias; ou em caso de quebra de sigilo (item 10), sem prazo para correção. Se a justa causa for do CLIENTE, ele paga também a multa do item 9.1.
 
 **9.3. Transição.** Em qualquer encerramento, o GRUPO SENA entrega ao CLIENTE, ou ao novo contador, os livros, os arquivos e as informações contábeis, e formaliza a transferência da responsabilidade técnica.
+
+**9.4.** O encerramento não apaga a remuneração do item 5.6 já gerada, nem a do item 5.6.5.
 
 ## 10. Sigilo e confidencialidade (NDA)
 
@@ -195,15 +215,18 @@ _____________________________________
 1. _______________________ Nome: [__] CPF: [__]
 2. _______________________ Nome: [__] CPF: [__]
 
-## Anexo I. Enquadramento (preenchido no diagnóstico inicial e assinado pelas duas partes)
+## Anexo I. Enquadramento e linha de base (preenchido no diagnóstico inicial e assinado pelas duas partes)
 
 | Item | Informação | Fonte |
 |---|---|---|
 | Regime tributário atual | [__] | contrato social e opção |
+| Tributos pagos (total e por tributo) | R$ [__] nos últimos 12 meses | guias e livros fiscais |
+| Créditos tributários já conhecidos antes do contrato (não geram remuneração) | R$ [__] | [__] |
 | Faturamento médio mensal dos últimos [12] meses | R$ [__] | documentos fiscais |
 | Faixa da tabela do item 5.1 | Faixa [__] | |
 | Mensalidade | R$ [__] | |
 | Faturamento da mensalidade | SENA CONTABILIDADE (100%) | item 5.4 |
+| Remuneração sobre o proveito econômico tributário | 15%, faturados pela GS CONSULTORIA EMPRESARIAL | item 5.6 |
 | Data de início | [__] | |
 
 Rubrica GRUPO SENA: ________ Rubrica CLIENTE: ________

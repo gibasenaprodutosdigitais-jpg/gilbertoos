@@ -5,7 +5,7 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
 | # | Arquivo | O que é |
 |---|---|---|
 | 01 | `01-contrato-business-advisor-and-consultant.md` e `.docx`; **em papel timbrado:** `-TIMBRADO.docx` (editável) e `-TIMBRADO.pdf` (para enviar) | Business Advisor and Consultant: contabilidade, assessoria tributária, gestão financeira e consultoria de marketing. R$ 5.000,00 por mês, 24 meses, mais 10% sobre a economia financeira e 5% sobre o aumento de faturamento acima de 10% |
-| 02 | `02-contrato-assessoria-contabil-tributaria-financeira.md` e `.docx`; **em papel timbrado do Grupo Sena:** `-TIMBRADO.docx` e `-TIMBRADO.pdf` | Assessoria Contábil, Tributária e Financeira: só valor fixo, tabela de 7 faixas (R$ 850, 1.000, 1.250, 1.850, 2.350, 3.000 e 3.500 por mês), 24 meses, mesmas contratadas do 01 |
+| 02 | `02-contrato-assessoria-contabil-tributaria-financeira.md` e `.docx`; **em papel timbrado do Grupo Sena:** `-TIMBRADO.docx` e `-TIMBRADO.pdf` | Assessoria Contábil, Tributária e Financeira: mensalidade da tabela de 7 faixas (R$ 850, 1.000, 1.250, 1.850, 2.350, 3.000 e 3.500 por mês, com caixa ( ) para marcar a faixa) + 15% sobre o proveito econômico tributário, 24 meses, mesmas contratadas do 01 |
 
 ## O que veio dele (12/nov) e o que é proposta minha
 
@@ -88,7 +88,7 @@ como estava. Nos comandos acima, trocar `logo-cabecalho.png` por `logo-cabecalho
 
 ## Contrato 02: Assessoria Contábil, Tributária e Financeira (12/nov/2026)
 
-**Dele:** o nome do serviço, só o valor fixo (sem a parte variável do 01), as mesmas contratadas e o mesmo responsável
+**Dele:** o nome do serviço, o valor fixo (sem os 10% e os 5% do 01; depois ele pediu 15% sobre o proveito tributário), as mesmas contratadas e o mesmo responsável
 (GS Consultoria, Sena Contabilidade CRC-MG 110075/OI, Gilberto com CRA e CONPEJ), a tabela de 7 valores e **a logo do
 Grupo Sena** no papel timbrado (a assinatura horizontal, `timbrado/logo-cabecalho-grupo-sena.png`, recortada de
 `identidade/Grupo Sena - Assinatura Horizontal - Preta.png`). A marca d'água do leão é a mesma do 01.
@@ -99,10 +99,15 @@ Grupo Sena** no papel timbrado (a assinatura horizontal, `timbrado/logo-cabecalh
    proposta sob medida. Os cortes de cada faixa são sugestão minha.
 2. **Mudança de faixa:** conferência a cada 12 meses, ou antes se a média de 3 meses mudar de faixa.
 3. ✅ **Notas (palavra dele, 12/nov):** a mensalidade sai **toda pela Sena Contabilidade**; os valores referentes à
-   **economia tributária** saem pela **GS Consultoria** (item 5.6: contratados por aditivo, com valor próprio).
+   **economia tributária** saem pela **GS Consultoria** (item 5.6).
+6. ✅ **15% sobre o proveito econômico tributário (palavra dele, 12/nov),** faturado pela GS Consultoria. Minha proposta, igual
+   ao 01: conta redução de tributo contra a linha de base do Anexo I e crédito efetivamente aproveitado; apuração trimestral;
+   cauda de 12 meses depois do fim. Entre colchetes, para ele confirmar: contar também a redução de multas e juros em
+   parcelamento ou transação de débito tributário.
 4. **O que ficou mais enxuto que o 01:** sem consultoria de marketing e sem advisor mensal; atendimento com 1 reunião
    trimestral. Recuperação de crédito, reorganização societária e renegociação de dívidas ficaram **fora do escopo**
-   (sem a parte variável, seriam entregues de graça).
+   (sem a parte variável, seriam entregues de graça). **Mudou em 12/nov:** com os 15%, a recuperação de crédito e o planejamento
+   tributário voltaram para dentro do contrato; só a execução de reorganização societária segue fora.
 5. **Mantido do 01:** 24 meses, multa de saída gradativa (12 mensalidades até o 12º mês, caindo uma por mês) e NDA de
    24 mensalidades + R$ 30.000,00, agora contados sobre a mensalidade da faixa.
 
