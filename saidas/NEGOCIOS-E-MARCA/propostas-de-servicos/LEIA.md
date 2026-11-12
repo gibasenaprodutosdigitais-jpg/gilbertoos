@@ -40,3 +40,28 @@ Pedido dele: a minuta em papel timbrado, com marca d'água, usando **a logo núm
 - Para refazer depois de mudar o texto do .md:
   - Word: `node scripts/contrato-timbrado.js <md> <saida.docx> timbrado/logo-cabecalho.png timbrado/marca-dagua-leao.png "<rodapé>"`
   - PDF: `python3 scripts/contrato-timbrado-pdf.py <md> <saida.pdf> timbrado/logo-cabecalho.png timbrado/marca-dagua-leao.png "<rodapé>"`
+
+## Sigilo e NDA (12/nov/2026)
+
+Pedido dele: multa por quebra de sigilo, com NDA, para o caso de **outro profissional entrar no sistema para obter a
+estratégia implantada pelo Grupo Sena**. Multa de **R$ 250.000,00**.
+
+- **Item 11 do contrato** (Sigilo e confidencialidade): define a informação confidencial (estratégia, método, diagnóstico,
+  planejamento tributário, relatórios, planilhas, inclusive em sistemas, pastas, e-mails e grupos); proíbe o CLIENTE de
+  deixar outro profissional acessar isso para copiar ou aplicar a estratégia; só entra quem o Grupo Sena autorizar por
+  escrito e assinar o NDA; **multa de R$ 250.000,00 por infração**, corrigida pelo IPCA, mais a indenização do que passar
+  disso; e a quebra é justa causa para encerrar o contrato.
+- **Anexo II, Termo de Confidencialidade (NDA):** assinado pelo profissional autorizado, com o CLIENTE como responsável
+  solidário. Mesma multa. Uma página, com as três assinaturas lado a lado.
+- O que **não** é quebra: ordem da lei ou do juiz; informação já pública; e a entrega ao novo contador dos livros e
+  arquivos contábeis do próprio CLIENTE no fim do contrato (os números são do cliente; o protegido é a estratégia).
+
+**Decisões minhas, para ele confirmar:**
+
+1. A multa de sigilo vale **para os dois lados** (se o Grupo Sena vazar dado do cliente, também paga). Deixa a cláusula mais
+   equilibrada e mais difícil de derrubar. Se ele quiser só contra o cliente, tirar "a parte que der causa" do item 11.5.
+2. Se o contrato terminar por justa causa do CLIENTE, ele paga também a multa de saída do item 10.1 (item 10.2).
+
+**⚠ Ponto para o advogado:** a multa de R$ 250.000,00 é maior que o valor fixo do contrato (24 x R$ 5.000,00 = R$ 120.000,00).
+Multa contratual muito acima da obrigação principal pode ser reduzida pelo juiz. O NDA como termo à parte e a
+previsão de indenização suplementar ajudam, mas o advogado precisa olhar o valor e a redação.

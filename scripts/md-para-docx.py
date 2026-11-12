@@ -51,7 +51,8 @@ def converter(md):
         elif s.startswith("### "):
             out.append(f"<h3>{inline(s[4:])}</h3>")
         elif s.startswith("## "):
-            out.append(f"<h2>{inline(s[3:])}</h2>")
+            quebra = ' style="page-break-before:always"' if s[3:].startswith("Anexo") else ""
+            out.append(f"<h2{quebra}>{inline(s[3:])}</h2>")
         elif s.startswith("> "):
             out.append(f'<p style="margin-left:20px"><i>{inline(s[2:])}</i></p>')
         elif re.match(r"^\d+\. ", s):

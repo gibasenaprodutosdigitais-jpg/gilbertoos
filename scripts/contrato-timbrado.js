@@ -75,6 +75,7 @@ function corpo(md) {
     if (s.startsWith('# ')) p(runs(s.slice(2), { size: 30, bold: true, font: FONTE, color: TINTA }), { alignment: AlignmentType.CENTER, spacing: { after: 80 } });
     else if (s.startsWith('### ')) p(runs(s.slice(4), { size: 22, bold: true, font: FONTE, color: TINTA }), { spacing: { before: 160, after: 80 } });
     else if (s.startsWith('## ')) p(runs(s.slice(3).toUpperCase(), { size: 22, bold: true, font: FONTE, color: TINTA }), {
+      pageBreakBefore: s.slice(3).startsWith('Anexo'), keepNext: true,
       spacing: { before: 280, after: 120 }, border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: LINHA, space: 2 } },
     });
     else if (s.startsWith('> ')) p(runs(s.slice(2), { size: 20, italics: true, font: FONTE, color: CINZA }), { indent: { left: 400 } });
