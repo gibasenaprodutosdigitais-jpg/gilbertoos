@@ -46,12 +46,13 @@ Pedido dele: a minuta em papel timbrado, com marca d'água, usando **a logo núm
 Pedido dele: multa por quebra de sigilo, com NDA, para o caso de **outro profissional entrar no sistema para obter a
 estratégia implantada pelo Grupo Sena**. Começou em R$ 250.000,00; **em 12/nov ele aprovou trocar por 24 mensalidades fixas
 (R$ 120.000,00 na assinatura)**, para não passar do valor do contrato e não ser reduzida pelo juiz, mantendo a
-indenização do prejuízo que passar disso.
+indenização do prejuízo que passar disso. **Logo depois, ele pediu mais R$ 30.000,00: ficou 24 mensalidades + R$ 30.000,00
+(R$ 150.000,00 na assinatura)**, no contrato e no Anexo II. Fica R$ 30 mil acima do valor fixo do contrato: o advogado confere.
 
 - **Item 11 do contrato** (Sigilo e confidencialidade): define a informação confidencial (estratégia, método, diagnóstico,
   planejamento tributário, relatórios, planilhas, inclusive em sistemas, pastas, e-mails e grupos); proíbe o CLIENTE de
   deixar outro profissional acessar isso para copiar ou aplicar a estratégia; só entra quem o Grupo Sena autorizar por
-  escrito e assinar o NDA; **multa de 24 mensalidades fixas por infração** (R$ 120.000,00 na assinatura), mais a indenização do que passar
+  escrito e assinar o NDA; **multa de 24 mensalidades fixas + R$ 30.000,00 por infração** (R$ 150.000,00 na assinatura), mais a indenização do que passar
   disso; e a quebra é justa causa para encerrar o contrato.
 - **Anexo II, Termo de Confidencialidade (NDA):** assinado pelo profissional autorizado, com o CLIENTE como responsável
   solidário. Mesma multa. Uma página, com as três assinaturas lado a lado.
@@ -64,7 +65,7 @@ indenização do prejuízo que passar disso.
    equilibrada e mais difícil de derrubar. Se ele quiser só contra o cliente, tirar "a parte que der causa" do item 11.5.
 2. Se o contrato terminar por justa causa do CLIENTE, ele paga também a multa de saída do item 10.1 (item 10.2).
 
-**Ponto para o advogado:** conferir a redação da multa de sigilo (24 mensalidades) e da indenização suplementar.
+**Ponto para o advogado:** conferir a redação e o valor da multa de sigilo (24 mensalidades + R$ 30.000,00) e da indenização suplementar.
 
 ## Registros profissionais no contrato (12/nov/2026)
 

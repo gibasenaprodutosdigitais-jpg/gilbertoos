@@ -160,7 +160,7 @@ c) **redução de custos financeiros e despesas:** juros, multas, tarifas bancá
 
 **11.4. Acesso autorizado.** Só pode ter acesso à informação confidencial o profissional que o GRUPO SENA **autorizar por escrito** e que assine antes o **Termo de Confidencialidade do Anexo II**. Quem assina responde junto com o CLIENTE.
 
-**11.5. Multa.** A quebra do sigilo deste item 11, incluindo o acesso de terceiro descrito no item 11.3, obriga a parte que der causa a pagar à outra **multa equivalente a 24 (vinte e quatro) mensalidades fixas, por infração**, no valor vigente na data da infração (na assinatura, **R$ 120.000,00**). A multa não impede a cobrança de **indenização pelo prejuízo que passar desse valor**, e a quebra também é justa causa para encerrar o contrato, nos termos do item 10.2.
+**11.5. Multa.** A quebra do sigilo deste item 11, incluindo o acesso de terceiro descrito no item 11.3, obriga a parte que der causa a pagar à outra **multa equivalente a 24 (vinte e quatro) mensalidades fixas, acrescida de R$ 30.000,00 (trinta mil reais), por infração**, com a mensalidade no valor vigente na data da infração (na assinatura, **R$ 150.000,00**). A multa não impede a cobrança de **indenização pelo prejuízo que passar desse valor**, e a quebra também é justa causa para encerrar o contrato, nos termos do item 10.2.
 
 **11.6. O que não é quebra de sigilo:** o que a lei, um juiz ou uma autoridade exigir, com aviso à outra parte assim que possível; o que já for público sem culpa de quem recebeu; e a entrega ao novo contador dos livros, arquivos e informações contábeis do CLIENTE no encerramento (item 10.3). Os números e os documentos do próprio CLIENTE continuam sendo dele (item 13); o que é protegido é a estratégia do GRUPO SENA.
 
@@ -232,7 +232,7 @@ Rubrica GRUPO SENA: ________ Rubrica CLIENTE: ________
 
 **4. Prazo.** As obrigações deste termo valem durante o contrato e por **[5] anos** depois do seu fim.
 
-**5. Multa.** Descumprir este termo obriga o SIGNATÁRIO a pagar ao GRUPO SENA **multa equivalente a 24 (vinte e quatro) mensalidades fixas do contrato, por infração**, no valor vigente na data da infração (na assinatura, **R$ 120.000,00**), sem prejuízo da indenização pelo prejuízo que passar desse valor. O CLIENTE responde **solidariamente** com o SIGNATÁRIO.
+**5. Multa.** Descumprir este termo obriga o SIGNATÁRIO a pagar ao GRUPO SENA **multa equivalente a 24 (vinte e quatro) mensalidades fixas do contrato, acrescida de R$ 30.000,00 (trinta mil reais), por infração**, com a mensalidade no valor vigente na data da infração (na assinatura, **R$ 150.000,00**), sem prejuízo da indenização pelo prejuízo que passar desse valor. O CLIENTE responde **solidariamente** com o SIGNATÁRIO.
 
 **6. Exceções e foro.** Não é descumprimento o que a lei, um juiz ou uma autoridade exigir, com aviso imediato ao GRUPO SENA, nem o que já for público sem culpa do SIGNATÁRIO. Foro: Belo Horizonte/MG. Assinatura eletrônica vale como assinatura de próprio punho.
 
