@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 01/nov/2026.**
+> Estado das frentes abertas. **Atualizado em 11/nov/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -23,7 +23,7 @@ em `sb/AME/divulgacao/reels-sem-imersao-2026-11-08/LEIA.md`. **O primeiro buraco
 volta das 21h; o carrossel do marketplace foi pra 15/11 18h; os outros 4 (YouTube 16h e 19h, TikTok 18h, reel de teste
 AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já se repetem em outros dias da fila.
 
-### Resumo das frentes abertas (8/nov/2026)
+### Resumo das frentes abertas (11/nov/2026)
 
 | Frente | Onde está | O que falta |
 |---|---|---|
@@ -37,6 +37,7 @@ AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já
 | **Instituto Êxito** | renúncia entregue | resposta da diretoria; se sair, o Reestruturando com Êxito cai junto |
 | **SB** | termo Gilberto e Stanley assinado | saída do Simões no papel; monograma SB em alta |
 | **Livro "O Médico e o Executivo"** | 88 de 100 páginas | capítulos do Stanley, 4 decisões dele, escolha da capa, acordo de coautoria |
+| **Apresentação do Grupo Sena** (teste da skill `apresentacao-ecossistema`, 8/nov) | 9 slides em https://claude.ai/artifact/5xfL6EnVvQ2YCB74HbFcbg, já com contato e cargo (Fundador e CEO); fontes em `saidas/NEGOCIOS-E-MARCA/apresentacao-grupo-sena-institucional-2026-11-08/LEIA.md` | ele confirmar se a "conversa de diagnóstico" é a porta de entrada que quer oferecer |
 | **Fundo de debêntures** | ideia registrada | a conta do custo de captação contra os 9% do Pronamp |
 | **Media kit de palestrante** | kit e showreel prontos | proposta comercial, depoimentos de contratantes, fotos com nomes grandes |
 

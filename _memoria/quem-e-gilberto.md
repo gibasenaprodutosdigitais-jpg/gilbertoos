@@ -18,7 +18,7 @@
   | 2010 | 37 | nasce o Grupo Sena |
   | 2026 | 53 | hoje |
 - **É:** referência no mercado de contabilidade, advocacia e tributário no Brasil
-- **Grupo Sena:** consultoria empresarial, ~10 anos, 5 escritórios (BH — sede,
+- **Grupo Sena:** consultoria empresarial, desde 2010, 5 escritórios (BH — sede,
   Goiânia, São Paulo, Brasília, Rio de Janeiro — atualizado 23/ago/2026;
   Parauapebas e Vitória saíram da lista atual). Contabilidade, auditoria fiscal e
   tributária, assessoria jurídica, assessoria empresarial, gestão trabalhista, PF.

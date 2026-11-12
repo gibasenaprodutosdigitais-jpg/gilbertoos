@@ -1,6 +1,6 @@
 # Cronograma de postagens
 
-Fila real da Zernio, **lida em 18/out/2026, conferida em 21/out e em 30/out, e relida inteira em 02/nov e em 08/nov** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
+Fila real da Zernio, **lida em 18/out/2026, conferida em 21/out e em 30/out, e relida inteira em 02/nov e em 08/nov; conferida de novo em 11/nov, depois da pausa** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
 
 ## A grade desde 19/out (decisão dele em 18/out)
@@ -11,7 +11,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
-| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **14/11** |
+| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **15/11** |
 | **YouTube** | **3 reels por dia: 10h, 16h, 19h** desde 3/11 (pedido dele em 2/nov; eram 5, às 7h, 10h, 13h, 16h, 19h) | até **16/11 às 10h** (cortes do carro até 10/11 19h; os 16 reels da AME sem a imersão de 11/11 10h a 16/11 10h; os 16 antigos foram apagados do canal em 8/nov) |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até **24/11 18h**: desde 9/11, **1 por dia às 18h** (pedido dele em 8/nov), com os 16 reels da AME com efeitos |
 
@@ -30,7 +30,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | O quê | A partir de | Quanto |
 |---|---|---|
-| Carrossel das 18h | **15/11** | 1 por dia. Os de 4 a 14/11 entraram em 30/out; não sobrou nenhum pronto (ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`) |
+| Carrossel das 18h | **16/11** | 1 por dia. Os de 4 a 14/11 entraram em 30/out e o do marketplace foi pra 15/11; não sobrou nenhum pronto (ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`) |
 | Provérbios das 5h | **1/12** | foto de dezembro (e saber se vêm frases novas) |
 | Frase do dia das 9h | **1/12** | frases de dezembro; novembro fechado em 2/nov, com a foto de terno desde 8/11 |
 | YouTube | **16/11 às 16h** | 3 por dia (10h, 16h, 19h): cortes do carro até 10/11 19h e os 16 reels da AME sem a imersão de 11/11 a 16/11 10h (`sb/AME/divulgacao/reels-sem-imersao-2026-11-08/`) (`sb/AME/divulgacao/reels-no-youtube-2026-11-02/`); depois precisa de vídeo novo |
@@ -67,12 +67,12 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 11/11 qua | 09h00 | Instagram | frase do dia | Faturamento inicia a conversa. A margem mostra se o serviço valeu o es… |
 | 11/11 qua | 10h00 | YouTube | reels | Três perguntas pra você que é dono de consultório |
 | 11/11 qua | 12h00 | Instagram | reels | Um dos maiores erros do empresário: misturar o dinheiro da empresa com… |
-| 11/11 qua | 15h00 | Instagram | reel de teste | Quantos mentores já viram o seu balanço? |
-| 11/11 qua | 16h00 | YouTube | reels | Quanto custa a sua hora? |
-| 11/11 qua | 18h00 | Instagram | carrossel | Se você vende em marketplace ou loja online, a reforma tributária vai … |
-| 11/11 qua | 18h00 | TikTok | reels | Consultório é empresa |
-| 11/11 qua | 19h00 | YouTube | reels | Consultório é empresa |
-| 11/11 qua | 20h00 | Instagram | reel de teste | O que o perito nunca achou num extrato |
+| 11/11 qua | 15h00 | Instagram | reel de teste | Quantos mentores já viram o seu balanço? (saiu por volta das 21h, depois da pausa de 11/nov) |
+| 11/11 qua | 16h00 | YouTube | reels | Quanto custa a sua hora? (não saiu: pausa de 11/nov; ficou em rascunho na Zernio) |
+| 11/11 qua | 18h00 | Instagram | carrossel | Se você vende em marketplace ou loja online, a reforma tributária vai … (não saiu: pausa de 11/nov; remarcado pra 15/11 18h) |
+| 11/11 qua | 18h00 | TikTok | reels | Consultório é empresa (não saiu: pausa de 11/nov; ficou em rascunho na Zernio) |
+| 11/11 qua | 19h00 | YouTube | reels | Consultório é empresa (não saiu: pausa de 11/nov; ficou em rascunho na Zernio) |
+| 11/11 qua | 20h00 | Instagram | reel de teste | O que o perito nunca achou num extrato (não saiu: pausa de 11/nov; ficou em rascunho na Zernio) |
 | 12/11 qui | 05h00 | Instagram | Provérbios | Quem aceita ser corrigido transforma seus erros em professores; quem r… |
 | 12/11 qui | 09h00 | Instagram | frase do dia | A equipe não lê a mente do dono. O combinado precisa caber numa instru… |
 | 12/11 qui | 10h00 | YouTube | reels | Empresa ou emprego? |
@@ -110,6 +110,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 15/11 dom | 15h00 | Instagram | reel de teste | Mentoria é roupa de prateleira |
 | 15/11 dom | 16h00 | YouTube | reels | A frase que fecha toda mentoria |
 | 15/11 dom | 18h00 | TikTok | reels | Mentoria ou assessoria: a diferença |
+| 15/11 dom | 18h00 | Instagram | carrossel | Se você vende em marketplace ou loja online, a reforma tributária vai … (remarcado de 11/11) |
 | 15/11 dom | 19h00 | YouTube | reels | A teoria não fecha o caixa |
 | 15/11 dom | 20h00 | Instagram | reel de teste | A frase que fecha toda mentoria |
 | 16/11 seg | 05h00 | Instagram | Provérbios | Planeje com responsabilidade, execute com coragem e mantenha o coração… |
