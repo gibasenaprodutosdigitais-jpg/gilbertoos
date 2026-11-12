@@ -3,6 +3,12 @@
 Pedido dele: a logo em 3D do serviço de "business advisor and consultant", sem mais detalhe.
 Tratado como **marca pessoal** (o serviço é dele, com o nome dele), não como Grupo Sena, OCEO ou GSena Hub.
 
+**★ Escolhida por ele em 12/nov: a opção 1, aço escovado.** Arquivos da escolhida:
+
+- `opcao-1-aco-escovado-transparente.png`: fundo transparente, pra usar sobre fundo claro (o serviço sai em grafite)
+- `opcao-1-aco-escovado-transparente-para-fundo-escuro.png`: fundo transparente, pra usar sobre fundo escuro (o serviço sai em prata clara)
+- `opcao-1-aco-escovado-fundo-claro.png` e `opcao-1-aco-escovado-fundo-escuro.png`: com o fundo já pronto
+
 ## O que tem aqui
 
 Três opções, cada uma em dois arquivos: um com fundo transparente (pra pôr em cima de qualquer coisa) e um com
@@ -32,5 +38,4 @@ Só o nome e o nome do serviço. Nenhum número, nenhuma frase, nenhum fato.
 
 ## Falta
 
-- Ele escolher uma das três (ou pedir ajuste: cor, letra, sem o nome, só o leão).
 - Se for usar o nome do serviço em português também, decidir qual vai na peça.

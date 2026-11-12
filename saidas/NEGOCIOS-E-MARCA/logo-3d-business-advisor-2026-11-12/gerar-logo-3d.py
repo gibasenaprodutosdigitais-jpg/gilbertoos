@@ -258,6 +258,17 @@ def opcao1():
     out = over(out, rgb, al)
     save_rgb(out, f'{OUT}/opcao-1-aco-escovado-fundo-claro.png')
 
+    # versão pra fundo escuro: o serviço passa de grafite pra prata clara
+    ink2 = hexrgb('#C9CCD1')
+    rgb2 = rgb * (1 - flat[..., None]) + ink2 * flat[..., None]
+    rgb2_t, _ = trim(rgb2, al, 80)
+    save_rgba(rgb2_t, al_t, f'{OUT}/opcao-1-aco-escovado-transparente-para-fundo-escuro.png')
+    bg2 = np.ones((H, W, 3), np.float32) * hexrgb('#16181B')
+    sh2 = shadow(np.maximum(al - flat, 0), 30, 70, 38, 0.6)
+    out2 = over(bg2, np.zeros_like(bg2) + hexrgb('#050607'), sh2)
+    out2 = over(out2, rgb2, al)
+    save_rgb(out2, f'{OUT}/opcao-1-aco-escovado-fundo-escuro.png')
+
 
 # =============================================================== OPÇÃO 2: mármore branco, horizontal, fundo escuro
 def opcao2():
