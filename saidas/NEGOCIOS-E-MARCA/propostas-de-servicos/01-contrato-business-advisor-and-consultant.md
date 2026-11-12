@@ -10,7 +10,7 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 ## 1. As partes
 
-**CONTRATADA:** GRUPO SENA SOLUÇÕES EMPRESARIAIS, CNPJ [nº], com sede em [endereço], Belo Horizonte/MG, representada por seu fundador e CEO, **Gilberto Luís de Sena**, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**, adiante **GRUPO SENA**.
+**CONTRATADA:** GRUPO SENA SOLUÇÕES EMPRESARIAIS, CNPJ **22.513.762/0001-24**, com sede em [endereço], Belo Horizonte/MG, representada por seu fundador e CEO, **Gilberto Luís de Sena**, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**, adiante **GRUPO SENA**.
 
 **CONTRATANTE:** [razão social], CNPJ [nº], com sede em [endereço], representada por [nome do representante legal], CPF [nº], adiante **CLIENTE**.
 

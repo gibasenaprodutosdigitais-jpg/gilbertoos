@@ -25,7 +25,7 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
 ## Antes da primeira assinatura
 
 - **Passar pelo advogado**, como os contratos da AME.
-- Preencher o CNPJ e o endereço do Grupo Sena e o **nome e o CRC do contador responsável técnico** (a contabilidade exige um).
+- CNPJ do Grupo Sena já preenchido (22.513.762/0001-24, passado por ele em 12/nov). Falta o **endereço** da sede e o **nome e o CRC do contador responsável técnico** (a contabilidade exige um).
 - Prazo de 24 meses está dentro do limite de 4 anos para prestação de serviços, conforme o mesmo fichamento.
 
 ## Papel timbrado (12/nov/2026)

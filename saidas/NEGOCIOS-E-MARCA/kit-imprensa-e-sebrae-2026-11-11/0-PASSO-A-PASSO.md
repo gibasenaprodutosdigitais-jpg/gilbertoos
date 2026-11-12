@@ -35,7 +35,7 @@
 
 | # | Passo | Quem |
 |---|---|---|
-| 1 | Preencher **uma vez** no atestado o CNPJ do Grupo Sena e o seu CPF | você |
+| 1 | Preencher **uma vez** no atestado o seu CPF (o CNPJ do Grupo Sena, 22.513.762/0001-24, já está preenchido) | você |
 | 2 | Escolher os clientes (empresas, não pessoas físicas) que vão assinar. Meta: somar **200 horas por subárea** em cada natureza (consultoria ou instrutoria) | você |
 | 3 | Mandar o atestado para cada cliente, que preenche **no papel timbrado dele**, assina e devolve | você |
 | 4 | Separar os documentos do Grupo Sena: CNPJ, contrato social e certidões negativas (federal, estadual, municipal, FGTS e trabalhista) | você ou o financeiro |
