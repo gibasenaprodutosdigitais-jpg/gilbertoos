@@ -1,0 +1,187 @@
+# Contrato de Prestação de Serviços Empresariais
+
+**Business Advisor and Consultant** · 24 meses
+
+Grupo Sena Soluções Empresariais
+
+Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assinatura**
+
+---
+
+## 1. As partes
+
+**CONTRATADA:** GRUPO SENA SOLUÇÕES EMPRESARIAIS, CNPJ [nº], com sede em [endereço], Belo Horizonte/MG, representada por seu fundador e CEO, **Gilberto Luís de Sena**, adiante **GRUPO SENA**.
+
+**CONTRATANTE:** [razão social], CNPJ [nº], com sede em [endereço], representada por [nome do representante legal], CPF [nº], adiante **CLIENTE**.
+
+## 2. O que este contrato é
+
+**2.1.** O GRUPO SENA presta ao CLIENTE, de forma contínua, o serviço de **Business Advisor and Consultant**: o acompanhamento de Gilberto Sena como conselheiro do dono da empresa, apoiado pela equipe técnica do GRUPO SENA, em quatro frentes integradas: **contabilidade, assessoria tributária, gestão financeira e consultoria de marketing**.
+
+**2.2.** O objetivo é que o CLIENTE decida com número na mesa: pague o imposto certo, controle o caixa, cresça com margem e não cometa o erro caro.
+
+**2.3. Natureza das obrigações.** Na contabilidade, o GRUPO SENA se obriga a cumprir os prazos e as normas legais com base nos documentos que o CLIENTE entregar. Na assessoria tributária, na gestão financeira e na consultoria de marketing, a obrigação é **de meio**: o GRUPO SENA entrega análise, recomendação e acompanhamento com cuidado técnico, mas **não garante resultado em número**, porque ele depende da execução do CLIENTE, do mercado e de decisões fora do controle do GRUPO SENA. A remuneração variável do item 6 existe justamente para premiar o resultado quando ele acontece.
+
+**2.4.** Toda decisão sobre o negócio é **do CLIENTE**.
+
+## 3. As entregas
+
+| Frente | O que o GRUPO SENA entrega |
+|---|---|
+| **Contabilidade** | Escrituração contábil e fiscal; apuração dos tributos e emissão das guias; entrega das obrigações acessórias exigidas por lei; balancete mensal; balanço patrimonial e demonstração do resultado (DRE) anuais. Responsável técnico: [nome], contador(a), CRC [UF] nº [__] |
+| **Assessoria tributária** | Planejamento tributário anual, com a escolha do regime mais adequado; revisão de créditos e oportunidades de recuperação, redução ou compensação de tributos, sempre dentro da lei; análise de débitos com a Receita Federal, a PGFN, o Estado e o Município, com proposta de regularização; acompanhamento da reforma tributária e do impacto da CBS e do IBS no preço, no regime e no caixa do CLIENTE |
+| **Gestão financeira** | Organização e acompanhamento do fluxo de caixa; DRE gerencial mensal; indicadores de margem, capital de giro e endividamento; apoio na precificação; separação entre as finanças da empresa e as dos sócios; orientação na renegociação de dívidas e no acesso a crédito |
+| **Consultoria de marketing** | Diagnóstico de posicionamento e do processo comercial; plano anual de marketing e vendas, com metas; acompanhamento mensal dos indicadores comerciais (custo de aquisição, conversão, ticket médio). Não inclui a execução: produção de conteúdo, gestão de anúncios pagos, mídia e agência ficam a cargo do CLIENTE ou de contrato à parte |
+| **Advisor (Gilberto Sena)** | [1] reunião mensal de [2] horas com Gilberto Sena, presencial ou online, para leitura dos números e decisões do mês; atendimento por WhatsApp e e-mail em dias úteis, das [9h] às [18h], com resposta em até [1] dia útil |
+
+**3.1. Diagnóstico inicial.** Nos primeiros **[30] dias**, o GRUPO SENA faz o diagnóstico tributário, financeiro e comercial e registra, com o CLIENTE, a **linha de base** do Anexo I. É a partir dela que se mede a remuneração variável.
+
+**3.2. Fora do escopo** (só com aditivo ou contrato à parte): departamento pessoal e folha de pagamento; defesa em processo administrativo ou judicial; auditoria independente; abertura, alteração ou baixa de empresa; execução de marketing.
+
+## 4. Prazo
+
+**4.1.** Este contrato vale por **24 (vinte e quatro) meses**, de [data de início] a [data de término].
+
+**4.2.** A renovação depende de acordo por escrito, assinado pelas duas partes, até [60] dias antes do término.
+
+## 5. Remuneração fixa
+
+**5.1.** O CLIENTE paga ao GRUPO SENA **R$ 5.000,00 (cinco mil reais) por mês**, durante os 24 meses, com vencimento todo dia **[10]**, por boleto ou pix, contra nota fiscal.
+
+**5.2. Reajuste.** A cada 12 meses, o valor fixo é corrigido pela variação do **[IPCA]** do período.
+
+## 6. Remuneração variável
+
+### 6.1. 10% sobre a economia financeira
+
+**6.1.1.** Além do valor fixo, o CLIENTE paga **10% (dez por cento) da economia financeira** obtida a partir de medida proposta ou implantada pelo GRUPO SENA.
+
+**6.1.2. O que conta como economia financeira:**
+
+a) **redução de tributos:** a diferença entre o que o CLIENTE pagaria pela linha de base do Anexo I e o que efetivamente pagou, mantidas as demais condições;
+
+b) **créditos tributários recuperados:** valores efetivamente restituídos, ressarcidos ou compensados;
+
+c) **redução de custos financeiros e despesas:** juros, multas, tarifas bancárias e condições de fornecedores renegociados com a participação do GRUPO SENA, comprovados por documento.
+
+**6.1.3.** Não entra na conta a economia que viria de qualquer jeito, por mudança de lei que alcance todos, sem medida específica do GRUPO SENA.
+
+**6.1.4. Apuração e pagamento.** A economia é apurada **a cada trimestre**, em relatório do GRUPO SENA com os documentos que a comprovam. O pagamento vence em até **[10] dias** depois do aceite do relatório. Crédito tributário só gera cobrança **quando for efetivamente aproveitado** (recebido ou compensado), e não quando for apenas identificado.
+
+### 6.2. 5% sobre o aumento de faturamento acima de 10%
+
+**6.2.1.** O CLIENTE paga **5% (cinco por cento) sobre o aumento de faturamento que passar de 10%** em relação à base.
+
+**6.2.2. Faturamento** é a receita bruta de vendas e serviços registrada nos documentos fiscais e contábeis do CLIENTE.
+
+**6.2.3. Base.** A base de cada trimestre é o faturamento do **mesmo trimestre do ano anterior**, registrado no Anexo I. Assim, a sazonalidade não distorce a conta.
+
+**6.2.4. A conta.** Só a parte do faturamento que ultrapassar a base acrescida de 10% gera remuneração.
+
+> Exemplo: base do trimestre de R$ 1.000.000,00. Faturamento realizado de R$ 1.250.000,00 (aumento de 25%). A parte acima de 10% é R$ 1.250.000,00 menos R$ 1.100.000,00, ou seja, R$ 150.000,00. Remuneração: 5% de R$ 150.000,00 = **R$ 7.500,00**. Se o aumento for de 10% ou menos, não há remuneração variável no trimestre.
+
+**6.2.5.** Apuração **trimestral**, com pagamento em até **[10] dias** depois do aceite do relatório.
+
+### 6.3. Regras comuns à remuneração variável
+
+**6.3.1.** O CLIENTE tem **[10] dias** para conferir cada relatório. Divergência é resolvida em reunião, com os documentos na mesa. Sem manifestação no prazo, o relatório é considerado aceito.
+
+**6.3.2.** A remuneração variável sobre economia e créditos gerados durante a vigência continua devida se o aproveitamento acontecer em até **[12] meses** depois do fim do contrato.
+
+## 7. Atraso, impostos e reforma tributária
+
+**7.1. Atraso:** multa de **2%** e juros de **1% ao mês**, pro rata, mais correção pelo [IPCA]. Atraso de mais de **[30] dias** permite ao GRUPO SENA suspender as frentes de gestão financeira, marketing e advisor até a regularização, com aviso prévio por escrito de [5] dias. As obrigações contábeis com prazo legal continuam sendo cumpridas durante a suspensão.
+
+**7.2.** Os tributos sobre o serviço do GRUPO SENA já estão incluídos nos valores deste contrato.
+
+**7.3. Reforma tributária.** Este contrato atravessa a mudança de tributos sobre serviços que começa em 2027, com a substituição gradual de tributos atuais pela CBS e pelo IBS. Se a carga tributária sobre o serviço do GRUPO SENA mudar por força de lei, os valores serão ajustados **na exata medida da diferença, para mais ou para menos**, com aviso por escrito de [30] dias e a memória de cálculo.
+
+## 8. O que o CLIENTE se compromete a fazer
+
+**8.1.** Entregar os documentos do mês (notas fiscais, extratos, contratos, folha e demais comprovantes) até o dia **[5]** do mês seguinte.
+
+**8.2.** Dar acesso de consulta aos extratos bancários, ao sistema de gestão e aos portais fiscais necessários ao serviço.
+
+**8.3.** Prestar informações completas e verdadeiras. O GRUPO SENA trabalha sobre o que recebe e não responde por erro, multa ou autuação que venha de documento falso, incompleto ou entregue fora do prazo.
+
+**8.4.** Indicar um responsável pelo contato e participar das reuniões mensais.
+
+**8.5.** Pagar em dia os tributos apurados e as guias emitidas.
+
+## 9. O que o GRUPO SENA se compromete a fazer
+
+**9.1.** Cumprir os prazos legais das obrigações contábeis e fiscais, com base nos documentos recebidos no prazo do item 8.1.
+
+**9.2.** Entregar todo mês o balancete, a DRE gerencial e a leitura dos indicadores.
+
+**9.3.** Avisar o CLIENTE por escrito, assim que identificar, qualquer risco fiscal, financeiro ou comercial relevante.
+
+**9.4.** Guardar os documentos do CLIENTE com segurança e sigilo.
+
+## 10. Rescisão
+
+**10.1. Sem justa causa.** Qualquer parte pode encerrar o contrato antes do prazo com **aviso prévio de [60] dias**, durante os quais os serviços e os pagamentos continuam. Quem encerrar sem justa causa paga à outra multa de **[20%] sobre a soma das mensalidades fixas que faltariam** até o fim dos 24 meses.
+
+**10.2. Com justa causa.** A parte prejudicada pode encerrar de imediato, sem multa a seu favor, se a outra descumprir obrigação deste contrato e não corrigir em [15] dias depois de notificada por escrito; ou em caso de atraso de pagamento por mais de [60] dias.
+
+**10.3. Transição.** Em qualquer encerramento, o GRUPO SENA entrega ao CLIENTE, ou ao novo contador, os livros, os arquivos e as informações contábeis, e formaliza a transferência da responsabilidade técnica.
+
+**10.4.** O encerramento não apaga a remuneração variável já gerada, nem a do item 6.3.2.
+
+## 11. Sigilo
+
+O GRUPO SENA guarda sigilo de tudo o que souber do negócio do CLIENTE. O CLIENTE guarda sigilo do método e do material do GRUPO SENA. Vale durante o contrato e por **[5] anos** depois. Não é quebra de sigilo o que a lei, um juiz ou uma autoridade exigir.
+
+## 12. Dados pessoais (LGPD)
+
+Os dados pessoais recebidos são tratados conforme a Lei 13.709/2018, apenas para executar este contrato e cumprir obrigações legais, sem venda nem cessão. Encerrado o contrato, ficam guardados pelo prazo exigido em lei e depois são eliminados.
+
+## 13. Método e material
+
+Método, planilhas, modelos e relatórios-padrão são propriedade do GRUPO SENA. O CLIENTE pode usá-los no próprio negócio. É proibido reproduzir, revender ou usar para formar terceiros. Os números, as demonstrações e os documentos do CLIENTE são do CLIENTE.
+
+## 14. Limite de responsabilidade
+
+O GRUPO SENA responde por erro técnico próprio, comprovado, na execução dos serviços. Não responde por decisão do CLIENTE, por informação falsa ou incompleta recebida, por resultado de mercado ou por ato de profissional contratado à parte. Salvo dolo, a responsabilidade fica limitada ao valor de **[12] mensalidades fixas**.
+
+## 15. Não contratação da equipe
+
+Durante o contrato e por [12] meses depois, nenhuma parte contrata funcionário da outra que tenha atuado neste contrato sem autorização por escrito.
+
+## 16. Disposições gerais
+
+Mudança só vale por escrito, assinada pelas duas partes. Uma cláusula inválida não invalida as demais. Tolerância não é renúncia. Comunicações válidas: [e-mails das partes]. Desacordo: primeiro conversa direta em até [15] dias, depois mediação, e só então a Justiça. Foro: comarca de **Belo Horizonte/MG**.
+
+**Assinatura eletrônica** (por exemplo, Clicksign ou gov.br) vale como assinatura de próprio punho.
+
+[Cidade], [data].
+
+_____________________________________
+**GRUPO SENA SOLUÇÕES EMPRESARIAIS**
+Gilberto Luís de Sena, fundador e CEO
+
+_____________________________________
+**[RAZÃO SOCIAL DO CLIENTE]**
+[nome do representante legal]
+
+**Testemunhas:**
+
+1. _______________________ Nome: [__] CPF: [__]
+2. _______________________ Nome: [__] CPF: [__]
+
+---
+
+## Anexo I. Linha de base (preenchida no diagnóstico inicial e assinada pelas duas partes)
+
+| Item | Valor de referência | Período | Fonte |
+|---|---|---|---|
+| Tributos pagos (total e por tributo) | R$ [__] | últimos 12 meses | guias e livros fiscais |
+| Regime tributário atual | [__] | [ano] | contrato social e opção |
+| Despesas financeiras (juros, multas, tarifas) | R$ [__] | últimos 12 meses | extratos e contratos |
+| Faturamento do 1º trimestre do ano anterior | R$ [__] | [__] | documentos fiscais |
+| Faturamento do 2º trimestre do ano anterior | R$ [__] | [__] | documentos fiscais |
+| Faturamento do 3º trimestre do ano anterior | R$ [__] | [__] | documentos fiscais |
+| Faturamento do 4º trimestre do ano anterior | R$ [__] | [__] | documentos fiscais |
+| Créditos tributários já conhecidos antes do contrato (não geram remuneração) | R$ [__] | [__] | [__] |
+
+Rubrica GRUPO SENA: ________ Rubrica CLIENTE: ________
