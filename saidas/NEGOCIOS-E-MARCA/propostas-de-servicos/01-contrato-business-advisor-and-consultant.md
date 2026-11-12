@@ -10,7 +10,7 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 ## 1. As partes
 
-**CONTRATADA:** GRUPO SENA SOLUÇÕES EMPRESARIAIS, CNPJ [nº], com sede em [endereço], Belo Horizonte/MG, representada por seu fundador e CEO, **Gilberto Luís de Sena**, adiante **GRUPO SENA**.
+**CONTRATADA:** GRUPO SENA SOLUÇÕES EMPRESARIAIS, CNPJ [nº], com sede em [endereço], Belo Horizonte/MG, representada por seu fundador e CEO, **Gilberto Luís de Sena**, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**, adiante **GRUPO SENA**.
 
 **CONTRATANTE:** [razão social], CNPJ [nº], com sede em [endereço], representada por [nome do representante legal], CPF [nº], adiante **CLIENTE**.
 
@@ -160,7 +160,7 @@ c) **redução de custos financeiros e despesas:** juros, multas, tarifas bancá
 
 **11.4. Acesso autorizado.** Só pode ter acesso à informação confidencial o profissional que o GRUPO SENA **autorizar por escrito** e que assine antes o **Termo de Confidencialidade do Anexo II**. Quem assina responde junto com o CLIENTE.
 
-**11.5. Multa.** A quebra do sigilo deste item 11, incluindo o acesso de terceiro descrito no item 11.3, obriga a parte que der causa a pagar à outra **multa de R$ 250.000,00 (duzentos e cinquenta mil reais) por infração**, corrigida pelo [IPCA] desde a assinatura. A multa não impede a cobrança de **indenização pelo prejuízo que passar desse valor**, e a quebra também é justa causa para encerrar o contrato, nos termos do item 10.2.
+**11.5. Multa.** A quebra do sigilo deste item 11, incluindo o acesso de terceiro descrito no item 11.3, obriga a parte que der causa a pagar à outra **multa equivalente a 24 (vinte e quatro) mensalidades fixas, por infração**, no valor vigente na data da infração (na assinatura, **R$ 120.000,00**). A multa não impede a cobrança de **indenização pelo prejuízo que passar desse valor**, e a quebra também é justa causa para encerrar o contrato, nos termos do item 10.2.
 
 **11.6. O que não é quebra de sigilo:** o que a lei, um juiz ou uma autoridade exigir, com aviso à outra parte assim que possível; o que já for público sem culpa de quem recebeu; e a entrega ao novo contador dos livros, arquivos e informações contábeis do CLIENTE no encerramento (item 10.3). Os números e os documentos do próprio CLIENTE continuam sendo dele (item 13); o que é protegido é a estratégia do GRUPO SENA.
 
@@ -192,7 +192,7 @@ Mudança só vale por escrito, assinada pelas duas partes. Uma cláusula inváli
 
 _____________________________________
 **GRUPO SENA SOLUÇÕES EMPRESARIAIS**
-Gilberto Luís de Sena, fundador e CEO
+Gilberto Luís de Sena, fundador e CEO · CRA nº 06-003960/D · Perito CONPEJ nº 01.00.3597
 
 _____________________________________
 **[RAZÃO SOCIAL DO CLIENTE]**
@@ -232,7 +232,7 @@ Rubrica GRUPO SENA: ________ Rubrica CLIENTE: ________
 
 **4. Prazo.** As obrigações deste termo valem durante o contrato e por **[5] anos** depois do seu fim.
 
-**5. Multa.** Descumprir este termo obriga o SIGNATÁRIO a pagar ao GRUPO SENA **multa de R$ 250.000,00 (duzentos e cinquenta mil reais) por infração**, corrigida pelo [IPCA] desde a assinatura, sem prejuízo da indenização pelo prejuízo que passar desse valor. O CLIENTE responde **solidariamente** com o SIGNATÁRIO.
+**5. Multa.** Descumprir este termo obriga o SIGNATÁRIO a pagar ao GRUPO SENA **multa equivalente a 24 (vinte e quatro) mensalidades fixas do contrato, por infração**, no valor vigente na data da infração (na assinatura, **R$ 120.000,00**), sem prejuízo da indenização pelo prejuízo que passar desse valor. O CLIENTE responde **solidariamente** com o SIGNATÁRIO.
 
 **6. Exceções e foro.** Não é descumprimento o que a lei, um juiz ou uma autoridade exigir, com aviso imediato ao GRUPO SENA, nem o que já for público sem culpa do SIGNATÁRIO. Foro: Belo Horizonte/MG. Assinatura eletrônica vale como assinatura de próprio punho.
 
@@ -241,4 +241,4 @@ Belo Horizonte, [data].
 | SIGNATÁRIO | CLIENTE (responsável solidário) | GRUPO SENA SOLUÇÕES EMPRESARIAIS |
 |---|---|---|
 | Assinatura: | Assinatura: | Assinatura: |
-| [nome], CPF/CNPJ [nº] | [razão social], [representante legal] | Gilberto Luís de Sena, fundador e CEO |
+| [nome], CPF/CNPJ [nº] | [razão social], [representante legal] | Gilberto Luís de Sena, fundador e CEO, CRA nº 06-003960/D |

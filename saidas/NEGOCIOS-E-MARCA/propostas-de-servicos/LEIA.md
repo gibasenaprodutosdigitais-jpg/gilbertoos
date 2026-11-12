@@ -44,12 +44,14 @@ Pedido dele: a minuta em papel timbrado, com marca d'água, usando **a logo núm
 ## Sigilo e NDA (12/nov/2026)
 
 Pedido dele: multa por quebra de sigilo, com NDA, para o caso de **outro profissional entrar no sistema para obter a
-estratégia implantada pelo Grupo Sena**. Multa de **R$ 250.000,00**.
+estratégia implantada pelo Grupo Sena**. Começou em R$ 250.000,00; **em 12/nov ele aprovou trocar por 24 mensalidades fixas
+(R$ 120.000,00 na assinatura)**, para não passar do valor do contrato e não ser reduzida pelo juiz, mantendo a
+indenização do prejuízo que passar disso.
 
 - **Item 11 do contrato** (Sigilo e confidencialidade): define a informação confidencial (estratégia, método, diagnóstico,
   planejamento tributário, relatórios, planilhas, inclusive em sistemas, pastas, e-mails e grupos); proíbe o CLIENTE de
   deixar outro profissional acessar isso para copiar ou aplicar a estratégia; só entra quem o Grupo Sena autorizar por
-  escrito e assinar o NDA; **multa de R$ 250.000,00 por infração**, corrigida pelo IPCA, mais a indenização do que passar
+  escrito e assinar o NDA; **multa de 24 mensalidades fixas por infração** (R$ 120.000,00 na assinatura), mais a indenização do que passar
   disso; e a quebra é justa causa para encerrar o contrato.
 - **Anexo II, Termo de Confidencialidade (NDA):** assinado pelo profissional autorizado, com o CLIENTE como responsável
   solidário. Mesma multa. Uma página, com as três assinaturas lado a lado.
@@ -62,6 +64,9 @@ estratégia implantada pelo Grupo Sena**. Multa de **R$ 250.000,00**.
    equilibrada e mais difícil de derrubar. Se ele quiser só contra o cliente, tirar "a parte que der causa" do item 11.5.
 2. Se o contrato terminar por justa causa do CLIENTE, ele paga também a multa de saída do item 10.1 (item 10.2).
 
-**⚠ Ponto para o advogado:** a multa de R$ 250.000,00 é maior que o valor fixo do contrato (24 x R$ 5.000,00 = R$ 120.000,00).
-Multa contratual muito acima da obrigação principal pode ser reduzida pelo juiz. O NDA como termo à parte e a
-previsão de indenização suplementar ajudam, mas o advogado precisa olhar o valor e a redação.
+**Ponto para o advogado:** conferir a redação da multa de sigilo (24 mensalidades) e da indenização suplementar.
+
+## Registros profissionais no contrato (12/nov/2026)
+
+Na qualificação do Grupo Sena e nas assinaturas: **CRA nº 06-003960/D** e **perito financeiro CONPEJ nº 01.00.3597**, os dois
+passados e confirmados por ele em 12/nov (o CONPEJ foi renovado, na palavra dele).

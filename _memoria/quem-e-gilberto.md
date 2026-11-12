@@ -477,6 +477,13 @@ de amor em minha empresa, e pra mim amor é mandamento, não sentimento."
   ⚠ **A validade impressa na carteira venceu em outubro/2021**; não há
   carteira renovada no computador (conferido em 01/nov/2026). Não apresentar
   como registro em dia sem ele confirmar a renovação.
+  ✅ **12/nov/2026: ele confirmou que o registro no CONPEJ foi renovado.** Pode
+  citar "perito financeiro, CONPEJ nº 01.00.3597" (a carteira nova ainda não está
+  no computador).
+
+**Registro no Conselho Regional de Administração: CRA nº 06-003960/D**, passado
+por ele em 12/nov/2026 (no computador só havia o requerimento de registro no
+CRA-MG, sem o número). Usar como "administrador, CRA nº 06-003960/D".
 
 **Educação física: registro no CREF6/MG nº MG-007170**, categoria
 **Provisionado – Musculação**, situação **ATIVO** (consulta cadastral no site
