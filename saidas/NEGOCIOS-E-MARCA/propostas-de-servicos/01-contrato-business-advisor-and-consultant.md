@@ -12,7 +12,7 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **CONTRATADAS:** **GS CONSULTORIA EMPRESARIAL LTDA – ME**, inscrita no CNPJ sob o nº **21.509.187/0001-23**, e **SENA CONTABILIDADE**, inscrita no CNPJ sob o nº **25.338.012/0001-51**, ambas com sede na Av. Arthur Guimarães, nº 260, sala 301, bairro Santa Cruz, Belo Horizonte/MG, CEP 31.150-690, e-mail financeiro@gruposena.com.br, empresas que atuam sob a marca **GRUPO SENA**, neste ato representadas por seus representantes legais, [nome e qualificação do representante de cada empresa], adiante chamadas, em conjunto, **GRUPO SENA**.
 
-**1.1. Quem faz o quê.** A **SENA CONTABILIDADE** presta a frente de **contabilidade** do item 3, sob responsabilidade técnica de contador com registro ativo no CRC. A **GS CONSULTORIA EMPRESARIAL** presta as frentes de **assessoria tributária, gestão financeira, consultoria de marketing e advisor**. Cada uma responde pela sua frente e emite a sua nota fiscal, e não responde pela frente da outra.
+**1.1. Quem faz o quê.** A **SENA CONTABILIDADE** presta a frente de **contabilidade** do item 3, sob responsabilidade técnica de contador com registro ativo no CRC (**CRC-MG nº 110075/OI**). A **GS CONSULTORIA EMPRESARIAL** presta as frentes de **assessoria tributária, gestão financeira, consultoria de marketing e advisor**. Cada uma responde pela sua frente e emite a sua nota fiscal, e não responde pela frente da outra.
 
 **1.2. O advisor.** As frentes da GS CONSULTORIA EMPRESARIAL são conduzidas por **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**.
 
@@ -32,7 +32,7 @@ Modelo 1 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 | Frente | O que o GRUPO SENA entrega |
 |---|---|
-| **Contabilidade** | Escrituração contábil e fiscal; apuração dos tributos e emissão das guias; entrega das obrigações acessórias exigidas por lei; balancete mensal; balanço patrimonial e demonstração do resultado (DRE) anuais. Responsável técnico: [nome], contador(a), CRC [UF] nº [__] |
+| **Contabilidade** | Escrituração contábil e fiscal; apuração dos tributos e emissão das guias; entrega das obrigações acessórias exigidas por lei; balancete mensal; balanço patrimonial e demonstração do resultado (DRE) anuais. Responsável técnico: [nome], contador(a), **CRC-MG nº 110075/OI** |
 | **Assessoria tributária** | Planejamento tributário anual, com a escolha do regime mais adequado; revisão de créditos e oportunidades de recuperação, redução ou compensação de tributos, sempre dentro da lei; análise de débitos com a Receita Federal, a PGFN, o Estado e o Município, com proposta de regularização; acompanhamento da reforma tributária e do impacto da CBS e do IBS no preço, no regime e no caixa do CLIENTE |
 | **Gestão financeira** | Organização e acompanhamento do fluxo de caixa; DRE gerencial mensal; indicadores de margem, capital de giro e endividamento; apoio na precificação; separação entre as finanças da empresa e as dos sócios; orientação na renegociação de dívidas e no acesso a crédito |
 | **Consultoria de marketing** | Diagnóstico de posicionamento e do processo comercial; plano anual de marketing e vendas, com metas; acompanhamento mensal dos indicadores comerciais (custo de aquisição, conversão, ticket médio). Não inclui a execução: produção de conteúdo, gestão de anúncios pagos, mídia e agência ficam a cargo do CLIENTE ou de contrato à parte |
