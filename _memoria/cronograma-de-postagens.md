@@ -12,7 +12,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
 | **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **16/11** |
-| **YouTube** | **3 reels por dia: 10h, 16h, 19h** desde 3/11 (pedido dele em 2/nov; eram 5, às 7h, 10h, 13h, 16h, 19h) | até **16/11 às 10h** (cortes do carro até 10/11 19h; os 16 reels da AME sem a imersão de 11/11 10h a 16/11 10h; os 16 antigos foram apagados do canal em 8/nov) |
+| **YouTube** | **+ 5h Provérbios e 9h frase do dia, de 13 a 30/11** (Shorts de 9 s feitos das imagens do Instagram, agendados em 12/nov; ver `saidas/CARDS/youtube-shorts-novembro/`) · **3 reels por dia: 10h, 16h, 19h** desde 3/11 (pedido dele em 2/nov; eram 5, às 7h, 10h, 13h, 16h, 19h) | até **16/11 às 10h** (cortes do carro até 10/11 19h; os 16 reels da AME sem a imersão de 11/11 10h a 16/11 10h; os 16 antigos foram apagados do canal em 8/nov) |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até **24/11 18h**: desde 9/11, **1 por dia às 18h** (pedido dele em 8/nov), com os 16 reels da AME com efeitos |
 
 - **A frase do dia passou a sair todo dia, inclusive fim de semana** (pedido dele em 18/out). Então são 4 posts todo dia.
