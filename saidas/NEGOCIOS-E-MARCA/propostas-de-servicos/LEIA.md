@@ -98,8 +98,8 @@ Grupo Sena** no papel timbrado (a assinatura horizontal, `timbrado/logo-cabecalh
 1. **O critério das faixas:** faturamento médio mensal, de até R$ 30 mil (R$ 850) a R$ 800 mil (R$ 3.500); acima disso,
    proposta sob medida. Os cortes de cada faixa são sugestão minha.
 2. **Mudança de faixa:** conferência a cada 12 meses, ou antes se a média de 3 meses mudar de faixa.
-3. **A divisão das notas:** repeti os 35% / 65% do contrato 01. Pode ser que ele prefira faturar mais (ou tudo) pela Sena
-   Contabilidade neste.
+3. ✅ **Notas (palavra dele, 12/nov):** a mensalidade sai **toda pela Sena Contabilidade**; os valores referentes à
+   **economia tributária** saem pela **GS Consultoria** (item 5.6: contratados por aditivo, com valor próprio).
 4. **O que ficou mais enxuto que o 01:** sem consultoria de marketing e sem advisor mensal; atendimento com 1 reunião
    trimestral. Recuperação de crédito, reorganização societária e renegociação de dívidas ficaram **fora do escopo**
    (sem a parte variável, seriam entregues de graça).

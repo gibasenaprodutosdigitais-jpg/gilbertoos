@@ -12,9 +12,9 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **CONTRATADAS:** **GS CONSULTORIA EMPRESARIAL LTDA – ME**, inscrita no CNPJ sob o nº **21.509.187/0001-23**, e **SENA CONTABILIDADE**, inscrita no CNPJ sob o nº **25.338.012/0001-51** e registrada no **CRC-MG sob o nº 110075/OI**, ambas com sede na Av. Arthur Guimarães, nº 260, sala 301, bairro Santa Cruz, Belo Horizonte/MG, CEP 31.150-690, e-mail financeiro@gruposena.com.br, empresas que atuam sob a marca **GRUPO SENA**, neste ato representadas, as duas, por **Gilberto Luís de Sena**, qualificado no item 1.2, adiante chamadas, em conjunto, **GRUPO SENA**.
 
-**1.1. Quem faz o quê.** A **SENA CONTABILIDADE** presta a frente de **contabilidade** do item 3, como organização contábil registrada no **CRC-MG sob o nº 110075/OI**, por meio de profissional da contabilidade com registro ativo no CRC. A **GS CONSULTORIA EMPRESARIAL** presta as frentes de **assessoria tributária e assessoria financeira**. Cada uma responde pela sua frente e emite a sua nota fiscal, e não responde pela frente da outra.
+**1.1. Quem faz o quê.** A **SENA CONTABILIDADE** presta as três frentes do item 3 (**contabilidade, assessoria tributária e assessoria financeira**), como organização contábil registrada no **CRC-MG sob o nº 110075/OI**, por meio de profissional da contabilidade com registro ativo no CRC, e fatura toda a mensalidade. A **GS CONSULTORIA EMPRESARIAL** presta os **serviços de economia tributária** do item 5.6 e fatura os valores referentes a eles. Cada uma responde pelo que presta e emite a sua nota fiscal, e não responde pelo serviço da outra.
 
-**1.2. O responsável.** As frentes da GS CONSULTORIA EMPRESARIAL são conduzidas por **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**.
+**1.2. O responsável.** A assessoria tributária, a assessoria financeira e os serviços de economia tributária são conduzidos por **Gilberto Luís de Sena**, fundador e CEO do Grupo Sena, administrador registrado no **CRA sob o nº 06-003960/D** e perito financeiro registrado no **CONPEJ sob o nº 01.00.3597**.
 
 **CONTRATANTE:** [razão social], CNPJ [nº], com sede em [endereço], representada por [nome do representante legal], CPF [nº], adiante **CLIENTE**.
 
@@ -28,7 +28,7 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **2.4.** Toda decisão sobre o negócio é **do CLIENTE**.
 
-**2.5. Só valor fixo.** Este contrato é remunerado **apenas pela mensalidade fixa do item 5**. Não há remuneração variável sobre economia, créditos ou faturamento.
+**2.5. Só valor fixo.** Este contrato é remunerado **apenas pela mensalidade fixa do item 5**. Não há remuneração variável sobre economia, créditos ou faturamento, salvo os serviços de economia tributária contratados na forma do item 5.6.
 
 ## 3. As entregas
 
@@ -41,7 +41,7 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **3.1. Diagnóstico inicial.** Nos primeiros **[30] dias**, o GRUPO SENA recebe a contabilidade, confere a situação fiscal e registra, no Anexo I, a faixa de enquadramento do CLIENTE.
 
-**3.2. Fora do escopo** (só com aditivo ou contrato à parte): departamento pessoal e folha de pagamento; recuperação de créditos tributários e planejamento tributário com reorganização societária; renegociação de dívidas com bancos e fornecedores; defesa em processo administrativo ou judicial; auditoria independente; abertura, alteração ou baixa de empresa; consultoria de marketing.
+**3.2. Fora do escopo** (só com aditivo ou contrato à parte): departamento pessoal e folha de pagamento; serviços de economia tributária (item 5.6); renegociação de dívidas com bancos e fornecedores; defesa em processo administrativo ou judicial; auditoria independente; abertura, alteração ou baixa de empresa; consultoria de marketing.
 
 ## 4. Prazo
 
@@ -68,9 +68,11 @@ Modelo 2 · 12/nov/2026 · **minuta: passa pelo advogado antes da primeira assin
 
 **5.3. Mudança de faixa.** A cada [12] meses, ou antes se o faturamento médio dos últimos [3] meses mudar de faixa, o GRUPO SENA confere o enquadramento e, se for o caso, ajusta a mensalidade para a nova faixa a partir do mês seguinte, com aviso por escrito de [30] dias.
 
-**5.4. Divisão do faturamento.** Do valor mensal, **[35%]** são faturados pela SENA CONTABILIDADE, pela contabilidade, e **[65%]** pela GS CONSULTORIA EMPRESARIAL, pelas assessorias tributária e financeira, cada uma com a sua nota fiscal. A mesma proporção vale depois dos reajustes e das mudanças de faixa.
+**5.4. Faturamento da mensalidade.** A mensalidade é faturada **integralmente pela SENA CONTABILIDADE**, inclusive depois dos reajustes e das mudanças de faixa.
 
 **5.5. Reajuste.** A cada 12 meses, os valores da tabela são corrigidos pela variação do **[IPCA]** do período.
+
+**5.6. Economia tributária.** Recuperação de créditos tributários, planejamento tributário com reorganização societária e outras medidas de economia tributária não estão incluídos na mensalidade. Quando o CLIENTE quiser, são contratados por aditivo, com valor próprio, e **os valores referentes à economia tributária são faturados pela GS CONSULTORIA EMPRESARIAL**.
 
 ## 6. Atraso, impostos e reforma tributária
 
@@ -201,8 +203,7 @@ _____________________________________
 | Faturamento médio mensal dos últimos [12] meses | R$ [__] | documentos fiscais |
 | Faixa da tabela do item 5.1 | Faixa [__] | |
 | Mensalidade | R$ [__] | |
-| Parte da SENA CONTABILIDADE ([35%]) | R$ [__] | |
-| Parte da GS CONSULTORIA EMPRESARIAL ([65%]) | R$ [__] | |
+| Faturamento da mensalidade | SENA CONTABILIDADE (100%) | item 5.4 |
 | Data de início | [__] | |
 
 Rubrica GRUPO SENA: ________ Rubrica CLIENTE: ________
