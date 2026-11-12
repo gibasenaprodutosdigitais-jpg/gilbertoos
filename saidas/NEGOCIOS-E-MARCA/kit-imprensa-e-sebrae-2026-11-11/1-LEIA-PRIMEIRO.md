@@ -6,9 +6,11 @@ Tudo o que é preciso para aparecer na imprensa e se credenciar no Sebrae, numa 
 
 | Arquivo | Para quê |
 |---|---|
+| `0-PASSO-A-PASSO.md` | **comece por aqui**: as quatro frentes (imprensa, entidades, Sebrae, atestado), na ordem, com quem faz cada passo |
 | `2-emails-prontos.md` | os 10 e-mails escritos, cada um com destinatário, assunto, texto e anexos |
 | `3-sebrae-credenciamento.md` | como o Sebrae contrata, o caminho mais rápido (Goiás) e o modelo de atestado para pedir aos clientes |
-| `anexos/` | os 3 artigos em Word, o perfil de fonte em Word, o kit de palestrante em PDF e duas fotos (deitada e em pé) |
+| `4-entidades-que-contratam-palestra.md` | 13 entidades de BH e Goiânia com contato oficial, e a mensagem pronta |
+| `anexos/` | os 3 artigos em Word, o perfil de fonte em Word, o kit de palestrante em PDF duas fotos (deitada e em pé) e o **atestado de capacidade técnica** no modelo do Sebrae |
 
 Os textos originais, com a fonte de cada fato, ficam em `../posicionamento-imprensa-2026-11-11/`.
 

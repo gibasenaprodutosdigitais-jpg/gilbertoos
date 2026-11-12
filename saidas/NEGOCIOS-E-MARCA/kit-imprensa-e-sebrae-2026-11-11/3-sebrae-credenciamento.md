@@ -10,7 +10,7 @@ Quem se credencia é a **empresa** (o Grupo Sena), e o Gilberto entra como o pro
 
 ## O que costuma ser exigido (varia de estado para estado)
 
-1. **Atestados de capacidade técnica em nome do Grupo Sena**, assinados por clientes. Pelo menos **2**. Alguns editais pedem que somem **200 horas de consultoria e 200 horas de instrutoria**.
+1. **Atestados de capacidade técnica**, assinados por clientes (empresas). Um ou mais, que somem **200 horas em cada subárea**, separando consultoria de instrutoria. Goiás pede **pelo menos 2**. Podem estar em nome do Grupo Sena ou do técnico (você), como sócio que executou.
 2. **Nota fiscal, contrato ou portfólio não substituem o atestado.** O atestado precisa estar em português e dizer a área e a subárea do serviço.
 3. **Documentos da empresa:** CNPJ, contrato social e certidões negativas (federal, estadual, municipal, FGTS e trabalhista).
 4. **Etapas:** análise do cadastro e depois a habilitação jurídica e a qualificação técnica, que é eliminatória.
@@ -31,20 +31,14 @@ O que mais atrasa o credenciamento é juntar os **atestados em nome do Grupo Sen
 
 **O que fazer esta semana:**
 
-1. Escolher **4 clientes** que conhecem bem o trabalho, de preferência com consultoria e com treinamento ou palestra.
-2. Pedir a cada um o atestado no modelo abaixo, em papel timbrado do cliente, assinado e com CNPJ.
+1. Escolher os clientes (empresas) que somem 200 horas por subárea, de preferência com consultoria e com treinamento ou palestra.
+2. Pedir a cada um o atestado do arquivo `anexos/`, preenchido no papel timbrado do cliente e assinado.
 3. Separar o CNPJ, o contrato social e as certidões negativas atualizadas do Grupo Sena.
 4. Abrir o edital de Goiás, conferir a área (gestão financeira, tributária, legislação) e fazer a inscrição.
 
-### Modelo de atestado (o cliente copia no papel dele)
+### O atestado
 
-> **ATESTADO DE CAPACIDADE TÉCNICA**
->
-> Atestamos, para os devidos fins, que a empresa **Grupo Sena Soluções Empresariais**, inscrita no CNPJ nº [__], prestou à [nome do cliente], CNPJ nº [__], serviços de **[consultoria em gestão financeira e tributária / instrutoria e palestras]**, na área de **[área]**, subárea **[subárea]**, no período de [mês/ano] a [mês/ano], totalizando **[número] horas**, com qualidade e dentro dos prazos acordados.
->
-> [Cidade], [data].
->
-> [Nome, cargo e assinatura do responsável] · [telefone e e-mail para confirmação]
+O modelo pronto, no padrão oficial do Sebrae, está em `anexos/Atestado de Capacidade Tecnica - modelo Sebrae (cliente preenche e assina).docx`. As regras e a mensagem para pedir ao cliente estão no `0-PASSO-A-PASSO.md`, frente 4.
 
 ## Os outros estados onde o Grupo Sena tem escritório
 
