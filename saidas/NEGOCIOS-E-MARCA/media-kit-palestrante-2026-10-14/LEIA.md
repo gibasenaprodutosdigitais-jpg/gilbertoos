@@ -456,3 +456,12 @@ O cartaz original está em
 `entrada-videos/palco-e-eventos/cartaz-dubai-experience-2023.jpeg`.
 
 **São sete eventos agora**, e o kit passou a mostrar alcance internacional.
+
+---
+
+## 11/nov/2026: telefone trocado, cargo mantido (decisão dele)
+
+- **Telefone** da página 11 passou a ser **(31) 97353-5587** (era (31) 2520-1152). PDF e páginas refeitos.
+- **E-mail continua info@gruposena.com.br** e o WhatsApp continua (31) 98285-2019, a pedido dele.
+- **O cargo de Diretor de Compliance do Instituto Êxito fica no kit**, decisão dele em 11/nov, mesmo com a carta de
+  renúncia entregue em 21/out e ainda sem resposta da diretoria. Se a saída se confirmar, tirar das páginas 6 e 9.

@@ -31,5 +31,5 @@ O Sebrae não contrata palestrante por e-mail: contrata **empresas credenciadas 
 
 ## ⚠ Antes de enviar
 
-1. **Kit de palestrante:** diz "Diretor de Compliance do Instituto Êxito, gestão 2025/2030" (a renúncia foi entregue em 21/out) e traz o contato antigo, info@gruposena.com.br e (31) 2520-1152.
+1. ~~Kit de palestrante~~ **Resolvido em 11/nov:** telefone trocado para (31) 97353-5587; e-mail info@gruposena.com.br e o cargo no Instituto Êxito mantidos, decisão dele.
 2. **Conta de envio:** o Gmail ligado aqui não tem permissão nem de leitura, e não dá para escolher a conta que envia. Para sair de gilberto.luis.sena@gmail.com, essa conta precisa estar conectada nas configurações do Claude (Conectores, Gmail).
