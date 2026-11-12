@@ -198,3 +198,10 @@ R$ 97 e cria plateia, não cliente.
 
 ⚠ **Esta troca é sugestão minha e precisa do aval dele.** A tese é dele; eu
 só apontei a contradição.
+
+## Imprensa e portais de notícia (11/nov/2026)
+
+Ele quer aparecer em portais de notícia. O objetivo, na palavra dele: quem o ler deve **contratar os serviços, chamá-lo
+para palestrar e segui-lo no Instagram**. Os três entram juntos no quadro do autor, no fim de todo artigo assinado.
+Caminho combinado: ser fonte de jornalista e publicar artigo assinado por setor, não matéria paga. Material em
+`saidas/NEGOCIOS-E-MARCA/posicionamento-imprensa-2026-11-11/`.
