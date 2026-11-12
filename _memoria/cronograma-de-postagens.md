@@ -11,7 +11,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
-| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **15/11** |
+| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **16/11** |
 | **YouTube** | **3 reels por dia: 10h, 16h, 19h** desde 3/11 (pedido dele em 2/nov; eram 5, às 7h, 10h, 13h, 16h, 19h) | até **16/11 às 10h** (cortes do carro até 10/11 19h; os 16 reels da AME sem a imersão de 11/11 10h a 16/11 10h; os 16 antigos foram apagados do canal em 8/nov) |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até **24/11 18h**: desde 9/11, **1 por dia às 18h** (pedido dele em 8/nov), com os 16 reels da AME com efeitos |
 
@@ -30,7 +30,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | O quê | A partir de | Quanto |
 |---|---|---|
-| Carrossel das 18h | **16/11** | 1 por dia. Os de 4 a 14/11 entraram em 30/out e o do marketplace foi pra 15/11; não sobrou nenhum pronto (ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`) |
+| Carrossel das 18h | **17/11** | 1 por dia. Os de 4 a 14/11 entraram em 30/out; o do marketplace foi pra 15/11 e o de serviços pra 16/11 (os dois com a CBS do TCU, 11/nov); não sobrou nenhum pronto (ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`) |
 | Provérbios das 5h | **1/12** | foto de dezembro (e saber se vêm frases novas) |
 | Frase do dia das 9h | **1/12** | frases de dezembro; novembro fechado em 2/nov, com a foto de terno desde 8/11 |
 | YouTube | **16/11 às 16h** | 3 por dia (10h, 16h, 19h): cortes do carro até 10/11 19h e os 16 reels da AME sem a imersão de 11/11 a 16/11 10h (`sb/AME/divulgacao/reels-sem-imersao-2026-11-08/`) (`sb/AME/divulgacao/reels-no-youtube-2026-11-02/`); depois precisa de vídeo novo |
@@ -79,7 +79,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 12/11 qui | 12h00 | Instagram | reels | Em 2024 eu atendi vários empresários nessa mesa. Hoje, 90% quebraram. |
 | 12/11 qui | 15h00 | Instagram | reel de teste | Mentoria ou assessoria: a diferença |
 | 12/11 qui | 16h00 | YouTube | reels | Quantos mentores já viram o seu balanço? |
-| 12/11 qui | 18h00 | Instagram | carrossel | Se você presta serviço e não é profissão regulamentada (sem conselho d… |
+| 12/11 qui | 18h00 | Instagram | carrossel | Se você presta serviço e não é profissão regulamentada (sem conselho d… (saiu da data: números corrigidos e remarcado pra 16/11 18h) |
 | 12/11 qui | 18h00 | TikTok | reels | Empresa ou emprego? |
 | 12/11 qui | 19h00 | YouTube | reels | O que o perito nunca achou num extrato |
 | 12/11 qui | 20h00 | Instagram | reel de teste | Não é falta de conhecimento |
@@ -119,6 +119,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 16/11 seg | 12h00 | Instagram | reels | De que vale uma Ferrari nas ruas de pedra de Ouro Preto? Você vai acel… |
 | 16/11 seg | 15h00 | Instagram | reel de teste | A teoria não fecha o caixa |
 | 16/11 seg | 18h00 | TikTok | reels | Não é falta de conhecimento |
+| 16/11 seg | 18h00 | Instagram | carrossel | Se você presta serviço e não é profissão regulamentada (sem conselho d… (remarcado de 12/11) |
 | 16/11 seg | 20h00 | Instagram | reel de teste | Chega de conversinha de mentoria |
 | 17/11 ter | 05h00 | Instagram | Provérbios | A riqueza de uma relação não está na ausência de conflitos, mas na dis… |
 | 17/11 ter | 09h00 | Instagram | frase do dia | Alíquota menor não corrige uma operação mal precificada. |

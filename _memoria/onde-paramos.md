@@ -16,7 +16,7 @@
 reels da AME, já sem o convite da imersão e com cor e zoom, de 11 a 16/11). TikTok **1 por dia às 18h até 24/11** (os
 mesmos 16). Instagram: os 16 como reel de teste, 15h e 20h, de 9 a 16/11, além da grade normal (tabela abaixo). Tudo
 em `sb/AME/divulgacao/reels-sem-imersao-2026-11-08/LEIA.md`. **O primeiro buraco é o carrossel das 18h, a partir de
-16/11.** O acervo das gravações longas acabou: pro YouTube e o TikTok continuarem, precisa de vídeo novo dele.
+17/11.** O acervo das gravações longas acabou: pro YouTube e o TikTok continuarem, precisa de vídeo novo dele.
 
 **11/nov: pausa e volta da fila.** Ele mandou parar todas as postagens e, horas depois, cancelou a ordem. Os 77 posts de
 12 a 30/11 voltaram nos horários originais. Os 6 de 11/11 não saíram na hora: o reel de teste AME 5 publicou por
@@ -28,7 +28,7 @@ AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já
 | Frente | Onde está | O que falta |
 |---|---|---|
 | **Assessoria AME** (desde 8/nov; a imersão de 14 e 15/nov foi **cancelada**) | ficha de interesse em assessoria-ame.vercel.app; os 16 reels sem a imersão agendados nas três redes; lives toda quarta no @stanleybittar | ele trocar o link da bio; rever pra assessoria os contratos do Choque de Ordem e da Escala Blindada; advogado conferir as regras CFM/CFO; logo original |
-| **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 15/11, reels até 3/12 | carrossel a partir de 16/11 (não tem nenhum pronto); foto de dezembro do Provérbios |
+| **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 16/11, reels até 3/12 | carrossel a partir de 17/11 (não tem nenhum pronto); foto de dezembro do Provérbios |
 | **YouTube** | 3 por dia (10h, 16h, 19h): cortes do carro até 10/11 + os 16 reels da AME sem a imersão de 11/11 a **16/11 10h** (os antigos foram apagados em 8/nov) | vídeo novo depois de 16/11 10h |
 | **TikTok** | até 9/11 12h + os 16 reels da AME com efeitos (cor e zoom), **1 por dia às 18h, até 24/11** (8/nov) | vídeo novo depois de 24/11 |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
@@ -79,7 +79,7 @@ não tem conserto aqui: nem o transcritor mais forte entende a fala. Pedir o arq
 importantes, falta empatia e amor, longe do que Jesus ensina; Mateus 22:39). **Falta ele gravar.** Sem cena do filme.
 A frase final ("o seu tempo vale muito, mas a pessoa do seu lado vale mais") é sugestão minha: ele aprova ou troca.
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 18h a partir de 16/11** (de 4 a 14/11 agendados em 30/out, e o do marketplace, que não saiu em 11/11, foi pra 15/11; **não sobrou nenhum pronto**, ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`)
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 18h a partir de 17/11** (de 4 a 14/11 agendados em 30/out, e o do marketplace, que não saiu em 11/11, foi pra 15/11; **não sobrou nenhum pronto**, ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`)
 (grade de 4 posts por dia, decidida em 18/out). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
@@ -88,7 +88,7 @@ alimentando aos poucos — ver a seção logo abaixo.
 assinada está na Downloads. Em `juridico/exito/` (só no notebook, fora do GitHub: decisão dele em 27/out) estão o estatuto e as duas cartas (a de afastamento temporário, art. 23, não
 foi usada). ⚠ Se a saída se confirmar, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
-**Carrosséis: fila fechada até 14/11, 1 por dia às 18h** (4 a 14/11 entraram em 30/out) (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **16/11** (o carrossel do marketplace, que não saiu em 11/11 por causa da pausa, foi pra 15/11). **A série dos 5 Gs está completa:** saíram 22, 25 e 26/10, a 4 Tributária em 1/11 e a 5 Fornecedores em 2/11
+**Carrosséis: fila fechada até 14/11, 1 por dia às 18h** (4 a 14/11 entraram em 30/out) (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **17/11** (o do marketplace, que não saiu em 11/11, foi pra 15/11; o de serviços saiu de 12/11 pra 16/11 pra trocar a CBS antiga de 9,24% pelos 11,3% do TCU). **A série dos 5 Gs está completa:** saíram 22, 25 e 26/10, a 4 Tributária em 1/11 e a 5 Fornecedores em 2/11
 (conferido na Zernio). Segurados: o Representante Comercial (prazo de setembro);
 o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito,
 **decisão dele**). Lista em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
@@ -205,7 +205,7 @@ saúde). Os carrosséis de 6, 8 e 10/11 foram corrigidos na Zernio. O dos médic
 saúde, ou os 30%" numa lâmina; a legenda está certa, e lâmina publicada não dá pra trocar. **Conferir isso em toda peça
 de saúde.**
 
-**Próximo a enfileirar: 16/11.** A ordem, os segurados e o ponto de retomada estão em
+**Próximo a enfileirar: 17/11.** A ordem, os segurados e o ponto de retomada estão em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md` (a grade de 15h e 20h acabou em 18/out).
 
 **O caminho, por carrossel:**
@@ -303,7 +303,7 @@ pra movimentar o canal. O TikTok ficou como estava.
 | **5h** | Provérbios | ✅ até **30/11** (novembro agendado em 28/out) |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 30/11 (foto de terno desde 8/11); falta dezembro |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
-| **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 15/11; **de 16/11 em diante, 1 por dia** |
+| **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 16/11; **de 17/11 em diante, 1 por dia** |
 
 **YouTube: 3 por dia desde 3/11 (10h, 16h, 19h; eram 5 até 2/11, mudou a pedido dele), coberto até 10/11 às 19h** (cortes do carro e os 16 reels da AME). Os 8 reels antigos que eram só do
 Instagram estão como rascunho na Zernio. Detalhe e IDs em `_memoria/cronograma-de-postagens.md`.
