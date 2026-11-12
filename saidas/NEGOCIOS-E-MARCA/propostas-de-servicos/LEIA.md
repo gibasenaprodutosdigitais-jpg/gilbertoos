@@ -5,6 +5,7 @@ Pasta criada em 12/nov/2026, a pedido dele, para os modelos de proposta e contra
 | # | Arquivo | O que é |
 |---|---|---|
 | 01 | `01-contrato-business-advisor-and-consultant.md` e `.docx`; **em papel timbrado:** `-TIMBRADO.docx` (editável) e `-TIMBRADO.pdf` (para enviar) | Business Advisor and Consultant: contabilidade, assessoria tributária, gestão financeira e consultoria de marketing. R$ 5.000,00 por mês, 24 meses, mais 10% sobre a economia financeira e 5% sobre o aumento de faturamento acima de 10% |
+| 02 | `02-contrato-assessoria-contabil-tributaria-financeira.md` e `.docx`; **em papel timbrado do Grupo Sena:** `-TIMBRADO.docx` e `-TIMBRADO.pdf` | Assessoria Contábil, Tributária e Financeira: só valor fixo, tabela de 7 faixas (R$ 850, 1.000, 1.250, 1.850, 2.350, 3.000 e 3.500 por mês), 24 meses, mesmas contratadas do 01 |
 
 ## O que veio dele (12/nov) e o que é proposta minha
 
@@ -84,3 +85,26 @@ passados e confirmados por ele em 12/nov (o CONPEJ foi renovado, na palavra dele
 **Atualização de 12/nov, mais tarde:** ele definiu **a logo dourada no topo** (a opção 3, medalha de cobre, que o guia da marca já
 registra como a oficial do Business Advisor), arquivo `timbrado/logo-cabecalho-dourada.png`, e **manteve a marca d'água** do leão
 como estava. Nos comandos acima, trocar `logo-cabecalho.png` por `logo-cabecalho-dourada.png`.
+
+## Contrato 02: Assessoria Contábil, Tributária e Financeira (12/nov/2026)
+
+**Dele:** o nome do serviço, só o valor fixo (sem a parte variável do 01), as mesmas contratadas e o mesmo responsável
+(GS Consultoria, Sena Contabilidade CRC-MG 110075/OI, Gilberto com CRA e CONPEJ), a tabela de 7 valores e **a logo do
+Grupo Sena** no papel timbrado (a assinatura horizontal, `timbrado/logo-cabecalho-grupo-sena.png`, recortada de
+`identidade/Grupo Sena - Assinatura Horizontal - Preta.png`). A marca d'água do leão é a mesma do 01.
+
+**Minha proposta, entre colchetes, para ele confirmar:**
+
+1. **O critério das faixas:** faturamento médio mensal, de até R$ 30 mil (R$ 850) a R$ 800 mil (R$ 3.500); acima disso,
+   proposta sob medida. Os cortes de cada faixa são sugestão minha.
+2. **Mudança de faixa:** conferência a cada 12 meses, ou antes se a média de 3 meses mudar de faixa.
+3. **A divisão das notas:** repeti os 35% / 65% do contrato 01. Pode ser que ele prefira faturar mais (ou tudo) pela Sena
+   Contabilidade neste.
+4. **O que ficou mais enxuto que o 01:** sem consultoria de marketing e sem advisor mensal; atendimento com 1 reunião
+   trimestral. Recuperação de crédito, reorganização societária e renegociação de dívidas ficaram **fora do escopo**
+   (sem a parte variável, seriam entregues de graça).
+5. **Mantido do 01:** 24 meses, multa de saída gradativa (12 mensalidades até o 12º mês, caindo uma por mês) e NDA de
+   24 mensalidades + R$ 30.000,00, agora contados sobre a mensalidade da faixa.
+
+Para refazer: os mesmos comandos do 01, com `timbrado/logo-cabecalho-grupo-sena.png` no lugar da logo e o rodapé
+"Grupo Sena Soluções Empresariais · Assessoria Contábil, Tributária e Financeira · Belo Horizonte/MG · (31) 97353-5587 · gruposena.com.br".
