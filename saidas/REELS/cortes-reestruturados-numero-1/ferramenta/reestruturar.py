@@ -66,7 +66,7 @@ def quebra(palavras, fonte, larg, d):
     return linhas
 
 
-def png_bloco(palavras, ativa, path):
+def png_bloco(palavras, ativa, path, cor_ativa=OURO):
     """palavras: lista de textos; ativa: índice da palavra falada (ou -1)."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
@@ -84,7 +84,7 @@ def png_bloco(palavras, ativa, path):
         lw = d.textlength(" ".join(p for p, _ in l), font=F_LEG)
         x = (W - lw) / 2
         for p, i in l:
-            d.text((x, y), p, font=F_LEG, fill=OURO if i == ativa else CREME)
+            d.text((x, y), p, font=F_LEG, fill=cor_ativa if i == ativa else CREME)
             x += d.textlength(p, font=F_LEG) + esp
         y += alt_l
     img.save(path)
@@ -93,7 +93,16 @@ def png_bloco(palavras, ativa, path):
 def png_titulo(texto, path):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    linhas = quebra([(p, 0) for p in texto.split()], F_TIT, 900, d)
+    pal = texto.split()
+    linhas = quebra([(p, 0) for p in pal], F_TIT, 900, d)
+    if len(linhas) == 2:  # duas linhas equilibradas, sem palavra sozinha
+        melhor = min(range(1, len(pal)), key=lambda k: abs(d.textlength(" ".join(pal[:k]), font=F_TIT)
+                                                          - d.textlength(" ".join(pal[k:]), font=F_TIT)))
+        for k in range(1, len(pal)):  # quebra depois de ponto ou vírgula, se as linhas couberem
+            l1, l2 = (d.textlength(" ".join(x), font=F_TIT) for x in (pal[:k], pal[k:]))
+            if pal[k - 1][-1] in ".,:?!" and max(l1, l2) <= 900:
+                melhor = k
+        linhas = [[(p, 0) for p in pal[:melhor]], [(p, 0) for p in pal[melhor:]]]
     y = 210
     for l in linhas:
         t = " ".join(p for p, _ in l)
@@ -106,6 +115,78 @@ def png_titulo(texto, path):
     img.save(path)
 
 
+# ---- efeitos (pedido dele em 12/nov: "zoom, um efeito de medo, entre outros") ----
+VERMELHO = (229, 72, 77, 255)
+MEDO = ("medo", "paralis", "quebr", "falenc", "faliu", "morr", "terror", "desesper", "perig", "risco", "crise", "apavor",
+        "assust", "pesadel", "prejuiz", "panico", "inadimpl")
+DINHEIRO = ("dinheiro", "lucro", "caixa", "imposto", "milh", "bilh", "reais", "fatur", "economi", "honorari", "tribut")
+ENFASE = {"nunca", "sempre", "ninguem", "tudo", "verdade", "problema", "erro", "segredo", "cuidado", "atencao", "jamais",
+          "nada", "errado", "obrigacao", "culpa"}
+
+
+def familia(t):
+    n = t["n"]
+    if n.startswith(MEDO):
+        return "medo"
+    if n.startswith(DINHEIRO):
+        return "dinheiro"
+    if n in ENFASE:
+        return "enfase"
+    return None
+
+
+def eventos(toks, bls, total):
+    """Escolhe os momentos dos efeitos: medo tem prioridade; zoom de ritmo onde passar de 4 s sem nada."""
+    ev, ultimo, n_medo = [], -9.0, 0
+    for t in toks:
+        f = familia(t)
+        if not f:
+            continue
+        if f == "medo":  # no máximo 3 por vídeo e com 3 s de folga; o resto vira zoom simples
+            if n_medo >= 3 or t["start"] - max([a for a, g in ev if g == "medo"] or [-9]) < 3.0:
+                f = "enfase"
+        folga = 1.2 if f == "medo" else 2.2
+        if t["start"] - ultimo >= folga and t["start"] < total - 0.6:
+            ev.append((t["start"], f)); ultimo = t["start"]
+            n_medo += f == "medo"
+    inicios = sorted(b[0]["start"] for b in bls)
+    for s in inicios:
+        if s > 1.0 and s < total - 1.5 and all(abs(s - a) > 4.0 for a, _ in ev):
+            ev.append((s, "ritmo"))
+    return sorted(ev)
+
+
+def filtro_efeitos(ev, juntas, total):
+    amp = {"medo": 0.17, "dinheiro": 0.10, "enfase": 0.12, "ritmo": 0.09}
+    bumps = [f"{amp[f]}*if(between(it,{a:.2f},{a+0.18:.2f}),(it-{a:.2f})/0.18,"
+             f"if(between(it,{a+0.18:.2f},{a+1.5:.2f}),1-(it-{a+0.18:.2f})/1.32,0))" for a, f in ev]
+    z = f"1+0.04*it/{total:.2f}" + "".join("+" + b for b in bumps)
+    cadeia = [f"scale=1620:2880:flags=bicubic",
+              f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1120x1992:fps=30"]
+    medo = [(a, f) for a, f in ev if f == "medo"]
+    if medo:
+        jan = "+".join(f"between(t,{a-0.05:.2f},{a+1.1:.2f})" for a, _ in medo)
+        tremor_x = "+".join(f"if(between(t,{a:.2f},{a+0.9:.2f}),13*sin(t*53),0)" for a, _ in medo)
+        tremor_y = "+".join(f"if(between(t,{a:.2f},{a+0.9:.2f}),9*cos(t*61),0)" for a, _ in medo)
+        glitch = "+".join(f"between(t,{a:.2f},{a+0.2:.2f})" for a, _ in medo)
+        cadeia += [f"crop=1080:1920:x='20+({tremor_x})':y='36+({tremor_y})'",
+                   f"hue=s=0.35:enable='{jan}'",
+                   f"colorbalance=rs=0.16:rm=0.07:bs=-0.06:enable='{jan}'",
+                   f"vignette=angle=PI/3.2:enable='{jan}'",
+                   f"rgbashift=rh=-9:bh=9:enable='{glitch}'"]
+    else:
+        cadeia.append("crop=1080:1920:20:36")
+    din = [a for a, f in ev if f == "dinheiro"]
+    if din:
+        jan = "+".join(f"between(t,{a:.2f},{a+0.35:.2f})" for a in din)
+        cadeia += [f"eq=brightness=0.035:saturation=1.12:enable='{jan}'",
+                   f"colorbalance=rh=0.08:gh=0.05:bh=-0.08:enable='{jan}'"]
+    if juntas:
+        jan = "+".join(f"between(t,{j:.2f},{j+0.07:.2f})" for j in juntas)
+        cadeia.append(f"eq=brightness=0.35:enable='{jan}'")
+    return ",".join(cadeia)
+
+
 def monta(cid, copy):
     c = SPEC[cid]
     vid = c["vid"]
@@ -115,9 +196,9 @@ def monta(cid, copy):
     cor = ("scale=1145:2036:flags=lanczos,crop=1080:1920:(iw-1080)/2:(ih-1920)/2-30,"
            "eq=contrast=1.13:saturation=1.06:gamma=0.95:brightness=0.01,"
            "colorbalance=rs=0.04:gs=0.01:bs=-0.05:rh=0.02:bh=-0.03,vignette=angle=PI/5,unsharp=5:5:0.35")
-    lista, tokens, t_out = [], [], 0.0
+    lista, tokens, t_out, juntas_in = [], [], 0.0, []
     for k, (t0, t1, ws) in enumerate(segs):
-        zoom = ",crop=iw/1.07:ih/1.07,scale=1080:1920" if k % 2 == 0 and len(segs) > 1 else ""
+        zoom = ""  # o zoom agora é o dos efeitos
         dur = t1 - t0
         f = f"{wd}/seg{k:02d}.mov"
         C.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t0:.3f}", "-i", sdr, "-ss", f"{t0:.3f}", "-i", src, "-t", f"{dur:.3f}",
@@ -125,6 +206,8 @@ def monta(cid, copy):
                "-af", f"aresample=48000,afade=t=in:d=0.02,afade=t=out:st={dur-0.04:.3f}:d=0.04",
                "-c:v", "libx264", "-crf", "15", "-preset", "veryfast", "-c:a", "pcm_s16le", "-ac", "2", f])
         lista.append(f)
+        if k:
+            juntas_in.append(t_out)
         for w in ws:
             tokens.append(dict(w, start=w["start"] - t0 + t_out, end=w["end"] - t0 + t_out))
         t_out += dur
@@ -153,7 +236,7 @@ def monta(cid, copy):
         for wi, t in enumerate(b):
             fim_w = b[wi + 1]["start"] if wi + 1 < len(b) else fim_b
             p = f"{wd}/cap{n:04d}.png"; n += 1
-            png_bloco(textos, wi, p)
+            png_bloco(textos, wi, p, VERMELHO if familia(t) == "medo" else OURO)
             linhas.append((p, max(fim_w - cursor, 0.034))); cursor = max(fim_w, cursor + 0.034)
     if total > cursor:
         linhas.append((vazio, total - cursor))
@@ -164,6 +247,9 @@ def monta(cid, copy):
     C.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{wd}/caps.txt", "-vf", "fps=30,format=argb",
            "-c:v", "qtrle", "-t", f"{total:.3f}", f"{wd}/caps.mov"])
     tit = f"{wd}/titulo.png"; png_titulo(copy["titulo_na_tela"], tit)
+    ev = eventos(toks, bls, total)
+    efx = filtro_efeitos(ev, [j / VEL for j in juntas_in], total)
+    copy["efeitos"] = [f"{a:.1f}s {f}" for a, f in ev]
 
     # áudio: velocidade nova sem mudar o tom, bip, -14 LUFS em dois passos
     vel = f"atempo={VEL}"
@@ -180,7 +266,7 @@ def monta(cid, copy):
     ln = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
           f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
     fc = (af + f",{ln},aresample=44100[a];"
-          f"[0:v]setpts=PTS/{VEL},fps=30[v0];[v0][1:v]overlay=0:0:format=auto[v1];"
+          f"[0:v]setpts=PTS/{VEL},fps=30,{efx}[v0];[v0][1:v]overlay=0:0:format=auto[v1];"
           f"[v1][2:v]overlay=0:0:format=auto,format=yuv420p[vv]")
 
     # arquivo novo por dentro: nada do original, data de criação nova

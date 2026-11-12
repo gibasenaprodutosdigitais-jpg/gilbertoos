@@ -17,6 +17,48 @@
    "gestao de empresas",
    "gilberto sena"
   ],
-  "segundos": 23.7
+  "segundos": 23.7,
+  "efeitos": [
+   "1.8s medo",
+   "4.7s enfase",
+   "6.8s medo",
+   "10.4s medo",
+   "12.7s enfase",
+   "15.6s enfase",
+   "19.6s enfase"
+  ]
+ },
+ {
+  "id": "c10-pagar-imposto-e-bom",
+  "arquivo": "r1-02-o-dinheiro-na-conta-nao-e-seu.mp4",
+  "titulo_na_tela": "Caiu 40 mil na conta. Não é seu.",
+  "era": {
+   "titulo": "Pagar imposto não é ruim. É bom",
+   "zernio_id": "6ae42875dd0dac70d0333243",
+   "saiu": "YouTube, 31/10 19h"
+  },
+  "youtube_titulo": "Caiu dinheiro na conta da empresa? Antes de gastar, veja isso",
+  "legenda": "Cai 20, 30, 40 mil na conta e a gente esquece que tem fornecedor, funcionário, aluguel e imposto pra pagar. E pagar imposto é bom: quem é contribuinte tem acesso a linha de crédito. O problema é pagar errado.\n\nVocê separa o que é da empresa do que é seu?\n\n---\nGilberto Sena\nCEO do Grupo Sena, Soluções Empresariais\nInstagram: @gilbertosenaoficial",
+  "tags": [
+   "dinheiro da empresa",
+   "fluxo de caixa",
+   "pagar imposto",
+   "credito para empresas",
+   "gilberto sena"
+  ],
+  "efeitos": [
+   "0.8s enfase",
+   "5.1s ritmo",
+   "10.9s ritmo",
+   "15.5s ritmo",
+   "20.2s dinheiro",
+   "22.8s dinheiro",
+   "28.2s ritmo",
+   "33.4s ritmo",
+   "39.8s dinheiro",
+   "43.4s enfase",
+   "49.9s enfase"
+  ],
+  "segundos": 50.7
  }
 ]

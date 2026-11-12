@@ -27,12 +27,25 @@ metadados do arquivo, para agendar de novo no futuro.
 - Título, legenda e tags novos, tirados do que ele falou no vídeo (`copys.json`; o campo `era` guarda o título antigo e
   o ID do post que saiu).
 
+## Efeitos (pedido dele em 12/nov, depois de ver o teste: "acrescentar efeitos como zoom, um efeito de medo, entre outros")
+
+- **Zoom:** aproximação lenta do começo ao fim e um zoom rápido (entra e volta) nas palavras fortes; onde passar de 4 s
+  sem nada, um zoom de ritmo no começo da frase.
+- **Medo** (medo, paralisar, quebrar, falência, risco, crise, prejuízo...): tremor de câmera, imagem dessaturada e
+  avermelhada, vinheta escura e um "glitch" de cor no começo; a palavra acende em **vermelho** na legenda. No máximo
+  3 por vídeo, com 3 s de folga; as outras vezes viram zoom simples.
+- **Dinheiro** (dinheiro, lucro, caixa, imposto, faturamento, milhões...): brilho dourado rápido.
+- **Flash branco** nas emendas, quando o corte junta dois trechos.
+- O título do topo quebra em duas linhas equilibradas, de preferência depois de ponto ou vírgula.
+
 Motor: `ferramenta/reestruturar.py` (usa a receita de corte de `reels-gravacoes-do-carro-2026-10-30/ferramenta/`).
 Os vídeos ficam em `videos/`, fora do GitHub (só no notebook). A conversão de cor das gravações do iPhone fica no
 scratchpad da sessão; se sumir, refazer com `avconvert` (ver a memória do vídeo HDR do iPhone).
 
 ## Situação
 
-- ✅ Teste: `videos/r1-01-medo-ate-de-pedir-ajuda.mp4` (era "O medo está paralisando o empresário").
-- ⏳ Falta ele aprovar o visual; depois, os outros 25 do carro e a decisão sobre os cortes sem gravação original.
+- ✅ Testes com efeitos: `videos/r1-01-medo-ate-de-pedir-ajuda.mp4` (era "O medo está paralisando o empresário") e
+  `videos/r1-02-o-dinheiro-na-conta-nao-e-seu.mp4` (era "Pagar imposto não é ruim. É bom"). Ele aprovou o visual sem
+  efeitos em 12/nov ("ficou bom") e pediu os efeitos.
+- ⏳ Falta ele aprovar os efeitos; depois, os outros 24 do carro e a decisão sobre os cortes sem gravação original.
 - Nada agendado ainda.
