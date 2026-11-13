@@ -17,15 +17,14 @@
    "gestao de empresas",
    "gilberto sena"
   ],
-  "segundos": 22.3,
+  "segundos": 21.0,
   "efeitos": [
-   "1.7s medo",
-   "4.4s enfase",
-   "6.4s medo",
-   "8.6s luz",
-   "11.6s medo",
-   "14.6s enfase",
-   "18.4s enfase"
+   "1.6s medo",
+   "4.2s enfase",
+   "6.0s medo",
+   "9.2s medo",
+   "13.8s enfase",
+   "17.4s enfase"
   ],
   "capa": "Tem empresário com medo até de *pedir ajuda*",
   "paleta": "grafite e dourado",
@@ -52,19 +51,19 @@
   ],
   "efeitos": [
    "0.7s alerta",
-   "4.8s ritmo",
-   "10.2s ritmo",
-   "14.5s ritmo",
-   "19.0s dinheiro",
-   "21.4s dinheiro",
-   "26.5s ritmo",
-   "31.4s ritmo",
-   "37.4s dinheiro",
-   "40.7s alerta",
-   "42.6s alerta",
-   "46.9s enfase"
+   "4.9s ritmo",
+   "9.6s ritmo",
+   "13.7s ritmo",
+   "17.9s dinheiro",
+   "20.2s dinheiro",
+   "25.0s ritmo",
+   "29.6s ritmo",
+   "35.2s dinheiro",
+   "38.4s alerta",
+   "40.2s alerta",
+   "44.2s enfase"
   ],
-  "segundos": 47.6,
+  "segundos": 44.9,
   "capa": "Caiu 40 mil na conta.|*Não é seu.*",
   "paleta": "marinho e amarelo",
   "clima": "dinheiro",
@@ -91,7 +90,29 @@
    "gestao de clinicas",
    "gilberto sena"
   ],
-  "clima": "inspirador"
+  "clima": "inspirador",
+  "paleta": "vinho e champanhe",
+  "numeros_na_tela": [
+   "6",
+   "10",
+   "15 anos"
+  ],
+  "efeitos": [
+   "2.3s ritmo",
+   "7.2s ritmo",
+   "11.5s ritmo",
+   "16.1s luz",
+   "20.2s ritmo",
+   "24.9s medo",
+   "31.7s dinheiro",
+   "36.3s ritmo",
+   "42.2s ritmo",
+   "48.0s ritmo",
+   "53.2s dinheiro",
+   "57.8s ritmo",
+   "62.6s ritmo"
+  ],
+  "segundos": 68.1
  },
  {
   "id": "c03-o-contador-nao-faz-sua-parte",
@@ -112,7 +133,19 @@
    "gestao empresarial",
    "gilberto sena"
   ],
-  "clima": "neutro"
+  "clima": "neutro",
+  "paleta": "verde-escuro e limão",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "3.1s ritmo",
+   "8.8s enfase",
+   "11.8s enfase",
+   "16.1s ritmo",
+   "21.7s luz",
+   "24.4s enfase",
+   "27.8s enfase"
+  ],
+  "segundos": 32.7
  },
  {
   "id": "c04-100-clientes-100-segmentos",
@@ -133,7 +166,20 @@
    "segmento",
    "gilberto sena"
   ],
-  "clima": "neutro"
+  "clima": "neutro",
+  "paleta": "creme e preto",
+  "numeros_na_tela": [
+   "100 clientes 100 clientes"
+  ],
+  "efeitos": [
+   "1.3s ritmo",
+   "5.5s ritmo",
+   "9.7s ritmo",
+   "13.9s ritmo",
+   "18.2s ritmo",
+   "22.3s ritmo"
+  ],
+  "segundos": 26.7
  },
  {
   "id": "c05-fabrica-de-sapato",
@@ -154,7 +200,19 @@
    "planejamento tributario",
    "gilberto sena"
   ],
-  "clima": "neutro"
+  "clima": "neutro",
+  "paleta": "roxo e laranja",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.1s ritmo",
+   "5.7s ritmo",
+   "10.6s ritmo",
+   "14.7s ritmo",
+   "19.1s ritmo",
+   "23.3s dinheiro",
+   "27.9s ritmo"
+  ],
+  "segundos": 31.6
  },
  {
   "id": "c06-voce-ja-esta-quebrado",
@@ -175,7 +233,17 @@
    "gestao",
    "gilberto sena"
   ],
-  "clima": "tenso"
+  "clima": "tenso",
+  "paleta": "amarelo e preto",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "0.5s medo",
+   "8.6s luz",
+   "14.7s medo",
+   "17.0s enfase",
+   "24.5s medo"
+  ],
+  "segundos": 28.7
  },
  {
   "id": "c07-operacao-x-operacional",
@@ -196,7 +264,20 @@
    "delegar",
    "gilberto sena"
   ],
-  "clima": "neutro"
+  "clima": "neutro",
+  "paleta": "petróleo e coral",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.1s ritmo",
+   "6.7s ritmo",
+   "11.1s ritmo",
+   "15.2s luz",
+   "19.8s ritmo",
+   "23.9s ritmo",
+   "29.4s luz",
+   "37.4s luz"
+  ],
+  "segundos": 38.5
  },
  {
   "id": "c08-os-grandes-nao-quebram",
@@ -217,7 +298,23 @@
    "gestao empresarial",
    "gilberto sena"
   ],
-  "clima": "tenso"
+  "clima": "tenso",
+  "paleta": "grafite e dourado",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "3.0s medo",
+   "6.9s enfase",
+   "9.3s enfase",
+   "11.7s medo",
+   "15.8s medo",
+   "21.0s ritmo",
+   "28.0s alerta",
+   "30.7s alerta",
+   "35.6s luz",
+   "39.2s dinheiro",
+   "42.5s enfase"
+  ],
+  "segundos": 43.3
  },
  {
   "id": "c09-toquinha-do-gugu",
@@ -238,7 +335,17 @@
    "relacionamento profissional",
    "gilberto sena"
   ],
-  "clima": "neutro"
+  "clima": "neutro",
+  "paleta": "marinho e amarelo",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.0s ritmo",
+   "5.2s ritmo",
+   "9.9s ritmo",
+   "14.0s ritmo",
+   "18.3s ritmo"
+  ],
+  "segundos": 24.7
  },
  {
   "id": "c11-o-maior-cliente-sumiu",
@@ -259,7 +366,20 @@
    "gestao financeira",
    "gilberto sena"
   ],
-  "clima": "tenso"
+  "clima": "tenso",
+  "paleta": "vinho e champanhe",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "2.4s ritmo",
+   "7.0s ritmo",
+   "12.0s medo",
+   "16.4s ritmo",
+   "20.6s ritmo",
+   "25.3s ritmo",
+   "29.6s ritmo",
+   "34.3s ritmo"
+  ],
+  "segundos": 38.1
  },
  {
   "id": "c12-era-collor",
@@ -280,7 +400,24 @@
    "resiliencia",
    "gilberto sena"
   ],
-  "clima": "tenso"
+  "clima": "tenso",
+  "paleta": "verde-escuro e limão",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.5s ritmo",
+   "7.2s ritmo",
+   "11.5s ritmo",
+   "15.9s ritmo",
+   "20.1s ritmo",
+   "24.5s ritmo",
+   "29.2s ritmo",
+   "33.2s ritmo",
+   "41.2s medo",
+   "45.5s ritmo",
+   "50.2s ritmo",
+   "54.4s ritmo"
+  ],
+  "segundos": 57.9
  },
  {
   "id": "c13-internet-de-escada",
@@ -301,7 +438,25 @@
    "trajetoria",
    "gilberto sena"
   ],
-  "clima": "inspirador"
+  "clima": "inspirador",
+  "paleta": "creme e preto",
+  "numeros_na_tela": [
+   "98 96 98"
+  ],
+  "efeitos": [
+   "1.1s ritmo",
+   "5.1s ritmo",
+   "9.3s ritmo",
+   "14.4s ritmo",
+   "19.2s ritmo",
+   "26.5s luz",
+   "31.1s ritmo",
+   "35.7s ritmo",
+   "39.9s ritmo",
+   "44.1s enfase",
+   "51.4s enfase"
+  ],
+  "segundos": 52.0
  },
  {
   "id": "c14-network-de-verdade",
@@ -322,7 +477,23 @@
    "mentalidade",
    "gilberto sena"
   ],
-  "clima": "inspirador"
+  "clima": "inspirador",
+  "paleta": "roxo e laranja",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.8s ritmo",
+   "6.0s ritmo",
+   "10.8s ritmo",
+   "14.8s ritmo",
+   "19.6s ritmo",
+   "25.0s enfase",
+   "30.4s ritmo",
+   "37.2s luz",
+   "41.4s ritmo",
+   "49.2s enfase",
+   "51.8s fe"
+  ],
+  "segundos": 55.9
  },
  {
   "id": "c15-a-vara-e-o-anzol",
@@ -343,7 +514,25 @@
    "transformacao",
    "gilberto sena"
   ],
-  "clima": "inspirador"
+  "clima": "inspirador",
+  "paleta": "amarelo e preto",
+  "numeros_na_tela": [
+   "6 anos"
+  ],
+  "efeitos": [
+   "1.9s luz",
+   "5.3s luz",
+   "9.4s ritmo",
+   "13.5s ritmo",
+   "17.8s ritmo",
+   "22.0s ritmo",
+   "26.8s ritmo",
+   "31.3s ritmo",
+   "36.3s ritmo",
+   "42.8s medo",
+   "48.6s alerta"
+  ],
+  "segundos": 53.5
  },
  {
   "id": "c16-a-culpa-nao-e-do-governo",
@@ -364,7 +553,24 @@
    "gestao",
    "gilberto sena"
   ],
-  "clima": "tenso"
+  "clima": "tenso",
+  "paleta": "petróleo e coral",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "2.3s medo",
+   "4.4s alerta",
+   "5.7s alerta",
+   "7.2s alerta",
+   "9.0s alerta",
+   "13.2s ritmo",
+   "17.2s ritmo",
+   "24.3s enfase",
+   "28.6s ritmo",
+   "34.4s fe",
+   "40.6s luz",
+   "44.7s ritmo"
+  ],
+  "segundos": 47.9
  },
  {
   "id": "c17-recuperacao-judicial",
@@ -385,7 +591,25 @@
    "compliance",
    "gilberto sena"
   ],
-  "clima": "tenso"
+  "clima": "tenso",
+  "paleta": "grafite e dourado",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "2.2s ritmo",
+   "6.8s ritmo",
+   "11.8s ritmo",
+   "17.1s enfase",
+   "21.4s ritmo",
+   "25.9s ritmo",
+   "32.5s luz",
+   "36.4s medo",
+   "41.6s ritmo",
+   "48.5s alerta",
+   "50.0s alerta",
+   "54.7s ritmo",
+   "59.9s ritmo"
+  ],
+  "segundos": 64.7
  },
  {
   "id": "c18-fecha-o-seu-negocio",
@@ -406,7 +630,21 @@
    "empresario",
    "gilberto sena"
   ],
-  "clima": "dinheiro"
+  "clima": "dinheiro",
+  "paleta": "marinho e amarelo",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.1s ritmo",
+   "8.5s dinheiro",
+   "16.1s dinheiro",
+   "21.5s ritmo",
+   "26.9s alerta",
+   "29.7s dinheiro",
+   "32.6s dinheiro",
+   "37.2s ritmo",
+   "43.7s enfase"
+  ],
+  "segundos": 49.4
  },
  {
   "id": "c19-voce-esta-falando-grego",
@@ -427,7 +665,19 @@
    "tributacao",
    "gilberto sena"
   ],
-  "clima": "neutro"
+  "clima": "neutro",
+  "paleta": "vinho e champanhe",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.0s ritmo",
+   "5.4s ritmo",
+   "11.3s enfase",
+   "15.4s ritmo",
+   "21.3s enfase",
+   "25.8s ritmo",
+   "29.9s dinheiro"
+  ],
+  "segundos": 34.3
  },
  {
   "id": "c20-o-advogado-que-so-quer-honorario",
@@ -448,7 +698,19 @@
    "seguranca juridica",
    "gilberto sena"
   ],
-  "clima": "tenso"
+  "clima": "tenso",
+  "paleta": "verde-escuro e limão",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.5s ritmo",
+   "7.3s ritmo",
+   "11.4s ritmo",
+   "19.1s dinheiro",
+   "23.2s ritmo",
+   "27.3s ritmo",
+   "31.8s ritmo"
+  ],
+  "segundos": 36.1
  },
  {
   "id": "c21-o-contador-de-600-reais",
@@ -469,7 +731,23 @@
    "faturamento",
    "gilberto sena"
   ],
-  "clima": "dinheiro"
+  "clima": "dinheiro",
+  "paleta": "creme e preto",
+  "numeros_na_tela": [
+   "15 anos",
+   "600 reais",
+   "200, 300 mil"
+  ],
+  "efeitos": [
+   "1.6s ritmo",
+   "7.1s fe",
+   "10.1s dinheiro",
+   "14.2s luz",
+   "21.6s dinheiro",
+   "24.5s dinheiro",
+   "30.1s dinheiro"
+  ],
+  "segundos": 31.3
  },
  {
   "id": "c22-a-tabela-de-honorarios",
@@ -490,7 +768,32 @@
    "tabela de honorarios",
    "gilberto sena"
   ],
-  "clima": "dinheiro"
+  "clima": "dinheiro",
+  "paleta": "roxo e laranja",
+  "numeros_na_tela": [
+   "100",
+   "20 funcionários",
+   "250 mil ao mês",
+   "5 mil reais",
+   "300 reais",
+   "300 reais"
+  ],
+  "efeitos": [
+   "0.7s dinheiro",
+   "4.7s ritmo",
+   "9.0s ritmo",
+   "13.8s ritmo",
+   "18.9s ritmo",
+   "26.8s enfase",
+   "32.0s ritmo",
+   "39.4s dinheiro",
+   "44.6s dinheiro",
+   "47.9s dinheiro",
+   "52.0s ritmo",
+   "56.0s dinheiro",
+   "58.6s alerta"
+  ],
+  "segundos": 61.6
  },
  {
   "id": "c23-comece-como-afiliado",
@@ -511,7 +814,26 @@
    "sebrae",
    "gilberto sena"
   ],
-  "clima": "inspirador"
+  "clima": "inspirador",
+  "paleta": "amarelo e preto",
+  "numeros_na_tela": [
+   "99"
+  ],
+  "efeitos": [
+   "1.2s ritmo",
+   "5.4s ritmo",
+   "9.6s ritmo",
+   "14.3s ritmo",
+   "18.6s ritmo",
+   "23.3s ritmo",
+   "27.7s ritmo",
+   "32.1s ritmo",
+   "36.6s ritmo",
+   "40.9s ritmo",
+   "48.1s luz",
+   "53.0s ritmo"
+  ],
+  "segundos": 55.5
  },
  {
   "id": "c24-a-ia-nao-substitui-empatia",
@@ -532,7 +854,21 @@
    "funcionarios",
    "gilberto sena"
   ],
-  "clima": "neutro"
+  "clima": "neutro",
+  "paleta": "petróleo e coral",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "1.2s ritmo",
+   "6.0s luz",
+   "13.4s enfase",
+   "17.5s enfase",
+   "22.0s ritmo",
+   "26.8s ritmo",
+   "31.5s ritmo",
+   "36.7s ritmo",
+   "41.0s luz"
+  ],
+  "segundos": 44.3
  },
  {
   "id": "c25-a-moca-da-limpeza",
@@ -553,7 +889,22 @@
    "empresario",
    "gilberto sena"
   ],
-  "clima": "inspirador"
+  "clima": "inspirador",
+  "paleta": "grafite e dourado",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "0.2s enfase",
+   "5.7s ritmo",
+   "9.8s ritmo",
+   "14.0s ritmo",
+   "18.4s ritmo",
+   "23.4s ritmo",
+   "27.7s ritmo",
+   "32.7s ritmo",
+   "37.1s ritmo",
+   "42.1s ritmo"
+  ],
+  "segundos": 44.9
  },
  {
   "id": "c26-conhecimento-leva-a-sabedoria",
@@ -574,6 +925,20 @@
    "inovacao",
    "gilberto sena"
   ],
-  "clima": "inspirador"
+  "clima": "inspirador",
+  "paleta": "marinho e amarelo",
+  "numeros_na_tela": [],
+  "efeitos": [
+   "2.0s ritmo",
+   "6.5s ritmo",
+   "11.5s ritmo",
+   "16.3s ritmo",
+   "21.5s luz",
+   "25.8s ritmo",
+   "30.7s fe",
+   "33.4s enfase",
+   "35.7s fe"
+  ],
+  "segundos": 40.2
  }
 ]

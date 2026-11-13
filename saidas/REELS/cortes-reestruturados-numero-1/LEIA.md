@@ -34,7 +34,7 @@ metadados do arquivo, para agendar de novo no futuro.
   ir como capa do post. No `copys.json`, o campo `capa` aceita `*palavra*` (cor de destaque) e `|` (quebra de linha).
 - **Legenda abaixo do rosto** (a 77% da altura), escondida enquanto a capa está na tela.
 - **Cada corte com uma combinação própria de fundo e letra**, em rodízio de 8: grafite e dourado, marinho e amarelo,
-  vinho e champanhe, verde-escuro e limão, creme e preto, roxo e laranja, amarelo e preto, petróleo e coral. Vale pra
+  vinho e champanhe, verde-escuro e limão, creme e preto, roxo e laranja, amarelo e preto (destaque em vermelho-escuro), petróleo e coral. Vale pra
   capa, faixa da legenda e destaque.
 - **Efeitos pelo sentido da fala** e **cor de base pelo assunto** (campo `clima`: tenso, dinheiro, inspirador ou neutro).
 
@@ -57,11 +57,16 @@ Motor: `ferramenta/reestruturar.py` (usa a receita de corte de `reels-gravacoes-
 Os vídeos ficam em `videos/`, fora do GitHub (só no notebook). A conversão de cor das gravações do iPhone fica no
 scratchpad da sessão; se sumir, refazer com `avconvert` (ver a memória do vídeo HDR do iPhone).
 
-## Situação
+## Situação (13/nov)
 
-- ✅ Testes com efeitos: `videos/r1-01-medo-ate-de-pedir-ajuda.mp4` (era "O medo está paralisando o empresário") e
-  `videos/r1-02-o-dinheiro-na-conta-nao-e-seu.mp4` (era "Pagar imposto não é ruim. É bom"). Ele aprovou o visual sem
-  efeitos em 12/nov ("ficou bom") e pediu os efeitos, a capa no meio cobrindo o rosto, a legenda abaixo do rosto
-  e cores diferentes por corte.
-- ⏳ Falta ele aprovar os efeitos; depois, os outros 24 do carro e a decisão sobre os cortes sem gravação original.
-- Nada agendado ainda.
+- ✅ **107 prontos** em `videos/`, com a capa de cada um em `capas/`: os 26 do carro (motor `ferramenta/reestruturar.py`)
+  e os 81 publicados de outros lotes (motor `ferramenta/reestruturar_publicado.py`; como a legenda antiga vem gravada
+  na imagem, a capa é opaca do topo até 90% da altura e não entra legenda nova). Textos novos em `copys.json` (carro) e
+  `copys-publicados.json` (os 81). Os 3 que estavam repetidos no YouTube entraram uma vez só.
+- **Amarelo e preto:** o destaque branco sumia no fundo amarelo; passou a vermelho-escuro. Os 13 cortes dessa
+  combinação (3 do carro e 10 publicados) foram refeitos em 12/nov.
+- ⚠ **8 marcados `segurar`** em `copys-publicados.json`: falam de alíquota da CBS (~9%), "sem alíquota publicada", prazo
+  do Simples híbrido ou CT-e "desde janeiro". Conferir na fonte antes de agendar (regra "nada com data depois da data").
+- Os 19 reacts de música e as 8 aulas de A Base da Gestão ficaram fora (não são corte de fala dele); confirmar com ele.
+- **Agendado até agora:** só o AME-13 ("Tamanho único não serve em ninguém"), que substituiu o vídeo do reel de 15/11
+  às 15h. Os outros 106 esperam ele decidir as datas.

@@ -101,7 +101,7 @@ def lamina(dia, i, n, tipo, texto, t):
                 'Gilberto Sena · Grupo Sena Soluções Empresariais</div></div>')
     else:
         corpo = f'<p class="txt fit">{e(texto)}</p>'
-    return f'<div class="slide t-{tipo.lower().replace(" ", "-")}">{topo}<div class="miolo">{corpo}</div>{fora}</div>'
+    return f'<div class="slide t-{tipo.lower().replace(" ", "-")}"><div class="wm"></div>{topo}<div class="miolo">{corpo}</div>{fora}</div>'
 
 
 CSS = """
@@ -130,6 +130,10 @@ li:last-child{border-bottom:3px solid var(--ink)}
 .final{font-weight:700;font-size:96px;line-height:1.04;letter-spacing:-.02em}
 .assina{position:absolute;left:96px;right:96px;bottom:84px;display:flex;align-items:center;gap:28px;font-size:28px;line-height:1.4}
 .assina b{font-family:Menlo,monospace;font-weight:500;font-size:30px;color:var(--ac)}
+.wm{position:absolute;left:50%;top:56%;width:860px;height:884px;transform:translate(-50%,-50%);
+  background:url(MARCA) center/contain no-repeat;opacity:var(--wmo);mix-blend-mode:var(--wmb);pointer-events:none}
+.topo,.miolo,.pe,.assina{position:relative;z-index:1}
+.miolo,.pe,.assina{position:absolute}
 .leao{width:96px;height:85px;background:var(--ink);-webkit-mask:url(LOGO) center/contain no-repeat;mask:url(LOGO) center/contain no-repeat}
 """
 
@@ -184,8 +188,11 @@ def main():
         pasta = f"{dia}-{slug}"
         os.makedirs(os.path.join(AQUI, pasta), exist_ok=True)
         css = CSS.replace("LOGO", "data:image/png;base64," + base64.b64encode(open(LOGO, "rb").read()).decode())
+        css = css.replace("MARCA", "data:image/png;base64," + base64.b64encode(open(os.path.join(AQUI, "marca-dagua-advisor.png"), "rb").read()).decode())
+        claro = sum(int(bg[i:i + 2], 16) for i in (1, 3, 5)) > 420
+        wm = "--wmo:.16;--wmb:multiply" if claro else "--wmo:.13;--wmb:screen"
         sl = "".join(lamina(dia, i, len(lam), tipo, txt, t) for i, (tipo, txt) in enumerate(lam, 1))
-        doc = (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>:root{{--bg:{bg};--ink:{ink};--ac:{ac}}}'
+        doc = (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>:root{{--bg:{bg};--ink:{ink};--ac:{ac};{wm}}}'
                f'{css}</style></head><body>{sl}{FIT}</body></html>')
         open(os.path.join(AQUI, pasta, "carrossel.html"), "w", encoding="utf-8").write(doc)
         open(os.path.join(AQUI, pasta, "legenda.md"), "w", encoding="utf-8").write(legenda(titulo, lam, tags) + "\n")

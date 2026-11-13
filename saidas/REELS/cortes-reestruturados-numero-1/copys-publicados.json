@@ -18,7 +18,14 @@
   "era": {
    "titulo": "AME 1 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-01-tres-perguntas-ao-dono-de-consultorio.mp4"
+  "arquivo": "r1-ame-01-tres-perguntas-ao-dono-de-consultorio.mp4",
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "0.7s alerta",
+   "6.4s dinheiro",
+   "9.5s alerta"
+  ],
+  "segundos": 11.2
  },
  {
   "fonte": "ame--crtv-ame-2",
@@ -39,7 +46,14 @@
   "era": {
    "titulo": "AME 2 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-02-o-custo-da-sua-hora.mp4"
+  "arquivo": "r1-ame-02-o-custo-da-sua-hora.mp4",
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "1.2s ritmo",
+   "8.0s dinheiro",
+   "12.1s dinheiro"
+  ],
+  "segundos": 16.3
  },
  {
   "fonte": "ame--crtv-ame-3",
@@ -60,7 +74,14 @@
   "era": {
    "titulo": "AME 3 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-03-consultorio-tem-cnpj.mp4"
+  "arquivo": "r1-ame-03-consultorio-tem-cnpj.mp4",
+  "paleta": "creme e preto",
+  "efeitos": [
+   "4.1s dinheiro",
+   "8.2s ritmo",
+   "13.6s dinheiro"
+  ],
+  "segundos": 14.2
  },
  {
   "fonte": "ame--crtv-ame-4",
@@ -81,7 +102,14 @@
   "era": {
    "titulo": "AME 4 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-04-30-dias-longe.mp4"
+  "arquivo": "r1-ame-04-30-dias-longe.mp4",
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "0.6s dinheiro",
+   "7.9s dinheiro",
+   "12.1s ritmo"
+  ],
+  "segundos": 15.7
  },
  {
   "fonte": "ame--crtv-ame-5",
@@ -102,7 +130,14 @@
   "era": {
    "titulo": "AME 5 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-05-quem-viu-seu-balanco.mp4"
+  "arquivo": "r1-ame-05-quem-viu-seu-balanco.mp4",
+  "paleta": "amarelo e preto",
+  "efeitos": [
+   "2.8s ritmo",
+   "8.4s luz",
+   "11.1s luz"
+  ],
+  "segundos": 15.5
  },
  {
   "fonte": "ame--crtv-ame-6",
@@ -123,7 +158,15 @@
   "era": {
    "titulo": "AME 6 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-06-o-que-o-perito-ve-no-extrato.mp4"
+  "arquivo": "r1-ame-06-o-que-o-perito-ve-no-extrato.mp4",
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "0.5s enfase",
+   "4.8s dinheiro",
+   "7.6s alerta",
+   "9.8s alerta"
+  ],
+  "segundos": 14.8
  },
  {
   "fonte": "ame--crtv-ame-7",
@@ -144,7 +187,14 @@
   "era": {
    "titulo": "AME 7 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-07-metodo-x-sua-empresa.mp4"
+  "arquivo": "r1-ame-07-metodo-x-sua-empresa.mp4",
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "1.7s ritmo",
+   "6.8s ritmo",
+   "11.2s ritmo"
+  ],
+  "segundos": 16.7
  },
  {
   "fonte": "ame--crtv-ame-8",
@@ -165,7 +215,14 @@
   "era": {
    "titulo": "AME 8 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-08-sabe-de-cor-e-nao-muda.mp4"
+  "arquivo": "r1-ame-08-sabe-de-cor-e-nao-muda.mp4",
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "1.3s ritmo",
+   "7.1s enfase",
+   "11.3s ritmo"
+  ],
+  "segundos": 15.8
  },
  {
   "fonte": "ame--crtv-ame-9",
@@ -215,7 +272,17 @@
   "era": {
    "titulo": "AME 10 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-10-informacao-nao-resolve.mp4"
+  "arquivo": "r1-ame-10-informacao-nao-resolve.mp4",
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "0.7s luz",
+   "3.5s dinheiro",
+   "6.9s dinheiro",
+   "9.3s luz",
+   "12.2s dinheiro",
+   "16.3s ritmo"
+  ],
+  "segundos": 17.8
  },
  {
   "fonte": "ame--crtv-ame-11",
@@ -265,7 +332,14 @@
   "era": {
    "titulo": "AME 12 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-12-a-culpa-e-de-quem.mp4"
+  "arquivo": "r1-ame-12-a-culpa-e-de-quem.mp4",
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "0.3s alerta",
+   "5.2s alerta",
+   "11.8s enfase"
+  ],
+  "segundos": 17.3
  },
  {
   "fonte": "ame--crtv-ame-13",
@@ -314,7 +388,13 @@
   "era": {
    "titulo": "AME 14 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-14-agora-e-com-voce.mp4"
+  "arquivo": "r1-ame-14-agora-e-com-voce.mp4",
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "1.6s ritmo",
+   "6.5s ritmo"
+  ],
+  "segundos": 12.8
  },
  {
   "fonte": "ame--crtv-ame-15",
@@ -363,6 +443,2324 @@
   "era": {
    "titulo": "AME 16 (reel de teste e YouTube/TikTok, out-nov/2026)"
   },
-  "arquivo": "r1-ame-16-mao-na-massa.mp4"
+  "arquivo": "r1-ame-16-mao-na-massa.mp4",
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "1.0s ritmo",
+   "5.4s ritmo",
+   "9.5s ritmo"
+  ],
+  "segundos": 12.9
+ },
+ {
+  "fonte": "antigos--2027-pode-quebrar",
+  "grupo": "antigos",
+  "slug": "da-janela",
+  "arquivo": "r1-27-da-janela.mp4",
+  "titulo": "Da janela, eu vejo quem vai quebrar",
+  "capa": "30% a 40% deles|*vão quebrar.*",
+  "youtube_titulo": "Da minha janela: quantos desses empresários vão quebrar até 2027",
+  "legenda": "Olhando da janela o trânsito cheio de empresário indo trabalhar, me dá tristeza: se continuarem do mesmo jeito, culpando governo, concorrente e fornecedor, de 30% a 40% vão quebrar. Falo de coração, porque já passei por quebra e sei a dor que é.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "2027",
+   "empresario",
+   "quebrar empresa",
+   "gestao",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "antigos--2027-pode-quebrar"
+  },
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "1.5s ritmo",
+   "5.5s ritmo",
+   "9.6s ritmo",
+   "14.5s alerta",
+   "17.0s alerta",
+   "21.0s medo",
+   "28.0s medo",
+   "34.4s enfase",
+   "37.3s alerta",
+   "38.8s alerta",
+   "42.5s fe",
+   "46.2s luz",
+   "49.2s luz"
+  ],
+  "segundos": 53.2
+ },
+ {
+  "fonte": "antigos--audio-do-filho",
+  "grupo": "antigos",
+  "slug": "o-audio-do-meu-filho",
+  "arquivo": "r1-28-o-audio-do-meu-filho.mp4",
+  "titulo": "O áudio do meu filho",
+  "capa": "O áudio que me mostrou|*o meu legado*",
+  "youtube_titulo": "O áudio do meu filho que me provou que estou no caminho certo",
+  "legenda": "Meu filho me mandou um áudio perguntando como dividir o dinheiro que ganha: mais pra reserva de emergência ou mais pra investimento? Ali eu tive certeza: o trabalho reverbera dentro de casa. É legado.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "educacao financeira",
+   "filhos",
+   "legado",
+   "familia",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "antigos--audio-do-filho"
+  },
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "2.9s luz",
+   "7.0s ritmo",
+   "11.0s ritmo",
+   "19.7s dinheiro",
+   "24.1s ritmo",
+   "30.0s luz",
+   "34.8s ritmo"
+  ],
+  "segundos": 49.2
+ },
+ {
+  "fonte": "antigos--bitributacao-intercompany",
+  "grupo": "antigos",
+  "slug": "o-mesmo-dinheiro-4-vezes",
+  "arquivo": "r1-29-o-mesmo-dinheiro-4-vezes.mp4",
+  "titulo": "O mesmo dinheiro tributado 4 vezes",
+  "capa": "O mesmo dinheiro|*tributado 4 vezes*",
+  "youtube_titulo": "Intercompany mal feito: quando o mesmo dinheiro paga imposto quatro vezes",
+  "legenda": "O dinheiro já tributado cai na holding, é tributado de novo, aí vem um intercompany e o mesmo dinheiro paga imposto quatro vezes. É pra isso que existem compliance e controladoria.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "holding",
+   "intercompany",
+   "bitributacao",
+   "compliance",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "antigos--bitributacao-intercompany"
+  },
+  "paleta": "creme e preto",
+  "efeitos": [
+   "1.8s dinheiro",
+   "6.2s dinheiro",
+   "10.6s dinheiro",
+   "16.4s ritmo",
+   "21.0s ritmo",
+   "25.1s ritmo",
+   "29.9s ritmo",
+   "35.1s ritmo",
+   "41.4s ritmo",
+   "45.6s ritmo"
+  ],
+  "segundos": 48.1
+ },
+ {
+  "fonte": "antigos--caixinha-define",
+  "grupo": "antigos",
+  "slug": "joia-ou-casca-de-banana",
+  "arquivo": "r1-30-joia-ou-casca-de-banana.mp4",
+  "titulo": "Joia ou casca de banana?",
+  "capa": "Joia ou|*casca de banana?*",
+  "youtube_titulo": "A caixinha: porta-joia ou lixeira? Depende do que você guarda",
+  "legenda": "Uma joia dentro da caixinha faz dela um porta-joia. Casca de banana faz dela uma lixeira. Nós somos o que permitimos que fique dentro de nós.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "reflexao",
+   "mentalidade",
+   "autoconhecimento",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "antigos--caixinha-define"
+  },
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "1.2s ritmo",
+   "5.2s ritmo",
+   "9.8s ritmo",
+   "13.9s ritmo",
+   "19.0s ritmo",
+   "24.0s ritmo",
+   "28.5s ritmo",
+   "33.0s ritmo"
+  ],
+  "segundos": 34.6
+ },
+ {
+  "fonte": "antigos--comite-gestao-reforma",
+  "grupo": "antigos",
+  "slug": "comite-gestor-e-o-hibrido",
+  "arquivo": "r1-31-comite-gestor-e-o-hibrido.mp4",
+  "titulo": "Comitê Gestor e o prazo do híbrido",
+  "capa": "O prazo do híbrido|*está na lei*",
+  "youtube_titulo": "Comitê Gestor da reforma: o prazo do Simples híbrido não muda",
+  "legenda": "O prazo de opção pelo regime híbrido do Simples está na lei complementar 214 e o Comitê Gestor não tem como mudar. A escolha precisa ser avaliada caso a caso com o profissional de contabilidade.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "simples hibrido",
+   "comite gestor",
+   "reforma tributaria",
+   "lc 214",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "antigos--comite-gestao-reforma"
+  },
+  "segurar": "conferir a informação antes de agendar (alíquota, prazo ou regra pode ter mudado)",
+  "paleta": "amarelo e preto",
+  "efeitos": [
+   "0.4s enfase",
+   "2.8s dinheiro",
+   "6.8s ritmo",
+   "11.1s ritmo",
+   "15.3s ritmo",
+   "19.5s ritmo",
+   "23.9s ritmo",
+   "28.5s ritmo",
+   "33.2s ritmo",
+   "37.4s ritmo",
+   "43.8s enfase",
+   "48.0s ritmo",
+   "54.0s enfase",
+   "58.6s ritmo",
+   "63.1s ritmo",
+   "67.4s ritmo",
+   "72.8s enfase",
+   "76.3s luz"
+  ],
+  "segundos": 78.2
+ },
+ {
+  "fonte": "antigos--dinheiro-energia",
+  "grupo": "antigos",
+  "slug": "o-dinheiro-e-um-atleta",
+  "arquivo": "r1-32-o-dinheiro-e-um-atleta.mp4",
+  "titulo": "O dinheiro é um atleta olímpico",
+  "capa": "O dinheiro|*corre na frente.*",
+  "youtube_titulo": "Dinheiro é energia: por que quem corre atrás dele fica em último",
+  "legenda": "Vejo o dinheiro como atleta de Olimpíada: ele está sempre na frente. Ou você se prepara pra correr do lado, ou treina muito pra correr na frente. Correndo atrás, você fica em último.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "dinheiro",
+   "mentalidade",
+   "prosperidade",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "antigos--dinheiro-energia"
+  },
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "1.3s dinheiro",
+   "5.6s ritmo",
+   "12.1s dinheiro",
+   "16.4s ritmo",
+   "20.4s dinheiro",
+   "25.5s dinheiro",
+   "29.7s dinheiro",
+   "35.7s dinheiro"
+  ],
+  "segundos": 39.2
+ },
+ {
+  "fonte": "antigos--empresa-nao-quebra-por-si-so",
+  "grupo": "antigos",
+  "slug": "quem-quebra-e-o-empresario",
+  "arquivo": "r1-33-quem-quebra-e-o-empresario.mp4",
+  "titulo": "Empresa não quebra sozinha",
+  "capa": "Empresa não quebra.|*Empresário quebra.*",
+  "youtube_titulo": "A empresa não quebra por si só: a reforma é problema ou oportunidade?",
+  "legenda": "Quem quebra a empresa é o empresário. Eu vejo toda mudança como oportunidade: saí de servente e motoboy pra empresário assim. Pra construir músculo, você rompe fibra. Pra fazer o bolo, você soca a massa.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "reforma tributaria",
+   "oportunidade",
+   "empresario",
+   "mudanca",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "antigos--empresa-nao-quebra-por-si-so"
+  },
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "0.4s medo",
+   "3.2s dinheiro",
+   "5.9s alerta",
+   "9.2s luz",
+   "14.4s ritmo",
+   "19.0s ritmo",
+   "23.9s ritmo",
+   "29.0s ritmo",
+   "33.2s ritmo",
+   "37.6s ritmo",
+   "42.8s luz",
+   "47.0s medo",
+   "49.3s enfase",
+   "52.4s medo",
+   "55.4s alerta",
+   "59.6s ritmo",
+   "65.2s luz",
+   "73.4s enfase",
+   "77.4s ritmo",
+   "81.7s ritmo",
+   "86.0s ritmo"
+  ],
+  "segundos": 91.7
+ },
+ {
+  "fonte": "antigos--empresario-nao-paga-imposto",
+  "grupo": "antigos",
+  "slug": "quem-paga-o-imposto",
+  "arquivo": "r1-34-quem-paga-o-imposto.mp4",
+  "titulo": "Quem paga o imposto é o cliente",
+  "capa": "O imposto|*está no preço.*",
+  "youtube_titulo": "O empresário não paga imposto: o erro está na precificação",
+  "legenda": "Ninguém compra por 100 e vende por 101: o imposto já vai embutido no preço. O erro de precificação é não colocar o custo operacional. Chega de pôr a culpa nos outros.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "precificacao",
+   "imposto",
+   "custo operacional",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "antigos--empresario-nao-paga-imposto"
+  },
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "0.8s dinheiro",
+   "3.2s dinheiro",
+   "6.7s dinheiro",
+   "13.4s dinheiro",
+   "17.8s alerta",
+   "24.0s dinheiro",
+   "28.9s alerta",
+   "33.0s ritmo"
+  ],
+  "segundos": 36.1
+ },
+ {
+  "fonte": "antigos--falar-sobre-sua-historia",
+  "grupo": "antigos",
+  "slug": "quantos-gilbertos-la-fora",
+  "arquivo": "r1-35-quantos-gilbertos-la-fora.mp4",
+  "titulo": "Quantos Gilbertos tem lá fora?",
+  "capa": "Quantos *Gilbertos*|tem lá fora?",
+  "youtube_titulo": "Por que contar a nossa história transforma quem está perdido",
+  "legenda": "Quantos Gilbertos, Renans e Edinhos tem lá fora precisando ouvir a nossa história e entender que é possível? Tem um preço, mas quem pagou o preço caro foi na cruz. É seguir o caminho com princípio.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "historia",
+   "fe",
+   "proposito",
+   "transformacao",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "antigos--falar-sobre-sua-historia"
+  },
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "1.9s enfase",
+   "6.5s ritmo",
+   "10.8s ritmo",
+   "15.1s ritmo",
+   "19.5s luz"
+  ],
+  "segundos": 23.0
+ },
+ {
+  "fonte": "antigos--metafora-do-formigao",
+  "grupo": "antigos",
+  "slug": "o-formigao",
+  "arquivo": "r1-36-o-formigao.mp4",
+  "titulo": "A história do Formigão",
+  "capa": "O Formigão era|*o melhor da empresa*",
+  "youtube_titulo": "A metáfora do Formigão: demissão por performance ou excesso de gestão?",
+  "legenda": "Numa reunião sobre demissão por performance, contei a história do Formigão: o funcionário mais produtivo e feliz, até a empresa encher ele de supervisor, relatório e cobrança. Às vezes o problema não é quem trabalha.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "lideranca",
+   "gestao de pessoas",
+   "produtividade",
+   "demissao",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "antigos--metafora-do-formigao"
+  },
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "1.8s ritmo",
+   "5.8s ritmo",
+   "10.1s ritmo",
+   "15.7s enfase",
+   "20.1s ritmo",
+   "27.3s fe",
+   "32.0s ritmo",
+   "39.8s enfase",
+   "43.7s luz",
+   "46.8s fe",
+   "50.9s ritmo",
+   "55.2s alerta",
+   "59.8s ritmo",
+   "63.9s ritmo",
+   "68.5s ritmo",
+   "75.4s enfase",
+   "79.7s ritmo",
+   "84.5s ritmo",
+   "89.8s ritmo"
+  ],
+  "segundos": 95.0
+ },
+ {
+  "fonte": "antigos--operacao-x-operacional",
+  "grupo": "antigos",
+  "slug": "sai-do-operacional",
+  "arquivo": "r1-37-sai-do-operacional.mp4",
+  "titulo": "Saia do operacional, não da operação",
+  "capa": "Não saia da operação.|*Saia do operacional.*",
+  "youtube_titulo": "Você não precisa saber contabilidade, mas precisa acompanhar a operação",
+  "legenda": "O empresário não precisa saber contabilidade. Precisa fazer parte da operação e entender o que acontece nela. O que ele não pode é ficar preso no operacional.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "operacional",
+   "dono de empresa",
+   "gestao",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "antigos--operacao-x-operacional"
+  },
+  "paleta": "creme e preto",
+  "efeitos": [
+   "1.6s ritmo",
+   "6.2s ritmo",
+   "10.7s ritmo",
+   "15.0s ritmo",
+   "19.6s ritmo"
+  ],
+  "segundos": 22.2
+ },
+ {
+  "fonte": "antigos--palestra-expresso-97",
+  "grupo": "antigos",
+  "slug": "a-moto-de-97",
+  "arquivo": "r1-38-a-moto-de-97.mp4",
+  "titulo": "A moto que virou empresa",
+  "capa": "Uma moto em 97|*virou frota.*",
+  "youtube_titulo": "1997: a moto emprestada que virou o meu primeiro negócio",
+  "legenda": "Em 97, o pai da minha namorada tirou uma moto no nome dele pra mim. Eu podia trocar o aluguel por uma prestação. Preferi alugar a moto pra um amigo. Até 99 eu já tinha comprado mais duas.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "motoboy",
+   "empreendedorismo",
+   "historia",
+   "reinvestir",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "antigos--palestra-expresso-97"
+  },
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "1.1s enfase",
+   "5.7s ritmo",
+   "10.1s ritmo",
+   "15.0s ritmo",
+   "19.8s ritmo",
+   "27.6s dinheiro",
+   "32.1s ritmo",
+   "36.3s ritmo",
+   "42.1s luz",
+   "46.6s ritmo",
+   "50.9s medo"
+  ],
+  "segundos": 52.0
+ },
+ {
+  "fonte": "antigos--rico-x-pobre",
+  "grupo": "antigos",
+  "slug": "a-paciencia-do-rico",
+  "arquivo": "r1-39-a-paciencia-do-rico.mp4",
+  "titulo": "A diferença do rico: paciência",
+  "capa": "O rico tem|*paciência.*",
+  "youtube_titulo": "Rico x pobre: a paciência, e o direito que o empresário não conhece",
+  "legenda": "A diferença do rico pro pobre é a paciência. E o empresário quase nunca conhece o próprio direito: num financiamento, a análise pericial das taxas efetivas mostra o que foi cobrado a mais.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "pericia financeira",
+   "financiamento",
+   "revisional",
+   "riqueza",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "antigos--rico-x-pobre"
+  },
+  "paleta": "amarelo e preto",
+  "efeitos": [
+   "1.2s ritmo",
+   "5.7s luz",
+   "10.8s ritmo",
+   "14.9s ritmo",
+   "18.9s ritmo",
+   "23.8s ritmo",
+   "28.5s ritmo",
+   "33.2s ritmo",
+   "38.4s ritmo",
+   "42.5s ritmo",
+   "47.5s ritmo",
+   "52.4s ritmo",
+   "56.6s ritmo",
+   "63.6s dinheiro"
+  ],
+  "segundos": 67.9
+ },
+ {
+  "fonte": "antigos--video-sobre-evolucao",
+  "grupo": "antigos",
+  "slug": "o-preco-de-evoluir",
+  "arquivo": "r1-40-o-preco-de-evoluir.mp4",
+  "titulo": "O preço de evoluir",
+  "capa": "Quanto mais evoluído,|*mais sensível.*",
+  "youtube_titulo": "O problema de evoluir: cada dor é uma camada de proteção",
+  "legenda": "Quanto mais evoluído, mais sensível você fica. Cada sensação, cada dor, cada trauma é uma camada de proteção pra você assumir um dia algo maior.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "evolucao",
+   "resiliencia",
+   "desenvolvimento pessoal",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "antigos--video-sobre-evolucao"
+  },
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "0.7s luz",
+   "5.2s ritmo",
+   "11.0s ritmo",
+   "15.7s alerta",
+   "19.9s ritmo",
+   "24.7s ritmo"
+  ],
+  "segundos": 49.2
+ },
+ {
+  "fonte": "longas--01-reforma-transportadora-cte",
+  "grupo": "longas",
+  "slug": "transportadora-e-o-cte",
+  "arquivo": "r1-41-transportadora-e-o-cte.mp4",
+  "titulo": "Transportadora: o CT-e já mudou",
+  "capa": "Transportadora:|*o CT-e já mudou*",
+  "youtube_titulo": "Reforma tributária na transportadora: CBS e IBS no CT-e",
+  "legenda": "O CT-e já deveria destacar CBS e IBS. Ainda não é cobrança, é teste, mas sistema desatualizado trava documento fiscal e deixa o caminhão parado.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "transportadora",
+   "cte",
+   "cbs",
+   "ibs",
+   "reforma tributaria",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "longas--01-reforma-transportadora-cte"
+  },
+  "segurar": "conferir a informação antes de agendar (alíquota, prazo ou regra pode ter mudado)",
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "2.4s dinheiro",
+   "7.2s ritmo",
+   "11.4s ritmo",
+   "17.5s dinheiro",
+   "22.2s ritmo",
+   "28.2s dinheiro",
+   "32.3s ritmo",
+   "37.7s medo",
+   "42.4s ritmo",
+   "49.9s dinheiro",
+   "55.9s luz"
+  ],
+  "segundos": 57.2
+ },
+ {
+  "fonte": "longas--02-reforma-ecommerce-split-payment",
+  "grupo": "longas",
+  "slug": "e-commerce-dois-prazos",
+  "arquivo": "r1-42-e-commerce-dois-prazos.mp4",
+  "titulo": "E-commerce: dois prazos correndo",
+  "capa": "Vende online?|*Dois prazos correndo.*",
+  "youtube_titulo": "E-commerce e marketplace: split payment e compras acima de 50 dólares",
+  "legenda": "Quem vende online tem dois prazos correndo: o split payment, com rodada de teste antes de valer, e a tributação das compras acima de 50 dólares. E-commerce e marketplace precisam se preparar.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "e-commerce",
+   "split payment",
+   "marketplace",
+   "reforma tributaria",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "longas--02-reforma-ecommerce-split-payment"
+  },
+  "segurar": "conferir a informação antes de agendar (alíquota, prazo ou regra pode ter mudado)",
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "1.6s ritmo",
+   "5.7s ritmo",
+   "10.5s ritmo",
+   "15.0s ritmo",
+   "20.6s dinheiro",
+   "25.4s ritmo",
+   "32.4s enfase",
+   "39.0s dinheiro",
+   "45.8s dinheiro",
+   "48.5s luz",
+   "50.7s luz"
+  ],
+  "segundos": 54.5
+ },
+ {
+  "fonte": "longas--03-autoridade-silencio-dos-bons",
+  "grupo": "longas",
+  "slug": "silencio-dos-bons",
+  "arquivo": "r1-43-silencio-dos-bons.mp4",
+  "titulo": "O sucesso dos maus é o silêncio dos bons",
+  "capa": "O sucesso dos maus|*é o silêncio dos bons.*",
+  "youtube_titulo": "Por que eu resolvi falar: o silêncio dos bons",
+  "legenda": "Tem muita gente enganando empresário e família, falando de negócio sem nunca ter quebrado, sem saber a dor de ser enganado por fornecedor, cliente ou funcionário. Isso mexeu comigo e me fez falar.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "autoridade",
+   "empresarios",
+   "proposito",
+   "verdade",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "longas--03-autoridade-silencio-dos-bons"
+  },
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "0.4s luz",
+   "5.3s alerta",
+   "7.0s alerta",
+   "14.2s medo",
+   "18.6s alerta",
+   "21.2s alerta",
+   "28.0s luz",
+   "32.4s ritmo",
+   "36.6s ritmo",
+   "40.8s ritmo",
+   "45.3s ritmo",
+   "49.3s ritmo",
+   "53.8s enfase",
+   "59.4s luz"
+  ],
+  "segundos": 64.3
+ },
+ {
+  "fonte": "longas--04-reforma-fim-do-ipi-zona-franca",
+  "grupo": "longas",
+  "slug": "o-fim-do-ipi",
+  "arquivo": "r1-44-o-fim-do-ipi.mp4",
+  "titulo": "O fim do IPI não é bem o fim",
+  "capa": "O IPI acaba.|*Pra quem?*",
+  "youtube_titulo": "Fim do IPI em 2027: a estratégia pra proteger a Zona Franca",
+  "legenda": "O fim do IPI é, na verdade, uma estratégia pra proteger a Zona Franca de Manaus. Se a sua indústria concorre com a Zona Franca, o risco é grande.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "ipi",
+   "zona franca",
+   "industria",
+   "reforma tributaria",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "longas--04-reforma-fim-do-ipi-zona-franca"
+  },
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "3.1s enfase",
+   "7.3s medo",
+   "12.4s enfase"
+  ],
+  "segundos": 14.8
+ },
+ {
+  "fonte": "longas--05-gestao-automanipulacao",
+  "grupo": "longas",
+  "slug": "voce-esta-sendo-manipulado",
+  "arquivo": "r1-45-voce-esta-sendo-manipulado.mp4",
+  "titulo": "Você está sendo manipulado. Por você",
+  "capa": "A pior manipulação|*é a sua.*",
+  "youtube_titulo": "Automanipulação: a rede social do seu negócio é igual planilha",
+  "legenda": "A automanipulação é a mais perigosa: a pessoa acredita que está segura, na zona de conforto. Rede social de negócio é igual planilha: põe o número que quiser.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "automanipulacao",
+   "redes sociais",
+   "gestao",
+   "verdade",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "longas--05-gestao-automanipulacao"
+  },
+  "paleta": "creme e preto",
+  "efeitos": [
+   "4.7s enfase",
+   "6.9s medo",
+   "10.9s ritmo",
+   "14.9s ritmo",
+   "19.4s ritmo",
+   "24.6s ritmo",
+   "29.1s ritmo",
+   "36.0s enfase",
+   "40.4s ritmo",
+   "44.6s ritmo",
+   "48.7s ritmo"
+  ],
+  "segundos": 53.8
+ },
+ {
+  "fonte": "longas--06-reforma-2027-cai-o-sistema",
+  "grupo": "longas",
+  "slug": "cai-o-sistema",
+  "arquivo": "r1-46-cai-o-sistema.mp4",
+  "titulo": "Em 2027 cai o sistema inteiro",
+  "capa": "2027 não traz um imposto.|*Troca o sistema.*",
+  "youtube_titulo": "2027: não é um imposto novo, é o sistema inteiro mudando",
+  "legenda": "Em 2027 não cai um imposto novo no seu negócio: muda o sistema inteiro de lugar. A diferença entre quem passa tranquilo e quem quebra é gestão.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "2027",
+   "reforma tributaria",
+   "gestao",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "longas--06-reforma-2027-cai-o-sistema"
+  },
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "2.6s dinheiro",
+   "8.2s enfase",
+   "12.5s ritmo",
+   "17.2s ritmo",
+   "21.6s ritmo",
+   "26.6s medo"
+  ],
+  "segundos": 28.4
+ },
+ {
+  "fonte": "longas--07-gestao-diagnostico-errado",
+  "grupo": "longas",
+  "slug": "diagnostico-errado",
+  "arquivo": "r1-47-diagnostico-errado.mp4",
+  "titulo": "Remédio certo pro diagnóstico errado",
+  "capa": "Diagnóstico errado,|*remédio errado.*",
+  "youtube_titulo": "Nem todo problema é falta de dinheiro: o diagnóstico vem antes",
+  "legenda": "Nem toda queda de cabelo é calvície, e nem todo problema da empresa é falta de dinheiro. Receita igual pra todo mundo é erro de diagnóstico.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "diagnostico",
+   "gestao",
+   "consultoria",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "longas--07-gestao-diagnostico-errado"
+  },
+  "paleta": "amarelo e preto",
+  "efeitos": [
+   "1.1s ritmo",
+   "5.5s ritmo",
+   "9.9s ritmo",
+   "14.4s ritmo",
+   "18.6s ritmo",
+   "25.5s enfase",
+   "30.7s ritmo",
+   "36.2s alerta",
+   "38.2s alerta",
+   "45.6s dinheiro",
+   "49.9s ritmo",
+   "54.1s ritmo",
+   "59.1s ritmo"
+  ],
+  "segundos": 61.7
+ },
+ {
+  "fonte": "lote2--l2-13-respeita-historia",
+  "grupo": "lote2",
+  "slug": "respeita-a-sua-historia",
+  "arquivo": "r1-48-respeita-a-sua-historia.mp4",
+  "titulo": "Respeita a sua história",
+  "capa": "Não importa o tamanho.|*Importa a história.*",
+  "youtube_titulo": "Nike e a ganância: respeite a história do seu negócio",
+  "legenda": "A Nike já era Nike. A ganância de vender direto naquela onda fez a marca perder uma fatia do mercado. Não interessa o tamanho, interessa a história.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "marca",
+   "estrategia",
+   "ganancia",
+   "posicionamento",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "lote2--l2-13-respeita-historia"
+  },
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "1.3s ritmo",
+   "5.8s ritmo",
+   "10.0s ritmo",
+   "14.6s ritmo",
+   "19.0s ritmo",
+   "24.4s dinheiro",
+   "27.9s enfase",
+   "31.9s ritmo",
+   "36.2s ritmo",
+   "40.5s ritmo",
+   "44.9s ritmo",
+   "49.5s ritmo",
+   "53.7s ritmo",
+   "57.7s ritmo",
+   "62.0s ritmo"
+  ],
+  "segundos": 64.4
+ },
+ {
+  "fonte": "lote2--l2-14-vendedores-ilusao",
+  "grupo": "lote2",
+  "slug": "vendedores-de-ilusao",
+  "arquivo": "r1-49-vendedores-de-ilusao.mp4",
+  "titulo": "Os vendedores de ilusão",
+  "capa": "Milhões trabalhando|*2 horas por dia?*",
+  "youtube_titulo": "Marketing digital e os vendedores de ilusão",
+  "legenda": "Quantos venderam que dava pra ganhar milhões trabalhando duas horas em casa? Por isso a minha geração tem resistência ao marketing digital. Mas quem não está nele hoje está morto.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "marketing digital",
+   "ilusao",
+   "empresarios",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "lote2--l2-14-vendedores-ilusao"
+  },
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "4.0s enfase",
+   "8.1s dinheiro",
+   "11.3s enfase",
+   "15.7s ritmo",
+   "20.5s ritmo",
+   "25.3s ritmo",
+   "29.4s ritmo",
+   "37.1s enfase",
+   "42.0s ritmo",
+   "47.6s enfase"
+  ],
+  "segundos": 50.0
+ },
+ {
+  "fonte": "lote2--l2-15-cliente-grande",
+  "grupo": "lote2",
+  "slug": "o-telhado-bem-feito",
+  "arquivo": "r1-50-o-telhado-bem-feito.mp4",
+  "titulo": "Um cliente só pagava quase 1 milhão",
+  "capa": "Um cliente só|*pagava quase 1 milhão*",
+  "youtube_titulo": "O perigo de depender de um cliente grande",
+  "legenda": "Telhado bem feito sai mais barato que conserto. Tenho um caso em reestruturação: um cliente só dava quase 1 milhão de faturamento por mês. Eu falava: você precisa de novos clientes. Faltou gestão.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "cliente grande",
+   "dependencia",
+   "reestruturacao",
+   "gestao",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "lote2--l2-15-cliente-grande"
+  },
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "1.2s ritmo",
+   "8.3s luz",
+   "12.8s dinheiro",
+   "21.0s dinheiro",
+   "29.3s enfase",
+   "34.0s ritmo",
+   "38.2s luz",
+   "43.2s alerta",
+   "45.4s medo",
+   "49.7s ritmo",
+   "57.1s medo"
+  ],
+  "segundos": 59.6
+ },
+ {
+  "fonte": "lote2--l2-16-contador-guia",
+  "grupo": "lote2",
+  "slug": "ele-so-manda-a-guia",
+  "arquivo": "r1-51-ele-so-manda-a-guia.mp4",
+  "titulo": "\"Ele só manda a guia\"",
+  "capa": "Seu contador|*só manda a guia?*",
+  "youtube_titulo": "Contador de 300 reais pela internet: ele te fala de monofásico?",
+  "legenda": "\"O fulano me cobra 300.\" Você conversa com ele? Ele te fala de apuração mesclada, de produto monofásico, de algum benefício pro que você faz? Se ele só manda a guia, 300 está até caro.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "contador",
+   "monofasico",
+   "honorarios",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "lote2--l2-16-contador-guia"
+  },
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "5.2s dinheiro",
+   "10.3s enfase",
+   "14.5s ritmo",
+   "18.8s ritmo",
+   "23.3s ritmo",
+   "27.7s ritmo",
+   "32.4s ritmo"
+  ],
+  "segundos": 36.7
+ },
+ {
+  "fonte": "lote2--l2-17-alphaville",
+  "grupo": "lote2",
+  "slug": "a-aposta-de-alphaville",
+  "arquivo": "r1-52-a-aposta-de-alphaville.mp4",
+  "titulo": "Apostaram que eu não durava 6 meses",
+  "capa": "Apostaram que eu|*não durava 6 meses.*",
+  "youtube_titulo": "Três anos e meio em Alphaville: quem construiu e quem quebrou",
+  "legenda": "Quando cheguei em Alphaville, apostaram que eu não durava seis meses. Em três anos e meio vi empresa sendo construída e destruída. O que todas as destruídas tinham em comum: pecaram na gestão.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "alphaville",
+   "gestao",
+   "trajetoria",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "lote2--l2-17-alphaville"
+  },
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "1.2s ritmo",
+   "5.2s ritmo",
+   "9.6s ritmo",
+   "13.9s ritmo",
+   "18.9s ritmo",
+   "23.1s ritmo",
+   "27.2s ritmo",
+   "33.6s luz",
+   "39.8s alerta",
+   "44.2s ritmo",
+   "50.4s luz",
+   "56.9s luz",
+   "60.7s luz",
+   "67.3s enfase",
+   "71.5s ritmo",
+   "75.6s ritmo"
+  ],
+  "segundos": 79.4
+ },
+ {
+  "fonte": "lote2--l2-18-quanto-maior",
+  "grupo": "lote2",
+  "slug": "o-monstro-e-grande",
+  "arquivo": "r1-53-o-monstro-e-grande.mp4",
+  "titulo": "Quanto maior, maior o estrago",
+  "capa": "Quanto maior,|*maior o estrago.*",
+  "youtube_titulo": "O tamanho da empresa e o tamanho do erro",
+  "legenda": "Uma menina disse ao pai que queria começar grandão: \"papai, o monstro não é grande?\". Quanto maior você é, maior o que você destrói em volta com um passo errado.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "crescimento",
+   "responsabilidade",
+   "gestao",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "lote2--l2-18-quanto-maior"
+  },
+  "paleta": "creme e preto",
+  "efeitos": [
+   "2.5s alerta",
+   "7.4s ritmo",
+   "11.4s ritmo",
+   "15.4s ritmo",
+   "20.2s enfase",
+   "24.9s enfase",
+   "33.0s alerta"
+  ],
+  "segundos": 38.2
+ },
+ {
+  "fonte": "lote2--l2-19-simples",
+  "grupo": "lote2",
+  "slug": "fique-no-simples",
+  "arquivo": "r1-54-fique-no-simples.mp4",
+  "titulo": "\"Não optem pelo híbrido ainda\"",
+  "capa": "Simples ou híbrido?|*Faça a conta.*",
+  "youtube_titulo": "Simples Nacional ou híbrido: a pegadinha do sublimite",
+  "legenda": "Acima de 3,6 milhões no acumulado, ICMS e ISS já são recolhidos por fora. O híbrido pode servir pra quem vende B2B, mas exige avaliação de carteira e de preço, porque a carga pode subir.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "simples nacional",
+   "simples hibrido",
+   "sublimite",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "lote2--l2-19-simples"
+  },
+  "segurar": "conferir a informação antes de agendar (alíquota, prazo ou regra pode ter mudado)",
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "1.5s ritmo",
+   "8.9s dinheiro",
+   "13.2s dinheiro",
+   "17.7s ritmo",
+   "22.6s ritmo",
+   "27.2s dinheiro",
+   "33.2s dinheiro",
+   "36.7s dinheiro",
+   "41.5s dinheiro",
+   "45.8s ritmo",
+   "49.9s luz",
+   "54.4s ritmo",
+   "59.0s ritmo",
+   "63.3s ritmo",
+   "68.1s enfase"
+  ],
+  "segundos": 70.6
+ },
+ {
+  "fonte": "lote2--l2-20-faturamento-ego",
+  "grupo": "lote2",
+  "slug": "faturamento-e-ego",
+  "arquivo": "r1-55-faturamento-e-ego.mp4",
+  "titulo": "Faturamento é ego. Margem é o que fica",
+  "capa": "Faturamento|*é ego.*",
+  "youtube_titulo": "Aumentar faturamento com a mesma margem não quer dizer nada",
+  "legenda": "Ele aumentou o faturamento, mas sabe a margem? Faturamento com a mesma margem é ego puro. Tem coisa que é necessária pro segmento, tem coisa que é só ostentação.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "faturamento",
+   "margem",
+   "ego",
+   "lucro",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "lote2--l2-20-faturamento-ego"
+  },
+  "paleta": "amarelo e preto",
+  "efeitos": [
+   "0.6s dinheiro",
+   "4.0s enfase",
+   "12.2s dinheiro",
+   "16.8s ritmo",
+   "21.0s ritmo",
+   "26.2s ritmo",
+   "30.8s ritmo",
+   "35.3s ritmo",
+   "40.0s ritmo",
+   "44.1s ritmo",
+   "50.7s alerta",
+   "54.0s dinheiro",
+   "57.8s dinheiro",
+   "62.4s ritmo",
+   "66.9s ritmo",
+   "70.9s ritmo",
+   "74.9s ritmo",
+   "79.2s ritmo"
+  ],
+  "segundos": 81.7
+ },
+ {
+  "fonte": "lote2--l2-21-academia",
+  "grupo": "lote2",
+  "slug": "a-conta-da-academia",
+  "arquivo": "r1-56-a-conta-da-academia.mp4",
+  "titulo": "A conta da academia em 2027",
+  "capa": "90% dos alunos|*são pessoa física*",
+  "youtube_titulo": "Academias e a reforma: quando 80% da receita perde o crédito",
+  "legenda": "Em academia, 90% dos clientes são pessoa física. Num faturamento de 100 mil com 20 mil B2B, os outros 80 mil ficam com carga maior. Essa conta é de gestão, não só de tributarista.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "academias",
+   "reforma tributaria",
+   "b2b",
+   "carga tributaria",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "lote2--l2-21-academia"
+  },
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "2.4s alerta",
+   "7.5s ritmo",
+   "13.7s dinheiro",
+   "21.6s dinheiro",
+   "25.5s dinheiro",
+   "28.9s dinheiro",
+   "36.0s alerta"
+  ],
+  "segundos": 38.8
+ },
+ {
+  "fonte": "lote2--l2-22-dividir-multiplicar",
+  "grupo": "lote2",
+  "slug": "dividir-pra-multiplicar",
+  "arquivo": "r1-57-dividir-pra-multiplicar.mp4",
+  "titulo": "É dividindo que se multiplica",
+  "capa": "É dividindo|*que se multiplica.*",
+  "youtube_titulo": "Escalar o negócio com gente do seu ecossistema",
+  "legenda": "Pra escalar, nada mais natural que compartilhar com quem é do seu ecossistema. Eu fui terceirizado da Embratel e entregava tanto resultado que me chamaram pra dentro.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "escala",
+   "talentos",
+   "sociedade",
+   "crescimento",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "lote2--l2-22-dividir-multiplicar"
+  },
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "1.3s ritmo",
+   "7.6s enfase",
+   "11.7s ritmo",
+   "16.3s ritmo",
+   "23.8s luz",
+   "28.2s ritmo",
+   "32.8s ritmo",
+   "37.3s ritmo",
+   "41.3s ritmo",
+   "45.8s ritmo",
+   "51.0s medo",
+   "54.2s enfase",
+   "58.7s enfase"
+  ],
+  "segundos": 64.7
+ },
+ {
+  "fonte": "lote34--l34-v23",
+  "grupo": "lote34",
+  "slug": "o-futuro-do-pequeno",
+  "arquivo": "r1-58-o-futuro-do-pequeno.mp4",
+  "titulo": "O que restou da empresa do meu inquilino",
+  "capa": "Ele ficou 3 meses.|*Não pagou os custos.*",
+  "youtube_titulo": "Contratação errada, preço errado e nem imposto pago: o fim de uma empresa",
+  "legenda": "Essa era a estrutura de um inquilino meu. Ficou três meses e não pagou os custos da operação. Fui orientar e descobri que nem imposto ele pagava: misturava o dinheiro da empresa com o pessoal.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "2027",
+   "pequenas empresas",
+   "precificacao",
+   "quebrar",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "lote34--l34-v23"
+  },
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "4.8s medo",
+   "8.7s medo",
+   "13.6s ritmo",
+   "18.8s alerta",
+   "20.4s alerta",
+   "26.0s dinheiro",
+   "30.7s ritmo",
+   "35.0s ritmo",
+   "39.4s ritmo",
+   "44.3s ritmo",
+   "52.6s medo",
+   "59.7s dinheiro",
+   "64.9s ritmo",
+   "69.0s ritmo"
+  ],
+  "segundos": 72.4
+ },
+ {
+  "fonte": "lote34--l34-v24",
+  "grupo": "lote34",
+  "slug": "90-por-cento-quebraram",
+  "arquivo": "r1-59-90-por-cento-quebraram.mp4",
+  "titulo": "Nessa mesa, 90% quebraram",
+  "capa": "Atendi vários nessa mesa.|*90% quebraram.*",
+  "youtube_titulo": "Em 2024 atendi empresários nessa mesa. Hoje 90% quebraram",
+  "legenda": "Transporte, saúde, comércio, serviço. Negócios de 10, 40, até 100 milhões por ano. Todos culpando concorrente, governo e funcionário. Nenhum assumindo a má gestão.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "gestao",
+   "quebrar empresa",
+   "responsabilidade",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "lote34--l34-v24"
+  },
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "1.6s medo",
+   "6.1s ritmo",
+   "12.2s medo",
+   "14.6s alerta",
+   "16.3s alerta",
+   "18.8s enfase",
+   "22.8s ritmo",
+   "27.9s dinheiro",
+   "30.3s dinheiro",
+   "34.8s ritmo",
+   "41.3s luz",
+   "45.5s ritmo"
+  ],
+  "segundos": 52.2
+ },
+ {
+  "fonte": "lote34--l34-v25",
+  "grupo": "lote34",
+  "slug": "o-cliente-do-outro",
+  "arquivo": "r1-60-o-cliente-do-outro.mp4",
+  "titulo": "Você quer o cliente do outro",
+  "capa": "Você quer|*o cliente do outro.*",
+  "youtube_titulo": "Precificação: a tabela do CRC e o honorário de 5 mil",
+  "legenda": "Todo mundo quer o cliente do outro. Mas quem sabe precificar, diferenciar custo de despesa, achar o ponto de equilíbrio? Pela tabela de referência do CRC, 200 mil por mês e 30 funcionários dão 5 mil de honorário.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "precificacao",
+   "ponto de equilibrio",
+   "honorarios",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "lote34--l34-v25"
+  },
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "0.2s alerta",
+   "2.6s enfase",
+   "10.1s enfase",
+   "14.8s ritmo",
+   "19.3s dinheiro",
+   "27.3s dinheiro",
+   "31.5s ritmo",
+   "36.8s enfase",
+   "41.3s ritmo",
+   "47.0s dinheiro",
+   "53.1s alerta",
+   "55.5s enfase",
+   "63.3s medo"
+  ],
+  "segundos": 65.8
+ },
+ {
+  "fonte": "lote34--l34-v35",
+  "grupo": "lote34",
+  "slug": "meu-filho-nao-quis",
+  "arquivo": "r1-61-meu-filho-nao-quis.mp4",
+  "titulo": "Meu filho não quis trabalhar comigo",
+  "capa": "Meu filho|*não quis trabalhar comigo.*",
+  "youtube_titulo": "O que eu fiz quando meu filho não quis trabalhar comigo",
+  "legenda": "Briguei muito com meu filho porque queria ele comigo. Ele é o oposto. Hoje tem dois empregos, começou vendendo sapato. Não dou nada de mão beijada: ensino a construir.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "filhos",
+   "educacao",
+   "familia",
+   "sucessao",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "lote34--l34-v35"
+  },
+  "paleta": "creme e preto",
+  "efeitos": [
+   "1.0s ritmo",
+   "5.6s ritmo",
+   "9.9s ritmo",
+   "14.2s luz",
+   "21.5s enfase",
+   "28.1s enfase",
+   "34.3s dinheiro",
+   "38.4s ritmo",
+   "42.8s ritmo",
+   "47.8s ritmo",
+   "52.1s ritmo",
+   "56.4s ritmo",
+   "61.0s ritmo",
+   "67.1s fe",
+   "71.4s ritmo",
+   "76.0s ritmo",
+   "80.1s ritmo"
+  ],
+  "segundos": 83.4
+ },
+ {
+  "fonte": "lote34--l34-v37",
+  "grupo": "lote34",
+  "slug": "conta-1",
+  "arquivo": "r1-62-conta-1.mp4",
+  "titulo": "Nunca sobra dinheiro? Conta 1",
+  "capa": "Nunca sobra dinheiro?|*Conta 1.*",
+  "youtube_titulo": "Misturar a conta da empresa com a pessoal: o erro da Conta 1",
+  "legenda": "Açougue, padaria, sacolão, presente pra esposa: tudo no cartão da empresa e nada registrado como retirada de sócio. No fim, nunca sobra dinheiro.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "conta pj",
+   "retirada de socio",
+   "fluxo de caixa",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "lote34--l34-v37"
+  },
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "2.3s enfase",
+   "4.2s alerta",
+   "11.8s enfase",
+   "17.3s ritmo",
+   "21.9s ritmo",
+   "27.1s ritmo",
+   "33.3s enfase",
+   "37.3s enfase"
+  ],
+  "segundos": 41.3
+ },
+ {
+  "fonte": "lote34--l34-v39",
+  "grupo": "lote34",
+  "slug": "o-tiguan-alugado",
+  "arquivo": "r1-63-o-tiguan-alugado.mp4",
+  "titulo": "Aluguei um Tiguan por dois dias",
+  "capa": "Aluguei um Tiguan.|*Foi investimento.*",
+  "youtube_titulo": "A primeira impressão: por que aluguei um Tiguan pra visitar cliente",
+  "legenda": "Tive 147, Corcel, Brasília. Pra atender uma grande empresa em Nova Lima, não dava pra chegar com o Civic velho. Aluguei um Tiguan por dois dias. Caro, mas investimento: a primeira impressão é a que fica.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "imagem",
+   "posicionamento",
+   "vendas",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "lote34--l34-v39"
+  },
+  "paleta": "amarelo e preto",
+  "efeitos": [
+   "2.4s ritmo",
+   "6.5s ritmo",
+   "11.0s ritmo",
+   "15.2s ritmo",
+   "19.4s ritmo",
+   "23.6s ritmo",
+   "28.6s enfase",
+   "33.1s ritmo",
+   "37.5s dinheiro",
+   "41.8s ritmo",
+   "46.2s ritmo",
+   "50.5s ritmo",
+   "54.5s ritmo",
+   "59.0s ritmo",
+   "63.4s ritmo"
+  ],
+  "segundos": 68.1
+ },
+ {
+  "fonte": "lote34--l34-v48",
+  "grupo": "lote34",
+  "slug": "o-que-falta-e-paternidade",
+  "arquivo": "r1-64-o-que-falta-e-paternidade.mp4",
+  "titulo": "O que falta é paternidade",
+  "capa": "O que falta hoje|*é paternidade.*",
+  "youtube_titulo": "Mentor e discípulo: o que essa geração perdeu",
+  "legenda": "Fui servente de pedreiro, dividi ovo pra quatro, criado por mãe solo. O que falta hoje é paternidade: alguém pra instruir. Em quem você se espelha? Quem para pra te ouvir?\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "paternidade",
+   "mentor",
+   "familia",
+   "geracao",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "lote34--l34-v48"
+  },
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "1.2s ritmo",
+   "5.2s ritmo",
+   "9.3s ritmo",
+   "13.4s ritmo",
+   "17.5s ritmo",
+   "21.6s ritmo",
+   "25.9s ritmo",
+   "30.2s ritmo",
+   "34.6s ritmo",
+   "38.8s ritmo",
+   "43.6s ritmo"
+  ],
+  "segundos": 47.6
+ },
+ {
+  "fonte": "novos--novo-01-quebrei-7-negocios",
+  "grupo": "novos",
+  "slug": "quebrei-7-negocios",
+  "arquivo": "r1-65-quebrei-7-negocios.mp4",
+  "titulo": "Eu quebrei 7 negócios",
+  "capa": "Eu quebrei|*7 negócios.*",
+  "youtube_titulo": "Eu quebrei sete negócios: o que aprendi pra não quebrar mais",
+  "legenda": "Dói ver uma empresa vazia onde antes tinha gente trabalhando. Eu quebrei sete negócios e aprendi onde errava: precificação, gestão financeira, direito do empresário. E aprendi a procurar gente capacitada.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "quebrar empresa",
+   "aprendizado",
+   "trajetoria",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-01-quebrei-7-negocios"
+  },
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "1.3s ritmo",
+   "5.4s ritmo",
+   "10.1s ritmo",
+   "15.3s medo",
+   "18.1s enfase",
+   "22.0s alerta",
+   "25.9s luz",
+   "31.2s enfase",
+   "37.9s luz",
+   "42.3s ritmo",
+   "46.6s ritmo",
+   "51.1s ritmo",
+   "55.9s ritmo",
+   "62.7s fe",
+   "68.3s enfase",
+   "72.9s ritmo",
+   "77.0s ritmo",
+   "83.0s enfase",
+   "88.2s ritmo",
+   "92.5s ritmo"
+  ],
+  "segundos": 95.8
+ },
+ {
+  "fonte": "novos--novo-02-aliquota-nao-existe",
+  "grupo": "novos",
+  "slug": "o-povo-da-internet",
+  "arquivo": "r1-66-o-povo-da-internet.mp4",
+  "titulo": "Chega de asneira sobre a reforma",
+  "capa": "9%, 27%, 300%...|*Chega de asneira.*",
+  "youtube_titulo": "Reforma tributária: chega de asneira na internet",
+  "legenda": "Tem gente falando de 9%, 27%, 300%, 400%. Ninguém sabe explicar o IVA dual. Eu fiz um sistema pra facilitar a apuração no negócio do cliente.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "reforma tributaria",
+   "iva dual",
+   "aliquota",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-02-aliquota-nao-existe"
+  },
+  "segurar": "conferir a informação antes de agendar (alíquota, prazo ou regra pode ter mudado)",
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "2.0s ritmo",
+   "6.0s ritmo",
+   "10.3s enfase",
+   "13.3s enfase",
+   "20.0s enfase",
+   "24.1s ritmo",
+   "30.8s dinheiro",
+   "34.8s ritmo",
+   "39.0s ritmo",
+   "45.6s dinheiro",
+   "52.7s dinheiro",
+   "56.9s ritmo",
+   "61.2s ritmo",
+   "67.0s medo",
+   "71.7s ritmo",
+   "76.7s ritmo",
+   "82.7s medo",
+   "86.8s enfase"
+  ],
+  "segundos": 89.1
+ },
+ {
+  "fonte": "novos--novo-03-medo-de-reinvestir",
+  "grupo": "novos",
+  "slug": "o-chip-da-escassez",
+  "arquivo": "r1-67-o-chip-da-escassez.mp4",
+  "titulo": "O medo de reinvestir é um chip",
+  "capa": "O medo de reinvestir|*quebra empresas.*",
+  "youtube_titulo": "Por que o pequeno empresário tem medo de reinvestir no próprio negócio",
+  "legenda": "É um chip instalado desde a época da escassez: os pais diziam pra ter cargo público, fazer direito ou medicina. O medo de reinvestir é uma das coisas que mais quebram empresário hoje.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "reinvestir",
+   "escassez",
+   "mentalidade",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-03-medo-de-reinvestir"
+  },
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "1.0s ritmo",
+   "5.2s medo",
+   "8.3s medo",
+   "13.5s ritmo",
+   "17.7s ritmo",
+   "22.2s ritmo",
+   "28.6s fe",
+   "31.7s enfase",
+   "35.5s medo",
+   "37.8s enfase",
+   "42.1s enfase",
+   "44.4s enfase",
+   "50.2s enfase",
+   "55.2s ritmo",
+   "60.0s enfase"
+  ],
+  "segundos": 65.3
+ },
+ {
+  "fonte": "novos--novo-04-terror-split-payment",
+  "grupo": "novos",
+  "slug": "o-terror-do-split",
+  "arquivo": "r1-68-o-terror-do-split.mp4",
+  "titulo": "\"30% da venda vai pro governo\"?",
+  "capa": "\"30% da venda|*vai pro governo\"?*",
+  "youtube_titulo": "Split payment: o que é verdade e o que é terrorismo",
+  "legenda": "Tem muita gente aterrorizando empresário com o split payment, falando que tudo começa de uma vez em janeiro. É uma ferramenta já usada em outros países e vai causar transtorno, sim, mas não do jeito que estão vendendo.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "split payment",
+   "reforma tributaria",
+   "fake news",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-04-terror-split-payment"
+  },
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "1.6s ritmo",
+   "5.9s ritmo",
+   "10.6s ritmo",
+   "14.6s ritmo",
+   "18.9s ritmo",
+   "23.1s ritmo",
+   "27.3s ritmo",
+   "31.4s ritmo",
+   "36.1s ritmo",
+   "43.3s enfase",
+   "47.8s medo",
+   "49.1s alerta",
+   "53.3s ritmo",
+   "57.5s ritmo"
+  ],
+  "segundos": 64.2
+ },
+ {
+  "fonte": "novos--novo-05-errei-no-contrato",
+  "grupo": "novos",
+  "slug": "eu-errei-no-contrato",
+  "arquivo": "r1-69-eu-errei-no-contrato.mp4",
+  "titulo": "Eu errei no contrato",
+  "capa": "Com todo o conhecimento,|*eu errei no contrato.*",
+  "youtube_titulo": "Sociedade emocional: até eu errei no contrato",
+  "legenda": "Há uns meses entrei numa sociedade emocional: queria pegar o negócio no chão e transformar. E errei no contrato. Se eu, com toda a bagagem, errei, imagina quem não sabe nada.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "contrato",
+   "sociedade",
+   "erro",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "novos--novo-05-errei-no-contrato"
+  },
+  "paleta": "creme e preto",
+  "efeitos": [
+   "4.2s enfase",
+   "8.7s ritmo",
+   "13.3s ritmo",
+   "17.3s ritmo",
+   "22.7s luz",
+   "27.2s enfase",
+   "32.7s enfase",
+   "36.6s alerta",
+   "38.7s alerta",
+   "43.4s enfase",
+   "50.9s enfase"
+  ],
+  "segundos": 56.1
+ },
+ {
+  "fonte": "novos--novo-06-acabou-o-jeitinho",
+  "grupo": "novos",
+  "slug": "acabou-o-jeitinho",
+  "arquivo": "r1-70-acabou-o-jeitinho.mp4",
+  "titulo": "Acabou o jeitinho brasileiro",
+  "capa": "Acabou o|*jeitinho brasileiro.*",
+  "youtube_titulo": "A tecnologia acabou com o jeitinho: o fisco tem cinco anos pra te pegar",
+  "legenda": "No tempo da nota de papel, emitia, recebia e cancelava. Depois da pandemia, a tecnologia tomou conta e a fiscalização não precisa mais ir até você. E os órgãos têm até cinco anos pra te pegar.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "fiscalizacao",
+   "nota fiscal",
+   "jeitinho",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-06-acabou-o-jeitinho"
+  },
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "1.2s ritmo",
+   "5.5s ritmo",
+   "10.0s ritmo",
+   "14.1s ritmo",
+   "18.6s ritmo",
+   "22.7s ritmo",
+   "27.5s ritmo",
+   "31.5s ritmo",
+   "39.2s alerta",
+   "43.3s ritmo",
+   "49.0s dinheiro",
+   "54.1s dinheiro",
+   "57.0s enfase",
+   "61.1s ritmo",
+   "68.3s alerta",
+   "73.0s ritmo",
+   "77.7s ritmo",
+   "81.8s ritmo"
+  ],
+  "segundos": 86.9
+ },
+ {
+  "fonte": "novos--novo-07-dobrar-equipe",
+  "grupo": "novos",
+  "slug": "a-matematica-burra",
+  "arquivo": "r1-71-a-matematica-burra.mp4",
+  "titulo": "Dobrar a equipe não dobra o lucro",
+  "capa": "Dobrou a equipe.|*O lucro não dobrou.*",
+  "youtube_titulo": "A matemática burra: dobrar a equipe pra dobrar o lucro",
+  "legenda": "Com 10 pessoas sobram 10. Coloco 20 pra sobrar 20? Não: continua sobrando 10. Se pra aumentar o faturamento você aumenta custo e despesa na mesma medida, não faz sentido.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "equipe",
+   "lucro",
+   "custos",
+   "escala",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "novos--novo-07-dobrar-equipe"
+  },
+  "paleta": "amarelo e preto",
+  "efeitos": [
+   "2.0s ritmo",
+   "6.8s dinheiro",
+   "9.7s dinheiro",
+   "16.1s enfase",
+   "21.2s ritmo",
+   "25.3s ritmo",
+   "29.4s ritmo",
+   "33.5s dinheiro",
+   "38.0s enfase",
+   "43.6s enfase"
+  ],
+  "segundos": 46.3
+ },
+ {
+  "fonte": "novos--novo-08-pedalando-cartao-filha",
+  "grupo": "novos",
+  "slug": "duas-bigornas",
+  "arquivo": "r1-72-duas-bigornas.mp4",
+  "titulo": "Pedalando com o cartão da filha",
+  "capa": "Quebrar é andar com|*duas bigornas.*",
+  "youtube_titulo": "Quebrar não é fechar as portas: é andar carregando duas bigornas",
+  "legenda": "Empréstimo, antecipação de boleto, linha de crédito, e pedalando até com o cartão da filha. Já vi isso acontecer. Quebrar é caminhar sem sair do lugar.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "endividamento",
+   "quebrar",
+   "credito",
+   "fluxo de caixa",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-08-pedalando-cartao-filha"
+  },
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "3.5s medo",
+   "6.6s medo",
+   "10.9s ritmo",
+   "18.8s dinheiro",
+   "23.4s ritmo",
+   "27.5s ritmo",
+   "31.9s ritmo",
+   "36.2s ritmo",
+   "40.8s ritmo",
+   "47.5s dinheiro",
+   "51.9s ritmo",
+   "56.0s dinheiro",
+   "60.4s ritmo",
+   "65.1s ritmo",
+   "69.3s ritmo",
+   "74.1s ritmo"
+  ],
+  "segundos": 77.3
+ },
+ {
+  "fonte": "novos--novo-09-quer-ir-pro-paraguai",
+  "grupo": "novos",
+  "slug": "quer-ir-pro-paraguai",
+  "arquivo": "r1-73-quer-ir-pro-paraguai.mp4",
+  "titulo": "Quer ir pro Paraguai? Vai",
+  "capa": "Quer ir pro Paraguai?|*Então vai.*",
+  "youtube_titulo": "Ir pro Paraguai pra pagar menos imposto? Então leve tudo",
+  "legenda": "Fácil falar que vai pro Paraguai e continuar com a empresa e o dinheiro aqui. Quer pagar menos imposto lá e faturar aqui? Aí fica fácil.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "paraguai",
+   "imposto",
+   "evasao fiscal",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "novos--novo-09-quer-ir-pro-paraguai"
+  },
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "1.1s ritmo",
+   "5.5s ritmo",
+   "9.9s ritmo",
+   "14.6s ritmo",
+   "18.6s ritmo",
+   "24.1s dinheiro",
+   "26.8s dinheiro",
+   "29.5s dinheiro",
+   "33.9s ritmo",
+   "39.0s ritmo",
+   "43.8s ritmo"
+  ],
+  "segundos": 48.1
+ },
+ {
+  "fonte": "novos--novo-10-conta-bloqueada-folha",
+  "grupo": "novos",
+  "slug": "bloqueada-em-2-horas",
+  "arquivo": "r1-74-bloqueada-em-2-horas.mp4",
+  "titulo": "Conta bloqueada em 2 horas",
+  "capa": "Conta bloqueada|*em 2 horas.*",
+  "youtube_titulo": "Dia de folha e conta bloqueada: o erro do contador que vira execução",
+  "legenda": "O contador gera uma guia errada, vira execução fiscal em segredo de justiça e você nem sabe. Aí, no dia da folha, aperta-se um botão e em duas horas está tudo bloqueado. Já aconteceu comigo.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "execucao fiscal",
+   "bloqueio",
+   "contador",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-10-conta-bloqueada-folha"
+  },
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "1.4s enfase",
+   "3.0s alerta",
+   "11.0s alerta",
+   "12.8s alerta",
+   "16.3s enfase",
+   "20.7s ritmo",
+   "25.0s ritmo",
+   "29.7s ritmo",
+   "34.4s ritmo",
+   "38.5s ritmo",
+   "42.7s ritmo",
+   "47.9s enfase",
+   "49.6s alerta"
+  ],
+  "segundos": 53.8
+ },
+ {
+  "fonte": "novos--novo-11-socios-se-morrer",
+  "grupo": "novos",
+  "slug": "e-se-o-socio-morrer",
+  "arquivo": "r1-75-e-se-o-socio-morrer.mp4",
+  "titulo": "E se o seu sócio morrer?",
+  "capa": "E se o seu|*sócio morrer?*",
+  "youtube_titulo": "Contrato social 50 a 50: o que acontece se um sócio morrer",
+  "legenda": "Dois sócios, 50 a 50, uma empresa que cresceu muito. E se um morrer? O que a filha dele sabe disso? O contrato padrão só fala da dívida.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "sociedade",
+   "contrato social",
+   "sucessao",
+   "holding",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-11-socios-se-morrer"
+  },
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "1.8s enfase",
+   "6.1s ritmo",
+   "10.3s dinheiro",
+   "15.7s dinheiro",
+   "18.9s dinheiro",
+   "22.4s medo",
+   "26.8s medo",
+   "31.2s medo",
+   "35.6s enfase",
+   "40.0s enfase",
+   "43.5s enfase",
+   "46.9s luz",
+   "51.3s ritmo",
+   "55.4s ritmo",
+   "60.1s ritmo",
+   "64.4s ritmo",
+   "68.7s ritmo"
+  ],
+  "segundos": 73.0
+ },
+ {
+  "fonte": "novos--novo-12-patrimonio-genro",
+  "grupo": "novos",
+  "slug": "o-espertao",
+  "arquivo": "r1-76-o-espertao.mp4",
+  "titulo": "Você acha que é espertão",
+  "capa": "Você acha que é|*espertão.*",
+  "youtube_titulo": "Evasão fiscal pro Paraguai: a pegadinha de quem tem empresa aqui",
+  "legenda": "Sede aqui, funcionário contratado aqui, responsabilidade fiscal aqui. E a Receita tem várias ferramentas. Achando que vai dar o pulo do gato, vai se ferrar.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "evasao fiscal",
+   "receita federal",
+   "responsabilidade fiscal",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "novos--novo-12-patrimonio-genro"
+  },
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "1.5s ritmo",
+   "5.6s ritmo",
+   "10.1s ritmo",
+   "14.2s ritmo",
+   "18.6s ritmo",
+   "23.2s ritmo",
+   "27.8s ritmo",
+   "32.0s ritmo",
+   "36.2s dinheiro"
+  ],
+  "segundos": 42.8
+ },
+ {
+  "fonte": "outros--direita-e-esquerda-parte-1",
+  "grupo": "outros",
+  "slug": "o-muro",
+  "arquivo": "r1-77-o-muro.mp4",
+  "titulo": "O Brasil está erguendo um muro",
+  "capa": "O Brasil está|*erguendo um muro*",
+  "youtube_titulo": "Depois das eleições: empresário demitindo por política?",
+  "legenda": "Acabaram as eleições e tem empresário demitindo funcionário por estar do outro lado. Já vi isso: existiam duas Alemanhas e o muro de Berlim. Procure entender essa história.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "eleicoes",
+   "polarizacao",
+   "lideranca",
+   "respeito",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "outros--direita-e-esquerda-parte-1"
+  },
+  "paleta": "creme e preto",
+  "efeitos": [
+   "1.1s ritmo",
+   "5.7s ritmo",
+   "10.6s ritmo",
+   "15.7s ritmo",
+   "20.4s ritmo",
+   "24.7s ritmo",
+   "29.0s ritmo",
+   "33.4s ritmo",
+   "38.0s ritmo",
+   "42.0s ritmo",
+   "46.6s ritmo",
+   "51.6s enfase",
+   "55.6s ritmo",
+   "60.1s ritmo",
+   "64.2s ritmo",
+   "68.2s enfase",
+   "72.7s ritmo",
+   "76.7s ritmo",
+   "81.4s ritmo",
+   "85.6s ritmo",
+   "90.2s enfase",
+   "94.6s ritmo",
+   "99.4s ritmo",
+   "103.8s fe",
+   "108.1s ritmo",
+   "112.9s ritmo"
+  ],
+  "segundos": 119.6
+ },
+ {
+  "fonte": "outros--direita-e-esquerda-parte-2",
+  "grupo": "outros",
+  "slug": "olhar-pro-ceu",
+  "arquivo": "r1-78-olhar-pro-ceu.mp4",
+  "titulo": "Em vez de esquerda ou direita, olhe pro céu",
+  "capa": "Esquerda, direita...|*E se olhar pro céu?*",
+  "youtube_titulo": "Jesus escolheu 12 imperfeitos: respeito acima do lado",
+  "legenda": "Na caminhada de Jesus, ele escolheu 12, e não eram perfeitos. A imperfeição pode caminhar junto, mas o respeito é primordial. Tire aprendizado, não retroceda.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "fe",
+   "respeito",
+   "polarizacao",
+   "lideranca",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "outros--direita-e-esquerda-parte-2"
+  },
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "3.6s fe",
+   "7.9s luz",
+   "12.0s ritmo",
+   "18.9s luz",
+   "25.3s alerta",
+   "28.6s alerta",
+   "30.3s alerta",
+   "35.3s ritmo",
+   "41.4s fe",
+   "45.9s ritmo",
+   "50.1s ritmo",
+   "54.6s fe",
+   "62.2s dinheiro",
+   "70.0s fe",
+   "75.7s fe",
+   "83.0s enfase",
+   "87.2s ritmo",
+   "91.4s ritmo",
+   "95.6s ritmo",
+   "99.8s ritmo",
+   "106.1s enfase",
+   "110.2s ritmo",
+   "114.7s ritmo",
+   "118.7s ritmo"
+  ],
+  "segundos": 121.4
+ },
+ {
+  "fonte": "outros--nome-gilberto-short-v3",
+  "grupo": "outros",
+  "slug": "o-nome-gilberto",
+  "arquivo": "r1-79-o-nome-gilberto.mp4",
+  "titulo": "O que significa o nome Gilberto",
+  "capa": "O que significa|*o nome Gilberto?*",
+  "youtube_titulo": "O significado do nome Gilberto",
+  "legenda": "Origem e significado do nome Gilberto, e o que ele carrega.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "nome",
+   "significado",
+   "gilberto",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "outros--nome-gilberto-short-v3"
+  },
+  "paleta": "amarelo e preto",
+  "efeitos": [],
+  "segundos": 13.0
+ },
+ {
+  "fonte": "outros--sena-short",
+  "grupo": "outros",
+  "slug": "o-sobrenome-sena",
+  "arquivo": "r1-80-o-sobrenome-sena.mp4",
+  "titulo": "O que significa o sobrenome Sena",
+  "capa": "O que significa|*o sobrenome Sena?*",
+  "youtube_titulo": "O significado do sobrenome Sena",
+  "legenda": "De onde vem o sobrenome Sena e o que ele significa.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "sobrenome",
+   "sena",
+   "origem",
+   "familia",
+   "gilberto sena"
+  ],
+  "clima": "inspirador",
+  "era": {
+   "fonte_publicada": "outros--sena-short"
+  },
+  "paleta": "petróleo e coral",
+  "efeitos": [],
+  "segundos": 13.0
+ },
+ {
+  "fonte": "pecados--bonus-dignidade-split",
+  "grupo": "pecados",
+  "slug": "a-dignidade",
+  "arquivo": "r1-81-a-dignidade.mp4",
+  "titulo": "O pouco de dignidade que resta",
+  "capa": "Vai facilitar|*pra quem?*",
+  "youtube_titulo": "Split payment e o pequeno empresário: facilita pra quem?",
+  "legenda": "A maioria paga a prestação da casa e do carro, não tem patrimônio: sobrevive. Aí o governo já pega a fatia dele na hora. Vai facilitar o trabalho de quem?\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "split payment",
+   "pequeno empresario",
+   "dignidade",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--bonus-dignidade-split"
+  },
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "2.2s ritmo",
+   "7.0s ritmo",
+   "14.5s enfase",
+   "19.0s ritmo",
+   "24.3s ritmo"
+  ],
+  "segundos": 26.6
+ },
+ {
+  "fonte": "pecados--bonus-fluxo-de-caixa",
+  "grupo": "pecados",
+  "slug": "caixa-apertado",
+  "arquivo": "r1-82-caixa-apertado.mp4",
+  "titulo": "90% não sabem o que é fluxo de caixa",
+  "capa": "90% não sabem|*o que é fluxo de caixa*",
+  "youtube_titulo": "Empreendedor por necessidade: o fluxo de caixa apertado do pequeno",
+  "legenda": "Nós, pequenos e médios, trabalhamos com caixa apertado. A maioria nem sabe o que é fluxo de caixa ou capital de giro: ninguém teve educação financeira na escola. Empreende pra sustentar a família.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "fluxo de caixa",
+   "capital de giro",
+   "pequeno empresario",
+   "gilberto sena"
+  ],
+  "clima": "dinheiro",
+  "era": {
+   "fonte_publicada": "pecados--bonus-fluxo-de-caixa"
+  },
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "5.5s dinheiro",
+   "10.2s dinheiro",
+   "14.8s ritmo",
+   "19.0s ritmo",
+   "23.3s ritmo"
+  ],
+  "segundos": 27.7
+ },
+ {
+  "fonte": "pecados--bonus-resposta-ao-professor",
+  "grupo": "pecados",
+  "slug": "resposta-ao-professor",
+  "arquivo": "r1-83-resposta-ao-professor.mp4",
+  "titulo": "Acabar com o tributarista? Ao contrário",
+  "capa": "Cortar o tributarista|*primeiro?*",
+  "youtube_titulo": "Resposta ao professor que disse pra acabar com a profissão de tributarista",
+  "legenda": "Ouvi de um professor universitário que o tributarista era a primeira economia do empresário. Pelo contrário: ser empresário é contratar quem pode te orientar.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "tributarista",
+   "consultoria",
+   "planejamento tributario",
+   "gilberto sena"
+  ],
+  "clima": "neutro",
+  "era": {
+   "fonte_publicada": "pecados--bonus-resposta-ao-professor"
+  },
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "1.4s ritmo",
+   "8.8s dinheiro",
+   "13.8s ritmo",
+   "21.1s luz"
+  ],
+  "segundos": 24.8
+ },
+ {
+  "fonte": "pecados--pecado-0-ancora-apocalipse",
+  "grupo": "pecados",
+  "slug": "o-apocalipse-dos-negocios",
+  "arquivo": "r1-84-o-apocalipse-dos-negocios.mp4",
+  "titulo": "Os 7 pecados que vão destruir empresas",
+  "capa": "Os 7 pecados|*que vão destruir empresas*",
+  "youtube_titulo": "Os sete pecados capitais da reforma tributária",
+  "legenda": "Já estão confirmados os sete pecados capitais que vão destruir empresas, famílias e negócios. Vou falar um por um. Se você estiver cometendo algum, se prepare.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "reforma tributaria",
+   "7 pecados",
+   "empresas",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--pecado-0-ancora-apocalipse"
+  },
+  "paleta": "verde-escuro e limão",
+  "efeitos": [
+   "4.7s enfase",
+   "6.9s enfase",
+   "11.9s ritmo",
+   "16.9s ritmo",
+   "23.0s ritmo",
+   "27.5s ritmo",
+   "32.6s ritmo",
+   "38.3s ritmo",
+   "42.7s ritmo",
+   "48.3s ritmo",
+   "52.6s ritmo",
+   "56.8s ritmo",
+   "61.2s ritmo",
+   "68.5s luz"
+  ],
+  "segundos": 70.2
+ },
+ {
+  "fonte": "pecados--pecado-1-cbs",
+  "grupo": "pecados",
+  "slug": "pecado-1-cbs",
+  "arquivo": "r1-85-pecado-1-cbs.mp4",
+  "titulo": "1º pecado: a CBS",
+  "capa": "1º pecado:|*a CBS*",
+  "youtube_titulo": "Primeiro pecado da reforma: a CBS",
+  "legenda": "Começou como teste e em 2027 vem com força total. Vai ser um dos pilares de destruição de muitos negócios.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "cbs",
+   "reforma tributaria",
+   "7 pecados",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--pecado-1-cbs"
+  },
+  "segurar": "conferir a informação antes de agendar (alíquota, prazo ou regra pode ter mudado)",
+  "paleta": "creme e preto",
+  "efeitos": [
+   "2.3s ritmo",
+   "6.8s ritmo",
+   "11.5s ritmo",
+   "15.7s ritmo",
+   "19.8s ritmo"
+  ],
+  "segundos": 24.5
+ },
+ {
+  "fonte": "pecados--pecado-2-imposto-seletivo",
+  "grupo": "pecados",
+  "slug": "pecado-2-seletivo",
+  "arquivo": "r1-86-pecado-2-seletivo.mp4",
+  "titulo": "2º pecado: o imposto do pecado",
+  "capa": "2º pecado:|*o imposto seletivo*",
+  "youtube_titulo": "Segundo pecado: o imposto seletivo, o \"imposto do pecado\"",
+  "legenda": "Imposto do pecado é só um nome bonito pra mais uma forma de tirar a nossa paz. Previsto pra 2027.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "imposto seletivo",
+   "reforma tributaria",
+   "7 pecados",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--pecado-2-imposto-seletivo"
+  },
+  "paleta": "roxo e laranja",
+  "efeitos": [
+   "3.7s dinheiro",
+   "7.4s dinheiro",
+   "9.9s dinheiro",
+   "12.2s dinheiro",
+   "20.6s dinheiro",
+   "26.3s ritmo",
+   "32.3s ritmo"
+  ],
+  "segundos": 35.2
+ },
+ {
+  "fonte": "pecados--pecado-3-simples-hibrido",
+  "grupo": "pecados",
+  "slug": "pecado-3-hibrido",
+  "arquivo": "r1-87-pecado-3-hibrido.mp4",
+  "titulo": "3º pecado: o Simples híbrido",
+  "capa": "3º pecado:|*o Simples híbrido*",
+  "youtube_titulo": "Terceiro pecado: o que tem de simples no Simples híbrido?",
+  "legenda": "O Simples híbrido é um Simples com carga maior: paga tudo o que já pagava e ainda recolhe CBS e IBS por fora, sem esperar o teto de faturamento. O que tem de simples nisso?\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "simples hibrido",
+   "simples nacional",
+   "7 pecados",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--pecado-3-simples-hibrido"
+  },
+  "segurar": "conferir a informação antes de agendar (alíquota, prazo ou regra pode ter mudado)",
+  "paleta": "amarelo e preto",
+  "efeitos": [
+   "0.0s luz",
+   "5.1s enfase",
+   "8.2s dinheiro",
+   "13.9s enfase",
+   "16.1s enfase",
+   "20.8s ritmo",
+   "28.3s dinheiro",
+   "32.8s ritmo",
+   "38.1s ritmo",
+   "42.1s dinheiro"
+  ],
+  "segundos": 43.5
+ },
+ {
+  "fonte": "pecados--pecado-4-pj-tecnico",
+  "grupo": "pecados",
+  "slug": "pecado-4-pj",
+  "arquivo": "r1-88-pecado-4-pj.mp4",
+  "titulo": "4º pecado: o profissional PJ",
+  "capa": "4º pecado:|*o profissional PJ*",
+  "youtube_titulo": "Quarto pecado: contador e profissional liberal emitindo nota",
+  "legenda": "Contadores e profissionais liberais vão ter que emitir nota fiscal, e o empresário vai usar isso pra pedir desconto. Pode afetar muitas famílias.\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "pejotizacao",
+   "profissional liberal",
+   "7 pecados",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--pecado-4-pj-tecnico"
+  },
+  "paleta": "petróleo e coral",
+  "efeitos": [
+   "2.7s ritmo",
+   "7.0s dinheiro",
+   "12.0s ritmo",
+   "16.6s ritmo",
+   "21.1s ritmo"
+  ],
+  "segundos": 24.9
+ },
+ {
+  "fonte": "pecados--pecado-5-cib-imovel",
+  "grupo": "pecados",
+  "slug": "pecado-5-cib",
+  "arquivo": "r1-89-pecado-5-cib.mp4",
+  "titulo": "5º pecado: o CIB dos imóveis",
+  "capa": "5º pecado:|*o CIB*",
+  "youtube_titulo": "Quinto pecado: o CIB e o imposto sobre imóvel",
+  "legenda": "Pagou imposto quando comprou, pagou quando vendeu, e agora vem mais um pra regularizar o mercado imobiliário. Isso não é pecado?\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "cib",
+   "imoveis",
+   "mercado imobiliario",
+   "7 pecados",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--pecado-5-cib-imovel"
+  },
+  "paleta": "grafite e dourado",
+  "efeitos": [
+   "1.6s ritmo",
+   "7.0s dinheiro",
+   "10.1s dinheiro"
+  ],
+  "segundos": 12.4
+ },
+ {
+  "fonte": "pecados--pecado-6-split-payment",
+  "grupo": "pecados",
+  "slug": "pecado-6-split",
+  "arquivo": "r1-90-pecado-6-split.mp4",
+  "titulo": "6º pecado: o split payment",
+  "capa": "6º pecado:|*o split payment*",
+  "youtube_titulo": "Sexto pecado: split payment, o nome bonito",
+  "legenda": "Split payment: que nome bonito. Por que não falaram logo \"me dá o meu pedaço\"?\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "split payment",
+   "reforma tributaria",
+   "7 pecados",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--pecado-6-split-payment"
+  },
+  "paleta": "marinho e amarelo",
+  "efeitos": [
+   "1.2s ritmo",
+   "5.3s ritmo",
+   "9.5s ritmo"
+  ],
+  "segundos": 14.0
+ },
+ {
+  "fonte": "pecados--pecado-7-aliquota-secreta",
+  "grupo": "pecados",
+  "slug": "pecado-7-aliquota",
+  "arquivo": "r1-91-pecado-7-aliquota.mp4",
+  "titulo": "7º pecado: a alíquota secreta",
+  "capa": "7º pecado:|*a alíquota secreta*",
+  "youtube_titulo": "Sétimo pecado: a alíquota que ninguém contou",
+  "legenda": "Você já sabe qual é a alíquota? Não me contaram, não tem nada publicado. Por que essa incógnita?\n\nE você, o que acha? Comenta aqui.\n\n— Gilberto Sena | Grupo Sena Soluções Empresariais\n@gilbertosenaoficial",
+  "tags": [
+   "aliquota",
+   "reforma tributaria",
+   "7 pecados",
+   "gilberto sena"
+  ],
+  "clima": "tenso",
+  "era": {
+   "fonte_publicada": "pecados--pecado-7-aliquota-secreta"
+  },
+  "segurar": "conferir a informação antes de agendar (alíquota, prazo ou regra pode ter mudado)",
+  "paleta": "vinho e champanhe",
+  "efeitos": [
+   "3.5s enfase"
+  ],
+  "segundos": 8.6
  }
 ]

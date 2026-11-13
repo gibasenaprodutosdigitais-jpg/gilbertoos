@@ -30,7 +30,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | O quê | A partir de | Quanto |
 |---|---|---|
-| Carrossel das 18h | **17/11** | 1 por dia. Os de 4 a 14/11 entraram em 30/out; o do marketplace foi pra 15/11 e o de serviços pra 16/11 (os dois com a CBS do TCU, 11/nov); não sobrou nenhum pronto (ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`) |
+| Carrossel das 18h | **1/12** | os 14 de 17 a 30/11 foram feitos e agendados em 12/nov, no tema do reel das 12h de cada dia (`saidas/CARROSSEIS/novembro-17-a-30/`); dezembro sem nenhum |
 | Provérbios das 5h | **1/12** | foto de dezembro (e saber se vêm frases novas) |
 | Frase do dia das 9h | **1/12** | frases de dezembro; novembro fechado em 2/nov, com a foto de terno desde 8/11 |
 | YouTube | **16/11 às 16h** | 3 por dia (10h, 16h, 19h): cortes do carro até 10/11 19h e os 16 reels da AME sem a imersão de 11/11 a 16/11 10h (`sb/AME/divulgacao/reels-sem-imersao-2026-11-08/`) (`sb/AME/divulgacao/reels-no-youtube-2026-11-02/`); depois precisa de vídeo novo |

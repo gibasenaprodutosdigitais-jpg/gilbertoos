@@ -47,7 +47,7 @@ PALETAS = [
     {"nome": "verde-escuro e limão", "fundo": (8, 46, 36), "texto": (255, 255, 255), "destaque": (170, 230, 60), "medo": (255, 96, 96)},
     {"nome": "creme e preto", "fundo": (246, 240, 228), "texto": (22, 22, 24), "destaque": (196, 32, 44), "medo": (196, 32, 44)},
     {"nome": "roxo e laranja", "fundo": (36, 18, 64), "texto": (255, 255, 255), "destaque": (255, 146, 30), "medo": (255, 92, 92)},
-    {"nome": "amarelo e preto", "fundo": (255, 204, 0), "texto": (18, 18, 18), "destaque": (255, 255, 255), "medo": (176, 18, 30)},
+    {"nome": "amarelo e preto", "fundo": (255, 204, 0), "texto": (18, 18, 18), "destaque": (168, 16, 28), "medo": (120, 0, 12)},
     {"nome": "petróleo e coral", "fundo": (6, 52, 64), "texto": (240, 250, 250), "destaque": (255, 128, 100), "medo": (255, 80, 80)},
 ]
 PAL = dict(PALETAS[0])
