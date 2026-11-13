@@ -57,7 +57,7 @@ Motor: `ferramenta/reestruturar.py` (usa a receita de corte de `reels-gravacoes-
 Os vídeos ficam em `videos/`, fora do GitHub (só no notebook). A conversão de cor das gravações do iPhone fica no
 scratchpad da sessão; se sumir, refazer com `avconvert` (ver a memória do vídeo HDR do iPhone).
 
-## Situação (13/nov)
+## Situação (12/nov)
 
 - ✅ **107 prontos** em `videos/`, com a capa de cada um em `capas/`: os 26 do carro (motor `ferramenta/reestruturar.py`)
   e os 81 publicados de outros lotes (motor `ferramenta/reestruturar_publicado.py`; como a legenda antiga vem gravada

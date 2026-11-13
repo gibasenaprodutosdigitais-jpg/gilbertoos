@@ -23,6 +23,9 @@
   em 3D, com o leão polido no centro e "GILBERTO SENA" e "BUSINESS ADVISOR & CONSULTANT" gravados em volta, em
   Copperplate. Arquivos (transparente, fundo claro e fundo vinho) em
   `saidas/NEGOCIOS-E-MARCA/logo-3d-business-advisor-2026-11-12/`, começando por `opcao-3-`.
+  **Nos carrosséis de 17 a 30/11 ela entra como marca d'água** (pedido dele, 12/nov/2026): em cinza, grande e bem
+  clara no centro de toda lâmina, atrás do texto. É exceção pedida por ele à regra de "logo uma vez só", não um
+  descuido; detalhe no `LEIA.md` de `saidas/CARROSSEIS/novembro-17-a-30/`.
 
 - **Papel timbrado de contrato e proposta** (decidido por ele em 12/nov/2026): a **logo dourada** (a medalha, opção 3)
   pequena no topo de cada página, com um fio fino embaixo; o **leão da opção 1 (aço), bem claro, como marca d'água** no

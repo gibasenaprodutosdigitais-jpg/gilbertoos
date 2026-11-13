@@ -12,11 +12,13 @@
 
 ## O primeiro ato da próxima sessão
 
-**A fila em 8/nov:** YouTube 3 por dia (10h, 16h, 19h) até **16/11 às 10h** (cortes do carro até 10/11; depois os 16
-reels da AME, já sem o convite da imersão e com cor e zoom, de 11 a 16/11). TikTok **1 por dia às 18h até 24/11** (os
-mesmos 16). Instagram: os 16 como reel de teste, 15h e 20h, de 9 a 16/11, além da grade normal (tabela abaixo). Tudo
-em `sb/AME/divulgacao/reels-sem-imersao-2026-11-08/LEIA.md`. **O primeiro buraco é o carrossel das 18h, a partir de
-17/11.** O acervo das gravações longas acabou: pro YouTube e o TikTok continuarem, precisa de vídeo novo dele.
+**A fila em 12/nov:** YouTube com reels 3 por dia (10h, 16h, 19h) até **16/11 às 10h** (os 16 reels da AME sem a
+imersão), mais Provérbios (5h) e frase do dia (9h) em Shorts de 9 s até **30/11**. TikTok **1 por dia às 18h até 24/11**.
+Instagram: grade normal até 30/11 (carrossel das 18h fechado de 17 a 30/11, reels das 12h até 3/12); os reels da AME
+das 15h viraram reels normais de 13 a 16/11 (14 a 16 com o vídeo refeito, 15/11 com o corte reestruturado AME-13) e os
+das 20h seguem de teste até 16/11. **Os buracos:** reels do YouTube depois de 16/11 16h, TikTok depois de 24/11, e no
+Instagram carrossel, frase e Provérbios a partir de **1/12**. Pros vídeos há os 106 cortes reestruturados prontos, mas
+ele pediu pra esperar o material novo que está chegando.
 
 **11/nov: pausa e volta da fila.** Ele mandou parar todas as postagens e, horas depois, cancelou a ordem. Os 77 posts de
 12 a 30/11 voltaram nos horários originais. Os 6 de 11/11 não saíram na hora: o reel de teste AME 5 publicou por
@@ -28,7 +30,7 @@ AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já
 | Frente | Onde está | O que falta |
 |---|---|---|
 | **Assessoria AME** (desde 8/nov; a imersão de 14 e 15/nov foi **cancelada**) | ficha de interesse em assessoria-ame.vercel.app; os 16 reels sem a imersão agendados nas três redes; lives toda quarta no @stanleybittar | ele trocar o link da bio; rever pra assessoria os contratos do Choque de Ordem e da Escala Blindada; advogado conferir as regras CFM/CFO; logo original |
-| **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 30/11, reels até 3/12 | carrosséis de 17 a 30/11 agendados em 12/nov (no tema do reel do dia), com a marca d'água da Business Advisor Consult desde 13/nov; dezembro: carrossel, foto do Provérbios e frases |
+| **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 30/11, reels até 3/12 | carrosséis de 17 a 30/11 agendados em 12/nov (no tema do reel do dia), com a marca d'água da Business Advisor Consult desde 12/nov; dezembro: carrossel, foto do Provérbios e frases |
 | **YouTube** | 3 por dia (10h, 16h, 19h): os 16 reels da AME sem a imersão até **16/11 10h** (os dois de 11/11 não saíram por causa da pausa) | vídeo novo depois de 16/11 10h |
 | **TikTok** | os 16 reels da AME com efeitos (cor e zoom), **1 por dia às 18h, até 24/11** (o de 11/11 não saiu por causa da pausa) | vídeo novo depois de 24/11 |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
@@ -41,7 +43,7 @@ AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já
 | **Imprensa e Sebrae** (11/nov) | perfil de fonte, 3 artigos (saúde, serviços, venda online), 10 e-mails prontos e o caminho do Sebrae em `saidas/NEGOCIOS-E-MARCA/kit-imprensa-e-sebrae-2026-11-11/`; envio pela conta gibasena.produtosdigitais@gmail.com, decisão dele | ele liberar no Claude a permissão de **enviar** do Gmail (o teste falhou) e dar o último ok; pedir aos clientes o atestado de capacidade técnica (modelo do Sebrae pronto em `anexos/`), somando 200 horas por área; quem se credencia é a **GS Consultoria Empresarial** (decisão dele, 12/nov; o atestado já está no nome dela); começar pelo Sebrae Goiás (inscrição permanente) |
 | **Contrato Business Advisor and Consultant** (12/nov) | minuta pronta em `saidas/NEGOCIOS-E-MARCA/propostas-de-servicos/`, em Word e PDF no papel timbrado: GS Consultoria Empresarial (65%) e Sena Contabilidade (35%, CRC-MG 110075/OI), as duas representadas por ele; R$ 5.000/mês por 24 meses, 10% sobre a economia, 5% sobre o faturamento acima de 10%, multa de saída gradativa e NDA de 24 mensalidades + R$ 30 mil | revisão do advogado; os dados de cada cliente na hora de fechar |
 | **Contrato Assessoria Contábil, Tributária e Financeira** (12/nov) | contrato 02 na mesma pasta: mensalidade em 7 faixas de R$ 850 a R$ 3.500 (caixa para marcar), pela Sena Contabilidade, + 15% sobre o proveito econômico tributário, pela GS Consultoria; mesmas contratadas, papel timbrado com a logo do Grupo Sena | ele confirmar o critério das faixas (faturamento médio mensal, cortes sugeridos por mim) (a redução de multas e juros de débito tributário entra nos 15%, confirmado); advogado |
-| **Cortes reestruturados nº 1** (12/nov) | pasta `saidas/REELS/cortes-reestruturados-numero-1/` (LEIA.md com tudo): os cortes que já foram ao ar refeitos com cara de vídeo novo (velocidade 1,22x, capa no meio cobrindo o rosto, cor e efeitos pelo sentido da fala, cores diferentes por corte, arquivo sem metadado do original, texto novo). Visual aprovado por ele. **Os 107 prontos** (26 do carro + 81 publicados de outros lotes), vídeos só no notebook; 8 marcados `segurar` (CBS ~9%, prazo do Simples híbrido, CT-e) pra conferir na fonte antes de agendar. Agendado só o AME-13, que virou o vídeo do reel de 15/11 15h | **em espera (13/nov):** ele pediu pra não montar a grade ainda porque tem material novo chegando; quando chegar, encaixar junto. Depois: ele assistir; decidir datas dos outros 106 (YouTube depois de 16/11 16h, TikTok depois de 24/11, Instagram 12h depois de 3/12); os 19 reacts de música e as 8 aulas de A Base da Gestão ficaram fora, a confirmar |
+| **Cortes reestruturados nº 1** (12/nov) | pasta `saidas/REELS/cortes-reestruturados-numero-1/` (LEIA.md com tudo): os cortes que já foram ao ar refeitos com cara de vídeo novo (velocidade 1,22x, capa no meio cobrindo o rosto, cor e efeitos pelo sentido da fala, cores diferentes por corte, arquivo sem metadado do original, texto novo). Visual aprovado por ele. **Os 107 prontos** (26 do carro + 81 publicados de outros lotes), vídeos só no notebook; 8 marcados `segurar` (CBS ~9%, prazo do Simples híbrido, CT-e) pra conferir na fonte antes de agendar. Agendado só o AME-13, que virou o vídeo do reel de 15/11 15h | **em espera (12/nov):** ele pediu pra não montar a grade ainda porque tem material novo chegando; quando chegar, encaixar junto. Depois: ele assistir; decidir datas dos outros 106 (YouTube depois de 16/11 16h, TikTok depois de 24/11, Instagram 12h depois de 3/12); os 19 reacts de música e as 8 aulas de A Base da Gestão ficaram fora, a confirmar |
 | **Fundo de debêntures** | ideia registrada | a conta do custo de captação contra os 9% do Pronamp |
 | **Media kit de palestrante** | kit e showreel prontos | proposta comercial, depoimentos de contratantes, fotos com nomes grandes |
 
@@ -83,7 +85,7 @@ não tem conserto aqui: nem o transcritor mais forte entende a fala. Pedir o arq
 importantes, falta empatia e amor, longe do que Jesus ensina; Mateus 22:39). **Falta ele gravar.** Sem cena do filme.
 A frase final ("o seu tempo vale muito, mas a pessoa do seu lado vale mais") é sugestão minha: ele aprova ou troca.
 
-**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 18h a partir de 17/11** (de 4 a 14/11 agendados em 30/out, e o do marketplace, que não saiu em 11/11, foi pra 15/11; **não sobrou nenhum pronto**, ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`)
+**Duas frentes abertas.** (1) Continuar enfileirando os carrosséis, **1 por dia às 18h a partir de 1/12** (17 a 30/11 agendados em 12/nov, em `saidas/CARROSSEIS/novembro-17-a-30/`; **não sobrou nenhum pronto**, ver `saidas/CARROSSEIS/_PLANO-DA-FILA.md`)
 (grade de 4 posts por dia, decidida em 18/out). (2) O projeto Reestruturando com Êxito, que ele vai
 alimentando aos poucos — ver a seção logo abaixo.
 
@@ -92,7 +94,7 @@ alimentando aos poucos — ver a seção logo abaixo.
 assinada está na Downloads. Em `juridico/exito/` (só no notebook, fora do GitHub: decisão dele em 27/out) estão o estatuto e as duas cartas (a de afastamento temporário, art. 23, não
 foi usada). ⚠ Se a saída se confirmar, o Reestruturando com Êxito (proposta a uma diretoria do Instituto) cai junto.
 
-**Carrosséis: fila fechada até 14/11, 1 por dia às 18h** (4 a 14/11 entraram em 30/out) (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **17/11** (o do marketplace, que não saiu em 11/11, foi pra 15/11; o de serviços saiu de 12/11 pra 16/11 pra trocar a CBS antiga de 9,24% pelos 11,3% do TCU). **A série dos 5 Gs está completa:** saíram 22, 25 e 26/10, a 4 Tributária em 1/11 e a 5 Fornecedores em 2/11
+**Carrosséis: fila fechada até 30/11, 1 por dia às 18h** (4 a 14/11 entraram em 30/out; 17 a 30/11 em 12/nov) (eram 20h; ele mudou em 21/out para o carrossel fechar o dia). Próximo: **1/12** (o do marketplace, que não saiu em 11/11, foi pra 15/11; o de serviços saiu de 12/11 pra 16/11 pra trocar a CBS antiga de 9,24% pelos 11,3% do TCU). **A série dos 5 Gs está completa:** saíram 22, 25 e 26/10, a 4 Tributária em 1/11 e a 5 Fornecedores em 2/11
 (conferido na Zernio). Segurados: o Representante Comercial (prazo de setembro);
 o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pago; com ele diretor do Instituto Êxito,
 **decisão dele**). Lista em `saidas/CARROSSEIS/_PLANO-DA-FILA.md`.
@@ -100,7 +102,7 @@ o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pag
 
 **Instagram: 4 posts por dia desde 19/out (5h Provérbios, 9h frase, 12h reel novo, 18h carrossel; o carrossel era às 20h até 21/out), todos os dias:
 a frase do dia passou a sair também no fim de semana (pedido dele, 18/out).** Frase agendada até 30/11
-(as de 8 a 29/11 entraram em 2/nov, com a foto nova de terno); falta dezembro. YouTube: 3 reels por dia (10h, 16h, 19h, desde 3/11), coberto até 10/11 às 19h. Tudo em `cronograma-de-postagens.md`.
+(as de 8 a 29/11 entraram em 2/nov, com a foto nova de terno); falta dezembro. YouTube: 3 reels por dia (10h, 16h, 19h, desde 3/11), coberto até 16/11 às 10h, mais Provérbios (5h) e frase do dia (9h) em Shorts até 30/11. Tudo em `cronograma-de-postagens.md`.
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
@@ -202,14 +204,14 @@ Public Sans. Sem azul e dourado.
 
 ## 0. ★ A fila de conteúdo — o trabalho em curso
 
-### ⏳ Os carrosséis: 1 por dia às 18h, fila fechada até 14/11
+### ⏳ Os carrosséis: 1 por dia às 18h, fila fechada até 30/11
 
 ⚠ **31/out: saúde NÃO tem os 30% de profissão regulamentada** (a lista final do art. 127 tem 18 profissões, nenhuma da
 saúde). Os carrosséis de 6, 8 e 10/11 foram corrigidos na Zernio. O dos médicos que saiu em 23/10 tem "ou os 60% de
 saúde, ou os 30%" numa lâmina; a legenda está certa, e lâmina publicada não dá pra trocar. **Conferir isso em toda peça
 de saúde.**
 
-**Próximo a enfileirar: 17/11.** A ordem, os segurados e o ponto de retomada estão em
+**Próximo a enfileirar: 1/12.** A ordem, os segurados e o ponto de retomada estão em
 `saidas/CARROSSEIS/_PLANO-DA-FILA.md` (a grade de 15h e 20h acabou em 18/out).
 
 **O caminho, por carrossel:**
@@ -307,9 +309,9 @@ pra movimentar o canal. O TikTok ficou como estava.
 | **5h** | Provérbios | ✅ até **30/11** (novembro agendado em 28/out) |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 30/11 (foto de terno desde 8/11); falta dezembro |
 | **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
-| **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 16/11; **de 17/11 em diante, 1 por dia** |
+| **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 30/11 (17 a 30 no tema do reel do dia, com a marca d'água da Business Advisor); falta dezembro |
 
-**YouTube: 3 por dia desde 3/11 (10h, 16h, 19h; eram 5 até 2/11, mudou a pedido dele), coberto até 10/11 às 19h** (cortes do carro e os 16 reels da AME). Os 8 reels antigos que eram só do
+**YouTube: 3 por dia desde 3/11 (10h, 16h, 19h; eram 5 até 2/11, mudou a pedido dele), coberto até 16/11 às 10h** (cortes do carro e os 16 reels da AME), **mais Provérbios (5h) e frase do dia (9h) em Shorts de 9 s de 13 a 30/11** (`saidas/CARDS/youtube-shorts-novembro/`). Os 8 reels antigos que eram só do
 Instagram estão como rascunho na Zernio. Detalhe e IDs em `_memoria/cronograma-de-postagens.md`.
 
 ★ **Para mover post agendado, usar `posts_update`** (a ferramenta curta do

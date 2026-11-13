@@ -95,7 +95,7 @@ pastas que usam esse modelo e as lâminas foram regeradas; nos posts agendados, 
 | 14/11 | `reforma-ecommerce` (refeito: IS "previsto", split no 2º semestre de 2027 em etapas; selo do leão tirado de cima do texto nas lâminas 1, 5 e 8) | `6ae43487e250bab3226c7956` |
 
 Conferidos em 30/out contra os fichamentos (60% saúde, art. 47, 25% do entregador, Anexo II, US$ 50 e 9,43%). As
-quatro de saúde caem na semana antes da Imersão AME (14 e 15/11). **Próximo a enfileirar: 15/11 às 18h.**
+quatro de saúde caem na semana antes da Imersão AME (14 e 15/11). **Próximo a enfileirar: 1/12 às 18h.** (15 e 16/11 receberam o marketplace e o de serviços remarcados; 17 a 30/11 foram feitos em 12/nov, no tema do reel do dia, em `novembro-17-a-30/`.)
 
 **Ficaram de fora em 30/out, e por quê:**
 - `medicos-reforma-2026-08-27`: repete o `reforma-medicos` que saiu em 23/10 ("Médico tem 60%, não 30%").

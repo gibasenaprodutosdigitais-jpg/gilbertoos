@@ -14,5 +14,5 @@ Pedido dele em 12/nov: fechar o mês com um carrossel por dia, **no tema do reel
 - **Como refazer:** editar `textos.md` e rodar `python3 gerar.py`, depois
   `NODE_PATH=../../../scripts/node_modules node render.js <pastas>`. Cada pasta tem `carrossel.html`, `legenda.md` e
   `instagram/slide-NN.png`.
-- **Situação:** 14 prontos (96 lâminas), aprovados e **agendados na Zernio em 12/nov**, todo dia às 18h (21:00Z) de 17 a 30/11, só no Instagram. Em 13/nov as imagens dos 14 posts foram trocadas pelas versões com marca d'água (legenda e
+- **Situação:** 14 prontos (96 lâminas), aprovados e **agendados na Zernio em 12/nov**, todo dia às 18h (21:00Z) de 17 a 30/11, só no Instagram. Em 12/nov as imagens dos 14 posts foram trocadas pelas versões com marca d'água (legenda e
   horário mantidos).

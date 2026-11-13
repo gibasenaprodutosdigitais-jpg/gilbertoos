@@ -1,6 +1,6 @@
 # Cronograma de postagens
 
-Fila real da Zernio, **lida em 18/out/2026, conferida em 21/out e em 30/out, e relida inteira em 02/nov e em 08/nov; conferida de novo em 11/nov, depois da pausa** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
+Fila real da Zernio, **lida em 18/out/2026, conferida em 21/out e em 30/out, e relida inteira em 02/nov e em 08/nov; conferida de novo em 11/nov, depois da pausa, e atualizada em 12/nov com os carrosséis de 17 a 30/11 e os Shorts do YouTube** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
 
 ## A grade desde 19/out (decisão dele em 18/out)
@@ -11,7 +11,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 | Rede | Grade | Até quando está coberto |
 |---|---|---|
-| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **7/11** (e 30/11); carrossel até **16/11** |
+| **Instagram** | **5h** Provérbios · **9h** frase do dia (**todo dia**, desde 18/out) · **12h** um reel novo · **18h** carrossel (era 20h; mudou em 21/out para fechar o dia) | reels até **3/12**; Provérbios até 30/11; frase até **30/11**; carrossel até **30/11** |
 | **YouTube** | **+ 5h Provérbios e 9h frase do dia, de 13 a 30/11** (Shorts de 9 s feitos das imagens do Instagram, agendados em 12/nov; ver `saidas/CARDS/youtube-shorts-novembro/`) · **3 reels por dia: 10h, 16h, 19h** desde 3/11 (pedido dele em 2/nov; eram 5, às 7h, 10h, 13h, 16h, 19h) | até **16/11 às 10h** (cortes do carro até 10/11 19h; os 16 reels da AME sem a imersão de 11/11 10h a 16/11 10h; os 16 antigos foram apagados do canal em 8/nov) |
 | **TikTok** | sem mudança: os horários que já tinham (6h, 12h e 18h) | até **24/11 18h**: desde 9/11, **1 por dia às 18h** (pedido dele em 8/nov), com os 16 reels da AME com efeitos |
 
@@ -37,7 +37,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 
 ## Post a post (lido da fila da Zernio em 08/nov, 22h)
 
-131 publicações de 09/11 a 03/12: já com os 16 reels da AME sem a imersão e com efeitos (reel de teste no Instagram, YouTube e TikTok) e o TikTok em 1 por dia. Os reels da AME antigos foram apagados do YouTube em 8/nov. O que já saiu está no histórico do git.
+131 publicações de 09/11 a 03/12, mais os 14 carrosséis de 17 a 30/11 (acrescentados em 12/nov; os 36 Shorts de Provérbios e frase no YouTube ficam em `saidas/CARDS/youtube-shorts-novembro/agenda-youtube.json`): já com os 16 reels da AME sem a imersão e com efeitos (reel de teste no Instagram, YouTube e TikTok) e o TikTok em 1 por dia. Os reels da AME antigos foram apagados do YouTube em 8/nov. O que já saiu está no histórico do git.
 
 | Dia | Hora | Onde | O quê | Começo do texto |
 |---|---|---|---|---|
@@ -107,7 +107,7 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 15/11 dom | 09h00 | Instagram | frase do dia | O cliente percebe quando a empresa promete antes de saber se consegue … |
 | 15/11 dom | 10h00 | YouTube | reels | Mentoria é roupa de prateleira |
 | 15/11 dom | 12h00 | Instagram | reels | De R$ 300 mil por mês, numa mesa de café, a R$ 5,5 milhões em três ano… |
-| 15/11 dom | 15h00 | Instagram | reel normal (era de teste), vídeo refeito com a headline cobrindo o rosto | Mentoria é roupa de prateleira |
+| 15/11 dom | 15h00 | Instagram | reel normal (era de teste); vídeo trocado em 12/nov pelo corte reestruturado AME-13, "Tamanho único não serve em ninguém" | Mentoria é roupa de prateleira |
 | 15/11 dom | 16h00 | YouTube | reels | A frase que fecha toda mentoria |
 | 15/11 dom | 18h00 | TikTok | reels | Mentoria ou assessoria: a diferença |
 | 15/11 dom | 18h00 | Instagram | carrossel | Se você vende em marketplace ou loja online, a reforma tributária vai … (remarcado de 11/11) |
@@ -125,52 +125,66 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | 17/11 ter | 09h00 | Instagram | frase do dia | Alíquota menor não corrige uma operação mal precificada. |
 | 17/11 ter | 12h00 | Instagram | reels | "Eu fiz, eu faço de novo. É do meu jeito." O pior pilar de um negócio … |
 | 17/11 ter | 18h00 | TikTok | reels | O plano que foi pra gaveta |
+| 17/11 ter | 18h00 | Instagram | carrossel | O pior pilar de um negócio é o ego do dono. |
 | 18/11 qua | 05h00 | Instagram | Provérbios | Antes de falar, considere o peso das suas palavras: elas podem restaur… |
 | 18/11 qua | 09h00 | Instagram | frase do dia | Serviço vendido e serviço entregue são duas etapas. O caixa precisa at… |
 | 18/11 qua | 12h00 | Instagram | reels | Pejotização: o empresário é o espertão e, lá na frente, a conta vem tr… |
 | 18/11 qua | 18h00 | TikTok | reels | Se informação resolvesse |
+| 18/11 qua | 18h00 | Instagram | carrossel | Pejotização: hoje parece esperteza. Lá na frente, a conta vem triplicada. |
 | 19/11 qui | 05h00 | Instagram | Provérbios | Não permita que a pressa escolha por você; decisões importantes merece… |
 | 19/11 qui | 09h00 | Instagram | frase do dia | Retrabalho, desconto e atraso parecem pequenos até aparecerem juntos n… |
 | 19/11 qui | 12h00 | Instagram | reels | O vizinho montou uma empresa de crepe e está vendendo muito. Aí o cara… |
 | 19/11 qui | 18h00 | TikTok | reels | Por que eu sou advisor e não mentor |
+| 19/11 qui | 18h00 | Instagram | carrossel | O vizinho abriu uma creperia e está vendendo muito. E aí você abre outra. |
 | 20/11 sex | 05h00 | Instagram | Provérbios | Seu verdadeiro caráter não é medido pelo que promete em dias fáceis, m… |
 | 20/11 sex | 09h00 | Instagram | frase do dia | O contrato importante é aquele que também explica o que fazer quando a… |
 | 20/11 sex | 12h00 | Instagram | reels | Foi assim que eu comecei: achando um bug da Matrix na conta de telefon… |
 | 20/11 sex | 18h00 | TikTok | reels | Se der errado, a culpa é de quem? |
+| 20/11 sex | 18h00 | Instagram | carrossel | Eu comecei achando um erro na conta de telefone. |
 | 21/11 sáb | 05h00 | Instagram | Provérbios | Deus não se impressiona apenas com aquilo que mostramos ao mundo; a ju… |
 | 21/11 sáb | 09h00 | Instagram | frase do dia | A empresa mostra seu padrão quando precisa corrigir uma falha diante d… |
 | 21/11 sáb | 12h00 | Instagram | reels | Se você fez R$ 3.000 uma vez, esquece: esse cliente nunca mais vai pag… |
 | 21/11 sáb | 18h00 | TikTok | reels | Mentoria é roupa de prateleira |
+| 21/11 sáb | 18h00 | Instagram | carrossel | Cobrou R$ 3 mil uma vez? Esse cliente nunca mais paga R$ 6 mil. |
 | 22/11 dom | 05h00 | Instagram | Provérbios | Construa uma reputação que não dependa de aparência ou ostentação, mas… |
 | 22/11 dom | 09h00 | Instagram | frase do dia | Ocupação não prova avanço. Às vezes, a decisão mais importante continu… |
 | 22/11 dom | 12h00 | Instagram | reels | Ele salvou a empresa. E no final ouviu que não fez nada. |
 | 22/11 dom | 18h00 | TikTok | reels | A frase que fecha toda mentoria |
+| 22/11 dom | 18h00 | Instagram | carrossel | Ele salvou a empresa. E no final ouviu que não fez nada. |
 | 23/11 seg | 05h00 | Instagram | Provérbios | Nem tudo o que você pode conquistar merece sua dedicação; aprenda a di… |
 | 23/11 seg | 09h00 | Instagram | frase do dia | Reunião longa é fácil. Difícil é sair com responsável e prazo definido… |
 | 23/11 seg | 12h00 | Instagram | reels | Não saia da operação. Saia do operacional. |
 | 23/11 seg | 18h00 | TikTok | reels | A teoria não fecha o caixa |
+| 23/11 seg | 18h00 | Instagram | carrossel | Não saia da operação. Saia do operacional. |
 | 24/11 ter | 05h00 | Instagram | Provérbios | Cair não define sua história; levantar com aprendizado, corrigir a rot… |
 | 24/11 ter | 09h00 | Instagram | frase do dia | Saldo positivo não é sinal verde para retirada. Parte desse dinheiro j… |
 | 24/11 ter | 12h00 | Instagram | reels | O imposto tem que ser pago. Isso é bíblico. |
 | 24/11 ter | 18h00 | TikTok | reels | Chega de conversinha de mentoria |
+| 24/11 ter | 18h00 | Instagram | carrossel | O imposto tem que ser pago. Isso é bíblico. |
 | 25/11 qua | 05h00 | Instagram | Provérbios | Nem toda conquista precisa ser anunciada, nem toda verdade precisa ser… |
 | 25/11 qua | 09h00 | Instagram | frase do dia | O melhor vendedor da empresa também pode virar o limite da entrega. |
 | 25/11 qua | 12h00 | Instagram | reels | Se eu tivesse a lâmpada do Aladim, eu ia pedir pra voltar três anos at… |
+| 25/11 qua | 18h00 | Instagram | carrossel | Se eu tivesse a lâmpada do Aladim, pediria pra voltar três anos. |
 | 26/11 qui | 05h00 | Instagram | Provérbios | Nem toda provocação merece resposta e nem toda discussão merece sua en… |
 | 26/11 qui | 09h00 | Instagram | frase do dia | Lucro que não vira reserva deixa a empresa exposta ao primeiro mês rui… |
 | 26/11 qui | 12h00 | Instagram | reels | O processo de contratação não começa na entrevista. Começa meses antes… |
+| 26/11 qui | 18h00 | Instagram | carrossel | A contratação não começa na entrevista. |
 | 27/11 sex | 05h00 | Instagram | Provérbios | Cerque-se de pessoas que tenham coragem de apontar seus erros com sinc… |
 | 27/11 sex | 09h00 | Instagram | frase do dia | A reforma chega à empresa pelo preço, pelo crédito e pelo caixa. |
 | 27/11 sex | 12h00 | Instagram | reels | É claro que muita empresa vai quebrar. E vai ser por culpa do empresár… |
+| 27/11 sex | 18h00 | Instagram | carrossel | Muita empresa vai quebrar. E a culpa vai ser do empresário. |
 | 28/11 sáb | 05h00 | Instagram | Provérbios | A consciência tranquila nasce da coragem de agir corretamente, mesmo q… |
 | 28/11 sáb | 09h00 | Instagram | frase do dia | Todo número pede uma pergunta. Sem ela, relatório é só papel preenchid… |
 | 28/11 sáb | 12h00 | Instagram | reels | Não quer pagar treinamento pro seu funcionário? Acostume-se a pagar 2 … |
+| 28/11 sáb | 18h00 | Instagram | carrossel | Não quer pagar treinamento? Acostume-se a pagar 2 mil e receber 100. |
 | 29/11 dom | 05h00 | Instagram | Provérbios | Liderar não é exigir obediência pelo medo; é exercer autoridade com ju… |
 | 29/11 dom | 09h00 | Instagram | frase do dia | Resultado financeiro importa. O modo como a empresa trata as pessoas m… |
 | 29/11 dom | 12h00 | Instagram | reels | Vender a qualquer custo começa a pecar na qualidade. E o que manda de … |
+| 29/11 dom | 18h00 | Instagram | carrossel | Vender a qualquer custo começa a pecar na qualidade. |
 | 30/11 seg | 05h00 | Instagram | Provérbios | Quanto mais compreendemos a grandeza da vida, mais percebemos os limit… |
 | 30/11 seg | 09h00 | Instagram | frase do dia | Termine o mês com uma conquista para celebrar e uma lição para levar a… |
 | 30/11 seg | 12h00 | Instagram | reels | Eu desconheço outra forma de prosperar a não ser empreendendo. |
+| 30/11 seg | 18h00 | Instagram | carrossel | Eu desconheço outra forma de prosperar a não ser empreendendo. |
 | 01/12 ter | 12h00 | Instagram | reels | Honra a sua responsabilidade. Paga seu prestador de serviço. Paga seus… |
 | 02/12 qua | 12h00 | Instagram | reels | "O sucesso dos maus é o silêncio dos bons." Hoje isso é a regra. |
 | 03/12 qui | 12h00 | Instagram | reels | O que faltou? Contrato. |
