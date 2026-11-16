@@ -1,6 +1,6 @@
 # Cronograma de postagens
 
-Fila real da Zernio, **lida em 18/out/2026, conferida em 21/out e em 30/out, e relida inteira em 02/nov e em 08/nov; conferida de novo em 11/nov, depois da pausa, e atualizada em 12/nov com os carrosséis de 17 a 30/11 e os Shorts do YouTube** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
+Fila real da Zernio, **lida em 18/out/2026, conferida em 21/out e em 30/out, e relida inteira em 02/nov e em 08/nov; conferida de novo em 11/nov, depois da pausa, e atualizada em 12/nov com os carrosséis de 17 a 30/11 e os Shorts do YouTube; conferida em 16/nov: tudo publicou, sem falha nova (a única na lista é a antiga do Vivaldi, decidida)** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
 
 ## A grade desde 19/out (decisão dele em 18/out)

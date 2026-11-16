@@ -12,11 +12,11 @@
 
 ## O primeiro ato da próxima sessão
 
-**A fila em 12/nov:** YouTube com reels 3 por dia (10h, 16h, 19h) até **16/11 às 10h** (os 16 reels da AME sem a
-imersão), mais Provérbios (5h) e frase do dia (9h) em Shorts de 9 s até **30/11**. TikTok **1 por dia às 18h até 24/11**.
-Instagram: grade normal até 30/11 (carrossel das 18h fechado de 17 a 30/11, reels das 12h até 3/12); os reels da AME
-das 15h viraram reels normais de 13 a 16/11 (14 a 16 com o vídeo refeito, 15/11 com o corte reestruturado AME-13) e os
-das 20h seguem de teste até 16/11. **Os buracos:** reels do YouTube depois de 16/11 16h, TikTok depois de 24/11, e no
+**A fila em 16/nov (conferida na Zernio: tudo que estava marcado saiu, sem falha nova):** ⚠ **o YouTube está sem
+reels desde hoje, 16/11.** Os 16 reels da AME acabaram às 10h, e as 16h e 19h já ficaram vazias. Seguem só Provérbios
+(5h) e frase do dia (9h) em Shorts de 9 s até **30/11**. **É o buraco mais urgente.** TikTok **1 por dia às 18h até
+24/11**. Instagram: 5h Provérbios, 9h frase, 12h reel e 18h carrossel até 30/11 (reels das 12h até 3/12); os reels das
+15h e os de teste das 20h terminaram em 16/11. **Os buracos:** reels do YouTube já, TikTok depois de 24/11, e no
 Instagram carrossel, frase e Provérbios a partir de **1/12**. Pros vídeos há os 106 cortes reestruturados prontos, mas
 ele pediu pra esperar o material novo que está chegando.
 
@@ -31,7 +31,7 @@ AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já
 |---|---|---|
 | **Assessoria AME** (desde 8/nov; a imersão de 14 e 15/nov foi **cancelada**) | ficha de interesse em assessoria-ame.vercel.app; os 16 reels sem a imersão agendados nas três redes; lives toda quarta no @stanleybittar | ele trocar o link da bio; rever pra assessoria os contratos do Choque de Ordem e da Escala Blindada; advogado conferir as regras CFM/CFO; logo original |
 | **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 30/11, reels até 3/12 | carrosséis de 17 a 30/11 agendados em 12/nov (no tema do reel do dia), com a marca d'água da Business Advisor Consult desde 12/nov; dezembro: carrossel, foto do Provérbios e frases |
-| **YouTube** | 3 por dia (10h, 16h, 19h): os 16 reels da AME sem a imersão até **16/11 10h** (os dois de 11/11 não saíram por causa da pausa) | vídeo novo depois de 16/11 10h |
+| **YouTube** | reels 3 por dia (10h, 16h, 19h) acabaram em **16/11 10h** (os 16 da AME sem a imersão; os dois de 11/11 não saíram por causa da pausa); seguem só os Shorts de Provérbios e frase até 30/11 | ⚠ **vídeo novo já**: o buraco começou em 16/11 16h |
 | **TikTok** | os 16 reels da AME com efeitos (cor e zoom), **1 por dia às 18h, até 24/11** (o de 11/11 não saiu por causa da pausa) | vídeo novo depois de 24/11 |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
