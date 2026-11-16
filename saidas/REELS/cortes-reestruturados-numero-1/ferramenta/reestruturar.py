@@ -16,9 +16,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 REPO = "/Users/gilbertosena/Desktop/GilbertoOS"
 AQUI = os.path.dirname(os.path.abspath(__file__))
-BASE = os.path.dirname(AQUI)
+BASE = os.environ.get("REESTRUTURAR_BASE", os.path.dirname(AQUI))  # pasta do lote (videos/ e capas/ saem dentro dela)
 OUT = BASE + "/videos"
-SCR = "/private/tmp/claude-501/-Users-gilbertosena-Desktop-GilbertoOS/581a240b-ffc7-4c1e-9cfb-a8ff5ca771ad/scratchpad"
+SCR = os.environ.get("REESTRUTURAR_SCR", "/private/tmp/claude-501/-Users-gilbertosena-Desktop-GilbertoOS/581a240b-ffc7-4c1e-9cfb-a8ff5ca771ad/scratchpad")  # rascunho da sessão (publicados/ e transcricoes/)
 WORK = SCR + "/reestruturar"
 SDR = SCR + "/sdr"
 
