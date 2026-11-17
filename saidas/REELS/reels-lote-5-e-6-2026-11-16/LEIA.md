@@ -14,7 +14,7 @@ Transcrevi os 10 (faster-whisper local) e conferi cada legenda contra a fala. To
   59 tirou "um filósofo" (inaudível no vídeo). Chamada "Siga @... para mais conteúdos incríveis" trocada pela assinatura.
 - Vídeos em `videos/` e capas em `capas/`, fora do GitHub (só no notebook).
 
-## ⚠ Segurados, esperando a palavra dele
+## Os dois que vieram com trecho sensível (resolvido: versões cortadas, aprovadas em 16/11)
 
 - **58 · o dia que bloquearam 1 milhão** (4 min 8 s): passa do limite de 3 min do Reels e do Shorts; ele fala duas vezes
   em "pensar em se matar" e cita a Deolane. A legenda da equipe já trazia o CVV 188. Não registrado na memória dele.
@@ -25,7 +25,12 @@ Transcrevi os 10 (faster-whisper local) e conferi cada legenda contra a fala. To
 vídeos `videos/segurado-58-...-CORTADO.mp4` (1 min 28 s) e `segurado-60-...-CORTADO.mp4` (37 s), com a headline.
 58: saíram as três falas de suicídio, a Deolane, a constituição longa, o "mar de rosa", o segredo de justiça e o
 "arroz e ovo"; termina em "eu tenho um Deus que olha por mim". 60: saíram "põe peito na mulher", a piada dos dois
-peitos e o fim do "arrancar um pedaço". **Nada agendado** até ele aprovar.
+peitos e o fim do "arrancar um pedaço". **Ele aprovou em 16/11 ("pode agendar assim")** e foram agendados:
+
+| Vídeo | YouTube | TikTok | X | LinkedIn | Instagram | ID Zernio |
+|---|---|---|---|---|---|---|
+| 58 cortado · O dia que bloquearam 1 milhão | 01/12 10h | 01/12 12h | 01/12 11h | 01/12 8h | 12/12 12h | `6afb9b4581c079e530c9a3a7` |
+| 60 cortado · Split payment, pague seu imposto | 01/12 16h | 01/12 15h | 01/12 17h | 02/12 8h | 13/12 12h | `6afb9b4881c079e530c9a3b5` |
 
 ## A grade (decisão dele em 16/11)
 
