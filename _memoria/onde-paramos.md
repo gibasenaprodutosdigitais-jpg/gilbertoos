@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 12/nov/2026.**
+> Estado das frentes abertas. **Atualizado em 17/nov/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -25,17 +25,15 @@ céu" (falam das eleições) e "O terror do split" (cita 2027 e 1º de janeiro, 
 Provérbios e frase do dia em todas as redes a partir de 1/12 (ele vai ver as fotos); Instagram, carrossel a partir de 1/12
 e reel das 12h a partir de 14/12; YouTube, TikTok e X a partir de 23/12 (acabaram os cortes).
 
-**11/nov: pausa e volta da fila.** Ele mandou parar todas as postagens e, horas depois, cancelou a ordem. Os 77 posts de
-12 a 30/11 voltaram nos horários originais. Os 6 de 11/11 não saíram na hora: o reel de teste AME 5 publicou por
-volta das 21h; o carrossel do marketplace foi pra 15/11 18h; os outros 4 (YouTube 16h e 19h, TikTok 18h, reel de teste
-AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já se repetem em outros dias da fila.
+**Rascunhos esquecidos:** 4 posts de 11/11 (YouTube 16h e 19h, TikTok 18h, reel de teste AME 6) seguem em rascunho
+na Zernio, sem data, porque os mesmos vídeos já se repetem em outros dias. Registro da pausa em `historico-das-frentes.md`.
 
-### Resumo das frentes abertas (12/nov/2026)
+### Resumo das frentes abertas (17/nov/2026)
 
 | Frente | Onde está | O que falta |
 |---|---|---|
 | **Assessoria AME** (desde 8/nov; a imersão de 14 e 15/nov foi **cancelada**) | ficha de interesse em assessoria-ame.vercel.app; os 16 reels sem a imersão agendados nas três redes; lives toda quarta no @stanleybittar | ele trocar o link da bio; rever pra assessoria os contratos do Choque de Ordem e da Escala Blindada; advogado conferir as regras CFM/CFO; logo original |
-| **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 30/11, reels até 3/12 | carrosséis de 17 a 30/11 agendados em 12/nov (no tema do reel do dia), com a marca d'água da Business Advisor Consult desde 12/nov; dezembro: carrossel, foto do Provérbios e frases |
+| **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 30/11, reels das 12h até 13/12 (os 8 novos de 4 a 11/12, o 58 e o 60 em 12 e 13/12) | carrosséis de 17 a 30/11 agendados em 12/nov (no tema do reel do dia), com a marca d'água da Business Advisor Consult desde 12/nov; dezembro: carrossel, foto do Provérbios e frases |
 | **YouTube, TikTok, X e LinkedIn** (grade de 16/11) | 5 por dia no YouTube, TikTok e X; 1 por dia útil no LinkedIn; tudo até **30/11** (ver `saidas/REELS/reels-lote-5-e-6-2026-11-16/LEIA.md`) | vídeos de dezembro agendados em 17/nov até 21/12 (YouTube e X até 22/12, TikTok até 23/12, LinkedIn até 31/12; ver `saidas/REELS/dezembro-2026-cortes-reestruturados/LEIA.md`); faltam Provérbios e frase de dezembro e os vídeos de 23/12 em diante |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
 | **Reels "O Preço do Amanhã"** | roteiro pronto (`saidas/REELS/reels-preco-do-amanha-2026-10-30/`) | ele gravar; a frase final é sugestão minha |
@@ -48,7 +46,7 @@ AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já
 | **Contrato Business Advisor and Consultant** (12/nov) | minuta pronta em `saidas/NEGOCIOS-E-MARCA/propostas-de-servicos/`, em Word e PDF no papel timbrado: GS Consultoria Empresarial (65%) e Sena Contabilidade (35%, CRC-MG 110075/OI), as duas representadas por ele; R$ 5.000/mês por 24 meses, 10% sobre a economia, 5% sobre o faturamento acima de 10%, multa de saída gradativa e NDA de 24 mensalidades + R$ 30 mil | revisão do advogado; os dados de cada cliente na hora de fechar |
 | **Contrato Assessoria Contábil, Tributária e Financeira** (12/nov) | contrato 02 na mesma pasta: mensalidade em 7 faixas de R$ 850 a R$ 3.500 (caixa para marcar), pela Sena Contabilidade, + 15% sobre o proveito econômico tributário, pela GS Consultoria; mesmas contratadas, papel timbrado com a logo do Grupo Sena | ele confirmar o critério das faixas (faturamento médio mensal, cortes sugeridos por mim) (a redução de multas e juros de débito tributário entra nos 15%, confirmado); advogado |
 | **Cortes reestruturados nº 1** (12/nov) | pasta `saidas/REELS/cortes-reestruturados-numero-1/` (LEIA.md com tudo): os cortes que já foram ao ar refeitos com cara de vídeo novo (velocidade 1,22x, capa no meio cobrindo o rosto, cor e efeitos pelo sentido da fala, cores diferentes por corte, arquivo sem metadado do original, texto novo). Visual aprovado por ele. **Os 107 prontos** (26 do carro + 81 publicados de outros lotes), vídeos só no notebook; 8 marcados `segurar` (CBS ~9%, prazo do Simples híbrido, CT-e) pra conferir na fonte antes de agendar. Agendado só o AME-13, que virou o vídeo do reel de 15/11 15h | **34 agendados em 16/nov** (até 30/11) e **61 em 17/nov** (dezembro); sobram só os 8 `segurar` e 3 segurados em 17/nov (o muro, olhar pro céu, o terror do split), à espera dele; os 19 reacts de música e as 8 aulas de A Base da Gestão ficaram fora, a confirmar |
-| **Estratégia das academias** (15/nov) | material baixado e fichado em `conhecimento/reforma-tributaria-academias-educacao-desportiva.md` (programa anual de treino como educação desportiva, redução de 60% de IBS/CBS; PDF em `dados/biblioteca/`); ele programou no ChatGPT a criação do projeto inteiro pra **16/nov às 9h** | trazer pra cá o que o ChatGPT gerar; conferir na LC 214/2025 o art. 141 (o fichamento de educação fala em art. 129), o art. 7º e a NBS antes de virar post, proposta ou contrato |
+| **Estratégia das academias** (15/nov) | material baixado e fichado em `conhecimento/reforma-tributaria-academias-educacao-desportiva.md` (programa anual de treino como educação desportiva, redução de 60% de IBS/CBS; PDF em `dados/biblioteca/`); ele programou no ChatGPT a criação do projeto inteiro pra 16/nov às 9h; **em 17/nov ainda não tinha chegado aqui** | esperando ele trazer o que o ChatGPT gerou; conferir na LC 214/2025 o art. 141 (o fichamento de educação fala em art. 129), o art. 7º e a NBS antes de virar post, proposta ou contrato |
 | **Fundo de debêntures** | ideia registrada | a conta do custo de captação contra os 9% do Pronamp |
 | **Media kit de palestrante** | kit e showreel prontos | proposta comercial, depoimentos de contratantes, fotos com nomes grandes |
 
@@ -107,7 +105,7 @@ o Forjado (anuncia imersão: confirmar); o Rede de Mastermind (critica grupo pag
 
 **Instagram: 4 posts por dia desde 19/out (5h Provérbios, 9h frase, 12h reel novo, 18h carrossel; o carrossel era às 20h até 21/out), todos os dias:
 a frase do dia passou a sair também no fim de semana (pedido dele, 18/out).** Frase agendada até 30/11
-(as de 8 a 29/11 entraram em 2/nov, com a foto nova de terno); falta dezembro. YouTube: 3 reels por dia (10h, 16h, 19h, desde 3/11), coberto até 16/11 às 10h, mais Provérbios (5h) e frase do dia (9h) em Shorts até 30/11. Tudo em `cronograma-de-postagens.md`.
+(as de 8 a 29/11 entraram em 2/nov, com a foto nova de terno); falta dezembro. YouTube: 3 reels por dia (10h, 16h, 19h, desde 3/11), coberto até 22/12, mais Provérbios (5h) e frase do dia (9h) em Shorts até 30/11. Tudo em `cronograma-de-postagens.md`.
 
 ⚠ **Ler a seção 0 antes de subir qualquer peça.** Em onze carrosséis a
 conferência pegou **sete tipos de erro**, e nenhum deles aparece numa olhada
@@ -313,10 +311,10 @@ pra movimentar o canal. O TikTok ficou como estava.
 |---|---|---|
 | **5h** | Provérbios | ✅ até **30/11** (novembro agendado em 28/out) |
 | **9h** | frase do dia (**todo dia**, desde 18/out) | ✅ até 30/11 (foto de terno desde 8/11); falta dezembro |
-| **12h** | um reel novo (lotes de 17/out) | ✅ até 3/12 |
+| **12h** | um reel novo (lotes de 17/out) | ✅ até 13/12 (os 8 novos de 4 a 11/12, o 58 e o 60 em 12 e 13/12) |
 | **18h** | carrossel (era 20h até 21/out; fecha o dia) | ✅ até 30/11 (17 a 30 no tema do reel do dia, com a marca d'água da Business Advisor); falta dezembro |
 
-**YouTube: 3 por dia desde 3/11 (10h, 16h, 19h; eram 5 até 2/11, mudou a pedido dele), coberto até 16/11 às 10h** (cortes do carro e os 16 reels da AME), **mais Provérbios (5h) e frase do dia (9h) em Shorts de 9 s de 13 a 30/11** (`saidas/CARDS/youtube-shorts-novembro/`). Os 8 reels antigos que eram só do
+**YouTube: 3 por dia desde 3/11 (10h, 16h, 19h; eram 5 até 2/11, mudou a pedido dele), coberto até 22/12** (lotes 5 e 6 e cortes reestruturados até 30/11; dezembro em `saidas/REELS/dezembro-2026-cortes-reestruturados/`), **mais Provérbios (5h) e frase do dia (9h) em Shorts de 9 s de 13 a 30/11** (`saidas/CARDS/youtube-shorts-novembro/`). Os 8 reels antigos que eram só do
 Instagram estão como rascunho na Zernio. Detalhe e IDs em `_memoria/cronograma-de-postagens.md`.
 
 ★ **Para mover post agendado, usar `posts_update`** (a ferramenta curta do

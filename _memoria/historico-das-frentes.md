@@ -288,3 +288,11 @@ imersão fica em `sb/AME/`** (pasta pedida por ele em 26/out).
 - ⚠ **Não chamar o Stanley de "cirurgião plástico" no material:** a falta de registro na especialidade foi um dos
   motivos do processo no CRM-AC (ver `sb/material/verificacao-stanley-bittar-2026-10-13.md`); usar "médico
   estrategista", como na marca.
+
+
+## Pausa e volta da fila, 11/nov/2026 (saiu do estado em 17/nov)
+
+**11/nov: pausa e volta da fila.** Ele mandou parar todas as postagens e, horas depois, cancelou a ordem. Os 77 posts de
+12 a 30/11 voltaram nos horários originais. Os 6 de 11/11 não saíram na hora: o reel de teste AME 5 publicou por
+volta das 21h; o carrossel do marketplace foi pra 15/11 18h; os outros 4 (YouTube 16h e 19h, TikTok 18h, reel de teste
+AME 6) ficaram **em rascunho na Zernio**, sem data, porque os mesmos vídeos já se repetem em outros dias da fila.

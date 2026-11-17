@@ -1,6 +1,6 @@
 # Cronograma de postagens
 
-Fila real da Zernio, **lida em 18/out/2026, conferida em 21/out e em 30/out, e relida inteira em 02/nov e em 08/nov; conferida de novo em 11/nov, depois da pausa, e atualizada em 12/nov com os carrosséis de 17 a 30/11 e os Shorts do YouTube; conferida em 16/nov: tudo publicou, sem falha nova (a única na lista é a antiga do Vivaldi, decidida)** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
+Fila real da Zernio, **lida em 18/out/2026, conferida em 21/out e em 30/out, e relida inteira em 02/nov e em 08/nov; conferida de novo em 11/nov, depois da pausa, e atualizada em 12/nov com os carrosséis de 17 a 30/11 e os Shorts do YouTube; conferida em 16/nov: tudo publicou, sem falha nova (a única na lista é a antiga do Vivaldi, decidida)** **(17/nov: o Instagram desconectou às 23h15 de 16/11, porque o Meta encerrou a sessão; ele reconectou às 8h09 e o Provérbios das 5h saiu às 8h10; as outras redes não pararam)** (em 30/out bate; no mesmo dia entraram 26 Shorts no YouTube, de 30/10 13h a 4/11 13h, ver `saidas/REELS/reels-gravacoes-do-carro-2026-10-30/LEIA.md`) (nada falhou; os 13 carrosséis de 22/10 a 3/11 passaram para as 18h). Horário de Brasília.
 Quando eu mexer na fila, atualizo este arquivo.
 
 ## A grade desde 19/out (decisão dele em 18/out)
@@ -35,7 +35,9 @@ e no YouTube *"5 reels por dia, pois quero movimentar o canal"*, com *"os reels 
 | Carrossel das 18h | **1/12** | os 14 de 17 a 30/11 foram feitos e agendados em 12/nov, no tema do reel das 12h de cada dia (`saidas/CARROSSEIS/novembro-17-a-30/`); dezembro sem nenhum |
 | Provérbios das 5h | **1/12** | foto de dezembro (e saber se vêm frases novas) |
 | Frase do dia das 9h | **1/12** | frases de dezembro; novembro fechado em 2/nov, com a foto de terno desde 8/11 |
-| YouTube | **16/11 às 16h** | 3 por dia (10h, 16h, 19h): cortes do carro até 10/11 19h e os 16 reels da AME sem a imersão de 11/11 a 16/11 10h (`sb/AME/divulgacao/reels-sem-imersao-2026-11-08/`) (`sb/AME/divulgacao/reels-no-youtube-2026-11-02/`); depois precisa de vídeo novo |
+| Reel das 12h no Instagram | **14/12** | os 8 novos vão de 4 a 11/12, o 58 e o 60 em 12 e 13/12; depois precisa de vídeo |
+| YouTube, TikTok e X (vídeos) | **23/12** (TikTok 24/12) | 3 por dia em cada; os 61 cortes reestruturados de dezembro cobrem de 2 a 22/12 (`saidas/REELS/dezembro-2026-cortes-reestruturados/`) |
+| Provérbios e frase no YouTube, TikTok e X | **1/12** | os mesmos de dezembro do Instagram, em Shorts |
 
 ## Post a post (lido da fila da Zernio em 08/nov, 22h)
 
