@@ -1,0 +1,346 @@
+{
+ "words": [
+  {
+   "text": "Diagnóstico",
+   "start": 0.0,
+   "end": 0.46,
+   "type": "word"
+  },
+  {
+   "text": "sem",
+   "start": 0.46,
+   "end": 0.58,
+   "type": "word"
+  },
+  {
+   "text": "números",
+   "start": 0.58,
+   "end": 1.08,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 1.08,
+   "end": 1.36,
+   "type": "word"
+  },
+  {
+   "text": "palpite.",
+   "start": 1.36,
+   "end": 1.88,
+   "type": "word"
+  },
+  {
+   "text": "Quantos",
+   "start": 2.78,
+   "end": 2.96,
+   "type": "word"
+  },
+  {
+   "text": "mentores",
+   "start": 2.96,
+   "end": 3.22,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 3.22,
+   "end": 3.4,
+   "type": "word"
+  },
+  {
+   "text": "viram",
+   "start": 3.4,
+   "end": 3.54,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 3.54,
+   "end": 3.62,
+   "type": "word"
+  },
+  {
+   "text": "teu",
+   "start": 3.62,
+   "end": 3.74,
+   "type": "word"
+  },
+  {
+   "text": "balanço?",
+   "start": 3.74,
+   "end": 4.18,
+   "type": "word"
+  },
+  {
+   "text": "Nenhum,",
+   "start": 4.44,
+   "end": 4.66,
+   "type": "word"
+  },
+  {
+   "text": "né?",
+   "start": 4.66,
+   "end": 4.9,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 5.3,
+   "end": 5.46,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 5.46,
+   "end": 5.74,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 5.74,
+   "end": 5.86,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 5.86,
+   "end": 6.02,
+   "type": "word"
+  },
+  {
+   "text": "sabem",
+   "start": 6.02,
+   "end": 6.28,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 6.28,
+   "end": 6.66,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 6.66,
+   "end": 6.78,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 6.78,
+   "end": 7.02,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 7.02,
+   "end": 7.2,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.2,
+   "end": 7.32,
+   "type": "word"
+  },
+  {
+   "text": "fazer?",
+   "start": 7.32,
+   "end": 7.6,
+   "type": "word"
+  },
+  {
+   "text": "Como",
+   "start": 7.76,
+   "end": 7.86,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.86,
+   "end": 7.98,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 7.98,
+   "end": 8.1,
+   "type": "word"
+  },
+  {
+   "text": "podem",
+   "start": 8.1,
+   "end": 8.28,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 8.28,
+   "end": 8.42,
+   "type": "word"
+  },
+  {
+   "text": "ajudar?",
+   "start": 8.42,
+   "end": 8.6,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 8.9,
+   "end": 9.0,
+   "type": "word"
+  },
+  {
+   "text": "passei",
+   "start": 9.0,
+   "end": 9.18,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 9.18,
+   "end": 9.32,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 9.32,
+   "end": 9.44,
+   "type": "word"
+  },
+  {
+   "text": "15",
+   "start": 9.44,
+   "end": 9.56,
+   "type": "word"
+  },
+  {
+   "text": "anos",
+   "start": 9.56,
+   "end": 9.7,
+   "type": "word"
+  },
+  {
+   "text": "dentro",
+   "start": 9.7,
+   "end": 9.9,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 9.9,
+   "end": 10.08,
+   "type": "word"
+  },
+  {
+   "text": "empresas,",
+   "start": 10.08,
+   "end": 10.32,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 10.5,
+   "end": 10.62,
+   "type": "word"
+  },
+  {
+   "text": "negócios",
+   "start": 10.62,
+   "end": 10.96,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 10.96,
+   "end": 11.1,
+   "type": "word"
+  },
+  {
+   "text": "aprendi",
+   "start": 11.1,
+   "end": 11.28,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 11.28,
+   "end": 11.42,
+   "type": "word"
+  },
+  {
+   "text": "coisa.",
+   "start": 11.42,
+   "end": 11.68,
+   "type": "word"
+  },
+  {
+   "text": "Diagnóstico",
+   "start": 11.94,
+   "end": 12.3,
+   "type": "word"
+  },
+  {
+   "text": "sem",
+   "start": 12.3,
+   "end": 12.44,
+   "type": "word"
+  },
+  {
+   "text": "números",
+   "start": 12.44,
+   "end": 12.84,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 12.84,
+   "end": 13.18,
+   "type": "word"
+  },
+  {
+   "text": "palpite.",
+   "start": 13.18,
+   "end": 13.6,
+   "type": "word"
+  },
+  {
+   "text": "Acessoria?",
+   "start": 13.82,
+   "end": 14.18,
+   "type": "word"
+  },
+  {
+   "text": "Começa",
+   "start": 14.3,
+   "end": 14.66,
+   "type": "word"
+  },
+  {
+   "text": "abrindo",
+   "start": 14.66,
+   "end": 14.9,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 14.9,
+   "end": 14.94,
+   "type": "word"
+  },
+  {
+   "text": "teu",
+   "start": 14.94,
+   "end": 15.04,
+   "type": "word"
+  },
+  {
+   "text": "número.",
+   "start": 15.04,
+   "end": 15.22,
+   "type": "word"
+  }
+ ]
+}

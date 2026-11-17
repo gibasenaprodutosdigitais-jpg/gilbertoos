@@ -1,0 +1,448 @@
+{
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.0,
+   "end": 0.24,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 0.24,
+   "end": 0.34,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 0.34,
+   "end": 0.44,
+   "type": "word"
+  },
+  {
+   "text": "sou",
+   "start": 0.44,
+   "end": 0.56,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 0.56,
+   "end": 0.7,
+   "type": "word"
+  },
+  {
+   "text": "divisor",
+   "start": 0.7,
+   "end": 1.18,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 1.18,
+   "end": 1.32,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 1.32,
+   "end": 1.52,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 1.52,
+   "end": 1.68,
+   "type": "word"
+  },
+  {
+   "text": "mentor?",
+   "start": 1.68,
+   "end": 1.84,
+   "type": "word"
+  },
+  {
+   "text": "Por",
+   "start": 2.6,
+   "end": 2.6,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 2.6,
+   "end": 2.68,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 2.68,
+   "end": 2.74,
+   "type": "word"
+  },
+  {
+   "text": "sou",
+   "start": 2.74,
+   "end": 2.9,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 2.9,
+   "end": 3.04,
+   "type": "word"
+  },
+  {
+   "text": "divisor",
+   "start": 3.04,
+   "end": 3.6,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 3.6,
+   "end": 3.68,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 3.68,
+   "end": 3.82,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 3.82,
+   "end": 4.04,
+   "type": "word"
+  },
+  {
+   "text": "mentor?",
+   "start": 4.04,
+   "end": 4.14,
+   "type": "word"
+  },
+  {
+   "text": "Porque",
+   "start": 4.38,
+   "end": 4.48,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 4.48,
+   "end": 4.58,
+   "type": "word"
+  },
+  {
+   "text": "mentor",
+   "start": 4.58,
+   "end": 4.66,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 4.66,
+   "end": 4.8,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 4.8,
+   "end": 4.98,
+   "type": "word"
+  },
+  {
+   "text": "ensina.",
+   "start": 4.98,
+   "end": 5.38,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 5.6,
+   "end": 5.74,
+   "type": "word"
+  },
+  {
+   "text": "divisor",
+   "start": 5.74,
+   "end": 5.96,
+   "type": "word"
+  },
+  {
+   "text": "senta",
+   "start": 5.96,
+   "end": 6.2,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 6.2,
+   "end": 6.36,
+   "type": "word"
+  },
+  {
+   "text": "teu",
+   "start": 6.36,
+   "end": 6.5,
+   "type": "word"
+  },
+  {
+   "text": "lado,",
+   "start": 6.5,
+   "end": 6.68,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 6.74,
+   "end": 6.9,
+   "type": "word"
+  },
+  {
+   "text": "lado",
+   "start": 6.9,
+   "end": 7.04,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 7.04,
+   "end": 7.22,
+   "type": "word"
+  },
+  {
+   "text": "dono,",
+   "start": 7.22,
+   "end": 7.44,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 7.54,
+   "end": 7.62,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 7.62,
+   "end": 7.7,
+   "type": "word"
+  },
+  {
+   "text": "tomada",
+   "start": 7.7,
+   "end": 7.92,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 7.92,
+   "end": 8.12,
+   "type": "word"
+  },
+  {
+   "text": "decisão.",
+   "start": 8.12,
+   "end": 8.46,
+   "type": "word"
+  },
+  {
+   "text": "Contrato",
+   "start": 8.58,
+   "end": 8.86,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 8.86,
+   "end": 9.02,
+   "type": "word"
+  },
+  {
+   "text": "não,",
+   "start": 9.02,
+   "end": 9.32,
+   "type": "word"
+  },
+  {
+   "text": "abre",
+   "start": 9.44,
+   "end": 9.58,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 9.58,
+   "end": 9.68,
+   "type": "word"
+  },
+  {
+   "text": "segunda",
+   "start": 9.68,
+   "end": 9.82,
+   "type": "word"
+  },
+  {
+   "text": "unidade",
+   "start": 9.82,
+   "end": 10.1,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 10.1,
+   "end": 10.24,
+   "type": "word"
+  },
+  {
+   "text": "não,",
+   "start": 10.24,
+   "end": 10.52,
+   "type": "word"
+  },
+  {
+   "text": "toma",
+   "start": 10.66,
+   "end": 10.86,
+   "type": "word"
+  },
+  {
+   "text": "este",
+   "start": 10.86,
+   "end": 11.14,
+   "type": "word"
+  },
+  {
+   "text": "crédito",
+   "start": 11.14,
+   "end": 11.48,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 11.48,
+   "end": 11.58,
+   "type": "word"
+  },
+  {
+   "text": "não,",
+   "start": 11.58,
+   "end": 11.96,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 12.12,
+   "end": 12.24,
+   "type": "word"
+  },
+  {
+   "text": "hora",
+   "start": 12.24,
+   "end": 12.36,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 12.36,
+   "end": 12.54,
+   "type": "word"
+  },
+  {
+   "text": "tiver",
+   "start": 12.54,
+   "end": 12.82,
+   "type": "word"
+  },
+  {
+   "text": "qualquer",
+   "start": 12.82,
+   "end": 13.1,
+   "type": "word"
+  },
+  {
+   "text": "tipo",
+   "start": 13.1,
+   "end": 13.34,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 13.34,
+   "end": 13.44,
+   "type": "word"
+  },
+  {
+   "text": "dor,",
+   "start": 13.44,
+   "end": 13.62,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 13.92,
+   "end": 13.94,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 13.94,
+   "end": 14.06,
+   "type": "word"
+  },
+  {
+   "text": "estar",
+   "start": 14.06,
+   "end": 14.18,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 14.18,
+   "end": 14.3,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 14.3,
+   "end": 14.42,
+   "type": "word"
+  },
+  {
+   "text": "lado,",
+   "start": 14.42,
+   "end": 14.64,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 14.74,
+   "end": 14.88,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 14.88,
+   "end": 14.98,
+   "type": "word"
+  },
+  {
+   "text": "cima",
+   "start": 14.98,
+   "end": 15.08,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 15.08,
+   "end": 15.22,
+   "type": "word"
+  },
+  {
+   "text": "pau.",
+   "start": 15.22,
+   "end": 15.34,
+   "type": "word"
+  }
+ ]
+}

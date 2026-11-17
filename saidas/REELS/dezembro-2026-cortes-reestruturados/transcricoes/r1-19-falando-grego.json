@@ -1,0 +1,604 @@
+{
+ "words": [
+  {
+   "text": "Eu",
+   "start": 0.0,
+   "end": 0.24,
+   "type": "word"
+  },
+  {
+   "text": "sei",
+   "start": 0.24,
+   "end": 0.6,
+   "type": "word"
+  },
+  {
+   "text": "que,",
+   "start": 0.6,
+   "end": 0.92,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 0.98,
+   "end": 1.38,
+   "type": "word"
+  },
+  {
+   "text": "tô",
+   "start": 1.38,
+   "end": 1.54,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 1.54,
+   "end": 1.8,
+   "type": "word"
+  },
+  {
+   "text": "talvez",
+   "start": 1.8,
+   "end": 2.26,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 2.26,
+   "end": 2.44,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 2.44,
+   "end": 2.58,
+   "type": "word"
+  },
+  {
+   "text": "público",
+   "start": 2.58,
+   "end": 2.74,
+   "type": "word"
+  },
+  {
+   "text": "aqui,",
+   "start": 2.74,
+   "end": 3.12,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 3.64,
+   "end": 3.76,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 3.76,
+   "end": 3.9,
+   "type": "word"
+  },
+  {
+   "text": "tenha",
+   "start": 3.9,
+   "end": 4.0,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 4.0,
+   "end": 4.2,
+   "type": "word"
+  },
+  {
+   "text": "noção.",
+   "start": 4.2,
+   "end": 4.6,
+   "type": "word"
+  },
+  {
+   "text": "Ontem,",
+   "start": 4.78,
+   "end": 5.02,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 5.08,
+   "end": 5.16,
+   "type": "word"
+  },
+  {
+   "text": "exemplo,",
+   "start": 5.16,
+   "end": 5.32,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 5.36,
+   "end": 5.52,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 5.52,
+   "end": 5.68,
+   "type": "word"
+  },
+  {
+   "text": "tava",
+   "start": 5.68,
+   "end": 5.9,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 5.9,
+   "end": 6.7,
+   "type": "word"
+  },
+  {
+   "text": "atendimento",
+   "start": 6.7,
+   "end": 7.22,
+   "type": "word"
+  },
+  {
+   "text": "lá",
+   "start": 7.22,
+   "end": 7.44,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 7.44,
+   "end": 8.04,
+   "type": "word"
+  },
+  {
+   "text": "hospital,",
+   "start": 8.04,
+   "end": 8.54,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 8.86,
+   "end": 9.46,
+   "type": "word"
+  },
+  {
+   "text": "rede",
+   "start": 9.46,
+   "end": 9.72,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 9.72,
+   "end": 10.32,
+   "type": "word"
+  },
+  {
+   "text": "clínicas,",
+   "start": 10.32,
+   "end": 11.16,
+   "type": "word"
+  },
+  {
+   "text": "tudo",
+   "start": 11.32,
+   "end": 11.46,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 11.46,
+   "end": 11.6,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 11.6,
+   "end": 11.72,
+   "type": "word"
+  },
+  {
+   "text": "tava",
+   "start": 11.72,
+   "end": 11.88,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 11.88,
+   "end": 12.3,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 12.3,
+   "end": 13.16,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 13.16,
+   "end": 13.44,
+   "type": "word"
+  },
+  {
+   "text": "donna",
+   "start": 13.44,
+   "end": 13.78,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 13.78,
+   "end": 14.06,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 14.06,
+   "end": 14.5,
+   "type": "word"
+  },
+  {
+   "text": "sobre",
+   "start": 14.5,
+   "end": 15.38,
+   "type": "word"
+  },
+  {
+   "text": "marketing,",
+   "start": 15.38,
+   "end": 15.82,
+   "type": "word"
+  },
+  {
+   "text": "venda,",
+   "start": 16.2,
+   "end": 16.62,
+   "type": "word"
+  },
+  {
+   "text": "estratégia,",
+   "start": 17.08,
+   "end": 17.88,
+   "type": "word"
+  },
+  {
+   "text": "sobre",
+   "start": 18.02,
+   "end": 18.18,
+   "type": "word"
+  },
+  {
+   "text": "tributação,",
+   "start": 18.18,
+   "end": 18.88,
+   "type": "word"
+  },
+  {
+   "text": "ela,",
+   "start": 19.1,
+   "end": 19.22,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 19.22,
+   "end": 19.44,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 19.44,
+   "end": 19.56,
+   "type": "word"
+  },
+  {
+   "text": "tá",
+   "start": 19.56,
+   "end": 19.7,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 19.7,
+   "end": 19.86,
+   "type": "word"
+  },
+  {
+   "text": "grego",
+   "start": 19.86,
+   "end": 20.18,
+   "type": "word"
+  },
+  {
+   "text": "comigo,",
+   "start": 20.18,
+   "end": 20.5,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 20.62,
+   "end": 20.8,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 20.8,
+   "end": 20.88,
+   "type": "word"
+  },
+  {
+   "text": "tô",
+   "start": 20.88,
+   "end": 21.04,
+   "type": "word"
+  },
+  {
+   "text": "entendendo",
+   "start": 21.04,
+   "end": 21.32,
+   "type": "word"
+  },
+  {
+   "text": "nada.",
+   "start": 21.32,
+   "end": 21.58,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 21.7,
+   "end": 21.84,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 21.84,
+   "end": 21.9,
+   "type": "word"
+  },
+  {
+   "text": "acho",
+   "start": 21.9,
+   "end": 21.98,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 21.98,
+   "end": 22.04,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 22.04,
+   "end": 22.14,
+   "type": "word"
+  },
+  {
+   "text": "maioria",
+   "start": 22.14,
+   "end": 22.42,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 22.42,
+   "end": 22.62,
+   "type": "word"
+  },
+  {
+   "text": "vocês",
+   "start": 22.62,
+   "end": 23.16,
+   "type": "word"
+  },
+  {
+   "text": "devem",
+   "start": 23.16,
+   "end": 23.72,
+   "type": "word"
+  },
+  {
+   "text": "estar",
+   "start": 23.72,
+   "end": 23.72,
+   "type": "word"
+  },
+  {
+   "text": "nesse",
+   "start": 23.72,
+   "end": 23.92,
+   "type": "word"
+  },
+  {
+   "text": "mesmo",
+   "start": 23.92,
+   "end": 24.22,
+   "type": "word"
+  },
+  {
+   "text": "patamar",
+   "start": 24.22,
+   "end": 24.64,
+   "type": "word"
+  },
+  {
+   "text": "dela,",
+   "start": 24.64,
+   "end": 24.86,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 24.92,
+   "end": 25.12,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 25.12,
+   "end": 25.16,
+   "type": "word"
+  },
+  {
+   "text": "tô",
+   "start": 25.16,
+   "end": 25.28,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 25.28,
+   "end": 25.46,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 25.46,
+   "end": 25.64,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 25.64,
+   "end": 25.78,
+   "type": "word"
+  },
+  {
+   "text": "médica",
+   "start": 25.78,
+   "end": 26.22,
+   "type": "word"
+  },
+  {
+   "text": "renomada,",
+   "start": 26.22,
+   "end": 26.8,
+   "type": "word"
+  },
+  {
+   "text": "conceituada,",
+   "start": 26.96,
+   "end": 27.64,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 27.88,
+   "end": 27.88,
+   "type": "word"
+  },
+  {
+   "text": "médica",
+   "start": 27.88,
+   "end": 28.44,
+   "type": "word"
+  },
+  {
+   "text": "que,",
+   "start": 28.44,
+   "end": 28.64,
+   "type": "word"
+  },
+  {
+   "text": "poxa,",
+   "start": 28.64,
+   "end": 29.1,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 29.54,
+   "end": 29.64,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 29.64,
+   "end": 29.76,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 29.76,
+   "end": 29.82,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 29.82,
+   "end": 29.94,
+   "type": "word"
+  },
+  {
+   "text": "fatoramento",
+   "start": 29.94,
+   "end": 30.42,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 30.42,
+   "end": 30.54,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 30.54,
+   "end": 30.78,
+   "type": "word"
+  },
+  {
+   "text": "expressivo,",
+   "start": 30.78,
+   "end": 31.58,
+   "type": "word"
+  },
+  {
+   "text": "né,",
+   "start": 31.88,
+   "end": 31.9,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 32.1,
+   "end": 32.94,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 32.94,
+   "end": 33.18,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 33.18,
+   "end": 33.26,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 33.26,
+   "end": 33.44,
+   "type": "word"
+  },
+  {
+   "text": "conhecimento.",
+   "start": 33.44,
+   "end": 34.0,
+   "type": "word"
+  }
+ ]
+}

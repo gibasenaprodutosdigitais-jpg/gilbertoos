@@ -1,0 +1,868 @@
+{
+ "words": [
+  {
+   "text": "A",
+   "start": 0.0,
+   "end": 0.14,
+   "type": "word"
+  },
+  {
+   "text": "conta",
+   "start": 0.14,
+   "end": 0.3,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 0.3,
+   "end": 0.48,
+   "type": "word"
+  },
+  {
+   "text": "fecha.",
+   "start": 0.48,
+   "end": 0.74,
+   "type": "word"
+  },
+  {
+   "text": "Isso",
+   "start": 1.38,
+   "end": 1.58,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 1.58,
+   "end": 1.78,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 1.78,
+   "end": 1.94,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 1.94,
+   "end": 2.06,
+   "type": "word"
+  },
+  {
+   "text": "maiores",
+   "start": 2.06,
+   "end": 2.38,
+   "type": "word"
+  },
+  {
+   "text": "erros",
+   "start": 2.38,
+   "end": 2.5,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 2.5,
+   "end": 2.68,
+   "type": "word"
+  },
+  {
+   "text": "gestão.",
+   "start": 2.68,
+   "end": 2.96,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 3.1,
+   "end": 3.2,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 3.2,
+   "end": 3.28,
+   "type": "word"
+  },
+  {
+   "text": "tô",
+   "start": 3.28,
+   "end": 3.36,
+   "type": "word"
+  },
+  {
+   "text": "fazendo",
+   "start": 3.36,
+   "end": 3.6,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 3.6,
+   "end": 3.8,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 3.8,
+   "end": 4.08,
+   "type": "word"
+  },
+  {
+   "text": "trabalho",
+   "start": 4.08,
+   "end": 4.32,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 4.32,
+   "end": 4.52,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 4.52,
+   "end": 4.66,
+   "type": "word"
+  },
+  {
+   "text": "poder",
+   "start": 4.66,
+   "end": 4.86,
+   "type": "word"
+  },
+  {
+   "text": "adequar",
+   "start": 4.86,
+   "end": 5.12,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 5.12,
+   "end": 5.26,
+   "type": "word"
+  },
+  {
+   "text": "academias",
+   "start": 5.26,
+   "end": 5.56,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 5.56,
+   "end": 5.72,
+   "type": "word"
+  },
+  {
+   "text": "2027.",
+   "start": 5.72,
+   "end": 6.34,
+   "type": "word"
+  },
+  {
+   "text": "90%,",
+   "start": 7.46,
+   "end": 7.8,
+   "type": "word"
+  },
+  {
+   "text": "vamos",
+   "start": 7.8,
+   "end": 7.94,
+   "type": "word"
+  },
+  {
+   "text": "falar",
+   "start": 7.94,
+   "end": 8.14,
+   "type": "word"
+  },
+  {
+   "text": "assim,",
+   "start": 8.14,
+   "end": 8.26,
+   "type": "word"
+  },
+  {
+   "text": "90",
+   "start": 8.38,
+   "end": 8.54,
+   "type": "word"
+  },
+  {
+   "text": "%",
+   "start": 8.54,
+   "end": 8.74,
+   "type": "word"
+  },
+  {
+   "text": "das",
+   "start": 8.74,
+   "end": 8.82,
+   "type": "word"
+  },
+  {
+   "text": "academias",
+   "start": 8.82,
+   "end": 9.08,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 9.08,
+   "end": 9.2,
+   "type": "word"
+  },
+  {
+   "text": "pessoa",
+   "start": 9.2,
+   "end": 9.4,
+   "type": "word"
+  },
+  {
+   "text": "física.",
+   "start": 9.4,
+   "end": 9.68,
+   "type": "word"
+  },
+  {
+   "text": "Por",
+   "start": 9.8,
+   "end": 9.94,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 9.94,
+   "end": 10.0,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 10.0,
+   "end": 10.06,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 10.06,
+   "end": 10.1,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 10.1,
+   "end": 10.2,
+   "type": "word"
+  },
+  {
+   "text": "colocar",
+   "start": 10.2,
+   "end": 10.36,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 10.36,
+   "end": 10.46,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 10.46,
+   "end": 10.58,
+   "type": "word"
+  },
+  {
+   "text": "livro?",
+   "start": 10.58,
+   "end": 10.68,
+   "type": "word"
+  },
+  {
+   "text": "10",
+   "start": 10.82,
+   "end": 11.08,
+   "type": "word"
+  },
+  {
+   "text": "%",
+   "start": 11.08,
+   "end": 11.64,
+   "type": "word"
+  },
+  {
+   "text": "são",
+   "start": 11.64,
+   "end": 11.82,
+   "type": "word"
+  },
+  {
+   "text": "empresas,",
+   "start": 11.82,
+   "end": 12.32,
+   "type": "word"
+  },
+  {
+   "text": "tá?",
+   "start": 12.88,
+   "end": 13.06,
+   "type": "word"
+  },
+  {
+   "text": "Aí",
+   "start": 13.06,
+   "end": 13.18,
+   "type": "word"
+  },
+  {
+   "text": "vamos",
+   "start": 13.18,
+   "end": 13.3,
+   "type": "word"
+  },
+  {
+   "text": "imaginar",
+   "start": 13.3,
+   "end": 13.58,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 13.58,
+   "end": 13.68,
+   "type": "word"
+  },
+  {
+   "text": "num",
+   "start": 13.68,
+   "end": 13.72,
+   "type": "word"
+  },
+  {
+   "text": "faturamento",
+   "start": 13.72,
+   "end": 14.08,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 14.08,
+   "end": 14.28,
+   "type": "word"
+  },
+  {
+   "text": "100",
+   "start": 14.28,
+   "end": 14.42,
+   "type": "word"
+  },
+  {
+   "text": "mil,",
+   "start": 14.42,
+   "end": 14.58,
+   "type": "word"
+  },
+  {
+   "text": "20",
+   "start": 14.76,
+   "end": 15.08,
+   "type": "word"
+  },
+  {
+   "text": "mil",
+   "start": 15.08,
+   "end": 15.48,
+   "type": "word"
+  },
+  {
+   "text": "são",
+   "start": 15.48,
+   "end": 16.22,
+   "type": "word"
+  },
+  {
+   "text": "B2B.",
+   "start": 16.22,
+   "end": 16.62,
+   "type": "word"
+  },
+  {
+   "text": "20",
+   "start": 16.72,
+   "end": 16.96,
+   "type": "word"
+  },
+  {
+   "text": "mil",
+   "start": 16.96,
+   "end": 17.32,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 17.32,
+   "end": 17.6,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 17.6,
+   "end": 17.86,
+   "type": "word"
+  },
+  {
+   "text": "recolher",
+   "start": 17.86,
+   "end": 18.32,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 18.32,
+   "end": 18.46,
+   "type": "word"
+  },
+  {
+   "text": "tal,",
+   "start": 18.46,
+   "end": 18.6,
+   "type": "word"
+  },
+  {
+   "text": "parará,",
+   "start": 18.74,
+   "end": 18.98,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 19.08,
+   "end": 19.16,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 19.16,
+   "end": 19.24,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 19.24,
+   "end": 19.38,
+   "type": "word"
+  },
+  {
+   "text": "ter",
+   "start": 19.38,
+   "end": 19.44,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 19.44,
+   "end": 19.62,
+   "type": "word"
+  },
+  {
+   "text": "benefício.",
+   "start": 19.62,
+   "end": 19.96,
+   "type": "word"
+  },
+  {
+   "text": "Com",
+   "start": 20.1,
+   "end": 20.22,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 20.22,
+   "end": 20.32,
+   "type": "word"
+  },
+  {
+   "text": "outros",
+   "start": 20.32,
+   "end": 20.46,
+   "type": "word"
+  },
+  {
+   "text": "80,",
+   "start": 20.46,
+   "end": 20.76,
+   "type": "word"
+  },
+  {
+   "text": "não.",
+   "start": 20.84,
+   "end": 21.06,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 21.2,
+   "end": 21.4,
+   "type": "word"
+  },
+  {
+   "text": "carga",
+   "start": 21.4,
+   "end": 21.58,
+   "type": "word"
+  },
+  {
+   "text": "tributária",
+   "start": 21.58,
+   "end": 22.04,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 22.04,
+   "end": 22.12,
+   "type": "word"
+  },
+  {
+   "text": "cima",
+   "start": 22.12,
+   "end": 22.2,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 22.2,
+   "end": 22.36,
+   "type": "word"
+  },
+  {
+   "text": "80",
+   "start": 22.36,
+   "end": 22.56,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 22.56,
+   "end": 22.7,
+   "type": "word"
+  },
+  {
+   "text": "aumentar.",
+   "start": 22.7,
+   "end": 23.12,
+   "type": "word"
+  },
+  {
+   "text": "Essa",
+   "start": 23.36,
+   "end": 23.58,
+   "type": "word"
+  },
+  {
+   "text": "conta",
+   "start": 23.58,
+   "end": 23.78,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 23.78,
+   "end": 23.92,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 23.92,
+   "end": 23.98,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 23.98,
+   "end": 24.16,
+   "type": "word"
+  },
+  {
+   "text": "feita.",
+   "start": 24.16,
+   "end": 24.56,
+   "type": "word"
+  },
+  {
+   "text": "Aí",
+   "start": 24.7,
+   "end": 24.88,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 24.88,
+   "end": 25.02,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 25.02,
+   "end": 25.1,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 25.1,
+   "end": 25.3,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 25.3,
+   "end": 25.46,
+   "type": "word"
+  },
+  {
+   "text": "tributarista,",
+   "start": 25.46,
+   "end": 25.9,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 25.92,
+   "end": 26.06,
+   "type": "word"
+  },
+  {
+   "text": "gestão.",
+   "start": 26.06,
+   "end": 26.58,
+   "type": "word"
+  },
+  {
+   "text": "Então,",
+   "start": 26.7,
+   "end": 26.8,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 26.8,
+   "end": 26.92,
+   "type": "word"
+  },
+  {
+   "text": "dizer,",
+   "start": 26.92,
+   "end": 26.98,
+   "type": "word"
+  },
+  {
+   "text": "80",
+   "start": 27.06,
+   "end": 27.32,
+   "type": "word"
+  },
+  {
+   "text": "%",
+   "start": 27.32,
+   "end": 28.06,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 28.06,
+   "end": 28.28,
+   "type": "word"
+  },
+  {
+   "text": "ter",
+   "start": 28.28,
+   "end": 28.44,
+   "type": "word"
+  },
+  {
+   "text": "sobrecarga",
+   "start": 28.44,
+   "end": 28.9,
+   "type": "word"
+  },
+  {
+   "text": "tributária.",
+   "start": 28.9,
+   "end": 29.46,
+   "type": "word"
+  },
+  {
+   "text": "Pra",
+   "start": 29.46,
+   "end": 30.02,
+   "type": "word"
+  },
+  {
+   "text": "mim.",
+   "start": 30.02,
+   "end": 30.22,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 30.56,
+   "end": 30.64,
+   "type": "word"
+  },
+  {
+   "text": "20",
+   "start": 30.64,
+   "end": 30.78,
+   "type": "word"
+  },
+  {
+   "text": "%",
+   "start": 30.78,
+   "end": 31.04,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 31.04,
+   "end": 31.12,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 31.12,
+   "end": 31.24,
+   "type": "word"
+  },
+  {
+   "text": "dar",
+   "start": 31.24,
+   "end": 31.4,
+   "type": "word"
+  },
+  {
+   "text": "benefício",
+   "start": 31.4,
+   "end": 31.78,
+   "type": "word"
+  },
+  {
+   "text": "pro",
+   "start": 31.78,
+   "end": 31.9,
+   "type": "word"
+  },
+  {
+   "text": "outro",
+   "start": 31.9,
+   "end": 32.14,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 32.14,
+   "end": 32.42,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 32.42,
+   "end": 32.56,
+   "type": "word"
+  },
+  {
+   "text": "manter",
+   "start": 32.56,
+   "end": 32.76,
+   "type": "word"
+  },
+  {
+   "text": "aquela",
+   "start": 32.76,
+   "end": 32.96,
+   "type": "word"
+  },
+  {
+   "text": "receita.",
+   "start": 32.96,
+   "end": 33.5,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 33.72,
+   "end": 33.8,
+   "type": "word"
+  },
+  {
+   "text": "conta",
+   "start": 33.8,
+   "end": 33.9,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 33.9,
+   "end": 34.08,
+   "type": "word"
+  },
+  {
+   "text": "fecha.",
+   "start": 34.08,
+   "end": 34.32,
+   "type": "word"
+  },
+  {
+   "text": "Isso",
+   "start": 34.98,
+   "end": 35.2,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 35.2,
+   "end": 35.34,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 35.34,
+   "end": 35.52,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 35.52,
+   "end": 35.68,
+   "type": "word"
+  },
+  {
+   "text": "maiores",
+   "start": 35.68,
+   "end": 36.0,
+   "type": "word"
+  },
+  {
+   "text": "erros",
+   "start": 36.0,
+   "end": 36.1,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 36.1,
+   "end": 36.26,
+   "type": "word"
+  },
+  {
+   "text": "gestão.",
+   "start": 36.26,
+   "end": 36.58,
+   "type": "word"
+  }
+ ]
+}

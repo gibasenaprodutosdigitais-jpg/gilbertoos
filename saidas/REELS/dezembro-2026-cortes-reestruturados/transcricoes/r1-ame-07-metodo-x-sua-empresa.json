@@ -1,0 +1,400 @@
+{
+ "words": [
+  {
+   "text": "A",
+   "start": 0.0,
+   "end": 0.22,
+   "type": "word"
+  },
+  {
+   "text": "Mentoria",
+   "start": 0.22,
+   "end": 0.48,
+   "type": "word"
+  },
+  {
+   "text": "termina",
+   "start": 0.48,
+   "end": 0.8,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 0.8,
+   "end": 0.94,
+   "type": "word"
+  },
+  {
+   "text": "último",
+   "start": 0.94,
+   "end": 1.14,
+   "type": "word"
+  },
+  {
+   "text": "módulo.",
+   "start": 1.14,
+   "end": 1.58,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 1.74,
+   "end": 1.8,
+   "type": "word"
+  },
+  {
+   "text": "assessoria",
+   "start": 1.8,
+   "end": 2.08,
+   "type": "word"
+  },
+  {
+   "text": "termina",
+   "start": 2.08,
+   "end": 2.44,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 2.44,
+   "end": 2.72,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 2.72,
+   "end": 2.84,
+   "type": "word"
+  },
+  {
+   "text": "teu",
+   "start": 2.84,
+   "end": 2.92,
+   "type": "word"
+  },
+  {
+   "text": "número",
+   "start": 2.92,
+   "end": 3.04,
+   "type": "word"
+  },
+  {
+   "text": "muda.",
+   "start": 3.04,
+   "end": 3.42,
+   "type": "word"
+  },
+  {
+   "text": "Vou",
+   "start": 3.6,
+   "end": 3.66,
+   "type": "word"
+  },
+  {
+   "text": "lhe",
+   "start": 3.66,
+   "end": 3.76,
+   "type": "word"
+  },
+  {
+   "text": "mostrar",
+   "start": 3.76,
+   "end": 4.0,
+   "type": "word"
+  },
+  {
+   "text": "agora",
+   "start": 4.0,
+   "end": 4.22,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 4.22,
+   "end": 4.28,
+   "type": "word"
+  },
+  {
+   "text": "diferença.",
+   "start": 4.28,
+   "end": 4.64,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 5.0,
+   "end": 5.08,
+   "type": "word"
+  },
+  {
+   "text": "Mentoria",
+   "start": 5.08,
+   "end": 5.44,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 5.44,
+   "end": 5.7,
+   "type": "word"
+  },
+  {
+   "text": "passa",
+   "start": 5.7,
+   "end": 5.94,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 5.94,
+   "end": 6.2,
+   "type": "word"
+  },
+  {
+   "text": "método.",
+   "start": 6.2,
+   "end": 6.52,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 6.72,
+   "end": 6.82,
+   "type": "word"
+  },
+  {
+   "text": "assessoria",
+   "start": 6.82,
+   "end": 7.3,
+   "type": "word"
+  },
+  {
+   "text": "adapta",
+   "start": 7.3,
+   "end": 7.7,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 7.7,
+   "end": 7.82,
+   "type": "word"
+  },
+  {
+   "text": "método",
+   "start": 7.82,
+   "end": 8.3,
+   "type": "word"
+  },
+  {
+   "text": "à",
+   "start": 8.3,
+   "end": 8.5,
+   "type": "word"
+  },
+  {
+   "text": "tua",
+   "start": 8.5,
+   "end": 8.74,
+   "type": "word"
+  },
+  {
+   "text": "empresa.",
+   "start": 8.74,
+   "end": 9.08,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 9.36,
+   "end": 9.44,
+   "type": "word"
+  },
+  {
+   "text": "Mentoria",
+   "start": 9.44,
+   "end": 9.68,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 9.68,
+   "end": 9.78,
+   "type": "word"
+  },
+  {
+   "text": "dá",
+   "start": 9.78,
+   "end": 9.9,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 9.9,
+   "end": 10.08,
+   "type": "word"
+  },
+  {
+   "text": "matéria.",
+   "start": 10.08,
+   "end": 10.4,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 10.6,
+   "end": 10.7,
+   "type": "word"
+  },
+  {
+   "text": "assessoria",
+   "start": 10.7,
+   "end": 10.92,
+   "type": "word"
+  },
+  {
+   "text": "corrige",
+   "start": 10.92,
+   "end": 11.22,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 11.22,
+   "end": 11.36,
+   "type": "word"
+  },
+  {
+   "text": "prova",
+   "start": 11.36,
+   "end": 11.52,
+   "type": "word"
+  },
+  {
+   "text": "junto",
+   "start": 11.52,
+   "end": 11.82,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 11.82,
+   "end": 11.98,
+   "type": "word"
+  },
+  {
+   "text": "você.",
+   "start": 11.98,
+   "end": 12.18,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 12.4,
+   "end": 12.48,
+   "type": "word"
+  },
+  {
+   "text": "Mentoria",
+   "start": 12.48,
+   "end": 12.74,
+   "type": "word"
+  },
+  {
+   "text": "termina",
+   "start": 12.74,
+   "end": 13.04,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 13.04,
+   "end": 13.2,
+   "type": "word"
+  },
+  {
+   "text": "último",
+   "start": 13.2,
+   "end": 13.36,
+   "type": "word"
+  },
+  {
+   "text": "módulo.",
+   "start": 13.36,
+   "end": 13.78,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 13.96,
+   "end": 14.02,
+   "type": "word"
+  },
+  {
+   "text": "assessoria",
+   "start": 14.02,
+   "end": 14.34,
+   "type": "word"
+  },
+  {
+   "text": "termina",
+   "start": 14.34,
+   "end": 14.68,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 14.68,
+   "end": 14.9,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 14.9,
+   "end": 15.08,
+   "type": "word"
+  },
+  {
+   "text": "teu",
+   "start": 15.08,
+   "end": 15.14,
+   "type": "word"
+  },
+  {
+   "text": "número",
+   "start": 15.14,
+   "end": 15.3,
+   "type": "word"
+  },
+  {
+   "text": "muda.",
+   "start": 15.3,
+   "end": 15.64,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 15.82,
+   "end": 15.92,
+   "type": "word"
+  },
+  {
+   "text": "escolha",
+   "start": 15.92,
+   "end": 16.22,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 16.22,
+   "end": 16.38,
+   "type": "word"
+  },
+  {
+   "text": "sua.",
+   "start": 16.38,
+   "end": 16.5,
+   "type": "word"
+  }
+ ]
+}

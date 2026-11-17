@@ -1,0 +1,328 @@
+{
+ "words": [
+  {
+   "text": "A",
+   "start": 0.0,
+   "end": 0.3,
+   "type": "word"
+  },
+  {
+   "text": "teoria",
+   "start": 0.3,
+   "end": 0.68,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 0.68,
+   "end": 0.86,
+   "type": "word"
+  },
+  {
+   "text": "paga",
+   "start": 0.86,
+   "end": 1.02,
+   "type": "word"
+  },
+  {
+   "text": "imposto.",
+   "start": 1.02,
+   "end": 1.52,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 1.68,
+   "end": 1.7,
+   "type": "word"
+  },
+  {
+   "text": "teoria",
+   "start": 1.7,
+   "end": 2.24,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 2.24,
+   "end": 2.46,
+   "type": "word"
+  },
+  {
+   "text": "fecha",
+   "start": 2.46,
+   "end": 2.74,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 2.74,
+   "end": 2.86,
+   "type": "word"
+  },
+  {
+   "text": "caixa",
+   "start": 2.86,
+   "end": 3.12,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 3.12,
+   "end": 3.32,
+   "type": "word"
+  },
+  {
+   "text": "positivo.",
+   "start": 3.32,
+   "end": 3.68,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 4.12,
+   "end": 4.26,
+   "type": "word"
+  },
+  {
+   "text": "teoria",
+   "start": 4.26,
+   "end": 4.6,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 4.6,
+   "end": 4.6,
+   "type": "word"
+  },
+  {
+   "text": "paga",
+   "start": 4.6,
+   "end": 4.94,
+   "type": "word"
+  },
+  {
+   "text": "imposto.",
+   "start": 4.94,
+   "end": 5.42,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 5.64,
+   "end": 5.7,
+   "type": "word"
+  },
+  {
+   "text": "teoria",
+   "start": 5.7,
+   "end": 6.1,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 6.1,
+   "end": 6.4,
+   "type": "word"
+  },
+  {
+   "text": "fecha",
+   "start": 6.4,
+   "end": 6.66,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 6.66,
+   "end": 6.78,
+   "type": "word"
+  },
+  {
+   "text": "caixa",
+   "start": 6.78,
+   "end": 7.04,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 7.04,
+   "end": 7.28,
+   "type": "word"
+  },
+  {
+   "text": "positivo.",
+   "start": 7.28,
+   "end": 7.62,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 7.88,
+   "end": 7.96,
+   "type": "word"
+  },
+  {
+   "text": "teoria",
+   "start": 7.96,
+   "end": 8.36,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 8.36,
+   "end": 8.68,
+   "type": "word"
+  },
+  {
+   "text": "contrata",
+   "start": 8.68,
+   "end": 9.06,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 9.06,
+   "end": 9.28,
+   "type": "word"
+  },
+  {
+   "text": "demite",
+   "start": 9.28,
+   "end": 9.54,
+   "type": "word"
+  },
+  {
+   "text": "alguém",
+   "start": 9.54,
+   "end": 9.8,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 9.8,
+   "end": 10.06,
+   "type": "word"
+  },
+  {
+   "text": "qualidade.",
+   "start": 10.06,
+   "end": 10.46,
+   "type": "word"
+  },
+  {
+   "text": "Isso",
+   "start": 10.74,
+   "end": 10.84,
+   "type": "word"
+  },
+  {
+   "text": "quem",
+   "start": 10.84,
+   "end": 10.96,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 10.96,
+   "end": 11.22,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 11.22,
+   "end": 11.44,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 11.44,
+   "end": 11.54,
+   "type": "word"
+  },
+  {
+   "text": "dono.",
+   "start": 11.54,
+   "end": 11.76,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 11.78,
+   "end": 12.0,
+   "type": "word"
+  },
+  {
+   "text": "sempre",
+   "start": 12.0,
+   "end": 12.18,
+   "type": "word"
+  },
+  {
+   "text": "sozinho",
+   "start": 12.18,
+   "end": 12.72,
+   "type": "word"
+  },
+  {
+   "text": "numa",
+   "start": 12.72,
+   "end": 12.94,
+   "type": "word"
+  },
+  {
+   "text": "segunda",
+   "start": 12.94,
+   "end": 13.28,
+   "type": "word"
+  },
+  {
+   "text": "-feira",
+   "start": 13.28,
+   "end": 13.48,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 13.48,
+   "end": 13.62,
+   "type": "word"
+  },
+  {
+   "text": "manhã,",
+   "start": 13.62,
+   "end": 13.92,
+   "type": "word"
+  },
+  {
+   "text": "sem",
+   "start": 14.04,
+   "end": 14.12,
+   "type": "word"
+  },
+  {
+   "text": "ninguém",
+   "start": 14.12,
+   "end": 14.3,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 14.3,
+   "end": 14.42,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 14.42,
+   "end": 14.58,
+   "type": "word"
+  },
+  {
+   "text": "lado.",
+   "start": 14.58,
+   "end": 14.58,
+   "type": "word"
+  }
+ ]
+}

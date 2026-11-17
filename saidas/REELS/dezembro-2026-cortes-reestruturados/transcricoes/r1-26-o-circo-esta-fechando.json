@@ -1,0 +1,574 @@
+{
+ "words": [
+  {
+   "text": "Vamos",
+   "start": 0.0,
+   "end": 0.38,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 0.38,
+   "end": 1.32,
+   "type": "word"
+  },
+  {
+   "text": "coerentes,",
+   "start": 1.32,
+   "end": 1.88,
+   "type": "word"
+  },
+  {
+   "text": "vamos",
+   "start": 2.02,
+   "end": 2.14,
+   "type": "word"
+  },
+  {
+   "text": "realmente",
+   "start": 2.14,
+   "end": 3.06,
+   "type": "word"
+  },
+  {
+   "text": "colocar",
+   "start": 3.06,
+   "end": 4.16,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 4.16,
+   "end": 4.34,
+   "type": "word"
+  },
+  {
+   "text": "mão",
+   "start": 4.34,
+   "end": 4.42,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 4.42,
+   "end": 4.62,
+   "type": "word"
+  },
+  {
+   "text": "massa,",
+   "start": 4.62,
+   "end": 5.0,
+   "type": "word"
+  },
+  {
+   "text": "vamos",
+   "start": 5.26,
+   "end": 5.3,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 5.3,
+   "end": 5.48,
+   "type": "word"
+  },
+  {
+   "text": "inteligentes,",
+   "start": 5.48,
+   "end": 6.2,
+   "type": "word"
+  },
+  {
+   "text": "vamos",
+   "start": 6.4,
+   "end": 6.56,
+   "type": "word"
+  },
+  {
+   "text": "pensar",
+   "start": 6.56,
+   "end": 7.22,
+   "type": "word"
+  },
+  {
+   "text": "antes",
+   "start": 7.22,
+   "end": 8.72,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 8.72,
+   "end": 8.96,
+   "type": "word"
+  },
+  {
+   "text": "agir,",
+   "start": 8.96,
+   "end": 9.4,
+   "type": "word"
+  },
+  {
+   "text": "vamos",
+   "start": 10.34,
+   "end": 10.58,
+   "type": "word"
+  },
+  {
+   "text": "respirar",
+   "start": 10.58,
+   "end": 11.44,
+   "type": "word"
+  },
+  {
+   "text": "antes",
+   "start": 11.44,
+   "end": 11.7,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 11.7,
+   "end": 11.94,
+   "type": "word"
+  },
+  {
+   "text": "tomar",
+   "start": 11.94,
+   "end": 12.12,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 12.12,
+   "end": 12.4,
+   "type": "word"
+  },
+  {
+   "text": "decisão,",
+   "start": 12.4,
+   "end": 13.04,
+   "type": "word"
+  },
+  {
+   "text": "porque",
+   "start": 14.28,
+   "end": 14.28,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 14.63,
+   "end": 15.07,
+   "type": "word"
+  },
+  {
+   "text": "círculo",
+   "start": 15.07,
+   "end": 15.27,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 15.27,
+   "end": 15.41,
+   "type": "word"
+  },
+  {
+   "text": "fechando,",
+   "start": 15.41,
+   "end": 16.29,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 16.31,
+   "end": 17.73,
+   "type": "word"
+  },
+  {
+   "text": "coisas",
+   "start": 17.73,
+   "end": 18.09,
+   "type": "word"
+  },
+  {
+   "text": "estão",
+   "start": 18.09,
+   "end": 18.29,
+   "type": "word"
+  },
+  {
+   "text": "mudando,",
+   "start": 18.29,
+   "end": 18.91,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 20.55,
+   "end": 20.67,
+   "type": "word"
+  },
+  {
+   "text": "tecnologia",
+   "start": 20.67,
+   "end": 21.13,
+   "type": "word"
+  },
+  {
+   "text": "veio",
+   "start": 21.13,
+   "end": 21.35,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 21.35,
+   "end": 21.55,
+   "type": "word"
+  },
+  {
+   "text": "ajudar,",
+   "start": 21.55,
+   "end": 21.83,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 21.93,
+   "end": 22.07,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 22.07,
+   "end": 22.31,
+   "type": "word"
+  },
+  {
+   "text": "substituir",
+   "start": 22.31,
+   "end": 23.19,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 23.19,
+   "end": 23.83,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 23.83,
+   "end": 24.17,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 24.17,
+   "end": 24.45,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 24.45,
+   "end": 24.59,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 24.59,
+   "end": 24.83,
+   "type": "word"
+  },
+  {
+   "text": "adequar,",
+   "start": 24.83,
+   "end": 25.29,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 25.45,
+   "end": 25.45,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 25.45,
+   "end": 25.67,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 25.67,
+   "end": 25.77,
+   "type": "word"
+  },
+  {
+   "text": "buscar",
+   "start": 25.77,
+   "end": 26.03,
+   "type": "word"
+  },
+  {
+   "text": "inovação,",
+   "start": 26.03,
+   "end": 26.63,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 26.79,
+   "end": 26.79,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 26.79,
+   "end": 27.09,
+   "type": "word"
+  },
+  {
+   "text": "realmente",
+   "start": 27.09,
+   "end": 27.47,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 27.47,
+   "end": 27.59,
+   "type": "word"
+  },
+  {
+   "text": "buscar",
+   "start": 27.59,
+   "end": 27.83,
+   "type": "word"
+  },
+  {
+   "text": "conhecimento,",
+   "start": 27.83,
+   "end": 28.63,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 28.99,
+   "end": 29.03,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 29.03,
+   "end": 29.05,
+   "type": "word"
+  },
+  {
+   "text": "acho",
+   "start": 29.05,
+   "end": 29.19,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 29.19,
+   "end": 29.27,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 29.27,
+   "end": 29.37,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 29.37,
+   "end": 29.51,
+   "type": "word"
+  },
+  {
+   "text": "conhecimento",
+   "start": 29.51,
+   "end": 29.97,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 29.97,
+   "end": 30.13,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 30.13,
+   "end": 30.27,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 30.27,
+   "end": 30.45,
+   "type": "word"
+  },
+  {
+   "text": "levar",
+   "start": 30.45,
+   "end": 30.63,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 30.63,
+   "end": 30.77,
+   "type": "word"
+  },
+  {
+   "text": "sabedoria,",
+   "start": 30.77,
+   "end": 31.31,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 31.83,
+   "end": 31.87,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 31.87,
+   "end": 32.01,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 32.01,
+   "end": 32.11,
+   "type": "word"
+  },
+  {
+   "text": "buscar",
+   "start": 32.11,
+   "end": 32.31,
+   "type": "word"
+  },
+  {
+   "text": "conhecimento,",
+   "start": 32.31,
+   "end": 32.97,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 33.33,
+   "end": 33.41,
+   "type": "word"
+  },
+  {
+   "text": "nunca",
+   "start": 33.41,
+   "end": 33.85,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 33.85,
+   "end": 34.19,
+   "type": "word"
+  },
+  {
+   "text": "entender",
+   "start": 34.19,
+   "end": 34.77,
+   "type": "word"
+  },
+  {
+   "text": "nada",
+   "start": 34.77,
+   "end": 35.43,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 35.43,
+   "end": 35.73,
+   "type": "word"
+  },
+  {
+   "text": "provérbios,",
+   "start": 35.73,
+   "end": 36.19,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 36.41,
+   "end": 36.45,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 36.45,
+   "end": 36.57,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 36.57,
+   "end": 36.73,
+   "type": "word"
+  },
+  {
+   "text": "entender",
+   "start": 36.73,
+   "end": 37.17,
+   "type": "word"
+  },
+  {
+   "text": "nada",
+   "start": 37.17,
+   "end": 37.63,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 37.63,
+   "end": 37.85,
+   "type": "word"
+  },
+  {
+   "text": "Salomão,",
+   "start": 37.85,
+   "end": 38.45,
+   "type": "word"
+  },
+  {
+   "text": "então",
+   "start": 39.29,
+   "end": 39.45,
+   "type": "word"
+  },
+  {
+   "text": "fica",
+   "start": 39.45,
+   "end": 39.65,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 39.65,
+   "end": 39.79,
+   "type": "word"
+  },
+  {
+   "text": "dica",
+   "start": 39.79,
+   "end": 39.99,
+   "type": "word"
+  }
+ ]
+}

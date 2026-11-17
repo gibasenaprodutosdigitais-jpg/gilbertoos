@@ -1,0 +1,322 @@
+{
+ "words": [
+  {
+   "text": "Não",
+   "start": 0.0,
+   "end": 0.22,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 0.22,
+   "end": 0.34,
+   "type": "word"
+  },
+  {
+   "text": "falta",
+   "start": 0.34,
+   "end": 0.5,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 0.5,
+   "end": 0.7,
+   "type": "word"
+  },
+  {
+   "text": "conhecimento,",
+   "start": 0.7,
+   "end": 1.1,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 1.32,
+   "end": 1.38,
+   "type": "word"
+  },
+  {
+   "text": "falta",
+   "start": 1.38,
+   "end": 1.6,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 1.6,
+   "end": 1.94,
+   "type": "word"
+  },
+  {
+   "text": "execução.",
+   "start": 1.94,
+   "end": 2.36,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 2.7,
+   "end": 2.74,
+   "type": "word"
+  },
+  {
+   "text": "estou",
+   "start": 2.74,
+   "end": 2.86,
+   "type": "word"
+  },
+  {
+   "text": "cansado,",
+   "start": 2.86,
+   "end": 3.22,
+   "type": "word"
+  },
+  {
+   "text": "vejo",
+   "start": 3.3,
+   "end": 3.54,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 3.54,
+   "end": 3.78,
+   "type": "word"
+  },
+  {
+   "text": "isso.",
+   "start": 3.78,
+   "end": 4.02,
+   "type": "word"
+  },
+  {
+   "text": "Dono",
+   "start": 4.32,
+   "end": 4.76,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 4.76,
+   "end": 5.14,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 5.14,
+   "end": 5.34,
+   "type": "word"
+  },
+  {
+   "text": "três,",
+   "start": 5.34,
+   "end": 5.68,
+   "type": "word"
+  },
+  {
+   "text": "quatro,",
+   "start": 5.68,
+   "end": 6.0,
+   "type": "word"
+  },
+  {
+   "text": "cinco",
+   "start": 6.02,
+   "end": 6.2,
+   "type": "word"
+  },
+  {
+   "text": "metorias",
+   "start": 6.2,
+   "end": 6.8,
+   "type": "word"
+  },
+  {
+   "text": "sabe",
+   "start": 6.8,
+   "end": 7.08,
+   "type": "word"
+  },
+  {
+   "text": "tudo",
+   "start": 7.08,
+   "end": 7.26,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 7.26,
+   "end": 7.42,
+   "type": "word"
+  },
+  {
+   "text": "qual.",
+   "start": 7.42,
+   "end": 7.58,
+   "type": "word"
+  },
+  {
+   "text": "Fala",
+   "start": 7.94,
+   "end": 8.14,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 8.14,
+   "end": 8.3,
+   "type": "word"
+  },
+  {
+   "text": "termos,",
+   "start": 8.3,
+   "end": 8.56,
+   "type": "word"
+  },
+  {
+   "text": "conhece",
+   "start": 8.62,
+   "end": 9.0,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 9.0,
+   "end": 9.26,
+   "type": "word"
+  },
+  {
+   "text": "métodos",
+   "start": 9.26,
+   "end": 9.6,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 9.6,
+   "end": 9.74,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 9.74,
+   "end": 9.76,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 9.76,
+   "end": 9.94,
+   "type": "word"
+  },
+  {
+   "text": "continua",
+   "start": 9.94,
+   "end": 10.38,
+   "type": "word"
+  },
+  {
+   "text": "igualzinha.",
+   "start": 10.38,
+   "end": 11.1,
+   "type": "word"
+  },
+  {
+   "text": "Não",
+   "start": 11.28,
+   "end": 11.38,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 11.38,
+   "end": 11.48,
+   "type": "word"
+  },
+  {
+   "text": "falta",
+   "start": 11.48,
+   "end": 11.66,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 11.66,
+   "end": 11.84,
+   "type": "word"
+  },
+  {
+   "text": "conhecimento,",
+   "start": 11.84,
+   "end": 12.26,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 12.48,
+   "end": 12.54,
+   "type": "word"
+  },
+  {
+   "text": "falta",
+   "start": 12.54,
+   "end": 12.74,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 12.74,
+   "end": 13.08,
+   "type": "word"
+  },
+  {
+   "text": "execução.",
+   "start": 13.08,
+   "end": 13.44,
+   "type": "word"
+  },
+  {
+   "text": "Execução",
+   "start": 13.66,
+   "end": 14.08,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 14.08,
+   "end": 14.36,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 14.36,
+   "end": 14.58,
+   "type": "word"
+  },
+  {
+   "text": "comprada",
+   "start": 14.58,
+   "end": 14.98,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 14.98,
+   "end": 15.12,
+   "type": "word"
+  },
+  {
+   "text": "módulo",
+   "start": 15.12,
+   "end": 15.42,
+   "type": "word"
+  },
+  {
+   "text": "gravado.",
+   "start": 15.42,
+   "end": 15.72,
+   "type": "word"
+  }
+ ]
+}

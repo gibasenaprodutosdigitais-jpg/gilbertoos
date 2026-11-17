@@ -1,0 +1,412 @@
+{
+ "words": [
+  {
+   "text": "E",
+   "start": 0.0,
+   "end": 0.22,
+   "type": "word"
+  },
+  {
+   "text": "seis",
+   "start": 0.22,
+   "end": 0.32,
+   "type": "word"
+  },
+  {
+   "text": "meses",
+   "start": 0.32,
+   "end": 0.5,
+   "type": "word"
+  },
+  {
+   "text": "depois,",
+   "start": 0.5,
+   "end": 0.72,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 0.74,
+   "end": 0.88,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 0.88,
+   "end": 1.1,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 1.1,
+   "end": 1.24,
+   "type": "word"
+  },
+  {
+   "text": "ver,",
+   "start": 1.24,
+   "end": 1.44,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 1.5,
+   "end": 1.62,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 1.62,
+   "end": 1.86,
+   "type": "word"
+  },
+  {
+   "text": "engavetado.",
+   "start": 1.86,
+   "end": 2.34,
+   "type": "word"
+  },
+  {
+   "text": "Toda",
+   "start": 2.62,
+   "end": 2.78,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 2.78,
+   "end": 2.86,
+   "type": "word"
+  },
+  {
+   "text": "mentoria",
+   "start": 2.86,
+   "end": 3.06,
+   "type": "word"
+  },
+  {
+   "text": "termina",
+   "start": 3.06,
+   "end": 3.44,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 3.44,
+   "end": 3.64,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 3.64,
+   "end": 3.78,
+   "type": "word"
+  },
+  {
+   "text": "plano",
+   "start": 3.78,
+   "end": 3.9,
+   "type": "word"
+  },
+  {
+   "text": "lindo,",
+   "start": 3.9,
+   "end": 4.24,
+   "type": "word"
+  },
+  {
+   "text": "bonito,",
+   "start": 4.74,
+   "end": 4.74,
+   "type": "word"
+  },
+  {
+   "text": "colorido,",
+   "start": 4.98,
+   "end": 5.22,
+   "type": "word"
+  },
+  {
+   "text": "cheio",
+   "start": 5.28,
+   "end": 5.48,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 5.48,
+   "end": 5.62,
+   "type": "word"
+  },
+  {
+   "text": "setas,",
+   "start": 5.62,
+   "end": 5.78,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 5.84,
+   "end": 5.92,
+   "type": "word"
+  },
+  {
+   "text": "mostrando",
+   "start": 5.92,
+   "end": 6.16,
+   "type": "word"
+  },
+  {
+   "text": "alguns",
+   "start": 6.16,
+   "end": 6.38,
+   "type": "word"
+  },
+  {
+   "text": "caminhos.",
+   "start": 6.38,
+   "end": 6.78,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 7.14,
+   "end": 7.26,
+   "type": "word"
+  },
+  {
+   "text": "seis",
+   "start": 7.26,
+   "end": 7.38,
+   "type": "word"
+  },
+  {
+   "text": "meses",
+   "start": 7.38,
+   "end": 7.56,
+   "type": "word"
+  },
+  {
+   "text": "depois,",
+   "start": 7.56,
+   "end": 7.76,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 7.84,
+   "end": 7.94,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 7.94,
+   "end": 8.14,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 8.14,
+   "end": 8.26,
+   "type": "word"
+  },
+  {
+   "text": "ver,",
+   "start": 8.26,
+   "end": 8.44,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 8.58,
+   "end": 8.68,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 8.68,
+   "end": 8.88,
+   "type": "word"
+  },
+  {
+   "text": "engavetado.",
+   "start": 8.88,
+   "end": 9.36,
+   "type": "word"
+  },
+  {
+   "text": "Não",
+   "start": 9.48,
+   "end": 9.56,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 9.56,
+   "end": 9.64,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 9.64,
+   "end": 9.78,
+   "type": "word"
+  },
+  {
+   "text": "plano",
+   "start": 9.78,
+   "end": 9.92,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 9.92,
+   "end": 10.18,
+   "type": "word"
+  },
+  {
+   "text": "falha",
+   "start": 10.18,
+   "end": 10.34,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 10.34,
+   "end": 10.5,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 10.5,
+   "end": 10.62,
+   "type": "word"
+  },
+  {
+   "text": "ruim.",
+   "start": 10.62,
+   "end": 10.84,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 11.3,
+   "end": 11.46,
+   "type": "word"
+  },
+  {
+   "text": "falha",
+   "start": 11.46,
+   "end": 11.62,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 11.62,
+   "end": 11.74,
+   "type": "word"
+  },
+  {
+   "text": "porque",
+   "start": 11.74,
+   "end": 11.98,
+   "type": "word"
+  },
+  {
+   "text": "ninguém",
+   "start": 11.98,
+   "end": 12.36,
+   "type": "word"
+  },
+  {
+   "text": "acompanhou",
+   "start": 12.36,
+   "end": 12.8,
+   "type": "word"
+  },
+  {
+   "text": "você.",
+   "start": 12.8,
+   "end": 13.16,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 13.5,
+   "end": 13.62,
+   "type": "word"
+  },
+  {
+   "text": "assessoria",
+   "start": 13.62,
+   "end": 14.02,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 14.02,
+   "end": 14.32,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 14.32,
+   "end": 14.44,
+   "type": "word"
+  },
+  {
+   "text": "plano",
+   "start": 14.44,
+   "end": 14.6,
+   "type": "word"
+  },
+  {
+   "text": "saindo",
+   "start": 14.6,
+   "end": 14.84,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 14.84,
+   "end": 15.0,
+   "type": "word"
+  },
+  {
+   "text": "gaveta",
+   "start": 15.0,
+   "end": 15.34,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 15.34,
+   "end": 15.54,
+   "type": "word"
+  },
+  {
+   "text": "indo",
+   "start": 15.54,
+   "end": 15.64,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 15.64,
+   "end": 15.8,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 15.8,
+   "end": 15.82,
+   "type": "word"
+  },
+  {
+   "text": "execução.",
+   "start": 15.82,
+   "end": 16.08,
+   "type": "word"
+  }
+ ]
+}

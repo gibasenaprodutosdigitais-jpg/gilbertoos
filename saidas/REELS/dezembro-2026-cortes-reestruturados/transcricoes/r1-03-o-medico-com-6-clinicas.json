@@ -1,0 +1,1036 @@
+{
+ "words": [
+  {
+   "text": "Cedo,",
+   "start": 0.0,
+   "end": 0.36,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 0.5,
+   "end": 0.56,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 0.56,
+   "end": 0.66,
+   "type": "word"
+  },
+  {
+   "text": "estava",
+   "start": 0.66,
+   "end": 0.86,
+   "type": "word"
+  },
+  {
+   "text": "treinando,",
+   "start": 0.86,
+   "end": 2.06,
+   "type": "word"
+  },
+  {
+   "text": "conheci",
+   "start": 2.32,
+   "end": 2.64,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 2.64,
+   "end": 3.3,
+   "type": "word"
+  },
+  {
+   "text": "médico",
+   "start": 3.3,
+   "end": 3.58,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 3.58,
+   "end": 3.78,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 3.78,
+   "end": 3.88,
+   "type": "word"
+  },
+  {
+   "text": "rede",
+   "start": 3.88,
+   "end": 4.08,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 4.08,
+   "end": 4.38,
+   "type": "word"
+  },
+  {
+   "text": "clínicas.",
+   "start": 4.38,
+   "end": 4.6,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 4.78,
+   "end": 4.82,
+   "type": "word"
+  },
+  {
+   "text": "estava",
+   "start": 4.82,
+   "end": 4.92,
+   "type": "word"
+  },
+  {
+   "text": "tendo",
+   "start": 4.92,
+   "end": 5.14,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 5.14,
+   "end": 5.22,
+   "type": "word"
+  },
+  {
+   "text": "papo",
+   "start": 5.22,
+   "end": 5.34,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 5.34,
+   "end": 5.56,
+   "type": "word"
+  },
+  {
+   "text": "ele,",
+   "start": 5.56,
+   "end": 5.92,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 6.04,
+   "end": 6.18,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 6.18,
+   "end": 6.32,
+   "type": "word"
+  },
+  {
+   "text": "falou",
+   "start": 6.32,
+   "end": 6.54,
+   "type": "word"
+  },
+  {
+   "text": "assim,",
+   "start": 6.54,
+   "end": 6.7,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 7.14,
+   "end": 7.14,
+   "type": "word"
+  },
+  {
+   "text": "parece",
+   "start": 7.34,
+   "end": 7.5,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.5,
+   "end": 7.6,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 7.6,
+   "end": 7.66,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 7.66,
+   "end": 7.8,
+   "type": "word"
+  },
+  {
+   "text": "conheço",
+   "start": 7.8,
+   "end": 8.24,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 8.24,
+   "end": 8.36,
+   "type": "word"
+  },
+  {
+   "text": "tal.",
+   "start": 8.36,
+   "end": 8.48,
+   "type": "word"
+  },
+  {
+   "text": "Ele",
+   "start": 8.5,
+   "end": 8.64,
+   "type": "word"
+  },
+  {
+   "text": "viu",
+   "start": 8.64,
+   "end": 9.6,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 9.6,
+   "end": 9.96,
+   "type": "word"
+  },
+  {
+   "text": "vídeo,",
+   "start": 9.96,
+   "end": 10.12,
+   "type": "word"
+  },
+  {
+   "text": "né?",
+   "start": 10.2,
+   "end": 10.28,
+   "type": "word"
+  },
+  {
+   "text": "Ele",
+   "start": 10.48,
+   "end": 10.54,
+   "type": "word"
+  },
+  {
+   "text": "viu",
+   "start": 10.54,
+   "end": 10.68,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 10.68,
+   "end": 10.84,
+   "type": "word"
+  },
+  {
+   "text": "vídeo",
+   "start": 10.84,
+   "end": 11.04,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 11.04,
+   "end": 11.26,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 11.26,
+   "end": 11.52,
+   "type": "word"
+  },
+  {
+   "text": "postei,",
+   "start": 11.52,
+   "end": 12.46,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 12.64,
+   "end": 12.8,
+   "type": "word"
+  },
+  {
+   "text": "dessas",
+   "start": 12.8,
+   "end": 13.1,
+   "type": "word"
+  },
+  {
+   "text": "falácias.",
+   "start": 13.1,
+   "end": 14.16,
+   "type": "word"
+  },
+  {
+   "text": "Ele",
+   "start": 14.8,
+   "end": 14.96,
+   "type": "word"
+  },
+  {
+   "text": "falou,",
+   "start": 14.96,
+   "end": 15.04,
+   "type": "word"
+  },
+  {
+   "text": "pô,",
+   "start": 15.06,
+   "end": 15.32,
+   "type": "word"
+  },
+  {
+   "text": "bicho,",
+   "start": 15.34,
+   "end": 15.5,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 15.54,
+   "end": 15.58,
+   "type": "word"
+  },
+  {
+   "text": "estou",
+   "start": 15.58,
+   "end": 15.66,
+   "type": "word"
+  },
+  {
+   "text": "precisando",
+   "start": 15.66,
+   "end": 15.92,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 15.92,
+   "end": 16.2,
+   "type": "word"
+  },
+  {
+   "text": "ajuda,",
+   "start": 16.2,
+   "end": 16.5,
+   "type": "word"
+  },
+  {
+   "text": "porque",
+   "start": 16.66,
+   "end": 16.74,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 16.74,
+   "end": 16.74,
+   "type": "word"
+  },
+  {
+   "text": "estou",
+   "start": 16.74,
+   "end": 16.84,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 16.84,
+   "end": 17.04,
+   "type": "word"
+  },
+  {
+   "text": "seis",
+   "start": 17.04,
+   "end": 17.4,
+   "type": "word"
+  },
+  {
+   "text": "clínicas,",
+   "start": 17.4,
+   "end": 17.84,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 17.92,
+   "end": 18.0,
+   "type": "word"
+  },
+  {
+   "text": "tenho",
+   "start": 18.0,
+   "end": 18.1,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 18.1,
+   "end": 18.28,
+   "type": "word"
+  },
+  {
+   "text": "projeto",
+   "start": 18.28,
+   "end": 18.48,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 18.48,
+   "end": 18.68,
+   "type": "word"
+  },
+  {
+   "text": "ampliar",
+   "start": 18.68,
+   "end": 19.8,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 19.99,
+   "end": 20.35,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 20.35,
+   "end": 20.55,
+   "type": "word"
+  },
+  {
+   "text": "dez",
+   "start": 20.55,
+   "end": 20.83,
+   "type": "word"
+  },
+  {
+   "text": "clínicas",
+   "start": 20.83,
+   "end": 21.59,
+   "type": "word"
+  },
+  {
+   "text": "até",
+   "start": 21.59,
+   "end": 22.25,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 22.25,
+   "end": 22.55,
+   "type": "word"
+  },
+  {
+   "text": "início",
+   "start": 22.55,
+   "end": 22.75,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 22.75,
+   "end": 22.99,
+   "type": "word"
+  },
+  {
+   "text": "ano,",
+   "start": 22.99,
+   "end": 23.37,
+   "type": "word"
+  },
+  {
+   "text": "mas",
+   "start": 24.09,
+   "end": 24.49,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 24.49,
+   "end": 24.63,
+   "type": "word"
+  },
+  {
+   "text": "estou",
+   "start": 24.63,
+   "end": 24.73,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 24.73,
+   "end": 24.93,
+   "type": "word"
+  },
+  {
+   "text": "medo,",
+   "start": 24.93,
+   "end": 25.21,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 25.29,
+   "end": 25.43,
+   "type": "word"
+  },
+  {
+   "text": "estou",
+   "start": 25.43,
+   "end": 25.45,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 25.45,
+   "end": 25.63,
+   "type": "word"
+  },
+  {
+   "text": "medo,",
+   "start": 25.63,
+   "end": 26.03,
+   "type": "word"
+  },
+  {
+   "text": "né?",
+   "start": 26.19,
+   "end": 26.65,
+   "type": "word"
+  },
+  {
+   "text": "Se",
+   "start": 27.2,
+   "end": 27.49,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 27.49,
+   "end": 27.65,
+   "type": "word"
+  },
+  {
+   "text": "estou",
+   "start": 27.65,
+   "end": 28.23,
+   "type": "word"
+  },
+  {
+   "text": "dentro",
+   "start": 28.23,
+   "end": 28.69,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 28.69,
+   "end": 28.85,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 28.85,
+   "end": 28.91,
+   "type": "word"
+  },
+  {
+   "text": "regime",
+   "start": 28.91,
+   "end": 29.25,
+   "type": "word"
+  },
+  {
+   "text": "correto,",
+   "start": 29.25,
+   "end": 30.03,
+   "type": "word"
+  },
+  {
+   "text": "até",
+   "start": 30.87,
+   "end": 30.95,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 30.95,
+   "end": 31.11,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 31.11,
+   "end": 31.15,
+   "type": "word"
+  },
+  {
+   "text": "estou",
+   "start": 31.15,
+   "end": 31.23,
+   "type": "word"
+  },
+  {
+   "text": "pagando",
+   "start": 31.23,
+   "end": 31.57,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 31.57,
+   "end": 31.71,
+   "type": "word"
+  },
+  {
+   "text": "impostos",
+   "start": 31.71,
+   "end": 32.09,
+   "type": "word"
+  },
+  {
+   "text": "corretos.",
+   "start": 32.09,
+   "end": 32.73,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 32.89,
+   "end": 32.93,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 32.93,
+   "end": 33.11,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 33.11,
+   "end": 33.37,
+   "type": "word"
+  },
+  {
+   "text": "receio",
+   "start": 33.37,
+   "end": 33.75,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 33.75,
+   "end": 33.89,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 33.89,
+   "end": 33.95,
+   "type": "word"
+  },
+  {
+   "text": "rede",
+   "start": 33.95,
+   "end": 34.07,
+   "type": "word"
+  },
+  {
+   "text": "social,",
+   "start": 34.07,
+   "end": 34.69,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 34.69,
+   "end": 35.11,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 35.11,
+   "end": 35.31,
+   "type": "word"
+  },
+  {
+   "text": "receio",
+   "start": 35.31,
+   "end": 36.23,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 36.23,
+   "end": 36.45,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 36.45,
+   "end": 36.57,
+   "type": "word"
+  },
+  {
+   "text": "internet,",
+   "start": 36.57,
+   "end": 36.99,
+   "type": "word"
+  },
+  {
+   "text": "justamente",
+   "start": 37.27,
+   "end": 37.65,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 37.65,
+   "end": 37.89,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 37.89,
+   "end": 38.03,
+   "type": "word"
+  },
+  {
+   "text": "alfamílias.",
+   "start": 38.03,
+   "end": 38.97,
+   "type": "word"
+  },
+  {
+   "text": "Então,",
+   "start": 39.13,
+   "end": 39.25,
+   "type": "word"
+  },
+  {
+   "text": "sim,",
+   "start": 39.33,
+   "end": 39.47,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 39.47,
+   "end": 39.55,
+   "type": "word"
+  },
+  {
+   "text": "estava",
+   "start": 39.55,
+   "end": 39.69,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 39.69,
+   "end": 40.29,
+   "type": "word"
+  },
+  {
+   "text": "receoso,",
+   "start": 40.29,
+   "end": 41.25,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 42.21,
+   "end": 42.37,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 42.37,
+   "end": 42.57,
+   "type": "word"
+  },
+  {
+   "text": "quinze",
+   "start": 42.57,
+   "end": 42.87,
+   "type": "word"
+  },
+  {
+   "text": "anos",
+   "start": 42.87,
+   "end": 43.53,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 43.53,
+   "end": 43.99,
+   "type": "word"
+  },
+  {
+   "text": "trabalho,",
+   "start": 43.99,
+   "end": 44.51,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 45.25,
+   "end": 45.27,
+   "type": "word"
+  },
+  {
+   "text": "história,",
+   "start": 45.27,
+   "end": 46.45,
+   "type": "word"
+  },
+  {
+   "text": "centenas",
+   "start": 47.99,
+   "end": 48.23,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 48.23,
+   "end": 48.41,
+   "type": "word"
+  },
+  {
+   "text": "empresas",
+   "start": 48.41,
+   "end": 48.69,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 48.69,
+   "end": 49.03,
+   "type": "word"
+  },
+  {
+   "text": "transformadas,",
+   "start": 49.03,
+   "end": 50.25,
+   "type": "word"
+  },
+  {
+   "text": "alguns",
+   "start": 52.86,
+   "end": 53.12,
+   "type": "word"
+  },
+  {
+   "text": "milhões",
+   "start": 53.12,
+   "end": 53.52,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 53.52,
+   "end": 54.22,
+   "type": "word"
+  },
+  {
+   "text": "colonizados",
+   "start": 54.22,
+   "end": 55.0,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 55.0,
+   "end": 55.44,
+   "type": "word"
+  },
+  {
+   "text": "até",
+   "start": 55.44,
+   "end": 55.64,
+   "type": "word"
+  },
+  {
+   "text": "recuperados.",
+   "start": 55.64,
+   "end": 56.38,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 56.38,
+   "end": 56.9,
+   "type": "word"
+  },
+  {
+   "text": "fico",
+   "start": 56.9,
+   "end": 57.1,
+   "type": "word"
+  },
+  {
+   "text": "feliz,",
+   "start": 57.1,
+   "end": 57.52,
+   "type": "word"
+  },
+  {
+   "text": "fico",
+   "start": 57.56,
+   "end": 57.8,
+   "type": "word"
+  },
+  {
+   "text": "feliz",
+   "start": 57.8,
+   "end": 58.38,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 58.38,
+   "end": 59.54,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 59.54,
+   "end": 59.78,
+   "type": "word"
+  },
+  {
+   "text": "estar",
+   "start": 59.78,
+   "end": 59.96,
+   "type": "word"
+  },
+  {
+   "text": "acontecendo,",
+   "start": 59.96,
+   "end": 60.46,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 60.76,
+   "end": 60.8,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 60.8,
+   "end": 60.8,
+   "type": "word"
+  },
+  {
+   "text": "poder",
+   "start": 60.8,
+   "end": 61.38,
+   "type": "word"
+  },
+  {
+   "text": "chegar",
+   "start": 61.38,
+   "end": 61.94,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 61.94,
+   "end": 62.58,
+   "type": "word"
+  },
+  {
+   "text": "clientes,",
+   "start": 62.58,
+   "end": 63.66,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 64.32,
+   "end": 64.9,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 64.9,
+   "end": 65.0,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 65.0,
+   "end": 65.28,
+   "type": "word"
+  },
+  {
+   "text": "imaginava",
+   "start": 65.28,
+   "end": 66.3,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 66.3,
+   "end": 66.6,
+   "type": "word"
+  },
+  {
+   "text": "teriam",
+   "start": 66.6,
+   "end": 66.9,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 66.9,
+   "end": 67.08,
+   "type": "word"
+  },
+  {
+   "text": "tipo",
+   "start": 67.08,
+   "end": 67.3,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 67.3,
+   "end": 67.56,
+   "type": "word"
+  },
+  {
+   "text": "problema.",
+   "start": 67.56,
+   "end": 67.8,
+   "type": "word"
+  }
+ ]
+}

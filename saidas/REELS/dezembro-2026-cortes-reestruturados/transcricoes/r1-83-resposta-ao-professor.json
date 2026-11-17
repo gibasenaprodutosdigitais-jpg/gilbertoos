@@ -1,0 +1,454 @@
+{
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.0,
+   "end": 0.26,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 0.26,
+   "end": 0.48,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 0.48,
+   "end": 0.7,
+   "type": "word"
+  },
+  {
+   "text": "toda",
+   "start": 0.7,
+   "end": 0.88,
+   "type": "word"
+  },
+  {
+   "text": "hora",
+   "start": 0.88,
+   "end": 1.06,
+   "type": "word"
+  },
+  {
+   "text": "saiu",
+   "start": 1.06,
+   "end": 1.24,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 1.24,
+   "end": 1.34,
+   "type": "word"
+  },
+  {
+   "text": "publicação",
+   "start": 1.34,
+   "end": 1.76,
+   "type": "word"
+  },
+  {
+   "text": "diferente?",
+   "start": 1.76,
+   "end": 2.18,
+   "type": "word"
+  },
+  {
+   "text": "Por",
+   "start": 2.58,
+   "end": 2.68,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 2.68,
+   "end": 2.88,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 2.88,
+   "end": 3.58,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 3.58,
+   "end": 5.1,
+   "type": "word"
+  },
+  {
+   "text": "escutei",
+   "start": 5.1,
+   "end": 5.62,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 5.62,
+   "end": 5.72,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 5.72,
+   "end": 6.04,
+   "type": "word"
+  },
+  {
+   "text": "professor",
+   "start": 6.04,
+   "end": 6.24,
+   "type": "word"
+  },
+  {
+   "text": "universitário",
+   "start": 6.24,
+   "end": 6.74,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 6.74,
+   "end": 6.98,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 6.98,
+   "end": 7.14,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 7.14,
+   "end": 7.34,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.34,
+   "end": 7.52,
+   "type": "word"
+  },
+  {
+   "text": "acabar",
+   "start": 7.52,
+   "end": 8.08,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 8.08,
+   "end": 8.24,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 8.24,
+   "end": 8.34,
+   "type": "word"
+  },
+  {
+   "text": "profissão",
+   "start": 8.34,
+   "end": 8.62,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 8.62,
+   "end": 8.82,
+   "type": "word"
+  },
+  {
+   "text": "tributarista,",
+   "start": 8.82,
+   "end": 9.64,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 10.58,
+   "end": 10.64,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 10.64,
+   "end": 10.76,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 10.76,
+   "end": 10.9,
+   "type": "word"
+  },
+  {
+   "text": "primeira",
+   "start": 10.9,
+   "end": 11.0,
+   "type": "word"
+  },
+  {
+   "text": "economia",
+   "start": 11.0,
+   "end": 11.4,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 11.4,
+   "end": 11.5,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 11.5,
+   "end": 11.64,
+   "type": "word"
+  },
+  {
+   "text": "empresário",
+   "start": 11.64,
+   "end": 11.84,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 11.84,
+   "end": 12.02,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 12.02,
+   "end": 12.26,
+   "type": "word"
+  },
+  {
+   "text": "ter?",
+   "start": 12.26,
+   "end": 12.4,
+   "type": "word"
+  },
+  {
+   "text": "Pelo",
+   "start": 12.58,
+   "end": 12.82,
+   "type": "word"
+  },
+  {
+   "text": "contrário,",
+   "start": 12.82,
+   "end": 13.52,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 13.8,
+   "end": 13.94,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 13.94,
+   "end": 14.16,
+   "type": "word"
+  },
+  {
+   "text": "empresário,",
+   "start": 14.16,
+   "end": 14.6,
+   "type": "word"
+  },
+  {
+   "text": "sabe",
+   "start": 14.78,
+   "end": 14.86,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 14.86,
+   "end": 15.0,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 15.0,
+   "end": 15.08,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 15.08,
+   "end": 15.16,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 15.16,
+   "end": 15.3,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 15.3,
+   "end": 15.52,
+   "type": "word"
+  },
+  {
+   "text": "banker?",
+   "start": 15.52,
+   "end": 15.68,
+   "type": "word"
+  },
+  {
+   "text": "É",
+   "start": 15.9,
+   "end": 16.04,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 16.04,
+   "end": 16.3,
+   "type": "word"
+  },
+  {
+   "text": "contratar",
+   "start": 16.3,
+   "end": 16.74,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 16.74,
+   "end": 17.24,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 17.24,
+   "end": 17.64,
+   "type": "word"
+  },
+  {
+   "text": "qualificada,",
+   "start": 17.64,
+   "end": 18.44,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 18.58,
+   "end": 18.58,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 18.58,
+   "end": 18.76,
+   "type": "word"
+  },
+  {
+   "text": "contratar",
+   "start": 18.76,
+   "end": 19.14,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 19.14,
+   "end": 19.34,
+   "type": "word"
+  },
+  {
+   "text": "profissional",
+   "start": 19.34,
+   "end": 19.74,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 19.74,
+   "end": 19.92,
+   "type": "word"
+  },
+  {
+   "text": "possa",
+   "start": 19.92,
+   "end": 20.12,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 20.12,
+   "end": 20.32,
+   "type": "word"
+  },
+  {
+   "text": "orientar,",
+   "start": 20.32,
+   "end": 20.66,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 20.76,
+   "end": 20.78,
+   "type": "word"
+  },
+  {
+   "text": "possa",
+   "start": 20.78,
+   "end": 20.96,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 20.96,
+   "end": 21.12,
+   "type": "word"
+  },
+  {
+   "text": "ajudar,",
+   "start": 21.12,
+   "end": 21.46,
+   "type": "word"
+  },
+  {
+   "text": "porque",
+   "start": 21.72,
+   "end": 22.16,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 22.16,
+   "end": 22.5,
+   "type": "word"
+  },
+  {
+   "text": "apocalipse",
+   "start": 22.5,
+   "end": 22.98,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 22.98,
+   "end": 23.3,
+   "type": "word"
+  },
+  {
+   "text": "chegou.",
+   "start": 23.3,
+   "end": 23.52,
+   "type": "word"
+  }
+ ]
+}

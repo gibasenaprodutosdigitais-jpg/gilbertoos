@@ -1,0 +1,742 @@
+{
+ "words": [
+  {
+   "text": "Às",
+   "start": 0.0,
+   "end": 0.28,
+   "type": "word"
+  },
+  {
+   "text": "vezes",
+   "start": 0.28,
+   "end": 0.52,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 0.52,
+   "end": 1.14,
+   "type": "word"
+  },
+  {
+   "text": "pessoas",
+   "start": 1.14,
+   "end": 1.52,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 1.52,
+   "end": 1.72,
+   "type": "word"
+  },
+  {
+   "text": "estão",
+   "start": 1.72,
+   "end": 1.86,
+   "type": "word"
+  },
+  {
+   "text": "ouvindo",
+   "start": 1.86,
+   "end": 2.76,
+   "type": "word"
+  },
+  {
+   "text": "alguns",
+   "start": 2.76,
+   "end": 3.34,
+   "type": "word"
+  },
+  {
+   "text": "alfanilhas",
+   "start": 3.34,
+   "end": 4.04,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 4.04,
+   "end": 4.4,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 4.4,
+   "end": 4.74,
+   "type": "word"
+  },
+  {
+   "text": "sobre",
+   "start": 4.74,
+   "end": 5.3,
+   "type": "word"
+  },
+  {
+   "text": "essa",
+   "start": 5.3,
+   "end": 5.86,
+   "type": "word"
+  },
+  {
+   "text": "história",
+   "start": 5.86,
+   "end": 6.46,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 6.46,
+   "end": 6.94,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 6.94,
+   "end": 7.08,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 7.08,
+   "end": 7.2,
+   "type": "word"
+  },
+  {
+   "text": "governo",
+   "start": 7.2,
+   "end": 7.8,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 7.8,
+   "end": 8.18,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 8.18,
+   "end": 8.28,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 8.28,
+   "end": 8.32,
+   "type": "word"
+  },
+  {
+   "text": "carga",
+   "start": 8.32,
+   "end": 8.52,
+   "type": "word"
+  },
+  {
+   "text": "tributária,",
+   "start": 8.52,
+   "end": 9.36,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 9.58,
+   "end": 10.04,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 10.74,
+   "end": 10.8,
+   "type": "word"
+  },
+  {
+   "text": "sou",
+   "start": 10.8,
+   "end": 11.0,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 11.0,
+   "end": 11.22,
+   "type": "word"
+  },
+  {
+   "text": "seguinte",
+   "start": 11.22,
+   "end": 11.62,
+   "type": "word"
+  },
+  {
+   "text": "opinião,",
+   "start": 11.62,
+   "end": 12.5,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 12.62,
+   "end": 12.88,
+   "type": "word"
+  },
+  {
+   "text": "você,",
+   "start": 12.88,
+   "end": 13.38,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 13.54,
+   "end": 13.68,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 13.68,
+   "end": 13.82,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 13.82,
+   "end": 14.0,
+   "type": "word"
+  },
+  {
+   "text": "negócio",
+   "start": 14.0,
+   "end": 14.4,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 14.4,
+   "end": 14.7,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 14.7,
+   "end": 14.86,
+   "type": "word"
+  },
+  {
+   "text": "dando",
+   "start": 14.86,
+   "end": 15.08,
+   "type": "word"
+  },
+  {
+   "text": "conta",
+   "start": 15.08,
+   "end": 15.36,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 15.36,
+   "end": 15.52,
+   "type": "word"
+  },
+  {
+   "text": "pagar",
+   "start": 15.52,
+   "end": 15.72,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 15.72,
+   "end": 16.08,
+   "type": "word"
+  },
+  {
+   "text": "impostos",
+   "start": 16.08,
+   "end": 16.88,
+   "type": "word"
+  },
+  {
+   "text": "dentro",
+   "start": 16.88,
+   "end": 17.32,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 17.32,
+   "end": 17.84,
+   "type": "word"
+  },
+  {
+   "text": "onde",
+   "start": 17.84,
+   "end": 17.94,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 17.94,
+   "end": 18.26,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 18.26,
+   "end": 18.46,
+   "type": "word"
+  },
+  {
+   "text": "estabelecido,",
+   "start": 18.46,
+   "end": 19.22,
+   "type": "word"
+  },
+  {
+   "text": "então",
+   "start": 19.48,
+   "end": 19.58,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 19.58,
+   "end": 19.74,
+   "type": "word"
+  },
+  {
+   "text": "amigo,",
+   "start": 19.74,
+   "end": 20.04,
+   "type": "word"
+  },
+  {
+   "text": "fecha",
+   "start": 21.5,
+   "end": 21.58,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 21.58,
+   "end": 21.66,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 21.66,
+   "end": 21.82,
+   "type": "word"
+  },
+  {
+   "text": "negócio,",
+   "start": 21.82,
+   "end": 22.32,
+   "type": "word"
+  },
+  {
+   "text": "fecha",
+   "start": 22.7,
+   "end": 22.88,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 22.88,
+   "end": 22.98,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 22.98,
+   "end": 23.1,
+   "type": "word"
+  },
+  {
+   "text": "negócio,",
+   "start": 23.1,
+   "end": 23.46,
+   "type": "word"
+  },
+  {
+   "text": "porque",
+   "start": 23.52,
+   "end": 23.96,
+   "type": "word"
+  },
+  {
+   "text": "desde",
+   "start": 23.96,
+   "end": 24.28,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 24.28,
+   "end": 24.38,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 24.38,
+   "end": 24.46,
+   "type": "word"
+  },
+  {
+   "text": "me",
+   "start": 24.46,
+   "end": 24.62,
+   "type": "word"
+  },
+  {
+   "text": "entendo",
+   "start": 24.62,
+   "end": 24.78,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 24.78,
+   "end": 25.08,
+   "type": "word"
+  },
+  {
+   "text": "gente,",
+   "start": 25.08,
+   "end": 25.38,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 25.52,
+   "end": 25.6,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 25.6,
+   "end": 25.74,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 25.74,
+   "end": 25.94,
+   "type": "word"
+  },
+  {
+   "text": "sabendo",
+   "start": 25.94,
+   "end": 26.24,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 26.24,
+   "end": 26.36,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 26.36,
+   "end": 26.42,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 26.42,
+   "end": 26.6,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 26.6,
+   "end": 26.72,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 26.72,
+   "end": 26.88,
+   "type": "word"
+  },
+  {
+   "text": "problema",
+   "start": 26.88,
+   "end": 27.24,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 27.24,
+   "end": 27.68,
+   "type": "word"
+  },
+  {
+   "text": "carga",
+   "start": 27.68,
+   "end": 27.94,
+   "type": "word"
+  },
+  {
+   "text": "tributária,",
+   "start": 27.94,
+   "end": 28.96,
+   "type": "word"
+  },
+  {
+   "text": "impostos,",
+   "start": 29.8,
+   "end": 31.02,
+   "type": "word"
+  },
+  {
+   "text": "enfim,",
+   "start": 32.12,
+   "end": 32.12,
+   "type": "word"
+  },
+  {
+   "text": "imposto",
+   "start": 32.64,
+   "end": 32.74,
+   "type": "word"
+  },
+  {
+   "text": "estadual,",
+   "start": 32.74,
+   "end": 33.24,
+   "type": "word"
+  },
+  {
+   "text": "municipal,",
+   "start": 33.44,
+   "end": 33.82,
+   "type": "word"
+  },
+  {
+   "text": "federal,",
+   "start": 34.14,
+   "end": 34.5,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 34.98,
+   "end": 35.0,
+   "type": "word"
+  },
+  {
+   "text": "são",
+   "start": 35.0,
+   "end": 35.74,
+   "type": "word"
+  },
+  {
+   "text": "três",
+   "start": 35.74,
+   "end": 36.14,
+   "type": "word"
+  },
+  {
+   "text": "pilares",
+   "start": 36.14,
+   "end": 36.88,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 36.88,
+   "end": 37.2,
+   "type": "word"
+  },
+  {
+   "text": "arrecadação",
+   "start": 37.2,
+   "end": 37.84,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 37.84,
+   "end": 37.96,
+   "type": "word"
+  },
+  {
+   "text": "nós",
+   "start": 37.96,
+   "end": 38.16,
+   "type": "word"
+  },
+  {
+   "text": "temos",
+   "start": 38.16,
+   "end": 38.4,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 38.4,
+   "end": 38.62,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 38.62,
+   "end": 38.76,
+   "type": "word"
+  },
+  {
+   "text": "negócio",
+   "start": 38.76,
+   "end": 39.1,
+   "type": "word"
+  },
+  {
+   "text": "só,",
+   "start": 39.1,
+   "end": 39.62,
+   "type": "word"
+  },
+  {
+   "text": "até",
+   "start": 41.04,
+   "end": 41.3,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 41.3,
+   "end": 41.42,
+   "type": "word"
+  },
+  {
+   "text": "ideia",
+   "start": 41.42,
+   "end": 41.64,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 41.64,
+   "end": 41.94,
+   "type": "word"
+  },
+  {
+   "text": "IVA",
+   "start": 41.94,
+   "end": 42.58,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 42.58,
+   "end": 43.08,
+   "type": "word"
+  },
+  {
+   "text": "unificar",
+   "start": 43.08,
+   "end": 43.68,
+   "type": "word"
+  },
+  {
+   "text": "tudo,",
+   "start": 43.68,
+   "end": 44.14,
+   "type": "word"
+  },
+  {
+   "text": "ela",
+   "start": 44.3,
+   "end": 44.58,
+   "type": "word"
+  },
+  {
+   "text": "acabou",
+   "start": 44.58,
+   "end": 44.78,
+   "type": "word"
+  },
+  {
+   "text": "aqui",
+   "start": 44.78,
+   "end": 45.02,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 45.02,
+   "end": 45.2,
+   "type": "word"
+  },
+  {
+   "text": "nosso",
+   "start": 45.2,
+   "end": 45.34,
+   "type": "word"
+  },
+  {
+   "text": "país",
+   "start": 45.34,
+   "end": 45.64,
+   "type": "word"
+  },
+  {
+   "text": "sendo",
+   "start": 45.64,
+   "end": 46.3,
+   "type": "word"
+  },
+  {
+   "text": "compartilhada,",
+   "start": 46.3,
+   "end": 47.34,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 47.5,
+   "end": 47.68,
+   "type": "word"
+  },
+  {
+   "text": "criando",
+   "start": 47.68,
+   "end": 48.04,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 48.04,
+   "end": 48.22,
+   "type": "word"
+  },
+  {
+   "text": "modelo",
+   "start": 48.22,
+   "end": 48.4,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 48.4,
+   "end": 48.6,
+   "type": "word"
+  },
+  {
+   "text": "IVA",
+   "start": 48.6,
+   "end": 48.88,
+   "type": "word"
+  },
+  {
+   "text": "dual.",
+   "start": 48.88,
+   "end": 49.18,
+   "type": "word"
+  }
+ ]
+}

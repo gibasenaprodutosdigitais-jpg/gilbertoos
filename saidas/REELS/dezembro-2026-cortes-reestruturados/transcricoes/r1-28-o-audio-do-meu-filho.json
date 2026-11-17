@@ -1,0 +1,712 @@
+{
+ "words": [
+  {
+   "text": "Pessoal,",
+   "start": 0.0,
+   "end": 0.74,
+   "type": "word"
+  },
+  {
+   "text": "sabe",
+   "start": 0.8,
+   "end": 0.98,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 0.98,
+   "end": 1.2,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 1.2,
+   "end": 1.78,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 1.78,
+   "end": 1.9,
+   "type": "word"
+  },
+  {
+   "text": "certeza",
+   "start": 1.9,
+   "end": 2.32,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 2.32,
+   "end": 2.52,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 2.52,
+   "end": 2.72,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 2.72,
+   "end": 2.8,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 2.8,
+   "end": 2.94,
+   "type": "word"
+  },
+  {
+   "text": "caminho",
+   "start": 2.94,
+   "end": 3.14,
+   "type": "word"
+  },
+  {
+   "text": "certo?",
+   "start": 3.14,
+   "end": 3.56,
+   "type": "word"
+  },
+  {
+   "text": "Que",
+   "start": 4.26,
+   "end": 4.36,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 4.36,
+   "end": 4.48,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 4.48,
+   "end": 4.64,
+   "type": "word"
+  },
+  {
+   "text": "trabalho",
+   "start": 4.64,
+   "end": 5.2,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 5.2,
+   "end": 5.92,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 5.92,
+   "end": 6.02,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 6.02,
+   "end": 6.18,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 6.18,
+   "end": 6.36,
+   "type": "word"
+  },
+  {
+   "text": "trabalho.",
+   "start": 6.36,
+   "end": 6.76,
+   "type": "word"
+  },
+  {
+   "text": "Você",
+   "start": 6.98,
+   "end": 7.22,
+   "type": "word"
+  },
+  {
+   "text": "ama",
+   "start": 7.22,
+   "end": 7.4,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 7.4,
+   "end": 7.48,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.48,
+   "end": 7.56,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 7.56,
+   "end": 7.88,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 7.88,
+   "end": 8.22,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 8.22,
+   "end": 8.64,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 8.64,
+   "end": 8.88,
+   "type": "word"
+  },
+  {
+   "text": "reverbera",
+   "start": 8.88,
+   "end": 9.92,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 9.92,
+   "end": 10.18,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 10.18,
+   "end": 10.3,
+   "type": "word"
+  },
+  {
+   "text": "lugar",
+   "start": 10.3,
+   "end": 10.48,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 10.48,
+   "end": 10.62,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 10.62,
+   "end": 10.84,
+   "type": "word"
+  },
+  {
+   "text": "vai,",
+   "start": 10.84,
+   "end": 11.0,
+   "type": "word"
+  },
+  {
+   "text": "dentro",
+   "start": 11.06,
+   "end": 11.22,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 11.22,
+   "end": 11.4,
+   "type": "word"
+  },
+  {
+   "text": "sua",
+   "start": 11.4,
+   "end": 11.54,
+   "type": "word"
+  },
+  {
+   "text": "casa.",
+   "start": 11.54,
+   "end": 11.86,
+   "type": "word"
+  },
+  {
+   "text": "É",
+   "start": 12.14,
+   "end": 12.24,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 12.24,
+   "end": 12.34,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 12.34,
+   "end": 12.52,
+   "type": "word"
+  },
+  {
+   "text": "filho",
+   "start": 12.52,
+   "end": 12.7,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 12.7,
+   "end": 12.9,
+   "type": "word"
+  },
+  {
+   "text": "manda",
+   "start": 12.9,
+   "end": 13.1,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 13.1,
+   "end": 13.26,
+   "type": "word"
+  },
+  {
+   "text": "áudio",
+   "start": 13.26,
+   "end": 13.32,
+   "type": "word"
+  },
+  {
+   "text": "desse",
+   "start": 13.32,
+   "end": 13.56,
+   "type": "word"
+  },
+  {
+   "text": "aqui,",
+   "start": 13.56,
+   "end": 13.78,
+   "type": "word"
+  },
+  {
+   "text": "escuta",
+   "start": 14.02,
+   "end": 14.24,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 14.24,
+   "end": 14.38,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 14.38,
+   "end": 14.44,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 14.44,
+   "end": 14.68,
+   "type": "word"
+  },
+  {
+   "text": "ver.",
+   "start": 14.68,
+   "end": 14.96,
+   "type": "word"
+  },
+  {
+   "text": "Opa,",
+   "start": 15.14,
+   "end": 15.46,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 15.68,
+   "end": 16.3,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 16.3,
+   "end": 16.62,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 16.62,
+   "end": 16.9,
+   "type": "word"
+  },
+  {
+   "text": "monta",
+   "start": 16.9,
+   "end": 18.3,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 18.36,
+   "end": 19.18,
+   "type": "word"
+  },
+  {
+   "text": "divisão",
+   "start": 19.18,
+   "end": 19.52,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 19.52,
+   "end": 19.7,
+   "type": "word"
+  },
+  {
+   "text": "dinheiro",
+   "start": 19.7,
+   "end": 19.94,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 19.94,
+   "end": 20.1,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 20.1,
+   "end": 20.1,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 20.1,
+   "end": 20.32,
+   "type": "word"
+  },
+  {
+   "text": "ganha,",
+   "start": 20.32,
+   "end": 20.9,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 21.04,
+   "end": 21.14,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 21.14,
+   "end": 21.32,
+   "type": "word"
+  },
+  {
+   "text": "deixa",
+   "start": 21.32,
+   "end": 21.54,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 21.54,
+   "end": 21.68,
+   "type": "word"
+  },
+  {
+   "text": "valor",
+   "start": 21.68,
+   "end": 21.84,
+   "type": "word"
+  },
+  {
+   "text": "maior",
+   "start": 21.84,
+   "end": 22.14,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 22.14,
+   "end": 22.34,
+   "type": "word"
+  },
+  {
+   "text": "reserva",
+   "start": 22.34,
+   "end": 22.66,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 22.66,
+   "end": 22.84,
+   "type": "word"
+  },
+  {
+   "text": "emergência",
+   "start": 22.84,
+   "end": 23.3,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 23.3,
+   "end": 23.44,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 23.44,
+   "end": 23.56,
+   "type": "word"
+  },
+  {
+   "text": "valor",
+   "start": 23.56,
+   "end": 23.7,
+   "type": "word"
+  },
+  {
+   "text": "maior",
+   "start": 23.7,
+   "end": 23.9,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 23.9,
+   "end": 24.08,
+   "type": "word"
+  },
+  {
+   "text": "investimento?",
+   "start": 24.08,
+   "end": 24.76,
+   "type": "word"
+  },
+  {
+   "text": "Depois",
+   "start": 26.2,
+   "end": 26.42,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 26.42,
+   "end": 26.52,
+   "type": "word"
+  },
+  {
+   "text": "ouvir",
+   "start": 26.52,
+   "end": 26.72,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 26.72,
+   "end": 26.86,
+   "type": "word"
+  },
+  {
+   "text": "áudio,",
+   "start": 26.86,
+   "end": 27.66,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 27.84,
+   "end": 27.96,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 27.96,
+   "end": 28.08,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 28.08,
+   "end": 28.24,
+   "type": "word"
+  },
+  {
+   "text": "tive",
+   "start": 28.24,
+   "end": 28.38,
+   "type": "word"
+  },
+  {
+   "text": "certeza",
+   "start": 28.38,
+   "end": 28.92,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 28.92,
+   "end": 29.42,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 29.42,
+   "end": 29.54,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 29.54,
+   "end": 29.72,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 29.72,
+   "end": 29.72,
+   "type": "word"
+  },
+  {
+   "text": "estava",
+   "start": 29.72,
+   "end": 29.86,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 29.86,
+   "end": 29.98,
+   "type": "word"
+  },
+  {
+   "text": "caminho",
+   "start": 29.98,
+   "end": 30.22,
+   "type": "word"
+  },
+  {
+   "text": "certo,",
+   "start": 30.22,
+   "end": 30.56,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 30.56,
+   "end": 30.92,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 30.92,
+   "end": 31.18,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 31.18,
+   "end": 31.32,
+   "type": "word"
+  },
+  {
+   "text": "realmente",
+   "start": 31.32,
+   "end": 32.02,
+   "type": "word"
+  },
+  {
+   "text": "estou",
+   "start": 32.02,
+   "end": 32.44,
+   "type": "word"
+  },
+  {
+   "text": "construindo",
+   "start": 32.44,
+   "end": 32.84,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 32.84,
+   "end": 32.94,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 32.94,
+   "end": 33.06,
+   "type": "word"
+  },
+  {
+   "text": "legado.",
+   "start": 33.06,
+   "end": 33.6,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 33.9,
+   "end": 33.9,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 33.9,
+   "end": 34.02,
+   "type": "word"
+  },
+  {
+   "text": "isso,",
+   "start": 34.02,
+   "end": 34.44,
+   "type": "word"
+  },
+  {
+   "text": "estamos",
+   "start": 34.8,
+   "end": 34.88,
+   "type": "word"
+  },
+  {
+   "text": "juntos",
+   "start": 34.88,
+   "end": 35.1,
+   "type": "word"
+  },
+  {
+   "text": "até",
+   "start": 35.1,
+   "end": 35.26,
+   "type": "word"
+  },
+  {
+   "text": "acabar.",
+   "start": 35.26,
+   "end": 35.52,
+   "type": "word"
+  }
+ ]
+}

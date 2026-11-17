@@ -1,0 +1,310 @@
+{
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.0,
+   "end": 0.14,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 0.14,
+   "end": 0.34,
+   "type": "word"
+  },
+  {
+   "text": "travou,",
+   "start": 0.34,
+   "end": 0.56,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 0.64,
+   "end": 0.64,
+   "type": "word"
+  },
+  {
+   "text": "problema",
+   "start": 0.64,
+   "end": 0.8,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 0.8,
+   "end": 0.92,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 0.92,
+   "end": 1.06,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 1.06,
+   "end": 1.16,
+   "type": "word"
+  },
+  {
+   "text": "medicina,",
+   "start": 1.16,
+   "end": 1.54,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 1.76,
+   "end": 1.8,
+   "type": "word"
+  },
+  {
+   "text": "problema",
+   "start": 1.8,
+   "end": 1.86,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 1.86,
+   "end": 1.96,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 1.96,
+   "end": 2.04,
+   "type": "word"
+  },
+  {
+   "text": "gestão.",
+   "start": 2.04,
+   "end": 2.36,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 2.88,
+   "end": 2.92,
+   "type": "word"
+  },
+  {
+   "text": "quero",
+   "start": 2.92,
+   "end": 3.06,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 3.06,
+   "end": 3.2,
+   "type": "word"
+  },
+  {
+   "text": "fazer",
+   "start": 3.2,
+   "end": 3.3,
+   "type": "word"
+  },
+  {
+   "text": "três",
+   "start": 3.3,
+   "end": 3.52,
+   "type": "word"
+  },
+  {
+   "text": "perguntas.",
+   "start": 3.52,
+   "end": 4.14,
+   "type": "word"
+  },
+  {
+   "text": "Quantos",
+   "start": 4.3,
+   "end": 4.52,
+   "type": "word"
+  },
+  {
+   "text": "pacientes",
+   "start": 4.52,
+   "end": 4.82,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 4.82,
+   "end": 5.08,
+   "type": "word"
+  },
+  {
+   "text": "atendeu",
+   "start": 5.08,
+   "end": 5.44,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 5.44,
+   "end": 5.7,
+   "type": "word"
+  },
+  {
+   "text": "espaço?",
+   "start": 5.7,
+   "end": 5.94,
+   "type": "word"
+  },
+  {
+   "text": "Quanto",
+   "start": 6.08,
+   "end": 6.34,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 6.34,
+   "end": 6.42,
+   "type": "word"
+  },
+  {
+   "text": "dinheiro",
+   "start": 6.42,
+   "end": 6.6,
+   "type": "word"
+  },
+  {
+   "text": "entrou",
+   "start": 6.6,
+   "end": 7.0,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 7.0,
+   "end": 7.2,
+   "type": "word"
+  },
+  {
+   "text": "quanto",
+   "start": 7.2,
+   "end": 7.32,
+   "type": "word"
+  },
+  {
+   "text": "sobrou?",
+   "start": 7.32,
+   "end": 7.86,
+   "type": "word"
+  },
+  {
+   "text": "Travou",
+   "start": 7.96,
+   "end": 8.16,
+   "type": "word"
+  },
+  {
+   "text": "nessa",
+   "start": 8.16,
+   "end": 8.3,
+   "type": "word"
+  },
+  {
+   "text": "terceira,",
+   "start": 8.3,
+   "end": 8.6,
+   "type": "word"
+  },
+  {
+   "text": "né?",
+   "start": 8.62,
+   "end": 8.72,
+   "type": "word"
+  },
+  {
+   "text": "Se",
+   "start": 8.86,
+   "end": 8.92,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 8.92,
+   "end": 9.1,
+   "type": "word"
+  },
+  {
+   "text": "travou,",
+   "start": 9.1,
+   "end": 9.34,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 9.44,
+   "end": 9.44,
+   "type": "word"
+  },
+  {
+   "text": "problema",
+   "start": 9.44,
+   "end": 9.56,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 9.56,
+   "end": 9.7,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 9.7,
+   "end": 9.86,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 9.86,
+   "end": 9.94,
+   "type": "word"
+  },
+  {
+   "text": "medicina,",
+   "start": 9.94,
+   "end": 10.32,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 10.52,
+   "end": 10.56,
+   "type": "word"
+  },
+  {
+   "text": "problema",
+   "start": 10.56,
+   "end": 10.62,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 10.62,
+   "end": 10.7,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 10.7,
+   "end": 10.72,
+   "type": "word"
+  },
+  {
+   "text": "gestão.",
+   "start": 10.72,
+   "end": 11.0,
+   "type": "word"
+  }
+ ]
+}

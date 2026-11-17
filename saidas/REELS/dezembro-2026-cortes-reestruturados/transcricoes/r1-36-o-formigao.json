@@ -1,0 +1,1390 @@
+{
+ "words": [
+  {
+   "text": "Estava",
+   "start": 0.0,
+   "end": 0.3,
+   "type": "word"
+  },
+  {
+   "text": "numa",
+   "start": 0.3,
+   "end": 0.46,
+   "type": "word"
+  },
+  {
+   "text": "reunião",
+   "start": 0.46,
+   "end": 0.88,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 0.88,
+   "end": 1.28,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 1.28,
+   "end": 1.5,
+   "type": "word"
+  },
+  {
+   "text": "empresários",
+   "start": 1.5,
+   "end": 1.76,
+   "type": "word"
+  },
+  {
+   "text": "agora,",
+   "start": 1.76,
+   "end": 2.06,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 2.16,
+   "end": 2.2,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 2.2,
+   "end": 2.3,
+   "type": "word"
+  },
+  {
+   "text": "assunto",
+   "start": 2.3,
+   "end": 2.56,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 2.56,
+   "end": 3.5,
+   "type": "word"
+  },
+  {
+   "text": "demissão",
+   "start": 3.5,
+   "end": 4.02,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 4.02,
+   "end": 4.2,
+   "type": "word"
+  },
+  {
+   "text": "performance.",
+   "start": 4.2,
+   "end": 4.96,
+   "type": "word"
+  },
+  {
+   "text": "Aí",
+   "start": 5.82,
+   "end": 5.88,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 5.88,
+   "end": 5.98,
+   "type": "word"
+  },
+  {
+   "text": "deixei",
+   "start": 5.98,
+   "end": 6.18,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 6.18,
+   "end": 6.38,
+   "type": "word"
+  },
+  {
+   "text": "falarem",
+   "start": 6.38,
+   "end": 6.86,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 6.86,
+   "end": 6.98,
+   "type": "word"
+  },
+  {
+   "text": "opinião",
+   "start": 6.98,
+   "end": 7.34,
+   "type": "word"
+  },
+  {
+   "text": "deles,",
+   "start": 7.34,
+   "end": 7.64,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 7.76,
+   "end": 7.84,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 7.84,
+   "end": 7.94,
+   "type": "word"
+  },
+  {
+   "text": "lembrei",
+   "start": 7.94,
+   "end": 8.48,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 8.48,
+   "end": 8.62,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 8.62,
+   "end": 8.76,
+   "type": "word"
+  },
+  {
+   "text": "história",
+   "start": 8.76,
+   "end": 8.98,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 8.98,
+   "end": 9.1,
+   "type": "word"
+  },
+  {
+   "text": "contei",
+   "start": 9.1,
+   "end": 9.3,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 9.3,
+   "end": 9.54,
+   "type": "word"
+  },
+  {
+   "text": "eles.",
+   "start": 9.54,
+   "end": 9.88,
+   "type": "word"
+  },
+  {
+   "text": "Comigão.",
+   "start": 10.12,
+   "end": 10.58,
+   "type": "word"
+  },
+  {
+   "text": "Comigão",
+   "start": 10.78,
+   "end": 11.18,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 11.18,
+   "end": 11.58,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 11.58,
+   "end": 12.04,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 12.04,
+   "end": 12.28,
+   "type": "word"
+  },
+  {
+   "text": "velho.",
+   "start": 12.44,
+   "end": 12.44,
+   "type": "word"
+  },
+  {
+   "text": "Comigão",
+   "start": 13.06,
+   "end": 13.56,
+   "type": "word"
+  },
+  {
+   "text": "chegava",
+   "start": 13.56,
+   "end": 14.04,
+   "type": "word"
+  },
+  {
+   "text": "cedo,",
+   "start": 14.04,
+   "end": 14.38,
+   "type": "word"
+  },
+  {
+   "text": "trabalhava,",
+   "start": 14.62,
+   "end": 14.96,
+   "type": "word"
+  },
+  {
+   "text": "fazia",
+   "start": 15.2,
+   "end": 15.74,
+   "type": "word"
+  },
+  {
+   "text": "tudo",
+   "start": 15.74,
+   "end": 16.02,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 16.02,
+   "end": 16.22,
+   "type": "word"
+  },
+  {
+   "text": "dedicação",
+   "start": 16.22,
+   "end": 16.68,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 16.68,
+   "end": 16.92,
+   "type": "word"
+  },
+  {
+   "text": "excelência.",
+   "start": 16.92,
+   "end": 17.56,
+   "type": "word"
+  },
+  {
+   "text": "Era",
+   "start": 18.94,
+   "end": 19.08,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 19.08,
+   "end": 19.42,
+   "type": "word"
+  },
+  {
+   "text": "produtivo,",
+   "start": 19.42,
+   "end": 19.92,
+   "type": "word"
+  },
+  {
+   "text": "feliz.",
+   "start": 20.08,
+   "end": 20.52,
+   "type": "word"
+  },
+  {
+   "text": "Trabalhava",
+   "start": 20.9,
+   "end": 21.2,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 21.2,
+   "end": 21.32,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 21.32,
+   "end": 21.76,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 21.76,
+   "end": 22.06,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 22.06,
+   "end": 22.18,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 22.18,
+   "end": 22.28,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 22.28,
+   "end": 22.5,
+   "type": "word"
+  },
+  {
+   "text": "fosse",
+   "start": 22.5,
+   "end": 22.8,
+   "type": "word"
+  },
+  {
+   "text": "dele,",
+   "start": 22.8,
+   "end": 23.06,
+   "type": "word"
+  },
+  {
+   "text": "afinal",
+   "start": 23.24,
+   "end": 23.48,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 23.48,
+   "end": 23.62,
+   "type": "word"
+  },
+  {
+   "text": "contas",
+   "start": 23.62,
+   "end": 23.68,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 23.68,
+   "end": 23.84,
+   "type": "word"
+  },
+  {
+   "text": "começou",
+   "start": 23.84,
+   "end": 24.24,
+   "type": "word"
+  },
+  {
+   "text": "praticamente",
+   "start": 24.24,
+   "end": 24.8,
+   "type": "word"
+  },
+  {
+   "text": "junto",
+   "start": 24.8,
+   "end": 25.08,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 25.08,
+   "end": 25.26,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 25.26,
+   "end": 25.32,
+   "type": "word"
+  },
+  {
+   "text": "dono.",
+   "start": 25.32,
+   "end": 25.88,
+   "type": "word"
+  },
+  {
+   "text": "O",
+   "start": 26.14,
+   "end": 26.66,
+   "type": "word"
+  },
+  {
+   "text": "gerente",
+   "start": 26.66,
+   "end": 27.12,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 27.12,
+   "end": 27.28,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 27.28,
+   "end": 27.36,
+   "type": "word"
+  },
+  {
+   "text": "senhor",
+   "start": 27.36,
+   "end": 27.42,
+   "type": "word"
+  },
+  {
+   "text": "Marimondo.",
+   "start": 27.42,
+   "end": 28.44,
+   "type": "word"
+  },
+  {
+   "text": "Ao",
+   "start": 28.7,
+   "end": 28.76,
+   "type": "word"
+  },
+  {
+   "text": "ver",
+   "start": 28.76,
+   "end": 28.92,
+   "type": "word"
+  },
+  {
+   "text": "tanta",
+   "start": 28.92,
+   "end": 29.16,
+   "type": "word"
+  },
+  {
+   "text": "produção,",
+   "start": 29.16,
+   "end": 29.78,
+   "type": "word"
+  },
+  {
+   "text": "decidiu",
+   "start": 30.4,
+   "end": 30.6,
+   "type": "word"
+  },
+  {
+   "text": "supervisionar",
+   "start": 30.6,
+   "end": 31.48,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 31.48,
+   "end": 32.02,
+   "type": "word"
+  },
+  {
+   "text": "contratou",
+   "start": 32.02,
+   "end": 32.98,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 32.98,
+   "end": 33.46,
+   "type": "word"
+  },
+  {
+   "text": "dona",
+   "start": 33.46,
+   "end": 33.64,
+   "type": "word"
+  },
+  {
+   "text": "barata",
+   "start": 33.64,
+   "end": 34.38,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 34.38,
+   "end": 34.8,
+   "type": "word"
+  },
+  {
+   "text": "supervisionar",
+   "start": 34.8,
+   "end": 35.5,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 35.5,
+   "end": 35.68,
+   "type": "word"
+  },
+  {
+   "text": "Fumigão.",
+   "start": 35.68,
+   "end": 36.1,
+   "type": "word"
+  },
+  {
+   "text": "Ela",
+   "start": 36.86,
+   "end": 37.06,
+   "type": "word"
+  },
+  {
+   "text": "padronizou",
+   "start": 37.06,
+   "end": 37.82,
+   "type": "word"
+  },
+  {
+   "text": "horários,",
+   "start": 37.82,
+   "end": 38.48,
+   "type": "word"
+  },
+  {
+   "text": "relatório,",
+   "start": 38.64,
+   "end": 39.46,
+   "type": "word"
+  },
+  {
+   "text": "estava",
+   "start": 39.74,
+   "end": 39.84,
+   "type": "word"
+  },
+  {
+   "text": "sempre",
+   "start": 39.84,
+   "end": 40.16,
+   "type": "word"
+  },
+  {
+   "text": "cobrando",
+   "start": 40.16,
+   "end": 40.42,
+   "type": "word"
+  },
+  {
+   "text": "resultados,",
+   "start": 40.42,
+   "end": 41.02,
+   "type": "word"
+  },
+  {
+   "text": "etc.",
+   "start": 41.82,
+   "end": 41.82,
+   "type": "word"
+  },
+  {
+   "text": "Sentindo",
+   "start": 42.72,
+   "end": 43.06,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 43.06,
+   "end": 43.18,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 43.18,
+   "end": 43.32,
+   "type": "word"
+  },
+  {
+   "text": "hora",
+   "start": 43.32,
+   "end": 43.48,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 43.48,
+   "end": 43.74,
+   "type": "word"
+  },
+  {
+   "text": "crescer,",
+   "start": 43.74,
+   "end": 44.46,
+   "type": "word"
+  },
+  {
+   "text": "contrataram",
+   "start": 44.84,
+   "end": 45.24,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 45.24,
+   "end": 45.68,
+   "type": "word"
+  },
+  {
+   "text": "gestora.",
+   "start": 45.68,
+   "end": 46.38,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 46.38,
+   "end": 46.86,
+   "type": "word"
+  },
+  {
+   "text": "senhora",
+   "start": 46.86,
+   "end": 47.02,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 47.02,
+   "end": 47.22,
+   "type": "word"
+  },
+  {
+   "text": "garra.",
+   "start": 47.22,
+   "end": 48.3,
+   "type": "word"
+  },
+  {
+   "text": "No",
+   "start": 48.82,
+   "end": 48.96,
+   "type": "word"
+  },
+  {
+   "text": "entanto",
+   "start": 48.96,
+   "end": 49.3,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 49.3,
+   "end": 49.46,
+   "type": "word"
+  },
+  {
+   "text": "Fumigão,",
+   "start": 49.46,
+   "end": 50.54,
+   "type": "word"
+  },
+  {
+   "text": "antes",
+   "start": 50.94,
+   "end": 51.32,
+   "type": "word"
+  },
+  {
+   "text": "tão",
+   "start": 51.32,
+   "end": 51.56,
+   "type": "word"
+  },
+  {
+   "text": "feliz,",
+   "start": 51.56,
+   "end": 51.94,
+   "type": "word"
+  },
+  {
+   "text": "tão",
+   "start": 52.06,
+   "end": 52.22,
+   "type": "word"
+  },
+  {
+   "text": "produtivo,",
+   "start": 52.22,
+   "end": 53.06,
+   "type": "word"
+  },
+  {
+   "text": "andava",
+   "start": 53.28,
+   "end": 53.48,
+   "type": "word"
+  },
+  {
+   "text": "desmotivado,",
+   "start": 53.48,
+   "end": 54.36,
+   "type": "word"
+  },
+  {
+   "text": "estava",
+   "start": 54.5,
+   "end": 54.62,
+   "type": "word"
+  },
+  {
+   "text": "passando",
+   "start": 54.62,
+   "end": 54.94,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 54.94,
+   "end": 55.2,
+   "type": "word"
+  },
+  {
+   "text": "problemas",
+   "start": 55.2,
+   "end": 55.52,
+   "type": "word"
+  },
+  {
+   "text": "pessoais",
+   "start": 55.52,
+   "end": 56.12,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 56.12,
+   "end": 56.26,
+   "type": "word"
+  },
+  {
+   "text": "ninguém",
+   "start": 56.26,
+   "end": 56.48,
+   "type": "word"
+  },
+  {
+   "text": "sabia.",
+   "start": 56.48,
+   "end": 56.94,
+   "type": "word"
+  },
+  {
+   "text": "Contrataram",
+   "start": 57.6,
+   "end": 58.02,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 58.02,
+   "end": 58.26,
+   "type": "word"
+  },
+  {
+   "text": "consultora",
+   "start": 58.26,
+   "end": 58.7,
+   "type": "word"
+  },
+  {
+   "text": "famosa,",
+   "start": 58.7,
+   "end": 59.34,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 59.82,
+   "end": 60.0,
+   "type": "word"
+  },
+  {
+   "text": "Coruja,",
+   "start": 60.0,
+   "end": 60.42,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 60.94,
+   "end": 61.04,
+   "type": "word"
+  },
+  {
+   "text": "fazer",
+   "start": 61.04,
+   "end": 61.28,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 61.28,
+   "end": 61.44,
+   "type": "word"
+  },
+  {
+   "text": "diagnóstico.",
+   "start": 61.44,
+   "end": 62.28,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 62.48,
+   "end": 62.76,
+   "type": "word"
+  },
+  {
+   "text": "conclusão",
+   "start": 62.76,
+   "end": 63.18,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 63.18,
+   "end": 63.92,
+   "type": "word"
+  },
+  {
+   "text": "ela",
+   "start": 63.92,
+   "end": 64.12,
+   "type": "word"
+  },
+  {
+   "text": "chegou",
+   "start": 64.12,
+   "end": 64.4,
+   "type": "word"
+  },
+  {
+   "text": "foi,",
+   "start": 64.4,
+   "end": 64.78,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 65.52,
+   "end": 65.62,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 65.62,
+   "end": 65.88,
+   "type": "word"
+  },
+  {
+   "text": "demais",
+   "start": 65.88,
+   "end": 66.2,
+   "type": "word"
+  },
+  {
+   "text": "aqui.",
+   "start": 66.2,
+   "end": 66.66,
+   "type": "word"
+  },
+  {
+   "text": "Precisamos",
+   "start": 67.57,
+   "end": 68.07,
+   "type": "word"
+  },
+  {
+   "text": "cortar",
+   "start": 68.07,
+   "end": 68.47,
+   "type": "word"
+  },
+  {
+   "text": "gastos",
+   "start": 68.47,
+   "end": 69.15,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 69.15,
+   "end": 69.29,
+   "type": "word"
+  },
+  {
+   "text": "ver",
+   "start": 69.29,
+   "end": 69.51,
+   "type": "word"
+  },
+  {
+   "text": "quem",
+   "start": 69.51,
+   "end": 69.63,
+   "type": "word"
+  },
+  {
+   "text": "foi",
+   "start": 69.63,
+   "end": 69.85,
+   "type": "word"
+  },
+  {
+   "text": "escolhido",
+   "start": 69.85,
+   "end": 70.45,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 70.45,
+   "end": 70.69,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 70.69,
+   "end": 70.81,
+   "type": "word"
+  },
+  {
+   "text": "demitido.",
+   "start": 70.81,
+   "end": 71.65,
+   "type": "word"
+  },
+  {
+   "text": "Fumigão.",
+   "start": 71.85,
+   "end": 72.41,
+   "type": "word"
+  },
+  {
+   "text": "Muitas",
+   "start": 72.8,
+   "end": 73.58,
+   "type": "word"
+  },
+  {
+   "text": "vezes",
+   "start": 73.58,
+   "end": 73.8,
+   "type": "word"
+  },
+  {
+   "text": "esquecemos",
+   "start": 73.8,
+   "end": 74.2,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 74.2,
+   "end": 74.38,
+   "type": "word"
+  },
+  {
+   "text": "valorizar",
+   "start": 74.38,
+   "end": 74.78,
+   "type": "word"
+  },
+  {
+   "text": "aqueles",
+   "start": 74.78,
+   "end": 75.06,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 75.06,
+   "end": 75.44,
+   "type": "word"
+  },
+  {
+   "text": "sempre",
+   "start": 75.44,
+   "end": 75.86,
+   "type": "word"
+  },
+  {
+   "text": "estiveram",
+   "start": 75.86,
+   "end": 76.46,
+   "type": "word"
+  },
+  {
+   "text": "ao",
+   "start": 76.46,
+   "end": 76.56,
+   "type": "word"
+  },
+  {
+   "text": "nosso",
+   "start": 76.56,
+   "end": 76.84,
+   "type": "word"
+  },
+  {
+   "text": "lado",
+   "start": 76.84,
+   "end": 77.42,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 77.42,
+   "end": 78.46,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 78.46,
+   "end": 78.56,
+   "type": "word"
+  },
+  {
+   "text": "nos",
+   "start": 78.56,
+   "end": 78.76,
+   "type": "word"
+  },
+  {
+   "text": "importamos",
+   "start": 78.76,
+   "end": 79.24,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 79.24,
+   "end": 79.38,
+   "type": "word"
+  },
+  {
+   "text": "saber",
+   "start": 79.38,
+   "end": 79.72,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 79.72,
+   "end": 79.9,
+   "type": "word"
+  },
+  {
+   "text": "motivo",
+   "start": 79.9,
+   "end": 80.42,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 80.42,
+   "end": 80.9,
+   "type": "word"
+  },
+  {
+   "text": "queda",
+   "start": 80.9,
+   "end": 81.1,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 81.1,
+   "end": 81.26,
+   "type": "word"
+  },
+  {
+   "text": "rendimento.",
+   "start": 81.26,
+   "end": 82.0,
+   "type": "word"
+  },
+  {
+   "text": "Por",
+   "start": 82.16,
+   "end": 82.36,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 82.36,
+   "end": 82.48,
+   "type": "word"
+  },
+  {
+   "text": "aquela",
+   "start": 82.48,
+   "end": 82.72,
+   "type": "word"
+  },
+  {
+   "text": "pessoa",
+   "start": 82.72,
+   "end": 83.02,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 83.02,
+   "end": 83.24,
+   "type": "word"
+  },
+  {
+   "text": "triste?",
+   "start": 83.24,
+   "end": 83.86,
+   "type": "word"
+  },
+  {
+   "text": "Às",
+   "start": 84.6,
+   "end": 84.76,
+   "type": "word"
+  },
+  {
+   "text": "vezes",
+   "start": 84.76,
+   "end": 84.8,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 84.8,
+   "end": 84.98,
+   "type": "word"
+  },
+  {
+   "text": "sua",
+   "start": 84.98,
+   "end": 85.14,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 85.14,
+   "end": 85.34,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 85.34,
+   "end": 85.56,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 85.56,
+   "end": 85.72,
+   "type": "word"
+  },
+  {
+   "text": "Fumigão",
+   "start": 85.72,
+   "end": 86.08,
+   "type": "word"
+  },
+  {
+   "text": "também.",
+   "start": 86.08,
+   "end": 86.46,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 86.8,
+   "end": 86.98,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 86.98,
+   "end": 87.08,
+   "type": "word"
+  },
+  {
+   "text": "houve",
+   "start": 87.08,
+   "end": 87.26,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 87.26,
+   "end": 87.42,
+   "type": "word"
+  },
+  {
+   "text": "queda",
+   "start": 87.42,
+   "end": 87.58,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 87.58,
+   "end": 87.94,
+   "type": "word"
+  },
+  {
+   "text": "performance,",
+   "start": 87.94,
+   "end": 88.48,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 89.8,
+   "end": 89.82,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 89.82,
+   "end": 89.9,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 89.9,
+   "end": 90.06,
+   "type": "word"
+  },
+  {
+   "text": "procurar",
+   "start": 90.06,
+   "end": 90.46,
+   "type": "word"
+  },
+  {
+   "text": "saber?",
+   "start": 90.46,
+   "end": 90.86,
+   "type": "word"
+  },
+  {
+   "text": "Podemos",
+   "start": 91.38,
+   "end": 91.68,
+   "type": "word"
+  },
+  {
+   "text": "dar",
+   "start": 91.68,
+   "end": 91.9,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 91.9,
+   "end": 91.98,
+   "type": "word"
+  },
+  {
+   "text": "mão",
+   "start": 91.98,
+   "end": 92.22,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 92.22,
+   "end": 92.46,
+   "type": "word"
+  },
+  {
+   "text": "mudar",
+   "start": 92.46,
+   "end": 92.62,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 92.62,
+   "end": 92.74,
+   "type": "word"
+  },
+  {
+   "text": "realidade",
+   "start": 92.74,
+   "end": 93.1,
+   "type": "word"
+  },
+  {
+   "text": "daquilo",
+   "start": 93.1,
+   "end": 93.66,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 93.66,
+   "end": 93.92,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 93.92,
+   "end": 94.02,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 94.02,
+   "end": 94.16,
+   "type": "word"
+  },
+  {
+   "text": "volte",
+   "start": 94.16,
+   "end": 94.34,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 94.34,
+   "end": 94.48,
+   "type": "word"
+  },
+  {
+   "text": "produzir.",
+   "start": 94.48,
+   "end": 94.86,
+   "type": "word"
+  }
+ ]
+}

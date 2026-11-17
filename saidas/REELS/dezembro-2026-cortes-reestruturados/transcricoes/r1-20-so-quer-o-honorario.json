@@ -1,0 +1,694 @@
+{
+ "words": [
+  {
+   "text": "Ah",
+   "start": 0.0,
+   "end": 0.3,
+   "type": "word"
+  },
+  {
+   "text": "não,",
+   "start": 0.3,
+   "end": 0.48,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 0.54,
+   "end": 0.66,
+   "type": "word"
+  },
+  {
+   "text": "contador",
+   "start": 0.66,
+   "end": 1.12,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 1.12,
+   "end": 1.52,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 1.52,
+   "end": 1.8,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 1.8,
+   "end": 1.86,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 1.86,
+   "end": 2.06,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 2.06,
+   "end": 2.26,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 2.26,
+   "end": 2.44,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 2.44,
+   "end": 2.44,
+   "type": "word"
+  },
+  {
+   "text": "assim",
+   "start": 2.44,
+   "end": 2.6,
+   "type": "word"
+  },
+  {
+   "text": "mesmo,",
+   "start": 2.6,
+   "end": 2.88,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 3.12,
+   "end": 3.28,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 3.28,
+   "end": 3.4,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 3.4,
+   "end": 3.48,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 3.48,
+   "end": 3.56,
+   "type": "word"
+  },
+  {
+   "text": "advogado",
+   "start": 3.56,
+   "end": 3.94,
+   "type": "word"
+  },
+  {
+   "text": "fala",
+   "start": 3.94,
+   "end": 4.18,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 4.18,
+   "end": 4.38,
+   "type": "word"
+  },
+  {
+   "text": "aceito",
+   "start": 4.38,
+   "end": 4.86,
+   "type": "word"
+  },
+  {
+   "text": "Olha,",
+   "start": 4.86,
+   "end": 5.18,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 5.44,
+   "end": 5.58,
+   "type": "word"
+  },
+  {
+   "text": "tenho",
+   "start": 5.58,
+   "end": 6.32,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 6.8,
+   "end": 7.42,
+   "type": "word"
+  },
+  {
+   "text": "resistência",
+   "start": 7.42,
+   "end": 7.94,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 7.94,
+   "end": 8.36,
+   "type": "word"
+  },
+  {
+   "text": "grande",
+   "start": 8.36,
+   "end": 8.94,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 8.94,
+   "end": 9.26,
+   "type": "word"
+  },
+  {
+   "text": "profissionais",
+   "start": 9.26,
+   "end": 10.16,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 10.16,
+   "end": 10.5,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 10.5,
+   "end": 10.72,
+   "type": "word"
+  },
+  {
+   "text": "tão",
+   "start": 10.72,
+   "end": 10.84,
+   "type": "word"
+  },
+  {
+   "text": "ali,",
+   "start": 10.84,
+   "end": 11.34,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 11.64,
+   "end": 11.76,
+   "type": "word"
+  },
+  {
+   "text": "falo",
+   "start": 11.76,
+   "end": 11.98,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 11.98,
+   "end": 12.1,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 12.1,
+   "end": 12.14,
+   "type": "word"
+  },
+  {
+   "text": "sou",
+   "start": 12.14,
+   "end": 12.26,
+   "type": "word"
+  },
+  {
+   "text": "prova",
+   "start": 12.26,
+   "end": 12.52,
+   "type": "word"
+  },
+  {
+   "text": "viva",
+   "start": 12.52,
+   "end": 12.74,
+   "type": "word"
+  },
+  {
+   "text": "disso",
+   "start": 12.74,
+   "end": 13.08,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 13.8,
+   "end": 14.2,
+   "type": "word"
+  },
+  {
+   "text": "sofro",
+   "start": 14.2,
+   "end": 14.6,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 14.6,
+   "end": 15.38,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 15.38,
+   "end": 15.56,
+   "type": "word"
+  },
+  {
+   "text": "sofri",
+   "start": 15.56,
+   "end": 15.8,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 15.8,
+   "end": 16.0,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 16.0,
+   "end": 16.12,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 16.12,
+   "end": 16.2,
+   "type": "word"
+  },
+  {
+   "text": "tipo",
+   "start": 16.2,
+   "end": 16.36,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 16.36,
+   "end": 16.56,
+   "type": "word"
+  },
+  {
+   "text": "profissionais",
+   "start": 16.56,
+   "end": 17.26,
+   "type": "word"
+  },
+  {
+   "text": "São",
+   "start": 17.26,
+   "end": 17.76,
+   "type": "word"
+  },
+  {
+   "text": "advogados,",
+   "start": 17.76,
+   "end": 18.3,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 18.44,
+   "end": 18.44,
+   "type": "word"
+  },
+  {
+   "text": "exemplo,",
+   "start": 18.44,
+   "end": 18.52,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 18.66,
+   "end": 18.66,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 18.66,
+   "end": 18.8,
+   "type": "word"
+  },
+  {
+   "text": "querem",
+   "start": 18.8,
+   "end": 18.9,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 18.9,
+   "end": 19.1,
+   "type": "word"
+  },
+  {
+   "text": "honorários",
+   "start": 19.1,
+   "end": 19.86,
+   "type": "word"
+  },
+  {
+   "text": "Só",
+   "start": 19.86,
+   "end": 20.26,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 20.26,
+   "end": 20.42,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 20.42,
+   "end": 20.56,
+   "type": "word"
+  },
+  {
+   "text": "honorários",
+   "start": 20.56,
+   "end": 21.22,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 21.22,
+   "end": 21.76,
+   "type": "word"
+  },
+  {
+   "text": "f***",
+   "start": 21.76,
+   "end": 21.96,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 21.96,
+   "end": 22.08,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 22.08,
+   "end": 22.2,
+   "type": "word"
+  },
+  {
+   "text": "mês",
+   "start": 22.2,
+   "end": 22.36,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 22.36,
+   "end": 22.5,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 22.5,
+   "end": 22.58,
+   "type": "word"
+  },
+  {
+   "text": "tá",
+   "start": 22.58,
+   "end": 22.72,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 22.72,
+   "end": 22.9,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 22.9,
+   "end": 23.08,
+   "type": "word"
+  },
+  {
+   "text": "pro",
+   "start": 23.08,
+   "end": 23.22,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 23.22,
+   "end": 23.3,
+   "type": "word"
+  },
+  {
+   "text": "negócio,",
+   "start": 23.3,
+   "end": 23.8,
+   "type": "word"
+  },
+  {
+   "text": "pro",
+   "start": 24.1,
+   "end": 24.16,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 24.16,
+   "end": 24.28,
+   "type": "word"
+  },
+  {
+   "text": "momento",
+   "start": 24.28,
+   "end": 24.56,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 24.56,
+   "end": 24.82,
+   "type": "word"
+  },
+  {
+   "text": "vida",
+   "start": 24.82,
+   "end": 25.42,
+   "type": "word"
+  },
+  {
+   "text": "Se",
+   "start": 26.2,
+   "end": 26.6,
+   "type": "word"
+  },
+  {
+   "text": "isso,",
+   "start": 26.6,
+   "end": 27.0,
+   "type": "word"
+  },
+  {
+   "text": "sabe,",
+   "start": 27.16,
+   "end": 27.44,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 27.54,
+   "end": 27.66,
+   "type": "word"
+  },
+  {
+   "text": "consegue",
+   "start": 27.66,
+   "end": 27.84,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 27.84,
+   "end": 28.0,
+   "type": "word"
+  },
+  {
+   "text": "dar",
+   "start": 28.0,
+   "end": 28.12,
+   "type": "word"
+  },
+  {
+   "text": "nenhuma",
+   "start": 28.12,
+   "end": 28.4,
+   "type": "word"
+  },
+  {
+   "text": "tranquilidade,",
+   "start": 28.4,
+   "end": 29.02,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 29.2,
+   "end": 29.22,
+   "type": "word"
+  },
+  {
+   "text": "consegue",
+   "start": 29.22,
+   "end": 29.48,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 29.48,
+   "end": 29.66,
+   "type": "word"
+  },
+  {
+   "text": "dar",
+   "start": 29.66,
+   "end": 29.86,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 29.86,
+   "end": 30.42,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 30.42,
+   "end": 31.32,
+   "type": "word"
+  },
+  {
+   "text": "segurança",
+   "start": 31.32,
+   "end": 31.74,
+   "type": "word"
+  },
+  {
+   "text": "jurídica",
+   "start": 31.74,
+   "end": 32.42,
+   "type": "word"
+  },
+  {
+   "text": "De",
+   "start": 32.42,
+   "end": 32.7,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 32.7,
+   "end": 32.8,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 32.8,
+   "end": 32.98,
+   "type": "word"
+  },
+  {
+   "text": "tá",
+   "start": 32.98,
+   "end": 33.12,
+   "type": "word"
+  },
+  {
+   "text": "sendo",
+   "start": 33.12,
+   "end": 33.26,
+   "type": "word"
+  },
+  {
+   "text": "assistido,",
+   "start": 33.26,
+   "end": 33.84,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 33.96,
+   "end": 34.28,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 34.28,
+   "end": 34.62,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 34.62,
+   "end": 34.9,
+   "type": "word"
+  },
+  {
+   "text": "comum",
+   "start": 34.9,
+   "end": 35.18,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 35.18,
+   "end": 35.28,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 35.28,
+   "end": 35.32,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 35.32,
+   "end": 35.46,
+   "type": "word"
+  },
+  {
+   "text": "imagina",
+   "start": 35.46,
+   "end": 35.9,
+   "type": "word"
+  }
+ ]
+}

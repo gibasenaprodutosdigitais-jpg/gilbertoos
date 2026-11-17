@@ -1,0 +1,526 @@
+{
+ "words": [
+  {
+   "text": "Existem",
+   "start": 0.0,
+   "end": 0.42,
+   "type": "word"
+  },
+  {
+   "text": "outras",
+   "start": 0.42,
+   "end": 0.92,
+   "type": "word"
+  },
+  {
+   "text": "questões",
+   "start": 0.92,
+   "end": 1.72,
+   "type": "word"
+  },
+  {
+   "text": "envolvidas",
+   "start": 1.72,
+   "end": 2.2,
+   "type": "word"
+  },
+  {
+   "text": "dentro",
+   "start": 2.2,
+   "end": 2.44,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 2.44,
+   "end": 2.54,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 2.54,
+   "end": 2.68,
+   "type": "word"
+  },
+  {
+   "text": "negócio,",
+   "start": 2.68,
+   "end": 3.04,
+   "type": "word"
+  },
+  {
+   "text": "né?",
+   "start": 3.14,
+   "end": 3.42,
+   "type": "word"
+  },
+  {
+   "text": "Perfil",
+   "start": 3.76,
+   "end": 3.94,
+   "type": "word"
+  },
+  {
+   "text": "comportamental",
+   "start": 3.94,
+   "end": 4.6,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 4.6,
+   "end": 4.82,
+   "type": "word"
+  },
+  {
+   "text": "empresário,",
+   "start": 4.82,
+   "end": 5.38,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 5.6,
+   "end": 5.72,
+   "type": "word"
+  },
+  {
+   "text": "existe",
+   "start": 5.72,
+   "end": 5.9,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 5.9,
+   "end": 6.12,
+   "type": "word"
+  },
+  {
+   "text": "cultura,",
+   "start": 6.12,
+   "end": 6.78,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 7.3,
+   "end": 7.38,
+   "type": "word"
+  },
+  {
+   "text": "seguimento",
+   "start": 7.38,
+   "end": 7.86,
+   "type": "word"
+  },
+  {
+   "text": "dele.",
+   "start": 7.86,
+   "end": 8.24,
+   "type": "word"
+  },
+  {
+   "text": "Muitas",
+   "start": 8.44,
+   "end": 8.6,
+   "type": "word"
+  },
+  {
+   "text": "vezes",
+   "start": 8.6,
+   "end": 8.8,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 8.8,
+   "end": 9.16,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 9.16,
+   "end": 9.36,
+   "type": "word"
+  },
+  {
+   "text": "peguei",
+   "start": 9.36,
+   "end": 10.2,
+   "type": "word"
+  },
+  {
+   "text": "fábricas",
+   "start": 10.2,
+   "end": 10.6,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 10.6,
+   "end": 10.86,
+   "type": "word"
+  },
+  {
+   "text": "sapato,",
+   "start": 10.86,
+   "end": 11.56,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 11.74,
+   "end": 11.82,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 11.82,
+   "end": 12.02,
+   "type": "word"
+  },
+  {
+   "text": "intitulam",
+   "start": 12.02,
+   "end": 12.36,
+   "type": "word"
+  },
+  {
+   "text": "fábricas,",
+   "start": 12.36,
+   "end": 13.04,
+   "type": "word"
+  },
+  {
+   "text": "mas",
+   "start": 13.18,
+   "end": 13.26,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 13.26,
+   "end": 13.38,
+   "type": "word"
+  },
+  {
+   "text": "são",
+   "start": 13.38,
+   "end": 13.54,
+   "type": "word"
+  },
+  {
+   "text": "fábricas,",
+   "start": 13.54,
+   "end": 13.86,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 13.88,
+   "end": 14.02,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 14.02,
+   "end": 14.36,
+   "type": "word"
+  },
+  {
+   "text": "montam",
+   "start": 14.36,
+   "end": 14.7,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 14.7,
+   "end": 14.9,
+   "type": "word"
+  },
+  {
+   "text": "sapato,",
+   "start": 14.9,
+   "end": 15.14,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 15.3,
+   "end": 15.6,
+   "type": "word"
+  },
+  {
+   "text": "compram",
+   "start": 15.6,
+   "end": 16.12,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 16.12,
+   "end": 16.9,
+   "type": "word"
+  },
+  {
+   "text": "solado,",
+   "start": 16.9,
+   "end": 17.48,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 17.74,
+   "end": 17.92,
+   "type": "word"
+  },
+  {
+   "text": "compram",
+   "start": 17.92,
+   "end": 18.12,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 18.12,
+   "end": 18.28,
+   "type": "word"
+  },
+  {
+   "text": "parte",
+   "start": 18.28,
+   "end": 18.78,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 18.78,
+   "end": 19.14,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 19.14,
+   "end": 19.32,
+   "type": "word"
+  },
+  {
+   "text": "couro",
+   "start": 19.32,
+   "end": 19.58,
+   "type": "word"
+  },
+  {
+   "text": "cortado,",
+   "start": 19.58,
+   "end": 20.18,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 20.26,
+   "end": 20.4,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 20.4,
+   "end": 20.56,
+   "type": "word"
+  },
+  {
+   "text": "montam.",
+   "start": 20.56,
+   "end": 21.0,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 21.02,
+   "end": 21.14,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 21.14,
+   "end": 21.26,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 21.26,
+   "end": 21.48,
+   "type": "word"
+  },
+  {
+   "text": "fabricam,",
+   "start": 21.48,
+   "end": 22.16,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 22.34,
+   "end": 22.46,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 22.46,
+   "end": 22.6,
+   "type": "word"
+  },
+  {
+   "text": "estavam",
+   "start": 22.6,
+   "end": 23.12,
+   "type": "word"
+  },
+  {
+   "text": "sendo",
+   "start": 23.12,
+   "end": 23.36,
+   "type": "word"
+  },
+  {
+   "text": "tributados",
+   "start": 23.36,
+   "end": 23.72,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 23.72,
+   "end": 23.96,
+   "type": "word"
+  },
+  {
+   "text": "fábrica.",
+   "start": 23.96,
+   "end": 24.38,
+   "type": "word"
+  },
+  {
+   "text": "N",
+   "start": 24.52,
+   "end": 24.98,
+   "type": "word"
+  },
+  {
+   "text": "situações",
+   "start": 24.98,
+   "end": 25.76,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 25.76,
+   "end": 26.02,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 26.02,
+   "end": 26.08,
+   "type": "word"
+  },
+  {
+   "text": "preciso",
+   "start": 26.08,
+   "end": 26.36,
+   "type": "word"
+  },
+  {
+   "text": "analisar",
+   "start": 26.36,
+   "end": 27.36,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 27.36,
+   "end": 27.68,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 27.68,
+   "end": 27.88,
+   "type": "word"
+  },
+  {
+   "text": "empresa,",
+   "start": 27.88,
+   "end": 28.18,
+   "type": "word"
+  },
+  {
+   "text": "cliente",
+   "start": 28.38,
+   "end": 28.58,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 28.58,
+   "end": 28.7,
+   "type": "word"
+  },
+  {
+   "text": "cliente,",
+   "start": 28.7,
+   "end": 29.4,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 29.4,
+   "end": 29.94,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 29.94,
+   "end": 30.02,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 30.02,
+   "end": 30.2,
+   "type": "word"
+  },
+  {
+   "text": "moroso,",
+   "start": 30.2,
+   "end": 30.58,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 30.78,
+   "end": 30.78,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 30.78,
+   "end": 30.88,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 30.88,
+   "end": 31.02,
+   "type": "word"
+  },
+  {
+   "text": "difícil.",
+   "start": 31.02,
+   "end": 31.42,
+   "type": "word"
+  }
+ ]
+}

@@ -1,0 +1,1012 @@
+{
+ "words": [
+  {
+   "text": "Você",
+   "start": 0.0,
+   "end": 0.14,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 0.14,
+   "end": 0.22,
+   "type": "word"
+  },
+  {
+   "text": "ir",
+   "start": 0.22,
+   "end": 0.28,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 0.28,
+   "end": 0.4,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 0.4,
+   "end": 0.48,
+   "type": "word"
+  },
+  {
+   "text": "Paraguai?",
+   "start": 0.48,
+   "end": 0.9,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 1.1,
+   "end": 1.28,
+   "type": "word"
+  },
+  {
+   "text": "pega",
+   "start": 1.28,
+   "end": 1.5,
+   "type": "word"
+  },
+  {
+   "text": "suas",
+   "start": 1.5,
+   "end": 1.7,
+   "type": "word"
+  },
+  {
+   "text": "coisas,",
+   "start": 1.7,
+   "end": 2.3,
+   "type": "word"
+  },
+  {
+   "text": "seus",
+   "start": 2.44,
+   "end": 2.56,
+   "type": "word"
+  },
+  {
+   "text": "negócios",
+   "start": 2.56,
+   "end": 2.96,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 2.96,
+   "end": 3.04,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 3.04,
+   "end": 3.18,
+   "type": "word"
+  },
+  {
+   "text": "viver",
+   "start": 3.18,
+   "end": 3.36,
+   "type": "word"
+  },
+  {
+   "text": "lá.",
+   "start": 3.36,
+   "end": 3.7,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 4.42,
+   "end": 4.74,
+   "type": "word"
+  },
+  {
+   "text": "tenho",
+   "start": 4.74,
+   "end": 4.96,
+   "type": "word"
+  },
+  {
+   "text": "certeza",
+   "start": 4.96,
+   "end": 5.5,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 5.5,
+   "end": 6.36,
+   "type": "word"
+  },
+  {
+   "text": "grande",
+   "start": 6.36,
+   "end": 6.6,
+   "type": "word"
+  },
+  {
+   "text": "parte",
+   "start": 6.6,
+   "end": 6.78,
+   "type": "word"
+  },
+  {
+   "text": "das",
+   "start": 6.78,
+   "end": 6.94,
+   "type": "word"
+  },
+  {
+   "text": "pessoas",
+   "start": 6.94,
+   "end": 7.18,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.18,
+   "end": 7.34,
+   "type": "word"
+  },
+  {
+   "text": "estão",
+   "start": 7.34,
+   "end": 7.48,
+   "type": "word"
+  },
+  {
+   "text": "ouvindo",
+   "start": 7.48,
+   "end": 7.88,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 7.88,
+   "end": 8.12,
+   "type": "word"
+  },
+  {
+   "text": "monte",
+   "start": 8.12,
+   "end": 8.32,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 8.32,
+   "end": 8.48,
+   "type": "word"
+  },
+  {
+   "text": "asneira",
+   "start": 8.48,
+   "end": 8.94,
+   "type": "word"
+  },
+  {
+   "text": "sendo",
+   "start": 8.94,
+   "end": 9.14,
+   "type": "word"
+  },
+  {
+   "text": "dita",
+   "start": 9.14,
+   "end": 9.66,
+   "type": "word"
+  },
+  {
+   "text": "estão",
+   "start": 9.66,
+   "end": 9.88,
+   "type": "word"
+  },
+  {
+   "text": "pensando",
+   "start": 9.88,
+   "end": 10.26,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 10.26,
+   "end": 10.6,
+   "type": "word"
+  },
+  {
+   "text": "ir",
+   "start": 10.6,
+   "end": 10.86,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 10.86,
+   "end": 10.96,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 10.96,
+   "end": 11.08,
+   "type": "word"
+  },
+  {
+   "text": "Paraguai,",
+   "start": 11.08,
+   "end": 11.56,
+   "type": "word"
+  },
+  {
+   "text": "mudar",
+   "start": 12.56,
+   "end": 12.94,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 12.94,
+   "end": 13.08,
+   "type": "word"
+  },
+  {
+   "text": "domínio.",
+   "start": 13.08,
+   "end": 13.24,
+   "type": "word"
+  },
+  {
+   "text": "Não,",
+   "start": 13.3,
+   "end": 13.52,
+   "type": "word"
+  },
+  {
+   "text": "cara.",
+   "start": 13.56,
+   "end": 13.86,
+   "type": "word"
+  },
+  {
+   "text": "Você",
+   "start": 14.52,
+   "end": 14.64,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 14.64,
+   "end": 14.74,
+   "type": "word"
+  },
+  {
+   "text": "ir",
+   "start": 14.74,
+   "end": 14.84,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 14.84,
+   "end": 14.9,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 14.9,
+   "end": 14.96,
+   "type": "word"
+  },
+  {
+   "text": "Paraguai?",
+   "start": 14.96,
+   "end": 15.34,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 15.62,
+   "end": 15.78,
+   "type": "word"
+  },
+  {
+   "text": "pega",
+   "start": 15.78,
+   "end": 16.02,
+   "type": "word"
+  },
+  {
+   "text": "suas",
+   "start": 16.02,
+   "end": 16.3,
+   "type": "word"
+  },
+  {
+   "text": "coisas,",
+   "start": 16.3,
+   "end": 16.7,
+   "type": "word"
+  },
+  {
+   "text": "seus",
+   "start": 17.0,
+   "end": 17.1,
+   "type": "word"
+  },
+  {
+   "text": "negócios",
+   "start": 17.1,
+   "end": 17.48,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 17.48,
+   "end": 17.56,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 17.56,
+   "end": 17.7,
+   "type": "word"
+  },
+  {
+   "text": "viver",
+   "start": 17.7,
+   "end": 17.88,
+   "type": "word"
+  },
+  {
+   "text": "lá.",
+   "start": 17.88,
+   "end": 18.12,
+   "type": "word"
+  },
+  {
+   "text": "O",
+   "start": 18.2,
+   "end": 18.34,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 18.34,
+   "end": 18.4,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 18.4,
+   "end": 18.46,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 18.46,
+   "end": 18.68,
+   "type": "word"
+  },
+  {
+   "text": "fácil,",
+   "start": 18.68,
+   "end": 18.88,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 18.92,
+   "end": 19.06,
+   "type": "word"
+  },
+  {
+   "text": "bando",
+   "start": 19.06,
+   "end": 19.28,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 19.28,
+   "end": 19.56,
+   "type": "word"
+  },
+  {
+   "text": "hipócrita",
+   "start": 19.56,
+   "end": 20.02,
+   "type": "word"
+  },
+  {
+   "text": "falar",
+   "start": 20.02,
+   "end": 20.24,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 20.24,
+   "end": 20.38,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 20.38,
+   "end": 20.52,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 20.52,
+   "end": 20.66,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 20.66,
+   "end": 20.7,
+   "type": "word"
+  },
+  {
+   "text": "Paraguai,",
+   "start": 20.7,
+   "end": 21.1,
+   "type": "word"
+  },
+  {
+   "text": "mas",
+   "start": 21.3,
+   "end": 21.42,
+   "type": "word"
+  },
+  {
+   "text": "continuar",
+   "start": 21.42,
+   "end": 21.66,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 21.66,
+   "end": 21.78,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 21.78,
+   "end": 21.82,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 21.82,
+   "end": 22.04,
+   "type": "word"
+  },
+  {
+   "text": "aqui,",
+   "start": 22.04,
+   "end": 22.32,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 22.48,
+   "end": 22.58,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 22.58,
+   "end": 22.7,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 22.7,
+   "end": 22.78,
+   "type": "word"
+  },
+  {
+   "text": "continuar",
+   "start": 22.78,
+   "end": 23.0,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 23.0,
+   "end": 23.08,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 23.08,
+   "end": 23.14,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 23.14,
+   "end": 23.3,
+   "type": "word"
+  },
+  {
+   "text": "aqui,",
+   "start": 23.3,
+   "end": 23.76,
+   "type": "word"
+  },
+  {
+   "text": "fazendo",
+   "start": 23.94,
+   "end": 24.12,
+   "type": "word"
+  },
+  {
+   "text": "dinheiro",
+   "start": 24.12,
+   "end": 24.4,
+   "type": "word"
+  },
+  {
+   "text": "aqui",
+   "start": 24.4,
+   "end": 24.66,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 24.66,
+   "end": 24.8,
+   "type": "word"
+  },
+  {
+   "text": "nosso",
+   "start": 24.8,
+   "end": 24.94,
+   "type": "word"
+  },
+  {
+   "text": "país.",
+   "start": 24.94,
+   "end": 25.32,
+   "type": "word"
+  },
+  {
+   "text": "Aí",
+   "start": 25.72,
+   "end": 25.92,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 25.92,
+   "end": 26.04,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 26.04,
+   "end": 26.1,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 26.1,
+   "end": 26.22,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 26.22,
+   "end": 26.3,
+   "type": "word"
+  },
+  {
+   "text": "pagar",
+   "start": 26.3,
+   "end": 26.56,
+   "type": "word"
+  },
+  {
+   "text": "menos",
+   "start": 26.56,
+   "end": 26.76,
+   "type": "word"
+  },
+  {
+   "text": "imposto,",
+   "start": 26.76,
+   "end": 27.04,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 27.08,
+   "end": 27.16,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 27.16,
+   "end": 27.22,
+   "type": "word"
+  },
+  {
+   "text": "fazer",
+   "start": 27.22,
+   "end": 27.44,
+   "type": "word"
+  },
+  {
+   "text": "dinheiro",
+   "start": 27.44,
+   "end": 27.72,
+   "type": "word"
+  },
+  {
+   "text": "aqui,",
+   "start": 27.72,
+   "end": 28.06,
+   "type": "word"
+  },
+  {
+   "text": "tirar",
+   "start": 28.06,
+   "end": 28.3,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 28.3,
+   "end": 28.4,
+   "type": "word"
+  },
+  {
+   "text": "dinheiro",
+   "start": 28.4,
+   "end": 28.52,
+   "type": "word"
+  },
+  {
+   "text": "daqui",
+   "start": 28.52,
+   "end": 28.78,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 28.78,
+   "end": 29.1,
+   "type": "word"
+  },
+  {
+   "text": "pagar",
+   "start": 29.1,
+   "end": 29.28,
+   "type": "word"
+  },
+  {
+   "text": "menos",
+   "start": 29.28,
+   "end": 29.46,
+   "type": "word"
+  },
+  {
+   "text": "imposto",
+   "start": 29.46,
+   "end": 29.78,
+   "type": "word"
+  },
+  {
+   "text": "lá.",
+   "start": 29.78,
+   "end": 29.98,
+   "type": "word"
+  },
+  {
+   "text": "Aí",
+   "start": 30.16,
+   "end": 30.3,
+   "type": "word"
+  },
+  {
+   "text": "fica",
+   "start": 30.3,
+   "end": 30.5,
+   "type": "word"
+  },
+  {
+   "text": "fácil,",
+   "start": 30.5,
+   "end": 30.94,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 31.18,
+   "end": 31.24,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 31.24,
+   "end": 31.36,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 31.36,
+   "end": 31.48,
+   "type": "word"
+  },
+  {
+   "text": "vendo",
+   "start": 31.48,
+   "end": 31.66,
+   "type": "word"
+  },
+  {
+   "text": "ninguém",
+   "start": 31.66,
+   "end": 32.2,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 32.2,
+   "end": 32.6,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 32.6,
+   "end": 32.78,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 32.78,
+   "end": 32.98,
+   "type": "word"
+  },
+  {
+   "text": "lutar",
+   "start": 32.98,
+   "end": 33.26,
+   "type": "word"
+  },
+  {
+   "text": "pelo",
+   "start": 33.26,
+   "end": 33.4,
+   "type": "word"
+  },
+  {
+   "text": "país,",
+   "start": 33.4,
+   "end": 33.74,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 33.94,
+   "end": 34.02,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 34.02,
+   "end": 34.16,
+   "type": "word"
+  },
+  {
+   "text": "ficar",
+   "start": 34.16,
+   "end": 34.36,
+   "type": "word"
+  },
+  {
+   "text": "aqui",
+   "start": 34.36,
+   "end": 34.52,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 34.52,
+   "end": 34.68,
+   "type": "word"
+  },
+  {
+   "text": "país",
+   "start": 34.68,
+   "end": 35.02,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 35.02,
+   "end": 35.3,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 35.3,
+   "end": 35.52,
+   "type": "word"
+  },
+  {
+   "text": "combater",
+   "start": 35.52,
+   "end": 35.88,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 35.88,
+   "end": 36.12,
+   "type": "word"
+  },
+  {
+   "text": "aqui",
+   "start": 36.12,
+   "end": 36.42,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 36.42,
+   "end": 37.4,
+   "type": "word"
+  },
+  {
+   "text": "ensinando,",
+   "start": 37.4,
+   "end": 38.2,
+   "type": "word"
+  },
+  {
+   "text": "trocando,",
+   "start": 38.42,
+   "end": 38.86,
+   "type": "word"
+  },
+  {
+   "text": "gerando",
+   "start": 39.04,
+   "end": 39.2,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 39.2,
+   "end": 39.38,
+   "type": "word"
+  },
+  {
+   "text": "emprego,",
+   "start": 39.38,
+   "end": 39.64,
+   "type": "word"
+  },
+  {
+   "text": "não.",
+   "start": 39.78,
+   "end": 39.9,
+   "type": "word"
+  },
+  {
+   "text": "É",
+   "start": 40.76,
+   "end": 40.94,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 40.94,
+   "end": 41.1,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 41.1,
+   "end": 41.3,
+   "type": "word"
+  },
+  {
+   "text": "bando",
+   "start": 41.3,
+   "end": 41.46,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 41.46,
+   "end": 41.68,
+   "type": "word"
+  },
+  {
+   "text": "hipócrita",
+   "start": 41.68,
+   "end": 42.08,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 42.08,
+   "end": 42.26,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 42.26,
+   "end": 42.52,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 42.52,
+   "end": 42.88,
+   "type": "word"
+  },
+  {
+   "text": "benefício",
+   "start": 42.88,
+   "end": 43.32,
+   "type": "word"
+  },
+  {
+   "text": "próprio,",
+   "start": 43.32,
+   "end": 43.58,
+   "type": "word"
+  },
+  {
+   "text": "cara.",
+   "start": 43.9,
+   "end": 43.9,
+   "type": "word"
+  },
+  {
+   "text": "Você",
+   "start": 44.75,
+   "end": 44.85,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 44.85,
+   "end": 44.97,
+   "type": "word"
+  },
+  {
+   "text": "ir",
+   "start": 44.97,
+   "end": 45.11,
+   "type": "word"
+  },
+  {
+   "text": "embora?",
+   "start": 45.11,
+   "end": 45.27,
+   "type": "word"
+  },
+  {
+   "text": "Vai",
+   "start": 45.35,
+   "end": 45.39,
+   "type": "word"
+  },
+  {
+   "text": "embora.",
+   "start": 45.39,
+   "end": 45.69,
+   "type": "word"
+  }
+ ]
+}

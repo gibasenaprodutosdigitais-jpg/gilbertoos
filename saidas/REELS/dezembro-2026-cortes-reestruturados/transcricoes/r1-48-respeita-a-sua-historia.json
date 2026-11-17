@@ -1,0 +1,1378 @@
+{
+ "words": [
+  {
+   "text": "Nike",
+   "start": 0.0,
+   "end": 0.28,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 0.28,
+   "end": 0.42,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 0.42,
+   "end": 0.66,
+   "type": "word"
+  },
+  {
+   "text": "história,",
+   "start": 0.66,
+   "end": 0.94,
+   "type": "word"
+  },
+  {
+   "text": "então",
+   "start": 1.12,
+   "end": 1.36,
+   "type": "word"
+  },
+  {
+   "text": "respeita",
+   "start": 1.36,
+   "end": 2.16,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 2.16,
+   "end": 2.28,
+   "type": "word"
+  },
+  {
+   "text": "sua",
+   "start": 2.28,
+   "end": 2.44,
+   "type": "word"
+  },
+  {
+   "text": "história",
+   "start": 2.44,
+   "end": 2.68,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 2.68,
+   "end": 2.96,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 2.96,
+   "end": 3.06,
+   "type": "word"
+  },
+  {
+   "text": "interessa",
+   "start": 3.06,
+   "end": 3.32,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 3.32,
+   "end": 3.44,
+   "type": "word"
+  },
+  {
+   "text": "tamanho,",
+   "start": 3.44,
+   "end": 3.72,
+   "type": "word"
+  },
+  {
+   "text": "interessa",
+   "start": 3.72,
+   "end": 4.12,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 4.12,
+   "end": 4.2,
+   "type": "word"
+  },
+  {
+   "text": "história.",
+   "start": 4.2,
+   "end": 4.46,
+   "type": "word"
+  },
+  {
+   "text": "Se",
+   "start": 4.58,
+   "end": 4.64,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 4.64,
+   "end": 4.74,
+   "type": "word"
+  },
+  {
+   "text": "Coca",
+   "start": 4.74,
+   "end": 4.98,
+   "type": "word"
+  },
+  {
+   "text": "-Cola",
+   "start": 4.98,
+   "end": 5.24,
+   "type": "word"
+  },
+  {
+   "text": "começa",
+   "start": 5.24,
+   "end": 5.7,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 5.7,
+   "end": 5.78,
+   "type": "word"
+  },
+  {
+   "text": "fornecer",
+   "start": 5.78,
+   "end": 6.12,
+   "type": "word"
+  },
+  {
+   "text": "direto",
+   "start": 6.12,
+   "end": 6.42,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 6.42,
+   "end": 6.52,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 6.52,
+   "end": 6.68,
+   "type": "word"
+  },
+  {
+   "text": "pessoas,",
+   "start": 6.68,
+   "end": 7.0,
+   "type": "word"
+  },
+  {
+   "text": "empregando",
+   "start": 7.06,
+   "end": 7.36,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 7.36,
+   "end": 7.54,
+   "type": "word"
+  },
+  {
+   "text": "casa,",
+   "start": 7.54,
+   "end": 7.9,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 8.02,
+   "end": 8.12,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 8.12,
+   "end": 8.22,
+   "type": "word"
+  },
+  {
+   "text": "Econus",
+   "start": 8.22,
+   "end": 8.56,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 8.56,
+   "end": 8.68,
+   "type": "word"
+  },
+  {
+   "text": "tal,",
+   "start": 8.68,
+   "end": 8.9,
+   "type": "word"
+  },
+  {
+   "text": "ela",
+   "start": 9.48,
+   "end": 9.62,
+   "type": "word"
+  },
+  {
+   "text": "começa",
+   "start": 9.62,
+   "end": 9.84,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 9.84,
+   "end": 9.96,
+   "type": "word"
+  },
+  {
+   "text": "concorrer",
+   "start": 9.96,
+   "end": 10.26,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 10.26,
+   "end": 10.76,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 10.76,
+   "end": 10.9,
+   "type": "word"
+  },
+  {
+   "text": "supermercado,",
+   "start": 10.9,
+   "end": 11.64,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 12.0,
+   "end": 12.36,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 12.36,
+   "end": 12.9,
+   "type": "word"
+  },
+  {
+   "text": "atacado,",
+   "start": 12.9,
+   "end": 13.3,
+   "type": "word"
+  },
+  {
+   "text": "ela",
+   "start": 13.38,
+   "end": 13.48,
+   "type": "word"
+  },
+  {
+   "text": "começa",
+   "start": 13.48,
+   "end": 13.74,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 13.74,
+   "end": 13.96,
+   "type": "word"
+  },
+  {
+   "text": "concorrer",
+   "start": 13.96,
+   "end": 14.22,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 14.22,
+   "end": 14.42,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 14.42,
+   "end": 14.6,
+   "type": "word"
+  },
+  {
+   "text": "mundo",
+   "start": 14.6,
+   "end": 14.84,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 14.84,
+   "end": 15.04,
+   "type": "word"
+  },
+  {
+   "text": "ela",
+   "start": 15.04,
+   "end": 15.2,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 15.2,
+   "end": 15.26,
+   "type": "word"
+  },
+  {
+   "text": "vender",
+   "start": 15.26,
+   "end": 15.44,
+   "type": "word"
+  },
+  {
+   "text": "direto",
+   "start": 15.44,
+   "end": 15.78,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 15.78,
+   "end": 15.94,
+   "type": "word"
+  },
+  {
+   "text": "mim,",
+   "start": 15.94,
+   "end": 16.1,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 16.2,
+   "end": 16.26,
+   "type": "word"
+  },
+  {
+   "text": "sou",
+   "start": 16.26,
+   "end": 16.4,
+   "type": "word"
+  },
+  {
+   "text": "consumidor",
+   "start": 16.4,
+   "end": 16.76,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 16.76,
+   "end": 16.9,
+   "type": "word"
+  },
+  {
+   "text": "Coca",
+   "start": 16.9,
+   "end": 17.16,
+   "type": "word"
+  },
+  {
+   "text": "-Cola.",
+   "start": 17.16,
+   "end": 17.3,
+   "type": "word"
+  },
+  {
+   "text": "Qual",
+   "start": 17.48,
+   "end": 17.52,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 17.52,
+   "end": 17.6,
+   "type": "word"
+  },
+  {
+   "text": "chance",
+   "start": 17.6,
+   "end": 17.74,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 17.74,
+   "end": 17.82,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 17.82,
+   "end": 17.92,
+   "type": "word"
+  },
+  {
+   "text": "dar",
+   "start": 17.92,
+   "end": 18.08,
+   "type": "word"
+  },
+  {
+   "text": "certo?",
+   "start": 18.08,
+   "end": 18.24,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 18.42,
+   "end": 18.68,
+   "type": "word"
+  },
+  {
+   "text": "existem",
+   "start": 18.68,
+   "end": 18.94,
+   "type": "word"
+  },
+  {
+   "text": "mercados",
+   "start": 18.94,
+   "end": 19.52,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 19.52,
+   "end": 19.66,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 19.66,
+   "end": 19.74,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 19.74,
+   "end": 19.9,
+   "type": "word"
+  },
+  {
+   "text": "propício,",
+   "start": 19.9,
+   "end": 20.26,
+   "type": "word"
+  },
+  {
+   "text": "existem",
+   "start": 20.46,
+   "end": 20.68,
+   "type": "word"
+  },
+  {
+   "text": "negócios",
+   "start": 20.68,
+   "end": 21.2,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 21.2,
+   "end": 21.32,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 21.32,
+   "end": 21.44,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 21.44,
+   "end": 21.54,
+   "type": "word"
+  },
+  {
+   "text": "sentido.",
+   "start": 21.54,
+   "end": 21.84,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 22.24,
+   "end": 22.34,
+   "type": "word"
+  },
+  {
+   "text": "Nike",
+   "start": 22.34,
+   "end": 22.52,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 22.52,
+   "end": 22.66,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 22.66,
+   "end": 22.76,
+   "type": "word"
+  },
+  {
+   "text": "Nike.",
+   "start": 22.76,
+   "end": 23.1,
+   "type": "word"
+  },
+  {
+   "text": "A",
+   "start": 23.16,
+   "end": 23.32,
+   "type": "word"
+  },
+  {
+   "text": "ganância",
+   "start": 23.32,
+   "end": 23.74,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 23.74,
+   "end": 23.96,
+   "type": "word"
+  },
+  {
+   "text": "fazer",
+   "start": 23.96,
+   "end": 24.26,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 24.26,
+   "end": 24.46,
+   "type": "word"
+  },
+  {
+   "text": "dinheiro",
+   "start": 24.46,
+   "end": 24.86,
+   "type": "word"
+  },
+  {
+   "text": "naquela",
+   "start": 24.86,
+   "end": 25.46,
+   "type": "word"
+  },
+  {
+   "text": "onda",
+   "start": 25.46,
+   "end": 25.8,
+   "type": "word"
+  },
+  {
+   "text": "levou",
+   "start": 25.8,
+   "end": 26.24,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 26.24,
+   "end": 26.4,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 26.4,
+   "end": 26.62,
+   "type": "word"
+  },
+  {
+   "text": "perder",
+   "start": 26.62,
+   "end": 26.78,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 26.78,
+   "end": 27.0,
+   "type": "word"
+  },
+  {
+   "text": "grande",
+   "start": 27.0,
+   "end": 27.14,
+   "type": "word"
+  },
+  {
+   "text": "fatia",
+   "start": 27.14,
+   "end": 27.36,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 27.36,
+   "end": 27.5,
+   "type": "word"
+  },
+  {
+   "text": "mercado.",
+   "start": 27.5,
+   "end": 27.74,
+   "type": "word"
+  },
+  {
+   "text": "Tudo",
+   "start": 27.74,
+   "end": 28.0,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 28.0,
+   "end": 28.14,
+   "type": "word"
+  },
+  {
+   "text": "ganância.",
+   "start": 28.14,
+   "end": 28.56,
+   "type": "word"
+  },
+  {
+   "text": "Então,",
+   "start": 28.7,
+   "end": 28.88,
+   "type": "word"
+  },
+  {
+   "text": "antigamente,",
+   "start": 29.02,
+   "end": 29.28,
+   "type": "word"
+  },
+  {
+   "text": "bicho,",
+   "start": 29.28,
+   "end": 29.52,
+   "type": "word"
+  },
+  {
+   "text": "Nike,",
+   "start": 29.62,
+   "end": 29.82,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 29.86,
+   "end": 29.96,
+   "type": "word"
+  },
+  {
+   "text": "sou",
+   "start": 29.96,
+   "end": 30.12,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 30.12,
+   "end": 30.22,
+   "type": "word"
+  },
+  {
+   "text": "época",
+   "start": 30.22,
+   "end": 30.4,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 30.4,
+   "end": 30.6,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 30.6,
+   "end": 30.72,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 30.72,
+   "end": 30.8,
+   "type": "word"
+  },
+  {
+   "text": "morava",
+   "start": 30.8,
+   "end": 30.96,
+   "type": "word"
+  },
+  {
+   "text": "aqui",
+   "start": 30.96,
+   "end": 31.1,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 31.1,
+   "end": 31.18,
+   "type": "word"
+  },
+  {
+   "text": "São",
+   "start": 31.18,
+   "end": 31.4,
+   "type": "word"
+  },
+  {
+   "text": "Paulo,",
+   "start": 31.4,
+   "end": 31.86,
+   "type": "word"
+  },
+  {
+   "text": "nos",
+   "start": 31.92,
+   "end": 32.4,
+   "type": "word"
+  },
+  {
+   "text": "anos",
+   "start": 32.4,
+   "end": 33.1,
+   "type": "word"
+  },
+  {
+   "text": "90,",
+   "start": 33.1,
+   "end": 33.5,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 33.8,
+   "end": 33.98,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 34.0,
+   "end": 34.16,
+   "type": "word"
+  },
+  {
+   "text": "Nike",
+   "start": 34.16,
+   "end": 34.44,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 34.44,
+   "end": 34.5,
+   "type": "word"
+  },
+  {
+   "text": "New",
+   "start": 34.5,
+   "end": 34.68,
+   "type": "word"
+  },
+  {
+   "text": "Balance,",
+   "start": 34.68,
+   "end": 34.92,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 35.0,
+   "end": 35.2,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 35.2,
+   "end": 35.26,
+   "type": "word"
+  },
+  {
+   "text": "New",
+   "start": 35.26,
+   "end": 35.48,
+   "type": "word"
+  },
+  {
+   "text": "Balance",
+   "start": 35.48,
+   "end": 35.74,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 35.74,
+   "end": 35.98,
+   "type": "word"
+  },
+  {
+   "text": "outro",
+   "start": 35.98,
+   "end": 36.2,
+   "type": "word"
+  },
+  {
+   "text": "nível",
+   "start": 36.2,
+   "end": 36.46,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 36.46,
+   "end": 36.6,
+   "type": "word"
+  },
+  {
+   "text": "Nike,",
+   "start": 36.6,
+   "end": 36.94,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 37.1,
+   "end": 37.18,
+   "type": "word"
+  },
+  {
+   "text": "Nike,",
+   "start": 37.3,
+   "end": 37.58,
+   "type": "word"
+  },
+  {
+   "text": "Nike",
+   "start": 37.58,
+   "end": 37.78,
+   "type": "word"
+  },
+  {
+   "text": "Shock,",
+   "start": 37.78,
+   "end": 38.14,
+   "type": "word"
+  },
+  {
+   "text": "quatro",
+   "start": 38.42,
+   "end": 38.72,
+   "type": "word"
+  },
+  {
+   "text": "molas,",
+   "start": 38.72,
+   "end": 39.22,
+   "type": "word"
+  },
+  {
+   "text": "Nike",
+   "start": 39.34,
+   "end": 39.52,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 39.52,
+   "end": 39.66,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 39.66,
+   "end": 39.86,
+   "type": "word"
+  },
+  {
+   "text": "história,",
+   "start": 39.86,
+   "end": 40.16,
+   "type": "word"
+  },
+  {
+   "text": "cara.",
+   "start": 40.38,
+   "end": 40.38,
+   "type": "word"
+  },
+  {
+   "text": "Então,",
+   "start": 40.48,
+   "end": 40.62,
+   "type": "word"
+  },
+  {
+   "text": "respeita",
+   "start": 40.96,
+   "end": 41.42,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 41.42,
+   "end": 41.52,
+   "type": "word"
+  },
+  {
+   "text": "sua",
+   "start": 41.52,
+   "end": 41.6,
+   "type": "word"
+  },
+  {
+   "text": "história.",
+   "start": 41.6,
+   "end": 41.92,
+   "type": "word"
+  },
+  {
+   "text": "É",
+   "start": 42.12,
+   "end": 42.24,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 42.24,
+   "end": 42.46,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 42.46,
+   "end": 42.6,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 42.6,
+   "end": 42.8,
+   "type": "word"
+  },
+  {
+   "text": "Ferrari",
+   "start": 42.8,
+   "end": 43.28,
+   "type": "word"
+  },
+  {
+   "text": "começasse",
+   "start": 43.28,
+   "end": 43.96,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 43.96,
+   "end": 44.08,
+   "type": "word"
+  },
+  {
+   "text": "vender",
+   "start": 44.08,
+   "end": 44.54,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 44.54,
+   "end": 44.92,
+   "type": "word"
+  },
+  {
+   "text": "carro",
+   "start": 44.92,
+   "end": 45.08,
+   "type": "word"
+  },
+  {
+   "text": "dela,",
+   "start": 45.08,
+   "end": 45.38,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 45.56,
+   "end": 45.74,
+   "type": "word"
+  },
+  {
+   "text": "legado",
+   "start": 45.74,
+   "end": 46.04,
+   "type": "word"
+  },
+  {
+   "text": "dela",
+   "start": 46.04,
+   "end": 46.22,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 46.22,
+   "end": 46.36,
+   "type": "word"
+  },
+  {
+   "text": "qualquer",
+   "start": 46.36,
+   "end": 46.62,
+   "type": "word"
+  },
+  {
+   "text": "um.",
+   "start": 46.62,
+   "end": 46.74,
+   "type": "word"
+  },
+  {
+   "text": "Hoje",
+   "start": 46.86,
+   "end": 47.04,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 47.04,
+   "end": 47.16,
+   "type": "word"
+  },
+  {
+   "text": "sonho",
+   "start": 47.16,
+   "end": 47.46,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 47.46,
+   "end": 47.7,
+   "type": "word"
+  },
+  {
+   "text": "qualquer",
+   "start": 47.7,
+   "end": 48.12,
+   "type": "word"
+  },
+  {
+   "text": "multimilionário",
+   "start": 48.12,
+   "end": 49.14,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 49.14,
+   "end": 49.32,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 49.32,
+   "end": 49.52,
+   "type": "word"
+  },
+  {
+   "text": "Ferrari.",
+   "start": 49.52,
+   "end": 49.8,
+   "type": "word"
+  },
+  {
+   "text": "Quando",
+   "start": 49.92,
+   "end": 50.08,
+   "type": "word"
+  },
+  {
+   "text": "fala",
+   "start": 50.08,
+   "end": 50.26,
+   "type": "word"
+  },
+  {
+   "text": "-se",
+   "start": 50.26,
+   "end": 50.36,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 50.36,
+   "end": 50.56,
+   "type": "word"
+  },
+  {
+   "text": "carro,",
+   "start": 50.56,
+   "end": 50.74,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 51.12,
+   "end": 51.16,
+   "type": "word"
+  },
+  {
+   "text": "números",
+   "start": 51.16,
+   "end": 51.42,
+   "type": "word"
+  },
+  {
+   "text": "carros",
+   "start": 51.42,
+   "end": 51.7,
+   "type": "word"
+  },
+  {
+   "text": "melhores,",
+   "start": 51.7,
+   "end": 52.0,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 52.14,
+   "end": 52.3,
+   "type": "word"
+  },
+  {
+   "text": "bonitos,",
+   "start": 52.3,
+   "end": 52.74,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 52.92,
+   "end": 53.1,
+   "type": "word"
+  },
+  {
+   "text": "tecnológicos,",
+   "start": 53.1,
+   "end": 53.56,
+   "type": "word"
+  },
+  {
+   "text": "mas",
+   "start": 53.58,
+   "end": 53.72,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 53.72,
+   "end": 53.94,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 53.94,
+   "end": 54.04,
+   "type": "word"
+  },
+  {
+   "text": "Ferrari,",
+   "start": 54.04,
+   "end": 54.34,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 54.8,
+   "end": 54.92,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 54.92,
+   "end": 55.02,
+   "type": "word"
+  },
+  {
+   "text": "Ferrari",
+   "start": 55.02,
+   "end": 55.2,
+   "type": "word"
+  },
+  {
+   "text": "começa,",
+   "start": 55.2,
+   "end": 55.42,
+   "type": "word"
+  },
+  {
+   "text": "clica",
+   "start": 55.42,
+   "end": 55.9,
+   "type": "word"
+  },
+  {
+   "text": "aqui,",
+   "start": 55.9,
+   "end": 56.16,
+   "type": "word"
+  },
+  {
+   "text": "clica",
+   "start": 56.3,
+   "end": 56.62,
+   "type": "word"
+  },
+  {
+   "text": "aqui",
+   "start": 56.62,
+   "end": 56.82,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 56.82,
+   "end": 56.96,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 56.96,
+   "end": 57.12,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 57.12,
+   "end": 57.34,
+   "type": "word"
+  },
+  {
+   "text": "receber",
+   "start": 57.34,
+   "end": 57.72,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 57.72,
+   "end": 57.88,
+   "type": "word"
+  },
+  {
+   "text": "Ferrari",
+   "start": 57.88,
+   "end": 58.1,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 58.1,
+   "end": 58.2,
+   "type": "word"
+  },
+  {
+   "text": "sua",
+   "start": 58.2,
+   "end": 58.28,
+   "type": "word"
+  },
+  {
+   "text": "casa",
+   "start": 58.28,
+   "end": 58.6,
+   "type": "word"
+  },
+  {
+   "text": "sem",
+   "start": 58.6,
+   "end": 58.92,
+   "type": "word"
+  },
+  {
+   "text": "nome",
+   "start": 58.92,
+   "end": 59.14,
+   "type": "word"
+  },
+  {
+   "text": "limpo.",
+   "start": 59.14,
+   "end": 59.82,
+   "type": "word"
+  },
+  {
+   "text": "Quem",
+   "start": 61.32,
+   "end": 61.4,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 61.4,
+   "end": 61.54,
+   "type": "word"
+  },
+  {
+   "text": "comprar",
+   "start": 61.54,
+   "end": 61.7,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 61.7,
+   "end": 61.82,
+   "type": "word"
+  },
+  {
+   "text": "Ferrari?",
+   "start": 61.82,
+   "end": 62.04,
+   "type": "word"
+  }
+ ]
+}

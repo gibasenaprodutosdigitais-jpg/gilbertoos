@@ -1,0 +1,436 @@
+{
+ "words": [
+  {
+   "text": "Outro",
+   "start": 0.0,
+   "end": 1.18,
+   "type": "word"
+  },
+  {
+   "text": "pecado",
+   "start": 1.18,
+   "end": 1.92,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 1.92,
+   "end": 2.42,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 2.42,
+   "end": 2.62,
+   "type": "word"
+  },
+  {
+   "text": "IES,",
+   "start": 2.62,
+   "end": 3.28,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 3.5,
+   "end": 3.68,
+   "type": "word"
+  },
+  {
+   "text": "imposto",
+   "start": 3.68,
+   "end": 4.0,
+   "type": "word"
+  },
+  {
+   "text": "seletivo,",
+   "start": 4.0,
+   "end": 4.76,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 5.0,
+   "end": 5.08,
+   "type": "word"
+  },
+  {
+   "text": "imposto",
+   "start": 5.08,
+   "end": 5.6,
+   "type": "word"
+  },
+  {
+   "text": "sobre...",
+   "start": 5.6,
+   "end": 6.9,
+   "type": "word"
+  },
+  {
+   "text": "chamado",
+   "start": 6.9,
+   "end": 7.4,
+   "type": "word"
+  },
+  {
+   "text": "imposto",
+   "start": 7.4,
+   "end": 7.88,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 7.88,
+   "end": 8.1,
+   "type": "word"
+  },
+  {
+   "text": "pecado.",
+   "start": 8.1,
+   "end": 8.68,
+   "type": "word"
+  },
+  {
+   "text": "Todos",
+   "start": 9.48,
+   "end": 9.68,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 9.68,
+   "end": 9.9,
+   "type": "word"
+  },
+  {
+   "text": "impostos",
+   "start": 9.9,
+   "end": 10.26,
+   "type": "word"
+  },
+  {
+   "text": "são",
+   "start": 10.26,
+   "end": 10.54,
+   "type": "word"
+  },
+  {
+   "text": "pecado.",
+   "start": 10.54,
+   "end": 11.2,
+   "type": "word"
+  },
+  {
+   "text": "Todos",
+   "start": 11.6,
+   "end": 11.9,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 11.9,
+   "end": 12.16,
+   "type": "word"
+  },
+  {
+   "text": "impostos",
+   "start": 12.16,
+   "end": 12.84,
+   "type": "word"
+  },
+  {
+   "text": "deveriam",
+   "start": 12.84,
+   "end": 13.18,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 13.18,
+   "end": 13.52,
+   "type": "word"
+  },
+  {
+   "text": "considerados",
+   "start": 13.52,
+   "end": 14.14,
+   "type": "word"
+  },
+  {
+   "text": "pecado",
+   "start": 14.14,
+   "end": 14.76,
+   "type": "word"
+  },
+  {
+   "text": "mortal,",
+   "start": 14.76,
+   "end": 15.66,
+   "type": "word"
+  },
+  {
+   "text": "porque",
+   "start": 16.04,
+   "end": 16.64,
+   "type": "word"
+  },
+  {
+   "text": "nós",
+   "start": 16.64,
+   "end": 16.92,
+   "type": "word"
+  },
+  {
+   "text": "vivemos",
+   "start": 16.92,
+   "end": 17.22,
+   "type": "word"
+  },
+  {
+   "text": "num",
+   "start": 17.22,
+   "end": 17.36,
+   "type": "word"
+  },
+  {
+   "text": "país",
+   "start": 17.36,
+   "end": 17.76,
+   "type": "word"
+  },
+  {
+   "text": "onde",
+   "start": 17.76,
+   "end": 18.12,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 18.12,
+   "end": 18.52,
+   "type": "word"
+  },
+  {
+   "text": "dominado",
+   "start": 18.52,
+   "end": 19.06,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 19.06,
+   "end": 19.28,
+   "type": "word"
+  },
+  {
+   "text": "pecado.",
+   "start": 19.28,
+   "end": 19.74,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 20.24,
+   "end": 20.44,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 20.44,
+   "end": 20.6,
+   "type": "word"
+  },
+  {
+   "text": "imposto",
+   "start": 20.6,
+   "end": 20.92,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 20.92,
+   "end": 21.14,
+   "type": "word"
+  },
+  {
+   "text": "pecado",
+   "start": 21.14,
+   "end": 21.52,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 21.52,
+   "end": 22.32,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 22.32,
+   "end": 22.5,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 22.5,
+   "end": 22.62,
+   "type": "word"
+  },
+  {
+   "text": "nome",
+   "start": 22.62,
+   "end": 22.8,
+   "type": "word"
+  },
+  {
+   "text": "bonito",
+   "start": 22.8,
+   "end": 23.14,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 23.14,
+   "end": 23.38,
+   "type": "word"
+  },
+  {
+   "text": "deram",
+   "start": 23.38,
+   "end": 23.6,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 23.6,
+   "end": 23.76,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 23.76,
+   "end": 24.04,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 24.04,
+   "end": 25.22,
+   "type": "word"
+  },
+  {
+   "text": "forma",
+   "start": 26.34,
+   "end": 26.82,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 26.82,
+   "end": 27.18,
+   "type": "word"
+  },
+  {
+   "text": "destruir",
+   "start": 27.18,
+   "end": 28.0,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 28.0,
+   "end": 28.92,
+   "type": "word"
+  },
+  {
+   "text": "nossa,",
+   "start": 28.92,
+   "end": 28.92,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 29.3,
+   "end": 29.84,
+   "type": "word"
+  },
+  {
+   "text": "nossa,",
+   "start": 29.84,
+   "end": 30.2,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 30.2,
+   "end": 30.32,
+   "type": "word"
+  },
+  {
+   "text": "nossa",
+   "start": 30.32,
+   "end": 30.62,
+   "type": "word"
+  },
+  {
+   "text": "paz.",
+   "start": 30.62,
+   "end": 31.1,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 32.23,
+   "end": 32.43,
+   "type": "word"
+  },
+  {
+   "text": "vem",
+   "start": 32.43,
+   "end": 32.59,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 32.59,
+   "end": 32.73,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 32.73,
+   "end": 32.87,
+   "type": "word"
+  },
+  {
+   "text": "IES",
+   "start": 32.87,
+   "end": 33.23,
+   "type": "word"
+  },
+  {
+   "text": "também,",
+   "start": 33.23,
+   "end": 33.83,
+   "type": "word"
+  },
+  {
+   "text": "previsto",
+   "start": 34.05,
+   "end": 34.23,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 34.23,
+   "end": 34.39,
+   "type": "word"
+  },
+  {
+   "text": "2027.",
+   "start": 34.39,
+   "end": 35.01,
+   "type": "word"
+  }
+ ]
+}

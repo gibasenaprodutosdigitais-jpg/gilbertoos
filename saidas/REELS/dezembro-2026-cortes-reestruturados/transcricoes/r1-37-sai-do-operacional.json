@@ -1,0 +1,562 @@
+{
+ "words": [
+  {
+   "text": "Então,",
+   "start": 0.0,
+   "end": 0.18,
+   "type": "word"
+  },
+  {
+   "text": "às",
+   "start": 0.18,
+   "end": 0.2,
+   "type": "word"
+  },
+  {
+   "text": "vezes",
+   "start": 0.2,
+   "end": 0.34,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 0.34,
+   "end": 0.5,
+   "type": "word"
+  },
+  {
+   "text": "empresário",
+   "start": 0.5,
+   "end": 0.6,
+   "type": "word"
+  },
+  {
+   "text": "fica",
+   "start": 0.6,
+   "end": 0.68,
+   "type": "word"
+  },
+  {
+   "text": "assim,",
+   "start": 0.68,
+   "end": 0.78,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 0.88,
+   "end": 1.2,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 1.2,
+   "end": 2.1,
+   "type": "word"
+  },
+  {
+   "text": "sei",
+   "start": 2.1,
+   "end": 2.22,
+   "type": "word"
+  },
+  {
+   "text": "contabilidade,",
+   "start": 2.22,
+   "end": 2.88,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 2.98,
+   "end": 3.0,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 3.0,
+   "end": 3.12,
+   "type": "word"
+  },
+  {
+   "text": "precisa",
+   "start": 3.12,
+   "end": 3.22,
+   "type": "word"
+  },
+  {
+   "text": "saber.",
+   "start": 3.22,
+   "end": 3.64,
+   "type": "word"
+  },
+  {
+   "text": "Um",
+   "start": 4.0,
+   "end": 4.1,
+   "type": "word"
+  },
+  {
+   "text": "bom",
+   "start": 4.1,
+   "end": 4.28,
+   "type": "word"
+  },
+  {
+   "text": "empresário,",
+   "start": 4.28,
+   "end": 4.82,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 5.12,
+   "end": 5.36,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 5.36,
+   "end": 5.5,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 5.5,
+   "end": 5.6,
+   "type": "word"
+  },
+  {
+   "text": "fazer",
+   "start": 5.6,
+   "end": 5.8,
+   "type": "word"
+  },
+  {
+   "text": "parte",
+   "start": 5.8,
+   "end": 6.06,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 6.06,
+   "end": 6.22,
+   "type": "word"
+  },
+  {
+   "text": "operação,",
+   "start": 6.22,
+   "end": 6.48,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 6.58,
+   "end": 6.6,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 6.6,
+   "end": 6.74,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 6.74,
+   "end": 7.02,
+   "type": "word"
+  },
+  {
+   "text": "entender",
+   "start": 7.02,
+   "end": 7.54,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 7.54,
+   "end": 7.8,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.8,
+   "end": 7.84,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 7.84,
+   "end": 8.0,
+   "type": "word"
+  },
+  {
+   "text": "acontecendo",
+   "start": 8.0,
+   "end": 8.26,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 8.26,
+   "end": 8.4,
+   "type": "word"
+  },
+  {
+   "text": "operação.",
+   "start": 8.4,
+   "end": 8.74,
+   "type": "word"
+  },
+  {
+   "text": "Não",
+   "start": 8.92,
+   "end": 9.02,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 9.02,
+   "end": 9.22,
+   "type": "word"
+  },
+  {
+   "text": "necessário",
+   "start": 9.22,
+   "end": 9.54,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 9.54,
+   "end": 9.68,
+   "type": "word"
+  },
+  {
+   "text": "estar",
+   "start": 9.68,
+   "end": 9.8,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 9.8,
+   "end": 10.1,
+   "type": "word"
+  },
+  {
+   "text": "operacional,",
+   "start": 10.1,
+   "end": 10.58,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 10.76,
+   "end": 10.84,
+   "type": "word"
+  },
+  {
+   "text": "pessoas",
+   "start": 10.84,
+   "end": 11.0,
+   "type": "word"
+  },
+  {
+   "text": "confundem",
+   "start": 11.0,
+   "end": 11.36,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 11.36,
+   "end": 11.5,
+   "type": "word"
+  },
+  {
+   "text": "isso.",
+   "start": 11.5,
+   "end": 11.74,
+   "type": "word"
+  },
+  {
+   "text": "Tem",
+   "start": 12.02,
+   "end": 12.08,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 12.08,
+   "end": 12.14,
+   "type": "word"
+  },
+  {
+   "text": "sair",
+   "start": 12.14,
+   "end": 12.24,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 12.24,
+   "end": 12.36,
+   "type": "word"
+  },
+  {
+   "text": "operação,",
+   "start": 12.36,
+   "end": 12.84,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 12.96,
+   "end": 13.04,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 13.04,
+   "end": 13.14,
+   "type": "word"
+  },
+  {
+   "text": "sair",
+   "start": 13.14,
+   "end": 13.18,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 13.18,
+   "end": 13.18,
+   "type": "word"
+  },
+  {
+   "text": "operação,",
+   "start": 13.18,
+   "end": 13.54,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 13.62,
+   "end": 13.66,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 13.66,
+   "end": 13.84,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 13.84,
+   "end": 13.98,
+   "type": "word"
+  },
+  {
+   "text": "pode",
+   "start": 13.98,
+   "end": 14.12,
+   "type": "word"
+  },
+  {
+   "text": "sair",
+   "start": 14.12,
+   "end": 14.24,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 14.24,
+   "end": 14.32,
+   "type": "word"
+  },
+  {
+   "text": "operação.",
+   "start": 14.32,
+   "end": 14.78,
+   "type": "word"
+  },
+  {
+   "text": "Ele",
+   "start": 15.08,
+   "end": 15.18,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 15.18,
+   "end": 15.28,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 15.28,
+   "end": 15.36,
+   "type": "word"
+  },
+  {
+   "text": "sair",
+   "start": 15.36,
+   "end": 15.44,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 15.44,
+   "end": 15.64,
+   "type": "word"
+  },
+  {
+   "text": "operacional.",
+   "start": 15.64,
+   "end": 16.3,
+   "type": "word"
+  },
+  {
+   "text": "Então,",
+   "start": 16.7,
+   "end": 16.78,
+   "type": "word"
+  },
+  {
+   "text": "às",
+   "start": 16.78,
+   "end": 16.8,
+   "type": "word"
+  },
+  {
+   "text": "vezes",
+   "start": 16.8,
+   "end": 16.96,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 16.96,
+   "end": 17.06,
+   "type": "word"
+  },
+  {
+   "text": "empresário",
+   "start": 17.06,
+   "end": 17.2,
+   "type": "word"
+  },
+  {
+   "text": "fica",
+   "start": 17.2,
+   "end": 17.3,
+   "type": "word"
+  },
+  {
+   "text": "assim,",
+   "start": 17.3,
+   "end": 17.42,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 17.66,
+   "end": 17.84,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 17.84,
+   "end": 18.0,
+   "type": "word"
+  },
+  {
+   "text": "sei",
+   "start": 18.0,
+   "end": 18.86,
+   "type": "word"
+  },
+  {
+   "text": "contabilidade,",
+   "start": 18.86,
+   "end": 19.48,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 19.58,
+   "end": 19.62,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 19.62,
+   "end": 19.66,
+   "type": "word"
+  },
+  {
+   "text": "precisa",
+   "start": 19.66,
+   "end": 19.84,
+   "type": "word"
+  },
+  {
+   "text": "saber.",
+   "start": 19.84,
+   "end": 20.22,
+   "type": "word"
+  },
+  {
+   "text": "Você",
+   "start": 20.77,
+   "end": 20.89,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 20.89,
+   "end": 21.03,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 21.03,
+   "end": 21.11,
+   "type": "word"
+  },
+  {
+   "text": "acompanhar",
+   "start": 21.11,
+   "end": 21.41,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 21.41,
+   "end": 21.49,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 21.49,
+   "end": 21.55,
+   "type": "word"
+  },
+  {
+   "text": "está",
+   "start": 21.55,
+   "end": 21.65,
+   "type": "word"
+  },
+  {
+   "text": "acontecendo.",
+   "start": 21.65,
+   "end": 22.01,
+   "type": "word"
+  }
+ ]
+}

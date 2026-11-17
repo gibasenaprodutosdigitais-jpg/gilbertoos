@@ -1,0 +1,1342 @@
+{
+ "words": [
+  {
+   "text": "O",
+   "start": 0.0,
+   "end": 0.42,
+   "type": "word"
+  },
+  {
+   "text": "sucesso",
+   "start": 0.42,
+   "end": 0.7,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 0.7,
+   "end": 0.88,
+   "type": "word"
+  },
+  {
+   "text": "Spouser",
+   "start": 0.88,
+   "end": 1.2,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 1.2,
+   "end": 1.32,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 1.32,
+   "end": 1.42,
+   "type": "word"
+  },
+  {
+   "text": "silêncio",
+   "start": 1.42,
+   "end": 1.64,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 1.64,
+   "end": 1.88,
+   "type": "word"
+  },
+  {
+   "text": "panos.",
+   "start": 1.88,
+   "end": 2.16,
+   "type": "word"
+  },
+  {
+   "text": "Ou",
+   "start": 2.4,
+   "end": 2.48,
+   "type": "word"
+  },
+  {
+   "text": "seja,",
+   "start": 2.48,
+   "end": 2.72,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 2.9,
+   "end": 2.98,
+   "type": "word"
+  },
+  {
+   "text": "muita",
+   "start": 2.98,
+   "end": 3.14,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 3.14,
+   "end": 3.48,
+   "type": "word"
+  },
+  {
+   "text": "furunha",
+   "start": 3.48,
+   "end": 4.56,
+   "type": "word"
+  },
+  {
+   "text": "aí,",
+   "start": 4.56,
+   "end": 4.68,
+   "type": "word"
+  },
+  {
+   "text": "fazendo,",
+   "start": 4.9,
+   "end": 4.92,
+   "type": "word"
+  },
+  {
+   "text": "enganando",
+   "start": 5.28,
+   "end": 5.62,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 5.62,
+   "end": 5.82,
+   "type": "word"
+  },
+  {
+   "text": "pessoas,",
+   "start": 5.82,
+   "end": 5.96,
+   "type": "word"
+  },
+  {
+   "text": "enganando",
+   "start": 6.14,
+   "end": 6.4,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 6.4,
+   "end": 6.6,
+   "type": "word"
+  },
+  {
+   "text": "empresários,",
+   "start": 6.6,
+   "end": 6.9,
+   "type": "word"
+  },
+  {
+   "text": "enganando",
+   "start": 7.04,
+   "end": 7.4,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 7.4,
+   "end": 7.48,
+   "type": "word"
+  },
+  {
+   "text": "famílias.",
+   "start": 7.48,
+   "end": 8.0,
+   "type": "word"
+  },
+  {
+   "text": "Falando",
+   "start": 8.98,
+   "end": 9.22,
+   "type": "word"
+  },
+  {
+   "text": "sobre",
+   "start": 9.22,
+   "end": 9.66,
+   "type": "word"
+  },
+  {
+   "text": "postos",
+   "start": 9.66,
+   "end": 10.12,
+   "type": "word"
+  },
+  {
+   "text": "que...",
+   "start": 10.12,
+   "end": 11.5,
+   "type": "word"
+  },
+  {
+   "text": "Entendem?",
+   "start": 11.5,
+   "end": 11.86,
+   "type": "word"
+  },
+  {
+   "text": "Vai",
+   "start": 12.04,
+   "end": 12.16,
+   "type": "word"
+  },
+  {
+   "text": "buscar",
+   "start": 12.16,
+   "end": 12.42,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 12.42,
+   "end": 12.62,
+   "type": "word"
+  },
+  {
+   "text": "histórico",
+   "start": 12.62,
+   "end": 12.8,
+   "type": "word"
+  },
+  {
+   "text": "desses",
+   "start": 12.8,
+   "end": 13.08,
+   "type": "word"
+  },
+  {
+   "text": "caras?",
+   "start": 13.08,
+   "end": 13.56,
+   "type": "word"
+  },
+  {
+   "text": "Já",
+   "start": 14.12,
+   "end": 14.24,
+   "type": "word"
+  },
+  {
+   "text": "quebrou?",
+   "start": 14.24,
+   "end": 14.94,
+   "type": "word"
+  },
+  {
+   "text": "Sabem",
+   "start": 15.82,
+   "end": 16.26,
+   "type": "word"
+  },
+  {
+   "text": "realmente",
+   "start": 16.26,
+   "end": 16.7,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 16.7,
+   "end": 17.12,
+   "type": "word"
+  },
+  {
+   "text": "dor",
+   "start": 17.12,
+   "end": 17.38,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 17.38,
+   "end": 17.78,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 17.78,
+   "end": 17.88,
+   "type": "word"
+  },
+  {
+   "text": "fornecedor",
+   "start": 17.88,
+   "end": 18.5,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 18.5,
+   "end": 18.66,
+   "type": "word"
+  },
+  {
+   "text": "enganado",
+   "start": 18.66,
+   "end": 18.9,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 18.9,
+   "end": 18.98,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 18.98,
+   "end": 19.06,
+   "type": "word"
+  },
+  {
+   "text": "fornecedor,",
+   "start": 19.06,
+   "end": 19.6,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 19.76,
+   "end": 19.78,
+   "type": "word"
+  },
+  {
+   "text": "enganado",
+   "start": 19.78,
+   "end": 20.08,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 20.08,
+   "end": 20.24,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 20.24,
+   "end": 20.38,
+   "type": "word"
+  },
+  {
+   "text": "cliente,",
+   "start": 20.38,
+   "end": 21.0,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 21.14,
+   "end": 21.2,
+   "type": "word"
+  },
+  {
+   "text": "enganado",
+   "start": 21.2,
+   "end": 21.44,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 21.44,
+   "end": 21.62,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 21.62,
+   "end": 21.72,
+   "type": "word"
+  },
+  {
+   "text": "funcionário",
+   "start": 21.72,
+   "end": 22.28,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 22.28,
+   "end": 22.52,
+   "type": "word"
+  },
+  {
+   "text": "traído?",
+   "start": 22.52,
+   "end": 23.0,
+   "type": "word"
+  },
+  {
+   "text": "Essas",
+   "start": 23.42,
+   "end": 23.6,
+   "type": "word"
+  },
+  {
+   "text": "pessoas",
+   "start": 23.6,
+   "end": 23.84,
+   "type": "word"
+  },
+  {
+   "text": "elas",
+   "start": 23.84,
+   "end": 24.06,
+   "type": "word"
+  },
+  {
+   "text": "têm",
+   "start": 24.06,
+   "end": 24.16,
+   "type": "word"
+  },
+  {
+   "text": "isso,",
+   "start": 24.16,
+   "end": 24.34,
+   "type": "word"
+  },
+  {
+   "text": "elas",
+   "start": 24.42,
+   "end": 24.58,
+   "type": "word"
+  },
+  {
+   "text": "sentiram",
+   "start": 24.58,
+   "end": 24.76,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 24.76,
+   "end": 24.94,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 24.94,
+   "end": 25.12,
+   "type": "word"
+  },
+  {
+   "text": "pele",
+   "start": 25.12,
+   "end": 25.38,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 25.38,
+   "end": 25.56,
+   "type": "word"
+  },
+  {
+   "text": "poder",
+   "start": 25.56,
+   "end": 26.16,
+   "type": "word"
+  },
+  {
+   "text": "realmente",
+   "start": 26.16,
+   "end": 26.68,
+   "type": "word"
+  },
+  {
+   "text": "falar",
+   "start": 26.68,
+   "end": 26.96,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 26.96,
+   "end": 27.1,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 27.1,
+   "end": 27.22,
+   "type": "word"
+  },
+  {
+   "text": "empresário,",
+   "start": 27.22,
+   "end": 27.82,
+   "type": "word"
+  },
+  {
+   "text": "qual",
+   "start": 28.0,
+   "end": 28.0,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 28.0,
+   "end": 28.06,
+   "type": "word"
+  },
+  {
+   "text": "caminho",
+   "start": 28.06,
+   "end": 28.24,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 28.24,
+   "end": 28.28,
+   "type": "word"
+  },
+  {
+   "text": "tocar,",
+   "start": 28.28,
+   "end": 28.54,
+   "type": "word"
+  },
+  {
+   "text": "qual",
+   "start": 28.7,
+   "end": 28.78,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 28.78,
+   "end": 28.84,
+   "type": "word"
+  },
+  {
+   "text": "caminho",
+   "start": 28.84,
+   "end": 29.06,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 29.06,
+   "end": 29.08,
+   "type": "word"
+  },
+  {
+   "text": "servir.",
+   "start": 29.08,
+   "end": 29.42,
+   "type": "word"
+  },
+  {
+   "text": "Então,",
+   "start": 29.42,
+   "end": 29.98,
+   "type": "word"
+  },
+  {
+   "text": "assim,",
+   "start": 30.26,
+   "end": 30.32,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 30.9,
+   "end": 31.02,
+   "type": "word"
+  },
+  {
+   "text": "mexeu",
+   "start": 31.02,
+   "end": 31.34,
+   "type": "word"
+  },
+  {
+   "text": "muito",
+   "start": 31.34,
+   "end": 31.48,
+   "type": "word"
+  },
+  {
+   "text": "comigo.",
+   "start": 31.48,
+   "end": 31.7,
+   "type": "word"
+  },
+  {
+   "text": "Durante",
+   "start": 31.78,
+   "end": 31.94,
+   "type": "word"
+  },
+  {
+   "text": "quatro",
+   "start": 31.94,
+   "end": 32.22,
+   "type": "word"
+  },
+  {
+   "text": "anos",
+   "start": 32.22,
+   "end": 32.46,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 32.46,
+   "end": 32.62,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 32.62,
+   "end": 32.7,
+   "type": "word"
+  },
+  {
+   "text": "tenho",
+   "start": 32.7,
+   "end": 33.36,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 33.36,
+   "end": 33.54,
+   "type": "word"
+  },
+  {
+   "text": "negócio",
+   "start": 33.54,
+   "end": 33.78,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 33.78,
+   "end": 34.06,
+   "type": "word"
+  },
+  {
+   "text": "São",
+   "start": 34.06,
+   "end": 34.16,
+   "type": "word"
+  },
+  {
+   "text": "Paulo,",
+   "start": 34.16,
+   "end": 34.32,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 34.4,
+   "end": 34.4,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 34.4,
+   "end": 34.54,
+   "type": "word"
+  },
+  {
+   "text": "filho,",
+   "start": 34.54,
+   "end": 34.94,
+   "type": "word"
+  },
+  {
+   "text": "prestando",
+   "start": 35.18,
+   "end": 35.44,
+   "type": "word"
+  },
+  {
+   "text": "serviço",
+   "start": 35.44,
+   "end": 35.78,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 35.78,
+   "end": 36.08,
+   "type": "word"
+  },
+  {
+   "text": "empresários,",
+   "start": 36.08,
+   "end": 36.5,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 36.56,
+   "end": 36.7,
+   "type": "word"
+  },
+  {
+   "text": "empresas,",
+   "start": 36.7,
+   "end": 37.02,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 37.5,
+   "end": 37.82,
+   "type": "word"
+  },
+  {
+   "text": "me",
+   "start": 37.82,
+   "end": 38.06,
+   "type": "word"
+  },
+  {
+   "text": "deparei",
+   "start": 38.06,
+   "end": 38.3,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 38.3,
+   "end": 38.42,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 38.42,
+   "end": 38.6,
+   "type": "word"
+  },
+  {
+   "text": "e,",
+   "start": 38.6,
+   "end": 38.8,
+   "type": "word"
+  },
+  {
+   "text": "assim,",
+   "start": 38.8,
+   "end": 39.08,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 39.72,
+   "end": 39.88,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 39.88,
+   "end": 40.32,
+   "type": "word"
+  },
+  {
+   "text": "cara",
+   "start": 40.32,
+   "end": 40.48,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 40.48,
+   "end": 40.64,
+   "type": "word"
+  },
+  {
+   "text": "fala",
+   "start": 40.64,
+   "end": 40.78,
+   "type": "word"
+  },
+  {
+   "text": "exatamente",
+   "start": 40.78,
+   "end": 41.34,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 41.34,
+   "end": 41.88,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 41.88,
+   "end": 42.28,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 42.28,
+   "end": 42.54,
+   "type": "word"
+  },
+  {
+   "text": "pensava.",
+   "start": 42.54,
+   "end": 43.28,
+   "type": "word"
+  },
+  {
+   "text": "O",
+   "start": 43.4,
+   "end": 43.54,
+   "type": "word"
+  },
+  {
+   "text": "Lázaro,",
+   "start": 43.54,
+   "end": 43.86,
+   "type": "word"
+  },
+  {
+   "text": "né?",
+   "start": 43.94,
+   "end": 44.08,
+   "type": "word"
+  },
+  {
+   "text": "Lázaro,",
+   "start": 44.14,
+   "end": 44.46,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 44.52,
+   "end": 44.6,
+   "type": "word"
+  },
+  {
+   "text": "foi",
+   "start": 44.6,
+   "end": 44.64,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 44.64,
+   "end": 44.76,
+   "type": "word"
+  },
+  {
+   "text": "gente.",
+   "start": 44.76,
+   "end": 44.98,
+   "type": "word"
+  },
+  {
+   "text": "O",
+   "start": 45.2,
+   "end": 45.36,
+   "type": "word"
+  },
+  {
+   "text": "Lázaro",
+   "start": 45.36,
+   "end": 45.48,
+   "type": "word"
+  },
+  {
+   "text": "fala,",
+   "start": 45.48,
+   "end": 45.76,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 45.82,
+   "end": 45.9,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 45.9,
+   "end": 46.0,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 46.0,
+   "end": 46.06,
+   "type": "word"
+  },
+  {
+   "text": "me",
+   "start": 46.06,
+   "end": 46.22,
+   "type": "word"
+  },
+  {
+   "text": "misturar,",
+   "start": 46.22,
+   "end": 46.44,
+   "type": "word"
+  },
+  {
+   "text": "não,",
+   "start": 46.54,
+   "end": 46.58,
+   "type": "word"
+  },
+  {
+   "text": "senão",
+   "start": 46.6,
+   "end": 46.74,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 46.74,
+   "end": 46.88,
+   "type": "word"
+  },
+  {
+   "text": "vão",
+   "start": 46.88,
+   "end": 46.96,
+   "type": "word"
+  },
+  {
+   "text": "me",
+   "start": 46.96,
+   "end": 47.14,
+   "type": "word"
+  },
+  {
+   "text": "comparar",
+   "start": 47.14,
+   "end": 47.38,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 47.38,
+   "end": 47.52,
+   "type": "word"
+  },
+  {
+   "text": "essas",
+   "start": 47.52,
+   "end": 47.68,
+   "type": "word"
+  },
+  {
+   "text": "pessoas.",
+   "start": 47.68,
+   "end": 48.06,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 48.46,
+   "end": 48.6,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 48.6,
+   "end": 48.68,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 48.68,
+   "end": 48.78,
+   "type": "word"
+  },
+  {
+   "text": "mesmo",
+   "start": 48.78,
+   "end": 48.9,
+   "type": "word"
+  },
+  {
+   "text": "sentimento",
+   "start": 48.9,
+   "end": 49.22,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 49.22,
+   "end": 49.34,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 49.34,
+   "end": 49.48,
+   "type": "word"
+  },
+  {
+   "text": "tinha,",
+   "start": 49.48,
+   "end": 49.62,
+   "type": "word"
+  },
+  {
+   "text": "sabe?",
+   "start": 49.94,
+   "end": 50.12,
+   "type": "word"
+  },
+  {
+   "text": "De",
+   "start": 50.12,
+   "end": 50.3,
+   "type": "word"
+  },
+  {
+   "text": "me",
+   "start": 50.3,
+   "end": 51.14,
+   "type": "word"
+  },
+  {
+   "text": "compararem",
+   "start": 51.14,
+   "end": 51.62,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 51.62,
+   "end": 51.8,
+   "type": "word"
+  },
+  {
+   "text": "essas",
+   "start": 51.8,
+   "end": 51.96,
+   "type": "word"
+  },
+  {
+   "text": "pessoas",
+   "start": 51.96,
+   "end": 52.26,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 52.26,
+   "end": 52.4,
+   "type": "word"
+  },
+  {
+   "text": "estão",
+   "start": 52.4,
+   "end": 52.52,
+   "type": "word"
+  },
+  {
+   "text": "ganhando",
+   "start": 52.52,
+   "end": 52.76,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 52.76,
+   "end": 52.92,
+   "type": "word"
+  },
+  {
+   "text": "outras.",
+   "start": 52.92,
+   "end": 53.14,
+   "type": "word"
+  },
+  {
+   "text": "Mas,",
+   "start": 53.48,
+   "end": 53.64,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 53.68,
+   "end": 53.84,
+   "type": "word"
+  },
+  {
+   "text": "verdade,",
+   "start": 53.84,
+   "end": 54.1,
+   "type": "word"
+  },
+  {
+   "text": "não.",
+   "start": 54.18,
+   "end": 54.44,
+   "type": "word"
+  },
+  {
+   "text": "Aí",
+   "start": 55.15,
+   "end": 55.31,
+   "type": "word"
+  },
+  {
+   "text": "trago",
+   "start": 55.31,
+   "end": 55.55,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 55.55,
+   "end": 55.71,
+   "type": "word"
+  },
+  {
+   "text": "mim",
+   "start": 55.71,
+   "end": 55.81,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 55.81,
+   "end": 55.95,
+   "type": "word"
+  },
+  {
+   "text": "frase",
+   "start": 55.95,
+   "end": 56.15,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 56.15,
+   "end": 56.29,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 56.29,
+   "end": 56.45,
+   "type": "word"
+  },
+  {
+   "text": "grande",
+   "start": 56.45,
+   "end": 56.59,
+   "type": "word"
+  },
+  {
+   "text": "amigo",
+   "start": 56.59,
+   "end": 56.87,
+   "type": "word"
+  },
+  {
+   "text": "René",
+   "start": 56.87,
+   "end": 57.29,
+   "type": "word"
+  },
+  {
+   "text": "Silva.",
+   "start": 57.29,
+   "end": 57.49,
+   "type": "word"
+  },
+  {
+   "text": "O",
+   "start": 58.25,
+   "end": 58.53,
+   "type": "word"
+  },
+  {
+   "text": "silêncio",
+   "start": 58.53,
+   "end": 58.81,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 58.81,
+   "end": 59.05,
+   "type": "word"
+  },
+  {
+   "text": "bons",
+   "start": 59.05,
+   "end": 59.19,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 59.19,
+   "end": 59.33,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 59.33,
+   "end": 59.41,
+   "type": "word"
+  },
+  {
+   "text": "sucesso",
+   "start": 59.41,
+   "end": 59.65,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 59.65,
+   "end": 59.89,
+   "type": "word"
+  },
+  {
+   "text": "maus.",
+   "start": 59.89,
+   "end": 60.35,
+   "type": "word"
+  },
+  {
+   "text": "O",
+   "start": 60.75,
+   "end": 60.83,
+   "type": "word"
+  },
+  {
+   "text": "sucesso",
+   "start": 60.83,
+   "end": 61.03,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 61.03,
+   "end": 61.21,
+   "type": "word"
+  },
+  {
+   "text": "maus",
+   "start": 61.21,
+   "end": 61.35,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 61.35,
+   "end": 61.47,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 61.47,
+   "end": 61.53,
+   "type": "word"
+  },
+  {
+   "text": "silêncio",
+   "start": 61.53,
+   "end": 61.73,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 61.73,
+   "end": 61.93,
+   "type": "word"
+  },
+  {
+   "text": "bons.",
+   "start": 61.93,
+   "end": 62.05,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 62.19,
+   "end": 62.21,
+   "type": "word"
+  },
+  {
+   "text": "tenho",
+   "start": 62.21,
+   "end": 62.31,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 62.31,
+   "end": 62.43,
+   "type": "word"
+  },
+  {
+   "text": "te",
+   "start": 62.43,
+   "end": 62.57,
+   "type": "word"
+  },
+  {
+   "text": "trocadir",
+   "start": 62.57,
+   "end": 62.97,
+   "type": "word"
+  },
+  {
+   "text": "aqui,",
+   "start": 62.97,
+   "end": 63.35,
+   "type": "word"
+  },
+  {
+   "text": "porque",
+   "start": 63.55,
+   "end": 63.67,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 63.67,
+   "end": 63.81,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 63.81,
+   "end": 63.83,
+   "type": "word"
+  },
+  {
+   "text": "pura",
+   "start": 63.83,
+   "end": 64.05,
+   "type": "word"
+  },
+  {
+   "text": "verdade.",
+   "start": 64.05,
+   "end": 64.15,
+   "type": "word"
+  }
+ ]
+}

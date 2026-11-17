@@ -1,0 +1,1414 @@
+{
+ "words": [
+  {
+   "text": "Fazer",
+   "start": 0.0,
+   "end": 0.36,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 0.36,
+   "end": 0.5,
+   "type": "word"
+  },
+  {
+   "text": "telhado",
+   "start": 0.5,
+   "end": 1.14,
+   "type": "word"
+  },
+  {
+   "text": "bem",
+   "start": 1.14,
+   "end": 1.46,
+   "type": "word"
+  },
+  {
+   "text": "feito",
+   "start": 1.46,
+   "end": 1.66,
+   "type": "word"
+  },
+  {
+   "text": "fica",
+   "start": 1.66,
+   "end": 1.84,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 1.84,
+   "end": 2.02,
+   "type": "word"
+  },
+  {
+   "text": "barato",
+   "start": 2.02,
+   "end": 2.32,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 2.32,
+   "end": 2.5,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 2.5,
+   "end": 2.72,
+   "type": "word"
+  },
+  {
+   "text": "consertar",
+   "start": 2.72,
+   "end": 3.08,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 3.08,
+   "end": 3.22,
+   "type": "word"
+  },
+  {
+   "text": "depois.",
+   "start": 3.22,
+   "end": 3.52,
+   "type": "word"
+  },
+  {
+   "text": "Não",
+   "start": 3.62,
+   "end": 3.72,
+   "type": "word"
+  },
+  {
+   "text": "adianta",
+   "start": 3.72,
+   "end": 3.96,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 3.96,
+   "end": 4.1,
+   "type": "word"
+  },
+  {
+   "text": "pegar",
+   "start": 4.1,
+   "end": 4.24,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 4.24,
+   "end": 4.36,
+   "type": "word"
+  },
+  {
+   "text": "cara",
+   "start": 4.36,
+   "end": 4.5,
+   "type": "word"
+  },
+  {
+   "text": "grande.",
+   "start": 4.5,
+   "end": 4.78,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 5.24,
+   "end": 5.34,
+   "type": "word"
+  },
+  {
+   "text": "tenho",
+   "start": 5.34,
+   "end": 5.48,
+   "type": "word"
+  },
+  {
+   "text": "casos",
+   "start": 5.48,
+   "end": 5.8,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 5.8,
+   "end": 6.2,
+   "type": "word"
+  },
+  {
+   "text": "empresas,",
+   "start": 6.2,
+   "end": 6.56,
+   "type": "word"
+  },
+  {
+   "text": "inclusive",
+   "start": 6.66,
+   "end": 6.86,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 6.86,
+   "end": 7.02,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 7.02,
+   "end": 7.1,
+   "type": "word"
+  },
+  {
+   "text": "situação",
+   "start": 7.1,
+   "end": 7.44,
+   "type": "word"
+  },
+  {
+   "text": "agora",
+   "start": 7.44,
+   "end": 7.72,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.72,
+   "end": 7.96,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 7.96,
+   "end": 8.06,
+   "type": "word"
+  },
+  {
+   "text": "tô",
+   "start": 8.06,
+   "end": 8.32,
+   "type": "word"
+  },
+  {
+   "text": "ajudando",
+   "start": 8.32,
+   "end": 8.68,
+   "type": "word"
+  },
+  {
+   "text": "numa",
+   "start": 8.68,
+   "end": 9.06,
+   "type": "word"
+  },
+  {
+   "text": "restructuração,",
+   "start": 9.06,
+   "end": 9.76,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 9.98,
+   "end": 10.08,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 10.08,
+   "end": 10.08,
+   "type": "word"
+  },
+  {
+   "text": "cara",
+   "start": 10.08,
+   "end": 10.24,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 10.24,
+   "end": 10.4,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 10.4,
+   "end": 10.58,
+   "type": "word"
+  },
+  {
+   "text": "grande",
+   "start": 10.58,
+   "end": 10.76,
+   "type": "word"
+  },
+  {
+   "text": "cliente",
+   "start": 10.76,
+   "end": 11.22,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 11.22,
+   "end": 11.36,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 11.36,
+   "end": 11.44,
+   "type": "word"
+  },
+  {
+   "text": "faturamento,",
+   "start": 11.44,
+   "end": 11.76,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 11.8,
+   "end": 11.94,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 11.94,
+   "end": 12.12,
+   "type": "word"
+  },
+  {
+   "text": "cliente",
+   "start": 12.12,
+   "end": 12.32,
+   "type": "word"
+  },
+  {
+   "text": "dava",
+   "start": 12.32,
+   "end": 12.48,
+   "type": "word"
+  },
+  {
+   "text": "quase",
+   "start": 12.48,
+   "end": 12.68,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 12.68,
+   "end": 12.82,
+   "type": "word"
+  },
+  {
+   "text": "milhão",
+   "start": 12.82,
+   "end": 12.88,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 12.88,
+   "end": 13.0,
+   "type": "word"
+  },
+  {
+   "text": "faturamento",
+   "start": 13.0,
+   "end": 13.32,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 13.32,
+   "end": 13.46,
+   "type": "word"
+  },
+  {
+   "text": "mês.",
+   "start": 13.46,
+   "end": 13.72,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 14.02,
+   "end": 14.14,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 14.14,
+   "end": 14.2,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 14.2,
+   "end": 14.42,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 14.42,
+   "end": 14.6,
+   "type": "word"
+  },
+  {
+   "text": "vivido",
+   "start": 14.6,
+   "end": 14.9,
+   "type": "word"
+  },
+  {
+   "text": "essa",
+   "start": 14.9,
+   "end": 15.02,
+   "type": "word"
+  },
+  {
+   "text": "história",
+   "start": 15.02,
+   "end": 15.26,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 15.26,
+   "end": 15.42,
+   "type": "word"
+  },
+  {
+   "text": "passado.",
+   "start": 15.42,
+   "end": 15.74,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 15.88,
+   "end": 16.02,
+   "type": "word"
+  },
+  {
+   "text": "falava,",
+   "start": 16.02,
+   "end": 16.22,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 16.24,
+   "end": 16.5,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 16.7,
+   "end": 16.86,
+   "type": "word"
+  },
+  {
+   "text": "precisa",
+   "start": 16.86,
+   "end": 17.16,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 17.16,
+   "end": 17.4,
+   "type": "word"
+  },
+  {
+   "text": "novos",
+   "start": 17.4,
+   "end": 17.62,
+   "type": "word"
+  },
+  {
+   "text": "clientes.",
+   "start": 17.62,
+   "end": 18.14,
+   "type": "word"
+  },
+  {
+   "text": "Mas",
+   "start": 18.32,
+   "end": 18.44,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 18.44,
+   "end": 18.52,
+   "type": "word"
+  },
+  {
+   "text": "cara",
+   "start": 18.52,
+   "end": 18.68,
+   "type": "word"
+  },
+  {
+   "text": "entra",
+   "start": 18.68,
+   "end": 18.88,
+   "type": "word"
+  },
+  {
+   "text": "numa",
+   "start": 18.88,
+   "end": 19.04,
+   "type": "word"
+  },
+  {
+   "text": "zona",
+   "start": 19.04,
+   "end": 19.24,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 19.24,
+   "end": 19.48,
+   "type": "word"
+  },
+  {
+   "text": "conforto,",
+   "start": 19.48,
+   "end": 19.96,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 20.08,
+   "end": 20.14,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 20.14,
+   "end": 20.24,
+   "type": "word"
+  },
+  {
+   "text": "cara",
+   "start": 20.24,
+   "end": 20.38,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 20.38,
+   "end": 20.46,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 20.46,
+   "end": 20.52,
+   "type": "word"
+  },
+  {
+   "text": "anunciei",
+   "start": 20.52,
+   "end": 20.74,
+   "type": "word"
+  },
+  {
+   "text": "seis",
+   "start": 20.74,
+   "end": 20.94,
+   "type": "word"
+  },
+  {
+   "text": "milhões",
+   "start": 20.94,
+   "end": 21.16,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 21.16,
+   "end": 21.38,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 21.38,
+   "end": 21.62,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 21.62,
+   "end": 21.78,
+   "type": "word"
+  },
+  {
+   "text": "fatura.",
+   "start": 21.78,
+   "end": 22.12,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 22.24,
+   "end": 22.4,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 22.4,
+   "end": 22.52,
+   "type": "word"
+  },
+  {
+   "text": "assim",
+   "start": 22.52,
+   "end": 22.66,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 22.66,
+   "end": 22.82,
+   "type": "word"
+  },
+  {
+   "text": "cara",
+   "start": 22.82,
+   "end": 23.08,
+   "type": "word"
+  },
+  {
+   "text": "conseguiu",
+   "start": 23.08,
+   "end": 23.54,
+   "type": "word"
+  },
+  {
+   "text": "estruturar",
+   "start": 23.54,
+   "end": 23.82,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 23.82,
+   "end": 23.92,
+   "type": "word"
+  },
+  {
+   "text": "negócio",
+   "start": 23.92,
+   "end": 24.02,
+   "type": "word"
+  },
+  {
+   "text": "dele.",
+   "start": 24.02,
+   "end": 24.2,
+   "type": "word"
+  },
+  {
+   "text": "Por",
+   "start": 24.48,
+   "end": 24.68,
+   "type": "word"
+  },
+  {
+   "text": "quê?",
+   "start": 24.68,
+   "end": 24.78,
+   "type": "word"
+  },
+  {
+   "text": "Gestão.",
+   "start": 24.88,
+   "end": 25.24,
+   "type": "word"
+  },
+  {
+   "text": "Gestão.",
+   "start": 25.38,
+   "end": 25.74,
+   "type": "word"
+  },
+  {
+   "text": "Aí",
+   "start": 25.82,
+   "end": 25.94,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 25.94,
+   "end": 26.1,
+   "type": "word"
+  },
+  {
+   "text": "dizer,",
+   "start": 26.1,
+   "end": 26.3,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 26.4,
+   "end": 26.6,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 26.6,
+   "end": 26.66,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 26.66,
+   "end": 26.76,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 26.76,
+   "end": 26.94,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 26.94,
+   "end": 27.0,
+   "type": "word"
+  },
+  {
+   "text": "usado",
+   "start": 27.0,
+   "end": 27.1,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 27.1,
+   "end": 27.2,
+   "type": "word"
+  },
+  {
+   "text": "Gilberto?",
+   "start": 27.2,
+   "end": 27.44,
+   "type": "word"
+  },
+  {
+   "text": "Porque",
+   "start": 27.54,
+   "end": 27.58,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 27.58,
+   "end": 27.74,
+   "type": "word"
+  },
+  {
+   "text": "quis.",
+   "start": 27.74,
+   "end": 27.96,
+   "type": "word"
+  },
+  {
+   "text": "Porque",
+   "start": 27.96,
+   "end": 28.28,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 28.28,
+   "end": 28.56,
+   "type": "word"
+  },
+  {
+   "text": "outros",
+   "start": 28.56,
+   "end": 28.8,
+   "type": "word"
+  },
+  {
+   "text": "assuntos,",
+   "start": 28.8,
+   "end": 29.18,
+   "type": "word"
+  },
+  {
+   "text": "sempre",
+   "start": 29.3,
+   "end": 29.4,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 29.4,
+   "end": 29.48,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 29.48,
+   "end": 29.6,
+   "type": "word"
+  },
+  {
+   "text": "me",
+   "start": 29.6,
+   "end": 29.76,
+   "type": "word"
+  },
+  {
+   "text": "pedia",
+   "start": 29.76,
+   "end": 29.96,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 29.96,
+   "end": 30.14,
+   "type": "word"
+  },
+  {
+   "text": "direção,",
+   "start": 30.14,
+   "end": 30.62,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 30.92,
+   "end": 31.02,
+   "type": "word"
+  },
+  {
+   "text": "ajudava.",
+   "start": 31.02,
+   "end": 31.44,
+   "type": "word"
+  },
+  {
+   "text": "Agora,",
+   "start": 31.62,
+   "end": 31.82,
+   "type": "word"
+  },
+  {
+   "text": "contratar",
+   "start": 31.98,
+   "end": 32.72,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 32.72,
+   "end": 33.16,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 33.16,
+   "end": 33.34,
+   "type": "word"
+  },
+  {
+   "text": "operacional",
+   "start": 33.34,
+   "end": 33.86,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 33.86,
+   "end": 34.04,
+   "type": "word"
+  },
+  {
+   "text": "estruturar,",
+   "start": 34.04,
+   "end": 34.4,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 34.52,
+   "end": 34.58,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 34.58,
+   "end": 34.72,
+   "type": "word"
+  },
+  {
+   "text": "fiz.",
+   "start": 34.72,
+   "end": 34.94,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 35.6,
+   "end": 35.78,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 35.78,
+   "end": 35.98,
+   "type": "word"
+  },
+  {
+   "text": "condição",
+   "start": 35.98,
+   "end": 36.24,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 36.24,
+   "end": 36.4,
+   "type": "word"
+  },
+  {
+   "text": "pagar.",
+   "start": 36.4,
+   "end": 36.58,
+   "type": "word"
+  },
+  {
+   "text": "Agora,",
+   "start": 36.78,
+   "end": 37.0,
+   "type": "word"
+  },
+  {
+   "text": "assim,",
+   "start": 37.72,
+   "end": 37.92,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 37.98,
+   "end": 38.04,
+   "type": "word"
+  },
+  {
+   "text": "viu",
+   "start": 38.04,
+   "end": 38.1,
+   "type": "word"
+  },
+  {
+   "text": "aquele",
+   "start": 38.1,
+   "end": 38.24,
+   "type": "word"
+  },
+  {
+   "text": "resultado?",
+   "start": 38.24,
+   "end": 38.5,
+   "type": "word"
+  },
+  {
+   "text": "Fazer",
+   "start": 38.86,
+   "end": 39.14,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 39.14,
+   "end": 39.28,
+   "type": "word"
+  },
+  {
+   "text": "telhado",
+   "start": 39.28,
+   "end": 39.96,
+   "type": "word"
+  },
+  {
+   "text": "bem",
+   "start": 39.96,
+   "end": 40.26,
+   "type": "word"
+  },
+  {
+   "text": "feito",
+   "start": 40.26,
+   "end": 40.44,
+   "type": "word"
+  },
+  {
+   "text": "fica",
+   "start": 40.44,
+   "end": 40.62,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 40.62,
+   "end": 40.8,
+   "type": "word"
+  },
+  {
+   "text": "barato",
+   "start": 40.8,
+   "end": 41.1,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 41.1,
+   "end": 41.28,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 41.28,
+   "end": 41.54,
+   "type": "word"
+  },
+  {
+   "text": "consertar",
+   "start": 41.54,
+   "end": 41.88,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 41.88,
+   "end": 42.02,
+   "type": "word"
+  },
+  {
+   "text": "depois.",
+   "start": 42.02,
+   "end": 42.24,
+   "type": "word"
+  },
+  {
+   "text": "Porque",
+   "start": 42.4,
+   "end": 42.48,
+   "type": "word"
+  },
+  {
+   "text": "depois",
+   "start": 42.48,
+   "end": 42.58,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 42.58,
+   "end": 42.68,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 42.68,
+   "end": 42.68,
+   "type": "word"
+  },
+  {
+   "text": "cara",
+   "start": 42.68,
+   "end": 42.82,
+   "type": "word"
+  },
+  {
+   "text": "pôs",
+   "start": 42.82,
+   "end": 42.94,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 42.94,
+   "end": 43.12,
+   "type": "word"
+  },
+  {
+   "text": "viga",
+   "start": 43.12,
+   "end": 43.24,
+   "type": "word"
+  },
+  {
+   "text": "errada,",
+   "start": 43.24,
+   "end": 43.62,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 43.74,
+   "end": 43.76,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 43.76,
+   "end": 43.76,
+   "type": "word"
+  },
+  {
+   "text": "cara",
+   "start": 43.76,
+   "end": 43.9,
+   "type": "word"
+  },
+  {
+   "text": "colocou",
+   "start": 43.9,
+   "end": 44.28,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 44.28,
+   "end": 44.46,
+   "type": "word"
+  },
+  {
+   "text": "tela",
+   "start": 44.46,
+   "end": 44.58,
+   "type": "word"
+  },
+  {
+   "text": "invertida,",
+   "start": 44.58,
+   "end": 45.02,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 45.1,
+   "end": 45.18,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 45.18,
+   "end": 45.3,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 45.3,
+   "end": 45.36,
+   "type": "word"
+  },
+  {
+   "text": "quebrar",
+   "start": 45.36,
+   "end": 45.6,
+   "type": "word"
+  },
+  {
+   "text": "tudo",
+   "start": 45.6,
+   "end": 45.78,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 45.78,
+   "end": 45.9,
+   "type": "word"
+  },
+  {
+   "text": "fazer",
+   "start": 45.9,
+   "end": 46.06,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 46.06,
+   "end": 46.2,
+   "type": "word"
+  },
+  {
+   "text": "novo.",
+   "start": 46.2,
+   "end": 46.3,
+   "type": "word"
+  },
+  {
+   "text": "E",
+   "start": 46.3,
+   "end": 46.42,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 46.42,
+   "end": 46.44,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 46.44,
+   "end": 46.44,
+   "type": "word"
+  },
+  {
+   "text": "mesma",
+   "start": 46.44,
+   "end": 46.54,
+   "type": "word"
+  },
+  {
+   "text": "coisa",
+   "start": 46.54,
+   "end": 46.7,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 46.7,
+   "end": 46.8,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 46.8,
+   "end": 46.8,
+   "type": "word"
+  },
+  {
+   "text": "empresa.",
+   "start": 46.8,
+   "end": 47.0,
+   "type": "word"
+  },
+  {
+   "text": "Se",
+   "start": 47.22,
+   "end": 47.34,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 47.34,
+   "end": 47.46,
+   "type": "word"
+  },
+  {
+   "text": "tivesse",
+   "start": 47.46,
+   "end": 47.66,
+   "type": "word"
+  },
+  {
+   "text": "contratado",
+   "start": 47.66,
+   "end": 48.5,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 48.5,
+   "end": 48.7,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 48.7,
+   "end": 48.82,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 48.82,
+   "end": 48.9,
+   "type": "word"
+  },
+  {
+   "text": "ecossistema",
+   "start": 48.9,
+   "end": 49.5,
+   "type": "word"
+  },
+  {
+   "text": "para",
+   "start": 49.5,
+   "end": 49.7,
+   "type": "word"
+  },
+  {
+   "text": "fazer",
+   "start": 49.7,
+   "end": 49.92,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 49.92,
+   "end": 50.04,
+   "type": "word"
+  },
+  {
+   "text": "gestão",
+   "start": 50.04,
+   "end": 50.34,
+   "type": "word"
+  },
+  {
+   "text": "dele,",
+   "start": 50.34,
+   "end": 50.52,
+   "type": "word"
+  },
+  {
+   "text": "organizar,",
+   "start": 50.62,
+   "end": 51.14,
+   "type": "word"
+  },
+  {
+   "text": "financeiro,",
+   "start": 51.22,
+   "end": 52.5,
+   "type": "word"
+  },
+  {
+   "text": "parte",
+   "start": 53.22,
+   "end": 53.42,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 53.42,
+   "end": 53.56,
+   "type": "word"
+  },
+  {
+   "text": "sistema,",
+   "start": 53.56,
+   "end": 53.94,
+   "type": "word"
+  },
+  {
+   "text": "hoje",
+   "start": 54.18,
+   "end": 54.5,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 54.5,
+   "end": 54.86,
+   "type": "word"
+  },
+  {
+   "text": "poderia",
+   "start": 54.86,
+   "end": 55.18,
+   "type": "word"
+  },
+  {
+   "text": "até",
+   "start": 55.18,
+   "end": 55.38,
+   "type": "word"
+  },
+  {
+   "text": "estar",
+   "start": 55.38,
+   "end": 55.44,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 55.44,
+   "end": 55.54,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 55.54,
+   "end": 55.74,
+   "type": "word"
+  },
+  {
+   "text": "teste",
+   "start": 55.74,
+   "end": 55.92,
+   "type": "word"
+  },
+  {
+   "text": "do",
+   "start": 55.92,
+   "end": 56.1,
+   "type": "word"
+  },
+  {
+   "text": "cliente,",
+   "start": 56.1,
+   "end": 56.54,
+   "type": "word"
+  },
+  {
+   "text": "mas",
+   "start": 56.54,
+   "end": 56.76,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 56.76,
+   "end": 56.88,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 56.88,
+   "end": 56.98,
+   "type": "word"
+  },
+  {
+   "text": "iria",
+   "start": 56.98,
+   "end": 57.1,
+   "type": "word"
+  },
+  {
+   "text": "quebrar.",
+   "start": 57.1,
+   "end": 57.3,
+   "type": "word"
+  }
+ ]
+}

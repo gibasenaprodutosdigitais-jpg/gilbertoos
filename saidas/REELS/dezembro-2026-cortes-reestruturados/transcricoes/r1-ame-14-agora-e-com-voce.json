@@ -1,0 +1,286 @@
+{
+ "words": [
+  {
+   "text": "Na",
+   "start": 0.0,
+   "end": 0.24,
+   "type": "word"
+  },
+  {
+   "text": "assessoria,",
+   "start": 0.24,
+   "end": 0.46,
+   "type": "word"
+  },
+  {
+   "text": "essa",
+   "start": 0.6,
+   "end": 0.68,
+   "type": "word"
+  },
+  {
+   "text": "frase",
+   "start": 0.68,
+   "end": 0.84,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 0.84,
+   "end": 1.02,
+   "type": "word"
+  },
+  {
+   "text": "existe,",
+   "start": 1.02,
+   "end": 1.26,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 1.44,
+   "end": 1.52,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 1.52,
+   "end": 1.64,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 1.64,
+   "end": 1.72,
+   "type": "word"
+  },
+  {
+   "text": "gente.",
+   "start": 1.72,
+   "end": 2.02,
+   "type": "word"
+  },
+  {
+   "text": "Tem",
+   "start": 2.7,
+   "end": 2.86,
+   "type": "word"
+  },
+  {
+   "text": "frase",
+   "start": 2.86,
+   "end": 3.32,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 3.32,
+   "end": 4.0,
+   "type": "word"
+  },
+  {
+   "text": "fecha",
+   "start": 4.0,
+   "end": 4.26,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 4.26,
+   "end": 4.4,
+   "type": "word"
+  },
+  {
+   "text": "toda",
+   "start": 4.4,
+   "end": 4.52,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 4.52,
+   "end": 4.68,
+   "type": "word"
+  },
+  {
+   "text": "mentoria.",
+   "start": 4.68,
+   "end": 4.9,
+   "type": "word"
+  },
+  {
+   "text": "Agora",
+   "start": 5.2,
+   "end": 5.36,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 5.36,
+   "end": 5.48,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 5.48,
+   "end": 5.6,
+   "type": "word"
+  },
+  {
+   "text": "você,",
+   "start": 5.6,
+   "end": 5.9,
+   "type": "word"
+  },
+  {
+   "text": "faça",
+   "start": 6.26,
+   "end": 6.44,
+   "type": "word"
+  },
+  {
+   "text": "sua",
+   "start": 6.44,
+   "end": 6.58,
+   "type": "word"
+  },
+  {
+   "text": "aplicação.",
+   "start": 6.58,
+   "end": 7.0,
+   "type": "word"
+  },
+  {
+   "text": "Na",
+   "start": 7.22,
+   "end": 7.32,
+   "type": "word"
+  },
+  {
+   "text": "assessoria,",
+   "start": 7.32,
+   "end": 7.6,
+   "type": "word"
+  },
+  {
+   "text": "essa",
+   "start": 7.78,
+   "end": 7.8,
+   "type": "word"
+  },
+  {
+   "text": "frase",
+   "start": 7.8,
+   "end": 7.98,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 7.98,
+   "end": 8.16,
+   "type": "word"
+  },
+  {
+   "text": "existe,",
+   "start": 8.16,
+   "end": 8.4,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 8.58,
+   "end": 8.66,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 8.66,
+   "end": 8.78,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 8.78,
+   "end": 8.86,
+   "type": "word"
+  },
+  {
+   "text": "gente.",
+   "start": 8.86,
+   "end": 9.12,
+   "type": "word"
+  },
+  {
+   "text": "Vamos",
+   "start": 9.38,
+   "end": 9.52,
+   "type": "word"
+  },
+  {
+   "text": "dar",
+   "start": 9.52,
+   "end": 9.8,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 9.8,
+   "end": 10.0,
+   "type": "word"
+  },
+  {
+   "text": "mão",
+   "start": 10.0,
+   "end": 10.14,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 10.14,
+   "end": 10.34,
+   "type": "word"
+  },
+  {
+   "text": "vamos",
+   "start": 10.34,
+   "end": 10.5,
+   "type": "word"
+  },
+  {
+   "text": "caminhar",
+   "start": 10.5,
+   "end": 10.92,
+   "type": "word"
+  },
+  {
+   "text": "junto.",
+   "start": 10.92,
+   "end": 11.22,
+   "type": "word"
+  },
+  {
+   "text": "Assessoria",
+   "start": 11.64,
+   "end": 12.0,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 12.0,
+   "end": 12.24,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 12.24,
+   "end": 12.34,
+   "type": "word"
+  },
+  {
+   "text": "mentoria.",
+   "start": 12.34,
+   "end": 12.64,
+   "type": "word"
+  }
+ ]
+}

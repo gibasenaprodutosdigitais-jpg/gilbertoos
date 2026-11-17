@@ -1,0 +1,982 @@
+{
+ "words": [
+  {
+   "text": "E",
+   "start": 0.0,
+   "end": 0.28,
+   "type": "word"
+  },
+  {
+   "text": "descobri",
+   "start": 0.28,
+   "end": 0.7,
+   "type": "word"
+  },
+  {
+   "text": "qual",
+   "start": 0.7,
+   "end": 0.88,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 0.88,
+   "end": 0.98,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 0.98,
+   "end": 1.02,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 1.02,
+   "end": 1.14,
+   "type": "word"
+  },
+  {
+   "text": "segredo,",
+   "start": 1.14,
+   "end": 1.36,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 1.38,
+   "end": 1.6,
+   "type": "word"
+  },
+  {
+   "text": "existiam",
+   "start": 1.6,
+   "end": 1.96,
+   "type": "word"
+  },
+  {
+   "text": "muitas",
+   "start": 1.96,
+   "end": 2.18,
+   "type": "word"
+  },
+  {
+   "text": "empresas",
+   "start": 2.18,
+   "end": 2.6,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 2.6,
+   "end": 2.96,
+   "type": "word"
+  },
+  {
+   "text": "contratavam",
+   "start": 2.96,
+   "end": 3.28,
+   "type": "word"
+  },
+  {
+   "text": "motoboys",
+   "start": 3.28,
+   "end": 3.74,
+   "type": "word"
+  },
+  {
+   "text": "naquela",
+   "start": 3.74,
+   "end": 4.04,
+   "type": "word"
+  },
+  {
+   "text": "época,",
+   "start": 4.04,
+   "end": 4.44,
+   "type": "word"
+  },
+  {
+   "text": "contratavam",
+   "start": 5.08,
+   "end": 5.42,
+   "type": "word"
+  },
+  {
+   "text": "viagens",
+   "start": 5.42,
+   "end": 5.76,
+   "type": "word"
+  },
+  {
+   "text": "express,",
+   "start": 5.76,
+   "end": 6.14,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 6.82,
+   "end": 7.02,
+   "type": "word"
+  },
+  {
+   "text": "tive",
+   "start": 7.02,
+   "end": 7.18,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 7.18,
+   "end": 7.28,
+   "type": "word"
+  },
+  {
+   "text": "mesma",
+   "start": 7.28,
+   "end": 7.5,
+   "type": "word"
+  },
+  {
+   "text": "ideia",
+   "start": 7.5,
+   "end": 7.8,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.8,
+   "end": 8.0,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 8.0,
+   "end": 8.1,
+   "type": "word"
+  },
+  {
+   "text": "Negu,",
+   "start": 8.1,
+   "end": 8.3,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 8.38,
+   "end": 8.54,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 8.54,
+   "end": 8.6,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 8.6,
+   "end": 8.68,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 8.68,
+   "end": 8.82,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 8.82,
+   "end": 8.92,
+   "type": "word"
+  },
+  {
+   "text": "moto.",
+   "start": 8.92,
+   "end": 9.26,
+   "type": "word"
+  },
+  {
+   "text": "Pedi",
+   "start": 9.7,
+   "end": 9.92,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 9.92,
+   "end": 10.06,
+   "type": "word"
+  },
+  {
+   "text": "pai",
+   "start": 10.06,
+   "end": 10.14,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 10.14,
+   "end": 10.3,
+   "type": "word"
+  },
+  {
+   "text": "minha",
+   "start": 10.3,
+   "end": 10.52,
+   "type": "word"
+  },
+  {
+   "text": "namorada",
+   "start": 10.52,
+   "end": 11.12,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 11.12,
+   "end": 11.26,
+   "type": "word"
+  },
+  {
+   "text": "época",
+   "start": 11.26,
+   "end": 11.7,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 11.7,
+   "end": 12.14,
+   "type": "word"
+  },
+  {
+   "text": "tirar",
+   "start": 12.14,
+   "end": 12.28,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 12.28,
+   "end": 12.4,
+   "type": "word"
+  },
+  {
+   "text": "moto",
+   "start": 12.4,
+   "end": 12.56,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 12.56,
+   "end": 12.72,
+   "type": "word"
+  },
+  {
+   "text": "mim.",
+   "start": 12.72,
+   "end": 12.98,
+   "type": "word"
+  },
+  {
+   "text": "Quando",
+   "start": 14.1,
+   "end": 14.34,
+   "type": "word"
+  },
+  {
+   "text": "chegou,",
+   "start": 14.34,
+   "end": 14.8,
+   "type": "word"
+  },
+  {
+   "text": "97,",
+   "start": 14.96,
+   "end": 15.66,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 16.0,
+   "end": 16.2,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 16.2,
+   "end": 16.38,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 16.38,
+   "end": 16.56,
+   "type": "word"
+  },
+  {
+   "text": "dois",
+   "start": 16.56,
+   "end": 16.86,
+   "type": "word"
+  },
+  {
+   "text": "anos",
+   "start": 16.86,
+   "end": 17.26,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 17.26,
+   "end": 17.58,
+   "type": "word"
+  },
+  {
+   "text": "motoboy",
+   "start": 17.58,
+   "end": 18.06,
+   "type": "word"
+  },
+  {
+   "text": "ali,",
+   "start": 18.06,
+   "end": 18.56,
+   "type": "word"
+  },
+  {
+   "text": "entendendo",
+   "start": 18.72,
+   "end": 19.48,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 19.48,
+   "end": 19.7,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 19.7,
+   "end": 19.84,
+   "type": "word"
+  },
+  {
+   "text": "processo.",
+   "start": 19.84,
+   "end": 20.16,
+   "type": "word"
+  },
+  {
+   "text": "Noventa",
+   "start": 20.5,
+   "end": 20.84,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 20.84,
+   "end": 20.84,
+   "type": "word"
+  },
+  {
+   "text": "sete",
+   "start": 20.84,
+   "end": 20.98,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 20.98,
+   "end": 21.08,
+   "type": "word"
+  },
+  {
+   "text": "tirou",
+   "start": 21.08,
+   "end": 21.26,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 21.26,
+   "end": 21.38,
+   "type": "word"
+  },
+  {
+   "text": "moto",
+   "start": 21.38,
+   "end": 21.58,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 21.58,
+   "end": 21.74,
+   "type": "word"
+  },
+  {
+   "text": "mim",
+   "start": 21.74,
+   "end": 21.8,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 21.8,
+   "end": 21.9,
+   "type": "word"
+  },
+  {
+   "text": "nome",
+   "start": 21.9,
+   "end": 22.06,
+   "type": "word"
+  },
+  {
+   "text": "dele.",
+   "start": 22.06,
+   "end": 22.32,
+   "type": "word"
+  },
+  {
+   "text": "Aí",
+   "start": 23.06,
+   "end": 23.2,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 23.2,
+   "end": 23.44,
+   "type": "word"
+  },
+  {
+   "text": "podia",
+   "start": 23.44,
+   "end": 23.6,
+   "type": "word"
+  },
+  {
+   "text": "ter",
+   "start": 23.6,
+   "end": 23.8,
+   "type": "word"
+  },
+  {
+   "text": "feito",
+   "start": 23.8,
+   "end": 23.98,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 23.98,
+   "end": 24.16,
+   "type": "word"
+  },
+  {
+   "text": "quê?",
+   "start": 24.16,
+   "end": 24.26,
+   "type": "word"
+  },
+  {
+   "text": "Ah,",
+   "start": 24.38,
+   "end": 24.54,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 24.54,
+   "end": 24.62,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 24.62,
+   "end": 24.74,
+   "type": "word"
+  },
+  {
+   "text": "pagar",
+   "start": 24.74,
+   "end": 24.92,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 24.92,
+   "end": 25.1,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 25.1,
+   "end": 25.16,
+   "type": "word"
+  },
+  {
+   "text": "aluguel,",
+   "start": 25.16,
+   "end": 25.4,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 25.48,
+   "end": 25.54,
+   "type": "word"
+  },
+  {
+   "text": "pagar",
+   "start": 25.54,
+   "end": 25.7,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 25.7,
+   "end": 25.84,
+   "type": "word"
+  },
+  {
+   "text": "prestação",
+   "start": 25.84,
+   "end": 26.18,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 26.18,
+   "end": 26.36,
+   "type": "word"
+  },
+  {
+   "text": "barata",
+   "start": 26.36,
+   "end": 26.84,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 26.84,
+   "end": 27.1,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 27.1,
+   "end": 27.26,
+   "type": "word"
+  },
+  {
+   "text": "ganhar",
+   "start": 27.26,
+   "end": 27.44,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 27.44,
+   "end": 27.62,
+   "type": "word"
+  },
+  {
+   "text": "dinheiro.",
+   "start": 27.62,
+   "end": 27.92,
+   "type": "word"
+  },
+  {
+   "text": "Não.",
+   "start": 28.18,
+   "end": 28.4,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 28.72,
+   "end": 28.9,
+   "type": "word"
+  },
+  {
+   "text": "peguei",
+   "start": 28.9,
+   "end": 29.08,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 29.08,
+   "end": 29.18,
+   "type": "word"
+  },
+  {
+   "text": "moto",
+   "start": 29.18,
+   "end": 29.36,
+   "type": "word"
+  },
+  {
+   "text": "dele,",
+   "start": 29.36,
+   "end": 29.66,
+   "type": "word"
+  },
+  {
+   "text": "aluguei",
+   "start": 29.66,
+   "end": 30.32,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 30.32,
+   "end": 30.42,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 30.42,
+   "end": 30.52,
+   "type": "word"
+  },
+  {
+   "text": "amigo.",
+   "start": 30.52,
+   "end": 30.82,
+   "type": "word"
+  },
+  {
+   "text": "Até",
+   "start": 31.16,
+   "end": 31.26,
+   "type": "word"
+  },
+  {
+   "text": "99",
+   "start": 31.26,
+   "end": 31.72,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 31.72,
+   "end": 32.12,
+   "type": "word"
+  },
+  {
+   "text": "tinha",
+   "start": 32.12,
+   "end": 32.36,
+   "type": "word"
+  },
+  {
+   "text": "comprado",
+   "start": 32.36,
+   "end": 32.66,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 32.66,
+   "end": 32.86,
+   "type": "word"
+  },
+  {
+   "text": "duas",
+   "start": 32.86,
+   "end": 33.14,
+   "type": "word"
+  },
+  {
+   "text": "motos.",
+   "start": 33.14,
+   "end": 33.86,
+   "type": "word"
+  },
+  {
+   "text": "Noventa",
+   "start": 34.02,
+   "end": 34.54,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 34.54,
+   "end": 34.58,
+   "type": "word"
+  },
+  {
+   "text": "nove",
+   "start": 34.58,
+   "end": 34.82,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 34.82,
+   "end": 35.1,
+   "type": "word"
+  },
+  {
+   "text": "estava",
+   "start": 35.1,
+   "end": 35.26,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 35.26,
+   "end": 35.44,
+   "type": "word"
+  },
+  {
+   "text": "três",
+   "start": 35.44,
+   "end": 35.7,
+   "type": "word"
+  },
+  {
+   "text": "motos",
+   "start": 35.7,
+   "end": 35.96,
+   "type": "word"
+  },
+  {
+   "text": "rodando",
+   "start": 35.96,
+   "end": 36.26,
+   "type": "word"
+  },
+  {
+   "text": "alugada,",
+   "start": 36.26,
+   "end": 36.74,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 36.84,
+   "end": 36.96,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 36.96,
+   "end": 37.16,
+   "type": "word"
+  },
+  {
+   "text": "tirava",
+   "start": 37.16,
+   "end": 37.54,
+   "type": "word"
+  },
+  {
+   "text": "folga",
+   "start": 37.54,
+   "end": 38.68,
+   "type": "word"
+  },
+  {
+   "text": "dos",
+   "start": 38.68,
+   "end": 38.88,
+   "type": "word"
+  },
+  {
+   "text": "motociclistas.",
+   "start": 38.88,
+   "end": 40.1,
+   "type": "word"
+  },
+  {
+   "text": "Até",
+   "start": 40.36,
+   "end": 40.52,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 40.52,
+   "end": 40.9,
+   "type": "word"
+  },
+  {
+   "text": "outros",
+   "start": 40.9,
+   "end": 41.2,
+   "type": "word"
+  },
+  {
+   "text": "motociclistas",
+   "start": 41.2,
+   "end": 41.88,
+   "type": "word"
+  },
+  {
+   "text": "também",
+   "start": 41.88,
+   "end": 42.06,
+   "type": "word"
+  },
+  {
+   "text": "resolveram",
+   "start": 42.06,
+   "end": 42.66,
+   "type": "word"
+  },
+  {
+   "text": "empreender,",
+   "start": 42.66,
+   "end": 43.08,
+   "type": "word"
+  },
+  {
+   "text": "intra",
+   "start": 43.38,
+   "end": 43.56,
+   "type": "word"
+  },
+  {
+   "text": "-empreender.",
+   "start": 43.56,
+   "end": 44.02,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 44.3,
+   "end": 44.44,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 44.44,
+   "end": 44.7,
+   "type": "word"
+  },
+  {
+   "text": "houve",
+   "start": 44.7,
+   "end": 45.04,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 45.04,
+   "end": 45.88,
+   "type": "word"
+  },
+  {
+   "text": "arrebatamento",
+   "start": 45.88,
+   "end": 46.34,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 46.34,
+   "end": 46.64,
+   "type": "word"
+  },
+  {
+   "text": "massa,",
+   "start": 46.64,
+   "end": 46.9,
+   "type": "word"
+  },
+  {
+   "text": "saiu",
+   "start": 47.12,
+   "end": 47.24,
+   "type": "word"
+  },
+  {
+   "text": "vários",
+   "start": 47.24,
+   "end": 47.52,
+   "type": "word"
+  },
+  {
+   "text": "motociclistas",
+   "start": 47.52,
+   "end": 48.64,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 48.64,
+   "end": 48.84,
+   "type": "word"
+  },
+  {
+   "text": "causa",
+   "start": 48.84,
+   "end": 48.98,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 48.98,
+   "end": 49.24,
+   "type": "word"
+  },
+  {
+   "text": "contratos",
+   "start": 49.24,
+   "end": 49.44,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 49.44,
+   "end": 49.56,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 49.56,
+   "end": 49.7,
+   "type": "word"
+  },
+  {
+   "text": "fechavam",
+   "start": 49.7,
+   "end": 49.92,
+   "type": "word"
+  },
+  {
+   "text": "direto,",
+   "start": 49.92,
+   "end": 50.34,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 50.5,
+   "end": 50.64,
+   "type": "word"
+  },
+  {
+   "text": "express",
+   "start": 50.64,
+   "end": 50.88,
+   "type": "word"
+  },
+  {
+   "text": "quebrou.",
+   "start": 50.88,
+   "end": 51.4,
+   "type": "word"
+  }
+ ]
+}

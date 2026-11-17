@@ -1,0 +1,1582 @@
+{
+ "words": [
+  {
+   "text": "Há",
+   "start": 0.0,
+   "end": 0.48,
+   "type": "word"
+  },
+  {
+   "text": "três",
+   "start": 0.48,
+   "end": 0.64,
+   "type": "word"
+  },
+  {
+   "text": "anos",
+   "start": 0.64,
+   "end": 0.84,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 0.84,
+   "end": 0.92,
+   "type": "word"
+  },
+  {
+   "text": "meia",
+   "start": 0.92,
+   "end": 1.06,
+   "type": "word"
+  },
+  {
+   "text": "atrás,",
+   "start": 1.06,
+   "end": 1.16,
+   "type": "word"
+  },
+  {
+   "text": "fizeram",
+   "start": 1.28,
+   "end": 1.44,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 1.44,
+   "end": 1.58,
+   "type": "word"
+  },
+  {
+   "text": "aposta",
+   "start": 1.58,
+   "end": 1.74,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 1.74,
+   "end": 1.84,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 1.84,
+   "end": 1.94,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 1.94,
+   "end": 1.94,
+   "type": "word"
+  },
+  {
+   "text": "ia",
+   "start": 1.94,
+   "end": 2.02,
+   "type": "word"
+  },
+  {
+   "text": "durar",
+   "start": 2.02,
+   "end": 2.28,
+   "type": "word"
+  },
+  {
+   "text": "seis",
+   "start": 2.28,
+   "end": 2.48,
+   "type": "word"
+  },
+  {
+   "text": "meses.",
+   "start": 2.48,
+   "end": 2.84,
+   "type": "word"
+  },
+  {
+   "text": "Pessoal,",
+   "start": 2.96,
+   "end": 3.18,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 3.28,
+   "end": 3.28,
+   "type": "word"
+  },
+  {
+   "text": "tenho",
+   "start": 3.28,
+   "end": 4.3,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 4.3,
+   "end": 4.48,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 4.48,
+   "end": 4.58,
+   "type": "word"
+  },
+  {
+   "text": "menos",
+   "start": 4.58,
+   "end": 4.68,
+   "type": "word"
+  },
+  {
+   "text": "uns",
+   "start": 4.68,
+   "end": 4.88,
+   "type": "word"
+  },
+  {
+   "text": "três",
+   "start": 4.88,
+   "end": 5.04,
+   "type": "word"
+  },
+  {
+   "text": "anos",
+   "start": 5.04,
+   "end": 5.22,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 5.22,
+   "end": 5.36,
+   "type": "word"
+  },
+  {
+   "text": "meio",
+   "start": 5.36,
+   "end": 5.56,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 5.56,
+   "end": 5.78,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 5.78,
+   "end": 5.86,
+   "type": "word"
+  },
+  {
+   "text": "cheguei",
+   "start": 5.86,
+   "end": 6.02,
+   "type": "word"
+  },
+  {
+   "text": "aqui",
+   "start": 6.02,
+   "end": 6.16,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 6.16,
+   "end": 6.18,
+   "type": "word"
+  },
+  {
+   "text": "Alphaville,",
+   "start": 6.18,
+   "end": 6.56,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 6.64,
+   "end": 6.84,
+   "type": "word"
+  },
+  {
+   "text": "nesse",
+   "start": 6.84,
+   "end": 6.96,
+   "type": "word"
+  },
+  {
+   "text": "período",
+   "start": 6.96,
+   "end": 7.3,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 7.3,
+   "end": 7.6,
+   "type": "word"
+  },
+  {
+   "text": "vi",
+   "start": 7.6,
+   "end": 8.1,
+   "type": "word"
+  },
+  {
+   "text": "muita",
+   "start": 8.1,
+   "end": 8.5,
+   "type": "word"
+  },
+  {
+   "text": "coisa",
+   "start": 8.5,
+   "end": 8.72,
+   "type": "word"
+  },
+  {
+   "text": "acontecer,",
+   "start": 8.72,
+   "end": 9.08,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 9.2,
+   "end": 9.24,
+   "type": "word"
+  },
+  {
+   "text": "vi",
+   "start": 9.24,
+   "end": 9.34,
+   "type": "word"
+  },
+  {
+   "text": "muita",
+   "start": 9.34,
+   "end": 9.56,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 9.56,
+   "end": 9.9,
+   "type": "word"
+  },
+  {
+   "text": "sendo",
+   "start": 9.9,
+   "end": 10.1,
+   "type": "word"
+  },
+  {
+   "text": "construída,",
+   "start": 10.1,
+   "end": 10.72,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 10.92,
+   "end": 10.94,
+   "type": "word"
+  },
+  {
+   "text": "vi",
+   "start": 10.94,
+   "end": 11.02,
+   "type": "word"
+  },
+  {
+   "text": "muita",
+   "start": 11.02,
+   "end": 11.2,
+   "type": "word"
+  },
+  {
+   "text": "empresa",
+   "start": 11.2,
+   "end": 11.42,
+   "type": "word"
+  },
+  {
+   "text": "sendo",
+   "start": 11.42,
+   "end": 11.6,
+   "type": "word"
+  },
+  {
+   "text": "destruída,",
+   "start": 11.6,
+   "end": 12.08,
+   "type": "word"
+  },
+  {
+   "text": "alguns",
+   "start": 12.28,
+   "end": 12.4,
+   "type": "word"
+  },
+  {
+   "text": "fizeram",
+   "start": 12.4,
+   "end": 12.7,
+   "type": "word"
+  },
+  {
+   "text": "fortunas,",
+   "start": 12.7,
+   "end": 13.3,
+   "type": "word"
+  },
+  {
+   "text": "outros",
+   "start": 13.5,
+   "end": 13.9,
+   "type": "word"
+  },
+  {
+   "text": "deram",
+   "start": 13.9,
+   "end": 14.34,
+   "type": "word"
+  },
+  {
+   "text": "cano",
+   "start": 14.34,
+   "end": 14.58,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 14.58,
+   "end": 14.68,
+   "type": "word"
+  },
+  {
+   "text": "mercado.",
+   "start": 14.68,
+   "end": 15.08,
+   "type": "word"
+  },
+  {
+   "text": "O",
+   "start": 15.4,
+   "end": 15.56,
+   "type": "word"
+  },
+  {
+   "text": "pilar",
+   "start": 15.56,
+   "end": 15.8,
+   "type": "word"
+  },
+  {
+   "text": "principal",
+   "start": 15.8,
+   "end": 16.16,
+   "type": "word"
+  },
+  {
+   "text": "disso",
+   "start": 16.16,
+   "end": 16.4,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 16.4,
+   "end": 16.72,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 16.72,
+   "end": 16.88,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 16.88,
+   "end": 17.44,
+   "type": "word"
+  },
+  {
+   "text": "todos",
+   "start": 17.44,
+   "end": 17.8,
+   "type": "word"
+  },
+  {
+   "text": "eles,",
+   "start": 17.8,
+   "end": 18.28,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 18.92,
+   "end": 18.92,
+   "type": "word"
+  },
+  {
+   "text": "determinado",
+   "start": 18.92,
+   "end": 19.34,
+   "type": "word"
+  },
+  {
+   "text": "momento,",
+   "start": 19.34,
+   "end": 19.76,
+   "type": "word"
+  },
+  {
+   "text": "pecaram,",
+   "start": 19.96,
+   "end": 20.22,
+   "type": "word"
+  },
+  {
+   "text": "pecaram",
+   "start": 20.22,
+   "end": 20.58,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 20.58,
+   "end": 20.68,
+   "type": "word"
+  },
+  {
+   "text": "sua",
+   "start": 20.68,
+   "end": 20.8,
+   "type": "word"
+  },
+  {
+   "text": "gestão.",
+   "start": 20.8,
+   "end": 21.16,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 21.52,
+   "end": 21.68,
+   "type": "word"
+  },
+  {
+   "text": "lembro",
+   "start": 21.68,
+   "end": 21.8,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 21.8,
+   "end": 21.92,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 21.92,
+   "end": 22.06,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 22.06,
+   "end": 22.2,
+   "type": "word"
+  },
+  {
+   "text": "vim",
+   "start": 22.2,
+   "end": 22.24,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 22.24,
+   "end": 22.46,
+   "type": "word"
+  },
+  {
+   "text": "cá,",
+   "start": 22.46,
+   "end": 22.9,
+   "type": "word"
+  },
+  {
+   "text": "fizeram",
+   "start": 23.14,
+   "end": 23.58,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 23.58,
+   "end": 23.78,
+   "type": "word"
+  },
+  {
+   "text": "aposta",
+   "start": 23.78,
+   "end": 24.42,
+   "type": "word"
+  },
+  {
+   "text": "há",
+   "start": 24.42,
+   "end": 25.22,
+   "type": "word"
+  },
+  {
+   "text": "três",
+   "start": 25.22,
+   "end": 25.38,
+   "type": "word"
+  },
+  {
+   "text": "anos",
+   "start": 25.38,
+   "end": 25.56,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 25.56,
+   "end": 25.62,
+   "type": "word"
+  },
+  {
+   "text": "meia",
+   "start": 25.62,
+   "end": 25.74,
+   "type": "word"
+  },
+  {
+   "text": "atrás,",
+   "start": 25.74,
+   "end": 25.88,
+   "type": "word"
+  },
+  {
+   "text": "fizeram",
+   "start": 25.96,
+   "end": 26.12,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 26.12,
+   "end": 26.3,
+   "type": "word"
+  },
+  {
+   "text": "aposta",
+   "start": 26.3,
+   "end": 26.46,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 26.46,
+   "end": 26.56,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 26.56,
+   "end": 26.66,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 26.66,
+   "end": 26.66,
+   "type": "word"
+  },
+  {
+   "text": "ia",
+   "start": 26.66,
+   "end": 26.74,
+   "type": "word"
+  },
+  {
+   "text": "durar",
+   "start": 26.74,
+   "end": 26.98,
+   "type": "word"
+  },
+  {
+   "text": "seis",
+   "start": 26.98,
+   "end": 27.22,
+   "type": "word"
+  },
+  {
+   "text": "meses,",
+   "start": 27.22,
+   "end": 27.58,
+   "type": "word"
+  },
+  {
+   "text": "porque",
+   "start": 27.64,
+   "end": 28.16,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 28.16,
+   "end": 28.36,
+   "type": "word"
+  },
+  {
+   "text": "mundo",
+   "start": 28.36,
+   "end": 28.5,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 28.5,
+   "end": 28.66,
+   "type": "word"
+  },
+  {
+   "text": "vinha",
+   "start": 28.66,
+   "end": 28.8,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 28.8,
+   "end": 28.92,
+   "type": "word"
+  },
+  {
+   "text": "Alphaville",
+   "start": 28.92,
+   "end": 29.34,
+   "type": "word"
+  },
+  {
+   "text": "vinha",
+   "start": 29.34,
+   "end": 29.64,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 29.64,
+   "end": 30.08,
+   "type": "word"
+  },
+  {
+   "text": "terceiras",
+   "start": 30.08,
+   "end": 30.52,
+   "type": "word"
+  },
+  {
+   "text": "intenções,",
+   "start": 30.52,
+   "end": 31.0,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 31.14,
+   "end": 31.22,
+   "type": "word"
+  },
+  {
+   "text": "dizer,",
+   "start": 31.22,
+   "end": 31.36,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 31.42,
+   "end": 31.52,
+   "type": "word"
+  },
+  {
+   "text": "terra",
+   "start": 31.52,
+   "end": 31.72,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 31.72,
+   "end": 31.92,
+   "type": "word"
+  },
+  {
+   "text": "emana",
+   "start": 31.92,
+   "end": 32.4,
+   "type": "word"
+  },
+  {
+   "text": "leite",
+   "start": 32.4,
+   "end": 32.82,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 32.82,
+   "end": 32.92,
+   "type": "word"
+  },
+  {
+   "text": "mel,",
+   "start": 32.92,
+   "end": 33.02,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 33.14,
+   "end": 33.24,
+   "type": "word"
+  },
+  {
+   "text": "terra",
+   "start": 33.24,
+   "end": 33.34,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 33.34,
+   "end": 33.56,
+   "type": "word"
+  },
+  {
+   "text": "prosperidade,",
+   "start": 33.56,
+   "end": 34.12,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 34.46,
+   "end": 34.64,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 34.64,
+   "end": 34.9,
+   "type": "word"
+  },
+  {
+   "text": "vendia",
+   "start": 34.9,
+   "end": 35.22,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 35.22,
+   "end": 35.36,
+   "type": "word"
+  },
+  {
+   "text": "internet,",
+   "start": 35.36,
+   "end": 35.7,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 35.92,
+   "end": 36.02,
+   "type": "word"
+  },
+  {
+   "text": "mundo",
+   "start": 36.02,
+   "end": 36.22,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 36.22,
+   "end": 36.4,
+   "type": "word"
+  },
+  {
+   "text": "chegava",
+   "start": 36.4,
+   "end": 36.6,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 36.6,
+   "end": 36.62,
+   "type": "word"
+  },
+  {
+   "text": "Alphaville",
+   "start": 36.62,
+   "end": 37.02,
+   "type": "word"
+  },
+  {
+   "text": "explodia,",
+   "start": 37.02,
+   "end": 37.68,
+   "type": "word"
+  },
+  {
+   "text": "andava",
+   "start": 37.74,
+   "end": 37.9,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 37.9,
+   "end": 38.1,
+   "type": "word"
+  },
+  {
+   "text": "Ferrari,",
+   "start": 38.1,
+   "end": 38.4,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 38.5,
+   "end": 38.7,
+   "type": "word"
+  },
+  {
+   "text": "Porsche,",
+   "start": 38.7,
+   "end": 38.84,
+   "type": "word"
+  },
+  {
+   "text": "morava",
+   "start": 38.94,
+   "end": 39.1,
+   "type": "word"
+  },
+  {
+   "text": "em",
+   "start": 39.1,
+   "end": 39.22,
+   "type": "word"
+  },
+  {
+   "text": "mansão,",
+   "start": 39.22,
+   "end": 39.64,
+   "type": "word"
+  },
+  {
+   "text": "mentira,",
+   "start": 39.86,
+   "end": 40.2,
+   "type": "word"
+  },
+  {
+   "text": "mentira.",
+   "start": 40.26,
+   "end": 40.72,
+   "type": "word"
+  },
+  {
+   "text": "Dessa",
+   "start": 40.82,
+   "end": 41.12,
+   "type": "word"
+  },
+  {
+   "text": "turma,",
+   "start": 41.12,
+   "end": 41.4,
+   "type": "word"
+  },
+  {
+   "text": "99",
+   "start": 41.44,
+   "end": 41.84,
+   "type": "word"
+  },
+  {
+   "text": "%",
+   "start": 41.84,
+   "end": 42.34,
+   "type": "word"
+  },
+  {
+   "text": "eram",
+   "start": 42.34,
+   "end": 42.5,
+   "type": "word"
+  },
+  {
+   "text": "famílias,",
+   "start": 42.5,
+   "end": 43.28,
+   "type": "word"
+  },
+  {
+   "text": "eram",
+   "start": 43.42,
+   "end": 43.5,
+   "type": "word"
+  },
+  {
+   "text": "pessoas",
+   "start": 43.5,
+   "end": 43.82,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 43.82,
+   "end": 44.2,
+   "type": "word"
+  },
+  {
+   "text": "alugavam",
+   "start": 44.2,
+   "end": 44.66,
+   "type": "word"
+  },
+  {
+   "text": "mansões",
+   "start": 44.66,
+   "end": 45.3,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 45.3,
+   "end": 45.52,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 45.52,
+   "end": 45.7,
+   "type": "word"
+  },
+  {
+   "text": "pagavam,",
+   "start": 45.7,
+   "end": 46.14,
+   "type": "word"
+  },
+  {
+   "text": "alugavam",
+   "start": 46.8,
+   "end": 47.2,
+   "type": "word"
+  },
+  {
+   "text": "carros",
+   "start": 47.2,
+   "end": 47.6,
+   "type": "word"
+  },
+  {
+   "text": "compartilhados",
+   "start": 47.6,
+   "end": 48.4,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 48.4,
+   "end": 48.56,
+   "type": "word"
+  },
+  {
+   "text": "poder",
+   "start": 48.56,
+   "end": 48.96,
+   "type": "word"
+  },
+  {
+   "text": "vender",
+   "start": 48.96,
+   "end": 49.36,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 49.36,
+   "end": 49.94,
+   "type": "word"
+  },
+  {
+   "text": "vida",
+   "start": 49.94,
+   "end": 50.14,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 50.14,
+   "end": 50.38,
+   "type": "word"
+  },
+  {
+   "text": "prosperidade",
+   "start": 50.38,
+   "end": 50.9,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 50.9,
+   "end": 51.28,
+   "type": "word"
+  },
+  {
+   "text": "era",
+   "start": 51.28,
+   "end": 51.48,
+   "type": "word"
+  },
+  {
+   "text": "nada",
+   "start": 51.48,
+   "end": 51.64,
+   "type": "word"
+  },
+  {
+   "text": "mais,",
+   "start": 51.64,
+   "end": 51.8,
+   "type": "word"
+  },
+  {
+   "text": "nada",
+   "start": 51.8,
+   "end": 52.72,
+   "type": "word"
+  },
+  {
+   "text": "menos",
+   "start": 52.72,
+   "end": 52.86,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 52.86,
+   "end": 53.0,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 53.0,
+   "end": 53.12,
+   "type": "word"
+  },
+  {
+   "text": "seu",
+   "start": 53.12,
+   "end": 53.24,
+   "type": "word"
+  },
+  {
+   "text": "alter",
+   "start": 53.24,
+   "end": 53.44,
+   "type": "word"
+  },
+  {
+   "text": "ego,",
+   "start": 53.44,
+   "end": 53.64,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 53.8,
+   "end": 53.98,
+   "type": "word"
+  },
+  {
+   "text": "ego",
+   "start": 53.98,
+   "end": 54.26,
+   "type": "word"
+  },
+  {
+   "text": "destruiu",
+   "start": 54.26,
+   "end": 54.84,
+   "type": "word"
+  },
+  {
+   "text": "90",
+   "start": 54.84,
+   "end": 55.16,
+   "type": "word"
+  },
+  {
+   "text": "%",
+   "start": 55.16,
+   "end": 55.42,
+   "type": "word"
+  },
+  {
+   "text": "dessas",
+   "start": 55.42,
+   "end": 55.62,
+   "type": "word"
+  },
+  {
+   "text": "pessoas,",
+   "start": 55.62,
+   "end": 56.0,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 56.0,
+   "end": 56.52,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 56.52,
+   "end": 56.62,
+   "type": "word"
+  },
+  {
+   "text": "pedir",
+   "start": 56.62,
+   "end": 56.86,
+   "type": "word"
+  },
+  {
+   "text": "ajuda,",
+   "start": 56.86,
+   "end": 57.24,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 57.52,
+   "end": 57.6,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 57.6,
+   "end": 57.96,
+   "type": "word"
+  },
+  {
+   "text": "buscar",
+   "start": 57.96,
+   "end": 58.52,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 58.52,
+   "end": 59.5,
+   "type": "word"
+  },
+  {
+   "text": "pessoa",
+   "start": 59.5,
+   "end": 59.9,
+   "type": "word"
+  },
+  {
+   "text": "especializada",
+   "start": 59.9,
+   "end": 60.54,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 60.54,
+   "end": 60.72,
+   "type": "word"
+  },
+  {
+   "text": "ajudar,",
+   "start": 60.72,
+   "end": 60.98,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 61.26,
+   "end": 61.46,
+   "type": "word"
+  },
+  {
+   "text": "querer",
+   "start": 61.46,
+   "end": 61.86,
+   "type": "word"
+  },
+  {
+   "text": "ter",
+   "start": 61.86,
+   "end": 62.46,
+   "type": "word"
+  },
+  {
+   "text": "ao",
+   "start": 62.46,
+   "end": 62.76,
+   "type": "word"
+  },
+  {
+   "text": "invés",
+   "start": 62.76,
+   "end": 62.92,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 62.92,
+   "end": 63.1,
+   "type": "word"
+  },
+  {
+   "text": "ser.",
+   "start": 63.1,
+   "end": 63.22,
+   "type": "word"
+  },
+  {
+   "text": "Isso",
+   "start": 63.42,
+   "end": 63.48,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 63.48,
+   "end": 63.62,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 63.62,
+   "end": 63.74,
+   "type": "word"
+  },
+  {
+   "text": "frase",
+   "start": 63.74,
+   "end": 64.16,
+   "type": "word"
+  },
+  {
+   "text": "clichê",
+   "start": 64.16,
+   "end": 64.72,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 64.72,
+   "end": 65.0,
+   "type": "word"
+  },
+  {
+   "text": "muita",
+   "start": 65.0,
+   "end": 65.12,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 65.12,
+   "end": 65.36,
+   "type": "word"
+  },
+  {
+   "text": "usa,",
+   "start": 65.36,
+   "end": 65.6,
+   "type": "word"
+  },
+  {
+   "text": "mas",
+   "start": 65.76,
+   "end": 65.96,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 65.96,
+   "end": 66.12,
+   "type": "word"
+  },
+  {
+   "text": "vida",
+   "start": 66.12,
+   "end": 66.26,
+   "type": "word"
+  },
+  {
+   "text": "real",
+   "start": 66.26,
+   "end": 66.62,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 66.62,
+   "end": 67.28,
+   "type": "word"
+  },
+  {
+   "text": "tudo",
+   "start": 67.28,
+   "end": 67.44,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 67.44,
+   "end": 67.52,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 67.52,
+   "end": 67.64,
+   "type": "word"
+  },
+  {
+   "text": "importa.",
+   "start": 67.64,
+   "end": 67.9,
+   "type": "word"
+  },
+  {
+   "text": "Se",
+   "start": 68.08,
+   "end": 68.16,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 68.16,
+   "end": 68.76,
+   "type": "word"
+  },
+  {
+   "text": "buscar",
+   "start": 68.76,
+   "end": 69.24,
+   "type": "word"
+  },
+  {
+   "text": "autoconhecimento",
+   "start": 69.24,
+   "end": 70.1,
+   "type": "word"
+  },
+  {
+   "text": "ser",
+   "start": 70.1,
+   "end": 70.48,
+   "type": "word"
+  },
+  {
+   "text": "antes",
+   "start": 70.48,
+   "end": 70.78,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 70.78,
+   "end": 70.96,
+   "type": "word"
+  },
+  {
+   "text": "ter,",
+   "start": 70.96,
+   "end": 71.18,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 71.42,
+   "end": 71.58,
+   "type": "word"
+  },
+  {
+   "text": "certeza",
+   "start": 71.58,
+   "end": 71.84,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 71.84,
+   "end": 71.98,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 71.98,
+   "end": 72.08,
+   "type": "word"
+  },
+  {
+   "text": "ter",
+   "start": 72.08,
+   "end": 72.18,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 72.18,
+   "end": 72.28,
+   "type": "word"
+  },
+  {
+   "text": "base",
+   "start": 72.28,
+   "end": 72.48,
+   "type": "word"
+  },
+  {
+   "text": "sólida",
+   "start": 72.48,
+   "end": 72.84,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 72.84,
+   "end": 73.04,
+   "type": "word"
+  },
+  {
+   "text": "qualquer",
+   "start": 73.04,
+   "end": 73.22,
+   "type": "word"
+  },
+  {
+   "text": "tipo",
+   "start": 73.22,
+   "end": 73.52,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 73.52,
+   "end": 73.96,
+   "type": "word"
+  },
+  {
+   "text": "adversidade",
+   "start": 73.96,
+   "end": 74.38,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 74.38,
+   "end": 74.52,
+   "type": "word"
+  },
+  {
+   "text": "vier.",
+   "start": 74.52,
+   "end": 74.64,
+   "type": "word"
+  },
+  {
+   "text": "Caso",
+   "start": 74.84,
+   "end": 75.1,
+   "type": "word"
+  },
+  {
+   "text": "contrário,",
+   "start": 75.1,
+   "end": 75.48,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 75.64,
+   "end": 75.68,
+   "type": "word"
+  },
+  {
+   "text": "acontecer",
+   "start": 75.68,
+   "end": 76.04,
+   "type": "word"
+  },
+  {
+   "text": "igual",
+   "start": 76.04,
+   "end": 76.2,
+   "type": "word"
+  },
+  {
+   "text": "aconteceu",
+   "start": 76.2,
+   "end": 76.54,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 76.54,
+   "end": 76.66,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 76.66,
+   "end": 76.76,
+   "type": "word"
+  },
+  {
+   "text": "alphavillies",
+   "start": 76.76,
+   "end": 77.18,
+   "type": "word"
+  },
+  {
+   "text": "aí.",
+   "start": 77.18,
+   "end": 77.32,
+   "type": "word"
+  }
+ ]
+}

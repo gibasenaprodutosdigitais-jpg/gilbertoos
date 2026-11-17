@@ -1,0 +1,502 @@
+{
+ "words": [
+  {
+   "text": "Ou",
+   "start": 0.0,
+   "end": 0.24,
+   "type": "word"
+  },
+  {
+   "text": "seja,",
+   "start": 0.24,
+   "end": 0.66,
+   "type": "word"
+  },
+  {
+   "text": "vocês,",
+   "start": 1.44,
+   "end": 1.44,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 1.86,
+   "end": 2.04,
+   "type": "word"
+  },
+  {
+   "text": "eu,",
+   "start": 2.04,
+   "end": 2.36,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 2.52,
+   "end": 2.58,
+   "type": "word"
+  },
+  {
+   "text": "somos",
+   "start": 2.58,
+   "end": 2.74,
+   "type": "word"
+  },
+  {
+   "text": "pequenos",
+   "start": 2.74,
+   "end": 3.22,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 3.22,
+   "end": 3.36,
+   "type": "word"
+  },
+  {
+   "text": "médios",
+   "start": 3.36,
+   "end": 3.58,
+   "type": "word"
+  },
+  {
+   "text": "empresários,",
+   "start": 3.58,
+   "end": 4.16,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 4.38,
+   "end": 4.44,
+   "type": "word"
+  },
+  {
+   "text": "gente",
+   "start": 4.44,
+   "end": 4.62,
+   "type": "word"
+  },
+  {
+   "text": "trabalha",
+   "start": 4.62,
+   "end": 4.96,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 4.96,
+   "end": 5.12,
+   "type": "word"
+  },
+  {
+   "text": "fluxo",
+   "start": 5.12,
+   "end": 5.42,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 5.42,
+   "end": 5.52,
+   "type": "word"
+  },
+  {
+   "text": "caixa",
+   "start": 5.52,
+   "end": 5.7,
+   "type": "word"
+  },
+  {
+   "text": "apertado.",
+   "start": 5.7,
+   "end": 6.18,
+   "type": "word"
+  },
+  {
+   "text": "Na",
+   "start": 6.34,
+   "end": 6.38,
+   "type": "word"
+  },
+  {
+   "text": "verdade,",
+   "start": 6.38,
+   "end": 6.8,
+   "type": "word"
+  },
+  {
+   "text": "90",
+   "start": 7.12,
+   "end": 7.16,
+   "type": "word"
+  },
+  {
+   "text": "%",
+   "start": 7.16,
+   "end": 7.48,
+   "type": "word"
+  },
+  {
+   "text": "desses",
+   "start": 7.48,
+   "end": 8.34,
+   "type": "word"
+  },
+  {
+   "text": "pequenos",
+   "start": 8.34,
+   "end": 8.84,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 8.84,
+   "end": 8.86,
+   "type": "word"
+  },
+  {
+   "text": "médios",
+   "start": 8.86,
+   "end": 9.04,
+   "type": "word"
+  },
+  {
+   "text": "empresários",
+   "start": 9.04,
+   "end": 9.3,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 9.3,
+   "end": 9.44,
+   "type": "word"
+  },
+  {
+   "text": "sabem",
+   "start": 9.44,
+   "end": 9.56,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 9.56,
+   "end": 9.68,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 9.68,
+   "end": 9.78,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 9.78,
+   "end": 9.78,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 9.78,
+   "end": 9.84,
+   "type": "word"
+  },
+  {
+   "text": "fluxo",
+   "start": 9.84,
+   "end": 10.12,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 10.12,
+   "end": 10.24,
+   "type": "word"
+  },
+  {
+   "text": "caixa,",
+   "start": 10.24,
+   "end": 10.44,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 10.68,
+   "end": 10.72,
+   "type": "word"
+  },
+  {
+   "text": "sabem",
+   "start": 10.72,
+   "end": 10.98,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 10.98,
+   "end": 11.2,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 11.2,
+   "end": 11.3,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 11.3,
+   "end": 11.48,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 11.48,
+   "end": 11.6,
+   "type": "word"
+  },
+  {
+   "text": "capital",
+   "start": 11.6,
+   "end": 11.98,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 11.98,
+   "end": 12.28,
+   "type": "word"
+  },
+  {
+   "text": "giro,",
+   "start": 12.28,
+   "end": 12.46,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 12.6,
+   "end": 12.7,
+   "type": "word"
+  },
+  {
+   "text": "sabem",
+   "start": 12.7,
+   "end": 12.86,
+   "type": "word"
+  },
+  {
+   "text": "distinguir,",
+   "start": 12.86,
+   "end": 13.52,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 13.64,
+   "end": 13.78,
+   "type": "word"
+  },
+  {
+   "text": "tiveram",
+   "start": 13.78,
+   "end": 14.22,
+   "type": "word"
+  },
+  {
+   "text": "educação",
+   "start": 14.22,
+   "end": 14.78,
+   "type": "word"
+  },
+  {
+   "text": "financeira,",
+   "start": 14.78,
+   "end": 15.26,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 15.36,
+   "end": 15.38,
+   "type": "word"
+  },
+  {
+   "text": "tiveram",
+   "start": 15.38,
+   "end": 15.7,
+   "type": "word"
+  },
+  {
+   "text": "educação",
+   "start": 15.7,
+   "end": 16.1,
+   "type": "word"
+  },
+  {
+   "text": "empreendedora",
+   "start": 16.1,
+   "end": 16.6,
+   "type": "word"
+  },
+  {
+   "text": "na",
+   "start": 16.6,
+   "end": 16.84,
+   "type": "word"
+  },
+  {
+   "text": "escola",
+   "start": 16.84,
+   "end": 17.22,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 17.22,
+   "end": 17.74,
+   "type": "word"
+  },
+  {
+   "text": "são",
+   "start": 17.74,
+   "end": 18.32,
+   "type": "word"
+  },
+  {
+   "text": "empreendedores",
+   "start": 18.32,
+   "end": 18.74,
+   "type": "word"
+  },
+  {
+   "text": "por",
+   "start": 18.74,
+   "end": 18.94,
+   "type": "word"
+  },
+  {
+   "text": "necessidade,",
+   "start": 18.94,
+   "end": 19.5,
+   "type": "word"
+  },
+  {
+   "text": "são",
+   "start": 19.58,
+   "end": 19.66,
+   "type": "word"
+  },
+  {
+   "text": "empreendedores",
+   "start": 19.66,
+   "end": 20.14,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 20.14,
+   "end": 20.56,
+   "type": "word"
+  },
+  {
+   "text": "precisam",
+   "start": 20.56,
+   "end": 21.12,
+   "type": "word"
+  },
+  {
+   "text": "daquilo",
+   "start": 21.12,
+   "end": 21.54,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 21.54,
+   "end": 21.72,
+   "type": "word"
+  },
+  {
+   "text": "poder",
+   "start": 21.72,
+   "end": 21.94,
+   "type": "word"
+  },
+  {
+   "text": "sustentar",
+   "start": 21.94,
+   "end": 22.3,
+   "type": "word"
+  },
+  {
+   "text": "suas",
+   "start": 22.3,
+   "end": 22.58,
+   "type": "word"
+  },
+  {
+   "text": "famílias.",
+   "start": 23.14,
+   "end": 23.6,
+   "type": "word"
+  },
+  {
+   "text": "Eu",
+   "start": 23.6,
+   "end": 23.92,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 23.92,
+   "end": 24.04,
+   "type": "word"
+  },
+  {
+   "text": "tô",
+   "start": 24.04,
+   "end": 24.2,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 24.2,
+   "end": 24.42,
+   "type": "word"
+  },
+  {
+   "text": "nem",
+   "start": 24.42,
+   "end": 24.7,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 24.7,
+   "end": 25.64,
+   "type": "word"
+  },
+  {
+   "text": "luxo,",
+   "start": 25.64,
+   "end": 26.28,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 26.42,
+   "end": 26.64,
+   "type": "word"
+  },
+  {
+   "text": "status...",
+   "start": 26.64,
+   "end": 27.66,
+   "type": "word"
+  }
+ ]
+}

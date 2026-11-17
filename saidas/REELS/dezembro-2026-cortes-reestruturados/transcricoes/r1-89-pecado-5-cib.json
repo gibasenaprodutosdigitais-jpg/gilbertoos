@@ -1,0 +1,244 @@
+{
+ "words": [
+  {
+   "text": "O",
+   "start": 0.0,
+   "end": 0.28,
+   "type": "word"
+  },
+  {
+   "text": "SIB",
+   "start": 0.28,
+   "end": 0.6,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 0.6,
+   "end": 0.82,
+   "type": "word"
+  },
+  {
+   "text": "mais",
+   "start": 0.82,
+   "end": 1.08,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 1.08,
+   "end": 1.28,
+   "type": "word"
+  },
+  {
+   "text": "pecado",
+   "start": 1.28,
+   "end": 1.62,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 1.62,
+   "end": 1.76,
+   "type": "word"
+  },
+  {
+   "text": "vem",
+   "start": 1.76,
+   "end": 1.92,
+   "type": "word"
+  },
+  {
+   "text": "aí",
+   "start": 1.92,
+   "end": 2.32,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 2.32,
+   "end": 3.64,
+   "type": "word"
+  },
+  {
+   "text": "regularizar",
+   "start": 3.83,
+   "end": 4.67,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 4.67,
+   "end": 5.31,
+   "type": "word"
+  },
+  {
+   "text": "mercado",
+   "start": 5.31,
+   "end": 5.69,
+   "type": "word"
+  },
+  {
+   "text": "imobiliário.",
+   "start": 5.69,
+   "end": 6.29,
+   "type": "word"
+  },
+  {
+   "text": "Você",
+   "start": 6.45,
+   "end": 6.61,
+   "type": "word"
+  },
+  {
+   "text": "pagou",
+   "start": 6.61,
+   "end": 6.85,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 6.85,
+   "end": 6.99,
+   "type": "word"
+  },
+  {
+   "text": "imposto",
+   "start": 6.99,
+   "end": 7.29,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 7.29,
+   "end": 7.51,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 7.51,
+   "end": 7.83,
+   "type": "word"
+  },
+  {
+   "text": "comprou,",
+   "start": 7.83,
+   "end": 7.99,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 8.15,
+   "end": 8.23,
+   "type": "word"
+  },
+  {
+   "text": "pagou",
+   "start": 8.23,
+   "end": 8.41,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 8.41,
+   "end": 8.53,
+   "type": "word"
+  },
+  {
+   "text": "imposto",
+   "start": 8.53,
+   "end": 8.73,
+   "type": "word"
+  },
+  {
+   "text": "quando",
+   "start": 8.73,
+   "end": 8.89,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 8.89,
+   "end": 9.13,
+   "type": "word"
+  },
+  {
+   "text": "vendeu",
+   "start": 9.13,
+   "end": 9.27,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 9.27,
+   "end": 9.39,
+   "type": "word"
+  },
+  {
+   "text": "agora",
+   "start": 9.39,
+   "end": 9.51,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 9.51,
+   "end": 9.67,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 9.67,
+   "end": 9.83,
+   "type": "word"
+  },
+  {
+   "text": "pagar",
+   "start": 9.83,
+   "end": 9.93,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 9.93,
+   "end": 10.11,
+   "type": "word"
+  },
+  {
+   "text": "imposto.",
+   "start": 10.11,
+   "end": 10.49,
+   "type": "word"
+  },
+  {
+   "text": "Gente,",
+   "start": 10.65,
+   "end": 11.01,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 11.49,
+   "end": 11.55,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 11.55,
+   "end": 11.67,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 11.67,
+   "end": 11.81,
+   "type": "word"
+  },
+  {
+   "text": "pecado?",
+   "start": 11.81,
+   "end": 12.07,
+   "type": "word"
+  }
+ ]
+}

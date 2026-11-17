@@ -1,0 +1,1126 @@
+{
+ "words": [
+  {
+   "text": "Você",
+   "start": 0.0,
+   "end": 0.16,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 0.16,
+   "end": 0.3,
+   "type": "word"
+  },
+  {
+   "text": "empreender,",
+   "start": 0.3,
+   "end": 0.68,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 0.78,
+   "end": 0.82,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 0.82,
+   "end": 0.94,
+   "type": "word"
+  },
+  {
+   "text": "montar",
+   "start": 0.94,
+   "end": 1.18,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 1.18,
+   "end": 1.32,
+   "type": "word"
+  },
+  {
+   "text": "negócio",
+   "start": 1.32,
+   "end": 1.56,
+   "type": "word"
+  },
+  {
+   "text": "hoje,",
+   "start": 1.56,
+   "end": 1.98,
+   "type": "word"
+  },
+  {
+   "text": "99",
+   "start": 2.34,
+   "end": 2.56,
+   "type": "word"
+  },
+  {
+   "text": "%",
+   "start": 2.56,
+   "end": 3.02,
+   "type": "word"
+  },
+  {
+   "text": "começa",
+   "start": 3.02,
+   "end": 3.34,
+   "type": "word"
+  },
+  {
+   "text": "pelo",
+   "start": 3.34,
+   "end": 3.54,
+   "type": "word"
+  },
+  {
+   "text": "CNPJ,",
+   "start": 3.54,
+   "end": 4.78,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 5.01,
+   "end": 5.09,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 5.09,
+   "end": 5.21,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 5.21,
+   "end": 5.41,
+   "type": "word"
+  },
+  {
+   "text": "pesquisa",
+   "start": 5.41,
+   "end": 5.69,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 5.69,
+   "end": 5.85,
+   "type": "word"
+  },
+  {
+   "text": "mercado,",
+   "start": 5.85,
+   "end": 6.37,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 6.75,
+   "end": 6.75,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 6.75,
+   "end": 6.97,
+   "type": "word"
+  },
+  {
+   "text": "uma,",
+   "start": 6.97,
+   "end": 7.27,
+   "type": "word"
+  },
+  {
+   "text": "sabe,",
+   "start": 7.27,
+   "end": 7.49,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 7.61,
+   "end": 7.73,
+   "type": "word"
+  },
+  {
+   "text": "faz",
+   "start": 7.73,
+   "end": 7.91,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 7.91,
+   "end": 8.21,
+   "type": "word"
+  },
+  {
+   "text": "análise",
+   "start": 8.21,
+   "end": 8.79,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 8.79,
+   "end": 9.61,
+   "type": "word"
+  },
+  {
+   "text": "região",
+   "start": 9.61,
+   "end": 9.97,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 9.97,
+   "end": 10.11,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 10.11,
+   "end": 10.23,
+   "type": "word"
+  },
+  {
+   "text": "montar",
+   "start": 10.23,
+   "end": 10.47,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 10.47,
+   "end": 10.67,
+   "type": "word"
+  },
+  {
+   "text": "negócio.",
+   "start": 10.67,
+   "end": 11.17,
+   "type": "word"
+  },
+  {
+   "text": "Ah,",
+   "start": 11.47,
+   "end": 11.65,
+   "type": "word"
+  },
+  {
+   "text": "tá",
+   "start": 11.67,
+   "end": 11.91,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 11.91,
+   "end": 12.11,
+   "type": "word"
+  },
+  {
+   "text": "mundo",
+   "start": 12.11,
+   "end": 12.63,
+   "type": "word"
+  },
+  {
+   "text": "bombando",
+   "start": 12.63,
+   "end": 13.37,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 13.37,
+   "end": 13.57,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 13.57,
+   "end": 13.65,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 13.65,
+   "end": 13.81,
+   "type": "word"
+  },
+  {
+   "text": "-commerce,",
+   "start": 13.81,
+   "end": 13.99,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 14.05,
+   "end": 14.17,
+   "type": "word"
+  },
+  {
+   "text": "vou",
+   "start": 14.17,
+   "end": 14.27,
+   "type": "word"
+  },
+  {
+   "text": "montar",
+   "start": 14.27,
+   "end": 14.51,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 14.51,
+   "end": 14.65,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 14.65,
+   "end": 14.85,
+   "type": "word"
+  },
+  {
+   "text": "-commerce,",
+   "start": 14.85,
+   "end": 14.93,
+   "type": "word"
+  },
+  {
+   "text": "cara,",
+   "start": 15.11,
+   "end": 15.31,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 15.55,
+   "end": 15.71,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 15.71,
+   "end": 15.97,
+   "type": "word"
+  },
+  {
+   "text": "fácil,",
+   "start": 15.97,
+   "end": 16.29,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 16.67,
+   "end": 16.79,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 16.79,
+   "end": 16.97,
+   "type": "word"
+  },
+  {
+   "text": "fácil,",
+   "start": 16.97,
+   "end": 17.27,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 17.27,
+   "end": 17.39,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 17.39,
+   "end": 17.57,
+   "type": "word"
+  },
+  {
+   "text": "fácil",
+   "start": 17.57,
+   "end": 17.73,
+   "type": "word"
+  },
+  {
+   "text": "montar",
+   "start": 17.73,
+   "end": 18.31,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 18.31,
+   "end": 18.45,
+   "type": "word"
+  },
+  {
+   "text": "questão",
+   "start": 18.45,
+   "end": 18.61,
+   "type": "word"
+  },
+  {
+   "text": "da",
+   "start": 18.61,
+   "end": 18.85,
+   "type": "word"
+  },
+  {
+   "text": "logística,",
+   "start": 18.85,
+   "end": 19.33,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 19.53,
+   "end": 19.73,
+   "type": "word"
+  },
+  {
+   "text": "parceiros,",
+   "start": 19.73,
+   "end": 20.21,
+   "type": "word"
+  },
+  {
+   "text": "fornecedor",
+   "start": 20.35,
+   "end": 20.95,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 20.95,
+   "end": 21.13,
+   "type": "word"
+  },
+  {
+   "text": "os",
+   "start": 21.13,
+   "end": 21.45,
+   "type": "word"
+  },
+  {
+   "text": "produtos.",
+   "start": 21.45,
+   "end": 21.97,
+   "type": "word"
+  },
+  {
+   "text": "Então",
+   "start": 22.17,
+   "end": 22.41,
+   "type": "word"
+  },
+  {
+   "text": "sim,",
+   "start": 22.41,
+   "end": 22.65,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 22.75,
+   "end": 22.93,
+   "type": "word"
+  },
+  {
+   "text": "várias",
+   "start": 22.93,
+   "end": 23.31,
+   "type": "word"
+  },
+  {
+   "text": "formas",
+   "start": 23.31,
+   "end": 23.75,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 23.75,
+   "end": 23.99,
+   "type": "word"
+  },
+  {
+   "text": "começar,",
+   "start": 23.99,
+   "end": 24.35,
+   "type": "word"
+  },
+  {
+   "text": "antes",
+   "start": 24.55,
+   "end": 24.77,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 24.77,
+   "end": 24.95,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 24.95,
+   "end": 25.11,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 25.11,
+   "end": 25.23,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 25.23,
+   "end": 25.85,
+   "type": "word"
+  },
+  {
+   "text": "bater",
+   "start": 25.85,
+   "end": 26.11,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 26.11,
+   "end": 26.27,
+   "type": "word"
+  },
+  {
+   "text": "peito",
+   "start": 26.27,
+   "end": 26.37,
+   "type": "word"
+  },
+  {
+   "text": "falando",
+   "start": 26.37,
+   "end": 26.53,
+   "type": "word"
+  },
+  {
+   "text": "Começa,",
+   "start": 27.75,
+   "end": 28.07,
+   "type": "word"
+  },
+  {
+   "text": "começa",
+   "start": 28.07,
+   "end": 28.35,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 28.35,
+   "end": 28.47,
+   "type": "word"
+  },
+  {
+   "text": "entra",
+   "start": 28.47,
+   "end": 28.59,
+   "type": "word"
+  },
+  {
+   "text": "empreendendo,",
+   "start": 28.59,
+   "end": 29.25,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 29.41,
+   "end": 29.45,
+   "type": "word"
+  },
+  {
+   "text": "quer",
+   "start": 29.45,
+   "end": 29.55,
+   "type": "word"
+  },
+  {
+   "text": "montar",
+   "start": 29.55,
+   "end": 29.81,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 29.81,
+   "end": 30.01,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 30.01,
+   "end": 30.03,
+   "type": "word"
+  },
+  {
+   "text": "-commerce?",
+   "start": 30.03,
+   "end": 30.31,
+   "type": "word"
+  },
+  {
+   "text": "Começa",
+   "start": 30.59,
+   "end": 30.71,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 30.71,
+   "end": 30.85,
+   "type": "word"
+  },
+  {
+   "text": "dropship,",
+   "start": 30.85,
+   "end": 31.71,
+   "type": "word"
+  },
+  {
+   "text": "começa",
+   "start": 32.13,
+   "end": 32.31,
+   "type": "word"
+  },
+  {
+   "text": "com",
+   "start": 32.31,
+   "end": 32.45,
+   "type": "word"
+  },
+  {
+   "text": "dropship,",
+   "start": 32.45,
+   "end": 32.95,
+   "type": "word"
+  },
+  {
+   "text": "começa",
+   "start": 33.13,
+   "end": 33.39,
+   "type": "word"
+  },
+  {
+   "text": "como",
+   "start": 33.39,
+   "end": 33.79,
+   "type": "word"
+  },
+  {
+   "text": "afiliado,",
+   "start": 33.79,
+   "end": 34.41,
+   "type": "word"
+  },
+  {
+   "text": "sabe,",
+   "start": 34.57,
+   "end": 34.69,
+   "type": "word"
+  },
+  {
+   "text": "afiliado",
+   "start": 34.71,
+   "end": 35.07,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 35.07,
+   "end": 35.23,
+   "type": "word"
+  },
+  {
+   "text": "algum",
+   "start": 35.23,
+   "end": 35.37,
+   "type": "word"
+  },
+  {
+   "text": "produto,",
+   "start": 35.37,
+   "end": 35.83,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 36.25,
+   "end": 36.37,
+   "type": "word"
+  },
+  {
+   "text": "ele",
+   "start": 36.37,
+   "end": 36.45,
+   "type": "word"
+  },
+  {
+   "text": "já",
+   "start": 36.45,
+   "end": 36.59,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 36.59,
+   "end": 36.71,
+   "type": "word"
+  },
+  {
+   "text": "todo",
+   "start": 36.71,
+   "end": 36.97,
+   "type": "word"
+  },
+  {
+   "text": "o",
+   "start": 36.97,
+   "end": 37.05,
+   "type": "word"
+  },
+  {
+   "text": "know",
+   "start": 37.05,
+   "end": 37.21,
+   "type": "word"
+  },
+  {
+   "text": "-how",
+   "start": 37.21,
+   "end": 37.33,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 37.33,
+   "end": 37.49,
+   "type": "word"
+  },
+  {
+   "text": "logística,",
+   "start": 37.49,
+   "end": 37.95,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 38.09,
+   "end": 38.23,
+   "type": "word"
+  },
+  {
+   "text": "entrega,",
+   "start": 38.23,
+   "end": 38.57,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 38.67,
+   "end": 38.81,
+   "type": "word"
+  },
+  {
+   "text": "cobrança,",
+   "start": 38.81,
+   "end": 39.19,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 39.39,
+   "end": 39.51,
+   "type": "word"
+  },
+  {
+   "text": "recebimento,",
+   "start": 39.51,
+   "end": 40.13,
+   "type": "word"
+  },
+  {
+   "text": "começa,",
+   "start": 40.41,
+   "end": 40.71,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 40.81,
+   "end": 40.93,
+   "type": "word"
+  },
+  {
+   "text": "testando,",
+   "start": 40.93,
+   "end": 41.61,
+   "type": "word"
+  },
+  {
+   "text": "vai",
+   "start": 41.81,
+   "end": 41.97,
+   "type": "word"
+  },
+  {
+   "text": "vendo",
+   "start": 41.97,
+   "end": 42.21,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 42.21,
+   "end": 42.37,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 42.37,
+   "end": 42.49,
+   "type": "word"
+  },
+  {
+   "text": "aquilo",
+   "start": 42.49,
+   "end": 42.61,
+   "type": "word"
+  },
+  {
+   "text": "mesmo",
+   "start": 42.61,
+   "end": 42.83,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 42.83,
+   "end": 43.01,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 43.01,
+   "end": 43.31,
+   "type": "word"
+  },
+  {
+   "text": "quer,",
+   "start": 43.31,
+   "end": 43.45,
+   "type": "word"
+  },
+  {
+   "text": "pô,",
+   "start": 43.63,
+   "end": 43.77,
+   "type": "word"
+  },
+  {
+   "text": "legal,",
+   "start": 43.77,
+   "end": 44.03,
+   "type": "word"
+  },
+  {
+   "text": "é",
+   "start": 44.07,
+   "end": 44.15,
+   "type": "word"
+  },
+  {
+   "text": "isso",
+   "start": 44.15,
+   "end": 44.25,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 44.25,
+   "end": 44.31,
+   "type": "word"
+  },
+  {
+   "text": "eu",
+   "start": 44.31,
+   "end": 44.47,
+   "type": "word"
+  },
+  {
+   "text": "quero,",
+   "start": 44.47,
+   "end": 44.61,
+   "type": "word"
+  },
+  {
+   "text": "agora",
+   "start": 44.89,
+   "end": 45.07,
+   "type": "word"
+  },
+  {
+   "text": "sim,",
+   "start": 45.07,
+   "end": 45.21,
+   "type": "word"
+  },
+  {
+   "text": "agora",
+   "start": 45.25,
+   "end": 45.43,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 45.43,
+   "end": 45.57,
+   "type": "word"
+  },
+  {
+   "text": "entra",
+   "start": 45.57,
+   "end": 45.65,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 45.65,
+   "end": 45.85,
+   "type": "word"
+  },
+  {
+   "text": "game,",
+   "start": 45.85,
+   "end": 46.07,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 46.27,
+   "end": 46.35,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 46.35,
+   "end": 46.47,
+   "type": "word"
+  },
+  {
+   "text": "antes",
+   "start": 46.47,
+   "end": 46.57,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 46.57,
+   "end": 46.67,
+   "type": "word"
+  },
+  {
+   "text": "você",
+   "start": 46.67,
+   "end": 46.81,
+   "type": "word"
+  },
+  {
+   "text": "entrar",
+   "start": 46.81,
+   "end": 46.93,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 46.93,
+   "end": 47.09,
+   "type": "word"
+  },
+  {
+   "text": "game,",
+   "start": 47.09,
+   "end": 47.41,
+   "type": "word"
+  },
+  {
+   "text": "procure",
+   "start": 47.61,
+   "end": 47.81,
+   "type": "word"
+  },
+  {
+   "text": "uma",
+   "start": 47.81,
+   "end": 48.09,
+   "type": "word"
+  },
+  {
+   "text": "ajuda,",
+   "start": 48.09,
+   "end": 48.27,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 48.43,
+   "end": 48.57,
+   "type": "word"
+  },
+  {
+   "text": "seja",
+   "start": 48.57,
+   "end": 48.73,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 48.73,
+   "end": 48.91,
+   "type": "word"
+  },
+  {
+   "text": "Sebrae,",
+   "start": 48.91,
+   "end": 49.83,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 50.65,
+   "end": 50.75,
+   "type": "word"
+  },
+  {
+   "text": "seja",
+   "start": 50.75,
+   "end": 50.95,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 50.95,
+   "end": 51.09,
+   "type": "word"
+  },
+  {
+   "text": "Sebrae,",
+   "start": 51.09,
+   "end": 51.43,
+   "type": "word"
+  },
+  {
+   "text": "faça",
+   "start": 51.53,
+   "end": 51.67,
+   "type": "word"
+  },
+  {
+   "text": "um",
+   "start": 51.67,
+   "end": 51.89,
+   "type": "word"
+  },
+  {
+   "text": "curso",
+   "start": 51.89,
+   "end": 52.03,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 52.03,
+   "end": 52.17,
+   "type": "word"
+  },
+  {
+   "text": "Sebrae,",
+   "start": 52.17,
+   "end": 52.85,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 52.93,
+   "end": 53.05,
+   "type": "word"
+  },
+  {
+   "text": "YouTube,",
+   "start": 53.05,
+   "end": 53.51,
+   "type": "word"
+  },
+  {
+   "text": "no",
+   "start": 53.73,
+   "end": 53.85,
+   "type": "word"
+  },
+  {
+   "text": "YouTube",
+   "start": 53.85,
+   "end": 54.11,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 54.11,
+   "end": 54.29,
+   "type": "word"
+  },
+  {
+   "text": "muita",
+   "start": 54.29,
+   "end": 54.51,
+   "type": "word"
+  },
+  {
+   "text": "informação",
+   "start": 54.51,
+   "end": 54.95,
+   "type": "word"
+  },
+  {
+   "text": "boa",
+   "start": 54.95,
+   "end": 55.21,
+   "type": "word"
+  },
+  {
+   "text": "também.",
+   "start": 55.21,
+   "end": 55.49,
+   "type": "word"
+  }
+ ]
+}

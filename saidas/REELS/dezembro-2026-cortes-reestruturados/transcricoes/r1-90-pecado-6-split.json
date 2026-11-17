@@ -1,0 +1,310 @@
+{
+ "words": [
+  {
+   "text": "Mas",
+   "start": 0.0,
+   "end": 0.22,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 0.22,
+   "end": 0.38,
+   "type": "word"
+  },
+  {
+   "text": "mais,",
+   "start": 0.38,
+   "end": 0.88,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 1.18,
+   "end": 1.3,
+   "type": "word"
+  },
+  {
+   "text": "mais,",
+   "start": 1.3,
+   "end": 1.66,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 1.7,
+   "end": 1.8,
+   "type": "word"
+  },
+  {
+   "text": "mais,",
+   "start": 1.8,
+   "end": 2.04,
+   "type": "word"
+  },
+  {
+   "text": "tem",
+   "start": 2.04,
+   "end": 2.14,
+   "type": "word"
+  },
+  {
+   "text": "mais.",
+   "start": 2.14,
+   "end": 2.6,
+   "type": "word"
+  },
+  {
+   "text": "Spirit",
+   "start": 3.3,
+   "end": 3.66,
+   "type": "word"
+  },
+  {
+   "text": "Pain",
+   "start": 3.66,
+   "end": 4.02,
+   "type": "word"
+  },
+  {
+   "text": "Man.",
+   "start": 4.02,
+   "end": 4.44,
+   "type": "word"
+  },
+  {
+   "text": "Que",
+   "start": 4.8,
+   "end": 4.88,
+   "type": "word"
+  },
+  {
+   "text": "nome",
+   "start": 4.88,
+   "end": 5.0,
+   "type": "word"
+  },
+  {
+   "text": "bonito",
+   "start": 5.0,
+   "end": 5.28,
+   "type": "word"
+  },
+  {
+   "text": "né?",
+   "start": 5.28,
+   "end": 5.54,
+   "type": "word"
+  },
+  {
+   "text": "Spirit",
+   "start": 5.82,
+   "end": 6.16,
+   "type": "word"
+  },
+  {
+   "text": "Pain",
+   "start": 6.16,
+   "end": 6.6,
+   "type": "word"
+  },
+  {
+   "text": "Man.",
+   "start": 6.6,
+   "end": 6.98,
+   "type": "word"
+  },
+  {
+   "text": "Por",
+   "start": 7.12,
+   "end": 7.18,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 7.18,
+   "end": 7.24,
+   "type": "word"
+  },
+  {
+   "text": "eles",
+   "start": 7.24,
+   "end": 7.32,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 7.32,
+   "end": 7.42,
+   "type": "word"
+  },
+  {
+   "text": "falaram",
+   "start": 7.42,
+   "end": 7.6,
+   "type": "word"
+  },
+  {
+   "text": "só",
+   "start": 7.6,
+   "end": 7.74,
+   "type": "word"
+  },
+  {
+   "text": "me",
+   "start": 7.74,
+   "end": 7.92,
+   "type": "word"
+  },
+  {
+   "text": "dá",
+   "start": 7.92,
+   "end": 8.0,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 8.0,
+   "end": 8.16,
+   "type": "word"
+  },
+  {
+   "text": "pedaço",
+   "start": 8.16,
+   "end": 8.62,
+   "type": "word"
+  },
+  {
+   "text": "aqui,",
+   "start": 8.62,
+   "end": 8.8,
+   "type": "word"
+  },
+  {
+   "text": "se",
+   "start": 8.92,
+   "end": 9.06,
+   "type": "word"
+  },
+  {
+   "text": "lasque",
+   "start": 9.06,
+   "end": 9.38,
+   "type": "word"
+  },
+  {
+   "text": "pra",
+   "start": 9.38,
+   "end": 9.52,
+   "type": "word"
+  },
+  {
+   "text": "lá,",
+   "start": 9.52,
+   "end": 9.62,
+   "type": "word"
+  },
+  {
+   "text": "me",
+   "start": 10.2,
+   "end": 10.32,
+   "type": "word"
+  },
+  {
+   "text": "dá",
+   "start": 10.32,
+   "end": 10.42,
+   "type": "word"
+  },
+  {
+   "text": "meu",
+   "start": 10.42,
+   "end": 10.54,
+   "type": "word"
+  },
+  {
+   "text": "pedaço",
+   "start": 10.54,
+   "end": 10.96,
+   "type": "word"
+  },
+  {
+   "text": "e",
+   "start": 10.96,
+   "end": 11.16,
+   "type": "word"
+  },
+  {
+   "text": "f***",
+   "start": 11.16,
+   "end": 11.64,
+   "type": "word"
+  },
+  {
+   "text": "man.",
+   "start": 11.64,
+   "end": 12.02,
+   "type": "word"
+  },
+  {
+   "text": "Por",
+   "start": 12.22,
+   "end": 12.3,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 12.3,
+   "end": 12.36,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 12.36,
+   "end": 12.46,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 12.46,
+   "end": 12.6,
+   "type": "word"
+  },
+  {
+   "text": "falaram,",
+   "start": 12.6,
+   "end": 12.82,
+   "type": "word"
+  },
+  {
+   "text": "não",
+   "start": 12.82,
+   "end": 12.98,
+   "type": "word"
+  },
+  {
+   "text": "colocaram",
+   "start": 12.98,
+   "end": 13.26,
+   "type": "word"
+  },
+  {
+   "text": "logo",
+   "start": 13.26,
+   "end": 13.42,
+   "type": "word"
+  },
+  {
+   "text": "esse",
+   "start": 13.42,
+   "end": 13.6,
+   "type": "word"
+  },
+  {
+   "text": "nome?",
+   "start": 13.6,
+   "end": 13.78,
+   "type": "word"
+  }
+ ]
+}
