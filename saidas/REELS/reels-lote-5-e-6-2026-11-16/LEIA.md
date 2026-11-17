@@ -21,6 +21,12 @@ Transcrevi os 10 (faster-whisper local) e conferi cada legenda contra a fala. To
 - **60 · deixa de ser fanfarrão e paga seu imposto**: tem a piada de "pôr mais dois peitos na mulher" e "virar ela de
   costas" e o fim "ela vai arrancar um pedaço de você". Risco de imagem pra quem fala com empresário e médico.
 
+**Versões cortadas pra ele ver (16/11, a pedido dele: "deixa eles sob aviso, fora da programação"):** `copys-segurados.json`,
+vídeos `videos/segurado-58-...-CORTADO.mp4` (1 min 28 s) e `segurado-60-...-CORTADO.mp4` (37 s), com a headline.
+58: saíram as três falas de suicídio, a Deolane, a constituição longa, o "mar de rosa", o segredo de justiça e o
+"arroz e ovo"; termina em "eu tenho um Deus que olha por mim". 60: saíram "põe peito na mulher", a piada dos dois
+peitos e o fim do "arrancar um pedaço". **Nada agendado** até ele aprovar.
+
 ## A grade (decisão dele em 16/11)
 
 YouTube e TikTok com 5 por dia, LinkedIn 1 por dia útil (ele aceitou a recomendação; pediu 5), X 5 por dia (pedido dele
