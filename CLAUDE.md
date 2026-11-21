@@ -165,7 +165,10 @@ uma história, um jeito de falar — **guardar** no arquivo certo de `_memoria/`
 - `saidas/` — todo conteúdo gerado, em subpastas: `CARROSSEIS/`, `REELS/`,
   `CARDS/`, `NEGOCIOS-E-MARCA/`, `EVENTOS-E-PALESTRAS/`, `LIVROS-E-EBOOKS/`,
   `MATERIAL-TECNICO/`, `POSTS-AVULSOS/` e `VIDEOS/`. Duas com sublinhado são de controle:
-  `_CONTROLE/` (triagens, inventários e a grade de séries) e `_capas/` (capas prontas)
+  `_CONTROLE/` (triagens, inventários e a grade de séries) e `_capas/` (capas prontas).
+  Dentro de `NEGOCIOS-E-MARCA/` fica a `Experts do GSena/`: o material dos sócios, parceiros e experts dele
+  (mídia kit, brand book, logo), uma subpasta por pessoa, com a `FICHA-DO-EXPERT` (modelo de perguntas e
+  materiais). Projeto de parceria ainda não conversada ou com dado sensível fica só no notebook (gitignore).
 - `.claude/skills/` — `carrossel`, `conversar`, `ideias`, `reels`, `salvar`, `tendencias`, a `pericia-bancaria`,
   o `slide-interativo` e a `apresentacao-ecossistema`
 - `scripts/` — utilitários (ex.: extrair texto de PDF, recortar fundo de foto, trocar travessão de efeito por pontuação, e
