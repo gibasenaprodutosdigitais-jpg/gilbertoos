@@ -1,0 +1,73 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ficha do Expert · preencher</title>
+<style>
+:root{--paper:#F5F3EE;--ink:#20242A;--soft:#5E636B;--accent:#2E6A5E;--line:#D3CEC4;--areia:#EDE9E0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#E7E3DA;font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;color:var(--ink);line-height:1.5}
+.wrap{max-width:800px;margin:0 auto;background:var(--paper);padding:34px 40px 60px}
+h1{font-family:"Baskerville","Hoefler Text",Georgia,serif;font-size:34px;line-height:1.05;font-weight:600}
+.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.intro{background:var(--areia);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:16px 0 8px;font-size:14px;color:#3C4149}
+.sec{margin-top:26px}
+.sec-tit{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.sec-tit .sn{font-family:"Baskerville",serif;font-size:22px;color:var(--accent)}
+.sec-tit h2{font-size:18px;font-weight:600}
+.sec-tit .rule{flex:1;height:1px;background:var(--line)}
+.q{margin-bottom:15px}
+.q label{display:block;font-size:14.5px;margin-bottom:6px}
+.q .qn{color:var(--accent);font-weight:700;margin-right:4px}
+input[type=text],textarea{width:100%;border:1px solid var(--line);border-radius:8px;background:#fff;
+  font:inherit;font-size:14.5px;color:var(--ink);padding:9px 11px;resize:vertical}
+input[type=text]:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px rgba(46,106,94,.14)}
+.ck{display:flex;gap:10px;align-items:flex-start;margin-bottom:10px;font-size:14.5px;cursor:pointer}
+.ck input{margin-top:3px;width:17px;height:17px;accent-color:var(--accent);flex:0 0 auto}
+.bar{position:sticky;top:0;z-index:5;background:var(--ink);margin:-34px -40px 0;padding:14px 40px;
+  display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.bar .t{color:#fff;font-size:13px;margin-right:auto;letter-spacing:.02em}
+.btn{border:0;border-radius:8px;padding:10px 16px;font:inherit;font-size:13.5px;font-weight:600;cursor:pointer}
+.btn.p{background:var(--accent);color:#fff}
+.btn.s{background:#3A4049;color:#fff}
+.foot{margin-top:26px;background:var(--areia);border:1px solid var(--line);border-radius:10px;padding:16px 18px;font-size:14px;color:#3C4149}
+@media print{
+  body{background:#fff} .wrap{max-width:none;padding:0 6mm}
+  .bar{display:none} input[type=text],textarea{border:0;border-bottom:1px solid #bbb;border-radius:0}
+  .q{break-inside:avoid}
+}
+@media (max-width:560px){.wrap{padding:26px 18px 48px} .bar{margin:-26px -18px 0;padding:12px 18px}}
+</style></head><body>
+<div class="wrap">
+  <div class="bar">
+    <span class="t">Ficha do Expert · preencha e envie de volta</span>
+    <button class="btn s" onclick="baixar()">Baixar minhas respostas</button>
+    <button class="btn p" onclick="window.print()">Imprimir / Salvar em PDF</button>
+  </div>
+  <div style="margin-top:22px">
+    <p class="eyebrow">Experts do GSena</p>
+    <h1>Ficha do Expert</h1>
+  </div>
+  <div class="intro">Preencha os campos na tela. Quando terminar, clique em <b>Baixar minhas respostas</b> (gera um
+    arquivo de texto) ou em <b>Imprimir / Salvar em PDF</b> e mande de volta. Pode responder só o que souber; o que
+    faltar a gente completa depois. Regra da casa: só entra no material o que tem fonte ou comprovante.</div>
+  <div class="sec"><div class="sec-tit"><span class="sn">1</span><h2>Quem você é</h2><span class="rule"></span></div><div class="q"><label><span class="qn">1.</span> Nome completo e como quer ser chamado(a) na marca</label><input data-q="Nome completo e como quer ser chamado(a) na marca" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">2.</span> Profissão e títulos: como você se apresenta</label><input data-q="Profissão e títulos: como você se apresenta" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">3.</span> Formação: faculdades, pós, cursos e registros de conselho</label><textarea data-q="Formação: faculdades, pós, cursos e registros de conselho" rows="2" placeholder="Escreva aqui..."></textarea></div><div class="q"><label><span class="qn">4.</span> Cidade e região onde você atua</label><input data-q="Cidade e região onde você atua" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">5.</span> Em uma frase: o que você entrega para quem te procura</label><input data-q="Em uma frase: o que você entrega para quem te procura" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">6.</span> Sua história em poucas linhas: o que te trouxe até aqui</label><textarea data-q="Sua história em poucas linhas: o que te trouxe até aqui" rows="2" placeholder="Escreva aqui..."></textarea></div></div><div class="sec"><div class="sec-tit"><span class="sn">2</span><h2>A sua marca e os conteúdos</h2><span class="rule"></span></div><div class="q"><label><span class="qn">7.</span> Nomes de marca, produtos, programas, livro, podcast, comunidade e eventos</label><textarea data-q="Nomes de marca, produtos, programas, livro, podcast, comunidade e eventos" rows="2" placeholder="Escreva aqui..."></textarea></div><div class="q"><label><span class="qn">8.</span> Os temas que você trata</label><input data-q="Os temas que você trata" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">9.</span> A sua bandeira: o que você quer que fique na cabeça de quem te conhece</label><input data-q="A sua bandeira: o que você quer que fique na cabeça de quem te conhece" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">10.</span> Três a cinco palavras que são a sua marca (os seus valores)</label><input data-q="Três a cinco palavras que são a sua marca (os seus valores)" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">11.</span> Como você fala: mais acolhedor, direto ou técnico? Dê um exemplo de frase sua</label><textarea data-q="Como você fala: mais acolhedor, direto ou técnico? Dê um exemplo de frase sua" rows="2" placeholder="Escreva aqui..."></textarea></div><div class="q"><label><span class="qn">12.</span> O que você NÃO quer que a sua marca pareça</label><input data-q="O que você NÃO quer que a sua marca pareça" type="text" placeholder="Escreva aqui..."></div></div><div class="sec"><div class="sec-tit"><span class="sn">3</span><h2>Para quem você fala</h2><span class="rule"></span></div><div class="q"><label><span class="qn">13.</span> Quem é o seu público: idade, gênero e perfil</label><input data-q="Quem é o seu público: idade, gênero e perfil" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">14.</span> De onde eles são: cidades e regiões</label><input data-q="De onde eles são: cidades e regiões" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">15.</span> O que eles buscam em você</label><input data-q="O que eles buscam em você" type="text" placeholder="Escreva aqui..."></div></div><div class="sec"><div class="sec-tit"><span class="sn">4</span><h2>Os seus números</h2><span class="rule"></span></div><div class="q"><label><span class="qn">16.</span> Instagram: o @ e o número de seguidores</label><input data-q="Instagram: o @ e o número de seguidores" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">17.</span> Alcance médio por mês (aba de informações do perfil profissional)</label><input data-q="Alcance médio por mês (aba de informações do perfil profissional)" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">18.</span> Outras redes, podcast e YouTube, com os números de cada um</label><textarea data-q="Outras redes, podcast e YouTube, com os números de cada um" rows="2" placeholder="Escreva aqui..."></textarea></div><div class="q"><label><span class="qn">19.</span> Tamanho da sua comunidade ou lista</label><input data-q="Tamanho da sua comunidade ou lista" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">20.</span> Quantas pessoas já passaram pelos seus programas, mentorias e palestras</label><input data-q="Quantas pessoas já passaram pelos seus programas, mentorias e palestras" type="text" placeholder="Escreva aqui..."></div></div><div class="sec"><div class="sec-tit"><span class="sn">5</span><h2>Reconhecimentos</h2><span class="rule"></span></div><div class="q"><label><span class="qn">21.</span> Prêmios, títulos, participações e mídia — com o comprovante de cada um (certificado, foto ou link)</label><textarea data-q="Prêmios, títulos, participações e mídia — com o comprovante de cada um (certificado, foto ou link)" rows="2" placeholder="Escreva aqui..."></textarea></div></div><div class="sec"><div class="sec-tit"><span class="sn">6</span><h2>Parcerias e comercial</h2><span class="rule"></span></div><div class="q"><label><span class="qn">22.</span> Formatos que você oferece: palestra, mentoria, publi, imersão, patrocínio</label><input data-q="Formatos que você oferece: palestra, mentoria, publi, imersão, patrocínio" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">23.</span> Faixas de valor ou como você cobra (fica interno, se quiser)</label><input data-q="Faixas de valor ou como você cobra (fica interno, se quiser)" type="text" placeholder="Escreva aqui..."></div><div class="q"><label><span class="qn">24.</span> Contato comercial: e-mail, WhatsApp e assessoria</label><input data-q="Contato comercial: e-mail, WhatsApp e assessoria" type="text" placeholder="Escreva aqui..."></div></div>
+  <div class="sec"><div class="sec-tit"><h2 style="color:var(--accent)">Materiais para enviar</h2><span class="rule"></span></div>
+    <label class="ck"><input type="checkbox" data-c="3 a 5 fotos profissionais em alta (verticais, rosto e palco, fundo limpo, sem marca d&#x27;água, lado maior a partir de 2000 px)"><span>3 a 5 fotos profissionais em alta (verticais, rosto e palco, fundo limpo, sem marca d&#x27;água, lado maior a partir de 2000 px)</span></label><label class="ck"><input type="checkbox" data-c="Logo oficial em vetor (.ai, .svg ou .pdf) ou PNG com fundo transparente"><span>Logo oficial em vetor (.ai, .svg ou .pdf) ou PNG com fundo transparente</span></label><label class="ck"><input type="checkbox" data-c="Cores e fontes da marca, se já existirem"><span>Cores e fontes da marca, se já existirem</span></label><label class="ck"><input type="checkbox" data-c="Comprovantes dos prêmios e reconhecimentos"><span>Comprovantes dos prêmios e reconhecimentos</span></label><label class="ck"><input type="checkbox" data-c="Links: Instagram, site, podcast, página do livro, LinkedIn"><span>Links: Instagram, site, podcast, página do livro, LinkedIn</span></label><label class="ck"><input type="checkbox" data-c="Prints dos números do Instagram (seguidores, alcance, público)"><span>Prints dos números do Instagram (seguidores, alcance, público)</span></label>
+  </div>
+  <div class="foot"><b>Como enviar:</b> junte os materiais numa pasta (Google Drive, WeTransfer) e mande o link,
+    ou envie no WhatsApp. No fim, você recebe o seu mídia kit e o seu brand book.</div>
+</div>
+<script>
+function baixar(){
+  let L=["FICHA DO EXPERT — RESPOSTAS","================================",""];
+  document.querySelectorAll("[data-q]").forEach(function(el){
+    L.push(el.getAttribute("data-q")); L.push("R: "+(el.value||"").trim()); L.push("");
+  });
+  L.push("MATERIAIS:");
+  document.querySelectorAll("[data-c]").forEach(function(el){
+    L.push((el.checked?"[x] ":"[ ] ")+el.getAttribute("data-c"));
+  });
+  let blob=new Blob([L.join("\n")],{type:"text/plain;charset=utf-8"});
+  let a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+  a.download="ficha-do-expert-respostas.txt"; a.click();
+}
+</script></body></html>
