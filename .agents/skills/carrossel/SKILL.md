@@ -90,6 +90,9 @@ saidas/carrossel-<tema>-<AAAA-MM-DD>/
 
 ## Regras
 
+- **Nunca "Me chama no direct"**, nem no slide final nem na legenda (pedido dele, 16/out/2026).
+  O último slide fecha com a ideia da peça, sem botão de chamada.
+
 - 1080x1350 (4:5) sempre
 - Autoridade > enfeite. Se ficou com cara de coach, refazer.
 - Nunca inventar fato técnico — checar `conhecimento/` ou perguntar ao Gilberto

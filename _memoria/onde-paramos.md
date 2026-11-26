@@ -1,6 +1,6 @@
 # Onde paramos
 
-> Estado das frentes abertas. **Atualizado em 21/nov/2026.**
+> Estado das frentes abertas. **Atualizado em 26/nov/2026.**
 >
 > Este arquivo existe para a conversa nova começar sabendo o que já foi
 > decidido, sem o Gilberto repetir nada. **Ler no início de toda sessão**, e
@@ -11,6 +11,11 @@
 ---
 
 ## O primeiro ato da próxima sessão
+
+**🔴 26/nov: a Zernio está PAUSADA por falta de pagamento** ("Account paused: payment required"). Nada publica e
+nem a fila dá pra ler. Ele notou de manhã que os posts de hoje não saíram. Em 24/nov a fila estava em dia (tudo de 22 a
+24/11 publicado, 5 redes conectadas, sem falha nova). **Assim que ele pagar:** conferir o que deixou de sair (25/11?
+26/11), decidir com ele se republica ou pula, e ver se a fila de dezembro continua lá.
 
 **A fila em 16/nov (noite): grade nova, decisão dele.** YouTube e TikTok com **5 por dia**, X (`@gilbertosenaofc`) com
 **5 por dia**, LinkedIn com **1 por dia útil** (ele pediu 5; aceitou 1 pela minha recomendação). Tudo coberto **até
@@ -32,7 +37,7 @@ na Zernio, sem data, porque os mesmos vídeos já se repetem em outros dias. Reg
 
 | Frente | Onde está | O que falta |
 |---|---|---|
-| **Assessoria AME** (desde 8/nov; a imersão de 14 e 15/nov foi **cancelada**) | ficha de interesse em assessoria-ame.vercel.app; os 16 reels sem a imersão agendados nas três redes; lives toda quarta no @stanleybittar | ele trocar o link da bio; rever pra assessoria os contratos do Choque de Ordem e da Escala Blindada; advogado conferir as regras CFM/CFO; logo original |
+| **Assessoria AME** (desde 8/nov; a imersão de 14 e 15/nov foi **cancelada**) | ficha de interesse em assessoria-ame.vercel.app; os 16 reels sem a imersão saíram nas três redes (o último no TikTok em 24/11); lives toda quarta no @stanleybittar | ele trocar o link da bio; rever pra assessoria os contratos do Choque de Ordem e da Escala Blindada; advogado conferir as regras CFM/CFO; logo original |
 | **Fila do Instagram** | Provérbios até 30/11, frase do dia até 30/11 (foto nova de terno desde 8/11), carrossel até 30/11, reels das 12h até 13/12 (os 8 novos de 4 a 11/12, o 58 e o 60 em 12 e 13/12) | carrosséis de 17 a 30/11 agendados em 12/nov (no tema do reel do dia), com a marca d'água da Business Advisor Consult desde 12/nov; dezembro: carrossel, foto do Provérbios e frases |
 | **YouTube, TikTok, X e LinkedIn** (grade de 16/11) | 5 por dia no YouTube, TikTok e X; 1 por dia útil no LinkedIn; tudo até **30/11** (ver `saidas/REELS/reels-lote-5-e-6-2026-11-16/LEIA.md`) | vídeos de dezembro agendados em 17/nov até 21/12 (YouTube e X até 22/12, TikTok até 23/12, LinkedIn até 31/12; ver `saidas/REELS/dezembro-2026-cortes-reestruturados/LEIA.md`); faltam Provérbios e frase de dezembro e os vídeos de 23/12 em diante |
 | **Caixinhas do Instagram** (reforma por atividade; gestão e dinheiro) | 2 prontas em `saidas/POSTS-AVULSOS/`, 12 perguntas e respostas cada, com texto de chamada e título da figurinha; roteiro interativo em https://claude.ai/artifact/EkQXdnEcyZDr1PGaLtCam6 (31/out) | ele publicar, uma caixinha por dia, e responder as perguntas reais usando o roteiro |
@@ -331,8 +336,8 @@ Saem **todo dia às 5h**.
 o dia N é o capítulo N de Provérbios), a foto de gola alta e as 31 legendas novas, aprovadas por ele. IDs em
 `saidas/CARDS/cards-frases-proverbios-31/agendados-2026-11.md`. O conjunto de outubro ficou em `frases-2026-10.json`
 e `legendas-2026-10.json`. A foto de outubro e a de novembro já não podem voltar.
-- **Pra dezembro:** pedir a foto nova por volta do dia 25/11 (as fotos do leão e do xadrez estão guardadas, mas a do
-  xadrez repete a pose de outubro) e perguntar se ele manda frases novas ou se repete o conjunto de novembro.
+- **Pra dezembro:** ele vai mandar uma foto nova (palavra dele, 26/nov; não usar a do leão nem a do xadrez). Falta
+  perguntar se ele manda frases novas ou se repete o conjunto de novembro.
 
 ### Onde cada coisa pode ir
 
