@@ -12,10 +12,10 @@
 
 ## O primeiro ato da próxima sessão
 
-**🔴 26/nov: a Zernio está PAUSADA por falta de pagamento** ("Account paused: payment required"). Nada publica e
-nem a fila dá pra ler. Ele notou de manhã que os posts de hoje não saíram. Em 24/nov a fila estava em dia (tudo de 22 a
-24/11 publicado, 5 redes conectadas, sem falha nova). **Assim que ele pagar:** conferir o que deixou de sair (25/11?
-26/11), decidir com ele se republica ou pula, e ver se a fila de dezembro continua lá.
+**26/nov: a Zernio ficou pausada por falta de pagamento de manhã e voltou à noite.** Conferido às 18h50: os posts
+de 26/11 saíram (frase do dia das 9h e carrossel das 18h), as 5 redes estão conectadas, sem falha nova (só a antiga do
+Vivaldi, decidida) e a fila de dezembro continua lá (agendado até 22/12). Ele não postou nada à mão, então não há
+duplicado no Instagram.
 
 **A fila em 16/nov (noite): grade nova, decisão dele.** YouTube e TikTok com **5 por dia**, X (`@gilbertosenaofc`) com
 **5 por dia**, LinkedIn com **1 por dia útil** (ele pediu 5; aceitou 1 pela minha recomendação). Tudo coberto **até
